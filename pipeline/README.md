@@ -42,3 +42,14 @@ skipped, so re-running after a future election only pulls new rows.
   `<chamber>_acs5_<year>.parquet` to `--out-dir` (default
   `data/raw/demographics`). PL 94-171 only covers the current
   (2022-present) vintage — see the module docstring for why.
+
+- `python -m ma_politics.fetch.campaign_finance --year-from 2002 --year-to 2024`
+  Campaign finance from OCPF's public bulk export (no scraping, no key).
+  Report/record-type handling (which report types double-count periodic
+  totals, gross-vs-net amounts) is ported from and credited to Code for
+  Boston's MAPLE project — see the module docstring. Writes `filers.parquet`
+  (the full OCPF filer roster, all offices, active and closed) and
+  `finance_summary.parquet` (total raised/spent per `cpf_id` per year) to
+  `--out-dir` (default `data/raw/ocpf`). Verified live against 2024 data
+  (10,162 filers, 2,012 with finance activity) and cross-checked against
+  MAPLE's own validated example. Idempotent per year.
