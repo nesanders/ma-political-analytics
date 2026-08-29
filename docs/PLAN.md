@@ -278,12 +278,27 @@ calls come from each end user's own browser, not from this container.
 
 **Data sources (required to run `/pipeline` scripts):**
 - `electionstats.state.ma.us` — PD43+ election results
-- `www.mass.gov` — MassGIS dataset landing/metadata pages
-- `gis.data.mass.gov` — MassGIS Data Hub (shapefile downloads)
-- `maps-massgis.opendata.arcgis.com` and `geo-massdot.opendata.arcgis.com` —
-  MassGIS ArcGIS Online open data (shapefile/GeoJSON downloads)
-- `arcgisserver.digital.mass.gov` — MassGIS ArcGIS REST services (query
-  endpoint alternative to the open-data downloads)
+- `www.mass.gov` — reachable, but its MassGIS dataset *pages* 403 every
+  request regardless of allowlisting (Akamai bot-blocking, not our proxy) —
+  don't rely on it as a fetch source, landing-page links only.
+- `gis.data.mass.gov`, `maps-massgis.opendata.arcgis.com`,
+  `geo-massdot.opendata.arcgis.com` — reachable for the HTML item pages, but
+  **every actual download click on all three redirects to `hub.arcgis.com`**
+  (confirmed live: `.../datasets/{id}_0.geojson` 302s to
+  `hub.arcgis.com/api/download/v1/items/...`) — this is how the ArcGIS Hub
+  product works regardless of which branded domain fronts it, not something
+  a different MassGIS host works around. **Still needed: `hub.arcgis.com`**
+  (and likely `www.arcgis.com` and `*.arcgis.com` service hosts — Esri
+  shards feature services across per-org subdomains, so a single added host
+  may not be enough; a wildcard is safer if your policy tooling supports
+  one) for the shapefile bytes themselves.
+- `arcgisserver.digital.mass.gov` — MassGIS's *self-hosted* ArcGIS Server
+  (`AGOL/Mass_Legis_Districts/MapServer`), independent of Esri's Hub/cloud
+  infrastructure — confirmed still blocked (403 at the container network
+  policy) even after the other domains were added. **This is the better
+  long-term source** if it can be allowlisted: one host, no redirect chain
+  through Esri's shared cloud, so no `hub.arcgis.com`/`*.arcgis.com`
+  dependency at all.
 - `api.census.gov` — Census API (PL 94-171 redistricting data, ACS)
 - `www2.census.gov` — Census bulk downloads (TIGER/Line, redistricting data
   files)
