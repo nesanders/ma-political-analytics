@@ -299,9 +299,18 @@ calls come from each end user's own browser, not from this container.
   long-term source** if it can be allowlisted: one host, no redirect chain
   through Esri's shared cloud, so no `hub.arcgis.com`/`*.arcgis.com`
   dependency at all.
-- `api.census.gov` — Census API (PL 94-171 redistricting data, ACS)
-- `www2.census.gov` — Census bulk downloads (TIGER/Line, redistricting data
-  files)
+- `api.census.gov` — Census API (PL 94-171 redistricting data, ACS). Domain
+  is reachable, but **the API now rejects every request without a key**,
+  confirmed live — even trivial ones. Free, instant signup at
+  https://api.census.gov/data/key_signup.html; set the result as
+  `CENSUS_API_KEY` (a GitHub Actions secret for CI runs). This needs you
+  specifically, not something addable by network policy.
+- `www2.census.gov` — Census bulk downloads (TIGER/Line). No key needed —
+  confirmed live, and ended up solving district boundaries too (see below):
+  TIGER/Line publishes the same SLDU/SLDL district shapefiles MassGIS does,
+  as plain zip downloads, no ArcGIS dependency. Verified for the 2012 and
+  2022 vintages; the 2001 vintage isn't available in this per-state zip
+  form pre-2012 and needs more digging (or MassGIS, once unblocked).
 - `ocpf2.blob.core.windows.net` — OCPF bulk campaign finance data (Azure
   Blob Storage, no auth)
 - `raw.githubusercontent.com` and `objects.githubusercontent.com` — MEDSL/

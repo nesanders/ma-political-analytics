@@ -30,3 +30,15 @@ skipped, so re-running after a future election only pulls new rows.
   (default `data/raw/boundaries`). Only the 2012-2020 and 2022-present
   vintages are wired up; the 2001 vintage (2002-2010) isn't yet — see the
   module docstring and `docs/PLAN.md`'s network appendix.
+
+- `CENSUS_API_KEY=... python -m ma_politics.fetch.demographics --chamber both --acs-year 2022`
+  District-level demographics (PL 94-171 total/voting-age population, ACS
+  5-year income/education) from the Census API. **Requires a free API key**
+  (https://api.census.gov/data/key_signup.html) — the API rejects every
+  request without one now. Written against the API's stable, documented
+  format but not yet exercised against a live response (no key available
+  in the environment this was built in) — verify against a small request
+  before trusting a full run. Writes `<chamber>_pl94_171.parquet` and
+  `<chamber>_acs5_<year>.parquet` to `--out-dir` (default
+  `data/raw/demographics`). PL 94-171 only covers the current
+  (2022-present) vintage — see the module docstring for why.
