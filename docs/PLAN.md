@@ -5,10 +5,6 @@ state-level races (House of Representatives + Senate): a stat-dense,
 methodology-transparent presentation layer with a headline metric per
 candidate, sortable leaderboards, and full click-through between entities.
 
-> **Note:** by request, no code or page text in this project names or credits
-> specific third-party sites as design inspiration. Stylistic direction below
-> is described in its own terms.
-
 ## 1. Goals & Scope
 
 - All MA state legislative seats (160 House districts, 40 Senate districts),
