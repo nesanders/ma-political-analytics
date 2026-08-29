@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
+
+# Jekyll 4 on Ruby 3.x needs these explicitly; github-pages gem is
+# intentionally NOT used here since it pins an older Jekyll and forbids
+# custom plugins — we build via our own GitHub Actions workflow instead.
+gem "webrick", "~> 1.8"

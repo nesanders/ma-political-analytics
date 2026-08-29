@@ -1,0 +1,16 @@
+/* Placeholder stylesheet — full theme design is a later phase (see docs/PLAN.md §11). */
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+header nav a {
+  margin-right: 1rem;
+}
