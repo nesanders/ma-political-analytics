@@ -4,26 +4,32 @@ Primary source: Census TIGER/Line, not MassGIS. Verified live (2026-08):
 MassGIS's own branded open-data hosts (gis.data.mass.gov,
 maps-massgis.opendata.arcgis.com, geo-massdot.opendata.arcgis.com) render
 item pages fine but redirect every actual download through hub.arcgis.com
-regardless of which domain fronts them (an ArcGIS Hub product behavior) —
-and MassGIS's self-hosted ArcGIS Server (arcgisserver.digital.mass.gov) was
-also unreachable from this environment. See docs/PLAN.md's network appendix
-for what's needed if you want to add MassGIS as a source later (it's the
-more authoritative one for fine boundary detail).
+regardless of which domain fronts them (an ArcGIS Hub product behavior).
+Once hub.arcgis.com and MassGIS's self-hosted ArcGIS Server
+(arcgisserver.digital.mass.gov) were both allowlisted, a further problem
+turned up: neither one's live catalog carries the 2001 vintage any more —
+it's been retired, not just hard to reach — only the 2012 and 2022
+vintages are still live there (which TIGER already covers below anyway).
 
 TIGER/Line state legislative district shapefiles (SLDU = upper chamber =
-Senate, SLDL = lower chamber = House), by contrast, download directly with
-no auth and no redirect chain: https://www2.census.gov/geo/tiger/TIGER{year}/
-SLD{U,L}/tl_{year}_25_sld{u,l}.zip (25 = MA's FIPS code). Confirmed live for
-the 2012 vintage (used 2012-2020) and the 2022 vintage (used 2022-present).
+Senate, SLDL = lower chamber = House) download directly with no auth and no
+redirect chain: https://www2.census.gov/geo/tiger/TIGER{year}/SLD{U,L}/
+tl_{year}_25_sld{u,l}.zip (25 = MA's FIPS code). Confirmed live for the 2012
+vintage (used 2012-2020) and the 2022 vintage (used 2022-present).
 
 The 2001 vintage (used 2002-2010) is NOT yet wired up here: TIGER's
 per-state SLDU/SLDL zip pattern only starts around TIGER2012 (TIGER2010/2011
-directories exist but were empty for every state when checked, and TIGER
-didn't publish standalone state-legislative-district shapefiles the same
-way before then) — getting the 2001 vintage will need either MassGIS access
-(once unblocked) or tracking down the pre-2012 Census 2000-era TIGER format.
-Calling fetch_vintage("2001") raises NotImplementedError rather than
-silently returning nothing.
+directories exist but were empty for every state when checked). The actual
+2001-vintage boundaries were tracked down to MIT Libraries' GeoData
+Repository, which archives them after MassGIS retired the live copies:
+Senate at https://geodata.libraries.mit.edu/record/gismit:MASENATEDIST02
+("Senate Districts Massachusetts 2002 ... 40 districts used in the Fall
+2002 elections") and House at
+https://geodata.libraries.mit.edu/record/gisogm:edu.harvard:b07d39bbd8fe
+(Harvard-sourced, mirrored on the same MIT portal). geodata.libraries.mit.edu
+isn't allowlisted yet — see docs/PLAN.md's network appendix. Calling
+fetch_vintage("2001") raises NotImplementedError rather than silently
+returning nothing.
 """
 
 from __future__ import annotations
@@ -63,10 +69,13 @@ def _tiger_url(year: int, chamber: str) -> str:
 def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Path:
     if vintage not in VINTAGES:
         raise NotImplementedError(
-            f"No TIGER source wired up yet for vintage {vintage!r}. "
-            "See this module's docstring — needs either MassGIS access "
-            "(blocked pending hub.arcgis.com/arcgisserver.digital.mass.gov "
-            "allowlisting) or the pre-2012 TIGER format."
+            f"No TIGER source for vintage {vintage!r} — TIGER's per-state "
+            "SLD zip pattern doesn't reach back to the 2001 vintage. See "
+            "this module's docstring: the actual boundaries live at MIT "
+            "Libraries' GeoData Repository "
+            "(geodata.libraries.mit.edu/record/gismit:MASENATEDIST02 for "
+            "Senate, .../record/gisogm:edu.harvard:b07d39bbd8fe for House), "
+            "not yet wired up here and not yet allowlisted."
         )
     session = session or make_session(min_interval_s=0.5)
     year = VINTAGES[vintage]

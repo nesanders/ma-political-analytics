@@ -292,13 +292,22 @@ calls come from each end user's own browser, not from this container.
   shards feature services across per-org subdomains, so a single added host
   may not be enough; a wildcard is safer if your policy tooling supports
   one) for the shapefile bytes themselves.
-- `arcgisserver.digital.mass.gov` — MassGIS's *self-hosted* ArcGIS Server
-  (`AGOL/Mass_Legis_Districts/MapServer`), independent of Esri's Hub/cloud
-  infrastructure — confirmed still blocked (403 at the container network
-  policy) even after the other domains were added. **This is the better
-  long-term source** if it can be allowlisted: one host, no redirect chain
-  through Esri's shared cloud, so no `hub.arcgis.com`/`*.arcgis.com`
-  dependency at all.
+- `arcgisserver.digital.mass.gov` and `hub.arcgis.com` — now reachable (both
+  added). But live exploration turned up a real dead end, not just a
+  network issue: **MassGIS's live catalog (both the self-hosted ArcGIS
+  Server and the ArcGIS Hub search) no longer lists the 2001 vintage at
+  all** — only 2012 and 2021 show up (confirmed via
+  `AGOL/Legislative_Districts` on the self-hosted server and a
+  `hub.arcgis.com` dataset search); it's been retired from both live
+  catalogs, not just hard to find.
+- `geodata.libraries.mit.edu` — **still needed, and now the actual target**:
+  MIT Libraries' GeoData Repository hosts the missing 2001-vintage
+  boundaries as an archival shapefile — confirmed both exist there:
+  Senate at `gismit:MASENATEDIST02` ("Senate Districts Massachusetts 2002
+  ... 40 districts used in the Fall 2002 elections"), House at
+  `gisogm:edu.harvard:b07d39bbd8fe` (Harvard-sourced, mirrored on the same
+  MIT portal). This is genuinely the last domain needed to close out
+  district boundaries for all three vintages.
 - `api.census.gov` — Census API (PL 94-171 redistricting data, ACS). Domain
   is reachable, but **the API now rejects every request without a key**,
   confirmed live — even trivial ones. Free, instant signup at
