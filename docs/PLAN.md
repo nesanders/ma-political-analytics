@@ -294,9 +294,7 @@ calls come from each end user's own browser, not from this container.
   (`github.com` itself already appears reachable from this session)
 - `en.wikipedia.org` — candidate bio enrichment
 - `ballotpedia.org` — candidate bio enrichment
-- `malegislature.gov` — current member directory (as a data source only,
-  per §2 — see the note at the top of this document on why the site is
-  never named as design inspiration)
+- `malegislature.gov` — current member directory
 
 **Toolchain (required to install dependencies / build the site):**
 - `registry.npmjs.org` — npm packages (AI SDK, Vega-Lite, MapLibre GL JS,
