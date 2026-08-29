@@ -23,3 +23,10 @@ skipped, so re-running after a future election only pulls new rows.
   Polite by default (0.5s min spacing between requests, retries with
   backoff); a full multi-decade backfill across both chambers is thousands
   of requests and will take a while — run it in the background.
+
+- `python -m ma_politics.fetch.district_boundaries --chamber both --vintage all`
+  District boundaries from Census TIGER/Line (not MassGIS — see the module
+  docstring for why). Writes `<chamber>_<vintage>.geoparquet` to `--out-dir`
+  (default `data/raw/boundaries`). Only the 2012-2020 and 2022-present
+  vintages are wired up; the 2001 vintage (2002-2010) isn't yet — see the
+  module docstring and `docs/PLAN.md`'s network appendix.
