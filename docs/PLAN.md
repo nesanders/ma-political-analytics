@@ -1,17 +1,13 @@
 # MA Political Analytics Dashboard — Design Plan
 
 A static, zero-cost, GitHub Pages–hosted analytics site covering Massachusetts
-state-level races (House of Representatives + Senate), inspired by
-malegislature.gov's institutional structure and a FiveThirtyEight/Split
-Ticket–style "stat-dense, methodology-transparent" presentation layer.
+state-level races (House of Representatives + Senate): a stat-dense,
+methodology-transparent presentation layer with a headline metric per
+candidate, sortable leaderboards, and full click-through between entities.
 
-> **Note on `darko.app`:** that domain currently resolves to an NBA
-> plus-minus analytics tool, not a political site — likely a mismatched
-> reference. I've substituted the general aesthetic it implies (single
-> clear headline metric per entity, exposed methodology, daily/incremental
-> update cadence, dense-but-legible stat blocks) and the closest real
-> political comparables (Split Ticket, downballot lean trackers). Flag the
-> intended site and I'll fold in specifics.
+> **Note:** by request, no code or page text in this project names or credits
+> specific third-party sites as design inspiration. Stylistic direction below
+> is described in its own terms.
 
 ## 1. Goals & Scope
 
@@ -19,8 +15,8 @@ Ticket–style "stat-dense, methodology-transparent" presentation layer.
   current and historical, across at least 3 redistricting cycles (≥20 years).
 - Entities: Candidate, Race, Seat, District (vintage-specific), Chamber,
   Party, Town.
-- Core analyses: VARC (value above replacement candidate), vote share over
-  time, district partisan lean over time, lean-distribution histograms,
+- Core analyses: WAR (wins above replacement, adapted — see §4), vote share
+  over time, district partisan lean over time, lean-distribution histograms,
   competitiveness, incumbency effects, turnout.
 - Interactive, click-through charts and maps; per-entity pages.
 - "AskAI" BYOK assistant, sidebar, context-aware, chart-generating.
@@ -36,8 +32,8 @@ Ticket–style "stat-dense, methodology-transparent" presentation layer.
 | Precincts (for lean baselines) | MassGIS Voting Precincts + town-level general election returns | Needed to build a partisan-lean baseline independent of legislative results (see §4). |
 | Demographics | Census PL 94-171 redistricting data (population by state legislative district, published per vintage) + ACS 5-year for finer-grained attributes | PL 94-171 gives exact totals for the *current* vintage; historical vintages require areal interpolation of block-level census data onto old district polygons (GeoPandas overlay). |
 | Towns / municipal boundaries | MassGIS Community Boundaries (351 municipalities) | Town↔district crosswalk built per vintage via GIS overlay (a town can span multiple districts, especially Boston). |
-| Candidate bios / incumbency | malegislature.gov member pages, Wikipedia, Ballotpedia (light touch, respect ToS) | Enrichment only; election results remain authoritative for outcomes. |
-| Campaign finance (stretch) | [OCPF](https://www.ocpf.us) | No clean bulk API; third-party `maocpf` R package shows a pull-by-candidate-ID pattern we can port to Python. |
+| Candidate bios / incumbency | Official state legislature member directory, Wikipedia, Ballotpedia (light touch, respect ToS) | Enrichment only; election results remain authoritative for outcomes. |
+| Campaign finance | OCPF bulk data (`ocpf2.blob.core.windows.net/downloads/data2/`) — `ocpf-{year}-reports.zip` (report + line-item detail) and `ocpf-filers.zip` (`all_filers.txt`: every House/Senate filer, active and closed, with a `cpfId`) | This is a real public bulk export, not a scrape — no auth, tab-delimited. No longer a "stretch" source; promoted to core (see §9 for the parsing gotchas). |
 
 ## 3. Data Model / Semantic Layer
 
@@ -67,12 +63,35 @@ payloads small.
   from town/precinct returns into each district's geography per vintage.
   Kept independent of the legislative race itself so it can serve as a
   "replacement level."
-- **VARC (Value Above Replacement Candidate)**: `VARC = actual two-party
-  vote share − expected share for a generic same-party candidate`, where
-  expected share = district lean (or `1 − lean` for the opposing party) in
-  that year. Isolates a candidate's personal overperformance from district
-  structure and statewide environment. Reported per-race and as a
-  career/percentile aggregate.
+- **WAR (wins above replacement) — adapted for MA state legislative races.**
+  This is not an original idea: it follows the "fundamentals-based expected
+  margin vs. actual margin" approach published as **WAR** by the independent
+  election-analytics outlet Split Ticket (federal races, since ~2022), which
+  is itself the applied/journalistic descendant of a real academic
+  literature — Gelman & King (1990, *AJPS*, "Estimating Incumbency Advantage
+  Without Bias") on decomposing vote share into normal-vote (district
+  partisanship) + incumbency + national-tide terms; Ansolabehere, Snyder &
+  Stewart (2000, *AJPS*) on isolating the "personal vote"; Squire (1989,
+  1995) and Jacobson on candidate-quality effects specifically in
+  (state) legislative races; and the "candidate valence" literature (Stone &
+  Simas 2010) that treats this residual as a measurable quantity.
+  **We are explicitly adapting, not replicating, Split Ticket's method** —
+  differences worth tracking as assumptions, not hidden:
+  - *Different population*: state legislative (House/Senate), not federal —
+    smaller electorates, more uncontested races, thinner polling/finance
+    data per race.
+  - *Different baseline inputs*: v1 baseline = district partisan lean only
+    (§ above); v2 adds incumbency (already in the data model) and OCPF
+    campaign finance (now a real, obtained input — see §2/§9) as additional
+    fundamentals, same spirit as Split Ticket's model but our own
+    regression/weighting, not theirs.
+  - *Different redistricting handling*: our lean baseline has to cross three
+    MA redistricting vintages; Split Ticket's federal-district baseline
+    doesn't face this problem at the same scale.
+  `WAR = actual two-party vote share − expected share from the fundamentals
+  baseline` (in margin terms, doubled). Reported per-race and as a
+  career/percentile aggregate. The methodology page ships with this
+  provenance and the citations above — never presented as a novel invention.
 - **Vote share over time**: per-candidate line/bar across cycles.
 - **District lean over time**: per-district line, annotated at
   redistricting boundaries (dashed/break in the line between vintages).
@@ -117,21 +136,51 @@ but Jekyll satisfies the ask and keeps the toolchain simple.)
 
 ## 8. AskAI (BYOK) Feature
 
-- Hidden sidebar, toggle always available, persists across pages.
-- User pastes their own API key (Anthropic/OpenAI/etc.) into a settings
-  panel; stored **only** in `localStorage`, never touches any server we
-  control. Requests go **directly from the browser to the provider**
-  (Anthropic and OpenAI both support direct browser calls with the
-  appropriate CORS header).
+- Hidden sidebar, toggle always available, persists across pages. Built as a
+  small **React island** (an isolated component tree mounted into an
+  otherwise plain Jekyll page) — the only part of the site that needs a
+  component framework and a client-side agent loop; the rest of the site
+  stays static HTML.
+- **Provider abstraction — Vercel AI SDK (`ai` npm package).** Rather than
+  hand-rolling per-provider request/response shapes, use `ai` core
+  (`generateText`/`streamText`) with the official adapter packages:
+  `@ai-sdk/anthropic`, `@ai-sdk/openai`, `@ai-sdk/google` (Gemini), and
+  `@ai-sdk/groq`. Each adapter exposes the same `LanguageModel` interface, so
+  the app picks a factory at runtime from the user's provider + key choice —
+  this *is* the abstraction layer, we don't need to write one. User pastes
+  their own key into a settings panel; stored **only** in `localStorage`,
+  never touches any server we control. Requests go **directly from the
+  browser to the provider**.
+  - **CORS caveat to verify per provider before launch, not assume**:
+    Anthropic supports direct browser calls via the
+    `anthropic-dangerous-direct-browser-access` header; OpenAI's SDK exposes
+    a `dangerouslyAllowBrowser` flag for the same. Google's Generative AI API
+    and Groq's OpenAI-compatible API need to be checked directly — if either
+    blocks browser-origin requests, the AI SDK's provider abstraction doesn't
+    change that (it's a response-header issue on their end, not a client
+    library issue). Fallback if needed: a minimal stateless relay on a
+    separate free tier (e.g. a Cloudflare Worker) that only forwards
+    bytes and never stores the key — still $0, just not GitHub Pages itself.
+- **Agent / tool-calling loop — also the AI SDK, not a hand-written loop.**
+  `streamText`/`generateText` accept a `tools` map plus a step limit and
+  natively run the think → call tool → observe → continue cycle (a ReAct-
+  style loop) until the model returns a final answer — no custom
+  orchestration code needed. On the UI side, `@ai-sdk/react`'s `useChat`
+  hook wires that loop straight into the sidebar's message list and handles
+  in-flight tool-call state. (LangChain.js/LangGraph.js is the heavier
+  alternative if we ever need multi-agent graphs; not needed for this
+  single-assistant sidebar, and its bundle weight is a worse fit for a
+  static site.)
 - **Semantic layer**: a compact JSON data dictionary (entities, fields,
   metric definitions, current district vintages) plus the current page's
   context (which candidate/district/year the user is looking at) is
   injected as system context on every request.
-- **Tool use**: the model gets two tools — `query_data` (executes SQL via
-  the in-browser DuckDB-Wasm instance over the prebuilt Parquet files) and
-  `render_chart` (emits a Vega-Lite spec that the page renders inline). This
-  lets "AskAI" answer with both data and a fresh plot, grounded in real
-  numbers rather than hallucinated ones.
+- **Tools exposed to the model**: `query_data` (executes SQL via the
+  in-browser DuckDB-Wasm instance over the prebuilt Parquet files, read-only
+  connection, row cap, timeout, `SELECT`-only) and `render_chart` (emits a
+  Vega-Lite spec that the page validates and renders inline). This lets
+  "AskAI" answer with both data and a fresh plot, grounded in real numbers
+  rather than hallucinated ones.
 
 ## 9. Data Pipeline
 
@@ -143,9 +192,30 @@ is a nice free convenience later):
 2. `fetch_district_boundaries.py` — pull MassGIS shapefiles per vintage.
 3. `fetch_demographics.py` — Census PL 94-171 / ACS, interpolate to
    historical vintages.
-4. `build_crosswalks.py` — town↔district and seat-lineage overlays.
-5. `build_derived_metrics.py` — lean, VARC, competitiveness, turnout.
-6. `generate_site_data.py` — emit per-entity Parquet/JSON + Jekyll data
+4. `fetch_campaign_finance.py` — pull OCPF's bulk `ocpf-{year}-reports.zip`
+   (report + line-item detail, tab-delimited) and `ocpf-filers.zip`
+   (`all_filers.txt` — full candidate roster with `cpfId`, incl. closed/past
+   filers, which is what makes matching *historical* candidates possible,
+   not just current officeholders). Port (Python, MIT-license-compatible,
+   credited in the script header) the report/record-type handling
+   established by Code for Boston's MAPLE project
+   (`codeforboston/maple`, `functions/src/ocpf/`) — their scraper encodes
+   real, empirically-verified pitfalls we'd otherwise rediscover the hard
+   way: Year-End and lifecycle (dissolution/transition) reports double-count
+   periodic Bank Report totals if not excluded; Deposit Reports carry
+   gross/pre-fee amounts already counted net in Bank Reports; non-
+   contribution receipts (refunds) need netting out to match OCPF's own
+   published totals; Credit Card/Reimbursement reports are supplemental and
+   already reflected elsewhere. We do **not** read from MAPLE's live
+   Firestore — it only holds the current 2-year cycle for sitting members,
+   too narrow for our ≥20-year, all-candidates scope — we hit the same OCPF
+   endpoint ourselves and match candidates via `all_filers.txt`
+   (name + district + office, adapting their last-name/first-name/branch
+   matching with ambiguity flagging, tightened using our race-level
+   year/district data which they don't have).
+5. `build_crosswalks.py` — town↔district and seat-lineage overlays.
+6. `build_derived_metrics.py` — lean, WAR, competitiveness, turnout.
+7. `generate_site_data.py` — emit per-entity Parquet/JSON + Jekyll data
    files consumed by page templates.
 
 Each script is idempotent and accepts `--since-year`, so re-running after a
@@ -165,30 +235,31 @@ future election only touches new rows.
 
 ## 11. Theming
 
-malegislature.gov cues to borrow: restrained navy/institutional palette,
-clear House/Senate chamber split as the top-level nav, member-directory-style
-listing cards, consistent search bar across sections. Layer on top of that a
-stat-dense presentation for the analytics pages themselves (headline metric
-first, methodology disclosed near the fold, small multiples over single big
-charts where possible).
+Restrained institutional palette (civic, not flashy), a clear House/Senate
+chamber split as the top-level nav, member-directory-style listing cards,
+and a consistent search bar across sections, layered with a stat-dense
+presentation on the analytics pages themselves: headline metric first,
+methodology disclosed near the fold, small multiples preferred over single
+large charts, sortable/searchable leaderboard tables as landing views, and a
+visible per-metric methodology page throughout.
 
 ## 12. Phased Roadmap
 
 | Phase | Deliverable |
 |---|---|
 | 0 | Repo scaffold, finalize schema, confirm district vintages |
-| 1 | Data pipeline: results + boundaries + demographics + crosswalks, back to at least the 2001 vintage (≈24 years) |
+| 1 | Data pipeline: results + boundaries + demographics + campaign finance + crosswalks, back to at least the 2001 vintage (≈24 years) |
 | 2 | Jekyll + Actions skeleton, entity pages, navigation, theming |
 | 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through |
-| 4 | Derived analytics: VARC, lean, competitiveness, turnout |
-| 5 | AskAI: semantic layer + DuckDB-Wasm + BYOK sidebar |
+| 4 | Derived analytics: WAR (adapted), lean, competitiveness, turnout |
+| 5 | AskAI: semantic layer + DuckDB-Wasm + AI SDK (multi-provider) React sidebar |
 | 6 | Polish: accessibility, performance, update-script docs |
 
 ## Open Questions for You
 
-1. Confirm the intended reference for "darko.app" (see note above).
-2. OK with data starting at the 2001/2002 redistricting vintage (~24 years),
+1. OK with data starting at the 2001/2002 redistricting vintage (~24 years),
    or do you want a push toward 1970 (PD43+'s full range) despite the extra
    scraping/normalization work for older, less-structured records?
-3. Any preferred BYOK provider(s) to support first (Anthropic, OpenAI,
-   both)?
+2. Provider priority for launch — all four (Anthropic/OpenAI/Gemini/Groq) at
+   once, or ship one first and add the rest once the CORS behavior of each
+   is confirmed?
