@@ -263,3 +263,55 @@ visible per-metric methodology page throughout.
 2. Provider priority for launch — all four (Anthropic/OpenAI/Gemini/Groq) at
    once, or ship one first and add the rest once the CORS behavior of each
    is confirmed?
+
+## Appendix: Domains to Allowlist for Network Access
+
+This session's outbound network is allowlisted, and none of the domains
+below are on it yet — confirmed by both direct `curl` (blocked at the
+container network policy level) and the WebFetch tool (blocked at a
+separate layer; note WebFetch and in-container `curl`/`requests` go through
+*different* egress paths — WebFetch reached `github.com` and, at one point,
+`malegislature.gov` successfully even though this container's `curl` cannot
+reach either directly, so "worked in chat via WebFetch" is not evidence a
+pipeline script running in this container will be able to reach the same
+host). The pipeline scripts (`requests`/`geopandas` running as plain
+outbound HTTPS from this container) need the domains in the first group;
+the last group is only relevant if you want to test the AskAI feature's
+live provider calls from inside this environment — in production those
+calls come from each end user's own browser, not from this container.
+
+**Data sources (required to run `/pipeline` scripts):**
+- `electionstats.state.ma.us` — PD43+ election results
+- `www.mass.gov` — MassGIS dataset landing/metadata pages
+- `gis.data.mass.gov` — MassGIS Data Hub (shapefile downloads)
+- `maps-massgis.opendata.arcgis.com` and `geo-massdot.opendata.arcgis.com` —
+  MassGIS ArcGIS Online open data (shapefile/GeoJSON downloads)
+- `arcgisserver.digital.mass.gov` — MassGIS ArcGIS REST services (query
+  endpoint alternative to the open-data downloads)
+- `api.census.gov` — Census API (PL 94-171 redistricting data, ACS)
+- `www2.census.gov` — Census bulk downloads (TIGER/Line, redistricting data
+  files)
+- `ocpf2.blob.core.windows.net` — OCPF bulk campaign finance data (Azure
+  Blob Storage, no auth)
+- `raw.githubusercontent.com` and `objects.githubusercontent.com` — MEDSL/
+  OpenElections cross-check data pulled from GitHub-hosted files/releases
+  (`github.com` itself already appears reachable from this session)
+- `en.wikipedia.org` — candidate bio enrichment
+- `ballotpedia.org` — candidate bio enrichment
+- `malegislature.gov` — current member directory (as a data source only,
+  per §2 — see the note at the top of this document on why the site is
+  never named as design inspiration)
+
+**Toolchain (required to install dependencies / build the site):**
+- `registry.npmjs.org` — npm packages (AI SDK, Vega-Lite, MapLibre GL JS,
+  DuckDB-Wasm, bundler)
+- `rubygems.org` — Jekyll and its gem dependencies
+- `pypi.org` and `files.pythonhosted.org` — Python packages (geopandas,
+  pandas, requests, duckdb, etc.)
+
+**Only if you want to test AskAI's live calls from this environment (not
+needed for the pipeline or the site build):**
+- `api.anthropic.com`
+- `api.openai.com`
+- `generativelanguage.googleapis.com` (Gemini)
+- `api.groq.com`
