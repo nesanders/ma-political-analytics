@@ -66,10 +66,13 @@ ACS_VARS = {
 
 
 def _require_api_key() -> str:
-    key = os.environ.get("CENSUS_API_KEY")
+    # CENSUS_API_KEY is the documented/preferred name; CENSUS_KEY accepted
+    # too since that's what ended up set in this project's environment.
+    key = os.environ.get("CENSUS_API_KEY") or os.environ.get("CENSUS_KEY")
     if not key:
         raise RuntimeError(
-            "CENSUS_API_KEY is not set. Sign up for a free key at "
+            "No Census API key found (checked CENSUS_API_KEY, CENSUS_KEY). "
+            "Sign up for a free key at "
             "https://api.census.gov/data/key_signup.html and export it "
             "as CENSUS_API_KEY before running this fetcher."
         )
