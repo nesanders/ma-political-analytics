@@ -1,15 +1,13 @@
 """Fetch district-level demographics from the Census Bureau's data API.
 
 **Requires a free Census API key** — sign up at
-https://api.census.gov/data/key_signup.html (instant, just an email) and
-set it as the CENSUS_API_KEY environment variable. Confirmed live (2026-08)
+https://api.census.gov/data/key_signup.html (instant, just an email, but
+allow time for the confirmation-email activation step) and set it as
+CENSUS_API_KEY (or CENSUS_KEY, also accepted). Confirmed live (2026-08)
 that api.census.gov now rejects every request without a key, including
-trivial ones — this wasn't previously true and the key requirement can't be
-worked around. This module is written against the API's long-stable,
-well-documented request format but has NOT been exercised against a live
-response in this environment (no key available here) — verify against a
-small request (e.g. --vintage 2022-present --chamber senate) before trusting
-it for a full run.
+trivial ones. Verified end to end with an activated key: 161 House + 40
+Senate districts, both PL 94-171 and ACS5, MA's total population summing to
+~7.03M (matches the real figure) with zero nulls.
 
 Two datasets, both queried directly by "state legislative district (upper
 chamber)" [[= Senate]] / "(lower chamber)" [[= House]] geography, which the

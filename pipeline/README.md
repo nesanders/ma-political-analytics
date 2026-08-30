@@ -35,10 +35,9 @@ skipped, so re-running after a future election only pulls new rows.
   District-level demographics (PL 94-171 total/voting-age population, ACS
   5-year income/education) from the Census API. **Requires a free API key**
   (https://api.census.gov/data/key_signup.html) — the API rejects every
-  request without one now. Written against the API's stable, documented
-  format but not yet exercised against a live response (no key available
-  in the environment this was built in) — verify against a small request
-  before trusting a full run. Writes `<chamber>_pl94_171.parquet` and
+  request without one now. Verified live end to end: 161 House + 40 Senate
+  districts, MA's total population summing to ~7.03M. Writes
+  `<chamber>_pl94_171.parquet` and
   `<chamber>_acs5_<year>.parquet` to `--out-dir` (default
   `data/raw/demographics`). PL 94-171 only covers the current
   (2022-present) vintage — see the module docstring for why.
