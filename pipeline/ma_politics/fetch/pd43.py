@@ -247,21 +247,45 @@ def races_to_frames(races: list[Race], town_results: dict[str, tuple[list[str], 
     )
 
 
+def _write_increment(
+    chamber: str, races: list[Race], town_results: dict[str, tuple[list[str], list[dict]]], out_dir: Path
+) -> None:
+    races_df, results_df, town_df = races_to_frames(races, town_results)
+    for name, df in (("races", races_df), ("results", results_df), ("town_results", town_df)):
+        path = out_dir / f"{chamber}_{name}.parquet"
+        if path.exists():
+            df = pd.concat([pd.read_parquet(path), df], ignore_index=True)
+        df.to_parquet(path, index=False)
+        logger.info("Wrote %d total rows to %s", len(df), path)
+
+
 def fetch_years(
     chamber: str, year_from: int, year_to: int, out_dir: Path, min_interval_s: float = 0.5
 ) -> None:
+    """Idempotent per election_id (skips ones already on disk) *and*
+    checkpointed per year — each year's rows are written to disk as soon as
+    that year finishes, not batched up across the whole year_from..year_to
+    range and written once at the end. A multi-decade backfill is thousands
+    of throttled requests easily running an hour or more; without this, any
+    interruption partway through (a crashed process, a network blip that
+    exhausts retries, a container restart) would silently lose every row
+    fetched so far, not just the request in flight — found the hard way
+    when exactly that happened to a real backfill run."""
     session = make_session(min_interval_s=min_interval_s)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     races_path = out_dir / f"{chamber}_races.parquet"
-    existing_ids: set[str] = set()
-    if races_path.exists():
-        existing_ids = set(pd.read_parquet(races_path)["election_id"].astype(str))
-
-    all_races: list[Race] = []
-    town_results: dict[str, tuple[list[str], list[dict]]] = {}
 
     for year in range(year_from, year_to + 1):
+        # Re-read existing_ids every year, not once up front: this year's
+        # write depends on what the *previous* year in this same run just
+        # persisted, since each year's write merges with what's on disk.
+        existing_ids: set[str] = set()
+        if races_path.exists():
+            existing_ids = set(pd.read_parquet(races_path)["election_id"].astype(str))
+
+        year_races: list[Race] = []
+        year_town_results: dict[str, tuple[list[str], list[dict]]] = {}
         for stage in (STAGE_GENERAL, STAGE_PRIMARIES):
             ids = search_election_ids(session, chamber, stage, year)
             logger.info("%s %s %s: %d elections", chamber, year, stage, len(ids))
@@ -270,21 +294,13 @@ def fetch_years(
                     continue
                 race = fetch_race_detail(session, election_id, chamber)
                 candidate_cols, town_rows = fetch_town_results(session, election_id)
-                all_races.append(race)
-                town_results[election_id] = (candidate_cols, town_rows)
+                year_races.append(race)
+                year_town_results[election_id] = (candidate_cols, town_rows)
 
-    if not all_races:
-        logger.info("Nothing new to fetch.")
-        return
-
-    races_df, results_df, town_df = races_to_frames(all_races, town_results)
-
-    for name, df in (("races", races_df), ("results", results_df), ("town_results", town_df)):
-        path = out_dir / f"{chamber}_{name}.parquet"
-        if path.exists():
-            df = pd.concat([pd.read_parquet(path), df], ignore_index=True)
-        df.to_parquet(path, index=False)
-        logger.info("Wrote %d total rows to %s", len(df), path)
+        if year_races:
+            _write_increment(chamber, year_races, year_town_results, out_dir)
+        else:
+            logger.info("%s %s: nothing new to fetch.", chamber, year)
 
 
 @click.command()
