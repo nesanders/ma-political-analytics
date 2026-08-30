@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.name }} Party</h1>
+  <p>
+    {{ page.seat_count }} seat{% unless page.seat_count == 1 %}s{% endunless %} held
+    ({% for pair in page.seat_count_by_chamber %}{{ pair[1] }} {{ pair[0] | capitalize }}{% unless forloop.last %}, {% endunless %}{% endfor %}).
+  </p>
+
+  <section>
+    <h2>Seats held</h2>
+    <p>Sorted by WAR (biggest overperformance relative to the district's baseline lean first).</p>
+    <table>
+      <thead>
+        <tr><th>District</th><th>Chamber</th><th>Winner</th><th>WAR</th></tr>
+      </thead>
+      <tbody>
+        {% for s in page.seats_held %}
+        <tr>
+          <td><a href="{{ s.url | relative_url }}">{{ s.district_name }}</a></td>
+          <td>{{ s.chamber | capitalize }}</td>
+          <td><a href="{{ '/candidate/' | append: s.winner_slug | append: '/' | relative_url }}">{{ s.winner_name }}</a></td>
+          <td>{% if s.war %}{{ s.war | times: 100 | round: 1 }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</article>

@@ -1,0 +1,23 @@
+---
+name: Millbury
+slug: millbury
+districts:
+- chamber: house
+  district_name: 7th Worcester District
+  url: /seat/house-7th-worcester-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5186
+  competitiveness_label: Tossup D
+  current_rep: Paul K. Frost
+  current_rep_party: Republican
+- chamber: senate
+  district_name: Second Worcester District
+  url: /seat/senate-second-worcester-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.628
+  competitiveness_label: Safe D
+  current_rep: Michael O. Moore
+  current_rep_party: Democratic
+title: Millbury
+layout: town
+---

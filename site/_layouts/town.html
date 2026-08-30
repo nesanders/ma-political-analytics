@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article>
+  <h1>{{ page.name }}</h1>
+  <p>
+    Massachusetts state legislative districts overlapping {{ page.name }}
+    ({{ page.districts | size }}{% if page.districts.size == 1 %} district{% else %} districts{% endif %}).
+  </p>
+
+  <section>
+    <h2>Districts</h2>
+    <table>
+      <thead>
+        <tr><th>Chamber</th><th>District</th><th>% of town</th><th>Lean</th><th>Current rep</th></tr>
+      </thead>
+      <tbody>
+        {% for d in page.districts %}
+        <tr>
+          <td>{{ d.chamber | capitalize }}</td>
+          <td><a href="{{ d.url | relative_url }}">{{ d.district_name }}</a></td>
+          <td>{{ d.pct_of_town | times: 100 | round: 1 }}%</td>
+          <td>{% if d.lean_dem_share %}{{ d.competitiveness_label }}{% endif %}</td>
+          <td>
+            {% if d.current_rep %}
+              {{ d.current_rep }}{% if d.current_rep_party %} ({{ d.current_rep_party | slice: 0, 1 }}){% endif %}
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p><small>
+      "% of town" is by land area, not population — see the
+      <a href="https://github.com/nesanders/ma-political-analytics/blob/main/docs/PLAN.md">design plan</a>
+      for why (a documented simplification, not precinct-level data).
+    </small></p>
+  </section>
+</article>

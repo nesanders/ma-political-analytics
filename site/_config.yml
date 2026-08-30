@@ -23,6 +23,9 @@ collections:
   towns:
     output: true
     permalink: /town/:path/
+  parties:
+    output: true
+    permalink: /party/:path/
 
 defaults:
   - scope:

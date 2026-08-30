@@ -1,0 +1,23 @@
+---
+name: Milford
+slug: milford
+districts:
+- chamber: house
+  district_name: 10th Worcester District
+  url: /seat/house-10th-worcester-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5749
+  competitiveness_label: Likely D
+  current_rep: Brian William Murray
+  current_rep_party: Democratic
+- chamber: senate
+  district_name: Norfolk-Worcester-Middlesex District
+  url: /seat/senate-norfolk-worcester-middlesex-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.6225
+  competitiveness_label: Safe D
+  current_rep: Rebecca L. Rausch
+  current_rep_party: Democratic
+title: Milford
+layout: town
+---

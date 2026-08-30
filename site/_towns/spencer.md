@@ -1,0 +1,31 @@
+---
+name: Spencer
+slug: spencer
+districts:
+- chamber: senate
+  district_name: Worcester and Hampshire District
+  url: /seat/senate-worcester-and-hampshire-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5229
+  competitiveness_label: Tossup D
+  current_rep: Anne M. Gobi
+  current_rep_party: Democratic
+- chamber: house
+  district_name: 5th Worcester District
+  url: /seat/house-5th-worcester-district/
+  pct_of_town: 0.8066
+  lean_dem_share: 0.4623
+  competitiveness_label: Lean R
+  current_rep: Donald R. Berthiaume, Jr
+  current_rep_party: Republican
+- chamber: house
+  district_name: 6th Worcester District
+  url: /seat/house-6th-worcester-district/
+  pct_of_town: 0.1934
+  lean_dem_share: 0.4821
+  competitiveness_label: Tossup R
+  current_rep: Peter J. Durant
+  current_rep_party: Republican
+title: Spencer
+layout: town
+---

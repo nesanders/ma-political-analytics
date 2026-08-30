@@ -163,15 +163,132 @@ def write_candidate_files(records: list[dict], out_dir: Path) -> None:
     logger.info("Wrote %d candidate pages to %s", len(records), out_dir)
 
 
+def seat_url(chamber: str, district_name: str) -> str:
+    return f"/seat/{chamber}-{slugify(district_name)}/"
+
+
+def build_town_records(chambers: list[str], vintage: str, crosswalks_dir: Path, seat_records: list[dict]) -> list[dict]:
+    """One record per town, listing every district (in any given chamber)
+    that overlaps it — a town routinely splits across multiple districts,
+    especially in denser areas (Boston alone spans 16 House districts in
+    the 2022 vintage). Joined against the already-built seat_records for
+    each district's current lean/winner rather than re-deriving from raw
+    parquet, since that's already computed and correct."""
+    overlap = pd.read_parquet(crosswalks_dir / "town_district_overlap.parquet")
+    overlap = overlap[overlap["vintage"] == vintage]
+    overlap = overlap[overlap["chamber"].isin(chambers)]
+    # TIGER's one non-municipality placeholder row (water/unassigned area,
+    # see fetch.towns) — not a real town, exclude.
+    overlap = overlap[overlap["town"] != "County subdivisions not defined"]
+
+    seat_by_key = {(s["chamber"], s["district_name"]): s for s in seat_records}
+
+    records = []
+    for town, group in overlap.groupby("town"):
+        districts = []
+        for _, row in group.sort_values("pct_of_town", ascending=False).iterrows():
+            seat = seat_by_key.get((row["chamber"], row["district_name"]))
+            winner = next((c for c in seat["candidates"] if c["winner"]), None) if seat else None
+            districts.append(
+                {
+                    "chamber": row["chamber"],
+                    "district_name": row["district_name"],
+                    "url": seat_url(row["chamber"], row["district_name"]),
+                    "pct_of_town": round(float(row["pct_of_town"]), 4),
+                    "lean_dem_share": seat["lean_dem_share"] if seat else None,
+                    "competitiveness_label": seat["competitiveness_label"] if seat else None,
+                    "current_rep": winner["name"] if winner else None,
+                    "current_rep_party": winner["party"] if winner else None,
+                }
+            )
+        records.append({"name": town, "slug": slugify(town), "districts": districts})
+    return records
+
+
+def write_town_files(records: list[dict], out_dir: Path) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for record in records:
+        front_matter = {**record, "title": record["name"], "layout": "town"}
+        path = out_dir / f"{record['slug']}.md"
+        path.write_text(f"---\n{yaml.safe_dump(front_matter, sort_keys=False)}---\n")
+    logger.info("Wrote %d town pages to %s", len(records), out_dir)
+
+
+def build_party_records(seat_records: list[dict]) -> list[dict]:
+    """One record per party that currently holds at least one seat, with
+    every seat they hold and each winner's WAR — a natural "who's
+    overperforming for this party" view. Built from seat_records' winners
+    rather than a separate query, since "holds this seat" is exactly
+    "is this seat's winner"."""
+    parties: dict[str, list[dict]] = {}
+    for seat in seat_records:
+        winner = next((c for c in seat["candidates"] if c["winner"]), None)
+        if not winner or not winner["party"]:
+            continue
+        parties.setdefault(winner["party"], []).append(
+            {
+                "chamber": seat["chamber"],
+                "district_name": seat["district_name"],
+                "url": seat_url(seat["chamber"], seat["district_name"]),
+                "winner_name": winner["name"],
+                "winner_slug": winner["slug"],
+                "war": winner["war"],
+            }
+        )
+
+    records = []
+    for party, seats_held in parties.items():
+        # Highest WAR (biggest overperformance) first; null-WAR (uncontested
+        # or minor-party winner) entries sort last, not scattered by the
+        # coincidence of comparing None to a float.
+        seats_held_sorted = sorted(seats_held, key=lambda s: (s["war"] is None, -(s["war"] or 0)))
+        by_chamber = {}
+        for s in seats_held:
+            by_chamber[s["chamber"]] = by_chamber.get(s["chamber"], 0) + 1
+        records.append(
+            {
+                "name": party,
+                "slug": slugify(party),
+                "seat_count": len(seats_held),
+                "seat_count_by_chamber": by_chamber,
+                "seats_held": seats_held_sorted,
+            }
+        )
+    return records
+
+
+def write_party_files(records: list[dict], out_dir: Path) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for record in records:
+        front_matter = {**record, "title": record["name"], "layout": "party"}
+        path = out_dir / f"{record['slug']}.md"
+        path.write_text(f"---\n{yaml.safe_dump(front_matter, sort_keys=False)}---\n")
+    logger.info("Wrote %d party pages to %s", len(records), out_dir)
+
+
 @click.command()
 @click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
 @click.option("--year", type=int, default=2022)
 @click.option("--vintage", default="2022-present")
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
+@click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
 @click.option("--seats-out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
 @click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
+@click.option("--towns-out-dir", type=click.Path(path_type=Path), default=Path("site/_towns"))
+@click.option("--parties-out-dir", type=click.Path(path_type=Path), default=Path("site/_parties"))
 @click.option("-v", "--verbose", is_flag=True)
-def main(chamber: str, year: int, vintage: str, derived_dir: Path, seats_out_dir: Path, candidates_out_dir: Path, verbose: bool):
+def main(
+    chamber: str,
+    year: int,
+    vintage: str,
+    derived_dir: Path,
+    crosswalks_dir: Path,
+    seats_out_dir: Path,
+    candidates_out_dir: Path,
+    towns_out_dir: Path,
+    parties_out_dir: Path,
+    verbose: bool,
+):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
 
@@ -182,6 +299,12 @@ def main(chamber: str, year: int, vintage: str, derived_dir: Path, seats_out_dir
 
     candidate_records = build_candidate_records(chambers, year, derived_dir)
     write_candidate_files(candidate_records, candidates_out_dir)
+
+    town_records = build_town_records(chambers, vintage, crosswalks_dir, seat_records)
+    write_town_files(town_records, towns_out_dir)
+
+    party_records = build_party_records(seat_records)
+    write_party_files(party_records, parties_out_dir)
 
 
 if __name__ == "__main__":
