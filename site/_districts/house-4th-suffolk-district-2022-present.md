@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '126'
 district_name: 4th Suffolk District
+geo_slug: house-4th-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8238

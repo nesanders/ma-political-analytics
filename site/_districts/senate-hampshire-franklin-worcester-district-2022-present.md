@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D05
 district_name: Hampshire-Franklin-Worcester District
+geo_slug: senate-hampshire-franklin-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7433

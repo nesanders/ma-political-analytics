@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '017'
 district_name: 8th Bristol District
+geo_slug: house-8th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5228

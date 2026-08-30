@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D01
 district_name: Berkshire-Hampden-Franklin-Hampshire District
+geo_slug: senate-berkshire-hampden-franklin-hampshire-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6903

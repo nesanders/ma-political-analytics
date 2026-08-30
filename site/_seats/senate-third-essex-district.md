@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D24
 district_name: Third Essex District
+geo_slug: senate-third-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6333

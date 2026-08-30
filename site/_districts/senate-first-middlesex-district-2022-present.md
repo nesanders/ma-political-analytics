@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D11
 district_name: First Middlesex District
+geo_slug: senate-first-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5857

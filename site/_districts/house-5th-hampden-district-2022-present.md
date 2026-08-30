@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 048
 district_name: 5th Hampden District
+geo_slug: house-5th-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.68

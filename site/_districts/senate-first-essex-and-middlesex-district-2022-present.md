@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D21
 district_name: First Essex and Middlesex District
+geo_slug: senate-first-essex-and-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6211

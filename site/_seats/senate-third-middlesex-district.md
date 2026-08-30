@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D15
 district_name: Third Middlesex District
+geo_slug: senate-third-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.719

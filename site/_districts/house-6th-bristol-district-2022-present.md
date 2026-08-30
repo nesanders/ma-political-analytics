@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '015'
 district_name: 6th Bristol District
+geo_slug: house-6th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5638

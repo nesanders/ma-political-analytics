@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '145'
 district_name: 4th Worcester District
+geo_slug: house-4th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5625

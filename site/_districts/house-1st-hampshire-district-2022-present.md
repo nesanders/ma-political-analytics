@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '056'
 district_name: 1st Hampshire District
+geo_slug: house-1st-hampshire-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8307

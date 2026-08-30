@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ '/assets/css/vendor/maplibre-gl-4.7.1.css' | relative_url }}">
+<script src="{{ '/assets/js/vendor/maplibre-gl-4.7.1.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/district-map.js' | relative_url }}"></script>
 <article>
   <p>
     <a href="{{ '/chamber/' | append: page.chamber | append: '/' | relative_url }}">{{ page.chamber | capitalize }}</a>
@@ -9,6 +12,16 @@ layout: default
   </p>
   <h1>{{ page.district_name }}</h1>
   <p>{{ page.vintage }} redistricting vintage</p>
+
+  <section>
+    <h2>Map</h2>
+    <div
+      id="district-map"
+      style="height: 320px;"
+      data-geojson-url="{{ '/assets/data/geo/' | append: page.geo_slug | append: '.geojson' | relative_url }}"
+      data-party-favored="{{ page.party_favored }}"
+    ></div>
+  </section>
 
   <section>
     <h2>Partisan lean</h2>
@@ -45,5 +58,12 @@ layout: default
       </tbody>
     </table>
     {% endfor %}
+    <p><small>
+      WAR (wins above replacement) is adapted from Split Ticket's published
+      methodology, not an original metric — see the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the full definition and citations. Null for uncontested races and
+      minor-party candidates.
+    </small></p>
   </section>
 </article>

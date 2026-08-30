@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D38
 district_name: Second Bristol and Plymouth District
+geo_slug: senate-second-bristol-and-plymouth-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5699

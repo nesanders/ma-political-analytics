@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D34
 district_name: Second Plymouth and Norfolk District
+geo_slug: senate-second-plymouth-and-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6013

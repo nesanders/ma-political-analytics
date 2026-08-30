@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 097
 district_name: 2nd Norfolk District
+geo_slug: house-2nd-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6629

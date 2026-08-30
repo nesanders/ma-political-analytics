@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 039
 district_name: 16th Essex District
+geo_slug: house-16th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6835

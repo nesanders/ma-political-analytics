@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '034'
 district_name: 11th Essex District
+geo_slug: house-11th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6749

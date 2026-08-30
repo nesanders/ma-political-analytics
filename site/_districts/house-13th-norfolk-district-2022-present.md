@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '108'
 district_name: 13th Norfolk District
+geo_slug: house-13th-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7249

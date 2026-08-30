@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '146'
 district_name: 5th Worcester District
+geo_slug: house-5th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.4623

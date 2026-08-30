@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 081
 district_name: 23rd Middlesex District
+geo_slug: house-23rd-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8232

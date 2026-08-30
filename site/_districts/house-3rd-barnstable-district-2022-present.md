@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '003'
 district_name: 3rd Barnstable District
+geo_slug: house-3rd-barnstable-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5931

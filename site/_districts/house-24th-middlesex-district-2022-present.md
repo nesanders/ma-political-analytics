@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 082
 district_name: 24th Middlesex District
+geo_slug: house-24th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8102

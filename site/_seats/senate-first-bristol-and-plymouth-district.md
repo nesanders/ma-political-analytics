@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D37
 district_name: First Bristol and Plymouth District
+geo_slug: senate-first-bristol-and-plymouth-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5195

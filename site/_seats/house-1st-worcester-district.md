@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '142'
 district_name: 1st Worcester District
+geo_slug: house-1st-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5427

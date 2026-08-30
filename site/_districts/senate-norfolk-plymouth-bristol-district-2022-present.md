@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D33
 district_name: Norfolk-Plymouth-Bristol District
+geo_slug: senate-norfolk-plymouth-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6144

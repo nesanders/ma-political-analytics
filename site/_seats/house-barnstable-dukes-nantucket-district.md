@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '006'
 district_name: Barnstable-Dukes-Nantucket District
+geo_slug: house-barnstable-dukes-nantucket-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.711

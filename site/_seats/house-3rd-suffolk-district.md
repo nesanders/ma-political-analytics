@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '125'
 district_name: 3rd Suffolk District
+geo_slug: house-3rd-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8238

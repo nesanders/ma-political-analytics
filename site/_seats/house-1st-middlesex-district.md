@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 059
 district_name: 1st Middlesex District
+geo_slug: house-1st-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5484

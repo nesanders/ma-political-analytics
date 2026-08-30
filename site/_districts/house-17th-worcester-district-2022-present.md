@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '158'
 district_name: 17th Worcester District
+geo_slug: house-17th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6497

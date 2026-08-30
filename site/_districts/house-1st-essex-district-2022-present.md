@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '024'
 district_name: 1st Essex District
+geo_slug: house-1st-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6555

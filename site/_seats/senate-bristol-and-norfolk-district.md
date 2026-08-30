@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D35
 district_name: Bristol and Norfolk District
+geo_slug: senate-bristol-and-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6013

@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 093
 district_name: 35th Middlesex District
+geo_slug: house-35th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.755

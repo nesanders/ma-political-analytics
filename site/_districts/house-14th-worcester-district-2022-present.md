@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '155'
 district_name: 14th Worcester District
+geo_slug: house-14th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6582

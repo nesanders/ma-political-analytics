@@ -163,6 +163,12 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
                 "vintage": vintage,
                 "district_id": row["district_id"],
                 "district_name": district_name,
+                # Same slug this record's own page file uses (write_district_files
+                # below) — also what publish_district_geo.py names this
+                # district's map GeoJSON file, so the district page can
+                # build that file's URL directly instead of re-deriving the
+                # slug in Liquid and risking it drift from either producer.
+                "geo_slug": district_slug(chamber, district_name, vintage),
                 "years": [ry["year"] for ry in results_by_year],
                 "lean_dem_share": latest["lean_dem_share"],
                 "competitiveness": latest["competitiveness"],

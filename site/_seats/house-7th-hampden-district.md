@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '050'
 district_name: 7th Hampden District
+geo_slug: house-7th-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5791

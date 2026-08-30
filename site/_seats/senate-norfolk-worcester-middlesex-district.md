@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D14
 district_name: Norfolk-Worcester-Middlesex District
+geo_slug: senate-norfolk-worcester-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6225

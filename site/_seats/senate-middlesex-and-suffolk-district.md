@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D26
 district_name: Middlesex and Suffolk District
+geo_slug: senate-middlesex-and-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8338

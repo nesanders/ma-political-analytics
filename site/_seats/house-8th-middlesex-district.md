@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '066'
 district_name: 8th Middlesex District
+geo_slug: house-8th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6766

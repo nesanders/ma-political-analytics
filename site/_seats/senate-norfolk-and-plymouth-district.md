@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D32
 district_name: Norfolk and Plymouth District
+geo_slug: senate-norfolk-and-plymouth-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5944

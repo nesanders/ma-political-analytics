@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '033'
 district_name: 10th Essex District
+geo_slug: house-10th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6804

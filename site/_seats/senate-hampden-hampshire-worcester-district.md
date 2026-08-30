@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D04
 district_name: Hampden-Hampshire-Worcester District
+geo_slug: senate-hampden-hampshire-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.559

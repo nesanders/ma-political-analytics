@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D40
 district_name: Cape and Islands District
+geo_slug: senate-cape-and-islands-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6385

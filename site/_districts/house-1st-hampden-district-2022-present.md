@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '044'
 district_name: 1st Hampden District
+geo_slug: house-1st-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.4788

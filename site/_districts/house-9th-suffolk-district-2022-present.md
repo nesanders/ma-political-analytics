@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '131'
 district_name: 9th Suffolk District
+geo_slug: house-9th-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8238

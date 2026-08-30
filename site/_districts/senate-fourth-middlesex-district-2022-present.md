@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D16
 district_name: Fourth Middlesex District
+geo_slug: senate-fourth-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6808

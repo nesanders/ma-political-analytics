@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '147'
 district_name: 6th Worcester District
+geo_slug: house-6th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.4821

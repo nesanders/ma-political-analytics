@@ -68,6 +68,35 @@ tr.winner {
   font-weight: 600;
 }
 
+th.sortable-col {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 1.25rem;
+}
+
+th.sortable-col:hover {
+  color: var(--series-dem);
+}
+
+th.sortable-col::after {
+  content: "\2195"; /* up-down arrow: sortable, not yet sorted */
+  position: absolute;
+  right: 0.35rem;
+  color: var(--text-muted);
+  font-size: 0.8em;
+}
+
+th.sortable-col.sorted-asc::after {
+  content: "\2191"; /* up arrow */
+  color: var(--text-primary);
+}
+
+th.sortable-col.sorted-desc::after {
+  content: "\2193"; /* down arrow */
+  color: var(--text-primary);
+}
+
 /* vega-embed's own CSS sets `.vega-embed { display: inline-block }`, which
    collapses to zero width for an empty container — a chicken-and-egg
    problem with a chart spec's "width": "container" autosize (the container

@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 086
 district_name: 28th Middlesex District
+geo_slug: house-28th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6884

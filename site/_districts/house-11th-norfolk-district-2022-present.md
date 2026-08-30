@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '106'
 district_name: 11th Norfolk District
+geo_slug: house-11th-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.645

@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 038
 district_name: 15th Essex District
+geo_slug: house-15th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5592

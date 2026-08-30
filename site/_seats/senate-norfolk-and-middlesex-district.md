@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D17
 district_name: Norfolk and Middlesex District
+geo_slug: senate-norfolk-and-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8186

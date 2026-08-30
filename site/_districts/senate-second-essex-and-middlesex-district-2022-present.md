@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D20
 district_name: Second Essex and Middlesex District
+geo_slug: senate-second-essex-and-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5866

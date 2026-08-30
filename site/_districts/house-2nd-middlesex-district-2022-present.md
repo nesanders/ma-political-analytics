@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '060'
 district_name: 2nd Middlesex District
+geo_slug: house-2nd-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6494

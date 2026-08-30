@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 078
 district_name: 20th Middlesex District
+geo_slug: house-20th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5535

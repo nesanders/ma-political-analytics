@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D18
 district_name: Norfolk and Suffolk District
+geo_slug: senate-norfolk-and-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6956

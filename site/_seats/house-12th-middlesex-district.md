@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '070'
 district_name: 12th Middlesex District
+geo_slug: house-12th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.838

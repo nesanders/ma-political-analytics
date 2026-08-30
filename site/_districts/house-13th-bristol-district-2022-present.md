@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '022'
 district_name: 13th Bristol District
+geo_slug: house-13th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6204

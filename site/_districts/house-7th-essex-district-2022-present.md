@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '030'
 district_name: 7th Essex District
+geo_slug: house-7th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7741

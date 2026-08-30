@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 091
 district_name: 33rd Middlesex District
+geo_slug: house-33rd-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7503

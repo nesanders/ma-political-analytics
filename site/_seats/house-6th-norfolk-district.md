@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '101'
 district_name: 6th Norfolk District
+geo_slug: house-6th-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6198

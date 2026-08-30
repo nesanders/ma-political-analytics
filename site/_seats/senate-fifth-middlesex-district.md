@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D23
 district_name: Fifth Middlesex District
+geo_slug: senate-fifth-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6774

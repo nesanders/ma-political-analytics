@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D10
 district_name: Worcester and Middlesex District
+geo_slug: senate-worcester-and-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5845

@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D30
 district_name: First Suffolk District
+geo_slug: senate-first-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8238

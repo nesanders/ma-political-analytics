@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D07
 district_name: Worcester and Hampden District
+geo_slug: senate-worcester-and-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.4886

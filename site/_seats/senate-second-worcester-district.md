@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D08
 district_name: Second Worcester District
+geo_slug: senate-second-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.628

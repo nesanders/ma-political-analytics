@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '045'
 district_name: 2nd Hampden District
+geo_slug: house-2nd-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5515

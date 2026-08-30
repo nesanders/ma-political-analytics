@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '054'
 district_name: 11th Hampden District
+geo_slug: house-11th-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7104

@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '004'
 district_name: 4th Barnstable District
+geo_slug: house-4th-barnstable-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6824

@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '139'
 district_name: 17th Suffolk District
+geo_slug: house-17th-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8394

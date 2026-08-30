@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '134'
 district_name: 12th Suffolk District
+geo_slug: house-12th-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8088

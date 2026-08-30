@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D25
 district_name: Third Suffolk District
+geo_slug: senate-third-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7266

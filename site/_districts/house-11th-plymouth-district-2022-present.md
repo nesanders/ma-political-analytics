@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '121'
 district_name: 11th Plymouth District
+geo_slug: house-11th-plymouth-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7195

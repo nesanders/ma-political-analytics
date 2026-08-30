@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '046'
 district_name: 3rd Hampden District
+geo_slug: house-3rd-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.439

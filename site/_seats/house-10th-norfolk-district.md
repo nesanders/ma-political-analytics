@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '105'
 district_name: 10th Norfolk District
+geo_slug: house-10th-norfolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6047

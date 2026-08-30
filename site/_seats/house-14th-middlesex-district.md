@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '072'
 district_name: 14th Middlesex District
+geo_slug: house-14th-middlesex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.7268

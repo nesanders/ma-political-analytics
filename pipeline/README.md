@@ -190,6 +190,32 @@ width: 100%` on `.vega-embed`).
   including one that reproduces an earlier-verified figure exactly
   (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
 
+- `python -m ma_politics.build.publish_district_geo --chamber both --vintages 2001-2010,2012-2020,2022-present`
+  Publishes one small GeoJSON file per (chamber, district_name, vintage) to
+  `site/assets/data/geo/` for the district map (`site/_layouts/district.html`
+  and `seat.html`, via `site/assets/js/district-map.js`) — see docs/PLAN.md
+  §6. Reuses `build.crosswalks`' `load_district_vintage()` for the
+  (district_id, district_name, geometry) roster, and `generate_site_data.py`'s
+  `district_slug()` for the output filename, rather than re-deriving either,
+  so a district page's `geo_slug` front-matter field always resolves to a
+  file that actually exists. Geometry is reprojected to EPSG:4326 (the
+  source files are EPSG:4269/NAD83) and simplified (~11m tolerance at MA's
+  latitude), which cut per-file size by roughly 80% (31KB -> 6KB for a
+  representative district) with no visible loss at the zoom levels a
+  single-district map renders at — measured, not assumed, before picking
+  that tolerance. 602 files, 7.6MB total, verified live: every district
+  page's map fetches and renders its own file (not another district's) as
+  a MapLibre GeoJSON fill/outline layer, colored by which party the seat's
+  lean favors. The basemap underneath (CARTO's free raster tiles, no API
+  key) is a separate concern from the district polygon itself and is
+  **not verified live from this environment** — this session's network
+  policy blocks `basemaps.cartocdn.com` the same way it blocks jsDelivr
+  for AskAI's DuckDB-Wasm bundles (see `site/src/askai/src/duckdb.ts`).
+  What's confirmed instead: the district polygon still renders correctly
+  (screenshotted) with the basemap tiles failing to load, since it's added
+  as its own MapLibre layer independent of the basemap source's own
+  load success — real end-user browsers reach the CDN directly.
+
 ## AskAI sidebar (`site/src/askai/`)
 
 React app (query_data + render_chart tools, BYOK settings, a manual
@@ -245,3 +271,27 @@ closing script tag, reproducing the exact same failure from inside the
 comment — a reminder that this class of bug is triggered by the literal
 character sequence appearing anywhere in a `<script>` block, comments
 included, not by "real" versus "string" content.
+
+## Site polish (sortable tables, methodology page)
+
+- `site/assets/js/sortable-tables.js`: a small vanilla-JS utility (no
+  framework, plain `<script>` tag like the chart-building scripts already
+  inline elsewhere) that makes every `<table>` inside `<main>` sortable by
+  clicking a column header — scoped to `<main>` specifically so it doesn't
+  touch AskAI's own dynamically-inserted query-result tables in the
+  sidebar. Numeric-aware: strips `%`/`,` before comparing, so percentage
+  and vote-count columns sort as numbers, not lexicographically (which
+  would otherwise put "9" after "10"). Verified live: clicking the "Lean"
+  header on a chamber page's seat table re-orders rows ascending then
+  descending, confirmed against the actual rendered values, not just that
+  a click handler fired.
+
+- `site/methodology/index.md`: a real methodology page (not a stub)
+  explaining district lean and WAR, built from the citations and
+  provenance already written into docs/PLAN.md §4 and
+  `derived_metrics.py`'s own docstring rather than re-derived from
+  scratch — including the same "this is adapted from Split Ticket's
+  method, not identical to it" caveats and the uncontested-race WAR
+  inflation limitation. Linked from the site nav and from every WAR table
+  footnote (seat/district pages), replacing what had been a link straight
+  to the design plan's raw GitHub markdown.

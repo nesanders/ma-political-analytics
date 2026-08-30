@@ -3,6 +3,7 @@ chamber: senate
 vintage: 2022-present
 district_id: D03
 district_name: Hampden District
+geo_slug: senate-hampden-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.679

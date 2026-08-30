@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '127'
 district_name: 5th Suffolk District
+geo_slug: house-5th-suffolk-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.8238

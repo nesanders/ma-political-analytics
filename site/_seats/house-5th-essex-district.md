@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 028
 district_name: 5th Essex District
+geo_slug: house-5th-essex-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6927

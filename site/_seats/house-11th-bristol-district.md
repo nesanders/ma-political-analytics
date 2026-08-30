@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '020'
 district_name: 11th Bristol District
+geo_slug: house-11th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6204

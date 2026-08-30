@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '160'
 district_name: 19th Worcester District
+geo_slug: house-19th-worcester-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.6799

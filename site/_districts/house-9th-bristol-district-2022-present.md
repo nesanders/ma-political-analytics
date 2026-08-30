@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 018
 district_name: 9th Bristol District
+geo_slug: house-9th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5739

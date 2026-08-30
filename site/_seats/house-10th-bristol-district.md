@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: 019
 district_name: 10th Bristol District
+geo_slug: house-10th-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5411

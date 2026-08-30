@@ -3,6 +3,7 @@ chamber: house
 vintage: 2022-present
 district_id: '010'
 district_name: 1st Bristol District
+geo_slug: house-1st-bristol-district-2022-present
 years:
 - 2022
 lean_dem_share: 0.5712
