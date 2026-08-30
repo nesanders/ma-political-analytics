@@ -43,16 +43,30 @@ from ma_politics.util.http import get, make_session
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://electionstats.state.ma.us"
-OFFICE_IDS = {"house": 8, "senate": 9}
+# "house"/"senate" are the primary target (district-level MA legislative
+# races); "governor"/"president" are statewide top-of-ticket races pulled
+# for the partisan-lean baseline (docs/PLAN.md §4), not standalone output.
+OFFICE_IDS = {"house": 8, "senate": 9, "governor": 3, "president": 1}
+STATEWIDE_OFFICES = {"governor", "president"}
 
 # PD43+'s own stage vocabulary (see the "SearchOfficeId"/"stageListForOffice*"
 # <select> options on /elections/search/).
 STAGE_GENERAL = "General"
 STAGE_PRIMARIES = "Primaries"  # all parties' primaries in one query
 
+# office is an explicit alternation, not a generic ".+?" — a lazy office
+# group would backtrack into the office name for multi-word offices (e.g.
+# swallow "Representative" as part of "party" for "State Representative
+# Democratic Primary ..."), silently mis-splitting office vs. party. Keep
+# this list in sync with OFFICE_IDS. {district} is optional: statewide
+# races' titles have nothing after "General Election"/"Primary" at all
+# (e.g. "PD43+ » 2022 Governor General Election") — confirmed live.
+# district_raw is set to "Massachusetts" for those after the match.
 TITLE_RE = re.compile(
-    r"^PD43\+\s*»\s*(?P<year>\d{4})\s+(?P<office>State (?:Senate|Representative))\s+"
-    r"(?P<special>Special\s+)?(?:(?P<party>.+?)\s+Primary|General Election)\s+(?P<district>.+)$"
+    r"^PD43\+\s*»\s*(?P<year>\d{4})\s+"
+    r"(?P<office>State (?:Senate|Representative)|Governor|President)\s+"
+    r"(?P<special>Special\s+)?(?:(?P<party>.+?)\s+Primary|General Election)"
+    r"(?:\s+(?P<district>.+))?$"
 )
 
 
@@ -109,7 +123,7 @@ def fetch_race_detail(session, election_id: str, chamber: str) -> Race:
     party = m.group("party")
     stage = "primary" if party else "general"
     is_special = bool(m.group("special"))
-    district_raw = m.group("district").strip()
+    district_raw = (m.group("district") or "Massachusetts").strip()
 
     candidates: list[Candidate] = []
     for cdiv in soup.find_all("div", class_="candidate"):
