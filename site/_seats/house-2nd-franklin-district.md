@@ -1,0 +1,33 @@
+---
+chamber: house
+vintage: 2022-present
+year: 2022
+district_name: 2nd Franklin District
+district_id: '043'
+lean_dem_share: 0.6017
+competitiveness: Safe
+competitiveness_label: Safe D
+party_favored: Democratic
+is_uncontested: true
+candidates:
+- name: Susannah M. Whipps
+  party: Other
+  votes: 9797
+  winner: true
+  actual_two_party_share: 2.0027
+  war: null
+- name: Jeffrey L. Raymond
+  party: Republican
+  votes: 4892
+  winner: false
+  actual_two_party_share: 1.0
+  war: 0.6017
+- name: Kevin Patrick McKeown (W)
+  party: Other
+  votes: 736
+  winner: false
+  actual_two_party_share: 0.1504
+  war: null
+title: 2nd Franklin District
+layout: seat
+---

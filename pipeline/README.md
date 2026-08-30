@@ -93,3 +93,19 @@ full.
   mismatches in either direction (checked both ways) after fixing a real
   wrong-match bug found in the process — see the commit history for
   `derived_metrics.py` for what that was and how it was caught.
+
+- `python -m ma_politics.build.generate_site_data --chamber both --year 2022 --vintage 2022-present`
+  Emits one Markdown-with-YAML-frontmatter file per seat into `--out-dir`
+  (default `site/_seats`) — Jekyll's own collection mechanism renders
+  these via `site/_layouts/seat.html`, no separate HTML generator needed
+  (see docs/PLAN.md §7). **This is committed site content, not a build
+  artifact** — unlike `data/raw`/`data/interim` (gitignored), the pipeline
+  is meant to be run manually/periodically per the project's requirements,
+  with its output checked in so GitHub Actions' Jekyll build (which only
+  runs Jekyll, not Python) has something to render. Verified end to end:
+  ran a real `bundle exec jekyll build` against the 200 generated pages,
+  inspected several rendered HTML pages (a Safe D uncontested seat, a
+  contested race, a Tossup R seat) — all correct, including a Liquid
+  filter-chaining bug caught by that inspection (candidate links were
+  slugifying the whole `/candidate/Name` path instead of just the name,
+  producing `/candidate-name/` instead of `/candidate/name/`).

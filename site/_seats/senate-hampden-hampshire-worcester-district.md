@@ -1,0 +1,27 @@
+---
+chamber: senate
+vintage: 2022-present
+year: 2022
+district_name: Hampden-Hampshire-Worcester District
+district_id: D04
+lean_dem_share: 0.559
+competitiveness: Likely
+competitiveness_label: Likely D
+party_favored: Democratic
+is_uncontested: false
+candidates:
+- name: Jacob R. Oliveira
+  party: Democratic
+  votes: 37410
+  winner: true
+  actual_two_party_share: 0.5631
+  war: 0.0041
+- name: William E. Johnson
+  party: Republican
+  votes: 29027
+  winner: false
+  actual_two_party_share: 0.4369
+  war: -0.0041
+title: Hampden-Hampshire-Worcester District
+layout: seat
+---

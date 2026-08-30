@@ -1,0 +1,27 @@
+---
+chamber: house
+vintage: 2022-present
+year: 2022
+district_name: 22nd Middlesex District
+district_id: 080
+lean_dem_share: 0.5359
+competitiveness: Lean
+competitiveness_label: Lean D
+party_favored: Democratic
+is_uncontested: false
+candidates:
+- name: Marc T. Lombardo
+  party: Republican
+  votes: 9224
+  winner: true
+  actual_two_party_share: 0.5435
+  war: 0.0794
+- name: Teresa Nicole English
+  party: Democratic
+  votes: 7747
+  winner: false
+  actual_two_party_share: 0.4565
+  war: -0.0794
+title: 22nd Middlesex District
+layout: seat
+---
