@@ -460,3 +460,31 @@ included, not by "real" versus "string" content.
   matching seats and candidates from a dropdown, and clicking one
   navigates to the correct page — confirming the index really is shared
   and not duplicated per page.
+
+- **Institutional theming** (`site/assets/css/main.css`,
+  `site/_layouts/default.html`, `index.md`, `party/index.md`,
+  `chamber.html`): fills out docs/PLAN.md §11's "restrained institutional
+  palette" and "member-directory-style listing cards," the last pieces of
+  that section. A fixed dark-navy masthead (`--masthead-*` tokens) gives
+  every page a persistent civic header that deliberately doesn't flip
+  with the light/dark toggle, and deliberately isn't blue or red — this
+  site's own chart tokens (`--series-dem`/`--series-rep`) already use
+  that exact pair for Democratic/Republican, so a partisan-colored
+  masthead on a nonpartisan site would misread as an endorsement. New
+  `--surface-page`/`--surface-card` tokens (the dataviz skill's own "page
+  plane" vs. "chart surface" roles, not invented here) give cards and
+  stat tiles visible depth against the page background. The `/party/`
+  index (3 rows) is now a card grid with a party-colored left border
+  reusing the existing chart tokens — legitimate there, since the page is
+  literally about parties — while `/candidate/` (282 rows) and `/town/`
+  (351 rows) deliberately stay sortable tables: this same section of the
+  plan also calls for "sortable/searchable leaderboard tables as landing
+  views" for stat-dense pages, and a few hundred unsorted cards would be
+  a worse way to scan that many rows than the existing sortable table.
+  New stat-tile KPI rows replace the homepage's plain paragraph and each
+  chamber page's "At a glance" bullet list with headline-metric-first
+  tiles. Verified live in both light and dark mode via headless-browser
+  screenshots: masthead, cards, and stat tiles all render correctly with
+  real numbers (200 seats / 282 candidates / 351 towns on the homepage),
+  and a seat page plus the header search dropdown were re-checked for
+  regressions from the new header/footer markup — none found.

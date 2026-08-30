@@ -1,13 +1,21 @@
-/* Placeholder stylesheet — full theme design is a later phase (see docs/PLAN.md §11).
-   Chart tokens below follow the dataviz skill's reference palette (diverging
-   blue<->red pair, validated for CVD-safety) since charts are needed now. */
+/* Institutional civic theme (docs/PLAN.md §11: "restrained institutional
+   palette, civic not flashy"). Chart tokens (surface/ink/gridline/series-*)
+   are the dataviz skill's own validated reference palette, unchanged —
+   swapping those hexes would require re-running the skill's CVD validator,
+   and they already pass it. Everything below them (page/card surfaces,
+   the masthead, directory/stat-tile components) is new site chrome layered
+   on top, using the palette's own "page plane" / "border hairline" roles
+   the chart tokens alone never needed. */
 :root {
   color-scheme: light;
   --chart-surface: #fcfcfb;
+  --surface-page: #f9f9f7;
+  --surface-card: #fcfcfb;
   --text-primary: #0b0b0b;
   --text-secondary: #52514e;
   --text-muted: #898781;
   --gridline: #e1e0d9;
+  --border-hairline: rgba(11, 11, 11, 0.1);
   --series-dem: #2a78d6;
   --series-rep: #e34948;
   --series-neutral: #f0efec;
@@ -17,10 +25,13 @@
   :root:not([data-theme="light"]) {
     color-scheme: dark;
     --chart-surface: #1a1a19;
+    --surface-page: #0d0d0d;
+    --surface-card: #1a1a19;
     --text-primary: #ffffff;
     --text-secondary: #c3c2b7;
     --text-muted: #898781;
     --gridline: #2c2c2a;
+    --border-hairline: rgba(255, 255, 255, 0.1);
     --series-dem: #3987e5;
     --series-rep: #e66767;
     --series-neutral: #383835;
@@ -30,40 +41,115 @@
 :root[data-theme="dark"] {
   color-scheme: dark;
   --chart-surface: #1a1a19;
+  --surface-page: #0d0d0d;
+  --surface-card: #1a1a19;
   --text-primary: #ffffff;
   --text-secondary: #c3c2b7;
   --text-muted: #898781;
   --gridline: #2c2c2a;
+  --border-hairline: rgba(255, 255, 255, 0.1);
   --series-dem: #3987e5;
   --series-rep: #e66767;
   --series-neutral: #383835;
 }
 
+/* Fixed institutional masthead — deliberately does not flip with the
+   light/dark toggle (a persistent civic "letterhead," the way a masthead
+   on a government or press site usually stays put), and deliberately not
+   blue or red: this site's own chart palette already uses that pair to
+   mean Democratic/Republican, so a masthead accent in either would read
+   as this nonpartisan site endorsing a side. */
+:root {
+  --masthead-bg: #1b2430;
+  --masthead-text: #f5f5f2;
+  --masthead-text-muted: #a7afbb;
+  --masthead-border: #2e3a49;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: system-ui, sans-serif;
-  max-width: 60rem;
-  margin: 0 auto;
-  padding: 1rem;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
-  background: var(--chart-surface);
+  background: var(--surface-page);
   color: var(--text-primary);
 }
 
+main, header > .header-inner, footer > .footer-inner {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+main {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+header {
+  background: var(--masthead-bg);
+  border-bottom: 1px solid var(--masthead-border);
+}
+
+header .header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1.1rem;
+}
+
 header nav a {
-  margin-right: 1rem;
+  color: var(--masthead-text-muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+header nav a:first-child {
+  color: var(--masthead-text);
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-right: 0.5rem;
+}
+
+header nav a:hover,
+header nav a:focus {
+  color: var(--masthead-text);
+  text-decoration: underline;
 }
 
 #header-search {
   position: relative;
-  margin-top: 0.5rem;
-  max-width: 16rem;
+  width: 15rem;
+  max-width: 100%;
 }
 
 #header-search-input {
   width: 100%;
-  padding: 0.35rem 0.5rem;
+  padding: 0.35rem 0.6rem;
   font-size: 0.9rem;
   box-sizing: border-box;
+  border: 1px solid var(--masthead-border);
+  border-radius: 4px;
+  background: var(--masthead-text);
+  color: #14181d;
+}
+
+#header-search-input::placeholder {
+  color: #5c6b7a;
 }
 
 #header-search-dropdown {
@@ -72,8 +158,9 @@ header nav a {
   left: 0;
   right: 0;
   z-index: 10;
-  background: var(--chart-surface);
+  background: var(--surface-card);
   border: 1px solid var(--gridline);
+  border-radius: 0 0 4px 4px;
   max-height: 20rem;
   overflow-y: auto;
 }
@@ -93,6 +180,18 @@ header nav a {
 #header-search-dropdown a span {
   color: var(--text-muted);
   font-size: 0.85rem;
+}
+
+footer {
+  border-top: 1px solid var(--gridline);
+  margin-top: 2rem;
+}
+
+footer .footer-inner {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
 }
 
 table {
@@ -174,4 +273,129 @@ th.sortable-col.sorted-desc::after {
 #compare-panel {
   margin-top: 1.5rem;
   max-width: 40rem;
+}
+
+/* Member-directory-style listing cards (docs/PLAN.md §11) — for small,
+   people/entity-oriented listings (parties). The larger, sortable
+   analytics tables (seats, candidates, towns) stay tables on purpose:
+   the same §11 also calls for "sortable/searchable leaderboard tables as
+   landing views" for stat-dense pages, and a few hundred unsorted cards
+   would be a worse way to scan 282 candidates than the existing
+   sortable/searchable table. */
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.directory-card {
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid var(--series-neutral);
+}
+
+.directory-card.party-democratic {
+  border-left-color: var(--series-dem);
+}
+
+.directory-card.party-republican {
+  border-left-color: var(--series-rep);
+}
+
+.directory-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.directory-card h3 a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.directory-card h3 a:hover {
+  text-decoration: underline;
+}
+
+.directory-card dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.15rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.directory-card dt {
+  color: var(--text-muted);
+}
+
+.directory-card dd {
+  margin: 0;
+  text-align: right;
+}
+
+/* Stat tiles — headline-metric-first KPI rows (docs/PLAN.md §11), used on
+   the homepage and each chamber page's "At a glance" summary. */
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-tile {
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  flex: 1 1 9rem;
+}
+
+.stat-tile .stat-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-tile .stat-label {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+/* Homepage quick-link cards */
+.quicklink-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.85rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.quicklink {
+  display: block;
+  background: var(--surface-card);
+  border: 1px solid var(--border-hairline);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.quicklink:hover {
+  border-color: var(--text-secondary);
+}
+
+.quicklink .quicklink-desc {
+  display: block;
+  color: var(--text-muted);
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
 }

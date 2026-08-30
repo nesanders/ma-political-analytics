@@ -34,15 +34,24 @@ layout: default
 
   <section>
     <h2>At a glance</h2>
-    <ul>
-      <li>{{ contested_count }} of {{ total_seats }} most-recent races were contested ({{ contested_count | times: 100.0 | divided_by: total_seats | round: 0 }}%).</li>
+    <div class="stat-row">
+      <div class="stat-tile">
+        <div class="stat-value">{{ contested_count | times: 100.0 | divided_by: total_seats | round: 0 }}%</div>
+        <div class="stat-label">{{ contested_count }} of {{ total_seats }} most-recent races contested</div>
+      </div>
       {% if incumbent_running_count > 0 %}
-      <li>{{ incumbent_win_count }} of {{ incumbent_running_count }} incumbents running won re-election ({{ incumbent_win_count | times: 100.0 | divided_by: incumbent_running_count | round: 0 }}%).</li>
+      <div class="stat-tile">
+        <div class="stat-value">{{ incumbent_win_count | times: 100.0 | divided_by: incumbent_running_count | round: 0 }}%</div>
+        <div class="stat-label">{{ incumbent_win_count }} of {{ incumbent_running_count }} incumbents re-elected</div>
+      </div>
       {% endif %}
       {% if open_seat_count > 0 %}
-      <li>{{ open_seat_count }} open seats (no incumbent ran).</li>
+      <div class="stat-tile">
+        <div class="stat-value">{{ open_seat_count }}</div>
+        <div class="stat-label">Open seats (no incumbent ran)</div>
+      </div>
       {% endif %}
-    </ul>
+    </div>
     <p><small>
       From each seat's most recent election on record. Incumbency and
       open-seat status are only known once a second election exists for a

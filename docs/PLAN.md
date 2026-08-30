@@ -257,23 +257,46 @@ methodology disclosed near the fold, small multiples preferred over single
 large charts, sortable/searchable leaderboard tables as landing views, and a
 visible per-metric methodology page throughout.
 
-**Status**: the House/Senate chamber split, sortable leaderboard tables,
-headline-metric-first layout, and per-metric methodology page were already
-built earlier (see the Phased Roadmap below). A **consistent search bar
-across sections** is now built too: a compact search box sits in the
-header on every page (`site/_layouts/default.html`), backed by one shared
-JSON index (`/search/index.json`, generated once at build time from
-`site.seats`/`candidates`/`towns`/`parties` rather than embedded inline on
-every page — that would have added ~190KB to each of this site's ~1,000
-generated pages) and fetched lazily on first use, not on every page load.
-Verified live: typing in the header box on a page that isn't `/search/`
-itself (`/town/`) returns real matching seats and candidates, and
-clicking one navigates correctly. The color palette itself (see
-`site/assets/css/main.css`) and member-directory-style listing cards for
-the browse pages (currently plain sortable tables, not cards) remain
-open — a genuine visual-design pass, not a data or interaction feature,
-and scoped out of this session's "continue down the list" cycle
-accordingly.
+**Status**: all of §11 is now built. The House/Senate chamber split,
+sortable leaderboard tables, headline-metric-first layout, and per-metric
+methodology page were built earlier (see the Phased Roadmap below). A
+**consistent search bar across sections** is built too: a compact search
+box sits in the header on every page (`site/_layouts/default.html`),
+backed by one shared JSON index (`/search/index.json`, generated once at
+build time from `site.seats`/`candidates`/`towns`/`parties` rather than
+embedded inline on every page — that would have added ~190KB to each of
+this site's ~1,000 generated pages) and fetched lazily on first use, not
+on every page load. Verified live: typing in the header box on a page
+that isn't `/search/` itself (`/town/`) returns real matching seats and
+candidates, and clicking one navigates correctly.
+
+The **restrained institutional palette** and **member-directory-style
+listing cards** are now built too. A fixed dark-navy masthead (`site/
+_layouts/default.html`, `--masthead-*` tokens in `main.css`) gives every
+page a persistent civic "letterhead" that deliberately does *not* flip
+with the light/dark toggle — and deliberately isn't blue or red, since
+this site's own chart palette already uses that exact pair to mean
+Democratic/Republican; a partisan-colored masthead on a nonpartisan
+analytics site would misread as an endorsement. A new page-plane/card-
+surface distinction (`--surface-page`/`--surface-card`, both drawn from
+the dataviz skill's own "page plane" vs. "chart surface" roles, not
+invented) gives cards and stat tiles visible depth against the page.
+**Member-directory-style cards** now replace the `/party/` index's table
+(3 parties, each with a party-colored left border using the same
+`--series-dem`/`--series-rep` chart tokens — legitimate here, since the
+page is literally about parties) — deliberately *not* applied to the
+282-candidate or 351-town listings, which stay sortable/searchable tables
+per this same section's other instruction ("sortable/searchable
+leaderboard tables as landing views" for stat-dense pages); a few hundred
+unsorted cards would be a worse way to scan that many rows. New **stat-
+tile KPI rows** (also `main.css`) replace the homepage's plain paragraph
+and each chamber page's "At a glance" bullet list with headline-metric-
+first tiles, matching §11's own "headline metric first" instruction.
+Verified live in both light and dark mode (headless browser screenshots):
+masthead, cards, and stat tiles all render correctly, real numbers
+throughout (200 seats / 282 candidates / 351 towns on the homepage; a
+seat/district page and the search dropdown both re-verified with no
+regressions from the new header/footer markup).
 
 ## 12. Phased Roadmap
 
@@ -281,7 +304,7 @@ accordingly.
 |---|---|---|
 | 0 | Repo scaffold, finalize schema, confirm district vintages | **Done** — Python pipeline package + Jekyll site skeleton + Actions build/deploy workflow, all verified to actually build. |
 | 1 | Data pipeline: results + boundaries + demographics + campaign finance + crosswalks, back to at least the 2001 vintage (≈24 years) | Fetchers + crosswalks **verified against live data** for all three vintages (see `pipeline/README.md` for exact numbers: elections, boundaries incl. the MIT-sourced 2001 vintage, PL94-171/ACS demographics, OCPF finance, town↔district overlap, seat lineage). Demographics and campaign finance are now **surfaced on the site**, not just fetched — see rows 2 and 4 below. The full multi-decade election-results backfill (2002-2024, both chambers, plus statewide governor/president baselines) is running as a long background job — see `pipeline/README.md` for status once it completes. |
-| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming | Seat, district, candidate, town, and party entity pages **done and verified live**, including a top-level index page for each (`/district/`, `/candidate/`, `/town/`, `/party/`, alongside the existing `/chamber/{house,senate}/`), a `/methodology/` page explaining lean and WAR, and site-wide sortable tables — real jekyll build, walked the actual link chain in a browser. Seats now carry a `history` section linking back through prior redistricting vintages via seat_lineage. District and seat pages now show a **Demographics** section (2020 Census population + ACS 5-year income/education, current vintage only — see `pipeline/README.md`), and candidate pages show a **Campaign finance** section (OCPF totals by year). Real theming (beyond the placeholder palette) not started. |
+| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming | Seat, district, candidate, town, and party entity pages **done and verified live**, including a top-level index page for each (`/district/`, `/candidate/`, `/town/`, `/party/`, alongside the existing `/chamber/{house,senate}/`), a `/methodology/` page explaining lean and WAR, and site-wide sortable tables — real jekyll build, walked the actual link chain in a browser. Seats now carry a `history` section linking back through prior redistricting vintages via seat_lineage. District and seat pages now show a **Demographics** section (2020 Census population + ACS 5-year income/education, current vintage only — see `pipeline/README.md`), and candidate pages show a **Campaign finance** section (OCPF totals by year). **Real theming is now built** — see §11 below for the full writeup (institutional masthead, page/card surface distinction, member-directory cards, stat-tile KPI rows), verified live in both light and dark mode. |
 | 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through | Scatter/strip plot **done and verified live**: district-lean-by-seat chart on each chamber page, click-through confirmed with an actual browser (Playwright) — clicking a point navigates to that seat's page, screenshotted for both chambers. District/seat pages render a **map** of the district's own boundary (MapLibre GL JS, GeoJSON published per district-vintage), colored by favored party. A **statewide overview map** (`/map/`, docs/PLAN.md §5's "statewide map landing page") now shows every district in a chamber at once, colored by lean/competitiveness, click-through to that district's page — verified live: real Massachusetts geography renders correctly (Republican-leaning districts cluster in western MA and south of Boston, matching the state's actual political geography), and a real click-through test caught and fixed a genuine bug (a district URL missing the deployment's baseurl prefix, landing on a 404 — see `pipeline/README.md`). The free CARTO basemap tiles underneath both map types aren't reachable from this session's network policy to verify directly (real browsers reach them). A **search/compare tool** (`/search/`, §5) is now built and verified live: substring search across every seat, candidate, town, and party (a Jekyll-rendered JSON index, filtered client-side — no server or DuckDB needed for this), with an "Add to compare" flow on seats that renders a side-by-side table (lean, turnout, open-seat status, demographics) for up to two — real numbers confirmed for 1st vs. 2nd Barnstable District. A true **binned histogram** of district lean (5-point buckets, distinct from the existing strip plot) is now on every chamber page, and a **line chart** of a seat/district's own lean over time is now on every seat/district page — both verified live; the line chart currently plots one point per district (2022-only data so far) and is designed to fill in automatically as the multi-decade backfill lands, with an on-page note saying so while it's still sparse. |
 | 4 | Derived analytics: WAR (adapted), lean, competitiveness, turnout, incumbency | Lean, competitiveness, WAR, turnout, and incumbency all **built and verified live** against real 2022 House+Senate data (see `pipeline/README.md`) — apportioned statewide share reconstructs the true Governor result exactly, competitiveness matches MA's known partisan lean, all 200 district names matched with zero mismatches after fixing a real wrong-match bug, turnout_ratio computed from data already on hand (no new fetching needed), and incumbency/open-seat status derived from this site's own accumulated multi-year results (verified with a synthetic two-year test ahead of the real backfill). Surfaced on seat/district pages, a new chamber-page "At a glance" summary (contested-race rate, incumbent win rate, open-seat count), and in AskAI's queryable tables/example queries. Three documented, not-yet-addressed limitations: WAR is mechanically inflated for uncontested races (flagged via an `is_uncontested` column, not fixed); lean and turnout_ratio use area-weighted rather than population-weighted town↔district apportionment; and incumbency isn't chased across a redistricting-vintage boundary (a deliberate scope choice, not an oversight — see the methodology page). Not yet built: incumbency/finance as actual WAR regression inputs (the "v2" baseline). |
 | 5 | AskAI: semantic layer + DuckDB-Wasm + AI SDK (multi-provider) React sidebar | Built and mostly verified live (see `pipeline/README.md`'s AskAI section): the SQL safety guard and real DuckDB query execution against real published data, and the sidebar UI (toggle, BYOK settings, per-provider key storage, chat loop reaching a real `fetch()` against a provider API) all confirmed in a real headless browser — including two real bugs caught and fixed that way. Not verified: an actual LLM round-trip (no provider API key/network access from this session) and the DuckDB-Wasm browser bundle's jsDelivr/extensions.duckdb.org loading path specifically. |

@@ -13,28 +13,32 @@
 </head>
 <body data-site-baseurl="{{ site.baseurl }}" data-askai-page-title="{{ page.title | default: site.title | escape }}" data-askai-page-description="{{ page.description | default: site.description | escape }}">
   <header>
-    <nav>
-      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-      <a href="{{ '/chamber/house/' | relative_url }}">House</a>
-      <a href="{{ '/chamber/senate/' | relative_url }}">Senate</a>
-      <a href="{{ '/map/' | relative_url }}">Map</a>
-      <a href="{{ '/district/' | relative_url }}">Districts</a>
-      <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
-      <a href="{{ '/town/' | relative_url }}">Towns</a>
-      <a href="{{ '/party/' | relative_url }}">Parties</a>
-      <a href="{{ '/search/' | relative_url }}">Search &amp; Compare</a>
-      <a href="{{ '/methodology/' | relative_url }}">Methodology</a>
-    </nav>
-    <div id="header-search">
-      <input type="search" id="header-search-input" placeholder="Quick search&hellip;" autocomplete="off" aria-label="Search seats, candidates, towns, parties">
-      <div id="header-search-dropdown" hidden></div>
+    <div class="header-inner">
+      <nav>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <a href="{{ '/chamber/house/' | relative_url }}">House</a>
+        <a href="{{ '/chamber/senate/' | relative_url }}">Senate</a>
+        <a href="{{ '/map/' | relative_url }}">Map</a>
+        <a href="{{ '/district/' | relative_url }}">Districts</a>
+        <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
+        <a href="{{ '/town/' | relative_url }}">Towns</a>
+        <a href="{{ '/party/' | relative_url }}">Parties</a>
+        <a href="{{ '/search/' | relative_url }}">Search &amp; Compare</a>
+        <a href="{{ '/methodology/' | relative_url }}">Methodology</a>
+      </nav>
+      <div id="header-search">
+        <input type="search" id="header-search-input" placeholder="Quick search&hellip;" autocomplete="off" aria-label="Search seats, candidates, towns, parties">
+        <div id="header-search-dropdown" hidden></div>
+      </div>
     </div>
   </header>
   <main>
     {{ content }}
   </main>
   <footer>
-    <p>Data pipeline and methodology: <a href="https://github.com/nesanders/ma-political-analytics">source</a>.</p>
+    <div class="footer-inner">
+      <p>Data pipeline and methodology: <a href="https://github.com/nesanders/ma-political-analytics">source</a>.</p>
+    </div>
   </footer>
   <script src="{{ '/assets/js/sortable-tables.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
