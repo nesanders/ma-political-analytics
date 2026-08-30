@@ -17,19 +17,30 @@ redirect chain: https://www2.census.gov/geo/tiger/TIGER{year}/SLD{U,L}/
 tl_{year}_25_sld{u,l}.zip (25 = MA's FIPS code). Confirmed live for the 2012
 vintage (used 2012-2020) and the 2022 vintage (used 2022-present).
 
-The 2001 vintage (used 2002-2010) is NOT yet wired up here: TIGER's
+The 2001 vintage (used 2002-2010) is NOT covered by TIGER: TIGER's
 per-state SLDU/SLDL zip pattern only starts around TIGER2012 (TIGER2010/2011
-directories exist but were empty for every state when checked). The actual
-2001-vintage boundaries were tracked down to MIT Libraries' GeoData
-Repository, which archives them after MassGIS retired the live copies:
-Senate at https://geodata.libraries.mit.edu/record/gismit:MASENATEDIST02
-("Senate Districts Massachusetts 2002 ... 40 districts used in the Fall
-2002 elections") and House at
-https://geodata.libraries.mit.edu/record/gisogm:edu.harvard:b07d39bbd8fe
-(Harvard-sourced, mirrored on the same MIT portal). geodata.libraries.mit.edu
-isn't allowlisted yet — see docs/PLAN.md's network appendix. Calling
-fetch_vintage("2001") raises NotImplementedError rather than silently
-returning nothing.
+directories exist but were empty for every state when checked). It comes
+from MIT Libraries' GeoData Repository instead, which archives it after
+MassGIS retired the live copies. The catalog pages
+(geodata.libraries.mit.edu/record/...) link out to actual shapefile zips on
+a *separate* host, cdn.libraries.mit.edu — both needed to be allowlisted.
+The House record initially found via search
+(gisogm:edu.harvard:b07d39bbd8fe) turned out to be the *wrong* vintage —
+its own page says "Chapter 273 of the Acts of 1993", the redistricting
+*before* 2001's, used through the 2000 elections — a trap worth flagging
+since the title alone ("Massachusetts House Legislative Districts") reads
+as generic. The right one, found via geodata.libraries.mit.edu/results, is
+gismit:US_MA_F7HOUSE_2002 (MIT-hosted directly, not a Harvard pointer).
+Confirmed correct pair, both used in the Fall 2002 elections:
+- Senate: https://cdn.libraries.mit.edu/geo/public/MASENATEDIST02.zip
+- House: https://cdn.libraries.mit.edu/geo/public/US_MA_F7HOUSE_2002.zip
+
+Both are un-dissolved: multiple polygon rows per district (261 rows / 40
+Senate districts, 352 / 160 House districts) rather than one row per
+district like TIGER — dissolved here by district number before writing out.
+Also reprojected from their native Massachusetts State Plane CRS (feet for
+Senate/EPSG:2249, meters for House/EPSG:26986 — inconsistent between the
+two files) to EPSG:4269 to match the TIGER-sourced vintages.
 """
 
 from __future__ import annotations
@@ -47,18 +58,36 @@ from ma_politics.util.http import get, make_session
 logger = logging.getLogger(__name__)
 
 MA_FIPS = "25"
+TARGET_CRS = "EPSG:4269"  # NAD83 geographic — matches TIGER's native CRS
 
 # vintage -> (label, TIGER release year to pull from)
 # The TIGER release year need not equal the vintage's first election year —
 # it just needs to be any TIGER year that falls within the vintage's span,
 # since Census re-publishes the same current boundaries every year between
 # redistricting cycles.
-VINTAGES = {
+TIGER_VINTAGES = {
     "2012-2020": 2013,
     "2022-present": 2023,
 }
 
 CHAMBER_TIGER = {"senate": "sldu", "house": "sldl"}
+
+# MIT GeoData Repository: (zip URL, path to .shp inside the zip, column to
+# dissolve on to get one row per district — these files ship un-dissolved).
+MIT_VINTAGE_2001 = {
+    "senate": (
+        "https://cdn.libraries.mit.edu/geo/public/MASENATEDIST02.zip",
+        "MASENATEDIST02/MASENATEDIST02.shp",
+        "SENDISTNUM",
+    ),
+    "house": (
+        "https://cdn.libraries.mit.edu/geo/public/US_MA_F7HOUSE_2002.zip",
+        "US_MA_F7HOUSE_2002/US_MA_F7HOUSE_2002.shp",
+        "REPDISTNUM",
+    ),
+}
+
+VINTAGES = {**TIGER_VINTAGES, "2001-2010": None}
 
 
 def _tiger_url(year: int, chamber: str) -> str:
@@ -66,37 +95,44 @@ def _tiger_url(year: int, chamber: str) -> str:
     return f"https://www2.census.gov/geo/tiger/TIGER{year}/{layer.upper()}/tl_{year}_25_{layer}.zip"
 
 
-def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Path:
-    if vintage not in VINTAGES:
-        raise NotImplementedError(
-            f"No TIGER source for vintage {vintage!r} — TIGER's per-state "
-            "SLD zip pattern doesn't reach back to the 2001 vintage. See "
-            "this module's docstring: the actual boundaries live at MIT "
-            "Libraries' GeoData Repository "
-            "(geodata.libraries.mit.edu/record/gismit:MASENATEDIST02 for "
-            "Senate, .../record/gisogm:edu.harvard:b07d39bbd8fe for House), "
-            "not yet wired up here and not yet allowlisted."
-        )
-    session = session or make_session(min_interval_s=0.5)
-    year = VINTAGES[vintage]
-    url = _tiger_url(year, chamber)
-    out_path = out_dir / f"{chamber}_{vintage}.geoparquet"
-    out_dir.mkdir(parents=True, exist_ok=True)
-
+def _download_shapefile(url: str, shp_path_in_zip: str | None, extract_dir: Path, session) -> gpd.GeoDataFrame:
+    """shp_path_in_zip=None auto-detects the single .shp in the archive
+    (TIGER zips have it at the root; the exact name varies by layer/year)."""
     resp = get(session, url)
     with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
-        shp_names = [n for n in zf.namelist() if n.endswith(".shp")]
-        if len(shp_names) != 1:
-            raise ValueError(f"Expected exactly one .shp in {url}, found {shp_names}")
-        # geopandas needs all sidecar files (.shx/.dbf/.prj) on disk together
-        extract_dir = out_dir / f"_tmp_{chamber}_{vintage}"
-        extract_dir.mkdir(exist_ok=True)
+        if shp_path_in_zip is None:
+            shp_names = [n for n in zf.namelist() if n.endswith(".shp")]
+            if len(shp_names) != 1:
+                raise ValueError(f"Expected exactly one .shp in {url}, found {shp_names}")
+            shp_path_in_zip = shp_names[0]
+        extract_dir.mkdir(parents=True, exist_ok=True)
         zf.extractall(extract_dir)
-        gdf = gpd.read_file(extract_dir / shp_names[0])
+    return gpd.read_file(extract_dir / shp_path_in_zip)
 
+
+def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Path:
+    session = session or make_session(min_interval_s=0.5)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / f"{chamber}_{vintage}.geoparquet"
+    extract_dir = out_dir / f"_tmp_{chamber}_{vintage}"
+
+    if vintage in TIGER_VINTAGES:
+        year = TIGER_VINTAGES[vintage]
+        url = _tiger_url(year, chamber)
+        gdf = _download_shapefile(url, None, extract_dir, session)
+        source = f"TIGER{year}"
+    elif vintage == "2001-2010":
+        url, shp_path, dissolve_col = MIT_VINTAGE_2001[chamber]
+        raw = _download_shapefile(url, shp_path, extract_dir, session)
+        gdf = raw.dissolve(by=dissolve_col).reset_index()
+        source = "MIT GeoData Repository (2002-vintage shapefile)"
+    else:
+        raise ValueError(f"Unknown vintage {vintage!r}")
+
+    gdf = gdf.to_crs(TARGET_CRS)
     gdf["chamber"] = chamber
     gdf["vintage"] = vintage
-    gdf["source"] = f"TIGER{year}"
+    gdf["source"] = source
     gdf.to_parquet(out_path)
     logger.info("Wrote %d districts to %s (crs=%s)", len(gdf), out_path, gdf.crs)
     return out_path
@@ -106,13 +142,14 @@ def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Pa
 @click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
 @click.option(
     "--vintage",
-    type=click.Choice(["2012-2020", "2022-present", "all"]),
+    type=click.Choice([*VINTAGES, "all"]),
     default="all",
 )
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("data/raw/boundaries"))
 @click.option("-v", "--verbose", is_flag=True)
 def main(chamber: str, vintage: str, out_dir: Path, verbose: bool):
-    """Fetch MA state legislative district boundaries from Census TIGER/Line."""
+    """Fetch MA state legislative district boundaries (TIGER for 2012/2022
+    vintages, MIT GeoData Repository for the 2001 vintage)."""
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintages = list(VINTAGES) if vintage == "all" else [vintage]

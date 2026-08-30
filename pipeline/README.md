@@ -25,11 +25,13 @@ skipped, so re-running after a future election only pulls new rows.
   of requests and will take a while — run it in the background.
 
 - `python -m ma_politics.fetch.district_boundaries --chamber both --vintage all`
-  District boundaries from Census TIGER/Line (not MassGIS — see the module
-  docstring for why). Writes `<chamber>_<vintage>.geoparquet` to `--out-dir`
-  (default `data/raw/boundaries`). Only the 2012-2020 and 2022-present
-  vintages are wired up; the 2001 vintage (2002-2010) isn't yet — see the
-  module docstring and `docs/PLAN.md`'s network appendix.
+  District boundaries — 2012-2020 and 2022-present from Census TIGER/Line,
+  2001-2010 from MIT Libraries' GeoData Repository (see the module
+  docstring for why, and for a naming trap in the MIT catalog worth reading
+  before touching this again). Writes `<chamber>_<vintage>.geoparquet` to
+  `--out-dir` (default `data/raw/boundaries`), all reprojected to a common
+  CRS (EPSG:4269). Verified live for all three vintages: 40 Senate + 160-161
+  House districts each, all valid geometries.
 
 - `CENSUS_API_KEY=... python -m ma_politics.fetch.demographics --chamber both --acs-year 2022`
   District-level demographics (PL 94-171 total/voting-age population, ACS

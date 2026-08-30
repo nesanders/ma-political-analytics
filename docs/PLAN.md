@@ -300,14 +300,17 @@ calls come from each end user's own browser, not from this container.
   `AGOL/Legislative_Districts` on the self-hosted server and a
   `hub.arcgis.com` dataset search); it's been retired from both live
   catalogs, not just hard to find.
-- `geodata.libraries.mit.edu` — **still needed, and now the actual target**:
-  MIT Libraries' GeoData Repository hosts the missing 2001-vintage
-  boundaries as an archival shapefile — confirmed both exist there:
-  Senate at `gismit:MASENATEDIST02` ("Senate Districts Massachusetts 2002
-  ... 40 districts used in the Fall 2002 elections"), House at
-  `gisogm:edu.harvard:b07d39bbd8fe` (Harvard-sourced, mirrored on the same
-  MIT portal). This is genuinely the last domain needed to close out
-  district boundaries for all three vintages.
+- `geodata.libraries.mit.edu` and `cdn.libraries.mit.edu` — **done**: both
+  added and it worked. The catalog lives on the former; the actual
+  shapefile zips are served from the latter, a separate host, found by
+  reading the catalog page's own download link rather than guessing a
+  pattern. One correction from the last pass: `gisogm:edu.harvard:b07d39bbd8fe`
+  (found by web search) turned out to be the *wrong* House vintage — its own
+  page says "Chapter 273 of the Acts of 1993," the redistricting *before*
+  2001's — a trap since the title alone reads as generic. The right one,
+  found via the site's own `/results` search, is `gismit:US_MA_F7HOUSE_2002`
+  (MIT-hosted directly). District boundaries are now complete for all three
+  vintages: 40 Senate + 160-161 House districts each, verified live.
 - `api.census.gov` — Census API (PL 94-171 redistricting data, ACS). Domain
   is reachable, but **the API now rejects every request without a key**,
   confirmed live — even trivial ones. Free, instant signup at
