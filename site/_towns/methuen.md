@@ -1,6 +1,6 @@
 ---
-name: Methuen Town
-slug: methuen-town
+name: Methuen
+slug: methuen
 districts:
 - chamber: senate
   district_name: First Essex District
@@ -34,6 +34,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Francisco E. Paulino
   current_rep_party: Democratic
-title: Methuen Town
+title: Methuen
 layout: town
 ---

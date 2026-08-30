@@ -1,6 +1,6 @@
 ---
-name: Randolph Town
-slug: randolph-town
+name: Randolph
+slug: randolph
 districts:
 - chamber: senate
   district_name: Norfolk-Plymouth-Bristol District
@@ -34,6 +34,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Michael D. Brady
   current_rep_party: Democratic
-title: Randolph Town
+title: Randolph
 layout: town
 ---

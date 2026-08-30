@@ -1,6 +1,6 @@
 ---
-name: Braintree Town
-slug: braintree-town
+name: Braintree
+slug: braintree
 districts:
 - chamber: house
   district_name: 5th Norfolk District
@@ -26,6 +26,6 @@ districts:
   competitiveness_label: Likely D
   current_rep: John F. Keenan
   current_rep_party: Democratic
-title: Braintree Town
+title: Braintree
 layout: town
 ---

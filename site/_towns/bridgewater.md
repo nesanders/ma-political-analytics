@@ -1,6 +1,6 @@
 ---
-name: Bridgewater Town
-slug: bridgewater-town
+name: Bridgewater
+slug: bridgewater
 districts:
 - chamber: house
   district_name: 8th Plymouth District
@@ -34,6 +34,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Michael D. Brady
   current_rep_party: Democratic
-title: Bridgewater Town
+title: Bridgewater
 layout: town
 ---

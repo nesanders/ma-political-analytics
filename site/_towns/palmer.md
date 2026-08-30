@@ -1,6 +1,6 @@
 ---
-name: Palmer Town
-slug: palmer-town
+name: Palmer
+slug: palmer
 districts:
 - chamber: house
   district_name: 1st Hampden District
@@ -34,6 +34,6 @@ districts:
   competitiveness_label: Tossup R
   current_rep: Ryan C. Fattman
   current_rep_party: Republican
-title: Palmer Town
+title: Palmer
 layout: town
 ---

@@ -22,6 +22,8 @@ import click
 import pandas as pd
 import yaml
 
+from ma_politics.util.names import normalize_town_name
+
 logger = logging.getLogger(__name__)
 
 
@@ -184,7 +186,12 @@ def build_town_records(chambers: list[str], vintage: str, crosswalks_dir: Path, 
     seat_by_key = {(s["chamber"], s["district_name"]): s for s in seat_records}
 
     records = []
-    for town, group in overlap.groupby("town"):
+    for raw_town, group in overlap.groupby("town"):
+        # TIGER's NAME field inconsistently suffixes some municipalities
+        # with "Town"/"City" (e.g. "Agawam Town") — same normalization
+        # derived_metrics.py applies before joining town-level votes,
+        # reused here so page titles/URLs read as "Agawam", not "Agawam Town".
+        town = normalize_town_name(raw_town)
         districts = []
         for _, row in group.sort_values("pct_of_town", ascending=False).iterrows():
             seat = seat_by_key.get((row["chamber"], row["district_name"]))

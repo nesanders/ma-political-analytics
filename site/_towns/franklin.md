@@ -1,6 +1,6 @@
 ---
-name: Franklin Town
-slug: franklin-town
+name: Franklin
+slug: franklin
 districts:
 - chamber: house
   district_name: 10th Norfolk District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Rebecca L. Rausch
   current_rep_party: Democratic
-title: Franklin Town
+title: Franklin
 layout: town
 ---

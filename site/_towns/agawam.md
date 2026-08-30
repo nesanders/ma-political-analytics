@@ -1,6 +1,6 @@
 ---
-name: Agawam Town
-slug: agawam-town
+name: Agawam
+slug: agawam
 districts:
 - chamber: senate
   district_name: Hampden and Hampshire District
@@ -26,6 +26,6 @@ districts:
   competitiveness_label: Lean D
   current_rep: Michael J. Finn
   current_rep_party: Democratic
-title: Agawam Town
+title: Agawam
 layout: town
 ---

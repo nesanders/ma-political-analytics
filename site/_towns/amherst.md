@@ -1,6 +1,6 @@
 ---
-name: Amherst Town
-slug: amherst-town
+name: Amherst
+slug: amherst
 districts:
 - chamber: house
   district_name: 3rd Hampshire District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Jo Comerford
   current_rep_party: Democratic
-title: Amherst Town
+title: Amherst
 layout: town
 ---

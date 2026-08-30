@@ -1,6 +1,6 @@
 ---
-name: Watertown Town
-slug: watertown-town
+name: Watertown
+slug: watertown
 districts:
 - chamber: senate
   district_name: Suffolk and Middlesex District
@@ -26,6 +26,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: John J. Lawn, Jr.
   current_rep_party: Democratic
-title: Watertown Town
+title: Watertown
 layout: town
 ---

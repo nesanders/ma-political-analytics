@@ -1,6 +1,6 @@
 ---
-name: Amesbury Town
-slug: amesbury-town
+name: Amesbury
+slug: amesbury
 districts:
 - chamber: senate
   district_name: Second Essex and Middlesex District
@@ -26,6 +26,6 @@ districts:
   competitiveness_label: Likely D
   current_rep: Adrianne Ramos
   current_rep_party: Democratic
-title: Amesbury Town
+title: Amesbury
 layout: town
 ---

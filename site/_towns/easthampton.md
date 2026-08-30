@@ -1,6 +1,6 @@
 ---
-name: Easthampton Town
-slug: easthampton-town
+name: Easthampton
+slug: easthampton
 districts:
 - chamber: senate
   district_name: Hampden and Hampshire District
@@ -42,6 +42,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Jo Comerford
   current_rep_party: Democratic
-title: Easthampton Town
+title: Easthampton
 layout: town
 ---

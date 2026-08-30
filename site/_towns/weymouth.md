@@ -1,6 +1,6 @@
 ---
-name: Weymouth Town
-slug: weymouth-town
+name: Weymouth
+slug: weymouth
 districts:
 - chamber: senate
   district_name: First Plymouth and Norfolk District
@@ -26,6 +26,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Ronald Mariano
   current_rep_party: Democratic
-title: Weymouth Town
+title: Weymouth
 layout: town
 ---

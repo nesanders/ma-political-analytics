@@ -1,6 +1,6 @@
 ---
-name: Winthrop Town
-slug: winthrop-town
+name: Winthrop
+slug: winthrop
 districts:
 - chamber: house
   district_name: 19th Suffolk District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Lydia Marie Edwards
   current_rep_party: Democratic
-title: Winthrop Town
+title: Winthrop
 layout: town
 ---

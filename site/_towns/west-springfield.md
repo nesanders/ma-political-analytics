@@ -1,6 +1,6 @@
 ---
-name: West Springfield Town
-slug: west-springfield-town
+name: West Springfield
+slug: west-springfield
 districts:
 - chamber: house
   district_name: 6th Hampden District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Likely D
   current_rep: John C. Velis
   current_rep_party: Democratic
-title: West Springfield Town
+title: West Springfield
 layout: town
 ---

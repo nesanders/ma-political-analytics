@@ -1,6 +1,6 @@
 ---
-name: North Attleborough Town
-slug: north-attleborough-town
+name: North Attleborough
+slug: north-attleborough
 districts:
 - chamber: house
   district_name: 14th Bristol District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Safe D
   current_rep: Paul R. Feeney
   current_rep_party: Democratic
-title: North Attleborough Town
+title: North Attleborough
 layout: town
 ---

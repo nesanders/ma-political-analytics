@@ -1,6 +1,6 @@
 ---
-name: Barnstable Town
-slug: barnstable-town
+name: Barnstable
+slug: barnstable
 districts:
 - chamber: senate
   district_name: Cape and Islands District
@@ -42,6 +42,6 @@ districts:
   competitiveness_label: Likely D
   current_rep: Susan Lynn Moran
   current_rep_party: Democratic
-title: Barnstable Town
+title: Barnstable
 layout: town
 ---

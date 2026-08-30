@@ -49,26 +49,11 @@ from pathlib import Path
 import click
 import pandas as pd
 
+from ma_politics.util.names import normalize_town_name
+
 logger = logging.getLogger(__name__)
 
 MAJOR_PARTIES = {"Democratic", "Republican"}
-
-# Two independently-sourced town name spellings need reconciling before any
-# town-keyed join: TIGER COUSUB's NAME field suffixes some municipalities
-# with "Town"/"City" (inconsistently — only some of MA's 351), while PD43+
-# abbreviates directional prefixes ("N. Adams", "W. Springfield"). Verified
-# live this closes the gap completely except for TIGER's one legitimate
-# non-municipality placeholder row ("County subdivisions not defined",
-# water/unassigned area, correctly has no PD43+ counterpart).
-_DIRECTION_ABBREV = {"N.": "North", "S.": "South", "E.": "East", "W.": "West"}
-
-
-def _normalize_town_name(name: str) -> str:
-    name = re.sub(r"\s+(Town|City)$", "", name)
-    parts = name.split()
-    if parts and parts[0] in _DIRECTION_ABBREV:
-        parts[0] = _DIRECTION_ABBREV[parts[0]]
-    return " ".join(parts)
 
 
 # PD43+ writes ordinals as numerals ("1st Middlesex District"); the
@@ -147,8 +132,8 @@ def apportion_town_votes_to_districts(
     Returns one row per district_id with apportioned (float) vote totals."""
     overlap = overlap.copy()
     town_results = town_results.copy()
-    overlap["_town_norm"] = overlap["town"].map(_normalize_town_name)
-    town_results["_town_norm"] = town_results["town"].map(_normalize_town_name)
+    overlap["_town_norm"] = overlap["town"].map(normalize_town_name)
+    town_results["_town_norm"] = town_results["town"].map(normalize_town_name)
 
     merged = overlap.merge(town_results, on="_town_norm", how="inner", suffixes=("", "_pd43"))
     if len(merged) < len(overlap) * 0.99:

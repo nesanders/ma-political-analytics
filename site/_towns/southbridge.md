@@ -1,6 +1,6 @@
 ---
-name: Southbridge Town
-slug: southbridge-town
+name: Southbridge
+slug: southbridge
 districts:
 - chamber: house
   district_name: 6th Worcester District
@@ -18,6 +18,6 @@ districts:
   competitiveness_label: Tossup R
   current_rep: Ryan C. Fattman
   current_rep_party: Republican
-title: Southbridge Town
+title: Southbridge
 layout: town
 ---
