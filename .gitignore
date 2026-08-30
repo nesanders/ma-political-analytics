@@ -10,6 +10,9 @@ __pycache__/
 data/raw/
 data/interim/
 *.parquet
+# ...except published site data: real deployed assets the AskAI feature's
+# client-side DuckDB-Wasm instance queries, not a pipeline intermediate.
+!site/assets/data/*.parquet
 
 # Jekyll
 site/_site/

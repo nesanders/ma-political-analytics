@@ -1,0 +1,62 @@
+{
+  "description": "MA state legislative election data: House (160 districts) and Senate (40 districts) races. WAR (wins above replacement) is adapted from Split Ticket's published methodology, not an original metric \u2014 see https://github.com/nesanders/ma-political-analytics/blob/main/docs/PLAN.md section 4 for the full definition and citations.",
+  "tables": {
+    "seats": {
+      "description": "One row per (chamber, district, year): the district's partisan lean and competitiveness.",
+      "columns": {
+        "chamber": "'house' or 'senate'",
+        "year": "election year",
+        "vintage": "redistricting vintage this district geometry belongs to, e.g. '2022-present'",
+        "district_id": "short internal district code",
+        "district_name": "human-readable district name, e.g. 'Fourth Middlesex District'",
+        "lean_dem_share": "Democratic two-party vote share on a statewide baseline race (e.g. Governor), apportioned to this district by town-area overlap. 0.5 = even; >0.5 leans Democratic.",
+        "competitiveness": "Safe / Likely / Lean / Tossup, by margin from lean_dem_share",
+        "competitiveness_label": "competitiveness + favored party, e.g. 'Safe D', 'Tossup R'",
+        "party_favored": "'Democratic' or 'Republican' \u2014 whichever lean_dem_share favors",
+        "is_uncontested": "true if only one major party fielded a candidate in the general"
+      }
+    },
+    "results": {
+      "description": "One row per candidate per general-election race \u2014 the actual outcome, joined to the seat's expected lean via WAR.",
+      "columns": {
+        "chamber": "'house' or 'senate'",
+        "year": "election year",
+        "district_name": "human-readable district name \u2014 join key to seats.district_name",
+        "candidate_name": "candidate's display name",
+        "candidate_slug": "candidate's URL slug, e.g. 'cindy-f-friedman' \u2014 matches /candidate/<slug>/",
+        "party": "candidate's party, or null if PD43+ has no parseable party for them",
+        "votes": "raw vote count",
+        "winner": "true if this candidate won the race",
+        "is_uncontested": "true if this race had no opposing major-party candidate",
+        "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
+        "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
+        "war": "actual_two_party_share minus the expected share from district_lean_dem_share. Only defined for Democratic/Republican candidates. Positive = overperformed the baseline; negative = underperformed. Inflated for uncontested races \u2014 see is_uncontested."
+      }
+    },
+    "towns": {
+      "description": "One row per (town, chamber, district): how much of a town's land area falls in each legislative district. A town is often split across several districts.",
+      "columns": {
+        "town": "municipality name",
+        "chamber": "'house' or 'senate'",
+        "vintage": "redistricting vintage",
+        "district_id": "short internal district code \u2014 join key to seats.district_id",
+        "district_name": "human-readable district name \u2014 join key to seats.district_name",
+        "pct_of_town": "share of the town's land AREA (not population) in this district, 0-1. A known simplification \u2014 see the design plan."
+      }
+    }
+  },
+  "example_queries": [
+    {
+      "question": "Which Senate seats are Democratic but competitive (Tossup or Lean)?",
+      "sql": "SELECT district_name, lean_dem_share, competitiveness_label FROM seats WHERE chamber = 'senate' AND party_favored = 'Democratic' AND competitiveness IN ('Tossup', 'Lean') ORDER BY lean_dem_share"
+    },
+    {
+      "question": "Who overperformed their district's lean the most in the House in 2022?",
+      "sql": "SELECT candidate_name, district_name, party, war FROM results WHERE chamber = 'house' AND year = 2022 AND war IS NOT NULL ORDER BY war DESC LIMIT 10"
+    },
+    {
+      "question": "Which districts does Worcester span?",
+      "sql": "SELECT chamber, district_name, pct_of_town FROM towns WHERE town = 'Worcester' ORDER BY chamber, pct_of_town DESC"
+    }
+  ]
+}

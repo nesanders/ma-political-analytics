@@ -137,3 +137,15 @@ inline-block` on its container, which collapses to zero width when
 combined with a chart spec's `"width": "container"` autosize; fixed with
 an explicit override in `site/assets/css/main.css` (`display: block;
 width: 100%` on `.vega-embed`).
+
+- `python -m ma_politics.build.publish_query_data --chamber both --year 2022 --vintage 2022-present`
+  Publishes flat, SQL-queryable Parquet tables (`seats.parquet`,
+  `results.parquet`, `towns.parquet`) plus a JSON schema card
+  (`site/assets/data/schema.json`) for the AskAI feature's client-side
+  DuckDB-Wasm instance — see docs/PLAN.md §8. Same underlying numbers as
+  `generate_site_data.py`'s per-entity pages, reshaped flat for SQL instead
+  of nested per-entity documents. Verified live: loaded the actual
+  published files with DuckDB's Python bindings and ran all three of the
+  schema card's own example queries against them — correct results,
+  including one that reproduces an earlier-verified figure exactly
+  (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
