@@ -111,7 +111,20 @@ static HTML files is fine on Pages.
 - **Charts**: Vega-Lite (declarative, built-in selections, and a mark can
   carry an `href` so a click natively navigates to the candidate/seat page
   — no custom JS needed for the common case; custom D3 only where Vega-Lite
-  can't express something).
+  can't express something). **Implemented and verified live** for the
+  chamber pages' district-lean strip plot: real click-through confirmed
+  with an actual browser (Playwright) — clicking a point navigates to that
+  seat's page. Vega/Vega-Lite/Vega-Embed are vendored (`npm install`, UMD
+  builds copied into `site/assets/js/vendor/`) rather than loaded from a
+  CDN at runtime — found live that a CDN dependency is one more thing that
+  can go down or get blocked (this session's own network policy blocked
+  `cdn.jsdelivr.net` while `registry.npmjs.org` was already allowed), and a
+  self-hosted static asset is simpler to reason about for a site with no
+  build-time bundler yet anyway. Found and fixed a real CSS gotcha in the
+  process: vega-embed's own stylesheet sets `display: inline-block` on its
+  container, which collapses to zero width when combined with a chart
+  spec's `"width": "container"` autosize — needs an explicit `display:
+  block; width: 100%` override (see `site/assets/css/main.css`).
 - **Maps**: MapLibre GL JS + precomputed TopoJSON per vintage (simplified
   with `mapshaper` to keep files small), choropleth by lean/competitiveness,
   click → seat page.
@@ -245,8 +258,8 @@ visible per-metric methodology page throughout.
 |---|---|---|
 | 0 | Repo scaffold, finalize schema, confirm district vintages | **Done** — Python pipeline package + Jekyll site skeleton + Actions build/deploy workflow, all verified to actually build. |
 | 1 | Data pipeline: results + boundaries + demographics + campaign finance + crosswalks, back to at least the 2001 vintage (≈24 years) | **Done, all four fetchers + crosswalks verified against live data** for all three vintages (see `pipeline/README.md` for exact numbers: elections, boundaries incl. the MIT-sourced 2001 vintage, PL94-171/ACS demographics, OCPF finance, town↔district overlap, seat lineage). Not yet done: a full multi-decade backfill (everything above has been run for a 2022-cycle slice to build/validate against, not the full ≥20-year history — that's a longer background run, not a code gap). |
-| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming | Skeleton done in Phase 0; entity page templates (candidate/seat/district/town) and real theming not started. |
-| 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through | Not started. |
+| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming | Seat and candidate entity pages **done and verified live** (200 seats, 282 candidates, real jekyll build, walked the actual link chain in a browser). Chamber (House/Senate) landing pages also done. District/town/party pages and real theming not started. |
+| 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through | Scatter/strip plot **done and verified live**: district-lean-by-seat chart on each chamber page, click-through confirmed with an actual browser (Playwright) — clicking a point navigates to that seat's page, screenshotted for both chambers. Map, line, bar, and true histogram forms not started. |
 | 4 | Derived analytics: WAR (adapted), lean, competitiveness, turnout | Lean, competitiveness, and WAR all **verified live** against real 2022 House+Senate data — apportioned statewide share reconstructs the true Governor result exactly, competitiveness matches MA's known partisan lean, and all 200 district names matched with zero mismatches after fixing a real wrong-match bug (an ordinal-format mismatch — "4th" vs "Third" — that fuzzy matching silently resolved wrong before the fix; see `pipeline/README.md`). Two documented, not-yet-addressed limitations: WAR is mechanically inflated for uncontested races (flagged via an `is_uncontested` column, not fixed), and lean uses area-weighted rather than population-weighted town↔district apportionment. Turnout not started. |
 | 5 | AskAI: semantic layer + DuckDB-Wasm + AI SDK (multi-provider) React sidebar | Not started (design only, see §8). |
 | 6 | Polish: accessibility, performance, update-script docs | Not started. |

@@ -31,6 +31,19 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def _clean_str(value) -> str | None:
+    """PD43+ occasionally has no parseable party for a candidate (e.g. a
+    losing write-in whose detail page carries no recognized party class —
+    a real, pre-existing data gap, not a fetch bug; see fetch.pd43). pandas
+    represents that as float NaN even in an otherwise-string column, and
+    yaml.safe_dump renders float NaN as the YAML literal `.nan`, which
+    Ruby's JSON generator (Jekyll's `jsonify` filter) then rejects outright
+    ("NaN not allowed in JSON") — found by running an actual `jekyll
+    build`, not caught by the Python side alone. Coerce to a real Python
+    None so it serializes as YAML null / JSON null instead."""
+    return None if pd.isna(value) else value
+
+
 def candidate_slug(pd43_slug: str) -> str:
     """PD43+'s own candidate slug (e.g. "Paul-W-Mark", from their
     /candidates/view/ URLs) lowercased for consistency with this site's
@@ -51,7 +64,7 @@ def build_seat_records(chamber: str, year: int, vintage: str, derived_dir: Path)
             {
                 "name": row["candidate_name"],
                 "slug": candidate_slug(row["candidate_slug"]),
-                "party": row["party"],
+                "party": _clean_str(row["party"]),
                 "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
                 "winner": bool(row["winner"]),
                 "actual_two_party_share": (
@@ -116,7 +129,7 @@ def build_candidate_records(chambers: list[str], year: int, derived_dir: Path) -
                 "chamber": row["chamber"],
                 "year": year,
                 "district_name": row["district_name"],
-                "party": row["party"],
+                "party": _clean_str(row["party"]),
                 "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
                 "winner": bool(row["winner"]),
                 "actual_two_party_share": (
@@ -134,7 +147,7 @@ def build_candidate_records(chambers: list[str], year: int, derived_dir: Path) -
             {
                 "slug": candidate_slug(slug),
                 "name": latest["candidate_name"],
-                "party": latest["party"],
+                "party": _clean_str(latest["party"]),
                 "races": races,
             }
         )

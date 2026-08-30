@@ -1,6 +1,42 @@
-/* Placeholder stylesheet — full theme design is a later phase (see docs/PLAN.md §11). */
+/* Placeholder stylesheet — full theme design is a later phase (see docs/PLAN.md §11).
+   Chart tokens below follow the dataviz skill's reference palette (diverging
+   blue<->red pair, validated for CVD-safety) since charts are needed now. */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
+  --chart-surface: #fcfcfb;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #898781;
+  --gridline: #e1e0d9;
+  --series-dem: #2a78d6;
+  --series-rep: #e34948;
+  --series-neutral: #f0efec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --chart-surface: #1a1a19;
+    --text-primary: #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted: #898781;
+    --gridline: #2c2c2a;
+    --series-dem: #3987e5;
+    --series-rep: #e66767;
+    --series-neutral: #383835;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --chart-surface: #1a1a19;
+  --text-primary: #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted: #898781;
+  --gridline: #2c2c2a;
+  --series-dem: #3987e5;
+  --series-rep: #e66767;
+  --series-neutral: #383835;
 }
 
 body {
@@ -9,8 +45,35 @@ body {
   margin: 0 auto;
   padding: 1rem;
   line-height: 1.5;
+  background: var(--chart-surface);
+  color: var(--text-primary);
 }
 
 header nav a {
   margin-right: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.25rem 0.5rem;
+  border-bottom: 1px solid var(--gridline);
+}
+
+tr.winner {
+  font-weight: 600;
+}
+
+/* vega-embed's own CSS sets `.vega-embed { display: inline-block }`, which
+   collapses to zero width for an empty container — a chicken-and-egg
+   problem with a chart spec's "width": "container" autosize (the container
+   needs a real width before Vega measures it, but inline-block sizes to
+   content, and there's no content yet). Force block + full width instead. */
+.vega-embed {
+  display: block;
+  width: 100%;
 }

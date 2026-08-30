@@ -1,12 +1,12 @@
 ---
 slug: michael-silvio-lavery
 name: Michael Silvio Lavery
-party: .nan
+party: null
 races:
 - chamber: house
   year: 2022
   district_name: 3rd Berkshire District
-  party: .nan
+  party: null
   votes: 1698
   winner: false
   actual_two_party_share: 0.1039

@@ -1,0 +1,97 @@
+---
+layout: default
+---
+<script src="{{ '/assets/js/vendor/vega-5.33.1.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/vendor/vega-lite-5.23.0.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/vendor/vega-embed-6.29.0.min.js' | relative_url }}"></script>
+
+{% assign seats = site.seats | where: "chamber", page.chamber | sort: "lean_dem_share" %}
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  <section>
+    <h2>Distribution of district lean</h2>
+    <p>
+      Each point is one seat's {{ page.year }} partisan lean (Democratic
+      two-party share on a statewide baseline race). Click a point to open
+      that seat.
+    </p>
+    <div id="lean-chart" role="img" aria-label="Strip plot of {{ page.chamber }} district partisan lean, one point per seat"></div>
+  </section>
+
+  <section>
+    <h2>All seats</h2>
+    <table>
+      <thead>
+        <tr><th>District</th><th>Lean</th><th>Competitiveness</th><th>{{ page.year }} winner</th><th>WAR</th></tr>
+      </thead>
+      <tbody>
+        {% for seat in seats %}
+        <tr>
+          <td><a href="{{ seat.url | relative_url }}">{{ seat.district_name }}</a></td>
+          <td>{{ seat.lean_dem_share | times: 100 | round: 1 }}% D</td>
+          <td>{{ seat.competitiveness_label }}</td>
+          {% assign winner = seat.candidates | where: "winner", true | first %}
+          <td>{% if winner %}{{ winner.name }} ({{ winner.party | slice: 0, 1 }}){% endif %}</td>
+          <td>{% if winner.war %}{{ winner.war | times: 100 | round: 1 }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</article>
+
+<script>
+  const seatData = {{ seats | jsonify }};
+  // Vega's default canvas renderer can't resolve CSS var() in fill colors
+  // (that's a CSS-cascade feature, not something canvas's fillStyle
+  // understands) — resolve to literal computed values up front instead.
+  const style = getComputedStyle(document.documentElement);
+  const cssVar = (name) => style.getPropertyValue(name).trim();
+  const colorDem = cssVar("--series-dem");
+  const colorRep = cssVar("--series-rep");
+  const colorText = cssVar("--text-secondary");
+  const colorTextStrong = cssVar("--text-primary");
+  const colorGrid = cssVar("--gridline");
+
+  const spec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 120,
+    "background": null,
+    "data": { "values": seatData },
+    "mark": { "type": "circle", "size": 90, "opacity": 0.85, "cursor": "pointer" },
+    "encoding": {
+      "x": {
+        "field": "lean_dem_share",
+        "type": "quantitative",
+        "axis": { "format": "%", "title": "Democratic two-party lean (statewide baseline)" },
+        "scale": { "domain": [0, 1] }
+      },
+      "y": { "field": "competitiveness", "type": "nominal", "title": null,
+             "sort": ["Safe", "Likely", "Lean", "Tossup"] },
+      "color": {
+        "field": "party_favored",
+        "type": "nominal",
+        "title": "Favored party",
+        "scale": {
+          "domain": ["Democratic", "Republican"],
+          "range": [colorDem, colorRep]
+        }
+      },
+      "href": { "field": "url", "type": "nominal" },
+      "tooltip": [
+        { "field": "district_name", "title": "District" },
+        { "field": "lean_dem_share", "type": "quantitative", "format": ".1%", "title": "Dem. lean" },
+        { "field": "competitiveness_label", "title": "Competitiveness" }
+      ]
+    },
+    "config": {
+      "axis": { "labelColor": colorText, "titleColor": colorTextStrong, "gridColor": colorGrid, "domainColor": colorGrid },
+      "legend": { "labelColor": colorText, "titleColor": colorTextStrong },
+      "view": { "stroke": null }
+    }
+  };
+  vegaEmbed("#lean-chart", spec, { actions: false }).catch(console.error);
+</script>

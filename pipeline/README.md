@@ -117,4 +117,23 @@ full.
   (candidate links were slugifying the whole `/candidate/Name` path instead
   of just the name) and a missing `year` column that only surfaced once
   candidate pages tried to sort by it (the WAR table doesn't carry year as
-  a column; it's implicit in the per-year file).
+  a column; it's implicit in the per-year file). A later run also caught a
+  real data-serialization bug: a candidate with no parseable party (PD43+
+  occasionally has one) came through as a stray float NaN rather than a
+  proper null, which crashed Jekyll's `jsonify` filter outright ("NaN not
+  allowed in JSON") — fixed by coercing explicitly to `None` before writing
+  YAML (`_clean_str` in the module).
+
+## Site chart assets (`site/assets/js/vendor/`)
+
+Vega/Vega-Lite/Vega-Embed, used by `site/_layouts/chamber.html`'s
+district-lean chart, are vendored rather than loaded from a CDN — installed
+via `npm install vega@5 vega-lite@5 vega-embed@6` and their UMD `.min.js`
+builds copied in directly (no bundler yet). Verified live with an actual
+headless-browser session (Playwright): the chart renders with real data,
+and clicking a point navigates to that seat's page. That verification also
+caught a real CSS bug — vega-embed's own stylesheet sets `display:
+inline-block` on its container, which collapses to zero width when
+combined with a chart spec's `"width": "container"` autosize; fixed with
+an explicit override in `site/assets/css/main.css` (`display: block;
+width: 100%` on `.vega-embed`).

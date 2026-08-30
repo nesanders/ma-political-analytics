@@ -19,7 +19,7 @@ candidates:
   war: 0.2771
 - name: David Rolde
   slug: david-rolde
-  party: .nan
+  party: null
   votes: 1167
   winner: false
   actual_two_party_share: 0.083

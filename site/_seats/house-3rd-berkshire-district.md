@@ -19,7 +19,7 @@ candidates:
   war: 0.2528
 - name: Michael Silvio Lavery
   slug: michael-silvio-lavery
-  party: .nan
+  party: null
   votes: 1698
   winner: false
   actual_two_party_share: 0.1039
