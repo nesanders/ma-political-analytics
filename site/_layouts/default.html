@@ -6,8 +6,12 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/askai.css' | relative_url }}">
+  <script src="{{ '/assets/js/vendor/vega-5.33.1.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/vendor/vega-lite-5.23.0.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/vendor/vega-embed-6.29.0.min.js' | relative_url }}"></script>
 </head>
-<body>
+<body data-askai-baseurl="{{ site.baseurl }}" data-askai-page-title="{{ page.title | default: site.title | escape }}" data-askai-page-description="{{ page.description | default: site.description | escape }}">
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -21,5 +25,7 @@
   <footer>
     <p>Data pipeline and methodology: <a href="https://github.com/nesanders/ma-political-analytics">source</a>.</p>
   </footer>
+  <div id="askai-root"></div>
+  <script type="module" src="{{ '/assets/js/askai.bundle.js' | relative_url }}"></script>
 </body>
 </html>

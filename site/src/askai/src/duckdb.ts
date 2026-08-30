@@ -20,8 +20,22 @@
 // but this session's network policy blocks it too, which is what's actually
 // stopping scripts/verify_query_guard.mjs's Part 2 from completing here (see
 // that script's own comment).
+//
+// DATA_BASE_URL below is passed straight into read_parquet() as an HTTP(S)
+// URL string, with no manual fetch()/registerFileBuffer() step — that's
+// DuckDB-Wasm's own documented browser usage (its official demos query
+// remote parquet the same way; the browser build has a fetch-backed virtual
+// filesystem that understands URLs, which is *why* this differs from the
+// Node bindings used in verify_query_guard.mjs, which lack that layer and
+// need registerFileBuffer). This session could not exercise that exact path
+// in a real browser end-to-end: attempts hit the two network blocks above
+// before ever reaching read_parquet, and an ad-hoc local test harness (never
+// committed) hit its own wasm/glue-code version mismatch unrelated to this
+// code. If a real browser run of the built site ever shows read_parquet
+// rejecting a URL, that's the first thing to revisit here.
 
 import * as duckdb from "@duckdb/duckdb-wasm";
+import { getBaseUrl } from "./site";
 
 let dbPromise: Promise<duckdb.AsyncDuckDB> | null = null;
 
@@ -44,8 +58,14 @@ export function getDB(): Promise<duckdb.AsyncDuckDB> {
   return dbPromise;
 }
 
-export const DATA_BASE_URL = "/assets/data";
 export const TABLES = ["seats", "results", "towns"] as const;
+
+/** Computed lazily (not at module load) so this file stays importable from
+ * Node — see scripts/verify_query_guard.mjs, which bundles and imports
+ * assertSafeSelect from this same module without a DOM present. */
+function getDataBaseUrl(): string {
+  return `${getBaseUrl()}/assets/data`;
+}
 
 let viewsReady: Promise<void> | null = null;
 
@@ -54,9 +74,10 @@ async function ensureViews(db: duckdb.AsyncDuckDB): Promise<void> {
     viewsReady = (async () => {
       const conn = await db.connect();
       try {
+        const dataBaseUrl = getDataBaseUrl();
         for (const table of TABLES) {
           await conn.query(
-            `CREATE VIEW IF NOT EXISTS ${table} AS SELECT * FROM read_parquet('${DATA_BASE_URL}/${table}.parquet')`
+            `CREATE VIEW IF NOT EXISTS ${table} AS SELECT * FROM read_parquet('${dataBaseUrl}/${table}.parquet')`
           );
         }
       } finally {

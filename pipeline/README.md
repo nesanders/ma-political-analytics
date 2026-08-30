@@ -149,3 +149,59 @@ width: 100%` on `.vega-embed`).
   schema card's own example queries against them — correct results,
   including one that reproduces an earlier-verified figure exactly
   (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
+
+## AskAI sidebar (`site/src/askai/`)
+
+React app (query_data + render_chart tools, BYOK settings, a manual
+`streamText`-driven chat loop — see docs/PLAN.md §8) built with esbuild into
+`site/assets/js/askai.bundle.js`, which is committed like the other build
+outputs under `site/`, since the deploy workflow only runs Jekyll, not npm.
+Rebuild with `npm install && npm run build` inside `site/src/askai/` after
+changing anything under `src/`.
+
+What's verified live, and how:
+- `assertSafeSelect()` (the SQL guard) and real DuckDB query execution
+  against the real published parquet: `scripts/verify_query_guard.mjs`,
+  via `@duckdb/duckdb-wasm`'s Node bindings — see the script's own comment
+  for what it does and doesn't cover (the browser-only jsDelivr and
+  extensions.duckdb.org CDN dependencies aren't reachable from this
+  session's network policy).
+- The sidebar UI end-to-end in a real headless browser (Playwright): toggle
+  open/close, Settings panel, per-provider API key persisted separately in
+  `localStorage`, sending a message with no key blocked with the expected
+  inline error, and sending a message *with* a key driving `getModel()` →
+  `streamText()` all the way to a real `fetch()` attempt against
+  `api.anthropic.com` — which fails in this sandbox (network policy /
+  invalid test key) but surfaces correctly as an inline error banner rather
+  than hanging or crashing. The actual LLM round-trip (a real model
+  response, a real tool call being executed and rendered) is **not**
+  verified — this session has no provider API key and can't reach any
+  provider's API host.
+- That same browser pass caught and fixed two real bugs: (1) the floating
+  toggle button's `z-index` sat above the open panel and intercepted clicks
+  on the input row — fixed by moving "Close" into the panel header instead
+  of leaving a floating button overlapping the panel; (2) a much more
+  serious one — see "the chamber-page fetch storm" below.
+
+### The chamber-page fetch storm
+
+Loading Vega site-wide (`default.html`, needed so `render_chart` can draw a
+chart on any page) turned a pre-existing latent landmine in
+`chamber.html` into a real, live bug: `{{ seats | jsonify }}` serializes
+*all* of a Jekyll Document's properties, including its fully rendered HTML
+`output` — so each seat's own `<script src="...vega...">` tags ended up
+embedded inside chamber.html's own `<script>` block as a JSON string. HTML
+tag parsing doesn't respect JS string boundaries, so the browser's
+tokenizer closed that script element early at the first embedded closing
+tag and re-parsed the rest as live markup — actually fetching and running
+those embedded tags. Caught live: a real browser test showed hundreds of
+malformed repeated requests for the vendor Vega files on a single page
+load. Fixed by building the chart's data array field-by-field in Liquid
+instead of jsonify-ing the whole Document (`chamber.html`) — confirmed
+fixed live (exactly 3 requests, chart still renders with real data,
+click-through to a seat page still works). One more round: the first fix's
+own explanatory comment described the bug by literally spelling out a
+closing script tag, reproducing the exact same failure from inside the
+comment — a reminder that this class of bug is triggered by the literal
+character sequence appearing anywhere in a `<script>` block, comments
+included, not by "real" versus "string" content.

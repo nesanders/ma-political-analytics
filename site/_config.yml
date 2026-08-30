@@ -38,3 +38,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  # AskAI's JS project (src/askai): npm source, config, and node_modules,
+  # none of which is a Jekyll page. Its build output that the site actually
+  # serves lives under assets/js/askai.bundle.js, not here.
+  - src

@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-<script src="{{ '/assets/js/vendor/vega-5.33.1.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/vendor/vega-lite-5.23.0.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/vendor/vega-embed-6.29.0.min.js' | relative_url }}"></script>
-
 {% assign seats = site.seats | where: "chamber", page.chamber | sort: "lean_dem_share" %}
 
 <article>
@@ -43,7 +39,35 @@ layout: default
 </article>
 
 <script>
-  const seatData = {{ seats | jsonify }};
+  // Built field-by-field rather than piping `seats` straight through the
+  // jsonify filter: `seats` holds full Jekyll Document objects, and jsonify
+  // serializes *all* of a Document's properties, including its rendered
+  // HTML output field, tags and all. Once default.html started loading
+  // Vega site-wide (so AskAI's render_chart tool can draw a chart on any
+  // page, not just this one), each seat's own rendered output started
+  // containing script tags of its own, landing inside this script block's
+  // JSON string once jsonify dumped it in. HTML tag parsing does not
+  // respect JS string boundaries, so the browser's tokenizer ended this
+  // script element early at the first embedded closing tag and re-parsed
+  // the rest of the seat's markup as live HTML, actually fetching and
+  // running those embedded tags. Caught live: a real browser test showed
+  // hundreds of malformed repeated requests for the vendor Vega files per
+  // page load, and, on the fix's first pass, this very comment reproduced
+  // the same failure by literally spelling out the closing tag it was
+  // describing. Selecting only the scalar fields the chart actually needs
+  // avoids ever embedding another page's rendered HTML here.
+  const seatData = [
+    {% for seat in seats %}
+    {
+      "district_name": {{ seat.district_name | jsonify }},
+      "lean_dem_share": {{ seat.lean_dem_share | jsonify }},
+      "competitiveness": {{ seat.competitiveness | jsonify }},
+      "party_favored": {{ seat.party_favored | jsonify }},
+      "competitiveness_label": {{ seat.competitiveness_label | jsonify }},
+      "url": {{ seat.url | relative_url | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
   // Vega's default canvas renderer can't resolve CSS var() in fill colors
   // (that's a CSS-cascade feature, not something canvas's fillStyle
   // understands) — resolve to literal computed values up front instead.
