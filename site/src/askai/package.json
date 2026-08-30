@@ -1,0 +1,24 @@
+{
+  "name": "askai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.46",
+    "@ai-sdk/google": "^4.0.58",
+    "@ai-sdk/groq": "^4.0.35",
+    "@ai-sdk/openai": "^4.0.52",
+    "@ai-sdk/react": "^4.0.88",
+    "@duckdb/duckdb-wasm": "^1.33.1-dev57.0",
+    "ai": "^7.0.85",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
