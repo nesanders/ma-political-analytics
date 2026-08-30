@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael J. Soter
+  slug: michael-j-soter
   party: Republican
   votes: 13182
   winner: true

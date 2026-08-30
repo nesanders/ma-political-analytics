@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jessica Ann Giannino
+  slug: jessica-ann-giannino
   party: Democratic
   votes: 5753
   winner: true

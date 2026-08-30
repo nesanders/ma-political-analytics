@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Marc T. Lombardo
+  slug: marc-t-lombardo
   party: Republican
   votes: 9224
   winner: true
   actual_two_party_share: 0.5435
   war: 0.0794
 - name: Teresa Nicole English
+  slug: teresa-nicole-english
   party: Democratic
   votes: 7747
   winner: false

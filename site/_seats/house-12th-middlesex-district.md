@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Ruth B. Balser
+  slug: ruth-b-balser
   party: Democratic
   votes: 15164
   winner: true

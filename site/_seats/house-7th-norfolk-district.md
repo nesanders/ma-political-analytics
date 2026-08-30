@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: William J. Driscoll, Jr
+  slug: william-j-driscoll-jr
   party: Democratic
   votes: 12322
   winner: true

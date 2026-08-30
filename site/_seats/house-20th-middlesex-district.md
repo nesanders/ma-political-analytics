@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Bradley H. Jones, Jr
+  slug: bradley-h-jones-jr
   party: Republican
   votes: 16194
   winner: true

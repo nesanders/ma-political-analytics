@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Angelo J. Puppolo, Jr.
+  slug: angelo-j-puppolo-jr
   party: Democratic
   votes: 12882
   winner: true

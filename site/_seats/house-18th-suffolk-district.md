@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael J. Moran
+  slug: michael-j-moran
   party: Democratic
   votes: 6200
   winner: true

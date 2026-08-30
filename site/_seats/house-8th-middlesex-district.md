@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: James Arena-DeRosa
+  slug: james-arena-derosa
   party: Democratic
   votes: 12916
   winner: true
   actual_two_party_share: 0.6503
   war: -0.0264
 - name: Loring Barnes
+  slug: loring-barnes
   party: Republican
   votes: 6947
   winner: false

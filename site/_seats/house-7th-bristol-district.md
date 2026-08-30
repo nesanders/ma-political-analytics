@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Alan Silvia
+  slug: alan-silvia
   party: Democratic
   votes: 4886
   winner: true

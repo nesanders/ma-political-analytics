@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Jeffrey N. Roy
+  slug: jeffrey-n-roy
   party: Democratic
   votes: 12045
   winner: true
   actual_two_party_share: 0.6374
   war: 0.0327
 - name: Charles F. Bailey, III
+  slug: charles-f-bailey-iii
   party: Republican
   votes: 6852
   winner: false

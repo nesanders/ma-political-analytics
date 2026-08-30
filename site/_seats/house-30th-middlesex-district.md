@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Richard M. Haggerty
+  slug: richard-m-haggerty
   party: Democratic
   votes: 13027
   winner: true

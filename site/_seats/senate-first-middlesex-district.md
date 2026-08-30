@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Edward J. Kennedy, Jr
+  slug: edward-j-kennedy
   party: Democratic
   votes: 32003
   winner: true

@@ -11,18 +11,21 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Susannah M. Whipps
+  slug: susannah-m-whipps
   party: Other
   votes: 9797
   winner: true
   actual_two_party_share: 2.0027
   war: null
 - name: Jeffrey L. Raymond
+  slug: jeffrey-l-raymond
   party: Republican
   votes: 4892
   winner: false
   actual_two_party_share: 1.0
   war: 0.6017
 - name: Kevin Patrick McKeown (W)
+  slug: kevin-patrick-mckeown
   party: Other
   votes: 736
   winner: false

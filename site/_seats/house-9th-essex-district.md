@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Donald H. Wong
+  slug: donald-h-wong
   party: Republican
   votes: 13664
   winner: true

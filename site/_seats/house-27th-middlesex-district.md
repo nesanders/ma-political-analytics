@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Erika Uyterhoeven
+  slug: erika-uyterhoeven
   party: Democratic
   votes: 15698
   winner: true

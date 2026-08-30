@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Patricia A. Duffy
+  slug: patricia-a-duffy
   party: Democratic
   votes: 7990
   winner: true

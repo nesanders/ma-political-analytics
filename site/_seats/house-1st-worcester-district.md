@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kimberly N. Ferguson
+  slug: kimberly-n-ferguson
   party: Republican
   votes: 16342
   winner: true

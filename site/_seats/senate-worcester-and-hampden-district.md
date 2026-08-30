@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Ryan C. Fattman
+  slug: ryan-c-fattman
   party: Republican
   votes: 53456
   winner: true

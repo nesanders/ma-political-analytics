@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Brian William Murray
+  slug: brian-william-murray
   party: Democratic
   votes: 10323
   winner: true

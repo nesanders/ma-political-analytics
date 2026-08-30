@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Natalie M. Blais
+  slug: natalie-m-blais
   party: Democratic
   votes: 16086
   winner: true

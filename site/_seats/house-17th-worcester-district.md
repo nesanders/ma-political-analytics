@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: David Henry Argosky Leboeuf
+  slug: david-henry-argosky-leboeuf
   party: Democratic
   votes: 4745
   winner: true
   actual_two_party_share: 0.592
   war: -0.0577
 - name: Paul J. Fullen
+  slug: paul-j-fullen
   party: Republican
   votes: 3270
   winner: false

@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Fred Jay Barrows
+  slug: fred-jay-barrows
   party: Republican
   votes: 9680
   winner: true
   actual_two_party_share: 0.5757
   war: 0.1468
 - name: Brendan A. Roche
+  slug: brendan-a-roche
   party: Democratic
   votes: 7135
   winner: false

@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Paul Schmid, III
+  slug: paul-schmid-iii
   party: Democratic
   votes: 8437
   winner: true
   actual_two_party_share: 0.5352
   war: 0.0124
 - name: Evan Gendreau
+  slug: evan-gendreau
   party: Republican
   votes: 7326
   winner: false

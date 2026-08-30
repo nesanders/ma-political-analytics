@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Chynah Tyler
+  slug: chynah-tyler
   party: Democratic
   votes: 5317
   winner: true

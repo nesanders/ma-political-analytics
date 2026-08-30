@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: William M. Straus
+  slug: william-m-straus
   party: Democratic
   votes: 10648
   winner: true
   actual_two_party_share: 0.5626
   war: 0.0215
 - name: Jeffrey Gerald Swift
+  slug: jeffrey-gerald-swift
   party: Republican
   votes: 8280
   winner: false

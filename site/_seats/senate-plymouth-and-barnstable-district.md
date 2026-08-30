@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Susan Lynn Moran
+  slug: susan-lynn-moran
   party: Democratic
   votes: 49686
   winner: true
   actual_two_party_share: 0.5635
   war: 0.0032
 - name: Kari Macrae
+  slug: kari-macrae
   party: Republican
   votes: 38493
   winner: false

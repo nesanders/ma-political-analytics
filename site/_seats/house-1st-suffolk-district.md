@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Adrian C. Madaro
+  slug: adrian-c-madaro
   party: Democratic
   votes: 7022
   winner: true

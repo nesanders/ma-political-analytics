@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Daniel J. Hunt
+  slug: daniel-j-hunt
   party: Democratic
   votes: 8761
   winner: true

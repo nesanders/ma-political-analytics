@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Simon Cataldo
+  slug: simon-cataldo
   party: Democratic
   votes: 14542
   winner: true
   actual_two_party_share: 0.7292
   war: 0.0024
 - name: Rodney E. Cleaves
+  slug: rodney-e-cleaves
   party: Republican
   votes: 5400
   winner: false

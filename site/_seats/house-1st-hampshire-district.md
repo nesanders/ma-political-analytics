@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Lindsay N. Sabadosa
+  slug: lindsay-n-sabadosa
   party: Democratic
   votes: 17592
   winner: true

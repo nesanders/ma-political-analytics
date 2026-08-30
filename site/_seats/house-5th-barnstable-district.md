@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Steven G. Xiarhos
+  slug: steven-g-xiarhos
   party: Republican
   votes: 15324
   winner: true

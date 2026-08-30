@@ -1,0 +1,17 @@
+---
+slug: liz-miranda
+name: Liz Miranda
+party: Democratic
+races:
+- chamber: senate
+  year: 2022
+  district_name: Second Suffolk District
+  party: Democratic
+  votes: 35207
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.1762
+  is_uncontested: true
+title: Liz Miranda
+layout: candidate
+---

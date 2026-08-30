@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Christopher Hendricks
+  slug: christopher-hendricks
   party: Democratic
   votes: 4906
   winner: true

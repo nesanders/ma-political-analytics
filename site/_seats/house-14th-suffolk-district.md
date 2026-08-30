@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Rob Consalvo
+  slug: rob-consalvo
   party: Democratic
   votes: 11565
   winner: true

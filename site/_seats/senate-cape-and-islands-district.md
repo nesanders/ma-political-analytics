@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Julian Andre Cyr
+  slug: julian-andre-cyr
   party: Democratic
   votes: 54714
   winner: true
   actual_two_party_share: 0.637
   war: -0.0015
 - name: Christopher Robert Lauzon
+  slug: christopher-robert-lauzon
   party: Republican
   votes: 31176
   winner: false

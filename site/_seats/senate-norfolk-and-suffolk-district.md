@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael F. Rush
+  slug: michael-f-rush
   party: Democratic
   votes: 54915
   winner: true

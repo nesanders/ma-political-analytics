@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Adrianne Ramos
+  slug: adrianne-pusateri-ramos
   party: Democratic
   votes: 10879
   winner: true
   actual_two_party_share: 0.5429
   war: -0.0521
 - name: Joseph G. Finn
+  slug: joseph-g-finn
   party: Republican
   votes: 9161
   winner: false

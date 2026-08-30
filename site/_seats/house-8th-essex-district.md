@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jennifer Wb Armini
+  slug: jennifer-wb-armini
   party: Democratic
   votes: 14156
   winner: true

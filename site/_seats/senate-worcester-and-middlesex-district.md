@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: John J. Cronin
+  slug: john-j-cronin
   party: Democratic
   votes: 36784
   winner: true
   actual_two_party_share: 0.6028
   war: 0.0183
 - name: Kenneth B. Hoyt
+  slug: kenneth-b-hoyt
   party: Republican
   votes: 24238
   winner: false

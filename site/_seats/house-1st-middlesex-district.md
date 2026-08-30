@@ -11,18 +11,21 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Margaret R. Scarsdale
+  slug: margaret-r-scarsdale
   party: Democratic
   votes: 9409
   winner: true
   actual_two_party_share: 0.5002
   war: -0.0482
 - name: Andrew James Shepherd
+  slug: andrew-james-shepherd
   party: Republican
   votes: 9402
   winner: false
   actual_two_party_share: 0.4998
   war: 0.0482
 - name: Catherine Lundeen
+  slug: catherine-lundeen
   party: Other
   votes: 1075
   winner: false

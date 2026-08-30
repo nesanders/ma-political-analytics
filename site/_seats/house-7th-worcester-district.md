@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Paul K. Frost
+  slug: paul-k-frost
   party: Republican
   votes: 12432
   winner: true
   actual_two_party_share: 1.0
   war: 0.5186
 - name: Terry Burke Dotson
+  slug: terry-burke-dotson
   party: Other
   votes: 4067
   winner: false

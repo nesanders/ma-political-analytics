@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jay D. Livingstone
+  slug: jay-d-livingstone
   party: Democratic
   votes: 9701
   winner: true

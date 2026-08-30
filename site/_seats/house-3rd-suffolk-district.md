@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Aaron M. Michlewitz
+  slug: aaron-m-michlewitz
   party: Democratic
   votes: 9238
   winner: true

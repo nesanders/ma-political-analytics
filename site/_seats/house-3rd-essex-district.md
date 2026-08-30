@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Andres X. Vargas
+  slug: andres-x-vargas
   party: Democratic
   votes: 9176
   winner: true

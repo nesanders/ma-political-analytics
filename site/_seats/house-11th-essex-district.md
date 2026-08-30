@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Peter L. Capano
+  slug: peter-l-capano
   party: Democratic
   votes: 7135
   winner: true

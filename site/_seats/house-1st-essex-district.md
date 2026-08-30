@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Dawne F. Shand
+  slug: dawne-f-shand
   party: Democratic
   votes: 12790
   winner: true
   actual_two_party_share: 0.5964
   war: -0.0591
 - name: Cj Fitzwater
+  slug: cj-fitzwater
   party: Republican
   votes: 8657
   winner: false

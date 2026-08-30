@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jack Patrick Lewis
+  slug: jack-patrick-lewis
   party: Democratic
   votes: 13362
   winner: true

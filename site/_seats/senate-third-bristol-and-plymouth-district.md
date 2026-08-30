@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Marc R. Pacheco
+  slug: marc-r-pacheco
   party: Democratic
   votes: 35556
   winner: true
   actual_two_party_share: 0.5429
   war: 0.0382
 - name: Maria S. Collins
+  slug: maria-s-collins
   party: Republican
   votes: 29937
   winner: false

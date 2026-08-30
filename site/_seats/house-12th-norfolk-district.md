@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: John H. Rogers
+  slug: john-h-rogers
   party: Democratic
   votes: 12798
   winner: true

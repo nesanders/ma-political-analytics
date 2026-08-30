@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Patricia D. Jehlen
+  slug: patricia-d-jehlen
   party: Democratic
   votes: 53866
   winner: true

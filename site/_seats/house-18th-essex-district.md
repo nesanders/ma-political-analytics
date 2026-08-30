@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Tram T. Nguyen
+  slug: tram-t-nguyen
   party: Democratic
   votes: 11812
   winner: true
   actual_two_party_share: 0.6042
   war: -0.0012
 - name: Jeffrey Peter Dufour
+  slug: jeffrey-peter-dufour
   party: Republican
   votes: 7738
   winner: false

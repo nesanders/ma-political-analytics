@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Karen E. Spilka
+  slug: karen-e-spilka
   party: Democratic
   votes: 52484
   winner: true

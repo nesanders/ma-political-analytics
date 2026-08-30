@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Mark C. Montigny
+  slug: mark-c-montigny
   party: Democratic
   votes: 35193
   winner: true

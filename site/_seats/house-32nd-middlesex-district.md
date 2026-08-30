@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kate Lipper-Garabedian
+  slug: kate-lipper-garabedian
   party: Democratic
   votes: 14673
   winner: true

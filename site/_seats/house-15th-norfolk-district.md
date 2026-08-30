@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Tommy Vitolo
+  slug: tommy-vitolo
   party: Democratic
   votes: 12906
   winner: true

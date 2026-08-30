@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jo Comerford
+  slug: jo-comerford
   party: Democratic
   votes: 51232
   winner: true

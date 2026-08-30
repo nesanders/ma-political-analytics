@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael J. Finn
+  slug: michael-j-finn
   party: Democratic
   votes: 9055
   winner: true

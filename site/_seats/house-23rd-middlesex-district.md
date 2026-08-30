@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Sean Garballey
+  slug: sean-garballey
   party: Democratic
   votes: 16822
   winner: true

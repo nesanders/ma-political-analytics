@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kay S. Khan
+  slug: kay-s-khan
   party: Democratic
   votes: 13394
   winner: true

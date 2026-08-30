@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: John C. Velis
+  slug: john-c-velis
   party: Democratic
   votes: 37130
   winner: true
   actual_two_party_share: 0.657
   war: 0.0929
 - name: Cecilia P. Calabrese
+  slug: cecilia-p-calabrese
   party: Republican
   votes: 19388
   winner: false

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: David Paul Linsky
+  slug: david-paul-linsky
   party: Democratic
   votes: 15019
   winner: true

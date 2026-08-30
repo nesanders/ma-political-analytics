@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Paul W. Mark
+  slug: paul-w-mark
   party: Democratic
   votes: 47989
   winner: true
   actual_two_party_share: 1.0
   war: 0.3097
 - name: Brendan M. Phair
+  slug: brendan-m-phair
   party: Other
   votes: 14806
   winner: false

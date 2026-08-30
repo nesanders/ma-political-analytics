@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michelle M. Dubois
+  slug: michelle-m-dubois
   party: Democratic
   votes: 7031
   winner: true

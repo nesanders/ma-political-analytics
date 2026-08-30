@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Rodney M. Elliott
+  slug: rodney-m-elliott
   party: Democratic
   votes: 7270
   winner: true
   actual_two_party_share: 0.6545
   war: -0.0035
 - name: Karla Jean Miller
+  slug: karla-jean-miller
   party: Republican
   votes: 3838
   winner: false

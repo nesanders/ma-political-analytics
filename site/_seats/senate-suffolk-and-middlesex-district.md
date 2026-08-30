@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: William N. Brownsberger
+  slug: william-n-brownsberger
   party: Democratic
   votes: 42713
   winner: true

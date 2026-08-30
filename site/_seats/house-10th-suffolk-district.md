@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Edward Francis Coppinger
+  slug: edward-francis-coppinger
   party: Democratic
   votes: 15817
   winner: true

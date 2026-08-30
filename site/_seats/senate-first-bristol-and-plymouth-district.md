@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Michael J. Rodrigues
+  slug: michael-j-rodrigues
   party: Democratic
   votes: 29420
   winner: true
   actual_two_party_share: 0.5766
   war: 0.0572
 - name: Russell T. Protentis
+  slug: russell-t-protentis
   party: Republican
   votes: 21600
   winner: false

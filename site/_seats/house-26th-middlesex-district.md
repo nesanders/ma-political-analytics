@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Mike Connolly
+  slug: mike-connolly
   party: Democratic
   votes: 11714
   winner: true

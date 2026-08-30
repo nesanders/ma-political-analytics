@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Ryan M. Hamilton
+  slug: ryan-m-hamilton
   party: Democratic
   votes: 10822
   winner: true

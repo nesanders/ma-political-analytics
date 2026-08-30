@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Robyn K. Kennedy
+  slug: robyn-k-kennedy
   party: Democratic
   votes: 30138
   winner: true
   actual_two_party_share: 1.0
   war: 0.339
 - name: Lisa K. Mair
+  slug: lisa-k-mair
   party: Other
   votes: 10805
   winner: false

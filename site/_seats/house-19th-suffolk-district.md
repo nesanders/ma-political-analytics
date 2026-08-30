@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jeffrey Rosario Turco
+  slug: jeffrey-rosario-turco
   party: Democratic
   votes: 7803
   winner: true

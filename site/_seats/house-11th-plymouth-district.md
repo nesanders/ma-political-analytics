@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Rita A. Mendes
+  slug: rita-a-mendes
   party: Democratic
   votes: 5066
   winner: true
   actual_two_party_share: 1.0
   war: 0.2805
 - name: Fred Fontaine
+  slug: fred-fontaine
   party: Other
   votes: 414
   winner: false

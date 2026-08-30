@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Meghan Kilcoyne
+  slug: meghan-kilcoyne
   party: Democratic
   votes: 11044
   winner: true
   actual_two_party_share: 0.6038
   war: 0.0342
 - name: Michael A. Vulcano
+  slug: michael-a-vulcano
   party: Republican
   votes: 7247
   winner: false

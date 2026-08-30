@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: David Biele
+  slug: david-biele
   party: Democratic
   votes: 11566
   winner: true

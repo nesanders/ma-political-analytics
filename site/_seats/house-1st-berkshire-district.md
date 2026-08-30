@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: John P. Barrett, III
+  slug: john-p-barrett-iii
   party: Democratic
   votes: 12787
   winner: true

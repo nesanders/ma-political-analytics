@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Joan Meschino
+  slug: joan-meschino
   party: Democratic
   votes: 15999
   winner: true

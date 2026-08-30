@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Michael P. Kushmerek
+  slug: michael-p-kushmerek
   party: Democratic
   votes: 6824
   winner: true
   actual_two_party_share: 0.6271
   war: 0.0499
 - name: Aaron L. Packard
+  slug: aaron-l-packard
   party: Republican
   votes: 4058
   winner: false

@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Joseph W. Mcgonagle, Jr
+  slug: joseph-w-mcgonagle-jr
   party: Democratic
   votes: 4713
   winner: true
   actual_two_party_share: 1.0
   war: 0.3116
 - name: Michael K. Marchese
+  slug: michael-k-marchese
   party: Other
   votes: 1943
   winner: false

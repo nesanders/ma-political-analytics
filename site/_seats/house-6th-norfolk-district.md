@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: William C. Galvin
+  slug: william-c-galvin
   party: Democratic
   votes: 12778
   winner: true

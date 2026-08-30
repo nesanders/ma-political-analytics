@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Carole A. Fiola
+  slug: carole-a-fiola
   party: Democratic
   votes: 7321
   winner: true

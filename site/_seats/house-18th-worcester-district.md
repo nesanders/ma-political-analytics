@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Joseph D. Mckenna
+  slug: joseph-d-mckenna
   party: Republican
   votes: 13642
   winner: true

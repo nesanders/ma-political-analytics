@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Daniel Joseph Ryan
+  slug: daniel-joseph-ryan
   party: Democratic
   votes: 8963
   winner: true

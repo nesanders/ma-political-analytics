@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: "Samantha Monta\xF1o"
+  slug: "samantha-monta\xF1o"
   party: Democratic
   votes: 13030
   winner: true

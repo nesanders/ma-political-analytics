@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael Seamus Day
+  slug: michael-seamus-day
   party: Democratic
   votes: 12527
   winner: true
   actual_two_party_share: 1.0
   war: 0.3553
 - name: Theodore Christos Menounos
+  slug: theodore-christos-menounos
   party: Other
   votes: 5079
   winner: false

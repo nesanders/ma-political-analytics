@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: John J. Lawn, Jr.
+  slug: john-j-lawn-jr
   party: Democratic
   votes: 9979
   winner: true

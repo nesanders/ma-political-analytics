@@ -95,17 +95,26 @@ full.
   `derived_metrics.py` for what that was and how it was caught.
 
 - `python -m ma_politics.build.generate_site_data --chamber both --year 2022 --vintage 2022-present`
-  Emits one Markdown-with-YAML-frontmatter file per seat into `--out-dir`
-  (default `site/_seats`) — Jekyll's own collection mechanism renders
-  these via `site/_layouts/seat.html`, no separate HTML generator needed
-  (see docs/PLAN.md §7). **This is committed site content, not a build
-  artifact** — unlike `data/raw`/`data/interim` (gitignored), the pipeline
-  is meant to be run manually/periodically per the project's requirements,
-  with its output checked in so GitHub Actions' Jekyll build (which only
-  runs Jekyll, not Python) has something to render. Verified end to end:
-  ran a real `bundle exec jekyll build` against the 200 generated pages,
-  inspected several rendered HTML pages (a Safe D uncontested seat, a
-  contested race, a Tossup R seat) — all correct, including a Liquid
-  filter-chaining bug caught by that inspection (candidate links were
-  slugifying the whole `/candidate/Name` path instead of just the name,
-  producing `/candidate-name/` instead of `/candidate/name/`).
+  Emits one Markdown-with-YAML-frontmatter file per seat (`--seats-out-dir`,
+  default `site/_seats`) and per candidate (`--candidates-out-dir`, default
+  `site/_candidates`) — Jekyll's own collection mechanism renders these via
+  `site/_layouts/seat.html`/`candidate.html`, no separate HTML generator
+  needed (see docs/PLAN.md §7). Candidates are keyed by PD43+'s own
+  candidate slug (lowercased), not a name re-derived one, to avoid
+  collisions between different candidates with similar names; a candidate
+  who ran in both chambers the same year (rare, but possible, unlike two
+  different people sharing a slug) gets one merged record rather than two
+  that would silently overwrite each other. **This is committed site
+  content, not a build artifact** — unlike `data/raw`/`data/interim`
+  (gitignored), the pipeline is meant to be run manually/periodically per
+  the project's requirements, with its output checked in so GitHub Actions'
+  Jekyll build (which only runs Jekyll, not Python) has something to
+  render. Verified end to end: ran a real `bundle exec jekyll build`
+  against the 200 seat + 282 candidate pages, inspected several rendered
+  HTML pages including the actual link chain from a seat page's candidate
+  link through to that candidate's own page — all correct, including two
+  real bugs caught by that inspection: a Liquid filter-chaining bug
+  (candidate links were slugifying the whole `/candidate/Name` path instead
+  of just the name) and a missing `year` column that only surfaced once
+  candidate pages tried to sort by it (the WAR table doesn't carry year as
+  a column; it's implicit in the per-year file).

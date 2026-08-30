@@ -1,0 +1,17 @@
+---
+slug: edward-f-dombroski-jr
+name: Edward F. Dombroski, Jr
+party: Republican
+races:
+- chamber: senate
+  year: 2022
+  district_name: Fifth Middlesex District
+  party: Republican
+  votes: 24104
+  winner: false
+  actual_two_party_share: 0.3639
+  war: 0.0413
+  is_uncontested: false
+title: Edward F. Dombroski, Jr
+layout: candidate
+---

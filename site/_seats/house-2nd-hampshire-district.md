@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Daniel R. Carey
+  slug: daniel-r-carey
   party: Democratic
   votes: 15492
   winner: true

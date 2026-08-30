@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Carlos Gonzalez
+  slug: carlos-gonzalez
   party: Democratic
   votes: 4069
   winner: true

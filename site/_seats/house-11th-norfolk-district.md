@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Paul McMurtry
+  slug: paul-mcmurtry
   party: Democratic
   votes: 14495
   winner: true

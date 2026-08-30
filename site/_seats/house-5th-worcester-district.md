@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Donald R. Berthiaume, Jr
+  slug: donald-r-berthiaume-jr
   party: Republican
   votes: 14151
   winner: true

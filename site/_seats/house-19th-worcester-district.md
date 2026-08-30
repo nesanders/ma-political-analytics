@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Kate Donaghue
+  slug: kate-donaghue
   party: Democratic
   votes: 11560
   winner: true
   actual_two_party_share: 0.6752
   war: -0.0046
 - name: Jonathan I. Hostage
+  slug: jonathan-i-hostage
   party: Republican
   votes: 5560
   winner: false

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Vanna Howard
+  slug: vanna-howard
   party: Democratic
   votes: 7168
   winner: true

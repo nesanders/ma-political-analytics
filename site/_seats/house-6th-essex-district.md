@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jerald A. Parisella
+  slug: jerald-a-parisella
   party: Democratic
   votes: 14666
   winner: true

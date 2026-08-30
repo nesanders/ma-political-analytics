@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Patricia A. Haddad
+  slug: patricia-a-haddad
   party: Democratic
   votes: 8951
   winner: true
   actual_two_party_share: 0.5436
   war: 0.0285
 - name: Justin Thurber
+  slug: justin-thurber
   party: Republican
   votes: 7514
   winner: false

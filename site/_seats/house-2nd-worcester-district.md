@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Jonathan D. Zlotnik
+  slug: jonathan-d-zlotnik
   party: Democratic
   votes: 7667
   winner: true
   actual_two_party_share: 0.535
   war: 0.0204
 - name: Bruce K. Chester
+  slug: bruce-k-chester
   party: Republican
   votes: 6664
   winner: false

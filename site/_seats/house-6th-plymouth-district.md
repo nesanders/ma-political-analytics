@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Josh S. Cutler
+  slug: josh-s-cutler
   party: Democratic
   votes: 12163
   winner: true
   actual_two_party_share: 0.5614
   war: 0.0391
 - name: Kenneth Sweezey
+  slug: kenneth-sweezey
   party: Republican
   votes: 9503
   winner: false

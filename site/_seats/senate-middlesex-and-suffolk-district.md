@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Sal N. DiDomenico
+  slug: sal-n-didomenico
   party: Democratic
   votes: 33355
   winner: true

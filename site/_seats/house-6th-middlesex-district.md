@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Priscila S. Sousa
+  slug: priscila-s-sousa
   party: Democratic
   votes: 6839
   winner: true

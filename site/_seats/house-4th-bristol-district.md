@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Steven S. Howitt
+  slug: steven-s-howitt
   party: Republican
   votes: 13380
   winner: true

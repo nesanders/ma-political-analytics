@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Adam J. Scanlon
+  slug: adam-j-scanlon
   party: Democratic
   votes: 11212
   winner: true

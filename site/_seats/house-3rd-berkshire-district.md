@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: William "Smitty" Pignatelli
+  slug: william-pignatelli
   party: Democratic
   votes: 16340
   winner: true
   actual_two_party_share: 1.0
   war: 0.2528
 - name: Michael Silvio Lavery
+  slug: michael-silvio-lavery
   party: .nan
   votes: 1698
   winner: false

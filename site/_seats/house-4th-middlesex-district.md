@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Danielle W. Gregoire
+  slug: danielle-w-gregoire
   party: Democratic
   votes: 10157
   winner: true

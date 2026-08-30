@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Daniel H. Cahill
+  slug: daniel-h-cahill
   party: Democratic
   votes: 6042
   winner: true

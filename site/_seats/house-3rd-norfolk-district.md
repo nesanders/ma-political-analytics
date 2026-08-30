@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Ronald Mariano
+  slug: ronald-mariano
   party: Democratic
   votes: 10085
   winner: true

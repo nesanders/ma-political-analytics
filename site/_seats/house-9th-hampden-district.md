@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Orlando Ramos
+  slug: orlando-ramos
   party: Democratic
   votes: 5913
   winner: true

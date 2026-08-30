@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Sarah K. Peake
+  slug: sarah-k-peake
   party: Democratic
   votes: 18786
   winner: true

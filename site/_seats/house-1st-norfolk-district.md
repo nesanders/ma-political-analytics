@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Bruce J. Ayers
+  slug: bruce-j-ayers
   party: Democratic
   votes: 11027
   winner: true

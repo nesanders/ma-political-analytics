@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Steven C. Owens
+  slug: steven-c-owens
   party: Democratic
   votes: 14817
   winner: true

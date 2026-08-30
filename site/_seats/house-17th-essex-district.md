@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Frank A. Moran
+  slug: frank-a-moran
   party: Democratic
   votes: 6031
   winner: true

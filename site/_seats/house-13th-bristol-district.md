@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Antonio d. F. Cabral
+  slug: antonio-d-f-cabral
   party: Democratic
   votes: 6977
   winner: true

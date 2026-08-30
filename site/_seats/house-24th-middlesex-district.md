@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: David M. Rogers
+  slug: david-m-rogers
   party: Democratic
   votes: 16233
   winner: true

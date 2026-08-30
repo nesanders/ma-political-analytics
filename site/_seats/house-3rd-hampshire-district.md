@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Mindy Domb
+  slug: mindy-domb
   party: Democratic
   votes: 8333
   winner: true

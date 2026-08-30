@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Norman J. Orrall
+  slug: norman-j-orrall
   party: Republican
   votes: 12370
   winner: true

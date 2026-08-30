@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Daniel M. Donahue
+  slug: daniel-m-donahue
   party: Democratic
   votes: 6111
   winner: true

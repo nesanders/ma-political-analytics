@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Mathew J. Muratore
+  slug: mathew-j-muratore
   party: Republican
   votes: 12470
   winner: true
   actual_two_party_share: 0.5776
   war: 0.1387
 - name: Stephen Michael Palmer
+  slug: stephen-michael-palmer
   party: Democratic
   votes: 9121
   winner: false

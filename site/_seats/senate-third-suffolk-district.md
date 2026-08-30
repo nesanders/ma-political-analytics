@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Lydia Marie Edwards
+  slug: lydia-marie-edwards
   party: Democratic
   votes: 32396
   winner: true

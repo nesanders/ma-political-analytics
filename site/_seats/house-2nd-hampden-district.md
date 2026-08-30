@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Brian M. Ashe
+  slug: brian-m-ashe
   party: Democratic
   votes: 13670
   winner: true

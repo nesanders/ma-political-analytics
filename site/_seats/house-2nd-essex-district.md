@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Kristin E. Kassner
+  slug: kristin-e-kassner
   party: Democratic
   votes: 11763
   winner: true
   actual_two_party_share: 0.5
   war: -0.1033
 - name: Leonard Mirra
+  slug: leonard-mirra
   party: Republican
   votes: 11762
   winner: false

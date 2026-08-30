@@ -31,6 +31,15 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def candidate_slug(pd43_slug: str) -> str:
+    """PD43+'s own candidate slug (e.g. "Paul-W-Mark", from their
+    /candidates/view/ URLs) lowercased for consistency with this site's
+    other (all-lowercase) slugs. Used as the candidate's durable identity
+    instead of re-deriving one from their name, which risks collisions
+    between different candidates with similar names."""
+    return pd43_slug.lower()
+
+
 def build_seat_records(chamber: str, year: int, vintage: str, derived_dir: Path) -> list[dict]:
     lean = pd.read_parquet(derived_dir / f"{chamber}_{vintage}_lean.parquet")
     war = pd.read_parquet(derived_dir / f"{chamber}_{year}_war.parquet")
@@ -41,6 +50,7 @@ def build_seat_records(chamber: str, year: int, vintage: str, derived_dir: Path)
         candidates = [
             {
                 "name": row["candidate_name"],
+                "slug": candidate_slug(row["candidate_slug"]),
                 "party": row["party"],
                 "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
                 "winner": bool(row["winner"]),
@@ -83,20 +93,82 @@ def write_seat_files(records: list[dict], out_dir: Path) -> None:
     logger.info("Wrote %d seat pages to %s", len(records), out_dir)
 
 
+def build_candidate_records(chambers: list[str], year: int, derived_dir: Path) -> list[dict]:
+    """One record per candidate_slug, with every race they ran across all
+    given chambers this year. Combines all chambers' WAR tables *before*
+    grouping by candidate_slug — a candidate who somehow ran in both a
+    House and Senate race the same year (vanishingly rare, but a real
+    possibility, unlike two different people sharing a slug) still gets
+    one merged record with both races, rather than two per-chamber records
+    that would silently overwrite each other at the same output filename
+    if built separately."""
+    war = pd.concat(
+        [
+            pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet").assign(chamber=c, year=year)
+            for c in chambers
+        ],
+        ignore_index=True,
+    )
+    records = []
+    for slug, group in war.groupby("candidate_slug"):
+        races = [
+            {
+                "chamber": row["chamber"],
+                "year": year,
+                "district_name": row["district_name"],
+                "party": row["party"],
+                "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
+                "winner": bool(row["winner"]),
+                "actual_two_party_share": (
+                    round(float(row["actual_two_party_share"]), 4)
+                    if pd.notna(row["actual_two_party_share"])
+                    else None
+                ),
+                "war": round(float(row["war"]), 4) if pd.notna(row["war"]) else None,
+                "is_uncontested": bool(row["is_uncontested"]),
+            }
+            for _, row in group.sort_values("year", ascending=False).iterrows()
+        ]
+        latest = group.sort_values("year", ascending=False).iloc[0]
+        records.append(
+            {
+                "slug": candidate_slug(slug),
+                "name": latest["candidate_name"],
+                "party": latest["party"],
+                "races": races,
+            }
+        )
+    return records
+
+
+def write_candidate_files(records: list[dict], out_dir: Path) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for record in records:
+        front_matter = {**record, "title": record["name"], "layout": "candidate"}
+        path = out_dir / f"{record['slug']}.md"
+        path.write_text(f"---\n{yaml.safe_dump(front_matter, sort_keys=False)}---\n")
+    logger.info("Wrote %d candidate pages to %s", len(records), out_dir)
+
+
 @click.command()
 @click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
 @click.option("--year", type=int, default=2022)
 @click.option("--vintage", default="2022-present")
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
-@click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
+@click.option("--seats-out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
+@click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
 @click.option("-v", "--verbose", is_flag=True)
-def main(chamber: str, year: int, vintage: str, derived_dir: Path, out_dir: Path, verbose: bool):
+def main(chamber: str, year: int, vintage: str, derived_dir: Path, seats_out_dir: Path, candidates_out_dir: Path, verbose: bool):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
-    records = []
+
+    seat_records = []
     for c in chambers:
-        records.extend(build_seat_records(c, year, vintage, derived_dir))
-    write_seat_files(records, out_dir)
+        seat_records.extend(build_seat_records(c, year, vintage, derived_dir))
+    write_seat_files(seat_records, seats_out_dir)
+
+    candidate_records = build_candidate_records(chambers, year, derived_dir)
+    write_candidate_files(candidate_records, candidates_out_dir)
 
 
 if __name__ == "__main__":

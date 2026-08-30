@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael J. Barrett
+  slug: michael-j-barrett
   party: Democratic
   votes: 50728
   winner: true

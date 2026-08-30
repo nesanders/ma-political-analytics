@@ -11,12 +11,14 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Alyson M. Sullivan
+  slug: alyson-m-sullivan
   party: Republican
   votes: 12083
   winner: true
   actual_two_party_share: 1.0
   war: 0.4882
 - name: Brandon J. Griffin
+  slug: brandon-j-griffin
   party: Other
   votes: 3945
   winner: false

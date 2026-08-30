@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Tricia Farley-Bouvier
+  slug: tricia-farley-bouvier
   party: Democratic
   votes: 10883
   winner: true

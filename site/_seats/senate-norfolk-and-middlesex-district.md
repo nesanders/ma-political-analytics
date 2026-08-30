@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Cynthia Stone Creem
+  slug: cynthia-stone-creem
   party: Democratic
   votes: 55022
   winner: true

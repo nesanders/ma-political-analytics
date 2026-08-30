@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Judith A. Garcia
+  slug: judith-a-garcia
   party: Democratic
   votes: 4127
   winner: true
   actual_two_party_share: 0.7267
   war: -0.0272
 - name: Todd B. Taylor
+  slug: todd-b-taylor
   party: Republican
   votes: 1552
   winner: false

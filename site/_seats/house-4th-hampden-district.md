@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Kelly W. Pease
+  slug: kelly-w-pease
   party: Republican
   votes: 12256
   winner: true

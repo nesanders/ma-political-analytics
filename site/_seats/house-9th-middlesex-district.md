@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Thomas M. Stanley
+  slug: thomas-m-stanley
   party: Democratic
   votes: 11372
   winner: true

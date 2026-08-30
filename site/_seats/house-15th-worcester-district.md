@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Mary S. Keefe
+  slug: mary-s-keefe
   party: Democratic
   votes: 4540
   winner: true

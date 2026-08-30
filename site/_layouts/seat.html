@@ -26,9 +26,8 @@ layout: default
       </thead>
       <tbody>
         {% for c in page.candidates %}
-        {% assign candidate_slug = c.name | slugify %}
         <tr{% if c.winner %} class="winner"{% endif %}>
-          <td><a href="{{ '/candidate/' | append: candidate_slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}</td>
+          <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}</td>
           <td>{{ c.party }}</td>
           <td>{{ c.votes }}</td>
           <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kenneth I. Gordon
+  slug: kenneth-i-gordon
   party: Democratic
   votes: 13510
   winner: true

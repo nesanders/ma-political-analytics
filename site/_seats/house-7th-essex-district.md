@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Manny Cruz
+  slug: manny-cruz
   party: Democratic
   votes: 13608
   winner: true

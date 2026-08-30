@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Rebecca L. Rausch
+  slug: rebecca-l-rausch
   party: Democratic
   votes: 41893
   winner: true
   actual_two_party_share: 0.5487
   war: -0.0737
 - name: Shawn C. Dooley
+  slug: shawn-c-dooley
   party: Republican
   votes: 34452
   winner: false

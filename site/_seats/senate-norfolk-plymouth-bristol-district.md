@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Walter F. Timilty, Jr.
+  slug: walter-f-timilty-jr
   party: Democratic
   votes: 40311
   winner: true
   actual_two_party_share: 0.6613
   war: 0.0469
 - name: Brian R. Muello
+  slug: brian-r-muello
   party: Republican
   votes: 20648
   winner: false

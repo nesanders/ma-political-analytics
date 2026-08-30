@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Russell E. Holmes
+  slug: russell-e-holmes
   party: Democratic
   votes: 7675
   winner: true

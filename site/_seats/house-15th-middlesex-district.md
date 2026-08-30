@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michelle Ciccolo
+  slug: michelle-ciccolo
   party: Democratic
   votes: 14123
   winner: true

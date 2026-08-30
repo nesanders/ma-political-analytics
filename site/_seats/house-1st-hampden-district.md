@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Todd M. Smola
+  slug: todd-m-smola
   party: Republican
   votes: 13297
   winner: true

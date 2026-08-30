@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Steven Ultrino
+  slug: steven-ultrino
   party: Democratic
   votes: 7817
   winner: true

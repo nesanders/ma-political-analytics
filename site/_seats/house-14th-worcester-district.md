@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: James J. O'Day
+  slug: james-j-oday
   party: Democratic
   votes: 9293
   winner: true

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Michael O. Moore
+  slug: michael-o-moore
   party: Democratic
   votes: 40946
   winner: true

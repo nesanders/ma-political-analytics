@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Christine P. Barber
+  slug: christine-p-barber
   party: Democratic
   votes: 11675
   winner: true

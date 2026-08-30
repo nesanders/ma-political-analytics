@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Marjorie C. Decker
+  slug: marjorie-c-decker
   party: Democratic
   votes: 11018
   winner: true

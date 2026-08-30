@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: James Michael Murphy
+  slug: james-michael-murphy
   party: Democratic
   votes: 10255
   winner: true
   actual_two_party_share: 0.6396
   war: 0.0552
 - name: Paul J. Rotondo
+  slug: paul-j-rotondo
   party: Republican
   votes: 5778
   winner: false

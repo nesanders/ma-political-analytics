@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kate Hogan
+  slug: kate-hogan
   party: Democratic
   votes: 15844
   winner: true

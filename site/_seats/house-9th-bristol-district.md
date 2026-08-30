@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Christopher M. Markey
+  slug: christopher-m-markey
   party: Democratic
   votes: 10977
   winner: true

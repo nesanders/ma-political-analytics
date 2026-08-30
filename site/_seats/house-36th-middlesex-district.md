@@ -11,12 +11,14 @@ party_favored: Republican
 is_uncontested: false
 candidates:
 - name: Colleen M. Garry
+  slug: colleen-m-garry
   party: Democratic
   votes: 10025
   winner: true
   actual_two_party_share: 0.6064
   war: 0.1112
 - name: George Derek Boag
+  slug: george-derek-boag
   party: Republican
   votes: 6506
   winner: false

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Denise C. Garlick
+  slug: denise-c-garlick
   party: Democratic
   votes: 17056
   winner: true

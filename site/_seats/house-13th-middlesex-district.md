@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Carmine Lawrence Gentile
+  slug: carmine-lawrence-gentile
   party: Democratic
   votes: 16338
   winner: true

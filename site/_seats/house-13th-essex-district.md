@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Sally P. Kerans
+  slug: sally-p-kerans
   party: Democratic
   votes: 13923
   winner: true
   actual_two_party_share: 1.0
   war: 0.4337
 - name: Michael D. Bean
+  slug: michael-d-bean
   party: Other
   votes: 571
   winner: false

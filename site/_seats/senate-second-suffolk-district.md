@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Liz Miranda
+  slug: liz-miranda
   party: Democratic
   votes: 35207
   winner: true

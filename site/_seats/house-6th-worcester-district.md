@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Peter J. Durant
+  slug: peter-j-durant
   party: Republican
   votes: 10526
   winner: true

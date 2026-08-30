@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Bud L. Williams
+  slug: bud-l-williams
   party: Democratic
   votes: 6165
   winner: true

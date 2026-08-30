@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Patrick Michael O'Connor
+  slug: patrick-michael-oconnor
   party: Republican
   votes: 48668
   winner: true
   actual_two_party_share: 0.6063
   war: 0.199
 - name: Robert William Stephens, Jr
+  slug: robert-william-stephens-jr
   party: Democratic
   votes: 31609
   winner: false

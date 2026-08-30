@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Rady Mom
+  slug: rady-mom
   party: Democratic
   votes: 4434
   winner: true

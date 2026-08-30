@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Nicholas P. Collins
+  slug: nicholas-p-collins
   party: Democratic
   votes: 41069
   winner: true

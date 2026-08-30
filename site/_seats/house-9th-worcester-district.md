@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: David K. Muradian, Jr
+  slug: david-k-muradian-jr
   party: Republican
   votes: 13516
   winner: true

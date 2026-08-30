@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Jon Santiago
+  slug: jon-santiago
   party: Democratic
   votes: 9957
   winner: true

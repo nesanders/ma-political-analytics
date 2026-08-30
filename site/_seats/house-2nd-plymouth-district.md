@@ -11,6 +11,7 @@ party_favored: Republican
 is_uncontested: true
 candidates:
 - name: Susan Williams Gifford
+  slug: susan-williams-gifford
   party: Republican
   votes: 13019
   winner: true

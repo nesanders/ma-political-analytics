@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Mark J. Cusack
+  slug: mark-j-cusack
   party: Democratic
   votes: 11309
   winner: true

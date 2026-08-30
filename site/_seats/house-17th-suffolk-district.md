@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Kevin G. Honan
+  slug: kevin-g-honan
   party: Democratic
   votes: 9581
   winner: true

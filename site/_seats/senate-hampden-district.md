@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Adam Gomez
+  slug: adam-gomez
   party: Democratic
   votes: 23665
   winner: true

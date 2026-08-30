@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Pavel M. Payano
+  slug: pavel-m-payano
   party: Democratic
   votes: 21591
   winner: true

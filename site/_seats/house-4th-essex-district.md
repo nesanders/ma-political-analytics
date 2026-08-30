@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Estela A. Reyes
+  slug: estela-a-reyes
   party: Democratic
   votes: 4884
   winner: true

@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: David A. Robertson
+  slug: david-a-robertson
   party: Democratic
   votes: 10248
   winner: true
   actual_two_party_share: 0.563
   war: 0.0398
 - name: Paul Sarnowski
+  slug: paul-sarnowski
   party: Republican
   votes: 7955
   winner: false

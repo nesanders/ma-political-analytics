@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Francisco E. Paulino
+  slug: francisco-e-paulino
   party: Democratic
   votes: 5363
   winner: true

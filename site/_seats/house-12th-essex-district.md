@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Thomas P. Walsh
+  slug: thomas-p-walsh
   party: Democratic
   votes: 12021
   winner: true

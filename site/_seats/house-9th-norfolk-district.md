@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: false
 candidates:
 - name: Marcus S. Vaughn
+  slug: marcus-s-vaughn
   party: Republican
   votes: 10534
   winner: true
   actual_two_party_share: 0.5087
   war: 0.0705
 - name: Kevin Kalkut
+  slug: kevin-kalkut
   party: Democratic
   votes: 10174
   winner: false

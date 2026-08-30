@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Patrick Joseph Kearney
+  slug: patrick-joseph-kearney
   party: Democratic
   votes: 17384
   winner: true

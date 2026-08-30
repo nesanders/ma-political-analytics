@@ -1,0 +1,17 @@
+---
+slug: kenneth-i-gordon
+name: Kenneth I. Gordon
+party: Democratic
+races:
+- chamber: house
+  year: 2022
+  district_name: 21st Middlesex District
+  party: Democratic
+  votes: 13510
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3429
+  is_uncontested: true
+title: Kenneth I. Gordon
+layout: candidate
+---

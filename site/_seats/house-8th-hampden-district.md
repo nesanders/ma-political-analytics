@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Shirley B. Arriaga
+  slug: shirley-b-arriaga
   party: Democratic
   votes: 8129
   winner: true
   actual_two_party_share: 1.0
   war: 0.4446
 - name: Sean Goonan
+  slug: sean-goonan
   party: Other
   votes: 4420
   winner: false

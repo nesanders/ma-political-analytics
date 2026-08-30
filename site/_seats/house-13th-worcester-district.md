@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: John J. Mahoney, Jr.
+  slug: john-j-mahoney-jr
   party: Democratic
   votes: 10413
   winner: true

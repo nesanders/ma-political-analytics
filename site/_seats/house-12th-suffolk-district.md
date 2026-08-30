@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Brandy Fluker Oakley
+  slug: brandy-fluker-oakley
   party: Democratic
   votes: 10729
   winner: true

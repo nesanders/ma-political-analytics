@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Danillo A. Sena
+  slug: danillo-a-sena
   party: Democratic
   votes: 14330
   winner: true

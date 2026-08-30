@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Cindy F. Friedman
+  slug: cindy-f-friedman
   party: Democratic
   votes: 54112
   winner: true

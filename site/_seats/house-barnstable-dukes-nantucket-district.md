@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Dylan A. Fernandes
+  slug: dylan-a-fernandes
   party: Democratic
   votes: 15858
   winner: true

@@ -11,6 +11,7 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Paul J. Donato, Sr.
+  slug: paul-j-donato-sr
   party: Democratic
   votes: 10474
   winner: true

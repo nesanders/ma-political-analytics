@@ -11,12 +11,14 @@ party_favored: Democratic
 is_uncontested: true
 candidates:
 - name: Alice Hanlon Peisch
+  slug: alice-hanlon-peisch
   party: Democratic
   votes: 14057
   winner: true
   actual_two_party_share: 1.0
   war: 0.2771
 - name: David Rolde
+  slug: david-rolde
   party: .nan
   votes: 1167
   winner: false
