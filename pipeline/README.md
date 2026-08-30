@@ -33,6 +33,13 @@ skipped, so re-running after a future election only pulls new rows.
   CRS (EPSG:4269). Verified live for all three vintages: 40 Senate + 160-161
   House districts each, all valid geometries.
 
+- `python -m ma_politics.fetch.towns --out-dir data/raw/boundaries`
+  MA town/municipality boundaries from Census TIGER COUSUB — used for the
+  town↔district crosswalk. A single current-vintage layer is used against
+  all district vintages, since MA town boundaries are essentially static
+  across the redistricting cycles this project covers (see module
+  docstring). Writes `towns.geoparquet`. Verified live: 357 towns.
+
 - `CENSUS_API_KEY=... python -m ma_politics.fetch.demographics --chamber both --acs-year 2022`
   District-level demographics (PL 94-171 total/voting-age population, ACS
   5-year income/education) from the Census API. **Requires a free API key**

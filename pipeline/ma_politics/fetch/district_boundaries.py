@@ -45,20 +45,17 @@ two files) to EPSG:4269 to match the TIGER-sourced vintages.
 
 from __future__ import annotations
 
-import io
 import logging
-import zipfile
 from pathlib import Path
 
 import click
-import geopandas as gpd
 
-from ma_politics.util.http import get, make_session
+from ma_politics.util.geo import TARGET_CRS, download_shapefile
+from ma_politics.util.http import make_session
 
 logger = logging.getLogger(__name__)
 
 MA_FIPS = "25"
-TARGET_CRS = "EPSG:4269"  # NAD83 geographic — matches TIGER's native CRS
 
 # vintage -> (label, TIGER release year to pull from)
 # The TIGER release year need not equal the vintage's first election year —
@@ -95,21 +92,6 @@ def _tiger_url(year: int, chamber: str) -> str:
     return f"https://www2.census.gov/geo/tiger/TIGER{year}/{layer.upper()}/tl_{year}_25_{layer}.zip"
 
 
-def _download_shapefile(url: str, shp_path_in_zip: str | None, extract_dir: Path, session) -> gpd.GeoDataFrame:
-    """shp_path_in_zip=None auto-detects the single .shp in the archive
-    (TIGER zips have it at the root; the exact name varies by layer/year)."""
-    resp = get(session, url)
-    with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
-        if shp_path_in_zip is None:
-            shp_names = [n for n in zf.namelist() if n.endswith(".shp")]
-            if len(shp_names) != 1:
-                raise ValueError(f"Expected exactly one .shp in {url}, found {shp_names}")
-            shp_path_in_zip = shp_names[0]
-        extract_dir.mkdir(parents=True, exist_ok=True)
-        zf.extractall(extract_dir)
-    return gpd.read_file(extract_dir / shp_path_in_zip)
-
-
 def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Path:
     session = session or make_session(min_interval_s=0.5)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -119,11 +101,11 @@ def fetch_vintage(vintage: str, chamber: str, out_dir: Path, session=None) -> Pa
     if vintage in TIGER_VINTAGES:
         year = TIGER_VINTAGES[vintage]
         url = _tiger_url(year, chamber)
-        gdf = _download_shapefile(url, None, extract_dir, session)
+        gdf = download_shapefile(url, None, extract_dir, session)
         source = f"TIGER{year}"
     elif vintage == "2001-2010":
         url, shp_path, dissolve_col = MIT_VINTAGE_2001[chamber]
-        raw = _download_shapefile(url, shp_path, extract_dir, session)
+        raw = download_shapefile(url, shp_path, extract_dir, session)
         gdf = raw.dissolve(by=dissolve_col).reset_index()
         source = "MIT GeoData Repository (2002-vintage shapefile)"
     else:
