@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 10th Worcester District
   party: Democratic
   votes: 10323
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 1.0
   war: 0.4251
   is_uncontested: true
+  is_incumbent: false
 title: Brian William Murray
 layout: candidate
 ---

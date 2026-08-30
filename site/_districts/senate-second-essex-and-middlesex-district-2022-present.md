@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0014
   candidates:
   - name: Barry R. Finegold
     slug: barry-r-finegold
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5735
     war: -0.0131
+    is_incumbent: false
   - name: SalvatorE Paul Defranco
     slug: salvatore-paul-defranco
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4265
     war: 0.0131
+    is_incumbent: false
+  is_open_seat: null
 title: Second Essex and Middlesex District (2022-present)
 layout: district
 ---

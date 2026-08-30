@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9414
   candidates:
   - name: Margaret R. Scarsdale
     slug: margaret-r-scarsdale
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5002
     war: -0.0482
+    is_incumbent: false
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -32,6 +34,7 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4998
     war: 0.0482
+    is_incumbent: false
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -39,6 +42,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.0571
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 1st Middlesex District (2022-present)
 layout: district
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.7115
   candidates:
   - name: Paul K. Frost
     slug: paul-k-frost
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.5186
+    is_incumbent: false
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3271
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 7th Worcester District (2022-present)
 layout: district
 ---

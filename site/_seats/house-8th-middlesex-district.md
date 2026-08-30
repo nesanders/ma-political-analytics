@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9907
   candidates:
   - name: James Arena-DeRosa
     slug: james-arena-derosa
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6503
     war: -0.0264
+    is_incumbent: false
   - name: Loring Barnes
     slug: loring-barnes
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3497
     war: 0.0264
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 8th Middlesex District

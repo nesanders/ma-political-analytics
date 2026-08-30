@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.7604
   candidates:
   - name: Tram T. Nguyen
     slug: tram-t-nguyen
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6042
     war: -0.0012
+    is_incumbent: false
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3958
     war: 0.0012
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 18th Essex District

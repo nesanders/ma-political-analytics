@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: senate
   year: 2022
+  vintage: 2022-present
   district_name: Third Essex District
   party: Democratic
   votes: 34620
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 1.0
   war: 0.3667
   is_uncontested: true
+  is_incumbent: false
 title: Brendan P. Crighton
 layout: candidate
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9844
   candidates:
   - name: Fred Jay Barrows
     slug: fred-jay-barrows
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5757
     war: 0.1468
+    is_incumbent: false
   - name: Brendan A. Roche
     slug: brendan-a-roche
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4243
     war: -0.1468
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 1st Bristol District

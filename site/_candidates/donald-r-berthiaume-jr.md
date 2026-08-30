@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 5th Worcester District
   party: Republican
   votes: 14151
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 1.0
   war: 0.4623
   is_uncontested: true
+  is_incumbent: false
 title: Donald R. Berthiaume, Jr
 layout: candidate
 ---

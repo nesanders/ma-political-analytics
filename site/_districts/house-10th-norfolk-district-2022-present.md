@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0261
   candidates:
   - name: Jeffrey N. Roy
     slug: jeffrey-n-roy
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6374
     war: 0.0327
+    is_incumbent: false
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3626
     war: -0.0327
+    is_incumbent: false
+  is_open_seat: null
 title: 10th Norfolk District (2022-present)
 layout: district
 ---

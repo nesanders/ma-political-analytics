@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9395
   candidates:
   - name: David Henry Argosky Leboeuf
     slug: david-henry-argosky-leboeuf
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.592
     war: -0.0577
+    is_incumbent: false
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.408
     war: 0.0577
+    is_incumbent: false
+  is_open_seat: null
 title: 17th Worcester District (2022-present)
 layout: district
 ---

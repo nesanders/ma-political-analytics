@@ -20,68 +20,69 @@ from pathlib import Path
 import click
 import pandas as pd
 
-from ma_politics.build.generate_site_data import discover_years
+from ma_politics.build.generate_site_data import build_district_records
 
 logger = logging.getLogger(__name__)
 
 
 def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Path) -> pd.DataFrame:
-    frames = []
+    """Built from generate_site_data.build_district_records() — the exact
+    same records the Jekyll district/seat pages render — rather than
+    re-reading the lean/WAR parquet independently, so this table can't
+    drift from what the site itself shows, and picks up turnout_ratio for
+    free instead of needing its own parallel computation."""
+    rows = []
     for c in chambers:
         for vintage in vintages:
-            for year in discover_years(c, vintage, derived_dir):
-                lean = pd.read_parquet(derived_dir / f"{c}_{vintage}_{year}_lean.parquet")
-                war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
-                is_uncontested = war.groupby("district_name")["is_uncontested"].first()
-                lean = lean.copy()
-                lean["chamber"] = c
-                lean["year"] = year
-                lean["vintage"] = vintage
-                lean["is_uncontested"] = lean["district_name"].map(is_uncontested)
-                frames.append(lean)
-    out = pd.concat(frames, ignore_index=True)
-    return out[
-        [
-            "chamber",
-            "year",
-            "vintage",
-            "district_id",
-            "district_name",
-            "lean_dem_share",
-            "competitiveness",
-            "competitiveness_label",
-            "party_favored",
-            "is_uncontested",
-        ]
-    ]
+            for d in build_district_records(c, vintage, derived_dir):
+                for entry in d["results_by_year"]:
+                    rows.append(
+                        {
+                            "chamber": d["chamber"],
+                            "year": entry["year"],
+                            "vintage": d["vintage"],
+                            "district_id": d["district_id"],
+                            "district_name": d["district_name"],
+                            "lean_dem_share": entry["lean_dem_share"],
+                            "competitiveness": entry["competitiveness"],
+                            "competitiveness_label": entry["competitiveness_label"],
+                            "party_favored": entry["party_favored"],
+                            "is_uncontested": entry["is_uncontested"],
+                            "turnout_ratio": entry["turnout_ratio"],
+                        }
+                    )
+    return pd.DataFrame(rows)
 
 
-def build_results_table(chambers: list[str], years_by_chamber: dict[str, list[int]], derived_dir: Path) -> pd.DataFrame:
-    frames = []
+def build_results_table(chambers: list[str], vintages: list[str], derived_dir: Path) -> pd.DataFrame:
+    """Same rationale as build_seats_table: built from the already-computed
+    district records (which carry is_incumbent, resolved once there against
+    the prior election within the same vintage) instead of a separate pass
+    over raw WAR parquet."""
+    rows = []
     for c in chambers:
-        for year in years_by_chamber.get(c, []):
-            war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
-            war = war.copy()
-            war["chamber"] = c
-            war["year"] = year
-            frames.append(war)
-    out = pd.concat(frames, ignore_index=True)
-    return out[
-        [
-            "chamber",
-            "year",
-            "district_name",
-            "candidate_name",
-            "candidate_slug",
-            "party",
-            "votes",
-            "winner",
-            "is_uncontested",
-            "actual_two_party_share",
-            "district_lean_dem_share",
-            "war",
-        ]
-    ]
+        for vintage in vintages:
+            for d in build_district_records(c, vintage, derived_dir):
+                for entry in d["results_by_year"]:
+                    for cand in entry["candidates"]:
+                        rows.append(
+                            {
+                                "chamber": d["chamber"],
+                                "year": entry["year"],
+                                "district_name": d["district_name"],
+                                "candidate_name": cand["name"],
+                                "candidate_slug": cand["slug"],
+                                "party": cand["party"],
+                                "votes": cand["votes"],
+                                "winner": cand["winner"],
+                                "is_uncontested": entry["is_uncontested"],
+                                "is_incumbent": cand["is_incumbent"],
+                                "actual_two_party_share": cand["actual_two_party_share"],
+                                "district_lean_dem_share": entry["lean_dem_share"],
+                                "war": cand["war"],
+                            }
+                        )
+    return pd.DataFrame(rows)
 
 
 def build_towns_table(chambers: list[str], vintages: list[str], crosswalks_dir: Path) -> pd.DataFrame:
@@ -119,6 +120,11 @@ SCHEMA_CARD = {
                 "competitiveness_label": "competitiveness + favored party, e.g. 'Safe D', 'Tossup R'",
                 "party_favored": "'Democratic' or 'Republican' — whichever lean_dem_share favors",
                 "is_uncontested": "true if only one major party fielded a candidate in the general",
+                "turnout_ratio": (
+                    "this race's two-party vote total divided by the district's apportioned two-party "
+                    "vote total on the statewide baseline race — a 'roll-off' measure, not a share of "
+                    "eligible voters. Can exceed 1.0. See the methodology page."
+                ),
             },
         },
         "results": {
@@ -133,6 +139,12 @@ SCHEMA_CARD = {
                 "votes": "raw vote count",
                 "winner": "true if this candidate won the race",
                 "is_uncontested": "true if this race had no opposing major-party candidate",
+                "is_incumbent": (
+                    "true if this candidate won the immediately preceding election for this same "
+                    "district within the same redistricting vintage. Never true for a district's first "
+                    "election on record in a vintage (nothing to compare against) — not the same as "
+                    "confirmed false."
+                ),
                 "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
                 "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
                 "war": (
@@ -175,6 +187,20 @@ SCHEMA_CARD = {
             ),
         },
         {
+            "question": "Which House races had the lowest turnout relative to the statewide baseline in 2022?",
+            "sql": (
+                "SELECT district_name, turnout_ratio FROM seats "
+                "WHERE chamber = 'house' AND year = 2022 ORDER BY turnout_ratio ASC LIMIT 10"
+            ),
+        },
+        {
+            "question": "How many incumbents won re-election vs. lost, in the House in 2022?",
+            "sql": (
+                "SELECT winner, COUNT(*) AS n FROM results "
+                "WHERE chamber = 'house' AND year = 2022 AND is_incumbent GROUP BY winner"
+            ),
+        },
+        {
             "question": "Which districts does Worcester span?",
             "sql": (
                 "SELECT chamber, district_name, pct_of_town FROM towns "
@@ -188,15 +214,11 @@ SCHEMA_CARD = {
 def publish(chambers: list[str], vintages: list[str], derived_dir: Path, crosswalks_dir: Path, out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    years_by_chamber = {
-        c: sorted({y for vintage in vintages for y in discover_years(c, vintage, derived_dir)}) for c in chambers
-    }
-
     seats = build_seats_table(chambers, vintages, derived_dir)
     seats.to_parquet(out_dir / "seats.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(seats), out_dir / "seats.parquet")
 
-    results = build_results_table(chambers, years_by_chamber, derived_dir)
+    results = build_results_table(chambers, vintages, derived_dir)
     results.to_parquet(out_dir / "results.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(results), out_dir / "results.parquet")
 

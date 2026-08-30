@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.7708
   candidates:
   - name: Ryan C. Fattman
     slug: ryan-c-fattman
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4886
+    is_incumbent: false
+  is_open_seat: null
 title: Worcester and Hampden District (2022-present)
 layout: district
 ---

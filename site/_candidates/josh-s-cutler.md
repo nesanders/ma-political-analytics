@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 6th Plymouth District
   party: Democratic
   votes: 12163
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5614
   war: 0.0391
   is_uncontested: false
+  is_incumbent: false
 title: Josh S. Cutler
 layout: candidate
 ---

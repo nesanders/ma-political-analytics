@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.7736
   candidates:
   - name: Kimberly N. Ferguson
     slug: kimberly-n-ferguson
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.5427
+    is_incumbent: false
+  is_open_seat: null
 title: 1st Worcester District (2022-present)
 layout: district
 ---

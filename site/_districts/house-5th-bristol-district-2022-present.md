@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0472
   candidates:
   - name: Patricia A. Haddad
     slug: patricia-a-haddad
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5436
     war: 0.0285
+    is_incumbent: false
   - name: Justin Thurber
     slug: justin-thurber
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4564
     war: -0.0285
+    is_incumbent: false
+  is_open_seat: null
 title: 5th Bristol District (2022-present)
 layout: district
 ---

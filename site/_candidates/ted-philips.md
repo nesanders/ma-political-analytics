@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 8th Norfolk District
   party: Democratic
   votes: 12257
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.6942
   war: 0.0121
   is_uncontested: false
+  is_incumbent: false
 title: Ted Philips
 layout: candidate
 ---

@@ -143,6 +143,11 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
             lean_row = lean_rows.iloc[0]
             district_war = war_by_year[y][war_by_year[y]["district_name"] == district_name]
             is_uncontested = bool(district_war["is_uncontested"].iloc[0]) if len(district_war) else None
+            turnout_ratio = (
+                round(float(district_war["turnout_ratio"].iloc[0]), 4)
+                if len(district_war) and pd.notna(district_war["turnout_ratio"].iloc[0])
+                else None
+            )
             results_by_year.append(
                 {
                     "year": y,
@@ -151,11 +156,35 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
                     "competitiveness_label": lean_row["competitiveness_label"],
                     "party_favored": lean_row["party_favored"],
                     "is_uncontested": is_uncontested,
+                    "turnout_ratio": turnout_ratio,
                     "candidates": _candidate_list(district_war),
                 }
             )
         if not results_by_year:
             continue
+
+        # Incumbency, scoped to *within this vintage only* — not chased
+        # across a redistricting boundary via seat_lineage, since a
+        # lineage match is an area-overlap best-guess, not a guarantee the
+        # same electorate (or even district name) carried over; claiming
+        # someone is "the incumbent" off that guess would overstate what's
+        # actually known. results_by_year is sorted descending by year, so
+        # the entry one index later is the immediately preceding election
+        # for this same district — an open seat (or the first year on
+        # record for this vintage) leaves is_incumbent False rather than
+        # guessing, and is_open_seat stays None (unknown) rather than
+        # implying a confirmed open seat, when there's no prior-year data
+        # to check against at all.
+        for i, entry in enumerate(results_by_year):
+            prev_winner_slug = None
+            if i + 1 < len(results_by_year):
+                prev_winner = next((c for c in results_by_year[i + 1]["candidates"] if c["winner"]), None)
+                prev_winner_slug = prev_winner["slug"] if prev_winner else None
+            for c in entry["candidates"]:
+                c["is_incumbent"] = prev_winner_slug is not None and c["slug"] == prev_winner_slug
+            entry["is_open_seat"] = (
+                None if prev_winner_slug is None else not any(c["is_incumbent"] for c in entry["candidates"])
+            )
         latest = results_by_year[0]
         records.append(
             {
@@ -253,50 +282,47 @@ def write_seat_files(records: list[dict], out_dir: Path) -> None:
     logger.info("Wrote %d seat pages to %s", len(records), out_dir)
 
 
-def build_candidate_records(chambers: list[str], years_by_chamber: dict[str, list[int]], derived_dir: Path) -> list[dict]:
+def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) -> list[dict]:
     """One record per candidate_slug, with every race they ran across every
-    year and chamber this run has data for — built from all years at once
-    (not one CLI invocation per year) specifically so a candidate who ran
-    in multiple election cycles gets one merged record instead of each
-    year's run silently overwriting the last."""
-    frames = [
-        pd.read_parquet(derived_dir / f"{c}_{y}_war.parquet").assign(chamber=c, year=y)
-        for c in chambers
-        for y in years_by_chamber.get(c, [])
-    ]
-    if not frames:
-        return []
-    war = pd.concat(frames, ignore_index=True)
+    vintage/year/chamber this run has data for — built from the already-
+    assembled district records (which carry is_incumbent and turnout_ratio,
+    computed once there) rather than re-reading raw WAR parquet, so a
+    candidate's own race history can't drift from what the district page
+    for that same race shows. All years at once, not one CLI invocation
+    per year, specifically so a candidate who ran in multiple election
+    cycles gets one merged record instead of each year's run silently
+    overwriting the last."""
+    races_by_slug: dict[str, list[dict]] = {}
+    latest_info: dict[str, tuple[int, str, str | None]] = {}  # slug -> (year, name, party)
+
+    for vintage, records in district_records_by_vintage.items():
+        for d in records:
+            for entry in d["results_by_year"]:
+                for c in entry["candidates"]:
+                    races_by_slug.setdefault(c["slug"], []).append(
+                        {
+                            "chamber": d["chamber"],
+                            "year": entry["year"],
+                            "vintage": vintage,
+                            "district_name": d["district_name"],
+                            "party": c["party"],
+                            "votes": c["votes"],
+                            "winner": c["winner"],
+                            "actual_two_party_share": c["actual_two_party_share"],
+                            "war": c["war"],
+                            "is_uncontested": entry["is_uncontested"],
+                            "is_incumbent": c["is_incumbent"],
+                        }
+                    )
+                    prev = latest_info.get(c["slug"])
+                    if prev is None or entry["year"] > prev[0]:
+                        latest_info[c["slug"]] = (entry["year"], c["name"], c["party"])
 
     records = []
-    for slug, group in war.groupby("candidate_slug"):
-        races = [
-            {
-                "chamber": row["chamber"],
-                "year": row["year"],
-                "district_name": row["district_name"],
-                "party": _clean_str(row["party"]),
-                "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
-                "winner": bool(row["winner"]),
-                "actual_two_party_share": (
-                    round(float(row["actual_two_party_share"]), 4)
-                    if pd.notna(row["actual_two_party_share"])
-                    else None
-                ),
-                "war": round(float(row["war"]), 4) if pd.notna(row["war"]) else None,
-                "is_uncontested": bool(row["is_uncontested"]),
-            }
-            for _, row in group.sort_values(["year", "chamber"], ascending=[False, True]).iterrows()
-        ]
-        latest = group.sort_values("year", ascending=False).iloc[0]
-        records.append(
-            {
-                "slug": candidate_slug(slug),
-                "name": latest["candidate_name"],
-                "party": _clean_str(latest["party"]),
-                "races": races,
-            }
-        )
+    for slug, races in races_by_slug.items():
+        races_sorted = sorted(races, key=lambda r: (r["year"], r["chamber"]), reverse=True)
+        _, name, party = latest_info[slug]
+        records.append({"slug": slug, "name": name, "party": party, "races": races_sorted})
     return records
 
 
@@ -451,14 +477,11 @@ def main(
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
 
     district_records_by_vintage: dict[str, list[dict]] = {}
-    years_by_chamber: dict[str, set[int]] = {c: set() for c in chambers}
     for vintage in vintage_list:
         recs = []
         for c in chambers:
             recs.extend(build_district_records(c, vintage, derived_dir))
         district_records_by_vintage[vintage] = recs
-        for r in recs:
-            years_by_chamber[r["chamber"]].update(r["years"])
 
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)
@@ -467,9 +490,7 @@ def main(
     seat_records = build_seat_records(district_records_by_vintage, current_vintage, lineage)
     write_seat_files(seat_records, seats_out_dir)
 
-    candidate_records = build_candidate_records(
-        chambers, {c: sorted(years_by_chamber[c]) for c in chambers}, derived_dir
-    )
+    candidate_records = build_candidate_records(district_records_by_vintage)
     write_candidate_files(candidate_records, candidates_out_dir)
 
     town_records = build_town_records(chambers, current_vintage, crosswalks_dir, seat_records)

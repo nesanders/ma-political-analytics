@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 1.1637
   candidates:
   - name: Christopher J. Worrell
     slug: christopher-j-worrell
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.1762
+    is_incumbent: false
   - name: Roy A. Owens
     slug: roy-a-owens
     party: Other
@@ -32,6 +34,7 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.1263
     war: null
+    is_incumbent: false
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -39,6 +42,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.0025
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 5th Suffolk District (2022-present)
 layout: district
 ---

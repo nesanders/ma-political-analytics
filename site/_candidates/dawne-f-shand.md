@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 1st Essex District
   party: Democratic
   votes: 12790
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5964
   war: -0.0591
   is_uncontested: false
+  is_incumbent: false
 title: Dawne F. Shand
 layout: candidate
 ---

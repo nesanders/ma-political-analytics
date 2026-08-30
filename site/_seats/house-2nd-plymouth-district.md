@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.6955
   candidates:
   - name: Susan Williams Gifford
     slug: susan-williams-gifford
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4941
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 2nd Plymouth District

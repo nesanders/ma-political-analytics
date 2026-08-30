@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0041
   candidates:
   - name: Marc T. Lombardo
     slug: marc-t-lombardo
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5435
     war: 0.0794
+    is_incumbent: false
   - name: Teresa Nicole English
     slug: teresa-nicole-english
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4565
     war: -0.0794
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 22nd Middlesex District

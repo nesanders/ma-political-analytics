@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.7486
   candidates:
   - name: Steven S. Howitt
     slug: steven-s-howitt
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.5033
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 4th Bristol District

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9929
   candidates:
   - name: Joan B. Lovely
     slug: joan-b-lovely
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6772
     war: 0.0279
+    is_incumbent: false
   - name: Damian M. Anketell
     slug: damian-m-anketell
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3228
     war: -0.0279
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: Second Essex District

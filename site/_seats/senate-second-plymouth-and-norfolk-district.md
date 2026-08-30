@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0036
   candidates:
   - name: Michael D. Brady
     slug: michael-d-brady
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.637
     war: 0.0357
+    is_incumbent: false
   - name: Jim Gordon
     slug: jim-gordon
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.363
     war: -0.0357
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: Second Plymouth & Bristol District

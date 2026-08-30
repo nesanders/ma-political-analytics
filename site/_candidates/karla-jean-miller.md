@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 16th Middlesex District
   party: Republican
   votes: 3838
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.3455
   war: 0.0035
   is_uncontested: false
+  is_incumbent: false
 title: Karla Jean Miller
 layout: candidate
 ---

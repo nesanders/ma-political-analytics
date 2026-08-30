@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.8868
   candidates:
   - name: Jessica Ann Giannino
     slug: jessica-ann-giannino
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4311
+    is_incumbent: false
+  is_open_seat: null
 title: 16th Suffolk District (2022-present)
 layout: district
 ---

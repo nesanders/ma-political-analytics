@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.5145
   candidates:
   - name: Natalie Higgins
     slug: natalie-higgins
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4375
+    is_incumbent: false
   - name: John M. Dombrowski
     slug: john-m-dombrowski
     party: Other
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.905
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 4th Worcester District (2022-present)
 layout: district
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0766
   candidates:
   - name: William M. Straus
     slug: william-m-straus
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5626
     war: 0.0215
+    is_incumbent: false
   - name: Jeffrey Gerald Swift
     slug: jeffrey-gerald-swift
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4374
     war: -0.0215
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 10th Bristol District

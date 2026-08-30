@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.697
   candidates:
   - name: Alyson M. Sullivan
     slug: alyson-m-sullivan
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4882
+    is_incumbent: false
   - name: Brandon J. Griffin
     slug: brandon-j-griffin
     party: Other
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3265
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 7th Plymouth District (2022-present)
 layout: district
 ---

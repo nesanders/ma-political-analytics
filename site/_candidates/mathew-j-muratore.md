@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 1st Plymouth District
   party: Republican
   votes: 12470
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5776
   war: 0.1387
   is_uncontested: false
+  is_incumbent: false
 title: Mathew J. Muratore
 layout: candidate
 ---

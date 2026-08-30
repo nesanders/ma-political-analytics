@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 1.2675
   candidates:
   - name: Russell E. Holmes
     slug: russell-e-holmes
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.1762
+    is_incumbent: false
+  is_open_seat: null
 title: 6th Suffolk District (2022-present)
 layout: district
 ---

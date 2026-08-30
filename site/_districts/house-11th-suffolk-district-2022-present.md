@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0642
   candidates:
   - name: Judith A. Garcia
     slug: judith-a-garcia
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.7267
     war: -0.0272
+    is_incumbent: false
   - name: Todd B. Taylor
     slug: todd-b-taylor
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.2733
     war: 0.0272
+    is_incumbent: false
+  is_open_seat: null
 title: 11th Suffolk District (2022-present)
 layout: district
 ---

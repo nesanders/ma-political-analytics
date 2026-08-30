@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9947
   candidates:
   - name: Marc R. Pacheco
     slug: marc-r-pacheco
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5429
     war: 0.0382
+    is_incumbent: false
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4571
     war: -0.0382
+    is_incumbent: false
+  is_open_seat: null
 title: Third Bristol and Plymouth District (2022-present)
 layout: district
 ---

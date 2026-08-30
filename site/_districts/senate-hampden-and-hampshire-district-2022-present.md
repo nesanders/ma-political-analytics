@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0115
   candidates:
   - name: John C. Velis
     slug: john-c-velis
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.657
     war: 0.0929
+    is_incumbent: false
   - name: Cecilia P. Calabrese
     slug: cecilia-p-calabrese
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.343
     war: -0.0929
+    is_incumbent: false
+  is_open_seat: null
 title: Hampden and Hampshire District (2022-present)
 layout: district
 ---

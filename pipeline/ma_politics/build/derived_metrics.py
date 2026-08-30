@@ -201,6 +201,7 @@ def compute_war(
     r["district_name"] = r["district_raw"].map(name_match)
 
     lean_by_name = lean.set_index("district_name")["lean_dem_share"]
+    baseline_votes_by_name = lean.set_index("district_name")["baseline_two_party_votes"]
 
     # Two-party vote share needs each race's D and R vote total, computed
     # once per election_id (not per row) then broadcast back.
@@ -221,6 +222,16 @@ def compute_war(
 
     r["actual_two_party_share"] = r["votes"] / two_party_votes
     r["district_lean_dem_share"] = r["district_name"].map(lean_by_name)
+
+    # Turnout, two-party-only (matching the rest of this module's framing):
+    # this race's two-party vote total over the *same district's* apportioned
+    # two-party vote total on the statewide baseline race. Reads as
+    # "roll-off" — what share of baseline-race two-party voters also cast a
+    # two-party vote in this legislative race — not a share of eligible
+    # voters (no population denominator is used here). Can exceed 1.0 (a
+    # hot legislative race outdrawing a sleepy top-of-ticket one in that
+    # particular district) — that's a real result, not a bug.
+    r["turnout_ratio"] = two_party_votes / r["district_name"].map(baseline_votes_by_name)
 
     expected = pd.Series(index=r.index, dtype=float)
     is_dem = r["party"] == "Democratic"

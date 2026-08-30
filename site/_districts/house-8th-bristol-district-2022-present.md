@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.6538
   candidates:
   - name: Paul Schmid, III
     slug: paul-schmid-iii
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5352
     war: 0.0124
+    is_incumbent: false
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4648
     war: -0.0124
+    is_incumbent: false
+  is_open_seat: null
 title: 8th Bristol District (2022-present)
 layout: district
 ---

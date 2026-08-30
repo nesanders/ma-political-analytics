@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.2859
   candidates:
   - name: Susannah M. Whipps
     slug: susannah-m-whipps
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 2.0027
     war: null
+    is_incumbent: false
   - name: Jeffrey L. Raymond
     slug: jeffrey-l-raymond
     party: Republican
@@ -32,6 +34,7 @@ results_by_year:
     winner: false
     actual_two_party_share: 1.0
     war: 0.6017
+    is_incumbent: false
   - name: Kevin Patrick McKeown (W)
     slug: kevin-patrick-mckeown
     party: Other
@@ -39,6 +42,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.1504
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 2nd Franklin District (2022-present)
 layout: district
 ---

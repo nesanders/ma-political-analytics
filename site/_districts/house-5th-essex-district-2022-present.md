@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9902
   candidates:
   - name: Ann-Margaret Ferrante
     slug: ann-margaret-ferrante
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6914
     war: -0.0013
+    is_incumbent: false
   - name: Ashley Sullivan
     slug: ashley-sullivan
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3086
     war: 0.0013
+    is_incumbent: false
+  is_open_seat: null
 title: 5th Essex District (2022-present)
 layout: district
 ---

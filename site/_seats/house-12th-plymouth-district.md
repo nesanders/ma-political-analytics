@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.126
   candidates:
   - name: Kathleen R. Lanatra
     slug: kathleen-r-lanatra
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5474
     war: 0.0456
+    is_incumbent: false
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -32,6 +34,7 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4526
     war: -0.0456
+    is_incumbent: false
   - name: Charles F. McCoy, Jr
     slug: charles-f-mccoy-jr
     party: Other
@@ -39,6 +42,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.0442
     war: null
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 12th Plymouth District

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.5905
   candidates:
   - name: Shirley B. Arriaga
     slug: shirley-b-arriaga
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4446
+    is_incumbent: false
   - name: Sean Goonan
     slug: sean-goonan
     party: Other
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.5437
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 8th Hampden District (2022-present)
 layout: district
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.76
   candidates:
   - name: Donald R. Berthiaume, Jr
     slug: donald-r-berthiaume-jr
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4623
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 5th Worcester District

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9897
   candidates:
   - name: James Michael Murphy
     slug: james-michael-murphy
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6396
     war: 0.0552
+    is_incumbent: false
   - name: Paul J. Rotondo
     slug: paul-j-rotondo
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3604
     war: -0.0552
+    is_incumbent: false
+  is_open_seat: null
 title: 4th Norfolk District (2022-present)
 layout: district
 ---

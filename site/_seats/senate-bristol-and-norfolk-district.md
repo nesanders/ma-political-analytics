@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9569
   candidates:
   - name: Paul R. Feeney
     slug: paul-r-feeney
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6061
     war: 0.0049
+    is_incumbent: false
   - name: Michael Chaisson
     slug: michael-chaisson
     party: Republican
@@ -32,6 +34,7 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3939
     war: -0.0049
+    is_incumbent: false
   - name: Laura L. Saylor
     slug: laura-l-saylor
     party: Other
@@ -39,6 +42,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.0326
     war: null
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: Bristol & Norfolk District

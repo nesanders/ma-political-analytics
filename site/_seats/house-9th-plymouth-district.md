@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9423
   candidates:
   - name: Gerard J. Cassidy
     slug: gerard-j-cassidy
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6065
     war: 0.0079
+    is_incumbent: false
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3935
     war: -0.0079
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 11th Plymouth District

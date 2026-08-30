@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely R
   party_favored: Republican
   is_uncontested: false
+  turnout_ratio: 0.989
   candidates:
   - name: Nicholas A. Boldyga
     slug: nicholas-a-boldyga
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5999
     war: 0.039
+    is_incumbent: false
   - name: Anthony J. Russo
     slug: anthony-j-russo
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4001
     war: -0.039
+    is_incumbent: false
+  is_open_seat: null
 title: 3rd Hampden District (2022-present)
 layout: district
 ---

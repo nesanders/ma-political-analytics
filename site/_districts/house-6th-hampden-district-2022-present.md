@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.792
   candidates:
   - name: Michael J. Finn
     slug: michael-j-finn
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.4719
+    is_incumbent: false
+  is_open_seat: null
 title: 6th Hampden District (2022-present)
 layout: district
 ---

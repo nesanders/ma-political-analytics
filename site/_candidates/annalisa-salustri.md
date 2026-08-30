@@ -5,6 +5,7 @@ party: Other
 races:
 - chamber: senate
   year: 2022
+  vintage: 2022-present
   district_name: Third Essex District
   party: Other
   votes: 13910
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.4018
   war: null
   is_uncontested: true
+  is_incumbent: false
 title: Annalisa Salustri
 layout: candidate
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Lean R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.8041
   candidates:
   - name: Joseph D. Mckenna
     slug: joseph-d-mckenna
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.468
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 18th Worcester District

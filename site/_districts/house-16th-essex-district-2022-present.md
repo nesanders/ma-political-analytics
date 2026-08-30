@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.8225
   candidates:
   - name: Francisco E. Paulino
     slug: francisco-e-paulino
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.3165
+    is_incumbent: false
+  is_open_seat: null
 title: 16th Essex District (2022-present)
 layout: district
 ---

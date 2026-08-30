@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 8th Bristol District
   party: Democratic
   votes: 8437
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5352
   war: 0.0124
   is_uncontested: false
+  is_incumbent: false
 title: Paul Schmid, III
 layout: candidate
 ---

@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9823
   candidates:
   - name: Dawne F. Shand
     slug: dawne-f-shand
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5964
     war: -0.0591
+    is_incumbent: false
   - name: Cj Fitzwater
     slug: cj-fitzwater
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4036
     war: 0.0591
+    is_incumbent: false
+  is_open_seat: null
 title: 1st Essex District (2022-present)
 layout: district
 ---

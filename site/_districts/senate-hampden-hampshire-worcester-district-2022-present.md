@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9633
   candidates:
   - name: Jacob R. Oliveira
     slug: jacob-r-oliveira
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5631
     war: 0.0041
+    is_incumbent: false
   - name: William E. Johnson
     slug: william-e-johnson
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4369
     war: -0.0041
+    is_incumbent: false
+  is_open_seat: null
 title: Hampden-Hampshire-Worcester District (2022-present)
 layout: district
 ---

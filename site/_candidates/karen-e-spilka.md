@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: senate
   year: 2022
+  vintage: 2022-present
   district_name: Middlesex and Norfolk District
   party: Democratic
   votes: 52484
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 1.0
   war: 0.2868
   is_uncontested: true
+  is_incumbent: false
 title: Karen E. Spilka
 layout: candidate
 ---

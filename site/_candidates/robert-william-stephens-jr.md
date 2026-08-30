@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: senate
   year: 2022
+  vintage: 2022-present
   district_name: First Plymouth and Norfolk District
   party: Democratic
   votes: 31609
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.3937
   war: -0.199
   is_uncontested: false
+  is_incumbent: false
 title: Robert William Stephens, Jr
 layout: candidate
 ---

@@ -90,7 +90,13 @@ full.
   not just vintage-scoped, since it's recomputed against a different
   statewide baseline race every cycle; a vintage spans several election
   years (e.g. 2022-present covers both 2022 and 2024), and a shared
-  filename would have one year's run silently overwrite another's.
+  filename would have one year's run silently overwrite another's. Also
+  computes `turnout_ratio` per race (two-party vote total over the
+  district's apportioned two-party baseline-race total — see the
+  methodology page for the full definition and its caveats); incumbency
+  is computed downstream in `generate_site_data.py`, not here, since it
+  needs multiple years' results at once, which this module (one
+  chamber/year/vintage per invocation) doesn't have.
   Verified live
   against real 2022 data for both chambers: apportioned statewide vote
   share reconstructs the true Governor result exactly (0.0pp difference);
@@ -124,6 +130,23 @@ full.
   `/seat/{chamber}/{district}/` (persistent, vintage-switching) vs.
   `/district/{chamber}/{district}/{vintage}/` (vintage-specific) split
   docs/PLAN.md always specified in §7, just not built until now.
+
+  **Incumbency and open-seat status** are also computed here, once
+  `results_by_year` is fully assembled for a district: a candidate is
+  `is_incumbent` if they won that same district's immediately preceding
+  election *within the same vintage* (deliberately not chased across a
+  redistricting boundary via seat_lineage — that link is an area-overlap
+  best guess, not a confirmed identity; see the methodology page), and a
+  year's `is_open_seat` is true when the prior winner isn't among that
+  year's candidates. Both stay `None`/unknown rather than a guessed value
+  when there's no prior year to compare against at all — a district's
+  first election on record isn't a confirmed open seat, it's an unknown.
+  Verified with a synthetic two-year test (temporarily duplicating 2022's
+  already-fetched data under a second, fake year) before waiting on the
+  real backfill: same winner across both years correctly flips
+  `is_incumbent` to true and `is_open_seat` to false for the later year,
+  and a from-scratch year correctly leaves both at their "unknown"
+  defaults.
 
   Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
   name re-derived one, to avoid collisions between different candidates
@@ -184,9 +207,16 @@ width: 100%` on `.vega-embed`).
   of nested per-entity documents; takes a list of vintages rather than one
   fixed year/vintage pair for the same reason `generate_site_data.py`
   does — years actually present are discovered per vintage from what
-  `derived_metrics.py` has written, not assumed. Verified live: loaded the actual
-  published files with DuckDB's Python bindings and ran all three of the
-  schema card's own example queries against them — correct results,
+  `derived_metrics.py` has written, not assumed. Its `seats`/`results`
+  table builders now call `generate_site_data.build_district_records()`
+  directly instead of re-reading the lean/WAR parquet in a second,
+  parallel pass — the same records the Jekyll pages render, so this
+  table (and by extension AskAI's answers) can't drift from what the
+  site itself shows, and `turnout_ratio`/`is_incumbent` are picked up for
+  free rather than needing their own separate computation here. Verified
+  live: loaded the actual published files with DuckDB's Python bindings
+  and ran all five of the schema card's own example queries (including
+  the two new turnout/incumbency ones) against them — correct results,
   including one that reproduces an earlier-verified figure exactly
   (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
 

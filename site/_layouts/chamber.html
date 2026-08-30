@@ -3,8 +3,53 @@ layout: default
 ---
 {% assign seats = site.seats | where: "chamber", page.chamber | sort: "lean_dem_share" %}
 
+{% assign contested_count = 0 %}
+{% assign uncontested_count = 0 %}
+{% assign open_seat_count = 0 %}
+{% assign incumbent_running_count = 0 %}
+{% assign incumbent_win_count = 0 %}
+{% for seat in seats %}
+  {% assign latest = seat.results_by_year | first %}
+  {% if latest.is_uncontested %}
+    {% assign uncontested_count = uncontested_count | plus: 1 %}
+  {% else %}
+    {% assign contested_count = contested_count | plus: 1 %}
+  {% endif %}
+  {% if latest.is_open_seat %}
+    {% assign open_seat_count = open_seat_count | plus: 1 %}
+  {% endif %}
+  {% for c in latest.candidates %}
+    {% if c.is_incumbent %}
+      {% assign incumbent_running_count = incumbent_running_count | plus: 1 %}
+      {% if c.winner %}
+        {% assign incumbent_win_count = incumbent_win_count | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign total_seats = contested_count | plus: uncontested_count %}
+
 <article>
   <h1>{{ page.title }}</h1>
+
+  <section>
+    <h2>At a glance</h2>
+    <ul>
+      <li>{{ contested_count }} of {{ total_seats }} most-recent races were contested ({{ contested_count | times: 100.0 | divided_by: total_seats | round: 0 }}%).</li>
+      {% if incumbent_running_count > 0 %}
+      <li>{{ incumbent_win_count }} of {{ incumbent_running_count }} incumbents running won re-election ({{ incumbent_win_count | times: 100.0 | divided_by: incumbent_running_count | round: 0 }}%).</li>
+      {% endif %}
+      {% if open_seat_count > 0 %}
+      <li>{{ open_seat_count }} open seats (no incumbent ran).</li>
+      {% endif %}
+    </ul>
+    <p><small>
+      From each seat's most recent election on record. Incumbency and
+      open-seat status are only known once a second election exists for a
+      district within the same redistricting vintage — see the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>.
+    </small></p>
+  </section>
 
   <section>
     <h2>Distribution of district lean</h2>

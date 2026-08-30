@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 8th Plymouth District
   party: Republican
   votes: 9449
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.6
   war: 0.0953
   is_uncontested: false
+  is_incumbent: false
 title: Angelo L. D'Emilia
 layout: candidate
 ---

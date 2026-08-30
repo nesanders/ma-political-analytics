@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 5th Bristol District
   party: Democratic
   votes: 8951
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5436
   war: 0.0285
   is_uncontested: false
+  is_incumbent: false
 title: Patricia A. Haddad
 layout: candidate
 ---

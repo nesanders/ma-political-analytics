@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 10th Norfolk District
   party: Republican
   votes: 6852
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.3626
   war: -0.0327
   is_uncontested: false
+  is_incumbent: false
 title: Charles F. Bailey, III
 layout: candidate
 ---

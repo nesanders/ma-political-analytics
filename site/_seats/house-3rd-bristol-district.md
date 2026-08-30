@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9766
   candidates:
   - name: Carol A. Doherty
     slug: carol-a-doherty
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5703
     war: 0.0087
+    is_incumbent: false
   - name: Christopher P. Coute
     slug: christopher-p-coute
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4297
     war: -0.0087
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 3rd Bristol District

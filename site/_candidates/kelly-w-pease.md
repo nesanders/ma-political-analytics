@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 4th Hampden District
   party: Republican
   votes: 12256
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 1.0
   war: 0.5
   is_uncontested: true
+  is_incumbent: false
 title: Kelly W. Pease
 layout: candidate
 ---

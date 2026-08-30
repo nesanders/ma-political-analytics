@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0028
   candidates:
   - name: Aaron L. Saunders
     slug: aaron-l-saunders
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5277
     war: -0.0515
+    is_incumbent: false
   - name: James Chip Harrington
     slug: james-chip-harrington
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4723
     war: 0.0515
+    is_incumbent: false
+  is_open_seat: null
 title: 7th Hampden District (2022-present)
 layout: district
 ---

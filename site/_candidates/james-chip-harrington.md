@@ -5,6 +5,7 @@ party: Republican
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 7th Hampden District
   party: Republican
   votes: 8573
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.4723
   war: 0.0515
   is_uncontested: false
+  is_incumbent: false
 title: James Chip Harrington
 layout: candidate
 ---

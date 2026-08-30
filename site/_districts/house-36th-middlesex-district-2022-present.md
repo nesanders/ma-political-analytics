@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: false
+  turnout_ratio: 0.9888
   candidates:
   - name: Colleen M. Garry
     slug: colleen-m-garry
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6064
     war: 0.1112
+    is_incumbent: false
   - name: George Derek Boag
     slug: george-derek-boag
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3936
     war: -0.1112
+    is_incumbent: false
+  is_open_seat: null
 title: 36th Middlesex District (2022-present)
 layout: district
 ---

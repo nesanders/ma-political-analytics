@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9865
   candidates:
   - name: David T. Vieira
     slug: david-t-vieira
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5542
     war: 0.1473
+    is_incumbent: false
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4458
     war: -0.1473
+    is_incumbent: false
+  is_open_seat: null
 title: 3rd Barnstable District (2022-present)
 layout: district
 ---

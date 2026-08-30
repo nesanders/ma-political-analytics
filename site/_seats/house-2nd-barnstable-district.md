@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 1.0173
   candidates:
   - name: Kip A. Diggs
     slug: kip-a-diggs
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6217
     war: 0.0562
+    is_incumbent: false
   - name: William Buffington Peters
     slug: william-buffington-peters
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3783
     war: -0.0562
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: 2nd Barnstable District

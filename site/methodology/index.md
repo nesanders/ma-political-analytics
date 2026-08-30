@@ -70,8 +70,10 @@ being explicit about, not hidden:**
   above. The original design also called for adding incumbency and OCPF
   campaign-finance data as further fundamentals (a "v2" baseline, same
   spirit as Split Ticket's approach but this project's own regression and
-  weighting, not theirs); that hasn't been built yet, so treat current WAR
-  values as baseline-only, not the fuller model.
+  weighting, not theirs). Incumbency is now tracked and shown throughout
+  the site (see below), but not yet folded into WAR's *expected*-share
+  calculation itself — treat current WAR values as baseline-only, not the
+  fuller model.
 - *Different redistricting handling*: this site's lean baseline has to
   cross three Massachusetts redistricting vintages (2001-2010, 2012-2020,
   2022-present); Split Ticket's federal-district baseline doesn't face
@@ -87,6 +89,48 @@ WAR the way this site currently computes it. Split Ticket's own WAR
 reportedly handles uncontested races with distinct logic; this project's
 doesn't yet. Treat uncontested-race WAR as directionally meaningful, not
 precisely comparable to contested races, until this is addressed.
+
+## Turnout
+
+**Turnout ratio = this race's two-party vote total ÷ the district's
+apportioned two-party vote total on the statewide baseline race.**
+
+This reads as a "roll-off" measure — what share of the people who cast a
+two-party vote in the baseline race also cast a two-party vote in this
+legislative race — not a share of eligible or registered voters (there's
+no population denominator here). A value below 1.0 means the legislative
+race drew relatively fewer two-party voters than the baseline; above 1.0
+means it drew relatively more. It can exceed 1.0, and does: a hot,
+contested legislative race can outdraw a lopsided top-of-ticket result in
+that particular district.
+
+Turnout ratio inherits the same area-weighted apportionment simplification
+as district lean (see above) — a dense, small-area urban district can show
+an unusually extreme ratio purely from that simplification, not necessarily
+a real turnout story. Treat any single extreme value with that in mind.
+
+## Incumbency and open seats
+
+A candidate is marked **incumbent** if they won the *immediately preceding*
+election for that same district, within the same redistricting vintage.
+This is derived entirely from this site's own accumulated results — no
+separate incumbency data source — so it only becomes meaningful once a
+second election exists for a district: a district's first election on
+record (in a given vintage, or before enough years have been backfilled)
+shows no incumbents, which is a "not yet known" state, not a claim that
+the race was genuinely open.
+
+**Deliberately not chased across a redistricting boundary**: even where
+`build.crosswalks`' seat-lineage links a district to a predecessor in an
+earlier vintage (see "Seats vs. districts" below), that link is an
+area-overlap best guess, not a guarantee the same electorate — or even
+district name — carried over. Treating whoever won the predecessor
+district as "the incumbent" would overstate what's actually known, so
+incumbency resets at each vintage boundary.
+
+An **open seat** is a race where the prior winner isn't among this year's
+candidates at all (and only ever computed when a prior year is known —
+otherwise it's left unknown, same reasoning as incumbency above).
 
 ## Competitiveness
 

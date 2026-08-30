@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: true
+  turnout_ratio: 0.76
   candidates:
   - name: Kelly W. Pease
     slug: kelly-w-pease
@@ -25,6 +26,8 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.5
+    is_incumbent: false
+  is_open_seat: null
 title: 4th Hampden District (2022-present)
 layout: district
 ---

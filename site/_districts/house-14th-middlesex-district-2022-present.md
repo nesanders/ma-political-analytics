@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9072
   candidates:
   - name: Simon Cataldo
     slug: simon-cataldo
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.7292
     war: 0.0024
+    is_incumbent: false
   - name: Rodney E. Cleaves
     slug: rodney-e-cleaves
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.2708
     war: -0.0024
+    is_incumbent: false
+  is_open_seat: null
 title: 14th Middlesex District (2022-present)
 layout: district
 ---

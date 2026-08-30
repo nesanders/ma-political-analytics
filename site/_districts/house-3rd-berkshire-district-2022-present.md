@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Safe D
   party_favored: Democratic
   is_uncontested: true
+  turnout_ratio: 0.8584
   candidates:
   - name: William "Smitty" Pignatelli
     slug: william-pignatelli
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 1.0
     war: 0.2528
+    is_incumbent: false
   - name: Michael Silvio Lavery
     slug: michael-silvio-lavery
     party: null
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.1039
     war: null
+    is_incumbent: false
+  is_open_seat: null
 title: 3rd Berkshire District (2022-present)
 layout: district
 ---

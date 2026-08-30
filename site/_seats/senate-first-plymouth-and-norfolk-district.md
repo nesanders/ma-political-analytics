@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9877
   candidates:
   - name: Patrick Michael O'Connor
     slug: patrick-michael-oconnor
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6063
     war: 0.199
+    is_incumbent: false
   - name: Robert William Stephens, Jr
     slug: robert-william-stephens-jr
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.3937
     war: -0.199
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: Plymouth & Norfolk District

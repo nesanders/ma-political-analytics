@@ -5,6 +5,7 @@ party: Other
 races:
 - chamber: house
   year: 2022
+  vintage: 2022-present
   district_name: 12th Plymouth District
   party: Other
   votes: 856
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.0442
   war: null
   is_uncontested: false
+  is_incumbent: false
 title: Charles F. McCoy, Jr
 layout: candidate
 ---

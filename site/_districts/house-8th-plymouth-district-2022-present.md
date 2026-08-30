@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Tossup R
   party_favored: Republican
   is_uncontested: false
+  turnout_ratio: 0.9848
   candidates:
   - name: Angelo L. D'Emilia
     slug: angelo-l-demilia
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.6
     war: 0.0953
+    is_incumbent: false
   - name: Eric J. Haikola
     slug: eric-j-haikola
     party: Democratic
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4
     war: -0.0953
+    is_incumbent: false
+  is_open_seat: null
 title: 8th Plymouth District (2022-present)
 layout: district
 ---

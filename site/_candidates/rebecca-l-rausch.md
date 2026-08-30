@@ -5,6 +5,7 @@ party: Democratic
 races:
 - chamber: senate
   year: 2022
+  vintage: 2022-present
   district_name: Norfolk-Worcester-Middlesex District
   party: Democratic
   votes: 41893
@@ -12,6 +13,7 @@ races:
   actual_two_party_share: 0.5487
   war: -0.0737
   is_uncontested: false
+  is_incumbent: false
 title: Rebecca L. Rausch
 layout: candidate
 ---

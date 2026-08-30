@@ -17,6 +17,7 @@ results_by_year:
   competitiveness_label: Likely D
   party_favored: Democratic
   is_uncontested: false
+  turnout_ratio: 0.9908
   candidates:
   - name: Susan Lynn Moran
     slug: susan-lynn-moran
@@ -25,6 +26,7 @@ results_by_year:
     winner: true
     actual_two_party_share: 0.5635
     war: 0.0032
+    is_incumbent: false
   - name: Kari Macrae
     slug: kari-macrae
     party: Republican
@@ -32,6 +34,8 @@ results_by_year:
     winner: false
     actual_two_party_share: 0.4365
     war: -0.0032
+    is_incumbent: false
+  is_open_seat: null
 history:
 - vintage: 2012-2020
   district_name: Plymouth & Barnstable District
