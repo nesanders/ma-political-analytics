@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1898
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 47085
+  voting_age_population: 36386
+  hispanic_or_latino_population: 2480
+  median_household_income: 159545
+  bachelors_degree_count: 9742
+  acs_year: 2022
 title: 24th Middlesex District (2022-present)
 layout: district
 ---

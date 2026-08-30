@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1693
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41588
+  voting_age_population: 35153
+  hispanic_or_latino_population: 3051
+  median_household_income: 84357
+  bachelors_degree_count: 8044
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 1st Hampshire District

@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0272
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42263
+  voting_age_population: 34204
+  hispanic_or_latino_population: 12529
+  median_household_income: 73469
+  bachelors_degree_count: 4496
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 2nd Suffolk District

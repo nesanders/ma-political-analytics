@@ -36,6 +36,13 @@ results_by_year:
     war: -0.1473
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44408
+  voting_age_population: 37975
+  hispanic_or_latino_population: 1245
+  median_household_income: 92257
+  bachelors_degree_count: 8881
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 3rd Barnstable District

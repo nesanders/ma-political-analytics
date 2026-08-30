@@ -44,6 +44,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41668
+  voting_age_population: 33342
+  hispanic_or_latino_population: 1812
+  median_household_income: 69792
+  bachelors_degree_count: 5311
+  acs_year: 2022
 title: 2nd Franklin District (2022-present)
 layout: district
 ---

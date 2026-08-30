@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0552
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46576
+  voting_age_population: 38271
+  hispanic_or_latino_population: 2110
+  median_household_income: 91925
+  bachelors_degree_count: 8665
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 4th Norfolk District

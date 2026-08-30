@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4172
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41990
+  voting_age_population: 32573
+  hispanic_or_latino_population: 6654
+  median_household_income: 47178
+  bachelors_degree_count: 2705
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 7th Bristol District

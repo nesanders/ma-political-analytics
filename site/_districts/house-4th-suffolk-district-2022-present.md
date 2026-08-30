@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 49084
+  voting_age_population: 43783
+  hispanic_or_latino_population: 5145
+  median_household_income: 153569
+  bachelors_degree_count: 14986
+  acs_year: 2022
 title: 4th Suffolk District (2022-present)
 layout: district
 ---

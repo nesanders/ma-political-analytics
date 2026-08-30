@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40620
+  voting_age_population: 32804
+  hispanic_or_latino_population: 2014
+  median_household_income: 104728
+  bachelors_degree_count: 6443
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 7th Worcester District

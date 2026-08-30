@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1342
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44204
+  voting_age_population: 37307
+  hispanic_or_latino_population: 3132
+  median_household_income: 121835
+  bachelors_degree_count: 10218
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 29th Middlesex District

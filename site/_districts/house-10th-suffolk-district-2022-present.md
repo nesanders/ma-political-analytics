@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1702
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41210
+  voting_age_population: 33209
+  hispanic_or_latino_population: 3257
+  median_household_income: 145889
+  bachelors_degree_count: 10227
+  acs_year: 2022
 title: 10th Suffolk District (2022-present)
 layout: district
 ---

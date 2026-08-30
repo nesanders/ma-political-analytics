@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0705
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46075
+  voting_age_population: 35974
+  hispanic_or_latino_population: 1887
+  median_household_income: 148904
+  bachelors_degree_count: 11043
+  acs_year: 2022
 title: 9th Norfolk District (2022-present)
 layout: district
 ---

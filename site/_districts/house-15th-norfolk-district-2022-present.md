@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1253
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43342
+  voting_age_population: 35581
+  hispanic_or_latino_population: 2866
+  median_household_income: 120324
+  bachelors_degree_count: 8129
+  acs_year: 2022
 title: 15th Norfolk District (2022-present)
 layout: district
 ---

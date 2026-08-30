@@ -36,6 +36,10 @@ results_by_year:
     war: -0.199
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 121100
+  bachelors_degree_count: 41637
+  acs_year: 2022
 title: First Plymouth and Norfolk District (2022-present)
 layout: district
 ---

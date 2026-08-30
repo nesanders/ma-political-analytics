@@ -28,6 +28,13 @@ results_by_year:
     war: 0.296
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43329
+  voting_age_population: 34012
+  hispanic_or_latino_population: 4670
+  median_household_income: 125203
+  bachelors_degree_count: 10208
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 8th Essex District

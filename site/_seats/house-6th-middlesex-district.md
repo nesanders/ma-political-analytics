@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2548
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44228
+  voting_age_population: 36043
+  hispanic_or_latino_population: 4722
+  median_household_income: 79067
+  bachelors_degree_count: 6771
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 6th Middlesex District

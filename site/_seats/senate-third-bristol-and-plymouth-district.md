@@ -36,6 +36,10 @@ results_by_year:
     war: -0.0382
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 88523
+  bachelors_degree_count: 25732
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: First Plymouth & Bristol District

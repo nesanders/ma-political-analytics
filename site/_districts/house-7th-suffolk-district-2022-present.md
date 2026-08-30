@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45696
+  voting_age_population: 40591
+  hispanic_or_latino_population: 8486
+  median_household_income: 44779
+  bachelors_degree_count: 4398
+  acs_year: 2022
 title: 7th Suffolk District (2022-present)
 layout: district
 ---

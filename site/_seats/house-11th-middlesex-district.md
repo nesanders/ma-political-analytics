@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1848
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41476
+  voting_age_population: 32650
+  hispanic_or_latino_population: 2224
+  median_household_income: 170175
+  bachelors_degree_count: 8077
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 11th Middlesex District

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2805
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44687
+  voting_age_population: 34346
+  hispanic_or_latino_population: 4254
+  median_household_income: 76201
+  bachelors_degree_count: 3690
+  acs_year: 2022
 title: 10th Plymouth District (2022-present)
 layout: district
 ---

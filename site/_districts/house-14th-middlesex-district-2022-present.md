@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0024
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44336
+  voting_age_population: 34396
+  hispanic_or_latino_population: 1888
+  median_household_income: 148593
+  bachelors_degree_count: 9185
+  acs_year: 2022
 title: 14th Middlesex District (2022-present)
 layout: district
 ---

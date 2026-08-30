@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0035
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44714
+  voting_age_population: 34953
+  hispanic_or_latino_population: 8099
+  median_household_income: 84250
+  bachelors_degree_count: 5723
+  acs_year: 2022
 title: 16th Middlesex District (2022-present)
 layout: district
 ---

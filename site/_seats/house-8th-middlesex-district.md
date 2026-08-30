@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0264
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 48477
+  voting_age_population: 35825
+  hispanic_or_latino_population: 2012
+  median_household_income: 170560
+  bachelors_degree_count: 10758
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 8th Middlesex District

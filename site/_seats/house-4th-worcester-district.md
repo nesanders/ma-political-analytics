@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43782
+  voting_age_population: 34876
+  hispanic_or_latino_population: 8268
+  median_household_income: 75620
+  bachelors_degree_count: 6737
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 4th Worcester District

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.281
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 181434
+  voting_age_population: 145080
+  hispanic_or_latino_population: 15525
+  median_household_income: 137297
+  bachelors_degree_count: 34761
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: Third Middlesex District

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46607
+  voting_age_population: 43145
+  hispanic_or_latino_population: 3708
+  median_household_income: 103655
+  bachelors_degree_count: 10873
+  acs_year: 2022
 title: 8th Suffolk District (2022-present)
 layout: district
 ---

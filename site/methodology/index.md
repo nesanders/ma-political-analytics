@@ -154,6 +154,40 @@ exemption threshold) or use a last name this matching doesn't correctly
 extract (multi-word surnames in particular — see the module docstring in
 `build.campaign_finance_match` for the exact rule).
 
+## Demographics
+
+District and seat pages show population, voting-age population, Hispanic
+or Latino population (2020 Census PL 94-171 redistricting data), and
+median household income and bachelor's-degree-or-higher count (American
+Community Survey 5-year estimates) when available.
+
+**This only ever covers the current (2022-present) redistricting
+vintage.** PL 94-171 is published against a state's *current* district
+boundaries only — the Census Bureau doesn't retroactively republish it
+against districts that have since been redrawn — and this site's own ACS
+pull follows the same current-vintage geography. A pre-2022 district page
+simply has no Demographics section.
+
+Matching is by district name, after stripping the Census's own trailing
+`"(2022), Massachusetts"`-style suffix, using the same name-matching logic
+this site already uses to reconcile PD43+'s district names against
+boundary-file names. It's not perfect: House matched 159 of its 160
+districts (the one miss — 19th Worcester District — simply isn't in
+Census's own house district list at all, a genuine gap in the source
+data, not a matching failure); Senate matched only 26 of 40, since
+Census's Senate district names diverge from PD43+'s more than the matcher
+can close on its own (e.g. Census's "Second Hampden & Hampshire District"
+vs. this site's "Hampden and Hampshire District" — both an ordinal-word
+prefix and a different conjunction). As elsewhere on this site, a missing
+demographics section means the match failed, not that the data doesn't
+exist.
+
+One more real gotcha worth flagging: the Census ACS API encodes a
+suppressed or statistically unreliable estimate as the literal value
+`-666666666`, not a null. Where that shows up (rare, but it does happen —
+one district's median household income in this site's own fetched data),
+this site treats it as missing rather than publishing a nonsense figure.
+
 ## Competitiveness
 
 Each district is bucketed by its lean's distance from 50%, in the style

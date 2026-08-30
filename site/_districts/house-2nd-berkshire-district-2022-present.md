@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2598
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41356
+  voting_age_population: 34225
+  hispanic_or_latino_population: 2079
+  median_household_income: 66859
+  bachelors_degree_count: 6649
+  acs_year: 2022
 title: 2nd Berkshire District (2022-present)
 layout: district
 ---

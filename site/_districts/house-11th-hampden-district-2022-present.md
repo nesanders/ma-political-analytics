@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2896
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41667
+  voting_age_population: 31671
+  hispanic_or_latino_population: 18299
+  median_household_income: 45978
+  bachelors_degree_count: 3187
+  acs_year: 2022
 title: 11th Hampden District (2022-present)
 layout: district
 ---

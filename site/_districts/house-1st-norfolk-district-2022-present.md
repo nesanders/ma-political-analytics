@@ -28,6 +28,13 @@ results_by_year:
     war: 0.318
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45757
+  voting_age_population: 38612
+  hispanic_or_latino_population: 2864
+  median_household_income: 100802
+  bachelors_degree_count: 9717
+  acs_year: 2022
 title: 1st Norfolk District (2022-present)
 layout: district
 ---

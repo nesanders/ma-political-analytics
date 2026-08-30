@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44879
+  voting_age_population: 36729
+  hispanic_or_latino_population: 2322
+  median_household_income: 127407
+  bachelors_degree_count: 10566
+  acs_year: 2022
 title: 13th Essex District (2022-present)
 layout: district
 ---

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3085
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42573
+  voting_age_population: 36012
+  hispanic_or_latino_population: 2845
+  median_household_income: 84685
+  bachelors_degree_count: 7771
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 2nd Hampshire District

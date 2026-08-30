@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45081
+  voting_age_population: 34312
+  hispanic_or_latino_population: 2141
+  median_household_income: 250001
+  bachelors_degree_count: 8468
+  acs_year: 2022
 title: 14th Norfolk District (2022-present)
 layout: district
 ---

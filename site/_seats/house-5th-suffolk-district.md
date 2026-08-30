@@ -44,6 +44,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42761
+  voting_age_population: 32057
+  hispanic_or_latino_population: 11708
+  median_household_income: 50092
+  bachelors_degree_count: 3964
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 5th Suffolk District

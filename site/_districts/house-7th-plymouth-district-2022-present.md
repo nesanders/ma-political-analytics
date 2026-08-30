@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42864
+  voting_age_population: 34014
+  hispanic_or_latino_population: 1466
+  median_household_income: 115065
+  bachelors_degree_count: 6943
+  acs_year: 2022
 title: 7th Plymouth District (2022-present)
 layout: district
 ---

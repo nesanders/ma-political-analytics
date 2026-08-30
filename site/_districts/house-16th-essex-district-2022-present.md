@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3165
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 48116
+  voting_age_population: 35307
+  hispanic_or_latino_population: 40079
+  median_household_income: 72053
+  bachelors_degree_count: 3978
+  acs_year: 2022
 title: 16th Essex District (2022-present)
 layout: district
 ---

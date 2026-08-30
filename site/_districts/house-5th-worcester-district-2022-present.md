@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4623
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41942
+  voting_age_population: 33799
+  hispanic_or_latino_population: 2141
+  median_household_income: 84029
+  bachelors_degree_count: 6164
+  acs_year: 2022
 title: 5th Worcester District (2022-present)
 layout: district
 ---

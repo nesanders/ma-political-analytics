@@ -28,6 +28,13 @@ results_by_year:
     war: 0.5033
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42432
+  voting_age_population: 33936
+  hispanic_or_latino_population: 1189
+  median_household_income: 115470
+  bachelors_degree_count: 8114
+  acs_year: 2022
 title: 4th Bristol District (2022-present)
 layout: district
 ---

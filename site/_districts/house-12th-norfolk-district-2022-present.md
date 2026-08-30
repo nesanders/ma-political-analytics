@@ -28,6 +28,13 @@ results_by_year:
     war: 0.391
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44681
+  voting_age_population: 35549
+  hispanic_or_latino_population: 2777
+  median_household_income: 109575
+  bachelors_degree_count: 10201
+  acs_year: 2022
 title: 12th Norfolk District (2022-present)
 layout: district
 ---

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3418
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44112
+  voting_age_population: 34844
+  hispanic_or_latino_population: 8636
+  median_household_income: 69587
+  bachelors_degree_count: 6285
+  acs_year: 2022
 title: 14th Worcester District (2022-present)
 layout: district
 ---

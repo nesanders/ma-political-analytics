@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0008
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46540
+  voting_age_population: 35763
+  hispanic_or_latino_population: 1421
+  median_household_income: 168157
+  bachelors_degree_count: 9424
+  acs_year: 2022
 title: 2nd Middlesex District (2022-present)
 layout: district
 ---

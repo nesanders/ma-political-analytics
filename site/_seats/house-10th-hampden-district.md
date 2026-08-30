@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2896
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42569
+  voting_age_population: 30618
+  hispanic_or_latino_population: 27547
+  median_household_income: 29106
+  bachelors_degree_count: 1672
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 10th Hampden District

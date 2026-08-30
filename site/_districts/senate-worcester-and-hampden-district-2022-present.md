@@ -28,6 +28,10 @@ results_by_year:
     war: 0.4886
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 98787
+  bachelors_degree_count: 27800
+  acs_year: 2022
 title: Worcester and Hampden District (2022-present)
 layout: district
 ---

@@ -20,22 +20,33 @@ from pathlib import Path
 import click
 import pandas as pd
 
-from ma_politics.build import campaign_finance_match
+from ma_politics.build import campaign_finance_match, demographics_match
 from ma_politics.build.generate_site_data import build_candidate_records, build_district_records
 
 logger = logging.getLogger(__name__)
 
 
-def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Path) -> pd.DataFrame:
+def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Path, demographics_dir: Path) -> pd.DataFrame:
     """Built from generate_site_data.build_district_records() — the exact
     same records the Jekyll district/seat pages render — rather than
     re-reading the lean/WAR parquet independently, so this table can't
     drift from what the site itself shows, and picks up turnout_ratio for
-    free instead of needing its own parallel computation."""
+    free instead of needing its own parallel computation.
+
+    Demographics are matched in per (chamber, vintage) — see
+    demographics_match's docstring for why they only ever populate for the
+    current (2022-present) vintage — and repeated onto every year's row for
+    a district, since Census figures don't vary by election year the way
+    this table's grain does."""
     rows = []
     for c in chambers:
         for vintage in vintages:
-            for d in build_district_records(c, vintage, derived_dir):
+            district_records = build_district_records(c, vintage, derived_dir)
+            demographics_by_name = demographics_match.load_demographics(
+                c, demographics_dir, [d["district_name"] for d in district_records]
+            )
+            for d in district_records:
+                demographics = demographics_by_name.get(d["district_name"], {})
                 for entry in d["results_by_year"]:
                     rows.append(
                         {
@@ -50,6 +61,11 @@ def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Pat
                             "party_favored": entry["party_favored"],
                             "is_uncontested": entry["is_uncontested"],
                             "turnout_ratio": entry["turnout_ratio"],
+                            "total_population": demographics.get("total_population"),
+                            "voting_age_population": demographics.get("voting_age_population"),
+                            "hispanic_or_latino_population": demographics.get("hispanic_or_latino_population"),
+                            "median_household_income": demographics.get("median_household_income"),
+                            "bachelors_degree_count": demographics.get("bachelors_degree_count"),
                         }
                     )
     return pd.DataFrame(rows)
@@ -159,6 +175,18 @@ SCHEMA_CARD = {
                     "vote total on the statewide baseline race — a 'roll-off' measure, not a share of "
                     "eligible voters. Can exceed 1.0. See the methodology page."
                 ),
+                "total_population": (
+                    "2020 Census total population, matched by district name. Null except for the current "
+                    "(2022-present) vintage, and null for some Senate districts the Census name-matching "
+                    "couldn't resolve — see the methodology page."
+                ),
+                "voting_age_population": "2020 Census voting-age (18+) population. Same coverage caveats as total_population.",
+                "hispanic_or_latino_population": "2020 Census Hispanic or Latino population (any race). Same coverage caveats as total_population.",
+                "median_household_income": (
+                    "American Community Survey 5-year median household income estimate, in dollars. Null "
+                    "where the Census suppressed the estimate, in addition to the total_population coverage caveats."
+                ),
+                "bachelors_degree_count": "ACS 5-year estimate of residents 25+ with a bachelor's degree or higher. Same coverage caveats as median_household_income.",
             },
         },
         "results": {
@@ -264,16 +292,30 @@ SCHEMA_CARD = {
                 "WHERE r.chamber = 'house' AND f.year = 2022 ORDER BY f.total_raised DESC LIMIT 10"
             ),
         },
+        {
+            "question": "Do lower-income House districts lean more Democratic or Republican?",
+            "sql": (
+                "SELECT district_name, median_household_income, lean_dem_share FROM seats "
+                "WHERE chamber = 'house' AND year = 2022 AND median_household_income IS NOT NULL "
+                "ORDER BY median_household_income ASC LIMIT 10"
+            ),
+        },
     ],
 }
 
 
 def publish(
-    chambers: list[str], vintages: list[str], derived_dir: Path, crosswalks_dir: Path, ocpf_dir: Path, out_dir: Path
+    chambers: list[str],
+    vintages: list[str],
+    derived_dir: Path,
+    crosswalks_dir: Path,
+    ocpf_dir: Path,
+    demographics_dir: Path,
+    out_dir: Path,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    seats = build_seats_table(chambers, vintages, derived_dir)
+    seats = build_seats_table(chambers, vintages, derived_dir, demographics_dir)
     seats.to_parquet(out_dir / "seats.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(seats), out_dir / "seats.parquet")
 
@@ -304,15 +346,23 @@ def publish(
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
 @click.option("--ocpf-dir", type=click.Path(path_type=Path), default=Path("data/raw/ocpf"))
+@click.option("--demographics-dir", type=click.Path(path_type=Path), default=Path("data/raw/demographics"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data"))
 @click.option("-v", "--verbose", is_flag=True)
 def main(
-    chamber: str, vintages: str, derived_dir: Path, crosswalks_dir: Path, ocpf_dir: Path, out_dir: Path, verbose: bool
+    chamber: str,
+    vintages: str,
+    derived_dir: Path,
+    crosswalks_dir: Path,
+    ocpf_dir: Path,
+    demographics_dir: Path,
+    out_dir: Path,
+    verbose: bool,
 ):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
-    publish(chambers, vintage_list, derived_dir, crosswalks_dir, ocpf_dir, out_dir)
+    publish(chambers, vintage_list, derived_dir, crosswalks_dir, ocpf_dir, demographics_dir, out_dir)
 
 
 if __name__ == "__main__":

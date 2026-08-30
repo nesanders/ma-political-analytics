@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2805
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44687
+  voting_age_population: 34346
+  hispanic_or_latino_population: 4254
+  median_household_income: 76201
+  bachelors_degree_count: 3690
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 9th Plymouth District

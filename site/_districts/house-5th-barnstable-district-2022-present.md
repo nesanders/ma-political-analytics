@@ -28,6 +28,13 @@ results_by_year:
     war: 0.5446
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40328
+  voting_age_population: 32962
+  hispanic_or_latino_population: 924
+  median_household_income: 108004
+  bachelors_degree_count: 9117
+  acs_year: 2022
 title: 5th Barnstable District (2022-present)
 layout: district
 ---

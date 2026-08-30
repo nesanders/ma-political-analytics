@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0577
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43466
+  voting_age_population: 35008
+  hispanic_or_latino_population: 10098
+  median_household_income: 54717
+  bachelors_degree_count: 4051
+  acs_year: 2022
 title: 17th Worcester District (2022-present)
 layout: district
 ---

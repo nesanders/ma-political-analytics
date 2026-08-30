@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0499
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44935
+  voting_age_population: 35047
+  hispanic_or_latino_population: 12893
+  median_household_income: 67342
+  bachelors_degree_count: 4999
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 3rd Worcester District

@@ -36,6 +36,10 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 116202
+  bachelors_degree_count: 30185
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: Norfolk, Bristol & Plymouth District

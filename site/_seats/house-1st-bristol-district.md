@@ -36,6 +36,13 @@ results_by_year:
     war: -0.1468
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42367
+  voting_age_population: 33904
+  hispanic_or_latino_population: 1585
+  median_household_income: 107495
+  bachelors_degree_count: 9102
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 1st Bristol District

@@ -28,6 +28,10 @@ results_by_year:
     war: 0.2734
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 93881
+  bachelors_degree_count: 34786
+  acs_year: 2022
 title: Third Suffolk District (2022-present)
 layout: district
 ---

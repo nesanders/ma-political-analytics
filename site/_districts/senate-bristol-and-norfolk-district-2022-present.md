@@ -44,6 +44,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 166850
+  voting_age_population: 130884
+  hispanic_or_latino_population: 7474
+  median_household_income: 112106
+  bachelors_degree_count: 36751
+  acs_year: 2022
 title: Bristol and Norfolk District (2022-present)
 layout: district
 ---

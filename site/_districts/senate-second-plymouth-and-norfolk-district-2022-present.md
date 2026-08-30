@@ -36,6 +36,10 @@ results_by_year:
     war: -0.0357
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 84460
+  bachelors_degree_count: 19413
+  acs_year: 2022
 title: Second Plymouth and Norfolk District (2022-present)
 layout: district
 ---

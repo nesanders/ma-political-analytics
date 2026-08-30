@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3087
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45944
+  voting_age_population: 36491
+  hispanic_or_latino_population: 15147
+  median_household_income: 48661
+  bachelors_degree_count: 4900
+  acs_year: 2022
 title: 15th Worcester District (2022-present)
 layout: district
 ---

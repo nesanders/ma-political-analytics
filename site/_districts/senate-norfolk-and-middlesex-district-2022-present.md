@@ -28,6 +28,10 @@ results_by_year:
     war: 0.1814
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 162494
+  bachelors_degree_count: 33998
+  acs_year: 2022
 title: Norfolk and Middlesex District (2022-present)
 layout: district
 ---

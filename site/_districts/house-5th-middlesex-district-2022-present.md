@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2515
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 47065
+  voting_age_population: 36639
+  hispanic_or_latino_population: 2108
+  median_household_income: 139189
+  bachelors_degree_count: 10322
+  acs_year: 2022
 title: 5th Middlesex District (2022-present)
 layout: district
 ---

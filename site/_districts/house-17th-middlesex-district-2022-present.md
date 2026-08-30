@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3547
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44833
+  voting_age_population: 34828
+  hispanic_or_latino_population: 9024
+  median_household_income: 79427
+  bachelors_degree_count: 5837
+  acs_year: 2022
 title: 17th Middlesex District (2022-present)
 layout: district
 ---

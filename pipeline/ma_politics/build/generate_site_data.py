@@ -39,7 +39,7 @@ import click
 import pandas as pd
 import yaml
 
-from ma_politics.build import campaign_finance_match
+from ma_politics.build import campaign_finance_match, demographics_match
 from ma_politics.util.names import normalize_town_name
 
 logger = logging.getLogger(__name__)
@@ -466,6 +466,12 @@ def write_party_files(records: list[dict], out_dir: Path) -> None:
     default=Path("data/raw/ocpf"),
     help="Campaign finance data from fetch.campaign_finance; skipped (with a warning) if missing",
 )
+@click.option(
+    "--demographics-dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/raw/demographics"),
+    help="Census PL 94-171/ACS data from fetch.demographics; only covers the current vintage, skipped if missing",
+)
 @click.option("--seats-out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
 @click.option("--districts-out-dir", type=click.Path(path_type=Path), default=Path("site/_districts"))
 @click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
@@ -479,6 +485,7 @@ def main(
     derived_dir: Path,
     crosswalks_dir: Path,
     ocpf_dir: Path,
+    demographics_dir: Path,
     seats_out_dir: Path,
     districts_out_dir: Path,
     candidates_out_dir: Path,
@@ -496,6 +503,22 @@ def main(
         for c in chambers:
             recs.extend(build_district_records(c, vintage, derived_dir))
         district_records_by_vintage[vintage] = recs
+
+    # Census demographics (PL 94-171 + ACS) only exist for the current
+    # vintage — see demographics_match.py's docstring — so only those
+    # records get enriched; other vintages' district pages simply have no
+    # demographics section. Enriching in place, before write_district_files
+    # and build_seat_records, means the current vintage's seat records
+    # (spread from these same district records) pick it up for free.
+    if current_vintage in district_records_by_vintage:
+        for c in chambers:
+            chamber_records = [d for d in district_records_by_vintage[current_vintage] if d["chamber"] == c]
+            demographics_by_name = demographics_match.load_demographics(
+                c, demographics_dir, [d["district_name"] for d in chamber_records]
+            )
+            for d in chamber_records:
+                if d["district_name"] in demographics_by_name:
+                    d["demographics"] = demographics_by_name[d["district_name"]]
 
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)

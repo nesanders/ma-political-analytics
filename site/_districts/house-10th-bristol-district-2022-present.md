@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0215
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42142
+  voting_age_population: 34350
+  hispanic_or_latino_population: 3398
+  median_household_income: 95646
+  bachelors_degree_count: 7271
+  acs_year: 2022
 title: 10th Bristol District (2022-present)
 layout: district
 ---

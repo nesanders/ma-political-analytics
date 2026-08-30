@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0591
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44891
+  voting_age_population: 37001
+  hispanic_or_latino_population: 1410
+  median_household_income: 105294
+  bachelors_degree_count: 10342
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 1st Essex District

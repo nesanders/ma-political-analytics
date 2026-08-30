@@ -28,6 +28,13 @@ results_by_year:
     war: 0.0767
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42902
+  voting_age_population: 39162
+  hispanic_or_latino_population: 3511
+  median_household_income: 114694
+  bachelors_degree_count: 8431
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 25th Middlesex District

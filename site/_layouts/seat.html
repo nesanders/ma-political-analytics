@@ -31,6 +31,32 @@ layout: default
     </p>
   </section>
 
+  {% if page.demographics %}
+  <section>
+    <h2>Demographics</h2>
+    <ul>
+      {% if page.demographics.total_population %}
+      <li>Population: {{ page.demographics.total_population }}</li>
+      <li>Voting-age population: {{ page.demographics.voting_age_population }}</li>
+      <li>Hispanic or Latino population: {{ page.demographics.hispanic_or_latino_population }} ({{ page.demographics.hispanic_or_latino_population | times: 100.0 | divided_by: page.demographics.total_population | round: 0 }}%)</li>
+      {% endif %}
+      {% if page.demographics.median_household_income %}
+      <li>Median household income: ${{ page.demographics.median_household_income }}</li>
+      {% endif %}
+      {% if page.demographics.bachelors_degree_count and page.demographics.total_population %}
+      <li>Bachelor's degree or higher: {{ page.demographics.bachelors_degree_count }} ({{ page.demographics.bachelors_degree_count | times: 100.0 | divided_by: page.demographics.total_population | round: 0 }}%)</li>
+      {% elsif page.demographics.bachelors_degree_count %}
+      <li>Bachelor's degree or higher: {{ page.demographics.bachelors_degree_count }}</li>
+      {% endif %}
+    </ul>
+    <p><small>
+      2020 Census (population) and {{ page.demographics.acs_year }} American Community Survey 5-year
+      estimates (income, education), matched to this district by name.
+      Only available for the current redistricting vintage.
+    </small></p>
+  </section>
+  {% endif %}
+
   <section>
     <h2>Election results</h2>
     {% for result in page.results_by_year %}

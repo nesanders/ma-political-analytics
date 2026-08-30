@@ -28,6 +28,13 @@ results_by_year:
     war: 0.0885
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46791
+  voting_age_population: 41072
+  hispanic_or_latino_population: 6738
+  median_household_income: 106677
+  bachelors_degree_count: 10440
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 26th Middlesex District

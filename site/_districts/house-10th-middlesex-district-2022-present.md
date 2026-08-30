@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2327
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44139
+  voting_age_population: 37552
+  hispanic_or_latino_population: 7543
+  median_household_income: 108107
+  bachelors_degree_count: 8708
+  acs_year: 2022
 title: 10th Middlesex District (2022-present)
 layout: district
 ---

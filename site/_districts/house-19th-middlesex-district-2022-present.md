@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0398
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42164
+  voting_age_population: 34062
+  hispanic_or_latino_population: 1481
+  median_household_income: 133313
+  bachelors_degree_count: 8442
+  acs_year: 2022
 title: 19th Middlesex District (2022-present)
 layout: district
 ---

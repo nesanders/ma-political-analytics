@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3078
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42670
+  voting_age_population: 35105
+  hispanic_or_latino_population: 2697
+  median_household_income: 101552
+  bachelors_degree_count: 9800
+  acs_year: 2022
 title: 6th Essex District (2022-present)
 layout: district
 ---

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3192
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 178462
+  voting_age_population: 142336
+  hispanic_or_latino_population: 8328
+  median_household_income: 135151
+  bachelors_degree_count: 36907
+  acs_year: 2022
 title: Fourth Middlesex District (2022-present)
 layout: district
 ---

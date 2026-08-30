@@ -28,6 +28,13 @@ results_by_year:
     war: 0.5736
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44893
+  voting_age_population: 36705
+  hispanic_or_latino_population: 3214
+  median_household_income: 104494
+  bachelors_degree_count: 7439
+  acs_year: 2022
 title: 9th Essex District (2022-present)
 layout: district
 ---

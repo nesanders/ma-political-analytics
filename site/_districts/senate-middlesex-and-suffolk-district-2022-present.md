@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1662
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 194495
+  voting_age_population: 162283
+  hispanic_or_latino_population: 52294
+  median_household_income: 93267
+  bachelors_degree_count: 29977
+  acs_year: 2022
 title: Middlesex and Suffolk District (2022-present)
 layout: district
 ---

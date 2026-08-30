@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3828
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 47556
+  voting_age_population: 38099
+  hispanic_or_latino_population: 14687
+  median_household_income: 83884
+  bachelors_degree_count: 6532
+  acs_year: 2022
 title: 19th Suffolk District (2022-present)
 layout: district
 ---

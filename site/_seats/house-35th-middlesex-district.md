@@ -28,6 +28,13 @@ results_by_year:
     war: 0.245
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43365
+  voting_age_population: 36285
+  hispanic_or_latino_population: 3779
+  median_household_income: 104540
+  bachelors_degree_count: 9281
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 35th Middlesex District

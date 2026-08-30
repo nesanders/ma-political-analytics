@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3087
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44118
+  voting_age_population: 37295
+  hispanic_or_latino_population: 5183
+  median_household_income: 86746
+  bachelors_degree_count: 7132
+  acs_year: 2022
 title: 13th Worcester District (2022-present)
 layout: district
 ---

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3577
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41658
+  voting_age_population: 32379
+  hispanic_or_latino_population: 902
+  median_household_income: 152953
+  bachelors_degree_count: 10945
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 3rd Plymouth District

@@ -36,6 +36,13 @@ results_by_year:
     war: -0.1112
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44997
+  voting_age_population: 35669
+  hispanic_or_latino_population: 3018
+  median_household_income: 109471
+  bachelors_degree_count: 7905
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 36th Middlesex District

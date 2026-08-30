@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3796
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43904
+  voting_age_population: 34150
+  hispanic_or_latino_population: 10717
+  median_household_income: 59845
+  bachelors_degree_count: 3569
+  acs_year: 2022
 title: 13th Bristol District (2022-present)
 layout: district
 ---

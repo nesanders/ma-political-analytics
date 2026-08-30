@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0032
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 166514
+  voting_age_population: 137553
+  hispanic_or_latino_population: 4198
+  median_household_income: 104998
+  bachelors_degree_count: 38337
+  acs_year: 2022
 title: Plymouth and Barnstable District (2022-present)
 layout: district
 ---

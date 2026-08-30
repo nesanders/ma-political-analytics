@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4163
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 46404
+  voting_age_population: 36405
+  hispanic_or_latino_population: 13370
+  median_household_income: 75498
+  bachelors_degree_count: 5985
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 3rd Essex District

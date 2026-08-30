@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4074
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40665
+  voting_age_population: 32081
+  hispanic_or_latino_population: 6897
+  median_household_income: 95956
+  bachelors_degree_count: 6786
+  acs_year: 2022
 title: 12th Hampden District (2022-present)
 layout: district
 ---

@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0422
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 173985
+  voting_age_population: 143916
+  hispanic_or_latino_population: 8644
+  median_household_income: 98130
+  bachelors_degree_count: 35045
+  acs_year: 2022
 title: Norfolk and Plymouth District (2022-present)
 layout: district
 ---

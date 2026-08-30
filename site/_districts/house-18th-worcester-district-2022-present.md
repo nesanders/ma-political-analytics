@@ -28,6 +28,13 @@ results_by_year:
     war: 0.468
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42709
+  voting_age_population: 34260
+  hispanic_or_latino_population: 3463
+  median_household_income: 98713
+  bachelors_degree_count: 6962
+  acs_year: 2022
 title: 18th Worcester District (2022-present)
 layout: district
 ---

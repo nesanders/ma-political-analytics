@@ -28,6 +28,10 @@ results_by_year:
     war: 0.1752
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 101830
+  bachelors_degree_count: 40160
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: Second Suffolk & Middlesex District

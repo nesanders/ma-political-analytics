@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0124
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41084
+  voting_age_population: 33772
+  hispanic_or_latino_population: 2128
+  median_household_income: 88646
+  bachelors_degree_count: 5475
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 8th Bristol District

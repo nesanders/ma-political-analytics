@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4719
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40587
+  voting_age_population: 32171
+  hispanic_or_latino_population: 8307
+  median_household_income: 68646
+  bachelors_degree_count: 6606
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 6th Hampden District

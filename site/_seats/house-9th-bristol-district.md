@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4261
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42498
+  voting_age_population: 34982
+  hispanic_or_latino_population: 3660
+  median_household_income: 94368
+  bachelors_degree_count: 6014
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 9th Bristol District

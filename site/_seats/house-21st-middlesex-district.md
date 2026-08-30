@@ -28,6 +28,13 @@ results_by_year:
     war: 0.3429
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44773
+  voting_age_population: 35385
+  hispanic_or_latino_population: 1640
+  median_household_income: 141175
+  bachelors_degree_count: 10455
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 21st Middlesex District

@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45282
+  voting_age_population: 40700
+  hispanic_or_latino_population: 8016
+  median_household_income: 69620
+  bachelors_degree_count: 9053
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 9th Suffolk District

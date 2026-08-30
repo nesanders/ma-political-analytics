@@ -28,6 +28,13 @@ results_by_year:
     war: 0.0991
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42402
+  voting_age_population: 38368
+  hispanic_or_latino_population: 3014
+  median_household_income: 130354
+  bachelors_degree_count: 12971
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 27th Middlesex District

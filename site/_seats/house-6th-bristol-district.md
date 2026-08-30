@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4362
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44424
+  voting_age_population: 35582
+  hispanic_or_latino_population: 4953
+  median_household_income: 60922
+  bachelors_degree_count: 4315
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 6th Bristol District

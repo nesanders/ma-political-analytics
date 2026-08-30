@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0013
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40396
+  voting_age_population: 33889
+  hispanic_or_latino_population: 1659
+  median_household_income: 95854
+  bachelors_degree_count: 9685
+  acs_year: 2022
 title: 5th Essex District (2022-present)
 layout: district
 ---

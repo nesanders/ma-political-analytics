@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4311
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 50034
+  voting_age_population: 39942
+  hispanic_or_latino_population: 17802
+  median_household_income: 87998
+  bachelors_degree_count: 5690
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 16th Suffolk District

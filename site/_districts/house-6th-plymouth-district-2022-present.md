@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0391
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42287
+  voting_age_population: 32871
+  hispanic_or_latino_population: 803
+  median_household_income: 129688
+  bachelors_degree_count: 10238
+  acs_year: 2022
 title: 6th Plymouth District (2022-present)
 layout: district
 ---

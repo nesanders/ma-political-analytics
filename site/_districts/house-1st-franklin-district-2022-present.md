@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2607
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40690
+  voting_age_population: 34096
+  hispanic_or_latino_population: 1734
+  median_household_income: 70376
+  bachelors_degree_count: 7340
+  acs_year: 2022
 title: 1st Franklin District (2022-present)
 layout: district
 ---

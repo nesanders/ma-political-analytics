@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2987
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45776
+  voting_age_population: 34103
+  hispanic_or_latino_population: 28539
+  median_household_income: 62024
+  bachelors_degree_count: 4223
+  acs_year: 2022
 title: 17th Essex District (2022-present)
 layout: district
 ---

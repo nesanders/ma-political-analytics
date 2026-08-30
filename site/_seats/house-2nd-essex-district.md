@@ -36,6 +36,13 @@ results_by_year:
     war: 0.1033
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44809
+  voting_age_population: 35707
+  hispanic_or_latino_population: 1556
+  median_household_income: 137904
+  bachelors_degree_count: 10824
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 4th Essex District

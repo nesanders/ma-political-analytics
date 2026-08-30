@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 40203
+  voting_age_population: 32381
+  hispanic_or_latino_population: 9083
+  median_household_income: 63625
+  bachelors_degree_count: 4614
+  acs_year: 2022
 title: 8th Hampden District (2022-present)
 layout: district
 ---

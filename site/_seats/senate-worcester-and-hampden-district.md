@@ -28,6 +28,10 @@ results_by_year:
     war: 0.4886
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 98787
+  bachelors_degree_count: 27800
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: Worcester & Norfolk District

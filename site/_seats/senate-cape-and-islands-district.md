@@ -36,6 +36,13 @@ results_by_year:
     war: 0.0015
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 190623
+  voting_age_population: 163106
+  hispanic_or_latino_population: 8943
+  median_household_income: 90260
+  bachelors_degree_count: 34298
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: Cape & Islands District

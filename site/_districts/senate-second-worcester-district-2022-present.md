@@ -28,6 +28,13 @@ results_by_year:
     war: 0.372
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 188422
+  voting_age_population: 148305
+  hispanic_or_latino_population: 23442
+  median_household_income: 98595
+  bachelors_degree_count: 29325
+  acs_year: 2022
 title: Second Worcester District (2022-present)
 layout: district
 ---

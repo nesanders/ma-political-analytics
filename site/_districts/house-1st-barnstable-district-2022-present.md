@@ -44,6 +44,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43626
+  voting_age_population: 37947
+  hispanic_or_latino_population: 1339
+  median_household_income: 85958
+  bachelors_degree_count: 8538
+  acs_year: 2022
 title: 1st Barnstable District (2022-present)
 layout: district
 ---

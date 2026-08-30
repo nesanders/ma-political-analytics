@@ -28,6 +28,13 @@ results_by_year:
     war: 0.2497
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 45941
+  voting_age_population: 37915
+  hispanic_or_latino_population: 4570
+  median_household_income: 86168
+  bachelors_degree_count: 8308
+  acs_year: 2022
 title: 33rd Middlesex District (2022-present)
 layout: district
 ---

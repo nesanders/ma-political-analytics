@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4314
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41773
+  voting_age_population: 33019
+  hispanic_or_latino_population: 730
+  median_household_income: 130110
+  bachelors_degree_count: 11822
+  acs_year: 2022
 title: 4th Plymouth District (2022-present)
 layout: district
 ---

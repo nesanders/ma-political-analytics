@@ -28,6 +28,13 @@ results_by_year:
     war: 0.162
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 41632
+  voting_age_population: 32889
+  hispanic_or_latino_population: 1809
+  median_household_income: 188030
+  bachelors_degree_count: 9354
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 12th Middlesex District

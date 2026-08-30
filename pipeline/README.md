@@ -175,6 +175,32 @@ full.
   names, which the naive last-name extraction was grabbing as the surname
   itself before this was found and excluded.
 
+  Also matches districts to **Census demographics** (`--demographics-dir`,
+  default `data/raw/demographics` — skipped, not an error, if missing) via
+  `ma_politics.build.demographics_match`: 2020 Census PL 94-171
+  (population, voting-age population, Hispanic/Latino population) and ACS
+  5-year 2022 (median household income, bachelor's-degree-or-higher count),
+  matched to this site's own district names after stripping Census's
+  trailing `"(YYYY), Massachusetts"` suffix, reusing
+  `derived_metrics.match_district_names()` rather than a second fuzzy
+  matcher. Only ever populates the *current* (2022-present) vintage — see
+  `demographics_match.py`'s module docstring for why (PL 94-171 is only
+  published against current district boundaries). Verified live: House
+  matched 159 of 160 districts (the one miss, 19th Worcester District,
+  simply has no corresponding entry in Census's own house district list —
+  a genuine data gap, not a matching bug); Senate matched 26 of 40 (a real,
+  larger gap — Census's Senate district names diverge more from PD43+'s,
+  e.g. "Second Hampden & Hampshire District" vs. this site's "Hampden and
+  Hampshire District", an ordinal-prefix-plus-wording difference beyond
+  what the existing ordinal-number-guarded fuzzy matcher resolves).
+  Accepted as a documented limitation rather than building further
+  matching sophistication, consistent with the missing-over-wrong-match
+  philosophy above. Also caught a real Census API convention live: ACS
+  encodes suppressed/unavailable estimates as the sentinel `-666666666`,
+  not a null — found in one district's real fetched median household
+  income and excluded explicitly rather than published as a wildly wrong
+  number.
+
   **This is committed site content, not a build artifact** — unlike
   `data/raw`/`data/interim` (gitignored), the pipeline is meant to be run
   manually/periodically per the project's requirements, with its output
@@ -232,12 +258,20 @@ width: 100%` on `.vega-embed`).
   parallel pass — the same records the Jekyll pages render, so this
   table (and by extension AskAI's answers) can't drift from what the
   site itself shows, and `turnout_ratio`/`is_incumbent` are picked up for
-  free rather than needing their own separate computation here. Verified
+  free rather than needing their own separate computation here.
+  `seats.parquet` also carries the same Census demographics columns as the
+  district/seat pages (`total_population`, `voting_age_population`,
+  `hispanic_or_latino_population`, `median_household_income`,
+  `bachelors_degree_count`), matched via `demographics_match.py` once per
+  (chamber, vintage) and repeated onto every year's row for a district
+  since Census figures don't vary by election year the way this table's
+  grain does — null outside the current vintage and for the districts
+  `demographics_match.py` couldn't match (see above). Verified
   live: loaded the actual published files with DuckDB's Python bindings
-  and ran all five of the schema card's own example queries (including
-  the two new turnout/incumbency ones) against them — correct results,
-  including one that reproduces an earlier-verified figure exactly
-  (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
+  and ran all six of the schema card's own example queries (including
+  the turnout/incumbency ones and a new income-vs-lean one) against them —
+  correct results, including one that reproduces an earlier-verified
+  figure exactly (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
 
 - `python -m ma_politics.build.publish_district_geo --chamber both --vintages 2001-2010,2012-2020,2022-present`
   Publishes one small GeoJSON file per (chamber, district_name, vintage) to

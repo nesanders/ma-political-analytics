@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 189806
+  voting_age_population: 152170
+  hispanic_or_latino_population: 36236
+  median_household_income: 70165
+  bachelors_degree_count: 24560
+  acs_year: 2022
 title: First Worcester District (2022-present)
 layout: district
 ---

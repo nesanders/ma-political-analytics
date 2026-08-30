@@ -28,6 +28,13 @@ results_by_year:
     war: 0.32
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 38238
+  voting_age_population: 29727
+  hispanic_or_latino_population: 19597
+  median_household_income: 49588
+  bachelors_degree_count: 3992
+  acs_year: 2022
 title: 5th Hampden District (2022-present)
 layout: district
 ---

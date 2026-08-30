@@ -36,6 +36,13 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 177189
+  voting_age_population: 141927
+  hispanic_or_latino_population: 6514
+  median_household_income: 128469
+  bachelors_degree_count: 41462
+  acs_year: 2022
 title: First Essex and Middlesex District (2022-present)
 layout: district
 ---

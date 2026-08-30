@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 176126
+  voting_age_population: 144057
+  hispanic_or_latino_population: 27302
+  median_household_income: 100240
+  bachelors_degree_count: 39870
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: First Suffolk District

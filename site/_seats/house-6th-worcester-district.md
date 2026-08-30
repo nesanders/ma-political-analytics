@@ -28,6 +28,13 @@ results_by_year:
     war: 0.4821
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 42768
+  voting_age_population: 33966
+  hispanic_or_latino_population: 8546
+  median_household_income: 76593
+  bachelors_degree_count: 4581
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 6th Worcester District

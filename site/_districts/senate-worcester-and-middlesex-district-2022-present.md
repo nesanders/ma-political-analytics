@@ -36,6 +36,13 @@ results_by_year:
     war: -0.0183
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 169214
+  voting_age_population: 134275
+  hispanic_or_latino_population: 27395
+  median_household_income: 92466
+  bachelors_degree_count: 29554
+  acs_year: 2022
 title: Worcester and Middlesex District (2022-present)
 layout: district
 ---

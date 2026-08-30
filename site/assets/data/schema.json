@@ -14,7 +14,12 @@
         "competitiveness_label": "competitiveness + favored party, e.g. 'Safe D', 'Tossup R'",
         "party_favored": "'Democratic' or 'Republican' \u2014 whichever lean_dem_share favors",
         "is_uncontested": "true if only one major party fielded a candidate in the general",
-        "turnout_ratio": "this race's two-party vote total divided by the district's apportioned two-party vote total on the statewide baseline race \u2014 a 'roll-off' measure, not a share of eligible voters. Can exceed 1.0. See the methodology page."
+        "turnout_ratio": "this race's two-party vote total divided by the district's apportioned two-party vote total on the statewide baseline race \u2014 a 'roll-off' measure, not a share of eligible voters. Can exceed 1.0. See the methodology page.",
+        "total_population": "2020 Census total population, matched by district name. Null except for the current (2022-present) vintage, and null for some Senate districts the Census name-matching couldn't resolve \u2014 see the methodology page.",
+        "voting_age_population": "2020 Census voting-age (18+) population. Same coverage caveats as total_population.",
+        "hispanic_or_latino_population": "2020 Census Hispanic or Latino population (any race). Same coverage caveats as total_population.",
+        "median_household_income": "American Community Survey 5-year median household income estimate, in dollars. Null where the Census suppressed the estimate, in addition to the total_population coverage caveats.",
+        "bachelors_degree_count": "ACS 5-year estimate of residents 25+ with a bachelor's degree or higher. Same coverage caveats as median_household_income."
       }
     },
     "results": {
@@ -81,6 +86,10 @@
     {
       "question": "Who raised the most money among 2022 House candidates?",
       "sql": "SELECT f.candidate_name, f.total_raised FROM finance f JOIN results r ON r.candidate_slug = f.candidate_slug AND r.year = f.year WHERE r.chamber = 'house' AND f.year = 2022 ORDER BY f.total_raised DESC LIMIT 10"
+    },
+    {
+      "question": "Do lower-income House districts lean more Democratic or Republican?",
+      "sql": "SELECT district_name, median_household_income, lean_dem_share FROM seats WHERE chamber = 'house' AND year = 2022 AND median_household_income IS NOT NULL ORDER BY median_household_income ASC LIMIT 10"
     }
   ]
 }

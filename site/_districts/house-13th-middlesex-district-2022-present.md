@@ -28,6 +28,13 @@ results_by_year:
     war: 0.241
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 44597
+  voting_age_population: 33864
+  hispanic_or_latino_population: 2943
+  median_household_income: 208925
+  bachelors_degree_count: 10053
+  acs_year: 2022
 title: 13th Middlesex District (2022-present)
 layout: district
 ---

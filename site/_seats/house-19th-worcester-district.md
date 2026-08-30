@@ -36,6 +36,10 @@ results_by_year:
     war: 0.0046
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 145137
+  bachelors_degree_count: 9395
+  acs_year: 2022
 history:
 - vintage: 2012-2020
   district_name: 4th Middlesex District

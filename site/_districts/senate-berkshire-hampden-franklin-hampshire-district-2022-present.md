@@ -36,6 +36,10 @@ results_by_year:
     war: null
     is_incumbent: false
   is_open_seat: null
+demographics:
+  median_household_income: 74551
+  bachelors_degree_count: 26194
+  acs_year: 2022
 title: Berkshire-Hampden-Franklin-Hampshire District (2022-present)
 layout: district
 ---

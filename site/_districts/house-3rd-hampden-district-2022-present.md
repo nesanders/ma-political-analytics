@@ -36,6 +36,13 @@ results_by_year:
     war: -0.039
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 39462
+  voting_age_population: 32432
+  hispanic_or_latino_population: 2194
+  median_household_income: 88755
+  bachelors_degree_count: 6858
+  acs_year: 2022
 title: 3rd Hampden District (2022-present)
 layout: district
 ---

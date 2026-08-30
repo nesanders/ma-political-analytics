@@ -28,6 +28,13 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
   is_open_seat: null
+demographics:
+  total_population: 43568
+  voting_age_population: 35957
+  hispanic_or_latino_population: 5088
+  median_household_income: 87310
+  bachelors_degree_count: 8177
+  acs_year: 2022
 title: 13th Suffolk District (2022-present)
 layout: district
 ---
