@@ -2,8 +2,8 @@ title: MA Political Analytics
 description: >-
   Candidates, districts, and party lean for Massachusetts state legislative
   races, back through three redistricting cycles.
-url: "" # set to the Pages URL once known (or leave blank for a project page)
-baseurl: "" # set to "/ma-political-analytics" if served from a project page path
+url: "https://nsanders.me"
+baseurl: "/ma-political-analytics"
 
 markdown: kramdown
 plugins:
