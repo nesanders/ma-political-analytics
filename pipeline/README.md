@@ -400,3 +400,21 @@ included, not by "real" versus "string" content.
   inflation limitation. Linked from the site nav and from every WAR table
   footnote (seat/district pages), replacing what had been a link straight
   to the design plan's raw GitHub markdown.
+
+- `site/search/` + `site/assets/js/search.js`: a search/compare tool, no
+  new Python pipeline step or server needed — the search index is a plain
+  JSON array Jekyll renders straight from `site.seats`/`candidates`/
+  `towns`/`parties` at build time (one `<script type="application/json">`
+  block per collection, since each carries different fields worth
+  showing), and `search.js` does a case-insensitive substring filter over
+  it client-side as the user types. Seats get an "+ Compare" button;
+  adding up to two renders a side-by-side table (chamber, lean, turnout
+  vs. baseline, most-recent open-seat status, population, median
+  household income) pulled from the same index entry, so it can't drift
+  from what the seat's own page shows. Reuses the `data-site-baseurl`
+  attribute (see the statewide-map bug above) for its result/compare
+  links rather than repeating that bug in a third place. Verified live:
+  searching "Barnstable" returns all five House Barnstable seats with
+  correct competitiveness labels, and comparing 1st vs. 2nd Barnstable
+  District renders real, correct numbers for both (60.8%/56.6% Democratic
+  lean, $85,958/$81,933 median household income) side by side.
