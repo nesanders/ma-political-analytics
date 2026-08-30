@@ -61,3 +61,35 @@ skipped, so re-running after a future election only pulls new rows.
   `--out-dir` (default `data/raw/ocpf`). Verified live against 2024 data
   (10,162 filers, 2,012 with finance activity) and cross-checked against
   MAPLE's own validated example. Idempotent per year.
+
+## Build steps (`ma_politics.build.*`)
+
+Run after the fetchers above have populated `data/raw/`. Not idempotent in
+the same incremental sense as the fetchers — cheap enough to just re-run in
+full.
+
+- `python -m ma_politics.build.crosswalks --boundaries-dir data/raw/boundaries --out-dir data/interim/crosswalks`
+  Town↔district area-overlap and cross-vintage seat lineage, both from pure
+  geometry (no PD43+ name-matching involved — see module docstring for why
+  that's a separate step). Writes `town_district_overlap.parquet` and
+  `seat_lineage.parquet`. Verified live against the real fetched boundaries:
+  every district's town-overlap shares sum to ~1.0 (min 0.998) for all three
+  vintages/both chambers, and seat lineage produces sensible continuity
+  (e.g. 2001's 1st Barnstable maps 83% into 2012's 1st Barnstable District).
+
+- `python -m ma_politics.build.derived_metrics --chamber house --year 2022 --vintage 2022-present`
+  District partisan lean, competitiveness, and WAR (see module docstring
+  for the full pipeline and a documented limitation around uncontested
+  races). Needs a statewide baseline race already fetched via
+  `fetch.pd43`'s `governor`/`president` office (not exposed on that
+  module's CLI — call `fetch_years("governor", ...)` directly, see its
+  docstring) into `--baseline-dir` (default `data/raw/pd43_statewide`).
+  Writes `<chamber>_<vintage>_lean.parquet` and `<chamber>_<year>_war.parquet`
+  to `--out-dir` (default `data/interim/derived_metrics`). Verified live
+  against real 2022 data for both chambers: apportioned statewide vote
+  share reconstructs the true Governor result exactly (0.0pp difference);
+  competitiveness matches MA's known partisan lean (27/40 Senate seats
+  Safe D); all 160 House + 40 Senate district names matched with zero
+  mismatches in either direction (checked both ways) after fixing a real
+  wrong-match bug found in the process — see the commit history for
+  `derived_metrics.py` for what that was and how it was caught.
