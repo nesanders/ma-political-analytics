@@ -20,7 +20,8 @@ from pathlib import Path
 import click
 import pandas as pd
 
-from ma_politics.build.generate_site_data import build_district_records
+from ma_politics.build import campaign_finance_match
+from ma_politics.build.generate_site_data import build_candidate_records, build_district_records
 
 logger = logging.getLogger(__name__)
 
@@ -82,6 +83,39 @@ def build_results_table(chambers: list[str], vintages: list[str], derived_dir: P
                                 "war": cand["war"],
                             }
                         )
+    return pd.DataFrame(rows)
+
+
+def build_finance_table(chambers: list[str], vintages: list[str], derived_dir: Path, ocpf_dir: Path) -> pd.DataFrame:
+    """OCPF campaign-finance totals per candidate per year, matched via
+    campaign_finance_match — same best-effort last-name+district+chamber
+    match described there and on the methodology page. Empty (not missing)
+    if ocpf_dir has no data, so callers can skip publishing this table
+    without a special case."""
+    if not (ocpf_dir / "filers.parquet").exists():
+        return pd.DataFrame(columns=["candidate_slug", "candidate_name", "year", "total_raised", "total_spent"])
+
+    district_records_by_vintage = {
+        vintage: [d for c in chambers for d in build_district_records(c, vintage, derived_dir)] for vintage in vintages
+    }
+    candidate_records = build_candidate_records(district_records_by_vintage)
+    finance_by_slug = campaign_finance_match.load_and_match(candidate_records, ocpf_dir)
+
+    rows = []
+    for candidate in candidate_records:
+        finance = finance_by_slug.get(candidate["slug"])
+        if not finance:
+            continue
+        for year, totals in finance["by_year"].items():
+            rows.append(
+                {
+                    "candidate_slug": candidate["slug"],
+                    "candidate_name": candidate["name"],
+                    "year": year,
+                    "total_raised": totals["total_raised"],
+                    "total_spent": totals["total_spent"],
+                }
+            )
     return pd.DataFrame(rows)
 
 
@@ -168,6 +202,21 @@ SCHEMA_CARD = {
                 ),
             },
         },
+        "finance": {
+            "description": (
+                "OCPF campaign-finance totals per candidate per year. Only candidates matched to an OCPF "
+                "filer appear here — not every candidate has one (some file exempt, some just weren't "
+                "matched — see the methodology page). Absence from this table isn't evidence of zero "
+                "fundraising."
+            ),
+            "columns": {
+                "candidate_slug": "join key to results.candidate_slug",
+                "candidate_name": "candidate's display name",
+                "year": "calendar year of the OCPF filing period",
+                "total_raised": "total dollars raised that year, summed across every matched OCPF committee",
+                "total_spent": "total dollars spent that year, summed across every matched OCPF committee",
+            },
+        },
     },
     "example_queries": [
         {
@@ -207,11 +256,21 @@ SCHEMA_CARD = {
                 "WHERE town = 'Worcester' ORDER BY chamber, pct_of_town DESC"
             ),
         },
+        {
+            "question": "Who raised the most money among 2022 House candidates?",
+            "sql": (
+                "SELECT f.candidate_name, f.total_raised FROM finance f "
+                "JOIN results r ON r.candidate_slug = f.candidate_slug AND r.year = f.year "
+                "WHERE r.chamber = 'house' AND f.year = 2022 ORDER BY f.total_raised DESC LIMIT 10"
+            ),
+        },
     ],
 }
 
 
-def publish(chambers: list[str], vintages: list[str], derived_dir: Path, crosswalks_dir: Path, out_dir: Path) -> None:
+def publish(
+    chambers: list[str], vintages: list[str], derived_dir: Path, crosswalks_dir: Path, ocpf_dir: Path, out_dir: Path
+) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     seats = build_seats_table(chambers, vintages, derived_dir)
@@ -225,6 +284,10 @@ def publish(chambers: list[str], vintages: list[str], derived_dir: Path, crosswa
     towns = build_towns_table(chambers, vintages, crosswalks_dir)
     towns.to_parquet(out_dir / "towns.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(towns), out_dir / "towns.parquet")
+
+    finance = build_finance_table(chambers, vintages, derived_dir, ocpf_dir)
+    finance.to_parquet(out_dir / "finance.parquet", index=False)
+    logger.info("Wrote %d rows to %s", len(finance), out_dir / "finance.parquet")
 
     schema_path = out_dir / "schema.json"
     schema_path.write_text(json.dumps(SCHEMA_CARD, indent=2))
@@ -240,13 +303,16 @@ def publish(chambers: list[str], vintages: list[str], derived_dir: Path, crosswa
 )
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
+@click.option("--ocpf-dir", type=click.Path(path_type=Path), default=Path("data/raw/ocpf"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data"))
 @click.option("-v", "--verbose", is_flag=True)
-def main(chamber: str, vintages: str, derived_dir: Path, crosswalks_dir: Path, out_dir: Path, verbose: bool):
+def main(
+    chamber: str, vintages: str, derived_dir: Path, crosswalks_dir: Path, ocpf_dir: Path, out_dir: Path, verbose: bool
+):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
-    publish(chambers, vintage_list, derived_dir, crosswalks_dir, out_dir)
+    publish(chambers, vintage_list, derived_dir, crosswalks_dir, ocpf_dir, out_dir)
 
 
 if __name__ == "__main__":

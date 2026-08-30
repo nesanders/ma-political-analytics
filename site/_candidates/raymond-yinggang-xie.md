@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 2nd Middlesex District
+  district_url: /district/house-2nd-middlesex-district-2022-present/
   party: Republican
   votes: 6931
   winner: false
@@ -14,6 +15,13 @@ races:
   war: 0.0008
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 18057
+  by_year:
+    2022:
+      total_raised: 46930.19
+      total_spent: 46332.56
 title: Raymond Yinggang Xie
 layout: candidate
 ---

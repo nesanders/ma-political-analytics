@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 7th Plymouth District
+  district_url: /district/house-7th-plymouth-district-2022-present/
   party: Other
   votes: 3945
   winner: false
@@ -14,6 +15,13 @@ races:
   war: null
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17876
+  by_year:
+    2022:
+      total_raised: 1506.23
+      total_spent: 1398.68
 title: Brandon J. Griffin
 layout: candidate
 ---

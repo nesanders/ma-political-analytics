@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 11th Suffolk District
+  district_url: /district/house-11th-suffolk-district-2022-present/
   party: Republican
   votes: 1552
   winner: false
@@ -14,6 +15,13 @@ races:
   war: 0.0272
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15748
+  by_year:
+    2022:
+      total_raised: 34657.54
+      total_spent: 32509.01
 title: Todd B. Taylor
 layout: candidate
 ---

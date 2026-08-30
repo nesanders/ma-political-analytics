@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 18th Middlesex District
+  district_url: /district/house-18th-middlesex-district-2022-present/
   party: Democratic
   votes: 4434
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.3247
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 14410
+  by_year:
+    2022:
+      total_raised: 32034.93
+      total_spent: 27337.15
 title: Rady Mom
 layout: candidate
 ---

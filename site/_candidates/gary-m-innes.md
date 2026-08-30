@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Norfolk and Plymouth District
+  district_url: /district/senate-norfolk-and-plymouth-district-2022-present/
   party: Republican
   votes: 20586
   winner: false

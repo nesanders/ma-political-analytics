@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Berkshire-Hampden-Franklin-Hampshire District
+  district_url: /district/senate-berkshire-hampden-franklin-hampshire-district-2022-present/
   party: Other
   votes: 14806
   winner: false

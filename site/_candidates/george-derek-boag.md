@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 36th Middlesex District
+  district_url: /district/house-36th-middlesex-district-2022-present/
   party: Republican
   votes: 6506
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.1112
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15168
+  by_year:
+    2022:
+      total_raised: 10627.34
+      total_spent: 10078.94
 title: George Derek Boag
 layout: candidate
 ---

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Plymouth District
+  district_url: /district/house-1st-plymouth-district-2022-present/
   party: Democratic
   votes: 9121
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.1387
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15530
+  by_year:
+    2022:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Stephen Michael Palmer
 layout: candidate
 ---

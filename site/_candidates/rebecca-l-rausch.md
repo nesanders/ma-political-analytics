@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Norfolk-Worcester-Middlesex District
+  district_url: /district/senate-norfolk-worcester-middlesex-district-2022-present/
   party: Democratic
   votes: 41893
   winner: true

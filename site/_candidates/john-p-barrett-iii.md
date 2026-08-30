@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Berkshire District
+  district_url: /district/house-1st-berkshire-district-2022-present/
   party: Democratic
   votes: 12787
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.3147
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 16235
+  by_year:
+    2022:
+      total_raised: 30067.16
+      total_spent: 20938.19
 title: John P. Barrett, III
 layout: candidate
 ---

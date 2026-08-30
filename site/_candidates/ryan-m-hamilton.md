@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 15th Essex District
+  district_url: /district/house-15th-essex-district-2022-present/
   party: Democratic
   votes: 10822
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.4408
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17951
+  by_year:
+    2022:
+      total_raised: 32208.71
+      total_spent: 19001.8
 title: Ryan M. Hamilton
 layout: candidate
 ---

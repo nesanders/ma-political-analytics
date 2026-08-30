@@ -132,6 +132,28 @@ An **open seat** is a race where the prior winner isn't among this year's
 candidates at all (and only ever computed when a prior year is known —
 otherwise it's left unknown, same reasoning as incumbency above).
 
+## Campaign finance
+
+Candidate pages show OCPF (MA Office of Campaign and Political Finance)
+totals — raised and spent per year — when a candidate could be matched to
+an OCPF filer. This is genuinely a best-effort match, not a join on a
+shared ID: OCPF's public filer roster has no PD43+ candidate identifier,
+and names don't always agree exactly (OCPF sometimes has a nickname —
+"Nick" — where PD43+'s ballot name is the formal one — "Nicholas A.").
+
+The match key is **last name + district + chamber**, checked against every
+race a candidate is known to have run — deliberately *not* first name,
+since a shared last name and the exact same numbered district is already a
+strong-enough constraint that nickname/initial variation in the first name
+doesn't need to factor in. This design errs toward **missing** a real match
+over risking a **wrong** one: a candidate simply won't show a finance
+section rather than showing someone else's numbers. Around three in four
+candidates matched this way when last checked — the rest either have no
+OCPF filing on record (common for candidates under OCPF's low-fundraising
+exemption threshold) or use a last name this matching doesn't correctly
+extract (multi-word surnames in particular — see the module docstring in
+`build.campaign_finance_match` for the exact rule).
+
 ## Competitiveness
 
 Each district is bucketed by its lean's distance from 50%, in the style

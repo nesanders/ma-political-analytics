@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 10th Norfolk District
+  district_url: /district/house-10th-norfolk-district-2022-present/
   party: Republican
   votes: 6852
   winner: false

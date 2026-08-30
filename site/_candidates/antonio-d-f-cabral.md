@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 13th Bristol District
+  district_url: /district/house-13th-bristol-district-2022-present/
   party: Democratic
   votes: 6977
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.3796
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 11119
+  by_year:
+    2022:
+      total_raised: 32840.42
+      total_spent: 9569.48
 title: Antonio d. F. Cabral
 layout: candidate
 ---

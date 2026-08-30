@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Third Middlesex District
+  district_url: /district/senate-third-middlesex-district-2022-present/
   party: Democratic
   votes: 50728
   winner: true

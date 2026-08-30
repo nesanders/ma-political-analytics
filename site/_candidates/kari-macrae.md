@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Plymouth and Barnstable District
+  district_url: /district/senate-plymouth-and-barnstable-district-2022-present/
   party: Republican
   votes: 38493
   winner: false

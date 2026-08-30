@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2022-present/
   party: Other
   votes: 750
   winner: false

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Essex District
+  district_url: /district/house-1st-essex-district-2022-present/
   party: Democratic
   votes: 12790
   winner: true
@@ -14,6 +15,13 @@ races:
   war: -0.0591
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 18127
+  by_year:
+    2022:
+      total_raised: 51276.16
+      total_spent: 23234.53
 title: Dawne F. Shand
 layout: candidate
 ---

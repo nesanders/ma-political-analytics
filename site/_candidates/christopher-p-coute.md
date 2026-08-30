@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 3rd Bristol District
+  district_url: /district/house-3rd-bristol-district-2022-present/
   party: Republican
   votes: 6036
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.0087
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 18114
+  by_year:
+    2022:
+      total_raised: 92417.75
+      total_spent: 93293.46
 title: Christopher P. Coute
 layout: candidate
 ---

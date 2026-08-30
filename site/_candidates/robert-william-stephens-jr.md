@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: First Plymouth and Norfolk District
+  district_url: /district/senate-first-plymouth-and-norfolk-district-2022-present/
   party: Democratic
   votes: 31609
   winner: false

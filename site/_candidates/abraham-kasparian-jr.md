@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Barnstable District
+  district_url: /district/house-1st-barnstable-district-2022-present/
   party: Other
   votes: 447
   winner: false
@@ -14,6 +15,13 @@ races:
   war: null
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17473
+  by_year:
+    2022:
+      total_raised: 103.0
+      total_spent: 822.08
 title: Abraham Kasparian, Jr.
 layout: candidate
 ---

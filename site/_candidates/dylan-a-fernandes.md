@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Barnstable-Dukes-Nantucket District
+  district_url: /district/house-barnstable-dukes-nantucket-district-2022-present/
   party: Democratic
   votes: 15858
   winner: true

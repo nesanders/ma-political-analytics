@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Hampden and Hampshire District
+  district_url: /district/senate-hampden-and-hampshire-district-2022-present/
   party: Republican
   votes: 19388
   winner: false

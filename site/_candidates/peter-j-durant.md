@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 6th Worcester District
+  district_url: /district/house-6th-worcester-district-2022-present/
   party: Republican
   votes: 10526
   winner: true

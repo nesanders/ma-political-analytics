@@ -77,10 +77,15 @@ payloads small.
     smaller electorates, more uncontested races, thinner polling/finance
     data per race.
   - *Different baseline inputs*: v1 baseline = district partisan lean only
-    (§ above); v2 adds incumbency (already in the data model) and OCPF
-    campaign finance (now a real, obtained input — see §2/§9) as additional
-    fundamentals, same spirit as Split Ticket's model but our own
-    regression/weighting, not theirs.
+    (§ above), and is still what WAR's *expected*-share calculation
+    actually uses today. Incumbency and OCPF campaign finance are now both
+    tracked and matched to candidates (see `pipeline/README.md` — a
+    candidate's own accumulated results, and a real name/district match
+    against OCPF's filer roster, respectively) and shown throughout the
+    site, but neither is folded into WAR's expected-value formula itself
+    yet — that "v2" regression, same spirit as Split Ticket's model but
+    this project's own weighting, not theirs, is still a real next step,
+    not done.
   - *Different redistricting handling*: our lean baseline has to cross three
     MA redistricting vintages; Split Ticket's federal-district baseline
     doesn't face this problem at the same scale.

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: First Middlesex District
+  district_url: /district/senate-first-middlesex-district-2022-present/
   party: Democratic
   votes: 32003
   winner: true

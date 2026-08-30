@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 16th Suffolk District
+  district_url: /district/house-16th-suffolk-district-2022-present/
   party: Democratic
   votes: 5753
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.4311
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17474
+  by_year:
+    2022:
+      total_raised: 33909.85
+      total_spent: 26154.01
 title: Jessica Ann Giannino
 layout: candidate
 ---

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 7th Suffolk District
+  district_url: /district/house-7th-suffolk-district-2022-present/
   party: Democratic
   votes: 5317
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1762
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 16408
+  by_year:
+    2022:
+      total_raised: 41005.1
+      total_spent: 70166.96
 title: Chynah Tyler
 layout: candidate
 ---

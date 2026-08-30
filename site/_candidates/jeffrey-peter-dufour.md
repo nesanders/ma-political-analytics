@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 18th Essex District
+  district_url: /district/house-18th-essex-district-2022-present/
   party: Republican
   votes: 7738
   winner: false
@@ -14,6 +15,13 @@ races:
   war: 0.0012
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17498
+  by_year:
+    2022:
+      total_raised: 16556.41
+      total_spent: 16674.33
 title: Jeffrey Peter Dufour
 layout: candidate
 ---

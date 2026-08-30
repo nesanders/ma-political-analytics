@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Norfolk and Suffolk District
+  district_url: /district/senate-norfolk-and-suffolk-district-2022-present/
   party: Democratic
   votes: 54915
   winner: true

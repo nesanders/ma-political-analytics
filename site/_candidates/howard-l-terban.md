@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 8th Norfolk District
+  district_url: /district/house-8th-norfolk-district-2022-present/
   party: Republican
   votes: 5400
   winner: false

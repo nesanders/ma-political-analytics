@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 8th Plymouth District
+  district_url: /district/house-8th-plymouth-district-2022-present/
   party: Democratic
   votes: 6299
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.0953
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 18095
+  by_year:
+    2022:
+      total_raised: 12699.39
+      total_spent: 12030.55
 title: Eric J. Haikola
 layout: candidate
 ---

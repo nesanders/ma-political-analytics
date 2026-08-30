@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 10th Suffolk District
+  district_url: /district/house-10th-suffolk-district-2022-present/
   party: Democratic
   votes: 15817
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1702
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15066
+  by_year:
+    2022:
+      total_raised: 50990.98
+      total_spent: 37440.04
 title: Edward Francis Coppinger
 layout: candidate
 ---

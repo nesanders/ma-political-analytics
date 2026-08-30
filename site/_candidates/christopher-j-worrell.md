@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2022-present/
   party: Democratic
   votes: 5939
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1762
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17118
+  by_year:
+    2022:
+      total_raised: 68723.04
+      total_spent: 59017.64
 title: Christopher J. Worrell
 layout: candidate
 ---

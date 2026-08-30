@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2022-present/
   party: Democratic
   votes: 7168
   winner: true

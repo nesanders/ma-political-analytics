@@ -16,8 +16,8 @@ layout: default
         <tr>
           <td>{{ r.year }}</td>
           <td>{{ r.chamber | capitalize }}</td>
-          <td>{{ r.district_name }}</td>
-          <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}</td>
+          <td><a href="{{ r.district_url | relative_url }}">{{ r.district_name }}</a></td>
+          <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}{% if r.is_incumbent %} (incumbent){% endif %}</td>
           <td>{{ r.votes }}</td>
           <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if r.war %}{{ r.war | times: 100 | round: 1 }}{% endif %}</td>
@@ -26,4 +26,32 @@ layout: default
       </tbody>
     </table>
   </section>
+
+  {% if page.ocpf_finance %}
+  <section>
+    <h2>Campaign finance</h2>
+    <table>
+      <thead>
+        <tr><th>Year</th><th>Raised</th><th>Spent</th></tr>
+      </thead>
+      <tbody>
+        {% assign years = page.ocpf_finance.by_year | sort %}
+        {% for entry in years %}
+        <tr>
+          <td>{{ entry[0] }}</td>
+          <td>${{ entry[1].total_raised | round: 0 }}</td>
+          <td>${{ entry[1].total_spent | round: 0 }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p><small>
+      From OCPF's public campaign finance filings, matched to this
+      candidate by last name + district + chamber (a best-effort match,
+      not a guaranteed one — see the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>).
+      Totals across all matched committees for each year.
+    </small></p>
+  </section>
+  {% endif %}
 </article>

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 2nd Essex District
+  district_url: /district/house-2nd-essex-district-2022-present/
   party: Democratic
   votes: 11763
   winner: true
@@ -14,6 +15,13 @@ races:
   war: -0.1033
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17935
+  by_year:
+    2022:
+      total_raised: 49797.57
+      total_spent: 47752.9
 title: Kristin E. Kassner
 layout: candidate
 ---

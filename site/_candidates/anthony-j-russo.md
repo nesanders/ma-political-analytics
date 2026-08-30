@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 3rd Hampden District
+  district_url: /district/house-3rd-hampden-district-2022-present/
   party: Democratic
   votes: 7397
   winner: false

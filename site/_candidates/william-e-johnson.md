@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Hampden-Hampshire-Worcester District
+  district_url: /district/senate-hampden-hampshire-worcester-district-2022-present/
   party: Republican
   votes: 29027
   winner: false

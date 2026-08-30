@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Middlesex and Suffolk District
+  district_url: /district/senate-middlesex-and-suffolk-district-2022-present/
   party: Democratic
   votes: 33355
   winner: true

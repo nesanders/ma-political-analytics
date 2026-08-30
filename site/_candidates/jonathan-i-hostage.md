@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 19th Worcester District
+  district_url: /district/house-19th-worcester-district-2022-present/
   party: Republican
   votes: 5560
   winner: false
@@ -14,6 +15,13 @@ races:
   war: 0.0046
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17965
+  by_year:
+    2022:
+      total_raised: 9289.16
+      total_spent: 9289.16
 title: Jonathan I. Hostage
 layout: candidate
 ---

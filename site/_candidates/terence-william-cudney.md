@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: First Essex and Middlesex District
+  district_url: /district/senate-first-essex-and-middlesex-district-2022-present/
   party: Other
   votes: 23408
   winner: false

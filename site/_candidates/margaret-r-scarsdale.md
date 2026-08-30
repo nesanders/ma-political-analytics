@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Middlesex District
+  district_url: /district/house-1st-middlesex-district-2022-present/
   party: Democratic
   votes: 9409
   winner: true
@@ -14,6 +15,13 @@ races:
   war: -0.0482
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17168
+  by_year:
+    2022:
+      total_raised: 59113.25
+      total_spent: 53210.78
 title: Margaret R. Scarsdale
 layout: candidate
 ---

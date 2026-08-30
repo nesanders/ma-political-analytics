@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 17th Worcester District
+  district_url: /district/house-17th-worcester-district-2022-present/
   party: Republican
   votes: 3270
   winner: false
@@ -14,6 +15,13 @@ races:
   war: 0.0577
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 16876
+  by_year:
+    2022:
+      total_raised: 14902.2
+      total_spent: 13516.95
 title: Paul J. Fullen
 layout: candidate
 ---

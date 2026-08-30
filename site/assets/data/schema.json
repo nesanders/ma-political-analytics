@@ -45,6 +45,16 @@
         "district_name": "human-readable district name \u2014 join key to seats.district_name",
         "pct_of_town": "share of the town's land AREA (not population) in this district, 0-1. A known simplification \u2014 see the design plan."
       }
+    },
+    "finance": {
+      "description": "OCPF campaign-finance totals per candidate per year. Only candidates matched to an OCPF filer appear here \u2014 not every candidate has one (some file exempt, some just weren't matched \u2014 see the methodology page). Absence from this table isn't evidence of zero fundraising.",
+      "columns": {
+        "candidate_slug": "join key to results.candidate_slug",
+        "candidate_name": "candidate's display name",
+        "year": "calendar year of the OCPF filing period",
+        "total_raised": "total dollars raised that year, summed across every matched OCPF committee",
+        "total_spent": "total dollars spent that year, summed across every matched OCPF committee"
+      }
     }
   },
   "example_queries": [
@@ -67,6 +77,10 @@
     {
       "question": "Which districts does Worcester span?",
       "sql": "SELECT chamber, district_name, pct_of_town FROM towns WHERE town = 'Worcester' ORDER BY chamber, pct_of_town DESC"
+    },
+    {
+      "question": "Who raised the most money among 2022 House candidates?",
+      "sql": "SELECT f.candidate_name, f.total_raised FROM finance f JOIN results r ON r.candidate_slug = f.candidate_slug AND r.year = f.year WHERE r.chamber = 'house' AND f.year = 2022 ORDER BY f.total_raised DESC LIMIT 10"
     }
   ]
 }

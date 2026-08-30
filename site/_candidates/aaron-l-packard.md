@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 3rd Worcester District
+  district_url: /district/house-3rd-worcester-district-2022-present/
   party: Republican
   votes: 4058
   winner: false

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 2nd Plymouth District
+  district_url: /district/house-2nd-plymouth-district-2022-present/
   party: Republican
   votes: 13019
   winner: true

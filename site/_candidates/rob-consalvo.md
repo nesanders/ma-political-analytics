@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 14th Suffolk District
+  district_url: /district/house-14th-suffolk-district-2022-present/
   party: Democratic
   votes: 11565
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1762
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 13681
+  by_year:
+    2022:
+      total_raised: 57744.26
+      total_spent: 50744.93
 title: Rob Consalvo
 layout: candidate
 ---

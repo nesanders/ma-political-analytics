@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 7th Plymouth District
+  district_url: /district/house-7th-plymouth-district-2022-present/
   party: Republican
   votes: 12083
   winner: true

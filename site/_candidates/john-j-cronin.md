@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Worcester and Middlesex District
+  district_url: /district/senate-worcester-and-middlesex-district-2022-present/
   party: Democratic
   votes: 36784
   winner: true

@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 12th Suffolk District
+  district_url: /district/house-12th-suffolk-district-2022-present/
   party: Democratic
   votes: 10729
   winner: true

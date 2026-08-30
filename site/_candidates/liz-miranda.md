@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Second Suffolk District
+  district_url: /district/senate-second-suffolk-district-2022-present/
   party: Democratic
   votes: 35207
   winner: true

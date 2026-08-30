@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Second Essex District
+  district_url: /district/senate-second-essex-district-2022-present/
   party: Republican
   votes: 21108
   winner: false

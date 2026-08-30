@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Worcester and Hampshire District
+  district_url: /district/senate-worcester-and-hampshire-district-2022-present/
   party: Republican
   votes: 29734
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.0207
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17961
+  by_year:
+    2022:
+      total_raised: 57541.35
+      total_spent: 57703.26
 title: James Anthony Amorello
 layout: candidate
 ---

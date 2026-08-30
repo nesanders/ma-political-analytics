@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Third Suffolk District
+  district_url: /district/senate-third-suffolk-district-2022-present/
   party: Democratic
   votes: 32396
   winner: true

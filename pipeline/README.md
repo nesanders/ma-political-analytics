@@ -156,6 +156,25 @@ full.
   single-year seat design — would have silently overwritten each
   candidate's file with only that run's year on every subsequent run).
 
+  Also matches candidates to **OCPF campaign-finance** data (`--ocpf-dir`,
+  default `data/raw/ocpf` — skipped with a warning, not an error, if
+  missing) via `ma_politics.build.campaign_finance_match`: a real matching
+  problem, not a join, since OCPF's filer roster carries no PD43+
+  candidate identifier and names don't always agree exactly (OCPF's own
+  roster had "Nick Boldyga" where PD43+'s ballot name is "Nicholas A.
+  Boldyga" — found checking a real case). Matched on last name + district +
+  chamber against every race a candidate is known to have run, deliberately
+  not first name — that combination is already a strong enough constraint
+  that nickname/initial variation doesn't need to factor in, and this
+  design errs toward a missing match over a wrong one. Verified live: 210
+  of 282 real 2022 candidates matched; the top matched fundraiser is Aaron
+  M. Michlewitz (House Ways & Means chair) at $471,692.12 raised and
+  Ronald Mariano (House Speaker) second at $202,496.28 — both real,
+  sensible results for who'd actually raise the most. Caught and fixed a
+  real bug in the process: PD43+ appends " (W)" to write-in candidates'
+  names, which the naive last-name extraction was grabbing as the surname
+  itself before this was found and excluded.
+
   **This is committed site content, not a build artifact** — unlike
   `data/raw`/`data/interim` (gitignored), the pipeline is meant to be run
   manually/periodically per the project's requirements, with its output
@@ -200,7 +219,7 @@ width: 100%` on `.vega-embed`).
 
 - `python -m ma_politics.build.publish_query_data --chamber both --vintages 2001-2010,2012-2020,2022-present`
   Publishes flat, SQL-queryable Parquet tables (`seats.parquet`,
-  `results.parquet`, `towns.parquet`) plus a JSON schema card
+  `results.parquet`, `towns.parquet`, `finance.parquet`) plus a JSON schema card
   (`site/assets/data/schema.json`) for the AskAI feature's client-side
   DuckDB-Wasm instance — see docs/PLAN.md §8. Same underlying numbers as
   `generate_site_data.py`'s per-entity pages, reshaped flat for SQL instead

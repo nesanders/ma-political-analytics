@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: First Worcester District
+  district_url: /district/senate-first-worcester-district-2022-present/
   party: Other
   votes: 10805
   winner: false

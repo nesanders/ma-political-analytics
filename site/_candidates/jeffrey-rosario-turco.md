@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2022-present/
   party: Democratic
   votes: 7803
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.3828
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17600
+  by_year:
+    2022:
+      total_raised: 102896.62
+      total_spent: 49898.12
 title: Jeffrey Rosario Turco
 layout: candidate
 ---

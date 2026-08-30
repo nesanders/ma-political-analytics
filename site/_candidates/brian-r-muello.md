@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Norfolk-Plymouth-Bristol District
+  district_url: /district/senate-norfolk-plymouth-bristol-district-2022-present/
   party: Republican
   votes: 20648
   winner: false

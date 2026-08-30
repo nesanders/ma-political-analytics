@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 4th Norfolk District
+  district_url: /district/house-4th-norfolk-district-2022-present/
   party: Republican
   votes: 5778
   winner: false
@@ -14,6 +15,13 @@ races:
   war: -0.0552
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 17529
+  by_year:
+    2022:
+      total_raised: 2935.32
+      total_spent: 3272.37
 title: Paul J. Rotondo
 layout: candidate
 ---

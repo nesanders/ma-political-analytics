@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2022-present/
   party: Democratic
   votes: 9979
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.2327
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15297
+  by_year:
+    2022:
+      total_raised: 69345.25
+      total_spent: 61034.33
 title: John J. Lawn, Jr.
 layout: candidate
 ---

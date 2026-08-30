@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Third Essex District
+  district_url: /district/senate-third-essex-district-2022-present/
   party: Democratic
   votes: 34620
   winner: true

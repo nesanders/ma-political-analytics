@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Fourth Middlesex District
+  district_url: /district/senate-fourth-middlesex-district-2022-present/
   party: Democratic
   votes: 54112
   winner: true

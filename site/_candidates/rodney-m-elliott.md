@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 16th Middlesex District
+  district_url: /district/house-16th-middlesex-district-2022-present/
   party: Democratic
   votes: 7270
   winner: true
@@ -14,6 +15,13 @@ races:
   war: -0.0035
   is_uncontested: false
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 12877
+  by_year:
+    2022:
+      total_raised: 42526.39
+      total_spent: 44787.37
 title: Rodney M. Elliott
 layout: candidate
 ---

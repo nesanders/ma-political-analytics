@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Plymouth District
+  district_url: /district/house-1st-plymouth-district-2022-present/
   party: Republican
   votes: 12470
   winner: true

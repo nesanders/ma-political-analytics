@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Third Bristol and Plymouth District
+  district_url: /district/senate-third-bristol-and-plymouth-district-2022-present/
   party: Republican
   votes: 29937
   winner: false

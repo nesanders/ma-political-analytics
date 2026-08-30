@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Second Bristol and Plymouth District
+  district_url: /district/senate-second-bristol-and-plymouth-district-2022-present/
   party: Democratic
   votes: 35193
   winner: true

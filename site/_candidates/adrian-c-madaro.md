@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 1st Suffolk District
+  district_url: /district/house-1st-suffolk-district-2022-present/
   party: Democratic
   votes: 7022
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1762
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 15934
+  by_year:
+    2022:
+      total_raised: 88630.59
+      total_spent: 91933.76
 title: Adrian C. Madaro
 layout: candidate
 ---

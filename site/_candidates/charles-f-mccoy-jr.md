@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 12th Plymouth District
+  district_url: /district/house-12th-plymouth-district-2022-present/
   party: Other
   votes: 856
   winner: false

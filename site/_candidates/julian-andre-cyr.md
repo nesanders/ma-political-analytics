@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: Cape and Islands District
+  district_url: /district/senate-cape-and-islands-district-2022-present/
   party: Democratic
   votes: 54714
   winner: true

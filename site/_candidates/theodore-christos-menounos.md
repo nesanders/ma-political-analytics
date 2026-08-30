@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 31st Middlesex District
+  district_url: /district/house-31st-middlesex-district-2022-present/
   party: Other
   votes: 5079
   winner: false
@@ -14,6 +15,13 @@ races:
   war: null
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 18119
+  by_year:
+    2022:
+      total_raised: 220.0
+      total_spent: 9.99
 title: Theodore Christos Menounos
 layout: candidate
 ---

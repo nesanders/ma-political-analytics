@@ -39,6 +39,7 @@ import click
 import pandas as pd
 import yaml
 
+from ma_politics.build import campaign_finance_match
 from ma_politics.util.names import normalize_town_name
 
 logger = logging.getLogger(__name__)
@@ -305,6 +306,12 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "year": entry["year"],
                             "vintage": vintage,
                             "district_name": d["district_name"],
+                            # Precomputed here (not reconstructed via Liquid's
+                            # slugify filter in candidate.html) so this link
+                            # can't drift from the district page's own actual
+                            # filename the way a prior bug in this project did
+                            # for a similarly-reconstructed candidate link.
+                            "district_url": district_url(d["chamber"], d["district_name"], vintage),
                             "party": c["party"],
                             "votes": c["votes"],
                             "winner": c["winner"],
@@ -453,6 +460,12 @@ def write_party_files(records: list[dict], out_dir: Path) -> None:
 )
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
+@click.option(
+    "--ocpf-dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/raw/ocpf"),
+    help="Campaign finance data from fetch.campaign_finance; skipped (with a warning) if missing",
+)
 @click.option("--seats-out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
 @click.option("--districts-out-dir", type=click.Path(path_type=Path), default=Path("site/_districts"))
 @click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
@@ -465,6 +478,7 @@ def main(
     vintages: str,
     derived_dir: Path,
     crosswalks_dir: Path,
+    ocpf_dir: Path,
     seats_out_dir: Path,
     districts_out_dir: Path,
     candidates_out_dir: Path,
@@ -491,6 +505,13 @@ def main(
     write_seat_files(seat_records, seats_out_dir)
 
     candidate_records = build_candidate_records(district_records_by_vintage)
+    if (ocpf_dir / "filers.parquet").exists():
+        finance_by_slug = campaign_finance_match.load_and_match(candidate_records, ocpf_dir)
+        for candidate in candidate_records:
+            if candidate["slug"] in finance_by_slug:
+                candidate["ocpf_finance"] = finance_by_slug[candidate["slug"]]
+    else:
+        logger.warning("No OCPF data at %s — candidate pages will have no campaign-finance section", ocpf_dir)
     write_candidate_files(candidate_records, candidates_out_dir)
 
     town_records = build_town_records(chambers, current_vintage, crosswalks_dir, seat_records)

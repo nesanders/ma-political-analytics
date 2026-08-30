@@ -7,6 +7,7 @@ races:
   year: 2022
   vintage: 2022-present
   district_name: 9th Suffolk District
+  district_url: /district/house-9th-suffolk-district-2022-present/
   party: Democratic
   votes: 9957
   winner: true
@@ -14,6 +15,13 @@ races:
   war: 0.1762
   is_uncontested: true
   is_incumbent: false
+ocpf_finance:
+  cpf_ids:
+  - 16919
+  by_year:
+    2022:
+      total_raised: 112894.14
+      total_spent: 24721.84
 title: Jon Santiago
 layout: candidate
 ---
