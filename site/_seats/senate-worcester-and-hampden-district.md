@@ -1,22 +1,38 @@
 ---
 chamber: senate
 vintage: 2022-present
-year: 2022
-district_name: Worcester and Hampden District
 district_id: D07
+district_name: Worcester and Hampden District
+years:
+- 2022
 lean_dem_share: 0.4886
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
-is_uncontested: true
-candidates:
-- name: Ryan C. Fattman
-  slug: ryan-c-fattman
-  party: Republican
-  votes: 53456
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.4886
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.4886
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: true
+  candidates:
+  - name: Ryan C. Fattman
+    slug: ryan-c-fattman
+    party: Republican
+    votes: 53456
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4886
+history:
+- vintage: 2012-2020
+  district_name: Worcester & Norfolk District
+  url: null
+  overlap_pct: 0.8741
+- vintage: 2001-2010
+  district_name: Worcester and Norfolk
+  url: null
+  overlap_pct: 0.9669
 title: Worcester and Hampden District
 layout: seat
 ---

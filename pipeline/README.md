@@ -84,8 +84,14 @@ full.
   `fetch.pd43`'s `governor`/`president` office (not exposed on that
   module's CLI — call `fetch_years("governor", ...)` directly, see its
   docstring) into `--baseline-dir` (default `data/raw/pd43_statewide`).
-  Writes `<chamber>_<vintage>_lean.parquet` and `<chamber>_<year>_war.parquet`
-  to `--out-dir` (default `data/interim/derived_metrics`). Verified live
+  Writes `<chamber>_<vintage>_<year>_lean.parquet` and
+  `<chamber>_<year>_war.parquet` to `--out-dir` (default
+  `data/interim/derived_metrics`) — lean is year-scoped in its filename,
+  not just vintage-scoped, since it's recomputed against a different
+  statewide baseline race every cycle; a vintage spans several election
+  years (e.g. 2022-present covers both 2022 and 2024), and a shared
+  filename would have one year's run silently overwrite another's.
+  Verified live
   against real 2022 data for both chambers: apportioned statewide vote
   share reconstructs the true Governor result exactly (0.0pp difference);
   competitiveness matches MA's known partisan lean (27/40 Senate seats
@@ -94,34 +100,65 @@ full.
   wrong-match bug found in the process — see the commit history for
   `derived_metrics.py` for what that was and how it was caught.
 
-- `python -m ma_politics.build.generate_site_data --chamber both --year 2022 --vintage 2022-present`
-  Emits one Markdown-with-YAML-frontmatter file per seat (`--seats-out-dir`,
-  default `site/_seats`) and per candidate (`--candidates-out-dir`, default
-  `site/_candidates`) — Jekyll's own collection mechanism renders these via
-  `site/_layouts/seat.html`/`candidate.html`, no separate HTML generator
-  needed (see docs/PLAN.md §7). Candidates are keyed by PD43+'s own
-  candidate slug (lowercased), not a name re-derived one, to avoid
-  collisions between different candidates with similar names; a candidate
-  who ran in both chambers the same year (rare, but possible, unlike two
-  different people sharing a slug) gets one merged record rather than two
-  that would silently overwrite each other. **This is committed site
-  content, not a build artifact** — unlike `data/raw`/`data/interim`
-  (gitignored), the pipeline is meant to be run manually/periodically per
-  the project's requirements, with its output checked in so GitHub Actions'
-  Jekyll build (which only runs Jekyll, not Python) has something to
-  render. Verified end to end: ran a real `bundle exec jekyll build`
-  against the 200 seat + 282 candidate pages, inspected several rendered
-  HTML pages including the actual link chain from a seat page's candidate
-  link through to that candidate's own page — all correct, including two
-  real bugs caught by that inspection: a Liquid filter-chaining bug
-  (candidate links were slugifying the whole `/candidate/Name` path instead
-  of just the name) and a missing `year` column that only surfaced once
-  candidate pages tried to sort by it (the WAR table doesn't carry year as
-  a column; it's implicit in the per-year file). A later run also caught a
-  real data-serialization bug: a candidate with no parseable party (PD43+
-  occasionally has one) came through as a stray float NaN rather than a
-  proper null, which crashed Jekyll's `jsonify` filter outright ("NaN not
-  allowed in JSON") — fixed by coercing explicitly to `None` before writing
+- `python -m ma_politics.build.generate_site_data --chamber both --current-vintage 2022-present --vintages 2001-2010,2012-2020,2022-present`
+  Emits one Markdown-with-YAML-frontmatter file per district, seat,
+  candidate, town, and party (`--districts-out-dir`/`--seats-out-dir`/
+  `--candidates-out-dir`/`--towns-out-dir`/`--parties-out-dir`, defaulting
+  to `site/_districts`/`_seats`/`_candidates`/`_towns`/`_parties`) —
+  Jekyll's own collection mechanism renders these via one Liquid layout per
+  type, no separate HTML generator needed (see docs/PLAN.md §7).
+
+  **Two-tier district/seat model**, added for the multi-decade backfill
+  (a single year's snapshot per seat, the original design, doesn't survive
+  more than one year of data without overwriting itself): a **district**
+  (`/district/...`) is scoped to one (chamber, district_name, vintage) and
+  accumulates every election year available within that vintage — which
+  years exist is *discovered* from the year-scoped lean filenames on disk
+  (`discover_years()`), not a hardcoded list, so backfilling more years and
+  re-running this script is all that's needed to pick them up. A **seat**
+  (`/seat/...`) is the *current* vintage's district record plus a
+  `history` list walking backward through `build.crosswalks`' seat_lineage
+  (best area-overlap predecessor, however many vintage hops that reaches —
+  currently up to two) to the districts it evolved from, each with a link
+  to that district's own page. This matches the two-tier
+  `/seat/{chamber}/{district}/` (persistent, vintage-switching) vs.
+  `/district/{chamber}/{district}/{vintage}/` (vintage-specific) split
+  docs/PLAN.md always specified in §7, just not built until now.
+
+  Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
+  name re-derived one, to avoid collisions between different candidates
+  with similar names; every race a candidate ran across every year and
+  chamber this run has data for is now built in a single pass over all
+  years at once (not one CLI invocation per year, which — like the old
+  single-year seat design — would have silently overwritten each
+  candidate's file with only that run's year on every subsequent run).
+
+  **This is committed site content, not a build artifact** — unlike
+  `data/raw`/`data/interim` (gitignored), the pipeline is meant to be run
+  manually/periodically per the project's requirements, with its output
+  checked in so GitHub Actions' Jekyll build (which only runs Jekyll, not
+  Python) has something to render. Verified end to end: ran a real `bundle
+  exec jekyll build` against the 200 seat + 200 district + 282 candidate +
+  351 town + 3 party pages (still 2022-only at the time of this note — see
+  below for the in-progress multi-decade backfill), inspected several
+  rendered HTML pages including the actual link chain from a seat page's
+  candidate link through to that candidate's own page, a seat's "Before
+  redistricting" history section correctly walking back through two prior
+  vintages by lineage (a real district's 2022-present name matching its
+  2012-2020 name exactly, then diverging slightly in 2001-2010 — a real,
+  correctly-surfaced naming change, not a bug), and the four new top-level
+  index pages (`/district/`, `/candidate/`, `/town/`, `/party/`) all
+  listing the expected row counts with working click-through — all
+  correct, including two real bugs caught by that inspection: a Liquid
+  filter-chaining bug (candidate links were slugifying the whole
+  `/candidate/Name` path instead of just the name) and a missing `year`
+  column that only surfaced once candidate pages tried to sort by it (the
+  WAR table doesn't carry year as a column; it's implicit in the per-year
+  file). A later run also caught a real data-serialization bug: a
+  candidate with no parseable party (PD43+ occasionally has one) came
+  through as a stray float NaN rather than a proper null, which crashed
+  Jekyll's `jsonify` filter outright ("NaN not allowed in JSON") — fixed
+  by coercing explicitly to `None` before writing
   YAML (`_clean_str` in the module).
 
 ## Site chart assets (`site/assets/js/vendor/`)
@@ -138,13 +175,16 @@ combined with a chart spec's `"width": "container"` autosize; fixed with
 an explicit override in `site/assets/css/main.css` (`display: block;
 width: 100%` on `.vega-embed`).
 
-- `python -m ma_politics.build.publish_query_data --chamber both --year 2022 --vintage 2022-present`
+- `python -m ma_politics.build.publish_query_data --chamber both --vintages 2001-2010,2012-2020,2022-present`
   Publishes flat, SQL-queryable Parquet tables (`seats.parquet`,
   `results.parquet`, `towns.parquet`) plus a JSON schema card
   (`site/assets/data/schema.json`) for the AskAI feature's client-side
   DuckDB-Wasm instance — see docs/PLAN.md §8. Same underlying numbers as
   `generate_site_data.py`'s per-entity pages, reshaped flat for SQL instead
-  of nested per-entity documents. Verified live: loaded the actual
+  of nested per-entity documents; takes a list of vintages rather than one
+  fixed year/vintage pair for the same reason `generate_site_data.py`
+  does — years actually present are discovered per vintage from what
+  `derived_metrics.py` has written, not assumed. Verified live: loaded the actual
   published files with DuckDB's Python bindings and ran all three of the
   schema card's own example queries against them — correct results,
   including one that reproduces an earlier-verified figure exactly

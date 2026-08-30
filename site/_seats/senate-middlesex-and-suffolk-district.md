@@ -1,22 +1,38 @@
 ---
 chamber: senate
 vintage: 2022-present
-year: 2022
-district_name: Middlesex and Suffolk District
 district_id: D26
+district_name: Middlesex and Suffolk District
+years:
+- 2022
 lean_dem_share: 0.8338
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
-is_uncontested: true
-candidates:
-- name: Sal N. DiDomenico
-  slug: sal-n-didomenico
-  party: Democratic
-  votes: 33355
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.1662
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.8338
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  candidates:
+  - name: Sal N. DiDomenico
+    slug: sal-n-didomenico
+    party: Democratic
+    votes: 33355
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1662
+history:
+- vintage: 2012-2020
+  district_name: Middlesex & Suffolk District
+  url: null
+  overlap_pct: 0.7978
+- vintage: 2001-2010
+  district_name: Middlesex, Suffolk, and Essex
+  url: null
+  overlap_pct: 0.6283
 title: Middlesex and Suffolk District
 layout: seat
 ---

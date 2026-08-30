@@ -1,29 +1,45 @@
 ---
 chamber: senate
 vintage: 2022-present
-year: 2022
-district_name: Hampden and Hampshire District
 district_id: D02
+district_name: Hampden and Hampshire District
+years:
+- 2022
 lean_dem_share: 0.564
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
-is_uncontested: false
-candidates:
-- name: John C. Velis
-  slug: john-c-velis
-  party: Democratic
-  votes: 37130
-  winner: true
-  actual_two_party_share: 0.657
-  war: 0.0929
-- name: Cecilia P. Calabrese
-  slug: cecilia-p-calabrese
-  party: Republican
-  votes: 19388
-  winner: false
-  actual_two_party_share: 0.343
-  war: -0.0929
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.564
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: false
+  candidates:
+  - name: John C. Velis
+    slug: john-c-velis
+    party: Democratic
+    votes: 37130
+    winner: true
+    actual_two_party_share: 0.657
+    war: 0.0929
+  - name: Cecilia P. Calabrese
+    slug: cecilia-p-calabrese
+    party: Republican
+    votes: 19388
+    winner: false
+    actual_two_party_share: 0.343
+    war: -0.0929
+history:
+- vintage: 2012-2020
+  district_name: Second Hampden & Hampshire District
+  url: null
+  overlap_pct: 0.6106
+- vintage: 2001-2010
+  district_name: Second Hampden and Hampshire
+  url: null
+  overlap_pct: 0.7062
 title: Hampden and Hampshire District
 layout: seat
 ---

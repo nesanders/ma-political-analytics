@@ -1,29 +1,45 @@
 ---
 chamber: senate
 vintage: 2022-present
-year: 2022
-district_name: Third Essex District
 district_id: D24
+district_name: Third Essex District
+years:
+- 2022
 lean_dem_share: 0.6333
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
-is_uncontested: true
-candidates:
-- name: Brendan P. Crighton
-  slug: brendan-p-crighton
-  party: Democratic
-  votes: 34620
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.3667
-- name: Annalisa Salustri
-  slug: annalisa-salustri
-  party: Other
-  votes: 13910
-  winner: false
-  actual_two_party_share: 0.4018
-  war: null
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.6333
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  candidates:
+  - name: Brendan P. Crighton
+    slug: brendan-p-crighton
+    party: Democratic
+    votes: 34620
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3667
+  - name: Annalisa Salustri
+    slug: annalisa-salustri
+    party: Other
+    votes: 13910
+    winner: false
+    actual_two_party_share: 0.4018
+    war: null
+history:
+- vintage: 2012-2020
+  district_name: Third Essex District
+  url: null
+  overlap_pct: 0.9992
+- vintage: 2001-2010
+  district_name: Third Essex and Middlesex
+  url: null
+  overlap_pct: 0.9358
 title: Third Essex District
 layout: seat
 ---

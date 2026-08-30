@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign latest = page.results_by_year | first %}
 <article>
   <p><a href="{{ '/chamber/' | append: page.chamber | append: '/' | relative_url }}">
     {{ page.chamber | capitalize }}
@@ -13,19 +14,25 @@ layout: default
     <p>
       <strong>{{ page.competitiveness_label }}</strong>
       &mdash; {{ page.lean_dem_share | times: 100 | round: 1 }}% Democratic two-party share
-      (statewide baseline race, {{ page.year }})
+      (statewide baseline race, {{ latest.year }})
     </p>
   </section>
 
   <section>
-    <h2>{{ page.year }} General Election</h2>
-    {% if page.is_uncontested %}<p><em>Uncontested.</em></p>{% endif %}
+    <h2>Election results</h2>
+    {% for result in page.results_by_year %}
+    <h3>{{ result.year }} General Election</h3>
+    <p>
+      {{ result.competitiveness_label }}
+      &mdash; {{ result.lean_dem_share | times: 100 | round: 1 }}% Democratic two-party share
+    </p>
+    {% if result.is_uncontested %}<p><em>Uncontested.</em></p>{% endif %}
     <table>
       <thead>
         <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR</th></tr>
       </thead>
       <tbody>
-        {% for c in page.candidates %}
+        {% for c in result.candidates %}
         <tr{% if c.winner %} class="winner"{% endif %}>
           <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}</td>
           <td>{{ c.party }}</td>
@@ -36,6 +43,7 @@ layout: default
         {% endfor %}
       </tbody>
     </table>
+    {% endfor %}
     <p><small>
       WAR (wins above replacement) is adapted from Split Ticket's published
       methodology, not an original metric — see the
@@ -44,4 +52,28 @@ layout: default
       minor-party candidates.
     </small></p>
   </section>
+
+  {% if page.history.size > 0 %}
+  <section>
+    <h2>Before redistricting</h2>
+    <p>
+      This seat's district lineage, by best land-area overlap with earlier
+      redistricting vintages — a best-effort match, not a guarantee that
+      the same voters or communities carried over.
+    </p>
+    <ul>
+      {% for h in page.history %}
+      <li>
+        {{ h.vintage }}:
+        {% if h.url %}
+        <a href="{{ h.url | relative_url }}">{{ h.district_name }}</a>
+        {% else %}
+        {{ h.district_name }}
+        {% endif %}
+        ({{ h.overlap_pct | times: 100 | round: 0 }}% area overlap)
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
 </article>

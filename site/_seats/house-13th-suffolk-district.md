@@ -1,22 +1,38 @@
 ---
 chamber: house
 vintage: 2022-present
-year: 2022
-district_name: 13th Suffolk District
 district_id: '135'
+district_name: 13th Suffolk District
+years:
+- 2022
 lean_dem_share: 0.8238
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
-is_uncontested: true
-candidates:
-- name: Daniel J. Hunt
-  slug: daniel-j-hunt
-  party: Democratic
-  votes: 8761
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.1762
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.8238
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 8761
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1762
+history:
+- vintage: 2012-2020
+  district_name: 13th Suffolk District
+  url: null
+  overlap_pct: 0.7749
+- vintage: 2001-2010
+  district_name: 13th Suffolk
+  url: null
+  overlap_pct: 0.9
 title: 13th Suffolk District
 layout: seat
 ---

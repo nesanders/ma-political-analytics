@@ -1,22 +1,38 @@
 ---
 chamber: house
 vintage: 2022-present
-year: 2022
-district_name: Barnstable-Dukes-Nantucket District
 district_id: '006'
+district_name: Barnstable-Dukes-Nantucket District
+years:
+- 2022
 lean_dem_share: 0.711
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
-is_uncontested: true
-candidates:
-- name: Dylan A. Fernandes
-  slug: dylan-a-fernandes
-  party: Democratic
-  votes: 15858
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.289
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.711
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  candidates:
+  - name: Dylan A. Fernandes
+    slug: dylan-a-fernandes
+    party: Democratic
+    votes: 15858
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.289
+history:
+- vintage: 2012-2020
+  district_name: Barnstable, Dukes & Nantucket District
+  url: null
+  overlap_pct: 0.9873
+- vintage: 2001-2010
+  district_name: Barnstable, Dukes and Nantucket
+  url: null
+  overlap_pct: 0.9987
 title: Barnstable-Dukes-Nantucket District
 layout: seat
 ---

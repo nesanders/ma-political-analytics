@@ -20,21 +20,25 @@ from pathlib import Path
 import click
 import pandas as pd
 
+from ma_politics.build.generate_site_data import discover_years
+
 logger = logging.getLogger(__name__)
 
 
-def build_seats_table(chambers: list[str], year: int, vintage: str, derived_dir: Path) -> pd.DataFrame:
+def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Path) -> pd.DataFrame:
     frames = []
     for c in chambers:
-        lean = pd.read_parquet(derived_dir / f"{c}_{vintage}_lean.parquet")
-        war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
-        is_uncontested = war.groupby("district_name")["is_uncontested"].first()
-        lean = lean.copy()
-        lean["chamber"] = c
-        lean["year"] = year
-        lean["vintage"] = vintage
-        lean["is_uncontested"] = lean["district_name"].map(is_uncontested)
-        frames.append(lean)
+        for vintage in vintages:
+            for year in discover_years(c, vintage, derived_dir):
+                lean = pd.read_parquet(derived_dir / f"{c}_{vintage}_{year}_lean.parquet")
+                war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
+                is_uncontested = war.groupby("district_name")["is_uncontested"].first()
+                lean = lean.copy()
+                lean["chamber"] = c
+                lean["year"] = year
+                lean["vintage"] = vintage
+                lean["is_uncontested"] = lean["district_name"].map(is_uncontested)
+                frames.append(lean)
     out = pd.concat(frames, ignore_index=True)
     return out[
         [
@@ -52,14 +56,15 @@ def build_seats_table(chambers: list[str], year: int, vintage: str, derived_dir:
     ]
 
 
-def build_results_table(chambers: list[str], year: int, derived_dir: Path) -> pd.DataFrame:
+def build_results_table(chambers: list[str], years_by_chamber: dict[str, list[int]], derived_dir: Path) -> pd.DataFrame:
     frames = []
     for c in chambers:
-        war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
-        war = war.copy()
-        war["chamber"] = c
-        war["year"] = year
-        frames.append(war)
+        for year in years_by_chamber.get(c, []):
+            war = pd.read_parquet(derived_dir / f"{c}_{year}_war.parquet")
+            war = war.copy()
+            war["chamber"] = c
+            war["year"] = year
+            frames.append(war)
     out = pd.concat(frames, ignore_index=True)
     return out[
         [
@@ -79,11 +84,11 @@ def build_results_table(chambers: list[str], year: int, derived_dir: Path) -> pd
     ]
 
 
-def build_towns_table(chambers: list[str], vintage: str, crosswalks_dir: Path) -> pd.DataFrame:
+def build_towns_table(chambers: list[str], vintages: list[str], crosswalks_dir: Path) -> pd.DataFrame:
     from ma_politics.util.names import normalize_town_name
 
     overlap = pd.read_parquet(crosswalks_dir / "town_district_overlap.parquet")
-    overlap = overlap[(overlap["vintage"] == vintage) & (overlap["chamber"].isin(chambers))]
+    overlap = overlap[(overlap["vintage"].isin(vintages)) & (overlap["chamber"].isin(chambers))]
     overlap = overlap[overlap["town"] != "County subdivisions not defined"].copy()
     overlap["town"] = overlap["town"].map(normalize_town_name)
     return overlap[["town", "chamber", "vintage", "district_id", "district_name", "pct_of_town"]]
@@ -94,7 +99,7 @@ SCHEMA_CARD = {
         "MA state legislative election data: House (160 districts) and Senate "
         "(40 districts) races. WAR (wins above replacement) is adapted from "
         "Split Ticket's published methodology, not an original metric — see "
-        "https://github.com/nesanders/ma-political-analytics/blob/main/docs/PLAN.md "
+        "https://github.com/nesanders/ma-political-analytics/blob/HEAD/docs/PLAN.md "
         "section 4 for the full definition and citations."
     ),
     "tables": {
@@ -180,18 +185,22 @@ SCHEMA_CARD = {
 }
 
 
-def publish(chambers: list[str], year: int, vintage: str, derived_dir: Path, crosswalks_dir: Path, out_dir: Path) -> None:
+def publish(chambers: list[str], vintages: list[str], derived_dir: Path, crosswalks_dir: Path, out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    seats = build_seats_table(chambers, year, vintage, derived_dir)
+    years_by_chamber = {
+        c: sorted({y for vintage in vintages for y in discover_years(c, vintage, derived_dir)}) for c in chambers
+    }
+
+    seats = build_seats_table(chambers, vintages, derived_dir)
     seats.to_parquet(out_dir / "seats.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(seats), out_dir / "seats.parquet")
 
-    results = build_results_table(chambers, year, derived_dir)
+    results = build_results_table(chambers, years_by_chamber, derived_dir)
     results.to_parquet(out_dir / "results.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(results), out_dir / "results.parquet")
 
-    towns = build_towns_table(chambers, vintage, crosswalks_dir)
+    towns = build_towns_table(chambers, vintages, crosswalks_dir)
     towns.to_parquet(out_dir / "towns.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(towns), out_dir / "towns.parquet")
 
@@ -202,16 +211,20 @@ def publish(chambers: list[str], year: int, vintage: str, derived_dir: Path, cro
 
 @click.command()
 @click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
-@click.option("--year", type=int, default=2022)
-@click.option("--vintage", default="2022-present")
+@click.option(
+    "--vintages",
+    default="2001-2010,2012-2020,2022-present",
+    help="Comma-separated list of all vintages to publish",
+)
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data"))
 @click.option("-v", "--verbose", is_flag=True)
-def main(chamber: str, year: int, vintage: str, derived_dir: Path, crosswalks_dir: Path, out_dir: Path, verbose: bool):
+def main(chamber: str, vintages: str, derived_dir: Path, crosswalks_dir: Path, out_dir: Path, verbose: bool):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
-    publish(chambers, year, vintage, derived_dir, crosswalks_dir, out_dir)
+    vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
+    publish(chambers, vintage_list, derived_dir, crosswalks_dir, out_dir)
 
 
 if __name__ == "__main__":

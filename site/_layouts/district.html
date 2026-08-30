@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<article>
+  <p>
+    <a href="{{ '/chamber/' | append: page.chamber | append: '/' | relative_url }}">{{ page.chamber | capitalize }}</a>
+    &middot;
+    <a href="{{ '/district/' | relative_url }}">All districts</a>
+  </p>
+  <h1>{{ page.district_name }}</h1>
+  <p>{{ page.vintage }} redistricting vintage</p>
+
+  <section>
+    <h2>Partisan lean</h2>
+    <p>
+      <strong>{{ page.competitiveness_label }}</strong>
+      &mdash; {{ page.lean_dem_share | times: 100 | round: 1 }}% Democratic two-party share
+      (most recent election, {{ page.years | first }})
+    </p>
+  </section>
+
+  <section>
+    <h2>Election results</h2>
+    {% for result in page.results_by_year %}
+    <h3>{{ result.year }} General Election</h3>
+    <p>
+      {{ result.competitiveness_label }}
+      &mdash; {{ result.lean_dem_share | times: 100 | round: 1 }}% Democratic two-party share
+    </p>
+    {% if result.is_uncontested %}<p><em>Uncontested.</em></p>{% endif %}
+    <table>
+      <thead>
+        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR</th></tr>
+      </thead>
+      <tbody>
+        {% for c in result.candidates %}
+        <tr{% if c.winner %} class="winner"{% endif %}>
+          <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}</td>
+          <td>{{ c.party }}</td>
+          <td>{{ c.votes }}</td>
+          <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
+          <td>{% if c.war %}{{ c.war | times: 100 | round: 1 }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+  </section>
+</article>

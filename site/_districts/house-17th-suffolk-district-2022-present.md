@@ -1,0 +1,29 @@
+---
+chamber: house
+vintage: 2022-present
+district_id: '139'
+district_name: 17th Suffolk District
+years:
+- 2022
+lean_dem_share: 0.8394
+competitiveness: Safe
+competitiveness_label: Safe D
+party_favored: Democratic
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.8394
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  candidates:
+  - name: Kevin G. Honan
+    slug: kevin-g-honan
+    party: Democratic
+    votes: 9581
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1606
+title: 17th Suffolk District (2022-present)
+layout: district
+---

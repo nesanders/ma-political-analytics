@@ -1,29 +1,45 @@
 ---
 chamber: house
 vintage: 2022-present
-year: 2022
-district_name: 7th Plymouth District
 district_id: '117'
+district_name: 7th Plymouth District
+years:
+- 2022
 lean_dem_share: 0.4882
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
-is_uncontested: true
-candidates:
-- name: Alyson M. Sullivan
-  slug: alyson-m-sullivan
-  party: Republican
-  votes: 12083
-  winner: true
-  actual_two_party_share: 1.0
-  war: 0.4882
-- name: Brandon J. Griffin
-  slug: brandon-j-griffin
-  party: Other
-  votes: 3945
-  winner: false
-  actual_two_party_share: 0.3265
-  war: null
+results_by_year:
+- year: 2022
+  lean_dem_share: 0.4882
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: true
+  candidates:
+  - name: Alyson M. Sullivan
+    slug: alyson-m-sullivan
+    party: Republican
+    votes: 12083
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4882
+  - name: Brandon J. Griffin
+    slug: brandon-j-griffin
+    party: Other
+    votes: 3945
+    winner: false
+    actual_two_party_share: 0.3265
+    war: null
+history:
+- vintage: 2012-2020
+  district_name: 7th Plymouth District
+  url: null
+  overlap_pct: 0.8644
+- vintage: 2001-2010
+  district_name: 7th Plymouth
+  url: null
+  overlap_pct: 0.8656
 title: 7th Plymouth District
 layout: seat
 ---

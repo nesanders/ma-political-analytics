@@ -9,7 +9,7 @@ layout: default
   <section>
     <h2>Distribution of district lean</h2>
     <p>
-      Each point is one seat's {{ page.year }} partisan lean (Democratic
+      Each point is one seat's most recent partisan lean (Democratic
       two-party share on a statewide baseline race). Click a point to open
       that seat.
     </p>
@@ -20,16 +20,17 @@ layout: default
     <h2>All seats</h2>
     <table>
       <thead>
-        <tr><th>District</th><th>Lean</th><th>Competitiveness</th><th>{{ page.year }} winner</th><th>WAR</th></tr>
+        <tr><th>District</th><th>Lean</th><th>Competitiveness</th><th>Most recent winner</th><th>WAR</th></tr>
       </thead>
       <tbody>
         {% for seat in seats %}
+        {% assign latest = seat.results_by_year | first %}
+        {% assign winner = latest.candidates | where: "winner", true | first %}
         <tr>
           <td><a href="{{ seat.url | relative_url }}">{{ seat.district_name }}</a></td>
           <td>{{ seat.lean_dem_share | times: 100 | round: 1 }}% D</td>
           <td>{{ seat.competitiveness_label }}</td>
-          {% assign winner = seat.candidates | where: "winner", true | first %}
-          <td>{% if winner %}{{ winner.name }} ({{ winner.party | slice: 0, 1 }}){% endif %}</td>
+          <td>{% if winner %}{{ winner.name }} ({{ winner.party | slice: 0, 1 }}), {{ latest.year }}{% endif %}</td>
           <td>{% if winner.war %}{{ winner.war | times: 100 | round: 1 }}{% endif %}</td>
         </tr>
         {% endfor %}

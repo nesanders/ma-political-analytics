@@ -269,7 +269,12 @@ def main(chamber, year, vintage, pd43_dir, baseline_dir, baseline_office, crossw
     apportioned = apportion_town_votes_to_districts(town, overlap, [dem_name, rep_name])
     lean = compute_lean(apportioned, dem_name, rep_name)
     lean = compute_competitiveness(lean)
-    lean_path = out_dir / f"{chamber}_{vintage}_lean.parquet"
+    # Year-scoped, not just vintage-scoped: lean is recomputed against a
+    # different statewide baseline race every election cycle, so a vintage
+    # spanning multiple years (e.g. 2022-present covers both 2022 and 2024)
+    # needs one lean file per year, not one shared file that a later year's
+    # run would silently overwrite for an earlier year already on disk.
+    lean_path = out_dir / f"{chamber}_{vintage}_{year}_lean.parquet"
     lean.to_parquet(lean_path, index=False)
     logger.info(
         "Wrote %d district lean rows to %s (%s)",

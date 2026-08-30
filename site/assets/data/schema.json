@@ -1,5 +1,5 @@
 {
-  "description": "MA state legislative election data: House (160 districts) and Senate (40 districts) races. WAR (wins above replacement) is adapted from Split Ticket's published methodology, not an original metric \u2014 see https://github.com/nesanders/ma-political-analytics/blob/main/docs/PLAN.md section 4 for the full definition and citations.",
+  "description": "MA state legislative election data: House (160 districts) and Senate (40 districts) races. WAR (wins above replacement) is adapted from Split Ticket's published methodology, not an original metric \u2014 see https://github.com/nesanders/ma-political-analytics/blob/HEAD/docs/PLAN.md section 4 for the full definition and citations.",
   "tables": {
     "seats": {
       "description": "One row per (chamber, district, year): the district's partisan lean and competitiveness.",
