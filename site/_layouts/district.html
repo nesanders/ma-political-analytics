@@ -32,6 +32,16 @@ layout: default
     </p>
   </section>
 
+  <section>
+    <h2>Trend over time</h2>
+    <p>
+      Democratic two-party lean by election year, within this district's
+      own redistricting vintage.
+      {% if page.results_by_year.size == 1 %}Only one election year is on record for this vintage so far &mdash; more will appear here as this site's multi-year backfill completes.{% endif %}
+    </p>
+    <div id="trend-chart" role="img" aria-label="Line chart of {{ page.district_name }}'s Democratic two-party lean by year"></div>
+  </section>
+
   {% if page.demographics %}
   <section>
     <h2>Demographics</h2>
@@ -95,3 +105,45 @@ layout: default
     </small></p>
   </section>
 </article>
+
+<script>
+  const trendData = [
+    {% for r in page.results_by_year reversed %}
+    { "year": {{ r.year | jsonify }}, "lean_dem_share": {{ r.lean_dem_share | jsonify }} }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+  const trendStyle = getComputedStyle(document.documentElement);
+  const trendCssVar = (name) => trendStyle.getPropertyValue(name).trim();
+  const trendSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 140,
+    "background": null,
+    "data": { "values": trendData },
+    "mark": { "type": "line", "point": true },
+    "encoding": {
+      "x": { "field": "year", "type": "ordinal", "title": "Year" },
+      "y": {
+        "field": "lean_dem_share",
+        "type": "quantitative",
+        "axis": { "format": "%", "title": "Democratic two-party lean" },
+        "scale": { "domain": [0, 1] }
+      },
+      "color": { "value": trendCssVar("--series-dem") },
+      "tooltip": [
+        { "field": "year", "title": "Year" },
+        { "field": "lean_dem_share", "type": "quantitative", "format": ".1%", "title": "Dem. lean" }
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelColor": trendCssVar("--text-secondary"),
+        "titleColor": trendCssVar("--text-primary"),
+        "gridColor": trendCssVar("--gridline"),
+        "domainColor": trendCssVar("--gridline")
+      },
+      "view": { "stroke": null }
+    }
+  };
+  vegaEmbed("#trend-chart", trendSpec, { actions: false }).catch(console.error);
+</script>

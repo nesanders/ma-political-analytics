@@ -62,6 +62,16 @@ layout: default
   </section>
 
   <section>
+    <h2>Histogram of district lean</h2>
+    <p>
+      Same data as above, binned into 5-point-margin buckets — how many
+      seats fall at each level of partisan lean, rather than each seat as
+      its own point.
+    </p>
+    <div id="lean-histogram" role="img" aria-label="Histogram of {{ page.chamber }} district partisan lean, binned in 5-point buckets"></div>
+  </section>
+
+  <section>
     <h2>All seats</h2>
     <table>
       <thead>
@@ -164,4 +174,32 @@ layout: default
     }
   };
   vegaEmbed("#lean-chart", spec, { actions: false }).catch(console.error);
+
+  const histogramSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 160,
+    "background": null,
+    "data": { "values": seatData },
+    "mark": { "type": "bar" },
+    "encoding": {
+      "x": {
+        "field": "lean_dem_share",
+        "type": "quantitative",
+        "bin": { "step": 0.05 },
+        "axis": { "format": "%", "title": "Democratic two-party lean (statewide baseline)" },
+        "scale": { "domain": [0, 1] }
+      },
+      "y": { "aggregate": "count", "title": "Seats" },
+      "color": { "value": colorTextStrong },
+      "tooltip": [
+        { "aggregate": "count", "title": "Seats" }
+      ]
+    },
+    "config": {
+      "axis": { "labelColor": colorText, "titleColor": colorTextStrong, "gridColor": colorGrid, "domainColor": colorGrid },
+      "view": { "stroke": null }
+    }
+  };
+  vegaEmbed("#lean-histogram", histogramSpec, { actions: false }).catch(console.error);
 </script>

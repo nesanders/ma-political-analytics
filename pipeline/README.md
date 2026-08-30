@@ -243,6 +243,33 @@ combined with a chart spec's `"width": "container"` autosize; fixed with
 an explicit override in `site/assets/css/main.css` (`display: block;
 width: 100%` on `.vega-embed`).
 
+Two more chart types build on the same vendored Vega, filling out the
+remaining types docs/PLAN.md §6 named:
+
+- **A true binned histogram** on `chamber.html`, right below the existing
+  strip plot: same `seatData` array, a `"bin": { "step": 0.05 }` encoding
+  and a `count` aggregate instead of one point per seat — a genuinely
+  different view (how many seats at each lean level) from the strip plot
+  (each seat as its own point). Deliberately a single flat bar color
+  rather than per-bin party coloring: Vega-Lite's binned-field internal
+  name depends on the exact bin parameters used, and getting it wrong
+  silently produces an uncolored or miscolored chart rather than an error
+  — not worth the fragility for a cosmetic choice.
+- **A line chart** of a seat/district's own Democratic lean by election
+  year, added to both `district.html` and `seat.html` (`results_by_year`,
+  already in front matter, reversed to chronological order for the x-axis).
+  With only 2022 data currently published for most districts, this renders
+  as a single point today — the page says so explicitly rather than
+  showing a misleadingly bare chart with no explanation — and needs no
+  code change to fill in as the multi-decade backfill lands, since it
+  already iterates whatever years are in `results_by_year`.
+
+Verified live (headless browser, both chamber and seat pages): the
+histogram renders a real, sensible distribution (House seats cluster
+toward the Democratic side, matching the chamber's known composition),
+and the trend chart renders a single correctly-valued point at the
+district's real 2022 lean.
+
 - `python -m ma_politics.build.publish_query_data --chamber both --vintages 2001-2010,2012-2020,2022-present`
   Publishes flat, SQL-queryable Parquet tables (`seats.parquet`,
   `results.parquet`, `towns.parquet`, `finance.parquet`) plus a JSON schema card
