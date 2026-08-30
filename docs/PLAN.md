@@ -241,15 +241,15 @@ visible per-metric methodology page throughout.
 
 ## 12. Phased Roadmap
 
-| Phase | Deliverable |
-|---|---|
-| 0 | Repo scaffold, finalize schema, confirm district vintages |
-| 1 | Data pipeline: results + boundaries + demographics + campaign finance + crosswalks, back to at least the 2001 vintage (≈24 years) |
-| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming |
-| 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through |
-| 4 | Derived analytics: WAR (adapted), lean, competitiveness, turnout |
-| 5 | AskAI: semantic layer + DuckDB-Wasm + AI SDK (multi-provider) React sidebar |
-| 6 | Polish: accessibility, performance, update-script docs |
+| Phase | Deliverable | Status |
+|---|---|---|
+| 0 | Repo scaffold, finalize schema, confirm district vintages | **Done** — Python pipeline package + Jekyll site skeleton + Actions build/deploy workflow, all verified to actually build. |
+| 1 | Data pipeline: results + boundaries + demographics + campaign finance + crosswalks, back to at least the 2001 vintage (≈24 years) | **Done, all four fetchers + crosswalks verified against live data** for all three vintages (see `pipeline/README.md` for exact numbers: elections, boundaries incl. the MIT-sourced 2001 vintage, PL94-171/ACS demographics, OCPF finance, town↔district overlap, seat lineage). Not yet done: a full multi-decade backfill (everything above has been run for a 2022-cycle slice to build/validate against, not the full ≥20-year history — that's a longer background run, not a code gap). |
+| 2 | Jekyll + Actions skeleton, entity pages, navigation, theming | Skeleton done in Phase 0; entity page templates (candidate/seat/district/town) and real theming not started. |
+| 3 | Core interactive charts (map, line, bar, scatter, histogram) with click-through | Not started. |
+| 4 | Derived analytics: WAR (adapted), lean, competitiveness, turnout | Lean and competitiveness **verified live** (apportioned statewide share reconstructs the true 2022 Governor result exactly; competitiveness bucketing matches MA's known partisan lean). WAR is implemented but pending verification against real House/Senate results (in progress). Turnout not started. |
+| 5 | AskAI: semantic layer + DuckDB-Wasm + AI SDK (multi-provider) React sidebar | Not started (design only, see §8). |
+| 6 | Polish: accessibility, performance, update-script docs | Not started. |
 
 ## Open Questions for You
 
