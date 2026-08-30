@@ -23,6 +23,20 @@ Pipeline:
    candidates — a minor-party candidate has no meaningful "expected share"
    against a two-party baseline, so WAR is left null for them rather than
    computed against a baseline that doesn't apply.
+
+**Known limitation, found while verifying against real 2022 House data**:
+an *uncontested* major-party candidate mechanically gets
+actual_two_party_share = 1.0 (no opponent to divide the vote against),
+which inflates WAR for anyone running unopposed regardless of their real
+strength as a candidate — the top of the real 2022 WAR ranking is
+Republicans who won uncontested in Democratic-leaning districts, which is
+a real signal (holding a seat the environment says you shouldn't) but gets
+conflated here with "ran a strong campaign," which it may or may not
+reflect. Split Ticket's own WAR reportedly handles uncontested races with
+distinct logic rather than a raw two-party share; this project's baseline
+doesn't yet. Treat uncontested-race WAR values as directionally meaningful
+but not comparable on the same scale as contested ones until this is
+addressed — a real fix, not just a caveat, is a good next iteration.
 """
 
 from __future__ import annotations
@@ -57,11 +71,30 @@ def _normalize_town_name(name: str) -> str:
     return " ".join(parts)
 
 
+# PD43+ writes ordinals as numerals ("1st Middlesex District"); the
+# boundary files spell them out ("First Middlesex District"). Found the
+# hard way: without this, naive fuzzy matching on the un-normalized text
+# picked "4th Middlesex District" -> "Third Middlesex District" — wrong
+# (a real "Fourth Middlesex District" exists; "4th"/"Third" just happen to
+# be textually similar strings) — silently corrupting both districts' WAR.
+# Covers through 20th; no MA chamber has more than ~20 same-county-ordinal
+# districts.
+_ORDINAL_WORDS = [
+    "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
+    "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth",
+    "eighteenth", "nineteenth", "twentieth",
+]
+_ORDINAL_WORD_TO_NUMERAL = {word: f"{i + 1}" for i, word in enumerate(_ORDINAL_WORDS)}
+
+
 def _normalize_district_name(name: str) -> str:
     name = name.lower()
     name = name.replace("&", " and ")
     name = re.sub(r"[,\-]", " ", name)
     name = re.sub(r"\bdistrict\b", "", name)
+    name = re.sub(r"(\d+)(?:st|nd|rd|th)\b", r"\1", name)  # "1st" -> "1"
+    for word, numeral in _ORDINAL_WORD_TO_NUMERAL.items():
+        name = re.sub(rf"\b{word}\b", numeral, name)  # "first" -> "1"
     name = re.sub(r"\s+", " ", name).strip()
     return name
 
@@ -78,10 +111,24 @@ def match_district_names(raw_names: list[str], boundary_names: list[str]) -> dic
         if norm in norm_to_boundary:
             result[raw] = norm_to_boundary[norm]
             continue
-        close = get_close_matches(norm, list(norm_to_boundary), n=1, cutoff=0.85)
-        if close:
-            result[raw] = norm_to_boundary[close[0]]
+        # Ordinal normalization above should make exact matching handle
+        # virtually everything; fuzzy matching is a fallback for genuine
+        # spelling/punctuation drift only. Guarded by requiring the leading
+        # ordinal number (if either name has one) to match exactly — a close
+        # match with a *different* leading number is exactly the "4th" vs
+        # "Third" failure mode found live, not the drift this is meant to
+        # catch, so it's rejected rather than silently accepted.
+        raw_num = re.match(r"^(\d+)\b", norm)
+        for candidate in get_close_matches(norm, list(norm_to_boundary), n=3, cutoff=0.85):
+            cand_num = re.match(r"^(\d+)\b", candidate)
+            if (raw_num is None) != (cand_num is None):
+                continue
+            if raw_num and cand_num and raw_num.group(1) != cand_num.group(1):
+                continue
+            result[raw] = norm_to_boundary[candidate]
             logger.info("Fuzzy-matched district name %r -> %r", raw, result[raw])
+            break
+        if raw in result:
             continue
         result[raw] = None
         nearest = get_close_matches(norm, list(norm_to_boundary), n=3, cutoff=0.5)
@@ -179,6 +226,13 @@ def compute_war(
     )
     r = r.merge(party_totals, on="election_id", how="left")
     two_party_votes = r["dem_votes"].fillna(0) + r["rep_votes"].fillna(0)
+
+    # See module docstring's "Known limitation": an uncontested candidate's
+    # WAR is mechanically inflated (actual_two_party_share = 1.0 with no
+    # opponent), a real signal but not comparable to a contested race's WAR
+    # — flagged explicitly rather than left for a downstream consumer to
+    # rediscover.
+    r["is_uncontested"] = r["dem_votes"].isna() | r["rep_votes"].isna()
 
     r["actual_two_party_share"] = r["votes"] / two_party_votes
     r["district_lean_dem_share"] = r["district_name"].map(lean_by_name)
