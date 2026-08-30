@@ -22,9 +22,13 @@
       <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
       <a href="{{ '/town/' | relative_url }}">Towns</a>
       <a href="{{ '/party/' | relative_url }}">Parties</a>
-      <a href="{{ '/search/' | relative_url }}">Search</a>
+      <a href="{{ '/search/' | relative_url }}">Search &amp; Compare</a>
       <a href="{{ '/methodology/' | relative_url }}">Methodology</a>
     </nav>
+    <div id="header-search">
+      <input type="search" id="header-search-input" placeholder="Quick search&hellip;" autocomplete="off" aria-label="Search seats, candidates, towns, parties">
+      <div id="header-search-dropdown" hidden></div>
+    </div>
   </header>
   <main>
     {{ content }}
@@ -33,6 +37,7 @@
     <p>Data pipeline and methodology: <a href="https://github.com/nesanders/ma-political-analytics">source</a>.</p>
   </footer>
   <script src="{{ '/assets/js/sortable-tables.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   <div id="askai-root"></div>
   <script type="module" src="{{ '/assets/js/askai.bundle.js' | relative_url }}"></script>
 </body>

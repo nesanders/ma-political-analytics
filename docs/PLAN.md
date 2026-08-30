@@ -257,6 +257,24 @@ methodology disclosed near the fold, small multiples preferred over single
 large charts, sortable/searchable leaderboard tables as landing views, and a
 visible per-metric methodology page throughout.
 
+**Status**: the House/Senate chamber split, sortable leaderboard tables,
+headline-metric-first layout, and per-metric methodology page were already
+built earlier (see the Phased Roadmap below). A **consistent search bar
+across sections** is now built too: a compact search box sits in the
+header on every page (`site/_layouts/default.html`), backed by one shared
+JSON index (`/search/index.json`, generated once at build time from
+`site.seats`/`candidates`/`towns`/`parties` rather than embedded inline on
+every page — that would have added ~190KB to each of this site's ~1,000
+generated pages) and fetched lazily on first use, not on every page load.
+Verified live: typing in the header box on a page that isn't `/search/`
+itself (`/town/`) returns real matching seats and candidates, and
+clicking one navigates correctly. The color palette itself (see
+`site/assets/css/main.css`) and member-directory-style listing cards for
+the browse pages (currently plain sortable tables, not cards) remain
+open — a genuine visual-design pass, not a data or interaction feature,
+and scoped out of this session's "continue down the list" cycle
+accordingly.
+
 ## 12. Phased Roadmap
 
 | Phase | Deliverable | Status |

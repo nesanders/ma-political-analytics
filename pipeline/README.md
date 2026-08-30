@@ -431,17 +431,32 @@ included, not by "real" versus "string" content.
 - `site/search/` + `site/assets/js/search.js`: a search/compare tool, no
   new Python pipeline step or server needed — the search index is a plain
   JSON array Jekyll renders straight from `site.seats`/`candidates`/
-  `towns`/`parties` at build time (one `<script type="application/json">`
-  block per collection, since each carries different fields worth
-  showing), and `search.js` does a case-insensitive substring filter over
-  it client-side as the user types. Seats get an "+ Compare" button;
-  adding up to two renders a side-by-side table (chamber, lean, turnout
-  vs. baseline, most-recent open-seat status, population, median
-  household income) pulled from the same index entry, so it can't drift
-  from what the seat's own page shows. Reuses the `data-site-baseurl`
-  attribute (see the statewide-map bug above) for its result/compare
-  links rather than repeating that bug in a third place. Verified live:
-  searching "Barnstable" returns all five House Barnstable seats with
-  correct competitiveness labels, and comparing 1st vs. 2nd Barnstable
-  District renders real, correct numbers for both (60.8%/56.6% Democratic
-  lean, $85,958/$81,933 median household income) side by side.
+  `towns`/`parties` at build time, and `search.js` does a case-insensitive
+  substring filter over it client-side as the user types. Seats get an
+  "+ Compare" button; adding up to two renders a side-by-side table
+  (chamber, lean, turnout vs. baseline, most-recent open-seat status,
+  population, median household income) pulled from the same index entry,
+  so it can't drift from what the seat's own page shows. Reuses the
+  `data-site-baseurl` attribute (see the statewide-map bug above) for its
+  result/compare links rather than repeating that bug in a third place.
+  Verified live: searching "Barnstable" returns all five House Barnstable
+  seats with correct competitiveness labels, and comparing 1st vs. 2nd
+  Barnstable District renders real, correct numbers for both (60.8%/56.6%
+  Democratic lean, $85,958/$81,933 median household income) side by side.
+
+  The index itself is published as its own static asset
+  (`site/search/index.json`, a Jekyll page with `layout: null` and an
+  explicit `permalink` rather than a Markdown page — Jekyll runs Liquid
+  over any file with front matter, HTML or not) fetched with `fetch()`,
+  not embedded inline on the search page. That split mattered once a
+  second consumer showed up: a **compact search box now sits in the site
+  header on every page** (`default.html`, styled in `main.css`), giving
+  the site the "consistent search bar across sections" docs/PLAN.md §11's
+  theming section calls for. Embedding the index inline (the search
+  page's original approach) would have meant shipping the same ~190KB of
+  JSON on every one of this site's ~1,000 generated pages instead of
+  fetching it once and letting the browser cache it. Verified live: typing
+  in the header box on `/town/` (not the search page itself) returns real
+  matching seats and candidates from a dropdown, and clicking one
+  navigates to the correct page — confirming the index really is shared
+  and not duplicated per page.
