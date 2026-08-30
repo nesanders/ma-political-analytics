@@ -1,8 +1,9 @@
 // Reads the small amount of Jekyll-rendered context default.html stashes on
 // <body> (see site/_layouts/default.html) so the bundled JS — which knows
 // nothing about Jekyll's `baseurl`/page front-matter at build time — can
-// still resolve site-relative asset URLs correctly and describe "the page
-// the user is currently looking at" to the model.
+// still resolve site-relative asset URLs correctly and (for AskAI
+// specifically) describe "the page the user is currently looking at" to
+// the model.
 //
 // Guarded for `document` being undefined: this module is imported
 // (transitively, via duckdb.ts) by scripts/verify_query_guard.mjs's Node-side
@@ -10,7 +11,11 @@
 
 export function getBaseUrl(): string {
   if (typeof document === "undefined") return "";
-  return document.body?.dataset.askaiBaseurl ?? "";
+  // data-site-baseurl is a page-wide attribute (default.html), not
+  // AskAI-specific — statewide-map.js reads the same one for the same
+  // reason: any client-side script needs Jekyll's site.baseurl to resolve
+  // a root-relative path it didn't build via the relative_url filter.
+  return document.body?.dataset.siteBaseurl ?? "";
 }
 
 export interface PageContext {

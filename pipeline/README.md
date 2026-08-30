@@ -265,6 +265,28 @@ width: 100%` on `.vega-embed`).
   as its own MapLibre layer independent of the basemap source's own
   load success — real end-user browsers reach the CDN directly.
 
+  The same command also writes one **combined** FeatureCollection per
+  (chamber, vintage) — `<chamber>-<vintage>-all.geojson`, every district's
+  geometry plus its lean/competitiveness/URL in one file — for the
+  statewide overview map (`site/map/`, via `site/assets/js/statewide-map.js`).
+  A district with geometry but no results data yet (derived_metrics.py
+  hasn't run for any year in that vintage) is skipped rather than shown
+  colorless. Verified live: real Massachusetts geography renders (the
+  outline is unmistakable), Republican-leaning districts cluster correctly
+  in western MA and south of Boston matching the state's actual political
+  geography, and `queryRenderedFeatures` at the canvas center returns a
+  real district (18th Worcester District, Lean R) with all its properties
+  intact. Caught and fixed a real bug via an actual click-through test —
+  the district `url` each feature carries is a site-root-relative path
+  computed in Python (`district_url()`) with no knowledge of Jekyll's
+  `site.baseurl`, and the click handler was using it directly; navigating
+  landed on `/district/...` (a 404 on this deployment) instead of
+  `/ma-political-analytics/district/...`. Fixed by reading the same
+  `data-site-baseurl` attribute default.html already stashes on `<body>`
+  for AskAI (renamed from `data-askai-baseurl`, since it's page-wide
+  infrastructure now, not AskAI-specific) and prefixing the URL with it
+  before navigating — re-verified live, lands on the real district page.
+
 ## AskAI sidebar (`site/src/askai/`)
 
 React app (query_data + render_chart tools, BYOK settings, a manual

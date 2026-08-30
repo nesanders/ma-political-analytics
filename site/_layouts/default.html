@@ -11,12 +11,13 @@
   <script src="{{ '/assets/js/vendor/vega-lite-5.23.0.min.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/vendor/vega-embed-6.29.0.min.js' | relative_url }}"></script>
 </head>
-<body data-askai-baseurl="{{ site.baseurl }}" data-askai-page-title="{{ page.title | default: site.title | escape }}" data-askai-page-description="{{ page.description | default: site.description | escape }}">
+<body data-site-baseurl="{{ site.baseurl }}" data-askai-page-title="{{ page.title | default: site.title | escape }}" data-askai-page-description="{{ page.description | default: site.description | escape }}">
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <a href="{{ '/chamber/house/' | relative_url }}">House</a>
       <a href="{{ '/chamber/senate/' | relative_url }}">Senate</a>
+      <a href="{{ '/map/' | relative_url }}">Map</a>
       <a href="{{ '/district/' | relative_url }}">Districts</a>
       <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
       <a href="{{ '/town/' | relative_url }}">Towns</a>
