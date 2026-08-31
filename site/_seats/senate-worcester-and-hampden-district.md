@@ -5,12 +5,38 @@ district_id: D07
 district_name: Worcester and Hampden District
 geo_slug: senate-worcester-and-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4886
+lean_dem_share: 0.4756
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4756
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9832
+  candidates:
+  - name: Ryan C. Fattman
+    slug: ryan-c-fattman
+    party: Republican
+    votes: 65438
+    winner: true
+    actual_two_party_share: 0.6587
+    war: 0.1342
+    is_incumbent: true
+  - name: Anthony Jm Allard
+    slug: anthony-jm-allard
+    party: Democratic
+    votes: 33911
+    winner: false
+    actual_two_party_share: 0.3413
+    war: -0.1342
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
   competitiveness: Tossup
@@ -35,11 +61,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: Worcester & Norfolk District
-  url: null
+  url: /district/senate-worcester-norfolk-district-2012-2020/
   overlap_pct: 0.8741
 - vintage: 2001-2010
   district_name: Worcester and Norfolk
-  url: null
+  url: /district/senate-worcester-and-norfolk-2001-2010/
   overlap_pct: 0.9669
 title: Worcester and Hampden District
 layout: seat

@@ -1,0 +1,20 @@
+---
+slug: andrea-e-farretta
+name: Andrea E. Farretta
+party: Republican
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 4th Norfolk District
+  district_url: /district/house-4th-norfolk-district-2012-2020/
+  party: Republican
+  votes: 6202
+  winner: false
+  actual_two_party_share: 0.4151
+  war: -0.1656
+  is_uncontested: false
+  is_incumbent: false
+title: Andrea E. Farretta
+layout: candidate
+---

@@ -5,12 +5,30 @@ district_id: '115'
 district_name: 5th Plymouth District
 geo_slug: house-5th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5084
+lean_dem_share: 0.5011
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5011
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7682
+  candidates:
+  - name: David F. Decoste
+    slug: david-f-decoste
+    party: Republican
+    votes: 19410
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5011
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5084
   competitiveness: Tossup

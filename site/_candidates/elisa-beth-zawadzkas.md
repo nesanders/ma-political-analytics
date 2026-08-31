@@ -1,0 +1,20 @@
+---
+slug: elisa-beth-zawadzkas
+name: Elisa Beth Zawadzkas
+party: Democratic
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 1st Barnstable District
+  district_url: /district/house-1st-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 9389
+  winner: false
+  actual_two_party_share: 0.48
+  war: 0.0435
+  is_uncontested: false
+  is_incumbent: false
+title: Elisa Beth Zawadzkas
+layout: candidate
+---

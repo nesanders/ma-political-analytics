@@ -1,0 +1,20 @@
+---
+slug: bridget-matthews-kane
+name: Bridget Matthews-Kane
+party: Democratic
+races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 4th Hampden District
+  district_url: /district/house-4th-hampden-district-2022-present/
+  party: Democratic
+  votes: 9023
+  winner: false
+  actual_two_party_share: 0.4117
+  war: -0.0784
+  is_uncontested: false
+  is_incumbent: false
+title: Bridget Matthews-Kane
+layout: candidate
+---

@@ -5,12 +5,30 @@ district_id: 081
 district_name: 23rd Middlesex District
 geo_slug: house-23rd-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8232
+lean_dem_share: 0.8154
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.8154
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8481
+  candidates:
+  - name: Sean Garballey
+    slug: sean-garballey
+    party: Democratic
+    votes: 20994
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1846
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8232
   competitiveness: Safe

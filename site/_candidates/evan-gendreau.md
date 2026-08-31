@@ -15,6 +15,18 @@ races:
   war: -0.0124
   is_uncontested: false
   is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 8th Bristol District
+  district_url: /district/house-8th-bristol-district-2012-2020/
+  party: Republican
+  votes: 8853
+  winner: false
+  actual_two_party_share: 0.4297
+  war: -0.0117
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 17410

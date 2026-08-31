@@ -4,6 +4,18 @@ name: Meghan Kilcoyne
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 12th Worcester District
+  district_url: /district/house-12th-worcester-district-2022-present/
+  party: Democratic
+  votes: 18684
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.425
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 12th Worcester District
@@ -13,6 +25,18 @@ races:
   winner: true
   actual_two_party_share: 0.6038
   war: 0.0342
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 12th Worcester District
+  district_url: /district/house-12th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 13801
+  winner: true
+  actual_two_party_share: 0.5873
+  war: -0.0287
   is_uncontested: false
   is_incumbent: false
 ocpf_finance:

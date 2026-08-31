@@ -6,7 +6,7 @@ districts:
   district_name: 6th Norfolk District
   url: /seat/house-6th-norfolk-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.6198
+  lean_dem_share: 0.6113
   competitiveness_label: Safe D
   current_rep: William C. Galvin
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: Second Plymouth and Norfolk District
   url: /seat/senate-second-plymouth-and-norfolk-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.6013
+  lean_dem_share: 0.6108
   competitiveness_label: Safe D
   current_rep: Michael D. Brady
   current_rep_party: Democratic

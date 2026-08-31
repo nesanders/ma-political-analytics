@@ -5,12 +5,46 @@ district_id: '067'
 district_name: 9th Middlesex District
 geo_slug: house-9th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7141
+lean_dem_share: 0.6976
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6976
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.8303
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 13465
+    winner: true
+    actual_two_party_share: 0.7786
+    war: 0.081
+    is_incumbent: true
+  - name: Carly Marie Downs
+    slug: carly-marie-downs
+    party: Republican
+    votes: 3829
+    winner: false
+    actual_two_party_share: 0.2214
+    war: -0.081
+    is_incumbent: false
+  - name: Sean Diamond
+    slug: sean-diamond
+    party: Other
+    votes: 1219
+    winner: false
+    actual_two_party_share: 0.0705
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7141
   competitiveness: Safe
@@ -38,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 9th Middlesex District
-  url: null
+  url: /district/house-9th-middlesex-district-2012-2020/
   overlap_pct: 0.4009
 - vintage: 2001-2010
   district_name: 9th Middlesex
-  url: null
+  url: /district/house-9th-middlesex-2001-2010/
   overlap_pct: 0.6091
 title: 9th Middlesex District
 layout: seat

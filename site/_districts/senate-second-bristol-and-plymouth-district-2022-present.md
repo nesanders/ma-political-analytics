@@ -5,12 +5,30 @@ district_id: D38
 district_name: Second Bristol and Plymouth District
 geo_slug: senate-second-bristol-and-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5699
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5153
+competitiveness: Tossup
+competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5153
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7735
+  candidates:
+  - name: Mark C. Montigny
+    slug: mark-c-montigny
+    party: Democratic
+    votes: 55918
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4847
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5699
   competitiveness: Likely

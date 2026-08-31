@@ -5,12 +5,30 @@ district_id: '074'
 district_name: 16th Middlesex District
 geo_slug: house-16th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.658
+lean_dem_share: 0.6204
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6204
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7648
+  candidates:
+  - name: Rodney M. Elliott
+    slug: rodney-m-elliott
+    party: Democratic
+    votes: 12892
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3796
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.658
   competitiveness: Safe
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 16th Middlesex District
-  url: null
+  url: /district/house-16th-middlesex-district-2012-2020/
   overlap_pct: 0.9996
 - vintage: 2001-2010
   district_name: 16th Middlesex
-  url: null
+  url: /district/house-16th-middlesex-2001-2010/
   overlap_pct: 0.8258
 title: 16th Middlesex District
 layout: seat

@@ -5,12 +5,30 @@ district_id: '040'
 district_name: 17th Essex District
 geo_slug: house-17th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7013
+lean_dem_share: 0.605
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.605
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.9986
+  candidates:
+  - name: Frank A. Moran
+    slug: frank-a-moran
+    party: Democratic
+    votes: 9870
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.395
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7013
   competitiveness: Safe

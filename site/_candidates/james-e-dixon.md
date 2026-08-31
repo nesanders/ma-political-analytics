@@ -1,0 +1,20 @@
+---
+slug: james-e-dixon
+name: James E. Dixon
+party: Republican
+races:
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 10th Middlesex
+  district_url: /district/house-10th-middlesex-2001-2010/
+  party: Republican
+  votes: 2684
+  winner: false
+  actual_two_party_share: 0.2623
+  war: -0.1284
+  is_uncontested: false
+  is_incumbent: false
+title: James E. Dixon
+layout: candidate
+---

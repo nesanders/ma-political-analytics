@@ -5,12 +5,38 @@ district_id: '014'
 district_name: 5th Bristol District
 geo_slug: house-5th-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5151
-competitiveness: Tossup
-competitiveness_label: Tossup D
-party_favored: Democratic
+lean_dem_share: 0.4573
+competitiveness: Lean
+competitiveness_label: Lean R
+party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4573
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 1.0284
+  candidates:
+  - name: Justin Thurber
+    slug: justin-thurber
+    party: Republican
+    votes: 12390
+    winner: true
+    actual_two_party_share: 0.5194
+    war: -0.0232
+    is_incumbent: false
+  - name: Patricia A. Haddad
+    slug: patricia-a-haddad
+    party: Democratic
+    votes: 11464
+    winner: false
+    actual_two_party_share: 0.4806
+    war: 0.0232
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5151
   competitiveness: Tossup

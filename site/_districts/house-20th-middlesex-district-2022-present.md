@@ -5,12 +5,30 @@ district_id: 078
 district_name: 20th Middlesex District
 geo_slug: house-20th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5535
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5453
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5453
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6797
+  candidates:
+  - name: Bradley H. Jones, Jr
+    slug: bradley-h-jones-jr
+    party: Republican
+    votes: 21140
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5453
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5535
   competitiveness: Likely

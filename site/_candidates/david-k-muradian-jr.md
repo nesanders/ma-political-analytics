@@ -15,6 +15,54 @@ races:
   war: 0.5695
   is_uncontested: true
   is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 9th Worcester District
+  district_url: /district/house-9th-worcester-district-2012-2020/
+  party: Republican
+  votes: 19528
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.5948
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 9th Worcester District
+  district_url: /district/house-9th-worcester-district-2012-2020/
+  party: Republican
+  votes: 14958
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.2112
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 9th Worcester District
+  district_url: /district/house-9th-worcester-district-2012-2020/
+  party: Republican
+  votes: 18513
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.5341
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 9th Worcester District
+  district_url: /district/house-9th-worcester-district-2012-2020/
+  party: Republican
+  votes: 8980
+  winner: true
+  actual_two_party_share: 0.6239
+  war: -0.0319
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 15779

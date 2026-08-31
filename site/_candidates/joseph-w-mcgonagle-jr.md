@@ -4,6 +4,18 @@ name: Joseph W. Mcgonagle, Jr
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 28th Middlesex District
+  district_url: /district/house-28th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 8414
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3727
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 28th Middlesex District
@@ -13,6 +25,54 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3116
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 28th Middlesex District
+  district_url: /district/house-28th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 12167
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.2804
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 28th Middlesex District
+  district_url: /district/house-28th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 8302
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.5759
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 28th Middlesex District
+  district_url: /district/house-28th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 10811
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.2937
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 28th Middlesex District
+  district_url: /district/house-28th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 7329
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3985
   is_uncontested: true
   is_incumbent: false
 ocpf_finance:

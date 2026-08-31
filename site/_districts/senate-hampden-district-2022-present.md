@@ -5,12 +5,30 @@ district_id: D03
 district_name: Hampden District
 geo_slug: senate-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.679
+lean_dem_share: 0.6465
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6465
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.9206
+  candidates:
+  - name: Adam Gomez
+    slug: adam-gomez
+    party: Democratic
+    votes: 43211
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3535
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.679
   competitiveness: Safe

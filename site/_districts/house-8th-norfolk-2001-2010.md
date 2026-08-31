@@ -1,0 +1,113 @@
+---
+chamber: house
+vintage: 2001-2010
+district_id: '104'
+district_name: 8th Norfolk
+geo_slug: house-8th-norfolk-2001-2010
+years:
+- 2010
+- 2008
+- 2006
+- 2004
+- 2002
+lean_dem_share: 0.5203
+competitiveness: Tossup
+competitiveness_label: Tossup D
+party_favored: Democratic
+results_by_year:
+- year: 2010
+  lean_dem_share: 0.5203
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8184
+  candidates:
+  - name: Louis L. Kafka
+    slug: louis-l-kafka
+    party: Democratic
+    votes: 12834
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4797
+    is_incumbent: true
+  is_open_seat: false
+- year: 2008
+  lean_dem_share: 0.6165
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7969
+  candidates:
+  - name: Louis L. Kafka
+    slug: louis-l-kafka
+    party: Democratic
+    votes: 17242
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3835
+    is_incumbent: true
+  is_open_seat: false
+- year: 2006
+  lean_dem_share: 0.6145
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 1.1003
+  candidates:
+  - name: Louis L. Kafka
+    slug: louis-l-kafka
+    party: Democratic
+    votes: 12144
+    winner: true
+    actual_two_party_share: 0.733
+    war: 0.1186
+    is_incumbent: true
+  - name: Lydia E. Wiener
+    slug: lydia-e-wiener
+    party: Republican
+    votes: 4423
+    winner: false
+    actual_two_party_share: 0.267
+    war: -0.1186
+    is_incumbent: false
+  is_open_seat: false
+- year: 2004
+  lean_dem_share: 0.6443
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7843
+  candidates:
+  - name: Louis L. Kafka
+    slug: louis-l-kafka
+    party: Democratic
+    votes: 16582
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3557
+    is_incumbent: true
+  is_open_seat: false
+- year: 2002
+  lean_dem_share: 0.4556
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.8247
+  candidates:
+  - name: Louis L. Kafka
+    slug: louis-l-kafka
+    party: Democratic
+    votes: 13070
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5444
+    is_incumbent: false
+  is_open_seat: null
+title: 8th Norfolk (2001-2010)
+layout: district
+---

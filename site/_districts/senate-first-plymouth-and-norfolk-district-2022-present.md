@@ -5,12 +5,30 @@ district_id: D31
 district_name: First Plymouth and Norfolk District
 geo_slug: senate-first-plymouth-and-norfolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5928
+lean_dem_share: 0.5949
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5949
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7888
+  candidates:
+  - name: Patrick A. O'Connor
+    slug: patrick-a-oconnor
+    party: Republican
+    votes: 82720
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5949
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5928
   competitiveness: Likely

@@ -1,0 +1,20 @@
+---
+slug: arleen-m-martino
+name: Arleen M. Martino
+party: Other
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 2nd Middlesex District
+  district_url: /district/house-2nd-middlesex-district-2012-2020/
+  party: Other
+  votes: 502
+  winner: false
+  actual_two_party_share: 0.0294
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: Arleen M. Martino
+layout: candidate
+---

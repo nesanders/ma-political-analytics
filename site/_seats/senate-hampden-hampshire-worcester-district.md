@@ -5,12 +5,30 @@ district_id: D04
 district_name: Hampden-Hampshire-Worcester District
 geo_slug: senate-hampden-hampshire-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.559
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5494
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5494
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6933
+  candidates:
+  - name: Jacob R. Oliveira
+    slug: jacob-r-oliveira
+    party: Democratic
+    votes: 68420
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4506
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.559
   competitiveness: Likely
@@ -43,11 +61,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: First Hampden & Hampshire District
-  url: null
+  url: /district/senate-first-hampden-hampshire-district-2012-2020/
   overlap_pct: 0.9509
 - vintage: 2001-2010
   district_name: First Hampden and Hampshire
-  url: null
+  url: /district/senate-first-hampden-and-hampshire-2001-2010/
   overlap_pct: 0.9503
 title: Hampden-Hampshire-Worcester District
 layout: seat

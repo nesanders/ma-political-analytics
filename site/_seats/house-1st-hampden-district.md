@@ -5,12 +5,30 @@ district_id: '044'
 district_name: 1st Hampden District
 geo_slug: house-1st-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4788
-competitiveness: Tossup
-competitiveness_label: Tossup R
+lean_dem_share: 0.4622
+competitiveness: Lean
+competitiveness_label: Lean R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4622
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.7986
+  candidates:
+  - name: Todd M. Smola
+    slug: todd-m-smola
+    party: Republican
+    votes: 19075
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4622
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4788
   competitiveness: Tossup
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 1st Hampden District
-  url: null
+  url: /district/house-1st-hampden-district-2012-2020/
   overlap_pct: 0.9996
 - vintage: 2001-2010
   district_name: 1st Hampden
-  url: null
+  url: /district/house-1st-hampden-2001-2010/
   overlap_pct: 0.9989
 title: 1st Hampden District
 layout: seat

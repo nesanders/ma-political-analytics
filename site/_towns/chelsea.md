@@ -6,7 +6,7 @@ districts:
   district_name: 11th Suffolk District
   url: /seat/house-11th-suffolk-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.7539
+  lean_dem_share: 0.6867
   competitiveness_label: Safe D
   current_rep: Judith A. Garcia
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: Middlesex and Suffolk District
   url: /seat/senate-middlesex-and-suffolk-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.8338
+  lean_dem_share: 0.7915
   competitiveness_label: Safe D
   current_rep: Sal N. DiDomenico
   current_rep_party: Democratic

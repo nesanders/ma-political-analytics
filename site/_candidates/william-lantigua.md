@@ -1,0 +1,68 @@
+---
+slug: william-lantigua
+name: William Lantigua
+party: Other
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 16th Essex District
+  district_url: /district/house-16th-essex-district-2012-2020/
+  party: Other
+  votes: 3221
+  winner: false
+  actual_two_party_share: 0.7033
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 16th Essex
+  district_url: /district/house-16th-essex-2001-2010/
+  party: Democratic
+  votes: 7309
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.1884
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 16th Essex
+  district_url: /district/house-16th-essex-2001-2010/
+  party: Democratic
+  votes: 3860
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.2669
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 16th Essex
+  district_url: /district/house-16th-essex-2001-2010/
+  party: Other
+  votes: 3989
+  winner: true
+  actual_two_party_share: 1.3248
+  war: null
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 16th Essex
+  district_url: /district/house-16th-essex-2001-2010/
+  party: Other
+  votes: 2440
+  winner: true
+  actual_two_party_share: 1.0811
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+title: William Lantigua
+layout: candidate
+---

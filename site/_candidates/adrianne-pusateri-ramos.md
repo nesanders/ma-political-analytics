@@ -1,8 +1,20 @@
 ---
 slug: adrianne-pusateri-ramos
-name: Adrianne Ramos
+name: Adrianne Pusateri Ramos
 party: Democratic
 races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 14th Essex District
+  district_url: /district/house-14th-essex-district-2022-present/
+  party: Democratic
+  votes: 18597
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.403
+  is_uncontested: true
+  is_incumbent: true
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -22,6 +34,6 @@ ocpf_finance:
     2022:
       total_raised: 51758.89
       total_spent: 60918.74
-title: Adrianne Ramos
+title: Adrianne Pusateri Ramos
 layout: candidate
 ---

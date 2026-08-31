@@ -4,6 +4,18 @@ name: Justin Thurber
 party: Republican
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 5th Bristol District
+  district_url: /district/house-5th-bristol-district-2022-present/
+  party: Republican
+  votes: 12390
+  winner: true
+  actual_two_party_share: 0.5194
+  war: -0.0232
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 5th Bristol District

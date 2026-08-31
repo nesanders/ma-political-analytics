@@ -5,12 +5,30 @@ district_id: 068
 district_name: 10th Middlesex District
 geo_slug: house-10th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7673
+lean_dem_share: 0.7514
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7514
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 1.0577
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 13208
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2486
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7673
   competitiveness: Safe

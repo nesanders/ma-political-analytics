@@ -5,12 +5,30 @@ district_id: '012'
 district_name: 3rd Bristol District
 geo_slug: house-3rd-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5616
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5319
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5319
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6956
+  candidates:
+  - name: Carol Ann Doherty
+    slug: carol-ann-doherty
+    party: Democratic
+    votes: 15398
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4681
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5616
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 3rd Bristol District
-  url: null
+  url: /district/house-3rd-bristol-district-2012-2020/
   overlap_pct: 0.972
 - vintage: 2001-2010
   district_name: 3rd Bristol
-  url: null
+  url: /district/house-3rd-bristol-2001-2010/
   overlap_pct: 0.927
 title: 3rd Bristol District
 layout: seat

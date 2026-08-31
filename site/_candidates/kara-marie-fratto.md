@@ -1,0 +1,20 @@
+---
+slug: kara-marie-fratto
+name: Kara Marie Fratto
+party: Republican
+races:
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 30th Middlesex
+  district_url: /district/house-30th-middlesex-2001-2010/
+  party: Republican
+  votes: 5209
+  winner: false
+  actual_two_party_share: 0.3654
+  war: -0.1962
+  is_uncontested: false
+  is_incumbent: false
+title: Kara Marie Fratto
+layout: candidate
+---

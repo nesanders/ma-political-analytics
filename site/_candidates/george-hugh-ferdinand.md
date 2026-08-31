@@ -1,0 +1,20 @@
+---
+slug: george-hugh-ferdinand
+name: George Hugh Ferdinand
+party: Other
+races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 19th Middlesex District
+  district_url: /district/house-19th-middlesex-district-2022-present/
+  party: Other
+  votes: 2029
+  winner: false
+  actual_two_party_share: 0.0929
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: George Hugh Ferdinand
+layout: candidate
+---

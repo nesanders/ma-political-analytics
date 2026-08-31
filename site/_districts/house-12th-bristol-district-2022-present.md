@@ -5,12 +5,30 @@ district_id: '021'
 district_name: 12th Bristol District
 geo_slug: house-12th-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4701
+lean_dem_share: 0.4509
 competitiveness: Lean
 competitiveness_label: Lean R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4509
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.8095
+  candidates:
+  - name: Norman J. Orrall
+    slug: norman-j-orrall
+    party: Republican
+    votes: 18757
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4509
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4701
   competitiveness: Lean

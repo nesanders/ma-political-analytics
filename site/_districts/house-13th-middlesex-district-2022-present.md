@@ -5,12 +5,38 @@ district_id: '071'
 district_name: 13th Middlesex District
 geo_slug: house-13th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.759
+lean_dem_share: 0.7743
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7743
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.8706
+  candidates:
+  - name: Carmine Lawrence Gentile
+    slug: carmine-lawrence-gentile
+    party: Democratic
+    votes: 18547
+    winner: true
+    actual_two_party_share: 0.7356
+    war: -0.0387
+    is_incumbent: true
+  - name: Virginia A Gardner
+    slug: virginia-a-gardner
+    party: Republican
+    votes: 6667
+    winner: false
+    actual_two_party_share: 0.2644
+    war: 0.0387
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.759
   competitiveness: Safe

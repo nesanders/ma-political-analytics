@@ -5,12 +5,30 @@ district_id: '056'
 district_name: 1st Hampshire District
 geo_slug: house-1st-hampshire-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8307
+lean_dem_share: 0.8195
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.8195
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8669
+  candidates:
+  - name: Lindsay N. Sabadosa
+    slug: lindsay-n-sabadosa
+    party: Democratic
+    votes: 21348
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1805
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8307
   competitiveness: Safe

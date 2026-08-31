@@ -5,12 +5,30 @@ district_id: '144'
 district_name: 3rd Worcester District
 geo_slug: house-3rd-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5772
+lean_dem_share: 0.5609
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5609
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8094
+  candidates:
+  - name: Michael P. Kushmerek
+    slug: michael-p-kushmerek
+    party: Democratic
+    votes: 13098
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4391
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5772
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 3rd Worcester District
-  url: null
+  url: /district/house-3rd-worcester-district-2012-2020/
   overlap_pct: 0.9999
 - vintage: 2001-2010
   district_name: 3rd Worcester
-  url: null
+  url: /district/house-3rd-worcester-2001-2010/
   overlap_pct: 0.9969
 title: 3rd Worcester District
 layout: seat

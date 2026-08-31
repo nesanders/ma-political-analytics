@@ -1,0 +1,20 @@
+---
+slug: patrick-m-gerry
+name: Patrick M. Gerry
+party: Democratic
+races:
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 2nd Worcester
+  district_url: /district/house-2nd-worcester-2001-2010/
+  party: Democratic
+  votes: 5250
+  winner: false
+  actual_two_party_share: 0.4816
+  war: 0.0348
+  is_uncontested: false
+  is_incumbent: false
+title: Patrick M. Gerry
+layout: candidate
+---

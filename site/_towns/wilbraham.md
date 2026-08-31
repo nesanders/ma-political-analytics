@@ -6,7 +6,7 @@ districts:
   district_name: 12th Hampden District
   url: /seat/house-12th-hampden-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.5926
+  lean_dem_share: 0.5905
   competitiveness_label: Likely D
   current_rep: Angelo J. Puppolo, Jr.
   current_rep_party: Democratic
@@ -14,8 +14,8 @@ districts:
   district_name: Hampden-Hampshire-Worcester District
   url: /seat/senate-hampden-hampshire-worcester-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.559
-  competitiveness_label: Likely D
+  lean_dem_share: 0.5494
+  competitiveness_label: Lean D
   current_rep: Jacob R. Oliveira
   current_rep_party: Democratic
 title: Wilbraham

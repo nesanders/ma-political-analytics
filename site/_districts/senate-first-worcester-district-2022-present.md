@@ -5,12 +5,30 @@ district_id: D09
 district_name: First Worcester District
 geo_slug: senate-first-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.661
+lean_dem_share: 0.6403
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6403
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.858
+  candidates:
+  - name: Robyn K. Kennedy
+    slug: robyn-k-kennedy
+    party: Democratic
+    votes: 49613
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3597
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.661
   competitiveness: Safe

@@ -1,0 +1,20 @@
+---
+slug: margaret-w-busse
+name: Margaret W. Busse
+party: Republican
+races:
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Middlesex & Worcester District
+  district_url: /district/senate-middlesex-worcester-district-2012-2020/
+  party: Republican
+  votes: 25546
+  winner: false
+  actual_two_party_share: 0.3345
+  war: -0.3618
+  is_uncontested: false
+  is_incumbent: false
+title: Margaret W. Busse
+layout: candidate
+---

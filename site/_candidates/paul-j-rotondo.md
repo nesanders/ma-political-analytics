@@ -15,6 +15,18 @@ races:
   war: -0.0552
   is_uncontested: false
   is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 4th Norfolk District
+  district_url: /district/house-4th-norfolk-district-2012-2020/
+  party: Republican
+  votes: 7622
+  winner: false
+  actual_two_party_share: 0.3192
+  war: -0.0639
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 17529

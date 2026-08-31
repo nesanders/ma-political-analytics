@@ -4,6 +4,18 @@ name: Kevin Kalkut
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 9th Norfolk District
+  district_url: /district/house-9th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 11309
+  winner: false
+  actual_two_party_share: 0.4259
+  war: -0.1415
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 9th Norfolk District

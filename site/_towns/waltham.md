@@ -6,7 +6,7 @@ districts:
   district_name: Third Middlesex District
   url: /seat/senate-third-middlesex-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.719
+  lean_dem_share: 0.721
   competitiveness_label: Safe D
   current_rep: Michael J. Barrett
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: 9th Middlesex District
   url: /seat/house-9th-middlesex-district/
   pct_of_town: 0.8051
-  lean_dem_share: 0.7141
+  lean_dem_share: 0.6976
   competitiveness_label: Safe D
   current_rep: Thomas M. Stanley
   current_rep_party: Democratic
@@ -22,7 +22,7 @@ districts:
   district_name: 10th Middlesex District
   url: /seat/house-10th-middlesex-district/
   pct_of_town: 0.1949
-  lean_dem_share: 0.7673
+  lean_dem_share: 0.7514
   competitiveness_label: Safe D
   current_rep: John J. Lawn, Jr.
   current_rep_party: Democratic

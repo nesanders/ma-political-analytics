@@ -4,6 +4,18 @@ name: Terry Burke Dotson
 party: Other
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 7th Worcester District
+  district_url: /district/house-7th-worcester-district-2022-present/
+  party: Other
+  votes: 7325
+  winner: false
+  actual_two_party_share: 0.4447
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 7th Worcester District
@@ -14,6 +26,54 @@ races:
   actual_two_party_share: 0.3271
   war: null
   is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 7th Worcester District
+  district_url: /district/house-7th-worcester-district-2012-2020/
+  party: Other
+  votes: 7993
+  winner: false
+  actual_two_party_share: 0.5453
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 7th Worcester District
+  district_url: /district/house-7th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 5924
+  winner: false
+  actual_two_party_share: 0.3455
+  war: 0.1513
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 7th Worcester District
+  district_url: /district/house-7th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 6951
+  winner: false
+  actual_two_party_share: 0.3367
+  war: -0.1507
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 7th Worcester District
+  district_url: /district/house-7th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 3600
+  winner: false
+  actual_two_party_share: 0.263
+  war: -0.0947
+  is_uncontested: false
   is_incumbent: false
 ocpf_finance:
   cpf_ids:

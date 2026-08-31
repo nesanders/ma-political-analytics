@@ -5,12 +5,38 @@ district_id: 097
 district_name: 2nd Norfolk District
 geo_slug: house-2nd-norfolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6629
+lean_dem_share: 0.6278
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6278
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 1.038
+  candidates:
+  - name: Tackey Chan
+    slug: tackey-chan
+    party: Democratic
+    votes: 12919
+    winner: true
+    actual_two_party_share: 0.6957
+    war: 0.068
+    is_incumbent: true
+  - name: Sharon Marie Cintolo
+    slug: sharon-marie-cintolo
+    party: Republican
+    votes: 5650
+    winner: false
+    actual_two_party_share: 0.3043
+    war: -0.068
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6629
   competitiveness: Safe

@@ -4,6 +4,18 @@ name: Jennifer Wb Armini
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 8th Essex District
+  district_url: /district/house-8th-essex-district-2022-present/
+  party: Democratic
+  votes: 18643
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3118
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 8th Essex District

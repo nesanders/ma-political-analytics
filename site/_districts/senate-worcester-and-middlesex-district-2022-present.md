@@ -5,12 +5,38 @@ district_id: D10
 district_name: Worcester and Middlesex District
 geo_slug: senate-worcester-and-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5845
+lean_dem_share: 0.5789
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5789
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9875
+  candidates:
+  - name: John J. Cronin
+    slug: john-j-cronin
+    party: Democratic
+    votes: 50235
+    winner: true
+    actual_two_party_share: 0.591
+    war: 0.0122
+    is_incumbent: true
+  - name: Nicholas A. Pirro, III
+    slug: nicholas-a-pirro-iii
+    party: Republican
+    votes: 34759
+    winner: false
+    actual_two_party_share: 0.409
+    war: -0.0122
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5845
   competitiveness: Likely

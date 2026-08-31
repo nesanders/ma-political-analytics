@@ -1,0 +1,161 @@
+---
+chamber: house
+vintage: 2012-2020
+district_id: 095
+district_name: 13th Essex District
+geo_slug: house-13th-essex-district-2012-2020
+years:
+- 2020
+- 2018
+- 2016
+- 2014
+- 2012
+lean_dem_share: 0.5738
+competitiveness: Likely
+competitiveness_label: Likely D
+party_favored: Democratic
+results_by_year:
+- year: 2020
+  lean_dem_share: 0.5738
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.7761
+  candidates:
+  - name: Sally P. Kerans
+    slug: sally-p-kerans
+    party: Democratic
+    votes: 11989
+    winner: true
+    actual_two_party_share: 0.5549
+    war: -0.019
+    is_incumbent: false
+  - name: Robert E. May, Jr
+    slug: robert-e-may-jr
+    party: Republican
+    votes: 9617
+    winner: false
+    actual_two_party_share: 0.4451
+    war: 0.019
+    is_incumbent: false
+  - name: William J. Bates
+    slug: william-j-bates
+    party: Other
+    votes: 2260
+    winner: false
+    actual_two_party_share: 0.1046
+    war: null
+    is_incumbent: false
+  - name: Jason Guida
+    slug: jason-guida
+    party: Other
+    votes: 1544
+    winner: false
+    actual_two_party_share: 0.0715
+    war: null
+    is_incumbent: false
+  - name: Christopher Keohane
+    slug: christopher-keohane
+    party: Other
+    votes: 606
+    winner: false
+    actual_two_party_share: 0.028
+    war: null
+    is_incumbent: false
+  is_open_seat: true
+- year: 2018
+  lean_dem_share: 0.2115
+  competitiveness: Safe
+  competitiveness_label: Safe R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9705
+  candidates:
+  - name: Theodore C. Speliotis
+    slug: theodore-c-speliotis
+    party: Democratic
+    votes: 10199
+    winner: true
+    actual_two_party_share: 0.5144
+    war: 0.303
+    is_incumbent: true
+  - name: Mark B. Mezzina
+    slug: mark-b-mezzina
+    party: Republican
+    votes: 9627
+    winner: false
+    actual_two_party_share: 0.4856
+    war: -0.303
+    is_incumbent: false
+  is_open_seat: false
+- year: 2016
+  lean_dem_share: 0.5334
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7521
+  candidates:
+  - name: Theodore C. Speliotis
+    slug: theodore-c-speliotis
+    party: Democratic
+    votes: 18163
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4666
+    is_incumbent: true
+  is_open_seat: false
+- year: 2014
+  lean_dem_share: 0.3871
+  competitiveness: Safe
+  competitiveness_label: Safe R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9782
+  candidates:
+  - name: Theodore C. Speliotis
+    slug: theodore-c-speliotis
+    party: Democratic
+    votes: 8459
+    winner: true
+    actual_two_party_share: 0.5244
+    war: 0.1373
+    is_incumbent: true
+  - name: Thomas J. Lyons
+    slug: thomas-j-lyons
+    party: Republican
+    votes: 7673
+    winner: false
+    actual_two_party_share: 0.4756
+    war: -0.1373
+    is_incumbent: false
+  is_open_seat: false
+- year: 2012
+  lean_dem_share: 0.5178
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9226
+  candidates:
+  - name: Theodore C. Speliotis
+    slug: theodore-c-speliotis
+    party: Democratic
+    votes: 14019
+    winner: true
+    actual_two_party_share: 0.628
+    war: 0.1102
+    is_incumbent: false
+  - name: Daniel C. Bennett
+    slug: daniel-c-bennett
+    party: Republican
+    votes: 8304
+    winner: false
+    actual_two_party_share: 0.372
+    war: -0.1102
+    is_incumbent: false
+  is_open_seat: null
+title: 13th Essex District (2012-2020)
+layout: district
+---

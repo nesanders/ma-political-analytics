@@ -5,12 +5,38 @@ district_id: '047'
 district_name: 4th Hampden District
 geo_slug: house-4th-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5
+lean_dem_share: 0.4901
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4901
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9786
+  candidates:
+  - name: Kelly W. Pease
+    slug: kelly-w-pease
+    party: Republican
+    votes: 12894
+    winner: true
+    actual_two_party_share: 0.5883
+    war: 0.0784
+    is_incumbent: true
+  - name: Bridget Matthews-Kane
+    slug: bridget-matthews-kane
+    party: Democratic
+    votes: 9023
+    winner: false
+    actual_two_party_share: 0.4117
+    war: -0.0784
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5
   competitiveness: Tossup
@@ -38,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 4th Hampden District
-  url: null
+  url: /district/house-4th-hampden-district-2012-2020/
   overlap_pct: 0.9413
 - vintage: 2001-2010
   district_name: 4th Hampden
-  url: null
+  url: /district/house-4th-hampden-2001-2010/
   overlap_pct: 0.997
 title: 4th Hampden District
 layout: seat

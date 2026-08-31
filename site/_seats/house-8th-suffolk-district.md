@@ -5,12 +5,30 @@ district_id: '130'
 district_name: 8th Suffolk District
 geo_slug: house-8th-suffolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8238
+lean_dem_share: 0.7956
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7956
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 3.1737
+  candidates:
+  - name: Jay D. Livingstone
+    slug: jay-d-livingstone
+    party: Democratic
+    votes: 13445
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2044
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8238
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 8th Suffolk District
-  url: null
+  url: /district/house-8th-suffolk-district-2012-2020/
   overlap_pct: 0.4293
 - vintage: 2001-2010
   district_name: 8th Suffolk
-  url: null
+  url: /district/house-8th-suffolk-2001-2010/
   overlap_pct: 0.899
 title: 8th Suffolk District
 layout: seat

@@ -6,49 +6,49 @@ districts:
   district_name: Third Bristol and Plymouth District
   url: /seat/senate-third-bristol-and-plymouth-district/
   pct_of_town: 0.9998
-  lean_dem_share: 0.5047
-  competitiveness_label: Tossup D
-  current_rep: Marc R. Pacheco
-  current_rep_party: Democratic
+  lean_dem_share: 0.4759
+  competitiveness_label: Tossup R
+  current_rep: Kelly A. Dooner
+  current_rep_party: Republican
 - chamber: house
   district_name: 2nd Plymouth District
   url: /seat/house-2nd-plymouth-district/
   pct_of_town: 0.9997
-  lean_dem_share: 0.4941
-  competitiveness_label: Tossup R
-  current_rep: Susan Williams Gifford
+  lean_dem_share: 0.467
+  competitiveness_label: Lean R
+  current_rep: John Robert Gaskey
   current_rep_party: Republican
 - chamber: house
   district_name: 10th Bristol District
   url: /seat/house-10th-bristol-district/
   pct_of_town: 0.0002
-  lean_dem_share: 0.5411
-  competitiveness_label: Lean D
-  current_rep: William M. Straus
+  lean_dem_share: 0.5211
+  competitiveness_label: Tossup D
+  current_rep: Mark David Sylvia
   current_rep_party: Democratic
 - chamber: senate
   district_name: First Bristol and Plymouth District
   url: /seat/senate-first-bristol-and-plymouth-district/
   pct_of_town: 0.0001
-  lean_dem_share: 0.5195
-  competitiveness_label: Tossup D
+  lean_dem_share: 0.4647
+  competitiveness_label: Lean R
   current_rep: Michael J. Rodrigues
   current_rep_party: Democratic
 - chamber: house
   district_name: 1st Plymouth District
   url: /seat/house-1st-plymouth-district/
   pct_of_town: 0.0
-  lean_dem_share: 0.5611
-  competitiveness_label: Likely D
-  current_rep: Mathew J. Muratore
-  current_rep_party: Republican
+  lean_dem_share: 0.5485
+  competitiveness_label: Lean D
+  current_rep: Michelle L. Badger
+  current_rep_party: Democratic
 - chamber: senate
   district_name: Plymouth and Barnstable District
   url: /seat/senate-plymouth-and-barnstable-district/
   pct_of_town: 0.0
-  lean_dem_share: 0.5603
+  lean_dem_share: 0.5536
   competitiveness_label: Likely D
-  current_rep: Susan Lynn Moran
+  current_rep: Dylan A. Fernandes
   current_rep_party: Democratic
 title: Wareham
 layout: town

@@ -1,0 +1,20 @@
+---
+slug: laura-a-hadley
+name: Laura A. Hadley
+party: Other
+races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 8th Bristol District
+  district_url: /district/house-8th-bristol-district-2022-present/
+  party: Other
+  votes: 1169
+  winner: false
+  actual_two_party_share: 0.0793
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: Laura A. Hadley
+layout: candidate
+---

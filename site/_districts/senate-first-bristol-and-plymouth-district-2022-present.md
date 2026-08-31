@@ -5,12 +5,30 @@ district_id: D37
 district_name: First Bristol and Plymouth District
 geo_slug: senate-first-bristol-and-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5195
-competitiveness: Tossup
-competitiveness_label: Tossup D
-party_favored: Democratic
+lean_dem_share: 0.4647
+competitiveness: Lean
+competitiveness_label: Lean R
+party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4647
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.706
+  candidates:
+  - name: Michael J. Rodrigues
+    slug: michael-j-rodrigues
+    party: Democratic
+    votes: 55377
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5353
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5195
   competitiveness: Tossup

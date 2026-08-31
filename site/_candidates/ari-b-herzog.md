@@ -1,0 +1,20 @@
+---
+slug: ari-b-herzog
+name: Ari B. Herzog
+party: Other
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 1st Essex District
+  district_url: /district/house-1st-essex-district-2012-2020/
+  party: Other
+  votes: 1628
+  winner: false
+  actual_two_party_share: 0.1167
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: Ari B. Herzog
+layout: candidate
+---

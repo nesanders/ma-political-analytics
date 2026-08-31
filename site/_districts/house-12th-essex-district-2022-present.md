@@ -5,12 +5,30 @@ district_id: '035'
 district_name: 12th Essex District
 geo_slug: house-12th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5583
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5157
+competitiveness: Tossup
+competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5157
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8116
+  candidates:
+  - name: Thomas P. Walsh
+    slug: thomas-p-walsh
+    party: Democratic
+    votes: 17194
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4843
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5583
   competitiveness: Likely

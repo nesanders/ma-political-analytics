@@ -4,6 +4,18 @@ name: Richard M. Haggerty
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 30th Middlesex District
+  district_url: /district/house-30th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 17200
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.396
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 30th Middlesex District
@@ -14,6 +26,30 @@ races:
   actual_two_party_share: 1.0
   war: 0.3817
   is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 30th Middlesex District
+  district_url: /district/house-30th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 16742
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3705
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 30th Middlesex District
+  district_url: /district/house-30th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 12180
+  winner: true
+  actual_two_party_share: 0.699
+  war: 0.4329
+  is_uncontested: false
   is_incumbent: false
 ocpf_finance:
   cpf_ids:

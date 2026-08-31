@@ -4,6 +4,18 @@ name: Lydia Marie Edwards
 party: Democratic
 races:
 - chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Third Suffolk District
+  district_url: /district/senate-third-suffolk-district-2022-present/
+  party: Democratic
+  votes: 41690
+  winner: true
+  actual_two_party_share: 0.7022
+  war: 0.0244
+  is_uncontested: false
+  is_incumbent: true
+- chamber: senate
   year: 2022
   vintage: 2022-present
   district_name: Third Suffolk District

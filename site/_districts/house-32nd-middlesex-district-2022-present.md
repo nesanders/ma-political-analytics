@@ -5,12 +5,30 @@ district_id: 090
 district_name: 32nd Middlesex District
 geo_slug: house-32nd-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7021
+lean_dem_share: 0.6914
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6914
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7266
+  candidates:
+  - name: Kate Lipper-Garabedian
+    slug: kate-lipper-garabedian
+    party: Democratic
+    votes: 18316
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3086
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7021
   competitiveness: Safe

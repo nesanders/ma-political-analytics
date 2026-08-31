@@ -5,12 +5,30 @@ district_id: 082
 district_name: 24th Middlesex District
 geo_slug: house-24th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8102
+lean_dem_share: 0.8227
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.8227
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8003
+  candidates:
+  - name: David M. Rogers
+    slug: david-m-rogers
+    party: Democratic
+    votes: 19562
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1773
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8102
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 24th Middlesex District
-  url: null
+  url: /district/house-24th-middlesex-district-2012-2020/
   overlap_pct: 0.9836
 - vintage: 2001-2010
   district_name: 24th Middlesex
-  url: null
+  url: /district/house-24th-middlesex-2001-2010/
   overlap_pct: 0.9129
 title: 24th Middlesex District
 layout: seat

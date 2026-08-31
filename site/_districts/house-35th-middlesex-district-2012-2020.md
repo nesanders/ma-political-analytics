@@ -1,0 +1,105 @@
+---
+chamber: house
+vintage: 2012-2020
+district_id: '152'
+district_name: 35th Middlesex District
+geo_slug: house-35th-middlesex-district-2012-2020
+years:
+- 2020
+- 2018
+- 2016
+- 2014
+- 2012
+lean_dem_share: 0.7574
+competitiveness: Safe
+competitiveness_label: Safe D
+party_favored: Democratic
+results_by_year:
+- year: 2020
+  lean_dem_share: 0.7574
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7131
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 16744
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2426
+    is_incumbent: true
+  is_open_seat: false
+- year: 2018
+  lean_dem_share: 0.4467
+  competitiveness: Likely
+  competitiveness_label: Likely R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.7271
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 13126
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5533
+    is_incumbent: true
+  is_open_seat: false
+- year: 2016
+  lean_dem_share: 0.7324
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7272
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 15306
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2676
+    is_incumbent: true
+  is_open_seat: false
+- year: 2014
+  lean_dem_share: 0.6174
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7158
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 9697
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3826
+    is_incumbent: true
+  is_open_seat: false
+- year: 2012
+  lean_dem_share: 0.7009
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.706
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 14305
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2991
+    is_incumbent: false
+  is_open_seat: null
+title: 35th Middlesex District (2012-2020)
+layout: district
+---

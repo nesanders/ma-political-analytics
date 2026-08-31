@@ -5,12 +5,38 @@ district_id: '116'
 district_name: 6th Plymouth District
 geo_slug: house-6th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5223
+lean_dem_share: 0.523
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.523
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9739
+  candidates:
+  - name: Kenneth Peter Sweezey
+    slug: kenneth-sweezey
+    party: Republican
+    votes: 14908
+    winner: true
+    actual_two_party_share: 0.5297
+    war: 0.0528
+    is_incumbent: false
+  - name: Rebecca W. Coletta
+    slug: rebecca-w-coletta
+    party: Democratic
+    votes: 13234
+    winner: false
+    actual_two_party_share: 0.4703
+    war: -0.0528
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5223
   competitiveness: Tossup

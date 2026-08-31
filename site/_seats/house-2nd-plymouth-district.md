@@ -5,12 +5,38 @@ district_id: '112'
 district_name: 2nd Plymouth District
 geo_slug: house-2nd-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4941
-competitiveness: Tossup
-competitiveness_label: Tossup R
+lean_dem_share: 0.467
+competitiveness: Lean
+competitiveness_label: Lean R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.467
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.6262
+  candidates:
+  - name: John Robert Gaskey
+    slug: john-robert-gaskey
+    party: Republican
+    votes: 16996
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.467
+    is_incumbent: false
+  - name: Sarah G. Hewins
+    slug: sarah-g-hewins
+    party: Other
+    votes: 2097
+    winner: false
+    actual_two_party_share: 0.1234
+    war: null
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4941
   competitiveness: Tossup
@@ -38,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 2nd Plymouth District
-  url: null
+  url: /district/house-2nd-plymouth-district-2012-2020/
   overlap_pct: 0.9993
 - vintage: 2001-2010
   district_name: 2nd Plymouth
-  url: null
+  url: /district/house-2nd-plymouth-2001-2010/
   overlap_pct: 0.8728
 title: 2nd Plymouth District
 layout: seat

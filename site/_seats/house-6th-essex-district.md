@@ -5,12 +5,46 @@ district_id: 029
 district_name: 6th Essex District
 geo_slug: house-6th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6922
+lean_dem_share: 0.6775
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6775
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9182
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 16598
+    winner: true
+    actual_two_party_share: 0.7495
+    war: 0.072
+    is_incumbent: true
+  - name: Ty Vitale
+    slug: ty-vitale
+    party: Republican
+    votes: 5548
+    winner: false
+    actual_two_party_share: 0.2505
+    war: -0.072
+    is_incumbent: false
+  - name: Euplio R. Marciano
+    slug: euplio-r-marciano
+    party: Other
+    votes: 1216
+    winner: false
+    actual_two_party_share: 0.0549
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6922
   competitiveness: Safe
@@ -38,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 6th Essex District
-  url: null
+  url: /district/house-6th-essex-district-2012-2020/
   overlap_pct: 0.9997
 - vintage: 2001-2010
   district_name: 6th Essex
-  url: null
+  url: /district/house-6th-essex-2001-2010/
   overlap_pct: 0.985
 title: 6th Essex District
 layout: seat

@@ -1,0 +1,20 @@
+---
+slug: anthony-f-ranieri
+name: Anthony F. Ranieri
+party: Republican
+races:
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 28th Middlesex
+  district_url: /district/house-28th-middlesex-2001-2010/
+  party: Republican
+  votes: 2957
+  winner: false
+  actual_two_party_share: 0.2777
+  war: -0.1883
+  is_uncontested: false
+  is_incumbent: false
+title: Anthony F. Ranieri
+layout: candidate
+---

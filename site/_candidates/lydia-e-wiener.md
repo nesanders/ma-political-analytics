@@ -1,0 +1,20 @@
+---
+slug: lydia-e-wiener
+name: Lydia E. Wiener
+party: Republican
+races:
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 8th Norfolk
+  district_url: /district/house-8th-norfolk-2001-2010/
+  party: Republican
+  votes: 4423
+  winner: false
+  actual_two_party_share: 0.267
+  war: -0.1186
+  is_uncontested: false
+  is_incumbent: false
+title: Lydia E. Wiener
+layout: candidate
+---

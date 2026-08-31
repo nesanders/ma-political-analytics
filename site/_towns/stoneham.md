@@ -6,7 +6,7 @@ districts:
   district_name: 31st Middlesex District
   url: /seat/house-31st-middlesex-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.6447
+  lean_dem_share: 0.6388
   competitiveness_label: Safe D
   current_rep: Michael Seamus Day
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: Fifth Middlesex District
   url: /seat/senate-fifth-middlesex-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.6774
+  lean_dem_share: 0.6624
   competitiveness_label: Safe D
   current_rep: Jason M. Lewis
   current_rep_party: Democratic

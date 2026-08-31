@@ -5,12 +5,30 @@ district_id: 086
 district_name: 28th Middlesex District
 geo_slug: house-28th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6884
+lean_dem_share: 0.6273
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6273
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.9827
+  candidates:
+  - name: Joseph W. Mcgonagle, Jr
+    slug: joseph-w-mcgonagle-jr
+    party: Democratic
+    votes: 8414
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3727
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6884
   competitiveness: Safe

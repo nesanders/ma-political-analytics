@@ -15,6 +15,18 @@ races:
   war: 0.0032
   is_uncontested: false
   is_incumbent: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  district_url: /district/senate-plymouth-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 56962
+  winner: true
+  actual_two_party_share: 0.5631
+  war: -0.0216
+  is_uncontested: false
+  is_incumbent: false
 title: Susan Lynn Moran
 layout: candidate
 ---

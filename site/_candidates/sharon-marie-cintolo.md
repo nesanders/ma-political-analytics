@@ -4,6 +4,18 @@ name: Sharon Marie Cintolo
 party: Republican
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 2nd Norfolk District
+  district_url: /district/house-2nd-norfolk-district-2022-present/
+  party: Republican
+  votes: 5650
+  winner: false
+  actual_two_party_share: 0.3043
+  war: -0.068
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 2nd Norfolk District

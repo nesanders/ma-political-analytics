@@ -5,12 +5,38 @@ district_id: '160'
 district_name: 19th Worcester District
 geo_slug: house-19th-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6799
+lean_dem_share: 0.6917
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6917
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7641
+  candidates:
+  - name: Kate Donaghue
+    slug: kate-donaghue
+    party: Democratic
+    votes: 16497
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3083
+    is_incumbent: true
+  - name: Boyd Stewart Conklin
+    slug: boyd-stewart-conklin
+    party: Other
+    votes: 4732
+    winner: false
+    actual_two_party_share: 0.2868
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6799
   competitiveness: Safe
@@ -43,11 +69,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 4th Middlesex District
-  url: null
+  url: /district/house-4th-middlesex-district-2012-2020/
   overlap_pct: 0.483
 - vintage: 2001-2010
   district_name: 4th Middlesex
-  url: null
+  url: /district/house-4th-middlesex-2001-2010/
   overlap_pct: 0.3561
 title: 19th Worcester District
 layout: seat

@@ -15,6 +15,66 @@ races:
   war: null
   is_uncontested: true
   is_incumbent: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Other
+  votes: 1053
+  winner: false
+  actual_two_party_share: 0.1235
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Republican
+  votes: 2014
+  winner: false
+  actual_two_party_share: 0.1565
+  war: 0.0095
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Other
+  votes: 2564
+  winner: false
+  actual_two_party_share: 0.2793
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Other
+  votes: 10873
+  winner: false
+  actual_two_party_share: 0.259
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Republican
+  votes: 999
+  winner: false
+  actual_two_party_share: 0.1635
+  war: -0.0616
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 10911

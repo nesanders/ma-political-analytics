@@ -1,0 +1,20 @@
+---
+slug: virginia-a-gardner
+name: Virginia A Gardner
+party: Republican
+races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 13th Middlesex District
+  district_url: /district/house-13th-middlesex-district-2022-present/
+  party: Republican
+  votes: 6667
+  winner: false
+  actual_two_party_share: 0.2644
+  war: 0.0387
+  is_uncontested: false
+  is_incumbent: false
+title: Virginia A Gardner
+layout: candidate
+---

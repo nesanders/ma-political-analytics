@@ -5,12 +5,38 @@ district_id: '111'
 district_name: 1st Plymouth District
 geo_slug: house-1st-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5611
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5485
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5485
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.8466
+  candidates:
+  - name: Michelle L. Badger
+    slug: michelle-l-badger
+    party: Democratic
+    votes: 15277
+    winner: true
+    actual_two_party_share: 0.5227
+    war: -0.0258
+    is_incumbent: false
+  - name: Jesse G. Brown
+    slug: jesse-g-brown
+    party: Republican
+    votes: 13952
+    winner: false
+    actual_two_party_share: 0.4773
+    war: 0.0258
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5611
   competitiveness: Likely

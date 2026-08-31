@@ -5,12 +5,38 @@ district_id: D01
 district_name: Berkshire-Hampden-Franklin-Hampshire District
 geo_slug: senate-berkshire-hampden-franklin-hampshire-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6903
+lean_dem_share: 0.6714
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6714
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9588
+  candidates:
+  - name: Paul W. Mark
+    slug: paul-w-mark
+    party: Democratic
+    votes: 62249
+    winner: true
+    actual_two_party_share: 0.7094
+    war: 0.038
+    is_incumbent: true
+  - name: David A. Rosa
+    slug: david-a-rosa
+    party: Republican
+    votes: 25494
+    winner: false
+    actual_two_party_share: 0.2906
+    war: -0.038
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6903
   competitiveness: Safe

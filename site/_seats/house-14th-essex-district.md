@@ -5,12 +5,30 @@ district_id: '037'
 district_name: 14th Essex District
 geo_slug: house-14th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.595
+lean_dem_share: 0.597
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.597
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7978
+  candidates:
+  - name: Adrianne Pusateri Ramos
+    slug: adrianne-pusateri-ramos
+    party: Democratic
+    votes: 18597
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.403
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.595
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 14th Essex District
-  url: null
+  url: /district/house-14th-essex-district-2012-2020/
   overlap_pct: 0.6254
 - vintage: 2001-2010
   district_name: 14th Essex
-  url: null
+  url: /district/house-14th-essex-2001-2010/
   overlap_pct: 0.6805
 title: 14th Essex District
 layout: seat

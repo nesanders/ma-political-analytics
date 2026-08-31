@@ -5,12 +5,38 @@ district_id: '002'
 district_name: 2nd Barnstable District
 geo_slug: house-2nd-barnstable-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5655
+lean_dem_share: 0.5649
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5649
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 1.0184
+  candidates:
+  - name: Kip A. Diggs
+    slug: kip-a-diggs
+    party: Democratic
+    votes: 14147
+    winner: true
+    actual_two_party_share: 0.5936
+    war: 0.0287
+    is_incumbent: true
+  - name: Susanne H. Conley
+    slug: susanne-h-conley
+    party: Republican
+    votes: 9686
+    winner: false
+    actual_two_party_share: 0.4064
+    war: -0.0287
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5655
   competitiveness: Likely

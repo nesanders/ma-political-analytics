@@ -1,0 +1,113 @@
+---
+chamber: house
+vintage: 2012-2020
+district_id: '182'
+district_name: 11th Plymouth District
+geo_slug: house-11th-plymouth-district-2012-2020
+years:
+- 2020
+- 2018
+- 2016
+- 2014
+- 2012
+lean_dem_share: 0.7054
+competitiveness: Safe
+competitiveness_label: Safe D
+party_favored: Democratic
+results_by_year:
+- year: 2020
+  lean_dem_share: 0.7054
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7001
+  candidates:
+  - name: Claire D. Cronin
+    slug: claire-d-cronin
+    party: Democratic
+    votes: 17186
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2946
+    is_incumbent: true
+  is_open_seat: false
+- year: 2018
+  lean_dem_share: 0.3626
+  competitiveness: Safe
+  competitiveness_label: Safe R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.7196
+  candidates:
+  - name: Claire D. Cronin
+    slug: claire-d-cronin
+    party: Democratic
+    votes: 12336
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.6374
+    is_incumbent: true
+  is_open_seat: false
+- year: 2016
+  lean_dem_share: 0.6681
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7181
+  candidates:
+  - name: Claire D. Cronin
+    slug: claire-d-cronin
+    party: Democratic
+    votes: 15361
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3319
+    is_incumbent: true
+  is_open_seat: false
+- year: 2014
+  lean_dem_share: 0.5166
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.702
+  candidates:
+  - name: Claire D. Cronin
+    slug: claire-d-cronin
+    party: Democratic
+    votes: 9321
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4834
+    is_incumbent: true
+  is_open_seat: false
+- year: 2012
+  lean_dem_share: 0.6327
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.8639
+  candidates:
+  - name: Claire D. Cronin
+    slug: claire-d-cronin
+    party: Democratic
+    votes: 11422
+    winner: true
+    actual_two_party_share: 0.6327
+    war: 0.0001
+    is_incumbent: false
+  - name: Daniel J. Murphy
+    slug: daniel-j-murphy
+    party: Republican
+    votes: 6630
+    winner: false
+    actual_two_party_share: 0.3673
+    war: -0.0001
+    is_incumbent: false
+  is_open_seat: null
+title: 11th Plymouth District (2012-2020)
+layout: district
+---

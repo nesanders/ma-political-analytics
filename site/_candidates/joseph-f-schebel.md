@@ -1,0 +1,20 @@
+---
+slug: joseph-f-schebel
+name: Joseph F. Schebel
+party: Other
+races:
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 3rd Hampden
+  district_url: /district/house-3rd-hampden-2001-2010/
+  party: Other
+  votes: 976
+  winner: false
+  actual_two_party_share: 0.0742
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: Joseph F. Schebel
+layout: candidate
+---

@@ -5,12 +5,30 @@ district_id: '051'
 district_name: 8th Hampden District
 geo_slug: house-8th-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5554
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.529
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.529
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.716
+  candidates:
+  - name: Shirley B. Arriaga
+    slug: shirley-b-arriaga
+    party: Democratic
+    votes: 14977
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.471
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5554
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 8th Hampden District
-  url: null
+  url: /district/house-8th-hampden-district-2012-2020/
   overlap_pct: 0.9634
 - vintage: 2001-2010
   district_name: 8th Hampden
-  url: null
+  url: /district/house-8th-hampden-2001-2010/
   overlap_pct: 0.9226
 title: 8th Hampden District
 layout: seat

@@ -5,12 +5,30 @@ district_id: '045'
 district_name: 2nd Hampden District
 geo_slug: house-2nd-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5515
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5459
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5459
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7386
+  candidates:
+  - name: Brian M. Ashe
+    slug: brian-m-ashe
+    party: Democratic
+    votes: 18841
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4541
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5515
   competitiveness: Likely

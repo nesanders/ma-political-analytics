@@ -5,12 +5,30 @@ district_id: '015'
 district_name: 6th Bristol District
 geo_slug: house-6th-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5638
-competitiveness: Likely
-competitiveness_label: Likely D
-party_favored: Democratic
+lean_dem_share: 0.4826
+competitiveness: Tossup
+competitiveness_label: Tossup R
+party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4826
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 1.1205
+  candidates:
+  - name: Carole A. Fiola
+    slug: carole-a-fiola
+    party: Democratic
+    votes: 11766
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5174
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5638
   competitiveness: Likely
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 6th Bristol District
-  url: null
+  url: /district/house-6th-bristol-district-2012-2020/
   overlap_pct: 1.0
 - vintage: 2001-2010
   district_name: 6th Bristol
-  url: null
+  url: /district/house-6th-bristol-2001-2010/
   overlap_pct: 0.4949
 title: 6th Bristol District
 layout: seat

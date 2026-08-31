@@ -1,0 +1,20 @@
+---
+slug: dennis-g-dallaire-jr
+name: Dennis G. Dallaire, Jr.
+party: Other
+races:
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 11th Bristol
+  district_url: /district/house-11th-bristol-2001-2010/
+  party: Other
+  votes: 3913
+  winner: false
+  actual_two_party_share: 0.5507
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+title: Dennis G. Dallaire, Jr.
+layout: candidate
+---

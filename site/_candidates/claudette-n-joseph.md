@@ -1,0 +1,20 @@
+---
+slug: claudette-n-joseph
+name: Claudette N. Joseph
+party: Republican
+races:
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Republican
+  votes: 733
+  winner: false
+  actual_two_party_share: 0.1085
+  war: -0.2037
+  is_uncontested: false
+  is_incumbent: false
+title: Claudette N. Joseph
+layout: candidate
+---

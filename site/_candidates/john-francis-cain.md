@@ -1,0 +1,20 @@
+---
+slug: john-francis-cain
+name: John Francis Cain
+party: Republican
+races:
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Second Hampden & Hampshire District
+  district_url: /district/senate-second-hampden-hampshire-district-2012-2020/
+  party: Republican
+  votes: 28078
+  winner: false
+  actual_two_party_share: 0.3592
+  war: -0.0683
+  is_uncontested: false
+  is_incumbent: false
+title: John Francis Cain
+layout: candidate
+---

@@ -1,0 +1,20 @@
+---
+slug: jacob-d-ferreira
+name: Jacob D. Ferreira
+party: Other
+races:
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: Barnstable, Dukes and Nantucket
+  district_url: /district/house-barnstable-dukes-and-nantucket-2001-2010/
+  party: Other
+  votes: 3011
+  winner: false
+  actual_two_party_share: 0.4005
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+title: Jacob D. Ferreira
+layout: candidate
+---

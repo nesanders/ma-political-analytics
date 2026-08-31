@@ -5,12 +5,38 @@ district_id: '075'
 district_name: 17th Middlesex District
 geo_slug: house-17th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6453
+lean_dem_share: 0.6002
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6002
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6504
+  candidates:
+  - name: Vanna Howard
+    slug: vanna-howard
+    party: Democratic
+    votes: 9855
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3998
+    is_incumbent: true
+  - name: Joseph Paul Onoroski
+    slug: joseph-paul-onoroski
+    party: Other
+    votes: 2802
+    winner: false
+    actual_two_party_share: 0.2843
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6453
   competitiveness: Safe

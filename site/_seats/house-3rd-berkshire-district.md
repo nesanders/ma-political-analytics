@@ -5,12 +5,38 @@ district_id: 009
 district_name: 3rd Berkshire District
 geo_slug: house-3rd-berkshire-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7472
+lean_dem_share: 0.7334
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7334
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.5531
+  candidates:
+  - name: Leigh Susan Davis
+    slug: leigh-susan-davis
+    party: Democratic
+    votes: 13819
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2666
+    is_incumbent: false
+  - name: Marybeth F. Mitts
+    slug: marybeth-f-mitts
+    party: Other
+    votes: 10222
+    winner: false
+    actual_two_party_share: 0.7397
+    war: null
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.7472
   competitiveness: Safe
@@ -46,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 4th Berkshire District
-  url: null
+  url: /district/house-4th-berkshire-district-2012-2020/
   overlap_pct: 0.8356
 - vintage: 2001-2010
   district_name: 4th Berkshire
-  url: null
+  url: /district/house-4th-berkshire-2001-2010/
   overlap_pct: 0.921
 title: 3rd Berkshire District
 layout: seat

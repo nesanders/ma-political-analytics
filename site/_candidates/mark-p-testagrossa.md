@@ -1,0 +1,20 @@
+---
+slug: mark-p-testagrossa
+name: Mark P. Testagrossa
+party: Libertarian
+races:
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 4th Middlesex
+  district_url: /district/house-4th-middlesex-2001-2010/
+  party: Libertarian
+  votes: 561
+  winner: false
+  actual_two_party_share: 0.0406
+  war: null
+  is_uncontested: false
+  is_incumbent: false
+title: Mark P. Testagrossa
+layout: candidate
+---

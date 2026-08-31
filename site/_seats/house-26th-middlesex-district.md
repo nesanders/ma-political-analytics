@@ -5,12 +5,30 @@ district_id: 084
 district_name: 26th Middlesex District
 geo_slug: house-26th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.9115
+lean_dem_share: 0.8957
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.8957
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8474
+  candidates:
+  - name: Mike Connolly
+    slug: mike-connolly
+    party: Democratic
+    votes: 17063
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.1043
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.9115
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 26th Middlesex District
-  url: null
+  url: /district/house-26th-middlesex-district-2012-2020/
   overlap_pct: 0.8256
 - vintage: 2001-2010
   district_name: 26th Middlesex
-  url: null
+  url: /district/house-26th-middlesex-2001-2010/
   overlap_pct: 0.8792
 title: 26th Middlesex District
 layout: seat

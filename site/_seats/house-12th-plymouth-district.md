@@ -5,12 +5,38 @@ district_id: '122'
 district_name: 12th Plymouth District
 geo_slug: house-12th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5018
+lean_dem_share: 0.4859
 competitiveness: Tossup
-competitiveness_label: Tossup D
-party_favored: Democratic
+competitiveness_label: Tossup R
+party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4859
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 1.1439
+  candidates:
+  - name: Kathleen R. Lanatra
+    slug: kathleen-r-lanatra
+    party: Democratic
+    votes: 14462
+    winner: true
+    actual_two_party_share: 0.5314
+    war: 0.0455
+    is_incumbent: true
+  - name: Eric J. Meschino
+    slug: eric-j-meschino
+    party: Republican
+    votes: 12754
+    winner: false
+    actual_two_party_share: 0.4686
+    war: -0.0455
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5018
   competitiveness: Tossup
@@ -54,11 +80,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 12th Plymouth District
-  url: null
+  url: /district/house-12th-plymouth-district-2012-2020/
   overlap_pct: 0.8436
 - vintage: 2001-2010
   district_name: 12th Plymouth
-  url: null
+  url: /district/house-12th-plymouth-2001-2010/
   overlap_pct: 0.8096
 title: 12th Plymouth District
 layout: seat

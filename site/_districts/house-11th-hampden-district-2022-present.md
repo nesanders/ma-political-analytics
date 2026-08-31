@@ -5,12 +5,30 @@ district_id: '054'
 district_name: 11th Hampden District
 geo_slug: house-11th-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7104
+lean_dem_share: 0.6719
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6719
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.9054
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 10664
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3281
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7104
   competitiveness: Safe

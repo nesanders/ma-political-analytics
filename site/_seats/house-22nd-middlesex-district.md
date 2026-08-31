@@ -5,12 +5,38 @@ district_id: 080
 district_name: 22nd Middlesex District
 geo_slug: house-22nd-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5359
-competitiveness: Lean
-competitiveness_label: Lean D
+lean_dem_share: 0.5078
+competitiveness: Tossup
+competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5078
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.5752
+  candidates:
+  - name: Marc T. Lombardo
+    slug: marc-t-lombardo
+    party: Republican
+    votes: 13303
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.5078
+    is_incumbent: true
+  - name: George John Simolaris, Jr
+    slug: george-simolaris-jr
+    party: Other
+    votes: 8461
+    winner: false
+    actual_two_party_share: 0.636
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5359
   competitiveness: Lean
@@ -46,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 22nd Middlesex District
-  url: null
+  url: /district/house-22nd-middlesex-district-2012-2020/
   overlap_pct: 0.9996
 - vintage: 2001-2010
   district_name: 22nd Middlesex
-  url: null
+  url: /district/house-22nd-middlesex-2001-2010/
   overlap_pct: 0.9949
 title: 22nd Middlesex District
 layout: seat

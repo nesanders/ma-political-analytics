@@ -5,12 +5,38 @@ district_id: '043'
 district_name: 2nd Franklin District
 geo_slug: house-2nd-franklin-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6017
-competitiveness: Safe
-competitiveness_label: Safe D
+lean_dem_share: 0.5689
+competitiveness: Likely
+competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5689
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.3074
+  candidates:
+  - name: Susannah M. Whipps
+    slug: susannah-m-whipps
+    party: Other
+    votes: 14235
+    winner: true
+    actual_two_party_share: 1.9195
+    war: null
+    is_incumbent: true
+  - name: Jeffrey L. Raymond
+    slug: jeffrey-l-raymond
+    party: Republican
+    votes: 7416
+    winner: false
+    actual_two_party_share: 1.0
+    war: 0.5689
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6017
   competitiveness: Safe

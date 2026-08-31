@@ -546,3 +546,40 @@ included, not by "real" versus "string" content.
   real numbers (200 seats / 282 candidates / 351 towns on the homepage),
   and a seat page plus the header search dropdown were re-checked for
   regressions from the new header/footer markup — none found.
+
+## The multi-decade backfill, completed
+
+The full House/Senate/Governor/President backfill (2002-2024) described
+above under "Runs as a GitHub Actions workflow" finished: House through
+2024, Senate through 2024, Governor for its full 2002-2022 quadrennial
+cycle, President for its full 2004-2024 cycle (2002 has no presidential
+election; MA's own even-year state legislative cycle occasionally skips
+an odd year too — both are real calendar facts, not gaps). Every
+downstream build step was then re-run across all three vintages for the
+first time against real historical data, not just 2022:
+`generate_site_data.py` (200 seats, 601 district pages across all three
+vintages, 1,343 candidates — up from 282 once a decade of additional
+elections' candidates are included), `publish_query_data.py` (2,405
+seat-year rows, 3,447 results rows), and `publish_district_geo.py` (602
+GeoJSON files). A full `bundle exec jekyll build` succeeded with zero
+errors against all of it.
+
+Running `derived_metrics.py` against the full range for the first time
+(previously only ever run against 2022) surfaced a real bug that 2022
+alone never exercised — and a second, worse bug introduced while fixing
+the first — described in the `derived_metrics.py` bullet above
+("Fix candidate-name resolution for statewide baseline races" in the
+commit history has the full story). After both fixes, every one of the
+22 newly-computed chamber/vintage/year lean files was checked
+systematically (not just spot-checked) for the telltale sign of that bug
+class — a single competitiveness label or near-zero lean variance across
+an entire chamber — and none remained. Verified live in a real browser
+against the regenerated site, not just the raw numbers: a 2001-2010-
+vintage district's trend chart now shows a real 5-point line (2002-2010)
+with genuine year-to-year variance instead of the single-point
+placeholder it rendered against 2022-only data, and a chamber page's "At
+a glance" summary now shows a real incumbent re-election rate (99%,
+131/132) instead of the "unknown" state a single year of data always
+produced — both exactly the shape of result the earlier synthetic-data
+tests for these features predicted, now confirmed against real history
+rather than a manufactured test case.

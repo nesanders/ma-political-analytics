@@ -15,6 +15,30 @@ races:
   war: -0.0079
   is_uncontested: false
   is_incumbent: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 9th Plymouth
+  district_url: /district/house-9th-plymouth-2001-2010/
+  party: Republican
+  votes: 2104
+  winner: false
+  actual_two_party_share: 0.1628
+  war: -0.1302
+  is_uncontested: false
+  is_incumbent: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: Second Plymouth and Bristol
+  district_url: /district/senate-second-plymouth-and-bristol-2001-2010/
+  party: Republican
+  votes: 18533
+  winner: false
+  actual_two_party_share: 0.323
+  war: -0.0954
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 10633

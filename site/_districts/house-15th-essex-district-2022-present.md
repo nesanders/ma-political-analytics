@@ -5,12 +5,30 @@ district_id: 038
 district_name: 15th Essex District
 geo_slug: house-15th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5592
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5258
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5258
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.5692
+  candidates:
+  - name: Ryan M. Hamilton
+    slug: ryan-m-hamilton
+    party: Democratic
+    votes: 16571
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4742
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5592
   competitiveness: Likely

@@ -5,12 +5,30 @@ district_id: '134'
 district_name: 12th Suffolk District
 geo_slug: house-12th-suffolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8088
+lean_dem_share: 0.7854
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7854
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 1.5475
+  candidates:
+  - name: Brandy Fluker Oakley
+    slug: brandy-fluker-oakley
+    party: Democratic
+    votes: 15339
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2146
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8088
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 12th Suffolk District
-  url: null
+  url: /district/house-12th-suffolk-district-2012-2020/
   overlap_pct: 0.9505
 - vintage: 2001-2010
   district_name: 12th Suffolk
-  url: null
+  url: /district/house-12th-suffolk-2001-2010/
   overlap_pct: 0.5663
 title: 12th Suffolk District
 layout: seat

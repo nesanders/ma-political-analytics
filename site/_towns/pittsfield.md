@@ -6,7 +6,7 @@ districts:
   district_name: 2nd Berkshire District
   url: /seat/house-2nd-berkshire-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.7402
+  lean_dem_share: 0.7211
   competitiveness_label: Safe D
   current_rep: Tricia Farley-Bouvier
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: Berkshire-Hampden-Franklin-Hampshire District
   url: /seat/senate-berkshire-hampden-franklin-hampshire-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.6903
+  lean_dem_share: 0.6714
   competitiveness_label: Safe D
   current_rep: Paul W. Mark
   current_rep_party: Democratic

@@ -5,12 +5,30 @@ district_id: '153'
 district_name: 12th Worcester District
 geo_slug: house-12th-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5696
+lean_dem_share: 0.575
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.575
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7387
+  candidates:
+  - name: Meghan Kilcoyne
+    slug: meghan-kilcoyne
+    party: Democratic
+    votes: 18684
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.425
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5696
   competitiveness: Likely

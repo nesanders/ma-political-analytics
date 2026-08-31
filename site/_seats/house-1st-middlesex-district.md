@@ -5,12 +5,38 @@ district_id: 059
 district_name: 1st Middlesex District
 geo_slug: house-1st-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5484
+lean_dem_share: 0.544
 competitiveness: Lean
 competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.544
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9782
+  candidates:
+  - name: Margaret R. Scarsdale
+    slug: margaret-r-scarsdale
+    party: Democratic
+    votes: 13545
+    winner: true
+    actual_two_party_share: 0.5135
+    war: -0.0305
+    is_incumbent: true
+  - name: Lynne E. Archambault
+    slug: lynne-e-archambault
+    party: Republican
+    votes: 12833
+    winner: false
+    actual_two_party_share: 0.4865
+    war: 0.0305
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
   competitiveness: Lean
@@ -54,11 +80,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 1st Middlesex District
-  url: null
+  url: /district/house-1st-middlesex-district-2012-2020/
   overlap_pct: 0.8596
 - vintage: 2001-2010
   district_name: 1st Middlesex
-  url: null
+  url: /district/house-1st-middlesex-2001-2010/
   overlap_pct: 0.9606
 title: 1st Middlesex District
 layout: seat

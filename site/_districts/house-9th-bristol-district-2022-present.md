@@ -5,12 +5,30 @@ district_id: 018
 district_name: 9th Bristol District
 geo_slug: house-9th-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5739
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5182
+competitiveness: Tossup
+competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5182
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.5389
+  candidates:
+  - name: Christopher M. Markey
+    slug: christopher-m-markey
+    party: Democratic
+    votes: 16627
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4818
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5739
   competitiveness: Likely

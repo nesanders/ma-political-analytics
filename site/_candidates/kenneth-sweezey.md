@@ -1,8 +1,20 @@
 ---
 slug: kenneth-sweezey
-name: Kenneth Sweezey
+name: Kenneth Peter Sweezey
 party: Republican
 races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 6th Plymouth District
+  district_url: /district/house-6th-plymouth-district-2022-present/
+  party: Republican
+  votes: 14908
+  winner: true
+  actual_two_party_share: 0.5297
+  war: 0.0528
+  is_uncontested: false
+  is_incumbent: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -22,6 +34,6 @@ ocpf_finance:
     2022:
       total_raised: 25482.64
       total_spent: 33001.4
-title: Kenneth Sweezey
+title: Kenneth Peter Sweezey
 layout: candidate
 ---

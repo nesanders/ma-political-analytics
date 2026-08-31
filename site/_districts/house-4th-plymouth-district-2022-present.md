@@ -5,12 +5,30 @@ district_id: '114'
 district_name: 4th Plymouth District
 geo_slug: house-4th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5686
+lean_dem_share: 0.5758
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5758
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7614
+  candidates:
+  - name: Patrick Joseph Kearney
+    slug: patrick-joseph-kearney
+    party: Democratic
+    votes: 22528
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4242
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5686
   competitiveness: Likely

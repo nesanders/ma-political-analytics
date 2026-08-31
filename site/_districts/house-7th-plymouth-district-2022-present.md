@@ -5,12 +5,30 @@ district_id: '117'
 district_name: 7th Plymouth District
 geo_slug: house-7th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4882
+lean_dem_share: 0.4824
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4824
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.7663
+  candidates:
+  - name: Alyson M. Sullivan-Almeida
+    slug: alyson-m-sullivan-almeida
+    party: Republican
+    votes: 18565
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4824
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4882
   competitiveness: Tossup

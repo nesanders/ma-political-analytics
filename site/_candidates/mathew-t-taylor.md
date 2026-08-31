@@ -1,0 +1,20 @@
+---
+slug: mathew-t-taylor
+name: Mathew T. Taylor
+party: Other
+races:
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 16th Worcester
+  district_url: /district/house-16th-worcester-2001-2010/
+  party: Other
+  votes: 3338
+  winner: false
+  actual_two_party_share: 0.4504
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+title: Mathew T. Taylor
+layout: candidate
+---

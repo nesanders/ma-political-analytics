@@ -6,7 +6,7 @@ districts:
   district_name: Worcester and Hampden District
   url: /seat/senate-worcester-and-hampden-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.4886
+  lean_dem_share: 0.4756
   competitiveness_label: Tossup R
   current_rep: Ryan C. Fattman
   current_rep_party: Republican
@@ -14,15 +14,15 @@ districts:
   district_name: 7th Worcester District
   url: /seat/house-7th-worcester-district/
   pct_of_town: 0.5959
-  lean_dem_share: 0.5186
-  competitiveness_label: Tossup D
+  lean_dem_share: 0.4969
+  competitiveness_label: Tossup R
   current_rep: Paul K. Frost
   current_rep_party: Republican
 - chamber: house
   district_name: 18th Worcester District
   url: /seat/house-18th-worcester-district/
   pct_of_town: 0.4041
-  lean_dem_share: 0.468
+  lean_dem_share: 0.4538
   competitiveness_label: Lean R
   current_rep: Joseph D. Mckenna
   current_rep_party: Republican

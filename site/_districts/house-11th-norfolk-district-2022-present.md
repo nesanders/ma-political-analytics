@@ -5,12 +5,38 @@ district_id: '106'
 district_name: 11th Norfolk District
 geo_slug: house-11th-norfolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.645
+lean_dem_share: 0.6385
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6385
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6027
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 16431
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3615
+    is_incumbent: true
+  - name: Andrew M. Pepoli
+    slug: andrew-m-pepoli
+    party: Other
+    votes: 7697
+    winner: false
+    actual_two_party_share: 0.4684
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.645
   competitiveness: Safe

@@ -5,12 +5,46 @@ district_id: '077'
 district_name: 19th Middlesex District
 geo_slug: house-19th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5232
+lean_dem_share: 0.5097
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5097
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9689
+  candidates:
+  - name: David Allen Robertson
+    slug: david-allen-robertson
+    party: Democratic
+    votes: 12560
+    winner: true
+    actual_two_party_share: 0.5751
+    war: 0.0654
+    is_incumbent: false
+  - name: Paul Sarnowski
+    slug: paul-sarnowski
+    party: Republican
+    votes: 9280
+    winner: false
+    actual_two_party_share: 0.4249
+    war: -0.0654
+    is_incumbent: false
+  - name: George Hugh Ferdinand
+    slug: george-hugh-ferdinand
+    party: Other
+    votes: 2029
+    winner: false
+    actual_two_party_share: 0.0929
+    war: null
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5232
   competitiveness: Tossup

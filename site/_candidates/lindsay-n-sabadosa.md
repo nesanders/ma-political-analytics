@@ -4,6 +4,18 @@ name: Lindsay N. Sabadosa
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 1st Hampshire District
+  district_url: /district/house-1st-hampshire-district-2022-present/
+  party: Democratic
+  votes: 21348
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.1805
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 1st Hampshire District
@@ -13,6 +25,30 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1693
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 1st Hampshire District
+  district_url: /district/house-1st-hampshire-district-2012-2020/
+  party: Democratic
+  votes: 21280
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.1995
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 1st Hampshire District
+  district_url: /district/house-1st-hampshire-district-2012-2020/
+  party: Democratic
+  votes: 18001
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.4571
   is_uncontested: true
   is_incumbent: false
 ocpf_finance:

@@ -5,12 +5,38 @@ district_id: 069
 district_name: 11th Middlesex District
 geo_slug: house-11th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8152
+lean_dem_share: 0.8073
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.8073
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 1.0468
+  candidates:
+  - name: Amy Mah Sangiolo
+    slug: amy-mah-sangiolo
+    party: Democratic
+    votes: 16719
+    winner: true
+    actual_two_party_share: 0.8127
+    war: 0.0054
+    is_incumbent: false
+  - name: Vladislav S. Yanovsky
+    slug: vladislav-s-yanovsky
+    party: Republican
+    votes: 3853
+    winner: false
+    actual_two_party_share: 0.1873
+    war: -0.0054
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8152
   competitiveness: Safe
@@ -38,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 11th Middlesex District
-  url: null
+  url: /district/house-11th-middlesex-district-2012-2020/
   overlap_pct: 0.9531
 - vintage: 2001-2010
   district_name: 11th Middlesex
-  url: null
+  url: /district/house-11th-middlesex-2001-2010/
   overlap_pct: 0.8751
 title: 11th Middlesex District
 layout: seat

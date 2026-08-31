@@ -5,12 +5,30 @@ district_id: D18
 district_name: Norfolk and Suffolk District
 geo_slug: senate-norfolk-and-suffolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6956
+lean_dem_share: 0.6837
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6837
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8065
+  candidates:
+  - name: Michael F. Rush
+    slug: michael-f-rush
+    party: Democratic
+    votes: 72352
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3163
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6956
   competitiveness: Safe

@@ -5,12 +5,46 @@ district_id: '119'
 district_name: 9th Plymouth District
 geo_slug: house-9th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5985
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.6046
+competitiveness: Safe
+competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6046
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.7476
+  candidates:
+  - name: Bridget M. Plouffe
+    slug: bridget-m-plouffe
+    party: Democratic
+    votes: 11809
+    winner: true
+    actual_two_party_share: 0.6436
+    war: 0.039
+    is_incumbent: false
+  - name: Lawrence Peter Novak
+    slug: lawrence-peter-novak
+    party: Republican
+    votes: 6539
+    winner: false
+    actual_two_party_share: 0.3564
+    war: -0.039
+    is_incumbent: false
+  - name: Jonathan Wilshire Gill
+    slug: jonathan-wilshire-gill
+    party: Other
+    votes: 3398
+    winner: false
+    actual_two_party_share: 0.1852
+    war: null
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5985
   competitiveness: Likely

@@ -5,12 +5,30 @@ district_id: 079
 district_name: 21st Middlesex District
 geo_slug: house-21st-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6571
+lean_dem_share: 0.6583
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6583
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7511
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 17829
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3417
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6571
   competitiveness: Safe

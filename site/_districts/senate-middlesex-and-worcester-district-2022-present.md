@@ -5,12 +5,30 @@ district_id: D12
 district_name: Middlesex and Worcester District
 geo_slug: senate-middlesex-and-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7065
+lean_dem_share: 0.7107
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7107
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7826
+  candidates:
+  - name: James B. Eldridge
+    slug: james-b-eldridge
+    party: Democratic
+    votes: 75178
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2893
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7065
   competitiveness: Safe

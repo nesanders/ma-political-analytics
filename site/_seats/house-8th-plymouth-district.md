@@ -5,12 +5,38 @@ district_id: '118'
 district_name: 8th Plymouth District
 geo_slug: house-8th-plymouth-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4953
+lean_dem_share: 0.4851
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4851
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9467
+  candidates:
+  - name: Dennis C. Gallagher
+    slug: dennis-c-gallagher
+    party: Democratic
+    votes: 10971
+    winner: true
+    actual_two_party_share: 0.5051
+    war: 0.02
+    is_incumbent: false
+  - name: Sandra M. Wright
+    slug: sandra-m-wright
+    party: Republican
+    votes: 10749
+    winner: false
+    actual_two_party_share: 0.4949
+    war: -0.02
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4953
   competitiveness: Tossup
@@ -46,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 8th Plymouth District
-  url: null
+  url: /district/house-8th-plymouth-district-2012-2020/
   overlap_pct: 0.9987
 - vintage: 2001-2010
   district_name: 8th Plymouth
-  url: null
+  url: /district/house-8th-plymouth-2001-2010/
   overlap_pct: 0.8582
 title: 8th Plymouth District
 layout: seat

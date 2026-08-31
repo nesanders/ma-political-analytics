@@ -5,12 +5,30 @@ district_id: '158'
 district_name: 17th Worcester District
 geo_slug: house-17th-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6497
+lean_dem_share: 0.6119
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6119
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7612
+  candidates:
+  - name: David Henry Argosky Leboeuf
+    slug: david-henry-argosky-leboeuf
+    party: Democratic
+    votes: 9882
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3881
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6497
   competitiveness: Safe
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 17th Worcester District
-  url: null
+  url: /district/house-17th-worcester-district-2012-2020/
   overlap_pct: 0.4889
 - vintage: 2001-2010
   district_name: 17th Worcester
-  url: null
+  url: /district/house-17th-worcester-2001-2010/
   overlap_pct: 0.9933
 title: 17th Worcester District
 layout: seat

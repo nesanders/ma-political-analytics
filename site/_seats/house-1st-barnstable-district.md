@@ -5,12 +5,38 @@ district_id: '001'
 district_name: 1st Barnstable District
 geo_slug: house-1st-barnstable-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6081
+lean_dem_share: 0.6044
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6044
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 1.0128
+  candidates:
+  - name: Christopher Richard Flanagan
+    slug: christopher-richard-flanagan
+    party: Democratic
+    votes: 15607
+    winner: true
+    actual_two_party_share: 0.5654
+    war: -0.039
+    is_incumbent: true
+  - name: Gerald Joseph O'Connell
+    slug: gerald-joseph-oconnell
+    party: Republican
+    votes: 11996
+    winner: false
+    actual_two_party_share: 0.4346
+    war: 0.039
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
   competitiveness: Safe
@@ -54,11 +80,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 1st Barnstable District
-  url: null
+  url: /district/house-1st-barnstable-district-2012-2020/
   overlap_pct: 0.7905
 - vintage: 2001-2010
   district_name: 1st Barnstable
-  url: null
+  url: /district/house-1st-barnstable-2001-2010/
   overlap_pct: 0.8305
 title: 1st Barnstable District
 layout: seat

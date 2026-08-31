@@ -1,0 +1,20 @@
+---
+slug: raymond-g-leczynski
+name: Raymond G. Leczynski
+party: Republican
+races:
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 36th Middlesex District
+  district_url: /district/house-36th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 6651
+  winner: false
+  actual_two_party_share: 0.3679
+  war: -0.4415
+  is_uncontested: false
+  is_incumbent: false
+title: Raymond G. Leczynski
+layout: candidate
+---

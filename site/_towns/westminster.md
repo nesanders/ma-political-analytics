@@ -6,7 +6,7 @@ districts:
   district_name: 1st Worcester District
   url: /seat/house-1st-worcester-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.5427
+  lean_dem_share: 0.5353
   competitiveness_label: Lean D
   current_rep: Kimberly N. Ferguson
   current_rep_party: Republican
@@ -14,10 +14,10 @@ districts:
   district_name: Worcester and Hampshire District
   url: /seat/senate-worcester-and-hampshire-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.5229
+  lean_dem_share: 0.5076
   competitiveness_label: Tossup D
-  current_rep: Anne M. Gobi
-  current_rep_party: Democratic
+  current_rep: Peter J. Durant
+  current_rep_party: Republican
 title: Westminster
 layout: town
 ---

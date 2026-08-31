@@ -5,12 +5,30 @@ district_id: D20
 district_name: Second Essex and Middlesex District
 geo_slug: senate-second-essex-and-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5866
+lean_dem_share: 0.5742
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5742
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7176
+  candidates:
+  - name: Barry R. Finegold
+    slug: barry-r-finegold
+    party: Democratic
+    votes: 73764
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4258
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5866
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: Second Essex & Middlesex District
-  url: null
+  url: /district/senate-second-essex-middlesex-district-2012-2020/
   overlap_pct: 0.6492
 - vintage: 2001-2010
   district_name: Second Essex and Middlesex
-  url: null
+  url: /district/senate-second-essex-and-middlesex-2001-2010/
   overlap_pct: 0.9972
 title: Second Essex and Middlesex District
 layout: seat

@@ -15,6 +15,18 @@ races:
   war: -0.0794
   is_uncontested: false
   is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 22nd Middlesex District
+  district_url: /district/house-22nd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 10689
+  winner: false
+  actual_two_party_share: 0.4468
+  war: -0.1072
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 17546

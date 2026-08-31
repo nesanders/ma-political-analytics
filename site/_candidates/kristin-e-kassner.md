@@ -4,6 +4,18 @@ name: Kristin E. Kassner
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 2nd Essex District
+  district_url: /district/house-2nd-essex-district-2022-present/
+  party: Democratic
+  votes: 16063
+  winner: true
+  actual_two_party_share: 0.5422
+  war: -0.0674
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 2nd Essex District

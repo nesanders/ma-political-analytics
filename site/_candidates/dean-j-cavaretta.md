@@ -1,0 +1,20 @@
+---
+slug: dean-j-cavaretta
+name: Dean J. Cavaretta
+party: Republican
+races:
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Middlesex & Worcester District
+  district_url: /district/senate-middlesex-worcester-district-2012-2020/
+  party: Republican
+  votes: 28797
+  winner: false
+  actual_two_party_share: 0.3524
+  war: -0.0617
+  is_uncontested: false
+  is_incumbent: false
+title: Dean J. Cavaretta
+layout: candidate
+---

@@ -4,6 +4,18 @@ name: Steven Ultrino
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 33rd Middlesex District
+  district_url: /district/house-33rd-middlesex-district-2022-present/
+  party: Democratic
+  votes: 11360
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.296
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 33rd Middlesex District
@@ -13,6 +25,54 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2497
+  is_uncontested: true
+  is_incumbent: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 33rd Middlesex District
+  district_url: /district/house-33rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 13213
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.2397
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 33rd Middlesex District
+  district_url: /district/house-33rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 9728
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.5502
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 33rd Middlesex District
+  district_url: /district/house-33rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 11435
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.259
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 33rd Middlesex District
+  district_url: /district/house-33rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 5801
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3922
   is_uncontested: true
   is_incumbent: false
 ocpf_finance:

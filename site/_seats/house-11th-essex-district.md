@@ -5,12 +5,30 @@ district_id: '034'
 district_name: 11th Essex District
 geo_slug: house-11th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6749
+lean_dem_share: 0.6178
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6178
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7188
+  candidates:
+  - name: Sean Reid
+    slug: sean-reid
+    party: Democratic
+    votes: 11228
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3822
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6749
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 11th Essex District
-  url: null
+  url: /district/house-11th-essex-district-2012-2020/
   overlap_pct: 0.9999
 - vintage: 2001-2010
   district_name: 11th Essex
-  url: null
+  url: /district/house-11th-essex-2001-2010/
   overlap_pct: 0.9738
 title: 11th Essex District
 layout: seat

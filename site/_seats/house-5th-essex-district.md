@@ -5,12 +5,38 @@ district_id: 028
 district_name: 5th Essex District
 geo_slug: house-5th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6927
+lean_dem_share: 0.6719
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6719
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6329
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 17877
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3281
+    is_incumbent: true
+  - name: Steven G. Leblanc, Jr
+    slug: steven-g-leblanc-jr
+    party: Other
+    votes: 8926
+    winner: false
+    actual_two_party_share: 0.4993
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6927
   competitiveness: Safe
@@ -46,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 5th Essex District
-  url: null
+  url: /district/house-5th-essex-district-2012-2020/
   overlap_pct: 1.0
 - vintage: 2001-2010
   district_name: 5th Essex
-  url: null
+  url: /district/house-5th-essex-2001-2010/
   overlap_pct: 0.9979
 title: 5th Essex District
 layout: seat

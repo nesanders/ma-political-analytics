@@ -5,12 +5,30 @@ district_id: '030'
 district_name: 7th Essex District
 geo_slug: house-7th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.7741
+lean_dem_share: 0.7348
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7348
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.8242
+  candidates:
+  - name: Manny Cruz
+    slug: manny-cruz
+    party: Democratic
+    votes: 18548
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.2652
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7741
   competitiveness: Safe

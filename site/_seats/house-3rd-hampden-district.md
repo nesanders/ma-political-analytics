@@ -5,12 +5,30 @@ district_id: '046'
 district_name: 3rd Hampden District
 geo_slug: house-3rd-hampden-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.439
+lean_dem_share: 0.435
 competitiveness: Likely
 competitiveness_label: Likely R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.435
+  competitiveness: Likely
+  competitiveness_label: Likely R
+  party_favored: Republican
+  is_uncontested: true
+  turnout_ratio: 0.7799
+  candidates:
+  - name: Nicholas A. Boldyga
+    slug: nicholas-a-boldyga
+    party: Republican
+    votes: 20027
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.435
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.439
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 3rd Hampden District
-  url: null
+  url: /district/house-3rd-hampden-district-2012-2020/
   overlap_pct: 0.9811
 - vintage: 2001-2010
   district_name: 3rd Hampden
-  url: null
+  url: /district/house-3rd-hampden-2001-2010/
   overlap_pct: 0.8454
 title: 3rd Hampden District
 layout: seat

@@ -5,12 +5,38 @@ district_id: '147'
 district_name: 6th Worcester District
 geo_slug: house-6th-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.4821
-competitiveness: Tossup
-competitiveness_label: Tossup R
+lean_dem_share: 0.4606
+competitiveness: Lean
+competitiveness_label: Lean R
 party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4606
+  competitiveness: Lean
+  competitiveness_label: Lean R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9709
+  candidates:
+  - name: John J. Marsi, Jr
+    slug: john-j-marsi-jr
+    party: Republican
+    votes: 12440
+    winner: true
+    actual_two_party_share: 0.6193
+    war: 0.0799
+    is_incumbent: false
+  - name: Jeanne Renaud Costello
+    slug: jeanne-renaud-costello
+    party: Democratic
+    votes: 7647
+    winner: false
+    actual_two_party_share: 0.3807
+    war: -0.0799
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4821
   competitiveness: Tossup

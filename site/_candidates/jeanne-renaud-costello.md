@@ -1,0 +1,20 @@
+---
+slug: jeanne-renaud-costello
+name: Jeanne Renaud Costello
+party: Democratic
+races:
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 6th Worcester District
+  district_url: /district/house-6th-worcester-district-2022-present/
+  party: Democratic
+  votes: 7647
+  winner: false
+  actual_two_party_share: 0.3807
+  war: -0.0799
+  is_uncontested: false
+  is_incumbent: false
+title: Jeanne Renaud Costello
+layout: candidate
+---

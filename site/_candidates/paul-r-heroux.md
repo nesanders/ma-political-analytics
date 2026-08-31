@@ -1,0 +1,44 @@
+---
+slug: paul-r-heroux
+name: Paul R. Heroux
+party: Democratic
+races:
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 15301
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.449
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 6621
+  winner: true
+  actual_two_party_share: 0.6112
+  war: 0.1844
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 9738
+  winner: true
+  actual_two_party_share: 0.5821
+  war: 0.0285
+  is_uncontested: false
+  is_incumbent: false
+title: Paul R. Heroux
+layout: candidate
+---

@@ -5,12 +5,38 @@ district_id: '003'
 district_name: 3rd Barnstable District
 geo_slug: house-3rd-barnstable-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5931
+lean_dem_share: 0.5933
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5933
+  competitiveness: Likely
+  competitiveness_label: Likely D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9609
+  candidates:
+  - name: David T. Vieira
+    slug: david-t-vieira
+    party: Republican
+    votes: 16059
+    winner: true
+    actual_two_party_share: 0.5603
+    war: 0.1536
+    is_incumbent: true
+  - name: Kathleen Fox Alfano
+    slug: kathleen-fox-alfano
+    party: Democratic
+    votes: 12600
+    winner: false
+    actual_two_party_share: 0.4397
+    war: -0.1536
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5931
   competitiveness: Likely
@@ -46,11 +72,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 3rd Barnstable District
-  url: null
+  url: /district/house-3rd-barnstable-district-2012-2020/
   overlap_pct: 0.9819
 - vintage: 2001-2010
   district_name: 3rd Barnstable
-  url: null
+  url: /district/house-3rd-barnstable-2001-2010/
   overlap_pct: 0.7977
 title: 3rd Barnstable District
 layout: seat

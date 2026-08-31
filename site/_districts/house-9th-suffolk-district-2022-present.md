@@ -5,12 +5,38 @@ district_id: '131'
 district_name: 9th Suffolk District
 geo_slug: house-9th-suffolk-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.8238
+lean_dem_share: 0.7956
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.7956
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 2.7945
+  candidates:
+  - name: John Francis Moran
+    slug: john-francis-moran
+    party: Democratic
+    votes: 12852
+    winner: true
+    actual_two_party_share: 0.8246
+    war: 0.029
+    is_incumbent: false
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Republican
+    votes: 2734
+    winner: false
+    actual_two_party_share: 0.1754
+    war: -0.029
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8238
   competitiveness: Safe

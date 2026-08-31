@@ -5,12 +5,46 @@ district_id: D40
 district_name: Cape and Islands District
 geo_slug: senate-cape-and-islands-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6385
+lean_dem_share: 0.641
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.641
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9631
+  candidates:
+  - name: Julian Andre Cyr
+    slug: julian-andre-cyr
+    party: Democratic
+    votes: 64636
+    winner: true
+    actual_two_party_share: 0.6243
+    war: -0.0167
+    is_incumbent: true
+  - name: Christopher Robert Lauzon
+    slug: christopher-robert-lauzon
+    party: Republican
+    votes: 38893
+    winner: false
+    actual_two_party_share: 0.3757
+    war: 0.0167
+    is_incumbent: false
+  - name: Joe Van Nes
+    slug: joe-van-nes
+    party: Other
+    votes: 2493
+    winner: false
+    actual_two_party_share: 0.0241
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6385
   competitiveness: Safe

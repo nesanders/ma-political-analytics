@@ -5,12 +5,30 @@ district_id: '070'
 district_name: 12th Middlesex District
 geo_slug: house-12th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.838
+lean_dem_share: 0.832
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.832
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.492
+  candidates:
+  - name: Greg Schwartz
+    slug: greg-schwartz
+    party: Democratic
+    votes: 18410
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.168
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.838
   competitiveness: Safe
@@ -38,11 +56,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 12th Middlesex District
-  url: null
+  url: /district/house-12th-middlesex-district-2012-2020/
   overlap_pct: 0.9469
 - vintage: 2001-2010
   district_name: 12th Middlesex
-  url: null
+  url: /district/house-12th-middlesex-2001-2010/
   overlap_pct: 0.9596
 title: 12th Middlesex District
 layout: seat

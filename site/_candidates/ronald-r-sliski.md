@@ -1,0 +1,20 @@
+---
+slug: ronald-r-sliski
+name: Ronald R. Sliski
+party: Other
+races:
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 8th Hampden
+  district_url: /district/house-8th-hampden-2001-2010/
+  party: Other
+  votes: 2080
+  winner: false
+  actual_two_party_share: 0.2379
+  war: null
+  is_uncontested: true
+  is_incumbent: false
+title: Ronald R. Sliski
+layout: candidate
+---

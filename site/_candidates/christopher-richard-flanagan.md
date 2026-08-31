@@ -4,6 +4,18 @@ name: Christopher Richard Flanagan
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 1st Barnstable District
+  district_url: /district/house-1st-barnstable-district-2022-present/
+  party: Democratic
+  votes: 15607
+  winner: true
+  actual_two_party_share: 0.5654
+  war: -0.039
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 1st Barnstable District

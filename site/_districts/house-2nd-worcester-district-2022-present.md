@@ -5,12 +5,38 @@ district_id: '143'
 district_name: 2nd Worcester District
 geo_slug: house-2nd-worcester-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5146
+lean_dem_share: 0.4867
 competitiveness: Tossup
-competitiveness_label: Tossup D
-party_favored: Democratic
+competitiveness_label: Tossup R
+party_favored: Republican
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.4867
+  competitiveness: Tossup
+  competitiveness_label: Tossup R
+  party_favored: Republican
+  is_uncontested: false
+  turnout_ratio: 0.9929
+  candidates:
+  - name: Jonathan D. Zlotnik
+    slug: jonathan-d-zlotnik
+    party: Democratic
+    votes: 10812
+    winner: true
+    actual_two_party_share: 0.5225
+    war: 0.0358
+    is_incumbent: true
+  - name: Bruce K. Chester
+    slug: bruce-k-chester
+    party: Republican
+    votes: 9882
+    winner: false
+    actual_two_party_share: 0.4775
+    war: -0.0358
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5146
   competitiveness: Tossup

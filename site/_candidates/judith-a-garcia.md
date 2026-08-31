@@ -4,6 +4,18 @@ name: Judith A. Garcia
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 11th Suffolk District
+  district_url: /district/house-11th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 7194
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.3133
+  is_uncontested: true
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 11th Suffolk District

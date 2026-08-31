@@ -5,12 +5,30 @@ district_id: '057'
 district_name: 2nd Hampshire District
 geo_slug: house-2nd-hampshire-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6915
+lean_dem_share: 0.6793
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6793
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7809
+  candidates:
+  - name: Homar Gomez
+    slug: homar-gomez
+    party: Democratic
+    votes: 19102
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3207
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6915
   competitiveness: Safe

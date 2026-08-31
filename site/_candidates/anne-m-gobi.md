@@ -15,6 +15,126 @@ races:
   war: 0.0207
   is_uncontested: false
   is_incumbent: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Worcester, Hampden, Hampshire & Middlesex District
+  district_url: /district/senate-worcester-hampden-hampshire-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 48299
+  winner: true
+  actual_two_party_share: 0.5283
+  war: 0.0339
+  is_uncontested: false
+  is_incumbent: true
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Worcester, Hampden, Hampshire & Middlesex District
+  district_url: /district/senate-worcester-hampden-hampshire-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 37150
+  winner: true
+  actual_two_party_share: 0.549
+  war: 0.345
+  is_uncontested: false
+  is_incumbent: true
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Worcester, Hampden, Hampshire & Middlesex District
+  district_url: /district/senate-worcester-hampden-hampshire-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 44021
+  winner: true
+  actual_two_party_share: 0.5441
+  war: 0.0984
+  is_uncontested: false
+  is_incumbent: true
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Worcester, Hampden, Hampshire & Middlesex District
+  district_url: /district/senate-worcester-hampden-hampshire-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 27847
+  winner: true
+  actual_two_party_share: 0.5036
+  war: 0.144
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 5th Worcester District
+  district_url: /district/house-5th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 14063
+  winner: true
+  actual_two_party_share: 0.697
+  war: 0.2108
+  is_uncontested: false
+  is_incumbent: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 5th Worcester
+  district_url: /district/house-5th-worcester-2001-2010/
+  party: Democratic
+  votes: 9810
+  winner: true
+  actual_two_party_share: 0.6539
+  war: 0.2321
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 5th Worcester
+  district_url: /district/house-5th-worcester-2001-2010/
+  party: Democratic
+  votes: 13577
+  winner: true
+  actual_two_party_share: 0.7031
+  war: 0.1746
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 5th Worcester
+  district_url: /district/house-5th-worcester-2001-2010/
+  party: Democratic
+  votes: 10104
+  winner: true
+  actual_two_party_share: 0.6906
+  war: 0.1099
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 5th Worcester
+  district_url: /district/house-5th-worcester-2001-2010/
+  party: Democratic
+  votes: 12588
+  winner: true
+  actual_two_party_share: 0.689
+  war: 0.1547
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 5th Worcester
+  district_url: /district/house-5th-worcester-2001-2010/
+  party: Democratic
+  votes: 7647
+  winner: true
+  actual_two_party_share: 0.5562
+  war: 0.1401
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 13731

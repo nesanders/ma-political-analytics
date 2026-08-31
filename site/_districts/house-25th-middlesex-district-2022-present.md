@@ -5,12 +5,38 @@ district_id: 083
 district_name: 25th Middlesex District
 geo_slug: house-25th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.9233
+lean_dem_share: 0.9131
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.9131
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 1.1468
+  candidates:
+  - name: Marjorie C. Decker
+    slug: marjorie-c-decker
+    party: Democratic
+    votes: 13724
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.0869
+    is_incumbent: true
+  - name: Evan Mackay
+    slug: evan-mackay
+    party: Other
+    votes: 350
+    winner: false
+    actual_two_party_share: 0.0255
+    war: null
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.9233
   competitiveness: Safe

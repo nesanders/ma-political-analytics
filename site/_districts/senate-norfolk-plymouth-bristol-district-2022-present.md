@@ -5,12 +5,30 @@ district_id: D33
 district_name: Norfolk-Plymouth-Bristol District
 geo_slug: senate-norfolk-plymouth-bristol-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6144
+lean_dem_share: 0.6074
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6074
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.724
+  candidates:
+  - name: William J. Driscoll, Jr
+    slug: william-j-driscoll-jr
+    party: Democratic
+    votes: 63145
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3926
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6144
   competitiveness: Safe

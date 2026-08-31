@@ -6,7 +6,7 @@ districts:
   district_name: 12th Worcester District
   url: /seat/house-12th-worcester-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.5696
+  lean_dem_share: 0.575
   competitiveness_label: Likely D
   current_rep: Meghan Kilcoyne
   current_rep_party: Democratic
@@ -14,7 +14,7 @@ districts:
   district_name: Worcester and Middlesex District
   url: /seat/senate-worcester-and-middlesex-district/
   pct_of_town: 1.0
-  lean_dem_share: 0.5845
+  lean_dem_share: 0.5789
   competitiveness_label: Likely D
   current_rep: John J. Cronin
   current_rep_party: Democratic

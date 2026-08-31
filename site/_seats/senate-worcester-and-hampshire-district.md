@@ -5,12 +5,38 @@ district_id: D06
 district_name: Worcester and Hampshire District
 geo_slug: senate-worcester-and-hampshire-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5229
+lean_dem_share: 0.5076
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5076
+  competitiveness: Tossup
+  competitiveness_label: Tossup D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.954
+  candidates:
+  - name: Peter J. Durant
+    slug: peter-j-durant
+    party: Republican
+    votes: 52465
+    winner: true
+    actual_two_party_share: 0.5842
+    war: 0.0918
+    is_incumbent: false
+  - name: Sheila H. Dibb
+    slug: sheila-h-dibb
+    party: Democratic
+    votes: 37346
+    winner: false
+    actual_two_party_share: 0.4158
+    war: -0.0918
+    is_incumbent: false
+  is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5229
   competitiveness: Tossup
@@ -43,11 +69,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: First Worcester District
-  url: null
+  url: /district/senate-first-worcester-district-2012-2020/
   overlap_pct: 0.5018
 - vintage: 2001-2010
   district_name: First Worcester
-  url: null
+  url: /district/senate-first-worcester-2001-2010/
   overlap_pct: 0.8354
 title: Worcester and Hampshire District
 layout: seat

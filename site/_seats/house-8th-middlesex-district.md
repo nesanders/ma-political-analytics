@@ -5,12 +5,30 @@ district_id: '066'
 district_name: 8th Middlesex District
 geo_slug: house-8th-middlesex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6766
+lean_dem_share: 0.6903
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6903
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.7796
+  candidates:
+  - name: James Arena-DeRosa
+    slug: james-arena-derosa
+    party: Democratic
+    votes: 20170
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.3097
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6766
   competitiveness: Safe
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 8th Middlesex District
-  url: null
+  url: /district/house-8th-middlesex-district-2012-2020/
   overlap_pct: 0.6883
 - vintage: 2001-2010
   district_name: 8th Middlesex
-  url: null
+  url: /district/house-8th-middlesex-2001-2010/
   overlap_pct: 0.9311
 title: 8th Middlesex District
 layout: seat

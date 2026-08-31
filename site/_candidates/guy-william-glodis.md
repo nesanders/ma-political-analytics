@@ -1,0 +1,20 @@
+---
+slug: guy-william-glodis
+name: Guy William Glodis
+party: Democratic
+races:
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: Second Worcester
+  district_url: /district/senate-second-worcester-2001-2010/
+  party: Democratic
+  votes: 40450
+  winner: true
+  actual_two_party_share: 1.0
+  war: 0.5628
+  is_uncontested: true
+  is_incumbent: false
+title: Guy William Glodis
+layout: candidate
+---

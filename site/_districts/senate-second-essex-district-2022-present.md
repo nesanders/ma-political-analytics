@@ -5,12 +5,38 @@ district_id: D22
 district_name: Second Essex District
 geo_slug: senate-second-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.6493
+lean_dem_share: 0.6181
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.6181
+  competitiveness: Safe
+  competitiveness_label: Safe D
+  party_favored: Democratic
+  is_uncontested: false
+  turnout_ratio: 0.9696
+  candidates:
+  - name: Joan B. Lovely
+    slug: joan-b-lovely
+    party: Democratic
+    votes: 58109
+    winner: true
+    actual_two_party_share: 0.6685
+    war: 0.0504
+    is_incumbent: true
+  - name: Damian Mitchell Anketell
+    slug: damian-mitchell-anketell
+    party: Republican
+    votes: 28813
+    winner: false
+    actual_two_party_share: 0.3315
+    war: -0.0504
+    is_incumbent: false
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6493
   competitiveness: Safe

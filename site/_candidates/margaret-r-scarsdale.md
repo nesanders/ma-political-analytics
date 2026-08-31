@@ -4,6 +4,18 @@ name: Margaret R. Scarsdale
 party: Democratic
 races:
 - chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 1st Middlesex District
+  district_url: /district/house-1st-middlesex-district-2022-present/
+  party: Democratic
+  votes: 13545
+  winner: true
+  actual_two_party_share: 0.5135
+  war: -0.0305
+  is_uncontested: false
+  is_incumbent: true
+- chamber: house
   year: 2022
   vintage: 2022-present
   district_name: 1st Middlesex District

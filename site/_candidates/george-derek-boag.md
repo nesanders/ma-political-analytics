@@ -15,6 +15,18 @@ races:
   war: -0.1112
   is_uncontested: false
   is_incumbent: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 36th Middlesex
+  district_url: /district/house-36th-middlesex-2001-2010/
+  party: Republican
+  votes: 5470
+  winner: false
+  actual_two_party_share: 0.4003
+  war: -0.2478
+  is_uncontested: false
+  is_incumbent: false
 ocpf_finance:
   cpf_ids:
   - 15168

@@ -5,12 +5,30 @@ district_id: '036'
 district_name: 13th Essex District
 geo_slug: house-13th-essex-district-2022-present
 years:
+- 2024
 - 2022
-lean_dem_share: 0.5663
-competitiveness: Likely
-competitiveness_label: Likely D
+lean_dem_share: 0.5467
+competitiveness: Lean
+competitiveness_label: Lean D
 party_favored: Democratic
 results_by_year:
+- year: 2024
+  lean_dem_share: 0.5467
+  competitiveness: Lean
+  competitiveness_label: Lean D
+  party_favored: Democratic
+  is_uncontested: true
+  turnout_ratio: 0.6923
+  candidates:
+  - name: Sally P. Kerans
+    slug: sally-p-kerans
+    party: Democratic
+    votes: 18746
+    winner: true
+    actual_two_party_share: 1.0
+    war: 0.4533
+    is_incumbent: true
+  is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5663
   competitiveness: Likely
@@ -46,11 +64,11 @@ demographics:
 history:
 - vintage: 2012-2020
   district_name: 13th Essex District
-  url: null
+  url: /district/house-13th-essex-district-2012-2020/
   overlap_pct: 0.7711
 - vintage: 2001-2010
   district_name: 13th Essex
-  url: null
+  url: /district/house-13th-essex-2001-2010/
   overlap_pct: 0.5614
 title: 13th Essex District
 layout: seat
