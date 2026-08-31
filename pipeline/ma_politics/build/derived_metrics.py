@@ -148,6 +148,59 @@ def apportion_town_votes_to_districts(
     return merged.groupby(["district_id", "district_name"])[candidate_cols].sum().reset_index()
 
 
+_TICKET_SPLIT_RE = re.compile(r"\s+and\s+|/\s*")
+
+
+def _normalize_ticket_name(name: str) -> tuple[str, ...]:
+    """PD43+'s own display name for a joint ticket (Governor/Lt. Governor,
+    President/VP) joins running mates with " and " on the results/detail
+    page, but the CSV download's column header for that same ticket isn't
+    consistent about it — found live backfilling two decades of statewide
+    baseline races: some years' CSVs use "X/ Y", others "X and Y", and it
+    varies year to year, not just office to office (e.g. 2002's governor
+    race is "/"-joined, 2018's is "and"-joined). A single-name candidate
+    (no running mate in the display name) is unaffected either way. Splitting
+    both sides on either separator before comparing avoids depending on
+    which one a given year's CSV happened to use."""
+    return tuple(p.strip() for p in _TICKET_SPLIT_RE.split(name))
+
+
+def resolve_candidate_column(name: str, columns: list[str]) -> str:
+    """Maps a candidate name from the results table to its actual column in
+    the wide town-results CSV, tolerating the "/" vs "and" ticket-separator
+    inconsistency above. Exact match first (the common case, and the only
+    case for single-name candidates) before falling back to normalized
+    comparison. Raises rather than returning None: an unresolved column
+    would otherwise reach apportion_town_votes_to_districts as a KeyError
+    deep inside a groupby, a much less useful failure than one that names
+    the actual candidate and the columns it was compared against.
+
+    `columns` MUST already be narrowed to this specific election — never
+    pass every column of fetch.pd43's accumulated town-results table. That
+    table is one wide, sparse frame across every year's elections (a new
+    candidate just adds a new column, all-null/zero for elections they
+    weren't in), so a repeat candidate whose ticket was formatted
+    differently across two different years' CSVs (found live: Baker/Polito
+    ran together in both 2014, as "Baker/ Polito", and 2018, as "Baker and
+    Polito") has BOTH spellings present as columns somewhere in the full
+    table. Against the unfiltered column list, the exact-match fast path
+    above would happily match a same-named column left over from a
+    *different* year — one that's all-zero for the actual election being
+    processed — and silently return zero votes instead of erroring. Found
+    the hard way: a first version of this fix passed the full column list
+    and produced a bogus 100% "Safe D" result for every single 2014 House
+    district, from Baker's real ~51% statewide showing as literally 0
+    votes — caught by noticing that "every district identical" doesn't
+    happen in real election data, not by any error or warning."""
+    if name in columns:
+        return name
+    target = _normalize_ticket_name(name)
+    for col in columns:
+        if _normalize_ticket_name(col) == target:
+            return col
+    raise ValueError(f"No CSV column found matching candidate {name!r} among {columns!r}")
+
+
 def compute_lean(
     apportioned: pd.DataFrame, dem_col: str, rep_col: str, out_col: str = "lean_dem_share"
 ) -> pd.DataFrame:
@@ -276,9 +329,15 @@ def main(chamber, year, vintage, pd43_dir, baseline_dir, baseline_office, crossw
     baseline_results = baseline_results[baseline_results["election_id"] == election_id]
     dem_name = baseline_results[baseline_results["party"] == "Democratic"].iloc[0]["candidate_name"]
     rep_name = baseline_results[baseline_results["party"] == "Republican"].iloc[0]["candidate_name"]
+    # Narrowed to columns with real data *for this election* — see
+    # resolve_candidate_column's docstring for why the full accumulated
+    # table's column list is unsafe to search here.
+    town_columns = [c for c in town.columns if c not in ("election_id", "town") and town[c].fillna(0).sum() > 0]
+    dem_col = resolve_candidate_column(dem_name, town_columns)
+    rep_col = resolve_candidate_column(rep_name, town_columns)
 
-    apportioned = apportion_town_votes_to_districts(town, overlap, [dem_name, rep_name])
-    lean = compute_lean(apportioned, dem_name, rep_name)
+    apportioned = apportion_town_votes_to_districts(town, overlap, [dem_col, rep_col])
+    lean = compute_lean(apportioned, dem_col, rep_col)
     lean = compute_competitiveness(lean)
     # Year-scoped, not just vintage-scoped: lean is recomputed against a
     # different statewide baseline race every election cycle, so a vintage

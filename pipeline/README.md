@@ -134,6 +134,36 @@ full.
   wrong-match bug found in the process — see the commit history for
   `derived_metrics.py` for what that was and how it was caught.
 
+  A second real bug, found once the multi-decade backfill actually
+  finished and this was run against every vintage/year for the first
+  time: PD43+'s CSV export joins a joint ticket's running mates (Governor/
+  Lt. Governor, President/VP) with `/` in some years' downloads and
+  ` and ` in others — not consistently by office or even by candidate, the
+  *same* Baker/Polito ticket is `"Baker/ Polito"` in the 2014 CSV and
+  `"Baker and Polito"` in 2018's — while the results table (parsed from
+  the race detail page, not the CSV) always uses ` and `. Looking up a
+  candidate's town-level votes by that literal name against the CSV's
+  columns failed for every year that happened to use `/`.
+  `resolve_candidate_column()` fixes the lookup itself by normalizing both
+  sides before comparing — but the first version of that fix, tested only
+  against a single already-known-good manufactured case, introduced a
+  second, worse bug: `fetch.pd43`'s town-results table is one wide, sparse
+  frame accumulated across every year's elections, so a repeat candidate
+  like Baker/Polito has *both* spellings present as columns somewhere in
+  the full table, one of them all-zero for whichever year is actually
+  being processed. Searching the *full* column list let the exact-match
+  fast path match the wrong year's spelling and silently return zero
+  votes — not an error, a District full of computed "Safe D" results
+  from a governor's race Baker actually won. Caught only by noticing that
+  a 100%-one-label result across every single district in a chamber
+  doesn't happen in real election data, not by any warning or exception;
+  fixed by narrowing the searched columns to ones with real (nonzero) data
+  for that specific election before ever calling the resolver. Re-ran
+  every vintage/year/chamber combination after the fix and checked
+  systematically, not just by eye, for the same red flag (a single
+  competitiveness label or near-zero lean variance across a whole
+  chamber) — none remained.
+
 - `python -m ma_politics.build.generate_site_data --chamber both --current-vintage 2022-present --vintages 2001-2010,2012-2020,2022-present`
   Emits one Markdown-with-YAML-frontmatter file per district, seat,
   candidate, town, and party (`--districts-out-dir`/`--seats-out-dir`/
