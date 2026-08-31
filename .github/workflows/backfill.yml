@@ -1,0 +1,114 @@
+name: PD43+ backfill fetch
+
+# Fetches election results from PD43+ (electionstats.state.ma.us) for
+# House, Senate, and the statewide Governor/President baseline races,
+# 2002-2024 — see pipeline/README.md and pipeline/ma_politics/fetch/pd43.py.
+# This used to run as a long-lived background process in an interactive
+# Claude Code session, which kept dying whenever that sandbox's container
+# was recycled during idle periods. A GitHub-hosted runner doesn't have
+# that problem and has unrestricted network access, so it's a much better
+# home for a multi-hour, network-heavy, unattended fetch.
+#
+# Resumable across both runs and steps within a run, with no re-scraping:
+# - fetch_years() (pd43.py) is itself idempotent per election_id (skips
+#   IDs already on disk) and checkpoints per year, so it only ever fetches
+#   what's actually missing.
+# - What's "on disk" persists across runs via the pd43-raw-cache branch:
+#   an orphan branch holding only data/raw/pd43 and data/raw/pd43_statewide
+#   (data/raw is gitignored on every other branch — a pipeline
+#   intermediate, not site content — so this lives apart from those rules
+#   entirely rather than fighting them). Every run restores from that
+#   branch before fetching, and saves back to it after each chamber/office
+#   via ./.github/actions/save-pd43-progress, with `if: always()` so a
+#   failed or cancelled step still saves whatever was fetched before it
+#   failed.
+# - House/Senate/Governor/President are separate steps, each followed by
+#   its own save-progress step, so a failure partway through (e.g. Senate)
+#   doesn't require redoing House.
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Safety net, not the primary trigger: retries automatically if a
+    # previous run didn't finish. Once every office/chamber/year is fully
+    # fetched this becomes a fast no-op (fetch_years finds nothing new to
+    # fetch and returns immediately), so this is cheap to leave running.
+    - cron: "0 */6 * * *"
+
+concurrency:
+  group: pd43-backfill
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  CACHE_BRANCH: pd43-raw-cache
+  CACHE_WORKTREE: /tmp/pd43-raw-cache
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    # A few minutes short of GitHub's own 6-hour hard cap, so a run that's
+    # taking too long gets cancelled gracefully (letting the `if: always()`
+    # save-progress steps run) rather than hard-killed with nothing saved.
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pipeline package
+        run: pip install -e .
+
+      - name: Restore fetch cache
+        run: |
+          git fetch origin "$CACHE_BRANCH"
+          git worktree add "$CACHE_WORKTREE" "origin/$CACHE_BRANCH"
+          git -C "$CACHE_WORKTREE" config user.name "pd43-backfill-bot"
+          git -C "$CACHE_WORKTREE" config user.email "actions@users.noreply.github.com"
+          mkdir -p data/raw
+          cp -r "$CACHE_WORKTREE"/data/raw/. data/raw/
+          echo "Restored:"
+          find data/raw -type f
+
+      - name: Fetch House
+        run: python -m ma_politics.fetch.pd43 --chamber house --year-from 2002 --year-to 2024 -v
+
+      - name: Save progress (House)
+        if: always()
+        uses: ./.github/actions/save-pd43-progress
+
+      - name: Fetch Senate
+        run: python -m ma_politics.fetch.pd43 --chamber senate --year-from 2002 --year-to 2024 -v
+
+      - name: Save progress (Senate)
+        if: always()
+        uses: ./.github/actions/save-pd43-progress
+
+      - name: Fetch statewide Governor baseline
+        run: |
+          python -c "
+          from pathlib import Path
+          from ma_politics.fetch.pd43 import fetch_years
+          fetch_years('governor', 2002, 2024, Path('data/raw/pd43_statewide'))
+          "
+
+      - name: Save progress (Governor)
+        if: always()
+        uses: ./.github/actions/save-pd43-progress
+
+      - name: Fetch statewide President baseline
+        run: |
+          python -c "
+          from pathlib import Path
+          from ma_politics.fetch.pd43 import fetch_years
+          fetch_years('president', 2002, 2024, Path('data/raw/pd43_statewide'))
+          "
+
+      - name: Save progress (President)
+        if: always()
+        uses: ./.github/actions/save-pd43-progress

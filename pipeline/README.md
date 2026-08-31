@@ -22,7 +22,35 @@ skipped, so re-running after a future election only pulls new rows.
   `<chamber>_town_results.parquet` to `--out-dir` (default `data/raw/pd43`).
   Polite by default (0.5s min spacing between requests, retries with
   backoff); a full multi-decade backfill across both chambers is thousands
-  of requests and will take a while — run it in the background.
+  of requests, roughly a 2-3 hour job.
+
+  **Runs as a GitHub Actions workflow**
+  (`.github/workflows/backfill.yml`), not as a local background process —
+  it started that way, as a long-lived background process inside an
+  interactive Claude Code session, which turned out to be the wrong home
+  for it: that sandbox's container gets recycled during idle periods,
+  silently killing the process, sometimes hours before anyone noticed. A
+  GitHub-hosted runner doesn't have that failure mode and has unrestricted
+  network access. The workflow is resumable across both runs and steps
+  within a run, with no re-scraping of anything already fetched:
+  `fetch_years()` is already idempotent per `election_id` and checkpoints
+  per year (see its own docstring), and what's "on disk" persists between
+  runs via a dedicated orphan branch, `pd43-raw-cache`, holding only
+  `data/raw/pd43` and `data/raw/pd43_statewide` — `data/raw` is gitignored
+  on every other branch (a pipeline intermediate, not site content), so
+  this cache lives apart from that rule entirely rather than fighting it.
+  Every run restores from that branch, then fetches House, Senate,
+  Governor, and President as four separate steps, each immediately
+  followed by its own save-progress step (a small composite action,
+  `.github/actions/save-pd43-progress`) that commits and pushes whatever
+  changed, with `if: always()` so a step that fails or times out still
+  saves everything fetched before it failed — the next run (manual
+  `workflow_dispatch`, or the `schedule` trigger every 6 hours as a safety
+  net) just continues from there. Seeded once, from this project's own
+  in-progress local backfill, with House already through 2017 and Senate/
+  Governor through 2022 at seed time — that data was verified intact
+  (readable, correct year coverage) before being committed to the cache
+  branch, so the migration itself didn't lose anything already fetched.
 
 - `python -m ma_politics.fetch.district_boundaries --chamber both --vintage all`
   District boundaries — 2012-2020 and 2022-present from Census TIGER/Line,

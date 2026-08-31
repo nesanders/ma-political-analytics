@@ -1,0 +1,20 @@
+name: Save PD43+ fetch progress
+description: >
+  Copies the workflow's current data/raw into the pd43-raw-cache worktree
+  and commits+pushes it if anything changed. Shared by every step of
+  backfill.yml so each chamber/office gets its own checkpoint — see that
+  workflow's own top comment for why.
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        cp -r data/raw/. "$CACHE_WORKTREE"/data/raw/
+        cd "$CACHE_WORKTREE"
+        git add -A
+        if git diff --cached --quiet; then
+          echo "No new data to save."
+        else
+          git commit -m "Backfill progress: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push origin "HEAD:$CACHE_BRANCH"
+        fi
