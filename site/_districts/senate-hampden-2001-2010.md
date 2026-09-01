@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0555
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5539
+    own_tide: 0.5355
     war_v2: 0.1227
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2923
+    lean_component_sd: 0.0171
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5539
     expected_two_party_share_v2: 0.4867
   - name: Robert A. Magovern
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0555
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4461
+    own_tide: 0.4645
     war_v2: -0.0393
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2354
+    lean_component_sd: 0.0137
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4461
     expected_two_party_share_v2: 0.4299
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3552
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6448
+    own_tide: 0.632
     war_v2: 0.3195
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3403
+    lean_component_sd: 0.0199
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6448
     expected_two_party_share_v2: 0.6805
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3789
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6211
+    own_tide: 0.6116
     war_v2: 0.3216
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3278
+    lean_component_sd: 0.0191
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6211
     expected_two_party_share_v2: 0.6784
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1082
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6297
+    own_tide: 0.6274
     war_v2: 0.2115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3323
+    lean_component_sd: 0.0194
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6297
     expected_two_party_share_v2: 0.5264
   - name: Travis W. Chaput
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1082
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3703
+    own_tide: 0.3726
     war_v2: -0.1281
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1954
+    lean_component_sd: 0.0114
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3703
     expected_two_party_share_v2: 0.3902
   is_open_seat: true
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5031
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4969
+    own_tide: 0.4745
     war_v2: 0.5433
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2622
+    lean_component_sd: 0.0153
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4969
     expected_two_party_share_v2: 0.4567
   is_open_seat: null

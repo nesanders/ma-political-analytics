@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0824
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4901
+    own_tide: 0.5355
     war_v2: -0.0241
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2586
+    lean_component_sd: 0.0151
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4901
     expected_two_party_share_v2: 0.5966
   - name: Peter F. Winters
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0824
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5099
+    own_tide: 0.4645
     war_v2: -0.0361
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2691
+    lean_component_sd: 0.0157
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5099
     expected_two_party_share_v2: 0.4636
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4445
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5555
+    own_tide: 0.632
     war_v2: 0.3691
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2931
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5555
     expected_two_party_share_v2: 0.6309
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1214
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.587
+    own_tide: 0.6116
     war_v2: 0.0583
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3098
+    lean_component_sd: 0.0181
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.587
     expected_two_party_share_v2: 0.6501
   - name: Peter F. Winters
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1214
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.413
+    own_tide: 0.3884
     war_v2: -0.121
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2179
+    lean_component_sd: 0.0127
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.413
     expected_two_party_share_v2: 0.4126
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0635
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5869
+    own_tide: 0.6274
     war_v2: -0.0099
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3097
+    lean_component_sd: 0.0181
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.587
     expected_two_party_share_v2: 0.6604
   - name: John T. Haaland
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0635
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4131
+    own_tide: 0.3726
     war_v2: -0.0632
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.218
+    lean_component_sd: 0.0127
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.413
     expected_two_party_share_v2: 0.4127
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.5368
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4632
+    own_tide: 0.4745
     war_v2: 0.5611
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2444
+    lean_component_sd: 0.0143
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4632
     expected_two_party_share_v2: 0.4389
   is_open_seat: null

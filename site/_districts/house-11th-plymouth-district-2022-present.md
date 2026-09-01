@@ -29,13 +29,33 @@ results_by_year:
     war: 0.2796
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7204
+    own_tide: 0.6296
     war_v2: 0.2692
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3802
+    lean_component_sd: 0.0222
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7204
     expected_two_party_share_v2: 0.7308
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6976
+    lean_component_v3_demographics_sd: 0.0446
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.005
+    education_component_sd: 0.0142
+    expected_two_party_share_v3_demographics: 0.7585
+    war_v3_demographics: 0.2415
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7195
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.2805
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7195
+    own_tide: 0.6484
     war_v2: 0.4262
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3797
+    lean_component_sd: 0.0222
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.7195
     expected_two_party_share_v2: 0.5738
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6967
+    lean_component_v3_demographics_sd: 0.0445
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0051
+    education_component_sd: 0.0144
+    expected_two_party_share_v3_demographics: 0.6982
+    war_v3_demographics: 0.3018
+    war_v3_demographics_sd: 0.0625
   - name: Fred Fontaine
     slug: fred-fontaine
     party: Other
@@ -70,13 +110,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 47084

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5645
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4355
+    own_tide: 0.3288
     war_v2: 0.4317
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2298
+    lean_component_sd: 0.0134
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4355
     expected_two_party_share_v2: 0.5683
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2145
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7855
+    own_tide: 0.6679
     war_v2: 0.2478
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4145
+    lean_component_sd: 0.0242
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7855
     expected_two_party_share_v2: 0.7522
   - name: Matthew O. Moncreaff
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5165
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4835
+    own_tide: 0.3535
     war_v2: 0.404
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2551
+    lean_component_sd: 0.0149
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4835
     expected_two_party_share_v2: 0.596
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3447
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6553
+    own_tide: 0.5098
     war_v2: 0.3033
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3458
+    lean_component_sd: 0.0202
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6553
     expected_two_party_share_v2: 0.6967
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4741
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5259
+    own_tide: 0.3821
     war_v2: 0.5278
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2775
+    lean_component_sd: 0.0162
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.4722
   is_open_seat: null

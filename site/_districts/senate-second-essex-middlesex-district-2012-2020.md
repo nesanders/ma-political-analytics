@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3749
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6251
+    own_tide: 0.6712
     war_v2: 0.3196
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3299
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6251
     expected_two_party_share_v2: 0.6804
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3325
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2959
+    own_tide: 0.3321
     war_v2: 0.2774
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1561
+    lean_component_sd: 0.0091
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2959
     expected_two_party_share_v2: 0.351
   - name: Joseph M. Espinola, III
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3325
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7041
+    own_tide: 0.6679
     war_v2: -0.194
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3716
+    lean_component_sd: 0.0217
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7041
     expected_two_party_share_v2: 0.5656
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.007
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6282
+    own_tide: 0.6465
     war_v2: -0.0469
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3315
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6282
     expected_two_party_share_v2: 0.6821
   - name: Susan M. Laplante
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.007
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3718
+    own_tide: 0.3535
     war_v2: -0.0262
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1962
+    lean_component_sd: 0.0115
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3718
     expected_two_party_share_v2: 0.391
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0715
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4614
+    own_tide: 0.4902
     war_v2: 0.0949
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2435
+    lean_component_sd: 0.0142
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4614
     expected_two_party_share_v2: 0.438
   - name: Alex J. Vispoli
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0715
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5386
+    own_tide: 0.5098
     war_v2: -0.0115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2842
+    lean_component_sd: 0.0166
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5386
     expected_two_party_share_v2: 0.4786
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.059
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5928
+    own_tide: 0.6179
     war_v2: 0.1448
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3128
+    lean_component_sd: 0.0183
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5928
     expected_two_party_share_v2: 0.507
   - name: Paul Adams
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.059
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4072
+    own_tide: 0.3821
     war_v2: -0.0614
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2149
+    lean_component_sd: 0.0125
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4072
     expected_two_party_share_v2: 0.4096
   is_open_seat: null

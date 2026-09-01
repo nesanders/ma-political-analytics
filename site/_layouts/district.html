@@ -56,12 +56,24 @@ layout: default
       + that year's statewide tide + incumbency (1st/2nd/3rd-or-later
       term). This breaks each candidate's actual share into exactly those
       pieces, plus whatever's left over &mdash; WAR v2 itself, the part
-      attributable to the candidate. See the
+      attributable to the candidate. Where this district has a current-vintage
+      demographics match, a candidate's bar instead uses the WAR v3
+      demographics extension (same idea, with an added Education slice for
+      the district's bachelor's-degree share and its interaction with
+      statewide tide, folded into one component) &mdash; see the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the fitted coefficients, their uncertainty, and what they're
       based on.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR v2 residual for each candidate in {{ latest_contested.year }}"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for each candidate in {{ latest_contested.year }}"></div>
+    <p>
+      The chart above shows each component's best estimate; it doesn't show
+      how uncertain any of them are. This one does &mdash; the same
+      components, plotted as a point (the estimate) and a line (an
+      approximate 95% interval, from each coefficient's own posterior
+      uncertainty):
+    </p>
+    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the same attribution components with approximate 95% intervals, grouped by candidate"></div>
     {% else %}
     <p>No contested major-party race is on record for this district yet.</p>
     {% endif %}
@@ -223,29 +235,68 @@ layout: default
   vegaEmbed("#trend-chart", trendSpec, { actions: false }).catch(console.error);
 
   {% if latest_contested %}
+  // Field-by-field, both v2's own components and (when this district has
+  // a current-vintage demographics match) v3-demographics' distinctly-
+  // suffixed ones — see apply_war_v3_demographics's own docstring for why
+  // they're separate fields rather than overwriting v2's.
   const attributionCandidates = [
     {% for c in latest_contested.candidates %}
     {% if c.war_v2 %}
-    { "name": {{ c.name | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
-      "intercept_component": {{ c.intercept_component | jsonify }},
-      "lean_component": {{ c.lean_component | jsonify }},
-      "tide_component": {{ c.tide_component | jsonify }},
-      "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }},
-      "war_v2": {{ c.war_v2 | jsonify }} },
+    { "name": {{ c.name | jsonify }}, "party": {{ c.party | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
+      "intercept_component": {{ c.intercept_component | jsonify }}, "intercept_component_sd": {{ c.intercept_component_sd | jsonify }},
+      "lean_component": {{ c.lean_component | jsonify }}, "lean_component_sd": {{ c.lean_component_sd | jsonify }},
+      "tide_component": {{ c.tide_component | jsonify }}, "tide_component_sd": {{ c.tide_component_sd | jsonify }},
+      "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ c.incumbency_adjustment_sd | jsonify }},
+      "war_v2": {{ c.war_v2 | jsonify }}, "war_v2_sd": {{ c.war_v2_sd | jsonify }},
+      "intercept_component_v3_demographics": {{ c.intercept_component_v3_demographics | jsonify }}, "intercept_component_v3_demographics_sd": {{ c.intercept_component_v3_demographics_sd | jsonify }},
+      "lean_component_v3_demographics": {{ c.lean_component_v3_demographics | jsonify }}, "lean_component_v3_demographics_sd": {{ c.lean_component_v3_demographics_sd | jsonify }},
+      "tide_component_v3_demographics": {{ c.tide_component_v3_demographics | jsonify }}, "tide_component_v3_demographics_sd": {{ c.tide_component_v3_demographics_sd | jsonify }},
+      "incumbency_adjustment_v3_demographics": {{ c.incumbency_adjustment_v3_demographics | jsonify }}, "incumbency_adjustment_v3_demographics_sd": {{ c.incumbency_adjustment_v3_demographics_sd | jsonify }},
+      "education_component": {{ c.education_component | jsonify }}, "education_component_sd": {{ c.education_component_sd | jsonify }},
+      "war_v3_demographics": {{ c.war_v3_demographics | jsonify }}, "war_v3_demographics_sd": {{ c.war_v3_demographics_sd | jsonify }} },
     {% endif %}
     {% endfor %}
   ];
-  const attributionComponents = [
-    ["Intercept", "intercept_component", "--war-intercept"],
-    ["Lean", "lean_component", "--war-lean"],
-    ["Statewide tide", "tide_component", "--war-tide"],
-    ["Incumbency", "incumbency_adjustment", "--war-incumbency"],
-    ["WAR v2 (residual)", "war_v2", "--war-residual"],
+  // Canonical component order/colors, shared by both decompositions —
+  // v2 candidates simply have no "Education" entry in their field map, so
+  // that segment is skipped for them rather than plotted as zero.
+  const CANONICAL_COMPONENTS = [
+    ["Intercept", "--war-intercept"],
+    ["Lean", "--war-lean"],
+    ["Statewide tide", "--war-tide"],
+    ["Incumbency", "--war-incumbency"],
+    ["Education", "--war-extra"],
+    ["WAR (residual)", "--war-residual"],
   ];
+  const V2_FIELDS = {
+    "Intercept": ["intercept_component", "intercept_component_sd"],
+    "Lean": ["lean_component", "lean_component_sd"],
+    "Statewide tide": ["tide_component", "tide_component_sd"],
+    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
+    "WAR (residual)": ["war_v2", "war_v2_sd"],
+  };
+  const V3_FIELDS = {
+    "Intercept": ["intercept_component_v3_demographics", "intercept_component_v3_demographics_sd"],
+    "Lean": ["lean_component_v3_demographics", "lean_component_v3_demographics_sd"],
+    "Statewide tide": ["tide_component_v3_demographics", "tide_component_v3_demographics_sd"],
+    "Incumbency": ["incumbency_adjustment_v3_demographics", "incumbency_adjustment_v3_demographics_sd"],
+    "Education": ["education_component", "education_component_sd"],
+    "WAR (residual)": ["war_v3_demographics", "war_v3_demographics_sd"],
+  };
   const attributionData = [];
+  const uncertaintyData = [];
   attributionCandidates.forEach((c) => {
-    attributionComponents.forEach(([label, field, cssVarName], order) => {
-      attributionData.push({ candidate: c.name, url: c.url, component: label, order, value: c[field] });
+    const useV3 = c.education_component !== null && c.education_component !== undefined;
+    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
+    CANONICAL_COMPONENTS.forEach(([label], order) => {
+      const fields = fieldMap[label];
+      if (!fields) return;
+      const [valueField, sdField] = fields;
+      const value = c[valueField];
+      if (value === null || value === undefined) return;
+      attributionData.push({ candidate: c.name, url: c.url, component: label, order, value });
+      const sd = c[sdField] || 0;
+      uncertaintyData.push({ candidate: c.name, party: c.party, component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
     });
   });
   const attributionSpec = {
@@ -262,8 +313,8 @@ layout: default
       "color": {
         "field": "component", "type": "nominal", "title": "Component",
         "scale": {
-          "domain": attributionComponents.map((c) => c[0]),
-          "range": attributionComponents.map((c) => trendCssVar(c[2]))
+          "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+          "range": CANONICAL_COMPONENTS.map((c) => trendCssVar(c[1]))
         }
       },
       "href": { "field": "url", "type": "nominal" },
@@ -276,5 +327,55 @@ layout: default
     "config": trendAxisConfig
   };
   vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
+
+  const uncertaintySpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 240,
+    "background": null,
+    "layer": [
+      {
+        "data": { "values": [{ "x": 0 }] },
+        "mark": { "type": "rule", "strokeDash": [4, 2] },
+        "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": trendCssVar("--gridline") } }
+      },
+      {
+        "data": { "values": uncertaintyData },
+        "mark": { "type": "rule", "size": 2 },
+        "encoding": {
+          "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+          "yOffset": { "field": "candidate" },
+          "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
+          "x2": { "field": "hi" },
+          "color": {
+            "field": "party", "type": "nominal", "title": "Candidate",
+            "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+          }
+        }
+      },
+      {
+        "data": { "values": uncertaintyData },
+        "mark": { "type": "point", "filled": true, "size": 90 },
+        "encoding": {
+          "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+          "yOffset": { "field": "candidate" },
+          "x": { "field": "mean", "type": "quantitative" },
+          "color": {
+            "field": "party", "type": "nominal",
+            "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+          },
+          "tooltip": [
+            { "field": "candidate", "title": "Candidate" },
+            { "field": "component", "title": "Component" },
+            { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
+            { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
+            { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
+          ]
+        }
+      }
+    ],
+    "config": trendAxisConfig
+  };
+  vegaEmbed("#attribution-uncertainty-chart", uncertaintySpec, { actions: false }).catch(console.error);
   {% endif %}
 </script>

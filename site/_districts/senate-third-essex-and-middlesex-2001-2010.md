@@ -32,11 +32,18 @@ results_by_year:
     war: 0.153
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5223
+    own_tide: 0.5355
     war_v2: 0.0617
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2756
+    lean_component_sd: 0.0161
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5223
     expected_two_party_share_v2: 0.6136
   - name: Christopher Jordan Dent
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.153
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4777
+    own_tide: 0.4645
     war_v2: -0.1219
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2521
+    lean_component_sd: 0.0147
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4777
     expected_two_party_share_v2: 0.4466
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3595
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6405
+    own_tide: 0.632
     war_v2: 0.3243
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.338
+    lean_component_sd: 0.0197
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6405
     expected_two_party_share_v2: 0.6757
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3828
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6172
+    own_tide: 0.6116
     war_v2: 0.334
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3257
+    lean_component_sd: 0.019
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6172
     expected_two_party_share_v2: 0.666
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3457
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6543
+    own_tide: 0.6274
     war_v2: 0.3041
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3453
+    lean_component_sd: 0.0202
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6543
     expected_two_party_share_v2: 0.6959
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.5233
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4767
+    own_tide: 0.4745
     war_v2: 0.5539
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2516
+    lean_component_sd: 0.0147
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.4461
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.447
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.553
+    own_tide: 0.4645
     war_v2: 0.3701
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2918
+    lean_component_sd: 0.017
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.553
     expected_two_party_share_v2: 0.6299
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2392
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4548
+    own_tide: 0.368
     war_v2: 0.1156
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.24
+    lean_component_sd: 0.014
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4548
     expected_two_party_share_v2: 0.5784
   - name: Brian R. Hoose
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2392
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5452
+    own_tide: 0.632
     war_v2: -0.1758
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2877
+    lean_component_sd: 0.0168
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5452
     expected_two_party_share_v2: 0.4818
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5565
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4435
+    own_tide: 0.3884
     war_v2: 0.4252
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.234
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.5748
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.545
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.455
+    own_tide: 0.3726
     war_v2: 0.4087
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2401
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.455
     expected_two_party_share_v2: 0.5913
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.0654
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5654
+    own_tide: 0.5255
     war_v2: 0.1381
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2984
+    lean_component_sd: 0.0174
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4928
   - name: Bo Sullivan
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.0654
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4346
+    own_tide: 0.4745
     war_v2: -0.0547
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2293
+    lean_component_sd: 0.0134
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4238
   is_open_seat: null

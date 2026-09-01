@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1521
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4673
+    own_tide: 0.5355
     war_v2: 0.0219
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2466
+    lean_component_sd: 0.0144
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4673
     expected_two_party_share_v2: 0.5975
   - name: Katherine Kozitza
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1521
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5327
+    own_tide: 0.4645
     war_v2: -0.095
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2811
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5327
     expected_two_party_share_v2: 0.4756
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.0285
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6388
+    own_tide: 0.632
     war_v2: 0.136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3371
+    lean_component_sd: 0.0197
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6387
     expected_two_party_share_v2: 0.5312
   - name: John Blaisdell
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.0285
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3612
+    own_tide: 0.368
     war_v2: -0.0526
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1906
+    lean_component_sd: 0.0111
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.3613
     expected_two_party_share_v2: 0.3854
   is_open_seat: true
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.3923
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6077
+    own_tide: 0.6116
     war_v2: 0.339
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3207
+    lean_component_sd: 0.0187
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6077
     expected_two_party_share_v2: 0.661
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.014
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6408
+    own_tide: 0.6274
     war_v2: -0.034
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3382
+    lean_component_sd: 0.0197
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6408
     expected_two_party_share_v2: 0.6888
   - name: Sharon D. Randall
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.014
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3592
+    own_tide: 0.3726
     war_v2: -0.0391
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1895
+    lean_component_sd: 0.0111
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3592
     expected_two_party_share_v2: 0.3843
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.5743
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4257
+    own_tide: 0.4745
     war_v2: 0.5808
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2246
+    lean_component_sd: 0.0131
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4257
     expected_two_party_share_v2: 0.4192
   is_open_seat: null

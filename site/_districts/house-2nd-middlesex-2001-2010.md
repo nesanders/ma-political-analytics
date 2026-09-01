@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5687
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4313
+    own_tide: 0.5355
     war_v2: 0.4215
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2276
+    lean_component_sd: 0.0133
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4313
     expected_two_party_share_v2: 0.5785
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: -0.0247
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5565
+    own_tide: 0.632
     war_v2: 0.044
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2937
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5565
     expected_two_party_share_v2: 0.4878
   - name: Paul J. Avella
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.0247
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4435
+    own_tide: 0.368
     war_v2: 0.0394
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.234
+    lean_component_sd: 0.0137
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4288
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5008
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4992
+    own_tide: 0.6116
     war_v2: 0.3963
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2634
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4992
     expected_two_party_share_v2: 0.6037
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0115
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.539
+    own_tide: 0.6274
     war_v2: -0.0846
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2844
+    lean_component_sd: 0.0166
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.539
     expected_two_party_share_v2: 0.6351
   - name: Dennis J. Galvin
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0115
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.461
+    own_tide: 0.3726
     war_v2: 0.0115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2433
+    lean_component_sd: 0.0142
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.461
     expected_two_party_share_v2: 0.438
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.6518
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3482
+    own_tide: 0.4745
     war_v2: 0.6217
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1837
+    lean_component_sd: 0.0107
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3482
     expected_two_party_share_v2: 0.3783
   is_open_seat: null

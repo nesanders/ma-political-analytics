@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2277
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7723
+    own_tide: 0.6712
     war_v2: 0.2523
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4075
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7723
     expected_two_party_share_v2: 0.7477
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5441
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4559
+    own_tide: 0.3321
     war_v2: 0.4081
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2406
+    lean_component_sd: 0.014
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4559
     expected_two_party_share_v2: 0.5919
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1116
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7441
+    own_tide: 0.6465
     war_v2: 0.2689
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3927
+    lean_component_sd: 0.0229
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7441
     expected_two_party_share_v2: 0.5868
   - name: Danny J. Yoon
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.1116
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2559
+    own_tide: 0.3535
     war_v2: -0.1855
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.135
+    lean_component_sd: 0.0079
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.2559
     expected_two_party_share_v2: 0.3298
   is_open_seat: true
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3675
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6325
+    own_tide: 0.4902
     war_v2: 0.3153
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3338
+    lean_component_sd: 0.0195
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6325
     expected_two_party_share_v2: 0.6847
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2564
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7436
+    own_tide: 0.6179
     war_v2: 0.4134
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3924
+    lean_component_sd: 0.0229
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7436
     expected_two_party_share_v2: 0.5866
   is_open_seat: null

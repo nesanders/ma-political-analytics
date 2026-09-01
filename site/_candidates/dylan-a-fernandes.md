@@ -13,16 +13,36 @@ races:
   winner: true
   actual_two_party_share: 0.5121
   war: -0.0414
+  own_lean: 0.5536
+  own_tide: 0.6296
   war_v2: 0.0258
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2921
+  lean_component_sd: 0.0171
   tide_component: -0.0014
+  tide_component_sd: 0.0225
   expected_two_party_share: 0.5535
   expected_two_party_share_v2: 0.4863
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -33,16 +53,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.289
+  own_lean: 0.711
+  own_tide: 0.6484
   war_v2: 0.4307
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3752
+  lean_component_sd: 0.0219
   tide_component: -0.0015
+  tide_component_sd: 0.0232
   expected_two_party_share: 0.711
   expected_two_party_share_v2: 0.5693
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -53,16 +93,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2713
+  own_lean: 0.7287
+  own_tide: 0.6712
   war_v2: 0.2753
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1461
+  incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3845
+  lean_component_sd: 0.0224
   tide_component: -0.0015
+  tide_component_sd: 0.024
   expected_two_party_share: 0.7287
   expected_two_party_share_v2: 0.7247
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -73,16 +133,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6238
+  own_lean: 0.3762
+  own_tide: 0.3321
   war_v2: 0.4501
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1565
+  incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.1985
+  lean_component_sd: 0.0116
   tide_component: -0.0008
+  tide_component_sd: 0.0119
   expected_two_party_share: 0.3762
   expected_two_party_share_v2: 0.5499
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -93,16 +173,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3032
+  own_lean: 0.6968
+  own_tide: 0.6465
   war_v2: 0.4382
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3677
+  lean_component_sd: 0.0215
   tide_component: -0.0015
+  tide_component_sd: 0.0231
   expected_two_party_share: 0.6968
   expected_two_party_share_v2: 0.5618
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 title: Dylan A. Fernandes
 layout: candidate
 ---

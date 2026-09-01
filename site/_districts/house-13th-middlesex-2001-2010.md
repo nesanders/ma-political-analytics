@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4362
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5638
+    own_tide: 0.5355
     war_v2: 0.362
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2975
+    lean_component_sd: 0.0174
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5638
     expected_two_party_share_v2: 0.638
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: -0.091
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6798
+    own_tide: 0.632
     war_v2: -0.1206
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3587
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6798
     expected_two_party_share_v2: 0.7094
   - name: Susan W. Pope
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.091
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3202
+    own_tide: 0.368
     war_v2: 0.0475
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.169
+    lean_component_sd: 0.0099
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.3202
     expected_two_party_share_v2: 0.3637
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.1055
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6248
+    own_tide: 0.6116
     war_v2: -0.0046
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3297
+    lean_component_sd: 0.0192
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6248
     expected_two_party_share_v2: 0.5239
   - name: Susan W. Pope
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.1055
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3752
+    own_tide: 0.3884
     war_v2: -0.0581
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.198
+    lean_component_sd: 0.0116
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.3752
     expected_two_party_share_v2: 0.5388
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.1753
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3419
+    own_tide: 0.3726
     war_v2: -0.0145
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1804
+    lean_component_sd: 0.0105
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3419
     expected_two_party_share_v2: 0.5317
   - name: John C. Thomas
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1753
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6581
+    own_tide: 0.6274
     war_v2: -0.0586
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3473
+    lean_component_sd: 0.0203
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6581
     expected_two_party_share_v2: 0.5414
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4294
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5706
+    own_tide: 0.5255
     war_v2: 0.5045
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3011
+    lean_component_sd: 0.0176
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5706
     expected_two_party_share_v2: 0.4955
   is_open_seat: null

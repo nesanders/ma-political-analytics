@@ -32,11 +32,18 @@ results_by_year:
     war: -0.094
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6197
+    own_tide: 0.4645
     war_v2: 0.0042
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.327
+    lean_component_sd: 0.0191
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6197
     expected_two_party_share_v2: 0.5215
   - name: Jennifer M. Callahan
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.094
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3803
+    own_tide: 0.5355
     war_v2: -0.0644
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2007
+    lean_component_sd: 0.0117
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3803
     expected_two_party_share_v2: 0.5387
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4878
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5122
+    own_tide: 0.632
     war_v2: 0.392
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2703
+    lean_component_sd: 0.0158
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5122
     expected_two_party_share_v2: 0.608
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4768
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5232
+    own_tide: 0.6116
     war_v2: 0.3836
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2761
+    lean_component_sd: 0.0161
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5232
     expected_two_party_share_v2: 0.6164
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1975
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5318
+    own_tide: 0.6274
     war_v2: 0.098
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2806
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5318
     expected_two_party_share_v2: 0.6313
   - name: David M. Funnell
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1975
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4682
+    own_tide: 0.3726
     war_v2: -0.1711
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2471
+    lean_component_sd: 0.0144
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4682
     expected_two_party_share_v2: 0.4418
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.2278
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3822
+    own_tide: 0.4745
     war_v2: 0.2138
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2017
+    lean_component_sd: 0.0118
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3822
     expected_two_party_share_v2: 0.3962
   - name: Peter A. Amorello
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.2278
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6178
+    own_tide: 0.5255
     war_v2: -0.1304
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.326
+    lean_component_sd: 0.019
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6178
     expected_two_party_share_v2: 0.5204
   - name: Robert J. Badzmierowski
@@ -196,11 +252,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

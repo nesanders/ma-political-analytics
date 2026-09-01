@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2544
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7456
+    own_tide: 0.6712
     war_v2: 0.256
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3935
+    lean_component_sd: 0.023
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7456
     expected_two_party_share_v2: 0.744
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5341
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4659
+    own_tide: 0.3321
     war_v2: 0.5593
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2459
+    lean_component_sd: 0.0143
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4659
     expected_two_party_share_v2: 0.4407
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2824
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7176
+    own_tide: 0.6465
     war_v2: 0.2811
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3787
+    lean_component_sd: 0.0221
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7176
     expected_two_party_share_v2: 0.7189
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.0558
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6439
+    own_tide: 0.4902
     war_v2: 0.0088
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3398
+    lean_component_sd: 0.0198
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6438
     expected_two_party_share_v2: 0.6908
   - name: Dylan E. Korpita
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.0558
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3561
+    own_tide: 0.5098
     war_v2: -0.0819
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1879
+    lean_component_sd: 0.011
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.3562
     expected_two_party_share_v2: 0.3823
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2517
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7483
+    own_tide: 0.6179
     war_v2: 0.4109
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3949
+    lean_component_sd: 0.023
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7483
     expected_two_party_share_v2: 0.5891
   is_open_seat: null

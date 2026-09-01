@@ -32,11 +32,18 @@ results_by_year:
     war: 0.27
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.73
+    own_tide: 0.6712
     war_v2: 0.4207
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3852
+    lean_component_sd: 0.0225
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.73
     expected_two_party_share_v2: 0.5793
   - name: Robert J. Underwood
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5717
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4283
+    own_tide: 0.3321
     war_v2: 0.433
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.226
+    lean_component_sd: 0.0132
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4283
     expected_two_party_share_v2: 0.567
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.2283
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7717
+    own_tide: 0.6465
     war_v2: 0.2422
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4072
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7717
     expected_two_party_share_v2: 0.7578
   - name: Robert J. Underwood
@@ -114,11 +142,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.3574
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6426
+    own_tide: 0.4902
     war_v2: 0.4664
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3391
+    lean_component_sd: 0.0198
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6426
     expected_two_party_share_v2: 0.5336
   - name: Robert J. Underwood
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.2011
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7989
+    own_tide: 0.6179
     war_v2: 0.3842
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4216
+    lean_component_sd: 0.0246
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7989
     expected_two_party_share_v2: 0.6158
   - name: Robert J. Underwood
@@ -196,11 +252,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

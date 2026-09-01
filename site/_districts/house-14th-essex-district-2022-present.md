@@ -29,13 +29,33 @@ results_by_year:
     war: 0.403
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.597
+    own_tide: 0.6296
     war_v2: 0.3343
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.315
+    lean_component_sd: 0.0184
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.597
     expected_two_party_share_v2: 0.6657
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5781
+    lean_component_v3_demographics_sd: 0.037
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0138
+    education_component_sd: 0.0392
+    expected_two_party_share_v3_demographics: 0.6302
+    war_v3_demographics: 0.3698
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.595
@@ -54,13 +74,33 @@ results_by_year:
     war: -0.0521
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.595
+    own_tide: 0.6484
     war_v2: 0.0348
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.314
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.595
     expected_two_party_share_v2: 0.5081
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5761
+    lean_component_v3_demographics_sd: 0.0368
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0141
+    education_component_sd: 0.0397
+    expected_two_party_share_v3_demographics: 0.5686
+    war_v3_demographics: -0.0257
+    war_v3_demographics_sd: 0.0625
   - name: Joseph G. Finn
     slug: joseph-g-finn
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0521
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.405
+    own_tide: 0.3516
     war_v2: 0.0486
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2137
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.405
     expected_two_party_share_v2: 0.4085
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3922
+    lean_component_v3_demographics_sd: 0.0251
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0092
+    education_component_sd: 0.0333
+    expected_two_party_share_v3_demographics: 0.4141
+    war_v3_demographics: 0.043
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 47705

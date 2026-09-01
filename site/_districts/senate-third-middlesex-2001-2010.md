@@ -32,11 +32,18 @@ results_by_year:
     war: 0.031
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5391
+    own_tide: 0.5355
     war_v2: -0.0524
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2845
+    lean_component_sd: 0.0166
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5391
     expected_two_party_share_v2: 0.6225
   - name: Sandra B. Martinez
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.031
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4609
+    own_tide: 0.4645
     war_v2: -0.0078
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2432
+    lean_component_sd: 0.0142
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4609
     expected_two_party_share_v2: 0.4377
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.016
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6413
+    own_tide: 0.632
     war_v2: -0.0509
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3384
+    lean_component_sd: 0.0198
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6413
     expected_two_party_share_v2: 0.6762
   - name: Sandra B. Martinez
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.016
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3587
+    own_tide: 0.368
     war_v2: -0.0093
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1893
+    lean_component_sd: 0.011
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.3587
     expected_two_party_share_v2: 0.384
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0474
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5919
+    own_tide: 0.6116
     war_v2: -0.0133
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3123
+    lean_component_sd: 0.0182
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5919
     expected_two_party_share_v2: 0.6526
   - name: Sandra B. Martinez
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0474
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4081
+    own_tide: 0.3884
     war_v2: -0.0494
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2154
+    lean_component_sd: 0.0126
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4081
     expected_two_party_share_v2: 0.4101
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0271
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6245
+    own_tide: 0.6274
     war_v2: -0.0828
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3295
+    lean_component_sd: 0.0192
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6245
     expected_two_party_share_v2: 0.6802
   - name: John C. Thibault
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0271
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3755
+    own_tide: 0.3726
     war_v2: 0.0097
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1982
+    lean_component_sd: 0.0116
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3755
     expected_two_party_share_v2: 0.3929
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.5672
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4328
+    own_tide: 0.4745
     war_v2: 0.5771
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2284
+    lean_component_sd: 0.0133
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4328
     expected_two_party_share_v2: 0.4229
   is_open_seat: null

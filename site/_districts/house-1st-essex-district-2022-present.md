@@ -29,13 +29,33 @@ results_by_year:
     war: 0.3577
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6423
+    own_tide: 0.6296
     war_v2: 0.4669
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3389
+    lean_component_sd: 0.0198
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6423
     expected_two_party_share_v2: 0.5331
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6219
+    lean_component_v3_demographics_sd: 0.0398
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0149
+    education_component_sd: 0.0425
+    expected_two_party_share_v3_demographics: 0.6152
+    war_v3_demographics: 0.3848
+    war_v3_demographics_sd: 0.0625
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6555
@@ -54,13 +74,33 @@ results_by_year:
     war: -0.0591
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6555
+    own_tide: 0.6484
     war_v2: 0.0564
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3459
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6555
     expected_two_party_share_v2: 0.54
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6347
+    lean_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0153
+    education_component_sd: 0.043
+    expected_two_party_share_v3_demographics: 0.6261
+    war_v3_demographics: -0.0297
+    war_v3_demographics_sd: 0.0625
   - name: Cj Fitzwater
     slug: cj-fitzwater
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0591
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3445
+    own_tide: 0.3516
     war_v2: 0.027
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1818
+    lean_component_sd: 0.0106
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.3445
     expected_two_party_share_v2: 0.3766
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3336
+    lean_component_v3_demographics_sd: 0.0213
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0099
+    education_component_sd: 0.036
+    expected_two_party_share_v3_demographics: 0.3548
+    war_v3_demographics: 0.0488
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44891

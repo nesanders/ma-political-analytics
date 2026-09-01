@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5297
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4703
+    own_tide: 0.3288
     war_v2: 0.4005
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2482
+    lean_component_sd: 0.0145
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4703
     expected_two_party_share_v2: 0.5995
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: -0.2169
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7749
+    own_tide: 0.6679
     war_v2: -0.045
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4089
+    lean_component_sd: 0.0239
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7749
     expected_two_party_share_v2: 0.603
   - name: Alex A. Bezanson
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2169
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2251
+    own_tide: 0.3321
     war_v2: 0.1284
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1188
+    lean_component_sd: 0.0069
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2251
     expected_two_party_share_v2: 0.3136
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4757
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5243
+    own_tide: 0.3535
     war_v2: 0.3824
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2767
+    lean_component_sd: 0.0161
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5243
     expected_two_party_share_v2: 0.6176
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3652
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6348
+    own_tide: 0.5098
     war_v2: 0.3141
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.335
+    lean_component_sd: 0.0196
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6348
     expected_two_party_share_v2: 0.6859
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.0348
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5076
+    own_tide: 0.3821
     war_v2: 0.0798
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2679
+    lean_component_sd: 0.0156
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5076
     expected_two_party_share_v2: 0.4626
   - name: Robert L. Toomey, Jr.
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.0348
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4924
+    own_tide: 0.6179
     war_v2: 0.0036
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2598
+    lean_component_sd: 0.0152
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4924
     expected_two_party_share_v2: 0.454
   is_open_seat: null

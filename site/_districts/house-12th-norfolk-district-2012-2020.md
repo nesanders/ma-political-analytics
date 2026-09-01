@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3581
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6419
+    own_tide: 0.6712
     war_v2: 0.3236
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3387
+    lean_component_sd: 0.0198
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6419
     expected_two_party_share_v2: 0.6764
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7346
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2654
+    own_tide: 0.3321
     war_v2: 0.5215
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1401
+    lean_component_sd: 0.0082
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2654
     expected_two_party_share_v2: 0.4785
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.0667
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5933
+    own_tide: 0.6465
     war_v2: 0.0067
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3131
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5933
     expected_two_party_share_v2: 0.6533
   - name: Tim Hempton
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0667
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4067
+    own_tide: 0.3535
     war_v2: -0.0694
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2146
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4067
     expected_two_party_share_v2: 0.4094
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1749
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4063
+    own_tide: 0.4902
     war_v2: 0.0158
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2144
+    lean_component_sd: 0.0125
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4063
     expected_two_party_share_v2: 0.5654
   - name: Tim Hempton
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1749
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5937
+    own_tide: 0.5098
     war_v2: -0.0889
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3133
+    lean_component_sd: 0.0183
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5937
     expected_two_party_share_v2: 0.5077
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0747
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5326
+    own_tide: 0.6179
     war_v2: 0.132
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2811
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5325
     expected_two_party_share_v2: 0.4752
   - name: James M. Stanton
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0747
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4674
+    own_tide: 0.3821
     war_v2: -0.0486
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2466
+    lean_component_sd: 0.0144
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4675
     expected_two_party_share_v2: 0.4414
   is_open_seat: null

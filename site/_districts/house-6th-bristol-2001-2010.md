@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0647
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5715
+    own_tide: 0.5355
     war_v2: -0.0033
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3016
+    lean_component_sd: 0.0176
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5715
     expected_two_party_share_v2: 0.6395
   - name: David K. Rose
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0647
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4285
+    own_tide: 0.4645
     war_v2: -0.0569
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2261
+    lean_component_sd: 0.0132
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4285
     expected_two_party_share_v2: 0.4207
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3389
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6611
+    own_tide: 0.632
     war_v2: 0.3134
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3489
+    lean_component_sd: 0.0204
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6611
     expected_two_party_share_v2: 0.6866
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3193
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6807
+    own_tide: 0.6116
     war_v2: 0.3005
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3592
+    lean_component_sd: 0.021
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6807
     expected_two_party_share_v2: 0.6995
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3079
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6921
+    own_tide: 0.6274
     war_v2: 0.2841
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3652
+    lean_component_sd: 0.0213
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6921
     expected_two_party_share_v2: 0.7159
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3943
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6057
+    own_tide: 0.4745
     war_v2: 0.4859
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3196
+    lean_component_sd: 0.0187
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6057
     expected_two_party_share_v2: 0.5141
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3238
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6762
+    own_tide: 0.6712
     war_v2: 0.3055
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3568
+    lean_component_sd: 0.0208
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6762
     expected_two_party_share_v2: 0.6945
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3889
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2553
+    own_tide: 0.3321
     war_v2: 0.171
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1347
+    lean_component_sd: 0.0079
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2553
     expected_two_party_share_v2: 0.4732
   - name: Kathleen Lynch
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3889
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7447
+    own_tide: 0.6679
     war_v2: -0.2312
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.393
+    lean_component_sd: 0.0229
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7447
     expected_two_party_share_v2: 0.587
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.381
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.619
+    own_tide: 0.6465
     war_v2: 0.3331
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3266
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.619
     expected_two_party_share_v2: 0.6669
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1475
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3959
+    own_tide: 0.4902
     war_v2: -0.0166
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2089
+    lean_component_sd: 0.0122
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3958
     expected_two_party_share_v2: 0.5599
   - name: Dennis J. Galvin
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1475
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6041
+    own_tide: 0.5098
     war_v2: -0.0565
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3188
+    lean_component_sd: 0.0186
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6042
     expected_two_party_share_v2: 0.5132
   - name: Arleen M. Martino
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1368
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5142
+    own_tide: 0.6179
     war_v2: 0.1855
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2713
+    lean_component_sd: 0.0158
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5142
     expected_two_party_share_v2: 0.4655
   - name: Valerie A. Wormell
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.1368
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4858
+    own_tide: 0.3821
     war_v2: -0.1021
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2564
+    lean_component_sd: 0.015
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4858
     expected_two_party_share_v2: 0.4511
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0658
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6195
+    own_tide: 0.5355
     war_v2: 0.0324
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3269
+    lean_component_sd: 0.0191
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6195
     expected_two_party_share_v2: 0.5213
   - name: Steven E. Adam
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0658
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3805
+    own_tide: 0.4645
     war_v2: 0.051
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2008
+    lean_component_sd: 0.0117
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.3805
     expected_two_party_share_v2: 0.3953
   - name: Genevieve C. Fraser
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1123
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6786
+    own_tide: 0.632
     war_v2: 0.0951
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3581
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6786
     expected_two_party_share_v2: 0.6958
   - name: Robert E. Parks
@@ -105,11 +133,18 @@ results_by_year:
     war: -0.1123
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3214
+    own_tide: 0.368
     war_v2: -0.1553
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1696
+    lean_component_sd: 0.0099
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.3214
     expected_two_party_share_v2: 0.3644
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.2952
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7048
+    own_tide: 0.6116
     war_v2: 0.2878
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3719
+    lean_component_sd: 0.0217
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7048
     expected_two_party_share_v2: 0.7122
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.1288
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6321
+    own_tide: 0.6274
     war_v2: 0.0767
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3336
+    lean_component_sd: 0.0195
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6321
     expected_two_party_share_v2: 0.6842
   - name: Christopher Eugene Richard
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.1288
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3679
+    own_tide: 0.3726
     war_v2: -0.1498
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1941
+    lean_component_sd: 0.0113
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3679
     expected_two_party_share_v2: 0.3889
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.4782
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5218
+    own_tide: 0.4745
     war_v2: 0.5301
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2754
+    lean_component_sd: 0.0161
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5218
     expected_two_party_share_v2: 0.4699
   is_open_seat: null

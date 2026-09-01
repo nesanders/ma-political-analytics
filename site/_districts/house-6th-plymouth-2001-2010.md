@@ -32,11 +32,18 @@ results_by_year:
     war: -0.1031
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6169
+    own_tide: 0.4645
     war_v2: -0.1499
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3255
+    lean_component_sd: 0.019
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6169
     expected_two_party_share_v2: 0.6637
   - name: Josh S. Cutler
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.1031
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3831
+    own_tide: 0.5355
     war_v2: 0.0897
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2022
+    lean_component_sd: 0.0118
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3831
     expected_two_party_share_v2: 0.3965
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4985
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5015
+    own_tide: 0.368
     war_v2: 0.397
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2646
+    lean_component_sd: 0.0154
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.5015
     expected_two_party_share_v2: 0.603
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0063
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5135
+    own_tide: 0.3884
     war_v2: -0.0921
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.271
+    lean_component_sd: 0.0158
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.5134
     expected_two_party_share_v2: 0.6118
   - name: Greg Hanley
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0063
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4865
+    own_tide: 0.6116
     war_v2: 0.0294
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2567
+    lean_component_sd: 0.015
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4866
     expected_two_party_share_v2: 0.4509
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.5096
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4904
+    own_tide: 0.3726
     war_v2: 0.39
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2588
+    lean_component_sd: 0.0151
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4904
     expected_two_party_share_v2: 0.61
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.1018
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6403
+    own_tide: 0.5255
     war_v2: 0.0062
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3379
+    lean_component_sd: 0.0197
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6403
     expected_two_party_share_v2: 0.5323
   - name: Bridget A. Simmons
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1018
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3597
+    own_tide: 0.4745
     war_v2: 0.0772
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1898
+    lean_component_sd: 0.0111
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3597
     expected_two_party_share_v2: 0.3843
   is_open_seat: null

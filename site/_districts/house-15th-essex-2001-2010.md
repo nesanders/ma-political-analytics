@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1799
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3995
+    own_tide: 0.5355
     war_v2: 0.0281
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2108
+    lean_component_sd: 0.0123
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3995
     expected_two_party_share_v2: 0.5513
   - name: Al DiNuccio
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1799
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6005
+    own_tide: 0.4645
     war_v2: -0.0908
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3169
+    lean_component_sd: 0.0185
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6005
     expected_two_party_share_v2: 0.5114
   - name: Philip J. Lahey, Jr.
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Hector Montalvo
@@ -80,11 +101,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -105,11 +133,18 @@ results_by_year:
     war: 0.4513
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5487
+    own_tide: 0.632
     war_v2: 0.3598
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2895
+    lean_component_sd: 0.0169
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5487
     expected_two_party_share_v2: 0.6402
   - name: Joseph A. Leone, III
@@ -121,11 +156,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.1813
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4994
+    own_tide: 0.6116
     war_v2: 0.223
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2635
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4994
     expected_two_party_share_v2: 0.4577
   - name: Robert A. Andrew
@@ -162,11 +211,18 @@ results_by_year:
     war: -0.1813
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5006
+    own_tide: 0.3884
     war_v2: -0.1396
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2642
+    lean_component_sd: 0.0154
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.5006
     expected_two_party_share_v2: 0.4589
   - name: Kenneth A. Henrick
@@ -178,11 +234,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -203,11 +266,18 @@ results_by_year:
     war: 0.4741
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5259
+    own_tide: 0.6274
     war_v2: 0.3718
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2775
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.6282
   is_open_seat: false
@@ -228,11 +298,18 @@ results_by_year:
     war: 0.2471
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3754
+    own_tide: 0.4745
     war_v2: 0.2299
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1981
+    lean_component_sd: 0.0116
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3754
     expected_two_party_share_v2: 0.3926
   - name: Robert G. Hazelton, III
@@ -244,11 +321,18 @@ results_by_year:
     war: -0.2471
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6246
+    own_tide: 0.5255
     war_v2: -0.1465
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3296
+    lean_component_sd: 0.0192
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6246
     expected_two_party_share_v2: 0.524
   is_open_seat: null

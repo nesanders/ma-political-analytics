@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2946
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.7054
+    own_tide: 0.6712
     war_v2: 0.2901
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3722
+    lean_component_sd: 0.0217
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7054
     expected_two_party_share_v2: 0.7099
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6374
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3626
+    own_tide: 0.3321
     war_v2: 0.4702
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1913
+    lean_component_sd: 0.0112
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3626
     expected_two_party_share_v2: 0.5298
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.3319
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6681
+    own_tide: 0.6465
     war_v2: 0.3072
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3526
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6681
     expected_two_party_share_v2: 0.6928
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.4834
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5166
+    own_tide: 0.4902
     war_v2: 0.3764
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2726
+    lean_component_sd: 0.0159
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5166
     expected_two_party_share_v2: 0.6236
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.0001
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6327
+    own_tide: 0.6179
     war_v2: 0.1046
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3339
+    lean_component_sd: 0.0195
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6326
     expected_two_party_share_v2: 0.5281
   - name: Daniel J. Murphy
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.0001
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3673
+    own_tide: 0.3821
     war_v2: -0.0212
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1938
+    lean_component_sd: 0.0113
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.3674
     expected_two_party_share_v2: 0.3885
   is_open_seat: null

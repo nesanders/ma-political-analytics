@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1401
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4562
+    own_tide: 0.5355
     war_v2: 0.0175
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2407
+    lean_component_sd: 0.0141
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4561
     expected_two_party_share_v2: 0.5787
   - name: Martin J. Scafidi
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1401
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5438
+    own_tide: 0.4645
     war_v2: -0.0777
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.287
+    lean_component_sd: 0.0167
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5439
     expected_two_party_share_v2: 0.4815
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4217
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5783
+    own_tide: 0.632
     war_v2: 0.3571
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3052
+    lean_component_sd: 0.0178
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5783
     expected_two_party_share_v2: 0.6429
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1355
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5565
+    own_tide: 0.6116
     war_v2: 0.0581
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2937
+    lean_component_sd: 0.0171
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5566
     expected_two_party_share_v2: 0.634
   - name: Jason C. Harding
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1355
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4435
+    own_tide: 0.3884
     war_v2: -0.1208
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.234
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4434
     expected_two_party_share_v2: 0.4287
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0465
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6151
+    own_tide: 0.6274
     war_v2: -0.0136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3246
+    lean_component_sd: 0.0189
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6151
     expected_two_party_share_v2: 0.6752
   - name: John F. McCarthy, Jr.
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0465
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3849
+    own_tide: 0.3726
     war_v2: -0.0595
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2031
+    lean_component_sd: 0.0119
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3849
     expected_two_party_share_v2: 0.3979
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1558
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4435
+    own_tide: 0.4745
     war_v2: 0.1708
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.234
+    lean_component_sd: 0.0137
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4285
   - name: John F. McCarthy, Jr.
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.1558
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5565
+    own_tide: 0.5255
     war_v2: -0.0874
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2937
+    lean_component_sd: 0.0171
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5565
     expected_two_party_share_v2: 0.4881
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1403
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4161
+    own_tide: 0.3288
     war_v2: -0.0016
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2196
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4161
     expected_two_party_share_v2: 0.558
   - name: Stephen Michael Palmer
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1403
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5839
+    own_tide: 0.6712
     war_v2: -0.0586
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3081
+    lean_component_sd: 0.018
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5839
     expected_two_party_share_v2: 0.5022
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2485
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7715
+    own_tide: 0.6679
     war_v2: -0.2243
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4071
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7715
     expected_two_party_share_v2: 0.7473
   - name: John T. Mahoney, Jr
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.2485
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2285
+    own_tide: 0.3321
     war_v2: 0.1616
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1206
+    lean_component_sd: 0.007
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.3154
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0302
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4784
+    own_tide: 0.3535
     war_v2: -0.0951
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2525
+    lean_component_sd: 0.0147
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4784
     expected_two_party_share_v2: 0.6037
   - name: John T. Mahoney, Jr
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0302
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5216
+    own_tide: 0.6465
     war_v2: 0.022
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2752
+    lean_component_sd: 0.0161
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5216
     expected_two_party_share_v2: 0.4694
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0015
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6036
+    own_tide: 0.5098
     war_v2: 0.0892
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3185
+    lean_component_sd: 0.0186
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6036
     expected_two_party_share_v2: 0.5129
   - name: Stephen Michael Palmer
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0015
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3964
+    own_tide: 0.4902
     war_v2: -0.0058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2092
+    lean_component_sd: 0.0122
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3964
     expected_two_party_share_v2: 0.4037
   is_open_seat: true
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.515
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.485
+    own_tide: 0.3821
     war_v2: 0.5493
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2559
+    lean_component_sd: 0.0149
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.485
     expected_two_party_share_v2: 0.4507
   is_open_seat: null

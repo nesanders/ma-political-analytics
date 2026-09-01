@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4043
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5957
+    own_tide: 0.6712
     war_v2: 0.3351
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3144
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5957
     expected_two_party_share_v2: 0.6649
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2908
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2927
+    own_tide: 0.3321
     war_v2: 0.2342
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1545
+    lean_component_sd: 0.009
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2927
     expected_two_party_share_v2: 0.3493
   - name: Julie A. Hall
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2908
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7073
+    own_tide: 0.6679
     war_v2: -0.1508
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3732
+    lean_component_sd: 0.0218
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7073
     expected_two_party_share_v2: 0.5673
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.449
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.551
+    own_tide: 0.6465
     war_v2: 0.369
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2908
+    lean_component_sd: 0.017
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.551
     expected_two_party_share_v2: 0.631
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1844
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4268
+    own_tide: 0.4902
     war_v2: 0.035
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2252
+    lean_component_sd: 0.0131
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4268
     expected_two_party_share_v2: 0.5762
   - name: Bert J. Buckley
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1844
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5732
+    own_tide: 0.5098
     war_v2: -0.1081
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3025
+    lean_component_sd: 0.0177
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5732
     expected_two_party_share_v2: 0.4969
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0285
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5536
+    own_tide: 0.6179
     war_v2: 0.0958
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2921
+    lean_component_sd: 0.0171
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5536
     expected_two_party_share_v2: 0.4863
   - name: George T. Ross
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0285
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4464
+    own_tide: 0.3821
     war_v2: -0.0124
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2356
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4464
     expected_two_party_share_v2: 0.4303
   is_open_seat: null

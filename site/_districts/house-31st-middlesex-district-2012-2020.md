@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3304
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6696
+    own_tide: 0.6712
     war_v2: 0.309
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3533
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6696
     expected_two_party_share_v2: 0.691
   - name: Elizabeth R. Harrah
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3357
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.2777
+    own_tide: 0.3321
     war_v2: 0.1259
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1465
+    lean_component_sd: 0.0086
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2777
     expected_two_party_share_v2: 0.4875
   - name: Caroline Colarusso
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3357
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7223
+    own_tide: 0.6679
     war_v2: -0.1886
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3812
+    lean_component_sd: 0.0222
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7223
     expected_two_party_share_v2: 0.5752
   - name: Kateen R. Kumar
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0385
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6269
+    own_tide: 0.6465
     war_v2: -0.093
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3308
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6269
     expected_two_party_share_v2: 0.6814
   - name: Caroline Colarusso
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.0385
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3731
+    own_tide: 0.3535
     war_v2: 0.0199
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1969
+    lean_component_sd: 0.0115
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3731
     expected_two_party_share_v2: 0.3917
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0808
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4334
+    own_tide: 0.4902
     war_v2: 0.091
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2287
+    lean_component_sd: 0.0133
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4334
     expected_two_party_share_v2: 0.4232
   - name: Caroline Colarusso
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0808
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5666
+    own_tide: 0.5098
     war_v2: -0.0076
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.299
+    lean_component_sd: 0.0175
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5666
     expected_two_party_share_v2: 0.4934
   is_open_seat: true
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.0473
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5512
+    own_tide: 0.6179
     war_v2: 0.1134
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2909
+    lean_component_sd: 0.017
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5511
     expected_two_party_share_v2: 0.485
   - name: George Georgountzos
@@ -228,11 +298,18 @@ results_by_year:
     war: -0.0473
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4488
+    own_tide: 0.3821
     war_v2: -0.03
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2368
+    lean_component_sd: 0.0138
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4489
     expected_two_party_share_v2: 0.4316
   is_open_seat: null

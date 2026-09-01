@@ -9,6 +9,11 @@ coefficients:
     posterior_sd: 0.0345
     ci_95_low: -0.0063
     ci_95_high: 0.1278
+    predictor_sd: null
+    standardized_mean: null
+    standardized_sd: null
+    standardized_ci_95_low: null
+    standardized_ci_95_high: null
   own_lean:
     prior_mean: 1.0
     prior_sd: 0.4
@@ -16,6 +21,11 @@ coefficients:
     posterior_sd: 0.0619
     ci_95_low: 0.845
     ci_95_high: 1.0903
+    predictor_sd: 0.1145
+    standardized_mean: 0.1109
+    standardized_sd: 0.0071
+    standardized_ci_95_low: 0.0968
+    standardized_ci_95_high: 0.1249
   own_tide:
     prior_mean: 0.0
     prior_sd: 0.4
@@ -23,6 +33,11 @@ coefficients:
     posterior_sd: 0.0602
     ci_95_low: -0.1998
     ci_95_high: 0.0353
+    predictor_sd: 0.1411
+    standardized_mean: -0.0117
+    standardized_sd: 0.0085
+    standardized_ci_95_low: -0.0282
+    standardized_ci_95_high: 0.005
   incumbent_1:
     prior_mean: 0.05
     prior_sd: 0.08
@@ -30,6 +45,11 @@ coefficients:
     posterior_sd: 0.0144
     ci_95_low: 0.0307
     ci_95_high: 0.0866
+    predictor_sd: 0.3357
+    standardized_mean: 0.0194
+    standardized_sd: 0.0048
+    standardized_ci_95_low: 0.0103
+    standardized_ci_95_high: 0.0291
   incumbent_2:
     prior_mean: 0.05
     prior_sd: 0.08
@@ -37,6 +57,11 @@ coefficients:
     posterior_sd: 0.0793
     ci_95_low: -0.1051
     ci_95_high: 0.2059
+    predictor_sd: 0.0
+    standardized_mean: 0.0
+    standardized_sd: 0.0
+    standardized_ci_95_low: -0.0
+    standardized_ci_95_high: 0.0
   incumbent_3plus:
     prior_mean: 0.05
     prior_sd: 0.08
@@ -44,6 +69,11 @@ coefficients:
     posterior_sd: 0.0807
     ci_95_low: -0.1111
     ci_95_high: 0.2101
+    predictor_sd: 0.0
+    standardized_mean: 0.0
+    standardized_sd: 0.0
+    standardized_ci_95_low: 0.0
+    standardized_ci_95_high: 0.0
   bachelors_pct:
     prior_mean: 0.0
     prior_sd: 0.3
@@ -51,6 +81,11 @@ coefficients:
     posterior_sd: 0.1417
     ci_95_low: -0.2934
     ci_95_high: 0.2597
+    predictor_sd: 0.037
+    standardized_mean: -0.0006
+    standardized_sd: 0.0052
+    standardized_ci_95_low: -0.0109
+    standardized_ci_95_high: 0.0096
   bachelors_pct_x_tide:
     prior_mean: 0.0
     prior_sd: 0.2
@@ -58,4 +93,9 @@ coefficients:
     posterior_sd: 0.1871
     ci_95_low: -0.441
     ci_95_high: 0.2907
+    predictor_sd: 0.0327
+    standardized_mean: -0.0026
+    standardized_sd: 0.0061
+    standardized_ci_95_low: -0.0144
+    standardized_ci_95_high: 0.0095
 n_distinct_years: 2

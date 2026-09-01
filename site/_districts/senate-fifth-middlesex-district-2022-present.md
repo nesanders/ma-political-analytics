@@ -29,13 +29,33 @@ results_by_year:
     war: 0.3376
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6624
+    own_tide: 0.6296
     war_v2: 0.2998
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3495
+    lean_component_sd: 0.0204
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6624
     expected_two_party_share_v2: 0.7002
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6414
+    lean_component_v3_demographics_sd: 0.041
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0139
+    education_component_sd: 0.0395
+    expected_two_party_share_v3_demographics: 0.6934
+    war_v3_demographics: 0.3066
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6774
@@ -54,13 +74,33 @@ results_by_year:
     war: -0.0413
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6774
+    own_tide: 0.6484
     war_v2: 0.0845
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3575
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6774
     expected_two_party_share_v2: 0.5516
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6559
+    lean_component_v3_demographics_sd: 0.0419
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0142
+    education_component_sd: 0.04
+    expected_two_party_share_v3_demographics: 0.6483
+    war_v3_demographics: -0.0122
+    war_v3_demographics_sd: 0.0625
   - name: Edward F. Dombroski, Jr
     slug: edward-f-dombroski-jr
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0413
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3226
+    own_tide: 0.3516
     war_v2: -0.0011
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1702
+    lean_component_sd: 0.0099
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.3226
     expected_two_party_share_v2: 0.365
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3124
+    lean_component_v3_demographics_sd: 0.02
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0092
+    education_component_sd: 0.0335
+    expected_two_party_share_v3_demographics: 0.3343
+    war_v3_demographics: 0.0296
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 183642

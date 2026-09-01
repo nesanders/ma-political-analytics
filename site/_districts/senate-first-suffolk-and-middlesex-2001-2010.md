@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0027
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7483
+    own_tide: 0.5355
     war_v2: 0.0053
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3949
+    lean_component_sd: 0.023
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7483
     expected_two_party_share_v2: 0.7457
   - name: Frank John Addivinola, Jr.
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0027
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2517
+    own_tide: 0.4645
     war_v2: -0.0784
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1328
+    lean_component_sd: 0.0078
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.2517
     expected_two_party_share_v2: 0.3274
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2001
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7999
+    own_tide: 0.632
     war_v2: 0.3837
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4221
+    lean_component_sd: 0.0246
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7999
     expected_two_party_share_v2: 0.6163
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.2293
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7707
+    own_tide: 0.6116
     war_v2: 0.253
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4067
+    lean_component_sd: 0.0237
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7707
     expected_two_party_share_v2: 0.747
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.008
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7904
+    own_tide: 0.6274
     war_v2: 0.0307
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4171
+    lean_component_sd: 0.0243
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7905
     expected_two_party_share_v2: 0.7678
   - name: Gilbert R. Lavoie
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.008
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2096
+    own_tide: 0.3726
     war_v2: -0.1038
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1106
+    lean_component_sd: 0.0065
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.2095
     expected_two_party_share_v2: 0.3053
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.1201
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6554
+    own_tide: 0.4745
     war_v2: 0.2351
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3459
+    lean_component_sd: 0.0202
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6554
     expected_two_party_share_v2: 0.5404
   - name: Vincent J. Manganello
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.1201
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3446
+    own_tide: 0.5255
     war_v2: -0.1517
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1818
+    lean_component_sd: 0.0106
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.3446
     expected_two_party_share_v2: 0.3762
   is_open_seat: null

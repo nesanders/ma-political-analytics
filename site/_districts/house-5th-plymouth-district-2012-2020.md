@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0611
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4459
+    own_tide: 0.3288
     war_v2: -0.0667
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2353
+    lean_component_sd: 0.0137
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4459
     expected_two_party_share_v2: 0.5737
   - name: Emmanuel J. Dockter
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0611
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5541
+    own_tide: 0.6712
     war_v2: 0.0065
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2924
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5541
     expected_two_party_share_v2: 0.4865
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.281
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7983
+    own_tide: 0.6679
     war_v2: -0.244
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4213
+    lean_component_sd: 0.0246
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7984
     expected_two_party_share_v2: 0.7614
   - name: Alison M. Demong
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.281
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2017
+    own_tide: 0.3321
     war_v2: 0.1813
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1064
+    lean_component_sd: 0.0062
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2016
     expected_two_party_share_v2: 0.3013
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0108
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4997
+    own_tide: 0.3535
     war_v2: -0.1046
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2637
+    lean_component_sd: 0.0154
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4996
     expected_two_party_share_v2: 0.615
   - name: Kara L. Nyman
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0108
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5003
+    own_tide: 0.6465
     war_v2: 0.0315
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.264
+    lean_component_sd: 0.0154
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5004
     expected_two_party_share_v2: 0.4581
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1545
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6559
+    own_tide: 0.5098
     war_v2: -0.039
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3461
+    lean_component_sd: 0.0202
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.656
     expected_two_party_share_v2: 0.5405
   - name: Rhonda L. Nyman
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.1545
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3441
+    own_tide: 0.4902
     war_v2: -0.0341
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1816
+    lean_component_sd: 0.0106
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.344
     expected_two_party_share_v2: 0.5326
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.1203
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4584
+    own_tide: 0.6179
     war_v2: 0.1426
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2419
+    lean_component_sd: 0.0141
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4584
     expected_two_party_share_v2: 0.4361
   - name: Korey M. Welch
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.1203
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5416
+    own_tide: 0.3821
     war_v2: -0.0592
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2858
+    lean_component_sd: 0.0167
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5416
     expected_two_party_share_v2: 0.4805
   is_open_seat: null

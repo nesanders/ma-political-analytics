@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0764
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6761
+    own_tide: 0.5355
     war_v2: 0.0449
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3568
+    lean_component_sd: 0.0208
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6761
     expected_two_party_share_v2: 0.7076
   - name: C.J. Ferry
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0764
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3239
+    own_tide: 0.4645
     war_v2: -0.118
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1709
+    lean_component_sd: 0.01
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.3239
     expected_two_party_share_v2: 0.3655
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.0668
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7401
+    own_tide: 0.632
     war_v2: 0.2222
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3906
+    lean_component_sd: 0.0228
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7401
     expected_two_party_share_v2: 0.5847
   - name: C.J. Ferry
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.0668
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2599
+    own_tide: 0.368
     war_v2: -0.1388
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1371
+    lean_component_sd: 0.008
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.2599
     expected_two_party_share_v2: 0.3319
   is_open_seat: true
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.2469
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7531
+    own_tide: 0.6116
     war_v2: 0.2623
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3974
+    lean_component_sd: 0.0232
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7531
     expected_two_party_share_v2: 0.7377
   - name: Raymond P. Leary, Jr.
@@ -130,11 +165,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.236
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.764
+    own_tide: 0.6274
     war_v2: 0.2462
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4032
+    lean_component_sd: 0.0235
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.764
     expected_two_party_share_v2: 0.7538
   - name: Raymond P. Leary, Jr.
@@ -171,11 +220,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.303
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.697
+    own_tide: 0.4745
     war_v2: 0.4377
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3678
+    lean_component_sd: 0.0215
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.697
     expected_two_party_share_v2: 0.5623
   - name: Raymond P. Leary, Jr.
@@ -212,11 +275,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

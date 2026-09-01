@@ -29,13 +29,33 @@ results_by_year:
     war: 0.3615
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6385
+    own_tide: 0.6296
     war_v2: 0.3124
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3369
+    lean_component_sd: 0.0197
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6385
     expected_two_party_share_v2: 0.6876
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6183
+    lean_component_v3_demographics_sd: 0.0395
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0148
+    education_component_sd: 0.042
+    expected_two_party_share_v3_demographics: 0.6694
+    war_v3_demographics: 0.3306
+    war_v3_demographics_sd: 0.0625
   - name: Andrew M. Pepoli
     slug: andrew-m-pepoli
     party: Other
@@ -45,13 +65,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.645
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.355
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.645
+    own_tide: 0.6484
     war_v2: 0.4655
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3404
+    lean_component_sd: 0.0199
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.645
     expected_two_party_share_v2: 0.5345
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6246
+    lean_component_v3_demographics_sd: 0.0399
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0151
+    education_component_sd: 0.0425
+    expected_two_party_share_v3_demographics: 0.616
+    war_v3_demographics: 0.384
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44825

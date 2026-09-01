@@ -29,13 +29,33 @@ results_by_year:
     war: 0.3083
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6917
+    own_tide: 0.6296
     war_v2: 0.2843
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.365
+    lean_component_sd: 0.0213
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6917
     expected_two_party_share_v2: 0.7157
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Boyd Stewart Conklin
     slug: boyd-stewart-conklin
     party: Other
@@ -45,13 +65,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6799
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0046
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6799
+    own_tide: 0.6484
     war_v2: 0.1223
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3588
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6798
     expected_two_party_share_v2: 0.5529
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Jonathan I. Hostage
     slug: jonathan-i-hostage
     party: Republican
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.0046
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3201
+    own_tide: 0.3516
     war_v2: -0.0389
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1689
+    lean_component_sd: 0.0099
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.3202
     expected_two_party_share_v2: 0.3637
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 145137

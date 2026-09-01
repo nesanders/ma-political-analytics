@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0672
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.607
+    own_tide: 0.4645
     war_v2: 0.0158
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3203
+    lean_component_sd: 0.0187
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.607
     expected_two_party_share_v2: 0.6584
   - name: Timothy A. Dodd
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0672
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.393
+    own_tide: 0.5355
     war_v2: -0.076
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2074
+    lean_component_sd: 0.0121
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.393
     expected_two_party_share_v2: 0.4018
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5272
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4728
+    own_tide: 0.368
     war_v2: 0.4121
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2495
+    lean_component_sd: 0.0146
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4728
     expected_two_party_share_v2: 0.5879
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5251
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4749
+    own_tide: 0.3884
     war_v2: 0.4086
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2506
+    lean_component_sd: 0.0146
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4749
     expected_two_party_share_v2: 0.5914
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1777
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4719
+    own_tide: 0.3726
     war_v2: 0.0493
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.249
+    lean_component_sd: 0.0145
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4719
     expected_two_party_share_v2: 0.6003
   - name: Andrew J. Myers
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1777
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5281
+    own_tide: 0.6274
     war_v2: -0.1224
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2787
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5281
     expected_two_party_share_v2: 0.4728
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.3497
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6503
+    own_tide: 0.5255
     war_v2: 0.4624
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3432
+    lean_component_sd: 0.02
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6503
     expected_two_party_share_v2: 0.5376
   is_open_seat: null

@@ -13,16 +13,36 @@ races:
   winner: false
   actual_two_party_share: 0.1443
   war: -0.1116
+  own_lean: 0.2559
+  own_tide: 0.3535
   war_v2: -0.1855
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.135
+  lean_component_sd: 0.0079
   tide_component: -0.0008
+  tide_component_sd: 0.0127
   expected_two_party_share: 0.2559
   expected_two_party_share_v2: 0.3298
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: 0.2487
+  fundraising_component_sd: 0.0174
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.1122
+  lean_component_v3_finance_sd: 0.0082
+  tide_component_v3_finance: -0.0043
+  tide_component_v3_finance_sd: 0.0132
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.2666
+  war_v3_finance: -0.1223
+  war_v3_finance_sd: 0.1015
 ocpf_finance:
   cpf_ids:
   - 16463

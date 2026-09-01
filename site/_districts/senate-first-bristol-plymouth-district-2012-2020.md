@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4783
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5217
+    own_tide: 0.6712
     war_v2: 0.387
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2753
+    lean_component_sd: 0.0161
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5217
     expected_two_party_share_v2: 0.613
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7185
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2815
+    own_tide: 0.3321
     war_v2: 0.513
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1485
+    lean_component_sd: 0.0087
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2815
     expected_two_party_share_v2: 0.487
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.4654
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5346
+    own_tide: 0.6465
     war_v2: 0.3777
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2821
+    lean_component_sd: 0.0165
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5346
     expected_two_party_share_v2: 0.6223
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.1451
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5086
+    own_tide: 0.4902
     war_v2: 0.0343
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2684
+    lean_component_sd: 0.0157
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5086
     expected_two_party_share_v2: 0.6194
   - name: Derek A. Maksy
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.1451
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4914
+    own_tide: 0.5098
     war_v2: -0.1074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2593
+    lean_component_sd: 0.0151
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.4914
     expected_two_party_share_v2: 0.4537
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3639
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6361
+    own_tide: 0.6179
     war_v2: 0.4702
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3357
+    lean_component_sd: 0.0196
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6361
     expected_two_party_share_v2: 0.5298
   is_open_seat: null

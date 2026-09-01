@@ -29,13 +29,33 @@ results_by_year:
     war: 0.5949
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4051
+    own_tide: 0.3704
     war_v2: 0.5915
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2138
+    lean_component_sd: 0.0125
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4051
     expected_two_party_share_v2: 0.4085
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5928
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.199
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4072
+    own_tide: 0.3516
     war_v2: 0.1966
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2149
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4097
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Robert William Stephens, Jr
     slug: robert-william-stephens-jr
     party: Democratic
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.199
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5928
+    own_tide: 0.6484
     war_v2: -0.1132
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3128
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.5069
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 121100

@@ -13,16 +13,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4032
+  own_lean: 0.5968
+  own_tide: 0.6179
   war_v2: 0.4909
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3149
+  lean_component_sd: 0.0184
   tide_component: -0.0014
+  tide_component_sd: 0.0221
   expected_two_party_share: 0.5968
   expected_two_party_share_v2: 0.5091
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -33,16 +53,36 @@ races:
   winner: true
   actual_two_party_share: 0.5232
   war: 0.0599
+  own_lean: 0.4632
+  own_tide: 0.5355
   war_v2: 0.0844
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2444
+  lean_component_sd: 0.0143
   tide_component: -0.0012
+  tide_component_sd: 0.0192
   expected_two_party_share: 0.4633
   expected_two_party_share_v2: 0.4388
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -53,16 +93,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4075
+  own_lean: 0.5925
+  own_tide: 0.632
   war_v2: 0.4932
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3127
+  lean_component_sd: 0.0182
   tide_component: -0.0015
+  tide_component_sd: 0.0226
   expected_two_party_share: 0.5925
   expected_two_party_share_v2: 0.5068
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -73,16 +133,36 @@ races:
   winner: false
   actual_two_party_share: 0.4337
   war: -0.1797
+  own_lean: 0.6134
+  own_tide: 0.6274
   war_v2: -0.0841
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3237
+  lean_component_sd: 0.0189
   tide_component: -0.0014
+  tide_component_sd: 0.0225
   expected_two_party_share: 0.6134
   expected_two_party_share_v2: 0.5178
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 title: Katherine M. Clark
 layout: candidate
 ---

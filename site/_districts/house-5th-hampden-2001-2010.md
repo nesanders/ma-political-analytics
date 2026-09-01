@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3234
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6766
+    own_tide: 0.5355
     war_v2: 0.305
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.357
+    lean_component_sd: 0.0208
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6766
     expected_two_party_share_v2: 0.695
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2666
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7334
+    own_tide: 0.632
     war_v2: 0.2752
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.387
+    lean_component_sd: 0.0226
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7334
     expected_two_party_share_v2: 0.7248
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2875
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7125
+    own_tide: 0.6116
     war_v2: 0.2837
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.376
+    lean_component_sd: 0.0219
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7125
     expected_two_party_share_v2: 0.7163
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3106
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6894
+    own_tide: 0.6274
     war_v2: 0.2855
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3638
+    lean_component_sd: 0.0212
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6894
     expected_two_party_share_v2: 0.7145
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.141
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5884
+    own_tide: 0.4745
     war_v2: 0.2244
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3105
+    lean_component_sd: 0.0181
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5884
     expected_two_party_share_v2: 0.505
   - name: Michael Franco
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.141
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4116
+    own_tide: 0.5255
     war_v2: -0.141
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2172
+    lean_component_sd: 0.0127
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.4116
     expected_two_party_share_v2: 0.4116
   is_open_seat: null

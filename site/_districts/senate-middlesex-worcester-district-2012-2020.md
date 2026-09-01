@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2834
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.7166
+    own_tide: 0.6712
     war_v2: 0.2842
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3781
+    lean_component_sd: 0.0221
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7166
     expected_two_party_share_v2: 0.7158
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3618
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3037
+    own_tide: 0.3321
     war_v2: 0.1668
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1603
+    lean_component_sd: 0.0094
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3037
     expected_two_party_share_v2: 0.4987
   - name: Margaret W. Busse
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3618
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6963
+    own_tide: 0.6679
     war_v2: -0.227
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3674
+    lean_component_sd: 0.0214
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.6963
     expected_two_party_share_v2: 0.5615
   - name: Terra Friedrichs
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0015
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6731
+    own_tide: 0.6465
     war_v2: -0.0208
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3552
+    lean_component_sd: 0.0207
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6731
     expected_two_party_share_v2: 0.6954
   - name: Ted Busiek
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0015
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3269
+    own_tide: 0.3535
     war_v2: -0.0419
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1725
+    lean_component_sd: 0.0101
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3269
     expected_two_party_share_v2: 0.3673
   - name: Terra Friedrichs
@@ -146,11 +188,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.5446
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4554
+    own_tide: 0.4902
     war_v2: 0.4087
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2403
+    lean_component_sd: 0.014
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4554
     expected_two_party_share_v2: 0.5913
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.0617
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5859
+    own_tide: 0.6179
     war_v2: 0.1442
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3092
+    lean_component_sd: 0.018
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5859
     expected_two_party_share_v2: 0.5034
   - name: Dean J. Cavaretta
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.0617
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4141
+    own_tide: 0.3821
     war_v2: -0.0608
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2185
+    lean_component_sd: 0.0128
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4141
     expected_two_party_share_v2: 0.4132
   is_open_seat: null

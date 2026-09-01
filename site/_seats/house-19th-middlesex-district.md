@@ -29,13 +29,33 @@ results_by_year:
     war: 0.0654
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5097
+    own_tide: 0.6296
     war_v2: 0.112
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.269
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5097
     expected_two_party_share_v2: 0.4631
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4935
+    lean_component_v3_demographics_sd: 0.0316
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.013
+    education_component_sd: 0.0369
+    expected_two_party_share_v3_demographics: 0.4887
+    war_v3_demographics: 0.0864
+    war_v3_demographics_sd: 0.0625
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.0654
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4903
+    own_tide: 0.3704
     war_v2: -0.0286
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2587
+    lean_component_sd: 0.0151
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4903
     expected_two_party_share_v2: 0.4535
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4748
+    lean_component_v3_demographics_sd: 0.0303
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0089
+    education_component_sd: 0.0316
+    expected_two_party_share_v3_demographics: 0.4954
+    war_v3_demographics: -0.0705
+    war_v3_demographics_sd: 0.0625
   - name: George Hugh Ferdinand
     slug: george-hugh-ferdinand
     party: Other
@@ -61,13 +101,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5232
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.0398
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5232
+    own_tide: 0.6484
     war_v2: 0.0928
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2761
+    lean_component_sd: 0.0161
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5232
     expected_two_party_share_v2: 0.4702
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5066
+    lean_component_v3_demographics_sd: 0.0324
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0133
+    education_component_sd: 0.0373
+    expected_two_party_share_v3_demographics: 0.4999
+    war_v3_demographics: 0.0631
+    war_v3_demographics_sd: 0.0625
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -102,13 +182,33 @@ results_by_year:
     war: -0.0398
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4768
+    own_tide: 0.3516
     war_v2: -0.0094
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2516
+    lean_component_sd: 0.0147
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4768
     expected_two_party_share_v2: 0.4464
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4617
+    lean_component_v3_demographics_sd: 0.0295
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0086
+    education_component_sd: 0.0313
+    expected_two_party_share_v3_demographics: 0.4842
+    war_v3_demographics: -0.0472
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 42164

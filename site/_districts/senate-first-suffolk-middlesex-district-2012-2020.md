@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2279
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7721
+    own_tide: 0.6712
     war_v2: 0.2524
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4074
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7721
     expected_two_party_share_v2: 0.7476
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5346
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4654
+    own_tide: 0.3321
     war_v2: 0.4031
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2456
+    lean_component_sd: 0.0143
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4654
     expected_two_party_share_v2: 0.5969
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2347
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7653
+    own_tide: 0.6465
     war_v2: 0.402
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4038
+    lean_component_sd: 0.0236
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7653
     expected_two_party_share_v2: 0.598
   is_open_seat: true
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3742
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6258
+    own_tide: 0.4902
     war_v2: 0.3188
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3302
+    lean_component_sd: 0.0193
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6258
     expected_two_party_share_v2: 0.6812
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.067
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.749
+    own_tide: 0.6179
     war_v2: 0.2266
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3952
+    lean_component_sd: 0.0231
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.749
     expected_two_party_share_v2: 0.5894
   - name: Thomas J. Dooley, III
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.067
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.251
+    own_tide: 0.3821
     war_v2: -0.1432
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1325
+    lean_component_sd: 0.0077
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.251
     expected_two_party_share_v2: 0.3272
   is_open_seat: null

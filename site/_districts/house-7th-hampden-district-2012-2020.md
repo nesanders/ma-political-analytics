@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0724
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5762
+    own_tide: 0.6712
     war_v2: 0.0057
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3041
+    lean_component_sd: 0.0177
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5762
     expected_two_party_share_v2: 0.4981
   - name: James Chip Harrington
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0724
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4238
+    own_tide: 0.3288
     war_v2: 0.0777
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2236
+    lean_component_sd: 0.0131
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4238
     expected_two_party_share_v2: 0.4185
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.7168
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2832
+    own_tide: 0.3321
     war_v2: 0.5121
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1494
+    lean_component_sd: 0.0087
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2832
     expected_two_party_share_v2: 0.4879
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4392
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5608
+    own_tide: 0.6465
     war_v2: 0.3639
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2959
+    lean_component_sd: 0.0173
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5608
     expected_two_party_share_v2: 0.6361
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5421
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4579
+    own_tide: 0.4902
     war_v2: 0.4074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2416
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4579
     expected_two_party_share_v2: 0.5926
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3788
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6212
+    own_tide: 0.6179
     war_v2: 0.478
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3278
+    lean_component_sd: 0.0191
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6212
     expected_two_party_share_v2: 0.522
   is_open_seat: null

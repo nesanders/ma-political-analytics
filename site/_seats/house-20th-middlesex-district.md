@@ -29,13 +29,33 @@ results_by_year:
     war: 0.5453
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4547
+    own_tide: 0.3704
     war_v2: 0.4088
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2399
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4547
     expected_two_party_share_v2: 0.5912
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4403
+    lean_component_v3_demographics_sd: 0.0281
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0099
+    education_component_sd: 0.0353
+    expected_two_party_share_v3_demographics: 0.5177
+    war_v3_demographics: 0.4823
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5535
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.5535
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4465
+    own_tide: 0.3516
     war_v2: 0.5696
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2356
+    lean_component_sd: 0.0138
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4465
     expected_two_party_share_v2: 0.4304
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4323
+    lean_component_v3_demographics_sd: 0.0276
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0096
+    education_component_sd: 0.0349
+    expected_two_party_share_v3_demographics: 0.4538
+    war_v3_demographics: 0.5462
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44915

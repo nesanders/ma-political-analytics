@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0233
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6475
+    own_tide: 0.5355
     war_v2: -0.0113
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3417
+    lean_component_sd: 0.0199
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6476
     expected_two_party_share_v2: 0.6822
   - name: David M. Carnevale
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0233
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3525
+    own_tide: 0.4645
     war_v2: -0.0514
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.186
+    lean_component_sd: 0.0109
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.3524
     expected_two_party_share_v2: 0.3805
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2788
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7212
+    own_tide: 0.632
     war_v2: 0.2688
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3806
+    lean_component_sd: 0.0222
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7212
     expected_two_party_share_v2: 0.7312
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3208
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6792
+    own_tide: 0.6116
     war_v2: 0.4474
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3584
+    lean_component_sd: 0.0209
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6792
     expected_two_party_share_v2: 0.5526
   is_open_seat: true
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.279
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.721
+    own_tide: 0.6274
     war_v2: 0.2689
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3805
+    lean_component_sd: 0.0222
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.721
     expected_two_party_share_v2: 0.7311
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4497
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5503
+    own_tide: 0.4745
     war_v2: 0.5151
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2904
+    lean_component_sd: 0.0169
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5503
     expected_two_party_share_v2: 0.4849
   is_open_seat: null

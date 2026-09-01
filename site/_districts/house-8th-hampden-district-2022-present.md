@@ -29,13 +29,33 @@ results_by_year:
     war: 0.471
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.529
+    own_tide: 0.6296
     war_v2: 0.3702
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2792
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.529
     expected_two_party_share_v2: 0.6298
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5122
+    lean_component_v3_demographics_sd: 0.0327
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0074
+    education_component_sd: 0.0211
+    expected_two_party_share_v3_demographics: 0.5707
+    war_v3_demographics: 0.4293
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5554
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.4446
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5554
+    own_tide: 0.6484
     war_v2: 0.5128
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2931
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5554
     expected_two_party_share_v2: 0.4872
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5378
+    lean_component_v3_demographics_sd: 0.0344
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0076
+    education_component_sd: 0.0214
+    expected_two_party_share_v3_demographics: 0.5368
+    war_v3_demographics: 0.4632
+    war_v3_demographics_sd: 0.0625
   - name: Sean Goonan
     slug: sean-goonan
     party: Other
@@ -70,13 +110,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 40203

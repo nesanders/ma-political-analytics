@@ -29,13 +29,33 @@ results_by_year:
     war: 0.0054
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8073
+    own_tide: 0.6296
     war_v2: 0.1925
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.426
+    lean_component_sd: 0.0249
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.8073
     expected_two_party_share_v2: 0.6202
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7817
+    lean_component_v3_demographics_sd: 0.05
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0126
+    education_component_sd: 0.0359
+    expected_two_party_share_v3_demographics: 0.7772
+    war_v3_demographics: 0.0355
+    war_v3_demographics_sd: 0.0625
   - name: Vladislav S. Yanovsky
     slug: vladislav-s-yanovsky
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.0054
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.1927
+    own_tide: 0.3704
     war_v2: -0.1091
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1017
+    lean_component_sd: 0.0059
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.1927
     expected_two_party_share_v2: 0.2964
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.1866
+    lean_component_v3_demographics_sd: 0.0119
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0087
+    education_component_sd: 0.0307
+    expected_two_party_share_v3_demographics: 0.2075
+    war_v3_demographics: -0.0202
+    war_v3_demographics_sd: 0.0625
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8152
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.1848
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8152
+    own_tide: 0.6484
     war_v2: 0.3757
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4302
+    lean_component_sd: 0.0251
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.8152
     expected_two_party_share_v2: 0.6243
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7894
+    lean_component_v3_demographics_sd: 0.0505
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0129
+    education_component_sd: 0.0363
+    expected_two_party_share_v3_demographics: 0.783
+    war_v3_demographics: 0.217
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 41476

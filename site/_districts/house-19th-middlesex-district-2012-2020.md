@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0214
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5428
+    own_tide: 0.6712
     war_v2: -0.0727
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2864
+    lean_component_sd: 0.0167
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5429
     expected_two_party_share_v2: 0.637
   - name: Alec M. Difruscia
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0214
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4572
+    own_tide: 0.3288
     war_v2: -0.0004
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2413
+    lean_component_sd: 0.0141
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4571
     expected_two_party_share_v2: 0.4361
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3191
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2069
+    own_tide: 0.3321
     war_v2: 0.222
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1092
+    lean_component_sd: 0.0064
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2069
     expected_two_party_share_v2: 0.304
   - name: Pina Prinzivalli
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3191
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7931
+    own_tide: 0.6679
     war_v2: -0.1386
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4185
+    lean_component_sd: 0.0244
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7931
     expected_two_party_share_v2: 0.6126
   - name: Patricia W M. Meuse
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.5123
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4877
+    own_tide: 0.6465
     war_v2: 0.4024
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2574
+    lean_component_sd: 0.015
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4877
     expected_two_party_share_v2: 0.5976
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.3377
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3654
+    own_tide: 0.4902
     war_v2: 0.1593
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1928
+    lean_component_sd: 0.0113
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3654
     expected_two_party_share_v2: 0.5438
   - name: Douglas W. Sears
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.3377
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6346
+    own_tide: 0.5098
     war_v2: -0.2324
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3349
+    lean_component_sd: 0.0195
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6346
     expected_two_party_share_v2: 0.5293
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.2585
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4767
+    own_tide: 0.6179
     war_v2: 0.2895
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2516
+    lean_component_sd: 0.0147
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.4457
   - name: Douglas W. Sears
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.2585
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5233
+    own_tide: 0.3821
     war_v2: -0.2061
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2761
+    lean_component_sd: 0.0161
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5233
     expected_two_party_share_v2: 0.4709
   is_open_seat: null

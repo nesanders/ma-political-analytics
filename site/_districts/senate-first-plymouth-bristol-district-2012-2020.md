@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4697
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5303
+    own_tide: 0.6712
     war_v2: 0.3825
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2798
+    lean_component_sd: 0.0163
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5303
     expected_two_party_share_v2: 0.6175
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7629
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2371
+    own_tide: 0.3321
     war_v2: 0.5364
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1251
+    lean_component_sd: 0.0073
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2371
     expected_two_party_share_v2: 0.4636
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.16
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4935
+    own_tide: 0.6465
     war_v2: 0.0529
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2604
+    lean_component_sd: 0.0152
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4935
     expected_two_party_share_v2: 0.6006
   - name: Sandra M. Wright
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.16
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5065
+    own_tide: 0.3535
     war_v2: -0.1156
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2673
+    lean_component_sd: 0.0156
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5065
     expected_two_party_share_v2: 0.4621
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.2065
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4034
+    own_tide: 0.4902
     war_v2: 0.0461
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2129
+    lean_component_sd: 0.0124
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4034
     expected_two_party_share_v2: 0.5638
   - name: David A. Rosa
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.2065
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5966
+    own_tide: 0.5098
     war_v2: -0.1192
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3148
+    lean_component_sd: 0.0184
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5966
     expected_two_party_share_v2: 0.5093
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.4716
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5284
+    own_tide: 0.6179
     war_v2: 0.527
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2788
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5284
     expected_two_party_share_v2: 0.473
   is_open_seat: null

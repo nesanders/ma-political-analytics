@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0853
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4391
+    own_tide: 0.5355
     war_v2: -0.0453
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2317
+    lean_component_sd: 0.0135
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4391
     expected_two_party_share_v2: 0.5697
   - name: Thomas Francis Keyes
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0853
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5609
+    own_tide: 0.4645
     war_v2: -0.0149
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.296
+    lean_component_sd: 0.0173
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5609
     expected_two_party_share_v2: 0.4905
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4626
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5374
+    own_tide: 0.632
     war_v2: 0.3787
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2836
+    lean_component_sd: 0.0166
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5374
     expected_two_party_share_v2: 0.6213
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4861
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5139
+    own_tide: 0.6116
     war_v2: 0.3885
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2712
+    lean_component_sd: 0.0158
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5139
     expected_two_party_share_v2: 0.6115
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0415
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5354
+    own_tide: 0.6274
     war_v2: -0.0563
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2825
+    lean_component_sd: 0.0165
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5354
     expected_two_party_share_v2: 0.6332
   - name: Timothy E. Duncan
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0415
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4646
+    own_tide: 0.3726
     war_v2: -0.0168
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2452
+    lean_component_sd: 0.0143
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4646
     expected_two_party_share_v2: 0.4399
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.1872
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3927
+    own_tide: 0.4745
     war_v2: 0.1782
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2072
+    lean_component_sd: 0.0121
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3927
     expected_two_party_share_v2: 0.4017
   - name: Christopher L. Fava
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.1872
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6073
+    own_tide: 0.5255
     war_v2: -0.0948
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3205
+    lean_component_sd: 0.0187
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6073
     expected_two_party_share_v2: 0.5149
   is_open_seat: null

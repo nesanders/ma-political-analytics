@@ -29,13 +29,33 @@ results_by_year:
     war: -0.0305
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.544
+    own_tide: 0.6296
     war_v2: -0.1242
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2871
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.544
     expected_two_party_share_v2: 0.6377
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5268
+    lean_component_v3_demographics_sd: 0.0337
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0125
+    education_component_sd: 0.0357
+    expected_two_party_share_v3_demographics: 0.5802
+    war_v3_demographics: -0.0667
+    war_v3_demographics_sd: 0.0625
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: 0.0305
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.456
+    own_tide: 0.3704
     war_v2: 0.0511
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2406
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.456
     expected_two_party_share_v2: 0.4354
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4415
+    lean_component_v3_demographics_sd: 0.0282
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0086
+    education_component_sd: 0.0306
+    expected_two_party_share_v3_demographics: 0.4625
+    war_v3_demographics: 0.024
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0482
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5484
+    own_tide: 0.6484
     war_v2: 0.0167
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2894
+    lean_component_sd: 0.0169
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5484
     expected_two_party_share_v2: 0.4835
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.531
+    lean_component_v3_demographics_sd: 0.0339
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0128
+    education_component_sd: 0.0361
+    expected_two_party_share_v3_demographics: 0.5248
+    war_v3_demographics: -0.0246
+    war_v3_demographics_sd: 0.0625
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.0482
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4516
+    own_tide: 0.3516
     war_v2: 0.0667
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2383
+    lean_component_sd: 0.0139
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4516
     expected_two_party_share_v2: 0.4331
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4373
+    lean_component_v3_demographics_sd: 0.028
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0083
+    education_component_sd: 0.0303
+    expected_two_party_share_v3_demographics: 0.4601
+    war_v3_demographics: 0.0397
+    war_v3_demographics_sd: 0.0625
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -102,13 +182,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 42599

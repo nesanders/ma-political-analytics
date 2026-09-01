@@ -29,13 +29,33 @@ results_by_year:
     war: 0.4358
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5642
+    own_tide: 0.6296
     war_v2: 0.3516
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2977
+    lean_component_sd: 0.0174
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5642
     expected_two_party_share_v2: 0.6484
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5463
+    lean_component_v3_demographics_sd: 0.0349
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0098
+    education_component_sd: 0.028
+    expected_two_party_share_v3_demographics: 0.6024
+    war_v3_demographics: 0.3976
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5791
@@ -54,13 +74,33 @@ results_by_year:
     war: -0.0515
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5791
+    own_tide: 0.6484
     war_v2: 0.028
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3056
+    lean_component_sd: 0.0178
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5792
     expected_two_party_share_v2: 0.4997
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5607
+    lean_component_v3_demographics_sd: 0.0358
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0101
+    education_component_sd: 0.0284
+    expected_two_party_share_v3_demographics: 0.5573
+    war_v3_demographics: -0.0296
+    war_v3_demographics_sd: 0.0625
   - name: James Chip Harrington
     slug: james-chip-harrington
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0515
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4209
+    own_tide: 0.3516
     war_v2: 0.0554
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2221
+    lean_component_sd: 0.013
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4208
     expected_two_party_share_v2: 0.4169
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4076
+    lean_component_v3_demographics_sd: 0.0261
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0065
+    education_component_sd: 0.0237
+    expected_two_party_share_v3_demographics: 0.4321
+    war_v3_demographics: 0.0402
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 43448

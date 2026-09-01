@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1483
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4415
+    own_tide: 0.5355
     war_v2: 0.0189
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.233
+    lean_component_sd: 0.0136
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4415
     expected_two_party_share_v2: 0.5709
   - name: Stephen R. Cole
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1483
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5585
+    own_tide: 0.4645
     war_v2: -0.0791
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2947
+    lean_component_sd: 0.0172
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5585
     expected_two_party_share_v2: 0.4893
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4204
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5796
+    own_tide: 0.632
     war_v2: 0.3564
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3059
+    lean_component_sd: 0.0179
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5796
     expected_two_party_share_v2: 0.6436
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4555
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5445
+    own_tide: 0.6116
     war_v2: 0.3724
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2873
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.6276
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1286
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5581
+    own_tide: 0.6274
     war_v2: 0.0415
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2945
+    lean_component_sd: 0.0172
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5581
     expected_two_party_share_v2: 0.6452
   - name: Leo T. Martin
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1286
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4419
+    own_tide: 0.3726
     war_v2: -0.1146
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2332
+    lean_component_sd: 0.0136
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4419
     expected_two_party_share_v2: 0.4279
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.6063
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3937
+    own_tide: 0.4745
     war_v2: 0.5977
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2078
+    lean_component_sd: 0.0121
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3937
     expected_two_party_share_v2: 0.4023
   is_open_seat: null

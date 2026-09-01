@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3967
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6033
+    own_tide: 0.6712
     war_v2: 0.3415
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3184
+    lean_component_sd: 0.0186
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6033
     expected_two_party_share_v2: 0.6585
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3352
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.2259
+    own_tide: 0.3321
     war_v2: 0.0906
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1192
+    lean_component_sd: 0.007
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2259
     expected_two_party_share_v2: 0.4705
   - name: Sandra Slattery E. Biagetti
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3352
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7741
+    own_tide: 0.6679
     war_v2: -0.1637
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4085
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7741
     expected_two_party_share_v2: 0.6026
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0134
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5635
+    own_tide: 0.6465
     war_v2: 0.0586
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2974
+    lean_component_sd: 0.0174
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5635
     expected_two_party_share_v2: 0.4915
   - name: Sandra Slattery E. Biagetti
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0134
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4365
+    own_tide: 0.3535
     war_v2: 0.0248
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2303
+    lean_component_sd: 0.0134
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4365
     expected_two_party_share_v2: 0.4251
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.1997
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3895
+    own_tide: 0.4902
     war_v2: 0.0327
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2055
+    lean_component_sd: 0.012
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3895
     expected_two_party_share_v2: 0.5565
   - name: Mark W. Reil, Jr
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1997
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6105
+    own_tide: 0.5098
     war_v2: -0.1058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3222
+    lean_component_sd: 0.0188
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6105
     expected_two_party_share_v2: 0.5166
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4648
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5352
+    own_tide: 0.6179
     war_v2: 0.5234
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2824
+    lean_component_sd: 0.0165
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5352
     expected_two_party_share_v2: 0.4766
   is_open_seat: null

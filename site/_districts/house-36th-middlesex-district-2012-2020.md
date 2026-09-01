@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4888
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5112
+    own_tide: 0.6712
     war_v2: 0.3926
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2698
+    lean_component_sd: 0.0157
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5112
     expected_two_party_share_v2: 0.6074
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4415
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.1906
+    own_tide: 0.3321
     war_v2: 0.1931
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1006
+    lean_component_sd: 0.0059
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.1906
     expected_two_party_share_v2: 0.439
   - name: Raymond G. Leczynski
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.4415
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8094
+    own_tide: 0.6679
     war_v2: -0.2533
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4271
+    lean_component_sd: 0.0249
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.8094
     expected_two_party_share_v2: 0.6212
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5418
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4582
+    own_tide: 0.6465
     war_v2: 0.418
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2418
+    lean_component_sd: 0.0141
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4582
     expected_two_party_share_v2: 0.582
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1946
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3427
+    own_tide: 0.4902
     war_v2: 0.0056
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1808
+    lean_component_sd: 0.0106
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3428
     expected_two_party_share_v2: 0.5318
   - name: Cathy Richardson
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1946
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6573
+    own_tide: 0.5098
     war_v2: -0.0787
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3469
+    lean_component_sd: 0.0202
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6572
     expected_two_party_share_v2: 0.5413
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.1239
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4617
+    own_tide: 0.6179
     war_v2: 0.1479
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2436
+    lean_component_sd: 0.0142
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4618
     expected_two_party_share_v2: 0.4378
   - name: Cathy Richardson
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.1239
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5383
+    own_tide: 0.3821
     war_v2: -0.0645
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2841
+    lean_component_sd: 0.0166
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5382
     expected_two_party_share_v2: 0.4788
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1401
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3954
+    own_tide: 0.5355
     war_v2: -0.0111
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2087
+    lean_component_sd: 0.0122
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3954
     expected_two_party_share_v2: 0.5466
   - name: Kimberly B. Roy
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1401
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6046
+    own_tide: 0.4645
     war_v2: -0.0491
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.319
+    lean_component_sd: 0.0186
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6046
     expected_two_party_share_v2: 0.5136
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4666
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5334
+    own_tide: 0.632
     war_v2: 0.3808
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2815
+    lean_component_sd: 0.0164
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5334
     expected_two_party_share_v2: 0.6192
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4536
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5464
+    own_tide: 0.6116
     war_v2: 0.3714
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2883
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5464
     expected_two_party_share_v2: 0.6286
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1644
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5443
+    own_tide: 0.6274
     war_v2: 0.0709
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2872
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5444
     expected_two_party_share_v2: 0.6379
   - name: Jerzy J. Jachimczyk
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1644
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4557
+    own_tide: 0.3726
     war_v2: -0.144
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2405
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4556
     expected_two_party_share_v2: 0.4352
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.3552
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3848
+    own_tide: 0.4745
     war_v2: 0.3424
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2031
+    lean_component_sd: 0.0119
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3848
     expected_two_party_share_v2: 0.3976
   - name: Ralph Perez
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.3552
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6152
+    own_tide: 0.5255
     war_v2: -0.259
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3246
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6152
     expected_two_party_share_v2: 0.519
   is_open_seat: null

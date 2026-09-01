@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0564
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5929
+    own_tide: 0.4645
     war_v2: 0.1419
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3129
+    lean_component_sd: 0.0183
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5929
     expected_two_party_share_v2: 0.5074
   - name: Kenneth John O'Brien
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0564
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4071
+    own_tide: 0.5355
     war_v2: -0.0585
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2148
+    lean_component_sd: 0.0125
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4071
     expected_two_party_share_v2: 0.4092
   - name: Jonathan B. Long
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.5103
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4897
+    own_tide: 0.368
     war_v2: 0.4032
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2584
+    lean_component_sd: 0.0151
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4897
     expected_two_party_share_v2: 0.5968
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.2163
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4702
+    own_tide: 0.3884
     war_v2: 0.0976
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2481
+    lean_component_sd: 0.0145
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4702
     expected_two_party_share_v2: 0.5889
   - name: Nate Kaplan
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.2163
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5298
+    own_tide: 0.6116
     war_v2: -0.1603
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2796
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5298
     expected_two_party_share_v2: 0.4738
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.5059
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4941
+    own_tide: 0.3726
     war_v2: 0.388
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2607
+    lean_component_sd: 0.0152
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4941
     expected_two_party_share_v2: 0.612
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0863
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6619
+    own_tide: 0.5255
     war_v2: 0.0318
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3493
+    lean_component_sd: 0.0204
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6618
     expected_two_party_share_v2: 0.5437
   - name: David C. Bunker, Jr.
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.0863
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3381
+    own_tide: 0.4745
     war_v2: 0.0516
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1784
+    lean_component_sd: 0.0104
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3382
     expected_two_party_share_v2: 0.3729
   is_open_seat: null

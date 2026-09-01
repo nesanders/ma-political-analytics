@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0085
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6322
+    own_tide: 0.6712
     war_v2: -0.0605
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3336
+    lean_component_sd: 0.0195
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6322
     expected_two_party_share_v2: 0.6842
   - name: Jeffrey Peter Dufour
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0085
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3678
+    own_tide: 0.3288
     war_v2: -0.0126
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1941
+    lean_component_sd: 0.0113
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3678
     expected_two_party_share_v2: 0.3889
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3121
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2367
+    own_tide: 0.3321
     war_v2: 0.2291
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1249
+    lean_component_sd: 0.0073
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2367
     expected_two_party_share_v2: 0.3197
   - name: James J. Lyons, Jr.
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3121
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7633
+    own_tide: 0.6679
     war_v2: -0.2893
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4028
+    lean_component_sd: 0.0235
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7633
     expected_two_party_share_v2: 0.7405
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.174
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4226
+    own_tide: 0.3535
     war_v2: 0.0327
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.223
+    lean_component_sd: 0.013
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4226
     expected_two_party_share_v2: 0.5639
   - name: Oscar Camargo
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.174
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5774
+    own_tide: 0.6465
     war_v2: -0.0954
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3047
+    lean_component_sd: 0.0178
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5774
     expected_two_party_share_v2: 0.4988
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.3626
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6374
+    own_tide: 0.5098
     war_v2: 0.3127
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3364
+    lean_component_sd: 0.0196
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6374
     expected_two_party_share_v2: 0.6873
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0042
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5152
+    own_tide: 0.3821
     war_v2: 0.0444
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2719
+    lean_component_sd: 0.0159
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5152
     expected_two_party_share_v2: 0.4666
   - name: Barbara A. L'Italien
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.0042
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4848
+    own_tide: 0.6179
     war_v2: 0.039
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2558
+    lean_component_sd: 0.0149
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4848
     expected_two_party_share_v2: 0.45
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1569
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4324
+    own_tide: 0.5355
     war_v2: 0.0102
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2282
+    lean_component_sd: 0.0133
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4323
     expected_two_party_share_v2: 0.579
   - name: Neal Andrew Heeren
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1569
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5676
+    own_tide: 0.4645
     war_v2: -0.0833
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2995
+    lean_component_sd: 0.0175
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5677
     expected_two_party_share_v2: 0.4941
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4433
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5567
+    own_tide: 0.632
     war_v2: 0.5121
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2938
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5567
     expected_two_party_share_v2: 0.4879
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4337
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5663
+    own_tide: 0.6116
     war_v2: 0.3609
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2988
+    lean_component_sd: 0.0174
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5663
     expected_two_party_share_v2: 0.6391
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0738
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5659
+    own_tide: 0.6274
     war_v2: -0.0096
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2986
+    lean_component_sd: 0.0174
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5659
     expected_two_party_share_v2: 0.6493
   - name: David Shnaider
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0738
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4341
+    own_tide: 0.3726
     war_v2: -0.0635
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2291
+    lean_component_sd: 0.0134
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4341
     expected_two_party_share_v2: 0.4238
   - name: Richard R. Zitola
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.5921
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4079
+    own_tide: 0.4745
     war_v2: 0.5902
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2152
+    lean_component_sd: 0.0126
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4079
     expected_two_party_share_v2: 0.4098
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3258
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6742
+    own_tide: 0.6712
     war_v2: 0.3066
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3558
+    lean_component_sd: 0.0208
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6742
     expected_two_party_share_v2: 0.6934
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6485
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3515
+    own_tide: 0.3321
     war_v2: 0.4736
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1855
+    lean_component_sd: 0.0108
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3515
     expected_two_party_share_v2: 0.5264
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.0325
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.69
+    own_tide: 0.6465
     war_v2: 0.0077
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3641
+    lean_component_sd: 0.0213
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6899
     expected_two_party_share_v2: 0.7147
   - name: Kamara Kay
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0325
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.31
+    own_tide: 0.3535
     war_v2: -0.0808
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1636
+    lean_component_sd: 0.0095
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3101
     expected_two_party_share_v2: 0.3584
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.4631
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5369
+    own_tide: 0.4902
     war_v2: 0.5222
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2833
+    lean_component_sd: 0.0165
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5369
     expected_two_party_share_v2: 0.4778
   - name: Fred W. Bahou
@@ -139,11 +174,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.3185
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6815
+    own_tide: 0.6179
     war_v2: 0.4462
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3596
+    lean_component_sd: 0.021
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6815
     expected_two_party_share_v2: 0.5538
   is_open_seat: null

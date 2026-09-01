@@ -29,13 +29,33 @@ results_by_year:
     war: -0.0149
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5241
+    own_tide: 0.3704
     war_v2: 0.0378
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2766
+    lean_component_sd: 0.0161
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.524
     expected_two_party_share_v2: 0.4713
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Joseph Richard Pacheco
     slug: joseph-richard-pacheco
     party: Democratic
@@ -45,13 +65,33 @@ results_by_year:
     war: 0.0149
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4759
+    own_tide: 0.6296
     war_v2: 0.0456
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2511
+    lean_component_sd: 0.0147
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.476
     expected_two_party_share_v2: 0.4453
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: James B. Dupont
     slug: james-b-dupont
     party: Other
@@ -61,13 +101,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5047
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.0382
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5047
+    own_tide: 0.6484
     war_v2: 0.0825
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2663
+    lean_component_sd: 0.0155
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5047
     expected_two_party_share_v2: 0.4604
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -102,13 +182,33 @@ results_by_year:
     war: -0.0382
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4953
+    own_tide: 0.3516
     war_v2: 0.0009
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2614
+    lean_component_sd: 0.0153
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4953
     expected_two_party_share_v2: 0.4562
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 88523

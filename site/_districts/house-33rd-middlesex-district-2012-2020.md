@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2397
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7603
+    own_tide: 0.6712
     war_v2: 0.2611
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4012
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7603
     expected_two_party_share_v2: 0.7389
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5502
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4498
+    own_tide: 0.3321
     war_v2: 0.4217
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2374
+    lean_component_sd: 0.0139
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4498
     expected_two_party_share_v2: 0.5783
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.259
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.741
+    own_tide: 0.6465
     war_v2: 0.2584
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.391
+    lean_component_sd: 0.0228
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.741
     expected_two_party_share_v2: 0.7416
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3922
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6078
+    own_tide: 0.4902
     war_v2: 0.4848
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3207
+    lean_component_sd: 0.0187
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6078
     expected_two_party_share_v2: 0.5152
   - name: John P. Matheson
@@ -123,11 +151,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2763
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7237
+    own_tide: 0.6179
     war_v2: 0.4239
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3819
+    lean_component_sd: 0.0223
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7237
     expected_two_party_share_v2: 0.5761
   is_open_seat: null

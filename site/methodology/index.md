@@ -255,6 +255,17 @@ asserted:
 |---|---|---|
 | Bachelor's degree % | {{ site.data.war_v3_demographics.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
 | Bachelor's degree % × tide | {{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.ci_95_high | round: 3 }}] |
+
+This fit re-estimates lean, tide, and incumbency alongside the two added
+terms, on its own (much smaller, current-vintage-only) sample — it doesn't
+just borrow the core model's coefficients. Every one of its terms, not
+just the two new ones, on one genuinely comparable scale: each posterior
+draw scaled by that predictor's own standard deviation in this fit's
+sample, so a continuous slope (lean, tide), a 0/1 incumbency dummy, and a
+population-share term can all be read as "vote-share points per 1 SD of
+this predictor":
+
+<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all seven of the WAR v3 demographics extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
 {% endif %}
 
 {% if site.data.war_v3_finance %}
@@ -269,9 +280,9 @@ elsewhere, so statewide tide is back in this fit as a real term — with
 genuine cross-year variation to work with, it's no longer collinear with
 the intercept the way it was when this was fit on a single year's races.
 
-Unlike the demographics extension above, this fit re-estimates lean and
-tide too, alongside the new fundraising term (it drops the incumbency
-terms instead — see this fit's own table below for exactly which). Just
+Unlike the demographics extension above, this fit re-estimates lean,
+tide, **and** incumbency too, alongside the new fundraising term — it
+doesn't drop any of the core model's terms, just adds one to them. Just
 the new term charted below, on its own scale — log(dollars) moves in much
 smaller coefficient units than lean/tide do, so plotting it next to them
 would make a clearly-nonzero effect look like it hugs zero:
@@ -282,6 +293,9 @@ would make a clearly-nonzero effect look like it hugs zero:
 |---|---|---|
 | District lean | {{ site.data.war_v3_finance.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_lean.ci_95_high | round: 3 }}] |
 | Statewide tide | {{ site.data.war_v3_finance.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_tide.ci_95_high | round: 3 }}] |
+| Incumbent, 1st term | {{ site.data.war_v3_finance.coefficients.incumbent_1.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_1.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_1.ci_95_high | round: 3 }}] |
+| Incumbent, 2nd term | {{ site.data.war_v3_finance.coefficients.incumbent_2.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_2.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_2.ci_95_high | round: 3 }}] |
+| Incumbent, 3rd+ term | {{ site.data.war_v3_finance.coefficients.incumbent_3plus.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_high | round: 3 }}] |
 | log(total raised + 1) | {{ site.data.war_v3_finance.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_v3_finance.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_v3_finance.coefficients.log_raised.ci_95_high | round: 4 }}] |
 
 A positive, clearly-nonzero coefficient on logged fundraising (95% credible
@@ -289,6 +303,18 @@ interval entirely above zero) says money and vote share move together in
 this data even after accounting for lean, tide, and incumbency — the
 expected direction, and one this site can now say with real confidence
 across two decades of races rather than one cycle's snapshot.
+
+All six of this fit's terms, standardized to the same per-1-SD-of-predictor
+scale as the demographics comparison above — this is the fairest way to
+ask "how big is fundraising's effect, really, next to lean or incumbency":
+
+<div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the WAR v3 finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+
+On this standardized scale, a 1-SD swing in a candidate's own district
+lean still moves the needle more than a 1-SD swing in logged fundraising
+does — but fundraising's standardized effect lands in the same
+neighborhood as the incumbency terms', not dwarfed by them the way the
+native-unit table above might suggest at a glance.
 {% endif %}
 
 Still not folded into any candidate's actual WAR number the way v2 is:
@@ -298,6 +324,22 @@ two current-vintage elections — both real, narrower-than-v2 slices of the
 data, not an oversight. More elections landing in the current
 redistricting vintage over time would directly widen what the
 demographics extension can support.
+
+Both extensions **are** threaded into their respective attribution charts,
+though, wherever they actually apply: a candidate page's "What drives
+replacement level, by year" chart uses the finance extension for any year
+with a matched OCPF total (falling back to v2 for years without one), and
+a district or seat page's chart does the same with the demographics
+extension for districts with a current-vintage match. Each of those pages
+also now has a companion forest-style chart, right below the stacked bar,
+showing the same components with an approximate 95% interval instead of
+just a point estimate — the stacked bar is good at showing what a share
+is made of, not at showing how confidently. Those intervals come from the
+same delta-method shortcut as everywhere else on this page: each
+component's uncertainty approximated as `|covariate value| × that
+coefficient's own posterior SD`, treating coefficients as independent of
+each other rather than propagating their full joint posterior — a known
+simplification, not a full solution.
 
 ## Turnout
 
@@ -504,14 +546,18 @@ including the exact code that computes everything on this page.
   // Shared by the WAR v2 core plot and both WAR v3 extension plots below,
   // so each only has to supply its own coefficients object, [label, key]
   // term list, target element id, and accent color.
-  function renderForestChart(elementId, coefs, terms, color, height) {
+  function renderForestChart(elementId, coefs, terms, color, height, standardized) {
+    const meanKey = standardized ? "standardized_mean" : "posterior_mean";
+    const loKey = standardized ? "standardized_ci_95_low" : "ci_95_low";
+    const hiKey = standardized ? "standardized_ci_95_high" : "ci_95_high";
     const data = terms.map(([label, key]) => ({
       term: label,
-      mean: coefs[key].posterior_mean,
-      lo: coefs[key].ci_95_low,
-      hi: coefs[key].ci_95_high,
+      mean: coefs[key][meanKey],
+      lo: coefs[key][loKey],
+      hi: coefs[key][hiKey],
     }));
     const termOrder = terms.map((t) => t[0]);
+    const xTitle = standardized ? "Standardized effect (per 1 SD of predictor)" : "Coefficient value";
     const spec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
       "width": "container",
@@ -521,7 +567,7 @@ including the exact code that computes everything on this page.
         {
           "data": { "values": [{ "x": 0 }] },
           "mark": { "type": "rule", "strokeDash": [4, 2] },
-          "encoding": { "x": { "field": "x", "type": "quantitative", "title": "Coefficient value" }, "color": { "value": methodologyCssVar("--gridline") } }
+          "encoding": { "x": { "field": "x", "type": "quantitative", "title": xTitle }, "color": { "value": methodologyCssVar("--gridline") } }
         },
         {
           "data": { "values": data },
@@ -580,6 +626,22 @@ including the exact code that computes everything on this page.
     methodologyCssVar("--war-tide"),
     120
   );
+  renderForestChart(
+    "war-v3-demographics-standardized-chart",
+    {{ site.data.war_v3_demographics.coefficients | jsonify }},
+    [
+      ["District lean", "own_lean"],
+      ["Statewide tide", "own_tide"],
+      ["Incumbent, 1st term", "incumbent_1"],
+      ["Incumbent, 2nd term", "incumbent_2"],
+      ["Incumbent, 3rd+ term", "incumbent_3plus"],
+      ["Bachelor's degree %", "bachelors_pct"],
+      ["Bachelor's degree % × tide", "bachelors_pct_x_tide"],
+    ],
+    methodologyCssVar("--war-extra"),
+    260,
+    true
+  );
   {% endif %}
 
   {% if site.data.war_v3_finance %}
@@ -589,6 +651,21 @@ including the exact code that computes everything on this page.
     [["log(total raised + 1)", "log_raised"]],
     methodologyCssVar("--war-residual"),
     90
+  );
+  renderForestChart(
+    "war-v3-finance-standardized-chart",
+    {{ site.data.war_v3_finance.coefficients | jsonify }},
+    [
+      ["District lean", "own_lean"],
+      ["Statewide tide", "own_tide"],
+      ["Incumbent, 1st term", "incumbent_1"],
+      ["Incumbent, 2nd term", "incumbent_2"],
+      ["Incumbent, 3rd+ term", "incumbent_3plus"],
+      ["log(total raised + 1)", "log_raised"],
+    ],
+    methodologyCssVar("--war-extra"),
+    220,
+    true
   );
   {% endif %}
 

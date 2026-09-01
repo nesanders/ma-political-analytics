@@ -323,6 +323,55 @@ full.
   posterior, so the same page can show a genuine before/after (prior vs.
   posterior density) for one term without hardcoding the prior elsewhere.
 
+  `_bayesian_linear_regression` also now returns a **standardized**
+  ("beta weight") version of every non-intercept coefficient: each
+  posterior draw scaled by that predictor's own SD in the fitted sample
+  (`predictor_sd`/`standardized_mean`/`standardized_sd`/
+  `standardized_ci_95_low`/`standardized_ci_95_high`), turning "share
+  points per unit of own_lean" and "share points per log-dollar raised"
+  into one common "share points per 1 SD of this predictor" unit —
+  genuinely comparable across a 0-1 continuous slope, a log-dollar slope,
+  and a 0/1 incumbency dummy. The intercept has no such rescaling (its
+  covariate is a constant column of 1s, SD 0) and is reported as `None`
+  rather than a misleading zero. The methodology page now renders one
+  full-parameter standardized forest chart per WAR v3 diagnostic (all of
+  that fit's terms, not the trimmed subset the native-unit charts show) —
+  which also surfaced and fixed a real doc bug: the finance diagnostic's
+  own prose/table had claimed it "drops the incumbency terms," when the
+  actual `fit_war_v3_finance` code has always fit them alongside
+  lean/tide/log_raised; the full-parameter chart and an updated 6-row
+  table now show all six.
+
+  Two new `apply_war_v3_*` functions (mirroring `apply_war_v2`) thread
+  each WAR v3 diagnostic's own decomposition into the attribution charts,
+  wherever real data actually supports it, using distinctly-suffixed
+  field names (`*_v3_demographics`/`*_v3_finance`) so they sit alongside
+  v2's own fields rather than overwriting them (v2 and v3 fit different
+  coefficients on different samples — clobbering would have been a real
+  bug, caught and fixed before shipping). `apply_war_v3_demographics`
+  mutates the current-vintage district records `apply_war_v2` already
+  updated, adding a combined `education_component` (the bachelor's-degree
+  main effect and its tide interaction folded into one slice, so the
+  attribution chart's palette only needs one extra color). `apply_war_v3_finance`
+  mutates `build_candidate_records`'s already-built race dicts, adding a
+  `fundraising_component` for any race with an OCPF-matched total that
+  year. Both also compute an approximate per-component uncertainty via
+  the delta method (`component_sd ≈ |covariate value| × that coefficient's
+  own posterior SD` — a known simplification, since it treats each
+  coefficient's posterior as independent of the others rather than
+  propagating a full joint posterior) alongside the point estimate, and
+  reuse the fit's own `posterior_sigma_mean` as the residual/WAR term's
+  own uncertainty. District/seat/candidate page attribution charts now
+  use whichever decomposition actually applies (v3 when available, v2
+  otherwise) for their existing stacked bar, plus a new companion
+  forest-style chart showing the same components with an approximate 95%
+  interval — verified live: every affected page's components still sum
+  exactly to `actual_two_party_share` (checked across all 3,142 v2
+  candidate-race rows, all rows with a real `war_v3_demographics`, and all
+  2,325 rows with a real `war_v3_finance` — zero mismatches in any of the
+  three), and a real Jekyll build + Playwright sweep across a dozen
+  district/seat/candidate/methodology pages came back with zero JS errors.
+
   Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
   name re-derived one, to avoid collisions between different candidates
   with similar names; every race a candidate ran across every year and

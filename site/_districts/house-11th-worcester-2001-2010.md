@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0731
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5348
+    own_tide: 0.4645
     war_v2: 0.1313
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2822
+    lean_component_sd: 0.0165
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5349
     expected_two_party_share_v2: 0.4767
   - name: Kevin T. Byrne
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0731
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4652
+    own_tide: 0.5355
     war_v2: -0.0479
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2455
+    lean_component_sd: 0.0143
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4651
     expected_two_party_share_v2: 0.4399
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5827
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4173
+    own_tide: 0.368
     war_v2: 0.4414
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2202
+    lean_component_sd: 0.0129
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4173
     expected_two_party_share_v2: 0.5586
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5729
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4271
+    own_tide: 0.3884
     war_v2: 0.4338
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2254
+    lean_component_sd: 0.0132
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4271
     expected_two_party_share_v2: 0.5662
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5631
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4369
+    own_tide: 0.3726
     war_v2: 0.4182
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2306
+    lean_component_sd: 0.0135
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4369
     expected_two_party_share_v2: 0.5818
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3608
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6392
+    own_tide: 0.5255
     war_v2: 0.4683
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3373
+    lean_component_sd: 0.0197
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6392
     expected_two_party_share_v2: 0.5317
   is_open_seat: null

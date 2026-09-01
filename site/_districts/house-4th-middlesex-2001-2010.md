@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0296
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.533
+    own_tide: 0.4645
     war_v2: 0.0276
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2813
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.533
     expected_two_party_share_v2: 0.4758
   - name: Danielle W. Gregoire
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0296
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.467
+    own_tide: 0.5355
     war_v2: -0.1007
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2464
+    lean_component_sd: 0.0144
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.467
     expected_two_party_share_v2: 0.5973
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.0632
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5848
+    own_tide: 0.632
     war_v2: 0.0189
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3086
+    lean_component_sd: 0.018
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5848
     expected_two_party_share_v2: 0.5027
   - name: Arthur G. Vigeant
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.0632
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4152
+    own_tide: 0.368
     war_v2: 0.0645
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2191
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4152
     expected_two_party_share_v2: 0.4139
   - name: Joseph L. Valianti
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.4538
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5462
+    own_tide: 0.6116
     war_v2: 0.3715
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2882
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5462
     expected_two_party_share_v2: 0.6285
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.1346
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5728
+    own_tide: 0.6274
     war_v2: 0.0545
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3023
+    lean_component_sd: 0.0176
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5728
     expected_two_party_share_v2: 0.6529
   - name: Kenneth A. Cosco, Jr.
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.1346
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4272
+    own_tide: 0.3726
     war_v2: -0.1276
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2254
+    lean_component_sd: 0.0132
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4272
     expected_two_party_share_v2: 0.4202
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.3659
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3681
+    own_tide: 0.4745
     war_v2: 0.3452
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1942
+    lean_component_sd: 0.0113
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3681
     expected_two_party_share_v2: 0.3888
   - name: William J. Hagan
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.3659
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6319
+    own_tide: 0.5255
     war_v2: -0.2618
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3335
+    lean_component_sd: 0.0195
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6319
     expected_two_party_share_v2: 0.5278
   - name: Mark P. Testagrossa
@@ -228,11 +298,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

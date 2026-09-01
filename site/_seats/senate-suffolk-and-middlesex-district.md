@@ -29,13 +29,33 @@ results_by_year:
     war: 0.183
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.817
+    own_tide: 0.6296
     war_v2: 0.2182
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4311
+    lean_component_sd: 0.0252
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.817
     expected_two_party_share_v2: 0.7818
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8248
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.1752
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8248
+    own_tide: 0.6484
     war_v2: 0.3706
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4352
+    lean_component_sd: 0.0254
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.8248
     expected_two_party_share_v2: 0.6294
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 101830

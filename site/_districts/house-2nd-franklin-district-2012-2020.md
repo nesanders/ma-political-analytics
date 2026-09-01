@@ -32,11 +32,18 @@ results_by_year:
     war: null
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: William E. Larose
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.4491
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5509
+    own_tide: 0.6712
     war_v2: 0.5152
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2907
+    lean_component_sd: 0.017
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5509
     expected_two_party_share_v2: 0.4848
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: John William Arena
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.7276
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2724
+    own_tide: 0.3321
     war_v2: 0.6614
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1437
+    lean_component_sd: 0.0084
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2724
     expected_two_party_share_v2: 0.3386
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.5098
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4902
+    own_tide: 0.3535
     war_v2: 0.39
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2587
+    lean_component_sd: 0.0151
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4902
     expected_two_party_share_v2: 0.61
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0106
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5569
+    own_tide: 0.5098
     war_v2: 0.058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2939
+    lean_component_sd: 0.0172
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5569
     expected_two_party_share_v2: 0.4883
   - name: Denise Andrews
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0106
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4431
+    own_tide: 0.4902
     war_v2: -0.1311
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2338
+    lean_component_sd: 0.0136
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4431
     expected_two_party_share_v2: 0.5848
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0778
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5838
+    own_tide: 0.6179
     war_v2: 0.0037
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3081
+    lean_component_sd: 0.018
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5838
     expected_two_party_share_v2: 0.5023
   - name: Susannah M. Whipps Lee
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.0778
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4162
+    own_tide: 0.3821
     war_v2: 0.0797
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2196
+    lean_component_sd: 0.0128
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4162
     expected_two_party_share_v2: 0.4143
   - name: Richard F. Schober, Jr.
@@ -212,11 +275,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

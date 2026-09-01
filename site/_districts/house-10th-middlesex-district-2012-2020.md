@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2387
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.7613
+    own_tide: 0.6712
     war_v2: 0.2606
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4017
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7613
     expected_two_party_share_v2: 0.7394
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5763
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4237
+    own_tide: 0.3321
     war_v2: 0.438
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2236
+    lean_component_sd: 0.013
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4237
     expected_two_party_share_v2: 0.562
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2635
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7365
+    own_tide: 0.6465
     war_v2: 0.2711
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3887
+    lean_component_sd: 0.0227
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7365
     expected_two_party_share_v2: 0.7289
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.4271
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5729
+    own_tide: 0.4902
     war_v2: 0.3467
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3023
+    lean_component_sd: 0.0176
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5729
     expected_two_party_share_v2: 0.6533
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.0804
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6795
+    own_tide: 0.6179
     war_v2: 0.2072
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3586
+    lean_component_sd: 0.0209
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6796
     expected_two_party_share_v2: 0.5528
   - name: Francis Xavier Stanton, III
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.0804
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3205
+    own_tide: 0.3821
     war_v2: -0.1238
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1691
+    lean_component_sd: 0.0099
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.3204
     expected_two_party_share_v2: 0.3638
   is_open_seat: null

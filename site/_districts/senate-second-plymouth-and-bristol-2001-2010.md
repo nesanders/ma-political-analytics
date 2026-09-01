@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5138
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4862
+    own_tide: 0.5355
     war_v2: 0.3926
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2566
+    lean_component_sd: 0.015
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4862
     expected_two_party_share_v2: 0.6074
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4057
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5943
+    own_tide: 0.632
     war_v2: 0.4922
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3136
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5943
     expected_two_party_share_v2: 0.5078
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.4324
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5676
+    own_tide: 0.6116
     war_v2: 0.3602
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2995
+    lean_component_sd: 0.0175
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5676
     expected_two_party_share_v2: 0.6398
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.0954
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5816
+    own_tide: 0.6274
     war_v2: 0.0194
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3069
+    lean_component_sd: 0.0179
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5816
     expected_two_party_share_v2: 0.6576
   - name: Lawrence P. Novak
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.0954
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4184
+    own_tide: 0.3726
     war_v2: -0.0925
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2208
+    lean_component_sd: 0.0129
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4184
     expected_two_party_share_v2: 0.4155
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.5501
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4499
+    own_tide: 0.4745
     war_v2: 0.5681
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2374
+    lean_component_sd: 0.0139
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4499
     expected_two_party_share_v2: 0.4319
   is_open_seat: null

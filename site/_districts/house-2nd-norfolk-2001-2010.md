@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0713
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.548
+    own_tide: 0.5355
     war_v2: 0.1359
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2892
+    lean_component_sd: 0.0169
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5481
     expected_two_party_share_v2: 0.4835
   - name: John M. Iredale
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0713
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.452
+    own_tide: 0.4645
     war_v2: -0.0525
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2385
+    lean_component_sd: 0.0139
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4519
     expected_two_party_share_v2: 0.4331
   - name: Karl Roos
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.4053
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5947
+    own_tide: 0.632
     war_v2: 0.3484
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3138
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5947
     expected_two_party_share_v2: 0.6516
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4174
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5826
+    own_tide: 0.6116
     war_v2: 0.3523
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3074
+    lean_component_sd: 0.0179
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5826
     expected_two_party_share_v2: 0.6477
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.3562
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6438
+    own_tide: 0.6274
     war_v2: 0.3096
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3397
+    lean_component_sd: 0.0198
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6438
     expected_two_party_share_v2: 0.6904
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5
+    own_tide: 0.4745
     war_v2: 0.5416
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2638
+    lean_component_sd: 0.0154
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5
     expected_two_party_share_v2: 0.4584
   is_open_seat: null

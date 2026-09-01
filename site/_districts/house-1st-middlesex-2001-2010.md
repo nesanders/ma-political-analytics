@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0244
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6007
+    own_tide: 0.4645
     war_v2: 0.1137
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.317
+    lean_component_sd: 0.0185
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6008
     expected_two_party_share_v2: 0.5115
   - name: Jesse Reich
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0244
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3993
+    own_tide: 0.5355
     war_v2: -0.0303
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2107
+    lean_component_sd: 0.0123
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3992
     expected_two_party_share_v2: 0.4051
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.093
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4728
+    own_tide: 0.368
     war_v2: -0.0221
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2495
+    lean_component_sd: 0.0146
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4728
     expected_two_party_share_v2: 0.5879
   - name: Virginia C. Wood
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.093
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5272
+    own_tide: 0.632
     war_v2: -0.0381
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2782
+    lean_component_sd: 0.0162
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5272
     expected_two_party_share_v2: 0.4723
   - name: Zachary E. Saboliauskas
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.0853
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5102
+    own_tide: 0.3884
     war_v2: -0.0145
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2692
+    lean_component_sd: 0.0157
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.5102
     expected_two_party_share_v2: 0.61
   - name: Carol L. Bousquet
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.0853
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4898
+    own_tide: 0.6116
     war_v2: -0.0482
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2585
+    lean_component_sd: 0.0151
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4898
     expected_two_party_share_v2: 0.4527
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.5143
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4857
+    own_tide: 0.3726
     war_v2: 0.3925
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2563
+    lean_component_sd: 0.015
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4857
     expected_two_party_share_v2: 0.6075
   - name: Faye L. Morrison
@@ -187,11 +243,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.0161
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.655
+    own_tide: 0.5255
     war_v2: 0.0989
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3456
+    lean_component_sd: 0.0202
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.655
     expected_two_party_share_v2: 0.54
   - name: Faye L. Morrison
@@ -228,11 +298,18 @@ results_by_year:
     war: 0.0161
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.345
+    own_tide: 0.4745
     war_v2: -0.0155
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1821
+    lean_component_sd: 0.0106
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.345
     expected_two_party_share_v2: 0.3766
   is_open_seat: null

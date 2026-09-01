@@ -29,13 +29,33 @@ results_by_year:
     war: 0.0287
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5649
+    own_tide: 0.6296
     war_v2: -0.0551
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2981
+    lean_component_sd: 0.0174
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5649
     expected_two_party_share_v2: 0.6487
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.547
+    lean_component_v3_demographics_sd: 0.035
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0103
+    education_component_sd: 0.0294
+    expected_two_party_share_v3_demographics: 0.6026
+    war_v3_demographics: -0.009
+    war_v3_demographics_sd: 0.0625
   - name: Susanne H. Conley
     slug: susanne-h-conley
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.0287
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4351
+    own_tide: 0.3704
     war_v2: -0.018
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2296
+    lean_component_sd: 0.0134
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4351
     expected_two_party_share_v2: 0.4244
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4213
+    lean_component_v3_demographics_sd: 0.0269
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0071
+    education_component_sd: 0.0251
+    expected_two_party_share_v3_demographics: 0.4438
+    war_v3_demographics: -0.0374
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5655
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0562
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5655
+    own_tide: 0.6484
     war_v2: 0.1292
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2984
+    lean_component_sd: 0.0174
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4925
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5476
+    lean_component_v3_demographics_sd: 0.035
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0106
+    education_component_sd: 0.0297
+    expected_two_party_share_v3_demographics: 0.5436
+    war_v3_demographics: 0.0781
+    war_v3_demographics_sd: 0.0625
   - name: William Buffington Peters
     slug: william-buffington-peters
     party: Republican
@@ -86,13 +146,33 @@ results_by_year:
     war: -0.0562
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4345
+    own_tide: 0.3516
     war_v2: -0.0458
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2293
+    lean_component_sd: 0.0134
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4241
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4207
+    lean_component_v3_demographics_sd: 0.0269
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0069
+    education_component_sd: 0.0249
+    expected_two_party_share_v3_demographics: 0.445
+    war_v3_demographics: -0.0667
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44617

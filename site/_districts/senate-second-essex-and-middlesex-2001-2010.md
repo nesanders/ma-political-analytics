@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0753
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4848
+    own_tide: 0.5355
     war_v2: 0.1099
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2558
+    lean_component_sd: 0.0149
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4848
     expected_two_party_share_v2: 0.4502
   - name: Jamison Tomasek
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0753
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5152
+    own_tide: 0.4645
     war_v2: -0.0265
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2719
+    lean_component_sd: 0.0159
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5152
     expected_two_party_share_v2: 0.4664
   - name: Jodi Oberto
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.394
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.606
+    own_tide: 0.632
     war_v2: 0.3425
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3198
+    lean_component_sd: 0.0187
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.606
     expected_two_party_share_v2: 0.6575
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4478
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5522
+    own_tide: 0.6116
     war_v2: 0.3683
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2914
+    lean_component_sd: 0.017
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5522
     expected_two_party_share_v2: 0.6317
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.1423
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5743
+    own_tide: 0.6274
     war_v2: 0.0629
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3031
+    lean_component_sd: 0.0177
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5743
     expected_two_party_share_v2: 0.6537
   - name: Deborah J. Jones
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1423
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4257
+    own_tide: 0.3726
     war_v2: -0.136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2246
+    lean_component_sd: 0.0131
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4257
     expected_two_party_share_v2: 0.4194
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.215
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4196
+    own_tide: 0.4745
     war_v2: 0.2187
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2214
+    lean_component_sd: 0.0129
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4196
     expected_two_party_share_v2: 0.4159
   - name: Maria Marasco
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.215
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5804
+    own_tide: 0.5255
     war_v2: -0.1353
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3063
+    lean_component_sd: 0.0179
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5804
     expected_two_party_share_v2: 0.5007
   is_open_seat: null

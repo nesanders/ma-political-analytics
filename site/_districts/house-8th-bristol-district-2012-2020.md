@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0117
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5586
+    own_tide: 0.6712
     war_v2: -0.0621
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2948
+    lean_component_sd: 0.0172
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5586
     expected_two_party_share_v2: 0.6324
   - name: Evan Gendreau
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0117
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4414
+    own_tide: 0.3288
     war_v2: 0.0019
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2329
+    lean_component_sd: 0.0136
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4414
     expected_two_party_share_v2: 0.4278
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.6587
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3413
+    own_tide: 0.3321
     war_v2: 0.4815
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1801
+    lean_component_sd: 0.0105
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3413
     expected_two_party_share_v2: 0.5185
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4092
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5908
+    own_tide: 0.6465
     war_v2: 0.348
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3118
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5908
     expected_two_party_share_v2: 0.652
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.4199
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5801
+    own_tide: 0.4902
     war_v2: 0.3429
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3061
+    lean_component_sd: 0.0179
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5801
     expected_two_party_share_v2: 0.6571
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2974
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7026
+    own_tide: 0.6179
     war_v2: 0.4351
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3708
+    lean_component_sd: 0.0216
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7026
     expected_two_party_share_v2: 0.5649
   is_open_seat: null

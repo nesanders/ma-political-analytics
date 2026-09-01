@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0811
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4872
+    own_tide: 0.5355
     war_v2: -0.0268
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2571
+    lean_component_sd: 0.015
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4872
     expected_two_party_share_v2: 0.5951
   - name: Patrick J. Foran
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0811
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5128
+    own_tide: 0.4645
     war_v2: -0.0334
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2706
+    lean_component_sd: 0.0158
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5128
     expected_two_party_share_v2: 0.4651
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4305
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5695
+    own_tide: 0.632
     war_v2: 0.3592
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3005
+    lean_component_sd: 0.0175
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5695
     expected_two_party_share_v2: 0.6408
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0126
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5076
+    own_tide: 0.6116
     war_v2: -0.0984
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2679
+    lean_component_sd: 0.0156
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5076
     expected_two_party_share_v2: 0.6186
   - name: Richard W. Neitz
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0126
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4924
+    own_tide: 0.3884
     war_v2: 0.0253
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2598
+    lean_component_sd: 0.0152
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4924
     expected_two_party_share_v2: 0.4545
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0464
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5553
+    own_tide: 0.6274
     war_v2: 0.0217
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.293
+    lean_component_sd: 0.0171
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5553
     expected_two_party_share_v2: 0.4872
   - name: Richard W. Neitz
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0464
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4447
+    own_tide: 0.3726
     war_v2: 0.0617
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2347
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4447
     expected_two_party_share_v2: 0.4294
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.0174
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6003
+    own_tide: 0.5255
     war_v2: 0.1065
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3168
+    lean_component_sd: 0.0185
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6003
     expected_two_party_share_v2: 0.5112
   - name: Cleon H. Turner
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.0174
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3997
+    own_tide: 0.4745
     war_v2: -0.0231
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2109
+    lean_component_sd: 0.0123
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3997
     expected_two_party_share_v2: 0.4054
   is_open_seat: null

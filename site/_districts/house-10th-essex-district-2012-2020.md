@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2971
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7029
+    own_tide: 0.6712
     war_v2: 0.2889
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3709
+    lean_component_sd: 0.0216
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7029
     expected_two_party_share_v2: 0.7111
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6121
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3879
+    own_tide: 0.3321
     war_v2: 0.444
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2047
+    lean_component_sd: 0.0119
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3879
     expected_two_party_share_v2: 0.556
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2958
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7042
+    own_tide: 0.6465
     war_v2: 0.4343
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3716
+    lean_component_sd: 0.0217
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7042
     expected_two_party_share_v2: 0.5657
   is_open_seat: true
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.408
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.592
+    own_tide: 0.4902
     war_v2: 0.3366
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3124
+    lean_component_sd: 0.0182
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.592
     expected_two_party_share_v2: 0.6634
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.099
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7309
+    own_tide: 0.6179
     war_v2: 0.25
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3857
+    lean_component_sd: 0.0225
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7309
     expected_two_party_share_v2: 0.5799
   - name: Dwight J. Caufield
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.099
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2691
+    own_tide: 0.3821
     war_v2: -0.1666
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.142
+    lean_component_sd: 0.0083
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.2691
     expected_two_party_share_v2: 0.3367
   is_open_seat: null

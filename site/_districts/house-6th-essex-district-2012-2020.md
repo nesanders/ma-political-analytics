@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3014
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6986
+    own_tide: 0.6712
     war_v2: 0.2937
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3687
+    lean_component_sd: 0.0215
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6986
     expected_two_party_share_v2: 0.7063
   - name: Euplio R. Marciano
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.7033
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2967
+    own_tide: 0.3321
     war_v2: 0.505
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1566
+    lean_component_sd: 0.0091
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2967
     expected_two_party_share_v2: 0.495
   - name: Donato H. Paglia
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.3437
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6563
+    own_tide: 0.6465
     war_v2: 0.3135
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3463
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6563
     expected_two_party_share_v2: 0.6865
   - name: Daniel Fishman
@@ -130,11 +165,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.5411
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4589
+    own_tide: 0.4902
     war_v2: 0.4069
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2422
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4589
     expected_two_party_share_v2: 0.5931
   - name: Euplio R. Marciano
@@ -171,11 +220,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.4065
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5935
+    own_tide: 0.6179
     war_v2: 0.4926
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3132
+    lean_component_sd: 0.0183
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5935
     expected_two_party_share_v2: 0.5074
   is_open_seat: null

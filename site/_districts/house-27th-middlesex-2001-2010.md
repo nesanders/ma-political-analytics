@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2106
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7894
+    own_tide: 0.5355
     war_v2: 0.243
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4166
+    lean_component_sd: 0.0243
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7894
     expected_two_party_share_v2: 0.757
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1636
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.8364
+    own_tide: 0.632
     war_v2: 0.208
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4414
+    lean_component_sd: 0.0258
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.8364
     expected_two_party_share_v2: 0.792
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2039
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7961
+    own_tide: 0.6116
     war_v2: 0.3857
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4201
+    lean_component_sd: 0.0245
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7961
     expected_two_party_share_v2: 0.6143
   is_open_seat: true
@@ -107,11 +128,18 @@ results_by_year:
     war: -0.0091
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.8228
+    own_tide: 0.6274
     war_v2: 0.0289
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4342
+    lean_component_sd: 0.0253
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.8228
     expected_two_party_share_v2: 0.7848
   - name: Dane E. Baird, Jr.
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0091
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.1772
+    own_tide: 0.3726
     war_v2: -0.102
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.0935
+    lean_component_sd: 0.0055
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.1772
     expected_two_party_share_v2: 0.2883
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3165
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6835
+    own_tide: 0.4745
     war_v2: 0.4448
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3607
+    lean_component_sd: 0.0211
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6835
     expected_two_party_share_v2: 0.5552
   - name: John Alan Roderick
@@ -164,11 +206,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

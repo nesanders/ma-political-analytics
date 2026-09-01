@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5335
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4665
+    own_tide: 0.3288
     war_v2: 0.4154
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2462
+    lean_component_sd: 0.0144
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4665
     expected_two_party_share_v2: 0.5846
   - name: Terry Burke Dotson
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1513
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.8058
+    own_tide: 0.6679
     war_v2: -0.1084
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4252
+    lean_component_sd: 0.0248
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.8058
     expected_two_party_share_v2: 0.7629
   - name: Terry Burke Dotson
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1513
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.1942
+    own_tide: 0.3321
     war_v2: 0.0482
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1025
+    lean_component_sd: 0.006
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.1942
     expected_two_party_share_v2: 0.2973
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.1507
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5126
+    own_tide: 0.3535
     war_v2: 0.0519
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2705
+    lean_component_sd: 0.0158
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5126
     expected_two_party_share_v2: 0.6114
   - name: Terry Burke Dotson
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.1507
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4874
+    own_tide: 0.6465
     war_v2: -0.1146
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2572
+    lean_component_sd: 0.015
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4874
     expected_two_party_share_v2: 0.4513
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0947
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6423
+    own_tide: 0.5098
     war_v2: 0.0471
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3389
+    lean_component_sd: 0.0198
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6423
     expected_two_party_share_v2: 0.6899
   - name: Terry Burke Dotson
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.0947
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3577
+    own_tide: 0.4902
     war_v2: -0.1202
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1888
+    lean_component_sd: 0.011
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3577
     expected_two_party_share_v2: 0.3832
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.5078
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4922
+    own_tide: 0.3821
     war_v2: 0.5455
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2597
+    lean_component_sd: 0.0152
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4922
     expected_two_party_share_v2: 0.4545
   is_open_seat: null

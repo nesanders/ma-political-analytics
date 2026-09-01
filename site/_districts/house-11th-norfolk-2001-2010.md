@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5428
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4572
+    own_tide: 0.5355
     war_v2: 0.4079
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2413
+    lean_component_sd: 0.0141
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4572
     expected_two_party_share_v2: 0.5921
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4506
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5494
+    own_tide: 0.632
     war_v2: 0.5159
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2899
+    lean_component_sd: 0.0169
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5494
     expected_two_party_share_v2: 0.4841
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.4838
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5162
+    own_tide: 0.6116
     war_v2: 0.3873
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2724
+    lean_component_sd: 0.0159
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5162
     expected_two_party_share_v2: 0.6127
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.431
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.569
+    own_tide: 0.6274
     war_v2: 0.3491
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3003
+    lean_component_sd: 0.0175
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.569
     expected_two_party_share_v2: 0.6509
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.2305
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3959
+    own_tide: 0.4745
     war_v2: 0.223
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2089
+    lean_component_sd: 0.0122
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3959
     expected_two_party_share_v2: 0.4034
   - name: Joseph A. Pascarella
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.2305
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6041
+    own_tide: 0.5255
     war_v2: -0.1396
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3188
+    lean_component_sd: 0.0186
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6041
     expected_two_party_share_v2: 0.5132
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1601
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3854
+    own_tide: 0.5355
     war_v2: 0.0017
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2034
+    lean_component_sd: 0.0119
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3854
     expected_two_party_share_v2: 0.5438
   - name: Joseph M. Truschelli
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1601
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6146
+    own_tide: 0.4645
     war_v2: -0.0644
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3243
+    lean_component_sd: 0.0189
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6146
     expected_two_party_share_v2: 0.5189
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5077
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4923
+    own_tide: 0.632
     war_v2: 0.3896
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2598
+    lean_component_sd: 0.0152
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.4923
     expected_two_party_share_v2: 0.6104
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0066
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5016
+    own_tide: 0.6116
     war_v2: 0.0494
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2647
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5017
     expected_two_party_share_v2: 0.4589
   - name: Olly Demacedo
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0066
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4984
+    own_tide: 0.3884
     war_v2: 0.034
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.263
+    lean_component_sd: 0.0154
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4983
     expected_two_party_share_v2: 0.4577
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.1906
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5042
+    own_tide: 0.6274
     war_v2: 0.0781
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2661
+    lean_component_sd: 0.0155
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.6167
   - name: Paul Timmins Curtis
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1906
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4958
+    own_tide: 0.3726
     war_v2: -0.1512
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2616
+    lean_component_sd: 0.0153
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4564
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.6308
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3692
+    own_tide: 0.4745
     war_v2: 0.6107
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1948
+    lean_component_sd: 0.0114
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3692
     expected_two_party_share_v2: 0.3893
   is_open_seat: null

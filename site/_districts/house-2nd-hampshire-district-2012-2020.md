@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2973
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7027
+    own_tide: 0.6712
     war_v2: 0.2786
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3708
+    lean_component_sd: 0.0216
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7027
     expected_two_party_share_v2: 0.7214
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3625
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3804
+    own_tide: 0.3321
     war_v2: 0.3473
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2007
+    lean_component_sd: 0.0117
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3804
     expected_two_party_share_v2: 0.3956
   - name: Donald Peltier
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3625
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6196
+    own_tide: 0.6679
     war_v2: -0.2639
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.327
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.6196
     expected_two_party_share_v2: 0.521
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.344
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.656
+    own_tide: 0.6465
     war_v2: 0.3136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3462
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.656
     expected_two_party_share_v2: 0.6864
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.4638
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5362
+    own_tide: 0.4902
     war_v2: 0.3661
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.283
+    lean_component_sd: 0.0165
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5362
     expected_two_party_share_v2: 0.6339
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3332
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6668
+    own_tide: 0.6179
     war_v2: 0.454
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3519
+    lean_component_sd: 0.0205
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6668
     expected_two_party_share_v2: 0.546
   is_open_seat: null

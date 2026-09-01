@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1936
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4679
+    own_tide: 0.5355
     war_v2: 0.0766
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2469
+    lean_component_sd: 0.0144
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4679
     expected_two_party_share_v2: 0.5849
   - name: Richard A. Jolitz
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1936
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5321
+    own_tide: 0.4645
     war_v2: -0.1368
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2808
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5321
     expected_two_party_share_v2: 0.4753
   - name: Matthew J. Fraser
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.4081
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5919
+    own_tide: 0.632
     war_v2: 0.3499
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3123
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5919
     expected_two_party_share_v2: 0.6501
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4479
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5521
+    own_tide: 0.6116
     war_v2: 0.3684
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2913
+    lean_component_sd: 0.017
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5521
     expected_two_party_share_v2: 0.6316
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.4031
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5969
+    own_tide: 0.6274
     war_v2: 0.3344
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.315
+    lean_component_sd: 0.0184
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5969
     expected_two_party_share_v2: 0.6656
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5795
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4205
+    own_tide: 0.4745
     war_v2: 0.5836
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2219
+    lean_component_sd: 0.013
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4205
     expected_two_party_share_v2: 0.4164
   is_open_seat: null

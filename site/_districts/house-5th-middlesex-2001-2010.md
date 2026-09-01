@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4877
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5123
+    own_tide: 0.5355
     war_v2: 0.3917
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2703
+    lean_component_sd: 0.0158
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5123
     expected_two_party_share_v2: 0.6083
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3702
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6298
+    own_tide: 0.632
     war_v2: 0.3299
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3323
+    lean_component_sd: 0.0194
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6298
     expected_two_party_share_v2: 0.6701
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.062
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5927
+    own_tide: 0.6116
     war_v2: 0.0016
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3128
+    lean_component_sd: 0.0183
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.6531
   - name: William W. Whittlesey
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.062
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4073
+    own_tide: 0.3884
     war_v2: -0.0643
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2149
+    lean_component_sd: 0.0125
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4096
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0653
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6183
+    own_tide: 0.6274
     war_v2: 0.0067
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3263
+    lean_component_sd: 0.019
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6183
     expected_two_party_share_v2: 0.6769
   - name: John Warren Lambert
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0653
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3817
+    own_tide: 0.3726
     war_v2: -0.0798
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2014
+    lean_component_sd: 0.0118
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3817
     expected_two_party_share_v2: 0.3962
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.2254
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4141
+    own_tide: 0.4745
     war_v2: 0.2265
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2185
+    lean_component_sd: 0.0128
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4141
     expected_two_party_share_v2: 0.413
   - name: Michael P. Cashman
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.2254
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5859
+    own_tide: 0.5255
     war_v2: -0.1431
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3092
+    lean_component_sd: 0.018
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5859
     expected_two_party_share_v2: 0.5036
   is_open_seat: null

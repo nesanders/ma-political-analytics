@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2491
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7509
+    own_tide: 0.5355
     war_v2: 0.2633
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3962
+    lean_component_sd: 0.0231
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7509
     expected_two_party_share_v2: 0.7367
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2398
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7602
+    own_tide: 0.632
     war_v2: 0.2482
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4012
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7602
     expected_two_party_share_v2: 0.7518
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: -0.0457
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.781
+    own_tide: 0.6116
     war_v2: 0.129
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4121
+    lean_component_sd: 0.0241
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.781
     expected_two_party_share_v2: 0.6063
   - name: Matthew W. Kinnaman
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0457
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.219
+    own_tide: 0.3884
     war_v2: -0.0456
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1156
+    lean_component_sd: 0.0067
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.219
     expected_two_party_share_v2: 0.3103
   - name: Dion C. Robbins-Zust
@@ -114,11 +142,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0476
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7285
+    own_tide: 0.6274
     war_v2: 0.0411
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3844
+    lean_component_sd: 0.0224
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7286
     expected_two_party_share_v2: 0.7351
   - name: Dawn Taylor Thompson
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0476
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2715
+    own_tide: 0.3726
     war_v2: -0.1142
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1433
+    lean_component_sd: 0.0084
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.2714
     expected_two_party_share_v2: 0.338
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3467
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6533
+    own_tide: 0.4745
     war_v2: 0.4607
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3447
+    lean_component_sd: 0.0201
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6533
     expected_two_party_share_v2: 0.5393
   - name: William P. Foley
@@ -196,11 +252,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

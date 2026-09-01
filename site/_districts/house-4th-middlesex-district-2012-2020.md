@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3142
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6858
+    own_tide: 0.6712
     war_v2: 0.3004
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3619
+    lean_component_sd: 0.0211
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6858
     expected_two_party_share_v2: 0.6996
   - name: Syed H. Hashmi
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.36
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2756
+    own_tide: 0.3321
     war_v2: 0.1517
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1454
+    lean_component_sd: 0.0085
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2756
     expected_two_party_share_v2: 0.4839
   - name: Paul R. Ferro
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.36
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7244
+    own_tide: 0.6679
     war_v2: -0.2119
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3823
+    lean_component_sd: 0.0223
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7244
     expected_two_party_share_v2: 0.5763
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0486
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.645
+    own_tide: 0.6465
     war_v2: -0.0841
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3404
+    lean_component_sd: 0.0199
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6451
     expected_two_party_share_v2: 0.6806
   - name: Paul R. Ferro
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.0486
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.355
+    own_tide: 0.3535
     war_v2: 0.0214
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1873
+    lean_component_sd: 0.0109
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3549
     expected_two_party_share_v2: 0.3821
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.1097
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4295
+    own_tide: 0.4902
     war_v2: -0.0384
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2266
+    lean_component_sd: 0.0132
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4295
     expected_two_party_share_v2: 0.5776
   - name: Matthew H. Elder
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.1097
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5705
+    own_tide: 0.5098
     war_v2: -0.0347
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3011
+    lean_component_sd: 0.0176
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5705
     expected_two_party_share_v2: 0.4955
   - name: Kristine E. Coffey-Donahue
@@ -187,11 +243,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.0631
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5691
+    own_tide: 0.6179
     war_v2: 0.0114
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3003
+    lean_component_sd: 0.0175
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.569
     expected_two_party_share_v2: 0.4945
   - name: Steven L. Levy
@@ -228,11 +298,18 @@ results_by_year:
     war: 0.0631
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4309
+    own_tide: 0.3821
     war_v2: 0.072
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2274
+    lean_component_sd: 0.0133
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.431
     expected_two_party_share_v2: 0.4221
   is_open_seat: null

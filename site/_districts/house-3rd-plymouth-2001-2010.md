@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1723
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4487
+    own_tide: 0.5355
     war_v2: 0.0462
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2368
+    lean_component_sd: 0.0138
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4486
     expected_two_party_share_v2: 0.5747
   - name: Timothy F. Finnerty
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1723
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5513
+    own_tide: 0.4645
     war_v2: -0.1064
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2909
+    lean_component_sd: 0.017
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5514
     expected_two_party_share_v2: 0.4855
   - name: Carlton A. Chambers
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.46
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.54
+    own_tide: 0.632
     war_v2: 0.3773
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.285
+    lean_component_sd: 0.0166
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.54
     expected_two_party_share_v2: 0.6227
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.49
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.51
+    own_tide: 0.6116
     war_v2: 0.3906
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2691
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.51
     expected_two_party_share_v2: 0.6094
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.4695
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5305
+    own_tide: 0.6274
     war_v2: 0.3694
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2799
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5305
     expected_two_party_share_v2: 0.6306
   - name: Laura M. Burns
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3353
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3412
+    own_tide: 0.4745
     war_v2: 0.3019
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1801
+    lean_component_sd: 0.0105
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3412
     expected_two_party_share_v2: 0.3746
   - name: Nathaniel G. Palmer
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.3353
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6588
+    own_tide: 0.5255
     war_v2: -0.2185
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3476
+    lean_component_sd: 0.0203
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6588
     expected_two_party_share_v2: 0.542
   is_open_seat: null

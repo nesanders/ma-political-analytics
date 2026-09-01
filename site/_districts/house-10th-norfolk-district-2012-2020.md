@@ -32,11 +32,18 @@ results_by_year:
     war: 0.37
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.63
+    own_tide: 0.6712
     war_v2: 0.3299
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3325
+    lean_component_sd: 0.0194
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.63
     expected_two_party_share_v2: 0.6701
   - name: Andrew M. Bissanti
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3593
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.226
+    own_tide: 0.3321
     war_v2: 0.1276
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1193
+    lean_component_sd: 0.007
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.226
     expected_two_party_share_v2: 0.4577
   - name: Patrick R. Casey
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3593
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.774
+    own_tide: 0.6679
     war_v2: -0.1878
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4084
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.774
     expected_two_party_share_v2: 0.6025
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4235
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5765
+    own_tide: 0.6465
     war_v2: 0.3556
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3042
+    lean_component_sd: 0.0178
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5765
     expected_two_party_share_v2: 0.6444
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.6321
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3679
+    own_tide: 0.4902
     war_v2: 0.4549
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1941
+    lean_component_sd: 0.0113
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3679
     expected_two_party_share_v2: 0.5451
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0402
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5027
+    own_tide: 0.6179
     war_v2: 0.0834
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2653
+    lean_component_sd: 0.0155
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5027
     expected_two_party_share_v2: 0.4595
   - name: Richard A. Eustis
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0402
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4973
+    own_tide: 0.3821
     war_v2: -0.0
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2624
+    lean_component_sd: 0.0153
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4973
     expected_two_party_share_v2: 0.4571
   is_open_seat: null

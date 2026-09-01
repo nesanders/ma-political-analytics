@@ -29,13 +29,33 @@ results_by_year:
     war: 0.039
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6046
+    own_tide: 0.6296
     war_v2: 0.1304
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.319
+    lean_component_sd: 0.0186
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6046
     expected_two_party_share_v2: 0.5132
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5854
+    lean_component_v3_demographics_sd: 0.0374
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0102
+    education_component_sd: 0.0291
+    expected_two_party_share_v3_demographics: 0.5834
+    war_v3_demographics: 0.0602
+    war_v3_demographics_sd: 0.0625
   - name: Lawrence Peter Novak
     slug: lawrence-peter-novak
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.039
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3954
+    own_tide: 0.3704
     war_v2: -0.047
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2087
+    lean_component_sd: 0.0122
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3954
     expected_two_party_share_v2: 0.4034
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3829
+    lean_component_v3_demographics_sd: 0.0245
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.007
+    education_component_sd: 0.0249
+    expected_two_party_share_v3_demographics: 0.4054
+    war_v3_demographics: -0.049
+    war_v3_demographics_sd: 0.0625
   - name: Jonathan Wilshire Gill
     slug: jonathan-wilshire-gill
     party: Other
@@ -61,13 +101,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5985
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.0079
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5985
+    own_tide: 0.6484
     war_v2: 0.0966
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3158
+    lean_component_sd: 0.0184
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5986
     expected_two_party_share_v2: 0.5099
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5795
+    lean_component_v3_demographics_sd: 0.037
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0104
+    education_component_sd: 0.0294
+    expected_two_party_share_v3_demographics: 0.5757
+    war_v3_demographics: 0.0308
+    war_v3_demographics_sd: 0.0625
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -102,13 +182,33 @@ results_by_year:
     war: -0.0079
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4015
+    own_tide: 0.3516
     war_v2: -0.0132
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2119
+    lean_component_sd: 0.0124
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4014
     expected_two_party_share_v2: 0.4067
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3888
+    lean_component_v3_demographics_sd: 0.0249
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0068
+    education_component_sd: 0.0246
+    expected_two_party_share_v3_demographics: 0.4131
+    war_v3_demographics: -0.0196
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 46300

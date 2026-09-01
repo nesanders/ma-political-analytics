@@ -32,11 +32,18 @@ results_by_year:
     war: 0.6074
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3926
+    own_tide: 0.3288
     war_v2: 0.4544
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2072
+    lean_component_sd: 0.0121
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3926
     expected_two_party_share_v2: 0.5456
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2456
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7544
+    own_tide: 0.6679
     war_v2: 0.2642
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3981
+    lean_component_sd: 0.0232
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7544
     expected_two_party_share_v2: 0.7358
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.0836
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4459
+    own_tide: 0.3535
     war_v2: -0.0466
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2353
+    lean_component_sd: 0.0137
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.446
     expected_two_party_share_v2: 0.5762
   - name: Matthew C. Patrick
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0836
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5541
+    own_tide: 0.6465
     war_v2: -0.0161
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2924
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.554
     expected_two_party_share_v2: 0.4865
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.424
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.576
+    own_tide: 0.5098
     war_v2: 0.3451
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.304
+    lean_component_sd: 0.0177
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.576
     expected_two_party_share_v2: 0.6549
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.5259
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4741
+    own_tide: 0.3821
     war_v2: 0.5551
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2502
+    lean_component_sd: 0.0146
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4741
     expected_two_party_share_v2: 0.4449
   is_open_seat: null

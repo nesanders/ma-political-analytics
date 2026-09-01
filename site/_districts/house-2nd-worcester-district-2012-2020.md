@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0373
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.534
+    own_tide: 0.6712
     war_v2: -0.0481
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2818
+    lean_component_sd: 0.0164
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.534
     expected_two_party_share_v2: 0.6194
   - name: Bruce K. Chester
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0373
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.466
+    own_tide: 0.3288
     war_v2: -0.0121
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2459
+    lean_component_sd: 0.0144
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.466
     expected_two_party_share_v2: 0.4408
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3381
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2159
+    own_tide: 0.3321
     war_v2: 0.1016
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1139
+    lean_component_sd: 0.0066
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2159
     expected_two_party_share_v2: 0.4524
   - name: Edward A. Gravel
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3381
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7841
+    own_tide: 0.6679
     war_v2: -0.1618
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4138
+    lean_component_sd: 0.0242
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7841
     expected_two_party_share_v2: 0.6078
   - name: Yasmine Khdeer
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.5016
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4984
+    own_tide: 0.6465
     war_v2: 0.3968
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.263
+    lean_component_sd: 0.0154
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4984
     expected_two_party_share_v2: 0.6032
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0913
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4101
+    own_tide: 0.4902
     war_v2: -0.0659
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2164
+    lean_component_sd: 0.0126
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4102
     expected_two_party_share_v2: 0.5674
   - name: Garret Shetrawski
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.0913
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5899
+    own_tide: 0.5098
     war_v2: -0.0072
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3113
+    lean_component_sd: 0.0182
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5898
     expected_two_party_share_v2: 0.5057
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.0341
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5441
+    own_tide: 0.6179
     war_v2: 0.0287
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2871
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5441
     expected_two_party_share_v2: 0.4813
   - name: Richard M. Bastien
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.0341
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4559
+    own_tide: 0.3821
     war_v2: 0.0547
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2406
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4559
     expected_two_party_share_v2: 0.4353
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2099
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4534
+    own_tide: 0.5355
     war_v2: 0.0836
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2393
+    lean_component_sd: 0.014
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4534
     expected_two_party_share_v2: 0.5797
   - name: Douglas R. Ness
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.2099
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5466
+    own_tide: 0.4645
     war_v2: -0.1463
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2884
+    lean_component_sd: 0.0168
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5466
     expected_two_party_share_v2: 0.483
   - name: Robert Montgomery Thomas
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.2017
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5437
+    own_tide: 0.632
     war_v2: 0.1078
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2869
+    lean_component_sd: 0.0167
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5437
     expected_two_party_share_v2: 0.6376
   - name: Robert Montgomery Thomas
@@ -105,11 +133,18 @@ results_by_year:
     war: -0.2017
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4563
+    own_tide: 0.368
     war_v2: -0.1809
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2408
+    lean_component_sd: 0.0141
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4563
     expected_two_party_share_v2: 0.4355
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.1769
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5346
+    own_tide: 0.6116
     war_v2: 0.2352
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2821
+    lean_component_sd: 0.0165
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5346
     expected_two_party_share_v2: 0.4763
   - name: Robert Montgomery Thomas
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.1769
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4654
+    own_tide: 0.3884
     war_v2: -0.1518
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2456
+    lean_component_sd: 0.0143
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4654
     expected_two_party_share_v2: 0.4403
   is_open_seat: true
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0936
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5847
+    own_tide: 0.6274
     war_v2: 0.0191
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3085
+    lean_component_sd: 0.018
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5847
     expected_two_party_share_v2: 0.6592
   - name: Douglas M. Veeder
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0936
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4153
+    own_tide: 0.3726
     war_v2: -0.0922
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2192
+    lean_component_sd: 0.0128
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4153
     expected_two_party_share_v2: 0.4139
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.5565
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4435
+    own_tide: 0.4745
     war_v2: 0.5715
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.234
+    lean_component_sd: 0.0137
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4285
   is_open_seat: null

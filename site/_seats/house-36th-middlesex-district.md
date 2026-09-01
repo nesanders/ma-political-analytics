@@ -29,13 +29,33 @@ results_by_year:
     war: 0.5227
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4773
+    own_tide: 0.6296
     war_v2: 0.3975
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2519
+    lean_component_sd: 0.0147
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.4773
     expected_two_party_share_v2: 0.6025
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4622
+    lean_component_v3_demographics_sd: 0.0295
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0114
+    education_component_sd: 0.0324
+    expected_two_party_share_v3_demographics: 0.5167
+    war_v3_demographics: 0.4833
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4953
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.1112
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4953
+    own_tide: 0.6484
     war_v2: 0.1509
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2614
+    lean_component_sd: 0.0153
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.4952
     expected_two_party_share_v2: 0.4555
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4796
+    lean_component_v3_demographics_sd: 0.0307
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0116
+    education_component_sd: 0.0328
+    expected_two_party_share_v3_demographics: 0.4746
+    war_v3_demographics: 0.1318
+    war_v3_demographics_sd: 0.0625
   - name: George Derek Boag
     slug: george-derek-boag
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.1112
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5047
+    own_tide: 0.3516
     war_v2: -0.0675
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2663
+    lean_component_sd: 0.0155
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.5048
     expected_two_party_share_v2: 0.4611
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4887
+    lean_component_v3_demographics_sd: 0.0312
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0076
+    education_component_sd: 0.0274
+    expected_two_party_share_v3_demographics: 0.5123
+    war_v3_demographics: -0.1187
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44997

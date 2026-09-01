@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0991
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4192
+    own_tide: 0.5355
     war_v2: -0.0408
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2212
+    lean_component_sd: 0.0129
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4193
     expected_two_party_share_v2: 0.5592
   - name: Robert V. Finneran
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0991
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5808
+    own_tide: 0.4645
     war_v2: -0.0194
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3065
+    lean_component_sd: 0.0179
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5807
     expected_two_party_share_v2: 0.501
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4572
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5428
+    own_tide: 0.632
     war_v2: 0.3758
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2864
+    lean_component_sd: 0.0167
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5428
     expected_two_party_share_v2: 0.6242
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.52
+    own_tide: 0.6116
     war_v2: 0.0053
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2744
+    lean_component_sd: 0.016
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.52
     expected_two_party_share_v2: 0.6147
   - name: Evan James O'Reilly
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.48
+    own_tide: 0.3884
     war_v2: -0.068
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2533
+    lean_component_sd: 0.0148
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.48
     expected_two_party_share_v2: 0.448
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.1058
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5273
+    own_tide: 0.6274
     war_v2: 0.0042
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2783
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5273
     expected_two_party_share_v2: 0.6289
   - name: Robert V. Finneran
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.1058
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4727
+    own_tide: 0.3726
     war_v2: -0.0773
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2494
+    lean_component_sd: 0.0146
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4727
     expected_two_party_share_v2: 0.4442
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.236
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3645
+    own_tide: 0.4745
     war_v2: 0.2136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1923
+    lean_component_sd: 0.0112
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3645
     expected_two_party_share_v2: 0.3869
   - name: Robert V. Finneran
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.236
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6355
+    own_tide: 0.5255
     war_v2: -0.1302
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3354
+    lean_component_sd: 0.0196
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6355
     expected_two_party_share_v2: 0.5297
   is_open_seat: null

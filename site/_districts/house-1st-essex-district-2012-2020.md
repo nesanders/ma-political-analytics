@@ -32,11 +32,18 @@ results_by_year:
     war: 0.189
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3274
+    own_tide: 0.3288
     war_v2: 0.0052
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1728
+    lean_component_sd: 0.0101
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3274
     expected_two_party_share_v2: 0.5112
   - name: Amber Hewett
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.189
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6726
+    own_tide: 0.6712
     war_v2: -0.0654
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3549
+    lean_component_sd: 0.0207
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6726
     expected_two_party_share_v2: 0.549
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1949
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7219
+    own_tide: 0.6679
     war_v2: -0.1941
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3809
+    lean_component_sd: 0.0222
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7219
     expected_two_party_share_v2: 0.7211
   - name: Jennifer A. Rocco-Runnion
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1949
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2781
+    own_tide: 0.3321
     war_v2: 0.1314
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1468
+    lean_component_sd: 0.0086
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2781
     expected_two_party_share_v2: 0.3416
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.1709
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3697
+    own_tide: 0.3535
     war_v2: -0.0058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1951
+    lean_component_sd: 0.0114
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3697
     expected_two_party_share_v2: 0.5464
   - name: Brianna Sullivan
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.1709
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6303
+    own_tide: 0.6465
     war_v2: -0.0673
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3326
+    lean_component_sd: 0.0194
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6303
     expected_two_party_share_v2: 0.5267
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.034
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5344
+    own_tide: 0.5098
     war_v2: 0.024
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.282
+    lean_component_sd: 0.0165
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5344
     expected_two_party_share_v2: 0.4764
   - name: Edward C. Cameron
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.034
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4656
+    own_tide: 0.4902
     war_v2: 0.0594
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2457
+    lean_component_sd: 0.0143
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4656
     expected_two_party_share_v2: 0.4402
   - name: Ari B. Herzog
@@ -187,11 +243,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Steven J. Stanganeli
@@ -203,11 +266,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Joseph L. Valianti
@@ -219,11 +289,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -244,11 +321,18 @@ results_by_year:
     war: 0.4036
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5964
+    own_tide: 0.6179
     war_v2: 0.4911
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3147
+    lean_component_sd: 0.0184
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5964
     expected_two_party_share_v2: 0.5089
   is_open_seat: null

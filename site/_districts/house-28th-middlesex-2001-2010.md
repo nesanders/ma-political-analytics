@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4149
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5851
+    own_tide: 0.5355
     war_v2: 0.3508
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3088
+    lean_component_sd: 0.018
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5851
     expected_two_party_share_v2: 0.6492
   - name: Dennis John Giantassio
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3296
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6704
+    own_tide: 0.632
     war_v2: 0.2956
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3538
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6704
     expected_two_party_share_v2: 0.7044
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3822
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6178
+    own_tide: 0.6116
     war_v2: 0.4798
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.326
+    lean_component_sd: 0.019
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6178
     expected_two_party_share_v2: 0.5202
   - name: Joseph F. Hickey
@@ -114,11 +142,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.314
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.686
+    own_tide: 0.6274
     war_v2: 0.2873
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.362
+    lean_component_sd: 0.0211
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.686
     expected_two_party_share_v2: 0.7127
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.1883
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.534
+    own_tide: 0.4745
     war_v2: 0.246
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2818
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.534
     expected_two_party_share_v2: 0.4763
   - name: Anthony F. Ranieri
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.1883
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.466
+    own_tide: 0.5255
     war_v2: -0.1626
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2459
+    lean_component_sd: 0.0144
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.466
     expected_two_party_share_v2: 0.4403
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0549
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4912
+    own_tide: 0.5355
     war_v2: 0.0924
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2592
+    lean_component_sd: 0.0151
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4911
     expected_two_party_share_v2: 0.4536
   - name: Gregory C. Neffinger
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0549
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5088
+    own_tide: 0.4645
     war_v2: -0.009
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2685
+    lean_component_sd: 0.0157
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.463
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4105
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5895
+    own_tide: 0.632
     war_v2: 0.3487
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3111
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5895
     expected_two_party_share_v2: 0.6513
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4333
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5667
+    own_tide: 0.6116
     war_v2: 0.3503
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.299
+    lean_component_sd: 0.0175
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5667
     expected_two_party_share_v2: 0.6497
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.051
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5903
+    own_tide: 0.6274
     war_v2: 0.1355
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3115
+    lean_component_sd: 0.0182
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5902
     expected_two_party_share_v2: 0.5057
   - name: Dean C. Vogel, Sr.
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.051
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4097
+    own_tide: 0.3726
     war_v2: -0.0521
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2162
+    lean_component_sd: 0.0126
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4098
     expected_two_party_share_v2: 0.4109
   is_open_seat: true
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5512
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4488
+    own_tide: 0.4745
     war_v2: 0.5687
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2368
+    lean_component_sd: 0.0138
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4488
     expected_two_party_share_v2: 0.4313
   is_open_seat: null

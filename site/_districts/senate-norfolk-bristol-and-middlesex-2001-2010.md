@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4569
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5431
+    own_tide: 0.4645
     war_v2: 0.5189
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2866
+    lean_component_sd: 0.0167
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5431
     expected_two_party_share_v2: 0.4811
   is_open_seat: true
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1744
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4109
+    own_tide: 0.368
     war_v2: 0.0275
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2168
+    lean_component_sd: 0.0127
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4108
     expected_two_party_share_v2: 0.5577
   - name: Sara Orozco
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1744
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5891
+    own_tide: 0.632
     war_v2: -0.0902
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3109
+    lean_component_sd: 0.0181
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5892
     expected_two_party_share_v2: 0.505
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5559
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4441
+    own_tide: 0.3884
     war_v2: 0.4144
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2344
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4441
     expected_two_party_share_v2: 0.5856
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0955
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4207
+    own_tide: 0.3726
     war_v2: 0.0995
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.222
+    lean_component_sd: 0.013
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4207
     expected_two_party_share_v2: 0.4167
   - name: Angus G. McQuilken
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0955
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5793
+    own_tide: 0.6274
     war_v2: -0.0161
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3057
+    lean_component_sd: 0.0178
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5793
     expected_two_party_share_v2: 0.4999
   - name: Louis Sinoff
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.2145
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3853
+    own_tide: 0.4745
     war_v2: 0.2019
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2033
+    lean_component_sd: 0.0119
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3852
     expected_two_party_share_v2: 0.3978
   - name: Earl Henry Sholley
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.2145
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6147
+    own_tide: 0.5255
     war_v2: -0.1185
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3244
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6148
     expected_two_party_share_v2: 0.5188
   is_open_seat: null

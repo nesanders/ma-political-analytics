@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3772
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6228
+    own_tide: 0.6712
     war_v2: 0.3337
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3287
+    lean_component_sd: 0.0192
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6228
     expected_two_party_share_v2: 0.6663
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.71
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.29
+    own_tide: 0.3321
     war_v2: 0.5085
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.153
+    lean_component_sd: 0.0089
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.29
     expected_two_party_share_v2: 0.4915
   - name: Donald J. Flannery
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3789
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6211
+    own_tide: 0.6465
     war_v2: 0.332
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3278
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6211
     expected_two_party_share_v2: 0.668
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1866
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4658
+    own_tide: 0.4902
     war_v2: 0.0556
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2458
+    lean_component_sd: 0.0143
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4658
     expected_two_party_share_v2: 0.5968
   - name: Bob Russell
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1866
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5342
+    own_tide: 0.5098
     war_v2: -0.1287
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2819
+    lean_component_sd: 0.0165
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5342
     expected_two_party_share_v2: 0.4763
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0779
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6248
+    own_tide: 0.6179
     war_v2: 0.1788
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3297
+    lean_component_sd: 0.0192
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6248
     expected_two_party_share_v2: 0.5239
   - name: Dennis John McCarthy
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0779
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3752
+    own_tide: 0.3821
     war_v2: -0.0954
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.198
+    lean_component_sd: 0.0116
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.3752
     expected_two_party_share_v2: 0.3927
   is_open_seat: null

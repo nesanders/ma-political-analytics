@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0237
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.62
+    own_tide: 0.4645
     war_v2: 0.0746
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3272
+    lean_component_sd: 0.0191
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.62
     expected_two_party_share_v2: 0.5217
   - name: Kevin P. Conway
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0237
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.38
+    own_tide: 0.5355
     war_v2: 0.0088
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2005
+    lean_component_sd: 0.0117
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.38
     expected_two_party_share_v2: 0.3949
   - name: James F. O'Donnell, Jr.
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: George Simolaris, Jr.
@@ -80,11 +101,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -105,11 +133,18 @@ results_by_year:
     war: 0.1346
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5112
+    own_tide: 0.632
     war_v2: 0.0383
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2698
+    lean_component_sd: 0.0157
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5112
     expected_two_party_share_v2: 0.6075
   - name: Anthony Lucacio
@@ -121,11 +156,18 @@ results_by_year:
     war: -0.1346
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4888
+    own_tide: 0.368
     war_v2: -0.0985
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2579
+    lean_component_sd: 0.0151
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4888
     expected_two_party_share_v2: 0.4527
   is_open_seat: false
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.5194
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4806
+    own_tide: 0.6116
     war_v2: 0.4061
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2536
+    lean_component_sd: 0.0148
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.5939
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0966
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5278
+    own_tide: 0.6274
     war_v2: -0.0048
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2785
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5278
     expected_two_party_share_v2: 0.6292
   - name: Marc T. Lombardo
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0966
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4722
+    own_tide: 0.3726
     war_v2: -0.0683
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2492
+    lean_component_sd: 0.0145
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4722
     expected_two_party_share_v2: 0.4439
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.6182
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3818
+    own_tide: 0.4745
     war_v2: 0.604
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2015
+    lean_component_sd: 0.0118
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3818
     expected_two_party_share_v2: 0.396
   is_open_seat: null

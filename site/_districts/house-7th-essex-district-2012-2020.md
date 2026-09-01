@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2316
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7684
+    own_tide: 0.6712
     war_v2: 0.2569
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4055
+    lean_component_sd: 0.0237
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7684
     expected_two_party_share_v2: 0.7431
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5836
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4164
+    own_tide: 0.3321
     war_v2: 0.4393
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2197
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4164
     expected_two_party_share_v2: 0.5607
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2675
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7325
+    own_tide: 0.6465
     war_v2: 0.2628
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3865
+    lean_component_sd: 0.0226
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7325
     expected_two_party_share_v2: 0.7372
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.4395
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5605
+    own_tide: 0.4902
     war_v2: 0.5098
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2958
+    lean_component_sd: 0.0173
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5605
     expected_two_party_share_v2: 0.4902
   - name: Daniel J. Morris
@@ -123,11 +151,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2962
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7038
+    own_tide: 0.6179
     war_v2: 0.4344
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3714
+    lean_component_sd: 0.0217
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7038
     expected_two_party_share_v2: 0.5656
   is_open_seat: null

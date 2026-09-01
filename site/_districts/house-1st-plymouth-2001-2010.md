@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4352
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5648
+    own_tide: 0.4645
     war_v2: 0.3638
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.298
+    lean_component_sd: 0.0174
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5648
     expected_two_party_share_v2: 0.6362
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.211
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.464
+    own_tide: 0.368
     war_v2: 0.0917
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2449
+    lean_component_sd: 0.0143
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4639
     expected_two_party_share_v2: 0.5832
   - name: Jay D. Ferguson
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.211
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.536
+    own_tide: 0.632
     war_v2: -0.1519
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2828
+    lean_component_sd: 0.0165
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5361
     expected_two_party_share_v2: 0.477
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5371
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4629
+    own_tide: 0.3884
     war_v2: 0.4149
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2443
+    lean_component_sd: 0.0143
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4629
     expected_two_party_share_v2: 0.5851
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1653
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4558
+    own_tide: 0.3726
     war_v2: 0.0293
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2405
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4558
     expected_two_party_share_v2: 0.5918
   - name: Loring Tripp, III
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1653
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5442
+    own_tide: 0.6274
     war_v2: -0.1024
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2872
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5442
     expected_two_party_share_v2: 0.4813
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0568
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.615
+    own_tide: 0.5255
     war_v2: 0.1529
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3245
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.615
     expected_two_party_share_v2: 0.5189
   - name: Loring Tripp, III
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0568
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.385
+    own_tide: 0.4745
     war_v2: -0.0695
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2032
+    lean_component_sd: 0.0119
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.385
     expected_two_party_share_v2: 0.3977
   is_open_seat: null

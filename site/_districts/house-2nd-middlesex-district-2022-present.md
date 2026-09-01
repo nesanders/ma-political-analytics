@@ -29,13 +29,33 @@ results_by_year:
     war: 0.3372
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6628
+    own_tide: 0.6296
     war_v2: 0.2996
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3498
+    lean_component_sd: 0.0204
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6628
     expected_two_party_share_v2: 0.7004
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6418
+    lean_component_v3_demographics_sd: 0.041
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0131
+    education_component_sd: 0.0373
+    expected_two_party_share_v3_demographics: 0.6946
+    war_v3_demographics: 0.3054
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6494
@@ -54,13 +74,33 @@ results_by_year:
     war: -0.0008
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6494
+    own_tide: 0.6484
     war_v2: 0.1118
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3427
+    lean_component_sd: 0.02
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6494
     expected_two_party_share_v2: 0.5368
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6288
+    lean_component_v3_demographics_sd: 0.0402
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0134
+    education_component_sd: 0.0378
+    expected_two_party_share_v3_demographics: 0.622
+    war_v3_demographics: 0.0266
+    war_v3_demographics_sd: 0.0625
   - name: Raymond Yinggang Xie
     slug: raymond-yinggang-xie
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.0008
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3506
+    own_tide: 0.3516
     war_v2: -0.0284
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.185
+    lean_component_sd: 0.0108
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.3506
     expected_two_party_share_v2: 0.3798
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3395
+    lean_component_v3_demographics_sd: 0.0217
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0087
+    education_component_sd: 0.0316
+    expected_two_party_share_v3_demographics: 0.3619
+    war_v3_demographics: -0.0105
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 46540

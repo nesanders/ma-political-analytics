@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3762
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6238
+    own_tide: 0.6712
     war_v2: 0.3203
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3292
+    lean_component_sd: 0.0192
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6238
     expected_two_party_share_v2: 0.6797
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2793
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3143
+    own_tide: 0.3321
     war_v2: 0.2328
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1659
+    lean_component_sd: 0.0097
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3142
     expected_two_party_share_v2: 0.3607
   - name: Paul J. Fullen
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2793
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6857
+    own_tide: 0.6679
     war_v2: -0.1494
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3618
+    lean_component_sd: 0.0211
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.6858
     expected_two_party_share_v2: 0.5559
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1666
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3791
+    own_tide: 0.3535
     war_v2: -0.0057
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2001
+    lean_component_sd: 0.0117
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.379
     expected_two_party_share_v2: 0.5513
   - name: Moses S. Dixon
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1666
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6209
+    own_tide: 0.6465
     war_v2: -0.0674
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3276
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.621
     expected_two_party_share_v2: 0.5218
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.021
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5233
+    own_tide: 0.5098
     war_v2: 0.0317
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2761
+    lean_component_sd: 0.0161
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5233
     expected_two_party_share_v2: 0.4706
   - name: Douglas A. Belanger
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.021
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4767
+    own_tide: 0.4902
     war_v2: 0.0517
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2516
+    lean_component_sd: 0.0147
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.446
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1354
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.631
+    own_tide: 0.6179
     war_v2: 0.2392
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.333
+    lean_component_sd: 0.0194
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.631
     expected_two_party_share_v2: 0.5272
   - name: William G. Lebeau
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.1354
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.369
+    own_tide: 0.3821
     war_v2: -0.1558
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1947
+    lean_component_sd: 0.0114
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.369
     expected_two_party_share_v2: 0.3894
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3433
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6567
+    own_tide: 0.6712
     war_v2: 0.3133
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3465
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6567
     expected_two_party_share_v2: 0.6867
   - name: Leah Christine Mercurio
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3308
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.2903
+    own_tide: 0.3321
     war_v2: 0.1166
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1532
+    lean_component_sd: 0.0089
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2903
     expected_two_party_share_v2: 0.5045
   - name: John G. Flores
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.3308
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7097
+    own_tide: 0.6679
     war_v2: -0.1897
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3745
+    lean_component_sd: 0.0219
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7097
     expected_two_party_share_v2: 0.5686
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0391
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6086
+    own_tide: 0.6465
     war_v2: 0.0541
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3212
+    lean_component_sd: 0.0187
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6085
     expected_two_party_share_v2: 0.5153
   - name: Anthony E. Schiavi
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.0391
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3914
+    own_tide: 0.3535
     war_v2: 0.0293
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2065
+    lean_component_sd: 0.0121
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3915
     expected_two_party_share_v2: 0.4013
   is_open_seat: true
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.1541
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4731
+    own_tide: 0.4902
     war_v2: 0.0267
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2497
+    lean_component_sd: 0.0146
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4732
     expected_two_party_share_v2: 0.6006
   - name: Ronald R. Beaty, Jr.
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.1541
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5269
+    own_tide: 0.5098
     war_v2: -0.0998
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.278
+    lean_component_sd: 0.0162
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5268
     expected_two_party_share_v2: 0.4725
   - name: Allen R. Waters
@@ -187,11 +243,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.4276
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5724
+    own_tide: 0.6179
     war_v2: 0.5038
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3021
+    lean_component_sd: 0.0176
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5724
     expected_two_party_share_v2: 0.4962
   is_open_seat: null

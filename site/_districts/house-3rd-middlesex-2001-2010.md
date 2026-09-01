@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5085
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4915
+    own_tide: 0.5355
     war_v2: 0.3898
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2594
+    lean_component_sd: 0.0151
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4915
     expected_two_party_share_v2: 0.6102
   - name: Chuck S. Kuniewich, Jr.
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.0814
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.604
+    own_tide: 0.632
     war_v2: 0.0097
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3187
+    lean_component_sd: 0.0186
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.604
     expected_two_party_share_v2: 0.5129
   - name: Sonny Parente
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.0814
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.396
+    own_tide: 0.368
     war_v2: 0.0737
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.209
+    lean_component_sd: 0.0122
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.396
     expected_two_party_share_v2: 0.4037
   - name: David A. Goulding
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.4192
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5808
+    own_tide: 0.6116
     war_v2: 0.3532
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3065
+    lean_component_sd: 0.0179
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5808
     expected_two_party_share_v2: 0.6468
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.137
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6034
+    own_tide: 0.6274
     war_v2: 0.0713
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3184
+    lean_component_sd: 0.0186
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6034
     expected_two_party_share_v2: 0.6691
   - name: Neal A. Heeren
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.137
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3966
+    own_tide: 0.3726
     war_v2: -0.1444
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2093
+    lean_component_sd: 0.0122
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3966
     expected_two_party_share_v2: 0.404
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.595
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.405
+    own_tide: 0.4745
     war_v2: 0.5918
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2137
+    lean_component_sd: 0.0125
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.405
     expected_two_party_share_v2: 0.4082
   is_open_seat: null

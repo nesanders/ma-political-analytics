@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5145
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4855
+    own_tide: 0.3288
     war_v2: 0.4054
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2562
+    lean_component_sd: 0.015
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4855
     expected_two_party_share_v2: 0.5946
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2572
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7428
+    own_tide: 0.6679
     war_v2: 0.2704
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.392
+    lean_component_sd: 0.0229
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7428
     expected_two_party_share_v2: 0.7296
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1033
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5194
+    own_tide: 0.3535
     war_v2: 0.0077
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2741
+    lean_component_sd: 0.016
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5194
     expected_two_party_share_v2: 0.615
   - name: Paul W. Jacques
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.1033
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4806
+    own_tide: 0.6465
     war_v2: -0.0704
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2536
+    lean_component_sd: 0.0148
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.4477
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3997
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6003
+    own_tide: 0.5098
     war_v2: 0.3323
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3168
+    lean_component_sd: 0.0185
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6003
     expected_two_party_share_v2: 0.6677
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.1295
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4846
+    own_tide: 0.3821
     war_v2: 0.1637
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2557
+    lean_component_sd: 0.0149
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4846
     expected_two_party_share_v2: 0.4504
   - name: A. Keith Carreiro
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.1295
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5154
+    own_tide: 0.6179
     war_v2: -0.0803
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.272
+    lean_component_sd: 0.0159
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5154
     expected_two_party_share_v2: 0.4662
   is_open_seat: null

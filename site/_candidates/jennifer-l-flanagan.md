@@ -13,16 +13,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.455
+  own_lean: 0.545
+  own_tide: 0.6465
   war_v2: 0.3722
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1461
+  incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2876
+  lean_component_sd: 0.0168
   tide_component: -0.0015
+  tide_component_sd: 0.0231
   expected_two_party_share: 0.545
   expected_two_party_share_v2: 0.6278
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
+  fundraising_component: 0.3683
+  fundraising_component_sd: 0.0258
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.239
+  lean_component_v3_finance_sd: 0.0175
+  tide_component_v3_finance: -0.0079
+  tide_component_v3_finance_sd: 0.0241
+  incumbency_adjustment_v3_finance: 0.1235
+  incumbency_adjustment_v3_finance_sd: 0.013
+  expected_two_party_share_v3_finance: 0.6328
+  war_v3_finance: 0.3672
+  war_v3_finance_sd: 0.1015
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -33,16 +53,36 @@ races:
   winner: true
   actual_two_party_share: 0.6043
   war: 0.2067
+  own_lean: 0.3976
+  own_tide: 0.4902
   war_v2: 0.0435
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1565
+  incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2098
+  lean_component_sd: 0.0122
   tide_component: -0.0011
+  tide_component_sd: 0.0175
   expected_two_party_share: 0.3976
   expected_two_party_share_v2: 0.5608
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
+  fundraising_component: 0.3864
+  fundraising_component_sd: 0.027
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.1743
+  lean_component_v3_finance_sd: 0.0128
+  tide_component_v3_finance: -0.006
+  tide_component_v3_finance_sd: 0.0183
+  incumbency_adjustment_v3_finance: 0.135
+  incumbency_adjustment_v3_finance_sd: 0.0091
+  expected_two_party_share_v3_finance: 0.5998
+  war_v3_finance: 0.0045
+  war_v3_finance_sd: 0.1015
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -53,16 +93,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4715
+  own_lean: 0.5285
+  own_tide: 0.6179
   war_v2: 0.5269
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2789
+  lean_component_sd: 0.0163
   tide_component: -0.0014
+  tide_component_sd: 0.0221
   expected_two_party_share: 0.5285
   expected_two_party_share_v2: 0.4731
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: 0.3684
+  fundraising_component_sd: 0.0258
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.2317
+  lean_component_v3_finance_sd: 0.017
+  tide_component_v3_finance: -0.0075
+  tide_component_v3_finance_sd: 0.023
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5026
+  war_v3_finance: 0.4974
+  war_v3_finance_sd: 0.1015
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -73,16 +133,36 @@ races:
   winner: true
   actual_two_party_share: 0.5892
   war: 0.1569
+  own_lean: 0.4324
+  own_tide: 0.5355
   war_v2: 0.0102
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1565
+  incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2282
+  lean_component_sd: 0.0133
   tide_component: -0.0012
+  tide_component_sd: 0.0192
   expected_two_party_share: 0.4323
   expected_two_party_share_v2: 0.579
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
+  fundraising_component: 0.3718
+  fundraising_component_sd: 0.026
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.1896
+  lean_component_v3_finance_sd: 0.0139
+  tide_component_v3_finance: -0.0065
+  tide_component_v3_finance_sd: 0.02
+  incumbency_adjustment_v3_finance: 0.135
+  incumbency_adjustment_v3_finance_sd: 0.0091
+  expected_two_party_share_v3_finance: 0.5999
+  war_v3_finance: -0.0107
+  war_v3_finance_sd: 0.1015
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -93,16 +173,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4433
+  own_lean: 0.5567
+  own_tide: 0.632
   war_v2: 0.5121
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2938
+  lean_component_sd: 0.0171
   tide_component: -0.0015
+  tide_component_sd: 0.0226
   expected_two_party_share: 0.5567
   expected_two_party_share_v2: 0.4879
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: 0.3975
+  fundraising_component_sd: 0.0278
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.2441
+  lean_component_v3_finance_sd: 0.0179
+  tide_component_v3_finance: -0.0077
+  tide_component_v3_finance_sd: 0.0236
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5439
+  war_v3_finance: 0.4561
+  war_v3_finance_sd: 0.1015
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -113,16 +213,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4197
+  own_lean: 0.5803
+  own_tide: 0.6116
   war_v2: 0.3431
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1565
+  incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3062
+  lean_component_sd: 0.0179
   tide_component: -0.0014
+  tide_component_sd: 0.0219
   expected_two_party_share: 0.5803
   expected_two_party_share_v2: 0.6569
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
+  fundraising_component: 0.3475
+  fundraising_component_sd: 0.0243
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.2545
+  lean_component_v3_finance_sd: 0.0186
+  tide_component_v3_finance: -0.0075
+  tide_component_v3_finance_sd: 0.0228
+  incumbency_adjustment_v3_finance: 0.135
+  incumbency_adjustment_v3_finance_sd: 0.0091
+  expected_two_party_share_v3_finance: 0.6395
+  war_v3_finance: 0.3605
+  war_v3_finance_sd: 0.1015
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -133,16 +253,36 @@ races:
   winner: true
   actual_two_party_share: 0.6904
   war: 0.1119
+  own_lean: 0.5785
+  own_tide: 0.6274
   war_v2: 0.191
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.3053
+  lean_component_sd: 0.0178
   tide_component: -0.0014
+  tide_component_sd: 0.0225
   expected_two_party_share: 0.5785
   expected_two_party_share_v2: 0.4994
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: 0.3441
+  fundraising_component_sd: 0.0241
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.2537
+  lean_component_v3_finance_sd: 0.0186
+  tide_component_v3_finance: -0.0077
+  tide_component_v3_finance_sd: 0.0234
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5001
+  war_v3_finance: 0.1903
+  war_v3_finance_sd: 0.1015
 ocpf_finance:
   cpf_ids:
   - 14196

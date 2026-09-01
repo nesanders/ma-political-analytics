@@ -29,13 +29,33 @@ results_by_year:
     war: 0.0469
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.462
+    own_tide: 0.6296
     war_v2: 0.071
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2438
+    lean_component_sd: 0.0142
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.462
     expected_two_party_share_v2: 0.4379
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4474
+    lean_component_v3_demographics_sd: 0.0286
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0086
+    education_component_sd: 0.0246
+    expected_two_party_share_v3_demographics: 0.4469
+    war_v3_demographics: 0.062
+    war_v3_demographics_sd: 0.0625
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.538
+    own_tide: 0.3704
     war_v2: 0.0124
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2839
+    lean_component_sd: 0.0166
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.538
     expected_two_party_share_v2: 0.4787
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5209
+    lean_component_v3_demographics_sd: 0.0333
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0059
+    education_component_sd: 0.021
+    expected_two_party_share_v3_demographics: 0.5446
+    war_v3_demographics: -0.0535
+    war_v3_demographics_sd: 0.0625
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -61,13 +101,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Manuel Soares, Jr
     slug: manuel-soares-jr
     party: Other
@@ -77,13 +137,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Laura A. Hadley
     slug: laura-a-hadley
     party: Other
@@ -93,13 +173,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5228
@@ -118,13 +218,33 @@ results_by_year:
     war: 0.0124
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5228
+    own_tide: 0.6484
     war_v2: 0.0652
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2759
+    lean_component_sd: 0.0161
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5228
     expected_two_party_share_v2: 0.47
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5062
+    lean_component_v3_demographics_sd: 0.0324
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0088
+    education_component_sd: 0.0249
+    expected_two_party_share_v3_demographics: 0.504
+    war_v3_demographics: 0.0312
+    war_v3_demographics_sd: 0.0625
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -134,13 +254,33 @@ results_by_year:
     war: -0.0124
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4772
+    own_tide: 0.3516
     war_v2: 0.0182
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2518
+    lean_component_sd: 0.0147
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4772
     expected_two_party_share_v2: 0.4466
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4621
+    lean_component_v3_demographics_sd: 0.0295
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0057
+    education_component_sd: 0.0208
+    expected_two_party_share_v3_demographics: 0.4875
+    war_v3_demographics: -0.0227
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 41084

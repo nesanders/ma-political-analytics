@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0008
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5812
+    own_tide: 0.6712
     war_v2: 0.0795
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3067
+    lean_component_sd: 0.0179
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5811
     expected_two_party_share_v2: 0.5008
   - name: Kelly A. Dooner
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0008
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4188
+    own_tide: 0.3288
     war_v2: 0.0039
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.221
+    lean_component_sd: 0.0129
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4189
     expected_two_party_share_v2: 0.4158
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.11
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7251
+    own_tide: 0.6679
     war_v2: -0.1052
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3826
+    lean_component_sd: 0.0223
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7251
     expected_two_party_share_v2: 0.7203
   - name: Emily Jm Farrer
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.11
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2749
+    own_tide: 0.3321
     war_v2: 0.045
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1451
+    lean_component_sd: 0.0085
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2749
     expected_two_party_share_v2: 0.3399
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.1405
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.446
+    own_tide: 0.3535
     war_v2: 0.0103
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2354
+    lean_component_sd: 0.0137
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.446
     expected_two_party_share_v2: 0.5762
   - name: Estele C. Borges
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.1405
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.554
+    own_tide: 0.6465
     war_v2: -0.073
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2923
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.554
     expected_two_party_share_v2: 0.4865
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0771
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5363
+    own_tide: 0.5098
     war_v2: -0.0205
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.283
+    lean_component_sd: 0.0165
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5363
     expected_two_party_share_v2: 0.6339
   - name: Keavin P. Duffy, Jr
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.0771
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4637
+    own_tide: 0.4902
     war_v2: -0.0526
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2447
+    lean_component_sd: 0.0143
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4637
     expected_two_party_share_v2: 0.4392
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.1469
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4178
+    own_tide: 0.3821
     war_v2: 0.1494
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2205
+    lean_component_sd: 0.0129
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4177
     expected_two_party_share_v2: 0.4152
   - name: Sherry Costa-Hanlon
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.1469
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5822
+    own_tide: 0.6179
     war_v2: -0.066
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3072
+    lean_component_sd: 0.0179
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5823
     expected_two_party_share_v2: 0.5014
   is_open_seat: null

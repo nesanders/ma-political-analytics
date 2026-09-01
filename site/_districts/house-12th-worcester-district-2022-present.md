@@ -29,13 +29,33 @@ results_by_year:
     war: 0.425
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.575
+    own_tide: 0.6296
     war_v2: 0.3459
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3034
+    lean_component_sd: 0.0177
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.575
     expected_two_party_share_v2: 0.6541
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5568
+    lean_component_v3_demographics_sd: 0.0356
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.014
+    education_component_sd: 0.0398
+    expected_two_party_share_v3_demographics: 0.6087
+    war_v3_demographics: 0.3913
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5696
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.0342
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5696
+    own_tide: 0.6484
     war_v2: 0.1091
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3006
+    lean_component_sd: 0.0175
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5696
     expected_two_party_share_v2: 0.4947
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5515
+    lean_component_v3_demographics_sd: 0.0353
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0143
+    education_component_sd: 0.0403
+    expected_two_party_share_v3_demographics: 0.5438
+    war_v3_demographics: 0.06
+    war_v3_demographics_sd: 0.0625
   - name: Michael A. Vulcano
     slug: michael-a-vulcano
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0342
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4304
+    own_tide: 0.3516
     war_v2: -0.0257
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2271
+    lean_component_sd: 0.0133
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4304
     expected_two_party_share_v2: 0.4219
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4168
+    lean_component_v3_demographics_sd: 0.0266
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0093
+    education_component_sd: 0.0337
+    expected_two_party_share_v3_demographics: 0.4386
+    war_v3_demographics: -0.0424
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 43694

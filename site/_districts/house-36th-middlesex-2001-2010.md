@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2478
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3519
+    own_tide: 0.5355
     war_v2: 0.076
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1857
+    lean_component_sd: 0.0108
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3519
     expected_two_party_share_v2: 0.5237
   - name: George Derek Boag
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.2478
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6481
+    own_tide: 0.4645
     war_v2: -0.1362
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.342
+    lean_component_sd: 0.02
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6481
     expected_two_party_share_v2: 0.5365
   - name: Matthew James Sheehan
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.5043
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4957
+    own_tide: 0.632
     war_v2: 0.4007
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2616
+    lean_component_sd: 0.0153
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.4957
     expected_two_party_share_v2: 0.5993
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.527
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.473
+    own_tide: 0.6116
     war_v2: 0.4101
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2496
+    lean_component_sd: 0.0146
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.473
     expected_two_party_share_v2: 0.5899
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.4934
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5066
+    own_tide: 0.6274
     war_v2: 0.382
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2673
+    lean_component_sd: 0.0156
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5066
     expected_two_party_share_v2: 0.618
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.2061
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.366
+    own_tide: 0.4745
     war_v2: 0.1845
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1931
+    lean_component_sd: 0.0113
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.366
     expected_two_party_share_v2: 0.3876
   - name: Dennis Deeb, II
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.2061
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.634
+    own_tide: 0.5255
     war_v2: -0.1011
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3346
+    lean_component_sd: 0.0195
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.634
     expected_two_party_share_v2: 0.529
   is_open_seat: null

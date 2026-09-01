@@ -29,13 +29,33 @@ results_by_year:
     war: 0.4045
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5955
+    own_tide: 0.6296
     war_v2: 0.4916
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3142
+    lean_component_sd: 0.0183
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5955
     expected_two_party_share_v2: 0.5084
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5766
+    lean_component_v3_demographics_sd: 0.0369
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0094
+    education_component_sd: 0.0269
+    expected_two_party_share_v3_demographics: 0.5753
+    war_v3_demographics: 0.4247
+    war_v3_demographics_sd: 0.0625
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6333
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.3667
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6333
+    own_tide: 0.6484
     war_v2: 0.4717
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3342
+    lean_component_sd: 0.0195
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6333
     expected_two_party_share_v2: 0.5283
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.6132
+    lean_component_v3_demographics_sd: 0.0392
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0097
+    education_component_sd: 0.0272
+    expected_two_party_share_v3_demographics: 0.6102
+    war_v3_demographics: 0.3898
+    war_v3_demographics_sd: 0.0625
   - name: Annalisa Salustri
     slug: annalisa-salustri
     party: Other
@@ -70,13 +110,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 181758

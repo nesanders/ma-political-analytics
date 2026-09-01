@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4409
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5591
+    own_tide: 0.4645
     war_v2: 0.3668
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.295
+    lean_component_sd: 0.0172
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5591
     expected_two_party_share_v2: 0.6332
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.193
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4609
+    own_tide: 0.368
     war_v2: 0.0723
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2432
+    lean_component_sd: 0.0142
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4609
     expected_two_party_share_v2: 0.5816
   - name: Daniel S. Carpenter
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.193
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5391
+    own_tide: 0.632
     war_v2: -0.1325
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2845
+    lean_component_sd: 0.0166
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5391
     expected_two_party_share_v2: 0.4786
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.6064
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3936
+    own_tide: 0.3884
     war_v2: 0.4515
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2077
+    lean_component_sd: 0.0121
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.3936
     expected_two_party_share_v2: 0.5485
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5589
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4411
+    own_tide: 0.3726
     war_v2: 0.416
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2328
+    lean_component_sd: 0.0136
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4411
     expected_two_party_share_v2: 0.584
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.056
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5919
+    own_tide: 0.5255
     war_v2: 0.1411
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3123
+    lean_component_sd: 0.0182
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5918
     expected_two_party_share_v2: 0.5067
   - name: James F. Murphy, Jr.
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.056
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4081
+    own_tide: 0.4745
     war_v2: -0.0577
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2154
+    lean_component_sd: 0.0126
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4082
     expected_two_party_share_v2: 0.4099
   is_open_seat: null

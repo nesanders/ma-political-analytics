@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0404
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4745
+    own_tide: 0.5355
     war_v2: 0.0701
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2504
+    lean_component_sd: 0.0146
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4745
     expected_two_party_share_v2: 0.4448
   - name: David R. Lucas
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0404
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5255
+    own_tide: 0.4645
     war_v2: 0.0133
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2773
+    lean_component_sd: 0.0162
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5255
     expected_two_party_share_v2: 0.4718
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4075
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5925
+    own_tide: 0.632
     war_v2: 0.4932
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3127
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5925
     expected_two_party_share_v2: 0.5068
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4373
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5627
+    own_tide: 0.6116
     war_v2: 0.3628
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2969
+    lean_component_sd: 0.0173
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5627
     expected_two_party_share_v2: 0.6372
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0573
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6111
+    own_tide: 0.6274
     war_v2: -0.0047
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3225
+    lean_component_sd: 0.0188
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6111
     expected_two_party_share_v2: 0.6731
   - name: Thomas M. Quinn
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0573
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3889
+    own_tide: 0.3726
     war_v2: -0.0684
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2052
+    lean_component_sd: 0.012
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3889
     expected_two_party_share_v2: 0.4
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.2179
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4345
+    own_tide: 0.4745
     war_v2: 0.2286
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2293
+    lean_component_sd: 0.0134
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4238
   - name: Arthur E. Hitchman, Jr.
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.2179
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5655
+    own_tide: 0.5255
     war_v2: -0.1452
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2984
+    lean_component_sd: 0.0174
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4928
   is_open_seat: null

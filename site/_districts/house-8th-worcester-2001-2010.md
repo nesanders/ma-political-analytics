@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0525
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6247
+    own_tide: 0.4645
     war_v2: 0.048
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3297
+    lean_component_sd: 0.0192
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6247
     expected_two_party_share_v2: 0.5242
   - name: Paul Kujawski
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0525
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3753
+    own_tide: 0.5355
     war_v2: -0.1082
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.198
+    lean_component_sd: 0.0116
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3753
     expected_two_party_share_v2: 0.536
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.0239
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5095
+    own_tide: 0.632
     war_v2: -0.0732
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2689
+    lean_component_sd: 0.0157
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5095
     expected_two_party_share_v2: 0.6066
   - name: Kevin J. Kuros
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.0239
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4905
+    own_tide: 0.368
     war_v2: 0.013
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2588
+    lean_component_sd: 0.0151
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4905
     expected_two_party_share_v2: 0.4536
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4497
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5503
+    own_tide: 0.6116
     war_v2: 0.3693
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2904
+    lean_component_sd: 0.0169
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5503
     expected_two_party_share_v2: 0.6307
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0588
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5332
+    own_tide: 0.6274
     war_v2: -0.04
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2814
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5332
     expected_two_party_share_v2: 0.632
   - name: Dorothy A. Mann
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0588
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4668
+    own_tide: 0.3726
     war_v2: -0.0331
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2463
+    lean_component_sd: 0.0144
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4668
     expected_two_party_share_v2: 0.4411
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.619
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.381
+    own_tide: 0.4745
     war_v2: 0.6044
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2011
+    lean_component_sd: 0.0117
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.381
     expected_two_party_share_v2: 0.3956
   is_open_seat: null

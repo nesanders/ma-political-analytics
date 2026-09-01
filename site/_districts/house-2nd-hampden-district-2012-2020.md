@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4359
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5641
+    own_tide: 0.6712
     war_v2: 0.3647
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2977
+    lean_component_sd: 0.0174
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5641
     expected_two_party_share_v2: 0.6353
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3431
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2177
+    own_tide: 0.3321
     war_v2: 0.1074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1149
+    lean_component_sd: 0.0067
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2176
     expected_two_party_share_v2: 0.4533
   - name: Allison P. Werder
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3431
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7823
+    own_tide: 0.6679
     war_v2: -0.1676
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4128
+    lean_component_sd: 0.0241
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7824
     expected_two_party_share_v2: 0.6069
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4833
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5167
+    own_tide: 0.6465
     war_v2: 0.3871
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2727
+    lean_component_sd: 0.0159
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5167
     expected_two_party_share_v2: 0.6129
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.6384
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3616
+    own_tide: 0.4902
     war_v2: 0.4582
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1908
+    lean_component_sd: 0.0111
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3616
     expected_two_party_share_v2: 0.5418
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.0747
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4964
+    own_tide: 0.6179
     war_v2: 0.115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.262
+    lean_component_sd: 0.0153
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4964
     expected_two_party_share_v2: 0.4561
   - name: Marie Angelides
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.0747
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5036
+    own_tide: 0.3821
     war_v2: -0.0316
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2657
+    lean_component_sd: 0.0155
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5036
     expected_two_party_share_v2: 0.4605
   is_open_seat: null

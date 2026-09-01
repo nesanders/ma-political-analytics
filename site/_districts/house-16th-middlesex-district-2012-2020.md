@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3364
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6636
+    own_tide: 0.6712
     war_v2: 0.3122
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3502
+    lean_component_sd: 0.0204
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6636
     expected_two_party_share_v2: 0.6878
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6867
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3133
+    own_tide: 0.3321
     war_v2: 0.4962
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1653
+    lean_component_sd: 0.0096
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3133
     expected_two_party_share_v2: 0.5038
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.3415
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6585
+    own_tide: 0.6465
     war_v2: 0.3123
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3475
+    lean_component_sd: 0.0203
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6585
     expected_two_party_share_v2: 0.6877
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.5156
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4844
+    own_tide: 0.4902
     war_v2: 0.3934
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2556
+    lean_component_sd: 0.0149
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4844
     expected_two_party_share_v2: 0.6066
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.3738
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6262
+    own_tide: 0.6179
     war_v2: 0.4754
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3304
+    lean_component_sd: 0.0193
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6262
     expected_two_party_share_v2: 0.5246
   is_open_seat: null

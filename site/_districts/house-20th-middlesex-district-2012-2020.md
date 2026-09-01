@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2264
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4131
+    own_tide: 0.3288
     war_v2: 0.0831
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.218
+    lean_component_sd: 0.0127
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4131
     expected_two_party_share_v2: 0.5564
   - name: Michelle Mullet
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.2264
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5869
+    own_tide: 0.6712
     war_v2: -0.1433
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3097
+    lean_component_sd: 0.0181
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5869
     expected_two_party_share_v2: 0.5038
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2111
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7889
+    own_tide: 0.6679
     war_v2: 0.246
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4163
+    lean_component_sd: 0.0243
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7889
     expected_two_party_share_v2: 0.754
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5342
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4658
+    own_tide: 0.3535
     war_v2: 0.4133
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2458
+    lean_component_sd: 0.0143
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4658
     expected_two_party_share_v2: 0.5867
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3454
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6546
+    own_tide: 0.5098
     war_v2: 0.3036
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3454
+    lean_component_sd: 0.0202
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6546
     expected_two_party_share_v2: 0.6964
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4629
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5371
+    own_tide: 0.3821
     war_v2: 0.5219
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2834
+    lean_component_sd: 0.0165
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5371
     expected_two_party_share_v2: 0.4781
   is_open_seat: null

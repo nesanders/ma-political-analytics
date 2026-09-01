@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0827
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6113
+    own_tide: 0.4645
     war_v2: 0.0115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3226
+    lean_component_sd: 0.0188
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6113
     expected_two_party_share_v2: 0.5171
   - name: Patricia A. Lawton
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0827
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3887
+    own_tide: 0.5355
     war_v2: 0.0719
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2051
+    lean_component_sd: 0.012
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3887
     expected_two_party_share_v2: 0.3995
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5003
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4997
+    own_tide: 0.632
     war_v2: 0.3986
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2637
+    lean_component_sd: 0.0154
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.4997
     expected_two_party_share_v2: 0.6014
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4911
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5089
+    own_tide: 0.6116
     war_v2: 0.3912
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2685
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.6088
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0761
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5085
+    own_tide: 0.6274
     war_v2: -0.0343
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2683
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5086
     expected_two_party_share_v2: 0.619
   - name: Jane McLaughlin
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0761
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4915
+    own_tide: 0.3726
     war_v2: -0.0388
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2594
+    lean_component_sd: 0.0151
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4914
     expected_two_party_share_v2: 0.4541
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.6216
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3784
+    own_tide: 0.4745
     war_v2: 0.6058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1997
+    lean_component_sd: 0.0117
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3784
     expected_two_party_share_v2: 0.3942
   - name: George L. Berdos, Jr.
@@ -180,11 +229,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

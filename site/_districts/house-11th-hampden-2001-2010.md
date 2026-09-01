@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2836
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.7164
+    own_tide: 0.5355
     war_v2: 0.284
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.378
+    lean_component_sd: 0.0221
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7164
     expected_two_party_share_v2: 0.716
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2228
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7772
+    own_tide: 0.632
     war_v2: 0.2521
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4101
+    lean_component_sd: 0.0239
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7772
     expected_two_party_share_v2: 0.7479
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2589
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7411
+    own_tide: 0.6116
     war_v2: 0.2686
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3911
+    lean_component_sd: 0.0228
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7411
     expected_two_party_share_v2: 0.7314
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.066
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7205
+    own_tide: 0.6274
     war_v2: 0.0556
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3802
+    lean_component_sd: 0.0222
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7205
     expected_two_party_share_v2: 0.7309
   - name: John A. Lysak
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.066
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2795
+    own_tide: 0.3726
     war_v2: -0.1287
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1475
+    lean_component_sd: 0.0086
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.2795
     expected_two_party_share_v2: 0.3422
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3935
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6065
+    own_tide: 0.4745
     war_v2: 0.4854
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3201
+    lean_component_sd: 0.0187
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6065
     expected_two_party_share_v2: 0.5146
   is_open_seat: null

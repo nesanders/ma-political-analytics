@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4957
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5043
+    own_tide: 0.5355
     war_v2: 0.3959
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2661
+    lean_component_sd: 0.0155
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5043
     expected_two_party_share_v2: 0.6041
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3711
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6289
+    own_tide: 0.632
     war_v2: 0.3304
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3319
+    lean_component_sd: 0.0194
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6289
     expected_two_party_share_v2: 0.6696
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1978
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5769
+    own_tide: 0.6116
     war_v2: 0.1299
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3044
+    lean_component_sd: 0.0178
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5768
     expected_two_party_share_v2: 0.6447
   - name: Matthew Lewis Prahl
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.1978
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4231
+    own_tide: 0.3884
     war_v2: -0.1926
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2233
+    lean_component_sd: 0.013
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4232
     expected_two_party_share_v2: 0.418
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3974
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6026
+    own_tide: 0.6274
     war_v2: 0.3314
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.318
+    lean_component_sd: 0.0186
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6026
     expected_two_party_share_v2: 0.6686
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2646
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4555
+    own_tide: 0.4745
     war_v2: 0.2852
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2404
+    lean_component_sd: 0.014
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4555
     expected_two_party_share_v2: 0.4349
   - name: Harry H. Garavanian
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.2646
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5445
+    own_tide: 0.5255
     war_v2: -0.2018
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2873
+    lean_component_sd: 0.0168
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.4817
   is_open_seat: null

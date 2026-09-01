@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1105
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5373
+    own_tide: 0.5355
     war_v2: 0.0238
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2835
+    lean_component_sd: 0.0165
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5373
     expected_two_party_share_v2: 0.624
   - name: Joshua Carpenter
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1105
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4627
+    own_tide: 0.4645
     war_v2: -0.0865
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2442
+    lean_component_sd: 0.0143
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4627
     expected_two_party_share_v2: 0.4387
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3687
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6313
+    own_tide: 0.632
     war_v2: 0.3162
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3331
+    lean_component_sd: 0.0194
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6313
     expected_two_party_share_v2: 0.6838
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0024
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.586
+    own_tide: 0.6116
     war_v2: 0.085
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3092
+    lean_component_sd: 0.018
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.586
     expected_two_party_share_v2: 0.5034
   - name: Christopher R. Leisey
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0024
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.414
+    own_tide: 0.3884
     war_v2: -0.0016
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2185
+    lean_component_sd: 0.0128
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.414
     expected_two_party_share_v2: 0.4132
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.03
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6012
+    own_tide: 0.6274
     war_v2: -0.0367
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3173
+    lean_component_sd: 0.0185
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.6679
   - name: Bob Collamore
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.03
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3988
+    own_tide: 0.3726
     war_v2: -0.0364
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2104
+    lean_component_sd: 0.0123
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3988
     expected_two_party_share_v2: 0.4052
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.14
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4592
+    own_tide: 0.4745
     war_v2: 0.1624
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2423
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4592
     expected_two_party_share_v2: 0.4368
   - name: Bob Collamore
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.14
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5408
+    own_tide: 0.5255
     war_v2: -0.079
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2854
+    lean_component_sd: 0.0167
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5408
     expected_two_party_share_v2: 0.4798
   is_open_seat: null

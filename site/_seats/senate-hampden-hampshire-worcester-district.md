@@ -29,13 +29,33 @@ results_by_year:
     war: 0.4506
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5494
+    own_tide: 0.6296
     war_v2: 0.3594
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2899
+    lean_component_sd: 0.0169
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5494
     expected_two_party_share_v2: 0.6406
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.559
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.0041
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.559
+    own_tide: 0.6484
     war_v2: 0.074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.295
+    lean_component_sd: 0.0172
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.559
     expected_two_party_share_v2: 0.4891
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: William E. Johnson
     slug: william-e-johnson
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0041
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.441
+    own_tide: 0.3516
     war_v2: 0.0094
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2327
+    lean_component_sd: 0.0136
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.441
     expected_two_party_share_v2: 0.4275
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 88672

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4215
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5785
+    own_tide: 0.5355
     war_v2: 0.3568
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3053
+    lean_component_sd: 0.0178
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5785
     expected_two_party_share_v2: 0.6432
   - name: K.c. Winslow
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3252
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6748
+    own_tide: 0.632
     war_v2: 0.3062
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3561
+    lean_component_sd: 0.0208
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6748
     expected_two_party_share_v2: 0.6938
   - name: Richard P. McClure
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.3751
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6249
+    own_tide: 0.6116
     war_v2: 0.3299
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3298
+    lean_component_sd: 0.0192
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6249
     expected_two_party_share_v2: 0.6701
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0446
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.646
+    own_tide: 0.6274
     war_v2: -0.0902
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3409
+    lean_component_sd: 0.0199
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.646
     expected_two_party_share_v2: 0.6916
   - name: Douglas G. A. Stevenson
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0446
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.354
+    own_tide: 0.3726
     war_v2: 0.0171
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1868
+    lean_component_sd: 0.0109
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.354
     expected_two_party_share_v2: 0.3815
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1493
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4429
+    own_tide: 0.4745
     war_v2: 0.164
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2337
+    lean_component_sd: 0.0136
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4429
     expected_two_party_share_v2: 0.4282
   - name: Peter J. Unitt, III
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.1493
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5571
+    own_tide: 0.5255
     war_v2: -0.0806
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.294
+    lean_component_sd: 0.0172
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5571
     expected_two_party_share_v2: 0.4884
   is_open_seat: null

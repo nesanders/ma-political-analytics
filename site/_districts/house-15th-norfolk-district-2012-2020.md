@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1119
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.8881
+    own_tide: 0.6712
     war_v2: 0.1808
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4687
+    lean_component_sd: 0.0274
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.8881
     expected_two_party_share_v2: 0.8192
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4599
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5401
+    own_tide: 0.3321
     war_v2: 0.5202
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.285
+    lean_component_sd: 0.0166
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.5401
     expected_two_party_share_v2: 0.4798
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1144
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.8856
+    own_tide: 0.6465
     war_v2: 0.1925
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4673
+    lean_component_sd: 0.0273
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.8856
     expected_two_party_share_v2: 0.8075
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.1151
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6916
+    own_tide: 0.4902
     war_v2: 0.0908
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.365
+    lean_component_sd: 0.0213
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6916
     expected_two_party_share_v2: 0.7159
   - name: Curt Myers
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.1151
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3084
+    own_tide: 0.5098
     war_v2: -0.1639
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1627
+    lean_component_sd: 0.0095
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.3084
     expected_two_party_share_v2: 0.3572
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2088
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7912
+    own_tide: 0.6179
     war_v2: 0.3883
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4175
+    lean_component_sd: 0.0244
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7912
     expected_two_party_share_v2: 0.6117
   is_open_seat: null

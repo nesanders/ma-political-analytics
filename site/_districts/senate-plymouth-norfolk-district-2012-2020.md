@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1772
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3729
+    own_tide: 0.3288
     war_v2: 0.1584
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1968
+    lean_component_sd: 0.0115
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3728
     expected_two_party_share_v2: 0.3916
   - name: Meg Wheeler
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1772
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6271
+    own_tide: 0.6712
     war_v2: -0.075
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3309
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6272
     expected_two_party_share_v2: 0.525
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2234
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7586
+    own_tide: 0.6679
     war_v2: -0.2157
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4003
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7586
     expected_two_party_share_v2: 0.7509
   - name: Katie L. Mcbrine
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.2234
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2414
+    own_tide: 0.3321
     war_v2: 0.1426
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1274
+    lean_component_sd: 0.0074
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2414
     expected_two_party_share_v2: 0.3222
   - name: Stephen D. Gill
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.14
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4261
+    own_tide: 0.3535
     war_v2: 0.1465
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2249
+    lean_component_sd: 0.0131
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4261
     expected_two_party_share_v2: 0.4196
   - name: Paul J. Gannon
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.14
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5739
+    own_tide: 0.6465
     war_v2: -0.0631
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3028
+    lean_component_sd: 0.0177
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5739
     expected_two_party_share_v2: 0.497
   is_open_seat: true
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.382
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.618
+    own_tide: 0.5098
     war_v2: 0.323
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3261
+    lean_component_sd: 0.019
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.618
     expected_two_party_share_v2: 0.677
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.1844
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.499
+    own_tide: 0.3821
     war_v2: 0.2254
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2633
+    lean_component_sd: 0.0154
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.499
     expected_two_party_share_v2: 0.458
   - name: Genevieve S. Davis
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.1844
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.501
+    own_tide: 0.6179
     war_v2: -0.142
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2644
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.501
     expected_two_party_share_v2: 0.4586
   is_open_seat: null

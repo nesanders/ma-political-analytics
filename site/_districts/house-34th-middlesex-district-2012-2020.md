@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1643
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.8357
+    own_tide: 0.6712
     war_v2: 0.2213
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.441
+    lean_component_sd: 0.0257
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.8357
     expected_two_party_share_v2: 0.7787
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4361
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5639
+    own_tide: 0.3321
     war_v2: 0.3615
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2976
+    lean_component_sd: 0.0174
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.5639
     expected_two_party_share_v2: 0.6385
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1788
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.8212
+    own_tide: 0.6465
     war_v2: 0.216
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4333
+    lean_component_sd: 0.0253
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.8212
     expected_two_party_share_v2: 0.784
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3007
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6993
+    own_tide: 0.4902
     war_v2: 0.4365
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.369
+    lean_component_sd: 0.0215
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6993
     expected_two_party_share_v2: 0.5635
   - name: Nicholas Lanzilli
@@ -123,11 +151,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.06
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7821
+    own_tide: 0.6179
     war_v2: 0.2352
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4127
+    lean_component_sd: 0.0241
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7821
     expected_two_party_share_v2: 0.6069
   - name: David M. Rajczewski
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.06
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2179
+    own_tide: 0.3821
     war_v2: -0.1518
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.115
+    lean_component_sd: 0.0067
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.2179
     expected_two_party_share_v2: 0.3097
   is_open_seat: null

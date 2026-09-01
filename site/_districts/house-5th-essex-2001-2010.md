@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1201
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5315
+    own_tide: 0.5355
     war_v2: 0.0202
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2805
+    lean_component_sd: 0.0164
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5314
     expected_two_party_share_v2: 0.6313
   - name: Janet Anne Holmes
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1201
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4685
+    own_tide: 0.4645
     war_v2: -0.0933
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2472
+    lean_component_sd: 0.0144
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4686
     expected_two_party_share_v2: 0.4418
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.351
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.649
+    own_tide: 0.632
     war_v2: 0.4634
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3425
+    lean_component_sd: 0.02
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.649
     expected_two_party_share_v2: 0.5366
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4078
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5922
+    own_tide: 0.6116
     war_v2: 0.3472
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3125
+    lean_component_sd: 0.0182
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5922
     expected_two_party_share_v2: 0.6528
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3683
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6317
+    own_tide: 0.6274
     war_v2: 0.316
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3333
+    lean_component_sd: 0.0195
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6317
     expected_two_party_share_v2: 0.684
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3052
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4566
+    own_tide: 0.4745
     war_v2: 0.3263
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2409
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4566
     expected_two_party_share_v2: 0.4355
   - name: Charles F. Choate
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.3052
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5434
+    own_tide: 0.5255
     war_v2: -0.2429
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2868
+    lean_component_sd: 0.0167
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5434
     expected_two_party_share_v2: 0.4811
   is_open_seat: null

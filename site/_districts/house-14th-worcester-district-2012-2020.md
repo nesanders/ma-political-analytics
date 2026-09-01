@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3258
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6742
+    own_tide: 0.6712
     war_v2: 0.3066
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3558
+    lean_component_sd: 0.0208
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6742
     expected_two_party_share_v2: 0.6934
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6581
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3419
+    own_tide: 0.3321
     war_v2: 0.4811
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1804
+    lean_component_sd: 0.0105
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3419
     expected_two_party_share_v2: 0.5189
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.3297
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6703
+    own_tide: 0.6465
     war_v2: 0.3061
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3537
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6703
     expected_two_party_share_v2: 0.6939
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.4927
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5073
+    own_tide: 0.4902
     war_v2: 0.3813
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2677
+    lean_component_sd: 0.0156
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.5073
     expected_two_party_share_v2: 0.6187
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.0173
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6536
+    own_tide: 0.6179
     war_v2: 0.1318
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3449
+    lean_component_sd: 0.0201
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6536
     expected_two_party_share_v2: 0.5391
   - name: William J. McCarthy, III
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.0173
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3464
+    own_tide: 0.3821
     war_v2: -0.0484
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1828
+    lean_component_sd: 0.0107
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.3464
     expected_two_party_share_v2: 0.3775
   - name: Winthrop E. Handy
@@ -164,11 +206,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

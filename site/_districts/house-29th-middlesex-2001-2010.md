@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2515
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7485
+    own_tide: 0.5355
     war_v2: 0.2541
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.395
+    lean_component_sd: 0.0231
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7485
     expected_two_party_share_v2: 0.7459
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1948
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8052
+    own_tide: 0.632
     war_v2: 0.3809
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4249
+    lean_component_sd: 0.0248
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.8052
     expected_two_party_share_v2: 0.6191
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: -0.0299
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7681
+    own_tide: 0.6116
     war_v2: -0.0074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4053
+    lean_component_sd: 0.0237
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7681
     expected_two_party_share_v2: 0.7456
   - name: Keith Allan Mercurio
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0299
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2319
+    own_tide: 0.3884
     war_v2: -0.0553
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1224
+    lean_component_sd: 0.0071
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.2319
     expected_two_party_share_v2: 0.3171
   - name: Thomas A. Geary, Jr.
@@ -114,11 +142,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.2128
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7872
+    own_tide: 0.6274
     war_v2: 0.2339
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4154
+    lean_component_sd: 0.0242
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7872
     expected_two_party_share_v2: 0.7661
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.3587
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6413
+    own_tide: 0.4745
     war_v2: 0.4671
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3384
+    lean_component_sd: 0.0198
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6413
     expected_two_party_share_v2: 0.5329
   is_open_seat: null

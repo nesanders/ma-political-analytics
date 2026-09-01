@@ -29,13 +29,33 @@ results_by_year:
     war: 0.2666
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7334
+    own_tide: 0.6296
     war_v2: 0.4188
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.387
+    lean_component_sd: 0.0226
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7334
     expected_two_party_share_v2: 0.5812
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7102
+    lean_component_v3_demographics_sd: 0.0454
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0121
+    education_component_sd: 0.0344
+    expected_two_party_share_v3_demographics: 0.7062
+    war_v3_demographics: 0.2938
+    war_v3_demographics_sd: 0.0625
   - name: Marybeth F. Mitts
     slug: marybeth-f-mitts
     party: Other
@@ -45,13 +65,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.7472
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.2528
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7472
+    own_tide: 0.6484
     war_v2: 0.4116
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3943
+    lean_component_sd: 0.023
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.7472
     expected_two_party_share_v2: 0.5884
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7235
+    lean_component_v3_demographics_sd: 0.0463
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0124
+    education_component_sd: 0.0348
+    expected_two_party_share_v3_demographics: 0.7177
+    war_v3_demographics: 0.2823
+    war_v3_demographics_sd: 0.0625
   - name: Michael Silvio Lavery
     slug: michael-silvio-lavery
     party: null
@@ -86,13 +146,33 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    intercept_component_v3_demographics: null
+    intercept_component_v3_demographics_sd: null
+    lean_component_v3_demographics: null
+    lean_component_v3_demographics_sd: null
+    tide_component_v3_demographics: null
+    tide_component_v3_demographics_sd: null
+    incumbency_adjustment_v3_demographics: null
+    incumbency_adjustment_v3_demographics_sd: null
+    education_component: null
+    education_component_sd: null
+    expected_two_party_share_v3_demographics: null
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 40989

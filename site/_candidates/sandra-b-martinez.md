@@ -13,16 +13,36 @@ races:
   winner: false
   actual_two_party_share: 0.4076
   war: -0.1013
+  own_lean: 0.5089
+  own_tide: 0.5098
   war_v2: -0.0554
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2685
+  lean_component_sd: 0.0157
   tide_component: -0.0012
+  tide_component_sd: 0.0183
   expected_two_party_share: 0.5089
   expected_two_party_share_v2: 0.463
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -33,16 +53,36 @@ races:
   winner: false
   actual_two_party_share: 0.394
   war: -0.0011
+  own_lean: 0.3951
+  own_tide: 0.3821
   war_v2: -0.0092
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2085
+  lean_component_sd: 0.0122
   tide_component: -0.0009
+  tide_component_sd: 0.0137
   expected_two_party_share: 0.3951
   expected_two_party_share_v2: 0.4032
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -53,16 +93,36 @@ races:
   winner: false
   actual_two_party_share: 0.4299
   war: -0.031
+  own_lean: 0.4609
+  own_tide: 0.4645
   war_v2: -0.0078
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2432
+  lean_component_sd: 0.0142
   tide_component: -0.0011
+  tide_component_sd: 0.0166
   expected_two_party_share: 0.4609
   expected_two_party_share_v2: 0.4377
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -73,16 +133,36 @@ races:
   winner: false
   actual_two_party_share: 0.3747
   war: 0.016
+  own_lean: 0.3587
+  own_tide: 0.368
   war_v2: -0.0093
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.1893
+  lean_component_sd: 0.011
   tide_component: -0.0008
+  tide_component_sd: 0.0132
   expected_two_party_share: 0.3587
   expected_two_party_share_v2: 0.384
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -93,16 +173,36 @@ races:
   winner: false
   actual_two_party_share: 0.3607
   war: -0.0474
+  own_lean: 0.4081
+  own_tide: 0.3884
   war_v2: -0.0494
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.2154
+  lean_component_sd: 0.0126
   tide_component: -0.0009
+  tide_component_sd: 0.0139
   expected_two_party_share: 0.4081
   expected_two_party_share_v2: 0.4101
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
+  war_v3_finance: null
+  war_v3_finance_sd: null
 title: Sandi Martinez
 layout: candidate
 ---

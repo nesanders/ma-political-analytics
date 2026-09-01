@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1295
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4675
+    own_tide: 0.5355
     war_v2: -0.0005
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2467
+    lean_component_sd: 0.0144
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4676
     expected_two_party_share_v2: 0.5976
   - name: George Georgountzos
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1295
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5325
+    own_tide: 0.4645
     war_v2: -0.0726
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.281
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5324
     expected_two_party_share_v2: 0.4755
   - name: Michael J. Rotondi
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.0955
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5829
+    own_tide: 0.632
     war_v2: 0.1767
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3076
+    lean_component_sd: 0.018
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5829
     expected_two_party_share_v2: 0.5017
   - name: Brian P. O'Connor
@@ -105,11 +133,18 @@ results_by_year:
     war: -0.0955
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4171
+    own_tide: 0.368
     war_v2: -0.0933
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2201
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4171
     expected_two_party_share_v2: 0.4149
   - name: Chad Riley
@@ -121,11 +156,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.4521
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5479
+    own_tide: 0.6116
     war_v2: 0.3706
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2891
+    lean_component_sd: 0.0169
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5479
     expected_two_party_share_v2: 0.6294
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0203
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5955
+    own_tide: 0.6274
     war_v2: -0.0491
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3142
+    lean_component_sd: 0.0183
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5955
     expected_two_party_share_v2: 0.6649
   - name: John M. Prindiville
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0203
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4045
+    own_tide: 0.3726
     war_v2: -0.024
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2135
+    lean_component_sd: 0.0125
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4045
     expected_two_party_share_v2: 0.4082
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.5935
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4065
+    own_tide: 0.4745
     war_v2: 0.591
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2145
+    lean_component_sd: 0.0125
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4065
     expected_two_party_share_v2: 0.409
   is_open_seat: null

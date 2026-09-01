@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3419
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6581
+    own_tide: 0.6712
     war_v2: 0.3151
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3473
+    lean_component_sd: 0.0203
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6581
     expected_two_party_share_v2: 0.6849
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7294
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2706
+    own_tide: 0.3321
     war_v2: 0.5188
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1428
+    lean_component_sd: 0.0083
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2706
     expected_two_party_share_v2: 0.4812
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: -0.0239
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6097
+    own_tide: 0.6465
     war_v2: -0.0761
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3217
+    lean_component_sd: 0.0188
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6098
     expected_two_party_share_v2: 0.662
   - name: Paul Girouard, Jr
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0239
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3903
+    own_tide: 0.3535
     war_v2: 0.0134
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.206
+    lean_component_sd: 0.012
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3902
     expected_two_party_share_v2: 0.4007
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0895
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4332
+    own_tide: 0.4902
     war_v2: -0.0569
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2286
+    lean_component_sd: 0.0133
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4332
     expected_two_party_share_v2: 0.5796
   - name: Paul Girouard, Jr
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0895
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5668
+    own_tide: 0.5098
     war_v2: -0.0162
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2991
+    lean_component_sd: 0.0175
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5668
     expected_two_party_share_v2: 0.4935
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.0086
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5442
+    own_tide: 0.6179
     war_v2: 0.0714
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2872
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5442
     expected_two_party_share_v2: 0.4814
   - name: Walter Zenkin
@@ -180,11 +229,18 @@ results_by_year:
     war: -0.0086
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4558
+    own_tide: 0.3821
     war_v2: 0.012
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2405
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4558
     expected_two_party_share_v2: 0.4352
   is_open_seat: null

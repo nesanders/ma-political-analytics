@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4297
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5703
+    own_tide: 0.6712
     war_v2: 0.3589
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3009
+    lean_component_sd: 0.0176
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5703
     expected_two_party_share_v2: 0.6411
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7715
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.2285
+    own_tide: 0.3321
     war_v2: 0.5281
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1206
+    lean_component_sd: 0.007
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.4719
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.4554
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5446
+    own_tide: 0.6465
     war_v2: 0.5185
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2874
+    lean_component_sd: 0.0168
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5446
     expected_two_party_share_v2: 0.4815
   is_open_seat: true
@@ -107,11 +128,18 @@ results_by_year:
     war: -0.0563
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5717
+    own_tide: 0.5098
     war_v2: 0.0193
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3017
+    lean_component_sd: 0.0176
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5717
     expected_two_party_share_v2: 0.4961
   - name: Beverley  A. Griffin Dunne
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0563
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4283
+    own_tide: 0.4902
     war_v2: 0.0641
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.226
+    lean_component_sd: 0.0132
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4283
     expected_two_party_share_v2: 0.4205
   is_open_seat: true
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4361
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5639
+    own_tide: 0.6179
     war_v2: 0.5083
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2976
+    lean_component_sd: 0.0174
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5639
     expected_two_party_share_v2: 0.4917
   is_open_seat: null

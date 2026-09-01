@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4269
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5731
+    own_tide: 0.5355
     war_v2: 0.3467
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3024
+    lean_component_sd: 0.0177
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5731
     expected_two_party_share_v2: 0.6533
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Daniel James Larkosh
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3306
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6694
+    own_tide: 0.632
     war_v2: 0.4526
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3532
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6694
     expected_two_party_share_v2: 0.5474
   - name: Melissa C. Freitag
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jacob D. Ferreira
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.086
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6176
+    own_tide: 0.6116
     war_v2: 0.0374
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3259
+    lean_component_sd: 0.019
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6176
     expected_two_party_share_v2: 0.6662
   - name: James R. Powell
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.086
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3824
+    own_tide: 0.3884
     war_v2: -0.1001
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2018
+    lean_component_sd: 0.0118
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.3824
     expected_two_party_share_v2: 0.3965
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.0615
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6411
+    own_tide: 0.6274
     war_v2: 0.0136
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3383
+    lean_component_sd: 0.0197
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6411
     expected_two_party_share_v2: 0.689
   - name: James R. Powell
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0615
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3589
+    own_tide: 0.3726
     war_v2: -0.0867
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1894
+    lean_component_sd: 0.0111
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3589
     expected_two_party_share_v2: 0.3841
   is_open_seat: false
@@ -212,11 +275,18 @@ results_by_year:
     war: 0.5093
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4907
+    own_tide: 0.4745
     war_v2: 0.5465
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2589
+    lean_component_sd: 0.0151
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4907
     expected_two_party_share_v2: 0.4535
   is_open_seat: null

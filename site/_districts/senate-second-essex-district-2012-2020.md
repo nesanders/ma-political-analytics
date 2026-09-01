@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3452
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6548
+    own_tide: 0.6712
     war_v2: 0.3168
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3455
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6548
     expected_two_party_share_v2: 0.6832
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7115
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2885
+    own_tide: 0.3321
     war_v2: 0.5093
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1522
+    lean_component_sd: 0.0089
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2885
     expected_two_party_share_v2: 0.4907
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.3825
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6175
+    own_tide: 0.6465
     war_v2: 0.3339
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3259
+    lean_component_sd: 0.019
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6175
     expected_two_party_share_v2: 0.6661
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.5482
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4518
+    own_tide: 0.4902
     war_v2: 0.4106
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2384
+    lean_component_sd: 0.0139
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4518
     expected_two_party_share_v2: 0.5894
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.1184
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5891
+    own_tide: 0.6179
     war_v2: 0.2025
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3109
+    lean_component_sd: 0.0181
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5891
     expected_two_party_share_v2: 0.505
   - name: Richard A. Jolitz
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.1184
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4109
+    own_tide: 0.3821
     war_v2: -0.1191
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2168
+    lean_component_sd: 0.0127
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4109
     expected_two_party_share_v2: 0.4116
   is_open_seat: null

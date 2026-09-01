@@ -29,13 +29,33 @@ results_by_year:
     war: -0.0387
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7743
+    own_tide: 0.6296
     war_v2: -0.0237
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4086
+    lean_component_sd: 0.0238
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7743
     expected_two_party_share_v2: 0.7593
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7498
+    lean_component_v3_demographics_sd: 0.0479
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0146
+    education_component_sd: 0.0415
+    expected_two_party_share_v3_demographics: 0.8011
+    war_v3_demographics: -0.0655
+    war_v3_demographics_sd: 0.0625
   - name: Virginia A Gardner
     slug: virginia-a-gardner
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: 0.0387
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2257
+    own_tide: 0.3704
     war_v2: -0.0494
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1191
+    lean_component_sd: 0.007
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.2257
     expected_two_party_share_v2: 0.3138
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.2185
+    lean_component_v3_demographics_sd: 0.014
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.01
+    education_component_sd: 0.0356
+    expected_two_party_share_v3_demographics: 0.2381
+    war_v3_demographics: 0.0263
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.759
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.241
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.759
+    own_tide: 0.6484
     war_v2: 0.4054
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4005
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.759
     expected_two_party_share_v2: 0.5946
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.7349
+    lean_component_v3_demographics_sd: 0.047
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0149
+    education_component_sd: 0.042
+    expected_two_party_share_v3_demographics: 0.7266
+    war_v3_demographics: 0.2734
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44597

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0569
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.491
+    own_tide: 0.5355
     war_v2: -0.062
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2591
+    lean_component_sd: 0.0151
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4911
     expected_two_party_share_v2: 0.61
   - name: Kurt Hayes
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0569
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.509
+    own_tide: 0.4645
     war_v2: -0.0111
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2686
+    lean_component_sd: 0.0157
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.4631
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.0332
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5912
+    own_tide: 0.632
     war_v2: 0.0519
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.312
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5912
     expected_two_party_share_v2: 0.5061
   - name: Kurt Hayes
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.0332
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4088
+    own_tide: 0.368
     war_v2: 0.0315
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2157
+    lean_component_sd: 0.0126
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4088
     expected_two_party_share_v2: 0.4105
   is_open_seat: true
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0705
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5716
+    own_tide: 0.6116
     war_v2: 0.0003
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3016
+    lean_component_sd: 0.0176
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5717
     expected_two_party_share_v2: 0.6419
   - name: Kevin C. Hayes, Sr.
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0705
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4284
+    own_tide: 0.3884
     war_v2: -0.063
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2261
+    lean_component_sd: 0.0132
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4283
     expected_two_party_share_v2: 0.4208
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0516
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5833
+    own_tide: 0.6274
     war_v2: -0.0236
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3078
+    lean_component_sd: 0.018
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5833
     expected_two_party_share_v2: 0.6585
   - name: Thomas J. Dyer
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.0516
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4167
+    own_tide: 0.3726
     war_v2: -0.0495
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2199
+    lean_component_sd: 0.0128
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4167
     expected_two_party_share_v2: 0.4146
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.1275
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3933
+    own_tide: 0.4745
     war_v2: 0.1187
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2075
+    lean_component_sd: 0.0121
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3933
     expected_two_party_share_v2: 0.4021
   - name: Todd D. Fenniman
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.1275
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6067
+    own_tide: 0.5255
     war_v2: -0.0353
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3202
+    lean_component_sd: 0.0187
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6067
     expected_two_party_share_v2: 0.5145
   is_open_seat: null

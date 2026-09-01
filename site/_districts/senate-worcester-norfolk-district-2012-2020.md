@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1342
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4707
+    own_tide: 0.3288
     war_v2: 0.018
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2484
+    lean_component_sd: 0.0145
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4706
     expected_two_party_share_v2: 0.5868
   - name: Christine Crean
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1342
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5293
+    own_tide: 0.6712
     war_v2: -0.0782
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2793
+    lean_component_sd: 0.0163
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5294
     expected_two_party_share_v2: 0.4734
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2139
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7936
+    own_tide: 0.6679
     war_v2: -0.1792
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4188
+    lean_component_sd: 0.0244
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7936
     expected_two_party_share_v2: 0.7589
   - name: Thomas M. Merolli
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.2139
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2064
+    own_tide: 0.3321
     war_v2: 0.1165
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1089
+    lean_component_sd: 0.0064
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2064
     expected_two_party_share_v2: 0.3038
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4903
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5097
+    own_tide: 0.3535
     war_v2: 0.3797
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.269
+    lean_component_sd: 0.0157
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5097
     expected_two_party_share_v2: 0.6203
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0808
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.638
+    own_tide: 0.5098
     war_v2: 0.0261
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3367
+    lean_component_sd: 0.0197
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.638
     expected_two_party_share_v2: 0.5311
   - name: Richard T. Moore
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0808
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.362
+    own_tide: 0.4902
     war_v2: -0.0992
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.191
+    lean_component_sd: 0.0111
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.362
     expected_two_party_share_v2: 0.542
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4902
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5098
+    own_tide: 0.6179
     war_v2: 0.5368
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.269
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5098
     expected_two_party_share_v2: 0.4632
   is_open_seat: null

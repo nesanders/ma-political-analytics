@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0778
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5445
+    own_tide: 0.5355
     war_v2: -0.003
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2873
+    lean_component_sd: 0.0168
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.6253
   - name: William J. Higgins, Sr
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0778
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4555
+    own_tide: 0.4645
     war_v2: -0.0572
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2404
+    lean_component_sd: 0.014
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4555
     expected_two_party_share_v2: 0.4349
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3796
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6204
+    own_tide: 0.632
     war_v2: 0.3349
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3274
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6204
     expected_two_party_share_v2: 0.6651
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0776
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6526
+    own_tide: 0.6116
     war_v2: 0.0455
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3444
+    lean_component_sd: 0.0201
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6526
     expected_two_party_share_v2: 0.6847
   - name: Paul E. Nordborg
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0776
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3474
+    own_tide: 0.3884
     war_v2: -0.1082
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1833
+    lean_component_sd: 0.0107
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.3474
     expected_two_party_share_v2: 0.378
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0533
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.614
+    own_tide: 0.6274
     war_v2: -0.0075
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.324
+    lean_component_sd: 0.0189
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6139
     expected_two_party_share_v2: 0.6747
   - name: Stephen N. Paige
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0533
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.386
+    own_tide: 0.3726
     war_v2: -0.0656
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2037
+    lean_component_sd: 0.0119
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3861
     expected_two_party_share_v2: 0.3984
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.1555
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4595
+    own_tide: 0.4745
     war_v2: 0.178
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2425
+    lean_component_sd: 0.0142
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4595
     expected_two_party_share_v2: 0.437
   - name: Robert E. Amorello
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.1555
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5405
+    own_tide: 0.5255
     war_v2: -0.0946
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2852
+    lean_component_sd: 0.0166
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5405
     expected_two_party_share_v2: 0.4796
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2466
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7534
+    own_tide: 0.5355
     war_v2: 0.2516
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3976
+    lean_component_sd: 0.0232
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7534
     expected_two_party_share_v2: 0.7484
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1967
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8033
+    own_tide: 0.632
     war_v2: 0.382
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4239
+    lean_component_sd: 0.0247
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.8033
     expected_two_party_share_v2: 0.618
   - name: William Theodore Leonard
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Dianne Wilkerson
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0526
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7749
+    own_tide: 0.6116
     war_v2: -0.0269
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4089
+    lean_component_sd: 0.0239
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7749
     expected_two_party_share_v2: 0.7492
   - name: Samiyah Diaz
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.0526
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2251
+    own_tide: 0.3884
     war_v2: -0.0358
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1188
+    lean_component_sd: 0.0069
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.2251
     expected_two_party_share_v2: 0.3135
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.2167
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7833
+    own_tide: 0.6274
     war_v2: 0.236
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4133
+    lean_component_sd: 0.0241
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7833
     expected_two_party_share_v2: 0.764
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3457
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6543
+    own_tide: 0.4745
     war_v2: 0.4602
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3453
+    lean_component_sd: 0.0202
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6543
     expected_two_party_share_v2: 0.5398
   is_open_seat: null

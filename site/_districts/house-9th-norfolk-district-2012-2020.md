@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1886
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3966
+    own_tide: 0.3288
     war_v2: 0.0375
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2093
+    lean_component_sd: 0.0122
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3966
     expected_two_party_share_v2: 0.5477
   - name: Brian P. Hamlin
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1886
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6034
+    own_tide: 0.6712
     war_v2: -0.0977
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3184
+    lean_component_sd: 0.0186
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6034
     expected_two_party_share_v2: 0.5125
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1965
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7842
+    own_tide: 0.6679
     war_v2: -0.1662
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4138
+    lean_component_sd: 0.0242
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7843
     expected_two_party_share_v2: 0.754
   - name: Brian P. Hamlin
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1965
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2158
+    own_tide: 0.3321
     war_v2: 0.1035
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1139
+    lean_component_sd: 0.0066
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2157
     expected_two_party_share_v2: 0.3087
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.1524
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4565
+    own_tide: 0.3535
     war_v2: 0.0167
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2409
+    lean_component_sd: 0.0141
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4565
     expected_two_party_share_v2: 0.5922
   - name: Brian P. Hamlin
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.1524
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5435
+    own_tide: 0.6465
     war_v2: -0.0898
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2868
+    lean_component_sd: 0.0167
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5435
     expected_two_party_share_v2: 0.4809
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.3258
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6742
+    own_tide: 0.5098
     war_v2: 0.4498
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3558
+    lean_component_sd: 0.0208
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6742
     expected_two_party_share_v2: 0.5502
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.455
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.545
+    own_tide: 0.3821
     war_v2: 0.5177
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2876
+    lean_component_sd: 0.0168
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.545
     expected_two_party_share_v2: 0.4823
   is_open_seat: null

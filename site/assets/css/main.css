@@ -29,6 +29,12 @@
   --war-tide: #eda100;
   --war-incumbency: #e87ba4;
   --war-residual: #008300;
+  /* 6th slot (palette position 7, violet) for the one WAR v3-specific
+     component threaded into the attribution charts — Fundraising on
+     candidate pages, Education on district/seat pages. The two never
+     appear on the same chart (finance is per-candidate, demographics is
+     per-district), so one shared variable is unambiguous. */
+  --war-extra: #4a3aa7;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +56,7 @@
     --war-tide: #c98500;
     --war-incumbency: #d55181;
     --war-residual: #008300;
+    --war-extra: #9085e9;
   }
 }
 
@@ -71,6 +78,7 @@
   --war-tide: #c98500;
   --war-incumbency: #d55181;
   --war-residual: #008300;
+  --war-extra: #9085e9;
 }
 
 /* Fixed institutional masthead — deliberately does not flip with the

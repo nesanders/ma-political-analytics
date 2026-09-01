@@ -32,11 +32,18 @@ results_by_year:
     war: 0.303
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.697
+    own_tide: 0.5355
     war_v2: 0.2917
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3678
+    lean_component_sd: 0.0215
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.697
     expected_two_party_share_v2: 0.7083
   - name: Lalig Musserian
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2347
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7653
+    own_tide: 0.632
     war_v2: 0.2455
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4038
+    lean_component_sd: 0.0236
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.7653
     expected_two_party_share_v2: 0.7545
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0187
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.704
+    own_tide: 0.6116
     war_v2: 0.1196
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3715
+    lean_component_sd: 0.0217
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.704
     expected_two_party_share_v2: 0.5657
   - name: M. Elizabeth Firenze
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0187
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.296
+    own_tide: 0.3884
     war_v2: -0.0362
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1562
+    lean_component_sd: 0.0091
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.296
     expected_two_party_share_v2: 0.3509
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0137
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7378
+    own_tide: 0.6274
     war_v2: 0.0115
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3893
+    lean_component_sd: 0.0227
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7378
     expected_two_party_share_v2: 0.74
   - name: Kevin M. Cuddeback
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0137
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2622
+    own_tide: 0.3726
     war_v2: -0.0846
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1384
+    lean_component_sd: 0.0081
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.2622
     expected_two_party_share_v2: 0.3331
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4679
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5321
+    own_tide: 0.4745
     war_v2: 0.5247
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2808
+    lean_component_sd: 0.0164
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5321
     expected_two_party_share_v2: 0.4753
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0672
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5928
+    own_tide: 0.6712
     war_v2: -0.0035
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3128
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.6634
   - name: Craig S. Valdez
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0672
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4072
+    own_tide: 0.3288
     war_v2: -0.0696
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2149
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4097
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4057
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2215
+    own_tide: 0.3321
     war_v2: 0.3156
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1169
+    lean_component_sd: 0.0068
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2216
     expected_two_party_share_v2: 0.3117
   - name: Edward J. O'Connell
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.4057
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7785
+    own_tide: 0.6679
     war_v2: -0.2322
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4108
+    lean_component_sd: 0.024
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7784
     expected_two_party_share_v2: 0.6049
   - name: Nathaniel K. Powell
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Joseph M. Armstrong
@@ -121,11 +156,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.1619
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.534
+    own_tide: 0.6465
     war_v2: 0.0738
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2818
+    lean_component_sd: 0.0164
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5339
     expected_two_party_share_v2: 0.622
   - name: Michael White
@@ -162,11 +211,18 @@ results_by_year:
     war: -0.1619
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.466
+    own_tide: 0.3535
     war_v2: -0.1365
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2459
+    lean_component_sd: 0.0144
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4661
     expected_two_party_share_v2: 0.4407
   is_open_seat: false
@@ -187,11 +243,18 @@ results_by_year:
     war: 0.2218
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3647
+    own_tide: 0.4902
     war_v2: 0.0431
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1925
+    lean_component_sd: 0.0112
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3647
     expected_two_party_share_v2: 0.5434
   - name: James Anthony Pavlik
@@ -203,11 +266,18 @@ results_by_year:
     war: -0.2218
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6353
+    own_tide: 0.5098
     war_v2: -0.1162
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3352
+    lean_component_sd: 0.0196
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6353
     expected_two_party_share_v2: 0.5297
   is_open_seat: false
@@ -228,11 +298,18 @@ results_by_year:
     war: 0.2043
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4798
+    own_tide: 0.6179
     war_v2: 0.2366
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2532
+    lean_component_sd: 0.0148
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4797
     expected_two_party_share_v2: 0.4474
   - name: Stephen W. Coulter
@@ -244,11 +321,18 @@ results_by_year:
     war: -0.2043
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5202
+    own_tide: 0.3821
     war_v2: -0.1532
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2745
+    lean_component_sd: 0.016
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5203
     expected_two_party_share_v2: 0.4692
   is_open_seat: null

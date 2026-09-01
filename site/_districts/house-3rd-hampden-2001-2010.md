@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0761
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5801
+    own_tide: 0.4645
     war_v2: 0.0034
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3061
+    lean_component_sd: 0.0179
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5802
     expected_two_party_share_v2: 0.5007
   - name: Rosemary Sandlin
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0761
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4199
+    own_tide: 0.5355
     war_v2: -0.0661
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2216
+    lean_component_sd: 0.0129
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4198
     expected_two_party_share_v2: 0.562
   - name: Anthony C. Bonavita
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.4769
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5231
+    own_tide: 0.632
     war_v2: 0.3733
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.276
+    lean_component_sd: 0.0161
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5231
     expected_two_party_share_v2: 0.6267
   - name: Nicholas A. Boldyga
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.026
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5293
+    own_tide: 0.6116
     war_v2: 0.0818
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2793
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5293
     expected_two_party_share_v2: 0.4735
   - name: Robert A. Magovern
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.026
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4707
+    own_tide: 0.3884
     war_v2: 0.0016
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2484
+    lean_component_sd: 0.0145
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4707
     expected_two_party_share_v2: 0.4431
   - name: Joseph F. Schebel
@@ -162,11 +211,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Owen Broadhurst
@@ -178,11 +234,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -203,11 +266,18 @@ results_by_year:
     war: 0.1818
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5367
+    own_tide: 0.6274
     war_v2: 0.0846
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2832
+    lean_component_sd: 0.0165
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5367
     expected_two_party_share_v2: 0.6339
   - name: Uwe H. Porth
@@ -219,11 +289,18 @@ results_by_year:
     war: -0.1818
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4633
+    own_tide: 0.3726
     war_v2: -0.1577
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2445
+    lean_component_sd: 0.0143
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4633
     expected_two_party_share_v2: 0.4392
   is_open_seat: false
@@ -244,11 +321,18 @@ results_by_year:
     war: 0.5971
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4029
+    own_tide: 0.4745
     war_v2: 0.5929
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2126
+    lean_component_sd: 0.0124
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4029
     expected_two_party_share_v2: 0.4071
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4279
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5721
+    own_tide: 0.5355
     war_v2: 0.5037
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3019
+    lean_component_sd: 0.0176
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5721
     expected_two_party_share_v2: 0.4963
   - name: James M. Pillsbury
@@ -48,11 +55,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jim M. Rizoli
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.3218
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6782
+    own_tide: 0.632
     war_v2: 0.2915
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3579
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6782
     expected_two_party_share_v2: 0.7085
   - name: James M. Pillsbury
@@ -105,11 +133,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,11 +165,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Nicolas Sanchez
@@ -146,11 +188,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Deborah D. Blumer
@@ -162,11 +211,18 @@ results_by_year:
     war: 0.3743
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6257
+    own_tide: 0.6116
     war_v2: 0.3295
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3302
+    lean_component_sd: 0.0193
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6257
     expected_two_party_share_v2: 0.6705
   is_open_seat: false
@@ -187,11 +243,18 @@ results_by_year:
     war: -0.0005
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6711
+    own_tide: 0.6274
     war_v2: -0.0342
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3541
+    lean_component_sd: 0.0207
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6711
     expected_two_party_share_v2: 0.7048
   - name: Nicolas Sanchez
@@ -203,11 +266,18 @@ results_by_year:
     war: 0.0005
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3289
+    own_tide: 0.3726
     war_v2: -0.0389
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1736
+    lean_component_sd: 0.0101
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3289
     expected_two_party_share_v2: 0.3683
   - name: Gerald L. Bloomfield
@@ -219,11 +289,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -244,11 +321,18 @@ results_by_year:
     war: 0.5409
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4591
+    own_tide: 0.4745
     war_v2: 0.5632
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2423
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4591
     expected_two_party_share_v2: 0.4368
   - name: James M. Pillsbury
@@ -260,11 +344,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

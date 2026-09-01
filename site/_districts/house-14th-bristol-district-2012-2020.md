@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0484
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5929
+    own_tide: 0.6712
     war_v2: 0.0376
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3129
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5929
     expected_two_party_share_v2: 0.5069
   - name: John D. Simmons
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0484
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4071
+    own_tide: 0.3288
     war_v2: 0.0458
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2148
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4071
     expected_two_party_share_v2: 0.4097
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.246
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.754
+    own_tide: 0.6679
     war_v2: 0.2645
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3979
+    lean_component_sd: 0.0232
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.754
     expected_two_party_share_v2: 0.7355
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5299
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4701
+    own_tide: 0.3535
     war_v2: 0.411
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2481
+    lean_component_sd: 0.0145
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4701
     expected_two_party_share_v2: 0.589
   - name: Scott P. Dubuc
@@ -114,11 +142,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.3558
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6442
+    own_tide: 0.5098
     war_v2: 0.3091
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3399
+    lean_component_sd: 0.0198
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6442
     expected_two_party_share_v2: 0.6909
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.49
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.51
+    own_tide: 0.3821
     war_v2: 0.5362
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2691
+    lean_component_sd: 0.0157
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.51
     expected_two_party_share_v2: 0.4638
   is_open_seat: null

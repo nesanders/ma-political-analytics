@@ -32,11 +32,18 @@ results_by_year:
     war: 0.2491
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7509
+    own_tide: 0.5355
     war_v2: 0.2529
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3962
+    lean_component_sd: 0.0231
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.7509
     expected_two_party_share_v2: 0.7471
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1987
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8013
+    own_tide: 0.632
     war_v2: 0.383
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4228
+    lean_component_sd: 0.0247
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.8013
     expected_two_party_share_v2: 0.617
   is_open_seat: true
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.2273
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7727
+    own_tide: 0.6116
     war_v2: 0.252
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4078
+    lean_component_sd: 0.0238
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7727
     expected_two_party_share_v2: 0.748
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.2181
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7819
+    own_tide: 0.6274
     war_v2: 0.2367
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4126
+    lean_component_sd: 0.0241
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.7819
     expected_two_party_share_v2: 0.7633
   - name: Laura Garza
@@ -123,11 +151,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3478
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6522
+    own_tide: 0.4745
     war_v2: 0.4613
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3442
+    lean_component_sd: 0.0201
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.6522
     expected_two_party_share_v2: 0.5387
   is_open_seat: null

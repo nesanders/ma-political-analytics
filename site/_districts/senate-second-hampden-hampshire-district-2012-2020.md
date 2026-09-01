@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0683
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5725
+    own_tide: 0.6712
     war_v2: 0.1446
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3021
+    lean_component_sd: 0.0176
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5725
     expected_two_party_share_v2: 0.4962
   - name: John Francis Cain
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0683
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4275
+    own_tide: 0.3288
     war_v2: -0.0612
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2256
+    lean_component_sd: 0.0132
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4275
     expected_two_party_share_v2: 0.4204
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2839
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7161
+    own_tide: 0.6679
     war_v2: 0.282
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3779
+    lean_component_sd: 0.0221
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7161
     expected_two_party_share_v2: 0.718
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1529
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4425
+    own_tide: 0.3535
     war_v2: 0.0106
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2335
+    lean_component_sd: 0.0136
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4425
     expected_two_party_share_v2: 0.5848
   - name: Jerome Parker-O'grady
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1529
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5575
+    own_tide: 0.6465
     war_v2: -0.0837
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2942
+    lean_component_sd: 0.0172
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5575
     expected_two_party_share_v2: 0.4883
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0038
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5628
+    own_tide: 0.5098
     war_v2: 0.0752
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.297
+    lean_component_sd: 0.0173
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5628
     expected_two_party_share_v2: 0.4914
   - name: Patrick T. Leahy
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0038
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4372
+    own_tide: 0.4902
     war_v2: 0.0082
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2307
+    lean_component_sd: 0.0135
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4372
     expected_two_party_share_v2: 0.4252
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.6019
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3981
+    own_tide: 0.3821
     war_v2: 0.5952
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2101
+    lean_component_sd: 0.0123
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.3981
     expected_two_party_share_v2: 0.4048
   is_open_seat: null

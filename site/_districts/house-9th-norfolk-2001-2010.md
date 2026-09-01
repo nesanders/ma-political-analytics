@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0311
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6444
+    own_tide: 0.4645
     war_v2: 0.1409
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.34
+    lean_component_sd: 0.0198
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6444
     expected_two_party_share_v2: 0.5346
   - name: Stanley J. Nacewicz
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0311
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3556
+    own_tide: 0.5355
     war_v2: -0.0575
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1877
+    lean_component_sd: 0.011
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3556
     expected_two_party_share_v2: 0.382
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5027
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4973
+    own_tide: 0.368
     war_v2: 0.3967
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2624
+    lean_component_sd: 0.0153
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4973
     expected_two_party_share_v2: 0.6033
   - name: Thomas Joseph Roache
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4779
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5221
+    own_tide: 0.3884
     war_v2: 0.3733
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2755
+    lean_component_sd: 0.0161
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.5221
     expected_two_party_share_v2: 0.6267
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0641
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4986
+    own_tide: 0.3726
     war_v2: 0.1048
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2631
+    lean_component_sd: 0.0154
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4986
     expected_two_party_share_v2: 0.4579
   - name: John J. McFeeley
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0641
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5014
+    own_tide: 0.6274
     war_v2: -0.0214
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2646
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5014
     expected_two_party_share_v2: 0.4587
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3271
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6729
+    own_tide: 0.5255
     war_v2: 0.4505
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3551
+    lean_component_sd: 0.0207
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6729
     expected_two_party_share_v2: 0.5495
   is_open_seat: null

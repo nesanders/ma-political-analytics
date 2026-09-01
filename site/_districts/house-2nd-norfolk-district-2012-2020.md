@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3202
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6798
+    own_tide: 0.6712
     war_v2: 0.3036
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3587
+    lean_component_sd: 0.0209
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6798
     expected_two_party_share_v2: 0.6964
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3662
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3409
+    own_tide: 0.3321
     war_v2: 0.1888
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1799
+    lean_component_sd: 0.0105
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3409
     expected_two_party_share_v2: 0.5183
   - name: William Burke
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3662
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6591
+    own_tide: 0.6679
     war_v2: -0.249
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3478
+    lean_component_sd: 0.0203
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.6591
     expected_two_party_share_v2: 0.5419
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3433
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6567
+    own_tide: 0.6465
     war_v2: 0.3132
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3465
+    lean_component_sd: 0.0202
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6567
     expected_two_party_share_v2: 0.6868
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5224
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4776
+    own_tide: 0.4902
     war_v2: 0.397
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.252
+    lean_component_sd: 0.0147
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4776
     expected_two_party_share_v2: 0.603
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3741
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6259
+    own_tide: 0.6179
     war_v2: 0.4755
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3303
+    lean_component_sd: 0.0193
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6259
     expected_two_party_share_v2: 0.5245
   is_open_seat: null

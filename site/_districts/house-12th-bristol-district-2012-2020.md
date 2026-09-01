@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4987
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5013
+    own_tide: 0.3288
     war_v2: 0.3841
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2645
+    lean_component_sd: 0.0154
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.5013
     expected_two_party_share_v2: 0.6159
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: -0.2504
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7715
+    own_tide: 0.6679
     war_v2: -0.0801
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4071
+    lean_component_sd: 0.0238
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7715
     expected_two_party_share_v2: 0.6012
   - name: Allin John Frawley
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2504
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2285
+    own_tide: 0.3321
     war_v2: 0.1635
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1206
+    lean_component_sd: 0.007
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.3154
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.469
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.531
+    own_tide: 0.3535
     war_v2: 0.3789
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2802
+    lean_component_sd: 0.0164
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.531
     expected_two_party_share_v2: 0.6211
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3839
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6161
+    own_tide: 0.5098
     war_v2: 0.324
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3251
+    lean_component_sd: 0.019
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6161
     expected_two_party_share_v2: 0.676
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.0806
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4959
+    own_tide: 0.3821
     war_v2: 0.12
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2617
+    lean_component_sd: 0.0153
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4564
   - name: Roger P. Brunelle, Jr.
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.0806
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5041
+    own_tide: 0.6179
     war_v2: -0.0366
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.266
+    lean_component_sd: 0.0155
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.4602
   is_open_seat: null

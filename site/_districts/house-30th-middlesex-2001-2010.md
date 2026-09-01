@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1962
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4383
+    own_tide: 0.5355
     war_v2: 0.0524
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2313
+    lean_component_sd: 0.0135
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4384
     expected_two_party_share_v2: 0.5822
   - name: Kara Marie Fratto
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1962
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5617
+    own_tide: 0.4645
     war_v2: -0.1255
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2964
+    lean_component_sd: 0.0173
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5616
     expected_two_party_share_v2: 0.4909
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4478
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5522
+    own_tide: 0.632
     war_v2: 0.5145
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2914
+    lean_component_sd: 0.017
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5522
     expected_two_party_share_v2: 0.4855
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4744
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5256
+    own_tide: 0.6116
     war_v2: 0.3719
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2774
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5256
     expected_two_party_share_v2: 0.6281
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.4247
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5753
+    own_tide: 0.6274
     war_v2: 0.5023
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3036
+    lean_component_sd: 0.0177
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5753
     expected_two_party_share_v2: 0.4977
   - name: Paul J. Meaney
@@ -139,11 +174,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5873
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4127
+    own_tide: 0.4745
     war_v2: 0.5877
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2178
+    lean_component_sd: 0.0127
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4127
     expected_two_party_share_v2: 0.4123
   is_open_seat: null

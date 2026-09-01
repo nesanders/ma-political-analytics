@@ -29,13 +29,33 @@ results_by_year:
     war: 0.5353
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4647
+    own_tide: 0.6296
     war_v2: 0.4041
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2452
+    lean_component_sd: 0.0143
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.4647
     expected_two_party_share_v2: 0.5959
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.45
+    lean_component_v3_demographics_sd: 0.0288
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0076
+    education_component_sd: 0.0215
+    expected_two_party_share_v3_demographics: 0.5083
+    war_v3_demographics: 0.4917
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5195
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.0572
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5195
+    own_tide: 0.6484
     war_v2: 0.1084
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2741
+    lean_component_sd: 0.016
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5194
     expected_two_party_share_v2: 0.4682
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.503
+    lean_component_v3_demographics_sd: 0.0322
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0077
+    education_component_sd: 0.0218
+    expected_two_party_share_v3_demographics: 0.5019
+    war_v3_demographics: 0.0747
+    war_v3_demographics_sd: 0.0625
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0572
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4805
+    own_tide: 0.3516
     war_v2: -0.025
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2536
+    lean_component_sd: 0.0148
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.4484
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4653
+    lean_component_v3_demographics_sd: 0.0297
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.005
+    education_component_sd: 0.0183
+    expected_two_party_share_v3_demographics: 0.4914
+    war_v3_demographics: -0.068
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 172232

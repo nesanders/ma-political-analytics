@@ -29,13 +29,33 @@ results_by_year:
     war: -0.0674
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6096
+    own_tide: 0.6296
     war_v2: -0.1301
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3217
+    lean_component_sd: 0.0188
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6096
     expected_two_party_share_v2: 0.6723
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5903
+    lean_component_v3_demographics_sd: 0.0377
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0156
+    education_component_sd: 0.0445
+    expected_two_party_share_v3_demographics: 0.6406
+    war_v3_demographics: -0.0984
+    war_v3_demographics_sd: 0.0625
   - name: Mark T. Tashjian
     slug: mark-t-tashjian
     party: Republican
@@ -45,13 +65,33 @@ results_by_year:
     war: 0.0674
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3904
+    own_tide: 0.3704
     war_v2: 0.057
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.206
+    lean_component_sd: 0.012
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3904
     expected_two_party_share_v2: 0.4008
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.378
+    lean_component_v3_demographics_sd: 0.0242
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0107
+    education_component_sd: 0.0381
+    expected_two_party_share_v3_demographics: 0.3968
+    war_v3_demographics: 0.061
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6033
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.1033
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6033
+    own_tide: 0.6484
     war_v2: -0.0125
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3184
+    lean_component_sd: 0.0186
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.6033
     expected_two_party_share_v2: 0.5125
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5842
+    lean_component_v3_demographics_sd: 0.0373
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.016
+    education_component_sd: 0.0451
+    expected_two_party_share_v3_demographics: 0.5748
+    war_v3_demographics: -0.0748
+    war_v3_demographics_sd: 0.0625
   - name: Leonard Mirra
     slug: leonard-mirra
     party: Republican
@@ -86,13 +146,33 @@ results_by_year:
     war: 0.1033
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3967
+    own_tide: 0.3516
     war_v2: 0.0959
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2093
+    lean_component_sd: 0.0122
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.3967
     expected_two_party_share_v2: 0.4041
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3841
+    lean_component_v3_demographics_sd: 0.0246
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0104
+    education_component_sd: 0.0377
+    expected_two_party_share_v3_demographics: 0.4049
+    war_v3_demographics: 0.0951
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 44809

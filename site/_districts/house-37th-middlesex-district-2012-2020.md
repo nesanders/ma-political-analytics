@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0509
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6964
+    own_tide: 0.6712
     war_v2: 0.084
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3675
+    lean_component_sd: 0.0214
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6964
     expected_two_party_share_v2: 0.5615
   - name: Catherine J. Clark
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0509
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3036
+    own_tide: 0.3288
     war_v2: -0.0006
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1602
+    lean_component_sd: 0.0094
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3036
     expected_two_party_share_v2: 0.3551
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.6875
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3125
+    own_tide: 0.3321
     war_v2: 0.4967
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1649
+    lean_component_sd: 0.0096
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3125
     expected_two_party_share_v2: 0.5033
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3485
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6515
+    own_tide: 0.6465
     war_v2: 0.316
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3438
+    lean_component_sd: 0.0201
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6515
     expected_two_party_share_v2: 0.684
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5469
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4531
+    own_tide: 0.4902
     war_v2: 0.4099
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2391
+    lean_component_sd: 0.014
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4531
     expected_two_party_share_v2: 0.5901
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4251
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5749
+    own_tide: 0.6179
     war_v2: 0.5024
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3034
+    lean_component_sd: 0.0177
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5749
     expected_two_party_share_v2: 0.4976
   is_open_seat: null

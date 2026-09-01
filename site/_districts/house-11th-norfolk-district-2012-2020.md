@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3267
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6733
+    own_tide: 0.6712
     war_v2: 0.307
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3553
+    lean_component_sd: 0.0207
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6733
     expected_two_party_share_v2: 0.693
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3923
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2782
+    own_tide: 0.3321
     war_v2: 0.1853
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1468
+    lean_component_sd: 0.0086
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2782
     expected_two_party_share_v2: 0.4852
   - name: John G. Mcdonald
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3923
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7218
+    own_tide: 0.6679
     war_v2: -0.2455
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3809
+    lean_component_sd: 0.0222
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7218
     expected_two_party_share_v2: 0.575
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3739
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6261
+    own_tide: 0.6465
     war_v2: 0.3294
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3304
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6261
     expected_two_party_share_v2: 0.6706
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5925
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4075
+    own_tide: 0.4902
     war_v2: 0.434
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.215
+    lean_component_sd: 0.0126
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4075
     expected_two_party_share_v2: 0.566
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4676
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5324
+    own_tide: 0.6179
     war_v2: 0.5249
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2809
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5324
     expected_two_party_share_v2: 0.4751
   is_open_seat: null

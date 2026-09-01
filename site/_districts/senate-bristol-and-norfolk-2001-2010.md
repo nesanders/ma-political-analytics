@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5883
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4117
+    own_tide: 0.5355
     war_v2: 0.4448
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2173
+    lean_component_sd: 0.0127
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4117
     expected_two_party_share_v2: 0.5552
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.1027
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5429
+    own_tide: 0.632
     war_v2: 0.0189
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2865
+    lean_component_sd: 0.0167
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5429
     expected_two_party_share_v2: 0.6267
   - name: Jon W. Rockwood, Sr.
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1027
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4571
+    own_tide: 0.368
     war_v2: -0.0816
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2412
+    lean_component_sd: 0.0141
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4571
     expected_two_party_share_v2: 0.436
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0893
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5154
+    own_tide: 0.6116
     war_v2: -0.018
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.272
+    lean_component_sd: 0.0159
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5154
     expected_two_party_share_v2: 0.6227
   - name: Michael L. Atwill
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.0893
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4846
+    own_tide: 0.3884
     war_v2: -0.0551
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2557
+    lean_component_sd: 0.0149
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4846
     expected_two_party_share_v2: 0.4504
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0201
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5471
+    own_tide: 0.6274
     war_v2: 0.0843
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2887
+    lean_component_sd: 0.0169
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5471
     expected_two_party_share_v2: 0.4829
   - name: David W. McCarter
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0201
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4529
+    own_tide: 0.3726
     war_v2: -0.0009
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.239
+    lean_component_sd: 0.0139
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4529
     expected_two_party_share_v2: 0.4337
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3646
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6354
+    own_tide: 0.5255
     war_v2: 0.4703
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3353
+    lean_component_sd: 0.0196
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6354
     expected_two_party_share_v2: 0.5297
   is_open_seat: null

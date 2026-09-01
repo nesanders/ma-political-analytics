@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0738
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5006
+    own_tide: 0.5355
     war_v2: 0.116
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2642
+    lean_component_sd: 0.0154
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5007
     expected_two_party_share_v2: 0.4585
   - name: James H. Crocker, Jr.
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0738
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4994
+    own_tide: 0.4645
     war_v2: -0.0326
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2635
+    lean_component_sd: 0.0154
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4993
     expected_two_party_share_v2: 0.4581
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4091
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5909
+    own_tide: 0.632
     war_v2: 0.3504
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3118
+    lean_component_sd: 0.0182
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5909
     expected_two_party_share_v2: 0.6496
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.1086
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5247
+    own_tide: 0.6116
     war_v2: 0.0161
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2769
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5247
     expected_two_party_share_v2: 0.6172
   - name: Ricardo M. Barros
@@ -114,11 +142,18 @@ results_by_year:
     war: -0.1086
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4753
+    own_tide: 0.3884
     war_v2: -0.0788
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2508
+    lean_component_sd: 0.0146
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4753
     expected_two_party_share_v2: 0.4455
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0222
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5676
+    own_tide: 0.6274
     war_v2: -0.0604
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2995
+    lean_component_sd: 0.0175
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5676
     expected_two_party_share_v2: 0.6502
   - name: Gail Bronwyn Lese
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0222
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4324
+    own_tide: 0.3726
     war_v2: -0.0127
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2282
+    lean_component_sd: 0.0133
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4324
     expected_two_party_share_v2: 0.4229
   - name: Luiz Gonzaga
@@ -171,11 +220,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.1859
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4152
+    own_tide: 0.4745
     war_v2: 0.1874
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2191
+    lean_component_sd: 0.0128
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4151
     expected_two_party_share_v2: 0.4136
   - name: Mark C. Boardman
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.1859
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5848
+    own_tide: 0.5255
     war_v2: -0.104
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3086
+    lean_component_sd: 0.018
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5849
     expected_two_party_share_v2: 0.503
   is_open_seat: null

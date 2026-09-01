@@ -29,13 +29,33 @@ results_by_year:
     war: 0.4297
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5703
+    own_tide: 0.6296
     war_v2: 0.3484
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3009
+    lean_component_sd: 0.0176
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5703
     expected_two_party_share_v2: 0.6516
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5522
+    lean_component_v3_demographics_sd: 0.0353
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.013
+    education_component_sd: 0.0371
+    expected_two_party_share_v3_demographics: 0.6051
+    war_v3_demographics: 0.3949
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5944
@@ -54,13 +74,33 @@ results_by_year:
     war: 0.0422
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5944
+    own_tide: 0.6484
     war_v2: 0.1288
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3137
+    lean_component_sd: 0.0183
     tide_component: -0.0015
+    tide_component_sd: 0.0232
     expected_two_party_share: 0.5944
     expected_two_party_share_v2: 0.5078
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5756
+    lean_component_v3_demographics_sd: 0.0368
+    tide_component_v3_demographics: -0.0536
+    tide_component_v3_demographics_sd: 0.039
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0133
+    education_component_sd: 0.0376
+    expected_two_party_share_v3_demographics: 0.5688
+    war_v3_demographics: 0.0678
+    war_v3_demographics_sd: 0.0625
   - name: Gary M. Innes
     slug: gary-m-innes
     party: Republican
@@ -70,13 +110,33 @@ results_by_year:
     war: -0.0422
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4056
+    own_tide: 0.3516
     war_v2: -0.0454
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.214
+    lean_component_sd: 0.0125
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4056
     expected_two_party_share_v2: 0.4088
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.3927
+    lean_component_v3_demographics_sd: 0.0251
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0087
+    education_component_sd: 0.0315
+    expected_two_party_share_v3_demographics: 0.4152
+    war_v3_demographics: -0.0518
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 173985

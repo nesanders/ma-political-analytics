@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5161
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4839
+    own_tide: 0.3288
     war_v2: 0.3933
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2554
+    lean_component_sd: 0.0149
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4839
     expected_two_party_share_v2: 0.6067
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: -0.2774
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7926
+    own_tide: 0.6679
     war_v2: -0.0971
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4183
+    lean_component_sd: 0.0244
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7926
     expected_two_party_share_v2: 0.6123
   - name: Patrick J. Malone
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.2774
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2074
+    own_tide: 0.3321
     war_v2: 0.1805
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1094
+    lean_component_sd: 0.0064
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2074
     expected_two_party_share_v2: 0.3043
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4714
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5286
+    own_tide: 0.3535
     war_v2: 0.3802
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2789
+    lean_component_sd: 0.0163
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5286
     expected_two_party_share_v2: 0.6198
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.0076
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.639
+    own_tide: 0.5098
     war_v2: -0.0566
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3372
+    lean_component_sd: 0.0197
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6391
     expected_two_party_share_v2: 0.6881
   - name: Joseph M. Hall
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0076
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.361
+    own_tide: 0.4902
     war_v2: -0.0165
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1905
+    lean_component_sd: 0.0111
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3609
     expected_two_party_share_v2: 0.385
   - name: Joseph F. Guertin
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.0083
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5042
+    own_tide: 0.3821
     war_v2: 0.0517
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2661
+    lean_component_sd: 0.0155
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.4608
   - name: Robert J. Dubois
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.0083
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4958
+    own_tide: 0.6179
     war_v2: 0.0317
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2616
+    lean_component_sd: 0.0153
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4558
   is_open_seat: null

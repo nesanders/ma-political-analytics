@@ -32,11 +32,18 @@ results_by_year:
     war: 0.247
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4154
+    own_tide: 0.5355
     war_v2: 0.1052
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2192
+    lean_component_sd: 0.0128
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4154
     expected_two_party_share_v2: 0.5572
   - name: Daniel D. Dubrule
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.247
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5846
+    own_tide: 0.4645
     war_v2: -0.1654
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3085
+    lean_component_sd: 0.018
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5846
     expected_two_party_share_v2: 0.503
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4681
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5319
+    own_tide: 0.632
     war_v2: 0.3816
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2807
+    lean_component_sd: 0.0164
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5319
     expected_two_party_share_v2: 0.6184
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4401
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5599
+    own_tide: 0.6116
     war_v2: 0.3642
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2955
+    lean_component_sd: 0.0172
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5599
     expected_two_party_share_v2: 0.6358
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.2628
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5318
+    own_tide: 0.6274
     war_v2: 0.1632
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2806
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5317
     expected_two_party_share_v2: 0.6313
   - name: Jennifer J. Gaucher
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.2628
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4682
+    own_tide: 0.3726
     war_v2: -0.2363
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2471
+    lean_component_sd: 0.0144
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4683
     expected_two_party_share_v2: 0.4418
   - name: Carolyn J. McMahon
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.5912
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4088
+    own_tide: 0.4745
     war_v2: 0.5898
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2157
+    lean_component_sd: 0.0126
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4088
     expected_two_party_share_v2: 0.4102
   - name: Carolyn J. McMahon
@@ -196,11 +252,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

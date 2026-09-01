@@ -29,13 +29,33 @@ results_by_year:
     war: 0.1601
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4538
+    own_tide: 0.3704
     war_v2: 0.0232
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2395
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4538
     expected_two_party_share_v2: 0.5907
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.4394
+    lean_component_v3_demographics_sd: 0.0281
+    tide_component_v3_demographics: -0.0306
+    tide_component_v3_demographics_sd: 0.0223
+    incumbency_adjustment_v3_demographics: 0.0578
+    incumbency_adjustment_v3_demographics_sd: 0.0144
+    education_component: -0.0101
+    education_component_sd: 0.0357
+    expected_two_party_share_v3_demographics: 0.5167
+    war_v3_demographics: 0.0972
+    war_v3_demographics_sd: 0.0625
   - name: Owen G. Fletcher
     slug: owen-g-fletcher
     party: Democratic
@@ -45,13 +65,33 @@ results_by_year:
     war: -0.1601
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5462
+    own_tide: 0.6296
     war_v2: -0.0963
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2882
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5462
     expected_two_party_share_v2: 0.4824
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.5289
+    lean_component_v3_demographics_sd: 0.0338
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0379
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0146
+    education_component_sd: 0.0417
+    expected_two_party_share_v3_demographics: 0.5224
+    war_v3_demographics: -0.1363
+    war_v3_demographics_sd: 0.0625
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5446
@@ -70,13 +110,33 @@ results_by_year:
     war: 0.5446
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4554
+    own_tide: 0.3516
     war_v2: 0.5649
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2403
+    lean_component_sd: 0.014
     tide_component: -0.0008
+    tide_component_sd: 0.0126
     expected_two_party_share: 0.4554
     expected_two_party_share_v2: 0.4351
+    intercept_component_v3_demographics: 0.0602
+    intercept_component_v3_demographics_sd: 0.0345
+    lean_component_v3_demographics: 0.441
+    lean_component_v3_demographics_sd: 0.0282
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0212
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    education_component: -0.0097
+    education_component_sd: 0.0353
+    expected_two_party_share_v3_demographics: 0.4624
+    war_v3_demographics: 0.5376
+    war_v3_demographics_sd: 0.0625
   is_open_seat: null
 demographics:
   total_population: 40328

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3255
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6745
+    own_tide: 0.6712
     war_v2: 0.3039
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3559
+    lean_component_sd: 0.0208
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6745
     expected_two_party_share_v2: 0.6961
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3232
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.2471
+    own_tide: 0.3321
     war_v2: 0.0886
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1304
+    lean_component_sd: 0.0076
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2471
     expected_two_party_share_v2: 0.4817
   - name: Kristen G. Arute
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3232
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7529
+    own_tide: 0.6679
     war_v2: -0.1617
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3973
+    lean_component_sd: 0.0232
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7529
     expected_two_party_share_v2: 0.5914
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: -0.0857
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6259
+    own_tide: 0.6465
     war_v2: 0.0158
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3303
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6259
     expected_two_party_share_v2: 0.5244
   - name: Kristen G. Arute
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0857
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3741
+    own_tide: 0.3535
     war_v2: 0.0676
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1974
+    lean_component_sd: 0.0115
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.3741
     expected_two_party_share_v2: 0.3922
   is_open_seat: true
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.6106
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3894
+    own_tide: 0.4902
     war_v2: 0.4435
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2055
+    lean_component_sd: 0.012
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3894
     expected_two_party_share_v2: 0.5565
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.493
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.507
+    own_tide: 0.6179
     war_v2: 0.5383
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2675
+    lean_component_sd: 0.0156
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.507
     expected_two_party_share_v2: 0.4617
   is_open_seat: null

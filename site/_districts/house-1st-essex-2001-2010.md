@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1485
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5026
+    own_tide: 0.5355
     war_v2: 0.048
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2652
+    lean_component_sd: 0.0155
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5027
     expected_two_party_share_v2: 0.6032
   - name: Valentino James Troyli
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1485
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4974
+    own_tide: 0.4645
     war_v2: -0.1082
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2625
+    lean_component_sd: 0.0153
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4973
     expected_two_party_share_v2: 0.457
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3736
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6264
+    own_tide: 0.632
     war_v2: 0.3317
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3306
+    lean_component_sd: 0.0193
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6264
     expected_two_party_share_v2: 0.6683
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3983
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6017
+    own_tide: 0.6116
     war_v2: 0.3422
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3175
+    lean_component_sd: 0.0185
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6017
     expected_two_party_share_v2: 0.6578
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0536
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.604
+    own_tide: 0.6274
     war_v2: -0.0119
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3187
+    lean_component_sd: 0.0186
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6039
     expected_two_party_share_v2: 0.6694
   - name: Erford C. Fowler
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0536
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.396
+    own_tide: 0.3726
     war_v2: -0.0612
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.209
+    lean_component_sd: 0.0122
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3961
     expected_two_party_share_v2: 0.4037
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5719
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4281
+    own_tide: 0.4745
     war_v2: 0.5796
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2259
+    lean_component_sd: 0.0132
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4281
     expected_two_party_share_v2: 0.4204
   is_open_seat: null

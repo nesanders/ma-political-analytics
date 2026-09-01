@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1697
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.8303
+    own_tide: 0.6712
     war_v2: 0.2242
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4381
+    lean_component_sd: 0.0256
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.8303
     expected_two_party_share_v2: 0.7758
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5592
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4408
+    own_tide: 0.3321
     war_v2: 0.429
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2326
+    lean_component_sd: 0.0136
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4408
     expected_two_party_share_v2: 0.571
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1756
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.8244
+    own_tide: 0.6465
     war_v2: 0.2248
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.435
+    lean_component_sd: 0.0254
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.8244
     expected_two_party_share_v2: 0.7752
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3881
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6119
+    own_tide: 0.4902
     war_v2: 0.3261
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3229
+    lean_component_sd: 0.0188
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6119
     expected_two_party_share_v2: 0.6739
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.0186
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7253
+    own_tide: 0.6179
     war_v2: 0.1669
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3827
+    lean_component_sd: 0.0223
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7252
     expected_two_party_share_v2: 0.5769
   - name: Greer Tan Swiston
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.0186
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2747
+    own_tide: 0.3821
     war_v2: -0.0835
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.145
+    lean_component_sd: 0.0085
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.2748
     expected_two_party_share_v2: 0.3397
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1644
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3854
+    own_tide: 0.3288
     war_v2: 0.008
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2034
+    lean_component_sd: 0.0119
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.3854
     expected_two_party_share_v2: 0.5418
   - name: Josh Mason
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1644
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6146
+    own_tide: 0.6712
     war_v2: -0.0682
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3243
+    lean_component_sd: 0.0189
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6146
     expected_two_party_share_v2: 0.5184
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1749
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7601
+    own_tide: 0.6679
     war_v2: -0.1561
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4011
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7601
     expected_two_party_share_v2: 0.7413
   - name: Steven Leibowitz
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1749
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2399
+    own_tide: 0.3321
     war_v2: 0.0934
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1266
+    lean_component_sd: 0.0074
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2399
     expected_two_party_share_v2: 0.3214
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.5642
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4358
+    own_tide: 0.3535
     war_v2: 0.4187
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.23
+    lean_component_sd: 0.0134
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4358
     expected_two_party_share_v2: 0.5813
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0435
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5635
+    own_tide: 0.5098
     war_v2: 0.0282
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2974
+    lean_component_sd: 0.0174
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.5635
     expected_two_party_share_v2: 0.4918
   - name: Elisa Beth Zawadzkas
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0435
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4365
+    own_tide: 0.4902
     war_v2: 0.0552
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2303
+    lean_component_sd: 0.0134
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4365
     expected_two_party_share_v2: 0.4248
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4673
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5327
+    own_tide: 0.6179
     war_v2: 0.5247
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2811
+    lean_component_sd: 0.0164
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5327
     expected_two_party_share_v2: 0.4753
   is_open_seat: null

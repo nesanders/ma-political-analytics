@@ -32,11 +32,18 @@ results_by_year:
     war: 0.5288
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4712
+    own_tide: 0.4645
     war_v2: 0.4132
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2487
+    lean_component_sd: 0.0145
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4712
     expected_two_party_share_v2: 0.5868
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.6232
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.3768
+    own_tide: 0.368
     war_v2: 0.4628
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1988
+    lean_component_sd: 0.0116
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.3768
     expected_two_party_share_v2: 0.5372
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.6144
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3856
+    own_tide: 0.3884
     war_v2: 0.4557
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2035
+    lean_component_sd: 0.0119
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.3856
     expected_two_party_share_v2: 0.5443
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.6096
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3904
+    own_tide: 0.3726
     war_v2: 0.4427
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.206
+    lean_component_sd: 0.012
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3904
     expected_two_party_share_v2: 0.5573
   is_open_seat: false
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.2155
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4849
+    own_tide: 0.5255
     war_v2: 0.2501
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2559
+    lean_component_sd: 0.0149
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.4849
     expected_two_party_share_v2: 0.4503
   - name: Daniel J. Szostkiewicz
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.2155
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5151
+    own_tide: 0.4745
     war_v2: -0.1667
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2718
+    lean_component_sd: 0.0159
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5151
     expected_two_party_share_v2: 0.4663
   is_open_seat: null

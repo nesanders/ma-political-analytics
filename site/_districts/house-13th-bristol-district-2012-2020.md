@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3787
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6213
+    own_tide: 0.6712
     war_v2: 0.3345
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3279
+    lean_component_sd: 0.0191
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6213
     expected_two_party_share_v2: 0.6655
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.5674
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4326
+    own_tide: 0.3321
     war_v2: 0.4333
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2283
+    lean_component_sd: 0.0133
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.4326
     expected_two_party_share_v2: 0.5667
   - name: Michael Janson
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.3316
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6684
+    own_tide: 0.6465
     war_v2: 0.3071
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3527
+    lean_component_sd: 0.0206
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.6684
     expected_two_party_share_v2: 0.6929
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.3376
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6624
+    own_tide: 0.4902
     war_v2: 0.2995
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3495
+    lean_component_sd: 0.0204
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6624
     expected_two_party_share_v2: 0.7005
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.2302
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7698
+    own_tide: 0.6179
     war_v2: 0.3996
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4062
+    lean_component_sd: 0.0237
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.7698
     expected_two_party_share_v2: 0.6004
   is_open_seat: null

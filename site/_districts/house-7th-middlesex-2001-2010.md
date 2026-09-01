@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1087
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5291
+    own_tide: 0.5355
     war_v2: 0.0206
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2792
+    lean_component_sd: 0.0163
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.5291
     expected_two_party_share_v2: 0.6172
   - name: David S. Mercer
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1087
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4709
+    own_tide: 0.4645
     war_v2: -0.0808
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2485
+    lean_component_sd: 0.0145
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.4709
     expected_two_party_share_v2: 0.443
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.3544
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6456
+    own_tide: 0.632
     war_v2: 0.3191
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3407
+    lean_component_sd: 0.0199
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6456
     expected_two_party_share_v2: 0.6809
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4007
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5993
+    own_tide: 0.6116
     war_v2: 0.3331
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3163
+    lean_component_sd: 0.0185
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5993
     expected_two_party_share_v2: 0.6669
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0193
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6398
+    own_tide: 0.6274
     war_v2: 0.1273
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3376
+    lean_component_sd: 0.0197
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6398
     expected_two_party_share_v2: 0.5318
   - name: Mary Zarrilli Connaughton
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0193
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3602
+    own_tide: 0.3726
     war_v2: -0.0439
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1901
+    lean_component_sd: 0.0111
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3602
     expected_two_party_share_v2: 0.3848
   - name: Gregory Doherty
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.5797
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4203
+    own_tide: 0.4745
     war_v2: 0.5837
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2218
+    lean_component_sd: 0.0129
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4203
     expected_two_party_share_v2: 0.4163
   - name: Gregory Doherty
@@ -196,11 +252,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

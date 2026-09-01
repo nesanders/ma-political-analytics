@@ -25,10 +25,27 @@ layout: default
       Same regression as above, broken into its own terms for every year
       {{ page.name }} ran: the intercept, district lean, statewide tide,
       and incumbency, stacked up to WAR v2's expected share &mdash; plus
-      whatever's left over, WAR v2 itself. Click a bar to open that race's
-      district page.
+      whatever's left over, WAR v2 itself. For a year with a matched OCPF
+      campaign-finance total, the bar instead uses the WAR v3 finance
+      extension (same idea, with an added Fundraising slice for that
+      year's logged total raised). That slice can look disproportionately
+      large next to lean or tide's &mdash; unlike those two (naturally
+      bounded 0&ndash;1), logged dollars typically run 7&ndash;14, so even
+      a small fundraising coefficient multiplies out to a sizeable chunk
+      of the bar. See the standardized comparison on the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for a scale that's genuinely comparable across terms. Click a bar to
+      open that race's district page.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR v2 residual for {{ page.name }}'s actual share by year"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
+    <p>
+      The chart above shows each component's best estimate for
+      {{ page.name }}'s most recent race; it doesn't show how uncertain any
+      of them are. This one does &mdash; the same components, plotted as a
+      point (the estimate) and a line (an approximate 95% interval, from
+      each coefficient's own posterior uncertainty):
+    </p>
+    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the same attribution components, for the most recent race, with approximate 95% intervals"></div>
   </section>
   {% endif %}
 
@@ -165,7 +182,10 @@ layout: default
   };
   vegaEmbed("#war-chart", warSpec, { actions: false }).catch(console.error);
 
-  // Field-by-field, not `r | jsonify` — same reasoning as raceData above.
+  // Field-by-field, both v2's own components and (when this candidate has
+  // an OCPF-matched total for that year) v3-finance's distinctly-suffixed
+  // ones — see apply_war_v3_finance's own docstring for why they're
+  // separate fields rather than overwriting v2's.
   const attributionRaces = [
     {% for r in chart_races %}
     {% if r.war_v2 %}
@@ -173,26 +193,57 @@ layout: default
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
-      "intercept_component": {{ r.intercept_component | jsonify }},
-      "lean_component": {{ r.lean_component | jsonify }},
-      "tide_component": {{ r.tide_component | jsonify }},
-      "incumbency_adjustment": {{ r.incumbency_adjustment | jsonify }},
-      "war_v2": {{ r.war_v2 | jsonify }}
+      "intercept_component": {{ r.intercept_component | jsonify }}, "intercept_component_sd": {{ r.intercept_component_sd | jsonify }},
+      "lean_component": {{ r.lean_component | jsonify }}, "lean_component_sd": {{ r.lean_component_sd | jsonify }},
+      "tide_component": {{ r.tide_component | jsonify }}, "tide_component_sd": {{ r.tide_component_sd | jsonify }},
+      "incumbency_adjustment": {{ r.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ r.incumbency_adjustment_sd | jsonify }},
+      "war_v2": {{ r.war_v2 | jsonify }}, "war_v2_sd": {{ r.war_v2_sd | jsonify }},
+      "intercept_component_v3_finance": {{ r.intercept_component_v3_finance | jsonify }}, "intercept_component_v3_finance_sd": {{ r.intercept_component_v3_finance_sd | jsonify }},
+      "lean_component_v3_finance": {{ r.lean_component_v3_finance | jsonify }}, "lean_component_v3_finance_sd": {{ r.lean_component_v3_finance_sd | jsonify }},
+      "tide_component_v3_finance": {{ r.tide_component_v3_finance | jsonify }}, "tide_component_v3_finance_sd": {{ r.tide_component_v3_finance_sd | jsonify }},
+      "incumbency_adjustment_v3_finance": {{ r.incumbency_adjustment_v3_finance | jsonify }}, "incumbency_adjustment_v3_finance_sd": {{ r.incumbency_adjustment_v3_finance_sd | jsonify }},
+      "fundraising_component": {{ r.fundraising_component | jsonify }}, "fundraising_component_sd": {{ r.fundraising_component_sd | jsonify }},
+      "war_v3_finance": {{ r.war_v3_finance | jsonify }}, "war_v3_finance_sd": {{ r.war_v3_finance_sd | jsonify }}
     },
     {% endif %}
     {% endfor %}
   ];
-  const attributionComponents = [
-    ["Intercept", "intercept_component", "--war-intercept"],
-    ["Lean", "lean_component", "--war-lean"],
-    ["Statewide tide", "tide_component", "--war-tide"],
-    ["Incumbency", "incumbency_adjustment", "--war-incumbency"],
-    ["WAR v2 (residual)", "war_v2", "--war-residual"],
+  // Canonical component order/colors, shared by both decompositions — a
+  // year without a finance match simply has no "Fundraising" entry in its
+  // field map, so that segment is skipped rather than plotted as zero.
+  const CANONICAL_COMPONENTS = [
+    ["Intercept", "--war-intercept"],
+    ["Lean", "--war-lean"],
+    ["Statewide tide", "--war-tide"],
+    ["Incumbency", "--war-incumbency"],
+    ["Fundraising", "--war-extra"],
+    ["WAR (residual)", "--war-residual"],
   ];
+  const V2_FIELDS = {
+    "Intercept": ["intercept_component", "intercept_component_sd"],
+    "Lean": ["lean_component", "lean_component_sd"],
+    "Statewide tide": ["tide_component", "tide_component_sd"],
+    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
+    "WAR (residual)": ["war_v2", "war_v2_sd"],
+  };
+  const V3_FIELDS = {
+    "Intercept": ["intercept_component_v3_finance", "intercept_component_v3_finance_sd"],
+    "Lean": ["lean_component_v3_finance", "lean_component_v3_finance_sd"],
+    "Statewide tide": ["tide_component_v3_finance", "tide_component_v3_finance_sd"],
+    "Incumbency": ["incumbency_adjustment_v3_finance", "incumbency_adjustment_v3_finance_sd"],
+    "Fundraising": ["fundraising_component", "fundraising_component_sd"],
+    "WAR (residual)": ["war_v3_finance", "war_v3_finance_sd"],
+  };
   const attributionData = [];
   attributionRaces.forEach((r) => {
-    attributionComponents.forEach(([label, field], order) => {
-      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, component: label, order, value: r[field] });
+    const useV3 = r.fundraising_component !== null && r.fundraising_component !== undefined;
+    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
+    CANONICAL_COMPONENTS.forEach(([label], order) => {
+      const fields = fieldMap[label];
+      if (!fields) return;
+      const value = r[fields[0]];
+      if (value === null || value === undefined) return;
+      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, component: label, order, value });
     });
   });
   const attributionSpec = {
@@ -209,8 +260,8 @@ layout: default
       "color": {
         "field": "component", "type": "nominal", "title": "Component",
         "scale": {
-          "domain": attributionComponents.map((c) => c[0]),
-          "range": attributionComponents.map((c) => chartCssVar(c[2]))
+          "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+          "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
         }
       },
       "href": { "field": "url", "type": "nominal" },
@@ -233,5 +284,72 @@ layout: default
     }
   };
   vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
+
+  // Companion uncertainty chart, scoped to the most recent race only
+  // (attributionRaces is already sorted ascending by year, so the last
+  // entry is it) — a full per-year uncertainty view would need one row per
+  // component per year, too dense to read as a forest plot.
+  if (attributionRaces.length > 0) {
+    const latestRace = attributionRaces[attributionRaces.length - 1];
+    const useV3 = latestRace.fundraising_component !== null && latestRace.fundraising_component !== undefined;
+    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
+    const uncertaintyData = [];
+    CANONICAL_COMPONENTS.forEach(([label]) => {
+      const fields = fieldMap[label];
+      if (!fields) return;
+      const value = latestRace[fields[0]];
+      if (value === null || value === undefined) return;
+      const sd = latestRace[fields[1]] || 0;
+      uncertaintyData.push({ component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
+    });
+    const uncertaintySpec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 220,
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0 }] },
+          "mark": { "type": "rule", "strokeDash": [4, 2] },
+          "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": chartCssVar("--gridline") } }
+        },
+        {
+          "data": { "values": uncertaintyData },
+          "mark": { "type": "rule", "size": 2 },
+          "encoding": {
+            "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+            "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
+            "x2": { "field": "hi" },
+            "color": { "value": actualColor }
+          }
+        },
+        {
+          "data": { "values": uncertaintyData },
+          "mark": { "type": "point", "filled": true, "size": 90 },
+          "encoding": {
+            "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+            "x": { "field": "mean", "type": "quantitative" },
+            "color": { "value": actualColor },
+            "tooltip": [
+              { "field": "component", "title": "Component" },
+              { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
+              { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
+              { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
+            ]
+          }
+        }
+      ],
+      "config": {
+        "axis": {
+          "labelColor": chartCssVar("--text-secondary"),
+          "titleColor": chartCssVar("--text-primary"),
+          "gridColor": chartCssVar("--gridline"),
+          "domainColor": chartCssVar("--gridline")
+        },
+        "view": { "stroke": null }
+      }
+    };
+    vegaEmbed("#attribution-uncertainty-chart", uncertaintySpec, { actions: false }).catch(console.error);
+  }
 </script>
 {% endif %}

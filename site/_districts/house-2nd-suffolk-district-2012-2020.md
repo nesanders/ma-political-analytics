@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1905
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.8095
+    own_tide: 0.6712
     war_v2: 0.2352
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4272
+    lean_component_sd: 0.0249
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.8095
     expected_two_party_share_v2: 0.7648
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.4857
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5143
+    own_tide: 0.3321
     war_v2: 0.3877
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2714
+    lean_component_sd: 0.0158
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.5143
     expected_two_party_share_v2: 0.6123
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.1631
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.8369
+    own_tide: 0.6465
     war_v2: 0.2078
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4416
+    lean_component_sd: 0.0258
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.8369
     expected_two_party_share_v2: 0.7922
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.3115
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6885
+    own_tide: 0.4902
     war_v2: 0.4422
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3633
+    lean_component_sd: 0.0212
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.6885
     expected_two_party_share_v2: 0.5578
   is_open_seat: true
@@ -132,11 +160,18 @@ results_by_year:
     war: 0.0087
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.8116
+    own_tide: 0.6179
     war_v2: 0.1978
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4283
+    lean_component_sd: 0.025
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.8116
     expected_two_party_share_v2: 0.6225
   - name: Charles F. Klauder
@@ -148,11 +183,18 @@ results_by_year:
     war: -0.0087
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.1884
+    own_tide: 0.3821
     war_v2: -0.1144
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.0994
+    lean_component_sd: 0.0058
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.1884
     expected_two_party_share_v2: 0.2941
   is_open_seat: null

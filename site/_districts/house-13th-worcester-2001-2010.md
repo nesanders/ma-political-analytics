@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0024
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6146
+    own_tide: 0.5355
     war_v2: 0.0935
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3243
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6146
     expected_two_party_share_v2: 0.5187
   - name: Paul J. Franco
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0024
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3854
+    own_tide: 0.4645
     war_v2: -0.0101
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2034
+    lean_component_sd: 0.0119
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.3854
     expected_two_party_share_v2: 0.3979
   - name: Ronal Madnick
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Bruce R. Card
@@ -80,11 +101,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -105,11 +133,18 @@ results_by_year:
     war: 0.3331
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6669
+    own_tide: 0.632
     war_v2: 0.3103
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3519
+    lean_component_sd: 0.0205
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6669
     expected_two_party_share_v2: 0.6897
   - name: John J. Mahoney, Jr.
@@ -121,11 +156,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -146,11 +188,18 @@ results_by_year:
     war: 0.2768
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7232
+    own_tide: 0.6116
     war_v2: 0.2781
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3816
+    lean_component_sd: 0.0223
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7232
     expected_two_party_share_v2: 0.7219
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.3392
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6608
+    own_tide: 0.6274
     war_v2: 0.3006
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3487
+    lean_component_sd: 0.0204
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6608
     expected_two_party_share_v2: 0.6994
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.4723
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5277
+    own_tide: 0.4745
     war_v2: 0.527
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2785
+    lean_component_sd: 0.0163
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5277
     expected_two_party_share_v2: 0.473
   is_open_seat: null

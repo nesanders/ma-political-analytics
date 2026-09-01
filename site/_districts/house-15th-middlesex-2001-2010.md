@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3761
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6239
+    own_tide: 0.5355
     war_v2: 0.3328
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3292
+    lean_component_sd: 0.0192
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6239
     expected_two_party_share_v2: 0.6672
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3099
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6901
+    own_tide: 0.632
     war_v2: 0.2981
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3642
+    lean_component_sd: 0.0213
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6901
     expected_two_party_share_v2: 0.7019
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.3462
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.6538
+    own_tide: 0.6116
     war_v2: 0.3147
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.345
+    lean_component_sd: 0.0201
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.6538
     expected_two_party_share_v2: 0.6853
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.0133
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6842
+    own_tide: 0.6274
     war_v2: -0.0142
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3611
+    lean_component_sd: 0.0211
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.6842
     expected_two_party_share_v2: 0.7117
   - name: Catherine D. Ryan
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.0133
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3158
+    own_tide: 0.3726
     war_v2: -0.0589
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1666
+    lean_component_sd: 0.0097
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.3158
     expected_two_party_share_v2: 0.3614
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4824
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5176
+    own_tide: 0.4745
     war_v2: 0.5324
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2731
+    lean_component_sd: 0.0159
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5176
     expected_two_party_share_v2: 0.4676
   - name: Michael J. Dever
@@ -164,11 +206,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

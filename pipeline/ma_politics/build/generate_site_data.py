@@ -321,9 +321,25 @@ def _bayesian_linear_regression(
     rss = float(np.sum(resid**2))
     tss = float(np.sum((y - y.mean()) ** 2))
 
+    # Standardized ("beta weight") coefficients, alongside the native-unit
+    # ones above: each posterior draw scaled by that predictor's own SD in
+    # the actual fitted sample (population SD, not sample SD — this is a
+    # descriptive rescaling of the sample the model saw, not itself a
+    # further inference), turning "share points per unit of own_lean" and
+    # "share points per log-dollar of fundraising" into one common
+    # unit — "share points per 1 SD of this predictor" — genuinely
+    # comparable across continuous slopes (own_lean, log_raised) and 0/1
+    # incumbency dummies alike. The intercept has no such rescaling (its
+    # "predictor" is a constant column of 1s, SD 0) and is left out
+    # entirely (None) rather than reported as a misleading zero.
+    predictor_sd = X.std(axis=0, ddof=0)
+
     coefficients = {}
     for idx, name in enumerate(feature_names):
         draws = beta_samples[:, idx]
+        is_intercept = name == "intercept"
+        sd = float(predictor_sd[idx])
+        standardized = None if is_intercept else draws * sd
         coefficients[name] = {
             "prior_mean": round(float(prior_mean[idx]), 4),
             "prior_sd": round(float(prior_sd[idx]), 4),
@@ -331,6 +347,11 @@ def _bayesian_linear_regression(
             "posterior_sd": round(float(draws.std()), 4),
             "ci_95_low": round(float(np.percentile(draws, 2.5)), 4),
             "ci_95_high": round(float(np.percentile(draws, 97.5)), 4),
+            "predictor_sd": None if is_intercept else round(sd, 4),
+            "standardized_mean": None if is_intercept else round(float(standardized.mean()), 4),
+            "standardized_sd": None if is_intercept else round(float(standardized.std()), 4),
+            "standardized_ci_95_low": None if is_intercept else round(float(np.percentile(standardized, 2.5)), 4),
+            "standardized_ci_95_high": None if is_intercept else round(float(np.percentile(standardized, 97.5)), 4),
         }
 
     return {
@@ -443,11 +464,18 @@ def apply_war_v2(
                 for c in entry["candidates"]:
                     if c["war"] is None or tide is None:
                         c.update(
+                            own_lean=None,
+                            own_tide=None,
                             war_v2=None,
+                            war_v2_sd=None,
                             incumbency_adjustment=None,
+                            incumbency_adjustment_sd=None,
                             intercept_component=None,
+                            intercept_component_sd=None,
                             lean_component=None,
+                            lean_component_sd=None,
                             tide_component=None,
+                            tide_component_sd=None,
                             expected_two_party_share=None,
                             expected_two_party_share_v2=None,
                         )
@@ -461,12 +489,38 @@ def apply_war_v2(
                     tide_component = b_tide * own_tide
                     expected_v2 = b0 + lean_component + tide_component + incumbency_component
                     expected_v1 = round(c["actual_two_party_share"] - c["war"], 4)
+                    # Approximate per-component uncertainty via the delta
+                    # method: component_sd ~= |covariate| * coefficient's own
+                    # posterior_sd. A known simplification (same spirit as
+                    # this module's other documented ones) — it treats each
+                    # coefficient's posterior as independent of the others,
+                    # ignoring their actual posterior covariance, rather than
+                    # propagating a full joint posterior (which would need
+                    # exporting thousands of raw draws per race, a much
+                    # heavier lift for a diagnostic uncertainty band). The
+                    # active incumbency bucket (if any) contributes its own
+                    # coefficient's posterior_sd directly, since exactly one
+                    # dummy is 1 at a time. war_v2_sd reuses the fit's
+                    # residual noise SD (posterior_sigma_mean) as a constant
+                    # proxy for "how much of WAR v2 itself is typical
+                    # unexplained variation," not a delta-method quantity —
+                    # a different but equally honest way to report how much
+                    # the leftover residual should be trusted.
+                    active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
+                    incumbency_component_sd = coefs[active_bucket]["posterior_sd"] if active_bucket else 0.0
                     c.update(
+                        own_lean=round(own_lean, 4),
+                        own_tide=round(own_tide, 4),
                         war_v2=round(c["actual_two_party_share"] - expected_v2, 4),
+                        war_v2_sd=round(fit["posterior_sigma_mean"], 4),
                         incumbency_adjustment=round(incumbency_component, 4),
+                        incumbency_adjustment_sd=round(incumbency_component_sd, 4),
                         intercept_component=round(b0, 4),
+                        intercept_component_sd=coefs["intercept"]["posterior_sd"],
                         lean_component=round(lean_component, 4),
+                        lean_component_sd=round(abs(own_lean) * coefs["own_lean"]["posterior_sd"], 4),
                         tide_component=round(tide_component, 4),
+                        tide_component_sd=round(abs(own_tide) * coefs["own_tide"]["posterior_sd"], 4),
                         expected_two_party_share=expected_v1,
                         expected_two_party_share_v2=round(expected_v2, 4),
                     )
@@ -650,6 +704,172 @@ def fit_war_v3_finance(
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["n_distinct_years"] = int(df["year"].nunique())
     return fit
+
+
+def apply_war_v3_demographics(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    current_vintage: str,
+    fit: dict,
+) -> None:
+    """Mirrors apply_war_v2, but for the demographics diagnostic
+    (fit_war_v3_demographics) — mutates the SAME current-vintage candidate
+    dicts apply_war_v2 already updated, adding a distinctly-suffixed
+    (`*_v3_demographics`) set of fields alongside v2's own
+    intercept_component/lean_component/tide_component/incumbency_adjustment,
+    rather than overwriting them: the two models fit different coefficients
+    (this one's own_lean/own_tide/incumbency terms come from a much smaller,
+    current-vintage-only sample), so v2's original components need to
+    survive untouched for the district/seat page's existing attribution
+    chart. Scoped to district/seat pages only: demographics is a
+    district-level attribute, not a per-candidate one, so this
+    deliberately isn't threaded into candidate pages the way the finance
+    diagnostic below is. Combines the main bachelors_pct effect and its
+    tide interaction into a single "education_component" (rather than two
+    separate stacked-bar segments) so the attribution chart's palette
+    doesn't need a 7th color and reads as one legible "what does education
+    explain" slice. Runs only over district_records_by_vintage[current_vintage],
+    same real-coverage scope fit_war_v3_demographics itself documents, and
+    only for districts that actually have a demographics match."""
+    coefs = fit["coefficients"]
+    b0 = coefs["intercept"]["posterior_mean"]
+    b_lean = coefs["own_lean"]["posterior_mean"]
+    b_tide = coefs["own_tide"]["posterior_mean"]
+    b_terms = {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
+    b_edu = coefs["bachelors_pct"]["posterior_mean"]
+    b_edu_tide = coefs["bachelors_pct_x_tide"]["posterior_mean"]
+
+    for d in district_records_by_vintage.get(current_vintage, []):
+        demographics = d.get("demographics")
+        bachelors_pct = None
+        if demographics and demographics.get("total_population") and demographics.get("bachelors_degree_count"):
+            bachelors_pct = demographics["bachelors_degree_count"] / demographics["total_population"]
+
+        for entry in d["results_by_year"]:
+            tide = tide_by_year.get(entry["year"])
+            for c in entry["candidates"]:
+                if c["war"] is None or tide is None or bachelors_pct is None or c["party"] not in ("Democratic", "Republican"):
+                    c.update(
+                        intercept_component_v3_demographics=None,
+                        intercept_component_v3_demographics_sd=None,
+                        lean_component_v3_demographics=None,
+                        lean_component_v3_demographics_sd=None,
+                        tide_component_v3_demographics=None,
+                        tide_component_v3_demographics_sd=None,
+                        incumbency_adjustment_v3_demographics=None,
+                        incumbency_adjustment_v3_demographics_sd=None,
+                        education_component=None,
+                        education_component_sd=None,
+                        expected_two_party_share_v3_demographics=None,
+                        war_v3_demographics=None,
+                        war_v3_demographics_sd=None,
+                    )
+                    continue
+                is_dem = c["party"] == "Democratic"
+                own_lean = entry["lean_dem_share"] if is_dem else 1 - entry["lean_dem_share"]
+                own_tide = tide if is_dem else 1 - tide
+                dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
+                incumbency_component = sum(b_terms[b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
+                lean_component = b_lean * own_lean
+                tide_component = b_tide * own_tide
+                education_component = b_edu * bachelors_pct + b_edu_tide * bachelors_pct * own_tide
+                expected = b0 + lean_component + tide_component + incumbency_component + education_component
+                active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
+                incumbency_component_sd = coefs[active_bucket]["posterior_sd"] if active_bucket else 0.0
+                # Same delta-method independence approximation as apply_war_v2,
+                # extended to sum the main effect's and the interaction's
+                # variance in quadrature (still treating the two terms'
+                # posteriors as independent of each other, not just of the
+                # other coefficients) since both feed the one combined slice.
+                education_component_sd = (
+                    (bachelors_pct * coefs["bachelors_pct"]["posterior_sd"]) ** 2
+                    + (bachelors_pct * own_tide * coefs["bachelors_pct_x_tide"]["posterior_sd"]) ** 2
+                ) ** 0.5
+                c.update(
+                    intercept_component_v3_demographics=round(b0, 4),
+                    intercept_component_v3_demographics_sd=coefs["intercept"]["posterior_sd"],
+                    lean_component_v3_demographics=round(lean_component, 4),
+                    lean_component_v3_demographics_sd=round(abs(own_lean) * coefs["own_lean"]["posterior_sd"], 4),
+                    tide_component_v3_demographics=round(tide_component, 4),
+                    tide_component_v3_demographics_sd=round(abs(own_tide) * coefs["own_tide"]["posterior_sd"], 4),
+                    incumbency_adjustment_v3_demographics=round(incumbency_component, 4),
+                    incumbency_adjustment_v3_demographics_sd=round(incumbency_component_sd, 4),
+                    education_component=round(education_component, 4),
+                    education_component_sd=round(education_component_sd, 4),
+                    expected_two_party_share_v3_demographics=round(expected, 4),
+                    war_v3_demographics=round(c["actual_two_party_share"] - expected, 4),
+                    war_v3_demographics_sd=round(fit["posterior_sigma_mean"], 4),
+                )
+
+
+def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, fit: dict) -> None:
+    """Mirrors apply_war_v2, but for the campaign-finance diagnostic
+    (fit_war_v3_finance) — operates on the already-built candidate_records
+    (each race's own_lean/own_tide/incumbent_terms, threaded through from
+    apply_war_v2's own additions to the district records above), not the
+    district records directly, since fundraising is a per-candidate
+    observable rather than a district one. Only sets real values for a
+    race where this candidate actually has an OCPF-matched total for that
+    specific year; every other race gets explicit Nones (same "missing
+    over wrong" pattern as apply_war_v2), so candidate.html can check one
+    field to decide whether to show the finance-aware attribution view."""
+    coefs = fit["coefficients"]
+    b0 = coefs["intercept"]["posterior_mean"]
+    b_lean = coefs["own_lean"]["posterior_mean"]
+    b_tide = coefs["own_tide"]["posterior_mean"]
+    b_terms = {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
+    b_raised = coefs["log_raised"]["posterior_mean"]
+
+    for candidate in candidate_records:
+        finance = finance_by_slug.get(candidate["slug"])
+        for race in candidate["races"]:
+            raised = finance["by_year"].get(race["year"], {}).get("total_raised") if finance else None
+            if (
+                raised is None
+                or race.get("own_lean") is None
+                or race.get("own_tide") is None
+                or race["party"] not in ("Democratic", "Republican")
+            ):
+                race.update(
+                    fundraising_component=None,
+                    fundraising_component_sd=None,
+                    intercept_component_v3_finance=None,
+                    intercept_component_v3_finance_sd=None,
+                    lean_component_v3_finance=None,
+                    lean_component_v3_finance_sd=None,
+                    tide_component_v3_finance=None,
+                    tide_component_v3_finance_sd=None,
+                    incumbency_adjustment_v3_finance=None,
+                    incumbency_adjustment_v3_finance_sd=None,
+                    expected_two_party_share_v3_finance=None,
+                    war_v3_finance=None,
+                    war_v3_finance_sd=None,
+                )
+                continue
+            log_raised = float(np.log1p(raised))
+            dummies = _incumbent_term_dummies(race.get("incumbent_terms", 0))
+            incumbency_component = sum(b_terms[b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
+            lean_component = b_lean * race["own_lean"]
+            tide_component = b_tide * race["own_tide"]
+            fundraising_component = b_raised * log_raised
+            expected = b0 + lean_component + tide_component + incumbency_component + fundraising_component
+            active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
+            incumbency_component_sd = coefs[active_bucket]["posterior_sd"] if active_bucket else 0.0
+            race.update(
+                fundraising_component=round(fundraising_component, 4),
+                fundraising_component_sd=round(abs(log_raised) * coefs["log_raised"]["posterior_sd"], 4),
+                intercept_component_v3_finance=round(b0, 4),
+                intercept_component_v3_finance_sd=coefs["intercept"]["posterior_sd"],
+                lean_component_v3_finance=round(lean_component, 4),
+                lean_component_v3_finance_sd=round(abs(race["own_lean"]) * coefs["own_lean"]["posterior_sd"], 4),
+                tide_component_v3_finance=round(tide_component, 4),
+                tide_component_v3_finance_sd=round(abs(race["own_tide"]) * coefs["own_tide"]["posterior_sd"], 4),
+                incumbency_adjustment_v3_finance=round(incumbency_component, 4),
+                incumbency_adjustment_v3_finance_sd=round(incumbency_component_sd, 4),
+                expected_two_party_share_v3_finance=round(expected, 4),
+                war_v3_finance=round(race["actual_two_party_share"] - expected, 4),
+                war_v3_finance_sd=round(fit["posterior_sigma_mean"], 4),
+            )
 
 
 def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> list[dict]:
@@ -876,11 +1096,18 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "winner": c["winner"],
                             "actual_two_party_share": c["actual_two_party_share"],
                             "war": c["war"],
+                            "own_lean": c.get("own_lean"),
+                            "own_tide": c.get("own_tide"),
                             "war_v2": c.get("war_v2"),
+                            "war_v2_sd": c.get("war_v2_sd"),
                             "incumbency_adjustment": c.get("incumbency_adjustment"),
+                            "incumbency_adjustment_sd": c.get("incumbency_adjustment_sd"),
                             "intercept_component": c.get("intercept_component"),
+                            "intercept_component_sd": c.get("intercept_component_sd"),
                             "lean_component": c.get("lean_component"),
+                            "lean_component_sd": c.get("lean_component_sd"),
                             "tide_component": c.get("tide_component"),
+                            "tide_component_sd": c.get("tide_component_sd"),
                             "expected_two_party_share": c.get("expected_two_party_share"),
                             "expected_two_party_share_v2": c.get("expected_two_party_share_v2"),
                             "is_uncontested": entry["is_uncontested"],
@@ -1141,6 +1368,7 @@ def main(
         (site_data_dir / "war_v3_demographics.yml").write_text(
             yaml.safe_dump(war_v3_demographics_fit, sort_keys=False)
         )
+        apply_war_v3_demographics(district_records_by_vintage, tide_by_year, current_vintage, war_v3_demographics_fit)
     else:
         logger.warning("Not enough current-vintage demographics-matched races to fit the WAR v3 demographics diagnostic")
 
@@ -1168,6 +1396,7 @@ def main(
                 war_v3_finance_fit["n_distinct_years"],
             )
             (site_data_dir / "war_v3_finance.yml").write_text(yaml.safe_dump(war_v3_finance_fit, sort_keys=False))
+            apply_war_v3_finance(candidate_records, finance_by_slug, war_v3_finance_fit)
         else:
             logger.warning("Not enough finance-matched races to fit the WAR v3 finance diagnostic")
     else:

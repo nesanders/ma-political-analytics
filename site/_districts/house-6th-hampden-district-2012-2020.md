@@ -32,11 +32,18 @@ results_by_year:
     war: 0.4447
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.5553
+    own_tide: 0.6712
     war_v2: 0.3693
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.293
+    lean_component_sd: 0.0171
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5553
     expected_two_party_share_v2: 0.6307
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7596
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2404
+    own_tide: 0.3321
     war_v2: 0.5347
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1269
+    lean_component_sd: 0.0074
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2404
     expected_two_party_share_v2: 0.4653
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: 0.4712
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5288
+    own_tide: 0.6465
     war_v2: 0.3807
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.279
+    lean_component_sd: 0.0163
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5288
     expected_two_party_share_v2: 0.6193
   is_open_seat: false
@@ -107,11 +128,18 @@ results_by_year:
     war: 0.1714
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3974
+    own_tide: 0.4902
     war_v2: 0.0081
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2097
+    lean_component_sd: 0.0122
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3974
     expected_two_party_share_v2: 0.5607
   - name: Nathan A. Bech
@@ -123,11 +151,18 @@ results_by_year:
     war: -0.1714
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6026
+    own_tide: 0.5098
     war_v2: -0.0812
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.318
+    lean_component_sd: 0.0186
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6026
     expected_two_party_share_v2: 0.5124
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.4282
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5718
+    own_tide: 0.6179
     war_v2: 0.5041
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3017
+    lean_component_sd: 0.0176
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5718
     expected_two_party_share_v2: 0.4959
   - name: Lincoln A. Blackie
@@ -164,11 +206,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

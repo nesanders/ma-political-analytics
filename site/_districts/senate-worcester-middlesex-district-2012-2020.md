@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0742
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5841
+    own_tide: 0.6712
     war_v2: 0.0075
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3082
+    lean_component_sd: 0.018
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.584
     expected_two_party_share_v2: 0.5023
   - name: Dean Tran
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0742
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4159
+    own_tide: 0.3288
     war_v2: -0.0806
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2195
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.416
     expected_two_party_share_v2: 0.5708
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2213
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7644
+    own_tide: 0.6679
     war_v2: -0.0543
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4034
+    lean_component_sd: 0.0235
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7644
     expected_two_party_share_v2: 0.5974
   - name: Susan A. Chalifoux Zephir
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.2213
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2356
+    own_tide: 0.3321
     war_v2: 0.1377
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1243
+    lean_component_sd: 0.0073
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2356
     expected_two_party_share_v2: 0.3192
   is_open_seat: true
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.455
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.545
+    own_tide: 0.6465
     war_v2: 0.3722
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2876
+    lean_component_sd: 0.0168
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.545
     expected_two_party_share_v2: 0.6278
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.2067
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3976
+    own_tide: 0.4902
     war_v2: 0.0435
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2098
+    lean_component_sd: 0.0122
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3976
     expected_two_party_share_v2: 0.5608
   - name: Richard M. Bastien
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.2067
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6024
+    own_tide: 0.5098
     war_v2: -0.1166
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3179
+    lean_component_sd: 0.0186
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6024
     expected_two_party_share_v2: 0.5123
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.4715
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5285
+    own_tide: 0.6179
     war_v2: 0.5269
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2789
+    lean_component_sd: 0.0163
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5285
     expected_two_party_share_v2: 0.4731
   is_open_seat: null

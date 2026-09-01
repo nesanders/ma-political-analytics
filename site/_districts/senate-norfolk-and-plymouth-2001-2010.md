@@ -32,11 +32,18 @@ results_by_year:
     war: 0.1412
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4762
+    own_tide: 0.5355
     war_v2: 0.1717
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2513
+    lean_component_sd: 0.0147
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4762
     expected_two_party_share_v2: 0.4457
   - name: Daniel M. Dewey
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.1412
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5238
+    own_tide: 0.4645
     war_v2: -0.0883
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2764
+    lean_component_sd: 0.0161
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5238
     expected_two_party_share_v2: 0.4709
   - name: Laura Innis
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.4477
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5523
+    own_tide: 0.632
     war_v2: 0.3708
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2914
+    lean_component_sd: 0.017
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5523
     expected_two_party_share_v2: 0.6292
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4573
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5427
+    own_tide: 0.6116
     war_v2: 0.3733
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2864
+    lean_component_sd: 0.0167
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5427
     expected_two_party_share_v2: 0.6267
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.4037
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5963
+    own_tide: 0.6274
     war_v2: 0.3347
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3147
+    lean_component_sd: 0.0184
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5963
     expected_two_party_share_v2: 0.6653
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.5412
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4588
+    own_tide: 0.4745
     war_v2: 0.5634
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2421
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4588
     expected_two_party_share_v2: 0.4366
   is_open_seat: null

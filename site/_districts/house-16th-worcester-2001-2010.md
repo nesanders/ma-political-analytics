@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3547
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6453
+    own_tide: 0.5355
     war_v2: 0.3215
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3405
+    lean_component_sd: 0.0199
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.6453
     expected_two_party_share_v2: 0.6785
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3093
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.6907
+    own_tide: 0.632
     war_v2: 0.2978
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3645
+    lean_component_sd: 0.0213
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.6907
     expected_two_party_share_v2: 0.7022
   - name: Mathew T. Taylor
@@ -73,11 +87,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.2524
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.7476
+    own_tide: 0.6116
     war_v2: 0.2652
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3945
+    lean_component_sd: 0.023
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.7476
     expected_two_party_share_v2: 0.7348
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.0742
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6839
+    own_tide: 0.6274
     war_v2: 0.0466
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3609
+    lean_component_sd: 0.0211
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.684
     expected_two_party_share_v2: 0.7116
   - name: Scott C. Cashman
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0742
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3161
+    own_tide: 0.3726
     war_v2: -0.1197
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1668
+    lean_component_sd: 0.0097
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.316
     expected_two_party_share_v2: 0.3615
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.4434
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5566
+    own_tide: 0.4745
     war_v2: 0.5118
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2937
+    lean_component_sd: 0.0171
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.5566
     expected_two_party_share_v2: 0.4882
   - name: Aidan T. Yeaw
@@ -180,11 +229,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

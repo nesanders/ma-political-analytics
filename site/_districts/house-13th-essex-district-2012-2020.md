@@ -32,11 +32,18 @@ results_by_year:
     war: -0.019
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5738
+    own_tide: 0.6712
     war_v2: 0.058
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3028
+    lean_component_sd: 0.0177
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5739
     expected_two_party_share_v2: 0.4969
   - name: Robert E. May, Jr
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.019
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4262
+    own_tide: 0.3288
     war_v2: 0.0254
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2249
+    lean_component_sd: 0.0131
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4261
     expected_two_party_share_v2: 0.4197
   - name: William J. Bates
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jason Guida
@@ -80,11 +101,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Christopher Keohane
@@ -96,11 +124,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -121,11 +156,18 @@ results_by_year:
     war: 0.303
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.2115
+    own_tide: 0.3321
     war_v2: 0.0644
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1116
+    lean_component_sd: 0.0065
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2114
     expected_two_party_share_v2: 0.45
   - name: Mark B. Mezzina
@@ -137,11 +179,18 @@ results_by_year:
     war: -0.303
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7885
+    own_tide: 0.6679
     war_v2: -0.1246
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4161
+    lean_component_sd: 0.0243
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7886
     expected_two_party_share_v2: 0.6102
   is_open_seat: false
@@ -162,11 +211,18 @@ results_by_year:
     war: 0.4666
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5334
+    own_tide: 0.6465
     war_v2: 0.3783
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2815
+    lean_component_sd: 0.0164
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5334
     expected_two_party_share_v2: 0.6217
   is_open_seat: false
@@ -187,11 +243,18 @@ results_by_year:
     war: 0.1373
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3871
+    own_tide: 0.4902
     war_v2: -0.0308
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2043
+    lean_component_sd: 0.0119
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3871
     expected_two_party_share_v2: 0.5552
   - name: Thomas J. Lyons
@@ -203,11 +266,18 @@ results_by_year:
     war: -0.1373
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6129
+    own_tide: 0.5098
     war_v2: -0.0423
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3234
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6129
     expected_two_party_share_v2: 0.5179
   is_open_seat: false
@@ -228,11 +298,18 @@ results_by_year:
     war: 0.1102
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5178
+    own_tide: 0.6179
     war_v2: 0.1606
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2732
+    lean_component_sd: 0.0159
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5178
     expected_two_party_share_v2: 0.4674
   - name: Daniel C. Bennett
@@ -244,11 +321,18 @@ results_by_year:
     war: -0.1102
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4822
+    own_tide: 0.3821
     war_v2: -0.0772
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2545
+    lean_component_sd: 0.0149
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4822
     expected_two_party_share_v2: 0.4492
   is_open_seat: null

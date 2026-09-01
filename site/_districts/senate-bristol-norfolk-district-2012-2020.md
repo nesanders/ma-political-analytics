@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3934
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.6066
+    own_tide: 0.6712
     war_v2: 0.3293
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3201
+    lean_component_sd: 0.0187
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6066
     expected_two_party_share_v2: 0.6707
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.3515
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2541
+    own_tide: 0.3321
     war_v2: 0.2767
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1341
+    lean_component_sd: 0.0078
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2541
     expected_two_party_share_v2: 0.3289
   - name: Jacob J. Ventura
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.3515
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.7459
+    own_tide: 0.6679
     war_v2: -0.1933
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3936
+    lean_component_sd: 0.023
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.7459
     expected_two_party_share_v2: 0.5877
   is_open_seat: true
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4421
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5579
+    own_tide: 0.6465
     war_v2: 0.3654
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2944
+    lean_component_sd: 0.0172
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5579
     expected_two_party_share_v2: 0.6346
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.6187
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.3813
+    own_tide: 0.4902
     war_v2: 0.4478
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2012
+    lean_component_sd: 0.0117
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3813
     expected_two_party_share_v2: 0.5522
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.1161
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5092
+    own_tide: 0.6179
     war_v2: 0.1625
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2687
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5093
     expected_two_party_share_v2: 0.4629
   - name: Jeffrey Robert Bailey
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.1161
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4908
+    own_tide: 0.3821
     war_v2: -0.0791
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.259
+    lean_component_sd: 0.0151
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4907
     expected_two_party_share_v2: 0.4537
   is_open_seat: null

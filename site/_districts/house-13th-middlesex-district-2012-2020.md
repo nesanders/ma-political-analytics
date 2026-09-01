@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0704
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.7603
+    own_tide: 0.6712
     war_v2: -0.049
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4012
+    lean_component_sd: 0.0234
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.7603
     expected_two_party_share_v2: 0.7389
   - name: Ingrid I. Centurion
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0704
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.2397
+    own_tide: 0.3288
     war_v2: -0.0112
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1265
+    lean_component_sd: 0.0074
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.2397
     expected_two_party_share_v2: 0.3213
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.6851
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.3149
+    own_tide: 0.3321
     war_v2: 0.4929
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1662
+    lean_component_sd: 0.0097
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.3149
     expected_two_party_share_v2: 0.5071
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.2696
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.7304
+    own_tide: 0.6465
     war_v2: 0.264
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3854
+    lean_component_sd: 0.0225
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.7304
     expected_two_party_share_v2: 0.736
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.5323
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4677
+    own_tide: 0.4902
     war_v2: 0.5587
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2468
+    lean_component_sd: 0.0144
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4677
     expected_two_party_share_v2: 0.4413
   is_open_seat: true
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3988
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6012
+    own_tide: 0.6179
     war_v2: 0.4886
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3173
+    lean_component_sd: 0.0185
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.5114
   is_open_seat: null

@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0169
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5226
+    own_tide: 0.4645
     war_v2: 0.0692
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2758
+    lean_component_sd: 0.0161
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5226
     expected_two_party_share_v2: 0.4703
   - name: Matthew C. Patrick
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0169
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.4774
+    own_tide: 0.5355
     war_v2: -0.1294
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2519
+    lean_component_sd: 0.0147
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4774
     expected_two_party_share_v2: 0.5899
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.4296
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5704
+    own_tide: 0.632
     war_v2: 0.3613
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.301
+    lean_component_sd: 0.0176
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5704
     expected_two_party_share_v2: 0.6387
   - name: Carey M. Murphy
@@ -89,11 +110,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.4758
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5242
+    own_tide: 0.6116
     war_v2: 0.3831
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2766
+    lean_component_sd: 0.0161
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5242
     expected_two_party_share_v2: 0.6169
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.0206
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5542
+    own_tide: 0.6274
     war_v2: -0.1095
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2925
+    lean_component_sd: 0.0171
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5542
     expected_two_party_share_v2: 0.6431
   - name: Larry F. Wheatley
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.0206
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4458
+    own_tide: 0.3726
     war_v2: 0.0364
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2352
+    lean_component_sd: 0.0137
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4458
     expected_two_party_share_v2: 0.43
   is_open_seat: false
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.0836
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4169
+    own_tide: 0.4745
     war_v2: 0.086
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.22
+    lean_component_sd: 0.0128
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4169
     expected_two_party_share_v2: 0.4145
   - name: Larry F. Wheatley
@@ -196,11 +252,18 @@ results_by_year:
     war: -0.0836
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5831
+    own_tide: 0.5255
     war_v2: -0.0026
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3077
+    lean_component_sd: 0.018
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5831
     expected_two_party_share_v2: 0.5021
   is_open_seat: null

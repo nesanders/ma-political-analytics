@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3862
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.6138
+    own_tide: 0.4645
     war_v2: 0.338
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3239
+    lean_component_sd: 0.0189
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6138
     expected_two_party_share_v2: 0.662
   is_open_seat: false
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.2235
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4894
+    own_tide: 0.368
     war_v2: 0.1163
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2583
+    lean_component_sd: 0.0151
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4894
     expected_two_party_share_v2: 0.5966
   - name: Claire M. Paradiso
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.2235
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5106
+    own_tide: 0.632
     war_v2: -0.1765
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2694
+    lean_component_sd: 0.0157
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5106
     expected_two_party_share_v2: 0.4636
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.4759
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5241
+    own_tide: 0.3884
     war_v2: 0.3826
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2766
+    lean_component_sd: 0.0161
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.5241
     expected_two_party_share_v2: 0.6174
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.1858
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4741
+    own_tide: 0.3726
     war_v2: 0.0585
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2502
+    lean_component_sd: 0.0146
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4741
     expected_two_party_share_v2: 0.6014
   - name: Ben Tafoya
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.1858
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5259
+    own_tide: 0.6274
     war_v2: -0.1316
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2775
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.4717
   is_open_seat: false
@@ -164,11 +206,18 @@ results_by_year:
     war: 0.3468
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6532
+    own_tide: 0.5255
     war_v2: 0.4609
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3447
+    lean_component_sd: 0.0201
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6532
     expected_two_party_share_v2: 0.5391
   is_open_seat: null

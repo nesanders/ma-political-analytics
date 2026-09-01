@@ -13,16 +13,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
+  own_lean: 0.8033
+  own_tide: 0.632
   war_v2: 0.2255
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.1565
+  incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.4239
+  lean_component_sd: 0.0247
   tide_component: -0.0015
+  tide_component_sd: 0.0226
   expected_two_party_share: 0.8033
   expected_two_party_share_v2: 0.7745
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
+  fundraising_component: 0.3461
+  fundraising_component_sd: 0.0242
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.3522
+  lean_component_v3_finance_sd: 0.0258
+  tide_component_v3_finance: -0.0077
+  tide_component_v3_finance_sd: 0.0236
+  incumbency_adjustment_v3_finance: 0.135
+  incumbency_adjustment_v3_finance_sd: 0.0091
+  expected_two_party_share_v3_finance: 0.7356
+  war_v3_finance: 0.2644
+  war_v3_finance_sd: 0.1015
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -33,16 +53,36 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2252
+  own_lean: 0.7748
+  own_tide: 0.6116
   war_v2: 0.3969
+  war_v2_sd: 0.1125
   incumbency_adjustment: 0.0
+  incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
+  intercept_component_sd: 0.0132
   lean_component: 0.4089
+  lean_component_sd: 0.0239
   tide_component: -0.0014
+  tide_component_sd: 0.0219
   expected_two_party_share: 0.7748
   expected_two_party_share_v2: 0.6031
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  fundraising_component: 0.3495
+  fundraising_component_sd: 0.0245
+  intercept_component_v3_finance: -0.09
+  intercept_component_v3_finance_sd: 0.0258
+  lean_component_v3_finance: 0.3397
+  lean_component_v3_finance_sd: 0.0249
+  tide_component_v3_finance: -0.0075
+  tide_component_v3_finance_sd: 0.0228
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5918
+  war_v3_finance: 0.4082
+  war_v3_finance_sd: 0.1015
 ocpf_finance:
   cpf_ids:
   - 14545

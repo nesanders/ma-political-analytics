@@ -32,11 +32,18 @@ results_by_year:
     war: -0.056
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5795
+    own_tide: 0.4645
     war_v2: 0.0231
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3058
+    lean_component_sd: 0.0178
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5794
     expected_two_party_share_v2: 0.5003
   - name: Bill Bowles
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.056
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4205
+    own_tide: 0.5355
     war_v2: -0.0962
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2219
+    lean_component_sd: 0.013
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4206
     expected_two_party_share_v2: 0.5728
   - name: James S. Connolly
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.0268
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5671
+    own_tide: 0.632
     war_v2: 0.0469
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2993
+    lean_component_sd: 0.0175
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5671
     expected_two_party_share_v2: 0.4934
   - name: George T. Ross
@@ -105,11 +133,18 @@ results_by_year:
     war: 0.0268
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4329
+    own_tide: 0.368
     war_v2: 0.0365
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2284
+    lean_component_sd: 0.0133
     tide_component: -0.0008
+    tide_component_sd: 0.0132
     expected_two_party_share: 0.4329
     expected_two_party_share_v2: 0.4232
   is_open_seat: true
@@ -130,11 +165,18 @@ results_by_year:
     war: 0.0784
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4651
+    own_tide: 0.3884
     war_v2: -0.0427
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2454
+    lean_component_sd: 0.0143
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4651
     expected_two_party_share_v2: 0.5862
   - name: Kate M. Jackson
@@ -146,11 +188,18 @@ results_by_year:
     war: -0.0784
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5349
+    own_tide: 0.6116
     war_v2: -0.02
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2823
+    lean_component_sd: 0.0165
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5349
     expected_two_party_share_v2: 0.4765
   is_open_seat: false
@@ -171,11 +220,18 @@ results_by_year:
     war: 0.5602
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4398
+    own_tide: 0.3726
     war_v2: 0.4167
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2321
+    lean_component_sd: 0.0135
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4398
     expected_two_party_share_v2: 0.5833
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.3849
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6151
+    own_tide: 0.5255
     war_v2: 0.481
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3246
+    lean_component_sd: 0.0189
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6151
     expected_two_party_share_v2: 0.519
   is_open_seat: null

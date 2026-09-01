@@ -32,11 +32,18 @@ results_by_year:
     war: 0.131
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4695
+    own_tide: 0.5355
     war_v2: 0.1584
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2478
+    lean_component_sd: 0.0145
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.4695
     expected_two_party_share_v2: 0.4421
   - name: James J. Buba
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.131
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5305
+    own_tide: 0.4645
     war_v2: -0.075
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2799
+    lean_component_sd: 0.0163
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.5305
     expected_two_party_share_v2: 0.4745
   - name: Patrick A. O'Connor
@@ -64,11 +78,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.4024
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.5976
+    own_tide: 0.632
     war_v2: 0.3469
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3154
+    lean_component_sd: 0.0184
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.5976
     expected_two_party_share_v2: 0.6531
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.2134
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.5452
+    own_tide: 0.6116
     war_v2: 0.1306
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2877
+    lean_component_sd: 0.0168
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.5452
     expected_two_party_share_v2: 0.628
   - name: Brooks T. Lyman
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.2134
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4548
+    own_tide: 0.3884
     war_v2: -0.1933
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.24
+    lean_component_sd: 0.014
     tide_component: -0.0009
+    tide_component_sd: 0.0139
     expected_two_party_share: 0.4548
     expected_two_party_share_v2: 0.4347
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.1847
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5736
+    own_tide: 0.6274
     war_v2: 0.1049
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3027
+    lean_component_sd: 0.0177
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5735
     expected_two_party_share_v2: 0.6533
   - name: Brooks T. Lyman
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.1847
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4264
+    own_tide: 0.3726
     war_v2: -0.178
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.225
+    lean_component_sd: 0.0131
     tide_component: -0.0009
+    tide_component_sd: 0.0133
     expected_two_party_share: 0.4265
     expected_two_party_share_v2: 0.4198
   is_open_seat: false
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.3077
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4134
+    own_tide: 0.4745
     war_v2: 0.3085
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2182
+    lean_component_sd: 0.0127
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.4135
     expected_two_party_share_v2: 0.4127
   - name: Brooks T. Lyman
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.3077
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5866
+    own_tide: 0.5255
     war_v2: -0.2251
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3095
+    lean_component_sd: 0.0181
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.5865
     expected_two_party_share_v2: 0.5039
   is_open_seat: null

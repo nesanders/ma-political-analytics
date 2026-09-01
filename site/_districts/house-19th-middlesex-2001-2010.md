@@ -32,11 +32,18 @@ results_by_year:
     war: 0.263
     is_incumbent: true
     incumbent_terms: 4
+    own_lean: 0.3733
+    own_tide: 0.5355
     war_v2: 0.1013
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.197
+    lean_component_sd: 0.0115
     tide_component: -0.0012
+    tide_component_sd: 0.0192
     expected_two_party_share: 0.3733
     expected_two_party_share_v2: 0.535
   - name: Mario S. Marchese
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.263
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6267
+    own_tide: 0.4645
     war_v2: -0.1615
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3307
+    lean_component_sd: 0.0193
     tide_component: -0.0011
+    tide_component_sd: 0.0166
     expected_two_party_share: 0.6267
     expected_two_party_share_v2: 0.5252
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.5032
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4968
+    own_tide: 0.632
     war_v2: 0.4001
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2622
+    lean_component_sd: 0.0153
     tide_component: -0.0015
+    tide_component_sd: 0.0226
     expected_two_party_share: 0.4968
     expected_two_party_share_v2: 0.5999
   is_open_seat: false
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.5134
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.4866
+    own_tide: 0.6116
     war_v2: 0.4029
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2568
+    lean_component_sd: 0.015
     tide_component: -0.0014
+    tide_component_sd: 0.0219
     expected_two_party_share: 0.4866
     expected_two_party_share_v2: 0.5971
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.4736
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5264
+    own_tide: 0.6274
     war_v2: 0.3716
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2778
+    lean_component_sd: 0.0162
     tide_component: -0.0014
+    tide_component_sd: 0.0225
     expected_two_party_share: 0.5264
     expected_two_party_share_v2: 0.6284
   is_open_seat: false
@@ -148,11 +183,18 @@ results_by_year:
     war: 0.3245
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3708
+    own_tide: 0.4745
     war_v2: 0.3051
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1957
+    lean_component_sd: 0.0114
     tide_component: -0.0011
+    tide_component_sd: 0.017
     expected_two_party_share: 0.3708
     expected_two_party_share_v2: 0.3902
   - name: Daniel H. Ballou, Jr.
@@ -164,11 +206,18 @@ results_by_year:
     war: -0.3245
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6292
+    own_tide: 0.5255
     war_v2: -0.2217
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.332
+    lean_component_sd: 0.0194
     tide_component: -0.0012
+    tide_component_sd: 0.0188
     expected_two_party_share: 0.6292
     expected_two_party_share_v2: 0.5264
   is_open_seat: null

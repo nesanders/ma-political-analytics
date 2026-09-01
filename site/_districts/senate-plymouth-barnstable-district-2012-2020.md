@@ -32,11 +32,18 @@ results_by_year:
     war: -0.0216
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5847
+    own_tide: 0.6712
     war_v2: 0.0605
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3085
+    lean_component_sd: 0.018
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.5847
     expected_two_party_share_v2: 0.5026
   - name: James R. McMahon, III
@@ -48,11 +55,18 @@ results_by_year:
     war: 0.0216
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4153
+    own_tide: 0.3288
     war_v2: 0.0229
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2192
+    lean_component_sd: 0.0128
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.4153
     expected_two_party_share_v2: 0.414
   is_open_seat: true
@@ -73,11 +87,18 @@ results_by_year:
     war: -0.1758
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.764
+    own_tide: 0.6679
     war_v2: -0.1551
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.4032
+    lean_component_sd: 0.0235
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.764
     expected_two_party_share_v2: 0.7433
   - name: Deborah A. Rudolf
@@ -89,11 +110,18 @@ results_by_year:
     war: 0.1758
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.236
+    own_tide: 0.3321
     war_v2: 0.0924
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1245
+    lean_component_sd: 0.0073
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.236
     expected_two_party_share_v2: 0.3194
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.5292
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4708
+    own_tide: 0.3535
     war_v2: 0.4003
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2484
+    lean_component_sd: 0.0145
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4708
     expected_two_party_share_v2: 0.5997
   is_open_seat: false
@@ -139,11 +174,18 @@ results_by_year:
     war: 0.0343
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6
+    own_tide: 0.5098
     war_v2: 0.1233
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3166
+    lean_component_sd: 0.0185
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6
     expected_two_party_share_v2: 0.511
   - name: Matthew C. Patrick
@@ -155,11 +197,18 @@ results_by_year:
     war: -0.0343
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4
+    own_tide: 0.4902
     war_v2: -0.0399
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2111
+    lean_component_sd: 0.0123
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.4
     expected_two_party_share_v2: 0.4056
   - name: Heather M. Mullins
@@ -171,11 +220,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.0721
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5094
+    own_tide: 0.6179
     war_v2: 0.1186
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2688
+    lean_component_sd: 0.0157
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5095
     expected_two_party_share_v2: 0.463
   - name: Thomas F. Keyes
@@ -212,11 +275,18 @@ results_by_year:
     war: -0.0721
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4906
+    own_tide: 0.3821
     war_v2: -0.0352
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2589
+    lean_component_sd: 0.0151
     tide_component: -0.0009
+    tide_component_sd: 0.0137
     expected_two_party_share: 0.4905
     expected_two_party_share_v2: 0.4536
   is_open_seat: null

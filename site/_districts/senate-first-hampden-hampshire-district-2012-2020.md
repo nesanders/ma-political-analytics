@@ -32,11 +32,18 @@ results_by_year:
     war: 0.3914
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6086
+    own_tide: 0.6712
     war_v2: 0.4848
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3212
+    lean_component_sd: 0.0187
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.6086
     expected_two_party_share_v2: 0.5152
   is_open_seat: true
@@ -57,11 +64,18 @@ results_by_year:
     war: 0.7126
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.2874
+    own_tide: 0.3321
     war_v2: 0.5074
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1517
+    lean_component_sd: 0.0089
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.2874
     expected_two_party_share_v2: 0.4926
   is_open_seat: false
@@ -82,11 +96,18 @@ results_by_year:
     war: -0.0379
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.5969
+    own_tide: 0.6465
     war_v2: -0.1066
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.315
+    lean_component_sd: 0.0184
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.5969
     expected_two_party_share_v2: 0.6656
   - name: James Chip Harrington
@@ -98,11 +119,18 @@ results_by_year:
     war: 0.0379
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.4031
+    own_tide: 0.3535
     war_v2: 0.0335
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2127
+    lean_component_sd: 0.0124
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.4031
     expected_two_party_share_v2: 0.4075
   is_open_seat: false
@@ -123,11 +151,18 @@ results_by_year:
     war: 0.072
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.458
+    own_tide: 0.4902
     war_v2: 0.0938
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2417
+    lean_component_sd: 0.0141
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.458
     expected_two_party_share_v2: 0.4362
   - name: Debra A. Boronski
@@ -139,11 +174,18 @@ results_by_year:
     war: -0.072
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.542
+    own_tide: 0.5098
     war_v2: -0.0104
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.286
+    lean_component_sd: 0.0167
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.542
     expected_two_party_share_v2: 0.4804
   - name: Mike Franco
@@ -155,11 +197,18 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: null
+    own_tide: null
     war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     intercept_component: null
+    intercept_component_sd: null
     lean_component: null
+    lean_component_sd: null
     tide_component: null
+    tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -180,11 +229,18 @@ results_by_year:
     war: 0.3787
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6213
+    own_tide: 0.6179
     war_v2: 0.478
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3279
+    lean_component_sd: 0.0191
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.6213
     expected_two_party_share_v2: 0.522
   is_open_seat: null

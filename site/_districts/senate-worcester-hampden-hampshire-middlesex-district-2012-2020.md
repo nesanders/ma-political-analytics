@@ -32,11 +32,18 @@ results_by_year:
     war: 0.0339
     is_incumbent: true
     incumbent_terms: 3
+    own_lean: 0.4945
+    own_tide: 0.6712
     war_v2: -0.0703
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1436
+    incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2609
+    lean_component_sd: 0.0152
     tide_component: -0.0015
+    tide_component_sd: 0.024
     expected_two_party_share: 0.4944
     expected_two_party_share_v2: 0.5986
   - name: Steven R. Hall
@@ -48,11 +55,18 @@ results_by_year:
     war: -0.0339
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5055
+    own_tide: 0.3288
     war_v2: 0.0101
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2668
+    lean_component_sd: 0.0156
     tide_component: -0.0008
+    tide_component_sd: 0.0118
     expected_two_party_share: 0.5056
     expected_two_party_share_v2: 0.4616
   is_open_seat: false
@@ -73,11 +87,18 @@ results_by_year:
     war: 0.345
     is_incumbent: true
     incumbent_terms: 2
+    own_lean: 0.204
+    own_tide: 0.3321
     war_v2: 0.1004
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1461
+    incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1077
+    lean_component_sd: 0.0063
     tide_component: -0.0008
+    tide_component_sd: 0.0119
     expected_two_party_share: 0.204
     expected_two_party_share_v2: 0.4486
   - name: Steven R. Hall
@@ -89,11 +110,18 @@ results_by_year:
     war: -0.345
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.796
+    own_tide: 0.6679
     war_v2: -0.1631
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.42
+    lean_component_sd: 0.0245
     tide_component: -0.0015
+    tide_component_sd: 0.0239
     expected_two_party_share: 0.796
     expected_two_party_share_v2: 0.6141
   is_open_seat: false
@@ -114,11 +142,18 @@ results_by_year:
     war: 0.0984
     is_incumbent: true
     incumbent_terms: 1
+    own_lean: 0.4457
+    own_tide: 0.6465
     war_v2: -0.0417
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.1565
+    incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2352
+    lean_component_sd: 0.0137
     tide_component: -0.0015
+    tide_component_sd: 0.0231
     expected_two_party_share: 0.4457
     expected_two_party_share_v2: 0.5858
   - name: James P. Ehrhard
@@ -130,11 +165,18 @@ results_by_year:
     war: -0.0984
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5543
+    own_tide: 0.3535
     war_v2: -0.0314
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2925
+    lean_component_sd: 0.0171
     tide_component: -0.0008
+    tide_component_sd: 0.0127
     expected_two_party_share: 0.5543
     expected_two_party_share_v2: 0.4873
   is_open_seat: false
@@ -155,11 +197,18 @@ results_by_year:
     war: 0.144
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.3596
+    own_tide: 0.4902
     war_v2: 0.1194
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.1898
+    lean_component_sd: 0.0111
     tide_component: -0.0011
+    tide_component_sd: 0.0175
     expected_two_party_share: 0.3596
     expected_two_party_share_v2: 0.3842
   - name: Michael J. Valanzola
@@ -171,11 +220,18 @@ results_by_year:
     war: -0.144
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.6404
+    own_tide: 0.5098
     war_v2: -0.036
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.3379
+    lean_component_sd: 0.0197
     tide_component: -0.0012
+    tide_component_sd: 0.0183
     expected_two_party_share: 0.6404
     expected_two_party_share_v2: 0.5324
   is_open_seat: true
@@ -196,11 +252,18 @@ results_by_year:
     war: 0.5
     is_incumbent: false
     incumbent_terms: 0
+    own_lean: 0.5
+    own_tide: 0.6179
     war_v2: 0.542
+    war_v2_sd: 0.1125
     incumbency_adjustment: 0.0
+    incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
+    intercept_component_sd: 0.0132
     lean_component: 0.2638
+    lean_component_sd: 0.0154
     tide_component: -0.0014
+    tide_component_sd: 0.0221
     expected_two_party_share: 0.5
     expected_two_party_share_v2: 0.458
   is_open_seat: null
