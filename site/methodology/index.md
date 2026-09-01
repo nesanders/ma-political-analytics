@@ -239,6 +239,18 @@ trust it as a stable multi-year trend rather than two elections' worth of
 noise. Its prior is deliberately tighter than its own main effect's for
 exactly that reason.
 
+Same forest-plot reading as WAR v2's above, but showing only the two
+terms this extension *adds* on top of the core model — its own copies of
+intercept/lean/tide/incumbency are omitted here since they're already
+shown above and fit on a much larger sample; repeating them next to
+these two would make the thin ones look more comparable than they are.
+Notice the wide interval on the interaction term in particular — it
+crosses zero, which is exactly the "two elections isn't enough to trust
+this as a trend" limitation stated above, made visible rather than just
+asserted:
+
+<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the WAR v3 demographics extension's two added coefficients with 95% credible intervals"></div>
+
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
 | Bachelor's degree % | {{ site.data.war_v3_demographics.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
@@ -256,6 +268,15 @@ export now covers the full 2002-2024 range this project backfills
 elsewhere, so statewide tide is back in this fit as a real term — with
 genuine cross-year variation to work with, it's no longer collinear with
 the intercept the way it was when this was fit on a single year's races.
+
+Unlike the demographics extension above, this fit re-estimates lean and
+tide too, alongside the new fundraising term (it drops the incumbency
+terms instead — see this fit's own table below for exactly which). Just
+the new term charted below, on its own scale — log(dollars) moves in much
+smaller coefficient units than lean/tide do, so plotting it next to them
+would make a clearly-nonzero effect look like it hugs zero:
+
+<div id="war-v3-finance-forest-chart" role="img" aria-label="Forest plot of the WAR v3 finance extension's fundraising coefficient with a 95% credible interval"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -479,17 +500,11 @@ including the exact code that computes everything on this page.
     vegaEmbed("#prior-posterior-chart", spec, { actions: false }).catch(console.error);
   })();
 
-  // --- WAR v2 coefficient forest plot ------------------------------------
-  (function () {
-    const coefs = {{ site.data.war_v2.coefficients | jsonify }};
-    const terms = [
-      ["Intercept", "intercept"],
-      ["District lean", "own_lean"],
-      ["Statewide tide", "own_tide"],
-      ["Incumbent, 1st term", "incumbent_1"],
-      ["Incumbent, 2nd term", "incumbent_2"],
-      ["Incumbent, 3rd+ term", "incumbent_3plus"],
-    ];
+  // --- Reusable forest plot: posterior mean + 95% CI per coefficient -----
+  // Shared by the WAR v2 core plot and both WAR v3 extension plots below,
+  // so each only has to supply its own coefficients object, [label, key]
+  // term list, target element id, and accent color.
+  function renderForestChart(elementId, coefs, terms, color, height) {
     const data = terms.map(([label, key]) => ({
       term: label,
       mean: coefs[key].posterior_mean,
@@ -497,11 +512,10 @@ including the exact code that computes everything on this page.
       hi: coefs[key].ci_95_high,
     }));
     const termOrder = terms.map((t) => t[0]);
-    const forestColor = methodologyCssVar("--war-incumbency");
     const spec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
       "width": "container",
-      "height": 220,
+      "height": height || 220,
       "background": null,
       "layer": [
         {
@@ -516,7 +530,7 @@ including the exact code that computes everything on this page.
             "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
             "x": { "field": "lo", "type": "quantitative" },
             "x2": { "field": "hi" },
-            "color": { "value": forestColor }
+            "color": { "value": color }
           }
         },
         {
@@ -525,20 +539,57 @@ including the exact code that computes everything on this page.
           "encoding": {
             "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
             "x": { "field": "mean", "type": "quantitative" },
-            "color": { "value": forestColor },
+            "color": { "value": color },
             "tooltip": [
               { "field": "term", "title": "Term" },
-              { "field": "mean", "type": "quantitative", "format": ".3f", "title": "Posterior mean" },
-              { "field": "lo", "type": "quantitative", "format": ".3f", "title": "95% CI low" },
-              { "field": "hi", "type": "quantitative", "format": ".3f", "title": "95% CI high" }
+              { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Posterior mean" },
+              { "field": "lo", "type": "quantitative", "format": ".4f", "title": "95% CI low" },
+              { "field": "hi", "type": "quantitative", "format": ".4f", "title": "95% CI high" }
             ]
           }
         }
       ],
       "config": methodologyAxisConfig
     };
-    vegaEmbed("#war-v2-forest-chart", spec, { actions: false }).catch(console.error);
-  })();
+    vegaEmbed("#" + elementId, spec, { actions: false }).catch(console.error);
+  }
+
+  renderForestChart(
+    "war-v2-forest-chart",
+    {{ site.data.war_v2.coefficients | jsonify }},
+    [
+      ["Intercept", "intercept"],
+      ["District lean", "own_lean"],
+      ["Statewide tide", "own_tide"],
+      ["Incumbent, 1st term", "incumbent_1"],
+      ["Incumbent, 2nd term", "incumbent_2"],
+      ["Incumbent, 3rd+ term", "incumbent_3plus"],
+    ],
+    methodologyCssVar("--war-incumbency")
+  );
+  {% endif %}
+
+  {% if site.data.war_v3_demographics %}
+  renderForestChart(
+    "war-v3-demographics-forest-chart",
+    {{ site.data.war_v3_demographics.coefficients | jsonify }},
+    [
+      ["Bachelor's degree %", "bachelors_pct"],
+      ["Bachelor's degree % × tide", "bachelors_pct_x_tide"],
+    ],
+    methodologyCssVar("--war-tide"),
+    120
+  );
+  {% endif %}
+
+  {% if site.data.war_v3_finance %}
+  renderForestChart(
+    "war-v3-finance-forest-chart",
+    {{ site.data.war_v3_finance.coefficients | jsonify }},
+    [["log(total raised + 1)", "log_raised"]],
+    methodologyCssVar("--war-residual"),
+    90
+  );
   {% endif %}
 
   {% if site.data.war_v2_fit_sample %}
