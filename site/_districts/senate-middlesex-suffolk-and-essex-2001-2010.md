@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.7763
     war: 0.0668
     is_incumbent: false
-    war_v2: 0.0668
+    incumbent_terms: 0
+    war_v2: 0.2076
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3744
+    tide_component: -0.0012
     expected_two_party_share: 0.7095
-    expected_two_party_share_v2: 0.7095
+    expected_two_party_share_v2: 0.5687
   - name: Barbara T. Bush
     slug: barbara-t-bush
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.2237
     war: -0.0668
     is_incumbent: false
-    war_v2: -0.0668
+    incumbent_terms: 0
+    war_v2: -0.1242
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1533
+    tide_component: -0.0011
     expected_two_party_share: 0.2905
-    expected_two_party_share_v2: 0.2905
+    expected_two_party_share_v2: 0.3479
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.7679
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2321
     is_incumbent: false
-    war_v2: 0.2321
+    incumbent_terms: 0
+    war_v2: 0.4006
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4052
+    tide_component: -0.0015
     expected_two_party_share: 0.7679
-    expected_two_party_share_v2: 0.7679
+    expected_two_party_share_v2: 0.5994
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7318
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2682
     is_incumbent: true
-    war_v2: 0.1437
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2735
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3862
+    tide_component: -0.0014
     expected_two_party_share: 0.7318
-    expected_two_party_share_v2: 0.8563
+    expected_two_party_share_v2: 0.7265
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7592
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2408
     is_incumbent: true
-    war_v2: 0.1163
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2487
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4006
+    tide_component: -0.0014
     expected_two_party_share: 0.7592
-    expected_two_party_share_v2: 0.8837
+    expected_two_party_share_v2: 0.7513
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6205
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3795
     is_incumbent: false
-    war_v2: 0.3795
+    incumbent_terms: 0
+    war_v2: 0.4781
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3274
+    tide_component: -0.0011
     expected_two_party_share: 0.6205
-    expected_two_party_share_v2: 0.6205
+    expected_two_party_share_v2: 0.5219
   is_open_seat: null
 title: Middlesex, Suffolk, and Essex (2001-2010)
 layout: district

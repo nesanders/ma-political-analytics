@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3234
-  war_v2: 0.1989
-  incumbency_adjustment: 0.1245
+  war_v2: 0.305
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6766
-  expected_two_party_share_v2: 0.8011
+  expected_two_party_share_v2: 0.695
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2666
-  war_v2: 0.1421
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2752
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7334
-  expected_two_party_share_v2: 0.8579
+  expected_two_party_share_v2: 0.7248
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2875
-  war_v2: 0.163
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2837
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7125
-  expected_two_party_share_v2: 0.837
+  expected_two_party_share_v2: 0.7163
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3106
-  war_v2: 0.1861
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2855
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6894
-  expected_two_party_share_v2: 0.8139
+  expected_two_party_share_v2: 0.7145
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.7294
   war: 0.141
-  war_v2: 0.141
+  war_v2: 0.2244
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5884
-  expected_two_party_share_v2: 0.5884
+  expected_two_party_share_v2: 0.505
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Michael F. Kane
 layout: candidate
 ---

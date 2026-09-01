@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4957
     is_incumbent: true
-    war_v2: 0.3712
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3959
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2661
+    tide_component: -0.0012
     expected_two_party_share: 0.5043
-    expected_two_party_share_v2: 0.6288
+    expected_two_party_share_v2: 0.6041
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6289
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3711
     is_incumbent: true
-    war_v2: 0.2466
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3304
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3319
+    tide_component: -0.0015
     expected_two_party_share: 0.6289
-    expected_two_party_share_v2: 0.7534
+    expected_two_party_share_v2: 0.6696
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5769
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.7746
     war: 0.1978
     is_incumbent: true
-    war_v2: 0.0733
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1299
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3044
+    tide_component: -0.0014
     expected_two_party_share: 0.5768
-    expected_two_party_share_v2: 0.7013
+    expected_two_party_share_v2: 0.6447
   - name: Matthew Lewis Prahl
     slug: matthew-lewis-prahl
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.2254
     war: -0.1978
     is_incumbent: false
-    war_v2: -0.1978
+    incumbent_terms: 0
+    war_v2: -0.1926
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2233
+    tide_component: -0.0009
     expected_two_party_share: 0.4232
-    expected_two_party_share_v2: 0.4232
+    expected_two_party_share_v2: 0.418
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6026
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3974
     is_incumbent: true
-    war_v2: 0.2729
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3314
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.318
+    tide_component: -0.0014
     expected_two_party_share: 0.6026
-    expected_two_party_share_v2: 0.7271
+    expected_two_party_share_v2: 0.6686
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4555
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7201
     war: 0.2646
     is_incumbent: false
-    war_v2: 0.2646
+    incumbent_terms: 0
+    war_v2: 0.2852
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2404
+    tide_component: -0.0011
     expected_two_party_share: 0.4555
-    expected_two_party_share_v2: 0.4555
+    expected_two_party_share_v2: 0.4349
   - name: Harry H. Garavanian
     slug: harry-h-garavanian
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2799
     war: -0.2646
     is_incumbent: false
-    war_v2: -0.2646
+    incumbent_terms: 0
+    war_v2: -0.2018
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2873
+    tide_component: -0.0012
     expected_two_party_share: 0.5445
-    expected_two_party_share_v2: 0.5445
+    expected_two_party_share_v2: 0.4817
   is_open_seat: null
 title: 16th Middlesex (2001-2010)
 layout: district

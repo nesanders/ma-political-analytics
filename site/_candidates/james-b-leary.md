@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.7431
   war: 0.0412
-  war_v2: -0.0833
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0325
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7019
-  expected_two_party_share_v2: 0.8264
+  expected_two_party_share_v2: 0.7106
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3525
-  war_v2: 0.228
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3077
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6475
-  expected_two_party_share_v2: 0.772
+  expected_two_party_share_v2: 0.6923
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4924
-  war_v2: 0.4924
+  war_v2: 0.5376
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5076
-  expected_two_party_share_v2: 0.5076
+  expected_two_party_share_v2: 0.4624
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: James B. Leary
 layout: candidate
 ---

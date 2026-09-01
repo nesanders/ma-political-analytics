@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4282
-  war_v2: 0.3037
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3476
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5718
-  expected_two_party_share_v2: 0.6963
+  expected_two_party_share_v2: 0.6524
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3918
-  war_v2: 0.3918
+  war_v2: 0.4849
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6082
-  expected_two_party_share_v2: 0.6082
+  expected_two_party_share_v2: 0.5151
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert L. Rice
 layout: candidate
 ---

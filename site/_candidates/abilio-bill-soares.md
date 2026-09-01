@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3446
   war: -0.1968
-  war_v2: -0.1968
+  war_v2: -0.1355
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5414
-  expected_two_party_share_v2: 0.5414
+  expected_two_party_share_v2: 0.4801
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Abilio Bill Soares
 layout: candidate
 ---

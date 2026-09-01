@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.546
     war: 0.0549
     is_incumbent: false
-    war_v2: 0.0549
+    incumbent_terms: 0
+    war_v2: 0.0924
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2592
+    tide_component: -0.0012
     expected_two_party_share: 0.4911
-    expected_two_party_share_v2: 0.4911
+    expected_two_party_share_v2: 0.4536
   - name: Gregory C. Neffinger
     slug: gregory-c-neffinger
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.454
     war: -0.0549
     is_incumbent: false
-    war_v2: -0.0549
+    incumbent_terms: 0
+    war_v2: -0.009
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2685
+    tide_component: -0.0011
     expected_two_party_share: 0.5089
-    expected_two_party_share_v2: 0.5089
+    expected_two_party_share_v2: 0.463
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5895
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4105
     is_incumbent: true
-    war_v2: 0.286
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3487
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3111
+    tide_component: -0.0015
     expected_two_party_share: 0.5895
-    expected_two_party_share_v2: 0.714
+    expected_two_party_share_v2: 0.6513
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5667
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4333
     is_incumbent: true
-    war_v2: 0.3088
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3503
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.299
+    tide_component: -0.0014
     expected_two_party_share: 0.5667
-    expected_two_party_share_v2: 0.6912
+    expected_two_party_share_v2: 0.6497
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5903
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6412
     war: 0.051
     is_incumbent: false
-    war_v2: 0.051
+    incumbent_terms: 0
+    war_v2: 0.1355
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3115
+    tide_component: -0.0014
     expected_two_party_share: 0.5902
-    expected_two_party_share_v2: 0.5902
+    expected_two_party_share_v2: 0.5057
   - name: Dean C. Vogel, Sr.
     slug: dean-c-vogel-sr
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3588
     war: -0.051
     is_incumbent: false
-    war_v2: -0.051
+    incumbent_terms: 0
+    war_v2: -0.0521
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2162
+    tide_component: -0.0009
     expected_two_party_share: 0.4098
-    expected_two_party_share_v2: 0.4098
+    expected_two_party_share_v2: 0.4109
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4488
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5512
     is_incumbent: false
-    war_v2: 0.5512
+    incumbent_terms: 0
+    war_v2: 0.5687
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2368
+    tide_component: -0.0011
     expected_two_party_share: 0.4488
-    expected_two_party_share_v2: 0.4488
+    expected_two_party_share_v2: 0.4313
   is_open_seat: null
 title: 6th Hampden (2001-2010)
 layout: district

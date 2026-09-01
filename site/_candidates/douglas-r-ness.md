@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3367
   war: -0.2099
-  war_v2: -0.2099
+  war_v2: -0.1463
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5466
-  expected_two_party_share_v2: 0.5466
+  expected_two_party_share_v2: 0.483
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Douglas R. Ness
 layout: candidate
 ---

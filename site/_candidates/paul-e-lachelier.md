@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul E. Lachelier
 layout: candidate
 ---

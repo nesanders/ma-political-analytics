@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6742
     war: 0.0672
     is_incumbent: true
-    war_v2: -0.0573
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0158
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3203
+    tide_component: -0.0011
     expected_two_party_share: 0.607
-    expected_two_party_share_v2: 0.7315
+    expected_two_party_share_v2: 0.6584
   - name: Timothy A. Dodd
     slug: timothy-a-dodd
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3258
     war: -0.0672
     is_incumbent: false
-    war_v2: -0.0672
+    incumbent_terms: 0
+    war_v2: -0.076
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2074
+    tide_component: -0.0012
     expected_two_party_share: 0.393
-    expected_two_party_share_v2: 0.393
+    expected_two_party_share_v2: 0.4018
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5272
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5272
     is_incumbent: true
-    war_v2: 0.4027
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4121
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2495
+    tide_component: -0.0008
     expected_two_party_share: 0.4728
-    expected_two_party_share_v2: 0.5973
+    expected_two_party_share_v2: 0.5879
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5251
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5251
     is_incumbent: true
-    war_v2: 0.4006
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4086
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2506
+    tide_component: -0.0009
     expected_two_party_share: 0.4749
-    expected_two_party_share_v2: 0.5994
+    expected_two_party_share_v2: 0.5914
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5281
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6496
     war: 0.1777
     is_incumbent: true
-    war_v2: 0.0532
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0493
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.249
+    tide_component: -0.0009
     expected_two_party_share: 0.4719
-    expected_two_party_share_v2: 0.5964
+    expected_two_party_share_v2: 0.6003
   - name: Andrew J. Myers
     slug: andrew-j-myers
     party: Democratic
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3504
     war: -0.1777
     is_incumbent: false
-    war_v2: -0.1777
+    incumbent_terms: 0
+    war_v2: -0.1224
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2787
+    tide_component: -0.0014
     expected_two_party_share: 0.5281
-    expected_two_party_share_v2: 0.5281
+    expected_two_party_share_v2: 0.4728
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3497
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3497
     is_incumbent: false
-    war_v2: 0.3497
+    incumbent_terms: 0
+    war_v2: 0.4624
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3432
+    tide_component: -0.0012
     expected_two_party_share: 0.6503
-    expected_two_party_share_v2: 0.6503
+    expected_two_party_share_v2: 0.5376
   is_open_seat: null
 title: 9th Worcester (2001-2010)
 layout: district

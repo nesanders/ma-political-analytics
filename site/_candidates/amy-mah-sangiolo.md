@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.8127
   war: 0.0054
-  war_v2: 0.0054
+  war_v2: 0.1925
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8073
-  expected_two_party_share_v2: 0.8073
+  expected_two_party_share_v2: 0.6202
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Amy Mah Sangiolo
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3761
   war: -0.1288
-  war_v2: -0.1288
+  war_v2: -0.0845
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5049
-  expected_two_party_share_v2: 0.5049
+  expected_two_party_share_v2: 0.4606
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Timothy A. Purinton
 layout: candidate
 ---

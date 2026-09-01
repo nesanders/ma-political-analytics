@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2805
-  war_v2: 0.2805
+  war_v2: 0.4262
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7195
-  expected_two_party_share_v2: 0.7195
+  expected_two_party_share_v2: 0.5738
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3153
-  war_v2: 0.1908
-  incumbency_adjustment: 0.1245
+  war_v2: 0.301
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6847
-  expected_two_party_share_v2: 0.8092
+  expected_two_party_share_v2: 0.699
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5644
   war: 0.1962
-  war_v2: 0.0717
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0292
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.3682
-  expected_two_party_share_v2: 0.4927
+  expected_two_party_share_v2: 0.5352
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3491
-  war_v2: 0.2246
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3059
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6509
-  expected_two_party_share_v2: 0.7754
+  expected_two_party_share_v2: 0.6941
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.5207
   war: -0.009
-  war_v2: -0.009
+  war_v2: 0.0467
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5297
-  expected_two_party_share_v2: 0.5297
+  expected_two_party_share_v2: 0.474
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 15820

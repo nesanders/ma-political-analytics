@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
-  war_v2: 0.1966
+  war_v2: 0.3819
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8034
-  expected_two_party_share_v2: 0.8034
+  expected_two_party_share_v2: 0.6181
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2466
-  war_v2: 0.2466
+  war_v2: 0.4081
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7534
-  expected_two_party_share_v2: 0.7534
+  expected_two_party_share_v2: 0.5919
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Carlos Tony Henriquez
 layout: candidate
 ---

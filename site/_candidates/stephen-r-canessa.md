@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4108
-  war_v2: 0.2863
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3511
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5892
-  expected_two_party_share_v2: 0.7137
+  expected_two_party_share_v2: 0.6489
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3435
-  war_v2: 0.219
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3133
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6565
-  expected_two_party_share_v2: 0.781
+  expected_two_party_share_v2: 0.6867
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3268
-  war_v2: 0.2023
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2941
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6732
-  expected_two_party_share_v2: 0.7977
+  expected_two_party_share_v2: 0.7059
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3189
-  war_v2: 0.3189
+  war_v2: 0.4464
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6811
-  expected_two_party_share_v2: 0.6811
+  expected_two_party_share_v2: 0.5536
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen R. Canessa
 layout: candidate
 ---

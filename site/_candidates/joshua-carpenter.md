@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3522
   war: -0.1105
-  war_v2: -0.1105
+  war_v2: -0.0865
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4627
-  expected_two_party_share_v2: 0.4627
+  expected_two_party_share_v2: 0.4387
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Joshua Carpenter
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3035
     is_incumbent: true
-    war_v2: 0.179
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2948
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3675
+    tide_component: -0.0015
     expected_two_party_share: 0.6965
-    expected_two_party_share_v2: 0.821
+    expected_two_party_share_v2: 0.7052
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.39
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.61
     is_incumbent: true
-    war_v2: 0.4855
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4558
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2058
+    tide_component: -0.0008
     expected_two_party_share: 0.39
-    expected_two_party_share_v2: 0.5145
+    expected_two_party_share_v2: 0.5442
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2916
     is_incumbent: true
-    war_v2: 0.1671
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.286
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3738
+    tide_component: -0.0015
     expected_two_party_share: 0.7084
-    expected_two_party_share_v2: 0.8329
+    expected_two_party_share_v2: 0.714
   - name: Ralph Perez
     slug: ralph-perez
     party: Other
@@ -85,8 +97,12 @@ results_by_year:
     actual_two_party_share: 0.2717
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4422
     is_incumbent: true
-    war_v2: 0.3177
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3547
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2944
+    tide_component: -0.0011
     expected_two_party_share: 0.5578
-    expected_two_party_share_v2: 0.6823
+    expected_two_party_share_v2: 0.6453
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7016
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7546
     war: 0.053
     is_incumbent: false
-    war_v2: 0.053
+    incumbent_terms: 0
+    war_v2: 0.1902
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3702
+    tide_component: -0.0014
     expected_two_party_share: 0.7016
-    expected_two_party_share_v2: 0.7016
+    expected_two_party_share_v2: 0.5644
   - name: Brian J. O'Malley
     slug: brian-j-omalley
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2454
     war: -0.053
     is_incumbent: false
-    war_v2: -0.053
+    incumbent_terms: 0
+    war_v2: -0.1068
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1575
+    tide_component: -0.0009
     expected_two_party_share: 0.2984
-    expected_two_party_share_v2: 0.2984
+    expected_two_party_share_v2: 0.3522
   is_open_seat: null
 title: 15th Worcester District (2012-2020)
 layout: district

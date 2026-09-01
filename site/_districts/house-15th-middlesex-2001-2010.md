@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3761
     is_incumbent: true
-    war_v2: 0.2516
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3328
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3292
+    tide_component: -0.0012
     expected_two_party_share: 0.6239
-    expected_two_party_share_v2: 0.7484
+    expected_two_party_share_v2: 0.6672
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6901
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3099
     is_incumbent: true
-    war_v2: 0.1854
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2981
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3642
+    tide_component: -0.0015
     expected_two_party_share: 0.6901
-    expected_two_party_share_v2: 0.8146
+    expected_two_party_share_v2: 0.7019
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6538
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3462
     is_incumbent: true
-    war_v2: 0.2217
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3147
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.345
+    tide_component: -0.0014
     expected_two_party_share: 0.6538
-    expected_two_party_share_v2: 0.7783
+    expected_two_party_share_v2: 0.6853
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6842
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6975
     war: 0.0133
     is_incumbent: true
-    war_v2: -0.1112
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0142
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3611
+    tide_component: -0.0014
     expected_two_party_share: 0.6842
-    expected_two_party_share_v2: 0.8087
+    expected_two_party_share_v2: 0.7117
   - name: Catherine D. Ryan
     slug: catherine-d-ryan
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3025
     war: -0.0133
     is_incumbent: false
-    war_v2: -0.0133
+    incumbent_terms: 0
+    war_v2: -0.0589
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1666
+    tide_component: -0.0009
     expected_two_party_share: 0.3158
-    expected_two_party_share_v2: 0.3158
+    expected_two_party_share_v2: 0.3614
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5176
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4824
     is_incumbent: false
-    war_v2: 0.4824
+    incumbent_terms: 0
+    war_v2: 0.5324
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2731
+    tide_component: -0.0011
     expected_two_party_share: 0.5176
-    expected_two_party_share_v2: 0.5176
+    expected_two_party_share_v2: 0.4676
   - name: Michael J. Dever
     slug: michael-j-dever
     party: Other
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.4499
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.575
   war: 0.0277
-  war_v2: -0.0968
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0645
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5473
-  expected_two_party_share_v2: 0.6718
+  expected_two_party_share_v2: 0.6395
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4375
-  war_v2: 0.4375
+  war_v2: 0.5091
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5625
-  expected_two_party_share_v2: 0.5625
+  expected_two_party_share_v2: 0.4909
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5853
   war: -0.0043
-  war_v2: -0.1288
-  incumbency_adjustment: 0.1245
+  war_v2: -0.066
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5896
-  expected_two_party_share_v2: 0.7141
+  expected_two_party_share_v2: 0.6513
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5627
   war: 0.3231
-  war_v2: 0.1986
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0849
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.2396
-  expected_two_party_share_v2: 0.3641
+  expected_two_party_share_v2: 0.4778
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.552
   war: 0.0065
-  war_v2: 0.0065
+  war_v2: 0.07
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5455
-  expected_two_party_share_v2: 0.5455
+  expected_two_party_share_v2: 0.482
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 16366

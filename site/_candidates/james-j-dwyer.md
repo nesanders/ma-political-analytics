@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.419
-  war_v2: 0.2945
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3532
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.581
-  expected_two_party_share_v2: 0.7055
+  expected_two_party_share_v2: 0.6468
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5679
-  war_v2: 0.4434
-  incumbency_adjustment: 0.1245
+  war_v2: 0.421
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4321
-  expected_two_party_share_v2: 0.5566
+  expected_two_party_share_v2: 0.579
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4603
-  war_v2: 0.4603
+  war_v2: 0.521
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5397
-  expected_two_party_share_v2: 0.5397
+  expected_two_party_share_v2: 0.479
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6346
   war: 0.1962
-  war_v2: 0.0717
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0524
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4384
-  expected_two_party_share_v2: 0.5629
+  expected_two_party_share_v2: 0.5822
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4478
-  war_v2: 0.4478
+  war_v2: 0.5145
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5522
-  expected_two_party_share_v2: 0.5522
+  expected_two_party_share_v2: 0.4855
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: James J. Dwyer
 layout: candidate
 ---

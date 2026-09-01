@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.567
     is_incumbent: true
-    war_v2: 0.4425
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4206
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2285
+    tide_component: -0.0012
     expected_two_party_share: 0.433
-    expected_two_party_share_v2: 0.5575
+    expected_two_party_share_v2: 0.5794
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5662
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4338
     is_incumbent: false
-    war_v2: 0.4338
+    incumbent_terms: 0
+    war_v2: 0.5071
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2988
+    tide_component: -0.0015
     expected_two_party_share: 0.5662
-    expected_two_party_share_v2: 0.5662
+    expected_two_party_share_v2: 0.4929
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.7727
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4197
     is_incumbent: true
-    war_v2: 0.2952
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3431
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3062
+    tide_component: -0.0014
     expected_two_party_share: 0.5803
-    expected_two_party_share_v2: 0.7048
+    expected_two_party_share_v2: 0.6569
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.6095
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6904
     war: 0.1119
     is_incumbent: false
-    war_v2: 0.1119
+    incumbent_terms: 0
+    war_v2: 0.191
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3053
+    tide_component: -0.0014
     expected_two_party_share: 0.5785
-    expected_two_party_share_v2: 0.5785
+    expected_two_party_share_v2: 0.4994
   - name: David G. Nault
     slug: david-g-nault
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3096
     war: -0.1119
     is_incumbent: false
-    war_v2: -0.1119
+    incumbent_terms: 0
+    war_v2: -0.1076
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2224
+    tide_component: -0.0009
     expected_two_party_share: 0.4215
-    expected_two_party_share_v2: 0.4215
+    expected_two_party_share_v2: 0.4172
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4231
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5769
     is_incumbent: false
-    war_v2: 0.5769
+    incumbent_terms: 0
+    war_v2: 0.5822
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2233
+    tide_component: -0.0011
     expected_two_party_share: 0.4231
-    expected_two_party_share_v2: 0.4231
+    expected_two_party_share_v2: 0.4178
   is_open_seat: null
 title: 4th Worcester (2001-2010)
 layout: district

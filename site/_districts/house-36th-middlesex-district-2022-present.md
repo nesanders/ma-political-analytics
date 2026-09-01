@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5227
     is_incumbent: true
-    war_v2: 0.3982
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3975
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2519
+    tide_component: -0.0014
     expected_two_party_share: 0.4773
-    expected_two_party_share_v2: 0.6018
+    expected_two_party_share_v2: 0.6025
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4953
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6064
     war: 0.1112
     is_incumbent: false
-    war_v2: 0.1112
+    incumbent_terms: 0
+    war_v2: 0.1509
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2614
+    tide_component: -0.0015
     expected_two_party_share: 0.4952
-    expected_two_party_share_v2: 0.4952
+    expected_two_party_share_v2: 0.4555
   - name: George Derek Boag
     slug: george-derek-boag
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3936
     war: -0.1112
     is_incumbent: false
-    war_v2: -0.1112
+    incumbent_terms: 0
+    war_v2: -0.0675
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2663
+    tide_component: -0.0008
     expected_two_party_share: 0.5048
-    expected_two_party_share_v2: 0.5048
+    expected_two_party_share_v2: 0.4611
   is_open_seat: null
 demographics:
   total_population: 44997

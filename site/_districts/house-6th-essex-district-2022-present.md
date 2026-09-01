@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.7495
     war: 0.072
     is_incumbent: true
-    war_v2: -0.0525
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0413
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3575
+    tide_component: -0.0014
     expected_two_party_share: 0.6775
-    expected_two_party_share_v2: 0.802
+    expected_two_party_share_v2: 0.7082
   - name: Ty Vitale
     slug: ty-vitale
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.2505
     war: -0.072
     is_incumbent: false
-    war_v2: -0.072
+    incumbent_terms: 0
+    war_v2: -0.1144
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1702
+    tide_component: -0.0009
     expected_two_party_share: 0.3225
-    expected_two_party_share_v2: 0.3225
+    expected_two_party_share_v2: 0.3649
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -52,8 +60,12 @@ results_by_year:
     actual_two_party_share: 0.0549
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3078
     is_incumbent: false
-    war_v2: 0.3078
+    incumbent_terms: 0
+    war_v2: 0.4406
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3653
+    tide_component: -0.0015
     expected_two_party_share: 0.6922
-    expected_two_party_share_v2: 0.6922
+    expected_two_party_share_v2: 0.5594
   is_open_seat: null
 demographics:
   total_population: 42670

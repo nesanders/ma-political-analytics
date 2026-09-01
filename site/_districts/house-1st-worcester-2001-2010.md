@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6493
     war: 0.0564
     is_incumbent: false
-    war_v2: 0.0564
+    incumbent_terms: 0
+    war_v2: 0.1419
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3129
+    tide_component: -0.0011
     expected_two_party_share: 0.5929
-    expected_two_party_share_v2: 0.5929
+    expected_two_party_share_v2: 0.5074
   - name: Kenneth John O'Brien
     slug: kenneth-john-obrien
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3507
     war: -0.0564
     is_incumbent: false
-    war_v2: -0.0564
+    incumbent_terms: 0
+    war_v2: -0.0585
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2148
+    tide_component: -0.0012
     expected_two_party_share: 0.4071
-    expected_two_party_share_v2: 0.4071
+    expected_two_party_share_v2: 0.4092
   - name: Jonathan B. Long
     slug: jonathan-b-long
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1215
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5103
     is_incumbent: true
-    war_v2: 0.3858
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4032
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2584
+    tide_component: -0.0008
     expected_two_party_share: 0.4897
-    expected_two_party_share_v2: 0.6142
+    expected_two_party_share_v2: 0.5968
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5298
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.6865
     war: 0.2163
     is_incumbent: true
-    war_v2: 0.0918
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0976
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2481
+    tide_component: -0.0009
     expected_two_party_share: 0.4702
-    expected_two_party_share_v2: 0.5947
+    expected_two_party_share_v2: 0.5889
   - name: Nate Kaplan
     slug: nate-kaplan
     party: Democratic
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.3135
     war: -0.2163
     is_incumbent: false
-    war_v2: -0.2163
+    incumbent_terms: 0
+    war_v2: -0.1603
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2796
+    tide_component: -0.0014
     expected_two_party_share: 0.5298
-    expected_two_party_share_v2: 0.5298
+    expected_two_party_share_v2: 0.4738
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5059
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5059
     is_incumbent: true
-    war_v2: 0.3814
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.388
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2607
+    tide_component: -0.0009
     expected_two_party_share: 0.4941
-    expected_two_party_share_v2: 0.6186
+    expected_two_party_share_v2: 0.612
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3381
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.5755
     war: -0.0863
     is_incumbent: false
-    war_v2: -0.0863
+    incumbent_terms: 0
+    war_v2: 0.0318
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3493
+    tide_component: -0.0012
     expected_two_party_share: 0.6618
-    expected_two_party_share_v2: 0.6618
+    expected_two_party_share_v2: 0.5437
   - name: David C. Bunker, Jr.
     slug: david-c-bunker-jr
     party: Democratic
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.4245
     war: 0.0863
     is_incumbent: false
-    war_v2: 0.0863
+    incumbent_terms: 0
+    war_v2: 0.0516
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1784
+    tide_component: -0.0011
     expected_two_party_share: 0.3382
-    expected_two_party_share_v2: 0.3382
+    expected_two_party_share_v2: 0.3729
   is_open_seat: null
 title: 1st Worcester (2001-2010)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5713
     war: 0.0373
     is_incumbent: true
-    war_v2: -0.0872
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0481
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2818
+    tide_component: -0.0015
     expected_two_party_share: 0.534
-    expected_two_party_share_v2: 0.6585
+    expected_two_party_share_v2: 0.6194
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4287
     war: -0.0373
     is_incumbent: false
-    war_v2: -0.0373
+    incumbent_terms: 0
+    war_v2: -0.0121
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2459
+    tide_component: -0.0008
     expected_two_party_share: 0.466
-    expected_two_party_share_v2: 0.466
+    expected_two_party_share_v2: 0.4408
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2159
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.554
     war: 0.3381
     is_incumbent: true
-    war_v2: 0.2136
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1016
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1139
+    tide_component: -0.0008
     expected_two_party_share: 0.2159
-    expected_two_party_share_v2: 0.3404
+    expected_two_party_share_v2: 0.4524
   - name: Edward A. Gravel
     slug: edward-a-gravel
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.446
     war: -0.3381
     is_incumbent: false
-    war_v2: -0.3381
+    incumbent_terms: 0
+    war_v2: -0.1618
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4138
+    tide_component: -0.0015
     expected_two_party_share: 0.7841
-    expected_two_party_share_v2: 0.7841
+    expected_two_party_share_v2: 0.6078
   - name: Yasmine Khdeer
     slug: yasmine-khdeer
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0291
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5016
     is_incumbent: true
-    war_v2: 0.3771
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3968
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.263
+    tide_component: -0.0015
     expected_two_party_share: 0.4984
-    expected_two_party_share_v2: 0.6229
+    expected_two_party_share_v2: 0.6032
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4101
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5015
     war: 0.0913
     is_incumbent: true
-    war_v2: -0.0332
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0659
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2164
+    tide_component: -0.0011
     expected_two_party_share: 0.4102
-    expected_two_party_share_v2: 0.5347
+    expected_two_party_share_v2: 0.5674
   - name: Garret Shetrawski
     slug: garret-shetrawski
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4985
     war: -0.0913
     is_incumbent: false
-    war_v2: -0.0913
+    incumbent_terms: 0
+    war_v2: -0.0072
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3113
+    tide_component: -0.0012
     expected_two_party_share: 0.5898
-    expected_two_party_share_v2: 0.5898
+    expected_two_party_share_v2: 0.5057
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5441
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.51
     war: -0.0341
     is_incumbent: false
-    war_v2: -0.0341
+    incumbent_terms: 0
+    war_v2: 0.0287
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2871
+    tide_component: -0.0014
     expected_two_party_share: 0.5441
-    expected_two_party_share_v2: 0.5441
+    expected_two_party_share_v2: 0.4813
   - name: Richard M. Bastien
     slug: richard-m-bastien
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.49
     war: 0.0341
     is_incumbent: false
-    war_v2: 0.0341
+    incumbent_terms: 0
+    war_v2: 0.0547
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2406
+    tide_component: -0.0009
     expected_two_party_share: 0.4559
-    expected_two_party_share_v2: 0.4559
+    expected_two_party_share_v2: 0.4353
   is_open_seat: null
 title: 2nd Worcester District (2012-2020)
 layout: district

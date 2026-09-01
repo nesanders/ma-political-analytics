@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2868
     is_incumbent: true
-    war_v2: 0.1623
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.286
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3764
+    tide_component: -0.0015
     expected_two_party_share: 0.7132
-    expected_two_party_share_v2: 0.8377
+    expected_two_party_share_v2: 0.714
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4188
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5812
     is_incumbent: true
-    war_v2: 0.4567
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4406
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.221
+    tide_component: -0.0008
     expected_two_party_share: 0.4188
-    expected_two_party_share_v2: 0.5433
+    expected_two_party_share_v2: 0.5594
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6871
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3129
     is_incumbent: true
-    war_v2: 0.1884
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2972
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3626
+    tide_component: -0.0015
     expected_two_party_share: 0.6871
-    expected_two_party_share_v2: 0.8116
+    expected_two_party_share_v2: 0.7028
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6328
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3672
     is_incumbent: true
-    war_v2: 0.2427
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3151
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3339
+    tide_component: -0.0011
     expected_two_party_share: 0.6328
-    expected_two_party_share_v2: 0.7573
+    expected_two_party_share_v2: 0.6849
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7424
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2576
     is_incumbent: false
-    war_v2: 0.2576
+    incumbent_terms: 0
+    war_v2: 0.4141
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3918
+    tide_component: -0.0014
     expected_two_party_share: 0.7424
-    expected_two_party_share_v2: 0.7424
+    expected_two_party_share_v2: 0.5859
   is_open_seat: null
 title: 2nd Berkshire District (2012-2020)
 layout: district

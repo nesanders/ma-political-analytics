@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4303
     is_incumbent: true
-    war_v2: 0.3058
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3617
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3006
+    tide_component: -0.0015
     expected_two_party_share: 0.5697
-    expected_two_party_share_v2: 0.6942
+    expected_two_party_share_v2: 0.6383
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2526
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7474
     is_incumbent: true
-    war_v2: 0.6229
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5283
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1333
+    tide_component: -0.0008
     expected_two_party_share: 0.2526
-    expected_two_party_share_v2: 0.3771
+    expected_two_party_share_v2: 0.4717
   - name: Anand Gonsalves
     slug: anand-gonsalves
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.2574
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4624
     is_incumbent: true
-    war_v2: 0.3379
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3761
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2837
+    tide_component: -0.0015
     expected_two_party_share: 0.5376
-    expected_two_party_share_v2: 0.6621
+    expected_two_party_share_v2: 0.6239
   - name: Nicholas S. Torresi
     slug: nicholas-s-torresi
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.5751
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5737
     war: 0.1719
     is_incumbent: true
-    war_v2: 0.0474
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0107
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.212
+    tide_component: -0.0011
     expected_two_party_share: 0.4018
-    expected_two_party_share_v2: 0.5263
+    expected_two_party_share_v2: 0.563
   - name: Al DiNuccio
     slug: al-dinuccio
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4263
     war: -0.1719
     is_incumbent: false
-    war_v2: -0.1719
+    incumbent_terms: 0
+    war_v2: -0.0838
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3157
+    tide_component: -0.0012
     expected_two_party_share: 0.5982
-    expected_two_party_share_v2: 0.5982
+    expected_two_party_share_v2: 0.5101
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5293
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4707
     is_incumbent: false
-    war_v2: 0.4707
+    incumbent_terms: 0
+    war_v2: 0.5265
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2793
+    tide_component: -0.0014
     expected_two_party_share: 0.5293
-    expected_two_party_share_v2: 0.5293
+    expected_two_party_share_v2: 0.4735
   is_open_seat: null
 title: 15th Essex District (2012-2020)
 layout: district

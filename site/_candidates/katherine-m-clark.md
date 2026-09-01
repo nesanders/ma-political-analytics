@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4032
-  war_v2: 0.4032
+  war_v2: 0.4909
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5968
-  expected_two_party_share_v2: 0.5968
+  expected_two_party_share_v2: 0.5091
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5232
   war: 0.0599
-  war_v2: 0.0599
+  war_v2: 0.0844
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4633
-  expected_two_party_share_v2: 0.4633
+  expected_two_party_share_v2: 0.4388
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4075
-  war_v2: 0.4075
+  war_v2: 0.4932
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5925
-  expected_two_party_share_v2: 0.5925
+  expected_two_party_share_v2: 0.5068
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: false
   actual_two_party_share: 0.4337
   war: -0.1797
-  war_v2: -0.1797
+  war_v2: -0.0841
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6134
-  expected_two_party_share_v2: 0.6134
+  expected_two_party_share_v2: 0.5178
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Katherine M. Clark
 layout: candidate
 ---

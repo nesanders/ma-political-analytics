@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6615
   war: 0.1936
-  war_v2: 0.0691
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0766
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4679
-  expected_two_party_share_v2: 0.5924
+  expected_two_party_share_v2: 0.5849
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4081
-  war_v2: 0.2836
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3499
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5919
-  expected_two_party_share_v2: 0.7164
+  expected_two_party_share_v2: 0.6501
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4479
-  war_v2: 0.3234
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3684
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5521
-  expected_two_party_share_v2: 0.6766
+  expected_two_party_share_v2: 0.6316
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4031
-  war_v2: 0.2786
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3344
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5969
-  expected_two_party_share_v2: 0.7214
+  expected_two_party_share_v2: 0.6656
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5795
-  war_v2: 0.5795
+  war_v2: 0.5836
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4205
-  expected_two_party_share_v2: 0.4205
+  expected_two_party_share_v2: 0.4164
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Frederick E. Berry
 layout: candidate
 ---

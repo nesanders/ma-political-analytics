@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3267
     is_incumbent: true
-    war_v2: 0.2022
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.307
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3553
+    tide_component: -0.0015
     expected_two_party_share: 0.6733
-    expected_two_party_share_v2: 0.7978
+    expected_two_party_share_v2: 0.693
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2782
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6705
     war: 0.3923
     is_incumbent: true
-    war_v2: 0.2678
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1853
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1468
+    tide_component: -0.0008
     expected_two_party_share: 0.2782
-    expected_two_party_share_v2: 0.4027
+    expected_two_party_share_v2: 0.4852
   - name: John G. Mcdonald
     slug: john-g-mcdonald
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3295
     war: -0.3923
     is_incumbent: false
-    war_v2: -0.3923
+    incumbent_terms: 0
+    war_v2: -0.2455
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3809
+    tide_component: -0.0015
     expected_two_party_share: 0.7218
-    expected_two_party_share_v2: 0.7218
+    expected_two_party_share_v2: 0.575
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6261
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3739
     is_incumbent: true
-    war_v2: 0.2494
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3294
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3304
+    tide_component: -0.0015
     expected_two_party_share: 0.6261
-    expected_two_party_share_v2: 0.7506
+    expected_two_party_share_v2: 0.6706
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4075
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5925
     is_incumbent: true
-    war_v2: 0.468
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.434
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.215
+    tide_component: -0.0011
     expected_two_party_share: 0.4075
-    expected_two_party_share_v2: 0.532
+    expected_two_party_share_v2: 0.566
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5324
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4676
     is_incumbent: false
-    war_v2: 0.4676
+    incumbent_terms: 0
+    war_v2: 0.5249
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2809
+    tide_component: -0.0014
     expected_two_party_share: 0.5324
-    expected_two_party_share_v2: 0.5324
+    expected_two_party_share_v2: 0.4751
   is_open_seat: null
 title: 11th Norfolk District (2012-2020)
 layout: district

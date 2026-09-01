@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5353
     is_incumbent: true
-    war_v2: 0.4108
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4041
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2452
+    tide_component: -0.0014
     expected_two_party_share: 0.4647
-    expected_two_party_share_v2: 0.5892
+    expected_two_party_share_v2: 0.5959
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5195
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.5766
     war: 0.0572
     is_incumbent: false
-    war_v2: 0.0572
+    incumbent_terms: 0
+    war_v2: 0.1084
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2741
+    tide_component: -0.0015
     expected_two_party_share: 0.5194
-    expected_two_party_share_v2: 0.5194
+    expected_two_party_share_v2: 0.4682
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.4234
     war: -0.0572
     is_incumbent: false
-    war_v2: -0.0572
+    incumbent_terms: 0
+    war_v2: -0.025
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2536
+    tide_component: -0.0008
     expected_two_party_share: 0.4806
-    expected_two_party_share_v2: 0.4806
+    expected_two_party_share_v2: 0.4484
   is_open_seat: null
 demographics:
   total_population: 172232

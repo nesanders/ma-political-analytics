@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4985
   war: 0.1545
-  war_v2: 0.03
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0341
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.344
-  expected_two_party_share_v2: 0.4685
+  expected_two_party_share_v2: 0.5326
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5787
   war: 0.1203
-  war_v2: 0.1203
+  war_v2: 0.1426
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4584
-  expected_two_party_share_v2: 0.4584
+  expected_two_party_share_v2: 0.4361
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5283
   war: 0.1396
-  war_v2: 0.1396
+  war_v2: 0.1288
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3887
-  expected_two_party_share_v2: 0.3887
+  expected_two_party_share_v2: 0.3995
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Rhonda L. Nyman
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3622
   war: -0.1087
-  war_v2: -0.1087
+  war_v2: -0.0808
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4709
-  expected_two_party_share_v2: 0.4709
+  expected_two_party_share_v2: 0.443
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David S. Mercer
 layout: candidate
 ---

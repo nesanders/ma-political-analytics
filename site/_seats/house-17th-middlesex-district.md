@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3998
     is_incumbent: true
-    war_v2: 0.2753
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3326
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3167
+    tide_component: -0.0014
     expected_two_party_share: 0.6002
-    expected_two_party_share_v2: 0.7247
+    expected_two_party_share_v2: 0.6674
   - name: Joseph Paul Onoroski
     slug: joseph-paul-onoroski
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.2843
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3547
     is_incumbent: false
-    war_v2: 0.3547
+    incumbent_terms: 0
+    war_v2: 0.4654
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3405
+    tide_component: -0.0015
     expected_two_party_share: 0.6453
-    expected_two_party_share_v2: 0.6453
+    expected_two_party_share_v2: 0.5346
   is_open_seat: null
 demographics:
   total_population: 44833

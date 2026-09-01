@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3967
-  war_v2: 0.2722
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3415
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6033
-  expected_two_party_share_v2: 0.7278
+  expected_two_party_share_v2: 0.6585
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5611
   war: 0.3352
-  war_v2: 0.2107
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0906
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.2259
-  expected_two_party_share_v2: 0.3504
+  expected_two_party_share_v2: 0.4705
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5501
   war: -0.0134
-  war_v2: -0.0134
+  war_v2: 0.0586
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5635
-  expected_two_party_share_v2: 0.5635
+  expected_two_party_share_v2: 0.4915
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brian W. Murray
 layout: candidate
 ---

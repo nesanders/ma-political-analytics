@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5041
     war: -0.0761
     is_incumbent: false
-    war_v2: -0.0761
+    incumbent_terms: 0
+    war_v2: 0.0034
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3061
+    tide_component: -0.0011
     expected_two_party_share: 0.5802
-    expected_two_party_share_v2: 0.5802
+    expected_two_party_share_v2: 0.5007
   - name: Rosemary Sandlin
     slug: rosemary-sandlin
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4959
     war: 0.0761
     is_incumbent: true
-    war_v2: -0.0484
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0661
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2216
+    tide_component: -0.0012
     expected_two_party_share: 0.4198
-    expected_two_party_share_v2: 0.5443
+    expected_two_party_share_v2: 0.562
   - name: Anthony C. Bonavita
     slug: anthony-c-bonavita
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.2677
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4769
     is_incumbent: true
-    war_v2: 0.3524
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3733
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.276
+    tide_component: -0.0015
     expected_two_party_share: 0.5231
-    expected_two_party_share_v2: 0.6476
+    expected_two_party_share_v2: 0.6267
   - name: Nicholas A. Boldyga
     slug: nicholas-a-boldyga
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.923
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.5553
     war: 0.026
     is_incumbent: false
-    war_v2: 0.026
+    incumbent_terms: 0
+    war_v2: 0.0818
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2793
+    tide_component: -0.0014
     expected_two_party_share: 0.5293
-    expected_two_party_share_v2: 0.5293
+    expected_two_party_share_v2: 0.4735
   - name: Robert A. Magovern
     slug: robert-a-magovern
     party: Republican
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.4447
     war: -0.026
     is_incumbent: false
-    war_v2: -0.026
+    incumbent_terms: 0
+    war_v2: 0.0016
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2484
+    tide_component: -0.0009
     expected_two_party_share: 0.4707
-    expected_two_party_share_v2: 0.4707
+    expected_two_party_share_v2: 0.4431
   - name: Joseph F. Schebel
     slug: joseph-f-schebel
     party: Other
@@ -133,8 +161,12 @@ results_by_year:
     actual_two_party_share: 0.0742
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Owen Broadhurst
@@ -145,8 +177,12 @@ results_by_year:
     actual_two_party_share: 0.0306
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -166,10 +202,14 @@ results_by_year:
     actual_two_party_share: 0.7185
     war: 0.1818
     is_incumbent: true
-    war_v2: 0.0573
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0846
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2832
+    tide_component: -0.0014
     expected_two_party_share: 0.5367
-    expected_two_party_share_v2: 0.6612
+    expected_two_party_share_v2: 0.6339
   - name: Uwe H. Porth
     slug: uwe-h-porth
     party: Republican
@@ -178,10 +218,14 @@ results_by_year:
     actual_two_party_share: 0.2815
     war: -0.1818
     is_incumbent: false
-    war_v2: -0.1818
+    incumbent_terms: 0
+    war_v2: -0.1577
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2445
+    tide_component: -0.0009
     expected_two_party_share: 0.4633
-    expected_two_party_share_v2: 0.4633
+    expected_two_party_share_v2: 0.4392
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4029
@@ -199,10 +243,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5971
     is_incumbent: false
-    war_v2: 0.5971
+    incumbent_terms: 0
+    war_v2: 0.5929
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2126
+    tide_component: -0.0011
     expected_two_party_share: 0.4029
-    expected_two_party_share_v2: 0.4029
+    expected_two_party_share_v2: 0.4071
   is_open_seat: null
 title: 3rd Hampden (2001-2010)
 layout: district

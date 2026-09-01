@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.344
-  war_v2: 0.2195
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3136
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.656
-  expected_two_party_share_v2: 0.7805
+  expected_two_party_share_v2: 0.6864
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4638
-  war_v2: 0.3393
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3661
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5362
-  expected_two_party_share_v2: 0.6607
+  expected_two_party_share_v2: 0.6339
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3332
-  war_v2: 0.3332
+  war_v2: 0.454
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6668
-  expected_two_party_share_v2: 0.6668
+  expected_two_party_share_v2: 0.546
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3861
-  war_v2: 0.2616
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3381
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6139
-  expected_two_party_share_v2: 0.7384
+  expected_two_party_share_v2: 0.6619
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3153
-  war_v2: 0.1908
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3009
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6847
-  expected_two_party_share_v2: 0.8092
+  expected_two_party_share_v2: 0.6991
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3288
-  war_v2: 0.2043
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3055
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6712
-  expected_two_party_share_v2: 0.7957
+  expected_two_party_share_v2: 0.6945
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3435
-  war_v2: 0.219
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3029
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6565
-  expected_two_party_share_v2: 0.781
+  expected_two_party_share_v2: 0.6971
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4108
-  war_v2: 0.4108
+  war_v2: 0.4946
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5892
-  expected_two_party_share_v2: 0.5892
+  expected_two_party_share_v2: 0.5054
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: John W. Scibak
 layout: candidate
 ---

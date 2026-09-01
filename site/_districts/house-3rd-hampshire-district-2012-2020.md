@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1313
     is_incumbent: true
-    war_v2: 0.0068
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.191
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4584
+    tide_component: -0.0015
     expected_two_party_share: 0.8687
-    expected_two_party_share_v2: 0.9932
+    expected_two_party_share_v2: 0.809
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6194
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3806
     is_incumbent: false
-    war_v2: 0.3806
+    incumbent_terms: 0
+    war_v2: 0.4783
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3269
+    tide_component: -0.0008
     expected_two_party_share: 0.6194
-    expected_two_party_share_v2: 0.6194
+    expected_two_party_share_v2: 0.5217
   - name: Solomon Israel Goldstein-Rose
     slug: solomon-israel-goldstein-rose
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.3305
     war: null
     is_incumbent: true
+    incumbent_terms: 1
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1376
     is_incumbent: false
-    war_v2: 0.1376
+    incumbent_terms: 0
+    war_v2: 0.3508
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4551
+    tide_component: -0.0015
     expected_two_party_share: 0.8624
-    expected_two_party_share_v2: 0.8624
+    expected_two_party_share_v2: 0.6492
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.7684
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2316
     is_incumbent: true
-    war_v2: 0.1071
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2435
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4055
+    tide_component: -0.0011
     expected_two_party_share: 0.7684
-    expected_two_party_share_v2: 0.8929
+    expected_two_party_share_v2: 0.7565
   - name: Kenneth J. Roberts, Jr
     slug: kenneth-j-roberts-jr
     party: Libertarian
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.1344
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1648
     is_incumbent: false
-    war_v2: 0.1648
+    incumbent_terms: 0
+    war_v2: 0.3651
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4407
+    tide_component: -0.0014
     expected_two_party_share: 0.8352
-    expected_two_party_share_v2: 0.8352
+    expected_two_party_share_v2: 0.6349
   is_open_seat: null
 title: 3rd Hampshire District (2012-2020)
 layout: district

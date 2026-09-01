@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.285
-  war_v2: 0.1605
-  incumbency_adjustment: 0.1245
+  war_v2: 0.285
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.715
-  expected_two_party_share_v2: 0.8395
+  expected_two_party_share_v2: 0.715
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7381
-  war_v2: 0.6136
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5234
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.2619
-  expected_two_party_share_v2: 0.3864
+  expected_two_party_share_v2: 0.4766
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3394
-  war_v2: 0.2149
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3112
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6606
-  expected_two_party_share_v2: 0.7851
+  expected_two_party_share_v2: 0.6888
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5676
   war: 0.169
-  war_v2: 0.0445
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0062
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3986
-  expected_two_party_share_v2: 0.5231
+  expected_two_party_share_v2: 0.5614
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.6137
   war: 0.0839
-  war_v2: 0.0839
+  war_v2: 0.1399
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5298
-  expected_two_party_share_v2: 0.5298
+  expected_two_party_share_v2: 0.4738
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5625
-  war_v2: 0.438
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4183
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4375
-  expected_two_party_share_v2: 0.562
+  expected_two_party_share_v2: 0.5817
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.5222
   war: -0.0499
-  war_v2: -0.0499
+  war_v2: 0.0261
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5721
-  expected_two_party_share_v2: 0.5721
+  expected_two_party_share_v2: 0.4961
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Carolyn C. Dykema
 layout: candidate
 ---

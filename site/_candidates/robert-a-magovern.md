@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3906
   war: -0.0555
-  war_v2: -0.0555
+  war_v2: -0.0393
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4461
-  expected_two_party_share_v2: 0.4461
+  expected_two_party_share_v2: 0.4299
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4447
   war: -0.026
-  war_v2: -0.026
+  war_v2: 0.0016
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4707
-  expected_two_party_share_v2: 0.4707
+  expected_two_party_share_v2: 0.4431
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert A. Magovern
 layout: candidate
 ---

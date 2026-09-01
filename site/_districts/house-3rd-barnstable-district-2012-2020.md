@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6074
     is_incumbent: true
-    war_v2: 0.4829
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4544
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2072
+    tide_component: -0.0008
     expected_two_party_share: 0.3926
-    expected_two_party_share_v2: 0.5171
+    expected_two_party_share_v2: 0.5456
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2456
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2456
     is_incumbent: true
-    war_v2: 0.1211
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2642
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3981
+    tide_component: -0.0015
     expected_two_party_share: 0.7544
-    expected_two_party_share_v2: 0.8789
+    expected_two_party_share_v2: 0.7358
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5541
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.5296
     war: 0.0836
     is_incumbent: true
-    war_v2: -0.0409
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0466
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2353
+    tide_component: -0.0008
     expected_two_party_share: 0.446
-    expected_two_party_share_v2: 0.5705
+    expected_two_party_share_v2: 0.5762
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.4704
     war: -0.0836
     is_incumbent: false
-    war_v2: -0.0836
+    incumbent_terms: 0
+    war_v2: -0.0161
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2924
+    tide_component: -0.0015
     expected_two_party_share: 0.554
-    expected_two_party_share_v2: 0.554
+    expected_two_party_share_v2: 0.4865
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.424
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.424
     is_incumbent: true
-    war_v2: 0.2995
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3451
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.304
+    tide_component: -0.0012
     expected_two_party_share: 0.576
-    expected_two_party_share_v2: 0.7005
+    expected_two_party_share_v2: 0.6549
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5259
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5259
     is_incumbent: false
-    war_v2: 0.5259
+    incumbent_terms: 0
+    war_v2: 0.5551
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2502
+    tide_component: -0.0009
     expected_two_party_share: 0.4741
-    expected_two_party_share_v2: 0.4741
+    expected_two_party_share_v2: 0.4449
   is_open_seat: null
 title: 3rd Barnstable District (2012-2020)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3403
   war: -0.17
-  war_v2: -0.17
+  war_v2: -0.1234
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5103
-  expected_two_party_share_v2: 0.5103
+  expected_two_party_share_v2: 0.4637
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John P. Lock
 layout: candidate
 ---

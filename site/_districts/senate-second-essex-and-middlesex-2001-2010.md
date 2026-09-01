@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5601
     war: 0.0753
     is_incumbent: false
-    war_v2: 0.0753
+    incumbent_terms: 0
+    war_v2: 0.1099
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2558
+    tide_component: -0.0012
     expected_two_party_share: 0.4848
-    expected_two_party_share_v2: 0.4848
+    expected_two_party_share_v2: 0.4502
   - name: Jamison Tomasek
     slug: jamison-tomasek
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4399
     war: -0.0753
     is_incumbent: false
-    war_v2: -0.0753
+    incumbent_terms: 0
+    war_v2: -0.0265
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2719
+    tide_component: -0.0011
     expected_two_party_share: 0.5152
-    expected_two_party_share_v2: 0.5152
+    expected_two_party_share_v2: 0.4664
   - name: Jodi Oberto
     slug: jodi-oberto
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0559
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.394
     is_incumbent: true
-    war_v2: 0.2695
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3425
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3198
+    tide_component: -0.0015
     expected_two_party_share: 0.606
-    expected_two_party_share_v2: 0.7305
+    expected_two_party_share_v2: 0.6575
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5522
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4478
     is_incumbent: true
-    war_v2: 0.3233
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3683
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2914
+    tide_component: -0.0014
     expected_two_party_share: 0.5522
-    expected_two_party_share_v2: 0.6767
+    expected_two_party_share_v2: 0.6317
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5743
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.7166
     war: 0.1423
     is_incumbent: true
-    war_v2: 0.0178
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0629
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3031
+    tide_component: -0.0014
     expected_two_party_share: 0.5743
-    expected_two_party_share_v2: 0.6988
+    expected_two_party_share_v2: 0.6537
   - name: Deborah J. Jones
     slug: deborah-j-jones
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.2834
     war: -0.1423
     is_incumbent: false
-    war_v2: -0.1423
+    incumbent_terms: 0
+    war_v2: -0.136
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2246
+    tide_component: -0.0009
     expected_two_party_share: 0.4257
-    expected_two_party_share_v2: 0.4257
+    expected_two_party_share_v2: 0.4194
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4196
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.6346
     war: 0.215
     is_incumbent: false
-    war_v2: 0.215
+    incumbent_terms: 0
+    war_v2: 0.2187
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2214
+    tide_component: -0.0011
     expected_two_party_share: 0.4196
-    expected_two_party_share_v2: 0.4196
+    expected_two_party_share_v2: 0.4159
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.3654
     war: -0.215
     is_incumbent: false
-    war_v2: -0.215
+    incumbent_terms: 0
+    war_v2: -0.1353
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3063
+    tide_component: -0.0012
     expected_two_party_share: 0.5804
-    expected_two_party_share_v2: 0.5804
+    expected_two_party_share_v2: 0.5007
   is_open_seat: null
 title: Second Essex and Middlesex (2001-2010)
 layout: district

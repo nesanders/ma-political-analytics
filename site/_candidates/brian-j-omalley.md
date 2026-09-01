@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2454
   war: -0.053
-  war_v2: -0.053
+  war_v2: -0.1068
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2984
-  expected_two_party_share_v2: 0.2984
+  expected_two_party_share_v2: 0.3522
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brian J. O'Malley
 layout: candidate
 ---

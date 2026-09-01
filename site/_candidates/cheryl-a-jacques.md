@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5997
   war: 0.2145
-  war_v2: 0.2145
+  war_v2: 0.2019
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3852
-  expected_two_party_share_v2: 0.3852
+  expected_two_party_share_v2: 0.3978
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Cheryl Ann Jacques
 layout: candidate
 ---

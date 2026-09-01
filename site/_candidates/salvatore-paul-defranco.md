@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4265
   war: 0.0131
-  war_v2: 0.0131
+  war_v2: 0.0136
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4134
-  expected_two_party_share_v2: 0.4134
+  expected_two_party_share_v2: 0.4129
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: SalvatorE Paul Defranco
 layout: candidate
 ---

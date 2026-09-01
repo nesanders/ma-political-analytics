@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3969
   war: -0.1029
-  war_v2: -0.1029
+  war_v2: -0.0614
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4998
-  expected_two_party_share_v2: 0.4998
+  expected_two_party_share_v2: 0.4583
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brett R. Schetzsle
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2544
     is_incumbent: true
-    war_v2: 0.1299
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.256
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3935
+    tide_component: -0.0015
     expected_two_party_share: 0.7456
-    expected_two_party_share_v2: 0.8701
+    expected_two_party_share_v2: 0.744
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4659
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5341
     is_incumbent: false
-    war_v2: 0.5341
+    incumbent_terms: 0
+    war_v2: 0.5593
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2459
+    tide_component: -0.0008
     expected_two_party_share: 0.4659
-    expected_two_party_share_v2: 0.4659
+    expected_two_party_share_v2: 0.4407
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7176
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2824
     is_incumbent: true
-    war_v2: 0.1579
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2811
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3787
+    tide_component: -0.0015
     expected_two_party_share: 0.7176
-    expected_two_party_share_v2: 0.8421
+    expected_two_party_share_v2: 0.7189
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6439
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6996
     war: 0.0558
     is_incumbent: true
-    war_v2: -0.0687
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0088
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3398
+    tide_component: -0.0011
     expected_two_party_share: 0.6438
-    expected_two_party_share_v2: 0.7683
+    expected_two_party_share_v2: 0.6908
   - name: Dylan E. Korpita
     slug: dylan-e-korpita
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3004
     war: -0.0558
     is_incumbent: false
-    war_v2: -0.0558
+    incumbent_terms: 0
+    war_v2: -0.0819
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1879
+    tide_component: -0.0012
     expected_two_party_share: 0.3562
-    expected_two_party_share_v2: 0.3562
+    expected_two_party_share_v2: 0.3823
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7483
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2517
     is_incumbent: false
-    war_v2: 0.2517
+    incumbent_terms: 0
+    war_v2: 0.4109
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3949
+    tide_component: -0.0014
     expected_two_party_share: 0.7483
-    expected_two_party_share_v2: 0.7483
+    expected_two_party_share_v2: 0.5891
   is_open_seat: null
 title: 1st Franklin District (2012-2020)
 layout: district

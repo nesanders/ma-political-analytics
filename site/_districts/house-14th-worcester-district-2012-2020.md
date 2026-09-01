@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: true
-    war_v2: 0.2013
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3066
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3558
+    tide_component: -0.0015
     expected_two_party_share: 0.6742
-    expected_two_party_share_v2: 0.7987
+    expected_two_party_share_v2: 0.6934
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3419
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6581
     is_incumbent: true
-    war_v2: 0.5336
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4811
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1804
+    tide_component: -0.0008
     expected_two_party_share: 0.3419
-    expected_two_party_share_v2: 0.4664
+    expected_two_party_share_v2: 0.5189
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6703
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3297
     is_incumbent: true
-    war_v2: 0.2052
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3061
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3537
+    tide_component: -0.0015
     expected_two_party_share: 0.6703
-    expected_two_party_share_v2: 0.7948
+    expected_two_party_share_v2: 0.6939
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5073
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4927
     is_incumbent: true
-    war_v2: 0.3682
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3813
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2677
+    tide_component: -0.0011
     expected_two_party_share: 0.5073
-    expected_two_party_share_v2: 0.6318
+    expected_two_party_share_v2: 0.6187
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6536
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.6709
     war: 0.0173
     is_incumbent: false
-    war_v2: 0.0173
+    incumbent_terms: 0
+    war_v2: 0.1318
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3449
+    tide_component: -0.0014
     expected_two_party_share: 0.6536
-    expected_two_party_share_v2: 0.6536
+    expected_two_party_share_v2: 0.5391
   - name: William J. McCarthy, III
     slug: william-j-mccarthy-iii
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.3291
     war: -0.0173
     is_incumbent: false
-    war_v2: -0.0173
+    incumbent_terms: 0
+    war_v2: -0.0484
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1828
+    tide_component: -0.0009
     expected_two_party_share: 0.3464
-    expected_two_party_share_v2: 0.3464
+    expected_two_party_share_v2: 0.3775
   - name: Winthrop E. Handy
     slug: winthrop-e-handy
     party: Other
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.0961
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

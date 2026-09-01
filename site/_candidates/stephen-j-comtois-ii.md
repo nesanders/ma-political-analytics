@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2969
   war: -0.1746
-  war_v2: -0.1746
+  war_v2: -0.1467
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4715
-  expected_two_party_share_v2: 0.4715
+  expected_two_party_share_v2: 0.4436
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3094
   war: -0.1099
-  war_v2: -0.1099
+  war_v2: -0.1065
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4193
-  expected_two_party_share_v2: 0.4193
+  expected_two_party_share_v2: 0.4159
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen J. Comtois, II
 layout: candidate
 ---

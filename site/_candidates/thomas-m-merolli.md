@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4203
   war: 0.2139
-  war_v2: 0.2139
+  war_v2: 0.1165
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2064
-  expected_two_party_share_v2: 0.2064
+  expected_two_party_share_v2: 0.3038
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas M. Merolli
 layout: candidate
 ---

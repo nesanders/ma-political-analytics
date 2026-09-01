@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5603
   war: 0.1536
-  war_v2: 0.0291
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0056
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4067
-  expected_two_party_share_v2: 0.5312
+  expected_two_party_share_v2: 0.5659
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5542
   war: 0.1473
-  war_v2: 0.1473
+  war_v2: 0.1447
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4069
-  expected_two_party_share_v2: 0.4069
+  expected_two_party_share_v2: 0.4095
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6074
-  war_v2: 0.4829
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4544
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3926
-  expected_two_party_share_v2: 0.5171
+  expected_two_party_share_v2: 0.5456
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2456
-  war_v2: 0.1211
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2642
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7544
-  expected_two_party_share_v2: 0.8789
+  expected_two_party_share_v2: 0.7358
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.5296
   war: 0.0836
-  war_v2: -0.0409
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0466
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.446
-  expected_two_party_share_v2: 0.5705
+  expected_two_party_share_v2: 0.5762
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.424
-  war_v2: 0.2995
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3451
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.576
-  expected_two_party_share_v2: 0.7005
+  expected_two_party_share_v2: 0.6549
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5259
-  war_v2: 0.5259
+  war_v2: 0.5551
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4741
-  expected_two_party_share_v2: 0.4741
+  expected_two_party_share_v2: 0.4449
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.5395
   war: 0.0169
-  war_v2: 0.0169
+  war_v2: 0.0692
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5226
-  expected_two_party_share_v2: 0.5226
+  expected_two_party_share_v2: 0.4703
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 15025

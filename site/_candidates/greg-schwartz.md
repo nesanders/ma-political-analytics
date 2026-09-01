@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.168
-  war_v2: 0.168
+  war_v2: 0.3668
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.832
-  expected_two_party_share_v2: 0.832
+  expected_two_party_share_v2: 0.6332
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Greg Schwartz
 layout: candidate
 ---

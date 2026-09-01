@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5504
   war: 0.1485
-  war_v2: 0.024
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0127
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4019
-  expected_two_party_share_v2: 0.5264
+  expected_two_party_share_v2: 0.5631
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5719
   war: 0.0382
-  war_v2: 0.0382
+  war_v2: 0.096
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5337
-  expected_two_party_share_v2: 0.5337
+  expected_two_party_share_v2: 0.4759
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.567
-  war_v2: 0.4425
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4206
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.433
-  expected_two_party_share_v2: 0.5575
+  expected_two_party_share_v2: 0.5794
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4338
-  war_v2: 0.4338
+  war_v2: 0.5071
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5662
-  expected_two_party_share_v2: 0.5662
+  expected_two_party_share_v2: 0.4929
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Dennis A. Rosa
 layout: candidate
 ---

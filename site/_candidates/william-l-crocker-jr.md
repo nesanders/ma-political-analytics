@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4571
   war: 0.051
-  war_v2: -0.0735
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0981
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4061
-  expected_two_party_share_v2: 0.5306
+  expected_two_party_share_v2: 0.5552
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5204
   war: -0.2411
-  war_v2: -0.3656
-  incumbency_adjustment: 0.1245
+  war_v2: -0.232
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7615
-  expected_two_party_share_v2: 0.886
+  expected_two_party_share_v2: 0.7524
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.548
   war: 0.0899
-  war_v2: 0.0899
+  war_v2: 0.1115
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4581
-  expected_two_party_share_v2: 0.4581
+  expected_two_party_share_v2: 0.4365
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: false
   actual_two_party_share: 0.4404
   war: -0.0915
-  war_v2: -0.0915
+  war_v2: -0.035
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5319
-  expected_two_party_share_v2: 0.5319
+  expected_two_party_share_v2: 0.4754
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: William L. Crocker, Jr.
 layout: candidate
 ---

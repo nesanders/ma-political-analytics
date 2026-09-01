@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.285
     is_incumbent: true
-    war_v2: 0.1605
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.285
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3773
+    tide_component: -0.0015
     expected_two_party_share: 0.715
-    expected_two_party_share_v2: 0.8395
+    expected_two_party_share_v2: 0.715
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2619
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7381
     is_incumbent: true
-    war_v2: 0.6136
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5234
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1382
+    tide_component: -0.0008
     expected_two_party_share: 0.2619
-    expected_two_party_share_v2: 0.3864
+    expected_two_party_share_v2: 0.4766
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6606
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3394
     is_incumbent: true
-    war_v2: 0.2149
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3112
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3486
+    tide_component: -0.0015
     expected_two_party_share: 0.6606
-    expected_two_party_share_v2: 0.7851
+    expected_two_party_share_v2: 0.6888
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3987
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.5676
     war: 0.169
     is_incumbent: true
-    war_v2: 0.0445
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0062
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2104
+    tide_component: -0.0011
     expected_two_party_share: 0.3986
-    expected_two_party_share_v2: 0.5231
+    expected_two_party_share_v2: 0.5614
   - name: Patricia M. Vanaria
     slug: patricia-m-vanaria
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.4324
     war: -0.169
     is_incumbent: false
-    war_v2: -0.169
+    incumbent_terms: 0
+    war_v2: -0.0793
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3173
+    tide_component: -0.0012
     expected_two_party_share: 0.6014
-    expected_two_party_share_v2: 0.6014
+    expected_two_party_share_v2: 0.5117
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5298
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6137
     war: 0.0839
     is_incumbent: false
-    war_v2: 0.0839
+    incumbent_terms: 0
+    war_v2: 0.1399
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2796
+    tide_component: -0.0014
     expected_two_party_share: 0.5298
-    expected_two_party_share_v2: 0.5298
+    expected_two_party_share_v2: 0.4738
   - name: Martin A. Lamb
     slug: martin-a-lamb
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3863
     war: -0.0839
     is_incumbent: false
-    war_v2: -0.0839
+    incumbent_terms: 0
+    war_v2: -0.0565
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2481
+    tide_component: -0.0009
     expected_two_party_share: 0.4702
-    expected_two_party_share_v2: 0.4702
+    expected_two_party_share_v2: 0.4428
   is_open_seat: null
 title: 8th Middlesex District (2012-2020)
 layout: district

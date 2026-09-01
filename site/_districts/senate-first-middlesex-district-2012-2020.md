@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.348
     is_incumbent: true
-    war_v2: 0.2235
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3054
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3441
+    tide_component: -0.0015
     expected_two_party_share: 0.652
-    expected_two_party_share_v2: 0.7765
+    expected_two_party_share_v2: 0.6946
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2914
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6388
     war: 0.3474
     is_incumbent: false
-    war_v2: 0.3474
+    incumbent_terms: 0
+    war_v2: 0.2902
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1538
+    tide_component: -0.0008
     expected_two_party_share: 0.2914
-    expected_two_party_share_v2: 0.2914
+    expected_two_party_share_v2: 0.3486
   - name: John A. Macdonald
     slug: john-a-macdonald
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3612
     war: -0.3474
     is_incumbent: false
-    war_v2: -0.3474
+    incumbent_terms: 0
+    war_v2: -0.2068
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3739
+    tide_component: -0.0015
     expected_two_party_share: 0.7086
-    expected_two_party_share_v2: 0.7086
+    expected_two_party_share_v2: 0.568
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6328
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3672
     is_incumbent: true
-    war_v2: 0.2427
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3259
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3339
+    tide_component: -0.0015
     expected_two_party_share: 0.6328
-    expected_two_party_share_v2: 0.7573
+    expected_two_party_share_v2: 0.6741
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.451
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.549
     is_incumbent: true
-    war_v2: 0.4245
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.411
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.238
+    tide_component: -0.0011
     expected_two_party_share: 0.451
-    expected_two_party_share_v2: 0.5755
+    expected_two_party_share_v2: 0.589
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5857
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7118
     war: 0.1261
     is_incumbent: false
-    war_v2: 0.1261
+    incumbent_terms: 0
+    war_v2: 0.2085
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3091
+    tide_component: -0.0014
     expected_two_party_share: 0.5857
-    expected_two_party_share_v2: 0.5857
+    expected_two_party_share_v2: 0.5033
   - name: James J. Buba
     slug: james-j-buba
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2882
     war: -0.1261
     is_incumbent: false
-    war_v2: -0.1261
+    incumbent_terms: 0
+    war_v2: -0.1251
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2186
+    tide_component: -0.0009
     expected_two_party_share: 0.4143
-    expected_two_party_share_v2: 0.4143
+    expected_two_party_share_v2: 0.4133
   is_open_seat: null
 title: First Middlesex District (2012-2020)
 layout: district

@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.0857
   war: -0.045
-  war_v2: -0.045
+  war_v2: -0.1779
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.1307
-  expected_two_party_share_v2: 0.1307
+  expected_two_party_share_v2: 0.2636
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas Michael Vasconcelos
 layout: candidate
 ---

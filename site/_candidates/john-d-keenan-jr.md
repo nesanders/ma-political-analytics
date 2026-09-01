@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2962
-  war_v2: 0.2962
+  war_v2: 0.4344
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7038
-  expected_two_party_share_v2: 0.7038
+  expected_two_party_share_v2: 0.5656
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4153
-  war_v2: 0.2908
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3535
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5847
-  expected_two_party_share_v2: 0.7092
+  expected_two_party_share_v2: 0.6465
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3004
-  war_v2: 0.1759
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2906
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6996
-  expected_two_party_share_v2: 0.8241
+  expected_two_party_share_v2: 0.7094
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3432
-  war_v2: 0.2187
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3027
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6568
-  expected_two_party_share_v2: 0.7813
+  expected_two_party_share_v2: 0.6973
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.815
   war: 0.127
-  war_v2: 0.127
+  war_v2: 0.2578
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.688
-  expected_two_party_share_v2: 0.688
+  expected_two_party_share_v2: 0.5572
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John D. Keenan
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4506
-  war_v2: 0.3261
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3594
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5494
-  expected_two_party_share_v2: 0.6739
+  expected_two_party_share_v2: 0.6406
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5631
   war: 0.0041
-  war_v2: 0.0041
+  war_v2: 0.074
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.559
-  expected_two_party_share_v2: 0.559
+  expected_two_party_share_v2: 0.4891
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5038
   war: -0.0724
-  war_v2: -0.0724
+  war_v2: 0.0057
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5762
-  expected_two_party_share_v2: 0.5762
+  expected_two_party_share_v2: 0.4981
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jacob R. Oliveira
 layout: candidate
 ---

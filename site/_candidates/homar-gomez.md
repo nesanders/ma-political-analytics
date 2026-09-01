@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3207
-  war_v2: 0.3207
+  war_v2: 0.4474
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6793
-  expected_two_party_share_v2: 0.6793
+  expected_two_party_share_v2: 0.5526
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Homar Gomez
 layout: candidate
 ---

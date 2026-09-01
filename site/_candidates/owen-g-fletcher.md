@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3861
   war: -0.1601
-  war_v2: -0.1601
+  war_v2: -0.0963
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5462
-  expected_two_party_share_v2: 0.5462
+  expected_two_party_share_v2: 0.4824
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Owen G. Fletcher
 layout: candidate
 ---

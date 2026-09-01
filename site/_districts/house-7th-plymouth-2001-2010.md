@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5126
     war: -0.1099
     is_incumbent: false
-    war_v2: -0.1099
+    incumbent_terms: 0
+    war_v2: -0.0104
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3285
+    tide_component: -0.0011
     expected_two_party_share: 0.6225
-    expected_two_party_share_v2: 0.6225
+    expected_two_party_share_v2: 0.523
   - name: Allen J. McCarthy
     slug: allen-j-mccarthy
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4874
     war: 0.1099
     is_incumbent: true
-    war_v2: -0.0146
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0523
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1992
+    tide_component: -0.0012
     expected_two_party_share: 0.3775
-    expected_two_party_share_v2: 0.502
+    expected_two_party_share_v2: 0.5397
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4987
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5013
     is_incumbent: true
-    war_v2: 0.3768
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3862
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2632
+    tide_component: -0.0015
     expected_two_party_share: 0.4987
-    expected_two_party_share_v2: 0.6232
+    expected_two_party_share_v2: 0.6138
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4965
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5174
     war: 0.021
     is_incumbent: false
-    war_v2: 0.021
+    incumbent_terms: 0
+    war_v2: 0.0612
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.262
+    tide_component: -0.0014
     expected_two_party_share: 0.4964
-    expected_two_party_share_v2: 0.4964
+    expected_two_party_share_v2: 0.4562
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4826
     war: -0.021
     is_incumbent: false
-    war_v2: -0.021
+    incumbent_terms: 0
+    war_v2: 0.0222
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2657
+    tide_component: -0.0009
     expected_two_party_share: 0.5036
-    expected_two_party_share_v2: 0.5036
+    expected_two_party_share_v2: 0.4604
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5209
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6464
     war: 0.1255
     is_incumbent: true
-    war_v2: 0.001
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0209
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2749
+    tide_component: -0.0014
     expected_two_party_share: 0.5209
-    expected_two_party_share_v2: 0.6454
+    expected_two_party_share_v2: 0.6255
   - name: Edward P. Kirby
     slug: edward-p-kirby
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3536
     war: -0.1255
     is_incumbent: false
-    war_v2: -0.1255
+    incumbent_terms: 0
+    war_v2: -0.094
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2528
+    tide_component: -0.0009
     expected_two_party_share: 0.4791
-    expected_two_party_share_v2: 0.4791
+    expected_two_party_share_v2: 0.4476
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4308
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.6118
     war: 0.181
     is_incumbent: false
-    war_v2: 0.181
+    incumbent_terms: 0
+    war_v2: 0.19
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2273
+    tide_component: -0.0011
     expected_two_party_share: 0.4308
-    expected_two_party_share_v2: 0.4308
+    expected_two_party_share_v2: 0.4218
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.3882
     war: -0.181
     is_incumbent: false
-    war_v2: -0.181
+    incumbent_terms: 0
+    war_v2: -0.1066
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3004
+    tide_component: -0.0012
     expected_two_party_share: 0.5692
-    expected_two_party_share_v2: 0.5692
+    expected_two_party_share_v2: 0.4948
   - name: Steven P. Olson
     slug: steven-p-olson
     party: Libertarian
@@ -175,8 +211,12 @@ results_by_year:
     actual_two_party_share: 0.0404
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

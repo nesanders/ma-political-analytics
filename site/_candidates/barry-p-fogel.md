@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4777
   war: -0.0187
-  war_v2: -0.0187
+  war_v2: 0.0215
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4964
-  expected_two_party_share_v2: 0.4964
+  expected_two_party_share_v2: 0.4562
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Barry P. Fogel
 layout: candidate
 ---

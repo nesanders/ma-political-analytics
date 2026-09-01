@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.474
   war: -0.3191
-  war_v2: -0.3191
+  war_v2: -0.1386
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7931
-  expected_two_party_share_v2: 0.7931
+  expected_two_party_share_v2: 0.6126
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Pina Prinzivalli
 layout: candidate
 ---

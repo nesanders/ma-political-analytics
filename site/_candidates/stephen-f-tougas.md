@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3155
   war: -0.0591
-  war_v2: -0.0591
+  war_v2: -0.077
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3746
-  expected_two_party_share_v2: 0.3746
+  expected_two_party_share_v2: 0.3925
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3117
   war: -0.4004
-  war_v2: -0.4004
+  war_v2: -0.2581
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7121
-  expected_two_party_share_v2: 0.7121
+  expected_two_party_share_v2: 0.5698
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen F. Tougas
 layout: candidate
 ---

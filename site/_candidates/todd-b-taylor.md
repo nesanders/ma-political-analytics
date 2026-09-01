@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2733
   war: 0.0272
-  war_v2: 0.0272
+  war_v2: -0.0514
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2461
-  expected_two_party_share_v2: 0.2461
+  expected_two_party_share_v2: 0.3247
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 15748

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3433
     is_incumbent: true
-    war_v2: 0.2188
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3133
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3465
+    tide_component: -0.0015
     expected_two_party_share: 0.6567
-    expected_two_party_share_v2: 0.7812
+    expected_two_party_share_v2: 0.6867
   - name: Leah Christine Mercurio
     slug: leah-christine-mercurio
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.0026
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6211
     war: 0.3308
     is_incumbent: true
-    war_v2: 0.2063
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1166
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1532
+    tide_component: -0.0008
     expected_two_party_share: 0.2903
-    expected_two_party_share_v2: 0.4148
+    expected_two_party_share_v2: 0.5045
   - name: John G. Flores
     slug: john-g-flores
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3789
     war: -0.3308
     is_incumbent: false
-    war_v2: -0.3308
+    incumbent_terms: 0
+    war_v2: -0.1897
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3745
+    tide_component: -0.0015
     expected_two_party_share: 0.7097
-    expected_two_party_share_v2: 0.7097
+    expected_two_party_share_v2: 0.5686
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6086
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5694
     war: -0.0391
     is_incumbent: false
-    war_v2: -0.0391
+    incumbent_terms: 0
+    war_v2: 0.0541
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3212
+    tide_component: -0.0015
     expected_two_party_share: 0.6085
-    expected_two_party_share_v2: 0.6085
+    expected_two_party_share_v2: 0.5153
   - name: Anthony E. Schiavi
     slug: anthony-e-schiavi
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4306
     war: 0.0391
     is_incumbent: false
-    war_v2: 0.0391
+    incumbent_terms: 0
+    war_v2: 0.0293
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2065
+    tide_component: -0.0008
     expected_two_party_share: 0.3915
-    expected_two_party_share_v2: 0.3915
+    expected_two_party_share_v2: 0.4013
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4731
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.6273
     war: 0.1541
     is_incumbent: true
-    war_v2: 0.0296
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0267
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2497
+    tide_component: -0.0011
     expected_two_party_share: 0.4732
-    expected_two_party_share_v2: 0.5977
+    expected_two_party_share_v2: 0.6006
   - name: Ronald R. Beaty, Jr.
     slug: ronald-r-beaty-jr
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.3727
     war: -0.1541
     is_incumbent: false
-    war_v2: -0.1541
+    incumbent_terms: 0
+    war_v2: -0.0998
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.278
+    tide_component: -0.0012
     expected_two_party_share: 0.5268
-    expected_two_party_share_v2: 0.5268
+    expected_two_party_share_v2: 0.4725
   - name: Allen R. Waters
     slug: allen-r-waters
     party: Other
@@ -154,8 +186,12 @@ results_by_year:
     actual_two_party_share: 0.0048
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4276
     is_incumbent: false
-    war_v2: 0.4276
+    incumbent_terms: 0
+    war_v2: 0.5038
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3021
+    tide_component: -0.0014
     expected_two_party_share: 0.5724
-    expected_two_party_share_v2: 0.5724
+    expected_two_party_share_v2: 0.4962
   is_open_seat: null
 title: Cape & Islands District (2012-2020)
 layout: district

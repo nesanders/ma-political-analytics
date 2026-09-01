@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0869
     is_incumbent: true
-    war_v2: -0.0376
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1675
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4818
+    tide_component: -0.0014
     expected_two_party_share: 0.9131
-    expected_two_party_share_v2: 1.0376
+    expected_two_party_share_v2: 0.8325
   - name: Evan Mackay
     slug: evan-mackay
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.0255
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0767
     is_incumbent: false
-    war_v2: 0.0767
+    incumbent_terms: 0
+    war_v2: 0.3187
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4872
+    tide_component: -0.0015
     expected_two_party_share: 0.9233
-    expected_two_party_share_v2: 0.9233
+    expected_two_party_share_v2: 0.6813
   is_open_seat: null
 demographics:
   total_population: 42902

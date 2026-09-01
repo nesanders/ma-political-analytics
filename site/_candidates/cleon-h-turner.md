@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4673
-  war_v2: 0.4673
+  war_v2: 0.5247
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5327
-  expected_two_party_share_v2: 0.5327
+  expected_two_party_share_v2: 0.4753
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5683
   war: 0.0811
-  war_v2: -0.0434
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0268
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4872
-  expected_two_party_share_v2: 0.6117
+  expected_two_party_share_v2: 0.5951
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4305
-  war_v2: 0.306
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3592
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5695
-  expected_two_party_share_v2: 0.694
+  expected_two_party_share_v2: 0.6408
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5202
   war: 0.0126
-  war_v2: -0.1119
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0984
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5076
-  expected_two_party_share_v2: 0.6321
+  expected_two_party_share_v2: 0.6186
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.5089
   war: -0.0464
-  war_v2: -0.0464
+  war_v2: 0.0217
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5553
-  expected_two_party_share_v2: 0.5553
+  expected_two_party_share_v2: 0.4872
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: false
   actual_two_party_share: 0.3823
   war: -0.0174
-  war_v2: -0.0174
+  war_v2: -0.0231
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3997
-  expected_two_party_share_v2: 0.3997
+  expected_two_party_share_v2: 0.4054
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Cleon H. Turner
 layout: candidate
 ---

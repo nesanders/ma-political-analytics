@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.387
-  war_v2: 0.2625
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3388
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.613
-  expected_two_party_share_v2: 0.7375
+  expected_two_party_share_v2: 0.6612
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4435
-  war_v2: 0.319
-  incumbency_adjustment: 0.1245
+  war_v2: 0.366
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5565
-  expected_two_party_share_v2: 0.681
+  expected_two_party_share_v2: 0.634
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.7193
   war: 0.1208
-  war_v2: -0.0037
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0528
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5985
-  expected_two_party_share_v2: 0.723
+  expected_two_party_share_v2: 0.6665
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6586
   war: 0.2417
-  war_v2: 0.2417
+  war_v2: 0.2441
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4169
-  expected_two_party_share_v2: 0.4169
+  expected_two_party_share_v2: 0.4145
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mary E. Grant
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5184
     war: 0.0991
     is_incumbent: true
-    war_v2: -0.0254
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0408
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2212
+    tide_component: -0.0012
     expected_two_party_share: 0.4193
-    expected_two_party_share_v2: 0.5438
+    expected_two_party_share_v2: 0.5592
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4816
     war: -0.0991
     is_incumbent: false
-    war_v2: -0.0991
+    incumbent_terms: 0
+    war_v2: -0.0194
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3065
+    tide_component: -0.0011
     expected_two_party_share: 0.5807
-    expected_two_party_share_v2: 0.5807
+    expected_two_party_share_v2: 0.501
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5428
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4572
     is_incumbent: true
-    war_v2: 0.3327
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3758
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2864
+    tide_component: -0.0015
     expected_two_party_share: 0.5428
-    expected_two_party_share_v2: 0.6673
+    expected_two_party_share_v2: 0.6242
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.52
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.62
     war: 0.1
     is_incumbent: true
-    war_v2: -0.0245
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0053
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2744
+    tide_component: -0.0014
     expected_two_party_share: 0.52
-    expected_two_party_share_v2: 0.6445
+    expected_two_party_share_v2: 0.6147
   - name: Evan James O'Reilly
     slug: evan-james-oreilly
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.38
     war: -0.1
     is_incumbent: false
-    war_v2: -0.1
+    incumbent_terms: 0
+    war_v2: -0.068
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2533
+    tide_component: -0.0009
     expected_two_party_share: 0.48
-    expected_two_party_share_v2: 0.48
+    expected_two_party_share_v2: 0.448
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5273
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6331
     war: 0.1058
     is_incumbent: true
-    war_v2: -0.0187
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0042
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2783
+    tide_component: -0.0014
     expected_two_party_share: 0.5273
-    expected_two_party_share_v2: 0.6518
+    expected_two_party_share_v2: 0.6289
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3669
     war: -0.1058
     is_incumbent: false
-    war_v2: -0.1058
+    incumbent_terms: 0
+    war_v2: -0.0773
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2494
+    tide_component: -0.0009
     expected_two_party_share: 0.4727
-    expected_two_party_share_v2: 0.4727
+    expected_two_party_share_v2: 0.4442
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3645
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.6005
     war: 0.236
     is_incumbent: false
-    war_v2: 0.236
+    incumbent_terms: 0
+    war_v2: 0.2136
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1923
+    tide_component: -0.0011
     expected_two_party_share: 0.3645
-    expected_two_party_share_v2: 0.3645
+    expected_two_party_share_v2: 0.3869
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.3995
     war: -0.236
     is_incumbent: false
-    war_v2: -0.236
+    incumbent_terms: 0
+    war_v2: -0.1302
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3354
+    tide_component: -0.0012
     expected_two_party_share: 0.6355
-    expected_two_party_share_v2: 0.6355
+    expected_two_party_share_v2: 0.5297
   is_open_seat: null
 title: 2nd Essex (2001-2010)
 layout: district

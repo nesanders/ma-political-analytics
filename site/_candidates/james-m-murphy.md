@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6783
   war: 0.0936
-  war_v2: -0.0309
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0191
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5847
-  expected_two_party_share_v2: 0.7092
+  expected_two_party_share_v2: 0.6592
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5565
-  war_v2: 0.5565
+  war_v2: 0.5715
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4435
-  expected_two_party_share_v2: 0.4435
+  expected_two_party_share_v2: 0.4285
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: James M. Murphy
 layout: candidate
 ---

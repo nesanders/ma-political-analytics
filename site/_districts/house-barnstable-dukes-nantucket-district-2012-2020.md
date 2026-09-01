@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2713
     is_incumbent: true
-    war_v2: 0.1468
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2753
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3845
+    tide_component: -0.0015
     expected_two_party_share: 0.7287
-    expected_two_party_share_v2: 0.8532
+    expected_two_party_share_v2: 0.7247
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3762
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6238
     is_incumbent: true
-    war_v2: 0.4993
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4501
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1985
+    tide_component: -0.0008
     expected_two_party_share: 0.3762
-    expected_two_party_share_v2: 0.5007
+    expected_two_party_share_v2: 0.5499
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6968
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3032
     is_incumbent: false
-    war_v2: 0.3032
+    incumbent_terms: 0
+    war_v2: 0.4382
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3677
+    tide_component: -0.0015
     expected_two_party_share: 0.6968
-    expected_two_party_share_v2: 0.6968
+    expected_two_party_share_v2: 0.5618
   - name: Tobias B. Glidden
     slug: tobias-b-glidden
     party: Other
@@ -85,8 +97,12 @@ results_by_year:
     actual_two_party_share: 0.7368
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jacob Norman Ferry
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.1969
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4449
     is_incumbent: true
-    war_v2: 0.3204
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3561
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2929
+    tide_component: -0.0011
     expected_two_party_share: 0.5551
-    expected_two_party_share_v2: 0.6796
+    expected_two_party_share_v2: 0.6439
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6585
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3415
     is_incumbent: false
-    war_v2: 0.3415
+    incumbent_terms: 0
+    war_v2: 0.4583
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3475
+    tide_component: -0.0014
     expected_two_party_share: 0.6585
-    expected_two_party_share_v2: 0.6585
+    expected_two_party_share_v2: 0.5417
   is_open_seat: null
 title: Barnstable, Dukes & Nantucket District (2012-2020)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1806
   war: -0.0533
-  war_v2: -0.0533
+  war_v2: -0.1375
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2339
-  expected_two_party_share_v2: 0.2339
+  expected_two_party_share_v2: 0.3181
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.1961
   war: -0.0633
-  war_v2: -0.0633
+  war_v2: -0.1355
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2594
-  expected_two_party_share_v2: 0.2594
+  expected_two_party_share_v2: 0.3316
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John A. Andrulis
 layout: candidate
 ---

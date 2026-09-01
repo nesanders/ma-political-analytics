@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4005
     is_incumbent: true
-    war_v2: 0.276
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3457
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3164
+    tide_component: -0.0012
     expected_two_party_share: 0.5995
-    expected_two_party_share_v2: 0.724
+    expected_two_party_share_v2: 0.6543
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6978
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3022
     is_incumbent: true
-    war_v2: 0.1777
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.294
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3682
+    tide_component: -0.0015
     expected_two_party_share: 0.6978
-    expected_two_party_share_v2: 0.8223
+    expected_two_party_share_v2: 0.706
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6762
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3238
     is_incumbent: true
-    war_v2: 0.1993
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3029
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3568
+    tide_component: -0.0014
     expected_two_party_share: 0.6762
-    expected_two_party_share_v2: 0.8007
+    expected_two_party_share_v2: 0.6971
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6972
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3028
     is_incumbent: true
-    war_v2: 0.1783
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2814
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3679
+    tide_component: -0.0014
     expected_two_party_share: 0.6972
-    expected_two_party_share_v2: 0.8217
+    expected_two_party_share_v2: 0.7186
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5277
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4723
     is_incumbent: false
-    war_v2: 0.4723
+    incumbent_terms: 0
+    war_v2: 0.527
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2785
+    tide_component: -0.0011
     expected_two_party_share: 0.5277
-    expected_two_party_share_v2: 0.5277
+    expected_two_party_share_v2: 0.473
   is_open_seat: null
 title: 11th Essex (2001-2010)
 layout: district

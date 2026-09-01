@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4181
   war: -0.0266
-  war_v2: -0.0266
+  war_v2: -0.0111
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4447
-  expected_two_party_share_v2: 0.4447
+  expected_two_party_share_v2: 0.4292
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas A. McCarthy
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3892
     is_incumbent: true
-    war_v2: 0.2647
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.327
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3223
+    tide_component: -0.0014
     expected_two_party_share: 0.6108
-    expected_two_party_share_v2: 0.7353
+    expected_two_party_share_v2: 0.673
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6013
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.637
     war: 0.0357
     is_incumbent: false
-    war_v2: 0.0357
+    incumbent_terms: 0
+    war_v2: 0.1256
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3173
+    tide_component: -0.0015
     expected_two_party_share: 0.6013
-    expected_two_party_share_v2: 0.6013
+    expected_two_party_share_v2: 0.5114
   - name: Jim Gordon
     slug: jim-gordon
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.363
     war: -0.0357
     is_incumbent: false
-    war_v2: -0.0357
+    incumbent_terms: 0
+    war_v2: -0.0422
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2104
+    tide_component: -0.0008
     expected_two_party_share: 0.3987
-    expected_two_party_share_v2: 0.3987
+    expected_two_party_share_v2: 0.4052
   is_open_seat: null
 demographics:
   median_household_income: 84460

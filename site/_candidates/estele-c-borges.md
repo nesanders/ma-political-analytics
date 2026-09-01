@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4135
   war: -0.1405
-  war_v2: -0.1405
+  war_v2: -0.073
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.554
-  expected_two_party_share_v2: 0.554
+  expected_two_party_share_v2: 0.4865
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Estele C. Borges
 layout: candidate
 ---

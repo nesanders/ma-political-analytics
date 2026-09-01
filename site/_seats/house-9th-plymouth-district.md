@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6436
     war: 0.039
     is_incumbent: false
-    war_v2: 0.039
+    incumbent_terms: 0
+    war_v2: 0.1304
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.319
+    tide_component: -0.0014
     expected_two_party_share: 0.6046
-    expected_two_party_share_v2: 0.6046
+    expected_two_party_share_v2: 0.5132
   - name: Lawrence Peter Novak
     slug: lawrence-peter-novak
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3564
     war: -0.039
     is_incumbent: false
-    war_v2: -0.039
+    incumbent_terms: 0
+    war_v2: -0.047
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2087
+    tide_component: -0.0009
     expected_two_party_share: 0.3954
-    expected_two_party_share_v2: 0.3954
+    expected_two_party_share_v2: 0.4034
   - name: Jonathan Wilshire Gill
     slug: jonathan-wilshire-gill
     party: Other
@@ -52,8 +60,12 @@ results_by_year:
     actual_two_party_share: 0.1852
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.6065
     war: 0.0079
     is_incumbent: false
-    war_v2: 0.0079
+    incumbent_terms: 0
+    war_v2: 0.0966
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3158
+    tide_component: -0.0015
     expected_two_party_share: 0.5986
-    expected_two_party_share_v2: 0.5986
+    expected_two_party_share_v2: 0.5099
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -85,10 +101,14 @@ results_by_year:
     actual_two_party_share: 0.3935
     war: -0.0079
     is_incumbent: false
-    war_v2: -0.0079
+    incumbent_terms: 0
+    war_v2: -0.0132
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2119
+    tide_component: -0.0008
     expected_two_party_share: 0.4014
-    expected_two_party_share_v2: 0.4014
+    expected_two_party_share_v2: 0.4067
   is_open_seat: null
 demographics:
   total_population: 46300

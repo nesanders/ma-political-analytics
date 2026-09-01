@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3742
   war: -0.0299
-  war_v2: -0.0299
+  war_v2: -0.0338
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4041
-  expected_two_party_share_v2: 0.4041
+  expected_two_party_share_v2: 0.408
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John I. Lebeaux
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5936
     war: 0.0287
     is_incumbent: true
-    war_v2: -0.0958
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0551
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2981
+    tide_component: -0.0014
     expected_two_party_share: 0.5649
-    expected_two_party_share_v2: 0.6894
+    expected_two_party_share_v2: 0.6487
   - name: Susanne H. Conley
     slug: susanne-h-conley
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4064
     war: -0.0287
     is_incumbent: false
-    war_v2: -0.0287
+    incumbent_terms: 0
+    war_v2: -0.018
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2296
+    tide_component: -0.0009
     expected_two_party_share: 0.4351
-    expected_two_party_share_v2: 0.4351
+    expected_two_party_share_v2: 0.4244
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5655
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.6217
     war: 0.0562
     is_incumbent: false
-    war_v2: 0.0562
+    incumbent_terms: 0
+    war_v2: 0.1292
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2984
+    tide_component: -0.0015
     expected_two_party_share: 0.5655
-    expected_two_party_share_v2: 0.5655
+    expected_two_party_share_v2: 0.4925
   - name: William Buffington Peters
     slug: william-buffington-peters
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.3783
     war: -0.0562
     is_incumbent: false
-    war_v2: -0.0562
+    incumbent_terms: 0
+    war_v2: -0.0458
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2293
+    tide_component: -0.0008
     expected_two_party_share: 0.4345
-    expected_two_party_share_v2: 0.4345
+    expected_two_party_share_v2: 0.4241
   is_open_seat: null
 demographics:
   total_population: 44617

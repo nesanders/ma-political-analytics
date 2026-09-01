@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5725
     war: 0.0824
     is_incumbent: true
-    war_v2: -0.0421
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0241
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2586
+    tide_component: -0.0012
     expected_two_party_share: 0.4901
-    expected_two_party_share_v2: 0.6146
+    expected_two_party_share_v2: 0.5966
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4275
     war: -0.0824
     is_incumbent: false
-    war_v2: -0.0824
+    incumbent_terms: 0
+    war_v2: -0.0361
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2691
+    tide_component: -0.0011
     expected_two_party_share: 0.5099
-    expected_two_party_share_v2: 0.5099
+    expected_two_party_share_v2: 0.4636
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5555
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4445
     is_incumbent: true
-    war_v2: 0.32
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3691
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2931
+    tide_component: -0.0015
     expected_two_party_share: 0.5555
-    expected_two_party_share_v2: 0.68
+    expected_two_party_share_v2: 0.6309
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.587
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.7084
     war: 0.1214
     is_incumbent: true
-    war_v2: -0.0031
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0583
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3098
+    tide_component: -0.0014
     expected_two_party_share: 0.587
-    expected_two_party_share_v2: 0.7115
+    expected_two_party_share_v2: 0.6501
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.2916
     war: -0.1214
     is_incumbent: false
-    war_v2: -0.1214
+    incumbent_terms: 0
+    war_v2: -0.121
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2179
+    tide_component: -0.0009
     expected_two_party_share: 0.413
-    expected_two_party_share_v2: 0.413
+    expected_two_party_share_v2: 0.4126
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5869
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6505
     war: 0.0635
     is_incumbent: true
-    war_v2: -0.061
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0099
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3097
+    tide_component: -0.0014
     expected_two_party_share: 0.587
-    expected_two_party_share_v2: 0.7115
+    expected_two_party_share_v2: 0.6604
   - name: John T. Haaland
     slug: john-t-haaland
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3495
     war: -0.0635
     is_incumbent: false
-    war_v2: -0.0635
+    incumbent_terms: 0
+    war_v2: -0.0632
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.218
+    tide_component: -0.0009
     expected_two_party_share: 0.413
-    expected_two_party_share_v2: 0.413
+    expected_two_party_share_v2: 0.4127
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4632
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5368
     is_incumbent: false
-    war_v2: 0.5368
+    incumbent_terms: 0
+    war_v2: 0.5611
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2444
+    tide_component: -0.0011
     expected_two_party_share: 0.4632
-    expected_two_party_share_v2: 0.4632
+    expected_two_party_share_v2: 0.4389
   is_open_seat: null
 title: 10th Bristol (2001-2010)
 layout: district

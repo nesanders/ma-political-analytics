@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5145
     is_incumbent: true
-    war_v2: 0.39
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4054
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2562
+    tide_component: -0.0008
     expected_two_party_share: 0.4855
-    expected_two_party_share_v2: 0.61
+    expected_two_party_share_v2: 0.5946
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2572
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2572
     is_incumbent: true
-    war_v2: 0.1327
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2704
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.392
+    tide_component: -0.0015
     expected_two_party_share: 0.7428
-    expected_two_party_share_v2: 0.8673
+    expected_two_party_share_v2: 0.7296
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4806
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.6227
     war: 0.1033
     is_incumbent: true
-    war_v2: -0.0212
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0077
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2741
+    tide_component: -0.0008
     expected_two_party_share: 0.5194
-    expected_two_party_share_v2: 0.6439
+    expected_two_party_share_v2: 0.615
   - name: Paul W. Jacques
     slug: paul-w-jacques
     party: Democratic
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.3773
     war: -0.1033
     is_incumbent: false
-    war_v2: -0.1033
+    incumbent_terms: 0
+    war_v2: -0.0704
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2536
+    tide_component: -0.0015
     expected_two_party_share: 0.4806
-    expected_two_party_share_v2: 0.4806
+    expected_two_party_share_v2: 0.4477
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3997
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3997
     is_incumbent: true
-    war_v2: 0.2752
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3323
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3168
+    tide_component: -0.0012
     expected_two_party_share: 0.6003
-    expected_two_party_share_v2: 0.7248
+    expected_two_party_share_v2: 0.6677
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5154
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6141
     war: 0.1295
     is_incumbent: false
-    war_v2: 0.1295
+    incumbent_terms: 0
+    war_v2: 0.1637
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2557
+    tide_component: -0.0009
     expected_two_party_share: 0.4846
-    expected_two_party_share_v2: 0.4846
+    expected_two_party_share_v2: 0.4504
   - name: A. Keith Carreiro
     slug: a-keith-carreiro
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3859
     war: -0.1295
     is_incumbent: false
-    war_v2: -0.1295
+    incumbent_terms: 0
+    war_v2: -0.0803
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.272
+    tide_component: -0.0014
     expected_two_party_share: 0.5154
-    expected_two_party_share_v2: 0.5154
+    expected_two_party_share_v2: 0.4662
   is_open_seat: null
 title: 4th Bristol District (2012-2020)
 layout: district

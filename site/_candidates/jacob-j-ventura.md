@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3944
   war: -0.3515
-  war_v2: -0.3515
+  war_v2: -0.1933
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7459
-  expected_two_party_share_v2: 0.7459
+  expected_two_party_share_v2: 0.5877
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jacob J. Ventura
 layout: candidate
 ---

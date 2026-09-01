@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3369
   war: -0.3984
-  war_v2: -0.3984
+  war_v2: -0.2452
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7353
-  expected_two_party_share_v2: 0.7353
+  expected_two_party_share_v2: 0.5821
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Alexander Leighton Williams
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2912
   war: -0.1644
-  war_v2: -0.1644
+  war_v2: -0.144
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4556
-  expected_two_party_share_v2: 0.4556
+  expected_two_party_share_v2: 0.4352
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4893
   war: -0.12
-  war_v2: -0.12
+  war_v2: -0.0266
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6093
-  expected_two_party_share_v2: 0.6093
+  expected_two_party_share_v2: 0.5159
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jerzy J. Jachimczyk
 layout: candidate
 ---

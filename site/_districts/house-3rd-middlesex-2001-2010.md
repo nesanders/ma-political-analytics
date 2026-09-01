@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5085
     is_incumbent: true
-    war_v2: 0.384
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3898
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2594
+    tide_component: -0.0012
     expected_two_party_share: 0.4915
-    expected_two_party_share_v2: 0.616
+    expected_two_party_share_v2: 0.6102
   - name: Chuck S. Kuniewich, Jr.
     slug: chuck-s-kuniewich-jr
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.6643
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5226
     war: -0.0814
     is_incumbent: false
-    war_v2: -0.0814
+    incumbent_terms: 0
+    war_v2: 0.0097
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3187
+    tide_component: -0.0015
     expected_two_party_share: 0.604
-    expected_two_party_share_v2: 0.604
+    expected_two_party_share_v2: 0.5129
   - name: Sonny Parente
     slug: sonny-parente
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4774
     war: 0.0814
     is_incumbent: false
-    war_v2: 0.0814
+    incumbent_terms: 0
+    war_v2: 0.0737
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.209
+    tide_component: -0.0008
     expected_two_party_share: 0.396
-    expected_two_party_share_v2: 0.396
+    expected_two_party_share_v2: 0.4037
   - name: David A. Goulding
     slug: david-a-goulding
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0975
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4192
     is_incumbent: true
-    war_v2: 0.2947
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3532
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3065
+    tide_component: -0.0014
     expected_two_party_share: 0.5808
-    expected_two_party_share_v2: 0.7053
+    expected_two_party_share_v2: 0.6468
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6034
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.7404
     war: 0.137
     is_incumbent: true
-    war_v2: 0.0125
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0713
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3184
+    tide_component: -0.0014
     expected_two_party_share: 0.6034
-    expected_two_party_share_v2: 0.7279
+    expected_two_party_share_v2: 0.6691
   - name: Neal A. Heeren
     slug: neal-a-heeren
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.2596
     war: -0.137
     is_incumbent: false
-    war_v2: -0.137
+    incumbent_terms: 0
+    war_v2: -0.1444
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2093
+    tide_component: -0.0009
     expected_two_party_share: 0.3966
-    expected_two_party_share_v2: 0.3966
+    expected_two_party_share_v2: 0.404
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.405
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.595
     is_incumbent: false
-    war_v2: 0.595
+    incumbent_terms: 0
+    war_v2: 0.5918
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2137
+    tide_component: -0.0011
     expected_two_party_share: 0.405
-    expected_two_party_share_v2: 0.405
+    expected_two_party_share_v2: 0.4082
   is_open_seat: null
 title: 3rd Middlesex (2001-2010)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2167
-  war_v2: 0.0922
-  incumbency_adjustment: 0.1245
+  war_v2: 0.236
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7833
-  expected_two_party_share_v2: 0.9078
+  expected_two_party_share_v2: 0.764
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3458
-  war_v2: 0.3458
+  war_v2: 0.4603
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6542
-  expected_two_party_share_v2: 0.6542
+  expected_two_party_share_v2: 0.5397
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Shirley Owens-Hicks
 layout: candidate
 ---

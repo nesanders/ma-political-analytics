@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3564
   war: -0.039
-  war_v2: -0.039
+  war_v2: -0.047
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3954
-  expected_two_party_share_v2: 0.3954
+  expected_two_party_share_v2: 0.4034
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Lawrence Peter Novak
 layout: candidate
 ---

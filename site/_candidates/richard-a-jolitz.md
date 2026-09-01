@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2925
   war: -0.1184
-  war_v2: -0.1184
+  war_v2: -0.1191
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4109
-  expected_two_party_share_v2: 0.4109
+  expected_two_party_share_v2: 0.4116
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3385
   war: -0.1936
-  war_v2: -0.1936
+  war_v2: -0.1368
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5321
-  expected_two_party_share_v2: 0.5321
+  expected_two_party_share_v2: 0.4753
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Richard A. Jolitz
 layout: candidate
 ---

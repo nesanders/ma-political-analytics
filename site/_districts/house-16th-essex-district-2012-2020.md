@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2542
     is_incumbent: true
-    war_v2: 0.1297
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2559
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3936
+    tide_component: -0.0015
     expected_two_party_share: 0.7458
-    expected_two_party_share_v2: 0.8703
+    expected_two_party_share_v2: 0.7441
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5038
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4962
     is_incumbent: false
-    war_v2: 0.4962
+    incumbent_terms: 0
+    war_v2: 0.5393
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2659
+    tide_component: -0.0008
     expected_two_party_share: 0.5038
-    expected_two_party_share_v2: 0.5038
+    expected_two_party_share_v2: 0.4607
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8488
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1512
     is_incumbent: false
-    war_v2: 0.1512
+    incumbent_terms: 0
+    war_v2: 0.358
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4479
+    tide_component: -0.0015
     expected_two_party_share: 0.8488
-    expected_two_party_share_v2: 0.8488
+    expected_two_party_share_v2: 0.642
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.7178
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8007
     war: 0.0828
     is_incumbent: true
-    war_v2: -0.0417
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0709
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3788
+    tide_component: -0.0011
     expected_two_party_share: 0.7179
-    expected_two_party_share_v2: 0.8424
+    expected_two_party_share_v2: 0.7298
   - name: William Lantigua
     slug: william-lantigua
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.7033
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Roger A. Twomey
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.1993
     war: -0.0828
     is_incumbent: false
-    war_v2: -0.0828
+    incumbent_terms: 0
+    war_v2: -0.144
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1489
+    tide_component: -0.0012
     expected_two_party_share: 0.2821
-    expected_two_party_share_v2: 0.2821
+    expected_two_party_share_v2: 0.3433
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8407
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1593
     is_incumbent: false
-    war_v2: 0.1593
+    incumbent_terms: 0
+    war_v2: 0.3622
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4436
+    tide_component: -0.0014
     expected_two_party_share: 0.8407
-    expected_two_party_share_v2: 0.8407
+    expected_two_party_share_v2: 0.6378
   - name: Jose L. Santiago
     slug: jose-l-santiago
     party: Other
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.1845
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

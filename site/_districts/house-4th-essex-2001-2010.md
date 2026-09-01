@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4114
     is_incumbent: true
-    war_v2: 0.2869
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3513
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3106
+    tide_component: -0.0011
     expected_two_party_share: 0.5886
-    expected_two_party_share_v2: 0.7131
+    expected_two_party_share_v2: 0.6487
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5363
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.7118
     war: 0.2481
     is_incumbent: true
-    war_v2: 0.1236
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1288
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2447
+    tide_component: -0.0008
     expected_two_party_share: 0.4637
-    expected_two_party_share_v2: 0.5882
+    expected_two_party_share_v2: 0.583
   - name: Donald R. Bumiller
     slug: donald-r-bumiller
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.2882
     war: -0.2481
     is_incumbent: false
-    war_v2: -0.2481
+    incumbent_terms: 0
+    war_v2: -0.189
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.283
+    tide_component: -0.0015
     expected_two_party_share: 0.5363
-    expected_two_party_share_v2: 0.5363
+    expected_two_party_share_v2: 0.4772
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4939
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4939
     is_incumbent: true
-    war_v2: 0.3694
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3921
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2671
+    tide_component: -0.0009
     expected_two_party_share: 0.5061
-    expected_two_party_share_v2: 0.6306
+    expected_two_party_share_v2: 0.6079
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5049
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6239
     war: 0.1288
     is_incumbent: true
-    war_v2: 0.0043
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0114
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2613
+    tide_component: -0.0009
     expected_two_party_share: 0.4951
-    expected_two_party_share_v2: 0.6196
+    expected_two_party_share_v2: 0.6125
   - name: Timothy A. Purinton
     slug: timothy-a-purinton
     party: Democratic
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3761
     war: -0.1288
     is_incumbent: false
-    war_v2: -0.1288
+    incumbent_terms: 0
+    war_v2: -0.0845
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2664
+    tide_component: -0.0014
     expected_two_party_share: 0.5049
-    expected_two_party_share_v2: 0.5049
+    expected_two_party_share_v2: 0.4606
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3222
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3222
     is_incumbent: false
-    war_v2: 0.3222
+    incumbent_terms: 0
+    war_v2: 0.4479
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3577
+    tide_component: -0.0012
     expected_two_party_share: 0.6778
-    expected_two_party_share_v2: 0.6778
+    expected_two_party_share_v2: 0.5521
   is_open_seat: null
 title: 4th Essex (2001-2010)
 layout: district

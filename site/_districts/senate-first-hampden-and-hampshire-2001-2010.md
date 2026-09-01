@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5819
     war: 0.0266
     is_incumbent: true
-    war_v2: -0.0979
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0516
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.293
+    tide_component: -0.0012
     expected_two_party_share: 0.5553
-    expected_two_party_share_v2: 0.6798
+    expected_two_party_share_v2: 0.6335
   - name: Thomas A. McCarthy
     slug: thomas-a-mccarthy
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4181
     war: -0.0266
     is_incumbent: false
-    war_v2: -0.0266
+    incumbent_terms: 0
+    war_v2: -0.0111
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2347
+    tide_component: -0.0011
     expected_two_party_share: 0.4447
-    expected_two_party_share_v2: 0.4447
+    expected_two_party_share_v2: 0.4292
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6473
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3527
     is_incumbent: true
-    war_v2: 0.2282
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3078
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3416
+    tide_component: -0.0015
     expected_two_party_share: 0.6473
-    expected_two_party_share_v2: 0.7718
+    expected_two_party_share_v2: 0.6922
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6136
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5972
     war: -0.0165
     is_incumbent: false
-    war_v2: -0.0165
+    incumbent_terms: 0
+    war_v2: 0.0792
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3238
+    tide_component: -0.0014
     expected_two_party_share: 0.6137
-    expected_two_party_share_v2: 0.6137
+    expected_two_party_share_v2: 0.518
   - name: Enrico John Villamaino, III
     slug: enrico-john-villamaino-iii
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4028
     war: 0.0165
     is_incumbent: false
-    war_v2: 0.0165
+    incumbent_terms: 0
+    war_v2: 0.0042
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2039
+    tide_component: -0.0009
     expected_two_party_share: 0.3863
-    expected_two_party_share_v2: 0.3863
+    expected_two_party_share_v2: 0.3986
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6256
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6256
     is_incumbent: true
-    war_v2: 0.5011
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4512
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1976
+    tide_component: -0.0009
     expected_two_party_share: 0.3744
-    expected_two_party_share_v2: 0.4989
+    expected_two_party_share_v2: 0.5488
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4873
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4873
     is_incumbent: false
-    war_v2: 0.4873
+    incumbent_terms: 0
+    war_v2: 0.5351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2706
+    tide_component: -0.0012
     expected_two_party_share: 0.5127
-    expected_two_party_share_v2: 0.5127
+    expected_two_party_share_v2: 0.4649
   is_open_seat: null
 title: First Hampden and Hampshire (2001-2010)
 layout: district

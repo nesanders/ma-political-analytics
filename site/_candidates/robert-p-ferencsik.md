@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1715
   war: -0.0668
-  war_v2: -0.0668
+  war_v2: -0.149
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2383
-  expected_two_party_share_v2: 0.2383
+  expected_two_party_share_v2: 0.3205
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert P. Ferencsik
 layout: candidate
 ---

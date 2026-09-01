@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.498
     is_incumbent: true
-    war_v2: 0.3735
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3842
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2649
+    tide_component: -0.0012
     expected_two_party_share: 0.502
-    expected_two_party_share_v2: 0.6265
+    expected_two_party_share_v2: 0.6158
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5959
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6258
     war: 0.0299
     is_incumbent: false
-    war_v2: 0.0299
+    incumbent_terms: 0
+    war_v2: 0.1172
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3145
+    tide_component: -0.0015
     expected_two_party_share: 0.5959
-    expected_two_party_share_v2: 0.5959
+    expected_two_party_share_v2: 0.5086
   - name: John I. Lebeaux
     slug: john-i-lebeaux
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3742
     war: -0.0299
     is_incumbent: false
-    war_v2: -0.0299
+    incumbent_terms: 0
+    war_v2: -0.0338
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2132
+    tide_component: -0.0008
     expected_two_party_share: 0.4041
-    expected_two_party_share_v2: 0.4041
+    expected_two_party_share_v2: 0.408
   - name: Steven W. Baer
     slug: steven-w-baer
     party: null
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.0506
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.7288
     war: 0.0973
     is_incumbent: true
-    war_v2: -0.0272
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0449
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3332
+    tide_component: -0.0014
     expected_two_party_share: 0.6315
-    expected_two_party_share_v2: 0.756
+    expected_two_party_share_v2: 0.6839
   - name: Richard J. Peters
     slug: richard-j-peters
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.2712
     war: -0.0973
     is_incumbent: false
-    war_v2: -0.0973
+    incumbent_terms: 0
+    war_v2: -0.118
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1945
+    tide_component: -0.0009
     expected_two_party_share: 0.3685
-    expected_two_party_share_v2: 0.3685
+    expected_two_party_share_v2: 0.3892
   - name: John M. Lazzaro
     slug: john-m-lazzaro
     party: Other
@@ -121,8 +145,12 @@ results_by_year:
     actual_two_party_share: 0.0794
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.6496
     war: 0.0546
     is_incumbent: false
-    war_v2: 0.0546
+    incumbent_terms: 0
+    war_v2: 0.1415
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.314
+    tide_component: -0.0014
     expected_two_party_share: 0.595
-    expected_two_party_share_v2: 0.595
+    expected_two_party_share_v2: 0.5081
   - name: Robi Blute
     slug: robi-blute
     party: Republican
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.3504
     war: -0.0546
     is_incumbent: false
-    war_v2: -0.0546
+    incumbent_terms: 0
+    war_v2: -0.0581
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2137
+    tide_component: -0.0009
     expected_two_party_share: 0.405
-    expected_two_party_share_v2: 0.405
+    expected_two_party_share_v2: 0.4085
   - name: Jane Burdzel
     slug: jane-burdzel
     party: Other
@@ -166,8 +202,12 @@ results_by_year:
     actual_two_party_share: 0.0724
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5628
     is_incumbent: false
-    war_v2: 0.5628
+    incumbent_terms: 0
+    war_v2: 0.5748
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2307
+    tide_component: -0.0011
     expected_two_party_share: 0.4372
-    expected_two_party_share_v2: 0.4372
+    expected_two_party_share_v2: 0.4252
   is_open_seat: null
 title: Second Worcester (2001-2010)
 layout: district

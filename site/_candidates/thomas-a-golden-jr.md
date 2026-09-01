@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3364
-  war_v2: 0.2119
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3122
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6636
-  expected_two_party_share_v2: 0.7881
+  expected_two_party_share_v2: 0.6878
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6867
-  war_v2: 0.5622
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4962
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3133
-  expected_two_party_share_v2: 0.4378
+  expected_two_party_share_v2: 0.5038
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3415
-  war_v2: 0.217
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3123
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6585
-  expected_two_party_share_v2: 0.783
+  expected_two_party_share_v2: 0.6877
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5156
-  war_v2: 0.3911
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3934
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4844
-  expected_two_party_share_v2: 0.6089
+  expected_two_party_share_v2: 0.6066
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3738
-  war_v2: 0.3738
+  war_v2: 0.4754
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6262
-  expected_two_party_share_v2: 0.6262
+  expected_two_party_share_v2: 0.5246
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4957
-  war_v2: 0.3712
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3959
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5043
-  expected_two_party_share_v2: 0.6288
+  expected_two_party_share_v2: 0.6041
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3711
-  war_v2: 0.2466
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3304
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6289
-  expected_two_party_share_v2: 0.7534
+  expected_two_party_share_v2: 0.6696
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.7746
   war: 0.1978
-  war_v2: 0.0733
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1299
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5768
-  expected_two_party_share_v2: 0.7013
+  expected_two_party_share_v2: 0.6447
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3974
-  war_v2: 0.2729
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3314
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6026
-  expected_two_party_share_v2: 0.7271
+  expected_two_party_share_v2: 0.6686
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -157,12 +166,13 @@ races:
   winner: true
   actual_two_party_share: 0.7201
   war: 0.2646
-  war_v2: 0.2646
+  war_v2: 0.2852
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4555
-  expected_two_party_share_v2: 0.4555
+  expected_two_party_share_v2: 0.4349
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas A. Golden, Jr.
 layout: candidate
 ---

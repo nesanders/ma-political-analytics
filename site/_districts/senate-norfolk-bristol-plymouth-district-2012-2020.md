@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3205
     is_incumbent: true
-    war_v2: 0.196
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3013
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3586
+    tide_component: -0.0015
     expected_two_party_share: 0.6795
-    expected_two_party_share_v2: 0.804
+    expected_two_party_share_v2: 0.6987
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.31
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.69
     is_incumbent: true
-    war_v2: 0.5655
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4851
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1636
+    tide_component: -0.0008
     expected_two_party_share: 0.31
-    expected_two_party_share_v2: 0.4345
+    expected_two_party_share_v2: 0.5149
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6443
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3557
     is_incumbent: false
-    war_v2: 0.3557
+    incumbent_terms: 0
+    war_v2: 0.4659
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.34
+    tide_component: -0.0015
     expected_two_party_share: 0.6443
-    expected_two_party_share_v2: 0.6443
+    expected_two_party_share_v2: 0.5341
   - name: Jonathan D. Lott
     slug: jonathan-d-lott
     party: Other
@@ -85,8 +97,12 @@ results_by_year:
     actual_two_party_share: 0.3535
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5345
     is_incumbent: true
-    war_v2: 0.41
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4034
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2456
+    tide_component: -0.0011
     expected_two_party_share: 0.4655
-    expected_two_party_share_v2: 0.59
+    expected_two_party_share_v2: 0.5966
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.587
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.413
     is_incumbent: false
-    war_v2: 0.413
+    incumbent_terms: 0
+    war_v2: 0.4961
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3098
+    tide_component: -0.0014
     expected_two_party_share: 0.587
-    expected_two_party_share_v2: 0.587
+    expected_two_party_share_v2: 0.5039
   is_open_seat: null
 title: Norfolk, Bristol & Plymouth District (2012-2020)
 layout: district

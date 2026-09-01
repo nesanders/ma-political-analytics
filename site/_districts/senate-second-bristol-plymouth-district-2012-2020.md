@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4209
     is_incumbent: true
-    war_v2: 0.2964
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3568
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3056
+    tide_component: -0.0015
     expected_two_party_share: 0.5791
-    expected_two_party_share_v2: 0.7036
+    expected_two_party_share_v2: 0.6432
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3481
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6519
     is_incumbent: true
-    war_v2: 0.5274
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4779
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1837
+    tide_component: -0.0008
     expected_two_party_share: 0.3481
-    expected_two_party_share_v2: 0.4726
+    expected_two_party_share_v2: 0.5221
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5992
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4008
     is_incumbent: true
-    war_v2: 0.2763
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3436
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3162
+    tide_component: -0.0015
     expected_two_party_share: 0.5992
-    expected_two_party_share_v2: 0.7237
+    expected_two_party_share_v2: 0.6564
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5665
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4335
     is_incumbent: true
-    war_v2: 0.309
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3501
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2989
+    tide_component: -0.0011
     expected_two_party_share: 0.5665
-    expected_two_party_share_v2: 0.691
+    expected_two_party_share_v2: 0.6499
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6866
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3134
     is_incumbent: false
-    war_v2: 0.3134
+    incumbent_terms: 0
+    war_v2: 0.4435
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3623
+    tide_component: -0.0014
     expected_two_party_share: 0.6866
-    expected_two_party_share_v2: 0.6866
+    expected_two_party_share_v2: 0.5565
   is_open_seat: null
 title: Second Bristol & Plymouth District (2012-2020)
 layout: district

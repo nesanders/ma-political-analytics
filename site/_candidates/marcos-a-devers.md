@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2542
-  war_v2: 0.1297
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2559
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7458
-  expected_two_party_share_v2: 0.8703
+  expected_two_party_share_v2: 0.7441
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4962
-  war_v2: 0.4962
+  war_v2: 0.5393
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5038
-  expected_two_party_share_v2: 0.5038
+  expected_two_party_share_v2: 0.4607
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.8007
   war: 0.0828
-  war_v2: -0.0417
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0709
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7179
-  expected_two_party_share_v2: 0.8424
+  expected_two_party_share_v2: 0.7298
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1593
-  war_v2: 0.1593
+  war_v2: 0.3622
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8407
-  expected_two_party_share_v2: 0.8407
+  expected_two_party_share_v2: 0.6378
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.8477
   war: 0.1046
-  war_v2: 0.1046
+  war_v2: 0.2612
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7431
-  expected_two_party_share_v2: 0.7431
+  expected_two_party_share_v2: 0.5865
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -99,6 +104,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Marcos A. Devers
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.447
     is_incumbent: true
-    war_v2: 0.3225
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3701
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2918
+    tide_component: -0.0011
     expected_two_party_share: 0.553
-    expected_two_party_share_v2: 0.6775
+    expected_two_party_share_v2: 0.6299
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5452
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.694
     war: 0.2392
     is_incumbent: true
-    war_v2: 0.1147
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1156
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.24
+    tide_component: -0.0008
     expected_two_party_share: 0.4548
-    expected_two_party_share_v2: 0.5793
+    expected_two_party_share_v2: 0.5784
   - name: Brian R. Hoose
     slug: brian-r-hoose
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.306
     war: -0.2392
     is_incumbent: false
-    war_v2: -0.2392
+    incumbent_terms: 0
+    war_v2: -0.1758
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2877
+    tide_component: -0.0015
     expected_two_party_share: 0.5452
-    expected_two_party_share_v2: 0.5452
+    expected_two_party_share_v2: 0.4818
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5565
     is_incumbent: true
-    war_v2: 0.432
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4252
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.234
+    tide_component: -0.0009
     expected_two_party_share: 0.4435
-    expected_two_party_share_v2: 0.568
+    expected_two_party_share_v2: 0.5748
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.545
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.545
     is_incumbent: true
-    war_v2: 0.4205
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4087
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2401
+    tide_component: -0.0009
     expected_two_party_share: 0.455
-    expected_two_party_share_v2: 0.5795
+    expected_two_party_share_v2: 0.5913
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4346
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6309
     war: 0.0654
     is_incumbent: false
-    war_v2: 0.0654
+    incumbent_terms: 0
+    war_v2: 0.1381
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2984
+    tide_component: -0.0012
     expected_two_party_share: 0.5655
-    expected_two_party_share_v2: 0.5655
+    expected_two_party_share_v2: 0.4928
   - name: Bo Sullivan
     slug: bo-sullivan
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3691
     war: -0.0654
     is_incumbent: false
-    war_v2: -0.0654
+    incumbent_terms: 0
+    war_v2: -0.0547
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2293
+    tide_component: -0.0011
     expected_two_party_share: 0.4345
-    expected_two_party_share_v2: 0.4345
+    expected_two_party_share_v2: 0.4238
   is_open_seat: null
 title: 4th Hampden (2001-2010)
 layout: district

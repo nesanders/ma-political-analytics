@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3005
     is_incumbent: true
-    war_v2: 0.176
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2932
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3691
+    tide_component: -0.0015
     expected_two_party_share: 0.6995
-    expected_two_party_share_v2: 0.824
+    expected_two_party_share_v2: 0.7068
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2932
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7068
     is_incumbent: true
-    war_v2: 0.5823
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5068
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1547
+    tide_component: -0.0008
     expected_two_party_share: 0.2932
-    expected_two_party_share_v2: 0.4177
+    expected_two_party_share_v2: 0.4932
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6517
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3483
     is_incumbent: true
-    war_v2: 0.2238
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3159
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3439
+    tide_component: -0.0015
     expected_two_party_share: 0.6517
-    expected_two_party_share_v2: 0.7762
+    expected_two_party_share_v2: 0.6841
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4586
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6026
     war: 0.1439
     is_incumbent: true
-    war_v2: 0.0194
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0096
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.242
+    tide_component: -0.0011
     expected_two_party_share: 0.4587
-    expected_two_party_share_v2: 0.5832
+    expected_two_party_share_v2: 0.593
   - name: Paddy Dolan
     slug: paddy-dolan
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3974
     war: -0.1439
     is_incumbent: false
-    war_v2: -0.1439
+    incumbent_terms: 0
+    war_v2: -0.0827
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2857
+    tide_component: -0.0012
     expected_two_party_share: 0.5413
-    expected_two_party_share_v2: 0.5413
+    expected_two_party_share_v2: 0.4801
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5811
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6415
     war: 0.0604
     is_incumbent: false
-    war_v2: 0.0604
+    incumbent_terms: 0
+    war_v2: 0.1407
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3066
+    tide_component: -0.0014
     expected_two_party_share: 0.5811
-    expected_two_party_share_v2: 0.5811
+    expected_two_party_share_v2: 0.5008
   - name: Chuck S. Kuniewich, Jr.
     slug: chuck-s-kuniewich-jr
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3585
     war: -0.0604
     is_incumbent: false
-    war_v2: -0.0604
+    incumbent_terms: 0
+    war_v2: -0.0573
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2211
+    tide_component: -0.0009
     expected_two_party_share: 0.4189
-    expected_two_party_share_v2: 0.4189
+    expected_two_party_share_v2: 0.4158
   is_open_seat: null
 title: 3rd Middlesex District (2012-2020)
 layout: district

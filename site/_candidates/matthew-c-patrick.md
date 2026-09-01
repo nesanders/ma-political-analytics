@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4704
   war: -0.0836
-  war_v2: -0.0836
+  war_v2: -0.0161
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.554
-  expected_two_party_share_v2: 0.554
+  expected_two_party_share_v2: 0.4865
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3657
   war: -0.0343
-  war_v2: -0.0343
+  war_v2: -0.0399
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4
-  expected_two_party_share_v2: 0.4
+  expected_two_party_share_v2: 0.4056
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: false
   actual_two_party_share: 0.4605
   war: -0.0169
-  war_v2: -0.1414
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1294
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4774
-  expected_two_party_share_v2: 0.6019
+  expected_two_party_share_v2: 0.5899
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4296
-  war_v2: 0.3051
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3613
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5704
-  expected_two_party_share_v2: 0.6949
+  expected_two_party_share_v2: 0.6387
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4758
-  war_v2: 0.3513
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3831
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5242
-  expected_two_party_share_v2: 0.6487
+  expected_two_party_share_v2: 0.6169
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.5336
   war: -0.0206
-  war_v2: -0.1451
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1095
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5542
-  expected_two_party_share_v2: 0.6787
+  expected_two_party_share_v2: 0.6431
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.5005
   war: 0.0836
-  war_v2: 0.0836
+  war_v2: 0.086
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4169
-  expected_two_party_share_v2: 0.4169
+  expected_two_party_share_v2: 0.4145
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Matthew C. Patrick
 layout: candidate
 ---

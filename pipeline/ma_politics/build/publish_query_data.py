@@ -25,7 +25,8 @@ from ma_politics.build.generate_site_data import (
     apply_war_v2,
     build_candidate_records,
     build_district_records,
-    fit_incumbency_effect,
+    compute_statewide_tide_by_year,
+    fit_war_v2_core,
 )
 
 logger = logging.getLogger(__name__)
@@ -76,23 +77,30 @@ def build_seats_table(chambers: list[str], vintages: list[str], derived_dir: Pat
     return pd.DataFrame(rows)
 
 
-def build_results_table(chambers: list[str], vintages: list[str], derived_dir: Path) -> pd.DataFrame:
+def build_results_table(
+    chambers: list[str], vintages: list[str], derived_dir: Path, baseline_dir: Path
+) -> pd.DataFrame:
     """Same rationale as build_seats_table: built from the already-computed
-    district records (which carry is_incumbent, resolved once there against
-    the prior election within the same vintage) instead of a separate pass
-    over raw WAR parquet.
+    district records (which carry is_incumbent/incumbent_terms, resolved
+    once there against the prior elections within the same vintage)
+    instead of a separate pass over raw WAR parquet.
 
-    WAR v2 is fit and applied here too (fit_incumbency_effect/apply_war_v2 —
-    same functions generate_site_data.py's own main() calls), rather than
-    read back from the already-written site/_data/war_v2.yml, so this table
-    can't silently go stale relative to whatever data this particular
-    invocation actually has on disk — this module is runnable independently
-    of generate_site_data.py, with its own --derived-dir."""
+    WAR v2 is fit and applied here too (compute_statewide_tide_by_year /
+    fit_war_v2_core / apply_war_v2 — the same functions
+    generate_site_data.py's own main() calls), rather than read back from
+    the already-written site/_data/war_v2.yml, so this table can't
+    silently go stale relative to whatever data this particular
+    invocation actually has on disk — this module is runnable
+    independently of generate_site_data.py, with its own --derived-dir/
+    --baseline-dir. The Bayesian fit is randomized-but-seeded (see
+    _bayesian_linear_regression's default seed), so re-running this
+    against the same underlying data reproduces the same coefficients."""
     district_records_by_vintage = {
         vintage: [d for c in chambers for d in build_district_records(c, vintage, derived_dir)] for vintage in vintages
     }
-    incumbency_fit = fit_incumbency_effect(district_records_by_vintage)
-    apply_war_v2(district_records_by_vintage, incumbency_fit["incumbency_effect"])
+    tide_by_year = compute_statewide_tide_by_year(baseline_dir)
+    war_v2_fit = fit_war_v2_core(district_records_by_vintage, tide_by_year)
+    apply_war_v2(district_records_by_vintage, tide_by_year, war_v2_fit)
 
     rows = []
     for records in district_records_by_vintage.values():
@@ -111,6 +119,7 @@ def build_results_table(chambers: list[str], vintages: list[str], derived_dir: P
                             "winner": cand["winner"],
                             "is_uncontested": entry["is_uncontested"],
                             "is_incumbent": cand["is_incumbent"],
+                            "incumbent_terms": cand.get("incumbent_terms", 0),
                             "actual_two_party_share": cand["actual_two_party_share"],
                             "district_lean_dem_share": entry["lean_dem_share"],
                             "war": cand["war"],
@@ -226,6 +235,11 @@ SCHEMA_CARD = {
                     "election on record in a vintage (nothing to compare against) — not the same as "
                     "confirmed false."
                 ),
+                "incumbent_terms": (
+                    "How many consecutive prior elections (within this same vintage) this candidate has "
+                    "already won in a row, as of this race — 0 for a non-incumbent. Feeds WAR v2's "
+                    "incumbency terms (1 / 2 / 3-or-more), a richer signal than the is_incumbent boolean alone."
+                ),
                 "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
                 "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
                 "war": (
@@ -234,14 +248,17 @@ SCHEMA_CARD = {
                     "baseline; negative = underperformed. Inflated for uncontested races — see is_uncontested."
                 ),
                 "war_v2": (
-                    "WAR v2: same as war, but the expected share also adds incumbency_adjustment when "
-                    "is_incumbent is true. A single fitted coefficient (see the methodology page for the "
-                    "current value) — the average gap between incumbents' and non-incumbents' WAR v1 over "
-                    "every contested major-party race. Same null cases as war."
+                    "WAR v2: actual_two_party_share minus a Bayesian regression's fitted expected share — "
+                    "district lean, that year's statewide (unapportioned) tide, and incumbency terms "
+                    "(1st/2nd/3rd-or-later), fit across every contested major-party race in the backfill. "
+                    "See the methodology page for the current posterior coefficients and their uncertainty. "
+                    "Same null cases as war."
                 ),
                 "incumbency_adjustment": (
-                    "The fitted incumbency term war_v2 subtracts from war when is_incumbent is true, 0 "
-                    "otherwise. Exposed separately so a query can decompose war_v2 back into war and this."
+                    "The fitted incumbency term's contribution to war_v2's expected share for this "
+                    "candidate's incumbent_terms bucket (0 for a non-incumbent). Exposed separately, "
+                    "alongside district_lean_dem_share and the statewide tide (see the methodology page's "
+                    "coefficients), so a query can reconstruct war_v2's full decomposition."
                 ),
             },
         },
@@ -338,6 +355,7 @@ def publish(
     vintages: list[str],
     derived_dir: Path,
     crosswalks_dir: Path,
+    baseline_dir: Path,
     ocpf_dir: Path,
     demographics_dir: Path,
     out_dir: Path,
@@ -348,7 +366,7 @@ def publish(
     seats.to_parquet(out_dir / "seats.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(seats), out_dir / "seats.parquet")
 
-    results = build_results_table(chambers, vintages, derived_dir)
+    results = build_results_table(chambers, vintages, derived_dir, baseline_dir)
     results.to_parquet(out_dir / "results.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(results), out_dir / "results.parquet")
 
@@ -374,6 +392,7 @@ def publish(
 )
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
+@click.option("--baseline-dir", type=click.Path(path_type=Path), default=Path("data/raw/pd43_statewide"))
 @click.option("--ocpf-dir", type=click.Path(path_type=Path), default=Path("data/raw/ocpf"))
 @click.option("--demographics-dir", type=click.Path(path_type=Path), default=Path("data/raw/demographics"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data"))
@@ -383,6 +402,7 @@ def main(
     vintages: str,
     derived_dir: Path,
     crosswalks_dir: Path,
+    baseline_dir: Path,
     ocpf_dir: Path,
     demographics_dir: Path,
     out_dir: Path,
@@ -391,7 +411,7 @@ def main(
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
-    publish(chambers, vintage_list, derived_dir, crosswalks_dir, ocpf_dir, demographics_dir, out_dir)
+    publish(chambers, vintage_list, derived_dir, crosswalks_dir, baseline_dir, ocpf_dir, demographics_dir, out_dir)
 
 
 if __name__ == "__main__":

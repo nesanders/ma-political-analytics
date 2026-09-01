@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1643
     is_incumbent: true
-    war_v2: 0.0398
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2213
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.441
+    tide_component: -0.0015
     expected_two_party_share: 0.8357
-    expected_two_party_share_v2: 0.9602
+    expected_two_party_share_v2: 0.7787
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5639
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4361
     is_incumbent: true
-    war_v2: 0.3116
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3615
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2976
+    tide_component: -0.0008
     expected_two_party_share: 0.5639
-    expected_two_party_share_v2: 0.6884
+    expected_two_party_share_v2: 0.6385
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8212
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1788
     is_incumbent: true
-    war_v2: 0.0543
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.216
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4333
+    tide_component: -0.0015
     expected_two_party_share: 0.8212
-    expected_two_party_share_v2: 0.9457
+    expected_two_party_share_v2: 0.784
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6993
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3007
     is_incumbent: false
-    war_v2: 0.3007
+    incumbent_terms: 0
+    war_v2: 0.4365
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.369
+    tide_component: -0.0011
     expected_two_party_share: 0.6993
-    expected_two_party_share_v2: 0.6993
+    expected_two_party_share_v2: 0.5635
   - name: Nicholas Lanzilli
     slug: nicholas-lanzilli
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.5553
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.8421
     war: 0.06
     is_incumbent: false
-    war_v2: 0.06
+    incumbent_terms: 0
+    war_v2: 0.2352
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4127
+    tide_component: -0.0014
     expected_two_party_share: 0.7821
-    expected_two_party_share_v2: 0.7821
+    expected_two_party_share_v2: 0.6069
   - name: David M. Rajczewski
     slug: david-m-rajczewski
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.1579
     war: -0.06
     is_incumbent: false
-    war_v2: -0.06
+    incumbent_terms: 0
+    war_v2: -0.1518
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.115
+    tide_component: -0.0009
     expected_two_party_share: 0.2179
-    expected_two_party_share_v2: 0.2179
+    expected_two_party_share_v2: 0.3097
   is_open_seat: null
 title: 34th Middlesex District (2012-2020)
 layout: district

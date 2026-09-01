@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.8421
   war: 0.06
-  war_v2: 0.06
+  war_v2: 0.2352
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7821
-  expected_two_party_share_v2: 0.7821
+  expected_two_party_share_v2: 0.6069
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.304
-  war_v2: 0.1795
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2948
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.696
-  expected_two_party_share_v2: 0.8205
+  expected_two_party_share_v2: 0.7052
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2449
-  war_v2: 0.1204
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2613
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7551
-  expected_two_party_share_v2: 0.8796
+  expected_two_party_share_v2: 0.7387
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2812
-  war_v2: 0.1567
-  incumbency_adjustment: 0.1245
+  war_v2: 0.27
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7188
-  expected_two_party_share_v2: 0.8433
+  expected_two_party_share_v2: 0.73
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2435
-  war_v2: 0.2435
+  war_v2: 0.4066
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7565
-  expected_two_party_share_v2: 0.7565
+  expected_two_party_share_v2: 0.5934
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Carl M. Sciortino, Jr.
 layout: candidate
 ---

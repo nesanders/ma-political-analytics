@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1469
-  war_v2: 0.0224
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2096
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.8531
-  expected_two_party_share_v2: 0.9776
+  expected_two_party_share_v2: 0.7904
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.9004
   war: 0.2126
-  war_v2: 0.0881
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1865
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6878
-  expected_two_party_share_v2: 0.8123
+  expected_two_party_share_v2: 0.7139
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
-  war_v2: 0.1966
+  war_v2: 0.3819
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8034
-  expected_two_party_share_v2: 0.8034
+  expected_two_party_share_v2: 0.6181
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2466
-  war_v2: 0.1221
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2516
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7534
-  expected_two_party_share_v2: 0.8779
+  expected_two_party_share_v2: 0.7484
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
-  war_v2: 0.1967
+  war_v2: 0.382
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8033
-  expected_two_party_share_v2: 0.8033
+  expected_two_party_share_v2: 0.618
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: "Sonia Rosa Chang-D\xC3\xADaz"
 layout: candidate
 ---

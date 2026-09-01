@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5448
     war: -0.0139
     is_incumbent: false
-    war_v2: -0.0139
+    incumbent_terms: 0
+    war_v2: 0.0554
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2948
+    tide_component: -0.0011
     expected_two_party_share: 0.5587
-    expected_two_party_share_v2: 0.5587
+    expected_two_party_share_v2: 0.4894
   - name: Steven J. D'Amico
     slug: steven-j-damico
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4552
     war: 0.0139
     is_incumbent: true
-    war_v2: -0.1106
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.1181
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2329
+    tide_component: -0.0012
     expected_two_party_share: 0.4413
-    expected_two_party_share_v2: 0.5658
+    expected_two_party_share_v2: 0.5733
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4431
     is_incumbent: true
-    war_v2: 0.3186
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3555
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2939
+    tide_component: -0.0015
     expected_two_party_share: 0.5569
-    expected_two_party_share_v2: 0.6814
+    expected_two_party_share_v2: 0.6445
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5324
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5696
     war: 0.0372
     is_incumbent: false
-    war_v2: 0.0372
+    incumbent_terms: 0
+    war_v2: 0.0945
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2809
+    tide_component: -0.0014
     expected_two_party_share: 0.5324
-    expected_two_party_share_v2: 0.5324
+    expected_two_party_share_v2: 0.4751
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4304
     war: -0.0372
     is_incumbent: false
-    war_v2: -0.0372
+    incumbent_terms: 0
+    war_v2: -0.0111
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2468
+    tide_component: -0.0009
     expected_two_party_share: 0.4676
-    expected_two_party_share_v2: 0.4676
+    expected_two_party_share_v2: 0.4415
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5725
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6317
     war: 0.0592
     is_incumbent: true
-    war_v2: -0.0653
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0211
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3021
+    tide_component: -0.0014
     expected_two_party_share: 0.5725
-    expected_two_party_share_v2: 0.697
+    expected_two_party_share_v2: 0.6528
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3683
     war: -0.0592
     is_incumbent: false
-    war_v2: -0.0592
+    incumbent_terms: 0
+    war_v2: -0.052
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2256
+    tide_component: -0.0009
     expected_two_party_share: 0.4275
-    expected_two_party_share_v2: 0.4275
+    expected_two_party_share_v2: 0.4203
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4353
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5647
     is_incumbent: false
-    war_v2: 0.5647
+    incumbent_terms: 0
+    war_v2: 0.5758
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2297
+    tide_component: -0.0011
     expected_two_party_share: 0.4353
-    expected_two_party_share_v2: 0.4353
+    expected_two_party_share_v2: 0.4242
   is_open_seat: null
 title: 4th Bristol (2001-2010)
 layout: district

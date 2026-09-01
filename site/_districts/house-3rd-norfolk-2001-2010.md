@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5331
     is_incumbent: true
-    war_v2: 0.4086
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4156
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2464
+    tide_component: -0.0012
     expected_two_party_share: 0.4669
-    expected_two_party_share_v2: 0.5914
+    expected_two_party_share_v2: 0.5844
   - name: Gary M. Lowell
     slug: gary-m-lowell
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.5695
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4455
     is_incumbent: true
-    war_v2: 0.321
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3696
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2926
+    tide_component: -0.0015
     expected_two_party_share: 0.5545
-    expected_two_party_share_v2: 0.679
+    expected_two_party_share_v2: 0.6304
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5402
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4598
     is_incumbent: true
-    war_v2: 0.3353
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3746
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2851
+    tide_component: -0.0014
     expected_two_party_share: 0.5402
-    expected_two_party_share_v2: 0.6647
+    expected_two_party_share_v2: 0.6254
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5929
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4071
     is_incumbent: true
-    war_v2: 0.2826
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3365
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3129
+    tide_component: -0.0014
     expected_two_party_share: 0.5929
-    expected_two_party_share_v2: 0.7174
+    expected_two_party_share_v2: 0.6635
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4494
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5506
     is_incumbent: false
-    war_v2: 0.5506
+    incumbent_terms: 0
+    war_v2: 0.5683
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2371
+    tide_component: -0.0011
     expected_two_party_share: 0.4494
-    expected_two_party_share_v2: 0.4494
+    expected_two_party_share_v2: 0.4317
   is_open_seat: null
 title: 3rd Norfolk (2001-2010)
 layout: district

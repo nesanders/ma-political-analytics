@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3787
-  war_v2: 0.2542
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3345
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6213
-  expected_two_party_share_v2: 0.7458
+  expected_two_party_share_v2: 0.6655
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5674
-  war_v2: 0.4429
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4333
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4326
-  expected_two_party_share_v2: 0.5571
+  expected_two_party_share_v2: 0.5667
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3316
-  war_v2: 0.2071
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3071
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6684
-  expected_two_party_share_v2: 0.7929
+  expected_two_party_share_v2: 0.6929
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3376
-  war_v2: 0.2131
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2995
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6624
-  expected_two_party_share_v2: 0.7869
+  expected_two_party_share_v2: 0.7005
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2302
-  war_v2: 0.2302
+  war_v2: 0.3996
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7698
-  expected_two_party_share_v2: 0.7698
+  expected_two_party_share_v2: 0.6004
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2742
-  war_v2: 0.1497
-  incumbency_adjustment: 0.1245
+  war_v2: 0.279
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7258
-  expected_two_party_share_v2: 0.8503
+  expected_two_party_share_v2: 0.721
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2479
-  war_v2: 0.1234
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2654
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7521
-  expected_two_party_share_v2: 0.8766
+  expected_two_party_share_v2: 0.7346
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2354
-  war_v2: 0.1109
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2562
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7646
-  expected_two_party_share_v2: 0.8891
+  expected_two_party_share_v2: 0.7438
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2229
-  war_v2: 0.0984
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2393
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7771
-  expected_two_party_share_v2: 0.9016
+  expected_two_party_share_v2: 0.7607
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -157,12 +166,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2664
-  war_v2: 0.2664
+  war_v2: 0.4184
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7336
-  expected_two_party_share_v2: 0.7336
+  expected_two_party_share_v2: 0.5816
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Antonio F.D. Cabral
 layout: candidate
 ---

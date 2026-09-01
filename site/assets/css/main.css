@@ -19,6 +19,16 @@
   --series-dem: #2a78d6;
   --series-rep: #e34948;
   --series-neutral: #f0efec;
+  /* WAR attribution-chart components (dataviz skill's categorical
+     slots 2-6, fixed order) — deliberately not series-dem/-rep: these
+     are regression terms, not party identities, and reusing the party
+     colors here would misread as a partisan encoding. Validated via
+     the skill's validate_palette.js for this 5-slot subset. */
+  --war-intercept: #eb6834;
+  --war-lean: #1baf7a;
+  --war-tide: #eda100;
+  --war-incumbency: #e87ba4;
+  --war-residual: #008300;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,6 +45,11 @@
     --series-dem: #3987e5;
     --series-rep: #e66767;
     --series-neutral: #383835;
+    --war-intercept: #d95926;
+    --war-lean: #199e70;
+    --war-tide: #c98500;
+    --war-incumbency: #d55181;
+    --war-residual: #008300;
   }
 }
 
@@ -51,6 +66,11 @@
   --series-dem: #3987e5;
   --series-rep: #e66767;
   --series-neutral: #383835;
+  --war-intercept: #d95926;
+  --war-lean: #199e70;
+  --war-tide: #c98500;
+  --war-incumbency: #d55181;
+  --war-residual: #008300;
 }
 
 /* Fixed institutional masthead — deliberately does not flip with the

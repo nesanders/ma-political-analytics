@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3708
   war: -0.037
-  war_v2: -0.037
+  war_v2: -0.0391
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4078
-  expected_two_party_share_v2: 0.4078
+  expected_two_party_share_v2: 0.4099
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Karin K. Rhoton
 layout: candidate
 ---

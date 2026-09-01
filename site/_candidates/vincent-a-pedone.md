@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3541
-  war_v2: 0.2296
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3212
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6459
-  expected_two_party_share_v2: 0.7704
+  expected_two_party_share_v2: 0.6788
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3089
-  war_v2: 0.1844
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2976
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6911
-  expected_two_party_share_v2: 0.8156
+  expected_two_party_share_v2: 0.7024
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2521
-  war_v2: 0.1276
-  incumbency_adjustment: 0.1245
+  war_v2: 0.265
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7479
-  expected_two_party_share_v2: 0.8724
+  expected_two_party_share_v2: 0.735
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3157
-  war_v2: 0.1912
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2882
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6843
-  expected_two_party_share_v2: 0.8088
+  expected_two_party_share_v2: 0.7118
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.443
-  war_v2: 0.443
+  war_v2: 0.5116
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.557
-  expected_two_party_share_v2: 0.557
+  expected_two_party_share_v2: 0.4884
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Vincent A. Pedone
 layout: candidate
 ---

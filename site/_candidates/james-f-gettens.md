@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3913
   war: -0.1613
-  war_v2: -0.1613
+  war_v2: -0.0949
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5526
-  expected_two_party_share_v2: 0.5526
+  expected_two_party_share_v2: 0.4862
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: James F. Gettens
 layout: candidate
 ---

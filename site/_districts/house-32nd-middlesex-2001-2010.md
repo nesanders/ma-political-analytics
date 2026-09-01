@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5149
     war: 0.0404
     is_incumbent: false
-    war_v2: 0.0404
+    incumbent_terms: 0
+    war_v2: 0.0701
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2504
+    tide_component: -0.0012
     expected_two_party_share: 0.4745
-    expected_two_party_share_v2: 0.4745
+    expected_two_party_share_v2: 0.4448
   - name: David R. Lucas
     slug: david-r-lucas
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4851
     war: -0.0404
     is_incumbent: false
-    war_v2: -0.0404
+    incumbent_terms: 0
+    war_v2: 0.0133
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2773
+    tide_component: -0.0011
     expected_two_party_share: 0.5255
-    expected_two_party_share_v2: 0.5255
+    expected_two_party_share_v2: 0.4718
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5925
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4075
     is_incumbent: false
-    war_v2: 0.4075
+    incumbent_terms: 0
+    war_v2: 0.4932
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3127
+    tide_component: -0.0015
     expected_two_party_share: 0.5925
-    expected_two_party_share_v2: 0.5925
+    expected_two_party_share_v2: 0.5068
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5627
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4373
     is_incumbent: true
-    war_v2: 0.3128
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3628
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2969
+    tide_component: -0.0014
     expected_two_party_share: 0.5627
-    expected_two_party_share_v2: 0.6872
+    expected_two_party_share_v2: 0.6372
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6111
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6684
     war: 0.0573
     is_incumbent: true
-    war_v2: -0.0672
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0047
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3225
+    tide_component: -0.0014
     expected_two_party_share: 0.6111
-    expected_two_party_share_v2: 0.7356
+    expected_two_party_share_v2: 0.6731
   - name: Thomas M. Quinn
     slug: thomas-m-quinn
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3316
     war: -0.0573
     is_incumbent: false
-    war_v2: -0.0573
+    incumbent_terms: 0
+    war_v2: -0.0684
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2052
+    tide_component: -0.0009
     expected_two_party_share: 0.3889
-    expected_two_party_share_v2: 0.3889
+    expected_two_party_share_v2: 0.4
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4345
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.6524
     war: 0.2179
     is_incumbent: false
-    war_v2: 0.2179
+    incumbent_terms: 0
+    war_v2: 0.2286
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2293
+    tide_component: -0.0011
     expected_two_party_share: 0.4345
-    expected_two_party_share_v2: 0.4345
+    expected_two_party_share_v2: 0.4238
   - name: Arthur E. Hitchman, Jr.
     slug: arthur-e-hitchman-jr
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.3476
     war: -0.2179
     is_incumbent: false
-    war_v2: -0.2179
+    incumbent_terms: 0
+    war_v2: -0.1452
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2984
+    tide_component: -0.0012
     expected_two_party_share: 0.5655
-    expected_two_party_share_v2: 0.5655
+    expected_two_party_share_v2: 0.4928
   is_open_seat: null
 title: 32nd Middlesex (2001-2010)
 layout: district

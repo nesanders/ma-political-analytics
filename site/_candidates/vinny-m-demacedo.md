@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5882
   war: -0.1758
-  war_v2: -0.3003
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1551
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.764
-  expected_two_party_share_v2: 0.8885
+  expected_two_party_share_v2: 0.7433
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5292
-  war_v2: 0.4047
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4003
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4708
-  expected_two_party_share_v2: 0.5953
+  expected_two_party_share_v2: 0.5997
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.6343
   war: 0.0343
-  war_v2: 0.0343
+  war_v2: 0.1233
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6
-  expected_two_party_share_v2: 0.6
+  expected_two_party_share_v2: 0.511
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.515
-  war_v2: 0.515
+  war_v2: 0.5493
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.485
-  expected_two_party_share_v2: 0.485
+  expected_two_party_share_v2: 0.4507
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4352
-  war_v2: 0.3107
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3638
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5648
-  expected_two_party_share_v2: 0.6893
+  expected_two_party_share_v2: 0.6362
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.6749
   war: 0.211
-  war_v2: 0.0865
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0917
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4639
-  expected_two_party_share_v2: 0.5884
+  expected_two_party_share_v2: 0.5832
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5371
-  war_v2: 0.4126
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4149
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4629
-  expected_two_party_share_v2: 0.5874
+  expected_two_party_share_v2: 0.5851
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.6211
   war: 0.1653
-  war_v2: 0.0408
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0293
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4558
-  expected_two_party_share_v2: 0.5803
+  expected_two_party_share_v2: 0.5918
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 0.6718
   war: 0.0568
-  war_v2: 0.0568
+  war_v2: 0.1529
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.615
-  expected_two_party_share_v2: 0.615
+  expected_two_party_share_v2: 0.5189
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Vinny M. deMacedo
 layout: candidate
 ---

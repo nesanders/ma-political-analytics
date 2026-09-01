@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5475
     war: 0.0141
     is_incumbent: true
-    war_v2: -0.1104
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0845
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2815
+    tide_component: -0.0015
     expected_two_party_share: 0.5334
-    expected_two_party_share_v2: 0.6579
+    expected_two_party_share_v2: 0.632
   - name: Summer K. Schmaling
     slug: summer-k-schmaling
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4525
     war: -0.0141
     is_incumbent: false
-    war_v2: -0.0141
+    incumbent_terms: 0
+    war_v2: 0.0114
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2462
+    tide_component: -0.0008
     expected_two_party_share: 0.4666
-    expected_two_party_share_v2: 0.4666
+    expected_two_party_share_v2: 0.4411
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2121
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5253
     war: 0.3132
     is_incumbent: false
-    war_v2: 0.3132
+    incumbent_terms: 0
+    war_v2: 0.2185
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1119
+    tide_component: -0.0008
     expected_two_party_share: 0.2121
-    expected_two_party_share_v2: 0.2121
+    expected_two_party_share_v2: 0.3068
   - name: Joseph M. Truschelli
     slug: joseph-m-truschelli
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4747
     war: -0.3132
     is_incumbent: false
-    war_v2: -0.3132
+    incumbent_terms: 0
+    war_v2: -0.1351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4158
+    tide_component: -0.0015
     expected_two_party_share: 0.7879
-    expected_two_party_share_v2: 0.7879
+    expected_two_party_share_v2: 0.6098
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4771
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5994
     war: 0.1223
     is_incumbent: true
-    war_v2: -0.0022
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0074
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2518
+    tide_component: -0.0015
     expected_two_party_share: 0.4771
-    expected_two_party_share_v2: 0.6016
+    expected_two_party_share_v2: 0.592
   - name: Peter J. Boncek
     slug: peter-j-boncek
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4006
     war: -0.1223
     is_incumbent: false
-    war_v2: -0.1223
+    incumbent_terms: 0
+    war_v2: -0.0701
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2759
+    tide_component: -0.0008
     expected_two_party_share: 0.5229
-    expected_two_party_share_v2: 0.5229
+    expected_two_party_share_v2: 0.4707
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3561
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3561
     is_incumbent: true
-    war_v2: 0.2316
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3093
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3398
+    tide_component: -0.0012
     expected_two_party_share: 0.6439
-    expected_two_party_share_v2: 0.7684
+    expected_two_party_share_v2: 0.6907
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.474
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.6253
     war: 0.1512
     is_incumbent: false
-    war_v2: 0.1512
+    incumbent_terms: 0
+    war_v2: 0.181
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2501
+    tide_component: -0.0014
     expected_two_party_share: 0.4741
-    expected_two_party_share_v2: 0.4741
+    expected_two_party_share_v2: 0.4443
   - name: Debra A. Betz
     slug: debra-a-betz
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.3747
     war: -0.1512
     is_incumbent: false
-    war_v2: -0.1512
+    incumbent_terms: 0
+    war_v2: -0.0976
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2776
+    tide_component: -0.0009
     expected_two_party_share: 0.5259
-    expected_two_party_share_v2: 0.5259
+    expected_two_party_share_v2: 0.4723
   is_open_seat: null
 title: 12th Plymouth District (2012-2020)
 layout: district

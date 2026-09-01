@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3504
   war: -0.1777
-  war_v2: -0.1777
+  war_v2: -0.1224
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5281
-  expected_two_party_share_v2: 0.5281
+  expected_two_party_share_v2: 0.4728
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Andrew J. Myers
 layout: candidate
 ---

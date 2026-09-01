@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3383
     is_incumbent: true
-    war_v2: 0.2138
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3132
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3492
+    tide_component: -0.0015
     expected_two_party_share: 0.6617
-    expected_two_party_share_v2: 0.7862
+    expected_two_party_share_v2: 0.6868
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3161
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6839
     is_incumbent: true
-    war_v2: 0.5594
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4948
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1668
+    tide_component: -0.0008
     expected_two_party_share: 0.3161
-    expected_two_party_share_v2: 0.4406
+    expected_two_party_share_v2: 0.5052
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6489
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3511
     is_incumbent: true
-    war_v2: 0.2266
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3174
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3424
+    tide_component: -0.0015
     expected_two_party_share: 0.6489
-    expected_two_party_share_v2: 0.7734
+    expected_two_party_share_v2: 0.6826
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.471
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6027
     war: 0.1317
     is_incumbent: true
-    war_v2: 0.0072
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0032
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2485
+    tide_component: -0.0011
     expected_two_party_share: 0.471
-    expected_two_party_share_v2: 0.5955
+    expected_two_party_share_v2: 0.5995
   - name: Paul J. Franco
     slug: paul-j-franco
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3973
     war: -0.1317
     is_incumbent: false
-    war_v2: -0.1317
+    incumbent_terms: 0
+    war_v2: -0.0763
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2792
+    tide_component: -0.0012
     expected_two_party_share: 0.529
-    expected_two_party_share_v2: 0.529
+    expected_two_party_share_v2: 0.4736
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6187
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3813
     is_incumbent: false
-    war_v2: 0.3813
+    incumbent_terms: 0
+    war_v2: 0.4793
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3265
+    tide_component: -0.0014
     expected_two_party_share: 0.6187
-    expected_two_party_share_v2: 0.6187
+    expected_two_party_share_v2: 0.5207
   is_open_seat: null
 title: First Worcester District (2012-2020)
 layout: district

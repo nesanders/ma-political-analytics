@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3364
     is_incumbent: true
-    war_v2: 0.2119
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3122
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3502
+    tide_component: -0.0015
     expected_two_party_share: 0.6636
-    expected_two_party_share_v2: 0.7881
+    expected_two_party_share_v2: 0.6878
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3133
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6867
     is_incumbent: true
-    war_v2: 0.5622
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4962
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1653
+    tide_component: -0.0008
     expected_two_party_share: 0.3133
-    expected_two_party_share_v2: 0.4378
+    expected_two_party_share_v2: 0.5038
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6585
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3415
     is_incumbent: true
-    war_v2: 0.217
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3123
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3475
+    tide_component: -0.0015
     expected_two_party_share: 0.6585
-    expected_two_party_share_v2: 0.783
+    expected_two_party_share_v2: 0.6877
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4844
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5156
     is_incumbent: true
-    war_v2: 0.3911
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3934
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2556
+    tide_component: -0.0011
     expected_two_party_share: 0.4844
-    expected_two_party_share_v2: 0.6089
+    expected_two_party_share_v2: 0.6066
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6262
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3738
     is_incumbent: false
-    war_v2: 0.3738
+    incumbent_terms: 0
+    war_v2: 0.4754
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3304
+    tide_component: -0.0014
     expected_two_party_share: 0.6262
-    expected_two_party_share_v2: 0.6262
+    expected_two_party_share_v2: 0.5246
   is_open_seat: null
 title: 16th Middlesex District (2012-2020)
 layout: district

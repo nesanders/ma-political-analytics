@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2562
-  war_v2: 0.1317
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2568
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7438
-  expected_two_party_share_v2: 0.8683
+  expected_two_party_share_v2: 0.7432
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.395
-  war_v2: 0.395
+  war_v2: 0.4862
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.605
-  expected_two_party_share_v2: 0.605
+  expected_two_party_share_v2: 0.5138
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas M. Finneran
 layout: candidate
 ---

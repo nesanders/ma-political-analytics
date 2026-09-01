@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3756
   war: -0.0954
-  war_v2: -0.0954
+  war_v2: -0.067
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.471
-  expected_two_party_share_v2: 0.471
+  expected_two_party_share_v2: 0.4426
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kerri A. O'Connor
 layout: candidate
 ---

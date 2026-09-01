@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2209
-  war_v2: 0.0964
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2487
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7791
-  expected_two_party_share_v2: 0.9036
+  expected_two_party_share_v2: 0.7513
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3146
-  war_v2: 0.1901
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2873
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6854
-  expected_two_party_share_v2: 0.8099
+  expected_two_party_share_v2: 0.7127
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2263
-  war_v2: 0.2263
+  war_v2: 0.3975
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7737
-  expected_two_party_share_v2: 0.7737
+  expected_two_party_share_v2: 0.6025
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.267
-  war_v2: 0.1425
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2752
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.733
-  expected_two_party_share_v2: 0.8575
+  expected_two_party_share_v2: 0.7248
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2261
-  war_v2: 0.1016
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2539
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7739
-  expected_two_party_share_v2: 0.8984
+  expected_two_party_share_v2: 0.7461
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.8194
   war: 0.0533
-  war_v2: -0.0712
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0748
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7661
-  expected_two_party_share_v2: 0.8906
+  expected_two_party_share_v2: 0.7446
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.8039
   war: 0.0633
-  war_v2: -0.0612
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0624
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7406
-  expected_two_party_share_v2: 0.8651
+  expected_two_party_share_v2: 0.7415
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3157
-  war_v2: 0.3157
+  war_v2: 0.4444
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6843
-  expected_two_party_share_v2: 0.6843
+  expected_two_party_share_v2: 0.5556
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Peter V. Kocot
 layout: candidate
 ---

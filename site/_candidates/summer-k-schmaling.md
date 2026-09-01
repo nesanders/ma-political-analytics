@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4525
   war: -0.0141
-  war_v2: -0.0141
+  war_v2: 0.0114
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4666
-  expected_two_party_share_v2: 0.4666
+  expected_two_party_share_v2: 0.4411
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Summer K. Schmaling
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.7377
     war: 0.1284
     is_incumbent: true
-    war_v2: 0.0039
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0782
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3215
+    tide_component: -0.0012
     expected_two_party_share: 0.6093
-    expected_two_party_share_v2: 0.7338
+    expected_two_party_share_v2: 0.6595
   - name: James E. Dixon
     slug: james-e-dixon
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.2623
     war: -0.1284
     is_incumbent: false
-    war_v2: -0.1284
+    incumbent_terms: 0
+    war_v2: -0.1384
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2062
+    tide_component: -0.0011
     expected_two_party_share: 0.3907
-    expected_two_party_share_v2: 0.3907
+    expected_two_party_share_v2: 0.4007
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6902
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3098
     is_incumbent: true
-    war_v2: 0.1853
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.298
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3642
+    tide_component: -0.0015
     expected_two_party_share: 0.6902
-    expected_two_party_share_v2: 0.8147
+    expected_two_party_share_v2: 0.702
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.657
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.8238
     war: 0.1668
     is_incumbent: true
-    war_v2: 0.0423
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1368
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3467
+    tide_component: -0.0014
     expected_two_party_share: 0.657
-    expected_two_party_share_v2: 0.7815
+    expected_two_party_share_v2: 0.687
   - name: Dara Pourghasemi
     slug: dara-pourghasemi
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.1762
     war: -0.1668
     is_incumbent: false
-    war_v2: -0.1668
+    incumbent_terms: 0
+    war_v2: -0.1995
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.181
+    tide_component: -0.0009
     expected_two_party_share: 0.343
-    expected_two_party_share_v2: 0.343
+    expected_two_party_share_v2: 0.3757
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.684
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.316
     is_incumbent: true
-    war_v2: 0.1915
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2884
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3609
+    tide_component: -0.0014
     expected_two_party_share: 0.684
-    expected_two_party_share_v2: 0.8085
+    expected_two_party_share_v2: 0.7116
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5137
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4863
     is_incumbent: false
-    war_v2: 0.4863
+    incumbent_terms: 0
+    war_v2: 0.5344
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2711
+    tide_component: -0.0011
     expected_two_party_share: 0.5137
-    expected_two_party_share_v2: 0.5137
+    expected_two_party_share_v2: 0.4656
   is_open_seat: null
 title: 10th Middlesex (2001-2010)
 layout: district

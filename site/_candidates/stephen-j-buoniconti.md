@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3552
-  war_v2: 0.2307
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3195
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6448
-  expected_two_party_share_v2: 0.7693
+  expected_two_party_share_v2: 0.6805
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3789
-  war_v2: 0.2544
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3216
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6211
-  expected_two_party_share_v2: 0.7456
+  expected_two_party_share_v2: 0.6784
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.7379
   war: 0.1082
-  war_v2: 0.1082
+  war_v2: 0.2115
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6297
-  expected_two_party_share_v2: 0.6297
+  expected_two_party_share_v2: 0.5264
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5512
-  war_v2: 0.5512
+  war_v2: 0.5687
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4488
-  expected_two_party_share_v2: 0.4488
+  expected_two_party_share_v2: 0.4313
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen J. Buoniconti
 layout: candidate
 ---

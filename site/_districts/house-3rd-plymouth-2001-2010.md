@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6209
     war: 0.1723
     is_incumbent: true
-    war_v2: 0.0478
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0462
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2368
+    tide_component: -0.0012
     expected_two_party_share: 0.4486
-    expected_two_party_share_v2: 0.5731
+    expected_two_party_share_v2: 0.5747
   - name: Timothy F. Finnerty
     slug: timothy-f-finnerty
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3791
     war: -0.1723
     is_incumbent: false
-    war_v2: -0.1723
+    incumbent_terms: 0
+    war_v2: -0.1064
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2909
+    tide_component: -0.0011
     expected_two_party_share: 0.5514
-    expected_two_party_share_v2: 0.5514
+    expected_two_party_share_v2: 0.4855
   - name: Carlton A. Chambers
     slug: carlton-a-chambers
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0256
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.46
     is_incumbent: true
-    war_v2: 0.3355
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3773
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.285
+    tide_component: -0.0015
     expected_two_party_share: 0.54
-    expected_two_party_share_v2: 0.6645
+    expected_two_party_share_v2: 0.6227
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.51
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.49
     is_incumbent: true
-    war_v2: 0.3655
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3906
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2691
+    tide_component: -0.0014
     expected_two_party_share: 0.51
-    expected_two_party_share_v2: 0.6345
+    expected_two_party_share_v2: 0.6094
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5305
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4695
     is_incumbent: true
-    war_v2: 0.345
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3694
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2799
+    tide_component: -0.0014
     expected_two_party_share: 0.5305
-    expected_two_party_share_v2: 0.655
+    expected_two_party_share_v2: 0.6306
   - name: Laura M. Burns
     slug: laura-m-burns
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0609
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.6765
     war: 0.3353
     is_incumbent: false
-    war_v2: 0.3353
+    incumbent_terms: 0
+    war_v2: 0.3019
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1801
+    tide_component: -0.0011
     expected_two_party_share: 0.3412
-    expected_two_party_share_v2: 0.3412
+    expected_two_party_share_v2: 0.3746
   - name: Nathaniel G. Palmer
     slug: nathaniel-g-palmer
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.3235
     war: -0.3353
     is_incumbent: false
-    war_v2: -0.3353
+    incumbent_terms: 0
+    war_v2: -0.2185
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3476
+    tide_component: -0.0012
     expected_two_party_share: 0.6588
-    expected_two_party_share_v2: 0.6588
+    expected_two_party_share_v2: 0.542
   is_open_seat: null
 title: 3rd Plymouth (2001-2010)
 layout: district

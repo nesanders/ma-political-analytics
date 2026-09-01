@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.257
     is_incumbent: true
-    war_v2: 0.1325
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2703
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3921
+    tide_component: -0.0015
     expected_two_party_share: 0.743
-    expected_two_party_share_v2: 0.8675
+    expected_two_party_share_v2: 0.7297
   - name: George A. Darcy, III
     slug: george-a-darcy-iii
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.3579
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6091
     is_incumbent: true
-    war_v2: 0.4846
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4553
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2063
+    tide_component: -0.0008
     expected_two_party_share: 0.3909
-    expected_two_party_share_v2: 0.5154
+    expected_two_party_share_v2: 0.5447
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7176
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2824
     is_incumbent: true
-    war_v2: 0.1579
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2811
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3787
+    tide_component: -0.0015
     expected_two_party_share: 0.7176
-    expected_two_party_share_v2: 0.8421
+    expected_two_party_share_v2: 0.7189
   - name: Stacey Gallagher M. Tully
     slug: stacey-gallagher-m-tully
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.5661
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4551
     is_incumbent: true
-    war_v2: 0.3306
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3615
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2875
+    tide_component: -0.0011
     expected_two_party_share: 0.5449
-    expected_two_party_share_v2: 0.6694
+    expected_two_party_share_v2: 0.6385
   - name: Sharon K. Antia
     slug: sharon-k-antia
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.3978
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3464
     is_incumbent: false
-    war_v2: 0.3464
+    incumbent_terms: 0
+    war_v2: 0.4609
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3449
+    tide_component: -0.0014
     expected_two_party_share: 0.6536
-    expected_two_party_share_v2: 0.6536
+    expected_two_party_share_v2: 0.5391
   is_open_seat: null
 title: 9th Middlesex District (2012-2020)
 layout: district

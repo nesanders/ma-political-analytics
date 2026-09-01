@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6126
     war: -0.1119
     is_incumbent: false
-    war_v2: -0.1119
+    incumbent_terms: 0
+    war_v2: 0.0359
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3823
+    tide_component: -0.0012
     expected_two_party_share: 0.7245
-    expected_two_party_share_v2: 0.7245
+    expected_two_party_share_v2: 0.5767
   - name: Michael F. Case
     slug: michael-f-case
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3874
     war: 0.1119
     is_incumbent: false
-    war_v2: 0.1119
+    incumbent_terms: 0
+    war_v2: 0.0475
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1454
+    tide_component: -0.0011
     expected_two_party_share: 0.2755
-    expected_two_party_share_v2: 0.2755
+    expected_two_party_share_v2: 0.3399
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1263
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2627
     is_incumbent: true
-    war_v2: 0.1382
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2707
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3891
+    tide_component: -0.0015
     expected_two_party_share: 0.7373
-    expected_two_party_share_v2: 0.8618
+    expected_two_party_share_v2: 0.7293
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7596
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2404
     is_incumbent: true
-    war_v2: 0.1159
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2485
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4008
+    tide_component: -0.0014
     expected_two_party_share: 0.7596
-    expected_two_party_share_v2: 0.8841
+    expected_two_party_share_v2: 0.7515
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -109,8 +129,12 @@ results_by_year:
     actual_two_party_share: 0.2938
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.6978
     war: 0.0011
     is_incumbent: false
-    war_v2: 0.0011
+    incumbent_terms: 0
+    war_v2: 0.136
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3676
+    tide_component: -0.0014
     expected_two_party_share: 0.6967
-    expected_two_party_share_v2: 0.6967
+    expected_two_party_share_v2: 0.5618
   - name: Richard S. Stockwell
     slug: richard-s-stockwell
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.3022
     war: -0.0011
     is_incumbent: false
-    war_v2: -0.0011
+    incumbent_terms: 0
+    war_v2: -0.0526
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1601
+    tide_component: -0.0009
     expected_two_party_share: 0.3033
-    expected_two_party_share_v2: 0.3033
+    expected_two_party_share_v2: 0.3548
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.6198
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6198
     is_incumbent: false
-    war_v2: 0.6198
+    incumbent_terms: 0
+    war_v2: 0.605
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2006
+    tide_component: -0.0012
     expected_two_party_share: 0.3802
-    expected_two_party_share_v2: 0.3802
+    expected_two_party_share_v2: 0.395
   - name: Matthew E. Goddard
     slug: matthew-e-goddard
     party: Other
@@ -175,8 +211,12 @@ results_by_year:
     actual_two_party_share: 0.2958
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

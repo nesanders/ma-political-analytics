@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1473
   war: -0.0768
-  war_v2: -0.0768
+  war_v2: -0.1657
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2241
-  expected_two_party_share_v2: 0.2241
+  expected_two_party_share_v2: 0.313
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.1591
   war: -0.101
-  war_v2: -0.101
+  war_v2: -0.1729
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2601
-  expected_two_party_share_v2: 0.2601
+  expected_two_party_share_v2: 0.332
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: false
   actual_two_party_share: 0.2836
   war: 0.0032
-  war_v2: 0.0032
+  war_v2: -0.0591
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2804
-  expected_two_party_share_v2: 0.2804
+  expected_two_party_share_v2: 0.3427
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: George Vazquez
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2776
   war: -0.093
-  war_v2: -0.093
+  war_v2: -0.1124
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3706
-  expected_two_party_share_v2: 0.3706
+  expected_two_party_share_v2: 0.39
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: J. Cristopher Irsfeld
 layout: candidate
 ---

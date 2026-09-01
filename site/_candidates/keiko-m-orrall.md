@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.469
-  war_v2: 0.3445
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3789
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.531
-  expected_two_party_share_v2: 0.6555
+  expected_two_party_share_v2: 0.6211
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3839
-  war_v2: 0.2594
-  incumbency_adjustment: 0.1245
+  war_v2: 0.324
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6161
-  expected_two_party_share_v2: 0.7406
+  expected_two_party_share_v2: 0.676
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5764
   war: 0.0806
-  war_v2: 0.0806
+  war_v2: 0.12
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4958
-  expected_two_party_share_v2: 0.4958
+  expected_two_party_share_v2: 0.4564
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Keiko M. Orrall
 layout: candidate
 ---

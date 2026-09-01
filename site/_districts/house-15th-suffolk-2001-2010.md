@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.245
     is_incumbent: true
-    war_v2: 0.1205
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2636
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3984
+    tide_component: -0.0012
     expected_two_party_share: 0.755
-    expected_two_party_share_v2: 0.8795
+    expected_two_party_share_v2: 0.7364
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8102
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1898
     is_incumbent: true
-    war_v2: 0.0653
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2347
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4275
+    tide_component: -0.0015
     expected_two_party_share: 0.8102
-    expected_two_party_share_v2: 0.9347
+    expected_two_party_share_v2: 0.7653
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7818
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2182
     is_incumbent: true
-    war_v2: 0.0937
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2472
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4126
+    tide_component: -0.0014
     expected_two_party_share: 0.7818
-    expected_two_party_share_v2: 0.9063
+    expected_two_party_share_v2: 0.7528
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.79
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.21
     is_incumbent: true
-    war_v2: 0.0855
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2325
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4169
+    tide_component: -0.0014
     expected_two_party_share: 0.79
-    expected_two_party_share_v2: 0.9145
+    expected_two_party_share_v2: 0.7675
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6562
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3438
     is_incumbent: false
-    war_v2: 0.3438
+    incumbent_terms: 0
+    war_v2: 0.4592
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3463
+    tide_component: -0.0011
     expected_two_party_share: 0.6562
-    expected_two_party_share_v2: 0.6562
+    expected_two_party_share_v2: 0.5408
   - name: George A. Chidi, Jr.
     slug: george-a-chidi-jr
     party: Other
@@ -127,8 +147,12 @@ results_by_year:
     actual_two_party_share: 0.1772
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: John H. Clifford
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.1413
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

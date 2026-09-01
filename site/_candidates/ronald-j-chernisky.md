@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3953
   war: -0.0637
-  war_v2: -0.0637
+  war_v2: -0.0417
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.459
-  expected_two_party_share_v2: 0.459
+  expected_two_party_share_v2: 0.437
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Ronald J. Chernisky
 layout: candidate
 ---

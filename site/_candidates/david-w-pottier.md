@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4194
   war: -0.1497
-  war_v2: -0.1497
+  war_v2: -0.0754
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5691
-  expected_two_party_share_v2: 0.5691
+  expected_two_party_share_v2: 0.4948
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David W. Pottier
 layout: candidate
 ---

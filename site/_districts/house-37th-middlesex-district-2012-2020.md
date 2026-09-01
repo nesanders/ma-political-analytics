@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6455
     war: -0.0509
     is_incumbent: false
-    war_v2: -0.0509
+    incumbent_terms: 0
+    war_v2: 0.084
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3675
+    tide_component: -0.0015
     expected_two_party_share: 0.6964
-    expected_two_party_share_v2: 0.6964
+    expected_two_party_share_v2: 0.5615
   - name: Catherine J. Clark
     slug: catherine-j-clark
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3545
     war: 0.0509
     is_incumbent: false
-    war_v2: 0.0509
+    incumbent_terms: 0
+    war_v2: -0.0006
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1602
+    tide_component: -0.0008
     expected_two_party_share: 0.3036
-    expected_two_party_share_v2: 0.3036
+    expected_two_party_share_v2: 0.3551
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3125
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6875
     is_incumbent: true
-    war_v2: 0.563
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4967
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1649
+    tide_component: -0.0008
     expected_two_party_share: 0.3125
-    expected_two_party_share_v2: 0.437
+    expected_two_party_share_v2: 0.5033
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6515
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3485
     is_incumbent: true
-    war_v2: 0.224
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.316
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3438
+    tide_component: -0.0015
     expected_two_party_share: 0.6515
-    expected_two_party_share_v2: 0.776
+    expected_two_party_share_v2: 0.684
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4531
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5469
     is_incumbent: true
-    war_v2: 0.4224
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4099
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2391
+    tide_component: -0.0011
     expected_two_party_share: 0.4531
-    expected_two_party_share_v2: 0.5776
+    expected_two_party_share_v2: 0.5901
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5749
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4251
     is_incumbent: false
-    war_v2: 0.4251
+    incumbent_terms: 0
+    war_v2: 0.5024
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3034
+    tide_component: -0.0014
     expected_two_party_share: 0.5749
-    expected_two_party_share_v2: 0.5749
+    expected_two_party_share_v2: 0.4976
   is_open_seat: null
 title: 37th Middlesex District (2012-2020)
 layout: district

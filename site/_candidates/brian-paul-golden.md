@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2131
-  war_v2: 0.0886
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2341
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7869
-  expected_two_party_share_v2: 0.9114
+  expected_two_party_share_v2: 0.7659
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3441
-  war_v2: 0.3441
+  war_v2: 0.4594
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6559
-  expected_two_party_share_v2: 0.6559
+  expected_two_party_share_v2: 0.5406
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Brian Paul Golden
 layout: candidate
 ---

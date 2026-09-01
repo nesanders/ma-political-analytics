@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4297
     is_incumbent: true
-    war_v2: 0.3052
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3589
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3009
+    tide_component: -0.0015
     expected_two_party_share: 0.5703
-    expected_two_party_share_v2: 0.6948
+    expected_two_party_share_v2: 0.6411
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7715
     is_incumbent: true
-    war_v2: 0.647
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.5281
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1206
+    tide_component: -0.0008
     expected_two_party_share: 0.2285
-    expected_two_party_share_v2: 0.353
+    expected_two_party_share_v2: 0.4719
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5446
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4554
     is_incumbent: false
-    war_v2: 0.4554
+    incumbent_terms: 0
+    war_v2: 0.5185
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2874
+    tide_component: -0.0015
     expected_two_party_share: 0.5446
-    expected_two_party_share_v2: 0.5446
+    expected_two_party_share_v2: 0.4815
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4283
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.5154
     war: -0.0563
     is_incumbent: false
-    war_v2: -0.0563
+    incumbent_terms: 0
+    war_v2: 0.0193
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3017
+    tide_component: -0.0012
     expected_two_party_share: 0.5717
-    expected_two_party_share_v2: 0.5717
+    expected_two_party_share_v2: 0.4961
   - name: Beverley  A. Griffin Dunne
     slug: beverley--a-griffin-dunne
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.4846
     war: 0.0563
     is_incumbent: false
-    war_v2: 0.0563
+    incumbent_terms: 0
+    war_v2: 0.0641
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.226
+    tide_component: -0.0011
     expected_two_party_share: 0.4283
-    expected_two_party_share_v2: 0.4283
+    expected_two_party_share_v2: 0.4205
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5639
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4361
     is_incumbent: false
-    war_v2: 0.4361
+    incumbent_terms: 0
+    war_v2: 0.5083
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2976
+    tide_component: -0.0014
     expected_two_party_share: 0.5639
-    expected_two_party_share_v2: 0.5639
+    expected_two_party_share_v2: 0.4917
   is_open_seat: null
 title: 12th Essex District (2012-2020)
 layout: district

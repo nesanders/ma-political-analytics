@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3045
     is_incumbent: true
-    war_v2: 0.18
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2953
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.367
+    tide_component: -0.0015
     expected_two_party_share: 0.6955
-    expected_two_party_share_v2: 0.82
+    expected_two_party_share_v2: 0.7047
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3233
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6703
     war: 0.3471
     is_incumbent: true
-    war_v2: 0.2226
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1588
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1706
+    tide_component: -0.0008
     expected_two_party_share: 0.3232
-    expected_two_party_share_v2: 0.4477
+    expected_two_party_share_v2: 0.5115
   - name: Erin K. Calvo-Bacci
     slug: erin-k-calvo-bacci
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3297
     war: -0.3471
     is_incumbent: false
-    war_v2: -0.3471
+    incumbent_terms: 0
+    war_v2: -0.2215
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3571
+    tide_component: -0.0015
     expected_two_party_share: 0.6768
-    expected_two_party_share_v2: 0.6768
+    expected_two_party_share_v2: 0.5512
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6539
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.6915
     war: 0.0376
     is_incumbent: true
-    war_v2: -0.0869
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0042
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3451
+    tide_component: -0.0015
     expected_two_party_share: 0.6539
-    expected_two_party_share_v2: 0.7784
+    expected_two_party_share_v2: 0.6957
   - name: Vincent Lawrence Dixon
     slug: vincent-lawrence-dixon
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.3085
     war: -0.0376
     is_incumbent: false
-    war_v2: -0.0376
+    incumbent_terms: 0
+    war_v2: -0.0689
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1826
+    tide_component: -0.0008
     expected_two_party_share: 0.3461
-    expected_two_party_share_v2: 0.3461
+    expected_two_party_share_v2: 0.3774
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4801
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5684
     war: 0.0884
     is_incumbent: false
-    war_v2: 0.0884
+    incumbent_terms: 0
+    war_v2: 0.1206
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2533
+    tide_component: -0.0011
     expected_two_party_share: 0.48
-    expected_two_party_share_v2: 0.48
+    expected_two_party_share_v2: 0.4478
   - name: Monica C. Medeiros
     slug: monica-c-medeiros-solano
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4316
     war: -0.0884
     is_incumbent: false
-    war_v2: -0.0884
+    incumbent_terms: 0
+    war_v2: -0.0372
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2744
+    tide_component: -0.0012
     expected_two_party_share: 0.52
-    expected_two_party_share_v2: 0.52
+    expected_two_party_share_v2: 0.4688
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5968
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4032
     is_incumbent: false
-    war_v2: 0.4032
+    incumbent_terms: 0
+    war_v2: 0.4909
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3149
+    tide_component: -0.0014
     expected_two_party_share: 0.5968
-    expected_two_party_share_v2: 0.5968
+    expected_two_party_share_v2: 0.5091
   is_open_seat: null
 title: Fifth Middlesex District (2012-2020)
 layout: district

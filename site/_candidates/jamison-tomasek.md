@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4399
   war: -0.0753
-  war_v2: -0.0753
+  war_v2: -0.0265
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5152
-  expected_two_party_share_v2: 0.5152
+  expected_two_party_share_v2: 0.4664
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jamison Tomasek
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3376
     is_incumbent: true
-    war_v2: 0.2131
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2998
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3495
+    tide_component: -0.0014
     expected_two_party_share: 0.6624
-    expected_two_party_share_v2: 0.7869
+    expected_two_party_share_v2: 0.7002
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6774
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6361
     war: -0.0413
     is_incumbent: false
-    war_v2: -0.0413
+    incumbent_terms: 0
+    war_v2: 0.0845
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3575
+    tide_component: -0.0015
     expected_two_party_share: 0.6774
-    expected_two_party_share_v2: 0.6774
+    expected_two_party_share_v2: 0.5516
   - name: Edward F. Dombroski, Jr
     slug: edward-f-dombroski-jr
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3639
     war: 0.0413
     is_incumbent: false
-    war_v2: 0.0413
+    incumbent_terms: 0
+    war_v2: -0.0011
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1702
+    tide_component: -0.0008
     expected_two_party_share: 0.3226
-    expected_two_party_share_v2: 0.3226
+    expected_two_party_share_v2: 0.365
   is_open_seat: null
 demographics:
   total_population: 183642

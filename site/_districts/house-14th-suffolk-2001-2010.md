@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2469
     is_incumbent: true
-    war_v2: 0.1224
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2646
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3974
+    tide_component: -0.0012
     expected_two_party_share: 0.7531
-    expected_two_party_share_v2: 0.8776
+    expected_two_party_share_v2: 0.7354
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.803
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.197
     is_incumbent: true
-    war_v2: 0.0725
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2385
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4237
+    tide_component: -0.0015
     expected_two_party_share: 0.803
-    expected_two_party_share_v2: 0.9275
+    expected_two_party_share_v2: 0.7615
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7746
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2254
     is_incumbent: true
-    war_v2: 0.1009
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.251
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4088
+    tide_component: -0.0014
     expected_two_party_share: 0.7746
-    expected_two_party_share_v2: 0.8991
+    expected_two_party_share_v2: 0.749
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.783
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8466
     war: 0.0636
     is_incumbent: true
-    war_v2: -0.0609
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0828
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4132
+    tide_component: -0.0014
     expected_two_party_share: 0.783
-    expected_two_party_share_v2: 0.9075
+    expected_two_party_share_v2: 0.7638
   - name: Camillo Giangrande, III
     slug: camillo-giangrande-iii
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.1534
     war: -0.0636
     is_incumbent: false
-    war_v2: -0.0636
+    incumbent_terms: 0
+    war_v2: -0.1559
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1145
+    tide_component: -0.0009
     expected_two_party_share: 0.217
-    expected_two_party_share_v2: 0.217
+    expected_two_party_share_v2: 0.3093
   - name: Douglas L. Krick
     slug: douglas-l-krick
     party: Libertarian
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.0459
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3461
     is_incumbent: false
-    war_v2: 0.3461
+    incumbent_terms: 0
+    war_v2: 0.4604
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3451
+    tide_component: -0.0011
     expected_two_party_share: 0.6539
-    expected_two_party_share_v2: 0.6539
+    expected_two_party_share_v2: 0.5396
   is_open_seat: null
 title: 14th Suffolk (2001-2010)
 layout: district

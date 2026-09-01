@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.38
   war: -0.1
-  war_v2: -0.1
+  war_v2: -0.068
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.48
-  expected_two_party_share_v2: 0.48
+  expected_two_party_share_v2: 0.448
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Evan James O'Reilly
 layout: candidate
 ---

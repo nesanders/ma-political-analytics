@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3988
-  war_v2: 0.3988
+  war_v2: 0.4886
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6012
-  expected_two_party_share_v2: 0.6012
+  expected_two_party_share_v2: 0.5114
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4362
-  war_v2: 0.3117
-  incumbency_adjustment: 0.1245
+  war_v2: 0.362
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5638
-  expected_two_party_share_v2: 0.6883
+  expected_two_party_share_v2: 0.638
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5888
   war: -0.091
-  war_v2: -0.2155
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1206
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6798
-  expected_two_party_share_v2: 0.8043
+  expected_two_party_share_v2: 0.7094
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5193
   war: -0.1055
-  war_v2: -0.1055
+  war_v2: -0.0046
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6248
-  expected_two_party_share_v2: 0.6248
+  expected_two_party_share_v2: 0.5239
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas P. Conroy
 layout: candidate
 ---

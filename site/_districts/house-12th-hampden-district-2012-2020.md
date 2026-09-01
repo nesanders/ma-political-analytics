@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3772
     is_incumbent: true
-    war_v2: 0.2527
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3337
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3287
+    tide_component: -0.0015
     expected_two_party_share: 0.6228
-    expected_two_party_share_v2: 0.7473
+    expected_two_party_share_v2: 0.6663
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.29
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.71
     is_incumbent: true
-    war_v2: 0.5855
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5085
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.153
+    tide_component: -0.0008
     expected_two_party_share: 0.29
-    expected_two_party_share_v2: 0.4145
+    expected_two_party_share_v2: 0.4915
   - name: Donald J. Flannery
     slug: donald-j-flannery
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.2895
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3789
     is_incumbent: true
-    war_v2: 0.2544
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.332
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3278
+    tide_component: -0.0015
     expected_two_party_share: 0.6211
-    expected_two_party_share_v2: 0.7456
+    expected_two_party_share_v2: 0.668
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4658
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6524
     war: 0.1866
     is_incumbent: true
-    war_v2: 0.0621
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0556
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2458
+    tide_component: -0.0011
     expected_two_party_share: 0.4658
-    expected_two_party_share_v2: 0.5903
+    expected_two_party_share_v2: 0.5968
   - name: Bob Russell
     slug: bob-russell
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3476
     war: -0.1866
     is_incumbent: false
-    war_v2: -0.1866
+    incumbent_terms: 0
+    war_v2: -0.1287
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2819
+    tide_component: -0.0012
     expected_two_party_share: 0.5342
-    expected_two_party_share_v2: 0.5342
+    expected_two_party_share_v2: 0.4763
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6248
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.7027
     war: 0.0779
     is_incumbent: false
-    war_v2: 0.0779
+    incumbent_terms: 0
+    war_v2: 0.1788
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3297
+    tide_component: -0.0014
     expected_two_party_share: 0.6248
-    expected_two_party_share_v2: 0.6248
+    expected_two_party_share_v2: 0.5239
   - name: Dennis John McCarthy
     slug: dennis-john-mccarthy
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.2973
     war: -0.0779
     is_incumbent: false
-    war_v2: -0.0779
+    incumbent_terms: 0
+    war_v2: -0.0954
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.198
+    tide_component: -0.0009
     expected_two_party_share: 0.3752
-    expected_two_party_share_v2: 0.3752
+    expected_two_party_share_v2: 0.3927
   is_open_seat: null
 title: 12th Hampden District (2012-2020)
 layout: district

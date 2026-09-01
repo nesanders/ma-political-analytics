@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4385
   war: -0.0478
-  war_v2: -0.0478
+  war_v2: -0.0123
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4863
-  expected_two_party_share_v2: 0.4863
+  expected_two_party_share_v2: 0.4508
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: R. Patrick Ellis
 layout: candidate
 ---

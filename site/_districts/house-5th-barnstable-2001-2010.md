@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5304
     war: -0.0511
     is_incumbent: false
-    war_v2: -0.0511
+    incumbent_terms: 0
+    war_v2: 0.029
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3069
+    tide_component: -0.0011
     expected_two_party_share: 0.5815
-    expected_two_party_share_v2: 0.5815
+    expected_two_party_share_v2: 0.5014
   - name: Lance William Lambros
     slug: lance-william-lambros
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4696
     war: 0.0511
     is_incumbent: false
-    war_v2: 0.0511
+    incumbent_terms: 0
+    war_v2: 0.0544
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2208
+    tide_component: -0.0012
     expected_two_party_share: 0.4185
-    expected_two_party_share_v2: 0.4185
+    expected_two_party_share_v2: 0.4152
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5255
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6992
     war: 0.2247
     is_incumbent: true
-    war_v2: 0.1002
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1105
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2504
+    tide_component: -0.0008
     expected_two_party_share: 0.4745
-    expected_two_party_share_v2: 0.599
+    expected_two_party_share_v2: 0.5887
   - name: Glenn S. Pare
     slug: glenn-s-pare
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3008
     war: -0.2247
     is_incumbent: false
-    war_v2: -0.2247
+    incumbent_terms: 0
+    war_v2: -0.1707
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2773
+    tide_component: -0.0015
     expected_two_party_share: 0.5255
-    expected_two_party_share_v2: 0.5255
+    expected_two_party_share_v2: 0.4715
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4669
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4669
     is_incumbent: true
-    war_v2: 0.3424
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3779
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2813
+    tide_component: -0.0009
     expected_two_party_share: 0.5331
-    expected_two_party_share_v2: 0.6576
+    expected_two_party_share_v2: 0.6221
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5104
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6605
     war: 0.1709
     is_incumbent: true
-    war_v2: 0.0464
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0509
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2584
+    tide_component: -0.0009
     expected_two_party_share: 0.4896
-    expected_two_party_share_v2: 0.6141
+    expected_two_party_share_v2: 0.6096
   - name: Garry N. Blank
     slug: garry-n-blank
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3395
     war: -0.1709
     is_incumbent: false
-    war_v2: -0.1709
+    incumbent_terms: 0
+    war_v2: -0.124
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2693
+    tide_component: -0.0014
     expected_two_party_share: 0.5104
-    expected_two_party_share_v2: 0.5104
+    expected_two_party_share_v2: 0.4635
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3699
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.5121
     war: -0.118
     is_incumbent: false
-    war_v2: -0.118
+    incumbent_terms: 0
+    war_v2: -0.0148
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3325
+    tide_component: -0.0012
     expected_two_party_share: 0.6301
-    expected_two_party_share_v2: 0.6301
+    expected_two_party_share_v2: 0.5269
   - name: Ruth W. Provost
     slug: ruth-w-provost
     party: Democratic
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.4879
     war: 0.118
     is_incumbent: false
-    war_v2: 0.118
+    incumbent_terms: 0
+    war_v2: 0.0982
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1952
+    tide_component: -0.0011
     expected_two_party_share: 0.3699
-    expected_two_party_share_v2: 0.3699
+    expected_two_party_share_v2: 0.3897
   is_open_seat: null
 title: 5th Barnstable (2001-2010)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5517
     is_incumbent: true
-    war_v2: 0.4272
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4255
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2366
+    tide_component: -0.0012
     expected_two_party_share: 0.4483
-    expected_two_party_share_v2: 0.5728
+    expected_two_party_share_v2: 0.5745
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5898
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4102
     is_incumbent: true
-    war_v2: 0.2857
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.351
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3112
+    tide_component: -0.0015
     expected_two_party_share: 0.5898
-    expected_two_party_share_v2: 0.7143
+    expected_two_party_share_v2: 0.649
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5552
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4448
     is_incumbent: true
-    war_v2: 0.3203
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3667
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.293
+    tide_component: -0.0014
     expected_two_party_share: 0.5552
-    expected_two_party_share_v2: 0.6797
+    expected_two_party_share_v2: 0.6333
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5739
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6784
     war: 0.1045
     is_incumbent: true
-    war_v2: -0.02
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0249
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3028
+    tide_component: -0.0014
     expected_two_party_share: 0.5739
-    expected_two_party_share_v2: 0.6984
+    expected_two_party_share_v2: 0.6535
   - name: Maureen M. Corbett
     slug: maureen-m-corbett
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3216
     war: -0.1045
     is_incumbent: false
-    war_v2: -0.1045
+    incumbent_terms: 0
+    war_v2: -0.098
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2249
+    tide_component: -0.0009
     expected_two_party_share: 0.4261
-    expected_two_party_share_v2: 0.4261
+    expected_two_party_share_v2: 0.4196
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4148
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5852
     is_incumbent: false
-    war_v2: 0.5852
+    incumbent_terms: 0
+    war_v2: 0.5866
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2189
+    tide_component: -0.0011
     expected_two_party_share: 0.4148
-    expected_two_party_share_v2: 0.4148
+    expected_two_party_share_v2: 0.4134
   is_open_seat: null
 title: 3rd Essex (2001-2010)
 layout: district

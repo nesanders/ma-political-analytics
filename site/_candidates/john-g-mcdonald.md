@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3295
   war: -0.3923
-  war_v2: -0.3923
+  war_v2: -0.2455
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7218
-  expected_two_party_share_v2: 0.7218
+  expected_two_party_share_v2: 0.575
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John G. Mcdonald
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4037
   war: 0.0237
-  war_v2: 0.0237
+  war_v2: 0.0088
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.38
-  expected_two_party_share_v2: 0.38
+  expected_two_party_share_v2: 0.3949
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kevin P. Conway
 layout: candidate
 ---

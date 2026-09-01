@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.7525
   war: 0.0764
-  war_v2: -0.0481
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0449
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6761
-  expected_two_party_share_v2: 0.8006
+  expected_two_party_share_v2: 0.7076
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.8069
   war: 0.0668
-  war_v2: 0.0668
+  war_v2: 0.2222
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7401
-  expected_two_party_share_v2: 0.7401
+  expected_two_party_share_v2: 0.5847
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kevin Aguiar
 layout: candidate
 ---

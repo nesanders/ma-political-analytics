@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2524
     is_incumbent: true
-    war_v2: 0.1279
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2675
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3945
+    tide_component: -0.0012
     expected_two_party_share: 0.7476
-    expected_two_party_share_v2: 0.8721
+    expected_two_party_share_v2: 0.7325
   - name: Lee Scott Laugenour
     slug: lee-scott-laugenour
     party: null
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.2201
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.241
     is_incumbent: true
-    war_v2: 0.1165
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2617
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4005
+    tide_component: -0.0015
     expected_two_party_share: 0.759
-    expected_two_party_share_v2: 0.8835
+    expected_two_party_share_v2: 0.7383
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7732
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2268
     is_incumbent: true
-    war_v2: 0.1023
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2517
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.408
+    tide_component: -0.0014
     expected_two_party_share: 0.7732
-    expected_two_party_share_v2: 0.8977
+    expected_two_party_share_v2: 0.7483
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.721
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.7316
     war: 0.0107
     is_incumbent: true
-    war_v2: -0.1138
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0005
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3805
+    tide_component: -0.0014
     expected_two_party_share: 0.7209
-    expected_two_party_share_v2: 0.8454
+    expected_two_party_share_v2: 0.7311
   - name: James J. Bashour
     slug: james-j-bashour
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.2684
     war: -0.0107
     is_incumbent: false
-    war_v2: -0.0107
+    incumbent_terms: 0
+    war_v2: -0.0736
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1472
+    tide_component: -0.0009
     expected_two_party_share: 0.2791
-    expected_two_party_share_v2: 0.2791
+    expected_two_party_share_v2: 0.342
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6294
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.7224
     war: 0.093
     is_incumbent: false
-    war_v2: 0.093
+    incumbent_terms: 0
+    war_v2: 0.1958
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3321
+    tide_component: -0.0011
     expected_two_party_share: 0.6294
-    expected_two_party_share_v2: 0.6294
+    expected_two_party_share_v2: 0.5266
   - name: Thomas H. Stokes
     slug: thomas-h-stokes
     party: Other
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.4393
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: J. Cristopher Irsfeld
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.2776
     war: -0.093
     is_incumbent: false
-    war_v2: -0.093
+    incumbent_terms: 0
+    war_v2: -0.1124
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1956
+    tide_component: -0.0012
     expected_two_party_share: 0.3706
-    expected_two_party_share_v2: 0.3706
+    expected_two_party_share_v2: 0.39
   is_open_seat: null
 title: 4th Berkshire (2001-2010)
 layout: district

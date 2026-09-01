@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3558
   war: -0.3889
-  war_v2: -0.3889
+  war_v2: -0.2312
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7447
-  expected_two_party_share_v2: 0.7447
+  expected_two_party_share_v2: 0.587
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kathleen Lynch
 layout: candidate
 ---

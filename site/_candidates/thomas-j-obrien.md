@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6948
   war: 0.1906
-  war_v2: 0.0661
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0781
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5042
-  expected_two_party_share_v2: 0.6287
+  expected_two_party_share_v2: 0.6167
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6308
-  war_v2: 0.6308
+  war_v2: 0.6107
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3692
-  expected_two_party_share_v2: 0.3692
+  expected_two_party_share_v2: 0.3893
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas J. O'Brien
 layout: candidate
 ---

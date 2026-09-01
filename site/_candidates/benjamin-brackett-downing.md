@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2491
-  war_v2: 0.1246
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2633
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7509
-  expected_two_party_share_v2: 0.8754
+  expected_two_party_share_v2: 0.7367
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2398
-  war_v2: 0.1153
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2482
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7602
-  expected_two_party_share_v2: 0.8847
+  expected_two_party_share_v2: 0.7518
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.7353
   war: -0.0457
-  war_v2: -0.0457
+  war_v2: 0.129
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.781
-  expected_two_party_share_v2: 0.781
+  expected_two_party_share_v2: 0.6063
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Benjamin Brackett Downing
 layout: candidate
 ---

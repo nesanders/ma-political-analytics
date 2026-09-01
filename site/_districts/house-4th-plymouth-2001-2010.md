@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5871
     is_incumbent: true
-    war_v2: 0.4626
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4312
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2179
+    tide_component: -0.0012
     expected_two_party_share: 0.4129
-    expected_two_party_share_v2: 0.5374
+    expected_two_party_share_v2: 0.5688
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5148
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4852
     is_incumbent: false
-    war_v2: 0.4852
+    incumbent_terms: 0
+    war_v2: 0.5342
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2717
+    tide_component: -0.0015
     expected_two_party_share: 0.5148
-    expected_two_party_share_v2: 0.5148
+    expected_two_party_share_v2: 0.4658
   - name: John M. Valianti
     slug: john-m-valianti
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.62
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4944
     is_incumbent: true
-    war_v2: 0.3699
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3929
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2668
+    tide_component: -0.0014
     expected_two_party_share: 0.5056
-    expected_two_party_share_v2: 0.6301
+    expected_two_party_share_v2: 0.6071
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.523
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.477
     is_incumbent: true
-    war_v2: 0.3525
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3734
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.276
+    tide_component: -0.0014
     expected_two_party_share: 0.523
-    expected_two_party_share_v2: 0.6475
+    expected_two_party_share_v2: 0.6266
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3682
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6318
     is_incumbent: false
-    war_v2: 0.6318
+    incumbent_terms: 0
+    war_v2: 0.6112
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1943
+    tide_component: -0.0011
     expected_two_party_share: 0.3682
-    expected_two_party_share_v2: 0.3682
+    expected_two_party_share_v2: 0.3888
   is_open_seat: null
 title: 4th Plymouth (2001-2010)
 layout: district

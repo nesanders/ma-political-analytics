@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.556
     war: -0.0575
     is_incumbent: false
-    war_v2: -0.0575
+    incumbent_terms: 0
+    war_v2: 0.0382
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3237
+    tide_component: -0.0015
     expected_two_party_share: 0.6135
-    expected_two_party_share_v2: 0.6135
+    expected_two_party_share_v2: 0.5178
   - name: Glenn C. Fossa
     slug: glenn-c-fossa
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.444
     war: 0.0575
     is_incumbent: false
-    war_v2: 0.0575
+    incumbent_terms: 0
+    war_v2: 0.0452
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.204
+    tide_component: -0.0008
     expected_two_party_share: 0.3865
-    expected_two_party_share_v2: 0.3865
+    expected_two_party_share_v2: 0.3988
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2755
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6863
     war: 0.4108
     is_incumbent: true
-    war_v2: 0.2863
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1896
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1454
+    tide_component: -0.0008
     expected_two_party_share: 0.2755
-    expected_two_party_share_v2: 0.4
+    expected_two_party_share_v2: 0.4967
   - name: Elmer Eubanks-Archbold
     slug: elmer-eubanks-archbold
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3137
     war: -0.4108
     is_incumbent: false
-    war_v2: -0.4108
+    incumbent_terms: 0
+    war_v2: -0.2627
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3823
+    tide_component: -0.0015
     expected_two_party_share: 0.7245
-    expected_two_party_share_v2: 0.7245
+    expected_two_party_share_v2: 0.5764
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6016
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3984
     is_incumbent: false
-    war_v2: 0.3984
+    incumbent_terms: 0
+    war_v2: 0.4884
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3175
+    tide_component: -0.0015
     expected_two_party_share: 0.6016
-    expected_two_party_share_v2: 0.6016
+    expected_two_party_share_v2: 0.5116
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4422
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5578
     is_incumbent: true
-    war_v2: 0.4333
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4157
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2333
+    tide_component: -0.0011
     expected_two_party_share: 0.4422
-    expected_two_party_share_v2: 0.5667
+    expected_two_party_share_v2: 0.5843
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.598
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.402
     is_incumbent: false
-    war_v2: 0.402
+    incumbent_terms: 0
+    war_v2: 0.4903
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3156
+    tide_component: -0.0014
     expected_two_party_share: 0.598
-    expected_two_party_share_v2: 0.598
+    expected_two_party_share_v2: 0.5097
   is_open_seat: null
 title: 3rd Worcester District (2012-2020)
 layout: district

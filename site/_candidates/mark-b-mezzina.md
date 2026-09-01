@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4856
   war: -0.303
-  war_v2: -0.303
+  war_v2: -0.1246
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7886
-  expected_two_party_share_v2: 0.7886
+  expected_two_party_share_v2: 0.6102
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mark B. Mezzina
 layout: candidate
 ---

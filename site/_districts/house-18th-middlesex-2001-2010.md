@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4535
     is_incumbent: true
-    war_v2: 0.329
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3736
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2884
+    tide_component: -0.0012
     expected_two_party_share: 0.5465
-    expected_two_party_share_v2: 0.671
+    expected_two_party_share_v2: 0.6264
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.665
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.335
     is_incumbent: true
-    war_v2: 0.2105
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3113
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3509
+    tide_component: -0.0015
     expected_two_party_share: 0.665
-    expected_two_party_share_v2: 0.7895
+    expected_two_party_share_v2: 0.6887
   - name: Kenneth J. Patrician
     slug: kenneth-j-patrician
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.1952
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3832
     is_incumbent: true
-    war_v2: 0.2587
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3342
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3255
+    tide_component: -0.0014
     expected_two_party_share: 0.6168
-    expected_two_party_share_v2: 0.7413
+    expected_two_party_share_v2: 0.6658
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6327
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3673
     is_incumbent: true
-    war_v2: 0.2428
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3155
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3339
+    tide_component: -0.0014
     expected_two_party_share: 0.6327
-    expected_two_party_share_v2: 0.7572
+    expected_two_party_share_v2: 0.6845
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5019
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7679
     war: 0.266
     is_incumbent: false
-    war_v2: 0.266
+    incumbent_terms: 0
+    war_v2: 0.3085
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2649
+    tide_component: -0.0011
     expected_two_party_share: 0.5019
-    expected_two_party_share_v2: 0.5019
+    expected_two_party_share_v2: 0.4594
   - name: John W. Charow, Jr.
     slug: john-w-charow-jr
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2321
     war: -0.266
     is_incumbent: false
-    war_v2: -0.266
+    incumbent_terms: 0
+    war_v2: -0.2251
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2628
+    tide_component: -0.0012
     expected_two_party_share: 0.4981
-    expected_two_party_share_v2: 0.4981
+    expected_two_party_share_v2: 0.4572
   is_open_seat: null
 title: 18th Middlesex (2001-2010)
 layout: district

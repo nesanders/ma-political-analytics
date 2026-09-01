@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3734
-  war_v2: 0.2489
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3187
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6266
-  expected_two_party_share_v2: 0.7511
+  expected_two_party_share_v2: 0.6813
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5211
-  war_v2: 0.5211
+  war_v2: 0.5528
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4789
-  expected_two_party_share_v2: 0.4789
+  expected_two_party_share_v2: 0.4472
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Emile J. Goguen
 layout: candidate
 ---

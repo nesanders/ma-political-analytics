@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6772
     war: 0.0819
     is_incumbent: false
-    war_v2: 0.0819
+    incumbent_terms: 0
+    war_v2: 0.1687
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3141
+    tide_component: -0.0012
     expected_two_party_share: 0.5953
-    expected_two_party_share_v2: 0.5953
+    expected_two_party_share_v2: 0.5085
   - name: Brad Williams
     slug: brad-williams
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3228
     war: -0.0819
     is_incumbent: false
-    war_v2: -0.0819
+    incumbent_terms: 0
+    war_v2: -0.0853
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2136
+    tide_component: -0.0011
     expected_two_party_share: 0.4047
-    expected_two_party_share_v2: 0.4047
+    expected_two_party_share_v2: 0.4081
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6768
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3232
     is_incumbent: true
-    war_v2: 0.1987
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3051
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3571
+    tide_component: -0.0015
     expected_two_party_share: 0.6768
-    expected_two_party_share_v2: 0.8013
+    expected_two_party_share_v2: 0.6949
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6371
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.6873
     war: 0.0502
     is_incumbent: true
-    war_v2: -0.0743
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0108
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3362
+    tide_component: -0.0014
     expected_two_party_share: 0.6371
-    expected_two_party_share_v2: 0.7616
+    expected_two_party_share_v2: 0.6765
   - name: Douglas E. Obey
     slug: douglas-e-obey
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.3127
     war: -0.0502
     is_incumbent: false
-    war_v2: -0.0502
+    incumbent_terms: 0
+    war_v2: -0.0735
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1915
+    tide_component: -0.0009
     expected_two_party_share: 0.3629
-    expected_two_party_share_v2: 0.3629
+    expected_two_party_share_v2: 0.3862
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.674
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.326
     is_incumbent: true
-    war_v2: 0.2015
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2937
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3557
+    tide_component: -0.0014
     expected_two_party_share: 0.674
-    expected_two_party_share_v2: 0.7985
+    expected_two_party_share_v2: 0.7063
   - name: Robert W. Joyce
     slug: robert-w-joyce
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.5592
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4865
     is_incumbent: false
-    war_v2: 0.4865
+    incumbent_terms: 0
+    war_v2: 0.5345
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.271
+    tide_component: -0.0011
     expected_two_party_share: 0.5135
-    expected_two_party_share_v2: 0.5135
+    expected_two_party_share_v2: 0.4655
   is_open_seat: null
 title: Suffolk and Norfolk (2001-2010)
 layout: district

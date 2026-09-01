@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3142
     is_incumbent: true
-    war_v2: 0.1897
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3004
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3619
+    tide_component: -0.0015
     expected_two_party_share: 0.6858
-    expected_two_party_share_v2: 0.8103
+    expected_two_party_share_v2: 0.6996
   - name: Syed H. Hashmi
     slug: syed-h-hashmi
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.4068
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6356
     war: 0.36
     is_incumbent: true
-    war_v2: 0.2355
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1517
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1454
+    tide_component: -0.0008
     expected_two_party_share: 0.2756
-    expected_two_party_share_v2: 0.4001
+    expected_two_party_share_v2: 0.4839
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3644
     war: -0.36
     is_incumbent: false
-    war_v2: -0.36
+    incumbent_terms: 0
+    war_v2: -0.2119
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3823
+    tide_component: -0.0015
     expected_two_party_share: 0.7244
-    expected_two_party_share_v2: 0.7244
+    expected_two_party_share_v2: 0.5763
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.645
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5965
     war: -0.0486
     is_incumbent: true
-    war_v2: -0.1731
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0841
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3404
+    tide_component: -0.0015
     expected_two_party_share: 0.6451
-    expected_two_party_share_v2: 0.7696
+    expected_two_party_share_v2: 0.6806
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4035
     war: 0.0486
     is_incumbent: false
-    war_v2: 0.0486
+    incumbent_terms: 0
+    war_v2: 0.0214
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1873
+    tide_component: -0.0008
     expected_two_party_share: 0.3549
-    expected_two_party_share_v2: 0.3549
+    expected_two_party_share_v2: 0.3821
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4295
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5392
     war: 0.1097
     is_incumbent: true
-    war_v2: -0.0148
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0384
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2266
+    tide_component: -0.0011
     expected_two_party_share: 0.4295
-    expected_two_party_share_v2: 0.554
+    expected_two_party_share_v2: 0.5776
   - name: Matthew H. Elder
     slug: matthew-h-elder
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4608
     war: -0.1097
     is_incumbent: false
-    war_v2: -0.1097
+    incumbent_terms: 0
+    war_v2: -0.0347
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3011
+    tide_component: -0.0012
     expected_two_party_share: 0.5705
-    expected_two_party_share_v2: 0.5705
+    expected_two_party_share_v2: 0.4955
   - name: Kristine E. Coffey-Donahue
     slug: kristine-e-coffey-donahue
     party: Other
@@ -154,8 +186,12 @@ results_by_year:
     actual_two_party_share: 0.0806
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.5059
     war: -0.0631
     is_incumbent: false
-    war_v2: -0.0631
+    incumbent_terms: 0
+    war_v2: 0.0114
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3003
+    tide_component: -0.0014
     expected_two_party_share: 0.569
-    expected_two_party_share_v2: 0.569
+    expected_two_party_share_v2: 0.4945
   - name: Steven L. Levy
     slug: steven-l-levy
     party: Republican
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.4941
     war: 0.0631
     is_incumbent: false
-    war_v2: 0.0631
+    incumbent_terms: 0
+    war_v2: 0.072
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2274
+    tide_component: -0.0009
     expected_two_party_share: 0.431
-    expected_two_party_share_v2: 0.431
+    expected_two_party_share_v2: 0.4221
   is_open_seat: null
 title: 4th Middlesex District (2012-2020)
 layout: district

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5135
     war: -0.0305
     is_incumbent: true
-    war_v2: -0.155
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1242
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2871
+    tide_component: -0.0014
     expected_two_party_share: 0.544
-    expected_two_party_share_v2: 0.6685
+    expected_two_party_share_v2: 0.6377
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4865
     war: 0.0305
     is_incumbent: false
-    war_v2: 0.0305
+    incumbent_terms: 0
+    war_v2: 0.0511
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2406
+    tide_component: -0.0009
     expected_two_party_share: 0.456
-    expected_two_party_share_v2: 0.456
+    expected_two_party_share_v2: 0.4354
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5002
     war: -0.0482
     is_incumbent: false
-    war_v2: -0.0482
+    incumbent_terms: 0
+    war_v2: 0.0167
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2894
+    tide_component: -0.0015
     expected_two_party_share: 0.5484
-    expected_two_party_share_v2: 0.5484
+    expected_two_party_share_v2: 0.4835
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4998
     war: 0.0482
     is_incumbent: false
-    war_v2: 0.0482
+    incumbent_terms: 0
+    war_v2: 0.0667
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2383
+    tide_component: -0.0008
     expected_two_party_share: 0.4516
-    expected_two_party_share_v2: 0.4516
+    expected_two_party_share_v2: 0.4331
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -85,8 +101,12 @@ results_by_year:
     actual_two_party_share: 0.0571
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

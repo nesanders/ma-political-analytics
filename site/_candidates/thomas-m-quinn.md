@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3316
   war: -0.0573
-  war_v2: -0.0573
+  war_v2: -0.0684
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3889
-  expected_two_party_share_v2: 0.3889
+  expected_two_party_share_v2: 0.4
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas M. Quinn
 layout: candidate
 ---

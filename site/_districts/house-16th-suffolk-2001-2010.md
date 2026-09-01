@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.49
     is_incumbent: true
-    war_v2: 0.3655
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3929
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2691
+    tide_component: -0.0012
     expected_two_party_share: 0.51
-    expected_two_party_share_v2: 0.6345
+    expected_two_party_share_v2: 0.6071
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6121
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3879
     is_incumbent: true
-    war_v2: 0.2634
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3392
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.323
+    tide_component: -0.0015
     expected_two_party_share: 0.6121
-    expected_two_party_share_v2: 0.7366
+    expected_two_party_share_v2: 0.6608
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.582
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.418
     is_incumbent: true
-    war_v2: 0.2935
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3526
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3071
+    tide_component: -0.0014
     expected_two_party_share: 0.582
-    expected_two_party_share_v2: 0.7065
+    expected_two_party_share_v2: 0.6474
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6576
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3424
     is_incumbent: true
-    war_v2: 0.2179
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3023
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.347
+    tide_component: -0.0014
     expected_two_party_share: 0.6576
-    expected_two_party_share_v2: 0.7821
+    expected_two_party_share_v2: 0.6977
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5002
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4998
     is_incumbent: false
-    war_v2: 0.4998
+    incumbent_terms: 0
+    war_v2: 0.5415
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.264
+    tide_component: -0.0011
     expected_two_party_share: 0.5002
-    expected_two_party_share_v2: 0.5002
+    expected_two_party_share_v2: 0.4585
   is_open_seat: null
 title: 16th Suffolk (2001-2010)
 layout: district

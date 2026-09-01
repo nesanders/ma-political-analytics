@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5944
     is_incumbent: true
-    war_v2: 0.4699
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4475
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.214
+    tide_component: -0.0008
     expected_two_party_share: 0.4056
-    expected_two_party_share_v2: 0.5301
+    expected_two_party_share_v2: 0.5525
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2728
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6463
     war: -0.0808
     is_incumbent: true
-    war_v2: -0.2053
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0751
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3837
+    tide_component: -0.0015
     expected_two_party_share: 0.7271
-    expected_two_party_share_v2: 0.8516
+    expected_two_party_share_v2: 0.7214
   - name: Matthew Crescenzo
     slug: matthew-crescenzo
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3537
     war: 0.0808
     is_incumbent: false
-    war_v2: 0.0808
+    incumbent_terms: 0
+    war_v2: 0.0149
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.144
+    tide_component: -0.0008
     expected_two_party_share: 0.2729
-    expected_two_party_share_v2: 0.2729
+    expected_two_party_share_v2: 0.3388
   - name: Michael Coller
     slug: michael-coller
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.0405
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5494
     war: 0.1056
     is_incumbent: true
-    war_v2: -0.0189
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0257
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2342
+    tide_component: -0.0008
     expected_two_party_share: 0.4438
-    expected_two_party_share_v2: 0.5683
+    expected_two_party_share_v2: 0.5751
   - name: Jennifer Migliore
     slug: jennifer-migliore
     party: Democratic
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4506
     war: -0.1056
     is_incumbent: false
-    war_v2: -0.1056
+    incumbent_terms: 0
+    war_v2: -0.037
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2935
+    tide_component: -0.0015
     expected_two_party_share: 0.5562
-    expected_two_party_share_v2: 0.5562
+    expected_two_party_share_v2: 0.4876
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4415
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.6056
     war: 0.0471
     is_incumbent: true
-    war_v2: -0.0774
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.04
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2947
+    tide_component: -0.0012
     expected_two_party_share: 0.5585
-    expected_two_party_share_v2: 0.683
+    expected_two_party_share_v2: 0.6456
   - name: Christopher J. Finn
     slug: christopher-j-finn
     party: Democratic
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.3944
     war: -0.0471
     is_incumbent: false
-    war_v2: -0.0471
+    incumbent_terms: 0
+    war_v2: -0.0331
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.233
+    tide_component: -0.0011
     expected_two_party_share: 0.4415
-    expected_two_party_share_v2: 0.4415
+    expected_two_party_share_v2: 0.4275
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5648
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5648
     is_incumbent: false
-    war_v2: 0.5648
+    incumbent_terms: 0
+    war_v2: 0.5756
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2297
+    tide_component: -0.0009
     expected_two_party_share: 0.4352
-    expected_two_party_share_v2: 0.4352
+    expected_two_party_share_v2: 0.4244
   is_open_seat: null
 title: 9th Essex District (2012-2020)
 layout: district

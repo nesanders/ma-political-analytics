@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.7382
   war: -0.0299
-  war_v2: -0.1544
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0074
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7681
-  expected_two_party_share_v2: 0.8926
+  expected_two_party_share_v2: 0.7456
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2128
-  war_v2: 0.0883
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2339
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7872
-  expected_two_party_share_v2: 0.9117
+  expected_two_party_share_v2: 0.7661
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3587
-  war_v2: 0.3587
+  war_v2: 0.4671
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6413
-  expected_two_party_share_v2: 0.6413
+  expected_two_party_share_v2: 0.5329
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Rachel Kaprielian
 layout: candidate
 ---

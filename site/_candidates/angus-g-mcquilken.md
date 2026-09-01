@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4838
   war: -0.0955
-  war_v2: -0.0955
+  war_v2: -0.0161
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5793
-  expected_two_party_share_v2: 0.5793
+  expected_two_party_share_v2: 0.4999
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Angus G. McQuilken
 layout: candidate
 ---

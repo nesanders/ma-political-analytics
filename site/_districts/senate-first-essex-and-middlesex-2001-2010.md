@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4162
     is_incumbent: true
-    war_v2: 0.2917
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3538
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3081
+    tide_component: -0.0011
     expected_two_party_share: 0.5838
-    expected_two_party_share_v2: 0.7083
+    expected_two_party_share_v2: 0.6462
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5378
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5378
     is_incumbent: true
-    war_v2: 0.4133
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4177
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2439
+    tide_component: -0.0008
     expected_two_party_share: 0.4622
-    expected_two_party_share_v2: 0.5867
+    expected_two_party_share_v2: 0.5823
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5047
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5047
     is_incumbent: true
-    war_v2: 0.3802
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3978
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2614
+    tide_component: -0.0009
     expected_two_party_share: 0.4953
-    expected_two_party_share_v2: 0.6198
+    expected_two_party_share_v2: 0.6022
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.528
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6499
     war: 0.1779
     is_incumbent: true
-    war_v2: 0.0534
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0496
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2491
+    tide_component: -0.0009
     expected_two_party_share: 0.472
-    expected_two_party_share_v2: 0.5965
+    expected_two_party_share_v2: 0.6003
   - name: Paul M. McGeary
     slug: paul-m-mcgeary
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3501
     war: -0.1779
     is_incumbent: false
-    war_v2: -0.1779
+    incumbent_terms: 0
+    war_v2: -0.1227
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2786
+    tide_component: -0.0014
     expected_two_party_share: 0.528
-    expected_two_party_share_v2: 0.528
+    expected_two_party_share_v2: 0.4728
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3558
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7186
     war: 0.0744
     is_incumbent: false
-    war_v2: 0.0744
+    incumbent_terms: 0
+    war_v2: 0.1843
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3399
+    tide_component: -0.0012
     expected_two_party_share: 0.6442
-    expected_two_party_share_v2: 0.6442
+    expected_two_party_share_v2: 0.5343
   - name: Andrew F. Armata
     slug: andrew-f-armata
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2814
     war: -0.0744
     is_incumbent: false
-    war_v2: -0.0744
+    incumbent_terms: 0
+    war_v2: -0.1009
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1878
+    tide_component: -0.0011
     expected_two_party_share: 0.3558
-    expected_two_party_share_v2: 0.3558
+    expected_two_party_share_v2: 0.3823
   is_open_seat: null
 title: First Essex and Middlesex (2001-2010)
 layout: district

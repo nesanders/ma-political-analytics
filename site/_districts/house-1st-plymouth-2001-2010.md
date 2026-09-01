@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4352
     is_incumbent: true
-    war_v2: 0.3107
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3638
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.298
+    tide_component: -0.0011
     expected_two_party_share: 0.5648
-    expected_two_party_share_v2: 0.6893
+    expected_two_party_share_v2: 0.6362
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.536
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6749
     war: 0.211
     is_incumbent: true
-    war_v2: 0.0865
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.0917
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2449
+    tide_component: -0.0008
     expected_two_party_share: 0.4639
-    expected_two_party_share_v2: 0.5884
+    expected_two_party_share_v2: 0.5832
   - name: Jay D. Ferguson
     slug: jay-d-ferguson
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3251
     war: -0.211
     is_incumbent: false
-    war_v2: -0.211
+    incumbent_terms: 0
+    war_v2: -0.1519
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2828
+    tide_component: -0.0015
     expected_two_party_share: 0.5361
-    expected_two_party_share_v2: 0.5361
+    expected_two_party_share_v2: 0.477
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5371
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5371
     is_incumbent: true
-    war_v2: 0.4126
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4149
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2443
+    tide_component: -0.0009
     expected_two_party_share: 0.4629
-    expected_two_party_share_v2: 0.5874
+    expected_two_party_share_v2: 0.5851
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5442
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6211
     war: 0.1653
     is_incumbent: true
-    war_v2: 0.0408
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0293
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2405
+    tide_component: -0.0009
     expected_two_party_share: 0.4558
-    expected_two_party_share_v2: 0.5803
+    expected_two_party_share_v2: 0.5918
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3789
     war: -0.1653
     is_incumbent: false
-    war_v2: -0.1653
+    incumbent_terms: 0
+    war_v2: -0.1024
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2872
+    tide_component: -0.0014
     expected_two_party_share: 0.5442
-    expected_two_party_share_v2: 0.5442
+    expected_two_party_share_v2: 0.4813
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.385
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.6718
     war: 0.0568
     is_incumbent: false
-    war_v2: 0.0568
+    incumbent_terms: 0
+    war_v2: 0.1529
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3245
+    tide_component: -0.0012
     expected_two_party_share: 0.615
-    expected_two_party_share_v2: 0.615
+    expected_two_party_share_v2: 0.5189
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.3282
     war: -0.0568
     is_incumbent: false
-    war_v2: -0.0568
+    incumbent_terms: 0
+    war_v2: -0.0695
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2032
+    tide_component: -0.0011
     expected_two_party_share: 0.385
-    expected_two_party_share_v2: 0.385
+    expected_two_party_share_v2: 0.3977
   is_open_seat: null
 title: 1st Plymouth (2001-2010)
 layout: district

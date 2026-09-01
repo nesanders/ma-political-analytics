@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4879
     is_incumbent: true
-    war_v2: 0.3634
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3913
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2702
+    tide_component: -0.0008
     expected_two_party_share: 0.5121
-    expected_two_party_share_v2: 0.6366
+    expected_two_party_share_v2: 0.6087
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1833
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1833
     is_incumbent: true
-    war_v2: 0.0588
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2289
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.431
+    tide_component: -0.0015
     expected_two_party_share: 0.8167
-    expected_two_party_share_v2: 0.9412
+    expected_two_party_share_v2: 0.7711
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4401
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4401
     is_incumbent: true
-    war_v2: 0.3156
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3533
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2955
+    tide_component: -0.0008
     expected_two_party_share: 0.5599
-    expected_two_party_share_v2: 0.6844
+    expected_two_party_share_v2: 0.6467
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3206
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6009
     war: -0.0785
     is_incumbent: false
-    war_v2: -0.0785
+    incumbent_terms: 0
+    war_v2: 0.048
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3585
+    tide_component: -0.0012
     expected_two_party_share: 0.6794
-    expected_two_party_share_v2: 0.6794
+    expected_two_party_share_v2: 0.5529
   - name: Mark G. Dowgiewicz
     slug: mark-g-dowgiewicz
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3991
     war: 0.0785
     is_incumbent: false
-    war_v2: 0.0785
+    incumbent_terms: 0
+    war_v2: 0.0354
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1692
+    tide_component: -0.0011
     expected_two_party_share: 0.3206
-    expected_two_party_share_v2: 0.3206
+    expected_two_party_share_v2: 0.3637
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.467
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7006
     war: 0.1676
     is_incumbent: false
-    war_v2: 0.1676
+    incumbent_terms: 0
+    war_v2: 0.2246
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2813
+    tide_component: -0.0009
     expected_two_party_share: 0.533
-    expected_two_party_share_v2: 0.533
+    expected_two_party_share_v2: 0.476
   - name: Donald D. Bourque
     slug: donald-d-bourque
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2994
     war: -0.1676
     is_incumbent: false
-    war_v2: -0.1676
+    incumbent_terms: 0
+    war_v2: -0.1412
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2464
+    tide_component: -0.0014
     expected_two_party_share: 0.467
-    expected_two_party_share_v2: 0.467
+    expected_two_party_share_v2: 0.4406
   is_open_seat: null
 title: 18th Worcester District (2012-2020)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3944
   war: -0.0471
-  war_v2: -0.0471
+  war_v2: -0.0331
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4415
-  expected_two_party_share_v2: 0.4415
+  expected_two_party_share_v2: 0.4275
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Christopher J. Finn
 layout: candidate
 ---

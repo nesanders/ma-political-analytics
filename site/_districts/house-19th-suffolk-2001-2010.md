@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4938
     is_incumbent: true
-    war_v2: 0.3693
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3949
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2671
+    tide_component: -0.0012
     expected_two_party_share: 0.5062
-    expected_two_party_share_v2: 0.6307
+    expected_two_party_share_v2: 0.6051
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6084
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3916
     is_incumbent: true
-    war_v2: 0.2671
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3412
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3211
+    tide_component: -0.0015
     expected_two_party_share: 0.6084
-    expected_two_party_share_v2: 0.7329
+    expected_two_party_share_v2: 0.6588
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5734
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4266
     is_incumbent: true
-    war_v2: 0.3021
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3571
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3026
+    tide_component: -0.0014
     expected_two_party_share: 0.5734
-    expected_two_party_share_v2: 0.6979
+    expected_two_party_share_v2: 0.6429
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6575
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7833
     war: 0.1258
     is_incumbent: true
-    war_v2: 0.0013
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0857
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.347
+    tide_component: -0.0014
     expected_two_party_share: 0.6575
-    expected_two_party_share_v2: 0.782
+    expected_two_party_share_v2: 0.6976
   - name: Stephen John White
     slug: stephen-john-white
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2167
     war: -0.1258
     is_incumbent: false
-    war_v2: -0.1258
+    incumbent_terms: 0
+    war_v2: -0.1588
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1807
+    tide_component: -0.0009
     expected_two_party_share: 0.3425
-    expected_two_party_share_v2: 0.3425
+    expected_two_party_share_v2: 0.3755
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4945
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7491
     war: 0.2546
     is_incumbent: false
-    war_v2: 0.2546
+    incumbent_terms: 0
+    war_v2: 0.2936
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2609
+    tide_component: -0.0011
     expected_two_party_share: 0.4945
-    expected_two_party_share_v2: 0.4945
+    expected_two_party_share_v2: 0.4555
   - name: Paul J. Ronukaitus
     slug: paul-j-ronukaitus
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2509
     war: -0.2546
     is_incumbent: false
-    war_v2: -0.2546
+    incumbent_terms: 0
+    war_v2: -0.2102
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2668
+    tide_component: -0.0012
     expected_two_party_share: 0.5055
-    expected_two_party_share_v2: 0.5055
+    expected_two_party_share_v2: 0.4611
   is_open_seat: null
 title: 19th Suffolk (2001-2010)
 layout: district

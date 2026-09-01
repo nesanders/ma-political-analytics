@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6408
     war: 0.0683
     is_incumbent: false
-    war_v2: 0.0683
+    incumbent_terms: 0
+    war_v2: 0.1446
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3021
+    tide_component: -0.0015
     expected_two_party_share: 0.5725
-    expected_two_party_share_v2: 0.5725
+    expected_two_party_share_v2: 0.4962
   - name: John Francis Cain
     slug: john-francis-cain
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3592
     war: -0.0683
     is_incumbent: false
-    war_v2: -0.0683
+    incumbent_terms: 0
+    war_v2: -0.0612
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2256
+    tide_component: -0.0008
     expected_two_party_share: 0.4275
-    expected_two_party_share_v2: 0.4275
+    expected_two_party_share_v2: 0.4204
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2839
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2839
     is_incumbent: true
-    war_v2: 0.1594
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.282
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3779
+    tide_component: -0.0015
     expected_two_party_share: 0.7161
-    expected_two_party_share_v2: 0.8406
+    expected_two_party_share_v2: 0.718
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5575
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5954
     war: 0.1529
     is_incumbent: true
-    war_v2: 0.0284
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0106
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2335
+    tide_component: -0.0008
     expected_two_party_share: 0.4425
-    expected_two_party_share_v2: 0.567
+    expected_two_party_share_v2: 0.5848
   - name: Jerome Parker-O'grady
     slug: jerome-parker-ogrady
     party: Democratic
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4046
     war: -0.1529
     is_incumbent: false
-    war_v2: -0.1529
+    incumbent_terms: 0
+    war_v2: -0.0837
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2942
+    tide_component: -0.0015
     expected_two_party_share: 0.5575
-    expected_two_party_share_v2: 0.5575
+    expected_two_party_share_v2: 0.4883
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4372
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5666
     war: 0.0038
     is_incumbent: false
-    war_v2: 0.0038
+    incumbent_terms: 0
+    war_v2: 0.0752
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.297
+    tide_component: -0.0012
     expected_two_party_share: 0.5628
-    expected_two_party_share_v2: 0.5628
+    expected_two_party_share_v2: 0.4914
   - name: Patrick T. Leahy
     slug: patrick-t-leahy
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4334
     war: -0.0038
     is_incumbent: false
-    war_v2: -0.0038
+    incumbent_terms: 0
+    war_v2: 0.0082
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2307
+    tide_component: -0.0011
     expected_two_party_share: 0.4372
-    expected_two_party_share_v2: 0.4372
+    expected_two_party_share_v2: 0.4252
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6019
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6019
     is_incumbent: false
-    war_v2: 0.6019
+    incumbent_terms: 0
+    war_v2: 0.5952
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2101
+    tide_component: -0.0009
     expected_two_party_share: 0.3981
-    expected_two_party_share_v2: 0.3981
+    expected_two_party_share_v2: 0.4048
   is_open_seat: null
 title: Second Hampden & Hampshire District (2012-2020)
 layout: district

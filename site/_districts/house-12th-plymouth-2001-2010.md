@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5455
     war: 0.1601
     is_incumbent: true
-    war_v2: 0.0356
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0017
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2034
+    tide_component: -0.0012
     expected_two_party_share: 0.3854
-    expected_two_party_share_v2: 0.5099
+    expected_two_party_share_v2: 0.5438
   - name: Joseph M. Truschelli
     slug: joseph-m-truschelli
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4545
     war: -0.1601
     is_incumbent: false
-    war_v2: -0.1601
+    incumbent_terms: 0
+    war_v2: -0.0644
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3243
+    tide_component: -0.0011
     expected_two_party_share: 0.6146
-    expected_two_party_share_v2: 0.6146
+    expected_two_party_share_v2: 0.5189
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4923
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5077
     is_incumbent: true
-    war_v2: 0.3832
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3896
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2598
+    tide_component: -0.0015
     expected_two_party_share: 0.4923
-    expected_two_party_share_v2: 0.6168
+    expected_two_party_share_v2: 0.6104
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5016
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5083
     war: 0.0066
     is_incumbent: false
-    war_v2: 0.0066
+    incumbent_terms: 0
+    war_v2: 0.0494
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2647
+    tide_component: -0.0014
     expected_two_party_share: 0.5017
-    expected_two_party_share_v2: 0.5017
+    expected_two_party_share_v2: 0.4589
   - name: Olly Demacedo
     slug: olly-demacedo
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4917
     war: -0.0066
     is_incumbent: false
-    war_v2: -0.0066
+    incumbent_terms: 0
+    war_v2: 0.034
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.263
+    tide_component: -0.0009
     expected_two_party_share: 0.4983
-    expected_two_party_share_v2: 0.4983
+    expected_two_party_share_v2: 0.4577
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5042
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6948
     war: 0.1906
     is_incumbent: true
-    war_v2: 0.0661
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0781
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2661
+    tide_component: -0.0014
     expected_two_party_share: 0.5042
-    expected_two_party_share_v2: 0.6287
+    expected_two_party_share_v2: 0.6167
   - name: Paul Timmins Curtis
     slug: paul-timmins-curtis
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3052
     war: -0.1906
     is_incumbent: false
-    war_v2: -0.1906
+    incumbent_terms: 0
+    war_v2: -0.1512
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2616
+    tide_component: -0.0009
     expected_two_party_share: 0.4958
-    expected_two_party_share_v2: 0.4958
+    expected_two_party_share_v2: 0.4564
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3692
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6308
     is_incumbent: false
-    war_v2: 0.6308
+    incumbent_terms: 0
+    war_v2: 0.6107
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1948
+    tide_component: -0.0011
     expected_two_party_share: 0.3692
-    expected_two_party_share_v2: 0.3692
+    expected_two_party_share_v2: 0.3893
   is_open_seat: null
 title: 12th Plymouth (2001-2010)
 layout: district

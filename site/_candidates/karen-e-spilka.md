@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2945
-  war_v2: 0.17
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2771
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7055
-  expected_two_party_share_v2: 0.83
+  expected_two_party_share_v2: 0.7229
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2868
-  war_v2: 0.2868
+  war_v2: 0.4295
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7132
-  expected_two_party_share_v2: 0.7132
+  expected_two_party_share_v2: 0.5705
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.283
-  war_v2: 0.1585
-  incumbency_adjustment: 0.1245
+  war_v2: 0.284
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.717
-  expected_two_party_share_v2: 0.8415
+  expected_two_party_share_v2: 0.716
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.701
-  war_v2: 0.5765
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5038
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.299
-  expected_two_party_share_v2: 0.4235
+  expected_two_party_share_v2: 0.4962
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3161
-  war_v2: 0.1916
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2989
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6839
-  expected_two_party_share_v2: 0.8084
+  expected_two_party_share_v2: 0.7011
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5367
-  war_v2: 0.4122
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4045
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4633
-  expected_two_party_share_v2: 0.5878
+  expected_two_party_share_v2: 0.5955
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4054
-  war_v2: 0.4054
+  war_v2: 0.4921
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5946
-  expected_two_party_share_v2: 0.5946
+  expected_two_party_share_v2: 0.5079
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.5927
   war: 0.0992
-  war_v2: -0.0253
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0057
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4935
-  expected_two_party_share_v2: 0.618
+  expected_two_party_share_v2: 0.5984
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3847
-  war_v2: 0.2602
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3351
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6153
-  expected_two_party_share_v2: 0.7398
+  expected_two_party_share_v2: 0.6649
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -157,12 +166,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4264
-  war_v2: 0.3019
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3466
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5736
-  expected_two_party_share_v2: 0.6981
+  expected_two_party_share_v2: 0.6534
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -173,12 +183,13 @@ races:
   winner: true
   actual_two_party_share: 0.5729
   war: -0.0366
-  war_v2: -0.0366
+  war_v2: 0.0571
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6095
-  expected_two_party_share_v2: 0.6095
+  expected_two_party_share_v2: 0.5158
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -189,12 +200,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5797
-  war_v2: 0.5797
+  war_v2: 0.5837
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4203
-  expected_two_party_share_v2: 0.4203
+  expected_two_party_share_v2: 0.4163
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 13758

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1496
     is_incumbent: true
-    war_v2: 0.0251
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2136
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4488
+    tide_component: -0.0015
     expected_two_party_share: 0.8504
-    expected_two_party_share_v2: 0.9749
+    expected_two_party_share_v2: 0.7864
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5672
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4328
     is_incumbent: true
-    war_v2: 0.3083
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3623
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2993
+    tide_component: -0.0008
     expected_two_party_share: 0.5672
-    expected_two_party_share_v2: 0.6917
+    expected_two_party_share_v2: 0.6377
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8381
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1619
     is_incumbent: true
-    war_v2: 0.0374
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2175
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4423
+    tide_component: -0.0015
     expected_two_party_share: 0.8381
-    expected_two_party_share_v2: 0.9626
+    expected_two_party_share_v2: 0.7825
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7033
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7567
     war: 0.0534
     is_incumbent: true
-    war_v2: -0.0711
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0346
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3711
+    tide_component: -0.0011
     expected_two_party_share: 0.7033
-    expected_two_party_share_v2: 0.8278
+    expected_two_party_share_v2: 0.7221
   - name: Robert L. Cappucci, Jr.
     slug: robert-l-cappucci-jr
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2433
     war: -0.0534
     is_incumbent: false
-    war_v2: -0.0534
+    incumbent_terms: 0
+    war_v2: -0.1077
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1566
+    tide_component: -0.0012
     expected_two_party_share: 0.2967
-    expected_two_party_share_v2: 0.2967
+    expected_two_party_share_v2: 0.351
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7897
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2103
     is_incumbent: false
-    war_v2: 0.2103
+    incumbent_terms: 0
+    war_v2: 0.3891
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4167
+    tide_component: -0.0014
     expected_two_party_share: 0.7897
-    expected_two_party_share_v2: 0.7897
+    expected_two_party_share_v2: 0.6109
   is_open_seat: null
 title: Second Middlesex District (2012-2020)
 layout: district

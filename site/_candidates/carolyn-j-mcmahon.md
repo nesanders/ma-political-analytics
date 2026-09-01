@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -35,6 +36,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Carolyn J. McMahon
 layout: candidate
 ---

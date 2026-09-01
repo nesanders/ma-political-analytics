@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3469
-  war_v2: 0.2224
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3044
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6531
-  expected_two_party_share_v2: 0.7776
+  expected_two_party_share_v2: 0.6956
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1933
-  war_v2: 0.1933
+  war_v2: 0.3801
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8067
-  expected_two_party_share_v2: 0.8067
+  expected_two_party_share_v2: 0.6199
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2836
-  war_v2: 0.1591
-  incumbency_adjustment: 0.1245
+  war_v2: 0.284
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7164
-  expected_two_party_share_v2: 0.8409
+  expected_two_party_share_v2: 0.716
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2228
-  war_v2: 0.0983
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2521
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7772
-  expected_two_party_share_v2: 0.9017
+  expected_two_party_share_v2: 0.7479
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2589
-  war_v2: 0.1344
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2686
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7411
-  expected_two_party_share_v2: 0.8656
+  expected_two_party_share_v2: 0.7314
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.7865
   war: 0.066
-  war_v2: -0.0585
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0556
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7205
-  expected_two_party_share_v2: 0.845
+  expected_two_party_share_v2: 0.7309
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3935
-  war_v2: 0.3935
+  war_v2: 0.4854
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6065
-  expected_two_party_share_v2: 0.6065
+  expected_two_party_share_v2: 0.5146
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Benjamin Swan
 layout: candidate
 ---

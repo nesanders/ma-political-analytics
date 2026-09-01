@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4816
   war: 0.0348
-  war_v2: 0.0348
+  war_v2: 0.0515
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4468
-  expected_two_party_share_v2: 0.4468
+  expected_two_party_share_v2: 0.4301
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Patrick M. Gerry
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5121
     war: -0.0414
     is_incumbent: false
-    war_v2: -0.0414
+    incumbent_terms: 0
+    war_v2: 0.0258
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2921
+    tide_component: -0.0014
     expected_two_party_share: 0.5535
-    expected_two_party_share_v2: 0.5535
+    expected_two_party_share_v2: 0.4863
   - name: Mathew J. Muratore
     slug: mathew-j-muratore
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4879
     war: 0.0414
     is_incumbent: false
-    war_v2: 0.0414
+    incumbent_terms: 0
+    war_v2: 0.0576
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2356
+    tide_component: -0.0009
     expected_two_party_share: 0.4465
-    expected_two_party_share_v2: 0.4465
+    expected_two_party_share_v2: 0.4303
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5603
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5635
     war: 0.0032
     is_incumbent: false
-    war_v2: 0.0032
+    incumbent_terms: 0
+    war_v2: 0.0737
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2957
+    tide_component: -0.0015
     expected_two_party_share: 0.5603
-    expected_two_party_share_v2: 0.5603
+    expected_two_party_share_v2: 0.4898
   - name: Kari Macrae
     slug: kari-macrae
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4365
     war: -0.0032
     is_incumbent: false
-    war_v2: -0.0032
+    incumbent_terms: 0
+    war_v2: 0.0097
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.232
+    tide_component: -0.0008
     expected_two_party_share: 0.4397
-    expected_two_party_share_v2: 0.4397
+    expected_two_party_share_v2: 0.4268
   is_open_seat: null
 demographics:
   total_population: 166514

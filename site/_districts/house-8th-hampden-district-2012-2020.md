@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4231
     is_incumbent: true
-    war_v2: 0.2986
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3579
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3044
+    tide_component: -0.0015
     expected_two_party_share: 0.5769
-    expected_two_party_share_v2: 0.7014
+    expected_two_party_share_v2: 0.6421
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2637
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7363
     is_incumbent: true
-    war_v2: 0.6118
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5224
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1392
+    tide_component: -0.0008
     expected_two_party_share: 0.2637
-    expected_two_party_share_v2: 0.3882
+    expected_two_party_share_v2: 0.4776
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5563
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4437
     is_incumbent: true
-    war_v2: 0.3192
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3662
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2936
+    tide_component: -0.0015
     expected_two_party_share: 0.5563
-    expected_two_party_share_v2: 0.6808
+    expected_two_party_share_v2: 0.6338
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.439
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.561
     is_incumbent: true
-    war_v2: 0.4365
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4174
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2317
+    tide_component: -0.0011
     expected_two_party_share: 0.439
-    expected_two_party_share_v2: 0.5635
+    expected_two_party_share_v2: 0.5826
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6344
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3656
     is_incumbent: false
-    war_v2: 0.3656
+    incumbent_terms: 0
+    war_v2: 0.471
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3348
+    tide_component: -0.0014
     expected_two_party_share: 0.6344
-    expected_two_party_share_v2: 0.6344
+    expected_two_party_share_v2: 0.529
   is_open_seat: null
 title: 8th Hampden District (2012-2020)
 layout: district

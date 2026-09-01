@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2834
     is_incumbent: true
-    war_v2: 0.1589
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2842
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3781
+    tide_component: -0.0015
     expected_two_party_share: 0.7166
-    expected_two_party_share_v2: 0.8411
+    expected_two_party_share_v2: 0.7158
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3037
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6655
     war: 0.3618
     is_incumbent: true
-    war_v2: 0.2373
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.1668
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1603
+    tide_component: -0.0008
     expected_two_party_share: 0.3037
-    expected_two_party_share_v2: 0.4282
+    expected_two_party_share_v2: 0.4987
   - name: Margaret W. Busse
     slug: margaret-w-busse
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3345
     war: -0.3618
     is_incumbent: false
-    war_v2: -0.3618
+    incumbent_terms: 0
+    war_v2: -0.227
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3674
+    tide_component: -0.0015
     expected_two_party_share: 0.6963
-    expected_two_party_share_v2: 0.6963
+    expected_two_party_share_v2: 0.5615
   - name: Terra Friedrichs
     slug: terra-friedrichs
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.0212
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.6746
     war: 0.0015
     is_incumbent: true
-    war_v2: -0.123
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0208
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3552
+    tide_component: -0.0015
     expected_two_party_share: 0.6731
-    expected_two_party_share_v2: 0.7976
+    expected_two_party_share_v2: 0.6954
   - name: Ted Busiek
     slug: ted-busiek
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.3254
     war: -0.0015
     is_incumbent: false
-    war_v2: -0.0015
+    incumbent_terms: 0
+    war_v2: -0.0419
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1725
+    tide_component: -0.0008
     expected_two_party_share: 0.3269
-    expected_two_party_share_v2: 0.3269
+    expected_two_party_share_v2: 0.3673
   - name: Terra Friedrichs
     slug: terra-friedrichs
     party: Other
@@ -121,8 +145,12 @@ results_by_year:
     actual_two_party_share: 0.0488
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5446
     is_incumbent: true
-    war_v2: 0.4201
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4087
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2403
+    tide_component: -0.0011
     expected_two_party_share: 0.4554
-    expected_two_party_share_v2: 0.5799
+    expected_two_party_share_v2: 0.5913
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5859
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.6476
     war: 0.0617
     is_incumbent: false
-    war_v2: 0.0617
+    incumbent_terms: 0
+    war_v2: 0.1442
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3092
+    tide_component: -0.0014
     expected_two_party_share: 0.5859
-    expected_two_party_share_v2: 0.5859
+    expected_two_party_share_v2: 0.5034
   - name: Dean J. Cavaretta
     slug: dean-j-cavaretta
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.3524
     war: -0.0617
     is_incumbent: false
-    war_v2: -0.0617
+    incumbent_terms: 0
+    war_v2: -0.0608
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2185
+    tide_component: -0.0009
     expected_two_party_share: 0.4141
-    expected_two_party_share_v2: 0.4141
+    expected_two_party_share_v2: 0.4132
   is_open_seat: null
 title: Middlesex & Worcester District (2012-2020)
 layout: district

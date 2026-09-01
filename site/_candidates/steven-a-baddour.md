@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5898
   war: 0.1483
-  war_v2: 0.0238
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0189
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4415
-  expected_two_party_share_v2: 0.566
+  expected_two_party_share_v2: 0.5709
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4204
-  war_v2: 0.2959
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3564
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5796
-  expected_two_party_share_v2: 0.7041
+  expected_two_party_share_v2: 0.6436
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4555
-  war_v2: 0.331
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3724
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5445
-  expected_two_party_share_v2: 0.669
+  expected_two_party_share_v2: 0.6276
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6867
   war: 0.1286
-  war_v2: 0.0041
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0415
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5581
-  expected_two_party_share_v2: 0.6826
+  expected_two_party_share_v2: 0.6452
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6063
-  war_v2: 0.6063
+  war_v2: 0.5977
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3937
-  expected_two_party_share_v2: 0.3937
+  expected_two_party_share_v2: 0.4023
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven A. Baddour
 layout: candidate
 ---

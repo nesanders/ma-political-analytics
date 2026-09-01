@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2512
     is_incumbent: false
-    war_v2: 0.2512
+    incumbent_terms: 0
+    war_v2: 0.4107
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3951
+    tide_component: -0.0014
     expected_two_party_share: 0.7488
-    expected_two_party_share_v2: 0.7488
+    expected_two_party_share_v2: 0.5893
   - name: William R. Dermody
     slug: william-r-dermody
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.6271
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2751
     is_incumbent: false
-    war_v2: 0.2751
+    incumbent_terms: 0
+    war_v2: 0.4234
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3825
+    tide_component: -0.0015
     expected_two_party_share: 0.7249
-    expected_two_party_share_v2: 0.7249
+    expected_two_party_share_v2: 0.5766
   is_open_seat: null
 demographics:
   total_population: 44512

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6236
   war: -0.1336
-  war_v2: -0.2581
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1162
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7572
-  expected_two_party_share_v2: 0.8817
+  expected_two_party_share_v2: 0.7398
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4793
-  war_v2: 0.3548
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3743
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5207
-  expected_two_party_share_v2: 0.6452
+  expected_two_party_share_v2: 0.6257
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.654
   war: 0.021
-  war_v2: 0.021
+  war_v2: 0.1258
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.633
-  expected_two_party_share_v2: 0.633
+  expected_two_party_share_v2: 0.5282
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4215
-  war_v2: 0.297
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3568
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5785
-  expected_two_party_share_v2: 0.703
+  expected_two_party_share_v2: 0.6432
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3252
-  war_v2: 0.2007
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3062
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6748
-  expected_two_party_share_v2: 0.7993
+  expected_two_party_share_v2: 0.6938
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3751
-  war_v2: 0.2506
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3299
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6249
-  expected_two_party_share_v2: 0.7494
+  expected_two_party_share_v2: 0.6701
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.6014
   war: -0.0446
-  war_v2: -0.1691
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0902
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.646
-  expected_two_party_share_v2: 0.7705
+  expected_two_party_share_v2: 0.6916
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.5922
   war: 0.1493
-  war_v2: 0.1493
+  war_v2: 0.164
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4429
-  expected_two_party_share_v2: 0.4429
+  expected_two_party_share_v2: 0.4282
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Cory Atkins
 layout: candidate
 ---

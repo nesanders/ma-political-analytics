@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3482
   war: -0.059
-  war_v2: -0.059
+  war_v2: -0.0614
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4072
-  expected_two_party_share_v2: 0.4072
+  expected_two_party_share_v2: 0.4096
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5429
   war: 0.022
-  war_v2: 0.022
+  war_v2: 0.0735
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5209
-  expected_two_party_share_v2: 0.5209
+  expected_two_party_share_v2: 0.4694
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul Adams
 layout: candidate
 ---

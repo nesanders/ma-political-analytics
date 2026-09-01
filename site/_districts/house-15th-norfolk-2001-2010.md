@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2422
     is_incumbent: true
-    war_v2: 0.1177
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2621
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3999
+    tide_component: -0.0012
     expected_two_party_share: 0.7578
-    expected_two_party_share_v2: 0.8823
+    expected_two_party_share_v2: 0.7379
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8227
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1773
     is_incumbent: true
-    war_v2: 0.0528
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2281
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4341
+    tide_component: -0.0015
     expected_two_party_share: 0.8227
-    expected_two_party_share_v2: 0.9472
+    expected_two_party_share_v2: 0.7719
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7932
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2068
     is_incumbent: true
-    war_v2: 0.0823
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2411
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4186
+    tide_component: -0.0014
     expected_two_party_share: 0.7932
-    expected_two_party_share_v2: 0.9177
+    expected_two_party_share_v2: 0.7589
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8013
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1987
     is_incumbent: true
-    war_v2: 0.0742
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2265
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4228
+    tide_component: -0.0014
     expected_two_party_share: 0.8013
-    expected_two_party_share_v2: 0.9258
+    expected_two_party_share_v2: 0.7735
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6593
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3407
     is_incumbent: false
-    war_v2: 0.3407
+    incumbent_terms: 0
+    war_v2: 0.4576
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3479
+    tide_component: -0.0011
     expected_two_party_share: 0.6593
-    expected_two_party_share_v2: 0.6593
+    expected_two_party_share_v2: 0.5424
   is_open_seat: null
 title: 15th Norfolk (2001-2010)
 layout: district

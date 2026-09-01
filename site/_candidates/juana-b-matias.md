@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1512
-  war_v2: 0.1512
+  war_v2: 0.358
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8488
-  expected_two_party_share_v2: 0.8488
+  expected_two_party_share_v2: 0.642
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Juana B. Matias
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5373
     war: 0.0951
     is_incumbent: true
-    war_v2: -0.0294
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.034
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2333
+    tide_component: -0.0012
     expected_two_party_share: 0.4422
-    expected_two_party_share_v2: 0.5667
+    expected_two_party_share_v2: 0.5713
   - name: James M. Stanton
     slug: james-m-stanton
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4627
     war: -0.0951
     is_incumbent: false
-    war_v2: -0.0951
+    incumbent_terms: 0
+    war_v2: -0.0262
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2944
+    tide_component: -0.0011
     expected_two_party_share: 0.5578
-    expected_two_party_share_v2: 0.5578
+    expected_two_party_share_v2: 0.4889
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.547
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.453
     is_incumbent: true
-    war_v2: 0.3285
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3736
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2887
+    tide_component: -0.0015
     expected_two_party_share: 0.547
-    expected_two_party_share_v2: 0.6715
+    expected_two_party_share_v2: 0.6264
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5206
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4794
     is_incumbent: true
-    war_v2: 0.3549
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.385
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2747
+    tide_component: -0.0014
     expected_two_party_share: 0.5206
-    expected_two_party_share_v2: 0.6451
+    expected_two_party_share_v2: 0.615
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5717
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4283
     is_incumbent: true
-    war_v2: 0.3038
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3477
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3017
+    tide_component: -0.0014
     expected_two_party_share: 0.5717
-    expected_two_party_share_v2: 0.6962
+    expected_two_party_share_v2: 0.6523
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4028
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5972
     is_incumbent: false
-    war_v2: 0.5972
+    incumbent_terms: 0
+    war_v2: 0.5929
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2126
+    tide_component: -0.0011
     expected_two_party_share: 0.4028
-    expected_two_party_share_v2: 0.4028
+    expected_two_party_share_v2: 0.4071
   is_open_seat: null
 title: 12th Norfolk (2001-2010)
 layout: district

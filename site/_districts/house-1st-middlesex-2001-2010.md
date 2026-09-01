@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6252
     war: 0.0244
     is_incumbent: false
-    war_v2: 0.0244
+    incumbent_terms: 0
+    war_v2: 0.1137
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.317
+    tide_component: -0.0011
     expected_two_party_share: 0.6008
-    expected_two_party_share_v2: 0.6008
+    expected_two_party_share_v2: 0.5115
   - name: Jesse Reich
     slug: jesse-reich
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3748
     war: -0.0244
     is_incumbent: false
-    war_v2: -0.0244
+    incumbent_terms: 0
+    war_v2: -0.0303
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2107
+    tide_component: -0.0012
     expected_two_party_share: 0.3992
-    expected_two_party_share_v2: 0.3992
+    expected_two_party_share_v2: 0.4051
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5272
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5658
     war: 0.093
     is_incumbent: true
-    war_v2: -0.0315
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0221
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2495
+    tide_component: -0.0008
     expected_two_party_share: 0.4728
-    expected_two_party_share_v2: 0.5973
+    expected_two_party_share_v2: 0.5879
   - name: Virginia C. Wood
     slug: virginia-c-wood
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4342
     war: -0.093
     is_incumbent: false
-    war_v2: -0.093
+    incumbent_terms: 0
+    war_v2: -0.0381
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2782
+    tide_component: -0.0015
     expected_two_party_share: 0.5272
-    expected_two_party_share_v2: 0.5272
+    expected_two_party_share_v2: 0.4723
   - name: Zachary E. Saboliauskas
     slug: zachary-e-saboliauskas
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0604
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.5955
     war: 0.0853
     is_incumbent: true
-    war_v2: -0.0392
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0145
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2692
+    tide_component: -0.0009
     expected_two_party_share: 0.5102
-    expected_two_party_share_v2: 0.6347
+    expected_two_party_share_v2: 0.61
   - name: Carol L. Bousquet
     slug: carol-l-bousquet
     party: Democratic
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.4045
     war: -0.0853
     is_incumbent: false
-    war_v2: -0.0853
+    incumbent_terms: 0
+    war_v2: -0.0482
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2585
+    tide_component: -0.0014
     expected_two_party_share: 0.4898
-    expected_two_party_share_v2: 0.4898
+    expected_two_party_share_v2: 0.4527
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5143
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5143
     is_incumbent: true
-    war_v2: 0.3898
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3925
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2563
+    tide_component: -0.0009
     expected_two_party_share: 0.4857
-    expected_two_party_share_v2: 0.6102
+    expected_two_party_share_v2: 0.6075
   - name: Faye L. Morrison
     slug: faye-l-morrison
     party: Other
@@ -154,8 +186,12 @@ results_by_year:
     actual_two_party_share: 0.0068
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.6389
     war: -0.0161
     is_incumbent: false
-    war_v2: -0.0161
+    incumbent_terms: 0
+    war_v2: 0.0989
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3456
+    tide_component: -0.0012
     expected_two_party_share: 0.655
-    expected_two_party_share_v2: 0.655
+    expected_two_party_share_v2: 0.54
   - name: Faye L. Morrison
     slug: faye-l-morrison
     party: Democratic
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.3611
     war: 0.0161
     is_incumbent: false
-    war_v2: 0.0161
+    incumbent_terms: 0
+    war_v2: -0.0155
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1821
+    tide_component: -0.0011
     expected_two_party_share: 0.345
-    expected_two_party_share_v2: 0.345
+    expected_two_party_share_v2: 0.3766
   is_open_seat: null
 title: 1st Middlesex (2001-2010)
 layout: district

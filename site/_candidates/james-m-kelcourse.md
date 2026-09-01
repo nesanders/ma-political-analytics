@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5164
   war: 0.189
-  war_v2: 0.0645
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0052
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3274
-  expected_two_party_share_v2: 0.4519
+  expected_two_party_share_v2: 0.5112
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.527
   war: -0.1949
-  war_v2: -0.3194
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1941
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7219
-  expected_two_party_share_v2: 0.8464
+  expected_two_party_share_v2: 0.7211
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5406
   war: 0.1709
-  war_v2: 0.0464
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0058
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3697
-  expected_two_party_share_v2: 0.4942
+  expected_two_party_share_v2: 0.5464
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5004
   war: -0.034
-  war_v2: -0.034
+  war_v2: 0.024
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5344
-  expected_two_party_share_v2: 0.5344
+  expected_two_party_share_v2: 0.4764
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -83,6 +87,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: James M. Kelcourse
 layout: candidate
 ---

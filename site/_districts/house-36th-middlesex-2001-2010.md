@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5997
     war: 0.2478
     is_incumbent: true
-    war_v2: 0.1233
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.076
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1857
+    tide_component: -0.0012
     expected_two_party_share: 0.3519
-    expected_two_party_share_v2: 0.4764
+    expected_two_party_share_v2: 0.5237
   - name: George Derek Boag
     slug: george-derek-boag
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4003
     war: -0.2478
     is_incumbent: false
-    war_v2: -0.2478
+    incumbent_terms: 0
+    war_v2: -0.1362
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.342
+    tide_component: -0.0011
     expected_two_party_share: 0.6481
-    expected_two_party_share_v2: 0.6481
+    expected_two_party_share_v2: 0.5365
   - name: Matthew James Sheehan
     slug: matthew-james-sheehan
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1152
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5043
     is_incumbent: true
-    war_v2: 0.3798
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4007
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2616
+    tide_component: -0.0015
     expected_two_party_share: 0.4957
-    expected_two_party_share_v2: 0.6202
+    expected_two_party_share_v2: 0.5993
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.473
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.527
     is_incumbent: true
-    war_v2: 0.4025
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4101
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2496
+    tide_component: -0.0014
     expected_two_party_share: 0.473
-    expected_two_party_share_v2: 0.5975
+    expected_two_party_share_v2: 0.5899
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5066
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4934
     is_incumbent: true
-    war_v2: 0.3689
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.382
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2673
+    tide_component: -0.0014
     expected_two_party_share: 0.5066
-    expected_two_party_share_v2: 0.6311
+    expected_two_party_share_v2: 0.618
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.366
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5721
     war: 0.2061
     is_incumbent: false
-    war_v2: 0.2061
+    incumbent_terms: 0
+    war_v2: 0.1845
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1931
+    tide_component: -0.0011
     expected_two_party_share: 0.366
-    expected_two_party_share_v2: 0.366
+    expected_two_party_share_v2: 0.3876
   - name: Dennis Deeb, II
     slug: dennis-deeb-ii
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4279
     war: -0.2061
     is_incumbent: false
-    war_v2: -0.2061
+    incumbent_terms: 0
+    war_v2: -0.1011
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3346
+    tide_component: -0.0012
     expected_two_party_share: 0.634
-    expected_two_party_share_v2: 0.634
+    expected_two_party_share_v2: 0.529
   is_open_seat: null
 title: 36th Middlesex (2001-2010)
 layout: district

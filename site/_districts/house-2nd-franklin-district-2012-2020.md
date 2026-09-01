@@ -31,8 +31,12 @@ results_by_year:
     actual_two_party_share: 2.0382
     war: null
     is_incumbent: true
+    incumbent_terms: 3
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: William E. Larose
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4491
     is_incumbent: false
-    war_v2: 0.4491
+    incumbent_terms: 0
+    war_v2: 0.5152
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2907
+    tide_component: -0.0015
     expected_two_party_share: 0.5509
-    expected_two_party_share_v2: 0.5509
+    expected_two_party_share_v2: 0.4848
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2724
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 2.3646
     war: null
     is_incumbent: true
+    incumbent_terms: 2
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: John William Arena
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7276
     is_incumbent: false
-    war_v2: 0.7276
+    incumbent_terms: 0
+    war_v2: 0.6614
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1437
+    tide_component: -0.0008
     expected_two_party_share: 0.2724
-    expected_two_party_share_v2: 0.2724
+    expected_two_party_share_v2: 0.3386
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5098
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5098
     is_incumbent: true
-    war_v2: 0.3853
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.39
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2587
+    tide_component: -0.0008
     expected_two_party_share: 0.4902
-    expected_two_party_share_v2: 0.6147
+    expected_two_party_share_v2: 0.61
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4431
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5463
     war: -0.0106
     is_incumbent: false
-    war_v2: -0.0106
+    incumbent_terms: 0
+    war_v2: 0.058
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2939
+    tide_component: -0.0012
     expected_two_party_share: 0.5569
-    expected_two_party_share_v2: 0.5569
+    expected_two_party_share_v2: 0.4883
   - name: Denise Andrews
     slug: denise-andrews
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4537
     war: 0.0106
     is_incumbent: true
-    war_v2: -0.1139
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1311
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2338
+    tide_component: -0.0011
     expected_two_party_share: 0.4431
-    expected_two_party_share_v2: 0.5676
+    expected_two_party_share_v2: 0.5848
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5838
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.506
     war: -0.0778
     is_incumbent: false
-    war_v2: -0.0778
+    incumbent_terms: 0
+    war_v2: 0.0037
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3081
+    tide_component: -0.0014
     expected_two_party_share: 0.5838
-    expected_two_party_share_v2: 0.5838
+    expected_two_party_share_v2: 0.5023
   - name: Susannah M. Whipps Lee
     slug: susannah-m-whipps
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.494
     war: 0.0778
     is_incumbent: false
-    war_v2: 0.0778
+    incumbent_terms: 0
+    war_v2: 0.0797
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2196
+    tide_component: -0.0009
     expected_two_party_share: 0.4162
-    expected_two_party_share_v2: 0.4162
+    expected_two_party_share_v2: 0.4143
   - name: Richard F. Schober, Jr.
     slug: richard-f-schober-jr
     party: Other
@@ -175,8 +211,12 @@ results_by_year:
     actual_two_party_share: 0.1169
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

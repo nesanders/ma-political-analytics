@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5234
     war: -0.056
     is_incumbent: false
-    war_v2: -0.056
+    incumbent_terms: 0
+    war_v2: 0.0231
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3058
+    tide_component: -0.0011
     expected_two_party_share: 0.5794
-    expected_two_party_share_v2: 0.5794
+    expected_two_party_share_v2: 0.5003
   - name: Bill Bowles
     slug: bill-bowles
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4766
     war: 0.056
     is_incumbent: true
-    war_v2: -0.0685
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0962
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2219
+    tide_component: -0.0012
     expected_two_party_share: 0.4206
-    expected_two_party_share_v2: 0.5451
+    expected_two_party_share_v2: 0.5728
   - name: James S. Connolly
     slug: james-s-connolly
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0769
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.5403
     war: -0.0268
     is_incumbent: false
-    war_v2: -0.0268
+    incumbent_terms: 0
+    war_v2: 0.0469
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2993
+    tide_component: -0.0015
     expected_two_party_share: 0.5671
-    expected_two_party_share_v2: 0.5671
+    expected_two_party_share_v2: 0.4934
   - name: George T. Ross
     slug: george-t-ross
     party: Republican
@@ -88,10 +104,14 @@ results_by_year:
     actual_two_party_share: 0.4597
     war: 0.0268
     is_incumbent: false
-    war_v2: 0.0268
+    incumbent_terms: 0
+    war_v2: 0.0365
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2284
+    tide_component: -0.0008
     expected_two_party_share: 0.4329
-    expected_two_party_share_v2: 0.4329
+    expected_two_party_share_v2: 0.4232
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5349
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.5435
     war: 0.0784
     is_incumbent: true
-    war_v2: -0.0461
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0427
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2454
+    tide_component: -0.0009
     expected_two_party_share: 0.4651
-    expected_two_party_share_v2: 0.5896
+    expected_two_party_share_v2: 0.5862
   - name: Kate M. Jackson
     slug: kate-m-jackson
     party: Democratic
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.4565
     war: -0.0784
     is_incumbent: false
-    war_v2: -0.0784
+    incumbent_terms: 0
+    war_v2: -0.02
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2823
+    tide_component: -0.0014
     expected_two_party_share: 0.5349
-    expected_two_party_share_v2: 0.5349
+    expected_two_party_share_v2: 0.4765
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5602
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5602
     is_incumbent: true
-    war_v2: 0.4357
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4167
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2321
+    tide_component: -0.0009
     expected_two_party_share: 0.4398
-    expected_two_party_share_v2: 0.5643
+    expected_two_party_share_v2: 0.5833
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3849
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3849
     is_incumbent: false
-    war_v2: 0.3849
+    incumbent_terms: 0
+    war_v2: 0.481
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3246
+    tide_component: -0.0012
     expected_two_party_share: 0.6151
-    expected_two_party_share_v2: 0.6151
+    expected_two_party_share_v2: 0.519
   is_open_seat: null
 title: 2nd Bristol (2001-2010)
 layout: district

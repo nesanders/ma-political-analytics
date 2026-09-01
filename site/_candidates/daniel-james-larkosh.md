@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.3306
-  war_v2: 0.3306
+  war_v2: 0.4526
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6694
-  expected_two_party_share_v2: 0.6694
+  expected_two_party_share_v2: 0.5474
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Daniel James Larkosh
 layout: candidate
 ---

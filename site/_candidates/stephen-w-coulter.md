@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.316
   war: -0.2043
-  war_v2: -0.2043
+  war_v2: -0.1532
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5203
-  expected_two_party_share_v2: 0.5203
+  expected_two_party_share_v2: 0.4692
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen W. Coulter
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.267
     is_incumbent: true
-    war_v2: 0.1425
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2752
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3868
+    tide_component: -0.0012
     expected_two_party_share: 0.733
-    expected_two_party_share_v2: 0.8575
+    expected_two_party_share_v2: 0.7248
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7739
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2261
     is_incumbent: true
-    war_v2: 0.1016
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2539
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4084
+    tide_component: -0.0015
     expected_two_party_share: 0.7739
-    expected_two_party_share_v2: 0.8984
+    expected_two_party_share_v2: 0.7461
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7661
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.8194
     war: 0.0533
     is_incumbent: true
-    war_v2: -0.0712
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0748
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4043
+    tide_component: -0.0014
     expected_two_party_share: 0.7661
-    expected_two_party_share_v2: 0.8906
+    expected_two_party_share_v2: 0.7446
   - name: John A. Andrulis
     slug: john-a-andrulis
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.1806
     war: -0.0533
     is_incumbent: false
-    war_v2: -0.0533
+    incumbent_terms: 0
+    war_v2: -0.1375
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1234
+    tide_component: -0.0009
     expected_two_party_share: 0.2339
-    expected_two_party_share_v2: 0.2339
+    expected_two_party_share_v2: 0.3181
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7406
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.8039
     war: 0.0633
     is_incumbent: true
-    war_v2: -0.0612
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0624
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3908
+    tide_component: -0.0014
     expected_two_party_share: 0.7406
-    expected_two_party_share_v2: 0.8651
+    expected_two_party_share_v2: 0.7415
   - name: John A. Andrulis
     slug: john-a-andrulis
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.1961
     war: -0.0633
     is_incumbent: false
-    war_v2: -0.0633
+    incumbent_terms: 0
+    war_v2: -0.1355
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1369
+    tide_component: -0.0009
     expected_two_party_share: 0.2594
-    expected_two_party_share_v2: 0.2594
+    expected_two_party_share_v2: 0.3316
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6843
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3157
     is_incumbent: false
-    war_v2: 0.3157
+    incumbent_terms: 0
+    war_v2: 0.4444
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3611
+    tide_component: -0.0011
     expected_two_party_share: 0.6843
-    expected_two_party_share_v2: 0.6843
+    expected_two_party_share_v2: 0.5556
   - name: Michael E. Aleo
     slug: michael-e-aleo
     party: null
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.5136
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4002
   war: -0.2083
-  war_v2: -0.2083
+  war_v2: -0.1153
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6085
-  expected_two_party_share_v2: 0.6085
+  expected_two_party_share_v2: 0.5155
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mary Jane Hillery
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2822
-  war_v2: 0.1577
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2706
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7178
-  expected_two_party_share_v2: 0.8423
+  expected_two_party_share_v2: 0.7294
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2567
-  war_v2: 0.2567
+  war_v2: 0.4137
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7433
-  expected_two_party_share_v2: 0.7433
+  expected_two_party_share_v2: 0.5863
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 17039

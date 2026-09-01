@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.109
   war: -0.0202
-  war_v2: -0.0202
+  war_v2: -0.1539
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.1292
-  expected_two_party_share_v2: 0.1292
+  expected_two_party_share_v2: 0.2629
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Henry R. Irving
 layout: candidate
 ---

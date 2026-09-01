@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.425
     is_incumbent: true
-    war_v2: 0.3005
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3459
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3034
+    tide_component: -0.0014
     expected_two_party_share: 0.575
-    expected_two_party_share_v2: 0.6995
+    expected_two_party_share_v2: 0.6541
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5696
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6038
     war: 0.0342
     is_incumbent: false
-    war_v2: 0.0342
+    incumbent_terms: 0
+    war_v2: 0.1091
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3006
+    tide_component: -0.0015
     expected_two_party_share: 0.5696
-    expected_two_party_share_v2: 0.5696
+    expected_two_party_share_v2: 0.4947
   - name: Michael A. Vulcano
     slug: michael-a-vulcano
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3962
     war: -0.0342
     is_incumbent: false
-    war_v2: -0.0342
+    incumbent_terms: 0
+    war_v2: -0.0257
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2271
+    tide_component: -0.0008
     expected_two_party_share: 0.4304
-    expected_two_party_share_v2: 0.4304
+    expected_two_party_share_v2: 0.4219
   is_open_seat: null
 demographics:
   total_population: 43694

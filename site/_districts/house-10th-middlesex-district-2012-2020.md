@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2387
     is_incumbent: true
-    war_v2: 0.1142
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2606
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4017
+    tide_component: -0.0015
     expected_two_party_share: 0.7613
-    expected_two_party_share_v2: 0.8858
+    expected_two_party_share_v2: 0.7394
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4237
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5763
     is_incumbent: true
-    war_v2: 0.4518
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.438
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2236
+    tide_component: -0.0008
     expected_two_party_share: 0.4237
-    expected_two_party_share_v2: 0.5482
+    expected_two_party_share_v2: 0.562
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7365
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2635
     is_incumbent: true
-    war_v2: 0.139
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2711
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3887
+    tide_component: -0.0015
     expected_two_party_share: 0.7365
-    expected_two_party_share_v2: 0.861
+    expected_two_party_share_v2: 0.7289
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5729
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4271
     is_incumbent: true
-    war_v2: 0.3026
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3467
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3023
+    tide_component: -0.0011
     expected_two_party_share: 0.5729
-    expected_two_party_share_v2: 0.6974
+    expected_two_party_share_v2: 0.6533
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6795
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.76
     war: 0.0804
     is_incumbent: false
-    war_v2: 0.0804
+    incumbent_terms: 0
+    war_v2: 0.2072
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3586
+    tide_component: -0.0014
     expected_two_party_share: 0.6796
-    expected_two_party_share_v2: 0.6796
+    expected_two_party_share_v2: 0.5528
   - name: Francis Xavier Stanton, III
     slug: francis-xavier-stanton-iii
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.24
     war: -0.0804
     is_incumbent: false
-    war_v2: -0.0804
+    incumbent_terms: 0
+    war_v2: -0.1238
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1691
+    tide_component: -0.0009
     expected_two_party_share: 0.3204
-    expected_two_party_share_v2: 0.3204
+    expected_two_party_share_v2: 0.3638
   is_open_seat: null
 title: 10th Middlesex District (2012-2020)
 layout: district

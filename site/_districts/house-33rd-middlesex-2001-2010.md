@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.412
     is_incumbent: true
-    war_v2: 0.2875
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3517
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3103
+    tide_component: -0.0012
     expected_two_party_share: 0.588
-    expected_two_party_share_v2: 0.7125
+    expected_two_party_share_v2: 0.6483
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6949
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3051
     is_incumbent: true
-    war_v2: 0.1806
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2956
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3667
+    tide_component: -0.0015
     expected_two_party_share: 0.6949
-    expected_two_party_share_v2: 0.8194
+    expected_two_party_share_v2: 0.7044
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6546
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3454
     is_incumbent: true
-    war_v2: 0.2209
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3143
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3454
+    tide_component: -0.0014
     expected_two_party_share: 0.6546
-    expected_two_party_share_v2: 0.7791
+    expected_two_party_share_v2: 0.6857
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7094
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2906
     is_incumbent: true
-    war_v2: 0.1661
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.275
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3744
+    tide_component: -0.0014
     expected_two_party_share: 0.7094
-    expected_two_party_share_v2: 0.8339
+    expected_two_party_share_v2: 0.725
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5611
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4389
     is_incumbent: false
-    war_v2: 0.4389
+    incumbent_terms: 0
+    war_v2: 0.5094
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2961
+    tide_component: -0.0011
     expected_two_party_share: 0.5611
-    expected_two_party_share_v2: 0.5611
+    expected_two_party_share_v2: 0.4906
   is_open_seat: null
 title: 33rd Middlesex (2001-2010)
 layout: district

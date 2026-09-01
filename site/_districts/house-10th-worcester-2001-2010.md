@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5817
     is_incumbent: true
-    war_v2: 0.4572
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4388
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2207
+    tide_component: -0.0012
     expected_two_party_share: 0.4183
-    expected_two_party_share_v2: 0.5428
+    expected_two_party_share_v2: 0.5612
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5642
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4358
     is_incumbent: true
-    war_v2: 0.3113
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3516
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2977
+    tide_component: -0.0015
     expected_two_party_share: 0.5642
-    expected_two_party_share_v2: 0.6887
+    expected_two_party_share_v2: 0.6484
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5371
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.6544
     war: 0.1173
     is_incumbent: false
-    war_v2: 0.1173
+    incumbent_terms: 0
+    war_v2: 0.1768
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2834
+    tide_component: -0.0014
     expected_two_party_share: 0.5371
-    expected_two_party_share_v2: 0.5371
+    expected_two_party_share_v2: 0.4776
   - name: Robert P. Burns
     slug: robert-p-burns
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.3456
     war: -0.1173
     is_incumbent: false
-    war_v2: -0.1173
+    incumbent_terms: 0
+    war_v2: -0.0934
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2443
+    tide_component: -0.0009
     expected_two_party_share: 0.4629
-    expected_two_party_share_v2: 0.4629
+    expected_two_party_share_v2: 0.439
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5703
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4297
     is_incumbent: true
-    war_v2: 0.3052
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3484
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3009
+    tide_component: -0.0014
     expected_two_party_share: 0.5703
-    expected_two_party_share_v2: 0.6948
+    expected_two_party_share_v2: 0.6516
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3843
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6157
     is_incumbent: false
-    war_v2: 0.6157
+    incumbent_terms: 0
+    war_v2: 0.6027
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2028
+    tide_component: -0.0011
     expected_two_party_share: 0.3843
-    expected_two_party_share_v2: 0.3843
+    expected_two_party_share_v2: 0.3973
   is_open_seat: null
 title: 10th Worcester (2001-2010)
 layout: district

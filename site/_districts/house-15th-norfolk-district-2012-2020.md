@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1119
     is_incumbent: true
-    war_v2: -0.0126
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1808
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4687
+    tide_component: -0.0015
     expected_two_party_share: 0.8881
-    expected_two_party_share_v2: 1.0126
+    expected_two_party_share_v2: 0.8192
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5401
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4599
     is_incumbent: false
-    war_v2: 0.4599
+    incumbent_terms: 0
+    war_v2: 0.5202
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.285
+    tide_component: -0.0008
     expected_two_party_share: 0.5401
-    expected_two_party_share_v2: 0.5401
+    expected_two_party_share_v2: 0.4798
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8856
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1144
     is_incumbent: true
-    war_v2: -0.0101
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1925
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4673
+    tide_component: -0.0015
     expected_two_party_share: 0.8856
-    expected_two_party_share_v2: 1.0101
+    expected_two_party_share_v2: 0.8075
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6916
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8067
     war: 0.1151
     is_incumbent: true
-    war_v2: -0.0094
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0908
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.365
+    tide_component: -0.0011
     expected_two_party_share: 0.6916
-    expected_two_party_share_v2: 0.8161
+    expected_two_party_share_v2: 0.7159
   - name: Curt Myers
     slug: curt-myers
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.1933
     war: -0.1151
     is_incumbent: false
-    war_v2: -0.1151
+    incumbent_terms: 0
+    war_v2: -0.1639
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1627
+    tide_component: -0.0012
     expected_two_party_share: 0.3084
-    expected_two_party_share_v2: 0.3084
+    expected_two_party_share_v2: 0.3572
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7912
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2088
     is_incumbent: false
-    war_v2: 0.2088
+    incumbent_terms: 0
+    war_v2: 0.3883
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4175
+    tide_component: -0.0014
     expected_two_party_share: 0.7912
-    expected_two_party_share_v2: 0.7912
+    expected_two_party_share_v2: 0.6117
   is_open_seat: null
 title: 15th Norfolk District (2012-2020)
 layout: district

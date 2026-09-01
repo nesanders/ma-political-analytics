@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2475
   war: -0.0764
-  war_v2: -0.0764
+  war_v2: -0.118
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3239
-  expected_two_party_share_v2: 0.3239
+  expected_two_party_share_v2: 0.3655
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.1931
   war: -0.0668
-  war_v2: -0.0668
+  war_v2: -0.1388
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2599
-  expected_two_party_share_v2: 0.2599
+  expected_two_party_share_v2: 0.3319
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: C.J. Ferry
 layout: candidate
 ---

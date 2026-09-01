@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4341
     is_incumbent: true
-    war_v2: 0.3096
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3507
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2986
+    tide_component: -0.0014
     expected_two_party_share: 0.5659
-    expected_two_party_share_v2: 0.6904
+    expected_two_party_share_v2: 0.6493
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5844
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6396
     war: 0.0552
     is_incumbent: false
-    war_v2: 0.0552
+    incumbent_terms: 0
+    war_v2: 0.1371
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3084
+    tide_component: -0.0015
     expected_two_party_share: 0.5844
-    expected_two_party_share_v2: 0.5844
+    expected_two_party_share_v2: 0.5025
   - name: Paul J. Rotondo
     slug: paul-j-rotondo
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3604
     war: -0.0552
     is_incumbent: false
-    war_v2: -0.0552
+    incumbent_terms: 0
+    war_v2: -0.0537
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2193
+    tide_component: -0.0008
     expected_two_party_share: 0.4156
-    expected_two_party_share_v2: 0.4156
+    expected_two_party_share_v2: 0.4141
   is_open_seat: null
 demographics:
   total_population: 46576

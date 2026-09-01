@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2906
   war: -0.038
-  war_v2: -0.038
+  war_v2: -0.0776
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3286
-  expected_two_party_share_v2: 0.3286
+  expected_two_party_share_v2: 0.3682
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3901
   war: -0.2065
-  war_v2: -0.2065
+  war_v2: -0.1192
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5966
-  expected_two_party_share_v2: 0.5966
+  expected_two_party_share_v2: 0.5093
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David A. Rosa
 layout: candidate
 ---

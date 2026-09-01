@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2397
     is_incumbent: true
-    war_v2: 0.1152
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2611
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4012
+    tide_component: -0.0015
     expected_two_party_share: 0.7603
-    expected_two_party_share_v2: 0.8848
+    expected_two_party_share_v2: 0.7389
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4498
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5502
     is_incumbent: true
-    war_v2: 0.4257
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4217
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2374
+    tide_component: -0.0008
     expected_two_party_share: 0.4498
-    expected_two_party_share_v2: 0.5743
+    expected_two_party_share_v2: 0.5783
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.741
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.259
     is_incumbent: true
-    war_v2: 0.1345
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2584
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.391
+    tide_component: -0.0015
     expected_two_party_share: 0.741
-    expected_two_party_share_v2: 0.8655
+    expected_two_party_share_v2: 0.7416
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6078
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3922
     is_incumbent: false
-    war_v2: 0.3922
+    incumbent_terms: 0
+    war_v2: 0.4848
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3207
+    tide_component: -0.0011
     expected_two_party_share: 0.6078
-    expected_two_party_share_v2: 0.6078
+    expected_two_party_share_v2: 0.5152
   - name: John P. Matheson
     slug: john-p-matheson
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.5016
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2763
     is_incumbent: false
-    war_v2: 0.2763
+    incumbent_terms: 0
+    war_v2: 0.4239
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3819
+    tide_component: -0.0014
     expected_two_party_share: 0.7237
-    expected_two_party_share_v2: 0.7237
+    expected_two_party_share_v2: 0.5761
   is_open_seat: null
 title: 33rd Middlesex District (2012-2020)
 layout: district

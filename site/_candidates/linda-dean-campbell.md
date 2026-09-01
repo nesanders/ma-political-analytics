@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4303
-  war_v2: 0.3058
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3617
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5697
-  expected_two_party_share_v2: 0.6942
+  expected_two_party_share_v2: 0.6383
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7474
-  war_v2: 0.6229
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5283
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.2526
-  expected_two_party_share_v2: 0.3771
+  expected_two_party_share_v2: 0.4717
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4624
-  war_v2: 0.3379
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3761
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5376
-  expected_two_party_share_v2: 0.6621
+  expected_two_party_share_v2: 0.6239
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5737
   war: 0.1719
-  war_v2: 0.0474
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0107
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4018
-  expected_two_party_share_v2: 0.5263
+  expected_two_party_share_v2: 0.563
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4707
-  war_v2: 0.4707
+  war_v2: 0.5265
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5293
-  expected_two_party_share_v2: 0.5293
+  expected_two_party_share_v2: 0.4735
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.5794
   war: 0.1799
-  war_v2: 0.0554
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0281
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.3995
-  expected_two_party_share_v2: 0.524
+  expected_two_party_share_v2: 0.5513
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4513
-  war_v2: 0.3268
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3598
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5487
-  expected_two_party_share_v2: 0.6732
+  expected_two_party_share_v2: 0.6402
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.6807
   war: 0.1813
-  war_v2: 0.1813
+  war_v2: 0.223
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4994
-  expected_two_party_share_v2: 0.4994
+  expected_two_party_share_v2: 0.4577
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Linda Dean Campbell
 layout: candidate
 ---

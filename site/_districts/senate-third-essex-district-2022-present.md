@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4045
     is_incumbent: false
-    war_v2: 0.4045
+    incumbent_terms: 0
+    war_v2: 0.4916
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3142
+    tide_component: -0.0014
     expected_two_party_share: 0.5955
-    expected_two_party_share_v2: 0.5955
+    expected_two_party_share_v2: 0.5084
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6333
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3667
     is_incumbent: false
-    war_v2: 0.3667
+    incumbent_terms: 0
+    war_v2: 0.4717
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3342
+    tide_component: -0.0015
     expected_two_party_share: 0.6333
-    expected_two_party_share_v2: 0.6333
+    expected_two_party_share_v2: 0.5283
   - name: Annalisa Salustri
     slug: annalisa-salustri
     party: Other
@@ -61,8 +69,12 @@ results_by_year:
     actual_two_party_share: 0.4018
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

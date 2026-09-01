@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5635
   war: 0.0032
-  war_v2: 0.0032
+  war_v2: 0.0737
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5603
-  expected_two_party_share_v2: 0.5603
+  expected_two_party_share_v2: 0.4898
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5631
   war: -0.0216
-  war_v2: -0.0216
+  war_v2: 0.0605
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5847
-  expected_two_party_share_v2: 0.5847
+  expected_two_party_share_v2: 0.5026
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Susan Lynn Moran
 layout: candidate
 ---

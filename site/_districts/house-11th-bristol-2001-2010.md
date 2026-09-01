@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6664
     war: 0.0111
     is_incumbent: true
-    war_v2: -0.1134
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0174
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3458
+    tide_component: -0.0012
     expected_two_party_share: 0.6553
-    expected_two_party_share_v2: 0.7798
+    expected_two_party_share_v2: 0.6838
   - name: Ivo M. Almeida
     slug: ivo-m-almeida
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3336
     war: -0.0111
     is_incumbent: false
-    war_v2: -0.0111
+    incumbent_terms: 0
+    war_v2: -0.0428
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1819
+    tide_component: -0.0011
     expected_two_party_share: 0.3447
-    expected_two_party_share_v2: 0.3447
+    expected_two_party_share_v2: 0.3764
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6839
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3161
     is_incumbent: true
-    war_v2: 0.1916
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3014
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3609
+    tide_component: -0.0015
     expected_two_party_share: 0.6839
-    expected_two_party_share_v2: 0.8084
+    expected_two_party_share_v2: 0.6986
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7262
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2738
     is_incumbent: true
-    war_v2: 0.1493
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2765
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3832
+    tide_component: -0.0014
     expected_two_party_share: 0.7262
-    expected_two_party_share_v2: 0.8507
+    expected_two_party_share_v2: 0.7235
   - name: Dennis G. Dallaire, Jr.
     slug: dennis-g-dallaire-jr
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.5507
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2637
     is_incumbent: true
-    war_v2: 0.1392
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2608
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3885
+    tide_component: -0.0014
     expected_two_party_share: 0.7363
-    expected_two_party_share_v2: 0.8608
+    expected_two_party_share_v2: 0.7392
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6906
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3094
     is_incumbent: false
-    war_v2: 0.3094
+    incumbent_terms: 0
+    war_v2: 0.4411
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3644
+    tide_component: -0.0011
     expected_two_party_share: 0.6906
-    expected_two_party_share_v2: 0.6906
+    expected_two_party_share_v2: 0.5589
   is_open_seat: null
 title: 11th Bristol (2001-2010)
 layout: district

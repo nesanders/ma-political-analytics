@@ -50,14 +50,17 @@ layout: default
     <h2>What drives replacement level: {{ latest_contested.year | default: "" }}</h2>
     {% if latest_contested %}
     <p>
-      WAR v2 breaks each candidate's actual share into the pieces that add
-      up to it: the district's lean baseline, an incumbency adjustment
-      (only for a candidate who held the seat coming in), and whatever's
-      left over &mdash; WAR v2 itself, the part attributable to the
-      candidate. See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the fitted coefficient and what it's based on.
+      WAR v2 is a regression, fit across every contested race in this
+      site's backfill: actual share ~ a baseline intercept + district lean
+      + that year's statewide tide + incumbency (1st/2nd/3rd-or-later
+      term). This breaks each candidate's actual share into exactly those
+      pieces, plus whatever's left over &mdash; WAR v2 itself, the part
+      attributable to the candidate. See the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the fitted coefficients, their uncertainty, and what they're
+      based on.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing lean baseline, incumbency adjustment, and WAR v2 residual for each candidate in {{ latest_contested.year }}"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR v2 residual for each candidate in {{ latest_contested.year }}"></div>
     {% else %}
     <p>No contested major-party race is on record for this seat yet.</p>
     {% endif %}
@@ -122,8 +125,8 @@ layout: default
       WAR (wins above replacement) is adapted from Split Ticket's published
       methodology, not an original metric — see the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the full definition, citations, and the WAR v2 incumbency
-      adjustment. Null for uncontested races and minor-party candidates.
+      for the full definition, citations, and the WAR v2 regression's
+      fitted coefficients. Null for uncontested races and minor-party candidates.
     </small></p>
   </section>
 
@@ -247,22 +250,31 @@ layout: default
     {% for c in latest_contested.candidates %}
     {% if c.war_v2 %}
     { "name": {{ c.name | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
-      "expected_two_party_share": {{ c.expected_two_party_share | jsonify }},
+      "intercept_component": {{ c.intercept_component | jsonify }},
+      "lean_component": {{ c.lean_component | jsonify }},
+      "tide_component": {{ c.tide_component | jsonify }},
       "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }},
       "war_v2": {{ c.war_v2 | jsonify }} },
     {% endif %}
     {% endfor %}
   ];
+  const attributionComponents = [
+    ["Intercept", "intercept_component", "--war-intercept"],
+    ["Lean", "lean_component", "--war-lean"],
+    ["Statewide tide", "tide_component", "--war-tide"],
+    ["Incumbency", "incumbency_adjustment", "--war-incumbency"],
+    ["WAR v2 (residual)", "war_v2", "--war-residual"],
+  ];
   const attributionData = [];
   attributionCandidates.forEach((c) => {
-    attributionData.push({ candidate: c.name, url: c.url, component: "Lean baseline (v1)", order: 0, value: c.expected_two_party_share });
-    attributionData.push({ candidate: c.name, url: c.url, component: "Incumbency adjustment", order: 1, value: c.incumbency_adjustment });
-    attributionData.push({ candidate: c.name, url: c.url, component: "WAR v2 (residual)", order: 2, value: c.war_v2 });
+    attributionComponents.forEach(([label, field, cssVarName], order) => {
+      attributionData.push({ candidate: c.name, url: c.url, component: label, order, value: c[field] });
+    });
   });
   const attributionSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": 220,
+    "height": 240,
     "background": null,
     "data": { "values": attributionData },
     "mark": { "type": "bar", "cursor": "pointer" },
@@ -273,8 +285,8 @@ layout: default
       "color": {
         "field": "component", "type": "nominal", "title": "Component",
         "scale": {
-          "domain": ["Lean baseline (v1)", "Incumbency adjustment", "WAR v2 (residual)"],
-          "range": [trendCssVar("--text-secondary"), trendCssVar("--series-dem"), trendCssVar("--series-rep")]
+          "domain": attributionComponents.map((c) => c[0]),
+          "range": attributionComponents.map((c) => trendCssVar(c[2]))
         }
       },
       "href": { "field": "url", "type": "nominal" },

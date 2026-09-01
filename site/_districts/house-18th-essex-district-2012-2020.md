@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6237
     war: -0.0085
     is_incumbent: true
-    war_v2: -0.133
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0605
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3336
+    tide_component: -0.0015
     expected_two_party_share: 0.6322
-    expected_two_party_share_v2: 0.7567
+    expected_two_party_share_v2: 0.6842
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3763
     war: 0.0085
     is_incumbent: false
-    war_v2: 0.0085
+    incumbent_terms: 0
+    war_v2: -0.0126
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1941
+    tide_component: -0.0008
     expected_two_party_share: 0.3678
-    expected_two_party_share_v2: 0.3678
+    expected_two_party_share_v2: 0.3889
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2367
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5488
     war: 0.3121
     is_incumbent: false
-    war_v2: 0.3121
+    incumbent_terms: 0
+    war_v2: 0.2291
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1249
+    tide_component: -0.0008
     expected_two_party_share: 0.2367
-    expected_two_party_share_v2: 0.2367
+    expected_two_party_share_v2: 0.3197
   - name: James J. Lyons, Jr.
     slug: james-j-lyons-jr
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4512
     war: -0.3121
     is_incumbent: true
-    war_v2: -0.4366
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.2893
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4028
+    tide_component: -0.0015
     expected_two_party_share: 0.7633
-    expected_two_party_share_v2: 0.8878
+    expected_two_party_share_v2: 0.7405
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5774
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5966
     war: 0.174
     is_incumbent: true
-    war_v2: 0.0495
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0327
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.223
+    tide_component: -0.0008
     expected_two_party_share: 0.4226
-    expected_two_party_share_v2: 0.5471
+    expected_two_party_share_v2: 0.5639
   - name: Oscar Camargo
     slug: oscar-camargo
     party: Democratic
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4034
     war: -0.174
     is_incumbent: false
-    war_v2: -0.174
+    incumbent_terms: 0
+    war_v2: -0.0954
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3047
+    tide_component: -0.0015
     expected_two_party_share: 0.5774
-    expected_two_party_share_v2: 0.5774
+    expected_two_party_share_v2: 0.4988
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3626
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3626
     is_incumbent: true
-    war_v2: 0.2381
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3127
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3364
+    tide_component: -0.0012
     expected_two_party_share: 0.6374
-    expected_two_party_share_v2: 0.7619
+    expected_two_party_share_v2: 0.6873
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4848
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.511
     war: -0.0042
     is_incumbent: false
-    war_v2: -0.0042
+    incumbent_terms: 0
+    war_v2: 0.0444
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2719
+    tide_component: -0.0009
     expected_two_party_share: 0.5152
-    expected_two_party_share_v2: 0.5152
+    expected_two_party_share_v2: 0.4666
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.489
     war: 0.0042
     is_incumbent: false
-    war_v2: 0.0042
+    incumbent_terms: 0
+    war_v2: 0.039
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2558
+    tide_component: -0.0014
     expected_two_party_share: 0.4848
-    expected_two_party_share_v2: 0.4848
+    expected_two_party_share_v2: 0.45
   is_open_seat: null
 title: 18th Essex District (2012-2020)
 layout: district

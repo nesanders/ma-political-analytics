@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2523
     is_incumbent: true
-    war_v2: 0.1278
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2678
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3946
+    tide_component: -0.0015
     expected_two_party_share: 0.7477
-    expected_two_party_share_v2: 0.8722
+    expected_two_party_share_v2: 0.7322
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3679
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6321
     is_incumbent: true
-    war_v2: 0.5076
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4674
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1941
+    tide_component: -0.0008
     expected_two_party_share: 0.3679
-    expected_two_party_share_v2: 0.4924
+    expected_two_party_share_v2: 0.5326
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7253
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2747
     is_incumbent: true
-    war_v2: 0.1502
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.277
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3827
+    tide_component: -0.0015
     expected_two_party_share: 0.7253
-    expected_two_party_share_v2: 0.8498
+    expected_two_party_share_v2: 0.723
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5099
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4901
     is_incumbent: true
-    war_v2: 0.3656
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.38
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2691
+    tide_component: -0.0011
     expected_two_party_share: 0.5099
-    expected_two_party_share_v2: 0.6344
+    expected_two_party_share_v2: 0.62
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6414
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3586
     is_incumbent: false
-    war_v2: 0.3586
+    incumbent_terms: 0
+    war_v2: 0.4674
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3385
+    tide_component: -0.0014
     expected_two_party_share: 0.6414
-    expected_two_party_share_v2: 0.6414
+    expected_two_party_share_v2: 0.5326
   is_open_seat: null
 title: Norfolk & Suffolk District (2012-2020)
 layout: district

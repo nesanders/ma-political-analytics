@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.408
-  war_v2: 0.2835
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3366
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.592
-  expected_two_party_share_v2: 0.7165
+  expected_two_party_share_v2: 0.6634
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.8299
   war: 0.099
-  war_v2: 0.099
+  war_v2: 0.25
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7309
-  expected_two_party_share_v2: 0.7309
+  expected_two_party_share_v2: 0.5799
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3988
-  war_v2: 0.2743
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3448
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6012
-  expected_two_party_share_v2: 0.7257
+  expected_two_party_share_v2: 0.6552
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3007
-  war_v2: 0.1762
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2932
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6993
-  expected_two_party_share_v2: 0.8238
+  expected_two_party_share_v2: 0.7068
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3221
-  war_v2: 0.1976
-  incumbency_adjustment: 0.1245
+  war_v2: 0.302
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6779
-  expected_two_party_share_v2: 0.8024
+  expected_two_party_share_v2: 0.698
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3018
-  war_v2: 0.1773
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2809
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6982
-  expected_two_party_share_v2: 0.8227
+  expected_two_party_share_v2: 0.7191
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4714
-  war_v2: 0.4714
+  war_v2: 0.5265
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5286
-  expected_two_party_share_v2: 0.5286
+  expected_two_party_share_v2: 0.4735
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert F. Fennell
 layout: candidate
 ---

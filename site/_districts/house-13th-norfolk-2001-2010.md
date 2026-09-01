@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5536
     war: 0.053
     is_incumbent: false
-    war_v2: 0.053
+    incumbent_terms: 0
+    war_v2: 0.0951
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2642
+    tide_component: -0.0012
     expected_two_party_share: 0.5006
-    expected_two_party_share_v2: 0.5006
+    expected_two_party_share_v2: 0.4585
   - name: John P. O'Leary
     slug: john-p-oleary
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4464
     war: -0.053
     is_incumbent: false
-    war_v2: -0.053
+    incumbent_terms: 0
+    war_v2: -0.0117
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2635
+    tide_component: -0.0011
     expected_two_party_share: 0.4994
-    expected_two_party_share_v2: 0.4994
+    expected_two_party_share_v2: 0.4581
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.628
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.372
     is_incumbent: true
-    war_v2: 0.2475
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3309
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3314
+    tide_component: -0.0015
     expected_two_party_share: 0.628
-    expected_two_party_share_v2: 0.7525
+    expected_two_party_share_v2: 0.6691
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5836
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4164
     is_incumbent: true
-    war_v2: 0.2919
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3517
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.308
+    tide_component: -0.0014
     expected_two_party_share: 0.5836
-    expected_two_party_share_v2: 0.7081
+    expected_two_party_share_v2: 0.6483
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6087
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3913
     is_incumbent: true
-    war_v2: 0.2668
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3281
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3212
+    tide_component: -0.0014
     expected_two_party_share: 0.6087
-    expected_two_party_share_v2: 0.7332
+    expected_two_party_share_v2: 0.6719
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3914
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6086
     is_incumbent: false
-    war_v2: 0.6086
+    incumbent_terms: 0
+    war_v2: 0.5989
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2065
+    tide_component: -0.0011
     expected_two_party_share: 0.3914
-    expected_two_party_share_v2: 0.3914
+    expected_two_party_share_v2: 0.4011
   is_open_seat: null
 title: 13th Norfolk (2001-2010)
 layout: district

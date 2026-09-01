@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.303
   war: -0.2108
-  war_v2: -0.2108
+  war_v2: -0.1629
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5138
-  expected_two_party_share_v2: 0.5138
+  expected_two_party_share_v2: 0.4659
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jason M. Petraitis
 layout: candidate
 ---

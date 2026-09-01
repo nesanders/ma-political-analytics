@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.304
     is_incumbent: true
-    war_v2: 0.1795
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2948
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3673
+    tide_component: -0.0012
     expected_two_party_share: 0.696
-    expected_two_party_share_v2: 0.8205
+    expected_two_party_share_v2: 0.7052
   - name: Richard Cannava
     slug: richard-cannava
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.3598
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2449
     is_incumbent: true
-    war_v2: 0.1204
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2613
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3985
+    tide_component: -0.0015
     expected_two_party_share: 0.7551
-    expected_two_party_share_v2: 0.8796
+    expected_two_party_share_v2: 0.7387
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7188
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2812
     is_incumbent: true
-    war_v2: 0.1567
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.27
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3793
+    tide_component: -0.0014
     expected_two_party_share: 0.7188
-    expected_two_party_share_v2: 0.8433
+    expected_two_party_share_v2: 0.73
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7565
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2435
     is_incumbent: false
-    war_v2: 0.2435
+    incumbent_terms: 0
+    war_v2: 0.4066
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3992
+    tide_component: -0.0014
     expected_two_party_share: 0.7565
-    expected_two_party_share_v2: 0.7565
+    expected_two_party_share_v2: 0.5934
   - name: Vincent Paul Ciampa
     slug: vincent-paul-ciampa
     party: Other
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.4786
     war: null
     is_incumbent: true
+    incumbent_terms: 1
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4001
     is_incumbent: false
-    war_v2: 0.4001
+    incumbent_terms: 0
+    war_v2: 0.4889
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3166
+    tide_component: -0.0011
     expected_two_party_share: 0.5999
-    expected_two_party_share_v2: 0.5999
+    expected_two_party_share_v2: 0.5111
   is_open_seat: null
 title: 34th Middlesex (2001-2010)
 layout: district

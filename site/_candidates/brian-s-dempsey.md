@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4389
-  war_v2: 0.3144
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3637
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5611
-  expected_two_party_share_v2: 0.6856
+  expected_two_party_share_v2: 0.6363
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5665
-  war_v2: 0.442
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4203
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4335
-  expected_two_party_share_v2: 0.558
+  expected_two_party_share_v2: 0.5797
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4327
-  war_v2: 0.4327
+  war_v2: 0.5065
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5673
-  expected_two_party_share_v2: 0.5673
+  expected_two_party_share_v2: 0.4935
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5517
-  war_v2: 0.4272
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4255
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4483
-  expected_two_party_share_v2: 0.5728
+  expected_two_party_share_v2: 0.5745
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4102
-  war_v2: 0.2857
-  incumbency_adjustment: 0.1245
+  war_v2: 0.351
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5898
-  expected_two_party_share_v2: 0.7143
+  expected_two_party_share_v2: 0.649
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4448
-  war_v2: 0.3203
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3667
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5552
-  expected_two_party_share_v2: 0.6797
+  expected_two_party_share_v2: 0.6333
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.6784
   war: 0.1045
-  war_v2: -0.02
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0249
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5739
-  expected_two_party_share_v2: 0.6984
+  expected_two_party_share_v2: 0.6535
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5852
-  war_v2: 0.5852
+  war_v2: 0.5866
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4148
-  expected_two_party_share_v2: 0.4148
+  expected_two_party_share_v2: 0.4134
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Brian S. Dempsey
 layout: candidate
 ---

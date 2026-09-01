@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3427
   war: -0.0608
-  war_v2: -0.0608
+  war_v2: -0.0649
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4035
-  expected_two_party_share_v2: 0.4035
+  expected_two_party_share_v2: 0.4076
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Michael M. Motzkin
 layout: candidate
 ---

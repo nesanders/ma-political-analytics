@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2824
   war: -0.2415
-  war_v2: -0.2415
+  war_v2: -0.1884
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5239
-  expected_two_party_share_v2: 0.5239
+  expected_two_party_share_v2: 0.4708
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.2237
   war: -0.1576
-  war_v2: -0.1576
+  war_v2: -0.1723
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3813
-  expected_two_party_share_v2: 0.3813
+  expected_two_party_share_v2: 0.396
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul A. Caruccio
 layout: candidate
 ---

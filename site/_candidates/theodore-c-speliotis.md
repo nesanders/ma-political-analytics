@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5144
   war: 0.303
-  war_v2: 0.1785
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0644
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.2114
-  expected_two_party_share_v2: 0.3359
+  expected_two_party_share_v2: 0.45
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4666
-  war_v2: 0.3421
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3783
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5334
-  expected_two_party_share_v2: 0.6579
+  expected_two_party_share_v2: 0.6217
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5244
   war: 0.1373
-  war_v2: 0.0128
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0308
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3871
-  expected_two_party_share_v2: 0.5116
+  expected_two_party_share_v2: 0.5552
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.628
   war: 0.1102
-  war_v2: 0.1102
+  war_v2: 0.1606
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5178
-  expected_two_party_share_v2: 0.5178
+  expected_two_party_share_v2: 0.4674
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.5145
   war: 0.0979
-  war_v2: -0.0266
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0433
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4166
-  expected_two_party_share_v2: 0.5411
+  expected_two_party_share_v2: 0.5578
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4511
-  war_v2: 0.3266
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3726
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5489
-  expected_two_party_share_v2: 0.6734
+  expected_two_party_share_v2: 0.6274
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4945
-  war_v2: 0.37
-  incumbency_adjustment: 0.1245
+  war_v2: 0.393
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5055
-  expected_two_party_share_v2: 0.63
+  expected_two_party_share_v2: 0.607
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.5779
   war: 0.0362
-  war_v2: -0.0883
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0586
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5417
-  expected_two_party_share_v2: 0.6662
+  expected_two_party_share_v2: 0.6365
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 0.5331
   war: 0.1709
-  war_v2: 0.1709
+  war_v2: 0.1475
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3622
-  expected_two_party_share_v2: 0.3622
+  expected_two_party_share_v2: 0.3856
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Theodore C. Speliotis
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.32
     is_incumbent: true
-    war_v2: 0.1955
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2903
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3588
+    tide_component: -0.0012
     expected_two_party_share: 0.68
-    expected_two_party_share_v2: 0.8045
+    expected_two_party_share_v2: 0.7097
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7262
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2738
     is_incumbent: false
-    war_v2: 0.2738
+    incumbent_terms: 0
+    war_v2: 0.4226
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3832
+    tide_component: -0.0015
     expected_two_party_share: 0.7262
-    expected_two_party_share_v2: 0.7262
+    expected_two_party_share_v2: 0.5774
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6921
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3079
     is_incumbent: true
-    war_v2: 0.1834
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2945
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3652
+    tide_component: -0.0014
     expected_two_party_share: 0.6921
-    expected_two_party_share_v2: 0.8166
+    expected_two_party_share_v2: 0.7055
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7259
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7917
     war: 0.0659
     is_incumbent: true
-    war_v2: -0.0586
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.058
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3831
+    tide_component: -0.0014
     expected_two_party_share: 0.7258
-    expected_two_party_share_v2: 0.8503
+    expected_two_party_share_v2: 0.7337
   - name: Eric R. Steinhilber
     slug: eric-r-steinhilber
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2083
     war: -0.0659
     is_incumbent: false
-    war_v2: -0.0659
+    incumbent_terms: 0
+    war_v2: -0.1311
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1446
+    tide_component: -0.0009
     expected_two_party_share: 0.2742
-    expected_two_party_share_v2: 0.2742
+    expected_two_party_share_v2: 0.3394
   - name: Daniel J. Dunn
     slug: daniel-j-dunn
     party: Libertarian
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.0724
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4331
     is_incumbent: false
-    war_v2: 0.4331
+    incumbent_terms: 0
+    war_v2: 0.5063
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2992
+    tide_component: -0.0011
     expected_two_party_share: 0.5669
-    expected_two_party_share_v2: 0.5669
+    expected_two_party_share_v2: 0.4937
   is_open_seat: null
 title: 23rd Middlesex (2001-2010)
 layout: district

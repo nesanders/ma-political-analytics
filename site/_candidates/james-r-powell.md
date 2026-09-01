@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2964
   war: -0.086
-  war_v2: -0.086
+  war_v2: -0.1001
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3824
-  expected_two_party_share_v2: 0.3824
+  expected_two_party_share_v2: 0.3965
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.2974
   war: -0.0615
-  war_v2: -0.0615
+  war_v2: -0.0867
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3589
-  expected_two_party_share_v2: 0.3589
+  expected_two_party_share_v2: 0.3841
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: James R. Powell
 layout: candidate
 ---

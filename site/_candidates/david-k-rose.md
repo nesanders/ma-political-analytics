@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3638
   war: -0.0647
-  war_v2: -0.0647
+  war_v2: -0.0569
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4285
-  expected_two_party_share_v2: 0.4285
+  expected_two_party_share_v2: 0.4207
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David K. Rose
 layout: candidate
 ---

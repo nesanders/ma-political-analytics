@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6139
     war: 0.1601
     is_incumbent: true
-    war_v2: 0.0356
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0232
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2395
+    tide_component: -0.0009
     expected_two_party_share: 0.4538
-    expected_two_party_share_v2: 0.5783
+    expected_two_party_share_v2: 0.5907
   - name: Owen G. Fletcher
     slug: owen-g-fletcher
     party: Democratic
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3861
     war: -0.1601
     is_incumbent: false
-    war_v2: -0.1601
+    incumbent_terms: 0
+    war_v2: -0.0963
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2882
+    tide_component: -0.0014
     expected_two_party_share: 0.5462
-    expected_two_party_share_v2: 0.5462
+    expected_two_party_share_v2: 0.4824
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5446
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5446
     is_incumbent: false
-    war_v2: 0.5446
+    incumbent_terms: 0
+    war_v2: 0.5649
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2403
+    tide_component: -0.0008
     expected_two_party_share: 0.4554
-    expected_two_party_share_v2: 0.4554
+    expected_two_party_share_v2: 0.4351
   is_open_seat: null
 demographics:
   total_population: 40328

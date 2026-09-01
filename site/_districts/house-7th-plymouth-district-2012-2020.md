@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5297
     is_incumbent: true
-    war_v2: 0.4052
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4005
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2482
+    tide_component: -0.0008
     expected_two_party_share: 0.4703
-    expected_two_party_share_v2: 0.5948
+    expected_two_party_share_v2: 0.5995
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2251
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.558
     war: -0.2169
     is_incumbent: false
-    war_v2: -0.2169
+    incumbent_terms: 0
+    war_v2: -0.045
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4089
+    tide_component: -0.0015
     expected_two_party_share: 0.7749
-    expected_two_party_share_v2: 0.7749
+    expected_two_party_share_v2: 0.603
   - name: Alex A. Bezanson
     slug: alex-a-bezanson
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.442
     war: 0.2169
     is_incumbent: false
-    war_v2: 0.2169
+    incumbent_terms: 0
+    war_v2: 0.1284
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1188
+    tide_component: -0.0008
     expected_two_party_share: 0.2251
-    expected_two_party_share_v2: 0.2251
+    expected_two_party_share_v2: 0.3136
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4757
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4757
     is_incumbent: true
-    war_v2: 0.3512
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3824
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2767
+    tide_component: -0.0008
     expected_two_party_share: 0.5243
-    expected_two_party_share_v2: 0.6488
+    expected_two_party_share_v2: 0.6176
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3652
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3652
     is_incumbent: true
-    war_v2: 0.2407
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3141
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.335
+    tide_component: -0.0012
     expected_two_party_share: 0.6348
-    expected_two_party_share_v2: 0.7593
+    expected_two_party_share_v2: 0.6859
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4924
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.5424
     war: 0.0348
     is_incumbent: false
-    war_v2: 0.0348
+    incumbent_terms: 0
+    war_v2: 0.0798
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2679
+    tide_component: -0.0009
     expected_two_party_share: 0.5076
-    expected_two_party_share_v2: 0.5076
+    expected_two_party_share_v2: 0.4626
   - name: Robert L. Toomey, Jr.
     slug: robert-l-toomey-jr
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.4576
     war: -0.0348
     is_incumbent: false
-    war_v2: -0.0348
+    incumbent_terms: 0
+    war_v2: 0.0036
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2598
+    tide_component: -0.0014
     expected_two_party_share: 0.4924
-    expected_two_party_share_v2: 0.4924
+    expected_two_party_share_v2: 0.454
   is_open_seat: null
 title: 7th Plymouth District (2012-2020)
 layout: district

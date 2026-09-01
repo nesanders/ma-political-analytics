@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3873
-  war_v2: 0.3873
+  war_v2: 0.4822
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6127
-  expected_two_party_share_v2: 0.6127
+  expected_two_party_share_v2: 0.5178
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Mark A. Howland
 layout: candidate
 ---

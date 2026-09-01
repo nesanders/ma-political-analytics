@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4555
   war: 0.0484
-  war_v2: 0.0484
+  war_v2: 0.0458
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4071
-  expected_two_party_share_v2: 0.4071
+  expected_two_party_share_v2: 0.4097
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John D. Simmons
 layout: candidate
 ---

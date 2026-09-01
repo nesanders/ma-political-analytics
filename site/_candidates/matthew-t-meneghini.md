@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3482
   war: -0.1826
-  war_v2: -0.1826
+  war_v2: -0.126
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5308
-  expected_two_party_share_v2: 0.5308
+  expected_two_party_share_v2: 0.4742
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Matthew T. Meneghini
 layout: candidate
 ---

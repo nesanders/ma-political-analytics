@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5806
     war: 0.1497
     is_incumbent: true
-    war_v2: 0.0252
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0152
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2274
+    tide_component: -0.0012
     expected_two_party_share: 0.4309
-    expected_two_party_share_v2: 0.5554
+    expected_two_party_share_v2: 0.5654
   - name: David W. Pottier
     slug: david-w-pottier
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4194
     war: -0.1497
     is_incumbent: false
-    war_v2: -0.1497
+    incumbent_terms: 0
+    war_v2: -0.0754
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3003
+    tide_component: -0.0011
     expected_two_party_share: 0.5691
-    expected_two_party_share_v2: 0.5691
+    expected_two_party_share_v2: 0.4948
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5372
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4628
     is_incumbent: true
-    war_v2: 0.3383
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3788
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2835
+    tide_component: -0.0015
     expected_two_party_share: 0.5372
-    expected_two_party_share_v2: 0.6617
+    expected_two_party_share_v2: 0.6212
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5594
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4406
     is_incumbent: true
-    war_v2: 0.3161
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3645
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2952
+    tide_component: -0.0014
     expected_two_party_share: 0.5594
-    expected_two_party_share_v2: 0.6839
+    expected_two_party_share_v2: 0.6355
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5554
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.739
     war: 0.1836
     is_incumbent: true
-    war_v2: 0.0591
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0953
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2931
+    tide_component: -0.0014
     expected_two_party_share: 0.5554
-    expected_two_party_share_v2: 0.6799
+    expected_two_party_share_v2: 0.6437
   - name: Donald J. Jonah
     slug: donald-j-jonah
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.261
     war: -0.1836
     is_incumbent: false
-    war_v2: -0.1836
+    incumbent_terms: 0
+    war_v2: -0.1684
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2346
+    tide_component: -0.0009
     expected_two_party_share: 0.4446
-    expected_two_party_share_v2: 0.4446
+    expected_two_party_share_v2: 0.4294
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4384
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5616
     is_incumbent: false
-    war_v2: 0.5616
+    incumbent_terms: 0
+    war_v2: 0.5741
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2313
+    tide_component: -0.0011
     expected_two_party_share: 0.4384
-    expected_two_party_share_v2: 0.4384
+    expected_two_party_share_v2: 0.4259
   is_open_seat: null
 title: First Plymouth and Bristol (2001-2010)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3768
     is_incumbent: true
-    war_v2: 0.2523
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3332
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3289
+    tide_component: -0.0012
     expected_two_party_share: 0.6232
-    expected_two_party_share_v2: 0.7477
+    expected_two_party_share_v2: 0.6668
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6667
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3333
     is_incumbent: true
-    war_v2: 0.2088
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3104
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3518
+    tide_component: -0.0015
     expected_two_party_share: 0.6667
-    expected_two_party_share_v2: 0.7912
+    expected_two_party_share_v2: 0.6896
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6619
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3381
     is_incumbent: true
-    war_v2: 0.2136
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3104
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3493
+    tide_component: -0.0014
     expected_two_party_share: 0.6619
-    expected_two_party_share_v2: 0.7864
+    expected_two_party_share_v2: 0.6896
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6642
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3358
     is_incumbent: true
-    war_v2: 0.2113
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2988
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3505
+    tide_component: -0.0014
     expected_two_party_share: 0.6642
-    expected_two_party_share_v2: 0.7887
+    expected_two_party_share_v2: 0.7012
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5106
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.8393
     war: 0.3287
     is_incumbent: false
-    war_v2: 0.3287
+    incumbent_terms: 0
+    war_v2: 0.3753
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2694
+    tide_component: -0.0011
     expected_two_party_share: 0.5106
-    expected_two_party_share_v2: 0.5106
+    expected_two_party_share_v2: 0.464
   - name: Jeremiah Lowney
     slug: jeremiah-lowney
     party: Other
@@ -127,8 +147,12 @@ results_by_year:
     actual_two_party_share: 0.3111
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: James J. Aldred
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.1607
     war: -0.3287
     is_incumbent: false
-    war_v2: -0.3287
+    incumbent_terms: 0
+    war_v2: -0.2919
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2583
+    tide_component: -0.0012
     expected_two_party_share: 0.4894
-    expected_two_party_share_v2: 0.4894
+    expected_two_party_share_v2: 0.4526
   is_open_seat: null
 title: 7th Norfolk (2001-2010)
 layout: district

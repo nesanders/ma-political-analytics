@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3328
   war: -0.0285
-  war_v2: -0.0285
+  war_v2: -0.0526
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3613
-  expected_two_party_share_v2: 0.3613
+  expected_two_party_share_v2: 0.3854
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John Blaisdell
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2321
   war: -0.266
-  war_v2: -0.266
+  war_v2: -0.2251
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4981
-  expected_two_party_share_v2: 0.4981
+  expected_two_party_share_v2: 0.4572
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John W. Charow, Jr.
 layout: candidate
 ---

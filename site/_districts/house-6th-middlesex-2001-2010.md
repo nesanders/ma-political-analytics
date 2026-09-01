@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4279
     is_incumbent: false
-    war_v2: 0.4279
+    incumbent_terms: 0
+    war_v2: 0.5037
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3019
+    tide_component: -0.0012
     expected_two_party_share: 0.5721
-    expected_two_party_share_v2: 0.5721
+    expected_two_party_share_v2: 0.4963
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.2932
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jim M. Rizoli
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1353
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3218
     is_incumbent: true
-    war_v2: 0.1973
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2915
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3579
+    tide_component: -0.0015
     expected_two_party_share: 0.6782
-    expected_two_party_share_v2: 0.8027
+    expected_two_party_share_v2: 0.7085
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0268
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,8 +129,12 @@ results_by_year:
     actual_two_party_share: 1.8469
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Nicolas Sanchez
@@ -121,8 +145,12 @@ results_by_year:
     actual_two_party_share: 1.3205
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Deborah D. Blumer
@@ -133,10 +161,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3743
     is_incumbent: true
-    war_v2: 0.2498
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3295
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3302
+    tide_component: -0.0014
     expected_two_party_share: 0.6257
-    expected_two_party_share_v2: 0.7502
+    expected_two_party_share_v2: 0.6705
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6711
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.6706
     war: -0.0005
     is_incumbent: true
-    war_v2: -0.125
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0342
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3541
+    tide_component: -0.0014
     expected_two_party_share: 0.6711
-    expected_two_party_share_v2: 0.7956
+    expected_two_party_share_v2: 0.7048
   - name: Nicolas Sanchez
     slug: nicolas-sanchez
     party: Republican
@@ -166,10 +202,14 @@ results_by_year:
     actual_two_party_share: 0.3294
     war: 0.0005
     is_incumbent: false
-    war_v2: 0.0005
+    incumbent_terms: 0
+    war_v2: -0.0389
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1736
+    tide_component: -0.0009
     expected_two_party_share: 0.3289
-    expected_two_party_share_v2: 0.3289
+    expected_two_party_share_v2: 0.3683
   - name: Gerald L. Bloomfield
     slug: gerald-l-bloomfield
     party: Other
@@ -178,8 +218,12 @@ results_by_year:
     actual_two_party_share: 0.0785
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -199,10 +243,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5409
     is_incumbent: false
-    war_v2: 0.5409
+    incumbent_terms: 0
+    war_v2: 0.5632
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2423
+    tide_component: -0.0011
     expected_two_party_share: 0.4591
-    expected_two_party_share_v2: 0.4591
+    expected_two_party_share_v2: 0.4368
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Libertarian
@@ -211,8 +259,12 @@ results_by_year:
     actual_two_party_share: 0.3379
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

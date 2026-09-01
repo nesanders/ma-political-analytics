@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4969
     is_incumbent: true
-    war_v2: 0.3724
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3833
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2655
+    tide_component: -0.0009
     expected_two_party_share: 0.5031
-    expected_two_party_share_v2: 0.6276
+    expected_two_party_share_v2: 0.6167
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.4447
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5186
     is_incumbent: false
-    war_v2: 0.5186
+    incumbent_terms: 0
+    war_v2: 0.5512
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.254
+    tide_component: -0.0008
     expected_two_party_share: 0.4814
-    expected_two_party_share_v2: 0.4814
+    expected_two_party_share_v2: 0.4488
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -73,8 +85,12 @@ results_by_year:
     actual_two_party_share: 0.3271
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

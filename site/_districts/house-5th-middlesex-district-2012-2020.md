@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2487
     is_incumbent: true
-    war_v2: 0.1242
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2659
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3965
+    tide_component: -0.0015
     expected_two_party_share: 0.7513
-    expected_two_party_share_v2: 0.8758
+    expected_two_party_share_v2: 0.7341
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3118
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6882
     is_incumbent: true
-    war_v2: 0.5637
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.497
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1645
+    tide_component: -0.0008
     expected_two_party_share: 0.3118
-    expected_two_party_share_v2: 0.4363
+    expected_two_party_share_v2: 0.503
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7137
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2863
     is_incumbent: true
-    war_v2: 0.1618
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2832
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3766
+    tide_component: -0.0015
     expected_two_party_share: 0.7137
-    expected_two_party_share_v2: 0.8382
+    expected_two_party_share_v2: 0.7168
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4779
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6257
     war: 0.1478
     is_incumbent: true
-    war_v2: 0.0233
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0225
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2522
+    tide_component: -0.0011
     expected_two_party_share: 0.4779
-    expected_two_party_share_v2: 0.6024
+    expected_two_party_share_v2: 0.6032
   - name: Douglas A. Grindle
     slug: douglas-a-grindle
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3743
     war: -0.1478
     is_incumbent: false
-    war_v2: -0.1478
+    incumbent_terms: 0
+    war_v2: -0.0956
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2755
+    tide_component: -0.0012
     expected_two_party_share: 0.5221
-    expected_two_party_share_v2: 0.5221
+    expected_two_party_share_v2: 0.4699
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6083
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6465
     war: 0.0382
     is_incumbent: false
-    war_v2: 0.0382
+    incumbent_terms: 0
+    war_v2: 0.1313
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.321
+    tide_component: -0.0014
     expected_two_party_share: 0.6083
-    expected_two_party_share_v2: 0.6083
+    expected_two_party_share_v2: 0.5152
   - name: William J. Callahan
     slug: william-j-callahan
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3535
     war: -0.0382
     is_incumbent: false
-    war_v2: -0.0382
+    incumbent_terms: 0
+    war_v2: -0.0479
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2067
+    tide_component: -0.0009
     expected_two_party_share: 0.3917
-    expected_two_party_share_v2: 0.3917
+    expected_two_party_share_v2: 0.4014
   is_open_seat: null
 title: 5th Middlesex District (2012-2020)
 layout: district

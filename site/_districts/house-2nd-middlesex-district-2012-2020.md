@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3238
     is_incumbent: true
-    war_v2: 0.1993
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3055
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3568
+    tide_component: -0.0015
     expected_two_party_share: 0.6762
-    expected_two_party_share_v2: 0.8007
+    expected_two_party_share_v2: 0.6945
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2553
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6442
     war: 0.3889
     is_incumbent: true
-    war_v2: 0.2644
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.171
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1347
+    tide_component: -0.0008
     expected_two_party_share: 0.2553
-    expected_two_party_share_v2: 0.3798
+    expected_two_party_share_v2: 0.4732
   - name: Kathleen Lynch
     slug: kathleen-lynch
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3558
     war: -0.3889
     is_incumbent: false
-    war_v2: -0.3889
+    incumbent_terms: 0
+    war_v2: -0.2312
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.393
+    tide_component: -0.0015
     expected_two_party_share: 0.7447
-    expected_two_party_share_v2: 0.7447
+    expected_two_party_share_v2: 0.587
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.619
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.381
     is_incumbent: true
-    war_v2: 0.2565
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3331
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3266
+    tide_component: -0.0015
     expected_two_party_share: 0.619
-    expected_two_party_share_v2: 0.7435
+    expected_two_party_share_v2: 0.6669
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3959
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5433
     war: 0.1475
     is_incumbent: true
-    war_v2: 0.023
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0166
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2089
+    tide_component: -0.0011
     expected_two_party_share: 0.3958
-    expected_two_party_share_v2: 0.5203
+    expected_two_party_share_v2: 0.5599
   - name: Dennis J. Galvin
     slug: dennis-j-galvin
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4567
     war: -0.1475
     is_incumbent: false
-    war_v2: -0.1475
+    incumbent_terms: 0
+    war_v2: -0.0565
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3188
+    tide_component: -0.0012
     expected_two_party_share: 0.6042
-    expected_two_party_share_v2: 0.6042
+    expected_two_party_share_v2: 0.5132
   - name: Arleen M. Martino
     slug: arleen-m-martino
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0294
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.651
     war: 0.1368
     is_incumbent: false
-    war_v2: 0.1368
+    incumbent_terms: 0
+    war_v2: 0.1855
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2713
+    tide_component: -0.0014
     expected_two_party_share: 0.5142
-    expected_two_party_share_v2: 0.5142
+    expected_two_party_share_v2: 0.4655
   - name: Valerie A. Wormell
     slug: valerie-a-wormell
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.349
     war: -0.1368
     is_incumbent: false
-    war_v2: -0.1368
+    incumbent_terms: 0
+    war_v2: -0.1021
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2564
+    tide_component: -0.0009
     expected_two_party_share: 0.4858
-    expected_two_party_share_v2: 0.4858
+    expected_two_party_share_v2: 0.4511
   is_open_seat: null
 title: 2nd Middlesex District (2012-2020)
 layout: district

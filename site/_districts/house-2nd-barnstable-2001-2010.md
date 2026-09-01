@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.59
     war: 0.1438
     is_incumbent: true
-    war_v2: 0.0193
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0166
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2355
+    tide_component: -0.0012
     expected_two_party_share: 0.4462
-    expected_two_party_share_v2: 0.5707
+    expected_two_party_share_v2: 0.5734
   - name: James F. Munafo, Jr.
     slug: james-f-munafo-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.41
     war: -0.1438
     is_incumbent: false
-    war_v2: -0.1438
+    incumbent_terms: 0
+    war_v2: -0.0768
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2922
+    tide_component: -0.0011
     expected_two_party_share: 0.5538
-    expected_two_party_share_v2: 0.5538
+    expected_two_party_share_v2: 0.4868
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.55
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.45
     is_incumbent: true
-    war_v2: 0.3255
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.372
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2902
+    tide_component: -0.0015
     expected_two_party_share: 0.55
-    expected_two_party_share_v2: 0.6745
+    expected_two_party_share_v2: 0.628
   - name: Carl D. Yingling
     slug: carl-d-yingling
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.4227
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5596
     war: 0.0915
     is_incumbent: true
-    war_v2: -0.033
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0277
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.247
+    tide_component: -0.0014
     expected_two_party_share: 0.4681
-    expected_two_party_share_v2: 0.5926
+    expected_two_party_share_v2: 0.5873
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4404
     war: -0.0915
     is_incumbent: false
-    war_v2: -0.0915
+    incumbent_terms: 0
+    war_v2: -0.035
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2807
+    tide_component: -0.0009
     expected_two_party_share: 0.5319
-    expected_two_party_share_v2: 0.5319
+    expected_two_party_share_v2: 0.4754
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5307
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5898
     war: 0.0591
     is_incumbent: true
-    war_v2: -0.0654
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0409
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2801
+    tide_component: -0.0014
     expected_two_party_share: 0.5307
-    expected_two_party_share_v2: 0.6552
+    expected_two_party_share_v2: 0.6307
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4102
     war: -0.0591
     is_incumbent: false
-    war_v2: -0.0591
+    incumbent_terms: 0
+    war_v2: -0.0322
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2476
+    tide_component: -0.0009
     expected_two_party_share: 0.4693
-    expected_two_party_share_v2: 0.4693
+    expected_two_party_share_v2: 0.4424
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3875
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.5396
     war: 0.1522
     is_incumbent: false
-    war_v2: 0.1522
+    incumbent_terms: 0
+    war_v2: 0.1406
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2045
+    tide_component: -0.0011
     expected_two_party_share: 0.3874
-    expected_two_party_share_v2: 0.3874
+    expected_two_party_share_v2: 0.399
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.4604
     war: -0.1522
     is_incumbent: false
-    war_v2: -0.1522
+    incumbent_terms: 0
+    war_v2: -0.0572
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3232
+    tide_component: -0.0012
     expected_two_party_share: 0.6126
-    expected_two_party_share_v2: 0.6126
+    expected_two_party_share_v2: 0.5176
   - name: Peter A. White
     slug: peter-a-white
     party: null
@@ -187,8 +227,12 @@ results_by_year:
     actual_two_party_share: 0.0747
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

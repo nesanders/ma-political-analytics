@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1762
     is_incumbent: true
-    war_v2: 0.0517
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2276
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4347
+    tide_component: -0.0015
     expected_two_party_share: 0.8238
-    expected_two_party_share_v2: 0.9483
+    expected_two_party_share_v2: 0.7724
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4986
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5014
     is_incumbent: true
-    war_v2: 0.3769
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3985
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2631
+    tide_component: -0.0008
     expected_two_party_share: 0.4986
-    expected_two_party_share_v2: 0.6231
+    expected_two_party_share_v2: 0.6015
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7955
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2045
     is_incumbent: true
-    war_v2: 0.08
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.24
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4198
+    tide_component: -0.0015
     expected_two_party_share: 0.7955
-    expected_two_party_share_v2: 0.92
+    expected_two_party_share_v2: 0.76
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6564
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7762
     war: 0.1198
     is_incumbent: true
-    war_v2: -0.0047
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0788
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3464
+    tide_component: -0.0011
     expected_two_party_share: 0.6564
-    expected_two_party_share_v2: 0.7809
+    expected_two_party_share_v2: 0.6974
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2238
     war: -0.1198
     is_incumbent: false
-    war_v2: -0.1198
+    incumbent_terms: 0
+    war_v2: -0.1519
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1813
+    tide_component: -0.0012
     expected_two_party_share: 0.3436
-    expected_two_party_share_v2: 0.3436
+    expected_two_party_share_v2: 0.3757
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7281
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.8135
     war: 0.0854
     is_incumbent: false
-    war_v2: 0.0854
+    incumbent_terms: 0
+    war_v2: 0.2351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3842
+    tide_component: -0.0014
     expected_two_party_share: 0.7281
-    expected_two_party_share_v2: 0.7281
+    expected_two_party_share_v2: 0.5784
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.1865
     war: -0.0854
     is_incumbent: false
-    war_v2: -0.0854
+    incumbent_terms: 0
+    war_v2: -0.1517
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1435
+    tide_component: -0.0009
     expected_two_party_share: 0.2719
-    expected_two_party_share_v2: 0.2719
+    expected_two_party_share_v2: 0.3382
   is_open_seat: null
 title: 23rd Middlesex District (2012-2020)
 layout: district

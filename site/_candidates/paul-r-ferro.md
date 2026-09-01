@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3644
   war: -0.36
-  war_v2: -0.36
+  war_v2: -0.2119
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7244
-  expected_two_party_share_v2: 0.7244
+  expected_two_party_share_v2: 0.5763
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4035
   war: 0.0486
-  war_v2: 0.0486
+  war_v2: 0.0214
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3549
-  expected_two_party_share_v2: 0.3549
+  expected_two_party_share_v2: 0.3821
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul R. Ferro
 layout: candidate
 ---

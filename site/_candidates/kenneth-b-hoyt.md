@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3972
   war: -0.0183
-  war_v2: -0.0183
+  war_v2: -0.0169
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4155
-  expected_two_party_share_v2: 0.4155
+  expected_two_party_share_v2: 0.4141
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kenneth B. Hoyt
 layout: candidate
 ---

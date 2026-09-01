@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.7276
-  war_v2: 0.7276
+  war_v2: 0.6614
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2724
-  expected_two_party_share_v2: 0.2724
+  expected_two_party_share_v2: 0.3386
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: John William Arena
 layout: candidate
 ---

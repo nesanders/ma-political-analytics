@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6362
     war: 0.0647
     is_incumbent: true
-    war_v2: -0.0598
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0033
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3016
+    tide_component: -0.0012
     expected_two_party_share: 0.5715
-    expected_two_party_share_v2: 0.696
+    expected_two_party_share_v2: 0.6395
   - name: David K. Rose
     slug: david-k-rose
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3638
     war: -0.0647
     is_incumbent: false
-    war_v2: -0.0647
+    incumbent_terms: 0
+    war_v2: -0.0569
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2261
+    tide_component: -0.0011
     expected_two_party_share: 0.4285
-    expected_two_party_share_v2: 0.4285
+    expected_two_party_share_v2: 0.4207
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6611
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3389
     is_incumbent: true
-    war_v2: 0.2144
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3134
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3489
+    tide_component: -0.0015
     expected_two_party_share: 0.6611
-    expected_two_party_share_v2: 0.7856
+    expected_two_party_share_v2: 0.6866
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6807
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3193
     is_incumbent: true
-    war_v2: 0.1948
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3005
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3592
+    tide_component: -0.0014
     expected_two_party_share: 0.6807
-    expected_two_party_share_v2: 0.8052
+    expected_two_party_share_v2: 0.6995
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6921
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3079
     is_incumbent: true
-    war_v2: 0.1834
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2841
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3652
+    tide_component: -0.0014
     expected_two_party_share: 0.6921
-    expected_two_party_share_v2: 0.8166
+    expected_two_party_share_v2: 0.7159
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6057
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3943
     is_incumbent: false
-    war_v2: 0.3943
+    incumbent_terms: 0
+    war_v2: 0.4859
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3196
+    tide_component: -0.0011
     expected_two_party_share: 0.6057
-    expected_two_party_share_v2: 0.6057
+    expected_two_party_share_v2: 0.5141
   is_open_seat: null
 title: 6th Bristol (2001-2010)
 layout: district

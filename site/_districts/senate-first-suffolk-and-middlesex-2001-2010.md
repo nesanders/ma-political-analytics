@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.751
     war: 0.0027
     is_incumbent: true
-    war_v2: -0.1218
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0053
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3949
+    tide_component: -0.0012
     expected_two_party_share: 0.7483
-    expected_two_party_share_v2: 0.8728
+    expected_two_party_share_v2: 0.7457
   - name: Frank John Addivinola, Jr.
     slug: frank-john-addivinola-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.249
     war: -0.0027
     is_incumbent: false
-    war_v2: -0.0027
+    incumbent_terms: 0
+    war_v2: -0.0784
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1328
+    tide_component: -0.0011
     expected_two_party_share: 0.2517
-    expected_two_party_share_v2: 0.2517
+    expected_two_party_share_v2: 0.3274
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7999
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2001
     is_incumbent: false
-    war_v2: 0.2001
+    incumbent_terms: 0
+    war_v2: 0.3837
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4221
+    tide_component: -0.0015
     expected_two_party_share: 0.7999
-    expected_two_party_share_v2: 0.7999
+    expected_two_party_share_v2: 0.6163
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7707
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2293
     is_incumbent: true
-    war_v2: 0.1048
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.253
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4067
+    tide_component: -0.0014
     expected_two_party_share: 0.7707
-    expected_two_party_share_v2: 0.8952
+    expected_two_party_share_v2: 0.747
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7904
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.7985
     war: 0.008
     is_incumbent: true
-    war_v2: -0.1165
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0307
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4171
+    tide_component: -0.0014
     expected_two_party_share: 0.7905
-    expected_two_party_share_v2: 0.915
+    expected_two_party_share_v2: 0.7678
   - name: Gilbert R. Lavoie
     slug: gilbert-r-lavoie
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.2015
     war: -0.008
     is_incumbent: false
-    war_v2: -0.008
+    incumbent_terms: 0
+    war_v2: -0.1038
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1106
+    tide_component: -0.0009
     expected_two_party_share: 0.2095
-    expected_two_party_share_v2: 0.2095
+    expected_two_party_share_v2: 0.3053
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6554
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.7755
     war: 0.1201
     is_incumbent: false
-    war_v2: 0.1201
+    incumbent_terms: 0
+    war_v2: 0.2351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3459
+    tide_component: -0.0011
     expected_two_party_share: 0.6554
-    expected_two_party_share_v2: 0.6554
+    expected_two_party_share_v2: 0.5404
   - name: Vincent J. Manganello
     slug: vincent-j-manganello
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.2245
     war: -0.1201
     is_incumbent: false
-    war_v2: -0.1201
+    incumbent_terms: 0
+    war_v2: -0.1517
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1818
+    tide_component: -0.0012
     expected_two_party_share: 0.3446
-    expected_two_party_share_v2: 0.3446
+    expected_two_party_share_v2: 0.3762
   is_open_seat: null
 title: First Suffolk and Middlesex (2001-2010)
 layout: district

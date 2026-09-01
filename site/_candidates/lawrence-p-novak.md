@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3935
   war: -0.0079
-  war_v2: -0.0079
+  war_v2: -0.0132
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4014
-  expected_two_party_share_v2: 0.4014
+  expected_two_party_share_v2: 0.4067
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.1628
   war: -0.1302
-  war_v2: -0.1302
+  war_v2: -0.1866
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.293
-  expected_two_party_share_v2: 0.293
+  expected_two_party_share_v2: 0.3494
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: false
   actual_two_party_share: 0.323
   war: -0.0954
-  war_v2: -0.0954
+  war_v2: -0.0925
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4184
-  expected_two_party_share_v2: 0.4184
+  expected_two_party_share_v2: 0.4155
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 10633

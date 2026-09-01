@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5842
     war: 0.0918
     is_incumbent: false
-    war_v2: 0.0918
+    incumbent_terms: 0
+    war_v2: 0.1296
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2598
+    tide_component: -0.0009
     expected_two_party_share: 0.4924
-    expected_two_party_share_v2: 0.4924
+    expected_two_party_share_v2: 0.4546
   - name: Sheila H. Dibb
     slug: sheila-h-dibb
     party: Democratic
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4158
     war: -0.0918
     is_incumbent: false
-    war_v2: -0.0918
+    incumbent_terms: 0
+    war_v2: -0.0462
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2679
+    tide_component: -0.0014
     expected_two_party_share: 0.5076
-    expected_two_party_share_v2: 0.5076
+    expected_two_party_share_v2: 0.462
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5229
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5436
     war: 0.0207
     is_incumbent: false
-    war_v2: 0.0207
+    incumbent_terms: 0
+    war_v2: 0.0736
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2759
+    tide_component: -0.0015
     expected_two_party_share: 0.5229
-    expected_two_party_share_v2: 0.5229
+    expected_two_party_share_v2: 0.47
   - name: James Anthony Amorello
     slug: james-anthony-amorello
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4564
     war: -0.0207
     is_incumbent: false
-    war_v2: -0.0207
+    incumbent_terms: 0
+    war_v2: 0.0098
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2518
+    tide_component: -0.0008
     expected_two_party_share: 0.4771
-    expected_two_party_share_v2: 0.4771
+    expected_two_party_share_v2: 0.4466
   is_open_seat: null
 demographics:
   median_household_income: 89393

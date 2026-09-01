@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5625
     is_incumbent: true
-    war_v2: 0.438
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4183
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2309
+    tide_component: -0.0012
     expected_two_party_share: 0.4375
-    expected_two_party_share_v2: 0.562
+    expected_two_party_share_v2: 0.5817
   - name: Jonathan A. Loya
     slug: jonathan-a-loya
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.4029
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5222
     war: -0.0499
     is_incumbent: false
-    war_v2: -0.0499
+    incumbent_terms: 0
+    war_v2: 0.0261
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3019
+    tide_component: -0.0015
     expected_two_party_share: 0.5721
-    expected_two_party_share_v2: 0.5721
+    expected_two_party_share_v2: 0.4961
   - name: Dan Haley
     slug: dan-haley
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4778
     war: 0.0499
     is_incumbent: false
-    war_v2: 0.0499
+    incumbent_terms: 0
+    war_v2: 0.0573
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2258
+    tide_component: -0.0008
     expected_two_party_share: 0.4279
-    expected_two_party_share_v2: 0.4279
+    expected_two_party_share_v2: 0.4205
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5317
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5317
     is_incumbent: true
-    war_v2: 0.4072
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4121
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2471
+    tide_component: -0.0009
     expected_two_party_share: 0.4683
-    expected_two_party_share_v2: 0.5928
+    expected_two_party_share_v2: 0.5879
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.558
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.558
     is_incumbent: true
-    war_v2: 0.4335
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4155
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2332
+    tide_component: -0.0009
     expected_two_party_share: 0.442
-    expected_two_party_share_v2: 0.5665
+    expected_two_party_share_v2: 0.5845
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3428
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.6998
     war: 0.0426
     is_incumbent: false
-    war_v2: 0.0426
+    incumbent_terms: 0
+    war_v2: 0.1586
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3468
+    tide_component: -0.0012
     expected_two_party_share: 0.6572
-    expected_two_party_share_v2: 0.6572
+    expected_two_party_share_v2: 0.5412
   - name: James P. Carboneau
     slug: james-p-carboneau
     party: Democratic
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.3002
     war: -0.0426
     is_incumbent: false
-    war_v2: -0.0426
+    incumbent_terms: 0
+    war_v2: -0.0752
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1809
+    tide_component: -0.0011
     expected_two_party_share: 0.3428
-    expected_two_party_share_v2: 0.3428
+    expected_two_party_share_v2: 0.3754
   is_open_seat: null
 title: 8th Middlesex (2001-2010)
 layout: district

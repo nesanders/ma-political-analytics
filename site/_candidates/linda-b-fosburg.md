@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2412
   war: -0.1022
-  war_v2: -0.1022
+  war_v2: -0.1348
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3434
-  expected_two_party_share_v2: 0.3434
+  expected_two_party_share_v2: 0.376
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Linda B. Fosburg
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4933
   war: -0.0955
-  war_v2: -0.0955
+  war_v2: -0.0118
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5888
-  expected_two_party_share_v2: 0.5888
+  expected_two_party_share_v2: 0.5051
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Adam G. Chaprales, Sr
 layout: candidate
 ---

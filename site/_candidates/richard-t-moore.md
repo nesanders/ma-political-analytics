@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4428
   war: 0.0808
-  war_v2: -0.0437
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0992
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.362
-  expected_two_party_share_v2: 0.4865
+  expected_two_party_share_v2: 0.542
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4902
-  war_v2: 0.4902
+  war_v2: 0.5368
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5098
-  expected_two_party_share_v2: 0.5098
+  expected_two_party_share_v2: 0.4632
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5355
   war: 0.1401
-  war_v2: 0.0156
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0111
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3954
-  expected_two_party_share_v2: 0.5199
+  expected_two_party_share_v2: 0.5466
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4666
-  war_v2: 0.3421
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3808
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5334
-  expected_two_party_share_v2: 0.6579
+  expected_two_party_share_v2: 0.6192
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4536
-  war_v2: 0.3291
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3714
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5464
-  expected_two_party_share_v2: 0.6709
+  expected_two_party_share_v2: 0.6286
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.7088
   war: 0.1644
-  war_v2: 0.0399
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0709
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5444
-  expected_two_party_share_v2: 0.6689
+  expected_two_party_share_v2: 0.6379
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.74
   war: 0.3552
-  war_v2: 0.3552
+  war_v2: 0.3424
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3848
-  expected_two_party_share_v2: 0.3848
+  expected_two_party_share_v2: 0.3976
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Richard T. Moore
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1492
-  war_v2: 0.0247
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2005
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.8508
-  expected_two_party_share_v2: 0.9753
+  expected_two_party_share_v2: 0.7995
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4851
-  war_v2: 0.4851
+  war_v2: 0.5335
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5149
-  expected_two_party_share_v2: 0.5149
+  expected_two_party_share_v2: 0.4665
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Nika Elugardo
 layout: candidate
 ---

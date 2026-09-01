@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2393
     is_incumbent: false
-    war_v2: 0.2393
+    incumbent_terms: 0
+    war_v2: 0.4042
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4014
+    tide_component: -0.0012
     expected_two_party_share: 0.7607
-    expected_two_party_share_v2: 0.7607
+    expected_two_party_share_v2: 0.5958
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.771
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.229
     is_incumbent: true
-    war_v2: 0.1045
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2554
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4069
+    tide_component: -0.0015
     expected_two_party_share: 0.771
-    expected_two_party_share_v2: 0.8955
+    expected_two_party_share_v2: 0.7446
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.8108
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1892
     is_incumbent: true
-    war_v2: 0.0647
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2318
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4279
+    tide_component: -0.0014
     expected_two_party_share: 0.8108
-    expected_two_party_share_v2: 0.9353
+    expected_two_party_share_v2: 0.7682
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7461
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8217
     war: 0.0757
     is_incumbent: true
-    war_v2: -0.0488
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0773
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3937
+    tide_component: -0.0014
     expected_two_party_share: 0.746
-    expected_two_party_share_v2: 0.8705
+    expected_two_party_share_v2: 0.7444
   - name: Jay H. Lukkarila
     slug: jay-h-lukkarila
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.1783
     war: -0.0757
     is_incumbent: false
-    war_v2: -0.0757
+    incumbent_terms: 0
+    war_v2: -0.1504
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.134
+    tide_component: -0.0009
     expected_two_party_share: 0.254
-    expected_two_party_share_v2: 0.254
+    expected_two_party_share_v2: 0.3287
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6858
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3142
     is_incumbent: false
-    war_v2: 0.3142
+    incumbent_terms: 0
+    war_v2: 0.4436
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3619
+    tide_component: -0.0011
     expected_two_party_share: 0.6858
-    expected_two_party_share_v2: 0.6858
+    expected_two_party_share_v2: 0.5564
   is_open_seat: null
 title: 1st Berkshire (2001-2010)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.249
   war: -0.0027
-  war_v2: -0.0027
+  war_v2: -0.0784
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2517
-  expected_two_party_share_v2: 0.2517
+  expected_two_party_share_v2: 0.3274
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Frank John Addivinola, Jr.
 layout: candidate
 ---

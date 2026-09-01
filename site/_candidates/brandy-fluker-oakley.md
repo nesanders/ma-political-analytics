@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2146
-  war_v2: 0.0901
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2349
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7854
-  expected_two_party_share_v2: 0.9099
+  expected_two_party_share_v2: 0.7651
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1912
-  war_v2: 0.1912
+  war_v2: 0.3791
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8088
-  expected_two_party_share_v2: 0.8088
+  expected_two_party_share_v2: 0.6209
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1694
-  war_v2: 0.1694
+  war_v2: 0.3676
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8306
-  expected_two_party_share_v2: 0.8306
+  expected_two_party_share_v2: 0.6324
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Brandy Fluker Oakley
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2939
   war: -0.102
-  war_v2: -0.102
+  war_v2: -0.1098
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3959
-  expected_two_party_share_v2: 0.3959
+  expected_two_party_share_v2: 0.4037
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mark W. Chauppette
 layout: candidate
 ---

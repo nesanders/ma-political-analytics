@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2969
   war: -0.3377
-  war_v2: -0.3377
+  war_v2: -0.2324
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6346
-  expected_two_party_share_v2: 0.6346
+  expected_two_party_share_v2: 0.5293
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.2648
   war: -0.2585
-  war_v2: -0.2585
+  war_v2: -0.2061
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5233
-  expected_two_party_share_v2: 0.5233
+  expected_two_party_share_v2: 0.4709
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Douglas W. Sears
 layout: candidate
 ---

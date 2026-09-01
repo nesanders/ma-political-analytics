@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4269
-  war_v2: 0.3024
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3574
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5731
-  expected_two_party_share_v2: 0.6976
+  expected_two_party_share_v2: 0.6426
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5382
   war: 0.1112
-  war_v2: -0.0133
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0381
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.427
-  expected_two_party_share_v2: 0.5515
+  expected_two_party_share_v2: 0.5763
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5773
   war: 0.0217
-  war_v2: 0.0217
+  war_v2: 0.0899
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5556
-  expected_two_party_share_v2: 0.5556
+  expected_two_party_share_v2: 0.4874
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kathleen  A. O'Connor Ives
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4699
     is_incumbent: true
-    war_v2: 0.3454
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3697
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2797
+    tide_component: -0.0015
     expected_two_party_share: 0.5301
-    expected_two_party_share_v2: 0.6546
+    expected_two_party_share_v2: 0.6303
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.33
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.67
     is_incumbent: false
-    war_v2: 0.67
+    incumbent_terms: 0
+    war_v2: 0.631
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1741
+    tide_component: -0.0008
     expected_two_party_share: 0.33
-    expected_two_party_share_v2: 0.33
+    expected_two_party_share_v2: 0.369
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5602
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4398
     is_incumbent: true
-    war_v2: 0.3153
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3642
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2956
+    tide_component: -0.0015
     expected_two_party_share: 0.5602
-    expected_two_party_share_v2: 0.6847
+    expected_two_party_share_v2: 0.6358
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5662
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4338
     is_incumbent: true
-    war_v2: 0.3093
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3502
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2988
+    tide_component: -0.0011
     expected_two_party_share: 0.5662
-    expected_two_party_share_v2: 0.6907
+    expected_two_party_share_v2: 0.6498
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6748
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3252
     is_incumbent: false
-    war_v2: 0.3252
+    incumbent_terms: 0
+    war_v2: 0.4497
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3561
+    tide_component: -0.0014
     expected_two_party_share: 0.6748
-    expected_two_party_share_v2: 0.6748
+    expected_two_party_share_v2: 0.5503
   is_open_seat: null
 title: 11th Bristol District (2012-2020)
 layout: district

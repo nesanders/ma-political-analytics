@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.7185
   war: 0.1818
-  war_v2: 0.0573
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0846
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5367
-  expected_two_party_share_v2: 0.6612
+  expected_two_party_share_v2: 0.6339
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5971
-  war_v2: 0.5971
+  war_v2: 0.5929
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4029
-  expected_two_party_share_v2: 0.4029
+  expected_two_party_share_v2: 0.4071
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Daniel F. Keenan
 layout: candidate
 ---

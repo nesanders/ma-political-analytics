@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4506
     is_incumbent: true
-    war_v2: 0.3261
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3594
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2899
+    tide_component: -0.0014
     expected_two_party_share: 0.5494
-    expected_two_party_share_v2: 0.6739
+    expected_two_party_share_v2: 0.6406
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.559
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.5631
     war: 0.0041
     is_incumbent: false
-    war_v2: 0.0041
+    incumbent_terms: 0
+    war_v2: 0.074
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.295
+    tide_component: -0.0015
     expected_two_party_share: 0.559
-    expected_two_party_share_v2: 0.559
+    expected_two_party_share_v2: 0.4891
   - name: William E. Johnson
     slug: william-e-johnson
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.4369
     war: -0.0041
     is_incumbent: false
-    war_v2: -0.0041
+    incumbent_terms: 0
+    war_v2: 0.0094
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2327
+    tide_component: -0.0008
     expected_two_party_share: 0.441
-    expected_two_party_share_v2: 0.441
+    expected_two_party_share_v2: 0.4275
   is_open_seat: null
 demographics:
   median_household_income: 88672

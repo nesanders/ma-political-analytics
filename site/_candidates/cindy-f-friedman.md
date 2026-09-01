@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3356
-  war_v2: 0.2111
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2987
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6644
-  expected_two_party_share_v2: 0.7889
+  expected_two_party_share_v2: 0.7013
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3192
-  war_v2: 0.3192
+  war_v2: 0.4466
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6808
-  expected_two_party_share_v2: 0.6808
+  expected_two_party_share_v2: 0.5534
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3086
-  war_v2: 0.1841
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2846
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6914
-  expected_two_party_share_v2: 0.8159
+  expected_two_party_share_v2: 0.7154
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6461
-  war_v2: 0.6461
+  war_v2: 0.6184
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3539
-  expected_two_party_share_v2: 0.3539
+  expected_two_party_share_v2: 0.3816
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Cindy F. Friedman
 layout: candidate
 ---

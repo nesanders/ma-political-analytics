@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4213
   war: -0.1203
-  war_v2: -0.1203
+  war_v2: -0.0592
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5416
-  expected_two_party_share_v2: 0.5416
+  expected_two_party_share_v2: 0.4805
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4717
   war: -0.1396
-  war_v2: -0.1396
+  war_v2: -0.0454
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6113
-  expected_two_party_share_v2: 0.6113
+  expected_two_party_share_v2: 0.5171
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Korey M. Welch
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2946
     is_incumbent: true
-    war_v2: 0.1701
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2901
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3722
+    tide_component: -0.0015
     expected_two_party_share: 0.7054
-    expected_two_party_share_v2: 0.8299
+    expected_two_party_share_v2: 0.7099
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3626
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6374
     is_incumbent: true
-    war_v2: 0.5129
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4702
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1913
+    tide_component: -0.0008
     expected_two_party_share: 0.3626
-    expected_two_party_share_v2: 0.4871
+    expected_two_party_share_v2: 0.5298
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6681
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3319
     is_incumbent: true
-    war_v2: 0.2074
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3072
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3526
+    tide_component: -0.0015
     expected_two_party_share: 0.6681
-    expected_two_party_share_v2: 0.7926
+    expected_two_party_share_v2: 0.6928
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5166
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4834
     is_incumbent: true
-    war_v2: 0.3589
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3764
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2726
+    tide_component: -0.0011
     expected_two_party_share: 0.5166
-    expected_two_party_share_v2: 0.6411
+    expected_two_party_share_v2: 0.6236
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6327
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.6327
     war: 0.0001
     is_incumbent: false
-    war_v2: 0.0001
+    incumbent_terms: 0
+    war_v2: 0.1046
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3339
+    tide_component: -0.0014
     expected_two_party_share: 0.6326
-    expected_two_party_share_v2: 0.6326
+    expected_two_party_share_v2: 0.5281
   - name: Daniel J. Murphy
     slug: daniel-j-murphy
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.3673
     war: -0.0001
     is_incumbent: false
-    war_v2: -0.0001
+    incumbent_terms: 0
+    war_v2: -0.0212
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1938
+    tide_component: -0.0009
     expected_two_party_share: 0.3674
-    expected_two_party_share_v2: 0.3674
+    expected_two_party_share_v2: 0.3885
   is_open_seat: null
 title: 11th Plymouth District (2012-2020)
 layout: district

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6957
     war: 0.068
     is_incumbent: true
-    war_v2: -0.0565
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0138
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3313
+    tide_component: -0.0014
     expected_two_party_share: 0.6277
-    expected_two_party_share_v2: 0.7522
+    expected_two_party_share_v2: 0.6819
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3043
     war: -0.068
     is_incumbent: false
-    war_v2: -0.068
+    incumbent_terms: 0
+    war_v2: -0.0869
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1964
+    tide_component: -0.0009
     expected_two_party_share: 0.3723
-    expected_two_party_share_v2: 0.3723
+    expected_two_party_share_v2: 0.3912
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6629
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.7059
     war: 0.0431
     is_incumbent: false
-    war_v2: 0.0431
+    incumbent_terms: 0
+    war_v2: 0.162
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3498
+    tide_component: -0.0015
     expected_two_party_share: 0.6628
-    expected_two_party_share_v2: 0.6628
+    expected_two_party_share_v2: 0.5439
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.2941
     war: -0.0431
     is_incumbent: false
-    war_v2: -0.0431
+    incumbent_terms: 0
+    war_v2: -0.0786
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1779
+    tide_component: -0.0008
     expected_two_party_share: 0.3372
-    expected_two_party_share_v2: 0.3372
+    expected_two_party_share_v2: 0.3727
   is_open_seat: null
 demographics:
   total_population: 43173

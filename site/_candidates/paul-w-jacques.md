@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3773
   war: -0.1033
-  war_v2: -0.1033
+  war_v2: -0.0704
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4806
-  expected_two_party_share_v2: 0.4806
+  expected_two_party_share_v2: 0.4477
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul W. Jacques
 layout: candidate
 ---

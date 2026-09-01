@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4845
   war: -0.1038
-  war_v2: -0.1038
+  war_v2: -0.02
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5883
-  expected_two_party_share_v2: 0.5883
+  expected_two_party_share_v2: 0.5045
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Deborah L. Busser
 layout: candidate
 ---

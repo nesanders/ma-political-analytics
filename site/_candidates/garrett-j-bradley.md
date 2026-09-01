@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6106
-  war_v2: 0.4861
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4435
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3894
-  expected_two_party_share_v2: 0.5139
+  expected_two_party_share_v2: 0.5565
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.493
-  war_v2: 0.493
+  war_v2: 0.5383
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.507
-  expected_two_party_share_v2: 0.507
+  expected_two_party_share_v2: 0.4617
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.6209
   war: 0.1723
-  war_v2: 0.0478
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0462
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4486
-  expected_two_party_share_v2: 0.5731
+  expected_two_party_share_v2: 0.5747
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.46
-  war_v2: 0.3355
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3773
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.54
-  expected_two_party_share_v2: 0.6645
+  expected_two_party_share_v2: 0.6227
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.49
-  war_v2: 0.3655
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3906
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.51
-  expected_two_party_share_v2: 0.6345
+  expected_two_party_share_v2: 0.6094
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4695
-  war_v2: 0.345
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3694
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5305
-  expected_two_party_share_v2: 0.655
+  expected_two_party_share_v2: 0.6306
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.6765
   war: 0.3353
-  war_v2: 0.3353
+  war_v2: 0.3019
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3412
-  expected_two_party_share_v2: 0.3412
+  expected_two_party_share_v2: 0.3746
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Garrett J. Bradley
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3409
   war: -0.0193
-  war_v2: -0.0193
+  war_v2: -0.0439
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3602
-  expected_two_party_share_v2: 0.3602
+  expected_two_party_share_v2: 0.3848
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mary Zarrilli Connaughton
 layout: candidate
 ---

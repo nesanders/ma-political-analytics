@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3537
   war: 0.0808
-  war_v2: 0.0808
+  war_v2: 0.0149
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2729
-  expected_two_party_share_v2: 0.2729
+  expected_two_party_share_v2: 0.3388
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Matthew Crescenzo
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2316
-  war_v2: 0.1071
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2569
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7684
-  expected_two_party_share_v2: 0.8929
+  expected_two_party_share_v2: 0.7431
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5836
-  war_v2: 0.4591
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4393
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4164
-  expected_two_party_share_v2: 0.5409
+  expected_two_party_share_v2: 0.5607
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2675
-  war_v2: 0.143
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2628
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7325
-  expected_two_party_share_v2: 0.857
+  expected_two_party_share_v2: 0.7372
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4395
-  war_v2: 0.4395
+  war_v2: 0.5098
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5605
-  expected_two_party_share_v2: 0.5605
+  expected_two_party_share_v2: 0.4902
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul F. Tucker
 layout: candidate
 ---

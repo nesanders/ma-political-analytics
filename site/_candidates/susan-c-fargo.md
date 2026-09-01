@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5701
   war: 0.031
-  war_v2: -0.0935
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0524
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5391
-  expected_two_party_share_v2: 0.6636
+  expected_two_party_share_v2: 0.6225
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6253
   war: -0.016
-  war_v2: -0.1405
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0509
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6413
-  expected_two_party_share_v2: 0.7658
+  expected_two_party_share_v2: 0.6762
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.6393
   war: 0.0474
-  war_v2: -0.0771
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0133
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5919
-  expected_two_party_share_v2: 0.7164
+  expected_two_party_share_v2: 0.6526
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5974
   war: -0.0271
-  war_v2: -0.1516
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0828
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6245
-  expected_two_party_share_v2: 0.749
+  expected_two_party_share_v2: 0.6802
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5672
-  war_v2: 0.5672
+  war_v2: 0.5771
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4328
-  expected_two_party_share_v2: 0.4328
+  expected_two_party_share_v2: 0.4229
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Susan C. Fargo
 layout: candidate
 ---

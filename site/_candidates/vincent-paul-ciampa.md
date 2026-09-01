@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4001
-  war_v2: 0.4001
+  war_v2: 0.4889
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5999
-  expected_two_party_share_v2: 0.5999
+  expected_two_party_share_v2: 0.5111
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Vincent Paul Ciampa
 layout: candidate
 ---

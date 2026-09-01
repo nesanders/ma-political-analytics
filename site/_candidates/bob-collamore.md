@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3688
   war: -0.03
-  war_v2: -0.03
+  war_v2: -0.0364
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3988
-  expected_two_party_share_v2: 0.3988
+  expected_two_party_share_v2: 0.4052
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4008
   war: -0.14
-  war_v2: -0.14
+  war_v2: -0.079
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5408
-  expected_two_party_share_v2: 0.5408
+  expected_two_party_share_v2: 0.4798
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Bob Collamore
 layout: candidate
 ---

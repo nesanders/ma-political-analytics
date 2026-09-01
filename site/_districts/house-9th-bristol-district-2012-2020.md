@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4337
     is_incumbent: true
-    war_v2: 0.3092
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3635
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2988
+    tide_component: -0.0015
     expected_two_party_share: 0.5663
-    expected_two_party_share_v2: 0.6908
+    expected_two_party_share_v2: 0.6365
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3172
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6828
     is_incumbent: true
-    war_v2: 0.5583
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4942
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1674
+    tide_component: -0.0008
     expected_two_party_share: 0.3172
-    expected_two_party_share_v2: 0.4417
+    expected_two_party_share_v2: 0.5058
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.576
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.424
     is_incumbent: true
-    war_v2: 0.2995
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3558
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.304
+    tide_component: -0.0015
     expected_two_party_share: 0.576
-    expected_two_party_share_v2: 0.7005
+    expected_two_party_share_v2: 0.6442
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5114
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6677
     war: 0.1563
     is_incumbent: true
-    war_v2: 0.0318
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0469
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2699
+    tide_component: -0.0011
     expected_two_party_share: 0.5114
-    expected_two_party_share_v2: 0.6359
+    expected_two_party_share_v2: 0.6208
   - name: Patrick t. J. Curran
     slug: patrick-t-j-curran
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3323
     war: -0.1563
     is_incumbent: false
-    war_v2: -0.1563
+    incumbent_terms: 0
+    war_v2: -0.12
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2578
+    tide_component: -0.0012
     expected_two_party_share: 0.4886
-    expected_two_party_share_v2: 0.4886
+    expected_two_party_share_v2: 0.4523
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6445
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3555
     is_incumbent: false
-    war_v2: 0.3555
+    incumbent_terms: 0
+    war_v2: 0.4657
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3401
+    tide_component: -0.0014
     expected_two_party_share: 0.6445
-    expected_two_party_share_v2: 0.6445
+    expected_two_party_share_v2: 0.5343
   is_open_seat: null
 title: 9th Bristol District (2012-2020)
 layout: district

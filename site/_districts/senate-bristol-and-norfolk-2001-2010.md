@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5883
     is_incumbent: true
-    war_v2: 0.4638
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4448
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2173
+    tide_component: -0.0012
     expected_two_party_share: 0.4117
-    expected_two_party_share_v2: 0.5362
+    expected_two_party_share_v2: 0.5552
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5429
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6456
     war: 0.1027
     is_incumbent: true
-    war_v2: -0.0218
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0189
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2865
+    tide_component: -0.0015
     expected_two_party_share: 0.5429
-    expected_two_party_share_v2: 0.6674
+    expected_two_party_share_v2: 0.6267
   - name: Jon W. Rockwood, Sr.
     slug: jon-w-rockwood-sr
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3544
     war: -0.1027
     is_incumbent: false
-    war_v2: -0.1027
+    incumbent_terms: 0
+    war_v2: -0.0816
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2412
+    tide_component: -0.0008
     expected_two_party_share: 0.4571
-    expected_two_party_share_v2: 0.4571
+    expected_two_party_share_v2: 0.436
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5154
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.6047
     war: 0.0893
     is_incumbent: true
-    war_v2: -0.0352
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.018
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.272
+    tide_component: -0.0014
     expected_two_party_share: 0.5154
-    expected_two_party_share_v2: 0.6399
+    expected_two_party_share_v2: 0.6227
   - name: Michael L. Atwill
     slug: michael-l-atwill
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.3953
     war: -0.0893
     is_incumbent: false
-    war_v2: -0.0893
+    incumbent_terms: 0
+    war_v2: -0.0551
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2557
+    tide_component: -0.0009
     expected_two_party_share: 0.4846
-    expected_two_party_share_v2: 0.4846
+    expected_two_party_share_v2: 0.4504
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5471
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5672
     war: 0.0201
     is_incumbent: false
-    war_v2: 0.0201
+    incumbent_terms: 0
+    war_v2: 0.0843
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2887
+    tide_component: -0.0014
     expected_two_party_share: 0.5471
-    expected_two_party_share_v2: 0.5471
+    expected_two_party_share_v2: 0.4829
   - name: David W. McCarter
     slug: david-w-mccarter
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4328
     war: -0.0201
     is_incumbent: false
-    war_v2: -0.0201
+    incumbent_terms: 0
+    war_v2: -0.0009
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.239
+    tide_component: -0.0009
     expected_two_party_share: 0.4529
-    expected_two_party_share_v2: 0.4529
+    expected_two_party_share_v2: 0.4337
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3646
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3646
     is_incumbent: false
-    war_v2: 0.3646
+    incumbent_terms: 0
+    war_v2: 0.4703
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3353
+    tide_component: -0.0012
     expected_two_party_share: 0.6354
-    expected_two_party_share_v2: 0.6354
+    expected_two_party_share_v2: 0.5297
   is_open_seat: null
 title: Bristol and Norfolk (2001-2010)
 layout: district

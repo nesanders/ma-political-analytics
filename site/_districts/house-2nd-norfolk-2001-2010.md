@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6194
     war: 0.0713
     is_incumbent: false
-    war_v2: 0.0713
+    incumbent_terms: 0
+    war_v2: 0.1359
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2892
+    tide_component: -0.0012
     expected_two_party_share: 0.5481
-    expected_two_party_share_v2: 0.5481
+    expected_two_party_share_v2: 0.4835
   - name: John M. Iredale
     slug: john-m-iredale
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3806
     war: -0.0713
     is_incumbent: false
-    war_v2: -0.0713
+    incumbent_terms: 0
+    war_v2: -0.0525
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2385
+    tide_component: -0.0011
     expected_two_party_share: 0.4519
-    expected_two_party_share_v2: 0.4519
+    expected_two_party_share_v2: 0.4331
   - name: Karl Roos
     slug: karl-roos
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1927
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4053
     is_incumbent: true
-    war_v2: 0.2808
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3484
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3138
+    tide_component: -0.0015
     expected_two_party_share: 0.5947
-    expected_two_party_share_v2: 0.7192
+    expected_two_party_share_v2: 0.6516
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5826
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4174
     is_incumbent: true
-    war_v2: 0.2929
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3523
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3074
+    tide_component: -0.0014
     expected_two_party_share: 0.5826
-    expected_two_party_share_v2: 0.7071
+    expected_two_party_share_v2: 0.6477
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6438
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3562
     is_incumbent: true
-    war_v2: 0.2317
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3096
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3397
+    tide_component: -0.0014
     expected_two_party_share: 0.6438
-    expected_two_party_share_v2: 0.7683
+    expected_two_party_share_v2: 0.6904
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5
     is_incumbent: false
-    war_v2: 0.5
+    incumbent_terms: 0
+    war_v2: 0.5416
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2638
+    tide_component: -0.0011
     expected_two_party_share: 0.5
-    expected_two_party_share_v2: 0.5
+    expected_two_party_share_v2: 0.4584
   is_open_seat: null
 title: 2nd Norfolk (2001-2010)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4569
   war: 0.2213
-  war_v2: 0.2213
+  war_v2: 0.1377
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2356
-  expected_two_party_share_v2: 0.2356
+  expected_two_party_share_v2: 0.3192
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Susan A. Chalifoux Zephir
 layout: candidate
 ---

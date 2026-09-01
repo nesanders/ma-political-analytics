@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3928
   war: -0.0747
-  war_v2: -0.0747
+  war_v2: -0.0486
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4675
-  expected_two_party_share_v2: 0.4675
+  expected_two_party_share_v2: 0.4414
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4627
   war: -0.0951
-  war_v2: -0.0951
+  war_v2: -0.0262
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5578
-  expected_two_party_share_v2: 0.5578
+  expected_two_party_share_v2: 0.4889
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: James M. Stanton
 layout: candidate
 ---

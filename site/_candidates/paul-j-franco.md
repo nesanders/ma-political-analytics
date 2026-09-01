@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3973
   war: -0.1317
-  war_v2: -0.1317
+  war_v2: -0.0763
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.529
-  expected_two_party_share_v2: 0.529
+  expected_two_party_share_v2: 0.4736
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3878
   war: 0.0024
-  war_v2: 0.0024
+  war_v2: -0.0101
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3854
-  expected_two_party_share_v2: 0.3854
+  expected_two_party_share_v2: 0.3979
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul J. Franco
 layout: candidate
 ---

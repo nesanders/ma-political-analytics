@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3892
   war: -0.0173
-  war_v2: -0.0173
+  war_v2: -0.0198
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4065
-  expected_two_party_share_v2: 0.4065
+  expected_two_party_share_v2: 0.409
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Dylan Hayre
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.7525
     war: 0.0764
     is_incumbent: true
-    war_v2: -0.0481
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0449
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3568
+    tide_component: -0.0012
     expected_two_party_share: 0.6761
-    expected_two_party_share_v2: 0.8006
+    expected_two_party_share_v2: 0.7076
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.2475
     war: -0.0764
     is_incumbent: false
-    war_v2: -0.0764
+    incumbent_terms: 0
+    war_v2: -0.118
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1709
+    tide_component: -0.0011
     expected_two_party_share: 0.3239
-    expected_two_party_share_v2: 0.3239
+    expected_two_party_share_v2: 0.3655
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7401
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.8069
     war: 0.0668
     is_incumbent: false
-    war_v2: 0.0668
+    incumbent_terms: 0
+    war_v2: 0.2222
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3906
+    tide_component: -0.0015
     expected_two_party_share: 0.7401
-    expected_two_party_share_v2: 0.7401
+    expected_two_party_share_v2: 0.5847
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.1931
     war: -0.0668
     is_incumbent: false
-    war_v2: -0.0668
+    incumbent_terms: 0
+    war_v2: -0.1388
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1371
+    tide_component: -0.0008
     expected_two_party_share: 0.2599
-    expected_two_party_share_v2: 0.2599
+    expected_two_party_share_v2: 0.3319
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7531
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2469
     is_incumbent: true
-    war_v2: 0.1224
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2623
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3974
+    tide_component: -0.0014
     expected_two_party_share: 0.7531
-    expected_two_party_share_v2: 0.8776
+    expected_two_party_share_v2: 0.7377
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -109,8 +129,12 @@ results_by_year:
     actual_two_party_share: 0.1552
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.236
     is_incumbent: true
-    war_v2: 0.1115
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2462
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4032
+    tide_component: -0.0014
     expected_two_party_share: 0.764
-    expected_two_party_share_v2: 0.8885
+    expected_two_party_share_v2: 0.7538
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -142,8 +170,12 @@ results_by_year:
     actual_two_party_share: 0.1727
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.303
     is_incumbent: false
-    war_v2: 0.303
+    incumbent_terms: 0
+    war_v2: 0.4377
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3678
+    tide_component: -0.0011
     expected_two_party_share: 0.697
-    expected_two_party_share_v2: 0.697
+    expected_two_party_share_v2: 0.5623
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -175,8 +211,12 @@ results_by_year:
     actual_two_party_share: 0.1765
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

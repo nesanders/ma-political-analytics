@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4109
   war: -0.2209
-  war_v2: -0.2209
+  war_v2: -0.1169
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6318
-  expected_two_party_share_v2: 0.6318
+  expected_two_party_share_v2: 0.5278
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Dan Allie
 layout: candidate
 ---

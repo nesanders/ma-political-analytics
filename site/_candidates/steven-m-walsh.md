@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2872
-  war_v2: 0.2872
+  war_v2: 0.4297
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7128
-  expected_two_party_share_v2: 0.7128
+  expected_two_party_share_v2: 0.5703
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4005
-  war_v2: 0.276
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3457
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5995
-  expected_two_party_share_v2: 0.724
+  expected_two_party_share_v2: 0.6543
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3022
-  war_v2: 0.1777
-  incumbency_adjustment: 0.1245
+  war_v2: 0.294
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6978
-  expected_two_party_share_v2: 0.8223
+  expected_two_party_share_v2: 0.706
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3238
-  war_v2: 0.1993
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3029
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6762
-  expected_two_party_share_v2: 0.8007
+  expected_two_party_share_v2: 0.6971
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3028
-  war_v2: 0.1783
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2814
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6972
-  expected_two_party_share_v2: 0.8217
+  expected_two_party_share_v2: 0.7186
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4723
-  war_v2: 0.4723
+  war_v2: 0.527
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5277
-  expected_two_party_share_v2: 0.5277
+  expected_two_party_share_v2: 0.473
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven M. Walsh
 layout: candidate
 ---

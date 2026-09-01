@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4681
-  war_v2: 0.4681
+  war_v2: 0.5252
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5319
-  expected_two_party_share_v2: 0.5319
+  expected_two_party_share_v2: 0.4748
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Carol Ann Doherty
 layout: candidate
 ---

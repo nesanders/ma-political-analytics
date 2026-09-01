@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2618
   war: 0.0299
-  war_v2: 0.0299
+  war_v2: -0.0553
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2319
-  expected_two_party_share_v2: 0.2319
+  expected_two_party_share_v2: 0.3171
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Keith Allan Mercurio
 layout: candidate
 ---

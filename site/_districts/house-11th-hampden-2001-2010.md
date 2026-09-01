@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2836
     is_incumbent: true
-    war_v2: 0.1591
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.284
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.378
+    tide_component: -0.0012
     expected_two_party_share: 0.7164
-    expected_two_party_share_v2: 0.8409
+    expected_two_party_share_v2: 0.716
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7772
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2228
     is_incumbent: true
-    war_v2: 0.0983
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2521
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4101
+    tide_component: -0.0015
     expected_two_party_share: 0.7772
-    expected_two_party_share_v2: 0.9017
+    expected_two_party_share_v2: 0.7479
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7411
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2589
     is_incumbent: true
-    war_v2: 0.1344
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2686
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3911
+    tide_component: -0.0014
     expected_two_party_share: 0.7411
-    expected_two_party_share_v2: 0.8656
+    expected_two_party_share_v2: 0.7314
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7205
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7865
     war: 0.066
     is_incumbent: true
-    war_v2: -0.0585
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0556
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3802
+    tide_component: -0.0014
     expected_two_party_share: 0.7205
-    expected_two_party_share_v2: 0.845
+    expected_two_party_share_v2: 0.7309
   - name: John A. Lysak
     slug: john-a-lysak
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2135
     war: -0.066
     is_incumbent: false
-    war_v2: -0.066
+    incumbent_terms: 0
+    war_v2: -0.1287
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1475
+    tide_component: -0.0009
     expected_two_party_share: 0.2795
-    expected_two_party_share_v2: 0.2795
+    expected_two_party_share_v2: 0.3422
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6065
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3935
     is_incumbent: false
-    war_v2: 0.3935
+    incumbent_terms: 0
+    war_v2: 0.4854
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3201
+    tide_component: -0.0011
     expected_two_party_share: 0.6065
-    expected_two_party_share_v2: 0.6065
+    expected_two_party_share_v2: 0.5146
   is_open_seat: null
 title: 11th Hampden (2001-2010)
 layout: district

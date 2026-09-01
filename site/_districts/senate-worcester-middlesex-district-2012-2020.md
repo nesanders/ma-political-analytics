@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5098
     war: -0.0742
     is_incumbent: false
-    war_v2: -0.0742
+    incumbent_terms: 0
+    war_v2: 0.0075
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3082
+    tide_component: -0.0015
     expected_two_party_share: 0.584
-    expected_two_party_share_v2: 0.584
+    expected_two_party_share_v2: 0.5023
   - name: Dean Tran
     slug: dean-tran
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4902
     war: 0.0742
     is_incumbent: true
-    war_v2: -0.0503
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0806
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2195
+    tide_component: -0.0008
     expected_two_party_share: 0.416
-    expected_two_party_share_v2: 0.5405
+    expected_two_party_share_v2: 0.5708
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2356
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5431
     war: -0.2213
     is_incumbent: false
-    war_v2: -0.2213
+    incumbent_terms: 0
+    war_v2: -0.0543
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4034
+    tide_component: -0.0015
     expected_two_party_share: 0.7644
-    expected_two_party_share_v2: 0.7644
+    expected_two_party_share_v2: 0.5974
   - name: Susan A. Chalifoux Zephir
     slug: susan-a-chalifoux-zephir
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4569
     war: 0.2213
     is_incumbent: false
-    war_v2: 0.2213
+    incumbent_terms: 0
+    war_v2: 0.1377
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1243
+    tide_component: -0.0008
     expected_two_party_share: 0.2356
-    expected_two_party_share_v2: 0.2356
+    expected_two_party_share_v2: 0.3192
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.545
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.455
     is_incumbent: true
-    war_v2: 0.3305
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3722
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2876
+    tide_component: -0.0015
     expected_two_party_share: 0.545
-    expected_two_party_share_v2: 0.6695
+    expected_two_party_share_v2: 0.6278
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3976
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6043
     war: 0.2067
     is_incumbent: true
-    war_v2: 0.0822
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0435
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2098
+    tide_component: -0.0011
     expected_two_party_share: 0.3976
-    expected_two_party_share_v2: 0.5221
+    expected_two_party_share_v2: 0.5608
   - name: Richard M. Bastien
     slug: richard-m-bastien
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3957
     war: -0.2067
     is_incumbent: false
-    war_v2: -0.2067
+    incumbent_terms: 0
+    war_v2: -0.1166
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3179
+    tide_component: -0.0012
     expected_two_party_share: 0.6024
-    expected_two_party_share_v2: 0.6024
+    expected_two_party_share_v2: 0.5123
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5285
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4715
     is_incumbent: false
-    war_v2: 0.4715
+    incumbent_terms: 0
+    war_v2: 0.5269
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2789
+    tide_component: -0.0014
     expected_two_party_share: 0.5285
-    expected_two_party_share_v2: 0.5285
+    expected_two_party_share_v2: 0.4731
   is_open_seat: null
 title: Worcester & Middlesex District (2012-2020)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3304
     is_incumbent: true
-    war_v2: 0.2059
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.309
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3533
+    tide_component: -0.0015
     expected_two_party_share: 0.6696
-    expected_two_party_share_v2: 0.7941
+    expected_two_party_share_v2: 0.691
   - name: Elizabeth R. Harrah
     slug: elizabeth-r-harrah
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.396
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6134
     war: 0.3357
     is_incumbent: true
-    war_v2: 0.2112
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1259
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1465
+    tide_component: -0.0008
     expected_two_party_share: 0.2777
-    expected_two_party_share_v2: 0.4022
+    expected_two_party_share_v2: 0.4875
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3866
     war: -0.3357
     is_incumbent: false
-    war_v2: -0.3357
+    incumbent_terms: 0
+    war_v2: -0.1886
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3812
+    tide_component: -0.0015
     expected_two_party_share: 0.7223
-    expected_two_party_share_v2: 0.7223
+    expected_two_party_share_v2: 0.5752
   - name: Kateen R. Kumar
     slug: kateen-r-kumar
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0326
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.5884
     war: -0.0385
     is_incumbent: true
-    war_v2: -0.163
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.093
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3308
+    tide_component: -0.0015
     expected_two_party_share: 0.6269
-    expected_two_party_share_v2: 0.7514
+    expected_two_party_share_v2: 0.6814
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.4116
     war: 0.0385
     is_incumbent: false
-    war_v2: 0.0385
+    incumbent_terms: 0
+    war_v2: 0.0199
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1969
+    tide_component: -0.0008
     expected_two_party_share: 0.3731
-    expected_two_party_share_v2: 0.3731
+    expected_two_party_share_v2: 0.3917
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4334
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.5142
     war: 0.0808
     is_incumbent: false
-    war_v2: 0.0808
+    incumbent_terms: 0
+    war_v2: 0.091
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2287
+    tide_component: -0.0011
     expected_two_party_share: 0.4334
-    expected_two_party_share_v2: 0.4334
+    expected_two_party_share_v2: 0.4232
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.4858
     war: -0.0808
     is_incumbent: false
-    war_v2: -0.0808
+    incumbent_terms: 0
+    war_v2: -0.0076
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.299
+    tide_component: -0.0012
     expected_two_party_share: 0.5666
-    expected_two_party_share_v2: 0.5666
+    expected_two_party_share_v2: 0.4934
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5512
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.5984
     war: 0.0473
     is_incumbent: false
-    war_v2: 0.0473
+    incumbent_terms: 0
+    war_v2: 0.1134
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2909
+    tide_component: -0.0014
     expected_two_party_share: 0.5511
-    expected_two_party_share_v2: 0.5511
+    expected_two_party_share_v2: 0.485
   - name: George Georgountzos
     slug: george-georgountzos
     party: Republican
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.4016
     war: -0.0473
     is_incumbent: false
-    war_v2: -0.0473
+    incumbent_terms: 0
+    war_v2: -0.03
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2368
+    tide_component: -0.0009
     expected_two_party_share: 0.4489
-    expected_two_party_share_v2: 0.4489
+    expected_two_party_share_v2: 0.4316
   is_open_seat: null
 title: 31st Middlesex District (2012-2020)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2562
   war: -0.0186
-  war_v2: -0.0186
+  war_v2: -0.0835
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2748
-  expected_two_party_share_v2: 0.2748
+  expected_two_party_share_v2: 0.3397
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.2669
   war: 0.0282
-  war_v2: 0.0282
+  war_v2: -0.0538
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2387
-  expected_two_party_share_v2: 0.2387
+  expected_two_party_share_v2: 0.3207
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Greer Tan Swiston
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5963
     war: -0.0237
     is_incumbent: false
-    war_v2: -0.0237
+    incumbent_terms: 0
+    war_v2: 0.0746
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3272
+    tide_component: -0.0011
     expected_two_party_share: 0.62
-    expected_two_party_share_v2: 0.62
+    expected_two_party_share_v2: 0.5217
   - name: Kevin P. Conway
     slug: kevin-p-conway
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4037
     war: 0.0237
     is_incumbent: false
-    war_v2: 0.0237
+    incumbent_terms: 0
+    war_v2: 0.0088
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2005
+    tide_component: -0.0012
     expected_two_party_share: 0.38
-    expected_two_party_share_v2: 0.38
+    expected_two_party_share_v2: 0.3949
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1592
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: George Simolaris, Jr.
@@ -67,8 +79,12 @@ results_by_year:
     actual_two_party_share: 0.0063
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -88,10 +104,14 @@ results_by_year:
     actual_two_party_share: 0.6458
     war: 0.1346
     is_incumbent: true
-    war_v2: 0.0101
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.0383
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2698
+    tide_component: -0.0015
     expected_two_party_share: 0.5112
-    expected_two_party_share_v2: 0.6357
+    expected_two_party_share_v2: 0.6075
   - name: Anthony Lucacio
     slug: anthony-lucacio
     party: Republican
@@ -100,10 +120,14 @@ results_by_year:
     actual_two_party_share: 0.3542
     war: -0.1346
     is_incumbent: false
-    war_v2: -0.1346
+    incumbent_terms: 0
+    war_v2: -0.0985
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2579
+    tide_component: -0.0008
     expected_two_party_share: 0.4888
-    expected_two_party_share_v2: 0.4888
+    expected_two_party_share_v2: 0.4527
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4806
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5194
     is_incumbent: true
-    war_v2: 0.3949
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4061
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2536
+    tide_component: -0.0014
     expected_two_party_share: 0.4806
-    expected_two_party_share_v2: 0.6051
+    expected_two_party_share_v2: 0.5939
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5278
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.6244
     war: 0.0966
     is_incumbent: true
-    war_v2: -0.0279
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0048
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2785
+    tide_component: -0.0014
     expected_two_party_share: 0.5278
-    expected_two_party_share_v2: 0.6523
+    expected_two_party_share_v2: 0.6292
   - name: Marc T. Lombardo
     slug: marc-t-lombardo
     party: Republican
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.3756
     war: -0.0966
     is_incumbent: false
-    war_v2: -0.0966
+    incumbent_terms: 0
+    war_v2: -0.0683
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2492
+    tide_component: -0.0009
     expected_two_party_share: 0.4722
-    expected_two_party_share_v2: 0.4722
+    expected_two_party_share_v2: 0.4439
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3818
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6182
     is_incumbent: false
-    war_v2: 0.6182
+    incumbent_terms: 0
+    war_v2: 0.604
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2015
+    tide_component: -0.0011
     expected_two_party_share: 0.3818
-    expected_two_party_share_v2: 0.3818
+    expected_two_party_share_v2: 0.396
   is_open_seat: null
 title: 22nd Middlesex (2001-2010)
 layout: district

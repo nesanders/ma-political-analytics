@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2621
   war: -0.1082
-  war_v2: -0.1082
+  war_v2: -0.1281
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3703
-  expected_two_party_share_v2: 0.3703
+  expected_two_party_share_v2: 0.3902
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Travis W. Chaput
 layout: candidate
 ---

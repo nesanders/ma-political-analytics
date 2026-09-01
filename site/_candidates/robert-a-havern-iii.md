@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4072
-  war_v2: 0.2827
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3469
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5928
-  expected_two_party_share_v2: 0.7173
+  expected_two_party_share_v2: 0.6531
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6623
   war: 0.0344
-  war_v2: -0.0901
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0197
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6279
-  expected_two_party_share_v2: 0.7524
+  expected_two_party_share_v2: 0.682
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5277
-  war_v2: 0.5277
+  war_v2: 0.5563
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4723
-  expected_two_party_share_v2: 0.4723
+  expected_two_party_share_v2: 0.4437
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert A. Havern, III
 layout: candidate
 ---

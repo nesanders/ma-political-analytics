@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5155
     war: 0.1038
     is_incumbent: true
-    war_v2: -0.0207
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0402
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2173
+    tide_component: -0.0008
     expected_two_party_share: 0.4117
-    expected_two_party_share_v2: 0.5362
+    expected_two_party_share_v2: 0.5557
   - name: Deborah L. Busser
     slug: deborah-l-busser
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4845
     war: -0.1038
     is_incumbent: false
-    war_v2: -0.1038
+    incumbent_terms: 0
+    war_v2: -0.02
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3104
+    tide_component: -0.0015
     expected_two_party_share: 0.5883
-    expected_two_party_share_v2: 0.5883
+    expected_two_party_share_v2: 0.5045
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2345
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2345
     is_incumbent: true
-    war_v2: 0.11
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2584
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.404
+    tide_component: -0.0015
     expected_two_party_share: 0.7655
-    expected_two_party_share_v2: 0.89
+    expected_two_party_share_v2: 0.7416
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5308
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.6518
     war: 0.1826
     is_incumbent: true
-    war_v2: 0.0581
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0633
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2476
+    tide_component: -0.0008
     expected_two_party_share: 0.4692
-    expected_two_party_share_v2: 0.5937
+    expected_two_party_share_v2: 0.5885
   - name: Matthew T. Meneghini
     slug: matthew-t-meneghini
     party: Democratic
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.3482
     war: -0.1826
     is_incumbent: false
-    war_v2: -0.1826
+    incumbent_terms: 0
+    war_v2: -0.126
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2801
+    tide_component: -0.0015
     expected_two_party_share: 0.5308
-    expected_two_party_share_v2: 0.5308
+    expected_two_party_share_v2: 0.4742
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3735
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6429
     war: 0.0165
     is_incumbent: true
-    war_v2: -0.108
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0386
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3306
+    tide_component: -0.0012
     expected_two_party_share: 0.6264
-    expected_two_party_share_v2: 0.7509
+    expected_two_party_share_v2: 0.6815
   - name: Gene A. Rauhala
     slug: gene-a-rauhala
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3571
     war: -0.0165
     is_incumbent: false
-    war_v2: -0.0165
+    incumbent_terms: 0
+    war_v2: -0.0345
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1971
+    tide_component: -0.0011
     expected_two_party_share: 0.3736
-    expected_two_party_share_v2: 0.3736
+    expected_two_party_share_v2: 0.3916
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4821
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4821
     is_incumbent: false
-    war_v2: 0.4821
+    incumbent_terms: 0
+    war_v2: 0.532
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2733
+    tide_component: -0.0009
     expected_two_party_share: 0.5179
-    expected_two_party_share_v2: 0.5179
+    expected_two_party_share_v2: 0.468
   is_open_seat: null
 title: 1st Middlesex District (2012-2020)
 layout: district

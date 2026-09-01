@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.589
     war: -0.0311
     is_incumbent: true
-    war_v2: -0.1556
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0889
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3272
+    tide_component: -0.0014
     expected_two_party_share: 0.6201
-    expected_two_party_share_v2: 0.7446
+    expected_two_party_share_v2: 0.6779
   - name: Dashe M. Videira
     slug: dashe-m-videira
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.411
     war: 0.0311
     is_incumbent: false
-    war_v2: 0.0311
+    incumbent_terms: 0
+    war_v2: 0.0158
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2005
+    tide_component: -0.0009
     expected_two_party_share: 0.3799
-    expected_two_party_share_v2: 0.3799
+    expected_two_party_share_v2: 0.3952
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6225
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5487
     war: -0.0737
     is_incumbent: false
-    war_v2: -0.0737
+    incumbent_terms: 0
+    war_v2: 0.0261
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3285
+    tide_component: -0.0015
     expected_two_party_share: 0.6224
-    expected_two_party_share_v2: 0.6224
+    expected_two_party_share_v2: 0.5226
   - name: Shawn C. Dooley
     slug: shawn-c-dooley
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4513
     war: 0.0737
     is_incumbent: false
-    war_v2: 0.0737
+    incumbent_terms: 0
+    war_v2: 0.0573
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1992
+    tide_component: -0.0008
     expected_two_party_share: 0.3776
-    expected_two_party_share_v2: 0.3776
+    expected_two_party_share_v2: 0.394
   is_open_seat: null
 demographics:
   median_household_income: 138132

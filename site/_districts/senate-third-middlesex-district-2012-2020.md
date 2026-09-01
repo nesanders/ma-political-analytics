@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2582
     is_incumbent: true
-    war_v2: 0.1337
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2709
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3914
+    tide_component: -0.0015
     expected_two_party_share: 0.7418
-    expected_two_party_share_v2: 0.8663
+    expected_two_party_share_v2: 0.7291
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.338
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.662
     is_incumbent: true
-    war_v2: 0.5375
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4832
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1784
+    tide_component: -0.0008
     expected_two_party_share: 0.338
-    expected_two_party_share_v2: 0.4625
+    expected_two_party_share_v2: 0.5168
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2916
     is_incumbent: true
-    war_v2: 0.1671
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.286
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3738
+    tide_component: -0.0015
     expected_two_party_share: 0.7084
-    expected_two_party_share_v2: 0.8329
+    expected_two_party_share_v2: 0.714
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4911
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.5924
     war: 0.1013
     is_incumbent: true
-    war_v2: -0.0232
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0177
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2592
+    tide_component: -0.0011
     expected_two_party_share: 0.4911
-    expected_two_party_share_v2: 0.6156
+    expected_two_party_share_v2: 0.6101
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.4076
     war: -0.1013
     is_incumbent: false
-    war_v2: -0.1013
+    incumbent_terms: 0
+    war_v2: -0.0554
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2685
+    tide_component: -0.0012
     expected_two_party_share: 0.5089
-    expected_two_party_share_v2: 0.5089
+    expected_two_party_share_v2: 0.463
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6049
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.606
     war: 0.0011
     is_incumbent: false
-    war_v2: 0.0011
+    incumbent_terms: 0
+    war_v2: 0.0926
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3192
+    tide_component: -0.0014
     expected_two_party_share: 0.6049
-    expected_two_party_share_v2: 0.6049
+    expected_two_party_share_v2: 0.5134
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.394
     war: -0.0011
     is_incumbent: false
-    war_v2: -0.0011
+    incumbent_terms: 0
+    war_v2: -0.0092
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2085
+    tide_component: -0.0009
     expected_two_party_share: 0.3951
-    expected_two_party_share_v2: 0.3951
+    expected_two_party_share_v2: 0.4032
   is_open_seat: null
 title: Third Middlesex District (2012-2020)
 layout: district

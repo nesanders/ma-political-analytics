@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3611
   war: 0.0161
-  war_v2: 0.0161
+  war_v2: -0.0155
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.345
-  expected_two_party_share_v2: 0.345
+  expected_two_party_share_v2: 0.3766
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Faye L. Morrison
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3372
     is_incumbent: true
-    war_v2: 0.2127
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2996
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3498
+    tide_component: -0.0014
     expected_two_party_share: 0.6628
-    expected_two_party_share_v2: 0.7873
+    expected_two_party_share_v2: 0.7004
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6494
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6486
     war: -0.0008
     is_incumbent: false
-    war_v2: -0.0008
+    incumbent_terms: 0
+    war_v2: 0.1118
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3427
+    tide_component: -0.0015
     expected_two_party_share: 0.6494
-    expected_two_party_share_v2: 0.6494
+    expected_two_party_share_v2: 0.5368
   - name: Raymond Yinggang Xie
     slug: raymond-yinggang-xie
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3514
     war: 0.0008
     is_incumbent: false
-    war_v2: 0.0008
+    incumbent_terms: 0
+    war_v2: -0.0284
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.185
+    tide_component: -0.0008
     expected_two_party_share: 0.3506
-    expected_two_party_share_v2: 0.3506
+    expected_two_party_share_v2: 0.3798
   is_open_seat: null
 demographics:
   total_population: 46540

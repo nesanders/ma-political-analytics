@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3615
     is_incumbent: true
-    war_v2: 0.237
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3124
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3369
+    tide_component: -0.0014
     expected_two_party_share: 0.6385
-    expected_two_party_share_v2: 0.763
+    expected_two_party_share_v2: 0.6876
   - name: Andrew M. Pepoli
     slug: andrew-m-pepoli
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.4684
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.355
     is_incumbent: false
-    war_v2: 0.355
+    incumbent_terms: 0
+    war_v2: 0.4655
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3404
+    tide_component: -0.0015
     expected_two_party_share: 0.645
-    expected_two_party_share_v2: 0.645
+    expected_two_party_share_v2: 0.5345
   is_open_seat: null
 demographics:
   total_population: 44825

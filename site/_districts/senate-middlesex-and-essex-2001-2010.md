@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5232
     war: 0.0599
     is_incumbent: false
-    war_v2: 0.0599
+    incumbent_terms: 0
+    war_v2: 0.0844
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2444
+    tide_component: -0.0012
     expected_two_party_share: 0.4633
-    expected_two_party_share_v2: 0.4633
+    expected_two_party_share_v2: 0.4388
   - name: Craig Spadafora
     slug: craig-spadafora
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4768
     war: -0.0599
     is_incumbent: false
-    war_v2: -0.0599
+    incumbent_terms: 0
+    war_v2: -0.001
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2833
+    tide_component: -0.0011
     expected_two_party_share: 0.5367
-    expected_two_party_share_v2: 0.5367
+    expected_two_party_share_v2: 0.4778
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5924
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5924
     is_incumbent: true
-    war_v2: 0.4679
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4466
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2151
+    tide_component: -0.0008
     expected_two_party_share: 0.4076
-    expected_two_party_share_v2: 0.5321
+    expected_two_party_share_v2: 0.5534
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5555
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5555
     is_incumbent: true
-    war_v2: 0.431
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4246
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2346
+    tide_component: -0.0009
     expected_two_party_share: 0.4445
-    expected_two_party_share_v2: 0.569
+    expected_two_party_share_v2: 0.5754
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6134
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5663
     war: 0.1797
     is_incumbent: true
-    war_v2: 0.0552
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.011
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.204
+    tide_component: -0.0009
     expected_two_party_share: 0.3866
-    expected_two_party_share_v2: 0.5111
+    expected_two_party_share_v2: 0.5553
   - name: Katherine M. Clark
     slug: katherine-m-clark
     party: Democratic
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4337
     war: -0.1797
     is_incumbent: false
-    war_v2: -0.1797
+    incumbent_terms: 0
+    war_v2: -0.0841
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3237
+    tide_component: -0.0014
     expected_two_party_share: 0.6134
-    expected_two_party_share_v2: 0.6134
+    expected_two_party_share_v2: 0.5178
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4401
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4401
     is_incumbent: false
-    war_v2: 0.4401
+    incumbent_terms: 0
+    war_v2: 0.5101
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2955
+    tide_component: -0.0012
     expected_two_party_share: 0.5599
-    expected_two_party_share_v2: 0.5599
+    expected_two_party_share_v2: 0.4899
   is_open_seat: null
 title: Middlesex and Essex (2001-2010)
 layout: district

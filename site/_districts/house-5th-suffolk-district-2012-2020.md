@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1576
     is_incumbent: true
-    war_v2: 0.0331
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2049
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4445
+    tide_component: -0.0015
     expected_two_party_share: 0.8424
-    expected_two_party_share_v2: 0.9669
+    expected_two_party_share_v2: 0.7951
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5089
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4911
     is_incumbent: false
-    war_v2: 0.4911
+    incumbent_terms: 0
+    war_v2: 0.5366
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2685
+    tide_component: -0.0008
     expected_two_party_share: 0.5089
-    expected_two_party_share_v2: 0.5089
+    expected_two_party_share_v2: 0.4634
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.1235
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.8435
     war: -0.0095
     is_incumbent: true
-    war_v2: -0.134
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0428
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4501
+    tide_component: -0.0015
     expected_two_party_share: 0.853
-    expected_two_party_share_v2: 0.9775
+    expected_two_party_share_v2: 0.8007
   - name: Althea Garrison
     slug: althea-garrison
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.1565
     war: 0.0095
     is_incumbent: false
-    war_v2: 0.0095
+    incumbent_terms: 0
+    war_v2: -0.1159
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.0776
+    tide_component: -0.0008
     expected_two_party_share: 0.147
-    expected_two_party_share_v2: 0.147
+    expected_two_party_share_v2: 0.2724
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6878
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.8915
     war: 0.2037
     is_incumbent: false
-    war_v2: 0.2037
+    incumbent_terms: 0
+    war_v2: 0.3341
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.363
+    tide_component: -0.0011
     expected_two_party_share: 0.6878
-    expected_two_party_share_v2: 0.6878
+    expected_two_party_share_v2: 0.5574
   - name: Claudette N. Joseph
     slug: claudette-n-joseph
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.1085
     war: -0.2037
     is_incumbent: false
-    war_v2: -0.2037
+    incumbent_terms: 0
+    war_v2: -0.2507
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1647
+    tide_component: -0.0012
     expected_two_party_share: 0.3122
-    expected_two_party_share_v2: 0.3122
+    expected_two_party_share_v2: 0.3592
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8034
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1966
     is_incumbent: false
-    war_v2: 0.1966
+    incumbent_terms: 0
+    war_v2: 0.3819
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.424
+    tide_component: -0.0014
     expected_two_party_share: 0.8034
-    expected_two_party_share_v2: 0.8034
+    expected_two_party_share_v2: 0.6181
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.2793
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

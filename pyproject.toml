@@ -8,6 +8,7 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "lxml>=5.2",
     "pandas>=2.2",
+    "numpy>=1.26",
     "geopandas>=1.0",
     "shapely>=2.0",
     "pyarrow>=17.0",

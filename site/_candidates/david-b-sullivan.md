@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2763
-  war_v2: 0.2763
+  war_v2: 0.4239
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7237
-  expected_two_party_share_v2: 0.7237
+  expected_two_party_share_v2: 0.5761
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6362
   war: 0.0647
-  war_v2: -0.0598
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0033
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5715
-  expected_two_party_share_v2: 0.696
+  expected_two_party_share_v2: 0.6395
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3389
-  war_v2: 0.2144
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3134
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6611
-  expected_two_party_share_v2: 0.7856
+  expected_two_party_share_v2: 0.6866
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3193
-  war_v2: 0.1948
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3005
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6807
-  expected_two_party_share_v2: 0.8052
+  expected_two_party_share_v2: 0.6995
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3079
-  war_v2: 0.1834
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2841
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6921
-  expected_two_party_share_v2: 0.8166
+  expected_two_party_share_v2: 0.7159
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3943
-  war_v2: 0.3943
+  war_v2: 0.4859
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6057
-  expected_two_party_share_v2: 0.6057
+  expected_two_party_share_v2: 0.5141
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: David B. Sullivan
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.467
     is_incumbent: false
-    war_v2: 0.467
+    incumbent_terms: 0
+    war_v2: 0.524
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2813
+    tide_component: -0.0009
     expected_two_party_share: 0.533
-    expected_two_party_share_v2: 0.533
+    expected_two_party_share_v2: 0.476
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.1234
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4941
     is_incumbent: false
-    war_v2: 0.4941
+    incumbent_terms: 0
+    war_v2: 0.5382
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.267
+    tide_component: -0.0008
     expected_two_party_share: 0.5059
-    expected_two_party_share_v2: 0.5059
+    expected_two_party_share_v2: 0.4618
   is_open_seat: null
 demographics:
   total_population: 42708

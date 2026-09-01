@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6648
   war: 0.1901
-  war_v2: 0.0656
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0633
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4747
-  expected_two_party_share_v2: 0.5992
+  expected_two_party_share_v2: 0.6015
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4003
-  war_v2: 0.4003
+  war_v2: 0.4894
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5997
-  expected_two_party_share_v2: 0.5997
+  expected_two_party_share_v2: 0.5106
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5138
-  war_v2: 0.3893
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3926
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4862
-  expected_two_party_share_v2: 0.6107
+  expected_two_party_share_v2: 0.6074
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4057
-  war_v2: 0.4057
+  war_v2: 0.4922
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5943
-  expected_two_party_share_v2: 0.5943
+  expected_two_party_share_v2: 0.5078
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3317
-  war_v2: 0.2072
-  incumbency_adjustment: 0.1245
+  war_v2: 0.307
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6683
-  expected_two_party_share_v2: 0.7928
+  expected_two_party_share_v2: 0.693
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3338
-  war_v2: 0.2093
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2978
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6662
-  expected_two_party_share_v2: 0.7907
+  expected_two_party_share_v2: 0.7022
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4869
-  war_v2: 0.4869
+  war_v2: 0.5347
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5131
-  expected_two_party_share_v2: 0.5131
+  expected_two_party_share_v2: 0.4653
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas P. Kennedy
 layout: candidate
 ---

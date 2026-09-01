@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6087
     war: 0.1613
     is_incumbent: true
-    war_v2: 0.0368
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0347
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.236
+    tide_component: -0.0012
     expected_two_party_share: 0.4474
-    expected_two_party_share_v2: 0.5719
+    expected_two_party_share_v2: 0.574
   - name: James F. Gettens
     slug: james-f-gettens
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3913
     war: -0.1613
     is_incumbent: false
-    war_v2: -0.1613
+    incumbent_terms: 0
+    war_v2: -0.0949
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2917
+    tide_component: -0.0011
     expected_two_party_share: 0.5526
-    expected_two_party_share_v2: 0.5526
+    expected_two_party_share_v2: 0.4862
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4431
     is_incumbent: true
-    war_v2: 0.3186
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3684
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2939
+    tide_component: -0.0015
     expected_two_party_share: 0.5569
-    expected_two_party_share_v2: 0.6814
+    expected_two_party_share_v2: 0.6316
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5577
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4423
     is_incumbent: true
-    war_v2: 0.3178
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3654
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2943
+    tide_component: -0.0014
     expected_two_party_share: 0.5577
-    expected_two_party_share_v2: 0.6822
+    expected_two_party_share_v2: 0.6346
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5559
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6454
     war: 0.0895
     is_incumbent: true
-    war_v2: -0.035
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0014
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2933
+    tide_component: -0.0014
     expected_two_party_share: 0.5559
-    expected_two_party_share_v2: 0.6804
+    expected_two_party_share_v2: 0.644
   - name: James B. Stanton
     slug: james-b-stanton
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3546
     war: -0.0895
     is_incumbent: false
-    war_v2: -0.0895
+    incumbent_terms: 0
+    war_v2: -0.0745
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2344
+    tide_component: -0.0009
     expected_two_party_share: 0.4441
-    expected_two_party_share_v2: 0.4441
+    expected_two_party_share_v2: 0.4291
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3667
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6333
     is_incumbent: false
-    war_v2: 0.6333
+    incumbent_terms: 0
+    war_v2: 0.612
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1935
+    tide_component: -0.0011
     expected_two_party_share: 0.3667
-    expected_two_party_share_v2: 0.3667
+    expected_two_party_share_v2: 0.388
   - name: William D. Pacheco
     slug: william-d-pacheco
     party: Libertarian
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.2548
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

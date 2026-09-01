@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3008
   war: -0.2247
-  war_v2: -0.2247
+  war_v2: -0.1707
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5255
-  expected_two_party_share_v2: 0.5255
+  expected_two_party_share_v2: 0.4715
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Glenn S. Pare
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3998
-  war_v2: 0.2753
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3326
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6002
-  expected_two_party_share_v2: 0.7247
+  expected_two_party_share_v2: 0.6674
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3547
-  war_v2: 0.3547
+  war_v2: 0.4654
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6453
-  expected_two_party_share_v2: 0.6453
+  expected_two_party_share_v2: 0.5346
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3325
-  war_v2: 0.3325
+  war_v2: 0.4537
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6675
-  expected_two_party_share_v2: 0.6675
+  expected_two_party_share_v2: 0.5463
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Vanna Howard
 layout: candidate
 ---

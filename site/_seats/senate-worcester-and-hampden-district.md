@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6587
     war: 0.1342
     is_incumbent: true
-    war_v2: 0.0097
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0307
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2767
+    tide_component: -0.0009
     expected_two_party_share: 0.5245
-    expected_two_party_share_v2: 0.649
+    expected_two_party_share_v2: 0.628
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3413
     war: -0.1342
     is_incumbent: false
-    war_v2: -0.1342
+    incumbent_terms: 0
+    war_v2: -0.1038
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.251
+    tide_component: -0.0014
     expected_two_party_share: 0.4755
-    expected_two_party_share_v2: 0.4755
+    expected_two_party_share_v2: 0.4451
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4886
     is_incumbent: false
-    war_v2: 0.4886
+    incumbent_terms: 0
+    war_v2: 0.5353
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2699
+    tide_component: -0.0008
     expected_two_party_share: 0.5114
-    expected_two_party_share_v2: 0.5114
+    expected_two_party_share_v2: 0.4647
   is_open_seat: null
 demographics:
   median_household_income: 98787

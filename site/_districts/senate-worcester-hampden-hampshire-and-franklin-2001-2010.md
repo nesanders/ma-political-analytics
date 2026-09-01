@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6624
     war: 0.247
     is_incumbent: true
-    war_v2: 0.1225
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.1052
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2192
+    tide_component: -0.0012
     expected_two_party_share: 0.4154
-    expected_two_party_share_v2: 0.5399
+    expected_two_party_share_v2: 0.5572
   - name: Daniel D. Dubrule
     slug: daniel-d-dubrule
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3376
     war: -0.247
     is_incumbent: false
-    war_v2: -0.247
+    incumbent_terms: 0
+    war_v2: -0.1654
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3085
+    tide_component: -0.0011
     expected_two_party_share: 0.5846
-    expected_two_party_share_v2: 0.5846
+    expected_two_party_share_v2: 0.503
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5319
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4681
     is_incumbent: true
-    war_v2: 0.3436
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3816
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2807
+    tide_component: -0.0015
     expected_two_party_share: 0.5319
-    expected_two_party_share_v2: 0.6564
+    expected_two_party_share_v2: 0.6184
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5599
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4401
     is_incumbent: true
-    war_v2: 0.3156
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3642
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2955
+    tide_component: -0.0014
     expected_two_party_share: 0.5599
-    expected_two_party_share_v2: 0.6844
+    expected_two_party_share_v2: 0.6358
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5318
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.7945
     war: 0.2628
     is_incumbent: true
-    war_v2: 0.1383
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1632
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2806
+    tide_component: -0.0014
     expected_two_party_share: 0.5317
-    expected_two_party_share_v2: 0.6562
+    expected_two_party_share_v2: 0.6313
   - name: Jennifer J. Gaucher
     slug: jennifer-j-gaucher
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.2055
     war: -0.2628
     is_incumbent: false
-    war_v2: -0.2628
+    incumbent_terms: 0
+    war_v2: -0.2363
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2471
+    tide_component: -0.0009
     expected_two_party_share: 0.4683
-    expected_two_party_share_v2: 0.4683
+    expected_two_party_share_v2: 0.4418
   - name: Carolyn J. McMahon
     slug: carolyn-j-mcmahon
     party: Libertarian
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0544
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5912
     is_incumbent: false
-    war_v2: 0.5912
+    incumbent_terms: 0
+    war_v2: 0.5898
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2157
+    tide_component: -0.0011
     expected_two_party_share: 0.4088
-    expected_two_party_share_v2: 0.4088
+    expected_two_party_share_v2: 0.4102
   - name: Carolyn J. McMahon
     slug: carolyn-j-mcmahon
     party: Libertarian
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.2116
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

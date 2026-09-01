@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5314
     war: 0.0455
     is_incumbent: true
-    war_v2: -0.079
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0757
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2564
+    tide_component: -0.0014
     expected_two_party_share: 0.4859
-    expected_two_party_share_v2: 0.6104
+    expected_two_party_share_v2: 0.6071
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4686
     war: -0.0455
     is_incumbent: false
-    war_v2: -0.0455
+    incumbent_terms: 0
+    war_v2: 0.0026
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2713
+    tide_component: -0.0009
     expected_two_party_share: 0.5141
-    expected_two_party_share_v2: 0.5141
+    expected_two_party_share_v2: 0.466
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5018
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5474
     war: 0.0456
     is_incumbent: false
-    war_v2: 0.0456
+    incumbent_terms: 0
+    war_v2: 0.0885
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2648
+    tide_component: -0.0015
     expected_two_party_share: 0.5018
-    expected_two_party_share_v2: 0.5018
+    expected_two_party_share_v2: 0.4589
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4526
     war: -0.0456
     is_incumbent: false
-    war_v2: -0.0456
+    incumbent_terms: 0
+    war_v2: -0.0051
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2629
+    tide_component: -0.0008
     expected_two_party_share: 0.4982
-    expected_two_party_share_v2: 0.4982
+    expected_two_party_share_v2: 0.4577
   - name: Charles F. McCoy, Jr
     slug: charles-f-mccoy-jr
     party: Other
@@ -85,8 +101,12 @@ results_by_year:
     actual_two_party_share: 0.0442
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

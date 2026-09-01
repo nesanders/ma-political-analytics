@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5703
     war: 0.0117
     is_incumbent: true
-    war_v2: -0.1128
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0621
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2948
+    tide_component: -0.0015
     expected_two_party_share: 0.5586
-    expected_two_party_share_v2: 0.6831
+    expected_two_party_share_v2: 0.6324
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4297
     war: -0.0117
     is_incumbent: false
-    war_v2: -0.0117
+    incumbent_terms: 0
+    war_v2: 0.0019
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2329
+    tide_component: -0.0008
     expected_two_party_share: 0.4414
-    expected_two_party_share_v2: 0.4414
+    expected_two_party_share_v2: 0.4278
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3413
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6587
     is_incumbent: true
-    war_v2: 0.5342
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4815
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1801
+    tide_component: -0.0008
     expected_two_party_share: 0.3413
-    expected_two_party_share_v2: 0.4658
+    expected_two_party_share_v2: 0.5185
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5908
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4092
     is_incumbent: true
-    war_v2: 0.2847
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.348
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3118
+    tide_component: -0.0015
     expected_two_party_share: 0.5908
-    expected_two_party_share_v2: 0.7153
+    expected_two_party_share_v2: 0.652
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5801
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4199
     is_incumbent: true
-    war_v2: 0.2954
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3429
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3061
+    tide_component: -0.0011
     expected_two_party_share: 0.5801
-    expected_two_party_share_v2: 0.7046
+    expected_two_party_share_v2: 0.6571
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7026
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2974
     is_incumbent: false
-    war_v2: 0.2974
+    incumbent_terms: 0
+    war_v2: 0.4351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3708
+    tide_component: -0.0014
     expected_two_party_share: 0.7026
-    expected_two_party_share_v2: 0.7026
+    expected_two_party_share_v2: 0.5649
   is_open_seat: null
 title: 8th Bristol District (2012-2020)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1995
     is_incumbent: true
-    war_v2: 0.075
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.227
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4224
+    tide_component: -0.0015
     expected_two_party_share: 0.8005
-    expected_two_party_share_v2: 0.925
+    expected_two_party_share_v2: 0.773
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5429
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4571
     is_incumbent: false
-    war_v2: 0.4571
+    incumbent_terms: 0
+    war_v2: 0.5187
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2865
+    tide_component: -0.0008
     expected_two_party_share: 0.5429
-    expected_two_party_share_v2: 0.5429
+    expected_two_party_share_v2: 0.4813
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7791
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2209
     is_incumbent: true
-    war_v2: 0.0964
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2487
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4111
+    tide_component: -0.0015
     expected_two_party_share: 0.7791
-    expected_two_party_share_v2: 0.9036
+    expected_two_party_share_v2: 0.7513
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6854
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3146
     is_incumbent: true
-    war_v2: 0.1901
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2873
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3617
+    tide_component: -0.0011
     expected_two_party_share: 0.6854
-    expected_two_party_share_v2: 0.8099
+    expected_two_party_share_v2: 0.7127
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7737
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2263
     is_incumbent: false
-    war_v2: 0.2263
+    incumbent_terms: 0
+    war_v2: 0.3975
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4083
+    tide_component: -0.0014
     expected_two_party_share: 0.7737
-    expected_two_party_share_v2: 0.7737
+    expected_two_party_share_v2: 0.6025
   is_open_seat: null
 title: 1st Hampshire District (2012-2020)
 layout: district

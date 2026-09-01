@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4269
     is_incumbent: true
-    war_v2: 0.3024
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3467
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3024
+    tide_component: -0.0012
     expected_two_party_share: 0.5731
-    expected_two_party_share_v2: 0.6976
+    expected_two_party_share_v2: 0.6533
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6694
@@ -52,8 +56,12 @@ results_by_year:
     actual_two_party_share: 1.2687
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Daniel James Larkosh
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3306
     is_incumbent: false
-    war_v2: 0.3306
+    incumbent_terms: 0
+    war_v2: 0.4526
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3532
+    tide_component: -0.0015
     expected_two_party_share: 0.6694
-    expected_two_party_share_v2: 0.6694
+    expected_two_party_share_v2: 0.5474
   - name: Melissa C. Freitag
     slug: melissa-c-freitag
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.4521
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jacob D. Ferreira
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.4005
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.7036
     war: 0.086
     is_incumbent: true
-    war_v2: -0.0385
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0374
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3259
+    tide_component: -0.0014
     expected_two_party_share: 0.6176
-    expected_two_party_share_v2: 0.7421
+    expected_two_party_share_v2: 0.6662
   - name: James R. Powell
     slug: james-r-powell
     party: Republican
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.2964
     war: -0.086
     is_incumbent: false
-    war_v2: -0.086
+    incumbent_terms: 0
+    war_v2: -0.1001
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2018
+    tide_component: -0.0009
     expected_two_party_share: 0.3824
-    expected_two_party_share_v2: 0.3824
+    expected_two_party_share_v2: 0.3965
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6411
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.7026
     war: 0.0615
     is_incumbent: true
-    war_v2: -0.063
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0136
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3383
+    tide_component: -0.0014
     expected_two_party_share: 0.6411
-    expected_two_party_share_v2: 0.7656
+    expected_two_party_share_v2: 0.689
   - name: James R. Powell
     slug: james-r-powell
     party: Republican
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.2974
     war: -0.0615
     is_incumbent: false
-    war_v2: -0.0615
+    incumbent_terms: 0
+    war_v2: -0.0867
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1894
+    tide_component: -0.0009
     expected_two_party_share: 0.3589
-    expected_two_party_share_v2: 0.3589
+    expected_two_party_share_v2: 0.3841
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4907
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5093
     is_incumbent: false
-    war_v2: 0.5093
+    incumbent_terms: 0
+    war_v2: 0.5465
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2589
+    tide_component: -0.0011
     expected_two_party_share: 0.4907
-    expected_two_party_share_v2: 0.4907
+    expected_two_party_share_v2: 0.4535
   is_open_seat: null
 title: Barnstable, Dukes and Nantucket (2001-2010)
 layout: district

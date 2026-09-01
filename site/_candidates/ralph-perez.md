@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.26
   war: -0.3552
-  war_v2: -0.3552
+  war_v2: -0.259
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6152
-  expected_two_party_share_v2: 0.6152
+  expected_two_party_share_v2: 0.519
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Ralph Perez
 layout: candidate
 ---

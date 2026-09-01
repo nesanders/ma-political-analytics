@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5265
     war: -0.0243
     is_incumbent: true
-    war_v2: -0.1488
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.1021
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2907
+    tide_component: -0.0012
     expected_two_party_share: 0.5508
-    expected_two_party_share_v2: 0.6753
+    expected_two_party_share_v2: 0.6286
   - name: Kevin J. Begley
     slug: kevin-j-begley
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4735
     war: 0.0243
     is_incumbent: false
-    war_v2: 0.0243
+    incumbent_terms: 0
+    war_v2: 0.0419
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.237
+    tide_component: -0.0011
     expected_two_party_share: 0.4492
-    expected_two_party_share_v2: 0.4492
+    expected_two_party_share_v2: 0.4316
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6677
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3323
     is_incumbent: true
-    war_v2: 0.2078
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3099
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3523
+    tide_component: -0.0015
     expected_two_party_share: 0.6677
-    expected_two_party_share_v2: 0.7922
+    expected_two_party_share_v2: 0.6901
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5962
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4038
     is_incumbent: true
-    war_v2: 0.2793
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3451
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3146
+    tide_component: -0.0014
     expected_two_party_share: 0.5962
-    expected_two_party_share_v2: 0.7207
+    expected_two_party_share_v2: 0.6549
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5944
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6606
     war: 0.0662
     is_incumbent: true
-    war_v2: -0.0583
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0037
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3137
+    tide_component: -0.0014
     expected_two_party_share: 0.5944
-    expected_two_party_share_v2: 0.7189
+    expected_two_party_share_v2: 0.6643
   - name: Ellen E. Johnson
     slug: ellen-e-johnson
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3394
     war: -0.0662
     is_incumbent: false
-    war_v2: -0.0662
+    incumbent_terms: 0
+    war_v2: -0.0694
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.214
+    tide_component: -0.0009
     expected_two_party_share: 0.4056
-    expected_two_party_share_v2: 0.4056
+    expected_two_party_share_v2: 0.4088
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4402
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.6083
     war: 0.1682
     is_incumbent: false
-    war_v2: 0.1682
+    incumbent_terms: 0
+    war_v2: 0.1815
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2323
+    tide_component: -0.0011
     expected_two_party_share: 0.4401
-    expected_two_party_share_v2: 0.4401
+    expected_two_party_share_v2: 0.4268
   - name: Paula L. Porten
     slug: paula-l-porten
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.3917
     war: -0.1682
     is_incumbent: false
-    war_v2: -0.1682
+    incumbent_terms: 0
+    war_v2: -0.0981
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2954
+    tide_component: -0.0012
     expected_two_party_share: 0.5599
-    expected_two_party_share_v2: 0.5599
+    expected_two_party_share_v2: 0.4898
   - name: Jonathan A. Leavitt
     slug: jonathan-a-leavitt
     party: null
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.1115
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

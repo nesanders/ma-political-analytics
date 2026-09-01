@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3957
   war: -0.2067
-  war_v2: -0.2067
+  war_v2: -0.1166
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6024
-  expected_two_party_share_v2: 0.6024
+  expected_two_party_share_v2: 0.5123
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.49
   war: 0.0341
-  war_v2: 0.0341
+  war_v2: 0.0547
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4559
-  expected_two_party_share_v2: 0.4559
+  expected_two_party_share_v2: 0.4353
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5184
   war: -0.0348
-  war_v2: -0.0348
+  war_v2: 0.0319
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5532
-  expected_two_party_share_v2: 0.5532
+  expected_two_party_share_v2: 0.4865
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Richard M. Bastien
 layout: candidate
 ---

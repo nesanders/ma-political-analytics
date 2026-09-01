@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3035
     is_incumbent: true
-    war_v2: 0.179
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2948
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3675
+    tide_component: -0.0015
     expected_two_party_share: 0.6965
-    expected_two_party_share_v2: 0.821
+    expected_two_party_share_v2: 0.7052
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.39
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.61
     is_incumbent: true
-    war_v2: 0.4855
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4558
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2058
+    tide_component: -0.0008
     expected_two_party_share: 0.39
-    expected_two_party_share_v2: 0.5145
+    expected_two_party_share_v2: 0.5442
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2916
     is_incumbent: true
-    war_v2: 0.1671
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.286
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3738
+    tide_component: -0.0015
     expected_two_party_share: 0.7084
-    expected_two_party_share_v2: 0.8329
+    expected_two_party_share_v2: 0.714
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5578
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6858
     war: 0.128
     is_incumbent: true
-    war_v2: 0.0035
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0405
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2944
+    tide_component: -0.0011
     expected_two_party_share: 0.5578
-    expected_two_party_share_v2: 0.6823
+    expected_two_party_share_v2: 0.6453
   - name: Jacqueline Gisela Kostas
     slug: jacqueline-gisela-kostas
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3142
     war: -0.128
     is_incumbent: false
-    war_v2: -0.128
+    incumbent_terms: 0
+    war_v2: -0.1136
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2333
+    tide_component: -0.0012
     expected_two_party_share: 0.4422
-    expected_two_party_share_v2: 0.4422
+    expected_two_party_share_v2: 0.4278
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7016
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2984
     is_incumbent: false
-    war_v2: 0.2984
+    incumbent_terms: 0
+    war_v2: 0.4356
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3702
+    tide_component: -0.0014
     expected_two_party_share: 0.7016
-    expected_two_party_share_v2: 0.7016
+    expected_two_party_share_v2: 0.5644
   is_open_seat: null
 title: 13th Worcester District (2012-2020)
 layout: district

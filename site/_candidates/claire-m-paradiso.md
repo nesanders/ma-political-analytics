@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2871
   war: -0.2235
-  war_v2: -0.2235
+  war_v2: -0.1765
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5106
-  expected_two_party_share_v2: 0.5106
+  expected_two_party_share_v2: 0.4636
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Claire M. Paradiso
 layout: candidate
 ---

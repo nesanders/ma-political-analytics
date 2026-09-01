@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5014
     war: 0.0073
     is_incumbent: false
-    war_v2: 0.0073
+    incumbent_terms: 0
+    war_v2: 0.0461
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2607
+    tide_component: -0.0011
     expected_two_party_share: 0.4941
-    expected_two_party_share_v2: 0.4941
+    expected_two_party_share_v2: 0.4553
   - name: James H. Fagan
     slug: james-h-fagan
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4986
     war: -0.0073
     is_incumbent: true
-    war_v2: -0.1318
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.1063
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.267
+    tide_component: -0.0012
     expected_two_party_share: 0.5059
-    expected_two_party_share_v2: 0.6304
+    expected_two_party_share_v2: 0.6049
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6037
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3963
     is_incumbent: true
-    war_v2: 0.2718
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3437
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3186
+    tide_component: -0.0015
     expected_two_party_share: 0.6037
-    expected_two_party_share_v2: 0.7282
+    expected_two_party_share_v2: 0.6563
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6307
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3693
     is_incumbent: true
-    war_v2: 0.2448
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3269
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3328
+    tide_component: -0.0014
     expected_two_party_share: 0.6307
-    expected_two_party_share_v2: 0.7552
+    expected_two_party_share_v2: 0.6731
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6281
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3719
     is_incumbent: true
-    war_v2: 0.2474
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3179
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3314
+    tide_component: -0.0014
     expected_two_party_share: 0.6281
-    expected_two_party_share_v2: 0.7526
+    expected_two_party_share_v2: 0.6821
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5258
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4742
     is_incumbent: false
-    war_v2: 0.4742
+    incumbent_terms: 0
+    war_v2: 0.528
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2775
+    tide_component: -0.0011
     expected_two_party_share: 0.5258
-    expected_two_party_share_v2: 0.5258
+    expected_two_party_share_v2: 0.472
   is_open_seat: null
 title: 3rd Bristol (2001-2010)
 layout: district

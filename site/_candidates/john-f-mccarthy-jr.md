@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3384
   war: -0.0465
-  war_v2: -0.0465
+  war_v2: -0.0595
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3849
-  expected_two_party_share_v2: 0.3849
+  expected_two_party_share_v2: 0.3979
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4007
   war: -0.1558
-  war_v2: -0.1558
+  war_v2: -0.0874
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5565
-  expected_two_party_share_v2: 0.5565
+  expected_two_party_share_v2: 0.4881
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John F. McCarthy, Jr.
 layout: candidate
 ---

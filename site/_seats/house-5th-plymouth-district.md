@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5011
     is_incumbent: true
-    war_v2: 0.3766
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3855
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2633
+    tide_component: -0.0009
     expected_two_party_share: 0.4989
-    expected_two_party_share_v2: 0.6234
+    expected_two_party_share_v2: 0.6145
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5084
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.5174
     war: 0.0258
     is_incumbent: false
-    war_v2: 0.0258
+    incumbent_terms: 0
+    war_v2: 0.0632
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2594
+    tide_component: -0.0008
     expected_two_party_share: 0.4916
-    expected_two_party_share_v2: 0.4916
+    expected_two_party_share_v2: 0.4542
   - name: Emmanuel J. Dockter
     slug: emmanuel-j-dockter
     party: Democratic
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.4826
     war: -0.0258
     is_incumbent: false
-    war_v2: -0.0258
+    incumbent_terms: 0
+    war_v2: 0.0202
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2683
+    tide_component: -0.0015
     expected_two_party_share: 0.5084
-    expected_two_party_share_v2: 0.5084
+    expected_two_party_share_v2: 0.4624
   is_open_seat: null
 demographics:
   total_population: 43987

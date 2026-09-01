@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3185
-  war_v2: 0.3185
+  war_v2: 0.4462
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6815
-  expected_two_party_share_v2: 0.6815
+  expected_two_party_share_v2: 0.5538
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4535
-  war_v2: 0.329
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3736
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5465
-  expected_two_party_share_v2: 0.671
+  expected_two_party_share_v2: 0.6264
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.335
-  war_v2: 0.2105
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3113
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.665
-  expected_two_party_share_v2: 0.7895
+  expected_two_party_share_v2: 0.6887
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3832
-  war_v2: 0.2587
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3342
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6168
-  expected_two_party_share_v2: 0.7413
+  expected_two_party_share_v2: 0.6658
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3673
-  war_v2: 0.2428
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3155
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6327
-  expected_two_party_share_v2: 0.7572
+  expected_two_party_share_v2: 0.6845
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.7679
   war: 0.266
-  war_v2: 0.266
+  war_v2: 0.3085
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5019
-  expected_two_party_share_v2: 0.5019
+  expected_two_party_share_v2: 0.4594
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kevin J. Murphy
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4151
   war: -0.1656
-  war_v2: -0.1656
+  war_v2: -0.0858
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5807
-  expected_two_party_share_v2: 0.5807
+  expected_two_party_share_v2: 0.5009
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Andrea E. Farretta
 layout: candidate
 ---

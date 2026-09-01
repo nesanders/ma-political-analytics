@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3861
     is_incumbent: true
-    war_v2: 0.2616
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3381
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.324
+    tide_component: -0.0012
     expected_two_party_share: 0.6139
-    expected_two_party_share_v2: 0.7384
+    expected_two_party_share_v2: 0.6619
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6847
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3153
     is_incumbent: true
-    war_v2: 0.1908
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3009
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3613
+    tide_component: -0.0015
     expected_two_party_share: 0.6847
-    expected_two_party_share_v2: 0.8092
+    expected_two_party_share_v2: 0.6991
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6712
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3288
     is_incumbent: true
-    war_v2: 0.2043
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3055
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3542
+    tide_component: -0.0014
     expected_two_party_share: 0.6712
-    expected_two_party_share_v2: 0.7957
+    expected_two_party_share_v2: 0.6945
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6565
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3435
     is_incumbent: true
-    war_v2: 0.219
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3029
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3464
+    tide_component: -0.0014
     expected_two_party_share: 0.6565
-    expected_two_party_share_v2: 0.781
+    expected_two_party_share_v2: 0.6971
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5892
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4108
     is_incumbent: false
-    war_v2: 0.4108
+    incumbent_terms: 0
+    war_v2: 0.4946
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3109
+    tide_component: -0.0011
     expected_two_party_share: 0.5892
-    expected_two_party_share_v2: 0.5892
+    expected_two_party_share_v2: 0.5054
   - name: Max Pappas
     slug: max-pappas
     party: Other
@@ -127,8 +147,12 @@ results_by_year:
     actual_two_party_share: 0.5831
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Sue Bartone
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.2449
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

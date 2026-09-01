@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1322
   war: -0.0257
-  war_v2: -0.0257
+  war_v2: -0.1459
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.1579
-  expected_two_party_share_v2: 0.1579
+  expected_two_party_share_v2: 0.2781
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David R. Slavitt
 layout: candidate
 ---

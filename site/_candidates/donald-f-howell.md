@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3213
   war: -0.0554
-  war_v2: -0.0554
+  war_v2: -0.0722
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3767
-  expected_two_party_share_v2: 0.3767
+  expected_two_party_share_v2: 0.3935
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Donald F. Howell
 layout: candidate
 ---

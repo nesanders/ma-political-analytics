@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5062
     is_incumbent: true
-    war_v2: 0.3817
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.401
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2606
+    tide_component: -0.0008
     expected_two_party_share: 0.4938
-    expected_two_party_share_v2: 0.6183
+    expected_two_party_share_v2: 0.599
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2089
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2089
     is_incumbent: true
-    war_v2: 0.0844
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2449
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4175
+    tide_component: -0.0015
     expected_two_party_share: 0.7911
-    expected_two_party_share_v2: 0.9156
+    expected_two_party_share_v2: 0.7551
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4801
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4801
     is_incumbent: true
-    war_v2: 0.3556
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3848
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2744
+    tide_component: -0.0008
     expected_two_party_share: 0.5199
-    expected_two_party_share_v2: 0.6444
+    expected_two_party_share_v2: 0.6152
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3684
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6294
     war: -0.0022
     is_incumbent: true
-    war_v2: -0.1267
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0548
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3333
+    tide_component: -0.0012
     expected_two_party_share: 0.6316
-    expected_two_party_share_v2: 0.7561
+    expected_two_party_share_v2: 0.6842
   - name: Karen A. Spiewak
     slug: karen-a-spiewak
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3706
     war: 0.0022
     is_incumbent: false
-    war_v2: 0.0022
+    incumbent_terms: 0
+    war_v2: -0.0183
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1944
+    tide_component: -0.0011
     expected_two_party_share: 0.3684
-    expected_two_party_share_v2: 0.3684
+    expected_two_party_share_v2: 0.3889
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5357
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.5549
     war: 0.0906
     is_incumbent: false
-    war_v2: 0.0906
+    incumbent_terms: 0
+    war_v2: 0.1152
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.245
+    tide_component: -0.0009
     expected_two_party_share: 0.4643
-    expected_two_party_share_v2: 0.4643
+    expected_two_party_share_v2: 0.4397
   - name: Kathleen Walker
     slug: kathleen-walker
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.4451
     war: -0.0906
     is_incumbent: false
-    war_v2: -0.0906
+    incumbent_terms: 0
+    war_v2: -0.0318
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2827
+    tide_component: -0.0014
     expected_two_party_share: 0.5357
-    expected_two_party_share_v2: 0.5357
+    expected_two_party_share_v2: 0.4769
   is_open_seat: null
 title: 6th Worcester District (2012-2020)
 layout: district

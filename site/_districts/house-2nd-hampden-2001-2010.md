@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5138
     war: 0.0299
     is_incumbent: true
-    war_v2: -0.0946
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0924
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2554
+    tide_component: -0.0012
     expected_two_party_share: 0.4839
-    expected_two_party_share_v2: 0.6084
+    expected_two_party_share_v2: 0.6062
   - name: Marie Angelides
     slug: marie-angelides
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4862
     war: -0.0299
     is_incumbent: false
-    war_v2: -0.0299
+    incumbent_terms: 0
+    war_v2: 0.0193
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2723
+    tide_component: -0.0011
     expected_two_party_share: 0.5161
-    expected_two_party_share_v2: 0.5161
+    expected_two_party_share_v2: 0.4669
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5735
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5446
     war: -0.0289
     is_incumbent: false
-    war_v2: -0.0289
+    incumbent_terms: 0
+    war_v2: 0.0478
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3026
+    tide_component: -0.0015
     expected_two_party_share: 0.5735
-    expected_two_party_share_v2: 0.5735
+    expected_two_party_share_v2: 0.4968
   - name: William G. Scibelli
     slug: william-g-scibelli
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4554
     war: 0.0289
     is_incumbent: false
-    war_v2: 0.0289
+    incumbent_terms: 0
+    war_v2: 0.0356
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2251
+    tide_component: -0.0008
     expected_two_party_share: 0.4265
-    expected_two_party_share_v2: 0.4265
+    expected_two_party_share_v2: 0.4198
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5498
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5498
     is_incumbent: true
-    war_v2: 0.4253
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4216
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2376
+    tide_component: -0.0009
     expected_two_party_share: 0.4502
-    expected_two_party_share_v2: 0.5747
+    expected_two_party_share_v2: 0.5784
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5675
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5675
     is_incumbent: true
-    war_v2: 0.443
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4205
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2282
+    tide_component: -0.0009
     expected_two_party_share: 0.4325
-    expected_two_party_share_v2: 0.557
+    expected_two_party_share_v2: 0.5795
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4143
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5958
     war: 0.0102
     is_incumbent: false
-    war_v2: 0.0102
+    incumbent_terms: 0
+    war_v2: 0.0923
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3091
+    tide_component: -0.0012
     expected_two_party_share: 0.5856
-    expected_two_party_share_v2: 0.5856
+    expected_two_party_share_v2: 0.5035
   - name: Kathleen E. Grady
     slug: kathleen-e-grady
     party: Democratic
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4042
     war: -0.0102
     is_incumbent: false
-    war_v2: -0.0102
+    incumbent_terms: 0
+    war_v2: -0.0089
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2186
+    tide_component: -0.0011
     expected_two_party_share: 0.4144
-    expected_two_party_share_v2: 0.4144
+    expected_two_party_share_v2: 0.4131
   - name: Alan L. Wilcox
     slug: alan-l-wilcox
     party: Libertarian
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.037
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

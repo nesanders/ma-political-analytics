@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4567
   war: -0.1475
-  war_v2: -0.1475
+  war_v2: -0.0565
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6042
-  expected_two_party_share_v2: 0.6042
+  expected_two_party_share_v2: 0.5132
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4495
   war: -0.0115
-  war_v2: -0.0115
+  war_v2: 0.0115
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.461
-  expected_two_party_share_v2: 0.461
+  expected_two_party_share_v2: 0.438
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Dennis J. Galvin
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5948
     is_incumbent: true
-    war_v2: 0.4703
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4477
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2138
+    tide_component: -0.0008
     expected_two_party_share: 0.4052
-    expected_two_party_share_v2: 0.5297
+    expected_two_party_share_v2: 0.5523
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2112
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2112
     is_incumbent: true
-    war_v2: 0.0867
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2436
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4162
+    tide_component: -0.0015
     expected_two_party_share: 0.7888
-    expected_two_party_share_v2: 0.9133
+    expected_two_party_share_v2: 0.7564
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5341
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5341
     is_incumbent: true
-    war_v2: 0.4096
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4029
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2459
+    tide_component: -0.0008
     expected_two_party_share: 0.4659
-    expected_two_party_share_v2: 0.5904
+    expected_two_party_share_v2: 0.5971
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3442
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6239
     war: -0.0319
     is_incumbent: false
-    war_v2: -0.0319
+    incumbent_terms: 0
+    war_v2: 0.0834
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3461
+    tide_component: -0.0012
     expected_two_party_share: 0.6558
-    expected_two_party_share_v2: 0.6558
+    expected_two_party_share_v2: 0.5405
   - name: Martin Green
     slug: martin-green
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3761
     war: 0.0319
     is_incumbent: false
-    war_v2: 0.0319
+    incumbent_terms: 0
+    war_v2: -0.0
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1816
+    tide_component: -0.0011
     expected_two_party_share: 0.3442
-    expected_two_party_share_v2: 0.3442
+    expected_two_party_share_v2: 0.3761
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.4912
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4912
     is_incumbent: false
-    war_v2: 0.4912
+    incumbent_terms: 0
+    war_v2: 0.5368
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2685
+    tide_component: -0.0009
     expected_two_party_share: 0.5088
-    expected_two_party_share_v2: 0.5088
+    expected_two_party_share_v2: 0.4632
   is_open_seat: null
 title: 9th Worcester District (2012-2020)
 layout: district

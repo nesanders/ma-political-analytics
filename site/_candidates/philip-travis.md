@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6317
   war: 0.0592
-  war_v2: -0.0653
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0211
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5725
-  expected_two_party_share_v2: 0.697
+  expected_two_party_share_v2: 0.6528
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5647
-  war_v2: 0.5647
+  war_v2: 0.5758
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4353
-  expected_two_party_share_v2: 0.4353
+  expected_two_party_share_v2: 0.4242
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Philip Travis
 layout: candidate
 ---

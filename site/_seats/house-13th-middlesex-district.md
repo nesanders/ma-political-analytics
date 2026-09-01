@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.7356
     war: -0.0387
     is_incumbent: true
-    war_v2: -0.1632
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0237
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4086
+    tide_component: -0.0014
     expected_two_party_share: 0.7743
-    expected_two_party_share_v2: 0.8988
+    expected_two_party_share_v2: 0.7593
   - name: Virginia A Gardner
     slug: virginia-a-gardner
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.2644
     war: 0.0387
     is_incumbent: false
-    war_v2: 0.0387
+    incumbent_terms: 0
+    war_v2: -0.0494
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1191
+    tide_component: -0.0009
     expected_two_party_share: 0.2257
-    expected_two_party_share_v2: 0.2257
+    expected_two_party_share_v2: 0.3138
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.759
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.241
     is_incumbent: false
-    war_v2: 0.241
+    incumbent_terms: 0
+    war_v2: 0.4054
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4005
+    tide_component: -0.0015
     expected_two_party_share: 0.759
-    expected_two_party_share_v2: 0.759
+    expected_two_party_share_v2: 0.5946
   is_open_seat: null
 demographics:
   total_population: 44597

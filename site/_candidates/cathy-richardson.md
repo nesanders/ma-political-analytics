@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4626
   war: -0.1946
-  war_v2: -0.1946
+  war_v2: -0.0787
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6572
-  expected_two_party_share_v2: 0.6572
+  expected_two_party_share_v2: 0.5413
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4143
   war: -0.1239
-  war_v2: -0.1239
+  war_v2: -0.0645
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5382
-  expected_two_party_share_v2: 0.5382
+  expected_two_party_share_v2: 0.4788
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Cathy Richardson
 layout: candidate
 ---

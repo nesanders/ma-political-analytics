@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4664
   war: 0.0206
-  war_v2: 0.0206
+  war_v2: 0.0364
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4458
-  expected_two_party_share_v2: 0.4458
+  expected_two_party_share_v2: 0.43
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4995
   war: -0.0836
-  war_v2: -0.0836
+  war_v2: -0.0026
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5831
-  expected_two_party_share_v2: 0.5831
+  expected_two_party_share_v2: 0.5021
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Larry F. Wheatley
 layout: candidate
 ---

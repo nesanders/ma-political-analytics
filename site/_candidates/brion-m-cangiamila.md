@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3339
   war: -0.0465
-  war_v2: -0.0465
+  war_v2: -0.0616
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3804
-  expected_two_party_share_v2: 0.3804
+  expected_two_party_share_v2: 0.3955
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brion M Cangiamila
 layout: candidate
 ---

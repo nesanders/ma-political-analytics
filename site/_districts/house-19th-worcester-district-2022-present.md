@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3083
     is_incumbent: true
-    war_v2: 0.1838
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2843
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.365
+    tide_component: -0.0014
     expected_two_party_share: 0.6917
-    expected_two_party_share_v2: 0.8162
+    expected_two_party_share_v2: 0.7157
   - name: Boyd Stewart Conklin
     slug: boyd-stewart-conklin
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.2868
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.6752
     war: -0.0046
     is_incumbent: false
-    war_v2: -0.0046
+    incumbent_terms: 0
+    war_v2: 0.1223
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3588
+    tide_component: -0.0015
     expected_two_party_share: 0.6798
-    expected_two_party_share_v2: 0.6798
+    expected_two_party_share_v2: 0.5529
   - name: Jonathan I. Hostage
     slug: jonathan-i-hostage
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.3248
     war: 0.0046
     is_incumbent: false
-    war_v2: 0.0046
+    incumbent_terms: 0
+    war_v2: -0.0389
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1689
+    tide_component: -0.0008
     expected_two_party_share: 0.3202
-    expected_two_party_share_v2: 0.3202
+    expected_two_party_share_v2: 0.3637
   is_open_seat: null
 demographics:
   median_household_income: 145137

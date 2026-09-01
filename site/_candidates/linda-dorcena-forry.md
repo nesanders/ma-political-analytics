@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.147
-  war_v2: 0.0225
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1993
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.853
-  expected_two_party_share_v2: 0.9775
+  expected_two_party_share_v2: 0.8007
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
-  war_v2: 0.3122
+  war_v2: 0.4426
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6878
-  expected_two_party_share_v2: 0.6878
+  expected_two_party_share_v2: 0.5574
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2207
-  war_v2: 0.2207
+  war_v2: 0.3946
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7793
-  expected_two_party_share_v2: 0.7793
+  expected_two_party_share_v2: 0.6054
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2884
-  war_v2: 0.1639
-  incumbency_adjustment: 0.1245
+  war_v2: 0.284
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7116
-  expected_two_party_share_v2: 0.8361
+  expected_two_party_share_v2: 0.716
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.24
-  war_v2: 0.1155
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2483
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.76
-  expected_two_party_share_v2: 0.8845
+  expected_two_party_share_v2: 0.7517
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2641
-  war_v2: 0.2641
+  war_v2: 0.4175
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7359
-  expected_two_party_share_v2: 0.7359
+  expected_two_party_share_v2: 0.5825
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Linda Dorcena Forry
 layout: candidate
 ---

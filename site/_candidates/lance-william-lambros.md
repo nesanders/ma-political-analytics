@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4696
   war: 0.0511
-  war_v2: 0.0511
+  war_v2: 0.0544
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4185
-  expected_two_party_share_v2: 0.4185
+  expected_two_party_share_v2: 0.4152
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Lance William Lambros
 layout: candidate
 ---

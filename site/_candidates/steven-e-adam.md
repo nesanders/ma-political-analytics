@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4463
   war: 0.0658
-  war_v2: 0.0658
+  war_v2: 0.051
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3805
-  expected_two_party_share_v2: 0.3805
+  expected_two_party_share_v2: 0.3953
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven E. Adam
 layout: candidate
 ---

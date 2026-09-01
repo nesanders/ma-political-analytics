@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.394
-  war_v2: 0.2695
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3425
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.606
-  expected_two_party_share_v2: 0.7305
+  expected_two_party_share_v2: 0.6575
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4478
-  war_v2: 0.3233
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3683
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5522
-  expected_two_party_share_v2: 0.6767
+  expected_two_party_share_v2: 0.6317
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.7166
   war: 0.1423
-  war_v2: 0.0178
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0629
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5743
-  expected_two_party_share_v2: 0.6988
+  expected_two_party_share_v2: 0.6537
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6346
   war: 0.215
-  war_v2: 0.215
+  war_v2: 0.2187
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4196
-  expected_two_party_share_v2: 0.4196
+  expected_two_party_share_v2: 0.4159
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Susan C. Tucker
 layout: candidate
 ---

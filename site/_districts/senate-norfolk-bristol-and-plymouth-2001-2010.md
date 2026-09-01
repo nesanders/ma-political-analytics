@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6292
     war: 0.1139
     is_incumbent: true
-    war_v2: -0.0106
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0193
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.272
+    tide_component: -0.0012
     expected_two_party_share: 0.5153
-    expected_two_party_share_v2: 0.6398
+    expected_two_party_share_v2: 0.6099
   - name: Robert E. Burr, Jr.
     slug: robert-e-burr-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3708
     war: -0.1139
     is_incumbent: false
-    war_v2: -0.1139
+    incumbent_terms: 0
+    war_v2: -0.0795
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2557
+    tide_component: -0.0011
     expected_two_party_share: 0.4847
-    expected_two_party_share_v2: 0.4847
+    expected_two_party_share_v2: 0.4503
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5924
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4076
     is_incumbent: true
-    war_v2: 0.2831
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3496
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3126
+    tide_component: -0.0015
     expected_two_party_share: 0.5924
-    expected_two_party_share_v2: 0.7169
+    expected_two_party_share_v2: 0.6504
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5895
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.7536
     war: 0.1641
     is_incumbent: true
-    war_v2: 0.0396
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1022
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3111
+    tide_component: -0.0014
     expected_two_party_share: 0.5895
-    expected_two_party_share_v2: 0.714
+    expected_two_party_share_v2: 0.6514
   - name: James J. Aldred
     slug: james-j-aldred
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.2464
     war: -0.1641
     is_incumbent: false
-    war_v2: -0.1641
+    incumbent_terms: 0
+    war_v2: -0.1649
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2166
+    tide_component: -0.0009
     expected_two_party_share: 0.4105
-    expected_two_party_share_v2: 0.4105
+    expected_two_party_share_v2: 0.4113
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6087
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3913
     is_incumbent: true
-    war_v2: 0.2668
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3281
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3212
+    tide_component: -0.0014
     expected_two_party_share: 0.6087
-    expected_two_party_share_v2: 0.7332
+    expected_two_party_share_v2: 0.6719
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.45
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.55
     is_incumbent: false
-    war_v2: 0.55
+    incumbent_terms: 0
+    war_v2: 0.568
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2375
+    tide_component: -0.0011
     expected_two_party_share: 0.45
-    expected_two_party_share_v2: 0.45
+    expected_two_party_share_v2: 0.432
   is_open_seat: null
 title: Norfolk, Bristol, and Plymouth (2001-2010)
 layout: district

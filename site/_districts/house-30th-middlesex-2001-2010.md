@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6346
     war: 0.1962
     is_incumbent: true
-    war_v2: 0.0717
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0524
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2313
+    tide_component: -0.0012
     expected_two_party_share: 0.4384
-    expected_two_party_share_v2: 0.5629
+    expected_two_party_share_v2: 0.5822
   - name: Kara Marie Fratto
     slug: kara-marie-fratto
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3654
     war: -0.1962
     is_incumbent: false
-    war_v2: -0.1962
+    incumbent_terms: 0
+    war_v2: -0.1255
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2964
+    tide_component: -0.0011
     expected_two_party_share: 0.5616
-    expected_two_party_share_v2: 0.5616
+    expected_two_party_share_v2: 0.4909
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5522
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4478
     is_incumbent: false
-    war_v2: 0.4478
+    incumbent_terms: 0
+    war_v2: 0.5145
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2914
+    tide_component: -0.0015
     expected_two_party_share: 0.5522
-    expected_two_party_share_v2: 0.5522
+    expected_two_party_share_v2: 0.4855
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5256
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4744
     is_incumbent: true
-    war_v2: 0.3499
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3719
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2774
+    tide_component: -0.0014
     expected_two_party_share: 0.5256
-    expected_two_party_share_v2: 0.6501
+    expected_two_party_share_v2: 0.6281
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5753
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4247
     is_incumbent: false
-    war_v2: 0.4247
+    incumbent_terms: 0
+    war_v2: 0.5023
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3036
+    tide_component: -0.0014
     expected_two_party_share: 0.5753
-    expected_two_party_share_v2: 0.5753
+    expected_two_party_share_v2: 0.4977
   - name: Paul J. Meaney
     slug: paul-j-meaney
     party: Other
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.6077
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5873
     is_incumbent: false
-    war_v2: 0.5873
+    incumbent_terms: 0
+    war_v2: 0.5877
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2178
+    tide_component: -0.0011
     expected_two_party_share: 0.4127
-    expected_two_party_share_v2: 0.4127
+    expected_two_party_share_v2: 0.4123
   is_open_seat: null
 title: 30th Middlesex (2001-2010)
 layout: district

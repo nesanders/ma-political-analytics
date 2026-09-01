@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4098
   war: -0.0913
-  war_v2: -0.0913
+  war_v2: -0.0491
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5011
-  expected_two_party_share_v2: 0.5011
+  expected_two_party_share_v2: 0.4589
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Michael B. Boucher
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2996
   war: -0.2155
-  war_v2: -0.2155
+  war_v2: -0.1667
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5151
-  expected_two_party_share_v2: 0.5151
+  expected_two_party_share_v2: 0.4663
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Daniel J. Szostkiewicz
 layout: candidate
 ---

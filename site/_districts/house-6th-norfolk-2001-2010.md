@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5361
     is_incumbent: true
-    war_v2: 0.4116
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4172
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2448
+    tide_component: -0.0012
     expected_two_party_share: 0.4639
-    expected_two_party_share_v2: 0.5884
+    expected_two_party_share_v2: 0.5828
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.556
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.444
     is_incumbent: true
-    war_v2: 0.3195
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3689
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2934
+    tide_component: -0.0015
     expected_two_party_share: 0.556
-    expected_two_party_share_v2: 0.6805
+    expected_two_party_share_v2: 0.6311
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.553
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.447
     is_incumbent: true
-    war_v2: 0.3225
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3679
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2918
+    tide_component: -0.0014
     expected_two_party_share: 0.553
-    expected_two_party_share_v2: 0.6775
+    expected_two_party_share_v2: 0.6321
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5866
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6658
     war: 0.0791
     is_incumbent: true
-    war_v2: -0.0454
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0056
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3095
+    tide_component: -0.0014
     expected_two_party_share: 0.5867
-    expected_two_party_share_v2: 0.7112
+    expected_two_party_share_v2: 0.6602
   - name: John G. Bonnanzio
     slug: john-g-bonnanzio
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3342
     war: -0.0791
     is_incumbent: false
-    war_v2: -0.0791
+    incumbent_terms: 0
+    war_v2: -0.0787
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2182
+    tide_component: -0.0009
     expected_two_party_share: 0.4133
-    expected_two_party_share_v2: 0.4133
+    expected_two_party_share_v2: 0.4129
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4149
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7171
     war: 0.3022
     is_incumbent: false
-    war_v2: 0.3022
+    incumbent_terms: 0
+    war_v2: 0.3036
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2189
+    tide_component: -0.0011
     expected_two_party_share: 0.4149
-    expected_two_party_share_v2: 0.4149
+    expected_two_party_share_v2: 0.4135
   - name: Howard Hansen
     slug: howard-hansen
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2829
     war: -0.3022
     is_incumbent: false
-    war_v2: -0.3022
+    incumbent_terms: 0
+    war_v2: -0.2202
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3088
+    tide_component: -0.0012
     expected_two_party_share: 0.5851
-    expected_two_party_share_v2: 0.5851
+    expected_two_party_share_v2: 0.5031
   - name: Richard Alan Yampell
     slug: richard-a-yampell
     party: Libertarian
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.0242
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

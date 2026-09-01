@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6194
     war: 0.1521
     is_incumbent: true
-    war_v2: 0.0276
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0219
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2466
+    tide_component: -0.0012
     expected_two_party_share: 0.4673
-    expected_two_party_share_v2: 0.5918
+    expected_two_party_share_v2: 0.5975
   - name: Katherine Kozitza
     slug: katherine-kozitza
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3806
     war: -0.1521
     is_incumbent: false
-    war_v2: -0.1521
+    incumbent_terms: 0
+    war_v2: -0.095
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2811
+    tide_component: -0.0011
     expected_two_party_share: 0.5327
-    expected_two_party_share_v2: 0.5327
+    expected_two_party_share_v2: 0.4756
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6388
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6672
     war: 0.0285
     is_incumbent: false
-    war_v2: 0.0285
+    incumbent_terms: 0
+    war_v2: 0.136
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3371
+    tide_component: -0.0015
     expected_two_party_share: 0.6387
-    expected_two_party_share_v2: 0.6387
+    expected_two_party_share_v2: 0.5312
   - name: John Blaisdell
     slug: john-blaisdell
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3328
     war: -0.0285
     is_incumbent: false
-    war_v2: -0.0285
+    incumbent_terms: 0
+    war_v2: -0.0526
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1906
+    tide_component: -0.0008
     expected_two_party_share: 0.3613
-    expected_two_party_share_v2: 0.3613
+    expected_two_party_share_v2: 0.3854
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6077
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3923
     is_incumbent: true
-    war_v2: 0.2678
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.339
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3207
+    tide_component: -0.0014
     expected_two_party_share: 0.6077
-    expected_two_party_share_v2: 0.7322
+    expected_two_party_share_v2: 0.661
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6408
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6548
     war: 0.014
     is_incumbent: true
-    war_v2: -0.1105
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.034
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3382
+    tide_component: -0.0014
     expected_two_party_share: 0.6408
-    expected_two_party_share_v2: 0.7653
+    expected_two_party_share_v2: 0.6888
   - name: Sharon D. Randall
     slug: sharon-d-randall
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3452
     war: -0.014
     is_incumbent: false
-    war_v2: -0.014
+    incumbent_terms: 0
+    war_v2: -0.0391
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1895
+    tide_component: -0.0009
     expected_two_party_share: 0.3592
-    expected_two_party_share_v2: 0.3592
+    expected_two_party_share_v2: 0.3843
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4257
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5743
     is_incumbent: false
-    war_v2: 0.5743
+    incumbent_terms: 0
+    war_v2: 0.5808
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2246
+    tide_component: -0.0011
     expected_two_party_share: 0.4257
-    expected_two_party_share_v2: 0.4257
+    expected_two_party_share_v2: 0.4192
   is_open_seat: null
 title: 8th Essex (2001-2010)
 layout: district

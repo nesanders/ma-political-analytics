@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4866
   war: -0.2397
-  war_v2: -0.3642
-  incumbency_adjustment: 0.1245
+  war_v2: -0.2343
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7263
-  expected_two_party_share_v2: 0.8508
+  expected_two_party_share_v2: 0.7209
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6007
   war: 0.2267
-  war_v2: 0.1022
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0625
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.374
-  expected_two_party_share_v2: 0.4985
+  expected_two_party_share_v2: 0.5382
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.6108
   war: 0.0173
-  war_v2: -0.1072
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0533
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5935
-  expected_two_party_share_v2: 0.718
+  expected_two_party_share_v2: 0.6641
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5375
-  war_v2: 0.5375
+  war_v2: 0.5612
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4625
-  expected_two_party_share_v2: 0.4625
+  expected_two_party_share_v2: 0.4388
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4569
-  war_v2: 0.4569
+  war_v2: 0.5189
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5431
-  expected_two_party_share_v2: 0.5431
+  expected_two_party_share_v2: 0.4811
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5027
-  war_v2: 0.3782
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3967
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4973
-  expected_two_party_share_v2: 0.6218
+  expected_two_party_share_v2: 0.6033
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4779
-  war_v2: 0.3534
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3733
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5221
-  expected_two_party_share_v2: 0.6466
+  expected_two_party_share_v2: 0.6267
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.5627
   war: 0.0641
-  war_v2: 0.0641
+  war_v2: 0.1048
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4986
-  expected_two_party_share_v2: 0.4986
+  expected_two_party_share_v2: 0.4579
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Richard J. Ross
 layout: candidate
 ---

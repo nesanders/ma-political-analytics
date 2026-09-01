@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4717
   war: -0.0339
-  war_v2: -0.0339
+  war_v2: 0.0101
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5056
-  expected_two_party_share_v2: 0.5056
+  expected_two_party_share_v2: 0.4616
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.451
   war: -0.345
-  war_v2: -0.345
+  war_v2: -0.1631
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.796
-  expected_two_party_share_v2: 0.796
+  expected_two_party_share_v2: 0.6141
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven R. Hall
 layout: candidate
 ---

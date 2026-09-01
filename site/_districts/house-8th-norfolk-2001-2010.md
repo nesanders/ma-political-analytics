@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4797
     is_incumbent: true
-    war_v2: 0.3552
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3875
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2746
+    tide_component: -0.0012
     expected_two_party_share: 0.5203
-    expected_two_party_share_v2: 0.6448
+    expected_two_party_share_v2: 0.6125
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6165
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3835
     is_incumbent: true
-    war_v2: 0.259
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3369
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3253
+    tide_component: -0.0015
     expected_two_party_share: 0.6165
-    expected_two_party_share_v2: 0.741
+    expected_two_party_share_v2: 0.6631
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6145
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.733
     war: 0.1186
     is_incumbent: true
-    war_v2: -0.0059
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0684
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3243
+    tide_component: -0.0014
     expected_two_party_share: 0.6144
-    expected_two_party_share_v2: 0.7389
+    expected_two_party_share_v2: 0.6646
   - name: Lydia E. Wiener
     slug: lydia-e-wiener
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.267
     war: -0.1186
     is_incumbent: false
-    war_v2: -0.1186
+    incumbent_terms: 0
+    war_v2: -0.1311
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2034
+    tide_component: -0.0009
     expected_two_party_share: 0.3856
-    expected_two_party_share_v2: 0.3856
+    expected_two_party_share_v2: 0.3981
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6443
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3557
     is_incumbent: true
-    war_v2: 0.2312
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3093
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.34
+    tide_component: -0.0014
     expected_two_party_share: 0.6443
-    expected_two_party_share_v2: 0.7688
+    expected_two_party_share_v2: 0.6907
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4556
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5444
     is_incumbent: false
-    war_v2: 0.5444
+    incumbent_terms: 0
+    war_v2: 0.5651
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2404
+    tide_component: -0.0011
     expected_two_party_share: 0.4556
-    expected_two_party_share_v2: 0.4556
+    expected_two_party_share_v2: 0.4349
   is_open_seat: null
 title: 8th Norfolk (2001-2010)
 layout: district

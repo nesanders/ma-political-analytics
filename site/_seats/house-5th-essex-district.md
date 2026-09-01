@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3281
     is_incumbent: true
-    war_v2: 0.2036
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2948
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3546
+    tide_component: -0.0014
     expected_two_party_share: 0.6719
-    expected_two_party_share_v2: 0.7964
+    expected_two_party_share_v2: 0.7052
   - name: Steven G. Leblanc, Jr
     slug: steven-g-leblanc-jr
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.4993
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.6914
     war: -0.0013
     is_incumbent: false
-    war_v2: -0.0013
+    incumbent_terms: 0
+    war_v2: 0.1318
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3655
+    tide_component: -0.0015
     expected_two_party_share: 0.6927
-    expected_two_party_share_v2: 0.6927
+    expected_two_party_share_v2: 0.5596
   - name: Ashley Sullivan
     slug: ashley-sullivan
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.3086
     war: 0.0013
     is_incumbent: false
-    war_v2: 0.0013
+    incumbent_terms: 0
+    war_v2: -0.0484
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1622
+    tide_component: -0.0008
     expected_two_party_share: 0.3073
-    expected_two_party_share_v2: 0.3073
+    expected_two_party_share_v2: 0.357
   is_open_seat: null
 demographics:
   total_population: 40396

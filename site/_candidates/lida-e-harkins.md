@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.372
-  war_v2: 0.2475
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3309
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.628
-  expected_two_party_share_v2: 0.7525
+  expected_two_party_share_v2: 0.6691
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4164
-  war_v2: 0.2919
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3517
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5836
-  expected_two_party_share_v2: 0.7081
+  expected_two_party_share_v2: 0.6483
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3913
-  war_v2: 0.2668
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3281
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6087
-  expected_two_party_share_v2: 0.7332
+  expected_two_party_share_v2: 0.6719
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6086
-  war_v2: 0.6086
+  war_v2: 0.5989
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3914
-  expected_two_party_share_v2: 0.3914
+  expected_two_party_share_v2: 0.4011
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Lida E. Harkins
 layout: candidate
 ---

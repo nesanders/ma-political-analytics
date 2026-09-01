@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3097
     is_incumbent: true
-    war_v2: 0.1852
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2851
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3643
+    tide_component: -0.0014
     expected_two_party_share: 0.6903
-    expected_two_party_share_v2: 0.8148
+    expected_two_party_share_v2: 0.7149
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6766
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 0.6503
     war: -0.0264
     is_incumbent: false
-    war_v2: -0.0264
+    incumbent_terms: 0
+    war_v2: 0.0991
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.357
+    tide_component: -0.0015
     expected_two_party_share: 0.6767
-    expected_two_party_share_v2: 0.6767
+    expected_two_party_share_v2: 0.5512
   - name: Loring Barnes
     slug: loring-barnes
     party: Republican
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.3497
     war: 0.0264
     is_incumbent: false
-    war_v2: 0.0264
+    incumbent_terms: 0
+    war_v2: -0.0157
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1707
+    tide_component: -0.0008
     expected_two_party_share: 0.3233
-    expected_two_party_share_v2: 0.3233
+    expected_two_party_share_v2: 0.3654
   is_open_seat: null
 demographics:
   total_population: 48477

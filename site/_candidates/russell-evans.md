@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1896
   war: -0.0318
-  war_v2: -0.0318
+  war_v2: -0.1219
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2214
-  expected_two_party_share_v2: 0.2214
+  expected_two_party_share_v2: 0.3115
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Russell Evans
 layout: candidate
 ---

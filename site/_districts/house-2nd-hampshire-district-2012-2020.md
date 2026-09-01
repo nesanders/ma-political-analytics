@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2973
     is_incumbent: true
-    war_v2: 0.1728
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2786
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3708
+    tide_component: -0.0015
     expected_two_party_share: 0.7027
-    expected_two_party_share_v2: 0.8272
+    expected_two_party_share_v2: 0.7214
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3804
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.7429
     war: 0.3625
     is_incumbent: false
-    war_v2: 0.3625
+    incumbent_terms: 0
+    war_v2: 0.3473
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2007
+    tide_component: -0.0008
     expected_two_party_share: 0.3804
-    expected_two_party_share_v2: 0.3804
+    expected_two_party_share_v2: 0.3956
   - name: Donald Peltier
     slug: donald-peltier
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.2571
     war: -0.3625
     is_incumbent: false
-    war_v2: -0.3625
+    incumbent_terms: 0
+    war_v2: -0.2639
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.327
+    tide_component: -0.0015
     expected_two_party_share: 0.6196
-    expected_two_party_share_v2: 0.6196
+    expected_two_party_share_v2: 0.521
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.656
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.344
     is_incumbent: true
-    war_v2: 0.2195
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3136
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3462
+    tide_component: -0.0015
     expected_two_party_share: 0.656
-    expected_two_party_share_v2: 0.7805
+    expected_two_party_share_v2: 0.6864
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5362
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4638
     is_incumbent: true
-    war_v2: 0.3393
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3661
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.283
+    tide_component: -0.0011
     expected_two_party_share: 0.5362
-    expected_two_party_share_v2: 0.6607
+    expected_two_party_share_v2: 0.6339
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6668
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3332
     is_incumbent: false
-    war_v2: 0.3332
+    incumbent_terms: 0
+    war_v2: 0.454
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3519
+    tide_component: -0.0014
     expected_two_party_share: 0.6668
-    expected_two_party_share_v2: 0.6668
+    expected_two_party_share_v2: 0.546
   is_open_seat: null
 title: 2nd Hampshire District (2012-2020)
 layout: district

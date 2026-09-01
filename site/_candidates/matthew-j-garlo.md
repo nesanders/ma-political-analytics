@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4533
   war: -0.0552
-  war_v2: -0.0552
+  war_v2: -0.0091
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5085
-  expected_two_party_share_v2: 0.5085
+  expected_two_party_share_v2: 0.4624
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Matthew J. Garlo
 layout: candidate
 ---

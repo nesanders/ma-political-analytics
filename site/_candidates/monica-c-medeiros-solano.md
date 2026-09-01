@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4316
   war: -0.0884
-  war_v2: -0.0884
+  war_v2: -0.0372
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.52
-  expected_two_party_share_v2: 0.52
+  expected_two_party_share_v2: 0.4688
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Monica C. Medeiros
 layout: candidate
 ---

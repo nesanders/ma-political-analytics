@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2796
     is_incumbent: true
-    war_v2: 0.1551
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2819
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3802
+    tide_component: -0.0012
     expected_two_party_share: 0.7204
-    expected_two_party_share_v2: 0.8449
+    expected_two_party_share_v2: 0.7181
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7839
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2161
     is_incumbent: true
-    war_v2: 0.0916
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2486
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4137
+    tide_component: -0.0015
     expected_two_party_share: 0.7839
-    expected_two_party_share_v2: 0.9084
+    expected_two_party_share_v2: 0.7514
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7366
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2634
     is_incumbent: true
-    war_v2: 0.1389
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.271
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3887
+    tide_component: -0.0014
     expected_two_party_share: 0.7366
-    expected_two_party_share_v2: 0.8611
+    expected_two_party_share_v2: 0.729
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7617
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8285
     war: 0.0668
     is_incumbent: true
-    war_v2: -0.0577
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0759
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4019
+    tide_component: -0.0014
     expected_two_party_share: 0.7617
-    expected_two_party_share_v2: 0.8862
+    expected_two_party_share_v2: 0.7526
   - name: Robert P. Ferencsik
     slug: robert-p-ferencsik
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.1715
     war: -0.0668
     is_incumbent: false
-    war_v2: -0.0668
+    incumbent_terms: 0
+    war_v2: -0.149
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1258
+    tide_component: -0.0009
     expected_two_party_share: 0.2383
-    expected_two_party_share_v2: 0.2383
+    expected_two_party_share_v2: 0.3205
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5893
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4107
     is_incumbent: false
-    war_v2: 0.4107
+    incumbent_terms: 0
+    war_v2: 0.4945
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.311
+    tide_component: -0.0011
     expected_two_party_share: 0.5893
-    expected_two_party_share_v2: 0.5893
+    expected_two_party_share_v2: 0.5055
   is_open_seat: null
 title: Second Suffolk and Middlesex (2001-2010)
 layout: district

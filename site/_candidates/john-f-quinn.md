@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3715
-  war_v2: 0.247
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3306
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6285
-  expected_two_party_share_v2: 0.753
+  expected_two_party_share_v2: 0.6694
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.348
-  war_v2: 0.2235
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3156
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.652
-  expected_two_party_share_v2: 0.7765
+  expected_two_party_share_v2: 0.6844
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3383
-  war_v2: 0.2138
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3002
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6617
-  expected_two_party_share_v2: 0.7862
+  expected_two_party_share_v2: 0.6998
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4309
-  war_v2: 0.4309
+  war_v2: 0.5052
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5691
-  expected_two_party_share_v2: 0.5691
+  expected_two_party_share_v2: 0.4948
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: John F. Quinn
 layout: candidate
 ---

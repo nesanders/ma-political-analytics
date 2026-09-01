@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3234
     is_incumbent: true
-    war_v2: 0.1989
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.305
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.357
+    tide_component: -0.0012
     expected_two_party_share: 0.6766
-    expected_two_party_share_v2: 0.8011
+    expected_two_party_share_v2: 0.695
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7334
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2666
     is_incumbent: true
-    war_v2: 0.1421
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2752
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.387
+    tide_component: -0.0015
     expected_two_party_share: 0.7334
-    expected_two_party_share_v2: 0.8579
+    expected_two_party_share_v2: 0.7248
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7125
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2875
     is_incumbent: true
-    war_v2: 0.163
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2837
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.376
+    tide_component: -0.0014
     expected_two_party_share: 0.7125
-    expected_two_party_share_v2: 0.837
+    expected_two_party_share_v2: 0.7163
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6894
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3106
     is_incumbent: true
-    war_v2: 0.1861
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2855
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3638
+    tide_component: -0.0014
     expected_two_party_share: 0.6894
-    expected_two_party_share_v2: 0.8139
+    expected_two_party_share_v2: 0.7145
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5884
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.7294
     war: 0.141
     is_incumbent: false
-    war_v2: 0.141
+    incumbent_terms: 0
+    war_v2: 0.2244
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3105
+    tide_component: -0.0011
     expected_two_party_share: 0.5884
-    expected_two_party_share_v2: 0.5884
+    expected_two_party_share_v2: 0.505
   - name: Michael Franco
     slug: michael-franco
     party: Republican
@@ -127,8 +147,12 @@ results_by_year:
     actual_two_party_share: 0.2706
     war: -0.141
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: -0.141
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2172
+    tide_component: -0.0012
     expected_two_party_share: 0.4116
     expected_two_party_share_v2: 0.4116
   is_open_seat: null

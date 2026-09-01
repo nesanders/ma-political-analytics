@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4824
     is_incumbent: false
-    war_v2: 0.4824
+    incumbent_terms: 0
+    war_v2: 0.5321
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2731
+    tide_component: -0.0009
     expected_two_party_share: 0.5176
-    expected_two_party_share_v2: 0.5176
+    expected_two_party_share_v2: 0.4679
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4882
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4882
     is_incumbent: false
-    war_v2: 0.4882
+    incumbent_terms: 0
+    war_v2: 0.5351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2701
+    tide_component: -0.0008
     expected_two_party_share: 0.5118
-    expected_two_party_share_v2: 0.5118
+    expected_two_party_share_v2: 0.4649
   - name: Brandon J. Griffin
     slug: brandon-j-griffin
     party: Other
@@ -61,8 +69,12 @@ results_by_year:
     actual_two_party_share: 0.3265
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

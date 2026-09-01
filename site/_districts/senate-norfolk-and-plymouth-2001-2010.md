@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6174
     war: 0.1412
     is_incumbent: false
-    war_v2: 0.1412
+    incumbent_terms: 0
+    war_v2: 0.1717
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2513
+    tide_component: -0.0012
     expected_two_party_share: 0.4762
-    expected_two_party_share_v2: 0.4762
+    expected_two_party_share_v2: 0.4457
   - name: Daniel M. Dewey
     slug: daniel-m-dewey
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3826
     war: -0.1412
     is_incumbent: false
-    war_v2: -0.1412
+    incumbent_terms: 0
+    war_v2: -0.0883
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2764
+    tide_component: -0.0011
     expected_two_party_share: 0.5238
-    expected_two_party_share_v2: 0.5238
+    expected_two_party_share_v2: 0.4709
   - name: Laura Innis
     slug: laura-innis
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1061
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4477
     is_incumbent: true
-    war_v2: 0.3232
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3708
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2914
+    tide_component: -0.0015
     expected_two_party_share: 0.5523
-    expected_two_party_share_v2: 0.6768
+    expected_two_party_share_v2: 0.6292
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5427
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4573
     is_incumbent: true
-    war_v2: 0.3328
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3733
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2864
+    tide_component: -0.0014
     expected_two_party_share: 0.5427
-    expected_two_party_share_v2: 0.6672
+    expected_two_party_share_v2: 0.6267
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5963
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4037
     is_incumbent: true
-    war_v2: 0.2792
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3347
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3147
+    tide_component: -0.0014
     expected_two_party_share: 0.5963
-    expected_two_party_share_v2: 0.7208
+    expected_two_party_share_v2: 0.6653
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4588
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5412
     is_incumbent: false
-    war_v2: 0.5412
+    incumbent_terms: 0
+    war_v2: 0.5634
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2421
+    tide_component: -0.0011
     expected_two_party_share: 0.4588
-    expected_two_party_share_v2: 0.4588
+    expected_two_party_share_v2: 0.4366
   is_open_seat: null
 title: Norfolk and Plymouth (2001-2010)
 layout: district

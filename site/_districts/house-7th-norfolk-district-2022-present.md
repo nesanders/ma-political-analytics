@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2636
     is_incumbent: false
-    war_v2: 0.2636
+    incumbent_terms: 0
+    war_v2: 0.4172
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3886
+    tide_component: -0.0014
     expected_two_party_share: 0.7364
-    expected_two_party_share_v2: 0.7364
+    expected_two_party_share_v2: 0.5828
   - name: Clinton Graham
     slug: clinton-graham
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.5418
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.263
     is_incumbent: false
-    war_v2: 0.263
+    incumbent_terms: 0
+    war_v2: 0.417
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3889
+    tide_component: -0.0015
     expected_two_party_share: 0.737
-    expected_two_party_share_v2: 0.737
+    expected_two_party_share_v2: 0.583
   is_open_seat: null
 demographics:
   total_population: 43045

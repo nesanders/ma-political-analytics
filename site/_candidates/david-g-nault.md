@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3096
   war: -0.1119
-  war_v2: -0.1119
+  war_v2: -0.1076
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4215
-  expected_two_party_share_v2: 0.4215
+  expected_two_party_share_v2: 0.4172
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David G. Nault
 layout: candidate
 ---

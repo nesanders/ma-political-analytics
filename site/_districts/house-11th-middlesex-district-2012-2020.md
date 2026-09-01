@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1697
     is_incumbent: true
-    war_v2: 0.0452
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2242
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4381
+    tide_component: -0.0015
     expected_two_party_share: 0.8303
-    expected_two_party_share_v2: 0.9548
+    expected_two_party_share_v2: 0.7758
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4408
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5592
     is_incumbent: true
-    war_v2: 0.4347
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.429
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2326
+    tide_component: -0.0008
     expected_two_party_share: 0.4408
-    expected_two_party_share_v2: 0.5653
+    expected_two_party_share_v2: 0.571
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8244
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1756
     is_incumbent: true
-    war_v2: 0.0511
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2248
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.435
+    tide_component: -0.0015
     expected_two_party_share: 0.8244
-    expected_two_party_share_v2: 0.9489
+    expected_two_party_share_v2: 0.7752
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6119
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3881
     is_incumbent: true
-    war_v2: 0.2636
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3261
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3229
+    tide_component: -0.0011
     expected_two_party_share: 0.6119
-    expected_two_party_share_v2: 0.7364
+    expected_two_party_share_v2: 0.6739
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7253
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.7438
     war: 0.0186
     is_incumbent: false
-    war_v2: 0.0186
+    incumbent_terms: 0
+    war_v2: 0.1669
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3827
+    tide_component: -0.0014
     expected_two_party_share: 0.7252
-    expected_two_party_share_v2: 0.7252
+    expected_two_party_share_v2: 0.5769
   - name: Greer Tan Swiston
     slug: greer-tan-swiston
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.2562
     war: -0.0186
     is_incumbent: false
-    war_v2: -0.0186
+    incumbent_terms: 0
+    war_v2: -0.0835
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.145
+    tide_component: -0.0009
     expected_two_party_share: 0.2748
-    expected_two_party_share_v2: 0.2748
+    expected_two_party_share_v2: 0.3397
   is_open_seat: null
 title: 11th Middlesex District (2012-2020)
 layout: district

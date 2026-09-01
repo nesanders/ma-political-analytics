@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.652
   war: 0.1166
-  war_v2: -0.0079
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0188
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5354
-  expected_two_party_share_v2: 0.6599
+  expected_two_party_share_v2: 0.6332
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5107
   war: 0.12
-  war_v2: 0.12
+  war_v2: 0.11
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3907
-  expected_two_party_share_v2: 0.3907
+  expected_two_party_share_v2: 0.4007
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Mark J. Carron
 layout: candidate
 ---

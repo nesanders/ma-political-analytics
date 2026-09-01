@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5603
     war: 0.1536
     is_incumbent: true
-    war_v2: 0.0291
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0056
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2146
+    tide_component: -0.0009
     expected_two_party_share: 0.4067
-    expected_two_party_share_v2: 0.5312
+    expected_two_party_share_v2: 0.5659
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4397
     war: -0.1536
     is_incumbent: false
-    war_v2: -0.1536
+    incumbent_terms: 0
+    war_v2: -0.0675
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3131
+    tide_component: -0.0014
     expected_two_party_share: 0.5933
-    expected_two_party_share_v2: 0.5933
+    expected_two_party_share_v2: 0.5072
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5931
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5542
     war: 0.1473
     is_incumbent: false
-    war_v2: 0.1473
+    incumbent_terms: 0
+    war_v2: 0.1447
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2147
+    tide_component: -0.0008
     expected_two_party_share: 0.4069
-    expected_two_party_share_v2: 0.4069
+    expected_two_party_share_v2: 0.4095
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4458
     war: -0.1473
     is_incumbent: false
-    war_v2: -0.1473
+    incumbent_terms: 0
+    war_v2: -0.0613
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.313
+    tide_component: -0.0015
     expected_two_party_share: 0.5931
-    expected_two_party_share_v2: 0.5931
+    expected_two_party_share_v2: 0.5071
   is_open_seat: null
 demographics:
   total_population: 44408

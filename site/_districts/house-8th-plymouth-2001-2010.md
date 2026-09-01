@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5286
     war: -0.0827
     is_incumbent: false
-    war_v2: -0.0827
+    incumbent_terms: 0
+    war_v2: 0.0115
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3226
+    tide_component: -0.0011
     expected_two_party_share: 0.6113
-    expected_two_party_share_v2: 0.6113
+    expected_two_party_share_v2: 0.5171
   - name: Patricia A. Lawton
     slug: patricia-a-lawton
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4714
     war: 0.0827
     is_incumbent: false
-    war_v2: 0.0827
+    incumbent_terms: 0
+    war_v2: 0.0719
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2051
+    tide_component: -0.0012
     expected_two_party_share: 0.3887
-    expected_two_party_share_v2: 0.3887
+    expected_two_party_share_v2: 0.3995
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.4997
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5003
     is_incumbent: true
-    war_v2: 0.3758
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3986
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2637
+    tide_component: -0.0015
     expected_two_party_share: 0.4997
-    expected_two_party_share_v2: 0.6242
+    expected_two_party_share_v2: 0.6014
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5089
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4911
     is_incumbent: true
-    war_v2: 0.3666
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3912
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2685
+    tide_component: -0.0014
     expected_two_party_share: 0.5089
-    expected_two_party_share_v2: 0.6334
+    expected_two_party_share_v2: 0.6088
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5085
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5847
     war: 0.0761
     is_incumbent: true
-    war_v2: -0.0484
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0343
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2683
+    tide_component: -0.0014
     expected_two_party_share: 0.5086
-    expected_two_party_share_v2: 0.6331
+    expected_two_party_share_v2: 0.619
   - name: Jane McLaughlin
     slug: jane-mclaughlin
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4153
     war: -0.0761
     is_incumbent: false
-    war_v2: -0.0761
+    incumbent_terms: 0
+    war_v2: -0.0388
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2594
+    tide_component: -0.0009
     expected_two_party_share: 0.4914
-    expected_two_party_share_v2: 0.4914
+    expected_two_party_share_v2: 0.4541
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3784
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6216
     is_incumbent: false
-    war_v2: 0.6216
+    incumbent_terms: 0
+    war_v2: 0.6058
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1997
+    tide_component: -0.0011
     expected_two_party_share: 0.3784
-    expected_two_party_share_v2: 0.3784
+    expected_two_party_share_v2: 0.3942
   - name: George L. Berdos, Jr.
     slug: george-l-berdos-jr
     party: Libertarian
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.2642
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

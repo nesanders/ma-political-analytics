@@ -68,7 +68,8 @@ being explicit about, not hidden:**
   fundamental — incumbency — same spirit as Split Ticket's approach, but
   this project's own fit, not theirs. Both are computed and shown side by
   side throughout the site (district, seat, and candidate pages) — see
-  "WAR v2: incumbency" below for the formula and the real coefficient.
+  "WAR v2: a Bayesian fundamentals regression" below for the formula and
+  the real coefficients.
 - *Different redistricting handling*: this site's lean baseline has to
   cross three Massachusetts redistricting vintages (2001-2010, 2012-2020,
   2022-present); Split Ticket's federal-district baseline doesn't face
@@ -85,47 +86,146 @@ reportedly handles uncontested races with distinct logic; this project's
 doesn't yet. Treat uncontested-race WAR as directionally meaningful, not
 precisely comparable to contested races, until this is addressed.
 
-## WAR v2: incumbency
+## WAR v2: a Bayesian fundamentals regression
 
-**WAR v2 = actual two-party vote share − (expected share from lean +
-incumbency adjustment).**
+**WAR v2 = actual two-party vote share − a fitted regression's expected
+share**, where the regression is:
 
-The incumbency adjustment is a single fitted number, applied only to a
-candidate who held the seat coming into the race (see "Incumbency and
-open seats" below for exactly how that's determined): it's the gap
-between incumbents' and non-incumbents' mean WAR v1, over every contested
-major-party race across this site's full backfill (uncontested races are
-excluded from the fit — see the WAR v1 limitation above; a mechanically
-inflated 100% share is not a clean training signal). As of the last full
-pipeline run, that gap is
-**{{ site.data.war_v2.incumbency_effect | times: 100 | round: 1 }} points**
-({{ site.data.war_v2.n_incumbent }} incumbent and
-{{ site.data.war_v2.n_non_incumbent }} non-incumbent contested candidate-races
-in the fit). A non-incumbent's WAR v2 baseline is unchanged from v1 — v2
-only adds a term for the one fundamental this site can currently fit
-honestly across the full 2002-2024 backfill, it doesn't re-center the
-baseline for everyone else.
+> *own-party share ~ intercept + district lean + statewide tide +
+> incumbency (1st / 2nd / 3rd-or-later term)*
 
-This is intentionally a simple model — a two-group mean difference, not a
-multi-variable regression — chosen because it's transparent and because
-the two chambers fit almost identically when checked separately (House
-and Senate both land within half a point of the pooled figure above), so
-a single pooled coefficient isn't hiding a real chamber-level difference.
+"Own-party" means every value is already flipped to the candidate's own
+party's perspective (a Republican's own_lean is `1 − lean_dem_share`,
+same for tide) — the same symmetry the plain WAR v1 definition above
+already uses, so one fit covers both parties.
+
+**Statewide tide** is a new fundamental beyond district lean itself: the
+*unapportioned*, whole-state two-party Democratic share on that year's
+baseline race (Governor or President), as opposed to `lean_dem_share`,
+which is that same race apportioned down to one district. Splitting them
+apart lets the model separate a district's own persistent partisanship
+from a given cycle's overall national/state mood — the same normal-vote-
+plus-national-tide idea behind Gelman & King (1990), cited above, rather
+than lean alone conflating the two.
+
+**Incumbency** is now three terms — 1st, 2nd, and 3rd-or-later
+consecutive term already served (see "Incumbency and open seats" below)
+— rather than v1's plain incumbent/non-incumbent split, so the fit can
+show whether a second or third term brings a bigger or smaller edge than
+the first instead of assuming they're identical.
+
+### Why Bayesian, not ordinary least squares
+
+This is fit as a **Bayesian linear regression** (a hand-rolled Gibbs
+sampler, not a plug-in library — see `generate_site_data.py`'s
+`_bayesian_linear_regression`), with a weakly informative, regularizing
+prior on every coefficient, rather than plain least squares. Two real
+properties of this data make that matter, not just a methodological
+preference:
+
+- District lean and statewide tide are **correlated** (a district's own
+  apportioned share and the state's overall result on the same race move
+  together), which unregularized least squares can split unstably between
+  the two.
+- The incumbency buckets are **unevenly sized** — far fewer candidates
+  have served 3+ consecutive terms than 1 — and the diagnostic extensions
+  below fit on samples small enough that an unconstrained estimate would
+  be mostly noise.
+
+A Gaussian prior on each coefficient shrinks it toward a substantively
+reasonable value in proportion to how little the data actually pins it
+down — real regularization, not an ad hoc penalty — and the fit reports a
+full posterior (mean, standard deviation, and a 95% credible interval
+taken directly from the sampled draws), not just a point estimate. As of
+the last full pipeline run, on
+{{ site.data.war_v2.n }} contested major-party candidate-races
+(R² = {{ site.data.war_v2.r_squared }}):
+
+| Term | Posterior mean | 95% credible interval |
+|---|---|---|
+| Intercept | {{ site.data.war_v2.coefficients.intercept.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.intercept.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.intercept.ci_95_high | times: 100 | round: 1 }}] |
+| District lean | {{ site.data.war_v2.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_v2.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_v2.coefficients.own_lean.ci_95_high | round: 3 }}] |
+| Statewide tide | {{ site.data.war_v2.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v2.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_v2.coefficients.own_tide.ci_95_high | round: 3 }}] |
+| Incumbent, 1st term | +{{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_1.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_1.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 2nd term | +{{ site.data.war_v2.coefficients.incumbent_2.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_2.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_2.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 3rd+ term | +{{ site.data.war_v2.coefficients.incumbent_3plus.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_3plus.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_3plus.ci_95_high | times: 100 | round: 1 }}] |
+
+District lean's coefficient sitting well below 1.0 is a real finding, not
+a fitting artifact — checked directly against plain least squares on the
+same data, which lands in the same neighborhood. It means a district's
+own apportioned lean, once that year's statewide tide is already in the
+model, only partially carries through to actual legislative vote share —
+plausibly some mix of the area-weighted apportionment noise documented
+above and real candidate-to-candidate variation legislative races carry
+that a top-of-ticket baseline can't see. The three incumbency terms
+landing close to each other says this site's data doesn't show a strong
+"sophomore surge" or a fading effect in later terms — an incumbent's edge
+looks fairly flat across term number so far.
 
 Every district and seat page has a "What drives replacement level" chart
-breaking a race's most recent contested year into these pieces (lean
-baseline, incumbency adjustment, WAR v2 residual) for each candidate, and
-a candidate's own page charts their actual share against WAR v2's
-expected share across every year they ran — the gap between the two lines
-*is* WAR v2, made visible.
+breaking a race's most recent contested year into these pieces (intercept,
+lean, tide, incumbency, and the WAR v2 residual) for each candidate, and a
+candidate's own page charts their actual share against WAR v2's expected
+share across every year they ran — the gap between the two lines *is*
+WAR v2, made visible.
 
-**Campaign finance was also planned as a v2 fundamental** (same spirit as
-Split Ticket's approach) but isn't included yet: the OCPF data this site
-has fetched so far (see "Campaign finance" below) only covers year 2022,
-nowhere near enough years to fit an honest term across the full backfill
-WAR v2 otherwise spans. That's deferred to a future "v3," once a fuller
-OCPF backfill exists — not silently dropped, just not forced onto one
-year's data.
+## WAR v3: demographics and campaign finance (experimental)
+
+Two further diagnostic regressions, built the same Bayesian way as WAR v2
+above, extend the core model with demographics and campaign finance —
+the remaining fundamentals this project's original design called for
+(same spirit as Split Ticket's approach, this project's own fit, not
+theirs). **Neither is folded into any candidate's actual WAR number the
+way v2 is** — both fit on real but genuinely thin slices of this site's
+data, for reasons specific to what's been fetched so far, not an
+oversight:
+
+{% if site.data.war_v3_demographics %}
+**Demographics** ({{ site.data.war_v3_demographics.n }} candidate-races,
+R² = {{ site.data.war_v3_demographics.r_squared }}) adds bachelor's-degree-
+or-higher share of population — the "diploma divide" variable most
+associated with recent-era partisan realignment — plus its interaction
+with statewide tide, on top of the core model. Census demographics only
+exist for the current (2022-present) redistricting vintage, which so far
+has **{{ site.data.war_v3_demographics.n_distinct_years }} election years
+on record (2022 and 2024)** — enough real within-year variation across
+districts to estimate the interaction, but nowhere near enough cycles to
+trust it as a stable multi-year trend rather than two elections' worth of
+noise. Its prior is deliberately tighter than its own main effect's for
+exactly that reason.
+
+| Term | Posterior mean | 95% credible interval |
+|---|---|---|
+| Bachelor's degree % | {{ site.data.war_v3_demographics.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
+| Bachelor's degree % × tide | {{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.coefficients.bachelors_pct_x_tide.ci_95_high | round: 3 }}] |
+{% endif %}
+
+{% if site.data.war_v3_finance %}
+**Campaign finance** ({{ site.data.war_v3_finance.n }} candidate-races,
+R² = {{ site.data.war_v3_finance.r_squared }}) adds a candidate's own OCPF
+total raised that cycle (log-transformed — fundraising totals are heavily
+right-skewed), restricted to
+**{{ site.data.war_v3_finance.finance_year }} only** and to candidates
+`campaign_finance_match` actually matched to an OCPF filer: the OCPF data
+this project has fetched so far only covers that one year (see "Campaign
+finance" below), nowhere near enough for an honest term across the full
+2002-2024 backfill WAR v2 otherwise spans. Statewide tide is dropped
+entirely from this fit, not just left out of an interaction — every 2022
+race shares the same tide by construction, so within a single year it has
+zero variance.
+
+| Term | Posterior mean | 95% credible interval |
+|---|---|---|
+| log(total raised + 1) | {{ site.data.war_v3_finance.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_v3_finance.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_v3_finance.coefficients.log_raised.ci_95_high | round: 4 }}] |
+{% endif %}
+
+Both extensions are reported here, on this page, as labeled diagnostics —
+not threaded into district/seat/candidate pages the way WAR v2 is — since
+folding either into the site's main per-candidate WAR would leave it
+undefined for the large majority of races outside their narrow coverage.
+A fuller OCPF backfill (more years) and more elections in the current
+redistricting vintage would each directly widen what these extensions can
+support.
 
 ## Turnout
 

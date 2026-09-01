@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6958
   war: 0.1619
-  war_v2: 0.0374
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0738
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5339
-  expected_two_party_share_v2: 0.6584
+  expected_two_party_share_v2: 0.622
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.5865
   war: 0.2218
-  war_v2: 0.0973
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0431
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3647
-  expected_two_party_share_v2: 0.4892
+  expected_two_party_share_v2: 0.5434
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.684
   war: 0.2043
-  war_v2: 0.2043
+  war_v2: 0.2366
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4797
-  expected_two_party_share_v2: 0.4797
+  expected_two_party_share_v2: 0.4474
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5871
-  war_v2: 0.4626
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4312
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4129
-  expected_two_party_share_v2: 0.5374
+  expected_two_party_share_v2: 0.5688
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4852
-  war_v2: 0.4852
+  war_v2: 0.5342
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5148
-  expected_two_party_share_v2: 0.5148
+  expected_two_party_share_v2: 0.4658
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: James M. Cantwell
 layout: candidate
 ---

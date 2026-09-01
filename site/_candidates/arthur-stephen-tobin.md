@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4053
-  war_v2: 0.2808
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3484
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5947
-  expected_two_party_share_v2: 0.7192
+  expected_two_party_share_v2: 0.6516
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4174
-  war_v2: 0.2929
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3523
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5826
-  expected_two_party_share_v2: 0.7071
+  expected_two_party_share_v2: 0.6477
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3562
-  war_v2: 0.2317
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3096
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6438
-  expected_two_party_share_v2: 0.7683
+  expected_two_party_share_v2: 0.6904
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5
-  war_v2: 0.5
+  war_v2: 0.5416
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5
-  expected_two_party_share_v2: 0.5
+  expected_two_party_share_v2: 0.4584
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Arthur Stephen Tobin
 layout: candidate
 ---

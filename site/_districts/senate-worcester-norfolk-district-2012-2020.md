@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6048
     war: 0.1342
     is_incumbent: true
-    war_v2: 0.0097
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.018
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2484
+    tide_component: -0.0008
     expected_two_party_share: 0.4706
-    expected_two_party_share_v2: 0.5951
+    expected_two_party_share_v2: 0.5868
   - name: Christine Crean
     slug: christine-crean
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3952
     war: -0.1342
     is_incumbent: false
-    war_v2: -0.1342
+    incumbent_terms: 0
+    war_v2: -0.0782
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2793
+    tide_component: -0.0015
     expected_two_party_share: 0.5294
-    expected_two_party_share_v2: 0.5294
+    expected_two_party_share_v2: 0.4734
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2064
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5797
     war: -0.2139
     is_incumbent: true
-    war_v2: -0.3384
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.1792
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4188
+    tide_component: -0.0015
     expected_two_party_share: 0.7936
-    expected_two_party_share_v2: 0.9181
+    expected_two_party_share_v2: 0.7589
   - name: Thomas M. Merolli
     slug: thomas-m-merolli
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4203
     war: 0.2139
     is_incumbent: false
-    war_v2: 0.2139
+    incumbent_terms: 0
+    war_v2: 0.1165
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1089
+    tide_component: -0.0008
     expected_two_party_share: 0.2064
-    expected_two_party_share_v2: 0.2064
+    expected_two_party_share_v2: 0.3038
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4903
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4903
     is_incumbent: true
-    war_v2: 0.3658
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3797
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.269
+    tide_component: -0.0008
     expected_two_party_share: 0.5097
-    expected_two_party_share_v2: 0.6342
+    expected_two_party_share_v2: 0.6203
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.362
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5572
     war: -0.0808
     is_incumbent: false
-    war_v2: -0.0808
+    incumbent_terms: 0
+    war_v2: 0.0261
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3367
+    tide_component: -0.0012
     expected_two_party_share: 0.638
-    expected_two_party_share_v2: 0.638
+    expected_two_party_share_v2: 0.5311
   - name: Richard T. Moore
     slug: richard-t-moore
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4428
     war: 0.0808
     is_incumbent: true
-    war_v2: -0.0437
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0992
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.191
+    tide_component: -0.0011
     expected_two_party_share: 0.362
-    expected_two_party_share_v2: 0.4865
+    expected_two_party_share_v2: 0.542
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5098
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4902
     is_incumbent: false
-    war_v2: 0.4902
+    incumbent_terms: 0
+    war_v2: 0.5368
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.269
+    tide_component: -0.0014
     expected_two_party_share: 0.5098
-    expected_two_party_share_v2: 0.5098
+    expected_two_party_share_v2: 0.4632
   is_open_seat: null
 title: Worcester & Norfolk District (2012-2020)
 layout: district

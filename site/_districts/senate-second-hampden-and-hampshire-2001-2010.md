@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5288
     is_incumbent: true
-    war_v2: 0.4043
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4132
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2487
+    tide_component: -0.0011
     expected_two_party_share: 0.4712
-    expected_two_party_share_v2: 0.5957
+    expected_two_party_share_v2: 0.5868
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6232
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6232
     is_incumbent: true
-    war_v2: 0.4987
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4628
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1988
+    tide_component: -0.0008
     expected_two_party_share: 0.3768
-    expected_two_party_share_v2: 0.5013
+    expected_two_party_share_v2: 0.5372
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6144
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6144
     is_incumbent: true
-    war_v2: 0.4899
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4557
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2035
+    tide_component: -0.0009
     expected_two_party_share: 0.3856
-    expected_two_party_share_v2: 0.5101
+    expected_two_party_share_v2: 0.5443
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6096
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6096
     is_incumbent: true
-    war_v2: 0.4851
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4427
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.206
+    tide_component: -0.0009
     expected_two_party_share: 0.3904
-    expected_two_party_share_v2: 0.5149
+    expected_two_party_share_v2: 0.5573
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5151
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.7004
     war: 0.2155
     is_incumbent: false
-    war_v2: 0.2155
+    incumbent_terms: 0
+    war_v2: 0.2501
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2559
+    tide_component: -0.0012
     expected_two_party_share: 0.4849
-    expected_two_party_share_v2: 0.4849
+    expected_two_party_share_v2: 0.4503
   - name: Daniel J. Szostkiewicz
     slug: daniel-j-szostkiewicz
     party: Democratic
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.2996
     war: -0.2155
     is_incumbent: false
-    war_v2: -0.2155
+    incumbent_terms: 0
+    war_v2: -0.1667
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2718
+    tide_component: -0.0011
     expected_two_party_share: 0.5151
-    expected_two_party_share_v2: 0.5151
+    expected_two_party_share_v2: 0.4663
   is_open_seat: null
 title: Second Hampden and Hampshire (2001-2010)
 layout: district

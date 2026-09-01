@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3727
   war: -0.1541
-  war_v2: -0.1541
+  war_v2: -0.0998
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5268
-  expected_two_party_share_v2: 0.5268
+  expected_two_party_share_v2: 0.4725
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Ronald R. Beaty, Jr.
 layout: candidate
 ---

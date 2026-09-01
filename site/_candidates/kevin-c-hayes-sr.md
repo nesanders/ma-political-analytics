@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3578
   war: -0.0705
-  war_v2: -0.0705
+  war_v2: -0.063
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4283
-  expected_two_party_share_v2: 0.4283
+  expected_two_party_share_v2: 0.4208
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kevin C. Hayes, Sr.
 layout: candidate
 ---

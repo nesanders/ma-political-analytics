@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2517
   war: 0.0256
-  war_v2: 0.0256
+  war_v2: -0.0623
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2261
-  expected_two_party_share_v2: 0.2261
+  expected_two_party_share_v2: 0.314
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Linda L. Vacon
 layout: candidate
 ---

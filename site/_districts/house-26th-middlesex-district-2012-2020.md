@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0883
     is_incumbent: true
-    war_v2: -0.0362
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1787
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4811
+    tide_component: -0.0015
     expected_two_party_share: 0.9117
-    expected_two_party_share_v2: 1.0362
+    expected_two_party_share_v2: 0.8213
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6537
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3463
     is_incumbent: true
-    war_v2: 0.2218
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3037
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.345
+    tide_component: -0.0008
     expected_two_party_share: 0.6537
-    expected_two_party_share_v2: 0.7782
+    expected_two_party_share_v2: 0.6963
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.9082
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0918
     is_incumbent: false
-    war_v2: 0.0918
+    incumbent_terms: 0
+    war_v2: 0.3266
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4793
+    tide_component: -0.0015
     expected_two_party_share: 0.9082
-    expected_two_party_share_v2: 0.9082
+    expected_two_party_share_v2: 0.6734
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.791
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.209
     is_incumbent: true
-    war_v2: 0.0845
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2316
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4174
+    tide_component: -0.0011
     expected_two_party_share: 0.791
-    expected_two_party_share_v2: 0.9155
+    expected_two_party_share_v2: 0.7684
   - name: Thomas Michael Vasconcelos
     slug: thomas-michael-vasconcelos
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.1447
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.9143
     war: 0.045
     is_incumbent: false
-    war_v2: 0.045
+    incumbent_terms: 0
+    war_v2: 0.2613
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4588
+    tide_component: -0.0014
     expected_two_party_share: 0.8693
-    expected_two_party_share_v2: 0.8693
+    expected_two_party_share_v2: 0.653
   - name: Mike Connolly
     slug: mike-connolly
     party: Other
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.3364
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Thomas Michael Vasconcelos
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.0857
     war: -0.045
     is_incumbent: false
-    war_v2: -0.045
+    incumbent_terms: 0
+    war_v2: -0.1779
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.0689
+    tide_component: -0.0009
     expected_two_party_share: 0.1307
-    expected_two_party_share_v2: 0.1307
+    expected_two_party_share_v2: 0.2636
   is_open_seat: null
 title: 26th Middlesex District (2012-2020)
 layout: district

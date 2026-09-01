@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2971
     is_incumbent: true
-    war_v2: 0.1726
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2889
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3709
+    tide_component: -0.0015
     expected_two_party_share: 0.7029
-    expected_two_party_share_v2: 0.8274
+    expected_two_party_share_v2: 0.7111
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3879
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6121
     is_incumbent: true
-    war_v2: 0.4876
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.444
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2047
+    tide_component: -0.0008
     expected_two_party_share: 0.3879
-    expected_two_party_share_v2: 0.5124
+    expected_two_party_share_v2: 0.556
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7042
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2958
     is_incumbent: false
-    war_v2: 0.2958
+    incumbent_terms: 0
+    war_v2: 0.4343
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3716
+    tide_component: -0.0015
     expected_two_party_share: 0.7042
-    expected_two_party_share_v2: 0.7042
+    expected_two_party_share_v2: 0.5657
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.592
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.408
     is_incumbent: true
-    war_v2: 0.2835
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3366
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3124
+    tide_component: -0.0011
     expected_two_party_share: 0.592
-    expected_two_party_share_v2: 0.7165
+    expected_two_party_share_v2: 0.6634
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7309
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.8299
     war: 0.099
     is_incumbent: false
-    war_v2: 0.099
+    incumbent_terms: 0
+    war_v2: 0.25
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3857
+    tide_component: -0.0014
     expected_two_party_share: 0.7309
-    expected_two_party_share_v2: 0.7309
+    expected_two_party_share_v2: 0.5799
   - name: Dwight J. Caufield
     slug: dwight-j-caufield
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.1701
     war: -0.099
     is_incumbent: false
-    war_v2: -0.099
+    incumbent_terms: 0
+    war_v2: -0.1666
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.142
+    tide_component: -0.0009
     expected_two_party_share: 0.2691
-    expected_two_party_share_v2: 0.2691
+    expected_two_party_share_v2: 0.3367
   is_open_seat: null
 title: 10th Essex District (2012-2020)
 layout: district

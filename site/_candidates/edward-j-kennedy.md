@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6358
   war: 0.0791
-  war_v2: -0.0454
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0086
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5567
-  expected_two_party_share_v2: 0.6812
+  expected_two_party_share_v2: 0.6444
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4143
-  war_v2: 0.4143
+  war_v2: 0.4968
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5857
-  expected_two_party_share_v2: 0.5857
+  expected_two_party_share_v2: 0.5032
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.348
-  war_v2: 0.2235
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3054
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.652
-  expected_two_party_share_v2: 0.7765
+  expected_two_party_share_v2: 0.6946
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6388
   war: 0.3474
-  war_v2: 0.3474
+  war_v2: 0.2902
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2914
-  expected_two_party_share_v2: 0.2914
+  expected_two_party_share_v2: 0.3486
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Edward J. Kennedy, Jr
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3764
   war: 0.1336
-  war_v2: 0.1336
+  war_v2: 0.0535
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2428
-  expected_two_party_share_v2: 0.2428
+  expected_two_party_share_v2: 0.3229
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Helen Brady
 layout: candidate
 ---

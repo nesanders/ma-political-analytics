@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6464
   war: 0.1255
-  war_v2: 0.001
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0209
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5209
-  expected_two_party_share_v2: 0.6454
+  expected_two_party_share_v2: 0.6255
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6118
   war: 0.181
-  war_v2: 0.181
+  war_v2: 0.19
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4308
-  expected_two_party_share_v2: 0.4308
+  expected_two_party_share_v2: 0.4218
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Kathleen M. Teahan
 layout: candidate
 ---

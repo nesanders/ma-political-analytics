@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4024
-  war_v2: 0.2779
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3469
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5976
-  expected_two_party_share_v2: 0.7221
+  expected_two_party_share_v2: 0.6531
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.7586
   war: 0.2134
-  war_v2: 0.0889
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1306
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5452
-  expected_two_party_share_v2: 0.6697
+  expected_two_party_share_v2: 0.628
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.7582
   war: 0.1847
-  war_v2: 0.0602
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1049
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5735
-  expected_two_party_share_v2: 0.698
+  expected_two_party_share_v2: 0.6533
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.7212
   war: 0.3077
-  war_v2: 0.3077
+  war_v2: 0.3085
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4135
-  expected_two_party_share_v2: 0.4135
+  expected_two_party_share_v2: 0.4127
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven C. Panagiotakos
 layout: candidate
 ---

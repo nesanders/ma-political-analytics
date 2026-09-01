@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3863
     is_incumbent: true
-    war_v2: 0.2618
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3256
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3238
+    tide_component: -0.0015
     expected_two_party_share: 0.6137
-    expected_two_party_share_v2: 0.7382
+    expected_two_party_share_v2: 0.6744
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2647
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.6631
     war: 0.3984
     is_incumbent: false
-    war_v2: 0.3984
+    incumbent_terms: 0
+    war_v2: 0.3286
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1397
+    tide_component: -0.0008
     expected_two_party_share: 0.2647
-    expected_two_party_share_v2: 0.2647
+    expected_two_party_share_v2: 0.3345
   - name: Alexander Leighton Williams
     slug: alexander-leighton-williams
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.3369
     war: -0.3984
     is_incumbent: false
-    war_v2: -0.3984
+    incumbent_terms: 0
+    war_v2: -0.2452
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.388
+    tide_component: -0.0015
     expected_two_party_share: 0.7353
-    expected_two_party_share_v2: 0.7353
+    expected_two_party_share_v2: 0.5821
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5731
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4269
     is_incumbent: true
-    war_v2: 0.3024
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3574
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3024
+    tide_component: -0.0015
     expected_two_party_share: 0.5731
-    expected_two_party_share_v2: 0.6976
+    expected_two_party_share_v2: 0.6426
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.427
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5382
     war: 0.1112
     is_incumbent: true
-    war_v2: -0.0133
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0381
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2253
+    tide_component: -0.0011
     expected_two_party_share: 0.427
-    expected_two_party_share_v2: 0.5515
+    expected_two_party_share_v2: 0.5763
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4618
     war: -0.1112
     is_incumbent: false
-    war_v2: -0.1112
+    incumbent_terms: 0
+    war_v2: -0.035
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3024
+    tide_component: -0.0012
     expected_two_party_share: 0.573
-    expected_two_party_share_v2: 0.573
+    expected_two_party_share_v2: 0.4968
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5556
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5773
     war: 0.0217
     is_incumbent: false
-    war_v2: 0.0217
+    incumbent_terms: 0
+    war_v2: 0.0899
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2932
+    tide_component: -0.0014
     expected_two_party_share: 0.5556
-    expected_two_party_share_v2: 0.5556
+    expected_two_party_share_v2: 0.4874
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4227
     war: -0.0217
     is_incumbent: false
-    war_v2: -0.0217
+    incumbent_terms: 0
+    war_v2: -0.0065
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2345
+    tide_component: -0.0009
     expected_two_party_share: 0.4444
-    expected_two_party_share_v2: 0.4444
+    expected_two_party_share_v2: 0.4292
   - name: Paul A. Magliocchetti
     slug: paul-a-magliocchetti
     party: Other
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.2041
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: James M. Kelcourse
@@ -175,8 +211,12 @@ results_by_year:
     actual_two_party_share: 0.0533
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4297
-  war_v2: 0.3052
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3484
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5703
-  expected_two_party_share_v2: 0.6948
+  expected_two_party_share_v2: 0.6516
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6157
-  war_v2: 0.6157
+  war_v2: 0.6027
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3843
-  expected_two_party_share_v2: 0.3843
+  expected_two_party_share_v2: 0.3973
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Marie J. Parente
 layout: candidate
 ---

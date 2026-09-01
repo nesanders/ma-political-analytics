@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2882
   war: -0.2481
-  war_v2: -0.2481
+  war_v2: -0.189
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5363
-  expected_two_party_share_v2: 0.5363
+  expected_two_party_share_v2: 0.4772
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Donald R. Bumiller
 layout: candidate
 ---

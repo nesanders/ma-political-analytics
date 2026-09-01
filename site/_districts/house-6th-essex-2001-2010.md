@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6031
     war: 0.1029
     is_incumbent: false
-    war_v2: 0.1029
+    incumbent_terms: 0
+    war_v2: 0.1448
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.264
+    tide_component: -0.0012
     expected_two_party_share: 0.5002
-    expected_two_party_share_v2: 0.5002
+    expected_two_party_share_v2: 0.4583
   - name: Brett R. Schetzsle
     slug: brett-r-schetzsle
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3969
     war: -0.1029
     is_incumbent: false
-    war_v2: -0.1029
+    incumbent_terms: 0
+    war_v2: -0.0614
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2637
+    tide_component: -0.0011
     expected_two_party_share: 0.4998
-    expected_two_party_share_v2: 0.4998
+    expected_two_party_share_v2: 0.4583
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.613
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.387
     is_incumbent: true
-    war_v2: 0.2625
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3388
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3235
+    tide_component: -0.0015
     expected_two_party_share: 0.613
-    expected_two_party_share_v2: 0.7375
+    expected_two_party_share_v2: 0.6612
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4435
     is_incumbent: true
-    war_v2: 0.319
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.366
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2937
+    tide_component: -0.0014
     expected_two_party_share: 0.5565
-    expected_two_party_share_v2: 0.681
+    expected_two_party_share_v2: 0.634
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.2422
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.7193
     war: 0.1208
     is_incumbent: true
-    war_v2: -0.0037
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0528
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3158
+    tide_component: -0.0014
     expected_two_party_share: 0.5985
-    expected_two_party_share_v2: 0.723
+    expected_two_party_share_v2: 0.6665
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.2807
     war: -0.1208
     is_incumbent: false
-    war_v2: -0.1208
+    incumbent_terms: 0
+    war_v2: -0.1259
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2119
+    tide_component: -0.0009
     expected_two_party_share: 0.4015
-    expected_two_party_share_v2: 0.4015
+    expected_two_party_share_v2: 0.4066
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -142,8 +170,12 @@ results_by_year:
     actual_two_party_share: 0.0672
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.6586
     war: 0.2417
     is_incumbent: false
-    war_v2: 0.2417
+    incumbent_terms: 0
+    war_v2: 0.2441
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.22
+    tide_component: -0.0011
     expected_two_party_share: 0.4169
-    expected_two_party_share_v2: 0.4169
+    expected_two_party_share_v2: 0.4145
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.3414
     war: -0.2417
     is_incumbent: false
-    war_v2: -0.2417
+    incumbent_terms: 0
+    war_v2: -0.1607
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3077
+    tide_component: -0.0012
     expected_two_party_share: 0.5831
-    expected_two_party_share_v2: 0.5831
+    expected_two_party_share_v2: 0.5021
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -187,8 +227,12 @@ results_by_year:
     actual_two_party_share: 0.0614
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

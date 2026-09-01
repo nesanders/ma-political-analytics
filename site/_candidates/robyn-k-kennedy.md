@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3597
-  war_v2: 0.2352
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3115
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6403
-  expected_two_party_share_v2: 0.7648
+  expected_two_party_share_v2: 0.6885
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.339
-  war_v2: 0.339
+  war_v2: 0.4571
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.661
-  expected_two_party_share_v2: 0.661
+  expected_two_party_share_v2: 0.5429
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Robyn K. Kennedy
 layout: candidate
 ---

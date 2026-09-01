@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2464
   war: -0.1641
-  war_v2: -0.1641
+  war_v2: -0.1649
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4105
-  expected_two_party_share_v2: 0.4105
+  expected_two_party_share_v2: 0.4113
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.1607
   war: -0.3287
-  war_v2: -0.3287
+  war_v2: -0.2919
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4894
-  expected_two_party_share_v2: 0.4894
+  expected_two_party_share_v2: 0.4526
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: James J. Aldred
 layout: candidate
 ---

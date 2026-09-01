@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5955
-  war_v2: 0.471
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4486
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4045
-  expected_two_party_share_v2: 0.529
+  expected_two_party_share_v2: 0.5514
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4601
-  war_v2: 0.3356
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3773
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5399
-  expected_two_party_share_v2: 0.6644
+  expected_two_party_share_v2: 0.6227
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4936
-  war_v2: 0.3691
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3925
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5064
-  expected_two_party_share_v2: 0.6309
+  expected_two_party_share_v2: 0.6075
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4584
-  war_v2: 0.3339
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3635
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5416
-  expected_two_party_share_v2: 0.6661
+  expected_two_party_share_v2: 0.6365
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6538
-  war_v2: 0.6538
+  war_v2: 0.6228
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3462
-  expected_two_party_share_v2: 0.3462
+  expected_two_party_share_v2: 0.3772
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: James E. Vallee
 layout: candidate
 ---

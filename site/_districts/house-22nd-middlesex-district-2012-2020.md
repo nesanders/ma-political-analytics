@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5532
     war: 0.1072
     is_incumbent: true
-    war_v2: -0.0173
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0206
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2354
+    tide_component: -0.0008
     expected_two_party_share: 0.446
-    expected_two_party_share_v2: 0.5705
+    expected_two_party_share_v2: 0.5738
   - name: Teresa Nicole English
     slug: teresa-nicole-english
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4468
     war: -0.1072
     is_incumbent: false
-    war_v2: -0.1072
+    incumbent_terms: 0
+    war_v2: -0.0396
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2923
+    tide_component: -0.0015
     expected_two_party_share: 0.554
-    expected_two_party_share_v2: 0.554
+    expected_two_party_share_v2: 0.4864
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2316
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6172
     war: -0.1512
     is_incumbent: true
-    war_v2: -0.2757
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.1259
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4055
+    tide_component: -0.0015
     expected_two_party_share: 0.7684
-    expected_two_party_share_v2: 0.8929
+    expected_two_party_share_v2: 0.7431
   - name: Christopher J. Tribou
     slug: christopher-j-tribou
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3828
     war: 0.1512
     is_incumbent: false
-    war_v2: 0.1512
+    incumbent_terms: 0
+    war_v2: 0.0657
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1222
+    tide_component: -0.0008
     expected_two_party_share: 0.2316
-    expected_two_party_share_v2: 0.2316
+    expected_two_party_share_v2: 0.3171
   - name: Matthew Murphy Mixon
     slug: matthew-murphy-mixon
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0186
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.592
     war: 0.0867
     is_incumbent: true
-    war_v2: -0.0378
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0155
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2666
+    tide_component: -0.0008
     expected_two_party_share: 0.5053
-    expected_two_party_share_v2: 0.6298
+    expected_two_party_share_v2: 0.6075
   - name: George Simolaris, Jr.
     slug: george-simolaris-jr
     party: Democratic
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.408
     war: -0.0867
     is_incumbent: false
-    war_v2: -0.0867
+    incumbent_terms: 0
+    war_v2: -0.0472
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2611
+    tide_component: -0.0015
     expected_two_party_share: 0.4947
-    expected_two_party_share_v2: 0.4947
+    expected_two_party_share_v2: 0.4552
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3831
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3831
     is_incumbent: true
-    war_v2: 0.2586
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3235
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3255
+    tide_component: -0.0012
     expected_two_party_share: 0.6169
-    expected_two_party_share_v2: 0.7414
+    expected_two_party_share_v2: 0.6765
   - name: Dean Douglas Santoro
     slug: dean-douglas-santoro
     party: Other
@@ -154,8 +186,12 @@ results_by_year:
     actual_two_party_share: 0.0363
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.497
     is_incumbent: false
-    war_v2: 0.497
+    incumbent_terms: 0
+    war_v2: 0.5398
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2654
+    tide_component: -0.0009
     expected_two_party_share: 0.503
-    expected_two_party_share_v2: 0.503
+    expected_two_party_share_v2: 0.4602
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -187,8 +227,12 @@ results_by_year:
     actual_two_party_share: 0.6446
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

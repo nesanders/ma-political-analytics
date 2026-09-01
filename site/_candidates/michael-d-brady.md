@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3892
-  war_v2: 0.2647
-  incumbency_adjustment: 0.1245
+  war_v2: 0.327
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6108
-  expected_two_party_share_v2: 0.7353
+  expected_two_party_share_v2: 0.673
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.637
   war: 0.0357
-  war_v2: 0.0357
+  war_v2: 0.1256
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6013
-  expected_two_party_share_v2: 0.6013
+  expected_two_party_share_v2: 0.5114
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3584
-  war_v2: 0.2339
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3213
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6416
-  expected_two_party_share_v2: 0.7661
+  expected_two_party_share_v2: 0.6787
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6651
   war: 0.3435
-  war_v2: 0.219
-  incumbency_adjustment: 0.1245
+  war_v2: 0.1441
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3216
-  expected_two_party_share_v2: 0.4461
+  expected_two_party_share_v2: 0.521
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3978
-  war_v2: 0.3978
+  war_v2: 0.4881
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6022
-  expected_two_party_share_v2: 0.6022
+  expected_two_party_share_v2: 0.5119
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3675
-  war_v2: 0.243
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3153
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6325
-  expected_two_party_share_v2: 0.757
+  expected_two_party_share_v2: 0.6847
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2564
-  war_v2: 0.2564
+  war_v2: 0.4134
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7436
-  expected_two_party_share_v2: 0.7436
+  expected_two_party_share_v2: 0.5866
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3824
-  war_v2: 0.2579
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3232
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6176
-  expected_two_party_share_v2: 0.7421
+  expected_two_party_share_v2: 0.6768
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 0.8372
   war: 0.1302
-  war_v2: 0.1302
+  war_v2: 0.27
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.707
-  expected_two_party_share_v2: 0.707
+  expected_two_party_share_v2: 0.5672
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Michael D. Brady
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2055
   war: -0.2628
-  war_v2: -0.2628
+  war_v2: -0.2363
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4683
-  expected_two_party_share_v2: 0.4683
+  expected_two_party_share_v2: 0.4418
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jennifer J. Gaucher
 layout: candidate
 ---

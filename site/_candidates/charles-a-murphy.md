@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5373
-  war_v2: 0.4128
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4179
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4627
-  expected_two_party_share_v2: 0.5872
+  expected_two_party_share_v2: 0.5821
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4363
-  war_v2: 0.3118
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3648
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5637
-  expected_two_party_share_v2: 0.6882
+  expected_two_party_share_v2: 0.6352
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4664
-  war_v2: 0.3419
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3781
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5336
-  expected_two_party_share_v2: 0.6581
+  expected_two_party_share_v2: 0.6219
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6485
   war: 0.074
-  war_v2: -0.0505
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0053
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5745
-  expected_two_party_share_v2: 0.699
+  expected_two_party_share_v2: 0.6538
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.675
   war: 0.2781
-  war_v2: 0.2781
+  war_v2: 0.271
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3969
-  expected_two_party_share_v2: 0.3969
+  expected_two_party_share_v2: 0.404
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Charles A. Murphy
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3544
   war: -0.0438
-  war_v2: -0.0438
+  war_v2: -0.0506
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3982
-  expected_two_party_share_v2: 0.3982
+  expected_two_party_share_v2: 0.405
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Frank Herbert Collins
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5428
     is_incumbent: true
-    war_v2: 0.4183
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4079
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2413
+    tide_component: -0.0012
     expected_two_party_share: 0.4572
-    expected_two_party_share_v2: 0.5817
+    expected_two_party_share_v2: 0.5921
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5494
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4506
     is_incumbent: false
-    war_v2: 0.4506
+    incumbent_terms: 0
+    war_v2: 0.5159
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2899
+    tide_component: -0.0015
     expected_two_party_share: 0.5494
-    expected_two_party_share_v2: 0.5494
+    expected_two_party_share_v2: 0.4841
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5162
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4838
     is_incumbent: true
-    war_v2: 0.3593
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3873
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2724
+    tide_component: -0.0014
     expected_two_party_share: 0.5162
-    expected_two_party_share_v2: 0.6407
+    expected_two_party_share_v2: 0.6127
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.569
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.431
     is_incumbent: true
-    war_v2: 0.3065
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3491
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3003
+    tide_component: -0.0014
     expected_two_party_share: 0.569
-    expected_two_party_share_v2: 0.6935
+    expected_two_party_share_v2: 0.6509
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3959
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.6264
     war: 0.2305
     is_incumbent: false
-    war_v2: 0.2305
+    incumbent_terms: 0
+    war_v2: 0.223
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2089
+    tide_component: -0.0011
     expected_two_party_share: 0.3959
-    expected_two_party_share_v2: 0.3959
+    expected_two_party_share_v2: 0.4034
   - name: Joseph A. Pascarella
     slug: joseph-a-pascarella
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.3736
     war: -0.2305
     is_incumbent: false
-    war_v2: -0.2305
+    incumbent_terms: 0
+    war_v2: -0.1396
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3188
+    tide_component: -0.0012
     expected_two_party_share: 0.6041
-    expected_two_party_share_v2: 0.6041
+    expected_two_party_share_v2: 0.5132
   is_open_seat: null
 title: 11th Norfolk (2001-2010)
 layout: district

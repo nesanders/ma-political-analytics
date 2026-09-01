@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2857
-  war_v2: 0.1612
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2724
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7143
-  expected_two_party_share_v2: 0.8388
+  expected_two_party_share_v2: 0.7276
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2548
-  war_v2: 0.2548
+  war_v2: 0.4126
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7452
-  expected_two_party_share_v2: 0.7452
+  expected_two_party_share_v2: 0.5874
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 16653

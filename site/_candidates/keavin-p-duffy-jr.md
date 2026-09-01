@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3866
   war: -0.0771
-  war_v2: -0.0771
+  war_v2: -0.0526
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4637
-  expected_two_party_share_v2: 0.4637
+  expected_two_party_share_v2: 0.4392
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Keavin P. Duffy, Jr
 layout: candidate
 ---

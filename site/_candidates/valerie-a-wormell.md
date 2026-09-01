@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.349
   war: -0.1368
-  war_v2: -0.1368
+  war_v2: -0.1021
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4858
-  expected_two_party_share_v2: 0.4858
+  expected_two_party_share_v2: 0.4511
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Valerie A. Wormell
 layout: candidate
 ---

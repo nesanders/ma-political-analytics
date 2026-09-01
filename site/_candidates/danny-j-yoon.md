@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1443
   war: -0.1116
-  war_v2: -0.1116
+  war_v2: -0.1855
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2559
-  expected_two_party_share_v2: 0.2559
+  expected_two_party_share_v2: 0.3298
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Danny J. Yoon
 layout: candidate
 ---

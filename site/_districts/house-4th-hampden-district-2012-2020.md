@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5467
     war: 0.0552
     is_incumbent: false
-    war_v2: 0.0552
+    incumbent_terms: 0
+    war_v2: 0.0925
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2594
+    tide_component: -0.0008
     expected_two_party_share: 0.4915
-    expected_two_party_share_v2: 0.4915
+    expected_two_party_share_v2: 0.4542
   - name: Matthew J. Garlo
     slug: matthew-j-garlo
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4533
     war: -0.0552
     is_incumbent: false
-    war_v2: -0.0552
+    incumbent_terms: 0
+    war_v2: -0.0091
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2683
+    tide_component: -0.0015
     expected_two_party_share: 0.5085
-    expected_two_party_share_v2: 0.5085
+    expected_two_party_share_v2: 0.4624
   - name: Ethan Flaherty
     slug: ethan-flaherty
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.107
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Dan Allie
@@ -67,8 +79,12 @@ results_by_year:
     actual_two_party_share: 0.0492
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -88,10 +104,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7847
     is_incumbent: true
-    war_v2: 0.6602
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.5455
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1136
+    tide_component: -0.0008
     expected_two_party_share: 0.2153
-    expected_two_party_share_v2: 0.3398
+    expected_two_party_share_v2: 0.4545
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4769
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5231
     is_incumbent: true
-    war_v2: 0.3986
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3977
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2517
+    tide_component: -0.0015
     expected_two_party_share: 0.4769
-    expected_two_party_share_v2: 0.6014
+    expected_two_party_share_v2: 0.6023
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3682
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5891
     war: 0.2209
     is_incumbent: false
-    war_v2: 0.2209
+    incumbent_terms: 0
+    war_v2: 0.2003
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1943
+    tide_component: -0.0011
     expected_two_party_share: 0.3682
-    expected_two_party_share_v2: 0.3682
+    expected_two_party_share_v2: 0.3888
   - name: Dan Allie
     slug: dan-allie
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4109
     war: -0.2209
     is_incumbent: false
-    war_v2: -0.2209
+    incumbent_terms: 0
+    war_v2: -0.1169
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3334
+    tide_component: -0.0012
     expected_two_party_share: 0.6318
-    expected_two_party_share_v2: 0.6318
+    expected_two_party_share_v2: 0.5278
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5304
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5304
     is_incumbent: false
-    war_v2: 0.5304
+    incumbent_terms: 0
+    war_v2: 0.5575
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2478
+    tide_component: -0.0009
     expected_two_party_share: 0.4696
-    expected_two_party_share_v2: 0.4696
+    expected_two_party_share_v2: 0.4425
   is_open_seat: null
 title: 4th Hampden District (2012-2020)
 layout: district

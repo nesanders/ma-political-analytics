@@ -207,34 +207,93 @@ full.
   defaults.
 
   **WAR v2** is fit and applied here too, as a second pass over every
-  vintage's district records once `is_incumbent` is known
-  (`fit_incumbency_effect`/`apply_war_v2`): pool every contested
-  major-party candidate-race across the whole run, split by
-  `is_incumbent`, and take the gap between the two groups' mean WAR v1 —
-  that gap is the incumbency adjustment WAR v2 adds on top of the v1
-  (lean-only) expected share. Pooled across House and Senate rather than
-  fit per chamber, since both come out close on the real data (House
-  ~0.123, Senate ~0.128 as of the last full run) and Senate's incumbent
-  sample (under 100 races) is too thin to support its own coefficient.
+  vintage's district records once `is_incumbent`/`incumbent_terms` are
+  known (`fit_war_v2_core`/`apply_war_v2`) — a real multi-term regression
+  now, not the single group-mean-difference coefficient an earlier version
+  of this fit used:
+
+  ```
+  own-party share ~ intercept + district lean + statewide tide
+                     + incumbency (1st / 2nd / 3rd-or-later term)
+  ```
+
+  `own-party` means every value is flipped to that candidate's own party's
+  perspective (Republican's own_lean is `1 - lean_dem_share`, same for
+  tide), the same symmetry `compute_war()` already uses, so one pooled fit
+  covers both parties. `statewide tide` (`compute_statewide_tide_by_year`)
+  is the *unapportioned* two-party Democratic share on that year's
+  baseline race statewide — a genuinely different number from
+  `lean_dem_share`, which is that same race apportioned to one district —
+  letting the fit separate a district's own persistent partisanship from a
+  given cycle's overall mood. It's summed from the baseline race's
+  *town-level* results, not read off `{office}_results.parquet`'s own vote
+  totals: that table's `votes` column turned out to be NaN for the
+  statewide total in several older years (2002-2014), a real gap found by
+  checking actual output (the first version of this function silently
+  produced a 240-row training sample instead of the expected ~1,500,
+  caught by noticing the sample size didn't match a prior run's, not by
+  any error) — town-level summing doesn't have that gap, reusing
+  `derived_metrics.resolve_candidate_column` for the same "/" vs "and"
+  ticket-naming fix already documented above. Incumbency is now three
+  dummies (1st/2nd/3rd-or-later consecutive term, from a new
+  `incumbent_terms` count walked oldest-to-newest through each district's
+  own results) rather than v1's plain binary.
+
+  **Fit via a hand-rolled Bayesian Gibbs sampler**
+  (`_bayesian_linear_regression`), not OLS and not a PyMC/statsmodels
+  dependency (this pipeline's own curated dependency list — see
+  pyproject.toml — stays numpy-only): a linear-Gaussian model's Gibbs
+  sampler has closed-form conditionals for both blocks (coefficients given
+  the noise variance are multivariate normal; the noise variance given the
+  coefficients is inverse-gamma), so a plain numpy loop is exact MCMC, not
+  an approximation, and fast enough (a few thousand iterations over at
+  most a few thousand rows) to run inline on every build. Every
+  coefficient gets a weakly informative, regularizing Gaussian prior
+  (`_COEFFICIENT_PRIORS`) — real shrinkage where the data needs it most:
+  district lean and statewide tide are correlated (same underlying race,
+  just apportioned differently), and the incumbency buckets are unevenly
+  sized. The fit reports a full posterior (mean, SD, 95% credible interval
+  from the actual sampled draws) per coefficient, seeded for
+  reproducibility (re-running against the same data gives bit-identical
+  coefficients — verified directly: `publish_query_data.py`'s independent
+  refit of this same model landed on identical `war_v2` values to
+  `generate_site_data.py`'s own run).
+
   Uncontested races are excluded from the fit (their 100% actual share is
   a known-inflated WAR v1 residual, not a clean training signal — see the
-  methodology page's WAR v1 limitation). The fitted coefficient and its
-  sample sizes are written to `--site-data-dir` (default `site/_data`) as
-  `war_v2.yml`, which the methodology page reads live via Jekyll's
-  `site.war_v2` rather than a hardcoded number, so the published figure
-  can't drift from what a given pipeline run actually fit. Every
-  candidate-race dict gets `war_v2`, `incumbency_adjustment`,
+  methodology page's WAR v1 limitation). On the last full run: n=1,494
+  contested major-party candidate-races, R²=0.48, district lean's
+  coefficient landing at ~0.53 (not the naively-expected ~1.0 — checked
+  directly against plain OLS on the same data, which lands in the same
+  neighborhood, confirming this is a real finding about the data and not
+  a prior-driven artifact), and all three incumbency terms landing close
+  together (~14-16 points) — see `site/_data/war_v2.yml` for the live
+  figures and the methodology page for the full writeup. Every
+  candidate-race dict gets `war_v2`, `intercept_component`,
+  `lean_component`, `tide_component`, `incumbency_adjustment`,
   `expected_two_party_share`, and `expected_two_party_share_v2` alongside
   the existing v1 `war`/`actual_two_party_share` — verified live against
-  real data: for an incumbent, `expected_two_party_share +
-  incumbency_adjustment + war_v2` reproduces `actual_two_party_share`
-  exactly (checked directly against a written district page's frontmatter,
-  not just by construction). Campaign finance was also planned as a v2
-  fundamental but isn't included — the OCPF data fetched so far only
-  covers year 2022, not enough years to fit an honest term across the full
-  2002-2024 backfill; deferred to a future "v3" rather than forced onto
-  one year's data (see the methodology page for the same call, explained
-  for a site reader).
+  real data across 2,842 candidate-race rows: `intercept_component +
+  lean_component + tide_component + incumbency_adjustment` reproduces
+  `expected_two_party_share_v2` exactly, and `actual_two_party_share -
+  expected_two_party_share_v2` reproduces `war_v2` exactly.
+
+  **WAR v3** (`fit_war_v3_demographics`/`fit_war_v3_finance`) extends the
+  same core model with the remaining fundamentals this project's original
+  design called for, as two separate diagnostic fits — not threaded into
+  every candidate's WAR the way v2 is, for real coverage reasons: Census
+  demographics only cover the current (2022-present) vintage, which so
+  far has exactly two election years (2022, 2024) — enough real
+  cross-district variation to estimate a bachelor's-degree% × tide
+  interaction, but with a deliberately tighter prior than its own main
+  effect, since two elections can't support trusting it as a stable
+  trend. Campaign finance is restricted to 2022 only (the only year OCPF
+  data covers) and drops the tide term entirely (zero within-year
+  variance, would be collinear with the intercept). Both write their
+  posterior summaries to `--site-data-dir` as `war_v3_demographics.yml`/
+  `war_v3_finance.yml`, which the methodology page reports as labeled
+  diagnostics (coefficients, credible intervals, real sample sizes) —
+  not silently dropped, not forced onto data too thin to support them.
 
   Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
   name re-derived one, to avoid collisions between different candidates

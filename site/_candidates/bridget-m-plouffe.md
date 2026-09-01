@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6436
   war: 0.039
-  war_v2: 0.039
+  war_v2: 0.1304
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6046
-  expected_two_party_share_v2: 0.6046
+  expected_two_party_share_v2: 0.5132
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Bridget M. Plouffe
 layout: candidate
 ---

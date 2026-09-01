@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.2245
   war: -0.1201
-  war_v2: -0.1201
+  war_v2: -0.1517
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3446
-  expected_two_party_share_v2: 0.3446
+  expected_two_party_share_v2: 0.3762
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Vincent J. Manganello
 layout: candidate
 ---

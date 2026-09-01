@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5549
     war: -0.019
     is_incumbent: false
-    war_v2: -0.019
+    incumbent_terms: 0
+    war_v2: 0.058
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3028
+    tide_component: -0.0015
     expected_two_party_share: 0.5739
-    expected_two_party_share_v2: 0.5739
+    expected_two_party_share_v2: 0.4969
   - name: Robert E. May, Jr
     slug: robert-e-may-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4451
     war: 0.019
     is_incumbent: false
-    war_v2: 0.019
+    incumbent_terms: 0
+    war_v2: 0.0254
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2249
+    tide_component: -0.0008
     expected_two_party_share: 0.4261
-    expected_two_party_share_v2: 0.4261
+    expected_two_party_share_v2: 0.4197
   - name: William J. Bates
     slug: william-j-bates
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1046
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Jason Guida
@@ -67,8 +79,12 @@ results_by_year:
     actual_two_party_share: 0.0715
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Christopher Keohane
@@ -79,8 +95,12 @@ results_by_year:
     actual_two_party_share: 0.028
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -100,10 +120,14 @@ results_by_year:
     actual_two_party_share: 0.5144
     war: 0.303
     is_incumbent: true
-    war_v2: 0.1785
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.0644
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1116
+    tide_component: -0.0008
     expected_two_party_share: 0.2114
-    expected_two_party_share_v2: 0.3359
+    expected_two_party_share_v2: 0.45
   - name: Mark B. Mezzina
     slug: mark-b-mezzina
     party: Republican
@@ -112,10 +136,14 @@ results_by_year:
     actual_two_party_share: 0.4856
     war: -0.303
     is_incumbent: false
-    war_v2: -0.303
+    incumbent_terms: 0
+    war_v2: -0.1246
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4161
+    tide_component: -0.0015
     expected_two_party_share: 0.7886
-    expected_two_party_share_v2: 0.7886
+    expected_two_party_share_v2: 0.6102
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5334
@@ -133,10 +161,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4666
     is_incumbent: true
-    war_v2: 0.3421
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3783
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2815
+    tide_component: -0.0015
     expected_two_party_share: 0.5334
-    expected_two_party_share_v2: 0.6579
+    expected_two_party_share_v2: 0.6217
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3871
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.5244
     war: 0.1373
     is_incumbent: true
-    war_v2: 0.0128
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0308
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2043
+    tide_component: -0.0011
     expected_two_party_share: 0.3871
-    expected_two_party_share_v2: 0.5116
+    expected_two_party_share_v2: 0.5552
   - name: Thomas J. Lyons
     slug: thomas-j-lyons
     party: Republican
@@ -166,10 +202,14 @@ results_by_year:
     actual_two_party_share: 0.4756
     war: -0.1373
     is_incumbent: false
-    war_v2: -0.1373
+    incumbent_terms: 0
+    war_v2: -0.0423
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3234
+    tide_component: -0.0012
     expected_two_party_share: 0.6129
-    expected_two_party_share_v2: 0.6129
+    expected_two_party_share_v2: 0.5179
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5178
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.628
     war: 0.1102
     is_incumbent: false
-    war_v2: 0.1102
+    incumbent_terms: 0
+    war_v2: 0.1606
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2732
+    tide_component: -0.0014
     expected_two_party_share: 0.5178
-    expected_two_party_share_v2: 0.5178
+    expected_two_party_share_v2: 0.4674
   - name: Daniel C. Bennett
     slug: daniel-c-bennett
     party: Republican
@@ -199,10 +243,14 @@ results_by_year:
     actual_two_party_share: 0.372
     war: -0.1102
     is_incumbent: false
-    war_v2: -0.1102
+    incumbent_terms: 0
+    war_v2: -0.0772
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2545
+    tide_component: -0.0009
     expected_two_party_share: 0.4822
-    expected_two_party_share_v2: 0.4822
+    expected_two_party_share_v2: 0.4492
   is_open_seat: null
 title: 13th Essex District (2012-2020)
 layout: district

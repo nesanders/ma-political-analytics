@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2984
-  war_v2: 0.2984
+  war_v2: 0.4356
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7016
-  expected_two_party_share_v2: 0.7016
+  expected_two_party_share_v2: 0.5644
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3547
-  war_v2: 0.2302
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3215
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6453
-  expected_two_party_share_v2: 0.7698
+  expected_two_party_share_v2: 0.6785
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3093
-  war_v2: 0.1848
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2978
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6907
-  expected_two_party_share_v2: 0.8152
+  expected_two_party_share_v2: 0.7022
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2524
-  war_v2: 0.1279
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2652
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7476
-  expected_two_party_share_v2: 0.8721
+  expected_two_party_share_v2: 0.7348
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 0.7582
   war: 0.0742
-  war_v2: -0.0503
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0466
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.684
-  expected_two_party_share_v2: 0.8085
+  expected_two_party_share_v2: 0.7116
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4434
-  war_v2: 0.4434
+  war_v2: 0.5118
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5566
-  expected_two_party_share_v2: 0.5566
+  expected_two_party_share_v2: 0.4882
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: John P. Fresolo
 layout: candidate
 ---

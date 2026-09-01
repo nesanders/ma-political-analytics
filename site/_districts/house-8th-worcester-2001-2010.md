@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5722
     war: -0.0525
     is_incumbent: false
-    war_v2: -0.0525
+    incumbent_terms: 0
+    war_v2: 0.048
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3297
+    tide_component: -0.0011
     expected_two_party_share: 0.6247
-    expected_two_party_share_v2: 0.6247
+    expected_two_party_share_v2: 0.5242
   - name: Paul Kujawski
     slug: paul-kujawski
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4278
     war: 0.0525
     is_incumbent: true
-    war_v2: -0.072
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.1082
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.198
+    tide_component: -0.0012
     expected_two_party_share: 0.3753
-    expected_two_party_share_v2: 0.4998
+    expected_two_party_share_v2: 0.536
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5095
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5334
     war: 0.0239
     is_incumbent: true
-    war_v2: -0.1006
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0732
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2689
+    tide_component: -0.0015
     expected_two_party_share: 0.5095
-    expected_two_party_share_v2: 0.634
+    expected_two_party_share_v2: 0.6066
   - name: Kevin J. Kuros
     slug: kevin-j-kuros
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4666
     war: -0.0239
     is_incumbent: false
-    war_v2: -0.0239
+    incumbent_terms: 0
+    war_v2: 0.013
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2588
+    tide_component: -0.0008
     expected_two_party_share: 0.4905
-    expected_two_party_share_v2: 0.4905
+    expected_two_party_share_v2: 0.4536
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5503
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4497
     is_incumbent: true
-    war_v2: 0.3252
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3693
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2904
+    tide_component: -0.0014
     expected_two_party_share: 0.5503
-    expected_two_party_share_v2: 0.6748
+    expected_two_party_share_v2: 0.6307
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5332
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.592
     war: 0.0588
     is_incumbent: true
-    war_v2: -0.0657
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.04
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2814
+    tide_component: -0.0014
     expected_two_party_share: 0.5332
-    expected_two_party_share_v2: 0.6577
+    expected_two_party_share_v2: 0.632
   - name: Dorothy A. Mann
     slug: dorothy-a-mann
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.408
     war: -0.0588
     is_incumbent: false
-    war_v2: -0.0588
+    incumbent_terms: 0
+    war_v2: -0.0331
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2463
+    tide_component: -0.0009
     expected_two_party_share: 0.4668
-    expected_two_party_share_v2: 0.4668
+    expected_two_party_share_v2: 0.4411
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.381
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.619
     is_incumbent: false
-    war_v2: 0.619
+    incumbent_terms: 0
+    war_v2: 0.6044
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2011
+    tide_component: -0.0011
     expected_two_party_share: 0.381
-    expected_two_party_share_v2: 0.381
+    expected_two_party_share_v2: 0.3956
   is_open_seat: null
 title: 8th Worcester (2001-2010)
 layout: district

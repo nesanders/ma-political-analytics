@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4882
-  war_v2: 0.4882
+  war_v2: 0.5351
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5118
-  expected_two_party_share_v2: 0.5118
+  expected_two_party_share_v2: 0.4649
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5297
-  war_v2: 0.4052
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4005
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4703
-  expected_two_party_share_v2: 0.5948
+  expected_two_party_share_v2: 0.5995
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.558
   war: -0.2169
-  war_v2: -0.2169
+  war_v2: -0.045
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7749
-  expected_two_party_share_v2: 0.7749
+  expected_two_party_share_v2: 0.603
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Alyson M. Sullivan
 layout: candidate
 ---

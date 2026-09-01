@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2735
     is_incumbent: true
-    war_v2: 0.149
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2765
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3834
+    tide_component: -0.0015
     expected_two_party_share: 0.7265
-    expected_two_party_share_v2: 0.851
+    expected_two_party_share_v2: 0.7235
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3124
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6876
     is_incumbent: true
-    war_v2: 0.5631
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4838
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1649
+    tide_component: -0.0008
     expected_two_party_share: 0.3124
-    expected_two_party_share_v2: 0.4369
+    expected_two_party_share_v2: 0.5162
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6966
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.6508
     war: -0.0458
     is_incumbent: false
-    war_v2: -0.0458
+    incumbent_terms: 0
+    war_v2: 0.0891
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3676
+    tide_component: -0.0015
     expected_two_party_share: 0.6966
-    expected_two_party_share_v2: 0.6966
+    expected_two_party_share_v2: 0.5617
   - name: Yolanda Greaves
     slug: yolanda-greaves
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.3492
     war: 0.0458
     is_incumbent: false
-    war_v2: 0.0458
+    incumbent_terms: 0
+    war_v2: -0.0057
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1601
+    tide_component: -0.0008
     expected_two_party_share: 0.3034
-    expected_two_party_share_v2: 0.3034
+    expected_two_party_share_v2: 0.3549
   - name: Clifford c. T. Wilson
     slug: clifford-c-t-wilson
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.0519
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5103
     is_incumbent: true
-    war_v2: 0.3858
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3906
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2584
+    tide_component: -0.0011
     expected_two_party_share: 0.4897
-    expected_two_party_share_v2: 0.6142
+    expected_two_party_share_v2: 0.6094
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6205
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.7112
     war: 0.0907
     is_incumbent: false
-    war_v2: 0.0907
+    incumbent_terms: 0
+    war_v2: 0.1896
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3274
+    tide_component: -0.0014
     expected_two_party_share: 0.6205
-    expected_two_party_share_v2: 0.6205
+    expected_two_party_share_v2: 0.5216
   - name: Jon Andrew Fetherston
     slug: jon-andrew-fetherston
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.2888
     war: -0.0907
     is_incumbent: false
-    war_v2: -0.0907
+    incumbent_terms: 0
+    war_v2: -0.1062
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2003
+    tide_component: -0.0009
     expected_two_party_share: 0.3795
-    expected_two_party_share_v2: 0.3795
+    expected_two_party_share_v2: 0.395
   is_open_seat: null
 title: 7th Middlesex District (2012-2020)
 layout: district

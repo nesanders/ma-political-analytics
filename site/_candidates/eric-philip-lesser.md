@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7126
-  war_v2: 0.5881
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5074
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.2874
-  expected_two_party_share_v2: 0.4119
+  expected_two_party_share_v2: 0.4926
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.559
   war: -0.0379
-  war_v2: -0.1624
-  incumbency_adjustment: 0.1245
+  war_v2: -0.1066
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5969
-  expected_two_party_share_v2: 0.7214
+  expected_two_party_share_v2: 0.6656
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.53
   war: 0.072
-  war_v2: 0.072
+  war_v2: 0.0938
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.458
-  expected_two_party_share_v2: 0.458
+  expected_two_party_share_v2: 0.4362
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Eric P. Lesser
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4149
     is_incumbent: true
-    war_v2: 0.2904
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3508
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3088
+    tide_component: -0.0012
     expected_two_party_share: 0.5851
-    expected_two_party_share_v2: 0.7096
+    expected_two_party_share_v2: 0.6492
   - name: Dennis John Giantassio
     slug: dennis-john-giantassio
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.5619
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3296
     is_incumbent: true
-    war_v2: 0.2051
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2956
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3538
+    tide_component: -0.0015
     expected_two_party_share: 0.6704
-    expected_two_party_share_v2: 0.7949
+    expected_two_party_share_v2: 0.7044
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6178
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3822
     is_incumbent: false
-    war_v2: 0.3822
+    incumbent_terms: 0
+    war_v2: 0.4798
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.326
+    tide_component: -0.0014
     expected_two_party_share: 0.6178
-    expected_two_party_share_v2: 0.6178
+    expected_two_party_share_v2: 0.5202
   - name: Joseph F. Hickey
     slug: joseph-f-hickey
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.6744
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.314
     is_incumbent: true
-    war_v2: 0.1895
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2873
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.362
+    tide_component: -0.0014
     expected_two_party_share: 0.686
-    expected_two_party_share_v2: 0.8105
+    expected_two_party_share_v2: 0.7127
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.534
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.7223
     war: 0.1883
     is_incumbent: false
-    war_v2: 0.1883
+    incumbent_terms: 0
+    war_v2: 0.246
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2818
+    tide_component: -0.0011
     expected_two_party_share: 0.534
-    expected_two_party_share_v2: 0.534
+    expected_two_party_share_v2: 0.4763
   - name: Anthony F. Ranieri
     slug: anthony-f-ranieri
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.2777
     war: -0.1883
     is_incumbent: false
-    war_v2: -0.1883
+    incumbent_terms: 0
+    war_v2: -0.1626
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2459
+    tide_component: -0.0012
     expected_two_party_share: 0.466
-    expected_two_party_share_v2: 0.466
+    expected_two_party_share_v2: 0.4403
   is_open_seat: null
 title: 28th Middlesex (2001-2010)
 layout: district

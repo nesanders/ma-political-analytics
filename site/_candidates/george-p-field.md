@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3838
   war: 0.0016
-  war_v2: 0.0016
+  war_v2: -0.0126
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3822
-  expected_two_party_share_v2: 0.3822
+  expected_two_party_share_v2: 0.3964
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.44
   war: -0.1739
-  war_v2: -0.1739
+  war_v2: -0.0783
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6139
-  expected_two_party_share_v2: 0.6139
+  expected_two_party_share_v2: 0.5183
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: George P. Field
 layout: candidate
 ---

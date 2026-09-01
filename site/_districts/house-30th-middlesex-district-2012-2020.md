@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3705
     is_incumbent: true
-    war_v2: 0.246
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3173
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3322
+    tide_component: -0.0015
     expected_two_party_share: 0.6295
-    expected_two_party_share_v2: 0.754
+    expected_two_party_share_v2: 0.6827
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2661
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.699
     war: 0.4329
     is_incumbent: false
-    war_v2: 0.4329
+    incumbent_terms: 0
+    war_v2: 0.3637
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1404
+    tide_component: -0.0008
     expected_two_party_share: 0.2661
-    expected_two_party_share_v2: 0.2661
+    expected_two_party_share_v2: 0.3353
   - name: Claire M. Malaguti
     slug: claire-m-malaguti
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.301
     war: -0.4329
     is_incumbent: false
-    war_v2: -0.4329
+    incumbent_terms: 0
+    war_v2: -0.2803
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3873
+    tide_component: -0.0015
     expected_two_party_share: 0.7339
-    expected_two_party_share_v2: 0.7339
+    expected_two_party_share_v2: 0.5813
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.581
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.419
     is_incumbent: true
-    war_v2: 0.2945
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3532
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3066
+    tide_component: -0.0015
     expected_two_party_share: 0.581
-    expected_two_party_share_v2: 0.7055
+    expected_two_party_share_v2: 0.6468
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4321
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5679
     is_incumbent: true
-    war_v2: 0.4434
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.421
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.228
+    tide_component: -0.0011
     expected_two_party_share: 0.4321
-    expected_two_party_share_v2: 0.5566
+    expected_two_party_share_v2: 0.579
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5397
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4603
     is_incumbent: false
-    war_v2: 0.4603
+    incumbent_terms: 0
+    war_v2: 0.521
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2848
+    tide_component: -0.0014
     expected_two_party_share: 0.5397
-    expected_two_party_share_v2: 0.5397
+    expected_two_party_share_v2: 0.479
   is_open_seat: null
 title: 30th Middlesex District (2012-2020)
 layout: district

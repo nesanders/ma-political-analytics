@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4879
   war: 0.118
-  war_v2: 0.118
+  war_v2: 0.0982
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3699
-  expected_two_party_share_v2: 0.3699
+  expected_two_party_share_v2: 0.3897
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Ruth W. Provost
 layout: candidate
 ---

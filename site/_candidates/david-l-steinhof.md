@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3778
   war: -0.2997
-  war_v2: -0.2997
+  war_v2: -0.1738
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6775
-  expected_two_party_share_v2: 0.6775
+  expected_two_party_share_v2: 0.5516
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4061
   war: -0.0033
-  war_v2: -0.0033
+  war_v2: -0.0044
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4094
-  expected_two_party_share_v2: 0.4094
+  expected_two_party_share_v2: 0.4105
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David L. Steinhof
 layout: candidate
 ---

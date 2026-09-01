@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5161
     is_incumbent: true
-    war_v2: 0.3916
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3933
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2554
+    tide_component: -0.0008
     expected_two_party_share: 0.4839
-    expected_two_party_share_v2: 0.6084
+    expected_two_party_share_v2: 0.6067
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2074
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.5152
     war: -0.2774
     is_incumbent: false
-    war_v2: -0.2774
+    incumbent_terms: 0
+    war_v2: -0.0971
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4183
+    tide_component: -0.0015
     expected_two_party_share: 0.7926
-    expected_two_party_share_v2: 0.7926
+    expected_two_party_share_v2: 0.6123
   - name: Patrick J. Malone
     slug: patrick-j-malone
     party: Democratic
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.4848
     war: 0.2774
     is_incumbent: false
-    war_v2: 0.2774
+    incumbent_terms: 0
+    war_v2: 0.1805
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1094
+    tide_component: -0.0008
     expected_two_party_share: 0.2074
-    expected_two_party_share_v2: 0.2074
+    expected_two_party_share_v2: 0.3043
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4714
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4714
     is_incumbent: true
-    war_v2: 0.3469
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3802
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2789
+    tide_component: -0.0008
     expected_two_party_share: 0.5286
-    expected_two_party_share_v2: 0.6531
+    expected_two_party_share_v2: 0.6198
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.361
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6315
     war: -0.0076
     is_incumbent: true
-    war_v2: -0.1321
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0566
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3372
+    tide_component: -0.0012
     expected_two_party_share: 0.6391
-    expected_two_party_share_v2: 0.7636
+    expected_two_party_share_v2: 0.6881
   - name: Joseph M. Hall
     slug: joseph-m-hall
     party: Democratic
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3685
     war: 0.0076
     is_incumbent: false
-    war_v2: 0.0076
+    incumbent_terms: 0
+    war_v2: -0.0165
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1905
+    tide_component: -0.0011
     expected_two_party_share: 0.3609
-    expected_two_party_share_v2: 0.3609
+    expected_two_party_share_v2: 0.385
   - name: Joseph F. Guertin
     slug: joseph-f-guertin
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0451
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.5125
     war: 0.0083
     is_incumbent: false
-    war_v2: 0.0083
+    incumbent_terms: 0
+    war_v2: 0.0517
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2661
+    tide_component: -0.0009
     expected_two_party_share: 0.5042
-    expected_two_party_share_v2: 0.5042
+    expected_two_party_share_v2: 0.4608
   - name: Robert J. Dubois
     slug: robert-j-dubois
     party: Democratic
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.4875
     war: -0.0083
     is_incumbent: false
-    war_v2: -0.0083
+    incumbent_terms: 0
+    war_v2: 0.0317
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2616
+    tide_component: -0.0014
     expected_two_party_share: 0.4958
-    expected_two_party_share_v2: 0.4958
+    expected_two_party_share_v2: 0.4558
   is_open_seat: null
 title: 8th Worcester District (2012-2020)
 layout: district

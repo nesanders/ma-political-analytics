@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3787
     is_incumbent: true
-    war_v2: 0.2542
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3345
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3279
+    tide_component: -0.0015
     expected_two_party_share: 0.6213
-    expected_two_party_share_v2: 0.7458
+    expected_two_party_share_v2: 0.6655
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4326
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5674
     is_incumbent: true
-    war_v2: 0.4429
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4333
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2283
+    tide_component: -0.0008
     expected_two_party_share: 0.4326
-    expected_two_party_share_v2: 0.5571
+    expected_two_party_share_v2: 0.5667
   - name: Michael Janson
     slug: michael-janson
     party: Other
@@ -64,8 +72,12 @@ results_by_year:
     actual_two_party_share: 0.2695
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3316
     is_incumbent: true
-    war_v2: 0.2071
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3071
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3527
+    tide_component: -0.0015
     expected_two_party_share: 0.6684
-    expected_two_party_share_v2: 0.7929
+    expected_two_party_share_v2: 0.6929
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6624
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3376
     is_incumbent: true
-    war_v2: 0.2131
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2995
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3495
+    tide_component: -0.0011
     expected_two_party_share: 0.6624
-    expected_two_party_share_v2: 0.7869
+    expected_two_party_share_v2: 0.7005
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7698
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2302
     is_incumbent: false
-    war_v2: 0.2302
+    incumbent_terms: 0
+    war_v2: 0.3996
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4062
+    tide_component: -0.0014
     expected_two_party_share: 0.7698
-    expected_two_party_share_v2: 0.7698
+    expected_two_party_share_v2: 0.6004
   is_open_seat: null
 title: 13th Bristol District (2012-2020)
 layout: district

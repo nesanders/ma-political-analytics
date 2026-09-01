@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4362
   war: 0.0805
-  war_v2: 0.0805
+  war_v2: 0.054
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3557
-  expected_two_party_share_v2: 0.3557
+  expected_two_party_share_v2: 0.3822
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Matthew Castriotta
 layout: candidate
 ---

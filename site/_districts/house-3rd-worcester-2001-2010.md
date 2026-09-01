@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5088
     is_incumbent: true
-    war_v2: 0.3843
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4003
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2592
+    tide_component: -0.0012
     expected_two_party_share: 0.4912
-    expected_two_party_share_v2: 0.6157
+    expected_two_party_share_v2: 0.5997
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.615
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.385
     is_incumbent: true
-    war_v2: 0.2605
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3248
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3245
+    tide_component: -0.0015
     expected_two_party_share: 0.615
-    expected_two_party_share_v2: 0.7395
+    expected_two_party_share_v2: 0.6752
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6276
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.7669
     war: 0.1393
     is_incumbent: false
-    war_v2: 0.1393
+    incumbent_terms: 0
+    war_v2: 0.2415
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3312
+    tide_component: -0.0014
     expected_two_party_share: 0.6276
-    expected_two_party_share_v2: 0.6276
+    expected_two_party_share_v2: 0.5254
   - name: Edward L. Niemczura
     slug: edward-l-niemczura
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.2331
     war: -0.1393
     is_incumbent: false
-    war_v2: -0.1393
+    incumbent_terms: 0
+    war_v2: -0.1581
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1965
+    tide_component: -0.0009
     expected_two_party_share: 0.3724
-    expected_two_party_share_v2: 0.3724
+    expected_two_party_share_v2: 0.3912
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6266
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3734
     is_incumbent: true
-    war_v2: 0.2489
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3187
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3307
+    tide_component: -0.0014
     expected_two_party_share: 0.6266
-    expected_two_party_share_v2: 0.7511
+    expected_two_party_share_v2: 0.6813
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4789
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5211
     is_incumbent: false
-    war_v2: 0.5211
+    incumbent_terms: 0
+    war_v2: 0.5528
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2527
+    tide_component: -0.0011
     expected_two_party_share: 0.4789
-    expected_two_party_share_v2: 0.4789
+    expected_two_party_share_v2: 0.4472
   is_open_seat: null
 title: 3rd Worcester (2001-2010)
 layout: district

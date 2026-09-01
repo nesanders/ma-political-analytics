@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4263
   war: -0.1719
-  war_v2: -0.1719
+  war_v2: -0.0838
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5982
-  expected_two_party_share_v2: 0.5982
+  expected_two_party_share_v2: 0.5101
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4206
   war: -0.1799
-  war_v2: -0.1799
+  war_v2: -0.0908
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6005
-  expected_two_party_share_v2: 0.6005
+  expected_two_party_share_v2: 0.5114
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Al DiNuccio
 layout: candidate
 ---

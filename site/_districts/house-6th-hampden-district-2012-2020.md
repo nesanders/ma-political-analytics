@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4447
     is_incumbent: true
-    war_v2: 0.3202
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3693
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.293
+    tide_component: -0.0015
     expected_two_party_share: 0.5553
-    expected_two_party_share_v2: 0.6798
+    expected_two_party_share_v2: 0.6307
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2404
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7596
     is_incumbent: true
-    war_v2: 0.6351
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5347
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1269
+    tide_component: -0.0008
     expected_two_party_share: 0.2404
-    expected_two_party_share_v2: 0.3649
+    expected_two_party_share_v2: 0.4653
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5288
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4712
     is_incumbent: true
-    war_v2: 0.3467
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3807
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.279
+    tide_component: -0.0015
     expected_two_party_share: 0.5288
-    expected_two_party_share_v2: 0.6533
+    expected_two_party_share_v2: 0.6193
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3974
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.5688
     war: 0.1714
     is_incumbent: true
-    war_v2: 0.0469
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0081
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2097
+    tide_component: -0.0011
     expected_two_party_share: 0.3974
-    expected_two_party_share_v2: 0.5219
+    expected_two_party_share_v2: 0.5607
   - name: Nathan A. Bech
     slug: nathan-a-bech
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.4312
     war: -0.1714
     is_incumbent: false
-    war_v2: -0.1714
+    incumbent_terms: 0
+    war_v2: -0.0812
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.318
+    tide_component: -0.0012
     expected_two_party_share: 0.6026
-    expected_two_party_share_v2: 0.6026
+    expected_two_party_share_v2: 0.5124
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5718
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4282
     is_incumbent: false
-    war_v2: 0.4282
+    incumbent_terms: 0
+    war_v2: 0.5041
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3017
+    tide_component: -0.0014
     expected_two_party_share: 0.5718
-    expected_two_party_share_v2: 0.5718
+    expected_two_party_share_v2: 0.4959
   - name: Lincoln A. Blackie
     slug: lincoln-a-blackie
     party: Other
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.57
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

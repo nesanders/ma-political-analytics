@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5272
     is_incumbent: true
-    war_v2: 0.4027
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.4121
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2495
+    tide_component: -0.0008
     expected_two_party_share: 0.4728
-    expected_two_party_share_v2: 0.5973
+    expected_two_party_share_v2: 0.5879
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2174
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2174
     is_incumbent: true
-    war_v2: 0.0929
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2494
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.413
+    tide_component: -0.0015
     expected_two_party_share: 0.7826
-    expected_two_party_share_v2: 0.9071
+    expected_two_party_share_v2: 0.7506
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4732
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4732
     is_incumbent: true
-    war_v2: 0.3487
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3811
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.278
+    tide_component: -0.0008
     expected_two_party_share: 0.5268
-    expected_two_party_share_v2: 0.6513
+    expected_two_party_share_v2: 0.6189
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.355
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.5365
     war: -0.1085
     is_incumbent: true
-    war_v2: -0.233
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1548
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3404
+    tide_component: -0.0012
     expected_two_party_share: 0.645
-    expected_two_party_share_v2: 0.7695
+    expected_two_party_share_v2: 0.6913
   - name: Joseph R. Pacheco
     slug: joseph-r-pacheco
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.4635
     war: 0.1085
     is_incumbent: false
-    war_v2: 0.1085
+    incumbent_terms: 0
+    war_v2: 0.0817
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1873
+    tide_component: -0.0011
     expected_two_party_share: 0.355
-    expected_two_party_share_v2: 0.355
+    expected_two_party_share_v2: 0.3818
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4798
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.5232
     war: 0.003
     is_incumbent: false
-    war_v2: 0.003
+    incumbent_terms: 0
+    war_v2: 0.054
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2745
+    tide_component: -0.0009
     expected_two_party_share: 0.5202
-    expected_two_party_share_v2: 0.5202
+    expected_two_party_share_v2: 0.4692
   - name: Marilee Kenney Hunt
     slug: marilee-kenney-hunt
     party: Democratic
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.4768
     war: -0.003
     is_incumbent: false
-    war_v2: -0.003
+    incumbent_terms: 0
+    war_v2: 0.0294
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2532
+    tide_component: -0.0014
     expected_two_party_share: 0.4798
-    expected_two_party_share_v2: 0.4798
+    expected_two_party_share_v2: 0.4474
   is_open_seat: null
 title: 8th Plymouth District (2012-2020)
 layout: district

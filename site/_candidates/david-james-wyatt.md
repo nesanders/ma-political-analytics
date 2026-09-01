@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.0996
   war: -0.2126
-  war_v2: -0.2126
+  war_v2: -0.2596
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3122
-  expected_two_party_share_v2: 0.3122
+  expected_two_party_share_v2: 0.3592
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: David James Wyatt
 layout: candidate
 ---

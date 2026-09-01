@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6456
     war: 0.0438
     is_incumbent: true
-    war_v2: -0.0807
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0096
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3176
+    tide_component: -0.0015
     expected_two_party_share: 0.6018
-    expected_two_party_share_v2: 0.7263
+    expected_two_party_share_v2: 0.6552
   - name: Frank Herbert Collins
     slug: frank-herbert-collins
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3544
     war: -0.0438
     is_incumbent: false
-    war_v2: -0.0438
+    incumbent_terms: 0
+    war_v2: -0.0506
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2101
+    tide_component: -0.0008
     expected_two_party_share: 0.3982
-    expected_two_party_share_v2: 0.3982
+    expected_two_party_share_v2: 0.405
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2669
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7331
     is_incumbent: true
-    war_v2: 0.6086
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5207
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1408
+    tide_component: -0.0008
     expected_two_party_share: 0.2669
-    expected_two_party_share_v2: 0.3914
+    expected_two_party_share_v2: 0.4793
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5652
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4348
     is_incumbent: true
-    war_v2: 0.3103
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3615
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2983
+    tide_component: -0.0015
     expected_two_party_share: 0.5652
-    expected_two_party_share_v2: 0.6897
+    expected_two_party_share_v2: 0.6385
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.412
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.588
     is_incumbent: true
-    war_v2: 0.4635
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4316
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2174
+    tide_component: -0.0011
     expected_two_party_share: 0.412
-    expected_two_party_share_v2: 0.5365
+    expected_two_party_share_v2: 0.5684
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.535
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.465
     is_incumbent: false
-    war_v2: 0.465
+    incumbent_terms: 0
+    war_v2: 0.5235
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2823
+    tide_component: -0.0014
     expected_two_party_share: 0.535
-    expected_two_party_share_v2: 0.535
+    expected_two_party_share_v2: 0.4765
   is_open_seat: null
 title: 5th Norfolk District (2012-2020)
 layout: district

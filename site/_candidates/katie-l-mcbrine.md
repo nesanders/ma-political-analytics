@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4648
   war: 0.2234
-  war_v2: 0.2234
+  war_v2: 0.1426
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2414
-  expected_two_party_share_v2: 0.2414
+  expected_two_party_share_v2: 0.3222
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Katie L. Mcbrine
 layout: candidate
 ---

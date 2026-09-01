@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.1431
   war: -0.2027
-  war_v2: -0.2027
+  war_v2: -0.2338
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3458
-  expected_two_party_share_v2: 0.3458
+  expected_two_party_share_v2: 0.3769
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Walter R. Campbell
 layout: candidate
 ---

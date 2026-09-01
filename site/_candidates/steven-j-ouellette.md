@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5089
   war: 0.0469
-  war_v2: 0.0469
+  war_v2: 0.071
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.462
-  expected_two_party_share_v2: 0.462
+  expected_two_party_share_v2: 0.4379
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Steven J. Ouellette
 layout: candidate
 ---

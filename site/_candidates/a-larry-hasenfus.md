@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.311
   war: -0.1547
-  war_v2: -0.1547
+  war_v2: -0.1295
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4657
-  expected_two_party_share_v2: 0.4657
+  expected_two_party_share_v2: 0.4405
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: A. Larry Hasenfus
 layout: candidate
 ---

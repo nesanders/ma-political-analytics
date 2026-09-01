@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5
     war: -0.0875
     is_incumbent: false
-    war_v2: -0.0875
+    incumbent_terms: 0
+    war_v2: -0.0046
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.31
+    tide_component: -0.0011
     expected_two_party_share: 0.5875
-    expected_two_party_share_v2: 0.5875
+    expected_two_party_share_v2: 0.5046
   - name: Geraldo Alicea
     slug: geraldo-alicea
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.5
     war: 0.0875
     is_incumbent: true
-    war_v2: -0.037
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0581
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2177
+    tide_component: -0.0012
     expected_two_party_share: 0.4125
-    expected_two_party_share_v2: 0.537
+    expected_two_party_share_v2: 0.5581
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5409
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6047
     war: 0.0637
     is_incumbent: true
-    war_v2: -0.0608
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0314
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2854
+    tide_component: -0.0015
     expected_two_party_share: 0.541
-    expected_two_party_share_v2: 0.6655
+    expected_two_party_share_v2: 0.6361
   - name: Ronald J. Chernisky
     slug: ronald-j-chernisky
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3953
     war: -0.0637
     is_incumbent: false
-    war_v2: -0.0637
+    incumbent_terms: 0
+    war_v2: -0.0417
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2423
+    tide_component: -0.0008
     expected_two_party_share: 0.459
-    expected_two_party_share_v2: 0.459
+    expected_two_party_share_v2: 0.437
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5821
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5483
     war: -0.0338
     is_incumbent: false
-    war_v2: -0.0338
+    incumbent_terms: 0
+    war_v2: 0.0469
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3072
+    tide_component: -0.0014
     expected_two_party_share: 0.5821
-    expected_two_party_share_v2: 0.5821
+    expected_two_party_share_v2: 0.5014
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4517
     war: 0.0338
     is_incumbent: false
-    war_v2: 0.0338
+    incumbent_terms: 0
+    war_v2: 0.0365
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2205
+    tide_component: -0.0009
     expected_two_party_share: 0.4179
-    expected_two_party_share_v2: 0.4179
+    expected_two_party_share_v2: 0.4152
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5354
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.652
     war: 0.1166
     is_incumbent: true
-    war_v2: -0.0079
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0188
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2825
+    tide_component: -0.0014
     expected_two_party_share: 0.5354
-    expected_two_party_share_v2: 0.6599
+    expected_two_party_share_v2: 0.6332
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.348
     war: -0.1166
     is_incumbent: false
-    war_v2: -0.1166
+    incumbent_terms: 0
+    war_v2: -0.0919
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2452
+    tide_component: -0.0009
     expected_two_party_share: 0.4646
-    expected_two_party_share_v2: 0.4646
+    expected_two_party_share_v2: 0.4399
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3908
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.5107
     war: 0.12
     is_incumbent: false
-    war_v2: 0.12
+    incumbent_terms: 0
+    war_v2: 0.11
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2062
+    tide_component: -0.0011
     expected_two_party_share: 0.3907
-    expected_two_party_share_v2: 0.3907
+    expected_two_party_share_v2: 0.4007
   - name: Jerzy J. Jachimczyk
     slug: jerzy-j-jachimczyk
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.4893
     war: -0.12
     is_incumbent: false
-    war_v2: -0.12
+    incumbent_terms: 0
+    war_v2: -0.0266
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3215
+    tide_component: -0.0012
     expected_two_party_share: 0.6093
-    expected_two_party_share_v2: 0.6093
+    expected_two_party_share_v2: 0.5159
   is_open_seat: null
 title: 6th Worcester (2001-2010)
 layout: district

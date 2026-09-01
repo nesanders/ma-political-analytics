@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2666
-  war_v2: 0.2666
+  war_v2: 0.4188
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7334
-  expected_two_party_share_v2: 0.7334
+  expected_two_party_share_v2: 0.5812
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Leigh Susan Davis
 layout: candidate
 ---

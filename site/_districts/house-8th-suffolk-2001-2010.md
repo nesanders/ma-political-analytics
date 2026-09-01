@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.7725
     war: -0.057
     is_incumbent: true
-    war_v2: -0.1815
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0032
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4377
+    tide_component: -0.0012
     expected_two_party_share: 0.8295
-    expected_two_party_share_v2: 0.954
+    expected_two_party_share_v2: 0.7757
   - name: Brad Marston
     slug: brad-marston
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.2275
     war: 0.057
     is_incumbent: false
-    war_v2: 0.057
+    incumbent_terms: 0
+    war_v2: -0.057
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.09
+    tide_component: -0.0011
     expected_two_party_share: 0.1705
-    expected_two_party_share_v2: 0.1705
+    expected_two_party_share_v2: 0.2845
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8676
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1324
     is_incumbent: true
-    war_v2: 0.0079
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2019
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4578
+    tide_component: -0.0015
     expected_two_party_share: 0.8676
-    expected_two_party_share_v2: 0.9921
+    expected_two_party_share_v2: 0.7981
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.8422
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1578
     is_incumbent: true
-    war_v2: 0.0333
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2049
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4444
+    tide_component: -0.0014
     expected_two_party_share: 0.8422
-    expected_two_party_share_v2: 0.9667
+    expected_two_party_share_v2: 0.7951
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8436
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.7655
     war: -0.0781
     is_incumbent: false
-    war_v2: -0.0781
+    incumbent_terms: 0
+    war_v2: 0.1262
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4452
+    tide_component: -0.0014
     expected_two_party_share: 0.8436
-    expected_two_party_share_v2: 0.8436
+    expected_two_party_share_v2: 0.6393
   - name: Richard L. Babson
     slug: richard-l-babson
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.2345
     war: 0.0781
     is_incumbent: false
-    war_v2: 0.0781
+    incumbent_terms: 0
+    war_v2: -0.0428
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.0825
+    tide_component: -0.0009
     expected_two_party_share: 0.1564
-    expected_two_party_share_v2: 0.1564
+    expected_two_party_share_v2: 0.2773
   - name: L. Thomas White
     slug: l-thomas-white
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0227
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2747
     is_incumbent: false
-    war_v2: 0.2747
+    incumbent_terms: 0
+    war_v2: 0.4228
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3827
+    tide_component: -0.0011
     expected_two_party_share: 0.7253
-    expected_two_party_share_v2: 0.7253
+    expected_two_party_share_v2: 0.5772
   is_open_seat: null
 title: 8th Suffolk (2001-2010)
 layout: district

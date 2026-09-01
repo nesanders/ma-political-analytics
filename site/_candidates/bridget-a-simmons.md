@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4615
   war: 0.1018
-  war_v2: 0.1018
+  war_v2: 0.0772
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3597
-  expected_two_party_share_v2: 0.3597
+  expected_two_party_share_v2: 0.3843
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Bridget A. Simmons
 layout: candidate
 ---

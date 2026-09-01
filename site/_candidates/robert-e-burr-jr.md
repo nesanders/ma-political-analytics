@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3708
   war: -0.1139
-  war_v2: -0.1139
+  war_v2: -0.0795
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4847
-  expected_two_party_share_v2: 0.4847
+  expected_two_party_share_v2: 0.4503
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert E. Burr, Jr.
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3228
   war: -0.0819
-  war_v2: -0.0819
+  war_v2: -0.0853
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4047
-  expected_two_party_share_v2: 0.4047
+  expected_two_party_share_v2: 0.4081
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brad Williams
 layout: candidate
 ---

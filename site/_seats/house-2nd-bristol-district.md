@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4412
     is_incumbent: true
-    war_v2: 0.3167
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3545
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2949
+    tide_component: -0.0014
     expected_two_party_share: 0.5588
-    expected_two_party_share_v2: 0.6833
+    expected_two_party_share_v2: 0.6455
   - name: Andrew Nelson
     slug: andrew-nelson
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.2772
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Patricia Bellfield
@@ -52,8 +60,12 @@ results_by_year:
     actual_two_party_share: 0.1871
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.6055
     war: 0.0239
     is_incumbent: false
-    war_v2: 0.0239
+    incumbent_terms: 0
+    war_v2: 0.1045
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3069
+    tide_component: -0.0015
     expected_two_party_share: 0.5816
-    expected_two_party_share_v2: 0.5816
+    expected_two_party_share_v2: 0.501
   - name: Steven Joseph Escobar
     slug: steven-joseph-escobar
     party: Republican
@@ -85,10 +101,14 @@ results_by_year:
     actual_two_party_share: 0.3945
     war: -0.0239
     is_incumbent: false
-    war_v2: -0.0239
+    incumbent_terms: 0
+    war_v2: -0.0211
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2208
+    tide_component: -0.0008
     expected_two_party_share: 0.4184
-    expected_two_party_share_v2: 0.4184
+    expected_two_party_share_v2: 0.4156
   is_open_seat: null
 demographics:
   total_population: 42780

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.477
   war: 0.2485
-  war_v2: 0.2485
+  war_v2: 0.1616
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2285
-  expected_two_party_share_v2: 0.2285
+  expected_two_party_share_v2: 0.3154
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4914
   war: -0.0302
-  war_v2: -0.0302
+  war_v2: 0.022
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5216
-  expected_two_party_share_v2: 0.5216
+  expected_two_party_share_v2: 0.4694
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John T. Mahoney, Jr
 layout: candidate
 ---

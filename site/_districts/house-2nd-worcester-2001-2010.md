@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5184
     war: -0.0348
     is_incumbent: false
-    war_v2: -0.0348
+    incumbent_terms: 0
+    war_v2: 0.0319
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2919
+    tide_component: -0.0011
     expected_two_party_share: 0.5532
-    expected_two_party_share_v2: 0.5532
+    expected_two_party_share_v2: 0.4865
   - name: Patrick M. Gerry
     slug: patrick-m-gerry
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4816
     war: 0.0348
     is_incumbent: false
-    war_v2: 0.0348
+    incumbent_terms: 0
+    war_v2: 0.0515
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2358
+    tide_component: -0.0012
     expected_two_party_share: 0.4468
-    expected_two_party_share_v2: 0.4468
+    expected_two_party_share_v2: 0.4301
   - name: Colleen O'Neil-Laperriere
     slug: colleen-oneil-laperriere
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1037
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Carolyn A. Kamuda
@@ -67,8 +79,12 @@ results_by_year:
     actual_two_party_share: 0.093
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -88,10 +104,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4282
     is_incumbent: true
-    war_v2: 0.3037
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3476
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3017
+    tide_component: -0.0015
     expected_two_party_share: 0.5718
-    expected_two_party_share_v2: 0.6963
+    expected_two_party_share_v2: 0.6524
   - name: Carolyn A. Kamuda
     slug: carolyn-a-kamuda
     party: Other
@@ -100,8 +120,12 @@ results_by_year:
     actual_two_party_share: 0.3792
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3918
     is_incumbent: false
-    war_v2: 0.3918
+    incumbent_terms: 0
+    war_v2: 0.4849
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3209
+    tide_component: -0.0014
     expected_two_party_share: 0.6082
-    expected_two_party_share_v2: 0.6082
+    expected_two_party_share_v2: 0.5151
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5753
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4247
     is_incumbent: true
-    war_v2: 0.3002
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3458
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3036
+    tide_component: -0.0014
     expected_two_party_share: 0.5753
-    expected_two_party_share_v2: 0.6998
+    expected_two_party_share_v2: 0.6542
   - name: Doreen C. Noble
     slug: doreen-c-noble
     party: Other
@@ -154,8 +186,12 @@ results_by_year:
     actual_two_party_share: 0.0006
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.6461
     war: 0.2074
     is_incumbent: false
-    war_v2: 0.2074
+    incumbent_terms: 0
+    war_v2: 0.2201
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2315
+    tide_component: -0.0011
     expected_two_party_share: 0.4387
-    expected_two_party_share_v2: 0.4387
+    expected_two_party_share_v2: 0.426
   - name: William A. Hunt
     slug: william-a-hunt
     party: Republican
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.3539
     war: -0.2074
     is_incumbent: false
-    war_v2: -0.2074
+    incumbent_terms: 0
+    war_v2: -0.1367
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2962
+    tide_component: -0.0012
     expected_two_party_share: 0.5613
-    expected_two_party_share_v2: 0.5613
+    expected_two_party_share_v2: 0.4906
   is_open_seat: null
 title: 2nd Worcester (2001-2010)
 layout: district

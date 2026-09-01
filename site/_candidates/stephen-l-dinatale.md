@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5578
-  war_v2: 0.4333
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4157
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4422
-  expected_two_party_share_v2: 0.5667
+  expected_two_party_share_v2: 0.5843
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.402
-  war_v2: 0.402
+  war_v2: 0.4903
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.598
-  expected_two_party_share_v2: 0.598
+  expected_two_party_share_v2: 0.5097
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5088
-  war_v2: 0.3843
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4003
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4912
-  expected_two_party_share_v2: 0.6157
+  expected_two_party_share_v2: 0.5997
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.385
-  war_v2: 0.2605
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3248
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.615
-  expected_two_party_share_v2: 0.7395
+  expected_two_party_share_v2: 0.6752
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.7669
   war: 0.1393
-  war_v2: 0.1393
+  war_v2: 0.2415
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6276
-  expected_two_party_share_v2: 0.6276
+  expected_two_party_share_v2: 0.5254
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Stephen L. DiNatale
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3762
     is_incumbent: true
-    war_v2: 0.2517
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3203
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3292
+    tide_component: -0.0015
     expected_two_party_share: 0.6238
-    expected_two_party_share_v2: 0.7483
+    expected_two_party_share_v2: 0.6797
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3143
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 0.5935
     war: 0.2793
     is_incumbent: false
-    war_v2: 0.2793
+    incumbent_terms: 0
+    war_v2: 0.2328
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1659
+    tide_component: -0.0008
     expected_two_party_share: 0.3142
-    expected_two_party_share_v2: 0.3142
+    expected_two_party_share_v2: 0.3607
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.4065
     war: -0.2793
     is_incumbent: false
-    war_v2: -0.2793
+    incumbent_terms: 0
+    war_v2: -0.1494
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3618
+    tide_component: -0.0015
     expected_two_party_share: 0.6858
-    expected_two_party_share_v2: 0.6858
+    expected_two_party_share_v2: 0.5559
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6209
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.5456
     war: 0.1666
     is_incumbent: true
-    war_v2: 0.0421
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0057
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2001
+    tide_component: -0.0008
     expected_two_party_share: 0.379
-    expected_two_party_share_v2: 0.5035
+    expected_two_party_share_v2: 0.5513
   - name: Moses S. Dixon
     slug: moses-s-dixon
     party: Democratic
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.4544
     war: -0.1666
     is_incumbent: false
-    war_v2: -0.1666
+    incumbent_terms: 0
+    war_v2: -0.0674
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3276
+    tide_component: -0.0015
     expected_two_party_share: 0.621
-    expected_two_party_share_v2: 0.621
+    expected_two_party_share_v2: 0.5218
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4767
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5023
     war: -0.021
     is_incumbent: false
-    war_v2: -0.021
+    incumbent_terms: 0
+    war_v2: 0.0317
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2761
+    tide_component: -0.0012
     expected_two_party_share: 0.5233
-    expected_two_party_share_v2: 0.5233
+    expected_two_party_share_v2: 0.4706
   - name: Douglas A. Belanger
     slug: douglas-a-belanger
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4977
     war: 0.021
     is_incumbent: false
-    war_v2: 0.021
+    incumbent_terms: 0
+    war_v2: 0.0517
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2516
+    tide_component: -0.0011
     expected_two_party_share: 0.4767
-    expected_two_party_share_v2: 0.4767
+    expected_two_party_share_v2: 0.446
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.631
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.7664
     war: 0.1354
     is_incumbent: false
-    war_v2: 0.1354
+    incumbent_terms: 0
+    war_v2: 0.2392
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.333
+    tide_component: -0.0014
     expected_two_party_share: 0.631
-    expected_two_party_share_v2: 0.631
+    expected_two_party_share_v2: 0.5272
   - name: William G. Lebeau
     slug: william-g-lebeau
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.2336
     war: -0.1354
     is_incumbent: false
-    war_v2: -0.1354
+    incumbent_terms: 0
+    war_v2: -0.1558
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1947
+    tide_component: -0.0009
     expected_two_party_share: 0.369
-    expected_two_party_share_v2: 0.369
+    expected_two_party_share_v2: 0.3894
   is_open_seat: null
 title: 17th Worcester District (2012-2020)
 layout: district

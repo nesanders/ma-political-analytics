@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.408
   war: -0.0867
-  war_v2: -0.0867
+  war_v2: -0.0472
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4947
-  expected_two_party_share_v2: 0.4947
+  expected_two_party_share_v2: 0.4552
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -51,6 +53,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: George John Simolaris, Jr
 layout: candidate
 ---

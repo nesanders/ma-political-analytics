@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5429
     war: -0.051
     is_incumbent: false
-    war_v2: -0.051
+    incumbent_terms: 0
+    war_v2: 0.0354
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3134
+    tide_component: -0.0015
     expected_two_party_share: 0.5939
-    expected_two_party_share_v2: 0.5939
+    expected_two_party_share_v2: 0.5075
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4571
     war: 0.051
     is_incumbent: true
-    war_v2: -0.0735
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0981
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2143
+    tide_component: -0.0008
     expected_two_party_share: 0.4061
-    expected_two_party_share_v2: 0.5306
+    expected_two_party_share_v2: 0.5552
   - name: Michael Luis Mecenas
     slug: michael-luis-mecenas
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0394
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.5204
     war: -0.2411
     is_incumbent: true
-    war_v2: -0.3656
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.232
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4018
+    tide_component: -0.0015
     expected_two_party_share: 0.7615
-    expected_two_party_share_v2: 0.886
+    expected_two_party_share_v2: 0.7524
   - name: Paul J. Cusack
     slug: paul-j-cusack
     party: Democratic
@@ -88,10 +104,14 @@ results_by_year:
     actual_two_party_share: 0.4796
     war: 0.2411
     is_incumbent: false
-    war_v2: 0.2411
+    incumbent_terms: 0
+    war_v2: 0.1589
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1259
+    tide_component: -0.0008
     expected_two_party_share: 0.2385
-    expected_two_party_share_v2: 0.2385
+    expected_two_party_share_v2: 0.3207
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5419
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.548
     war: 0.0899
     is_incumbent: false
-    war_v2: 0.0899
+    incumbent_terms: 0
+    war_v2: 0.1115
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2417
+    tide_component: -0.0008
     expected_two_party_share: 0.4581
-    expected_two_party_share_v2: 0.4581
+    expected_two_party_share_v2: 0.4365
   - name: Aaron S. Kanzer
     slug: aaron-s-kanzer
     party: Democratic
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.452
     war: -0.0899
     is_incumbent: false
-    war_v2: -0.0899
+    incumbent_terms: 0
+    war_v2: -0.0281
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.286
+    tide_component: -0.0015
     expected_two_party_share: 0.5419
-    expected_two_party_share_v2: 0.5419
+    expected_two_party_share_v2: 0.4801
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4112
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.5067
     war: 0.0955
     is_incumbent: true
-    war_v2: -0.029
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0613
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.217
+    tide_component: -0.0011
     expected_two_party_share: 0.4112
-    expected_two_party_share_v2: 0.5357
+    expected_two_party_share_v2: 0.568
   - name: Adam G. Chaprales, Sr
     slug: adam-g-chaprales-sr
     party: Republican
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.4933
     war: -0.0955
     is_incumbent: false
-    war_v2: -0.0955
+    incumbent_terms: 0
+    war_v2: -0.0118
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3107
+    tide_component: -0.0012
     expected_two_party_share: 0.5888
-    expected_two_party_share_v2: 0.5888
+    expected_two_party_share_v2: 0.5051
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5148
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4852
     is_incumbent: false
-    war_v2: 0.4852
+    incumbent_terms: 0
+    war_v2: 0.5342
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2717
+    tide_component: -0.0014
     expected_two_party_share: 0.5148
-    expected_two_party_share_v2: 0.5148
+    expected_two_party_share_v2: 0.4658
   is_open_seat: null
 title: 2nd Barnstable District (2012-2020)
 layout: district

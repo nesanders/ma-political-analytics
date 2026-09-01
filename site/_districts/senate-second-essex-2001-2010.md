@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6615
     war: 0.1936
     is_incumbent: true
-    war_v2: 0.0691
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0766
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2469
+    tide_component: -0.0012
     expected_two_party_share: 0.4679
-    expected_two_party_share_v2: 0.5924
+    expected_two_party_share_v2: 0.5849
   - name: Richard A. Jolitz
     slug: richard-a-jolitz
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3385
     war: -0.1936
     is_incumbent: false
-    war_v2: -0.1936
+    incumbent_terms: 0
+    war_v2: -0.1368
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2808
+    tide_component: -0.0011
     expected_two_party_share: 0.5321
-    expected_two_party_share_v2: 0.5321
+    expected_two_party_share_v2: 0.4753
   - name: Matthew J. Fraser
     slug: matthew-j-fraser
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0755
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4081
     is_incumbent: true
-    war_v2: 0.2836
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3499
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3123
+    tide_component: -0.0015
     expected_two_party_share: 0.5919
-    expected_two_party_share_v2: 0.7164
+    expected_two_party_share_v2: 0.6501
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5521
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4479
     is_incumbent: true
-    war_v2: 0.3234
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3684
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2913
+    tide_component: -0.0014
     expected_two_party_share: 0.5521
-    expected_two_party_share_v2: 0.6766
+    expected_two_party_share_v2: 0.6316
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5969
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4031
     is_incumbent: true
-    war_v2: 0.2786
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3344
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.315
+    tide_component: -0.0014
     expected_two_party_share: 0.5969
-    expected_two_party_share_v2: 0.7214
+    expected_two_party_share_v2: 0.6656
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4205
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5795
     is_incumbent: false
-    war_v2: 0.5795
+    incumbent_terms: 0
+    war_v2: 0.5836
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2219
+    tide_component: -0.0011
     expected_two_party_share: 0.4205
-    expected_two_party_share_v2: 0.4205
+    expected_two_party_share_v2: 0.4164
   is_open_seat: null
 title: Second Essex (2001-2010)
 layout: district

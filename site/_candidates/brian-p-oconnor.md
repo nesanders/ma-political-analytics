@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3216
   war: -0.0955
-  war_v2: -0.0955
+  war_v2: -0.0933
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4171
-  expected_two_party_share_v2: 0.4171
+  expected_two_party_share_v2: 0.4149
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Brian P. O'Connor
 layout: candidate
 ---

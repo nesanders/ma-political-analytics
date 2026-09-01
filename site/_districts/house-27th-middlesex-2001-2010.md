@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2106
     is_incumbent: true
-    war_v2: 0.0861
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.243
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4166
+    tide_component: -0.0012
     expected_two_party_share: 0.7894
-    expected_two_party_share_v2: 0.9139
+    expected_two_party_share_v2: 0.757
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8364
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1636
     is_incumbent: true
-    war_v2: 0.0391
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.208
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4414
+    tide_component: -0.0015
     expected_two_party_share: 0.8364
-    expected_two_party_share_v2: 0.9609
+    expected_two_party_share_v2: 0.792
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7961
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2039
     is_incumbent: false
-    war_v2: 0.2039
+    incumbent_terms: 0
+    war_v2: 0.3857
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4201
+    tide_component: -0.0014
     expected_two_party_share: 0.7961
-    expected_two_party_share_v2: 0.7961
+    expected_two_party_share_v2: 0.6143
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.8228
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.8137
     war: -0.0091
     is_incumbent: true
-    war_v2: -0.1336
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0289
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4342
+    tide_component: -0.0014
     expected_two_party_share: 0.8228
-    expected_two_party_share_v2: 0.9473
+    expected_two_party_share_v2: 0.7848
   - name: Dane E. Baird, Jr.
     slug: dane-e-baird-jr
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.1863
     war: 0.0091
     is_incumbent: false
-    war_v2: 0.0091
+    incumbent_terms: 0
+    war_v2: -0.102
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.0935
+    tide_component: -0.0009
     expected_two_party_share: 0.1772
-    expected_two_party_share_v2: 0.1772
+    expected_two_party_share_v2: 0.2883
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6835
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3165
     is_incumbent: false
-    war_v2: 0.3165
+    incumbent_terms: 0
+    war_v2: 0.4448
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3607
+    tide_component: -0.0011
     expected_two_party_share: 0.6835
-    expected_two_party_share_v2: 0.6835
+    expected_two_party_share_v2: 0.5552
   - name: John Alan Roderick
     slug: john-alan-roderick
     party: Libertarian
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.2272
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

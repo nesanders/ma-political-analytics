@@ -1,3 +1,38 @@
-incumbency_effect: 0.1245
-n_incumbent: 413
+n: 1494
+r_squared: 0.4814
+posterior_sigma_mean: 0.1125
+coefficients:
+  intercept:
+    posterior_mean: 0.1956
+    posterior_sd: 0.0132
+    ci_95_low: 0.1698
+    ci_95_high: 0.2217
+  own_lean:
+    posterior_mean: 0.5277
+    posterior_sd: 0.0308
+    ci_95_low: 0.4673
+    ci_95_high: 0.5884
+  own_tide:
+    posterior_mean: -0.0023
+    posterior_sd: 0.0358
+    ci_95_low: -0.0716
+    ci_95_high: 0.0683
+  incumbent_1:
+    posterior_mean: 0.1565
+    posterior_sd: 0.0086
+    ci_95_low: 0.1396
+    ci_95_high: 0.1737
+  incumbent_2:
+    posterior_mean: 0.1461
+    posterior_sd: 0.0126
+    ci_95_low: 0.1209
+    ci_95_high: 0.1709
+  incumbent_3plus:
+    posterior_mean: 0.1436
+    posterior_sd: 0.0115
+    ci_95_low: 0.121
+    ci_95_high: 0.1661
+n_incumbent_1: 225
+n_incumbent_2: 87
+n_incumbent_3plus: 101
 n_non_incumbent: 1081

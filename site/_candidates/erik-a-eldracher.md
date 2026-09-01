@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3832
   war: -0.0482
-  war_v2: -0.0482
+  war_v2: -0.0392
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4314
-  expected_two_party_share_v2: 0.4314
+  expected_two_party_share_v2: 0.4224
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Erik A. Eldracher
 layout: candidate
 ---

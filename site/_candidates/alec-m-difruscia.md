@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4357
   war: -0.0214
-  war_v2: -0.0214
+  war_v2: -0.0004
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4571
-  expected_two_party_share_v2: 0.4571
+  expected_two_party_share_v2: 0.4361
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Alec M. Difruscia
 layout: candidate
 ---

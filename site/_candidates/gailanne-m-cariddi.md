@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3085
-  war_v2: 0.184
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2949
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6915
-  expected_two_party_share_v2: 0.816
+  expected_two_party_share_v2: 0.7051
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2823
-  war_v2: 0.1578
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2703
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7177
-  expected_two_party_share_v2: 0.8422
+  expected_two_party_share_v2: 0.7297
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2243
-  war_v2: 0.2243
+  war_v2: 0.3965
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7757
-  expected_two_party_share_v2: 0.7757
+  expected_two_party_share_v2: 0.6035
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2393
-  war_v2: 0.2393
+  war_v2: 0.4042
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7607
-  expected_two_party_share_v2: 0.7607
+  expected_two_party_share_v2: 0.5958
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Gailanne M. Cariddi
 layout: candidate
 ---

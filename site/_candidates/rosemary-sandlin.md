@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4
   war: -0.0348
-  war_v2: -0.0348
+  war_v2: -0.0235
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4348
-  expected_two_party_share_v2: 0.4348
+  expected_two_party_share_v2: 0.4235
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4959
   war: 0.0761
-  war_v2: -0.0484
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0661
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4198
-  expected_two_party_share_v2: 0.5443
+  expected_two_party_share_v2: 0.562
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4769
-  war_v2: 0.3524
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3733
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5231
-  expected_two_party_share_v2: 0.6476
+  expected_two_party_share_v2: 0.6267
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.5553
   war: 0.026
-  war_v2: 0.026
+  war_v2: 0.0818
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5293
-  expected_two_party_share_v2: 0.5293
+  expected_two_party_share_v2: 0.4735
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Rosemary Sandlin
 layout: candidate
 ---

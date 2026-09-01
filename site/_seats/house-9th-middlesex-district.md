@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.7786
     war: 0.081
     is_incumbent: true
-    war_v2: -0.0435
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0598
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3681
+    tide_component: -0.0014
     expected_two_party_share: 0.6976
-    expected_two_party_share_v2: 0.8221
+    expected_two_party_share_v2: 0.7188
   - name: Carly Marie Downs
     slug: carly-marie-downs
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.2214
     war: -0.081
     is_incumbent: false
-    war_v2: -0.081
+    incumbent_terms: 0
+    war_v2: -0.1329
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1596
+    tide_component: -0.0009
     expected_two_party_share: 0.3024
-    expected_two_party_share_v2: 0.3024
+    expected_two_party_share_v2: 0.3543
   - name: Sean Diamond
     slug: sean-diamond
     party: Other
@@ -52,8 +60,12 @@ results_by_year:
     actual_two_party_share: 0.0705
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2859
     is_incumbent: false
-    war_v2: 0.2859
+    incumbent_terms: 0
+    war_v2: 0.4291
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3768
+    tide_component: -0.0015
     expected_two_party_share: 0.7141
-    expected_two_party_share_v2: 0.7141
+    expected_two_party_share_v2: 0.5709
   is_open_seat: null
 demographics:
   total_population: 43266

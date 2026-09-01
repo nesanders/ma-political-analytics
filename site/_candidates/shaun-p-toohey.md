@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4618
   war: -0.1112
-  war_v2: -0.1112
+  war_v2: -0.035
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.573
-  expected_two_party_share_v2: 0.573
+  expected_two_party_share_v2: 0.4968
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4227
   war: -0.0217
-  war_v2: -0.0217
+  war_v2: -0.0065
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4444
-  expected_two_party_share_v2: 0.4444
+  expected_two_party_share_v2: 0.4292
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Shaun P. Toohey
 layout: candidate
 ---

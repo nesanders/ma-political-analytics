@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2666
     is_incumbent: false
-    war_v2: 0.2666
+    incumbent_terms: 0
+    war_v2: 0.4188
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.387
+    tide_component: -0.0014
     expected_two_party_share: 0.7334
-    expected_two_party_share_v2: 0.7334
+    expected_two_party_share_v2: 0.5812
   - name: Marybeth F. Mitts
     slug: marybeth-f-mitts
     party: Other
@@ -40,8 +44,12 @@ results_by_year:
     actual_two_party_share: 0.7397
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2528
     is_incumbent: false
-    war_v2: 0.2528
+    incumbent_terms: 0
+    war_v2: 0.4116
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3943
+    tide_component: -0.0015
     expected_two_party_share: 0.7472
-    expected_two_party_share_v2: 0.7472
+    expected_two_party_share_v2: 0.5884
   - name: Michael Silvio Lavery
     slug: michael-silvio-lavery
     party: null
@@ -73,8 +85,12 @@ results_by_year:
     actual_two_party_share: 0.1039
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2491
     is_incumbent: true
-    war_v2: 0.1246
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2633
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3962
+    tide_component: -0.0012
     expected_two_party_share: 0.7509
-    expected_two_party_share_v2: 0.8754
+    expected_two_party_share_v2: 0.7367
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7602
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2398
     is_incumbent: true
-    war_v2: 0.1153
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2482
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4012
+    tide_component: -0.0015
     expected_two_party_share: 0.7602
-    expected_two_party_share_v2: 0.8847
+    expected_two_party_share_v2: 0.7518
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.781
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.7353
     war: -0.0457
     is_incumbent: false
-    war_v2: -0.0457
+    incumbent_terms: 0
+    war_v2: 0.129
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4121
+    tide_component: -0.0014
     expected_two_party_share: 0.781
-    expected_two_party_share_v2: 0.781
+    expected_two_party_share_v2: 0.6063
   - name: Matthew W. Kinnaman
     slug: matthew-w-kinnaman
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.2647
     war: 0.0457
     is_incumbent: false
-    war_v2: 0.0457
+    incumbent_terms: 0
+    war_v2: -0.0456
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1156
+    tide_component: -0.0009
     expected_two_party_share: 0.219
-    expected_two_party_share_v2: 0.219
+    expected_two_party_share_v2: 0.3103
   - name: Dion C. Robbins-Zust
     slug: dion-c-robbins-zust
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.0387
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.7762
     war: 0.0476
     is_incumbent: true
-    war_v2: -0.0769
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0411
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3844
+    tide_component: -0.0014
     expected_two_party_share: 0.7286
-    expected_two_party_share_v2: 0.8531
+    expected_two_party_share_v2: 0.7351
   - name: Dawn Taylor Thompson
     slug: dawn-taylor-thompson
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.2238
     war: -0.0476
     is_incumbent: false
-    war_v2: -0.0476
+    incumbent_terms: 0
+    war_v2: -0.1142
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1433
+    tide_component: -0.0009
     expected_two_party_share: 0.2714
-    expected_two_party_share_v2: 0.2714
+    expected_two_party_share_v2: 0.338
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6533
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3467
     is_incumbent: false
-    war_v2: 0.3467
+    incumbent_terms: 0
+    war_v2: 0.4607
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3447
+    tide_component: -0.0011
     expected_two_party_share: 0.6533
-    expected_two_party_share_v2: 0.6533
+    expected_two_party_share_v2: 0.5393
   - name: William P. Foley
     slug: william-p-foley
     party: Other
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.2069
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

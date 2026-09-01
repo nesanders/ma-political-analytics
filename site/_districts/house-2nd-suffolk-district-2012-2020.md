@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1905
     is_incumbent: true
-    war_v2: 0.066
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2352
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4272
+    tide_component: -0.0015
     expected_two_party_share: 0.8095
-    expected_two_party_share_v2: 0.934
+    expected_two_party_share_v2: 0.7648
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5143
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4857
     is_incumbent: true
-    war_v2: 0.3612
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3877
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2714
+    tide_component: -0.0008
     expected_two_party_share: 0.5143
-    expected_two_party_share_v2: 0.6388
+    expected_two_party_share_v2: 0.6123
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8369
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1631
     is_incumbent: true
-    war_v2: 0.0386
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2078
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4416
+    tide_component: -0.0015
     expected_two_party_share: 0.8369
-    expected_two_party_share_v2: 0.9614
+    expected_two_party_share_v2: 0.7922
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6885
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3115
     is_incumbent: false
-    war_v2: 0.3115
+    incumbent_terms: 0
+    war_v2: 0.4422
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3633
+    tide_component: -0.0011
     expected_two_party_share: 0.6885
-    expected_two_party_share_v2: 0.6885
+    expected_two_party_share_v2: 0.5578
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8116
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.8203
     war: 0.0087
     is_incumbent: false
-    war_v2: 0.0087
+    incumbent_terms: 0
+    war_v2: 0.1978
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4283
+    tide_component: -0.0014
     expected_two_party_share: 0.8116
-    expected_two_party_share_v2: 0.8116
+    expected_two_party_share_v2: 0.6225
   - name: Charles F. Klauder
     slug: charles-f-klauder
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.1797
     war: -0.0087
     is_incumbent: false
-    war_v2: -0.0087
+    incumbent_terms: 0
+    war_v2: -0.1144
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.0994
+    tide_component: -0.0009
     expected_two_party_share: 0.1884
-    expected_two_party_share_v2: 0.1884
+    expected_two_party_share_v2: 0.2941
   is_open_seat: null
 title: 2nd Suffolk District (2012-2020)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4747
   war: -0.3132
-  war_v2: -0.3132
+  war_v2: -0.1351
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7879
-  expected_two_party_share_v2: 0.7879
+  expected_two_party_share_v2: 0.6098
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4545
   war: -0.1601
-  war_v2: -0.1601
+  war_v2: -0.0644
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6146
-  expected_two_party_share_v2: 0.6146
+  expected_two_party_share_v2: 0.5189
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Joseph M. Truschelli
 layout: candidate
 ---

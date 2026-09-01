@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4449
-  war_v2: 0.3204
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3561
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5551
-  expected_two_party_share_v2: 0.6796
+  expected_two_party_share_v2: 0.6439
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3415
-  war_v2: 0.3415
+  war_v2: 0.4583
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6585
-  expected_two_party_share_v2: 0.6585
+  expected_two_party_share_v2: 0.5417
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4269
-  war_v2: 0.3024
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3467
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5731
-  expected_two_party_share_v2: 0.6976
+  expected_two_party_share_v2: 0.6533
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -67,6 +70,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Timothy R. Madden
 layout: candidate
 ---

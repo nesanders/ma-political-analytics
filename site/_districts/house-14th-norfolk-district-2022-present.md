@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2399
     is_incumbent: true
-    war_v2: 0.1154
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2482
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4011
+    tide_component: -0.0014
     expected_two_party_share: 0.7601
-    expected_two_party_share_v2: 0.8846
+    expected_two_party_share_v2: 0.7518
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7229
@@ -49,10 +53,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2771
     is_incumbent: false
-    war_v2: 0.2771
+    incumbent_terms: 0
+    war_v2: 0.4244
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3815
+    tide_component: -0.0015
     expected_two_party_share: 0.7229
-    expected_two_party_share_v2: 0.7229
+    expected_two_party_share_v2: 0.5756
   - name: David Rolde
     slug: david-rolde
     party: null
@@ -61,8 +69,12 @@ results_by_year:
     actual_two_party_share: 0.083
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

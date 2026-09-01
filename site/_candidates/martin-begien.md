@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.19
   war: -0.0177
-  war_v2: -0.0177
+  war_v2: -0.1143
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2077
-  expected_two_party_share_v2: 0.2077
+  expected_two_party_share_v2: 0.3043
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Martin Begien
 layout: candidate
 ---

@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5654
     war: -0.039
     is_incumbent: true
-    war_v2: -0.1635
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1042
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3189
+    tide_component: -0.0014
     expected_two_party_share: 0.6044
-    expected_two_party_share_v2: 0.7289
+    expected_two_party_share_v2: 0.6696
   - name: Gerald Joseph O'Connell
     slug: gerald-joseph-oconnell
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4346
     war: 0.039
     is_incumbent: false
-    war_v2: 0.039
+    incumbent_terms: 0
+    war_v2: 0.0311
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2088
+    tide_component: -0.0009
     expected_two_party_share: 0.3956
-    expected_two_party_share_v2: 0.3956
+    expected_two_party_share_v2: 0.4035
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5452
     war: -0.0629
     is_incumbent: false
-    war_v2: -0.0629
+    incumbent_terms: 0
+    war_v2: 0.0302
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3209
+    tide_component: -0.0015
     expected_two_party_share: 0.6081
-    expected_two_party_share_v2: 0.6081
+    expected_two_party_share_v2: 0.515
   - name: Tracy A. Post
     slug: tracy-a-post
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4548
     war: 0.0629
     is_incumbent: false
-    war_v2: 0.0629
+    incumbent_terms: 0
+    war_v2: 0.0532
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2068
+    tide_component: -0.0008
     expected_two_party_share: 0.3919
-    expected_two_party_share_v2: 0.3919
+    expected_two_party_share_v2: 0.4016
   - name: Abraham Kasparian, Jr.
     slug: abraham-kasparian-jr
     party: Other
@@ -85,8 +101,12 @@ results_by_year:
     actual_two_party_share: 0.0196
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

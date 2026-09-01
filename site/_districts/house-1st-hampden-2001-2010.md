@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4252
     is_incumbent: true
-    war_v2: 0.3007
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3585
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3033
+    tide_component: -0.0011
     expected_two_party_share: 0.5748
-    expected_two_party_share_v2: 0.6993
+    expected_two_party_share_v2: 0.6415
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5466
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5466
     is_incumbent: true
-    war_v2: 0.4221
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4199
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2393
+    tide_component: -0.0008
     expected_two_party_share: 0.4534
-    expected_two_party_share_v2: 0.5779
+    expected_two_party_share_v2: 0.5801
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5397
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5397
     is_incumbent: true
-    war_v2: 0.4152
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4059
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2429
+    tide_component: -0.0009
     expected_two_party_share: 0.4603
-    expected_two_party_share_v2: 0.5848
+    expected_two_party_share_v2: 0.5941
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5582
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.6282
     war: 0.1864
     is_incumbent: false
-    war_v2: 0.1864
+    incumbent_terms: 0
+    war_v2: 0.2003
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2331
+    tide_component: -0.0009
     expected_two_party_share: 0.4418
-    expected_two_party_share_v2: 0.4418
+    expected_two_party_share_v2: 0.4279
   - name: Monica J. Palacios-Boyce
     slug: monica-j-palacios-boyce
     party: Democratic
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.3718
     war: -0.1864
     is_incumbent: false
-    war_v2: -0.1864
+    incumbent_terms: 0
+    war_v2: -0.1169
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2946
+    tide_component: -0.0014
     expected_two_party_share: 0.5582
-    expected_two_party_share_v2: 0.5582
+    expected_two_party_share_v2: 0.4887
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4338
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4338
     is_incumbent: false
-    war_v2: 0.4338
+    incumbent_terms: 0
+    war_v2: 0.5068
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2988
+    tide_component: -0.0012
     expected_two_party_share: 0.5662
-    expected_two_party_share_v2: 0.5662
+    expected_two_party_share_v2: 0.4932
   is_open_seat: null
 title: 1st Hampden (2001-2010)
 layout: district

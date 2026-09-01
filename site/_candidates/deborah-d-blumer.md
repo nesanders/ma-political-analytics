@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.3743
-  war_v2: 0.2498
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3295
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6257
-  expected_two_party_share_v2: 0.7502
+  expected_two_party_share_v2: 0.6705
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6706
   war: -0.0005
-  war_v2: -0.125
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0342
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6711
-  expected_two_party_share_v2: 0.7956
+  expected_two_party_share_v2: 0.7048
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5409
-  war_v2: 0.5409
+  war_v2: 0.5632
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4591
-  expected_two_party_share_v2: 0.4591
+  expected_two_party_share_v2: 0.4368
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Deborah D. Blumer
 layout: candidate
 ---

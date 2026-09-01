@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.6685
   war: 0.0504
-  war_v2: -0.0741
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0083
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6181
-  expected_two_party_share_v2: 0.7426
+  expected_two_party_share_v2: 0.6768
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6772
   war: 0.0279
-  war_v2: 0.0279
+  war_v2: 0.1405
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6493
-  expected_two_party_share_v2: 0.6493
+  expected_two_party_share_v2: 0.5367
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3452
-  war_v2: 0.2207
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3168
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.6548
-  expected_two_party_share_v2: 0.7793
+  expected_two_party_share_v2: 0.6832
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7115
-  war_v2: 0.587
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5093
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.2885
-  expected_two_party_share_v2: 0.413
+  expected_two_party_share_v2: 0.4907
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3825
-  war_v2: 0.258
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3339
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6175
-  expected_two_party_share_v2: 0.742
+  expected_two_party_share_v2: 0.6661
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5482
-  war_v2: 0.4237
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4106
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4518
-  expected_two_party_share_v2: 0.5763
+  expected_two_party_share_v2: 0.5894
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 0.7075
   war: 0.1184
-  war_v2: 0.1184
+  war_v2: 0.2025
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5891
-  expected_two_party_share_v2: 0.5891
+  expected_two_party_share_v2: 0.505
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Joan B. Lovely
 layout: candidate
 ---

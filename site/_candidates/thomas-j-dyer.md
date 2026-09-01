@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3651
   war: -0.0516
-  war_v2: -0.0516
+  war_v2: -0.0495
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4167
-  expected_two_party_share_v2: 0.4167
+  expected_two_party_share_v2: 0.4146
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Thomas J. Dyer
 layout: candidate
 ---

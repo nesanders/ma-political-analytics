@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1884
-  war_v2: 0.0639
-  incumbency_adjustment: 0.1245
+  war_v2: 0.234
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.8116
-  expected_two_party_share_v2: 0.9361
+  expected_two_party_share_v2: 0.766
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2669
-  war_v2: 0.1424
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2728
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7331
-  expected_two_party_share_v2: 0.8576
+  expected_two_party_share_v2: 0.7272
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -67,6 +70,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -83,6 +87,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: William Lantigua
 layout: candidate
 ---

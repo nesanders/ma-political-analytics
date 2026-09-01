@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.8246
   war: 0.029
-  war_v2: 0.029
+  war_v2: 0.2106
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7956
-  expected_two_party_share_v2: 0.7956
+  expected_two_party_share_v2: 0.614
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: John Francis Moran
 layout: candidate
 ---

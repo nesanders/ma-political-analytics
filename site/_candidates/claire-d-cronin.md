@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2946
-  war_v2: 0.1701
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2901
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7054
-  expected_two_party_share_v2: 0.8299
+  expected_two_party_share_v2: 0.7099
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6374
-  war_v2: 0.5129
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4702
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3626
-  expected_two_party_share_v2: 0.4871
+  expected_two_party_share_v2: 0.5298
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3319
-  war_v2: 0.2074
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3072
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6681
-  expected_two_party_share_v2: 0.7926
+  expected_two_party_share_v2: 0.6928
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4834
-  war_v2: 0.3589
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3764
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5166
-  expected_two_party_share_v2: 0.6411
+  expected_two_party_share_v2: 0.6236
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.6327
   war: 0.0001
-  war_v2: 0.0001
+  war_v2: 0.1046
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6326
-  expected_two_party_share_v2: 0.6326
+  expected_two_party_share_v2: 0.5281
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Claire D. Cronin
 layout: candidate
 ---

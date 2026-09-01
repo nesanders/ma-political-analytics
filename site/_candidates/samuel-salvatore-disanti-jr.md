@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3212
   war: -0.0111
-  war_v2: -0.0111
+  war_v2: -0.0486
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3323
-  expected_two_party_share_v2: 0.3323
+  expected_two_party_share_v2: 0.3698
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3881
   war: -0.1012
-  war_v2: -0.1012
+  war_v2: -0.0643
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4893
-  expected_two_party_share_v2: 0.4893
+  expected_two_party_share_v2: 0.4524
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Samuel Salvatore Disanti, Jr.
 layout: candidate
 ---

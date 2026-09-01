@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -35,6 +36,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: false
   actual_two_party_share: 0.2546
   war: -0.2017
-  war_v2: -0.2017
+  war_v2: -0.1809
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4563
-  expected_two_party_share_v2: 0.4563
+  expected_two_party_share_v2: 0.4355
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: false
   actual_two_party_share: 0.2885
   war: -0.1769
-  war_v2: -0.1769
+  war_v2: -0.1518
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4654
-  expected_two_party_share_v2: 0.4654
+  expected_two_party_share_v2: 0.4403
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Robert Montgomery Thomas
 layout: candidate
 ---

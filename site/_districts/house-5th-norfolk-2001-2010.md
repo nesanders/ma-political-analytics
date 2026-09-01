@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5362
     is_incumbent: false
-    war_v2: 0.5362
+    incumbent_terms: 0
+    war_v2: 0.5609
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2447
+    tide_component: -0.0012
     expected_two_party_share: 0.4638
-    expected_two_party_share_v2: 0.4638
+    expected_two_party_share_v2: 0.4391
   - name: Paul Dan Clifford
     slug: paul-dan-clifford
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.704
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4689
     is_incumbent: true
-    war_v2: 0.3444
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3795
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2803
+    tide_component: -0.0015
     expected_two_party_share: 0.5311
-    expected_two_party_share_v2: 0.6556
+    expected_two_party_share_v2: 0.6205
   - name: Richard A. Moran
     slug: richard-a-moran
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.2582
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4786
     is_incumbent: true
-    war_v2: 0.3541
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3742
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2751
+    tide_component: -0.0014
     expected_two_party_share: 0.5214
-    expected_two_party_share_v2: 0.6459
+    expected_two_party_share_v2: 0.6258
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5805
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.719
     war: 0.1385
     is_incumbent: false
-    war_v2: 0.1385
+    incumbent_terms: 0
+    war_v2: 0.2185
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3063
+    tide_component: -0.0014
     expected_two_party_share: 0.5805
-    expected_two_party_share_v2: 0.5805
+    expected_two_party_share_v2: 0.5005
   - name: Charles C. Kokoros
     slug: charles-c-kokoros
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.281
     war: -0.1385
     is_incumbent: false
-    war_v2: -0.1385
+    incumbent_terms: 0
+    war_v2: -0.1351
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2214
+    tide_component: -0.0009
     expected_two_party_share: 0.4195
-    expected_two_party_share_v2: 0.4195
+    expected_two_party_share_v2: 0.4161
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4414
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5586
     is_incumbent: false
-    war_v2: 0.5586
+    incumbent_terms: 0
+    war_v2: 0.5726
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2329
+    tide_component: -0.0011
     expected_two_party_share: 0.4414
-    expected_two_party_share_v2: 0.4414
+    expected_two_party_share_v2: 0.4274
   is_open_seat: null
 title: 5th Norfolk (2001-2010)
 layout: district

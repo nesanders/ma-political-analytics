@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2461
     is_incumbent: false
-    war_v2: 0.2461
+    incumbent_terms: 0
+    war_v2: 0.4081
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3978
+    tide_component: -0.0015
     expected_two_party_share: 0.7539
-    expected_two_party_share_v2: 0.7539
+    expected_two_party_share_v2: 0.5919
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3615
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6385
     is_incumbent: false
-    war_v2: 0.6385
+    incumbent_terms: 0
+    war_v2: 0.6144
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1908
+    tide_component: -0.0008
     expected_two_party_share: 0.3615
-    expected_two_party_share_v2: 0.3615
+    expected_two_party_share_v2: 0.3856
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7439
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2561
     is_incumbent: true
-    war_v2: 0.1316
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2672
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3926
+    tide_component: -0.0015
     expected_two_party_share: 0.7439
-    expected_two_party_share_v2: 0.8684
+    expected_two_party_share_v2: 0.7328
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5464
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4536
     is_incumbent: true
-    war_v2: 0.3291
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3607
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2883
+    tide_component: -0.0011
     expected_two_party_share: 0.5464
-    expected_two_party_share_v2: 0.6709
+    expected_two_party_share_v2: 0.6393
   - name: Michael John Coombes
     slug: michael-john-coombes
     party: Libertarian
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.1955
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3268
     is_incumbent: false
-    war_v2: 0.3268
+    incumbent_terms: 0
+    war_v2: 0.4506
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3552
+    tide_component: -0.0014
     expected_two_party_share: 0.6732
-    expected_two_party_share_v2: 0.6732
+    expected_two_party_share_v2: 0.5494
   is_open_seat: null
 title: 6th Middlesex District (2012-2020)
 layout: district

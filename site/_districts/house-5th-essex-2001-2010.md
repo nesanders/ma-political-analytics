@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6515
     war: 0.1201
     is_incumbent: true
-    war_v2: -0.0044
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0202
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2805
+    tide_component: -0.0012
     expected_two_party_share: 0.5314
-    expected_two_party_share_v2: 0.6559
+    expected_two_party_share_v2: 0.6313
   - name: Janet Anne Holmes
     slug: janet-anne-holmes
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3485
     war: -0.1201
     is_incumbent: false
-    war_v2: -0.1201
+    incumbent_terms: 0
+    war_v2: -0.0933
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2472
+    tide_component: -0.0011
     expected_two_party_share: 0.4686
-    expected_two_party_share_v2: 0.4686
+    expected_two_party_share_v2: 0.4418
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.649
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.351
     is_incumbent: false
-    war_v2: 0.351
+    incumbent_terms: 0
+    war_v2: 0.4634
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3425
+    tide_component: -0.0015
     expected_two_party_share: 0.649
-    expected_two_party_share_v2: 0.649
+    expected_two_party_share_v2: 0.5366
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5922
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4078
     is_incumbent: true
-    war_v2: 0.2833
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3472
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3125
+    tide_component: -0.0014
     expected_two_party_share: 0.5922
-    expected_two_party_share_v2: 0.7167
+    expected_two_party_share_v2: 0.6528
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6317
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3683
     is_incumbent: true
-    war_v2: 0.2438
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.316
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3333
+    tide_component: -0.0014
     expected_two_party_share: 0.6317
-    expected_two_party_share_v2: 0.7562
+    expected_two_party_share_v2: 0.684
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4566
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7618
     war: 0.3052
     is_incumbent: false
-    war_v2: 0.3052
+    incumbent_terms: 0
+    war_v2: 0.3263
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2409
+    tide_component: -0.0011
     expected_two_party_share: 0.4566
-    expected_two_party_share_v2: 0.4566
+    expected_two_party_share_v2: 0.4355
   - name: Charles F. Choate
     slug: charles-f-choate
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2382
     war: -0.3052
     is_incumbent: false
-    war_v2: -0.3052
+    incumbent_terms: 0
+    war_v2: -0.2429
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2868
+    tide_component: -0.0012
     expected_two_party_share: 0.5434
-    expected_two_party_share_v2: 0.5434
+    expected_two_party_share_v2: 0.4811
   is_open_seat: null
 title: 5th Essex (2001-2010)
 layout: district

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3545
   war: 0.0509
-  war_v2: 0.0509
+  war_v2: -0.0006
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3036
-  expected_two_party_share_v2: 0.3036
+  expected_two_party_share_v2: 0.3551
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Catherine J. Clark
 layout: candidate
 ---

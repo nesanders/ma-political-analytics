@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.507
     war: 0.0611
     is_incumbent: true
-    war_v2: -0.0634
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0667
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2353
+    tide_component: -0.0008
     expected_two_party_share: 0.4459
-    expected_two_party_share_v2: 0.5704
+    expected_two_party_share_v2: 0.5737
   - name: Emmanuel J. Dockter
     slug: emmanuel-j-dockter
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.493
     war: -0.0611
     is_incumbent: false
-    war_v2: -0.0611
+    incumbent_terms: 0
+    war_v2: 0.0065
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2924
+    tide_component: -0.0015
     expected_two_party_share: 0.5541
-    expected_two_party_share_v2: 0.5541
+    expected_two_party_share_v2: 0.4865
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2017
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5174
     war: -0.281
     is_incumbent: true
-    war_v2: -0.4055
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.244
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4213
+    tide_component: -0.0015
     expected_two_party_share: 0.7984
-    expected_two_party_share_v2: 0.9229
+    expected_two_party_share_v2: 0.7614
   - name: Alison M. Demong
     slug: alison-m-demong
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4826
     war: 0.281
     is_incumbent: false
-    war_v2: 0.281
+    incumbent_terms: 0
+    war_v2: 0.1813
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1064
+    tide_component: -0.0008
     expected_two_party_share: 0.2016
-    expected_two_party_share_v2: 0.2016
+    expected_two_party_share_v2: 0.3013
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5003
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5104
     war: 0.0108
     is_incumbent: true
-    war_v2: -0.1137
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1046
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2637
+    tide_component: -0.0008
     expected_two_party_share: 0.4996
-    expected_two_party_share_v2: 0.6241
+    expected_two_party_share_v2: 0.615
   - name: Kara L. Nyman
     slug: kara-l-nyman
     party: Democratic
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4896
     war: -0.0108
     is_incumbent: false
-    war_v2: -0.0108
+    incumbent_terms: 0
+    war_v2: 0.0315
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.264
+    tide_component: -0.0015
     expected_two_party_share: 0.5004
-    expected_two_party_share_v2: 0.5004
+    expected_two_party_share_v2: 0.4581
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3441
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5015
     war: -0.1545
     is_incumbent: false
-    war_v2: -0.1545
+    incumbent_terms: 0
+    war_v2: -0.039
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3461
+    tide_component: -0.0012
     expected_two_party_share: 0.656
-    expected_two_party_share_v2: 0.656
+    expected_two_party_share_v2: 0.5405
   - name: Rhonda L. Nyman
     slug: rhonda-l-nyman
     party: Democratic
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4985
     war: 0.1545
     is_incumbent: true
-    war_v2: 0.03
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0341
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1816
+    tide_component: -0.0011
     expected_two_party_share: 0.344
-    expected_two_party_share_v2: 0.4685
+    expected_two_party_share_v2: 0.5326
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4584
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.5787
     war: 0.1203
     is_incumbent: false
-    war_v2: 0.1203
+    incumbent_terms: 0
+    war_v2: 0.1426
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2419
+    tide_component: -0.0014
     expected_two_party_share: 0.4584
-    expected_two_party_share_v2: 0.4584
+    expected_two_party_share_v2: 0.4361
   - name: Korey M. Welch
     slug: korey-m-welch
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.4213
     war: -0.1203
     is_incumbent: false
-    war_v2: -0.1203
+    incumbent_terms: 0
+    war_v2: -0.0592
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2858
+    tide_component: -0.0009
     expected_two_party_share: 0.5416
-    expected_two_party_share_v2: 0.5416
+    expected_two_party_share_v2: 0.4805
   is_open_seat: null
 title: 5th Plymouth District (2012-2020)
 layout: district

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6755
     war: 0.0311
     is_incumbent: false
-    war_v2: 0.0311
+    incumbent_terms: 0
+    war_v2: 0.1409
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.34
+    tide_component: -0.0011
     expected_two_party_share: 0.6444
-    expected_two_party_share_v2: 0.6444
+    expected_two_party_share_v2: 0.5346
   - name: Stanley J. Nacewicz
     slug: stanley-j-nacewicz
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3245
     war: -0.0311
     is_incumbent: false
-    war_v2: -0.0311
+    incumbent_terms: 0
+    war_v2: -0.0575
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1877
+    tide_component: -0.0012
     expected_two_party_share: 0.3556
-    expected_two_party_share_v2: 0.3556
+    expected_two_party_share_v2: 0.382
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5027
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5027
     is_incumbent: true
-    war_v2: 0.3782
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3967
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2624
+    tide_component: -0.0008
     expected_two_party_share: 0.4973
-    expected_two_party_share_v2: 0.6218
+    expected_two_party_share_v2: 0.6033
   - name: Thomas Joseph Roache
     slug: thomas-joseph-roache
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.6285
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4779
     is_incumbent: true
-    war_v2: 0.3534
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3733
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2755
+    tide_component: -0.0009
     expected_two_party_share: 0.5221
-    expected_two_party_share_v2: 0.6466
+    expected_two_party_share_v2: 0.6267
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5014
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.5627
     war: 0.0641
     is_incumbent: false
-    war_v2: 0.0641
+    incumbent_terms: 0
+    war_v2: 0.1048
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2631
+    tide_component: -0.0009
     expected_two_party_share: 0.4986
-    expected_two_party_share_v2: 0.4986
+    expected_two_party_share_v2: 0.4579
   - name: John J. McFeeley
     slug: john-j-mcfeeley
     party: Democratic
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.4373
     war: -0.0641
     is_incumbent: false
-    war_v2: -0.0641
+    incumbent_terms: 0
+    war_v2: -0.0214
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2646
+    tide_component: -0.0014
     expected_two_party_share: 0.5014
-    expected_two_party_share_v2: 0.5014
+    expected_two_party_share_v2: 0.4587
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3271
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3271
     is_incumbent: false
-    war_v2: 0.3271
+    incumbent_terms: 0
+    war_v2: 0.4505
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3551
+    tide_component: -0.0012
     expected_two_party_share: 0.6729
-    expected_two_party_share_v2: 0.6729
+    expected_two_party_share_v2: 0.5495
   is_open_seat: null
 title: 9th Norfolk (2001-2010)
 layout: district

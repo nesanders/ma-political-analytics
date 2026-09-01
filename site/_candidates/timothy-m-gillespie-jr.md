@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3654
   war: -0.1588
-  war_v2: -0.1588
+  war_v2: -0.1059
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5242
-  expected_two_party_share_v2: 0.5242
+  expected_two_party_share_v2: 0.4713
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Timothy M. Gillespie, Jr.
 layout: candidate
 ---

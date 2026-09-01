@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4778
     is_incumbent: true
-    war_v2: 0.3533
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3865
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2756
+    tide_component: -0.0012
     expected_two_party_share: 0.5222
-    expected_two_party_share_v2: 0.6467
+    expected_two_party_share_v2: 0.6135
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6316
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3684
     is_incumbent: true
-    war_v2: 0.2439
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.329
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3333
+    tide_component: -0.0015
     expected_two_party_share: 0.6316
-    expected_two_party_share_v2: 0.7561
+    expected_two_party_share_v2: 0.671
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6132
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3868
     is_incumbent: true
-    war_v2: 0.2623
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3361
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3236
+    tide_component: -0.0014
     expected_two_party_share: 0.6132
-    expected_two_party_share_v2: 0.7377
+    expected_two_party_share_v2: 0.6639
   - name: Ronald R. Sliski
     slug: ronald-r-sliski
     party: Other
@@ -85,8 +97,12 @@ results_by_year:
     actual_two_party_share: 0.2379
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.8158
     war: 0.1679
     is_incumbent: true
-    war_v2: 0.0434
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1232
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3419
+    tide_component: -0.0014
     expected_two_party_share: 0.6479
-    expected_two_party_share_v2: 0.7724
+    expected_two_party_share_v2: 0.6926
   - name: Brant G. DuBois
     slug: brant-g-dubois
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.1842
     war: -0.1679
     is_incumbent: false
-    war_v2: -0.1679
+    incumbent_terms: 0
+    war_v2: -0.1963
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1858
+    tide_component: -0.0009
     expected_two_party_share: 0.3521
-    expected_two_party_share_v2: 0.3521
+    expected_two_party_share_v2: 0.3805
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5268
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4732
     is_incumbent: false
-    war_v2: 0.4732
+    incumbent_terms: 0
+    war_v2: 0.5275
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.278
+    tide_component: -0.0011
     expected_two_party_share: 0.5268
-    expected_two_party_share_v2: 0.5268
+    expected_two_party_share_v2: 0.4725
   is_open_seat: null
 title: 8th Hampden (2001-2010)
 layout: district

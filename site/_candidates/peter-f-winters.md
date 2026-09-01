@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4275
   war: -0.0824
-  war_v2: -0.0824
+  war_v2: -0.0361
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5099
-  expected_two_party_share_v2: 0.5099
+  expected_two_party_share_v2: 0.4636
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.2916
   war: -0.1214
-  war_v2: -0.1214
+  war_v2: -0.121
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.413
-  expected_two_party_share_v2: 0.413
+  expected_two_party_share_v2: 0.4126
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Peter F. Winters
 layout: candidate
 ---

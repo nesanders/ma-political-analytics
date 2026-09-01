@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5852
     war: 0.1886
     is_incumbent: true
-    war_v2: 0.0641
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.0375
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2093
+    tide_component: -0.0008
     expected_two_party_share: 0.3966
-    expected_two_party_share_v2: 0.5211
+    expected_two_party_share_v2: 0.5477
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4148
     war: -0.1886
     is_incumbent: false
-    war_v2: -0.1886
+    incumbent_terms: 0
+    war_v2: -0.0977
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3184
+    tide_component: -0.0015
     expected_two_party_share: 0.6034
-    expected_two_party_share_v2: 0.6034
+    expected_two_party_share_v2: 0.5125
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2158
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5878
     war: -0.1965
     is_incumbent: true
-    war_v2: -0.321
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.1662
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.4138
+    tide_component: -0.0015
     expected_two_party_share: 0.7843
-    expected_two_party_share_v2: 0.9088
+    expected_two_party_share_v2: 0.754
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4122
     war: 0.1965
     is_incumbent: false
-    war_v2: 0.1965
+    incumbent_terms: 0
+    war_v2: 0.1035
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1139
+    tide_component: -0.0008
     expected_two_party_share: 0.2157
-    expected_two_party_share_v2: 0.2157
+    expected_two_party_share_v2: 0.3087
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5435
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.6089
     war: 0.1524
     is_incumbent: true
-    war_v2: 0.0279
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0167
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2409
+    tide_component: -0.0008
     expected_two_party_share: 0.4565
-    expected_two_party_share_v2: 0.581
+    expected_two_party_share_v2: 0.5922
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.3911
     war: -0.1524
     is_incumbent: false
-    war_v2: -0.1524
+    incumbent_terms: 0
+    war_v2: -0.0898
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2868
+    tide_component: -0.0015
     expected_two_party_share: 0.5435
-    expected_two_party_share_v2: 0.5435
+    expected_two_party_share_v2: 0.4809
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3258
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: false
-    war_v2: 0.3258
+    incumbent_terms: 0
+    war_v2: 0.4498
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3558
+    tide_component: -0.0012
     expected_two_party_share: 0.6742
-    expected_two_party_share_v2: 0.6742
+    expected_two_party_share_v2: 0.5502
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.455
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.455
     is_incumbent: false
-    war_v2: 0.455
+    incumbent_terms: 0
+    war_v2: 0.5177
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2876
+    tide_component: -0.0009
     expected_two_party_share: 0.545
-    expected_two_party_share_v2: 0.545
+    expected_two_party_share_v2: 0.4823
   is_open_seat: null
 title: 9th Norfolk District (2012-2020)
 layout: district

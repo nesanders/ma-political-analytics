@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5129
     war: 0.1096
     is_incumbent: true
-    war_v2: -0.0149
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0384
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2128
+    tide_component: -0.0008
     expected_two_party_share: 0.4033
-    expected_two_party_share_v2: 0.5278
+    expected_two_party_share_v2: 0.5513
   - name: Christina Eckert
     slug: christina-eckert
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4871
     war: -0.1096
     is_incumbent: false
-    war_v2: -0.1096
+    incumbent_terms: 0
+    war_v2: -0.0218
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3149
+    tide_component: -0.0015
     expected_two_party_share: 0.5967
-    expected_two_party_share_v2: 0.5967
+    expected_two_party_share_v2: 0.5089
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2319
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5071
     war: -0.261
     is_incumbent: true
-    war_v2: -0.3855
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.2359
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.4053
+    tide_component: -0.0015
     expected_two_party_share: 0.7681
-    expected_two_party_share_v2: 0.8926
+    expected_two_party_share_v2: 0.743
   - name: Christina Eckert
     slug: christina-eckert
     party: Democratic
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4929
     war: 0.261
     is_incumbent: false
-    war_v2: 0.261
+    incumbent_terms: 0
+    war_v2: 0.1757
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1224
+    tide_component: -0.0008
     expected_two_party_share: 0.2319
-    expected_two_party_share_v2: 0.2319
+    expected_two_party_share_v2: 0.3172
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5448
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5448
     is_incumbent: true
-    war_v2: 0.4203
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4189
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2402
+    tide_component: -0.0008
     expected_two_party_share: 0.4552
-    expected_two_party_share_v2: 0.5797
+    expected_two_party_share_v2: 0.5811
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3793
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3793
     is_incumbent: true
-    war_v2: 0.2548
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3215
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3275
+    tide_component: -0.0012
     expected_two_party_share: 0.6207
-    expected_two_party_share_v2: 0.7452
+    expected_two_party_share_v2: 0.6785
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4965
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5223
     war: 0.0187
     is_incumbent: false
-    war_v2: 0.0187
+    incumbent_terms: 0
+    war_v2: 0.0619
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2657
+    tide_component: -0.0009
     expected_two_party_share: 0.5036
-    expected_two_party_share_v2: 0.5036
+    expected_two_party_share_v2: 0.4604
   - name: Barry P. Fogel
     slug: barry-p-fogel
     party: Democratic
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4777
     war: -0.0187
     is_incumbent: false
-    war_v2: -0.0187
+    incumbent_terms: 0
+    war_v2: 0.0215
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.262
+    tide_component: -0.0014
     expected_two_party_share: 0.4964
-    expected_two_party_share_v2: 0.4964
+    expected_two_party_share_v2: 0.4562
   is_open_seat: null
 title: 2nd Essex District (2012-2020)
 layout: district

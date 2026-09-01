@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.5
   war: 0.0875
-  war_v2: -0.037
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0581
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.4125
-  expected_two_party_share_v2: 0.537
+  expected_two_party_share_v2: 0.5581
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6047
   war: 0.0637
-  war_v2: -0.0608
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0314
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.541
-  expected_two_party_share_v2: 0.6655
+  expected_two_party_share_v2: 0.6361
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5483
   war: -0.0338
-  war_v2: -0.0338
+  war_v2: 0.0469
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5821
-  expected_two_party_share_v2: 0.5821
+  expected_two_party_share_v2: 0.5014
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Geraldo Alicea
 layout: candidate
 ---

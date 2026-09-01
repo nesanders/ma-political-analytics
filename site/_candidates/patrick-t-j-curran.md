@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3323
   war: -0.1563
-  war_v2: -0.1563
+  war_v2: -0.12
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4886
-  expected_two_party_share_v2: 0.4886
+  expected_two_party_share_v2: 0.4523
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Patrick t. J. Curran
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.8371
     war: 0.0989
     is_incumbent: true
-    war_v2: -0.0256
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1074
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3895
+    tide_component: -0.0015
     expected_two_party_share: 0.7382
-    expected_two_party_share_v2: 0.8627
+    expected_two_party_share_v2: 0.7297
   - name: Prince Golphin, Jr
     slug: prince-golphin-jr
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.1629
     war: -0.0989
     is_incumbent: false
-    war_v2: -0.0989
+    incumbent_terms: 0
+    war_v2: -0.1701
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1382
+    tide_component: -0.0008
     expected_two_party_share: 0.2618
-    expected_two_party_share_v2: 0.2618
+    expected_two_party_share_v2: 0.333
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4373
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5627
     is_incumbent: true
-    war_v2: 0.4382
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4179
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2308
+    tide_component: -0.0008
     expected_two_party_share: 0.4373
-    expected_two_party_share_v2: 0.5618
+    expected_two_party_share_v2: 0.5821
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7822
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2178
     is_incumbent: false
-    war_v2: 0.2178
+    incumbent_terms: 0
+    war_v2: 0.3931
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4128
+    tide_component: -0.0015
     expected_two_party_share: 0.7822
-    expected_two_party_share_v2: 0.7822
+    expected_two_party_share_v2: 0.6069
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6531
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3469
     is_incumbent: true
-    war_v2: 0.2224
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3044
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3446
+    tide_component: -0.0011
     expected_two_party_share: 0.6531
-    expected_two_party_share_v2: 0.7776
+    expected_two_party_share_v2: 0.6956
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8067
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1933
     is_incumbent: false
-    war_v2: 0.1933
+    incumbent_terms: 0
+    war_v2: 0.3801
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4257
+    tide_component: -0.0014
     expected_two_party_share: 0.8067
-    expected_two_party_share_v2: 0.8067
+    expected_two_party_share_v2: 0.6199
   - name: Norman W. Oliver
     slug: norman-w-oliver
     party: Other
@@ -139,8 +163,12 @@ results_by_year:
     actual_two_party_share: 0.2995
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

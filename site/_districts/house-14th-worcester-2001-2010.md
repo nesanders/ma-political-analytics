@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4023
     is_incumbent: true
-    war_v2: 0.2778
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3337
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3154
+    tide_component: -0.0012
     expected_two_party_share: 0.5977
-    expected_two_party_share_v2: 0.7222
+    expected_two_party_share_v2: 0.6663
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6526
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3474
     is_incumbent: false
-    war_v2: 0.3474
+    incumbent_terms: 0
+    war_v2: 0.4615
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3444
+    tide_component: -0.0015
     expected_two_party_share: 0.6526
-    expected_two_party_share_v2: 0.6526
+    expected_two_party_share_v2: 0.5385
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7018
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.7431
     war: 0.0412
     is_incumbent: true
-    war_v2: -0.0833
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0325
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3703
+    tide_component: -0.0014
     expected_two_party_share: 0.7019
-    expected_two_party_share_v2: 0.8264
+    expected_two_party_share_v2: 0.7106
   - name: Joseph D. Rice
     slug: joseph-d-rice
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.2569
     war: -0.0412
     is_incumbent: false
-    war_v2: -0.0412
+    incumbent_terms: 0
+    war_v2: -0.0952
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1574
+    tide_component: -0.0009
     expected_two_party_share: 0.2981
-    expected_two_party_share_v2: 0.2981
+    expected_two_party_share_v2: 0.3521
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6475
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3525
     is_incumbent: true
-    war_v2: 0.228
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3077
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3417
+    tide_component: -0.0014
     expected_two_party_share: 0.6475
-    expected_two_party_share_v2: 0.772
+    expected_two_party_share_v2: 0.6923
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5076
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4924
     is_incumbent: false
-    war_v2: 0.4924
+    incumbent_terms: 0
+    war_v2: 0.5376
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2679
+    tide_component: -0.0011
     expected_two_party_share: 0.5076
-    expected_two_party_share_v2: 0.5076
+    expected_two_party_share_v2: 0.4624
   is_open_seat: null
 title: 14th Worcester (2001-2010)
 layout: district

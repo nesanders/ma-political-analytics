@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6243
     war: -0.0167
     is_incumbent: true
-    war_v2: -0.1412
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0646
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3383
+    tide_component: -0.0014
     expected_two_party_share: 0.641
-    expected_two_party_share_v2: 0.7655
+    expected_two_party_share_v2: 0.6889
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3757
     war: 0.0167
     is_incumbent: false
-    war_v2: 0.0167
+    incumbent_terms: 0
+    war_v2: -0.0085
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1894
+    tide_component: -0.0009
     expected_two_party_share: 0.359
-    expected_two_party_share_v2: 0.359
+    expected_two_party_share_v2: 0.3842
   - name: Joe Van Nes
     slug: joe-van-nes
     party: Other
@@ -52,8 +60,12 @@ results_by_year:
     actual_two_party_share: 0.0241
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.637
     war: -0.0015
     is_incumbent: false
-    war_v2: -0.0015
+    incumbent_terms: 0
+    war_v2: 0.106
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3369
+    tide_component: -0.0015
     expected_two_party_share: 0.6385
-    expected_two_party_share_v2: 0.6385
+    expected_two_party_share_v2: 0.531
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -85,10 +101,14 @@ results_by_year:
     actual_two_party_share: 0.363
     war: 0.0015
     is_incumbent: false
-    war_v2: 0.0015
+    incumbent_terms: 0
+    war_v2: -0.0226
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1908
+    tide_component: -0.0008
     expected_two_party_share: 0.3615
-    expected_two_party_share_v2: 0.3615
+    expected_two_party_share_v2: 0.3856
   is_open_seat: null
 demographics:
   total_population: 190623

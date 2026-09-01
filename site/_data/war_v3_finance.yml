@@ -1,0 +1,35 @@
+n: 87
+r_squared: 0.7384
+posterior_sigma_mean: 0.0626
+coefficients:
+  intercept:
+    posterior_mean: -0.0122
+    posterior_sd: 0.0475
+    ci_95_low: -0.1015
+    ci_95_high: 0.0845
+  own_lean:
+    posterior_mean: 0.7794
+    posterior_sd: 0.062
+    ci_95_low: 0.6559
+    ci_95_high: 0.9011
+  incumbent_1:
+    posterior_mean: 0.0494
+    posterior_sd: 0.0801
+    ci_95_low: -0.1108
+    ci_95_high: 0.2053
+  incumbent_2:
+    posterior_mean: 0.0491
+    posterior_sd: 0.0804
+    ci_95_low: -0.1106
+    ci_95_high: 0.2046
+  incumbent_3plus:
+    posterior_mean: 0.0508
+    posterior_sd: 0.0803
+    ci_95_low: -0.1056
+    ci_95_high: 0.2105
+  log_raised:
+    posterior_mean: 0.0127
+    posterior_sd: 0.0045
+    ci_95_low: 0.0034
+    ci_95_high: 0.0212
+finance_year: 2022

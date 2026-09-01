@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.425
   war: -0.0277
-  war_v2: -0.0277
+  war_v2: -0.0086
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4527
-  expected_two_party_share_v2: 0.4527
+  expected_two_party_share_v2: 0.4336
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Salvatore Perla
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.5184
   war: 0.0991
-  war_v2: -0.0254
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0408
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4193
-  expected_two_party_share_v2: 0.5438
+  expected_two_party_share_v2: 0.5592
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4572
-  war_v2: 0.3327
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3758
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5428
-  expected_two_party_share_v2: 0.6673
+  expected_two_party_share_v2: 0.6242
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.62
   war: 0.1
-  war_v2: -0.0245
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0053
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.52
-  expected_two_party_share_v2: 0.6445
+  expected_two_party_share_v2: 0.6147
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.6331
   war: 0.1058
-  war_v2: -0.0187
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0042
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5273
-  expected_two_party_share_v2: 0.6518
+  expected_two_party_share_v2: 0.6289
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.6005
   war: 0.236
-  war_v2: 0.236
+  war_v2: 0.2136
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3645
-  expected_two_party_share_v2: 0.3645
+  expected_two_party_share_v2: 0.3869
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Harriett L. Stanley
 layout: candidate
 ---

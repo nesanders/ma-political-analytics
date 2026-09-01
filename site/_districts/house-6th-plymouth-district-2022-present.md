@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5297
     war: 0.0528
     is_incumbent: false
-    war_v2: 0.0528
+    incumbent_terms: 0
+    war_v2: 0.0832
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2517
+    tide_component: -0.0009
     expected_two_party_share: 0.4769
-    expected_two_party_share_v2: 0.4769
+    expected_two_party_share_v2: 0.4465
   - name: Rebecca W. Coletta
     slug: rebecca-w-coletta
     party: Democratic
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4703
     war: -0.0528
     is_incumbent: false
-    war_v2: -0.0528
+    incumbent_terms: 0
+    war_v2: 0.0002
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.276
+    tide_component: -0.0014
     expected_two_party_share: 0.5231
-    expected_two_party_share_v2: 0.5231
+    expected_two_party_share_v2: 0.4701
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5223
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.5614
     war: 0.0391
     is_incumbent: false
-    war_v2: 0.0391
+    incumbent_terms: 0
+    war_v2: 0.0917
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2756
+    tide_component: -0.0015
     expected_two_party_share: 0.5223
-    expected_two_party_share_v2: 0.5223
+    expected_two_party_share_v2: 0.4697
   - name: Kenneth Sweezey
     slug: kenneth-sweezey
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.4386
     war: -0.0391
     is_incumbent: false
-    war_v2: -0.0391
+    incumbent_terms: 0
+    war_v2: -0.0083
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2521
+    tide_component: -0.0008
     expected_two_party_share: 0.4777
-    expected_two_party_share_v2: 0.4777
+    expected_two_party_share_v2: 0.4469
   is_open_seat: null
 demographics:
   total_population: 42287

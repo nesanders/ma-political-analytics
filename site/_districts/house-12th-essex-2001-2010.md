@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5962
     war: 0.1401
     is_incumbent: true
-    war_v2: 0.0156
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.0175
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2407
+    tide_component: -0.0012
     expected_two_party_share: 0.4561
-    expected_two_party_share_v2: 0.5806
+    expected_two_party_share_v2: 0.5787
   - name: Martin J. Scafidi
     slug: martin-j-scafidi
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4038
     war: -0.1401
     is_incumbent: false
-    war_v2: -0.1401
+    incumbent_terms: 0
+    war_v2: -0.0777
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.287
+    tide_component: -0.0011
     expected_two_party_share: 0.5439
-    expected_two_party_share_v2: 0.5439
+    expected_two_party_share_v2: 0.4815
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5783
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4217
     is_incumbent: true
-    war_v2: 0.2972
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3571
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3052
+    tide_component: -0.0015
     expected_two_party_share: 0.5783
-    expected_two_party_share_v2: 0.7028
+    expected_two_party_share_v2: 0.6429
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.6921
     war: 0.1355
     is_incumbent: true
-    war_v2: 0.011
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0581
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2937
+    tide_component: -0.0014
     expected_two_party_share: 0.5566
-    expected_two_party_share_v2: 0.6811
+    expected_two_party_share_v2: 0.634
   - name: Jason C. Harding
     slug: jason-c-harding
     party: Republican
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.3079
     war: -0.1355
     is_incumbent: false
-    war_v2: -0.1355
+    incumbent_terms: 0
+    war_v2: -0.1208
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.234
+    tide_component: -0.0009
     expected_two_party_share: 0.4434
-    expected_two_party_share_v2: 0.4434
+    expected_two_party_share_v2: 0.4287
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6151
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.6616
     war: 0.0465
     is_incumbent: true
-    war_v2: -0.078
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0136
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3246
+    tide_component: -0.0014
     expected_two_party_share: 0.6151
-    expected_two_party_share_v2: 0.7396
+    expected_two_party_share_v2: 0.6752
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.3384
     war: -0.0465
     is_incumbent: false
-    war_v2: -0.0465
+    incumbent_terms: 0
+    war_v2: -0.0595
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2031
+    tide_component: -0.0009
     expected_two_party_share: 0.3849
-    expected_two_party_share_v2: 0.3849
+    expected_two_party_share_v2: 0.3979
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4435
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.5993
     war: 0.1558
     is_incumbent: false
-    war_v2: 0.1558
+    incumbent_terms: 0
+    war_v2: 0.1708
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.234
+    tide_component: -0.0011
     expected_two_party_share: 0.4435
-    expected_two_party_share_v2: 0.4435
+    expected_two_party_share_v2: 0.4285
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.4007
     war: -0.1558
     is_incumbent: false
-    war_v2: -0.1558
+    incumbent_terms: 0
+    war_v2: -0.0874
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2937
+    tide_component: -0.0012
     expected_two_party_share: 0.5565
-    expected_two_party_share_v2: 0.5565
+    expected_two_party_share_v2: 0.4881
   is_open_seat: null
 title: 12th Essex (2001-2010)
 layout: district

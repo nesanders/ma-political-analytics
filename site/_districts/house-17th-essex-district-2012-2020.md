@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2791
     is_incumbent: true
-    war_v2: 0.1546
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2819
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3804
+    tide_component: -0.0015
     expected_two_party_share: 0.7209
-    expected_two_party_share_v2: 0.8454
+    expected_two_party_share_v2: 0.7181
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4088
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5912
     is_incumbent: true
-    war_v2: 0.4667
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4458
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2157
+    tide_component: -0.0008
     expected_two_party_share: 0.4088
-    expected_two_party_share_v2: 0.5333
+    expected_two_party_share_v2: 0.5542
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7789
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2211
     is_incumbent: true
-    war_v2: 0.0966
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2488
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.411
+    tide_component: -0.0015
     expected_two_party_share: 0.7789
-    expected_two_party_share_v2: 0.9034
+    expected_two_party_share_v2: 0.7512
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5951
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4049
     is_incumbent: true
-    war_v2: 0.2804
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.335
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.314
+    tide_component: -0.0011
     expected_two_party_share: 0.5951
-    expected_two_party_share_v2: 0.7196
+    expected_two_party_share_v2: 0.665
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7287
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2713
     is_incumbent: false
-    war_v2: 0.2713
+    incumbent_terms: 0
+    war_v2: 0.4213
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3845
+    tide_component: -0.0014
     expected_two_party_share: 0.7287
-    expected_two_party_share_v2: 0.7287
+    expected_two_party_share_v2: 0.5787
   - name: Kevin M. Cuff
     slug: kevin-m-cuff
     party: Other
@@ -127,8 +147,12 @@ results_by_year:
     actual_two_party_share: 0.5747
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5748
     war: 0.0761
     is_incumbent: true
-    war_v2: -0.0484
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0263
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2632
+    tide_component: -0.0012
     expected_two_party_share: 0.4987
-    expected_two_party_share_v2: 0.6232
+    expected_two_party_share_v2: 0.6011
   - name: Kristine Abrams
     slug: kristine-abrams
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4252
     war: -0.0761
     is_incumbent: false
-    war_v2: -0.0761
+    incumbent_terms: 0
+    war_v2: -0.0339
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2645
+    tide_component: -0.0011
     expected_two_party_share: 0.5013
-    expected_two_party_share_v2: 0.5013
+    expected_two_party_share_v2: 0.4591
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6077
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3923
     is_incumbent: true
-    war_v2: 0.2678
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3416
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3207
+    tide_component: -0.0015
     expected_two_party_share: 0.6077
-    expected_two_party_share_v2: 0.7322
+    expected_two_party_share_v2: 0.6584
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5756
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4244
     is_incumbent: true
-    war_v2: 0.2999
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.356
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3037
+    tide_component: -0.0014
     expected_two_party_share: 0.5756
-    expected_two_party_share_v2: 0.7001
+    expected_two_party_share_v2: 0.644
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5873
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.6922
     war: 0.1049
     is_incumbent: true
-    war_v2: -0.0196
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0316
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3099
+    tide_component: -0.0014
     expected_two_party_share: 0.5873
-    expected_two_party_share_v2: 0.7118
+    expected_two_party_share_v2: 0.6606
   - name: Marissa E. Lima
     slug: marissa-e-lima
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.3078
     war: -0.1049
     is_incumbent: false
-    war_v2: -0.1049
+    incumbent_terms: 0
+    war_v2: -0.1047
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2178
+    tide_component: -0.0009
     expected_two_party_share: 0.4127
-    expected_two_party_share_v2: 0.4127
+    expected_two_party_share_v2: 0.4125
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4282
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5718
     is_incumbent: false
-    war_v2: 0.5718
+    incumbent_terms: 0
+    war_v2: 0.5795
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.226
+    tide_component: -0.0011
     expected_two_party_share: 0.4282
-    expected_two_party_share_v2: 0.4282
+    expected_two_party_share_v2: 0.4205
   is_open_seat: null
 title: 11th Plymouth (2001-2010)
 layout: district

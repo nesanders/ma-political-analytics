@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2694
     is_incumbent: false
-    war_v2: 0.2694
+    incumbent_terms: 0
+    war_v2: 0.4204
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3855
+    tide_component: -0.0015
     expected_two_party_share: 0.7306
-    expected_two_party_share_v2: 0.7306
+    expected_two_party_share_v2: 0.5796
   is_open_seat: null
 - year: 2018
   lean_dem_share: 0.4598

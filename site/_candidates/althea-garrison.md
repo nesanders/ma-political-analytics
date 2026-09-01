@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -35,6 +36,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: false
   actual_two_party_share: 0.1565
   war: 0.0095
-  war_v2: 0.0095
+  war_v2: -0.1159
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.147
-  expected_two_party_share_v2: 0.147
+  expected_two_party_share_v2: 0.2724
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -67,6 +70,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -83,6 +87,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: false
   actual_two_party_share: 0.1635
   war: -0.0616
-  war_v2: -0.0616
+  war_v2: -0.15
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.2251
-  expected_two_party_share_v2: 0.2251
+  expected_two_party_share_v2: 0.3135
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 10911

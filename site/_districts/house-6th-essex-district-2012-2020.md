@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3014
     is_incumbent: true
-    war_v2: 0.1769
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.2937
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3687
+    tide_component: -0.0015
     expected_two_party_share: 0.6986
-    expected_two_party_share_v2: 0.8231
+    expected_two_party_share_v2: 0.7063
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.2527
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7033
     is_incumbent: true
-    war_v2: 0.5788
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.505
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1566
+    tide_component: -0.0008
     expected_two_party_share: 0.2967
-    expected_two_party_share_v2: 0.4212
+    expected_two_party_share_v2: 0.495
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -76,8 +88,12 @@ results_by_year:
     actual_two_party_share: 0.1711
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3437
     is_incumbent: true
-    war_v2: 0.2192
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3135
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3463
+    tide_component: -0.0015
     expected_two_party_share: 0.6563
-    expected_two_party_share_v2: 0.7808
+    expected_two_party_share_v2: 0.6865
   - name: Daniel Fishman
     slug: daniel-fishman
     party: Other
@@ -109,8 +129,12 @@ results_by_year:
     actual_two_party_share: 0.3361
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5411
     is_incumbent: true
-    war_v2: 0.4166
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.4069
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2422
+    tide_component: -0.0011
     expected_two_party_share: 0.4589
-    expected_two_party_share_v2: 0.5834
+    expected_two_party_share_v2: 0.5931
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -142,8 +170,12 @@ results_by_year:
     actual_two_party_share: 0.3489
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4065
     is_incumbent: false
-    war_v2: 0.4065
+    incumbent_terms: 0
+    war_v2: 0.4926
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3132
+    tide_component: -0.0014
     expected_two_party_share: 0.5935
-    expected_two_party_share_v2: 0.5935
+    expected_two_party_share_v2: 0.5074
   is_open_seat: null
 title: 6th Essex District (2012-2020)
 layout: district

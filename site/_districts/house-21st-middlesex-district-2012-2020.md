@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3419
     is_incumbent: true
-    war_v2: 0.2174
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3151
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3473
+    tide_component: -0.0015
     expected_two_party_share: 0.6581
-    expected_two_party_share_v2: 0.7826
+    expected_two_party_share_v2: 0.6849
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2706
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7294
     is_incumbent: true
-    war_v2: 0.6049
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.5188
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1428
+    tide_component: -0.0008
     expected_two_party_share: 0.2706
-    expected_two_party_share_v2: 0.3951
+    expected_two_party_share_v2: 0.4812
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6097
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.5859
     war: -0.0239
     is_incumbent: true
-    war_v2: -0.1484
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0761
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3217
+    tide_component: -0.0015
     expected_two_party_share: 0.6098
-    expected_two_party_share_v2: 0.7343
+    expected_two_party_share_v2: 0.662
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.4141
     war: 0.0239
     is_incumbent: false
-    war_v2: 0.0239
+    incumbent_terms: 0
+    war_v2: 0.0134
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.206
+    tide_component: -0.0008
     expected_two_party_share: 0.3902
-    expected_two_party_share_v2: 0.3902
+    expected_two_party_share_v2: 0.4007
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4332
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5227
     war: 0.0895
     is_incumbent: true
-    war_v2: -0.035
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0569
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2286
+    tide_component: -0.0011
     expected_two_party_share: 0.4332
-    expected_two_party_share_v2: 0.5577
+    expected_two_party_share_v2: 0.5796
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4773
     war: -0.0895
     is_incumbent: false
-    war_v2: -0.0895
+    incumbent_terms: 0
+    war_v2: -0.0162
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2991
+    tide_component: -0.0012
     expected_two_party_share: 0.5668
-    expected_two_party_share_v2: 0.5668
+    expected_two_party_share_v2: 0.4935
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5442
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5528
     war: 0.0086
     is_incumbent: false
-    war_v2: 0.0086
+    incumbent_terms: 0
+    war_v2: 0.0714
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2872
+    tide_component: -0.0014
     expected_two_party_share: 0.5442
-    expected_two_party_share_v2: 0.5442
+    expected_two_party_share_v2: 0.4814
   - name: Walter Zenkin
     slug: walter-zenkin
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4472
     war: -0.0086
     is_incumbent: false
-    war_v2: -0.0086
+    incumbent_terms: 0
+    war_v2: 0.012
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2405
+    tide_component: -0.0009
     expected_two_party_share: 0.4558
-    expected_two_party_share_v2: 0.4558
+    expected_two_party_share_v2: 0.4352
   is_open_seat: null
 title: 21st Middlesex District (2012-2020)
 layout: district

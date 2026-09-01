@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4831
     is_incumbent: true
-    war_v2: 0.3586
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3893
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2728
+    tide_component: -0.0012
     expected_two_party_share: 0.5169
-    expected_two_party_share_v2: 0.6414
+    expected_two_party_share_v2: 0.6107
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.64
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.36
     is_incumbent: true
-    war_v2: 0.2355
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3245
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3377
+    tide_component: -0.0015
     expected_two_party_share: 0.64
-    expected_two_party_share_v2: 0.7645
+    expected_two_party_share_v2: 0.6755
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5888
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4112
     is_incumbent: true
-    war_v2: 0.2867
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.349
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3107
+    tide_component: -0.0014
     expected_two_party_share: 0.5888
-    expected_two_party_share_v2: 0.7133
+    expected_two_party_share_v2: 0.651
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6119
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 0.7789
     war: 0.167
     is_incumbent: true
-    war_v2: 0.0425
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1053
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3229
+    tide_component: -0.0014
     expected_two_party_share: 0.6119
-    expected_two_party_share_v2: 0.7364
+    expected_two_party_share_v2: 0.6736
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.2211
     war: -0.167
     is_incumbent: false
-    war_v2: -0.167
+    incumbent_terms: 0
+    war_v2: -0.1784
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2048
+    tide_component: -0.0009
     expected_two_party_share: 0.3881
-    expected_two_party_share_v2: 0.3881
+    expected_two_party_share_v2: 0.3995
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4694
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7729
     war: 0.3035
     is_incumbent: false
-    war_v2: 0.3035
+    incumbent_terms: 0
+    war_v2: 0.3307
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2477
+    tide_component: -0.0011
     expected_two_party_share: 0.4694
-    expected_two_party_share_v2: 0.4694
+    expected_two_party_share_v2: 0.4422
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2271
     war: -0.3035
     is_incumbent: false
-    war_v2: -0.3035
+    incumbent_terms: 0
+    war_v2: -0.2473
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.28
+    tide_component: -0.0012
     expected_two_party_share: 0.5306
-    expected_two_party_share_v2: 0.5306
+    expected_two_party_share_v2: 0.4744
   - name: Eryk C. Boston
     slug: eryk-c-boston
     party: Libertarian
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.0751
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

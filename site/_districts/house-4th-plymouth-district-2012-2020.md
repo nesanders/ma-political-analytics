@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6599
     war: 0.0672
     is_incumbent: true
-    war_v2: -0.0573
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0035
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3128
+    tide_component: -0.0015
     expected_two_party_share: 0.5927
-    expected_two_party_share_v2: 0.7172
+    expected_two_party_share_v2: 0.6634
   - name: Craig S. Valdez
     slug: craig-s-valdez
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3401
     war: -0.0672
     is_incumbent: false
-    war_v2: -0.0672
+    incumbent_terms: 0
+    war_v2: -0.0696
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2149
+    tide_component: -0.0008
     expected_two_party_share: 0.4073
-    expected_two_party_share_v2: 0.4073
+    expected_two_party_share_v2: 0.4097
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2215
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.6273
     war: 0.4057
     is_incumbent: false
-    war_v2: 0.4057
+    incumbent_terms: 0
+    war_v2: 0.3156
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1169
+    tide_component: -0.0008
     expected_two_party_share: 0.2216
-    expected_two_party_share_v2: 0.2216
+    expected_two_party_share_v2: 0.3117
   - name: Edward J. O'Connell
     slug: edward-j-oconnell
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.3727
     war: -0.4057
     is_incumbent: false
-    war_v2: -0.4057
+    incumbent_terms: 0
+    war_v2: -0.2322
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4108
+    tide_component: -0.0015
     expected_two_party_share: 0.7784
-    expected_two_party_share_v2: 0.7784
+    expected_two_party_share_v2: 0.6049
   - name: Nathaniel K. Powell
     slug: nathaniel-k-powell
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0797
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   - name: Joseph M. Armstrong
@@ -100,8 +120,12 @@ results_by_year:
     actual_two_party_share: 0.0194
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -121,10 +145,14 @@ results_by_year:
     actual_two_party_share: 0.6958
     war: 0.1619
     is_incumbent: true
-    war_v2: 0.0374
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.0738
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2818
+    tide_component: -0.0015
     expected_two_party_share: 0.5339
-    expected_two_party_share_v2: 0.6584
+    expected_two_party_share_v2: 0.622
   - name: Michael White
     slug: michael-white
     party: Republican
@@ -133,10 +161,14 @@ results_by_year:
     actual_two_party_share: 0.3042
     war: -0.1619
     is_incumbent: false
-    war_v2: -0.1619
+    incumbent_terms: 0
+    war_v2: -0.1365
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2459
+    tide_component: -0.0008
     expected_two_party_share: 0.4661
-    expected_two_party_share_v2: 0.4661
+    expected_two_party_share_v2: 0.4407
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3647
@@ -154,10 +186,14 @@ results_by_year:
     actual_two_party_share: 0.5865
     war: 0.2218
     is_incumbent: true
-    war_v2: 0.0973
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0431
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1925
+    tide_component: -0.0011
     expected_two_party_share: 0.3647
-    expected_two_party_share_v2: 0.4892
+    expected_two_party_share_v2: 0.5434
   - name: James Anthony Pavlik
     slug: james-anthony-pavlik
     party: Republican
@@ -166,10 +202,14 @@ results_by_year:
     actual_two_party_share: 0.4135
     war: -0.2218
     is_incumbent: false
-    war_v2: -0.2218
+    incumbent_terms: 0
+    war_v2: -0.1162
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3352
+    tide_component: -0.0012
     expected_two_party_share: 0.6353
-    expected_two_party_share_v2: 0.6353
+    expected_two_party_share_v2: 0.5297
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4798
@@ -187,10 +227,14 @@ results_by_year:
     actual_two_party_share: 0.684
     war: 0.2043
     is_incumbent: false
-    war_v2: 0.2043
+    incumbent_terms: 0
+    war_v2: 0.2366
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2532
+    tide_component: -0.0014
     expected_two_party_share: 0.4797
-    expected_two_party_share_v2: 0.4797
+    expected_two_party_share_v2: 0.4474
   - name: Stephen W. Coulter
     slug: stephen-w-coulter
     party: Republican
@@ -199,10 +243,14 @@ results_by_year:
     actual_two_party_share: 0.316
     war: -0.2043
     is_incumbent: false
-    war_v2: -0.2043
+    incumbent_terms: 0
+    war_v2: -0.1532
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2745
+    tide_component: -0.0009
     expected_two_party_share: 0.5203
-    expected_two_party_share_v2: 0.5203
+    expected_two_party_share_v2: 0.4692
   is_open_seat: null
 title: 4th Plymouth District (2012-2020)
 layout: district

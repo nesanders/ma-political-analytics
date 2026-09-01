@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.6177
     war: 0.0187
     is_incumbent: true
-    war_v2: -0.1058
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.049
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3161
+    tide_component: -0.0014
     expected_two_party_share: 0.599
-    expected_two_party_share_v2: 0.7235
+    expected_two_party_share_v2: 0.6667
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.3823
     war: -0.0187
     is_incumbent: false
-    war_v2: -0.0187
+    incumbent_terms: 0
+    war_v2: -0.0241
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2116
+    tide_component: -0.0009
     expected_two_party_share: 0.401
-    expected_two_party_share_v2: 0.401
+    expected_two_party_share_v2: 0.4064
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6047
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 0.6374
     war: 0.0327
     is_incumbent: false
-    war_v2: 0.0327
+    incumbent_terms: 0
+    war_v2: 0.1242
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3191
+    tide_component: -0.0015
     expected_two_party_share: 0.6047
-    expected_two_party_share_v2: 0.6047
+    expected_two_party_share_v2: 0.5132
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -73,10 +85,14 @@ results_by_year:
     actual_two_party_share: 0.3626
     war: -0.0327
     is_incumbent: false
-    war_v2: -0.0327
+    incumbent_terms: 0
+    war_v2: -0.0408
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2086
+    tide_component: -0.0008
     expected_two_party_share: 0.3953
-    expected_two_party_share_v2: 0.3953
+    expected_two_party_share_v2: 0.4034
   is_open_seat: null
 demographics:
   total_population: 43328

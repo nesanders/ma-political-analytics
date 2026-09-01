@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6363
     war: 0.263
     is_incumbent: true
-    war_v2: 0.1385
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.1013
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.197
+    tide_component: -0.0012
     expected_two_party_share: 0.3733
-    expected_two_party_share_v2: 0.4978
+    expected_two_party_share_v2: 0.535
   - name: Mario S. Marchese
     slug: mario-s-marchese
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3637
     war: -0.263
     is_incumbent: false
-    war_v2: -0.263
+    incumbent_terms: 0
+    war_v2: -0.1615
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3307
+    tide_component: -0.0011
     expected_two_party_share: 0.6267
-    expected_two_party_share_v2: 0.6267
+    expected_two_party_share_v2: 0.5252
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4968
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5032
     is_incumbent: true
-    war_v2: 0.3787
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4001
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2622
+    tide_component: -0.0015
     expected_two_party_share: 0.4968
-    expected_two_party_share_v2: 0.6213
+    expected_two_party_share_v2: 0.5999
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4866
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5134
     is_incumbent: true
-    war_v2: 0.3889
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4029
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2568
+    tide_component: -0.0014
     expected_two_party_share: 0.4866
-    expected_two_party_share_v2: 0.6111
+    expected_two_party_share_v2: 0.5971
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5264
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4736
     is_incumbent: true
-    war_v2: 0.3491
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3716
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2778
+    tide_component: -0.0014
     expected_two_party_share: 0.5264
-    expected_two_party_share_v2: 0.6509
+    expected_two_party_share_v2: 0.6284
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3708
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.6953
     war: 0.3245
     is_incumbent: false
-    war_v2: 0.3245
+    incumbent_terms: 0
+    war_v2: 0.3051
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1957
+    tide_component: -0.0011
     expected_two_party_share: 0.3708
-    expected_two_party_share_v2: 0.3708
+    expected_two_party_share_v2: 0.3902
   - name: Daniel H. Ballou, Jr.
     slug: daniel-h-ballou-jr
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.3047
     war: -0.3245
     is_incumbent: false
-    war_v2: -0.3245
+    incumbent_terms: 0
+    war_v2: -0.2217
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.332
+    tide_component: -0.0012
     expected_two_party_share: 0.6292
-    expected_two_party_share_v2: 0.6292
+    expected_two_party_share_v2: 0.5264
   is_open_seat: null
 title: 19th Middlesex (2001-2010)
 layout: district

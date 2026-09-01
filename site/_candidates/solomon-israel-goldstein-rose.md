@@ -19,6 +19,7 @@ races:
   expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1376
-  war_v2: 0.1376
+  war_v2: 0.3508
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8624
-  expected_two_party_share_v2: 0.8624
+  expected_two_party_share_v2: 0.6492
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Solomon Israel Goldstein-Rose
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4687
     is_incumbent: true
-    war_v2: 0.3442
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3817
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2804
+    tide_component: -0.0012
     expected_two_party_share: 0.5313
-    expected_two_party_share_v2: 0.6558
+    expected_two_party_share_v2: 0.6183
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6373
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3627
     is_incumbent: true
-    war_v2: 0.2382
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.326
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3363
+    tide_component: -0.0015
     expected_two_party_share: 0.6373
-    expected_two_party_share_v2: 0.7618
+    expected_two_party_share_v2: 0.674
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6234
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3766
     is_incumbent: true
-    war_v2: 0.2521
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3307
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.329
+    tide_component: -0.0014
     expected_two_party_share: 0.6234
-    expected_two_party_share_v2: 0.7479
+    expected_two_party_share_v2: 0.6693
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6424
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3576
     is_incumbent: true
-    war_v2: 0.2331
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3103
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.339
+    tide_component: -0.0014
     expected_two_party_share: 0.6424
-    expected_two_party_share_v2: 0.7669
+    expected_two_party_share_v2: 0.6897
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5203
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4797
     is_incumbent: false
-    war_v2: 0.4797
+    incumbent_terms: 0
+    war_v2: 0.5309
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2746
+    tide_component: -0.0011
     expected_two_party_share: 0.5203
-    expected_two_party_share_v2: 0.5203
+    expected_two_party_share_v2: 0.4691
   is_open_seat: null
 title: 7th Hampden (2001-2010)
 layout: district

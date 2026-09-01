@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5643
     war: 0.0214
     is_incumbent: true
-    war_v2: -0.1031
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0727
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2864
+    tide_component: -0.0015
     expected_two_party_share: 0.5429
-    expected_two_party_share_v2: 0.6674
+    expected_two_party_share_v2: 0.637
   - name: Alec M. Difruscia
     slug: alec-m-difruscia
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4357
     war: -0.0214
     is_incumbent: false
-    war_v2: -0.0214
+    incumbent_terms: 0
+    war_v2: -0.0004
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2413
+    tide_component: -0.0008
     expected_two_party_share: 0.4571
-    expected_two_party_share_v2: 0.4571
+    expected_two_party_share_v2: 0.4361
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2069
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.526
     war: 0.3191
     is_incumbent: false
-    war_v2: 0.3191
+    incumbent_terms: 0
+    war_v2: 0.222
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1092
+    tide_component: -0.0008
     expected_two_party_share: 0.2069
-    expected_two_party_share_v2: 0.2069
+    expected_two_party_share_v2: 0.304
   - name: Pina Prinzivalli
     slug: pina-prinzivalli
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.474
     war: -0.3191
     is_incumbent: false
-    war_v2: -0.3191
+    incumbent_terms: 0
+    war_v2: -0.1386
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4185
+    tide_component: -0.0015
     expected_two_party_share: 0.7931
-    expected_two_party_share_v2: 0.7931
+    expected_two_party_share_v2: 0.6126
   - name: Patricia W M. Meuse
     slug: patricia-w-m-meuse
     party: Other
@@ -88,8 +104,12 @@ results_by_year:
     actual_two_party_share: 0.0902
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5123
     is_incumbent: true
-    war_v2: 0.3878
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4024
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2574
+    tide_component: -0.0015
     expected_two_party_share: 0.4877
-    expected_two_party_share_v2: 0.6122
+    expected_two_party_share_v2: 0.5976
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3654
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.7031
     war: 0.3377
     is_incumbent: true
-    war_v2: 0.2132
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1593
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.1928
+    tide_component: -0.0011
     expected_two_party_share: 0.3654
-    expected_two_party_share_v2: 0.4899
+    expected_two_party_share_v2: 0.5438
   - name: Douglas W. Sears
     slug: douglas-w-sears
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.2969
     war: -0.3377
     is_incumbent: false
-    war_v2: -0.3377
+    incumbent_terms: 0
+    war_v2: -0.2324
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3349
+    tide_component: -0.0012
     expected_two_party_share: 0.6346
-    expected_two_party_share_v2: 0.6346
+    expected_two_party_share_v2: 0.5293
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4767
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.7352
     war: 0.2585
     is_incumbent: false
-    war_v2: 0.2585
+    incumbent_terms: 0
+    war_v2: 0.2895
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2516
+    tide_component: -0.0014
     expected_two_party_share: 0.4767
-    expected_two_party_share_v2: 0.4767
+    expected_two_party_share_v2: 0.4457
   - name: Douglas W. Sears
     slug: douglas-w-sears
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.2648
     war: -0.2585
     is_incumbent: false
-    war_v2: -0.2585
+    incumbent_terms: 0
+    war_v2: -0.2061
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2761
+    tide_component: -0.0009
     expected_two_party_share: 0.5233
-    expected_two_party_share_v2: 0.5233
+    expected_two_party_share_v2: 0.4709
   is_open_seat: null
 title: 19th Middlesex District (2012-2020)
 layout: district

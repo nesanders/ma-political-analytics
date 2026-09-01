@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4743
   war: 0.094
-  war_v2: -0.0305
-  incumbency_adjustment: 0.1245
+  war_v2: -0.0644
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3803
-  expected_two_party_share_v2: 0.5048
+  expected_two_party_share_v2: 0.5387
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4878
-  war_v2: 0.3633
-  incumbency_adjustment: 0.1245
+  war_v2: 0.392
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5122
-  expected_two_party_share_v2: 0.6367
+  expected_two_party_share_v2: 0.608
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4768
-  war_v2: 0.3523
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3836
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5232
-  expected_two_party_share_v2: 0.6477
+  expected_two_party_share_v2: 0.6164
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 0.7293
   war: 0.1975
-  war_v2: 0.073
-  incumbency_adjustment: 0.1245
+  war_v2: 0.098
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5318
-  expected_two_party_share_v2: 0.6563
+  expected_two_party_share_v2: 0.6313
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.61
   war: 0.2278
-  war_v2: 0.2278
+  war_v2: 0.2138
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3822
-  expected_two_party_share_v2: 0.3822
+  expected_two_party_share_v2: 0.3962
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Jennifer M. Callahan
 layout: candidate
 ---

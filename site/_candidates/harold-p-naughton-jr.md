@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7622
-  war_v2: 0.6377
-  incumbency_adjustment: 0.1245
+  war_v2: 0.5361
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.2378
-  expected_two_party_share_v2: 0.3623
+  expected_two_party_share_v2: 0.4639
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4307
-  war_v2: 0.3062
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3594
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5693
-  expected_two_party_share_v2: 0.6938
+  expected_two_party_share_v2: 0.6406
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.5547
   war: 0.1552
-  war_v2: 0.0307
-  incumbency_adjustment: 0.1245
+  war_v2: -0.007
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.3995
-  expected_two_party_share_v2: 0.524
+  expected_two_party_share_v2: 0.5617
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4766
-  war_v2: 0.4766
+  war_v2: 0.5296
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5234
-  expected_two_party_share_v2: 0.5234
+  expected_two_party_share_v2: 0.4704
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.6087
   war: 0.1613
-  war_v2: 0.0368
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0347
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4474
-  expected_two_party_share_v2: 0.5719
+  expected_two_party_share_v2: 0.574
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4431
-  war_v2: 0.3186
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3684
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5569
-  expected_two_party_share_v2: 0.6814
+  expected_two_party_share_v2: 0.6316
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4423
-  war_v2: 0.3178
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3654
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.5577
-  expected_two_party_share_v2: 0.6822
+  expected_two_party_share_v2: 0.6346
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.6454
   war: 0.0895
-  war_v2: -0.035
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0014
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.5559
-  expected_two_party_share_v2: 0.6804
+  expected_two_party_share_v2: 0.644
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -141,12 +149,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6333
-  war_v2: 0.6333
+  war_v2: 0.612
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3667
-  expected_two_party_share_v2: 0.3667
+  expected_two_party_share_v2: 0.388
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Harold P. Naughton, Jr.
 layout: candidate
 ---

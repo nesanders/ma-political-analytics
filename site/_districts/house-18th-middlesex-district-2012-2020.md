@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: true
-    war_v2: 0.2013
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3066
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3558
+    tide_component: -0.0015
     expected_two_party_share: 0.6742
-    expected_two_party_share_v2: 0.7987
+    expected_two_party_share_v2: 0.6934
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3515
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6485
     is_incumbent: true
-    war_v2: 0.524
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.4736
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1855
+    tide_component: -0.0008
     expected_two_party_share: 0.3515
-    expected_two_party_share_v2: 0.476
+    expected_two_party_share_v2: 0.5264
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.69
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.7224
     war: 0.0325
     is_incumbent: true
-    war_v2: -0.092
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.0077
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3641
+    tide_component: -0.0015
     expected_two_party_share: 0.6899
-    expected_two_party_share_v2: 0.8144
+    expected_two_party_share_v2: 0.7147
   - name: Kamara Kay
     slug: kamara-kay
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.2776
     war: -0.0325
     is_incumbent: false
-    war_v2: -0.0325
+    incumbent_terms: 0
+    war_v2: -0.0808
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1636
+    tide_component: -0.0008
     expected_two_party_share: 0.3101
-    expected_two_party_share_v2: 0.3101
+    expected_two_party_share_v2: 0.3584
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5369
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4631
     is_incumbent: false
-    war_v2: 0.4631
+    incumbent_terms: 0
+    war_v2: 0.5222
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2833
+    tide_component: -0.0011
     expected_two_party_share: 0.5369
-    expected_two_party_share_v2: 0.5369
+    expected_two_party_share_v2: 0.4778
   - name: Fred W. Bahou
     slug: fred-w-bahou
     party: Other
@@ -118,8 +138,12 @@ results_by_year:
     actual_two_party_share: 0.6201
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3185
     is_incumbent: false
-    war_v2: 0.3185
+    incumbent_terms: 0
+    war_v2: 0.4462
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3596
+    tide_component: -0.0014
     expected_two_party_share: 0.6815
-    expected_two_party_share_v2: 0.6815
+    expected_two_party_share_v2: 0.5538
   is_open_seat: null
 title: 18th Middlesex District (2012-2020)
 layout: district

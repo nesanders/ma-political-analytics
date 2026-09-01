@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4907
     is_incumbent: true
-    war_v2: 0.3662
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3933
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2688
+    tide_component: -0.0012
     expected_two_party_share: 0.5093
-    expected_two_party_share_v2: 0.6338
+    expected_two_party_share_v2: 0.6067
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.598
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.402
     is_incumbent: true
-    war_v2: 0.2775
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3467
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3156
+    tide_component: -0.0015
     expected_two_party_share: 0.598
-    expected_two_party_share_v2: 0.7225
+    expected_two_party_share_v2: 0.6533
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6315
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3685
     is_incumbent: true
-    war_v2: 0.244
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3265
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3332
+    tide_component: -0.0014
     expected_two_party_share: 0.6315
-    expected_two_party_share_v2: 0.756
+    expected_two_party_share_v2: 0.6735
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6329
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3671
     is_incumbent: true
-    war_v2: 0.2426
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3154
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.334
+    tide_component: -0.0014
     expected_two_party_share: 0.6329
-    expected_two_party_share_v2: 0.7574
+    expected_two_party_share_v2: 0.6846
   - name: Scott S. Smith
     slug: scott-s-smith
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.2444
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4638
     is_incumbent: false
-    war_v2: 0.4638
+    incumbent_terms: 0
+    war_v2: 0.5225
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.283
+    tide_component: -0.0011
     expected_two_party_share: 0.5362
-    expected_two_party_share_v2: 0.5362
+    expected_two_party_share_v2: 0.4775
   is_open_seat: null
 title: 5th Bristol (2001-2010)
 layout: district

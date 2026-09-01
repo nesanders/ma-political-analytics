@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 0.7094
   war: 0.038
-  war_v2: -0.0865
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0045
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6714
-  expected_two_party_share_v2: 0.7959
+  expected_two_party_share_v2: 0.7049
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3097
-  war_v2: 0.3097
+  war_v2: 0.4416
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6903
-  expected_two_party_share_v2: 0.6903
+  expected_two_party_share_v2: 0.5584
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2868
-  war_v2: 0.1623
-  incumbency_adjustment: 0.1245
+  war_v2: 0.286
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.7132
-  expected_two_party_share_v2: 0.8377
+  expected_two_party_share_v2: 0.714
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5812
-  war_v2: 0.4567
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4406
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4188
-  expected_two_party_share_v2: 0.5433
+  expected_two_party_share_v2: 0.5594
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3129
-  war_v2: 0.1884
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2972
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6871
-  expected_two_party_share_v2: 0.8116
+  expected_two_party_share_v2: 0.7028
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3672
-  war_v2: 0.2427
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3151
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6328
-  expected_two_party_share_v2: 0.7573
+  expected_two_party_share_v2: 0.6849
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -109,12 +115,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2576
-  war_v2: 0.2576
+  war_v2: 0.4141
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7424
-  expected_two_party_share_v2: 0.7424
+  expected_two_party_share_v2: 0.5859
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -125,12 +132,13 @@ races:
   winner: true
   actual_two_party_share: 0.6126
   war: -0.1119
-  war_v2: -0.1119
+  war_v2: 0.0359
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7245
-  expected_two_party_share_v2: 0.7245
+  expected_two_party_share_v2: 0.5767
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul W. Mark
 layout: candidate
 ---

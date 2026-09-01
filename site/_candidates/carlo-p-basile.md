@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
-  war_v2: 0.1877
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2861
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6878
-  expected_two_party_share_v2: 0.8123
+  expected_two_party_share_v2: 0.7139
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
-  war_v2: 0.1966
+  war_v2: 0.3819
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8034
-  expected_two_party_share_v2: 0.8034
+  expected_two_party_share_v2: 0.6181
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2491
-  war_v2: 0.1246
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2529
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.7509
-  expected_two_party_share_v2: 0.8754
+  expected_two_party_share_v2: 0.7471
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1987
-  war_v2: 0.1987
+  war_v2: 0.383
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.8013
-  expected_two_party_share_v2: 0.8013
+  expected_two_party_share_v2: 0.617
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Carlo P. Basile
 layout: candidate
 ---

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.6005
     war: 0.131
     is_incumbent: false
-    war_v2: 0.131
+    incumbent_terms: 0
+    war_v2: 0.1584
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2478
+    tide_component: -0.0012
     expected_two_party_share: 0.4695
-    expected_two_party_share_v2: 0.4695
+    expected_two_party_share_v2: 0.4421
   - name: James J. Buba
     slug: james-j-buba
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.3995
     war: -0.131
     is_incumbent: false
-    war_v2: -0.131
+    incumbent_terms: 0
+    war_v2: -0.075
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2799
+    tide_component: -0.0011
     expected_two_party_share: 0.5305
-    expected_two_party_share_v2: 0.5305
+    expected_two_party_share_v2: 0.4745
   - name: Patrick A. O'Connor
     slug: patrick-a-oconnor
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.1017
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4024
     is_incumbent: true
-    war_v2: 0.2779
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3469
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3154
+    tide_component: -0.0015
     expected_two_party_share: 0.5976
-    expected_two_party_share_v2: 0.7221
+    expected_two_party_share_v2: 0.6531
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5452
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.7586
     war: 0.2134
     is_incumbent: true
-    war_v2: 0.0889
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.1306
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2877
+    tide_component: -0.0014
     expected_two_party_share: 0.5452
-    expected_two_party_share_v2: 0.6697
+    expected_two_party_share_v2: 0.628
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.2414
     war: -0.2134
     is_incumbent: false
-    war_v2: -0.2134
+    incumbent_terms: 0
+    war_v2: -0.1933
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.24
+    tide_component: -0.0009
     expected_two_party_share: 0.4548
-    expected_two_party_share_v2: 0.4548
+    expected_two_party_share_v2: 0.4347
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5736
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.7582
     war: 0.1847
     is_incumbent: true
-    war_v2: 0.0602
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.1049
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3027
+    tide_component: -0.0014
     expected_two_party_share: 0.5735
-    expected_two_party_share_v2: 0.698
+    expected_two_party_share_v2: 0.6533
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.2418
     war: -0.1847
     is_incumbent: false
-    war_v2: -0.1847
+    incumbent_terms: 0
+    war_v2: -0.178
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.225
+    tide_component: -0.0009
     expected_two_party_share: 0.4265
-    expected_two_party_share_v2: 0.4265
+    expected_two_party_share_v2: 0.4198
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4134
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.7212
     war: 0.3077
     is_incumbent: false
-    war_v2: 0.3077
+    incumbent_terms: 0
+    war_v2: 0.3085
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2182
+    tide_component: -0.0011
     expected_two_party_share: 0.4135
-    expected_two_party_share_v2: 0.4135
+    expected_two_party_share_v2: 0.4127
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.2788
     war: -0.3077
     is_incumbent: false
-    war_v2: -0.3077
+    incumbent_terms: 0
+    war_v2: -0.2251
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3095
+    tide_component: -0.0012
     expected_two_party_share: 0.5865
-    expected_two_party_share_v2: 0.5865
+    expected_two_party_share_v2: 0.5039
   is_open_seat: null
 title: First Middlesex (2001-2010)
 layout: district

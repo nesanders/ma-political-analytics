@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3029
     is_incumbent: false
-    war_v2: 0.3029
+    incumbent_terms: 0
+    war_v2: 0.4381
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3679
+    tide_component: -0.0015
     expected_two_party_share: 0.6971
-    expected_two_party_share_v2: 0.6971
+    expected_two_party_share_v2: 0.5619
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.4195
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5805
     is_incumbent: true
-    war_v2: 0.456
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.4402
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2214
+    tide_component: -0.0008
     expected_two_party_share: 0.4195
-    expected_two_party_share_v2: 0.544
+    expected_two_party_share_v2: 0.5598
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7432
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2568
     is_incumbent: true
-    war_v2: 0.1323
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2676
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3922
+    tide_component: -0.0015
     expected_two_party_share: 0.7432
-    expected_two_party_share_v2: 0.8677
+    expected_two_party_share_v2: 0.7324
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6017
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3983
     is_incumbent: true
-    war_v2: 0.2738
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3315
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3175
+    tide_component: -0.0011
     expected_two_party_share: 0.6017
-    expected_two_party_share_v2: 0.7262
+    expected_two_party_share_v2: 0.6685
   - name: Jerome T. Hobert
     slug: jerome-t-hobert
     party: Other
@@ -106,8 +122,12 @@ results_by_year:
     actual_two_party_share: 0.0186
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.7483
     war: -0.0256
     is_incumbent: false
-    war_v2: -0.0256
+    incumbent_terms: 0
+    war_v2: 0.1457
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4084
+    tide_component: -0.0014
     expected_two_party_share: 0.7739
-    expected_two_party_share_v2: 0.7739
+    expected_two_party_share_v2: 0.6026
   - name: Linda L. Vacon
     slug: linda-l-vacon
     party: Republican
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.2517
     war: 0.0256
     is_incumbent: false
-    war_v2: 0.0256
+    incumbent_terms: 0
+    war_v2: -0.0623
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1193
+    tide_component: -0.0009
     expected_two_party_share: 0.2261
-    expected_two_party_share_v2: 0.2261
+    expected_two_party_share_v2: 0.314
   - name: Jerome T. Hobert
     slug: jerome-t-hobert
     party: null
@@ -151,8 +179,12 @@ results_by_year:
     actual_two_party_share: 0.2304
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

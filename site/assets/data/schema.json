@@ -35,11 +35,12 @@
         "winner": "true if this candidate won the race",
         "is_uncontested": "true if this race had no opposing major-party candidate",
         "is_incumbent": "true if this candidate won the immediately preceding election for this same district within the same redistricting vintage. Never true for a district's first election on record in a vintage (nothing to compare against) \u2014 not the same as confirmed false.",
+        "incumbent_terms": "How many consecutive prior elections (within this same vintage) this candidate has already won in a row, as of this race \u2014 0 for a non-incumbent. Feeds WAR v2's incumbency terms (1 / 2 / 3-or-more), a richer signal than the is_incumbent boolean alone.",
         "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
         "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
         "war": "WAR v1: actual_two_party_share minus the expected share from district_lean_dem_share alone. Only defined for Democratic/Republican candidates. Positive = overperformed the baseline; negative = underperformed. Inflated for uncontested races \u2014 see is_uncontested.",
-        "war_v2": "WAR v2: same as war, but the expected share also adds incumbency_adjustment when is_incumbent is true. A single fitted coefficient (see the methodology page for the current value) \u2014 the average gap between incumbents' and non-incumbents' WAR v1 over every contested major-party race. Same null cases as war.",
-        "incumbency_adjustment": "The fitted incumbency term war_v2 subtracts from war when is_incumbent is true, 0 otherwise. Exposed separately so a query can decompose war_v2 back into war and this."
+        "war_v2": "WAR v2: actual_two_party_share minus a Bayesian regression's fitted expected share \u2014 district lean, that year's statewide (unapportioned) tide, and incumbency terms (1st/2nd/3rd-or-later), fit across every contested major-party race in the backfill. See the methodology page for the current posterior coefficients and their uncertainty. Same null cases as war.",
+        "incumbency_adjustment": "The fitted incumbency term's contribution to war_v2's expected share for this candidate's incumbent_terms bucket (0 for a non-incumbent). Exposed separately, alongside district_lean_dem_share and the statewide tide (see the methodology page's coefficients), so a query can reconstruct war_v2's full decomposition."
       }
     },
     "towns": {

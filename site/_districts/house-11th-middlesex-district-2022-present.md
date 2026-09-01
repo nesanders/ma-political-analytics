@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.8127
     war: 0.0054
     is_incumbent: false
-    war_v2: 0.0054
+    incumbent_terms: 0
+    war_v2: 0.1925
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.426
+    tide_component: -0.0014
     expected_two_party_share: 0.8073
-    expected_two_party_share_v2: 0.8073
+    expected_two_party_share_v2: 0.6202
   - name: Vladislav S. Yanovsky
     slug: vladislav-s-yanovsky
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.1873
     war: -0.0054
     is_incumbent: false
-    war_v2: -0.0054
+    incumbent_terms: 0
+    war_v2: -0.1091
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1017
+    tide_component: -0.0009
     expected_two_party_share: 0.1927
-    expected_two_party_share_v2: 0.1927
+    expected_two_party_share_v2: 0.2964
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8152
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1848
     is_incumbent: false
-    war_v2: 0.1848
+    incumbent_terms: 0
+    war_v2: 0.3757
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4302
+    tide_component: -0.0015
     expected_two_party_share: 0.8152
-    expected_two_party_share_v2: 0.8152
+    expected_two_party_share_v2: 0.6243
   is_open_seat: null
 demographics:
   total_population: 41476

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5244
     war: 0.0853
     is_incumbent: true
-    war_v2: -0.0392
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0453
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2317
+    tide_component: -0.0012
     expected_two_party_share: 0.4391
-    expected_two_party_share_v2: 0.5636
+    expected_two_party_share_v2: 0.5697
   - name: Thomas Francis Keyes
     slug: thomas-francis-keyes
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4756
     war: -0.0853
     is_incumbent: false
-    war_v2: -0.0853
+    incumbent_terms: 0
+    war_v2: -0.0149
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.296
+    tide_component: -0.0011
     expected_two_party_share: 0.5609
-    expected_two_party_share_v2: 0.5609
+    expected_two_party_share_v2: 0.4905
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5374
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4626
     is_incumbent: true
-    war_v2: 0.3381
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3787
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2836
+    tide_component: -0.0015
     expected_two_party_share: 0.5374
-    expected_two_party_share_v2: 0.6619
+    expected_two_party_share_v2: 0.6213
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5139
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4861
     is_incumbent: true
-    war_v2: 0.3616
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3885
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2712
+    tide_component: -0.0014
     expected_two_party_share: 0.5139
-    expected_two_party_share_v2: 0.6384
+    expected_two_party_share_v2: 0.6115
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5354
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.5769
     war: 0.0415
     is_incumbent: true
-    war_v2: -0.083
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0563
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2825
+    tide_component: -0.0014
     expected_two_party_share: 0.5354
-    expected_two_party_share_v2: 0.6599
+    expected_two_party_share_v2: 0.6332
   - name: Timothy E. Duncan
     slug: timothy-e-duncan
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.4231
     war: -0.0415
     is_incumbent: false
-    war_v2: -0.0415
+    incumbent_terms: 0
+    war_v2: -0.0168
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2452
+    tide_component: -0.0009
     expected_two_party_share: 0.4646
-    expected_two_party_share_v2: 0.4646
+    expected_two_party_share_v2: 0.4399
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3927
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 0.5799
     war: 0.1872
     is_incumbent: false
-    war_v2: 0.1872
+    incumbent_terms: 0
+    war_v2: 0.1782
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2072
+    tide_component: -0.0011
     expected_two_party_share: 0.3927
-    expected_two_party_share_v2: 0.3927
+    expected_two_party_share_v2: 0.4017
   - name: Christopher L. Fava
     slug: christopher-l-fava
     party: Republican
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 0.4201
     war: -0.1872
     is_incumbent: false
-    war_v2: -0.1872
+    incumbent_terms: 0
+    war_v2: -0.0948
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3205
+    tide_component: -0.0012
     expected_two_party_share: 0.6073
-    expected_two_party_share_v2: 0.6073
+    expected_two_party_share_v2: 0.5149
   is_open_seat: null
 title: Plymouth and Barnstable (2001-2010)
 layout: district

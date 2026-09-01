@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3325
     is_incumbent: false
-    war_v2: 0.3325
+    incumbent_terms: 0
+    war_v2: 0.4537
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3522
+    tide_component: -0.0015
     expected_two_party_share: 0.6675
-    expected_two_party_share_v2: 0.6675
+    expected_two_party_share_v2: 0.5463
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.327
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.673
     is_incumbent: true
-    war_v2: 0.5485
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.489
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.1726
+    tide_component: -0.0008
     expected_two_party_share: 0.327
-    expected_two_party_share_v2: 0.4515
+    expected_two_party_share_v2: 0.511
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6701
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3299
     is_incumbent: true
-    war_v2: 0.2054
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3062
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3536
+    tide_component: -0.0015
     expected_two_party_share: 0.6701
-    expected_two_party_share_v2: 0.7946
+    expected_two_party_share_v2: 0.6938
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5029
@@ -94,10 +106,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4971
     is_incumbent: true
-    war_v2: 0.3726
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3836
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2654
+    tide_component: -0.0011
     expected_two_party_share: 0.5029
-    expected_two_party_share_v2: 0.6274
+    expected_two_party_share_v2: 0.6164
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6464
@@ -115,10 +131,14 @@ results_by_year:
     actual_two_party_share: 0.768
     war: 0.1216
     is_incumbent: false
-    war_v2: 0.1216
+    incumbent_terms: 0
+    war_v2: 0.2327
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3411
+    tide_component: -0.0014
     expected_two_party_share: 0.6464
-    expected_two_party_share_v2: 0.6464
+    expected_two_party_share_v2: 0.5353
   - name: Martin D. Burke
     slug: martin-d-burke
     party: Republican
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 0.232
     war: -0.1216
     is_incumbent: false
-    war_v2: -0.1216
+    incumbent_terms: 0
+    war_v2: -0.1493
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1866
+    tide_component: -0.0009
     expected_two_party_share: 0.3536
-    expected_two_party_share_v2: 0.3536
+    expected_two_party_share_v2: 0.3813
   is_open_seat: null
 title: 17th Middlesex District (2012-2020)
 layout: district

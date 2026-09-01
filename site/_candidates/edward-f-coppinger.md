@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1343
-  war_v2: 0.0098
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2055
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.8657
-  expected_two_party_share_v2: 0.9902
+  expected_two_party_share_v2: 0.7945
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 4
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4747
-  war_v2: 0.3502
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3844
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.5253
-  expected_two_party_share_v2: 0.6498
+  expected_two_party_share_v2: 0.6156
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1303
-  war_v2: 0.0058
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2008
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.8697
-  expected_two_party_share_v2: 0.9942
+  expected_two_party_share_v2: 0.7992
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3103
-  war_v2: 0.1858
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2851
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6897
-  expected_two_party_share_v2: 0.8142
+  expected_two_party_share_v2: 0.7149
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2032
-  war_v2: 0.2032
+  war_v2: 0.3853
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7968
-  expected_two_party_share_v2: 0.7968
+  expected_two_party_share_v2: 0.6147
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -93,12 +98,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2446
-  war_v2: 0.2446
+  war_v2: 0.407
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.7554
-  expected_two_party_share_v2: 0.7554
+  expected_two_party_share_v2: 0.593
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Edward F. Coppinger
 layout: candidate
 ---

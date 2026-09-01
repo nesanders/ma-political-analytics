@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4183
   war: -0.0637
-  war_v2: -0.0637
+  war_v2: -0.0307
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.482
-  expected_two_party_share_v2: 0.482
+  expected_two_party_share_v2: 0.449
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3654
   war: -0.215
-  war_v2: -0.215
+  war_v2: -0.1353
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5804
-  expected_two_party_share_v2: 0.5804
+  expected_two_party_share_v2: 0.5007
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Maria Marasco
 layout: candidate
 ---

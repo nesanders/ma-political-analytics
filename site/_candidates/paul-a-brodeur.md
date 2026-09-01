@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6682
-  war_v2: 0.5437
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4865
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.3318
-  expected_two_party_share_v2: 0.4563
+  expected_two_party_share_v2: 0.5135
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3354
-  war_v2: 0.2109
-  incumbency_adjustment: 0.1245
+  war_v2: 0.3091
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6646
-  expected_two_party_share_v2: 0.7891
+  expected_two_party_share_v2: 0.6909
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 0.6597
   war: 0.17
-  war_v2: 0.0455
-  incumbency_adjustment: 0.1245
+  war_v2: 0.0503
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4897
-  expected_two_party_share_v2: 0.6142
+  expected_two_party_share_v2: 0.6094
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4024
-  war_v2: 0.4024
+  war_v2: 0.4905
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5976
-  expected_two_party_share_v2: 0.5976
+  expected_two_party_share_v2: 0.5095
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.5149
   war: 0.0404
-  war_v2: 0.0404
+  war_v2: 0.0701
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4745
-  expected_two_party_share_v2: 0.4745
+  expected_two_party_share_v2: 0.4448
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Paul A. Brodeur
 layout: candidate
 ---

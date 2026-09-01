@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.343
     is_incumbent: true
-    war_v2: 0.2185
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: 0.3153
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3467
+    tide_component: -0.0012
     expected_two_party_share: 0.657
-    expected_two_party_share_v2: 0.7815
+    expected_two_party_share_v2: 0.6847
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6914
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3086
     is_incumbent: true
-    war_v2: 0.1841
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2974
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3649
+    tide_component: -0.0015
     expected_two_party_share: 0.6914
-    expected_two_party_share_v2: 0.8159
+    expected_two_party_share_v2: 0.7026
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7179
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2821
     is_incumbent: true
-    war_v2: 0.1576
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2809
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3788
+    tide_component: -0.0014
     expected_two_party_share: 0.7179
-    expected_two_party_share_v2: 0.8424
+    expected_two_party_share_v2: 0.7191
   - name: Raimundo Delgado
     slug: raimundo-delgado
     party: Other
@@ -85,8 +97,12 @@ results_by_year:
     actual_two_party_share: 0.2158
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2707
     is_incumbent: true
-    war_v2: 0.1462
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2645
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3849
+    tide_component: -0.0014
     expected_two_party_share: 0.7293
-    expected_two_party_share_v2: 0.8538
+    expected_two_party_share_v2: 0.7355
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6604
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3396
     is_incumbent: false
-    war_v2: 0.3396
+    incumbent_terms: 0
+    war_v2: 0.457
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3485
+    tide_component: -0.0011
     expected_two_party_share: 0.6604
-    expected_two_party_share_v2: 0.6604
+    expected_two_party_share_v2: 0.543
   is_open_seat: null
 title: Second Bristol and Plymouth (2001-2010)
 layout: district

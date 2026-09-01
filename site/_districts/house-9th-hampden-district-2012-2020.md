@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.27
     is_incumbent: false
-    war_v2: 0.27
+    incumbent_terms: 0
+    war_v2: 0.4207
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3852
+    tide_component: -0.0015
     expected_two_party_share: 0.73
-    expected_two_party_share_v2: 0.73
+    expected_two_party_share_v2: 0.5793
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.2482
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5717
     is_incumbent: true
-    war_v2: 0.4472
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.433
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.226
+    tide_component: -0.0008
     expected_two_party_share: 0.4283
-    expected_two_party_share_v2: 0.5528
+    expected_two_party_share_v2: 0.567
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7717
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2283
     is_incumbent: true
-    war_v2: 0.1038
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.2422
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.4072
+    tide_component: -0.0015
     expected_two_party_share: 0.7717
-    expected_two_party_share_v2: 0.8962
+    expected_two_party_share_v2: 0.7578
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -97,8 +113,12 @@ results_by_year:
     actual_two_party_share: 0.24
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: false
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3574
     is_incumbent: false
-    war_v2: 0.3574
+    incumbent_terms: 0
+    war_v2: 0.4664
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3391
+    tide_component: -0.0011
     expected_two_party_share: 0.6426
-    expected_two_party_share_v2: 0.6426
+    expected_two_party_share_v2: 0.5336
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.2719
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2011
     is_incumbent: false
-    war_v2: 0.2011
+    incumbent_terms: 0
+    war_v2: 0.3842
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.4216
+    tide_component: -0.0014
     expected_two_party_share: 0.7989
-    expected_two_party_share_v2: 0.7989
+    expected_two_party_share_v2: 0.6158
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -163,8 +195,12 @@ results_by_year:
     actual_two_party_share: 0.1797
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

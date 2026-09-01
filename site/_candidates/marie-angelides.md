@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4289
   war: -0.0747
-  war_v2: -0.0747
+  war_v2: -0.0316
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5036
-  expected_two_party_share_v2: 0.5036
+  expected_two_party_share_v2: 0.4605
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.4862
   war: -0.0299
-  war_v2: -0.0299
+  war_v2: 0.0193
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5161
-  expected_two_party_share_v2: 0.5161
+  expected_two_party_share_v2: 0.4669
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Marie Angelides
 layout: candidate
 ---

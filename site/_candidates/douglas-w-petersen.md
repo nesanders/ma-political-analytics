@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3923
-  war_v2: 0.2678
-  incumbency_adjustment: 0.1245
+  war_v2: 0.339
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.6077
-  expected_two_party_share_v2: 0.7322
+  expected_two_party_share_v2: 0.661
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 0.6548
   war: 0.014
-  war_v2: -0.1105
-  incumbency_adjustment: 0.1245
+  war_v2: -0.034
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.6408
-  expected_two_party_share_v2: 0.7653
+  expected_two_party_share_v2: 0.6888
   is_uncontested: false
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5743
-  war_v2: 0.5743
+  war_v2: 0.5808
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4257
-  expected_two_party_share_v2: 0.4257
+  expected_two_party_share_v2: 0.4192
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 title: Douglas W. Petersen
 layout: candidate
 ---

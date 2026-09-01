@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3914
     is_incumbent: false
-    war_v2: 0.3914
+    incumbent_terms: 0
+    war_v2: 0.4848
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3212
+    tide_component: -0.0015
     expected_two_party_share: 0.6086
-    expected_two_party_share_v2: 0.6086
+    expected_two_party_share_v2: 0.5152
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2874
@@ -52,10 +56,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7126
     is_incumbent: true
-    war_v2: 0.5881
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.5074
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.1517
+    tide_component: -0.0008
     expected_two_party_share: 0.2874
-    expected_two_party_share_v2: 0.4119
+    expected_two_party_share_v2: 0.4926
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5969
@@ -73,10 +81,14 @@ results_by_year:
     actual_two_party_share: 0.559
     war: -0.0379
     is_incumbent: true
-    war_v2: -0.1624
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.1066
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.315
+    tide_component: -0.0015
     expected_two_party_share: 0.5969
-    expected_two_party_share_v2: 0.7214
+    expected_two_party_share_v2: 0.6656
   - name: James Chip Harrington
     slug: james-chip-harrington
     party: Republican
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 0.441
     war: 0.0379
     is_incumbent: false
-    war_v2: 0.0379
+    incumbent_terms: 0
+    war_v2: 0.0335
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2127
+    tide_component: -0.0008
     expected_two_party_share: 0.4031
-    expected_two_party_share_v2: 0.4031
+    expected_two_party_share_v2: 0.4075
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.458
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 0.53
     war: 0.072
     is_incumbent: false
-    war_v2: 0.072
+    incumbent_terms: 0
+    war_v2: 0.0938
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2417
+    tide_component: -0.0011
     expected_two_party_share: 0.458
-    expected_two_party_share_v2: 0.458
+    expected_two_party_share_v2: 0.4362
   - name: Debra A. Boronski
     slug: debra-a-boronski
     party: Republican
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 0.47
     war: -0.072
     is_incumbent: false
-    war_v2: -0.072
+    incumbent_terms: 0
+    war_v2: -0.0104
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.286
+    tide_component: -0.0012
     expected_two_party_share: 0.542
-    expected_two_party_share_v2: 0.542
+    expected_two_party_share_v2: 0.4804
   - name: Mike Franco
     slug: michael-franco
     party: Other
@@ -130,8 +154,12 @@ results_by_year:
     actual_two_party_share: 0.0509
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -151,10 +179,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3787
     is_incumbent: false
-    war_v2: 0.3787
+    incumbent_terms: 0
+    war_v2: 0.478
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3279
+    tide_component: -0.0014
     expected_two_party_share: 0.6213
-    expected_two_party_share_v2: 0.6213
+    expected_two_party_share_v2: 0.522
   is_open_seat: null
 title: First Hampden & Hampshire District (2012-2020)
 layout: district

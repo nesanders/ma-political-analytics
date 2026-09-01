@@ -13,12 +13,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5695
-  war_v2: 0.5695
+  war_v2: 0.578
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.4305
-  expected_two_party_share_v2: 0.4305
+  expected_two_party_share_v2: 0.422
   is_uncontested: true
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5948
-  war_v2: 0.4703
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4477
+  incumbency_adjustment: 0.1436
   expected_two_party_share: 0.4052
-  expected_two_party_share_v2: 0.5297
+  expected_two_party_share_v2: 0.5523
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 3
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -45,12 +47,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2112
-  war_v2: 0.0867
-  incumbency_adjustment: 0.1245
+  war_v2: 0.2436
+  incumbency_adjustment: 0.1461
   expected_two_party_share: 0.7888
-  expected_two_party_share_v2: 0.9133
+  expected_two_party_share_v2: 0.7564
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 2
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -61,12 +64,13 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5341
-  war_v2: 0.4096
-  incumbency_adjustment: 0.1245
+  war_v2: 0.4029
+  incumbency_adjustment: 0.1565
   expected_two_party_share: 0.4659
-  expected_two_party_share_v2: 0.5904
+  expected_two_party_share_v2: 0.5971
   is_uncontested: true
   is_incumbent: true
+  incumbent_terms: 1
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -77,12 +81,13 @@ races:
   winner: true
   actual_two_party_share: 0.6239
   war: -0.0319
-  war_v2: -0.0319
+  war_v2: 0.0834
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6558
-  expected_two_party_share_v2: 0.6558
+  expected_two_party_share_v2: 0.5405
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 ocpf_finance:
   cpf_ids:
   - 15779

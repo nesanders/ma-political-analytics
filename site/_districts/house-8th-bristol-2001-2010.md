@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3664
     is_incumbent: false
-    war_v2: 0.3664
+    incumbent_terms: 0
+    war_v2: 0.4713
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3344
+    tide_component: -0.0012
     expected_two_party_share: 0.6336
-    expected_two_party_share_v2: 0.6336
+    expected_two_party_share_v2: 0.5287
   - name: F. George Jacome
     slug: f-george-jacome
     party: Other
@@ -43,8 +47,12 @@ results_by_year:
     actual_two_party_share: 0.4775
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2911
     is_incumbent: true
-    war_v2: 0.1666
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.2882
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3741
+    tide_component: -0.0015
     expected_two_party_share: 0.7089
-    expected_two_party_share_v2: 0.8334
+    expected_two_party_share_v2: 0.7118
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.721
@@ -85,10 +97,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.279
     is_incumbent: true
-    war_v2: 0.1545
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.2792
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3805
+    tide_component: -0.0014
     expected_two_party_share: 0.721
-    expected_two_party_share_v2: 0.8455
+    expected_two_party_share_v2: 0.7208
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7303
@@ -106,10 +122,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2697
     is_incumbent: true
-    war_v2: 0.1452
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.264
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3854
+    tide_component: -0.0014
     expected_two_party_share: 0.7303
-    expected_two_party_share_v2: 0.8548
+    expected_two_party_share_v2: 0.736
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6561
@@ -127,10 +147,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3439
     is_incumbent: false
-    war_v2: 0.3439
+    incumbent_terms: 0
+    war_v2: 0.4593
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3462
+    tide_component: -0.0011
     expected_two_party_share: 0.6561
-    expected_two_party_share_v2: 0.6561
+    expected_two_party_share_v2: 0.5407
   is_open_seat: null
 title: 8th Bristol (2001-2010)
 layout: district

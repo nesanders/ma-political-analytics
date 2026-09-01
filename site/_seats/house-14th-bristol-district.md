@@ -28,10 +28,14 @@ results_by_year:
     actual_two_party_share: 0.5595
     war: 0.0093
     is_incumbent: true
-    war_v2: -0.1152
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0815
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2903
+    tide_component: -0.0014
     expected_two_party_share: 0.5502
-    expected_two_party_share_v2: 0.6747
+    expected_two_party_share_v2: 0.641
   - name: David Cannata, Jr
     slug: david-b-cannata
     party: Republican
@@ -40,10 +44,14 @@ results_by_year:
     actual_two_party_share: 0.4405
     war: -0.0093
     is_incumbent: false
-    war_v2: -0.0093
+    incumbent_terms: 0
+    war_v2: 0.0084
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2374
+    tide_component: -0.0009
     expected_two_party_share: 0.4498
-    expected_two_party_share_v2: 0.4498
+    expected_two_party_share_v2: 0.4321
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5705
@@ -61,10 +69,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4295
     is_incumbent: false
-    war_v2: 0.4295
+    incumbent_terms: 0
+    war_v2: 0.5048
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3011
+    tide_component: -0.0015
     expected_two_party_share: 0.5705
-    expected_two_party_share_v2: 0.5705
+    expected_two_party_share_v2: 0.4952
   is_open_seat: null
 demographics:
   total_population: 42242

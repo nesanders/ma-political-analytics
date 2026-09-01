@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3254
   war: -0.0015
-  war_v2: -0.0015
+  war_v2: -0.0419
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.3269
-  expected_two_party_share_v2: 0.3269
+  expected_two_party_share_v2: 0.3673
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Ted Busiek
 layout: candidate
 ---

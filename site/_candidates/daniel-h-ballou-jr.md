@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.3047
   war: -0.3245
-  war_v2: -0.3245
+  war_v2: -0.2217
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.6292
-  expected_two_party_share_v2: 0.6292
+  expected_two_party_share_v2: 0.5264
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Daniel H. Ballou, Jr.
 layout: candidate
 ---

@@ -13,12 +13,13 @@ races:
   winner: false
   actual_two_party_share: 0.4949
   war: -0.02
-  war_v2: -0.02
+  war_v2: 0.0284
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5149
-  expected_two_party_share_v2: 0.5149
+  expected_two_party_share_v2: 0.4665
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -29,12 +30,13 @@ races:
   winner: false
   actual_two_party_share: 0.3465
   war: -0.16
-  war_v2: -0.16
+  war_v2: -0.1156
   incumbency_adjustment: 0.0
   expected_two_party_share: 0.5065
-  expected_two_party_share_v2: 0.5065
+  expected_two_party_share_v2: 0.4621
   is_uncontested: false
   is_incumbent: false
+  incumbent_terms: 0
 title: Sandra M. Wright
 layout: candidate
 ---

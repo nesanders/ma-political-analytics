@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5327
     war: -0.0618
     is_incumbent: false
-    war_v2: -0.0618
+    incumbent_terms: 0
+    war_v2: 0.0245
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3137
+    tide_component: -0.0011
     expected_two_party_share: 0.5945
-    expected_two_party_share_v2: 0.5945
+    expected_two_party_share_v2: 0.5082
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4673
     war: 0.0618
     is_incumbent: true
-    war_v2: -0.0627
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 4
+    war_v2: -0.0847
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.214
+    tide_component: -0.0012
     expected_two_party_share: 0.4055
-    expected_two_party_share_v2: 0.53
+    expected_two_party_share_v2: 0.552
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5436
@@ -64,10 +72,14 @@ results_by_year:
     actual_two_party_share: 0.5915
     war: 0.0479
     is_incumbent: true
-    war_v2: -0.0766
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: -0.0331
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.2869
+    tide_component: -0.0015
     expected_two_party_share: 0.5436
-    expected_two_party_share_v2: 0.6681
+    expected_two_party_share_v2: 0.6246
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 0.4085
     war: -0.0479
     is_incumbent: false
-    war_v2: -0.0479
+    incumbent_terms: 0
+    war_v2: -0.0271
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2408
+    tide_component: -0.0008
     expected_two_party_share: 0.4564
-    expected_two_party_share_v2: 0.4564
+    expected_two_party_share_v2: 0.4356
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.497
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 0.5921
     war: 0.095
     is_incumbent: true
-    war_v2: -0.0295
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: -0.0105
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.2623
+    tide_component: -0.0014
     expected_two_party_share: 0.4971
-    expected_two_party_share_v2: 0.6216
+    expected_two_party_share_v2: 0.6026
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -109,10 +129,14 @@ results_by_year:
     actual_two_party_share: 0.4079
     war: -0.095
     is_incumbent: false
-    war_v2: -0.095
+    incumbent_terms: 0
+    war_v2: -0.0522
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2654
+    tide_component: -0.0009
     expected_two_party_share: 0.5029
-    expected_two_party_share_v2: 0.5029
+    expected_two_party_share_v2: 0.4601
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5181
@@ -130,10 +154,14 @@ results_by_year:
     actual_two_party_share: 0.5817
     war: 0.0637
     is_incumbent: true
-    war_v2: -0.0608
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: -0.0424
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.2734
+    tide_component: -0.0014
     expected_two_party_share: 0.518
-    expected_two_party_share_v2: 0.6425
+    expected_two_party_share_v2: 0.6241
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -142,10 +170,14 @@ results_by_year:
     actual_two_party_share: 0.4183
     war: -0.0637
     is_incumbent: false
-    war_v2: -0.0637
+    incumbent_terms: 0
+    war_v2: -0.0307
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2543
+    tide_component: -0.0009
     expected_two_party_share: 0.482
-    expected_two_party_share_v2: 0.482
+    expected_two_party_share_v2: 0.449
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3385
@@ -163,10 +195,14 @@ results_by_year:
     actual_two_party_share: 0.5344
     war: 0.1959
     is_incumbent: false
-    war_v2: 0.1959
+    incumbent_terms: 0
+    war_v2: 0.1613
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.1786
+    tide_component: -0.0011
     expected_two_party_share: 0.3385
-    expected_two_party_share_v2: 0.3385
+    expected_two_party_share_v2: 0.3731
   - name: Kathleen R. Sachs
     slug: kathleen-r-sachs
     party: Republican
@@ -175,10 +211,14 @@ results_by_year:
     actual_two_party_share: 0.4656
     war: -0.1959
     is_incumbent: false
-    war_v2: -0.1959
+    incumbent_terms: 0
+    war_v2: -0.0779
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3491
+    tide_component: -0.0012
     expected_two_party_share: 0.6615
-    expected_two_party_share_v2: 0.6615
+    expected_two_party_share_v2: 0.5435
   - name: Alfred J. Depietro
     slug: alfred-j-depietro
     party: Other
@@ -187,8 +227,12 @@ results_by_year:
     actual_two_party_share: 0.056
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: null

@@ -31,10 +31,14 @@ results_by_year:
     actual_two_party_share: 0.5681
     war: -0.0064
     is_incumbent: false
-    war_v2: -0.0064
+    incumbent_terms: 0
+    war_v2: 0.0706
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3032
+    tide_component: -0.0012
     expected_two_party_share: 0.5745
-    expected_two_party_share_v2: 0.5745
+    expected_two_party_share_v2: 0.4975
   - name: Joe Michaud
     slug: joe-michaud
     party: Republican
@@ -43,10 +47,14 @@ results_by_year:
     actual_two_party_share: 0.4319
     war: 0.0064
     is_incumbent: false
-    war_v2: 0.0064
+    incumbent_terms: 0
+    war_v2: 0.0128
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.2245
+    tide_component: -0.0011
     expected_two_party_share: 0.4255
-    expected_two_party_share_v2: 0.4255
+    expected_two_party_share_v2: 0.4191
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Other
@@ -55,8 +63,12 @@ results_by_year:
     actual_two_party_share: 0.0576
     war: null
     is_incumbent: false
+    incumbent_terms: 0
     war_v2: null
     incumbency_adjustment: null
+    intercept_component: null
+    lean_component: null
+    tide_component: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
   is_open_seat: true
@@ -76,10 +88,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3715
     is_incumbent: true
-    war_v2: 0.247
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 3
+    war_v2: 0.3306
+    incumbency_adjustment: 0.1436
+    intercept_component: 0.1956
+    lean_component: 0.3317
+    tide_component: -0.0015
     expected_two_party_share: 0.6285
-    expected_two_party_share_v2: 0.753
+    expected_two_party_share_v2: 0.6694
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.652
@@ -97,10 +113,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.348
     is_incumbent: true
-    war_v2: 0.2235
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 2
+    war_v2: 0.3156
+    incumbency_adjustment: 0.1461
+    intercept_component: 0.1956
+    lean_component: 0.3441
+    tide_component: -0.0014
     expected_two_party_share: 0.652
-    expected_two_party_share_v2: 0.7765
+    expected_two_party_share_v2: 0.6844
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6617
@@ -118,10 +138,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3383
     is_incumbent: true
-    war_v2: 0.2138
-    incumbency_adjustment: 0.1245
+    incumbent_terms: 1
+    war_v2: 0.3002
+    incumbency_adjustment: 0.1565
+    intercept_component: 0.1956
+    lean_component: 0.3492
+    tide_component: -0.0014
     expected_two_party_share: 0.6617
-    expected_two_party_share_v2: 0.7862
+    expected_two_party_share_v2: 0.6998
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5691
@@ -139,10 +163,14 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4309
     is_incumbent: false
-    war_v2: 0.4309
+    incumbent_terms: 0
+    war_v2: 0.5052
     incumbency_adjustment: 0.0
+    intercept_component: 0.1956
+    lean_component: 0.3003
+    tide_component: -0.0011
     expected_two_party_share: 0.5691
-    expected_two_party_share_v2: 0.5691
+    expected_two_party_share_v2: 0.4948
   is_open_seat: null
 title: 9th Bristol (2001-2010)
 layout: district
