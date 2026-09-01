@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4366
   war: 0.185
+  war_v2: 0.185
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2516
+  expected_two_party_share_v2: 0.2516
   is_uncontested: false
   is_incumbent: false
 title: Allison M. Gustavson

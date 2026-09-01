@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4374
     is_incumbent: true
+    war_v2: 0.3129
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5626
+    expected_two_party_share_v2: 0.6871
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3381
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6619
     is_incumbent: true
+    war_v2: 0.5374
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3381
+    expected_two_party_share_v2: 0.4626
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6168
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3832
     is_incumbent: true
+    war_v2: 0.2587
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6168
+    expected_two_party_share_v2: 0.7413
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6144
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3856
     is_incumbent: true
+    war_v2: 0.2611
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6144
+    expected_two_party_share_v2: 0.7389
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7475
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2525
     is_incumbent: false
+    war_v2: 0.2525
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7475
+    expected_two_party_share_v2: 0.7475
   is_open_seat: null
 title: 7th Bristol District (2012-2020)
 layout: district

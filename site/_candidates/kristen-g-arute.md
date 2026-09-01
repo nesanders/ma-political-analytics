@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4297
   war: -0.3232
+  war_v2: -0.3232
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7529
+  expected_two_party_share_v2: 0.7529
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4598
   war: 0.0857
+  war_v2: 0.0857
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3741
+  expected_two_party_share_v2: 0.3741
   is_uncontested: false
   is_incumbent: false
 title: Kristen G. Arute

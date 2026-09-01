@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3218
+  war_v2: 0.1973
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6782
+  expected_two_party_share_v2: 0.8027
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.8469
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Pam Richardson

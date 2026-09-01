@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2426
     is_incumbent: true
+    war_v2: 0.1181
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7574
+    expected_two_party_share_v2: 0.8819
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4467
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5533
     is_incumbent: true
+    war_v2: 0.4288
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4467
+    expected_two_party_share_v2: 0.5712
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7324
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2676
     is_incumbent: true
+    war_v2: 0.1431
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7324
+    expected_two_party_share_v2: 0.8569
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6174
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3826
     is_incumbent: true
+    war_v2: 0.2581
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6174
+    expected_two_party_share_v2: 0.7419
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7009
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2991
     is_incumbent: false
+    war_v2: 0.2991
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7009
+    expected_two_party_share_v2: 0.7009
   is_open_seat: null
 title: 35th Middlesex District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3506
+  war_v2: 0.2261
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6494
+  expected_two_party_share_v2: 0.7739
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.109
+  war_v2: -0.0155
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.891
+  expected_two_party_share_v2: 1.0155
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2312
+  war_v2: 0.1067
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7688
+  expected_two_party_share_v2: 0.8933
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1448
+  war_v2: 0.1448
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8552
+  expected_two_party_share_v2: 0.8552
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2106
+  war_v2: 0.0861
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7894
+  expected_two_party_share_v2: 0.9139
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1636
+  war_v2: 0.0391
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8364
+  expected_two_party_share_v2: 0.9609
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2039
+  war_v2: 0.2039
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7961
+  expected_two_party_share_v2: 0.7961
   is_uncontested: true
   is_incumbent: false
 title: Denise Provost

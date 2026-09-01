@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4117
   war: -0.0784
+  war_v2: -0.0784
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4901
+  expected_two_party_share_v2: 0.4901
   is_uncontested: false
   is_incumbent: false
 title: Bridget Matthews-Kane

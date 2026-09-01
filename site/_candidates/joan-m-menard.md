@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3534
+  war_v2: 0.2289
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6466
+  expected_two_party_share_v2: 0.7711
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3372
+  war_v2: 0.2127
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6628
+  expected_two_party_share_v2: 0.7873
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3251
+  war_v2: 0.2006
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6749
+  expected_two_party_share_v2: 0.7994
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4119
+  war_v2: 0.4119
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5881
+  expected_two_party_share_v2: 0.5881
   is_uncontested: true
   is_incumbent: false
 title: Joan M. Menard

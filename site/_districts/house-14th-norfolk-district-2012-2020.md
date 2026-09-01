@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2167
     is_incumbent: true
+    war_v2: 0.0922
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7833
+    expected_two_party_share_v2: 0.9078
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3044
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6956
     is_incumbent: true
+    war_v2: 0.5711
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3044
+    expected_two_party_share_v2: 0.4289
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7567
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2433
     is_incumbent: true
+    war_v2: 0.1188
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7567
+    expected_two_party_share_v2: 0.8812
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4232
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5768
     is_incumbent: true
+    war_v2: 0.4523
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4232
+    expected_two_party_share_v2: 0.5477
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5665
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4335
     is_incumbent: false
+    war_v2: 0.4335
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5665
+    expected_two_party_share_v2: 0.5665
   is_open_seat: null
 title: 14th Norfolk District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3664
     is_incumbent: false
+    war_v2: 0.3664
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6336
+    expected_two_party_share_v2: 0.6336
   - name: F. George Jacome
     slug: f-george-jacome
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4775
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.7089
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2911
     is_incumbent: true
+    war_v2: 0.1666
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7089
+    expected_two_party_share_v2: 0.8334
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.721
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.279
     is_incumbent: true
+    war_v2: 0.1545
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.721
+    expected_two_party_share_v2: 0.8455
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7303
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2697
     is_incumbent: true
+    war_v2: 0.1452
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7303
+    expected_two_party_share_v2: 0.8548
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6561
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3439
     is_incumbent: false
+    war_v2: 0.3439
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6561
+    expected_two_party_share_v2: 0.6561
   is_open_seat: null
 title: 8th Bristol (2001-2010)
 layout: district

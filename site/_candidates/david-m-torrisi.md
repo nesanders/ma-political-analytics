@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5265
   war: -0.0243
+  war_v2: -0.1488
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5508
+  expected_two_party_share_v2: 0.6753
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3323
+  war_v2: 0.2078
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6677
+  expected_two_party_share_v2: 0.7922
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4038
+  war_v2: 0.2793
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5962
+  expected_two_party_share_v2: 0.7207
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6606
   war: 0.0662
+  war_v2: -0.0583
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5944
+  expected_two_party_share_v2: 0.7189
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6083
   war: 0.1682
+  war_v2: 0.1682
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4401
+  expected_two_party_share_v2: 0.4401
   is_uncontested: false
   is_incumbent: false
 title: David M. Torrisi

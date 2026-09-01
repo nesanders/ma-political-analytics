@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.412
     is_incumbent: true
+    war_v2: 0.2875
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.588
+    expected_two_party_share_v2: 0.7125
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6949
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3051
     is_incumbent: true
+    war_v2: 0.1806
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6949
+    expected_two_party_share_v2: 0.8194
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6546
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3454
     is_incumbent: true
+    war_v2: 0.2209
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6546
+    expected_two_party_share_v2: 0.7791
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7094
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2906
     is_incumbent: true
+    war_v2: 0.1661
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7094
+    expected_two_party_share_v2: 0.8339
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5611
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4389
     is_incumbent: false
+    war_v2: 0.4389
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5611
+    expected_two_party_share_v2: 0.5611
   is_open_seat: null
 title: 33rd Middlesex (2001-2010)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 2.0382
     war: null
     is_incumbent: true
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: William E. Larose
     slug: william-e-larose
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4491
     is_incumbent: false
+    war_v2: 0.4491
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5509
+    expected_two_party_share_v2: 0.5509
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2724
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 2.3646
     war: null
     is_incumbent: true
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: John William Arena
     slug: john-william-arena
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7276
     is_incumbent: false
+    war_v2: 0.7276
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2724
+    expected_two_party_share_v2: 0.2724
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5098
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5098
     is_incumbent: true
+    war_v2: 0.3853
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4902
+    expected_two_party_share_v2: 0.6147
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4431
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5463
     war: -0.0106
     is_incumbent: false
+    war_v2: -0.0106
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5569
+    expected_two_party_share_v2: 0.5569
   - name: Denise Andrews
     slug: denise-andrews
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4537
     war: 0.0106
     is_incumbent: true
+    war_v2: -0.1139
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4431
+    expected_two_party_share_v2: 0.5676
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5838
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.506
     war: -0.0778
     is_incumbent: false
+    war_v2: -0.0778
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5838
+    expected_two_party_share_v2: 0.5838
   - name: Susannah M. Whipps Lee
     slug: susannah-m-whipps
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.494
     war: 0.0778
     is_incumbent: false
+    war_v2: 0.0778
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4162
+    expected_two_party_share_v2: 0.4162
   - name: Richard F. Schober, Jr.
     slug: richard-f-schober-jr
     party: Other
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.1169
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 2nd Franklin District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7909
   war: 0.1123
+  war_v2: -0.0122
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6786
+  expected_two_party_share_v2: 0.8031
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2952
+  war_v2: 0.1707
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7048
+  expected_two_party_share_v2: 0.8293
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.7609
   war: 0.1288
+  war_v2: 0.0043
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6321
+  expected_two_party_share_v2: 0.7566
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4782
+  war_v2: 0.4782
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5218
+  expected_two_party_share_v2: 0.5218
   is_uncontested: true
   is_incumbent: false
 title: Christopher J. Donelan

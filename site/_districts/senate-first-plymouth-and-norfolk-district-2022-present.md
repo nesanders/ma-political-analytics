@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5949
     is_incumbent: false
+    war_v2: 0.5949
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4051
+    expected_two_party_share_v2: 0.4051
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5928
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.6063
     war: 0.199
     is_incumbent: false
+    war_v2: 0.199
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4073
+    expected_two_party_share_v2: 0.4073
   - name: Robert William Stephens, Jr
     slug: robert-william-stephens-jr
     party: Democratic
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.3937
     war: -0.199
     is_incumbent: false
+    war_v2: -0.199
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5927
+    expected_two_party_share_v2: 0.5927
   is_open_seat: null
 demographics:
   median_household_income: 121100

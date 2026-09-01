@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4108
   war: -0.1569
+  war_v2: -0.1569
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5677
+  expected_two_party_share_v2: 0.5677
   is_uncontested: false
   is_incumbent: false
 title: Neal Andrew Heeren

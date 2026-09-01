@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6363
     war: 0.263
     is_incumbent: true
+    war_v2: 0.1385
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3733
+    expected_two_party_share_v2: 0.4978
   - name: Mario S. Marchese
     slug: mario-s-marchese
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3637
     war: -0.263
     is_incumbent: false
+    war_v2: -0.263
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6267
+    expected_two_party_share_v2: 0.6267
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4968
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5032
     is_incumbent: true
+    war_v2: 0.3787
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4968
+    expected_two_party_share_v2: 0.6213
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4866
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5134
     is_incumbent: true
+    war_v2: 0.3889
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4866
+    expected_two_party_share_v2: 0.6111
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5264
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4736
     is_incumbent: true
+    war_v2: 0.3491
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5264
+    expected_two_party_share_v2: 0.6509
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3708
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6953
     war: 0.3245
     is_incumbent: false
+    war_v2: 0.3245
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3708
+    expected_two_party_share_v2: 0.3708
   - name: Daniel H. Ballou, Jr.
     slug: daniel-h-ballou-jr
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3047
     war: -0.3245
     is_incumbent: false
+    war_v2: -0.3245
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6292
+    expected_two_party_share_v2: 0.6292
   is_open_seat: null
 title: 19th Middlesex (2001-2010)
 layout: district

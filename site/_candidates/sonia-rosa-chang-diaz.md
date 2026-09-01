@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1469
+  war_v2: 0.0224
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8531
+  expected_two_party_share_v2: 0.9776
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.9004
   war: 0.2126
+  war_v2: 0.0881
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.8123
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
+  war_v2: 0.1966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8034
+  expected_two_party_share_v2: 0.8034
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2466
+  war_v2: 0.1221
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7534
+  expected_two_party_share_v2: 0.8779
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
+  war_v2: 0.1967
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8033
+  expected_two_party_share_v2: 0.8033
   is_uncontested: true
   is_incumbent: false
 title: "Sonia Rosa Chang-D\xC3\xADaz"

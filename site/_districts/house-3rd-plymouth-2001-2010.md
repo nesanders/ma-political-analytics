@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6209
     war: 0.1723
     is_incumbent: true
+    war_v2: 0.0478
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4486
+    expected_two_party_share_v2: 0.5731
   - name: Timothy F. Finnerty
     slug: timothy-f-finnerty
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3791
     war: -0.1723
     is_incumbent: false
+    war_v2: -0.1723
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5514
+    expected_two_party_share_v2: 0.5514
   - name: Carlton A. Chambers
     slug: carlton-a-chambers
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0256
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.54
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.46
     is_incumbent: true
+    war_v2: 0.3355
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.54
+    expected_two_party_share_v2: 0.6645
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.51
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.49
     is_incumbent: true
+    war_v2: 0.3655
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.51
+    expected_two_party_share_v2: 0.6345
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5305
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4695
     is_incumbent: true
+    war_v2: 0.345
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5305
+    expected_two_party_share_v2: 0.655
   - name: Laura M. Burns
     slug: laura-m-burns
     party: Other
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.0609
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3412
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.6765
     war: 0.3353
     is_incumbent: false
+    war_v2: 0.3353
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3412
+    expected_two_party_share_v2: 0.3412
   - name: Nathaniel G. Palmer
     slug: nathaniel-g-palmer
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.3235
     war: -0.3353
     is_incumbent: false
+    war_v2: -0.3353
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6588
+    expected_two_party_share_v2: 0.6588
   is_open_seat: null
 title: 3rd Plymouth (2001-2010)
 layout: district

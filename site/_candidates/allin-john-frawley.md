@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4789
   war: 0.2504
+  war_v2: 0.2504
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2285
+  expected_two_party_share_v2: 0.2285
   is_uncontested: false
   is_incumbent: false
 title: Allin John Frawley

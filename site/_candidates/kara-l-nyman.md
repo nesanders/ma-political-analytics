@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4896
   war: -0.0108
+  war_v2: -0.0108
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5004
+  expected_two_party_share_v2: 0.5004
   is_uncontested: false
   is_incumbent: false
 title: Kara L. Nyman

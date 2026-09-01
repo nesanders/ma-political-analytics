@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2512
     is_incumbent: false
+    war_v2: 0.2512
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7488
+    expected_two_party_share_v2: 0.7488
   - name: William R. Dermody
     slug: william-r-dermody
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.6271
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.7249
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2751
     is_incumbent: false
+    war_v2: 0.2751
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7249
+    expected_two_party_share_v2: 0.7249
   is_open_seat: null
 demographics:
   total_population: 44512

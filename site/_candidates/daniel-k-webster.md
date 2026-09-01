@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5138
   war: -0.1031
+  war_v2: -0.2276
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6169
+  expected_two_party_share_v2: 0.7414
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4985
+  war_v2: 0.374
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5015
+  expected_two_party_share_v2: 0.626
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5197
   war: 0.0063
+  war_v2: -0.1182
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5134
+  expected_two_party_share_v2: 0.6379
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5096
+  war_v2: 0.3851
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4904
+  expected_two_party_share_v2: 0.6149
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.5385
   war: -0.1018
+  war_v2: -0.1018
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6403
+  expected_two_party_share_v2: 0.6403
   is_uncontested: false
   is_incumbent: false
 title: Daniel K. Webster

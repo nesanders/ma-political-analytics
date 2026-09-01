@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3581
     is_incumbent: true
+    war_v2: 0.2336
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6419
+    expected_two_party_share_v2: 0.7664
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2654
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7346
     is_incumbent: true
+    war_v2: 0.6101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2654
+    expected_two_party_share_v2: 0.3899
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5933
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.66
     war: 0.0667
     is_incumbent: true
+    war_v2: -0.0578
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5933
+    expected_two_party_share_v2: 0.7178
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.34
     war: -0.0667
     is_incumbent: false
+    war_v2: -0.0667
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4067
+    expected_two_party_share_v2: 0.4067
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4063
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5812
     war: 0.1749
     is_incumbent: true
+    war_v2: 0.0504
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4063
+    expected_two_party_share_v2: 0.5308
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4188
     war: -0.1749
     is_incumbent: false
+    war_v2: -0.1749
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5937
+    expected_two_party_share_v2: 0.5937
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5326
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6072
     war: 0.0747
     is_incumbent: false
+    war_v2: 0.0747
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5325
+    expected_two_party_share_v2: 0.5325
   - name: James M. Stanton
     slug: james-m-stanton
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3928
     war: -0.0747
     is_incumbent: false
+    war_v2: -0.0747
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4675
+    expected_two_party_share_v2: 0.4675
   is_open_seat: null
 title: 12th Norfolk District (2012-2020)
 layout: district

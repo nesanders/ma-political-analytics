@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4153
     is_incumbent: true
+    war_v2: 0.2908
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5847
+    expected_two_party_share_v2: 0.7092
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6996
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3004
     is_incumbent: true
+    war_v2: 0.1759
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6996
+    expected_two_party_share_v2: 0.8241
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6568
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3432
     is_incumbent: true
+    war_v2: 0.2187
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6568
+    expected_two_party_share_v2: 0.7813
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.688
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.815
     war: 0.127
     is_incumbent: false
+    war_v2: 0.127
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.688
+    expected_two_party_share_v2: 0.688
   - name: David B. Summer
     slug: david-b-summer
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.185
     war: -0.127
     is_incumbent: false
+    war_v2: -0.127
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.312
+    expected_two_party_share_v2: 0.312
   - name: Richard H. Grabowski
     slug: richard-h-grabowski
     party: null
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.0963
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.5188
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4812
     is_incumbent: false
+    war_v2: 0.4812
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5188
+    expected_two_party_share_v2: 0.5188
   is_open_seat: null
 title: 7th Essex (2001-2010)
 layout: district

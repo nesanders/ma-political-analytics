@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4034
   war: -0.174
+  war_v2: -0.174
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5774
+  expected_two_party_share_v2: 0.5774
   is_uncontested: false
   is_incumbent: false
 title: Oscar Camargo

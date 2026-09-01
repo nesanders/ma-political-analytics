@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5088
     is_incumbent: true
+    war_v2: 0.3843
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4912
+    expected_two_party_share_v2: 0.6157
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.615
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.385
     is_incumbent: true
+    war_v2: 0.2605
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.615
+    expected_two_party_share_v2: 0.7395
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6276
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.7669
     war: 0.1393
     is_incumbent: false
+    war_v2: 0.1393
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6276
+    expected_two_party_share_v2: 0.6276
   - name: Edward L. Niemczura
     slug: edward-l-niemczura
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2331
     war: -0.1393
     is_incumbent: false
+    war_v2: -0.1393
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3724
+    expected_two_party_share_v2: 0.3724
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6266
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3734
     is_incumbent: true
+    war_v2: 0.2489
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6266
+    expected_two_party_share_v2: 0.7511
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4789
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5211
     is_incumbent: false
+    war_v2: 0.5211
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4789
+    expected_two_party_share_v2: 0.4789
   is_open_seat: null
 title: 3rd Worcester (2001-2010)
 layout: district

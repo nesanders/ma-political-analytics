@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2482
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.24
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.2719
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: false
   actual_two_party_share: 0.1797
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: false
   actual_two_party_share: 0.2436
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: false
   actual_two_party_share: 0.0647
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Robert J. Underwood

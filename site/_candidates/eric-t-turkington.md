@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7036
   war: 0.086
+  war_v2: -0.0385
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6176
+  expected_two_party_share_v2: 0.7421
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7026
   war: 0.0615
+  war_v2: -0.063
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6411
+  expected_two_party_share_v2: 0.7656
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5093
+  war_v2: 0.5093
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4907
+  expected_two_party_share_v2: 0.4907
   is_uncontested: true
   is_incumbent: false
 title: Eric T. Turkington

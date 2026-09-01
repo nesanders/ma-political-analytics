@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2969
   war: -0.3377
+  war_v2: -0.3377
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6346
+  expected_two_party_share_v2: 0.6346
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2648
   war: -0.2585
+  war_v2: -0.2585
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5233
+  expected_two_party_share_v2: 0.5233
   is_uncontested: false
   is_incumbent: false
 title: Douglas W. Sears

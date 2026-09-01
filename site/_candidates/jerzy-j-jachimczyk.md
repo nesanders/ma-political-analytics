@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2912
   war: -0.1644
+  war_v2: -0.1644
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4556
+  expected_two_party_share_v2: 0.4556
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4893
   war: -0.12
+  war_v2: -0.12
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6093
+  expected_two_party_share_v2: 0.6093
   is_uncontested: false
   is_incumbent: false
 title: Jerzy J. Jachimczyk

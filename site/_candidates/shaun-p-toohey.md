@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4618
   war: -0.1112
+  war_v2: -0.1112
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.573
+  expected_two_party_share_v2: 0.573
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4227
   war: -0.0217
+  war_v2: -0.0217
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4444
+  expected_two_party_share_v2: 0.4444
   is_uncontested: false
   is_incumbent: false
 title: Shaun P. Toohey

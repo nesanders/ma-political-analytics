@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2279
+  war_v2: 0.1034
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7721
+  expected_two_party_share_v2: 0.8966
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5346
+  war_v2: 0.4101
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4654
+  expected_two_party_share_v2: 0.5899
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2347
+  war_v2: 0.2347
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7653
+  expected_two_party_share_v2: 0.7653
   is_uncontested: true
   is_incumbent: false
 title: Joseph A. Boncore

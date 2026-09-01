@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6515
     war: 0.1201
     is_incumbent: true
+    war_v2: -0.0044
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5314
+    expected_two_party_share_v2: 0.6559
   - name: Janet Anne Holmes
     slug: janet-anne-holmes
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3485
     war: -0.1201
     is_incumbent: false
+    war_v2: -0.1201
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4686
+    expected_two_party_share_v2: 0.4686
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.649
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.351
     is_incumbent: false
+    war_v2: 0.351
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.649
+    expected_two_party_share_v2: 0.649
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5922
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4078
     is_incumbent: true
+    war_v2: 0.2833
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5922
+    expected_two_party_share_v2: 0.7167
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6317
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3683
     is_incumbent: true
+    war_v2: 0.2438
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6317
+    expected_two_party_share_v2: 0.7562
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4566
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7618
     war: 0.3052
     is_incumbent: false
+    war_v2: 0.3052
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4566
+    expected_two_party_share_v2: 0.4566
   - name: Charles F. Choate
     slug: charles-f-choate
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2382
     war: -0.3052
     is_incumbent: false
+    war_v2: -0.3052
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5434
+    expected_two_party_share_v2: 0.5434
   is_open_seat: null
 title: 5th Essex (2001-2010)
 layout: district

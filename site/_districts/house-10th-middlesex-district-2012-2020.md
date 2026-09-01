@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2387
     is_incumbent: true
+    war_v2: 0.1142
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7613
+    expected_two_party_share_v2: 0.8858
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4237
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5763
     is_incumbent: true
+    war_v2: 0.4518
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4237
+    expected_two_party_share_v2: 0.5482
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7365
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2635
     is_incumbent: true
+    war_v2: 0.139
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7365
+    expected_two_party_share_v2: 0.861
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5729
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4271
     is_incumbent: true
+    war_v2: 0.3026
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5729
+    expected_two_party_share_v2: 0.6974
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6795
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.76
     war: 0.0804
     is_incumbent: false
+    war_v2: 0.0804
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6796
+    expected_two_party_share_v2: 0.6796
   - name: Francis Xavier Stanton, III
     slug: francis-xavier-stanton-iii
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.24
     war: -0.0804
     is_incumbent: false
+    war_v2: -0.0804
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3204
+    expected_two_party_share_v2: 0.3204
   is_open_seat: null
 title: 10th Middlesex District (2012-2020)
 layout: district

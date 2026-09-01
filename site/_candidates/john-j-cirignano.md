@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3515
   war: -0.074
+  war_v2: -0.074
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4255
+  expected_two_party_share_v2: 0.4255
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.325
   war: -0.2781
+  war_v2: -0.2781
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6031
+  expected_two_party_share_v2: 0.6031
   is_uncontested: false
   is_incumbent: false
 title: John J. Cirignano

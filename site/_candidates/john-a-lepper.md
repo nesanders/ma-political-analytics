@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5435
   war: 0.0784
+  war_v2: -0.0461
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4651
+  expected_two_party_share_v2: 0.5896
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5602
+  war_v2: 0.4357
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4398
+  expected_two_party_share_v2: 0.5643
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3849
+  war_v2: 0.3849
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6151
+  expected_two_party_share_v2: 0.6151
   is_uncontested: true
   is_incumbent: false
 title: John A. Lepper

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6501
+  war_v2: 0.5256
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3499
+  expected_two_party_share_v2: 0.4744
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3771
+  war_v2: 0.2526
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6229
+  expected_two_party_share_v2: 0.7474
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4966
+  war_v2: 0.4966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5034
+  expected_two_party_share_v2: 0.5034
   is_uncontested: true
   is_incumbent: false
 title: Roselee Vincent

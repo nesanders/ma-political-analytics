@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5827
+  war_v2: 0.4582
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4173
+  expected_two_party_share_v2: 0.5418
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5729
+  war_v2: 0.4484
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4271
+  expected_two_party_share_v2: 0.5516
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5631
+  war_v2: 0.4386
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4369
+  expected_two_party_share_v2: 0.5614
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3608
+  war_v2: 0.3608
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6392
+  expected_two_party_share_v2: 0.6392
   is_uncontested: true
   is_incumbent: false
 title: Karyn E. Polito

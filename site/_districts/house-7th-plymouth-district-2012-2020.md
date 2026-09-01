@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5297
     is_incumbent: true
+    war_v2: 0.4052
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4703
+    expected_two_party_share_v2: 0.5948
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2251
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.558
     war: -0.2169
     is_incumbent: false
+    war_v2: -0.2169
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7749
+    expected_two_party_share_v2: 0.7749
   - name: Alex A. Bezanson
     slug: alex-a-bezanson
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.442
     war: 0.2169
     is_incumbent: false
+    war_v2: 0.2169
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2251
+    expected_two_party_share_v2: 0.2251
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4757
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4757
     is_incumbent: true
+    war_v2: 0.3512
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5243
+    expected_two_party_share_v2: 0.6488
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3652
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3652
     is_incumbent: true
+    war_v2: 0.2407
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6348
+    expected_two_party_share_v2: 0.7593
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4924
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.5424
     war: 0.0348
     is_incumbent: false
+    war_v2: 0.0348
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5076
+    expected_two_party_share_v2: 0.5076
   - name: Robert L. Toomey, Jr.
     slug: robert-l-toomey-jr
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.4576
     war: -0.0348
     is_incumbent: false
+    war_v2: -0.0348
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4924
+    expected_two_party_share_v2: 0.4924
   is_open_seat: null
 title: 7th Plymouth District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1576
     is_incumbent: false
+    war_v2: 0.1576
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8424
+    expected_two_party_share_v2: 0.8424
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.5089
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4911
     is_incumbent: false
+    war_v2: 0.4911
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.5089
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8531
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1469
     is_incumbent: true
+    war_v2: 0.0224
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8531
+    expected_two_party_share_v2: 0.9776
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6878
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.9004
     war: 0.2126
     is_incumbent: true
+    war_v2: 0.0881
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6878
+    expected_two_party_share_v2: 0.8123
   - name: David James Wyatt
     slug: david-james-wyatt
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.0996
     war: -0.2126
     is_incumbent: false
+    war_v2: -0.2126
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3122
+    expected_two_party_share_v2: 0.3122
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8034
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1966
     is_incumbent: false
+    war_v2: 0.1966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8034
+    expected_two_party_share_v2: 0.8034
   is_open_seat: null
 title: Second Suffolk District (2012-2020)
 layout: district

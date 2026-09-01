@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4258
     is_incumbent: true
+    war_v2: 0.3013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5742
+    expected_two_party_share_v2: 0.6987
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6233
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3767
     is_incumbent: true
+    war_v2: 0.2522
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6233
+    expected_two_party_share_v2: 0.7478
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6084
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3916
     is_incumbent: true
+    war_v2: 0.2671
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6084
+    expected_two_party_share_v2: 0.7329
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6587
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7761
     war: 0.1174
     is_incumbent: true
+    war_v2: -0.0071
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6587
+    expected_two_party_share_v2: 0.7832
   - name: Marco D. Sandonato
     slug: marco-d-sandonato
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2239
     war: -0.1174
     is_incumbent: false
+    war_v2: -0.1174
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3413
+    expected_two_party_share_v2: 0.3413
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5107
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4893
     is_incumbent: false
+    war_v2: 0.4893
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5107
+    expected_two_party_share_v2: 0.5107
   is_open_seat: null
 title: 1st Norfolk (2001-2010)
 layout: district

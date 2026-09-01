@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4162
     is_incumbent: true
+    war_v2: 0.2917
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5838
+    expected_two_party_share_v2: 0.7083
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5378
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5378
     is_incumbent: true
+    war_v2: 0.4133
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4622
+    expected_two_party_share_v2: 0.5867
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5047
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5047
     is_incumbent: true
+    war_v2: 0.3802
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4953
+    expected_two_party_share_v2: 0.6198
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.528
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6499
     war: 0.1779
     is_incumbent: true
+    war_v2: 0.0534
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.472
+    expected_two_party_share_v2: 0.5965
   - name: Paul M. McGeary
     slug: paul-m-mcgeary
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3501
     war: -0.1779
     is_incumbent: false
+    war_v2: -0.1779
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.528
+    expected_two_party_share_v2: 0.528
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3558
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7186
     war: 0.0744
     is_incumbent: false
+    war_v2: 0.0744
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6442
+    expected_two_party_share_v2: 0.6442
   - name: Andrew F. Armata
     slug: andrew-f-armata
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2814
     war: -0.0744
     is_incumbent: false
+    war_v2: -0.0744
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3558
+    expected_two_party_share_v2: 0.3558
   is_open_seat: null
 title: First Essex and Middlesex (2001-2010)
 layout: district

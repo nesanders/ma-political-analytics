@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2762
     is_incumbent: true
+    war_v2: 0.1517
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7238
+    expected_two_party_share_v2: 0.8483
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2641
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7359
     is_incumbent: true
+    war_v2: 0.6114
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2641
+    expected_two_party_share_v2: 0.3886
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6866
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3134
     is_incumbent: true
+    war_v2: 0.1889
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6866
+    expected_two_party_share_v2: 0.8111
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4267
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5733
     is_incumbent: true
+    war_v2: 0.4488
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4267
+    expected_two_party_share_v2: 0.5512
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6034
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3966
     is_incumbent: false
+    war_v2: 0.3966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6034
+    expected_two_party_share_v2: 0.6034
   is_open_seat: null
 title: 8th Essex District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4548
+  war_v2: 0.3303
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5452
+  expected_two_party_share_v2: 0.6697
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3877
+  war_v2: 0.3877
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6123
+  expected_two_party_share_v2: 0.6123
   is_uncontested: true
   is_incumbent: false
 title: Pavel M. Payano

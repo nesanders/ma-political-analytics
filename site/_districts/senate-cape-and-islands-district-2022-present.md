@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.6243
     war: -0.0167
     is_incumbent: true
+    war_v2: -0.1412
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.641
+    expected_two_party_share_v2: 0.7655
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.3757
     war: 0.0167
     is_incumbent: false
+    war_v2: 0.0167
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.359
+    expected_two_party_share_v2: 0.359
   - name: Joe Van Nes
     slug: joe-van-nes
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.0241
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6385
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.637
     war: -0.0015
     is_incumbent: false
+    war_v2: -0.0015
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6385
+    expected_two_party_share_v2: 0.6385
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.363
     war: 0.0015
     is_incumbent: false
+    war_v2: 0.0015
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3615
+    expected_two_party_share_v2: 0.3615
   is_open_seat: null
 demographics:
   total_population: 190623

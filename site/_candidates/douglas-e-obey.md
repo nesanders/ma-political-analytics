@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3127
   war: -0.0502
+  war_v2: -0.0502
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3629
+  expected_two_party_share_v2: 0.3629
   is_uncontested: false
   is_incumbent: false
 title: Douglas E. Obey

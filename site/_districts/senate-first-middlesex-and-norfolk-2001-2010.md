@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3041
     is_incumbent: true
+    war_v2: 0.1796
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6959
+    expected_two_party_share_v2: 0.8204
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7735
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2265
     is_incumbent: true
+    war_v2: 0.102
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7735
+    expected_two_party_share_v2: 0.898
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7468
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2532
     is_incumbent: true
+    war_v2: 0.1287
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7468
+    expected_two_party_share_v2: 0.8713
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7614
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7718
     war: 0.0104
     is_incumbent: true
+    war_v2: -0.1141
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7614
+    expected_two_party_share_v2: 0.8859
   - name: Matthew J. Fraser
     slug: matthew-j-fraser
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2282
     war: -0.0104
     is_incumbent: false
+    war_v2: -0.0104
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2386
+    expected_two_party_share_v2: 0.2386
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.59
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.41
     is_incumbent: false
+    war_v2: 0.41
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.59
+    expected_two_party_share_v2: 0.59
   is_open_seat: null
 title: First Middlesex and Norfolk (2001-2010)
 layout: district

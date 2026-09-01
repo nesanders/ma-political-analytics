@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2316
     is_incumbent: true
+    war_v2: 0.1071
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7684
+    expected_two_party_share_v2: 0.8929
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4164
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5836
     is_incumbent: true
+    war_v2: 0.4591
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4164
+    expected_two_party_share_v2: 0.5409
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7325
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2675
     is_incumbent: true
+    war_v2: 0.143
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7325
+    expected_two_party_share_v2: 0.857
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5605
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4395
     is_incumbent: false
+    war_v2: 0.4395
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5605
+    expected_two_party_share_v2: 0.5605
   - name: Daniel J. Morris
     slug: daniel-j-morris
     party: Libertarian
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.19
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7038
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2962
     is_incumbent: false
+    war_v2: 0.2962
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7038
+    expected_two_party_share_v2: 0.7038
   is_open_seat: null
 title: 7th Essex District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3107
     is_incumbent: true
+    war_v2: 0.1862
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6893
+    expected_two_party_share_v2: 0.8138
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2923
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7077
     is_incumbent: true
+    war_v2: 0.5832
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2923
+    expected_two_party_share_v2: 0.4168
   - name: James K. Gardner
     slug: james-k-gardner
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3986
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6493
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3507
     is_incumbent: true
+    war_v2: 0.2262
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6493
+    expected_two_party_share_v2: 0.7738
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4989
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5902
     war: 0.0913
     is_incumbent: true
+    war_v2: -0.0332
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4989
+    expected_two_party_share_v2: 0.6234
   - name: Michael B. Boucher
     slug: michael-b-boucher
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4098
     war: -0.0913
     is_incumbent: false
+    war_v2: -0.0913
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5011
+    expected_two_party_share_v2: 0.5011
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6287
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3713
     is_incumbent: false
+    war_v2: 0.3713
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6287
+    expected_two_party_share_v2: 0.6287
   is_open_seat: null
 title: 5th Essex District (2012-2020)
 layout: district

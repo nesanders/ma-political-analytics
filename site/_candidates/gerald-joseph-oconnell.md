@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4346
   war: 0.039
+  war_v2: 0.039
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3956
+  expected_two_party_share_v2: 0.3956
   is_uncontested: false
   is_incumbent: false
 title: Gerald Joseph O'Connell

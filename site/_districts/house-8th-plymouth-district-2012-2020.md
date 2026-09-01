@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5272
     is_incumbent: true
+    war_v2: 0.4027
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4728
+    expected_two_party_share_v2: 0.5973
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2174
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2174
     is_incumbent: true
+    war_v2: 0.0929
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7826
+    expected_two_party_share_v2: 0.9071
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4732
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4732
     is_incumbent: true
+    war_v2: 0.3487
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5268
+    expected_two_party_share_v2: 0.6513
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.355
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.5365
     war: -0.1085
     is_incumbent: true
+    war_v2: -0.233
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.645
+    expected_two_party_share_v2: 0.7695
   - name: Joseph R. Pacheco
     slug: joseph-r-pacheco
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.4635
     war: 0.1085
     is_incumbent: false
+    war_v2: 0.1085
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.355
+    expected_two_party_share_v2: 0.355
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4798
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.5232
     war: 0.003
     is_incumbent: false
+    war_v2: 0.003
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5202
+    expected_two_party_share_v2: 0.5202
   - name: Marilee Kenney Hunt
     slug: marilee-kenney-hunt
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.4768
     war: -0.003
     is_incumbent: false
+    war_v2: -0.003
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4798
+    expected_two_party_share_v2: 0.4798
   is_open_seat: null
 title: 8th Plymouth District (2012-2020)
 layout: district

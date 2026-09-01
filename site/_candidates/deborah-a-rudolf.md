@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4118
   war: 0.1758
+  war_v2: 0.1758
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.236
+  expected_two_party_share_v2: 0.236
   is_uncontested: false
   is_incumbent: false
 title: Deborah A. Rudolf

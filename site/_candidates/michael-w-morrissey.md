@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4477
+  war_v2: 0.3232
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5523
+  expected_two_party_share_v2: 0.6768
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4573
+  war_v2: 0.3328
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5427
+  expected_two_party_share_v2: 0.6672
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4037
+  war_v2: 0.2792
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5963
+  expected_two_party_share_v2: 0.7208
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5412
+  war_v2: 0.5412
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4588
+  expected_two_party_share_v2: 0.4588
   is_uncontested: true
   is_incumbent: false
 title: Michael W. Morrissey

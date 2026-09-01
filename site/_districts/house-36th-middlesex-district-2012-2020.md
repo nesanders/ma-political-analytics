@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4888
     is_incumbent: true
+    war_v2: 0.3643
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5112
+    expected_two_party_share_v2: 0.6357
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1906
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6321
     war: 0.4415
     is_incumbent: true
+    war_v2: 0.317
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.1906
+    expected_two_party_share_v2: 0.3151
   - name: Raymond G. Leczynski
     slug: raymond-g-leczynski
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3679
     war: -0.4415
     is_incumbent: false
+    war_v2: -0.4415
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8094
+    expected_two_party_share_v2: 0.8094
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4582
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5418
     is_incumbent: true
+    war_v2: 0.4173
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4582
+    expected_two_party_share_v2: 0.5827
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3427
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5374
     war: 0.1946
     is_incumbent: true
+    war_v2: 0.0701
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3428
+    expected_two_party_share_v2: 0.4673
   - name: Cathy Richardson
     slug: cathy-richardson
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4626
     war: -0.1946
     is_incumbent: false
+    war_v2: -0.1946
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6572
+    expected_two_party_share_v2: 0.6572
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4617
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5857
     war: 0.1239
     is_incumbent: false
+    war_v2: 0.1239
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4618
+    expected_two_party_share_v2: 0.4618
   - name: Cathy Richardson
     slug: cathy-richardson
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4143
     war: -0.1239
     is_incumbent: false
+    war_v2: -0.1239
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5382
+    expected_two_party_share_v2: 0.5382
   is_open_seat: null
 title: 36th Middlesex District (2012-2020)
 layout: district

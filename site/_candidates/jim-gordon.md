@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.363
   war: -0.0357
+  war_v2: -0.0357
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3987
+  expected_two_party_share_v2: 0.3987
   is_uncontested: false
   is_incumbent: false
 title: Jim Gordon

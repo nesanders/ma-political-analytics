@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5963
     war: -0.0237
     is_incumbent: false
+    war_v2: -0.0237
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.62
+    expected_two_party_share_v2: 0.62
   - name: Kevin P. Conway
     slug: kevin-p-conway
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4037
     war: 0.0237
     is_incumbent: false
+    war_v2: 0.0237
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.38
+    expected_two_party_share_v2: 0.38
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1592
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: George Simolaris, Jr.
     slug: george-simolaris-jr
     party: Other
@@ -55,6 +67,10 @@ results_by_year:
     actual_two_party_share: 0.0063
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5112
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.6458
     war: 0.1346
     is_incumbent: true
+    war_v2: 0.0101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5112
+    expected_two_party_share_v2: 0.6357
   - name: Anthony Lucacio
     slug: anthony-lucacio
     party: Republican
@@ -80,6 +100,10 @@ results_by_year:
     actual_two_party_share: 0.3542
     war: -0.1346
     is_incumbent: false
+    war_v2: -0.1346
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4888
+    expected_two_party_share_v2: 0.4888
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4806
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5194
     is_incumbent: true
+    war_v2: 0.3949
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4806
+    expected_two_party_share_v2: 0.6051
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5278
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.6244
     war: 0.0966
     is_incumbent: true
+    war_v2: -0.0279
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5278
+    expected_two_party_share_v2: 0.6523
   - name: Marc T. Lombardo
     slug: marc-t-lombardo
     party: Republican
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.3756
     war: -0.0966
     is_incumbent: false
+    war_v2: -0.0966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4722
+    expected_two_party_share_v2: 0.4722
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3818
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6182
     is_incumbent: false
+    war_v2: 0.6182
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3818
+    expected_two_party_share_v2: 0.3818
   is_open_seat: null
 title: 22nd Middlesex (2001-2010)
 layout: district

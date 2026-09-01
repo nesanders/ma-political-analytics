@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2571
   war: -0.3625
+  war_v2: -0.3625
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6196
+  expected_two_party_share_v2: 0.6196
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1825
   war: -0.0528
+  war_v2: -0.0528
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2353
+  expected_two_party_share_v2: 0.2353
   is_uncontested: false
   is_incumbent: false
 title: Donald Peltier

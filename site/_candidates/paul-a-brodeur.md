@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6682
+  war_v2: 0.5437
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3318
+  expected_two_party_share_v2: 0.4563
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3354
+  war_v2: 0.2109
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6646
+  expected_two_party_share_v2: 0.7891
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6597
   war: 0.17
+  war_v2: 0.0455
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4897
+  expected_two_party_share_v2: 0.6142
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4024
+  war_v2: 0.4024
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5976
+  expected_two_party_share_v2: 0.5976
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.5149
   war: 0.0404
+  war_v2: 0.0404
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4745
+  expected_two_party_share_v2: 0.4745
   is_uncontested: false
   is_incumbent: false
 title: Paul A. Brodeur

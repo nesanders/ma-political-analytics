@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5089
     war: 0.0469
     is_incumbent: false
+    war_v2: 0.0469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.462
+    expected_two_party_share_v2: 0.462
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4911
     war: -0.0469
     is_incumbent: false
+    war_v2: -0.0469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.538
+    expected_two_party_share_v2: 0.538
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.2872
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Manuel Soares, Jr
     slug: manuel-soares-jr
     party: Other
@@ -52,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.136
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Laura A. Hadley
     slug: laura-a-hadley
     party: Other
@@ -60,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.0793
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5228
@@ -77,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5352
     war: 0.0124
     is_incumbent: false
+    war_v2: 0.0124
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5228
+    expected_two_party_share_v2: 0.5228
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -85,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4648
     war: -0.0124
     is_incumbent: false
+    war_v2: -0.0124
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4772
+    expected_two_party_share_v2: 0.4772
   is_open_seat: null
 demographics:
   total_population: 41084

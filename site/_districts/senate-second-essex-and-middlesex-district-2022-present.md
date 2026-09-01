@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4258
     is_incumbent: true
+    war_v2: 0.3013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5742
+    expected_two_party_share_v2: 0.6987
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5866
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.5735
     war: -0.0131
     is_incumbent: false
+    war_v2: -0.0131
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5866
+    expected_two_party_share_v2: 0.5866
   - name: SalvatorE Paul Defranco
     slug: salvatore-paul-defranco
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4265
     war: 0.0131
     is_incumbent: false
+    war_v2: 0.0131
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4134
+    expected_two_party_share_v2: 0.4134
   is_open_seat: null
 demographics:
   total_population: 189671

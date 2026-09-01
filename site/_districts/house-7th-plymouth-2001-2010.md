@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5126
     war: -0.1099
     is_incumbent: false
+    war_v2: -0.1099
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6225
+    expected_two_party_share_v2: 0.6225
   - name: Allen J. McCarthy
     slug: allen-j-mccarthy
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4874
     war: 0.1099
     is_incumbent: true
+    war_v2: -0.0146
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3775
+    expected_two_party_share_v2: 0.502
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4987
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5013
     is_incumbent: true
+    war_v2: 0.3768
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4987
+    expected_two_party_share_v2: 0.6232
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4965
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5174
     war: 0.021
     is_incumbent: false
+    war_v2: 0.021
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4964
+    expected_two_party_share_v2: 0.4964
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4826
     war: -0.021
     is_incumbent: false
+    war_v2: -0.021
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5036
+    expected_two_party_share_v2: 0.5036
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5209
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6464
     war: 0.1255
     is_incumbent: true
+    war_v2: 0.001
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5209
+    expected_two_party_share_v2: 0.6454
   - name: Edward P. Kirby
     slug: edward-p-kirby
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3536
     war: -0.1255
     is_incumbent: false
+    war_v2: -0.1255
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4791
+    expected_two_party_share_v2: 0.4791
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4308
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.6118
     war: 0.181
     is_incumbent: false
+    war_v2: 0.181
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4308
+    expected_two_party_share_v2: 0.4308
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.3882
     war: -0.181
     is_incumbent: false
+    war_v2: -0.181
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5692
+    expected_two_party_share_v2: 0.5692
   - name: Steven P. Olson
     slug: steven-p-olson
     party: Libertarian
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.0404
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 7th Plymouth (2001-2010)
 layout: district

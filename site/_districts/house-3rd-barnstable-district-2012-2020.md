@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6074
     is_incumbent: true
+    war_v2: 0.4829
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3926
+    expected_two_party_share_v2: 0.5171
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2456
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2456
     is_incumbent: true
+    war_v2: 0.1211
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7544
+    expected_two_party_share_v2: 0.8789
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5541
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.5296
     war: 0.0836
     is_incumbent: true
+    war_v2: -0.0409
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.446
+    expected_two_party_share_v2: 0.5705
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.4704
     war: -0.0836
     is_incumbent: false
+    war_v2: -0.0836
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.554
+    expected_two_party_share_v2: 0.554
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.424
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.424
     is_incumbent: true
+    war_v2: 0.2995
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.576
+    expected_two_party_share_v2: 0.7005
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5259
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5259
     is_incumbent: false
+    war_v2: 0.5259
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4741
+    expected_two_party_share_v2: 0.4741
   is_open_seat: null
 title: 3rd Barnstable District (2012-2020)
 layout: district

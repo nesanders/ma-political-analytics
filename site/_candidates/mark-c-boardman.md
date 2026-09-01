@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.399
   war: -0.1859
+  war_v2: -0.1859
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5849
+  expected_two_party_share_v2: 0.5849
   is_uncontested: false
   is_incumbent: false
 title: Mark C. Boardman

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5145
     is_incumbent: true
+    war_v2: 0.39
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4855
+    expected_two_party_share_v2: 0.61
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2572
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2572
     is_incumbent: true
+    war_v2: 0.1327
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7428
+    expected_two_party_share_v2: 0.8673
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4806
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.6227
     war: 0.1033
     is_incumbent: true
+    war_v2: -0.0212
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5194
+    expected_two_party_share_v2: 0.6439
   - name: Paul W. Jacques
     slug: paul-w-jacques
     party: Democratic
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3773
     war: -0.1033
     is_incumbent: false
+    war_v2: -0.1033
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4806
+    expected_two_party_share_v2: 0.4806
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3997
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3997
     is_incumbent: true
+    war_v2: 0.2752
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6003
+    expected_two_party_share_v2: 0.7248
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5154
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6141
     war: 0.1295
     is_incumbent: false
+    war_v2: 0.1295
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4846
+    expected_two_party_share_v2: 0.4846
   - name: A. Keith Carreiro
     slug: a-keith-carreiro
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3859
     war: -0.1295
     is_incumbent: false
+    war_v2: -0.1295
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5154
+    expected_two_party_share_v2: 0.5154
   is_open_seat: null
 title: 4th Bristol District (2012-2020)
 layout: district

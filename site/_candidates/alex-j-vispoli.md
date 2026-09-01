@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4671
   war: -0.0715
+  war_v2: -0.0715
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5386
+  expected_two_party_share_v2: 0.5386
   is_uncontested: false
   is_incumbent: false
 title: Alex J. Vispoli

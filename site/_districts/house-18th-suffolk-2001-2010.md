@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2449
     is_incumbent: true
+    war_v2: 0.1204
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7551
+    expected_two_party_share_v2: 0.8796
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8069
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1931
     is_incumbent: true
+    war_v2: 0.0686
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8069
+    expected_two_party_share_v2: 0.9314
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7786
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.8104
     war: 0.0318
     is_incumbent: false
+    war_v2: 0.0318
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7786
+    expected_two_party_share_v2: 0.7786
   - name: Russell Evans
     slug: russell-evans
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.1896
     war: -0.0318
     is_incumbent: false
+    war_v2: -0.0318
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2214
+    expected_two_party_share_v2: 0.2214
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7869
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2131
     is_incumbent: true
+    war_v2: 0.0886
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7869
+    expected_two_party_share_v2: 0.9114
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6559
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3441
     is_incumbent: false
+    war_v2: 0.3441
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6559
+    expected_two_party_share_v2: 0.6559
   is_open_seat: null
 title: 18th Suffolk (2001-2010)
 layout: district

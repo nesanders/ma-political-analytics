@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2666
   war: 0.0199
+  war_v2: 0.0199
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2467
+  expected_two_party_share_v2: 0.2467
   is_uncontested: false
   is_incumbent: false
 title: Patrick James Brennan

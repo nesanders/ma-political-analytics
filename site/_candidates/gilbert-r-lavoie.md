@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2015
   war: -0.008
+  war_v2: -0.008
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2095
+  expected_two_party_share_v2: 0.2095
   is_uncontested: false
   is_incumbent: false
 title: Gilbert R. Lavoie

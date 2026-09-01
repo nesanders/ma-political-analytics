@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2211
   war: -0.167
+  war_v2: -0.167
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3881
+  expected_two_party_share_v2: 0.3881
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2271
   war: -0.3035
+  war_v2: -0.3035
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5306
+  expected_two_party_share_v2: 0.5306
   is_uncontested: false
   is_incumbent: false
 title: Clifford R. Krieger

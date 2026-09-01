@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2152
   war: 0.0171
+  war_v2: 0.0171
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.1981
+  expected_two_party_share_v2: 0.1981
   is_uncontested: false
   is_incumbent: false
 title: Jeanne Traester

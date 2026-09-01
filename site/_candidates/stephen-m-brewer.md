@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5
+  war_v2: 0.5
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5
+  expected_two_party_share_v2: 0.5
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6624
   war: 0.247
+  war_v2: 0.1225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4154
+  expected_two_party_share_v2: 0.5399
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4681
+  war_v2: 0.3436
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5319
+  expected_two_party_share_v2: 0.6564
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4401
+  war_v2: 0.3156
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5599
+  expected_two_party_share_v2: 0.6844
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7945
   war: 0.2628
+  war_v2: 0.1383
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5317
+  expected_two_party_share_v2: 0.6562
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5912
+  war_v2: 0.5912
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4088
+  expected_two_party_share_v2: 0.4088
   is_uncontested: true
   is_incumbent: false
 title: Stephen M. Brewer

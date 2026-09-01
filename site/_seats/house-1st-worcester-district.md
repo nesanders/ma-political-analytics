@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5353
     is_incumbent: true
+    war_v2: 0.4108
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4647
+    expected_two_party_share_v2: 0.5892
   - name: Anthony L. Ferrante
     slug: anthony-l-ferrante
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4325
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5427
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5427
     is_incumbent: false
+    war_v2: 0.5427
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4573
+    expected_two_party_share_v2: 0.4573
   is_open_seat: null
 demographics:
   total_population: 45365

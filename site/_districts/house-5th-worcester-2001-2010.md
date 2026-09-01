@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6539
     war: 0.2321
     is_incumbent: true
+    war_v2: 0.1076
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4218
+    expected_two_party_share_v2: 0.5463
   - name: Rodney Arvid Josephson
     slug: rodney-arvid-josephson
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3461
     war: -0.2321
     is_incumbent: false
+    war_v2: -0.2321
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5782
+    expected_two_party_share_v2: 0.5782
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5285
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.7031
     war: 0.1746
     is_incumbent: true
+    war_v2: 0.0501
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5285
+    expected_two_party_share_v2: 0.653
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.2969
     war: -0.1746
     is_incumbent: false
+    war_v2: -0.1746
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4715
+    expected_two_party_share_v2: 0.4715
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5808
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6906
     war: 0.1099
     is_incumbent: true
+    war_v2: -0.0146
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5807
+    expected_two_party_share_v2: 0.7052
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3094
     war: -0.1099
     is_incumbent: false
+    war_v2: -0.1099
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4193
+    expected_two_party_share_v2: 0.4193
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5343
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.689
     war: 0.1547
     is_incumbent: true
+    war_v2: 0.0302
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5343
+    expected_two_party_share_v2: 0.6588
   - name: A. Larry Hasenfus
     slug: a-larry-hasenfus
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.311
     war: -0.1547
     is_incumbent: false
+    war_v2: -0.1547
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4657
+    expected_two_party_share_v2: 0.4657
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4161
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5562
     war: 0.1401
     is_incumbent: false
+    war_v2: 0.1401
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4161
+    expected_two_party_share_v2: 0.4161
   - name: Ryan J. Witkos
     slug: ryan-j-witkos
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4438
     war: -0.1401
     is_incumbent: false
+    war_v2: -0.1401
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5839
+    expected_two_party_share_v2: 0.5839
   is_open_seat: null
 title: 5th Worcester (2001-2010)
 layout: district

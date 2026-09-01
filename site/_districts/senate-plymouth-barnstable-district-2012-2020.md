@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5631
     war: -0.0216
     is_incumbent: false
+    war_v2: -0.0216
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5847
+    expected_two_party_share_v2: 0.5847
   - name: James R. McMahon, III
     slug: james-r-mcmahon-iii
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4369
     war: 0.0216
     is_incumbent: false
+    war_v2: 0.0216
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4153
+    expected_two_party_share_v2: 0.4153
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.236
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5882
     war: -0.1758
     is_incumbent: true
+    war_v2: -0.3003
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.764
+    expected_two_party_share_v2: 0.8885
   - name: Deborah A. Rudolf
     slug: deborah-a-rudolf
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4118
     war: 0.1758
     is_incumbent: false
+    war_v2: 0.1758
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.236
+    expected_two_party_share_v2: 0.236
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5292
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5292
     is_incumbent: true
+    war_v2: 0.4047
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4708
+    expected_two_party_share_v2: 0.5953
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6343
     war: 0.0343
     is_incumbent: false
+    war_v2: 0.0343
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6
+    expected_two_party_share_v2: 0.6
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3657
     war: -0.0343
     is_incumbent: false
+    war_v2: -0.0343
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4
+    expected_two_party_share_v2: 0.4
   - name: Heather M. Mullins
     slug: heather-m-mullins
     party: Libertarian
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.0377
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5094
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5816
     war: 0.0721
     is_incumbent: false
+    war_v2: 0.0721
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5095
+    expected_two_party_share_v2: 0.5095
   - name: Thomas F. Keyes
     slug: thomas-francis-keyes
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4184
     war: -0.0721
     is_incumbent: false
+    war_v2: -0.0721
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4905
+    expected_two_party_share_v2: 0.4905
   is_open_seat: null
 title: Plymouth & Barnstable District (2012-2020)
 layout: district

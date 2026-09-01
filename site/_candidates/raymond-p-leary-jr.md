@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1552
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1727
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.1765
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Raymond P. Leary, Jr.

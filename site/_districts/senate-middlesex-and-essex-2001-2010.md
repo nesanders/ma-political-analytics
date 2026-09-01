@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5232
     war: 0.0599
     is_incumbent: false
+    war_v2: 0.0599
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4633
+    expected_two_party_share_v2: 0.4633
   - name: Craig Spadafora
     slug: craig-spadafora
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4768
     war: -0.0599
     is_incumbent: false
+    war_v2: -0.0599
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5367
+    expected_two_party_share_v2: 0.5367
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5924
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5924
     is_incumbent: true
+    war_v2: 0.4679
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4076
+    expected_two_party_share_v2: 0.5321
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5555
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5555
     is_incumbent: true
+    war_v2: 0.431
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4445
+    expected_two_party_share_v2: 0.569
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6134
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5663
     war: 0.1797
     is_incumbent: true
+    war_v2: 0.0552
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3866
+    expected_two_party_share_v2: 0.5111
   - name: Katherine M. Clark
     slug: katherine-m-clark
     party: Democratic
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4337
     war: -0.1797
     is_incumbent: false
+    war_v2: -0.1797
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6134
+    expected_two_party_share_v2: 0.6134
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4401
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4401
     is_incumbent: false
+    war_v2: 0.4401
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5599
+    expected_two_party_share_v2: 0.5599
   is_open_seat: null
 title: Middlesex and Essex (2001-2010)
 layout: district

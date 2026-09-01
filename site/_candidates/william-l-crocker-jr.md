@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4571
   war: 0.051
+  war_v2: -0.0735
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4061
+  expected_two_party_share_v2: 0.5306
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5204
   war: -0.2411
+  war_v2: -0.3656
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7615
+  expected_two_party_share_v2: 0.886
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.548
   war: 0.0899
+  war_v2: 0.0899
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4581
+  expected_two_party_share_v2: 0.4581
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: false
   actual_two_party_share: 0.4404
   war: -0.0915
+  war_v2: -0.0915
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5319
+  expected_two_party_share_v2: 0.5319
   is_uncontested: false
   is_incumbent: false
 title: William L. Crocker, Jr.

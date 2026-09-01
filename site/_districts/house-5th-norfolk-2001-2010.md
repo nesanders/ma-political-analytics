@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5362
     is_incumbent: false
+    war_v2: 0.5362
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4638
+    expected_two_party_share_v2: 0.4638
   - name: Paul Dan Clifford
     slug: paul-dan-clifford
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.704
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5311
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4689
     is_incumbent: true
+    war_v2: 0.3444
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5311
+    expected_two_party_share_v2: 0.6556
   - name: Richard A. Moran
     slug: richard-a-moran
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.2582
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5214
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4786
     is_incumbent: true
+    war_v2: 0.3541
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5214
+    expected_two_party_share_v2: 0.6459
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5805
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.719
     war: 0.1385
     is_incumbent: false
+    war_v2: 0.1385
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5805
+    expected_two_party_share_v2: 0.5805
   - name: Charles C. Kokoros
     slug: charles-c-kokoros
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.281
     war: -0.1385
     is_incumbent: false
+    war_v2: -0.1385
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4195
+    expected_two_party_share_v2: 0.4195
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4414
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5586
     is_incumbent: false
+    war_v2: 0.5586
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4414
+    expected_two_party_share_v2: 0.4414
   is_open_seat: null
 title: 5th Norfolk (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3998
+  war_v2: 0.2753
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6002
+  expected_two_party_share_v2: 0.7247
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3547
+  war_v2: 0.3547
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6453
+  expected_two_party_share_v2: 0.6453
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3325
+  war_v2: 0.3325
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6675
+  expected_two_party_share_v2: 0.6675
   is_uncontested: true
   is_incumbent: false
 title: Vanna Howard

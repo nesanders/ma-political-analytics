@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3934
     is_incumbent: true
+    war_v2: 0.2689
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6066
+    expected_two_party_share_v2: 0.7311
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2541
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6056
     war: 0.3515
     is_incumbent: false
+    war_v2: 0.3515
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2541
+    expected_two_party_share_v2: 0.2541
   - name: Jacob J. Ventura
     slug: jacob-j-ventura
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3944
     war: -0.3515
     is_incumbent: false
+    war_v2: -0.3515
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7459
+    expected_two_party_share_v2: 0.7459
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5579
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4421
     is_incumbent: true
+    war_v2: 0.3176
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5579
+    expected_two_party_share_v2: 0.6824
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3813
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6187
     is_incumbent: true
+    war_v2: 0.4942
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3813
+    expected_two_party_share_v2: 0.5058
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5092
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6254
     war: 0.1161
     is_incumbent: false
+    war_v2: 0.1161
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5093
+    expected_two_party_share_v2: 0.5093
   - name: Jeffrey Robert Bailey
     slug: jeffrey-robert-bailey
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3746
     war: -0.1161
     is_incumbent: false
+    war_v2: -0.1161
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4907
+    expected_two_party_share_v2: 0.4907
   is_open_seat: null
 title: Bristol & Norfolk District (2012-2020)
 layout: district

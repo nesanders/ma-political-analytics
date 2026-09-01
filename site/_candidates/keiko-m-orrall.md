@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.469
+  war_v2: 0.3445
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.531
+  expected_two_party_share_v2: 0.6555
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3839
+  war_v2: 0.2594
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6161
+  expected_two_party_share_v2: 0.7406
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5764
   war: 0.0806
+  war_v2: 0.0806
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4958
+  expected_two_party_share_v2: 0.4958
   is_uncontested: false
   is_incumbent: false
 title: Keiko M. Orrall

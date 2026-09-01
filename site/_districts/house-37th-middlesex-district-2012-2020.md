@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6455
     war: -0.0509
     is_incumbent: false
+    war_v2: -0.0509
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6964
+    expected_two_party_share_v2: 0.6964
   - name: Catherine J. Clark
     slug: catherine-j-clark
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3545
     war: 0.0509
     is_incumbent: false
+    war_v2: 0.0509
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3036
+    expected_two_party_share_v2: 0.3036
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3125
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6875
     is_incumbent: true
+    war_v2: 0.563
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3125
+    expected_two_party_share_v2: 0.437
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6515
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3485
     is_incumbent: true
+    war_v2: 0.224
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6515
+    expected_two_party_share_v2: 0.776
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4531
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5469
     is_incumbent: true
+    war_v2: 0.4224
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4531
+    expected_two_party_share_v2: 0.5776
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5749
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4251
     is_incumbent: false
+    war_v2: 0.4251
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5749
+    expected_two_party_share_v2: 0.5749
   is_open_seat: null
 title: 37th Middlesex District (2012-2020)
 layout: district

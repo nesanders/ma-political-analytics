@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2893
     is_incumbent: true
+    war_v2: 0.1648
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7107
+    expected_two_party_share_v2: 0.8352
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7065
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.7027
     war: -0.0038
     is_incumbent: false
+    war_v2: -0.0038
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7065
+    expected_two_party_share_v2: 0.7065
   - name: Anthony Christakis
     slug: anthony-christakis
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.2973
     war: 0.0038
     is_incumbent: false
+    war_v2: 0.0038
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2935
+    expected_two_party_share_v2: 0.2935
   is_open_seat: null
 demographics:
   total_population: 185963

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3025
   war: -0.0133
+  war_v2: -0.0133
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3158
+  expected_two_party_share_v2: 0.3158
   is_uncontested: false
   is_incumbent: false
 title: Catherine D. Ryan

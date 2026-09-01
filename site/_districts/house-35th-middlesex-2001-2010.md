@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4018
     is_incumbent: true
+    war_v2: 0.2773
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5982
+    expected_two_party_share_v2: 0.7227
   - name: Karla Romero
     slug: karla-romero
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3102
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6765
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3235
     is_incumbent: true
+    war_v2: 0.199
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6765
+    expected_two_party_share_v2: 0.801
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6452
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3548
     is_incumbent: true
+    war_v2: 0.2303
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6452
+    expected_two_party_share_v2: 0.7697
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6956
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3044
     is_incumbent: true
+    war_v2: 0.1799
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6956
+    expected_two_party_share_v2: 0.8201
   - name: John F. Carey
     slug: john-f-carey
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5063
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5343
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4657
     is_incumbent: false
+    war_v2: 0.4657
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5343
+    expected_two_party_share_v2: 0.5343
   is_open_seat: null
 title: 35th Middlesex (2001-2010)
 layout: district

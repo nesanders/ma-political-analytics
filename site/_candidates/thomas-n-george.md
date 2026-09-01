@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6177
   war: 0.0174
+  war_v2: 0.0174
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6003
+  expected_two_party_share_v2: 0.6003
   is_uncontested: false
   is_incumbent: false
 title: Thomas N. George

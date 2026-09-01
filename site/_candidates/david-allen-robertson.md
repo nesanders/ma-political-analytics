@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5751
   war: 0.0654
+  war_v2: 0.0654
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5097
+  expected_two_party_share_v2: 0.5097
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5643
   war: 0.0214
+  war_v2: -0.1031
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5429
+  expected_two_party_share_v2: 0.6674
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.526
   war: 0.3191
+  war_v2: 0.3191
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2069
+  expected_two_party_share_v2: 0.2069
   is_uncontested: false
   is_incumbent: false
 title: David Allen Robertson

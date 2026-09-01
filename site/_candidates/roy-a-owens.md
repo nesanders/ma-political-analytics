@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1754
   war: -0.029
+  war_v2: -0.029
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2044
+  expected_two_party_share_v2: 0.2044
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1263
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Roy A. Owens

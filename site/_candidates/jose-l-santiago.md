@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1845
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.2936
+  war_v2: 0.2936
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7064
+  expected_two_party_share_v2: 0.7064
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.3949
+  war_v2: 0.3949
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6051
+  expected_two_party_share_v2: 0.6051
   is_uncontested: true
   is_incumbent: false
 title: Jose L. Santiago

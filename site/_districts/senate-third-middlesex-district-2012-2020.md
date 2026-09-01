@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2582
     is_incumbent: true
+    war_v2: 0.1337
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7418
+    expected_two_party_share_v2: 0.8663
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.338
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.662
     is_incumbent: true
+    war_v2: 0.5375
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.338
+    expected_two_party_share_v2: 0.4625
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2916
     is_incumbent: true
+    war_v2: 0.1671
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7084
+    expected_two_party_share_v2: 0.8329
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4911
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.5924
     war: 0.1013
     is_incumbent: true
+    war_v2: -0.0232
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4911
+    expected_two_party_share_v2: 0.6156
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.4076
     war: -0.1013
     is_incumbent: false
+    war_v2: -0.1013
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.5089
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6049
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.606
     war: 0.0011
     is_incumbent: false
+    war_v2: 0.0011
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6049
+    expected_two_party_share_v2: 0.6049
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.394
     war: -0.0011
     is_incumbent: false
+    war_v2: -0.0011
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3951
+    expected_two_party_share_v2: 0.3951
   is_open_seat: null
 title: Third Middlesex District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3045
     is_incumbent: true
+    war_v2: 0.18
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6955
+    expected_two_party_share_v2: 0.82
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3233
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6703
     war: 0.3471
     is_incumbent: true
+    war_v2: 0.2226
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3232
+    expected_two_party_share_v2: 0.4477
   - name: Erin K. Calvo-Bacci
     slug: erin-k-calvo-bacci
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3297
     war: -0.3471
     is_incumbent: false
+    war_v2: -0.3471
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6768
+    expected_two_party_share_v2: 0.6768
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6539
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6915
     war: 0.0376
     is_incumbent: true
+    war_v2: -0.0869
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6539
+    expected_two_party_share_v2: 0.7784
   - name: Vincent Lawrence Dixon
     slug: vincent-lawrence-dixon
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3085
     war: -0.0376
     is_incumbent: false
+    war_v2: -0.0376
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3461
+    expected_two_party_share_v2: 0.3461
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4801
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5684
     war: 0.0884
     is_incumbent: false
+    war_v2: 0.0884
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.48
+    expected_two_party_share_v2: 0.48
   - name: Monica C. Medeiros
     slug: monica-c-medeiros-solano
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4316
     war: -0.0884
     is_incumbent: false
+    war_v2: -0.0884
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.52
+    expected_two_party_share_v2: 0.52
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5968
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4032
     is_incumbent: false
+    war_v2: 0.4032
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5968
+    expected_two_party_share_v2: 0.5968
   is_open_seat: null
 title: Fifth Middlesex District (2012-2020)
 layout: district

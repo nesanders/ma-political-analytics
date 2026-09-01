@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3734
+  war_v2: 0.2489
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6266
+  expected_two_party_share_v2: 0.7511
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5211
+  war_v2: 0.5211
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4789
+  expected_two_party_share_v2: 0.4789
   is_uncontested: true
   is_incumbent: false
 title: Emile J. Goguen

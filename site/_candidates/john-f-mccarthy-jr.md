@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3384
   war: -0.0465
+  war_v2: -0.0465
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3849
+  expected_two_party_share_v2: 0.3849
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4007
   war: -0.1558
+  war_v2: -0.1558
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5565
+  expected_two_party_share_v2: 0.5565
   is_uncontested: false
   is_incumbent: false
 title: John F. McCarthy, Jr.

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1696
     is_incumbent: true
+    war_v2: 0.0451
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8304
+    expected_two_party_share_v2: 0.9549
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4408
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5592
     is_incumbent: true
+    war_v2: 0.4347
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4408
+    expected_two_party_share_v2: 0.5653
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8245
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1755
     is_incumbent: true
+    war_v2: 0.051
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8245
+    expected_two_party_share_v2: 0.949
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.612
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.388
     is_incumbent: true
+    war_v2: 0.2635
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.612
+    expected_two_party_share_v2: 0.7365
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7253
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2747
     is_incumbent: false
+    war_v2: 0.2747
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7253
+    expected_two_party_share_v2: 0.7253
   is_open_seat: null
 title: 12th Middlesex District (2012-2020)
 layout: district

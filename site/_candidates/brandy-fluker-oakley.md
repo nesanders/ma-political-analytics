@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2146
+  war_v2: 0.0901
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7854
+  expected_two_party_share_v2: 0.9099
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1912
+  war_v2: 0.1912
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8088
+  expected_two_party_share_v2: 0.8088
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1694
+  war_v2: 0.1694
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8306
+  expected_two_party_share_v2: 0.8306
   is_uncontested: true
   is_incumbent: false
 title: Brandy Fluker Oakley

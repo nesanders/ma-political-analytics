@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4451
   war: 0.019
+  war_v2: 0.019
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4261
+  expected_two_party_share_v2: 0.4261
   is_uncontested: false
   is_incumbent: false
 title: Robert E. May, Jr

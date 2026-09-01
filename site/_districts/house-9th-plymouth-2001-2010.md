@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3824
     is_incumbent: true
+    war_v2: 0.2579
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6176
+    expected_two_party_share_v2: 0.7421
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.707
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.8372
     war: 0.1302
     is_incumbent: false
+    war_v2: 0.1302
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.707
+    expected_two_party_share_v2: 0.707
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.1628
     war: -0.1302
     is_incumbent: false
+    war_v2: -0.1302
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.293
+    expected_two_party_share_v2: 0.293
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6683
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3317
     is_incumbent: true
+    war_v2: 0.2072
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6683
+    expected_two_party_share_v2: 0.7928
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6662
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3338
     is_incumbent: true
+    war_v2: 0.2093
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6662
+    expected_two_party_share_v2: 0.7907
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5131
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4869
     is_incumbent: false
+    war_v2: 0.4869
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5131
+    expected_two_party_share_v2: 0.5131
   is_open_seat: null
 title: 9th Plymouth (2001-2010)
 layout: district

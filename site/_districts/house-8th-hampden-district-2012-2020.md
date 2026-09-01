@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4231
     is_incumbent: true
+    war_v2: 0.2986
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5769
+    expected_two_party_share_v2: 0.7014
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2637
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7363
     is_incumbent: true
+    war_v2: 0.6118
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2637
+    expected_two_party_share_v2: 0.3882
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5563
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4437
     is_incumbent: true
+    war_v2: 0.3192
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5563
+    expected_two_party_share_v2: 0.6808
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.439
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.561
     is_incumbent: true
+    war_v2: 0.4365
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.439
+    expected_two_party_share_v2: 0.5635
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6344
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3656
     is_incumbent: false
+    war_v2: 0.3656
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6344
+    expected_two_party_share_v2: 0.6344
   is_open_seat: null
 title: 8th Hampden District (2012-2020)
 layout: district

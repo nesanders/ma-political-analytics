@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3212
   war: -0.0111
+  war_v2: -0.0111
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3323
+  expected_two_party_share_v2: 0.3323
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3881
   war: -0.1012
+  war_v2: -0.1012
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4893
+  expected_two_party_share_v2: 0.4893
   is_uncontested: false
   is_incumbent: false
 title: Samuel Salvatore Disanti, Jr.

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2487
     is_incumbent: true
+    war_v2: 0.1242
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7513
+    expected_two_party_share_v2: 0.8758
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3118
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6882
     is_incumbent: true
+    war_v2: 0.5637
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3118
+    expected_two_party_share_v2: 0.4363
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7137
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2863
     is_incumbent: true
+    war_v2: 0.1618
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7137
+    expected_two_party_share_v2: 0.8382
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4779
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6257
     war: 0.1478
     is_incumbent: true
+    war_v2: 0.0233
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4779
+    expected_two_party_share_v2: 0.6024
   - name: Douglas A. Grindle
     slug: douglas-a-grindle
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3743
     war: -0.1478
     is_incumbent: false
+    war_v2: -0.1478
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5221
+    expected_two_party_share_v2: 0.5221
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6083
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6465
     war: 0.0382
     is_incumbent: false
+    war_v2: 0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6083
+    expected_two_party_share_v2: 0.6083
   - name: William J. Callahan
     slug: william-j-callahan
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3535
     war: -0.0382
     is_incumbent: false
+    war_v2: -0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3917
+    expected_two_party_share_v2: 0.3917
   is_open_seat: null
 title: 5th Middlesex District (2012-2020)
 layout: district

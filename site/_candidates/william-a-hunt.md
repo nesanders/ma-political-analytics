@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3539
   war: -0.2074
+  war_v2: -0.2074
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5613
+  expected_two_party_share_v2: 0.5613
   is_uncontested: false
   is_incumbent: false
 title: William A. Hunt

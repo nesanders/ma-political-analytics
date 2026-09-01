@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6456
     war: 0.0438
     is_incumbent: true
+    war_v2: -0.0807
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6018
+    expected_two_party_share_v2: 0.7263
   - name: Frank Herbert Collins
     slug: frank-herbert-collins
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3544
     war: -0.0438
     is_incumbent: false
+    war_v2: -0.0438
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3982
+    expected_two_party_share_v2: 0.3982
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2669
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7331
     is_incumbent: true
+    war_v2: 0.6086
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2669
+    expected_two_party_share_v2: 0.3914
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5652
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4348
     is_incumbent: true
+    war_v2: 0.3103
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5652
+    expected_two_party_share_v2: 0.6897
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.412
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.588
     is_incumbent: true
+    war_v2: 0.4635
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.412
+    expected_two_party_share_v2: 0.5365
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.535
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.465
     is_incumbent: false
+    war_v2: 0.465
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.535
+    expected_two_party_share_v2: 0.535
   is_open_seat: null
 title: 5th Norfolk District (2012-2020)
 layout: district

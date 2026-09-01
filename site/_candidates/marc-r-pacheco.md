@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5429
   war: 0.0382
+  war_v2: 0.0382
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5047
+  expected_two_party_share_v2: 0.5047
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4697
+  war_v2: 0.3452
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5303
+  expected_two_party_share_v2: 0.6548
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7629
+  war_v2: 0.6384
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2371
+  expected_two_party_share_v2: 0.3616
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6535
   war: 0.16
+  war_v2: 0.0355
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4935
+  expected_two_party_share_v2: 0.618
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6099
   war: 0.2065
+  war_v2: 0.082
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4034
+  expected_two_party_share_v2: 0.5279
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4716
+  war_v2: 0.4716
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5284
+  expected_two_party_share_v2: 0.5284
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.5806
   war: 0.1497
+  war_v2: 0.0252
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4309
+  expected_two_party_share_v2: 0.5554
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4628
+  war_v2: 0.3383
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5372
+  expected_two_party_share_v2: 0.6617
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4406
+  war_v2: 0.3161
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5594
+  expected_two_party_share_v2: 0.6839
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 0.739
   war: 0.1836
+  war_v2: 0.0591
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5554
+  expected_two_party_share_v2: 0.6799
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5616
+  war_v2: 0.5616
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4384
+  expected_two_party_share_v2: 0.4384
   is_uncontested: true
   is_incumbent: false
 title: Marc R. Pacheco

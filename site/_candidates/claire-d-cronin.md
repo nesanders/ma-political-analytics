@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2946
+  war_v2: 0.1701
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7054
+  expected_two_party_share_v2: 0.8299
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6374
+  war_v2: 0.5129
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3626
+  expected_two_party_share_v2: 0.4871
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3319
+  war_v2: 0.2074
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6681
+  expected_two_party_share_v2: 0.7926
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4834
+  war_v2: 0.3589
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5166
+  expected_two_party_share_v2: 0.6411
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6327
   war: 0.0001
+  war_v2: 0.0001
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6326
+  expected_two_party_share_v2: 0.6326
   is_uncontested: false
   is_incumbent: false
 title: Claire D. Cronin

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2713
     is_incumbent: true
+    war_v2: 0.1468
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7287
+    expected_two_party_share_v2: 0.8532
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3762
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6238
     is_incumbent: true
+    war_v2: 0.4993
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3762
+    expected_two_party_share_v2: 0.5007
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6968
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3032
     is_incumbent: false
+    war_v2: 0.3032
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6968
+    expected_two_party_share_v2: 0.6968
   - name: Tobias B. Glidden
     slug: tobias-b-glidden
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.7368
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Jacob Norman Ferry
     slug: jacob-norman-ferry
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.1969
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.5551
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4449
     is_incumbent: true
+    war_v2: 0.3204
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5551
+    expected_two_party_share_v2: 0.6796
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6585
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3415
     is_incumbent: false
+    war_v2: 0.3415
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6585
+    expected_two_party_share_v2: 0.6585
   is_open_seat: null
 title: Barnstable, Dukes & Nantucket District (2012-2020)
 layout: district

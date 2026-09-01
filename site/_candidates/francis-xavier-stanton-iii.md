@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.24
   war: -0.0804
+  war_v2: -0.0804
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3204
+  expected_two_party_share_v2: 0.3204
   is_uncontested: false
   is_incumbent: false
 title: Francis Xavier Stanton, III

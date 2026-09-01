@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4717
   war: -0.0339
+  war_v2: -0.0339
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5056
+  expected_two_party_share_v2: 0.5056
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.451
   war: -0.345
+  war_v2: -0.345
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.796
+  expected_two_party_share_v2: 0.796
   is_uncontested: false
   is_incumbent: false
 title: Steven R. Hall

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5717
   war: 0.1614
+  war_v2: 0.0369
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4103
+  expected_two_party_share_v2: 0.5348
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4411
+  war_v2: 0.4411
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5589
+  expected_two_party_share_v2: 0.5589
   is_uncontested: true
   is_incumbent: false
 title: Shirley A. Gomes

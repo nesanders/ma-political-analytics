@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.6436
     war: 0.039
     is_incumbent: false
+    war_v2: 0.039
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6046
+    expected_two_party_share_v2: 0.6046
   - name: Lawrence Peter Novak
     slug: lawrence-peter-novak
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.3564
     war: -0.039
     is_incumbent: false
+    war_v2: -0.039
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3954
+    expected_two_party_share_v2: 0.3954
   - name: Jonathan Wilshire Gill
     slug: jonathan-wilshire-gill
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.1852
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5985
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.6065
     war: 0.0079
     is_incumbent: false
+    war_v2: 0.0079
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5986
+    expected_two_party_share_v2: 0.5986
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3935
     war: -0.0079
     is_incumbent: false
+    war_v2: -0.0079
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4014
+    expected_two_party_share_v2: 0.4014
   is_open_seat: null
 demographics:
   total_population: 46300

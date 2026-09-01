@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4786
   war: -0.09
+  war_v2: -0.09
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5686
+  expected_two_party_share_v2: 0.5686
   is_uncontested: false
   is_incumbent: false
 title: James J. Dever

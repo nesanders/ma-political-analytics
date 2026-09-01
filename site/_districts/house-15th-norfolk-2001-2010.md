@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2422
     is_incumbent: true
+    war_v2: 0.1177
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7578
+    expected_two_party_share_v2: 0.8823
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8227
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1773
     is_incumbent: true
+    war_v2: 0.0528
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8227
+    expected_two_party_share_v2: 0.9472
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7932
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2068
     is_incumbent: true
+    war_v2: 0.0823
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7932
+    expected_two_party_share_v2: 0.9177
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8013
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1987
     is_incumbent: true
+    war_v2: 0.0742
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8013
+    expected_two_party_share_v2: 0.9258
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6593
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3407
     is_incumbent: false
+    war_v2: 0.3407
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6593
+    expected_two_party_share_v2: 0.6593
   is_open_seat: null
 title: 15th Norfolk (2001-2010)
 layout: district

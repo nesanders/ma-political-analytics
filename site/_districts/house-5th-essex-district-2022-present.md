@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3281
     is_incumbent: true
+    war_v2: 0.2036
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6719
+    expected_two_party_share_v2: 0.7964
   - name: Steven G. Leblanc, Jr
     slug: steven-g-leblanc-jr
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4993
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6927
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.6914
     war: -0.0013
     is_incumbent: false
+    war_v2: -0.0013
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6927
+    expected_two_party_share_v2: 0.6927
   - name: Ashley Sullivan
     slug: ashley-sullivan
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.3086
     war: 0.0013
     is_incumbent: false
+    war_v2: 0.0013
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3073
+    expected_two_party_share_v2: 0.3073
   is_open_seat: null
 demographics:
   total_population: 40396

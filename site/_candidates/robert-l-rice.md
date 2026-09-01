@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4282
+  war_v2: 0.3037
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5718
+  expected_two_party_share_v2: 0.6963
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3918
+  war_v2: 0.3918
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6082
+  expected_two_party_share_v2: 0.6082
   is_uncontested: true
   is_incumbent: false
 title: Robert L. Rice

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2962
+  war_v2: 0.2962
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7038
+  expected_two_party_share_v2: 0.7038
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4153
+  war_v2: 0.2908
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5847
+  expected_two_party_share_v2: 0.7092
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3004
+  war_v2: 0.1759
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6996
+  expected_two_party_share_v2: 0.8241
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3432
+  war_v2: 0.2187
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6568
+  expected_two_party_share_v2: 0.7813
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.815
   war: 0.127
+  war_v2: 0.127
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.688
+  expected_two_party_share_v2: 0.688
   is_uncontested: false
   is_incumbent: false
 title: John D. Keenan

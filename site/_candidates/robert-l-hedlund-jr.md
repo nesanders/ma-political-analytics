@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.382
+  war_v2: 0.2575
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.618
+  expected_two_party_share_v2: 0.7425
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6834
   war: 0.1844
+  war_v2: 0.1844
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.499
+  expected_two_party_share_v2: 0.499
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4286
+  war_v2: 0.3041
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5714
+  expected_two_party_share_v2: 0.6959
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5264
+  war_v2: 0.4019
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4736
+  expected_two_party_share_v2: 0.5981
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6441
   war: 0.1524
+  war_v2: 0.0279
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4917
+  expected_two_party_share_v2: 0.6162
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.539
+  war_v2: 0.4145
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.461
+  expected_two_party_share_v2: 0.5855
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6256
   war: 0.0019
+  war_v2: 0.0019
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6237
+  expected_two_party_share_v2: 0.6237
   is_uncontested: false
   is_incumbent: false
 title: Robert L. Hedlund, Jr

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2475
   war: -0.0764
+  war_v2: -0.0764
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3239
+  expected_two_party_share_v2: 0.3239
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1931
   war: -0.0668
+  war_v2: -0.0668
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2599
+  expected_two_party_share_v2: 0.2599
   is_uncontested: false
   is_incumbent: false
 title: C.J. Ferry

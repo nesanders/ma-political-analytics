@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3866
   war: -0.3357
+  war_v2: -0.3357
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7223
+  expected_two_party_share_v2: 0.7223
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4116
   war: 0.0385
+  war_v2: 0.0385
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3731
+  expected_two_party_share_v2: 0.3731
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.4858
   war: -0.0808
+  war_v2: -0.0808
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5666
+  expected_two_party_share_v2: 0.5666
   is_uncontested: false
   is_incumbent: false
 title: Caroline Colarusso

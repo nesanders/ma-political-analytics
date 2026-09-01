@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3336
   war: -0.0111
+  war_v2: -0.0111
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3447
+  expected_two_party_share_v2: 0.3447
   is_uncontested: false
   is_incumbent: false
 title: Ivo M. Almeida

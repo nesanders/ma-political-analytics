@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6875
+  war_v2: 0.563
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3125
+  expected_two_party_share_v2: 0.437
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3485
+  war_v2: 0.224
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6515
+  expected_two_party_share_v2: 0.776
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5469
+  war_v2: 0.4224
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4531
+  expected_two_party_share_v2: 0.5776
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4251
+  war_v2: 0.4251
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5749
+  expected_two_party_share_v2: 0.5749
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.548
   war: 0.0569
+  war_v2: -0.0676
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4911
+  expected_two_party_share_v2: 0.6156
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.558
   war: -0.0332
+  war_v2: -0.0332
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5912
+  expected_two_party_share_v2: 0.5912
   is_uncontested: false
   is_incumbent: false
 title: Jennifer E. Benson

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4828
   war: -0.1753
+  war_v2: -0.1753
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6581
+  expected_two_party_share_v2: 0.6581
   is_uncontested: false
   is_incumbent: false
 title: John C. Thomas

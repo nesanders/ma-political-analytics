@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2181
+  war_v2: 0.0936
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7819
+  expected_two_party_share_v2: 0.9064
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4924
+  war_v2: 0.4924
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5076
+  expected_two_party_share_v2: 0.5076
   is_uncontested: true
   is_incumbent: false
 title: Joanne M. Comerford

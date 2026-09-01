@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.435
     is_incumbent: true
+    war_v2: 0.3105
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.565
+    expected_two_party_share_v2: 0.6895
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.439
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.5999
     war: 0.039
     is_incumbent: false
+    war_v2: 0.039
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5609
+    expected_two_party_share_v2: 0.5609
   - name: Anthony J. Russo
     slug: anthony-j-russo
     party: Democratic
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4001
     war: -0.039
     is_incumbent: false
+    war_v2: -0.039
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4391
+    expected_two_party_share_v2: 0.4391
   is_open_seat: null
 demographics:
   total_population: 39462

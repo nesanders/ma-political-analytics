@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5683
     war: 0.0811
     is_incumbent: true
+    war_v2: -0.0434
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4872
+    expected_two_party_share_v2: 0.6117
   - name: Patrick J. Foran
     slug: patrick-j-foran
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4317
     war: -0.0811
     is_incumbent: false
+    war_v2: -0.0811
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5128
+    expected_two_party_share_v2: 0.5128
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5695
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4305
     is_incumbent: true
+    war_v2: 0.306
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5695
+    expected_two_party_share_v2: 0.694
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5076
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5202
     war: 0.0126
     is_incumbent: true
+    war_v2: -0.1119
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5076
+    expected_two_party_share_v2: 0.6321
   - name: Richard W. Neitz
     slug: richard-w-neitz
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4798
     war: -0.0126
     is_incumbent: false
+    war_v2: -0.0126
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4924
+    expected_two_party_share_v2: 0.4924
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5553
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5089
     war: -0.0464
     is_incumbent: false
+    war_v2: -0.0464
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5553
+    expected_two_party_share_v2: 0.5553
   - name: Richard W. Neitz
     slug: richard-w-neitz
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4911
     war: 0.0464
     is_incumbent: false
+    war_v2: 0.0464
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4447
+    expected_two_party_share_v2: 0.4447
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3997
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.6177
     war: 0.0174
     is_incumbent: false
+    war_v2: 0.0174
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6003
+    expected_two_party_share_v2: 0.6003
   - name: Cleon H. Turner
     slug: cleon-h-turner
     party: Democratic
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.3823
     war: -0.0174
     is_incumbent: false
+    war_v2: -0.0174
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3997
+    expected_two_party_share_v2: 0.3997
   is_open_seat: null
 title: 1st Barnstable (2001-2010)
 layout: district

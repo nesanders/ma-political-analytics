@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.344
+  war_v2: 0.2195
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.656
+  expected_two_party_share_v2: 0.7805
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4638
+  war_v2: 0.3393
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5362
+  expected_two_party_share_v2: 0.6607
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3332
+  war_v2: 0.3332
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6668
+  expected_two_party_share_v2: 0.6668
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3861
+  war_v2: 0.2616
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6139
+  expected_two_party_share_v2: 0.7384
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3153
+  war_v2: 0.1908
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6847
+  expected_two_party_share_v2: 0.8092
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3288
+  war_v2: 0.2043
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6712
+  expected_two_party_share_v2: 0.7957
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3435
+  war_v2: 0.219
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6565
+  expected_two_party_share_v2: 0.781
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4108
+  war_v2: 0.4108
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5892
+  expected_two_party_share_v2: 0.5892
   is_uncontested: true
   is_incumbent: false
 title: John W. Scibak

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.279
+  war_v2: 0.1545
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.721
+  expected_two_party_share_v2: 0.8455
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4497
+  war_v2: 0.4497
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5503
+  expected_two_party_share_v2: 0.5503
   is_uncontested: true
   is_incumbent: false
 title: Charles E. Shannon, Jr.

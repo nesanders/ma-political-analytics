@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6019
+  war_v2: 0.6019
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3981
+  expected_two_party_share_v2: 0.3981
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5288
+  war_v2: 0.4043
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4712
+  expected_two_party_share_v2: 0.5957
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6232
+  war_v2: 0.4987
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3768
+  expected_two_party_share_v2: 0.5013
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6144
+  war_v2: 0.4899
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3856
+  expected_two_party_share_v2: 0.5101
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6096
+  war_v2: 0.4851
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3904
+  expected_two_party_share_v2: 0.5149
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.7004
   war: 0.2155
+  war_v2: 0.2155
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4849
+  expected_two_party_share_v2: 0.4849
   is_uncontested: false
   is_incumbent: false
 title: Michael R. Knapik

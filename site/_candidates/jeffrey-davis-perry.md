@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6992
   war: 0.2247
+  war_v2: 0.1002
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4745
+  expected_two_party_share_v2: 0.599
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4669
+  war_v2: 0.3424
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5331
+  expected_two_party_share_v2: 0.6576
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6605
   war: 0.1709
+  war_v2: 0.0464
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4896
+  expected_two_party_share_v2: 0.6141
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5121
   war: -0.118
+  war_v2: -0.118
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6301
+  expected_two_party_share_v2: 0.6301
   is_uncontested: false
   is_incumbent: false
 title: Jeffrey Davis Perry

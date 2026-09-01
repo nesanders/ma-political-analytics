@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1806
   war: -0.0533
+  war_v2: -0.0533
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2339
+  expected_two_party_share_v2: 0.2339
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1961
   war: -0.0633
+  war_v2: -0.0633
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2594
+  expected_two_party_share_v2: 0.2594
   is_uncontested: false
   is_incumbent: false
 title: John A. Andrulis

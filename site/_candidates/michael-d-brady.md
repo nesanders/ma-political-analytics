@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3892
+  war_v2: 0.2647
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6108
+  expected_two_party_share_v2: 0.7353
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.637
   war: 0.0357
+  war_v2: 0.0357
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6013
+  expected_two_party_share_v2: 0.6013
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3584
+  war_v2: 0.2339
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6416
+  expected_two_party_share_v2: 0.7661
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6651
   war: 0.3435
+  war_v2: 0.219
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3216
+  expected_two_party_share_v2: 0.4461
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3978
+  war_v2: 0.3978
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6022
+  expected_two_party_share_v2: 0.6022
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3675
+  war_v2: 0.243
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6325
+  expected_two_party_share_v2: 0.757
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2564
+  war_v2: 0.2564
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7436
+  expected_two_party_share_v2: 0.7436
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3824
+  war_v2: 0.2579
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6176
+  expected_two_party_share_v2: 0.7421
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.8372
   war: 0.1302
+  war_v2: 0.1302
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.707
+  expected_two_party_share_v2: 0.707
   is_uncontested: false
   is_incumbent: false
 title: Michael D. Brady

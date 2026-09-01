@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5703
     war: 0.0117
     is_incumbent: true
+    war_v2: -0.1128
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5586
+    expected_two_party_share_v2: 0.6831
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4297
     war: -0.0117
     is_incumbent: false
+    war_v2: -0.0117
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4414
+    expected_two_party_share_v2: 0.4414
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3413
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6587
     is_incumbent: true
+    war_v2: 0.5342
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3413
+    expected_two_party_share_v2: 0.4658
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5908
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4092
     is_incumbent: true
+    war_v2: 0.2847
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5908
+    expected_two_party_share_v2: 0.7153
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5801
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4199
     is_incumbent: true
+    war_v2: 0.2954
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5801
+    expected_two_party_share_v2: 0.7046
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7026
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2974
     is_incumbent: false
+    war_v2: 0.2974
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7026
+    expected_two_party_share_v2: 0.7026
   is_open_seat: null
 title: 8th Bristol District (2012-2020)
 layout: district

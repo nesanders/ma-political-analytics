@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6126
     war: -0.1119
     is_incumbent: false
+    war_v2: -0.1119
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7245
+    expected_two_party_share_v2: 0.7245
   - name: Michael F. Case
     slug: michael-f-case
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3874
     war: 0.1119
     is_incumbent: false
+    war_v2: 0.1119
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2755
+    expected_two_party_share_v2: 0.2755
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1263
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.7373
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2627
     is_incumbent: true
+    war_v2: 0.1382
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7373
+    expected_two_party_share_v2: 0.8618
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7596
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2404
     is_incumbent: true
+    war_v2: 0.1159
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7596
+    expected_two_party_share_v2: 0.8841
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.2938
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6967
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6978
     war: 0.0011
     is_incumbent: false
+    war_v2: 0.0011
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6967
+    expected_two_party_share_v2: 0.6967
   - name: Richard S. Stockwell
     slug: richard-s-stockwell
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3022
     war: -0.0011
     is_incumbent: false
+    war_v2: -0.0011
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3033
+    expected_two_party_share_v2: 0.3033
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.6198
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6198
     is_incumbent: false
+    war_v2: 0.6198
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3802
+    expected_two_party_share_v2: 0.3802
   - name: Matthew E. Goddard
     slug: matthew-e-goddard
     party: Other
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.2958
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 2nd Berkshire (2001-2010)
 layout: district

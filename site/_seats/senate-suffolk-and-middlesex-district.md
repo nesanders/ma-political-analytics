@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.183
     is_incumbent: true
+    war_v2: 0.0585
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.817
+    expected_two_party_share_v2: 0.9415
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8248
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1752
     is_incumbent: false
+    war_v2: 0.1752
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8248
+    expected_two_party_share_v2: 0.8248
   is_open_seat: null
 demographics:
   median_household_income: 101830

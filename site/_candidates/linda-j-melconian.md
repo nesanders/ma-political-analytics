@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5031
+  war_v2: 0.5031
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4969
+  expected_two_party_share_v2: 0.4969
   is_uncontested: true
   is_incumbent: false
 title: Linda J. Melconian

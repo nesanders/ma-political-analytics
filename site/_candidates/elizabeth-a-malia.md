@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1576
+  war_v2: 0.0331
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8424
+  expected_two_party_share_v2: 0.9669
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4911
+  war_v2: 0.3666
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5089
+  expected_two_party_share_v2: 0.6334
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.147
+  war_v2: 0.0225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.853
+  expected_two_party_share_v2: 0.9775
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
+  war_v2: 0.1877
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.8123
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
+  war_v2: 0.1966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8034
+  expected_two_party_share_v2: 0.8034
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2466
+  war_v2: 0.1221
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7534
+  expected_two_party_share_v2: 0.8779
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
+  war_v2: 0.0722
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8033
+  expected_two_party_share_v2: 0.9278
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2252
+  war_v2: 0.1007
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7748
+  expected_two_party_share_v2: 0.8993
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2167
+  war_v2: 0.0922
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7833
+  expected_two_party_share_v2: 0.9078
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3458
+  war_v2: 0.3458
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6542
+  expected_two_party_share_v2: 0.6542
   is_uncontested: true
   is_incumbent: false
 title: Elizabeth A. Malia

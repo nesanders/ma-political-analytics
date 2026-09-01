@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7022
   war: 0.0244
+  war_v2: -0.1001
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6778
+  expected_two_party_share_v2: 0.8023
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2734
+  war_v2: 0.2734
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7266
+  expected_two_party_share_v2: 0.7266
   is_uncontested: true
   is_incumbent: false
 title: Lydia Marie Edwards

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3507
   war: -0.0564
+  war_v2: -0.0564
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4071
+  expected_two_party_share_v2: 0.4071
   is_uncontested: false
   is_incumbent: false
 title: Kenneth John O'Brien

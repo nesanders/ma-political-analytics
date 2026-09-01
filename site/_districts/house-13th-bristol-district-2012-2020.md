@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3787
     is_incumbent: true
+    war_v2: 0.2542
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6213
+    expected_two_party_share_v2: 0.7458
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4326
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5674
     is_incumbent: true
+    war_v2: 0.4429
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4326
+    expected_two_party_share_v2: 0.5571
   - name: Michael Janson
     slug: michael-janson
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2695
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6684
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3316
     is_incumbent: true
+    war_v2: 0.2071
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6684
+    expected_two_party_share_v2: 0.7929
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6624
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3376
     is_incumbent: true
+    war_v2: 0.2131
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6624
+    expected_two_party_share_v2: 0.7869
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7698
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2302
     is_incumbent: false
+    war_v2: 0.2302
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7698
+    expected_two_party_share_v2: 0.7698
   is_open_seat: null
 title: 13th Bristol District (2012-2020)
 layout: district

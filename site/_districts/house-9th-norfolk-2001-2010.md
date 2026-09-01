@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6755
     war: 0.0311
     is_incumbent: false
+    war_v2: 0.0311
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6444
+    expected_two_party_share_v2: 0.6444
   - name: Stanley J. Nacewicz
     slug: stanley-j-nacewicz
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3245
     war: -0.0311
     is_incumbent: false
+    war_v2: -0.0311
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3556
+    expected_two_party_share_v2: 0.3556
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5027
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5027
     is_incumbent: true
+    war_v2: 0.3782
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4973
+    expected_two_party_share_v2: 0.6218
   - name: Thomas Joseph Roache
     slug: thomas-joseph-roache
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.6285
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4779
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4779
     is_incumbent: true
+    war_v2: 0.3534
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5221
+    expected_two_party_share_v2: 0.6466
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5014
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5627
     war: 0.0641
     is_incumbent: false
+    war_v2: 0.0641
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4986
+    expected_two_party_share_v2: 0.4986
   - name: John J. McFeeley
     slug: john-j-mcfeeley
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4373
     war: -0.0641
     is_incumbent: false
+    war_v2: -0.0641
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5014
+    expected_two_party_share_v2: 0.5014
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3271
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3271
     is_incumbent: false
+    war_v2: 0.3271
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6729
+    expected_two_party_share_v2: 0.6729
   is_open_seat: null
 title: 9th Norfolk (2001-2010)
 layout: district

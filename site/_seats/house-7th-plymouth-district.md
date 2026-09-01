@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4824
     is_incumbent: false
+    war_v2: 0.4824
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5176
+    expected_two_party_share_v2: 0.5176
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4882
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4882
     is_incumbent: false
+    war_v2: 0.4882
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5118
+    expected_two_party_share_v2: 0.5118
   - name: Brandon J. Griffin
     slug: brandon-j-griffin
     party: Other
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.3265
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 42864

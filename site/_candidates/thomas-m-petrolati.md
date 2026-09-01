@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7168
+  war_v2: 0.5923
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2832
+  expected_two_party_share_v2: 0.4077
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4392
+  war_v2: 0.3147
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5608
+  expected_two_party_share_v2: 0.6853
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5421
+  war_v2: 0.4176
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4579
+  expected_two_party_share_v2: 0.5824
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3788
+  war_v2: 0.3788
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6212
+  expected_two_party_share_v2: 0.6212
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4687
+  war_v2: 0.3442
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5313
+  expected_two_party_share_v2: 0.6558
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3627
+  war_v2: 0.2382
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6373
+  expected_two_party_share_v2: 0.7618
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3766
+  war_v2: 0.2521
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6234
+  expected_two_party_share_v2: 0.7479
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3576
+  war_v2: 0.2331
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6424
+  expected_two_party_share_v2: 0.7669
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4797
+  war_v2: 0.4797
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5203
+  expected_two_party_share_v2: 0.5203
   is_uncontested: true
   is_incumbent: false
 title: Thomas M. Petrolati

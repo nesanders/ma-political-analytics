@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5971
     war: 0.1295
     is_incumbent: true
+    war_v2: 0.005
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4676
+    expected_two_party_share_v2: 0.5921
   - name: George Georgountzos
     slug: george-georgountzos
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4029
     war: -0.1295
     is_incumbent: false
+    war_v2: -0.1295
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5324
+    expected_two_party_share_v2: 0.5324
   - name: Michael J. Rotondi
     slug: michael-j-rotondi
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1418
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5829
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.6784
     war: 0.0955
     is_incumbent: false
+    war_v2: 0.0955
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5829
+    expected_two_party_share_v2: 0.5829
   - name: Brian P. O'Connor
     slug: brian-p-oconnor
     party: Republican
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.3216
     war: -0.0955
     is_incumbent: false
+    war_v2: -0.0955
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4171
+    expected_two_party_share_v2: 0.4171
   - name: Chad Riley
     slug: chad-riley
     party: Other
@@ -80,6 +100,10 @@ results_by_year:
     actual_two_party_share: 0.3168
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5479
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4521
     is_incumbent: true
+    war_v2: 0.3276
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5479
+    expected_two_party_share_v2: 0.6724
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5955
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.6158
     war: 0.0203
     is_incumbent: true
+    war_v2: -0.1042
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5955
+    expected_two_party_share_v2: 0.72
   - name: John M. Prindiville
     slug: john-m-prindiville
     party: Republican
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.3842
     war: -0.0203
     is_incumbent: false
+    war_v2: -0.0203
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4045
+    expected_two_party_share_v2: 0.4045
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4065
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5935
     is_incumbent: false
+    war_v2: 0.5935
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4065
+    expected_two_party_share_v2: 0.4065
   is_open_seat: null
 title: 31st Middlesex (2001-2010)
 layout: district

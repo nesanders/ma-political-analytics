@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2839
+  war_v2: 0.1594
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7161
+  expected_two_party_share_v2: 0.8406
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5954
   war: 0.1529
+  war_v2: 0.0284
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4425
+  expected_two_party_share_v2: 0.567
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5666
   war: 0.0038
+  war_v2: 0.0038
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5628
+  expected_two_party_share_v2: 0.5628
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5304
+  war_v2: 0.5304
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4696
+  expected_two_party_share_v2: 0.4696
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.447
+  war_v2: 0.3225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.553
+  expected_two_party_share_v2: 0.6775
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.694
   war: 0.2392
+  war_v2: 0.1147
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4548
+  expected_two_party_share_v2: 0.5793
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5565
+  war_v2: 0.432
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4435
+  expected_two_party_share_v2: 0.568
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.545
+  war_v2: 0.4205
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.455
+  expected_two_party_share_v2: 0.5795
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.6309
   war: 0.0654
+  war_v2: 0.0654
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5655
+  expected_two_party_share_v2: 0.5655
   is_uncontested: false
   is_incumbent: false
 title: Donald F. Humason, Jr

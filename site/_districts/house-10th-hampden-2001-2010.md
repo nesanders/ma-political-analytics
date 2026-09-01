@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2852
     is_incumbent: true
+    war_v2: 0.1607
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7148
+    expected_two_party_share_v2: 0.8393
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7759
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.8527
     war: 0.0768
     is_incumbent: true
+    war_v2: -0.0477
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7759
+    expected_two_party_share_v2: 0.9004
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.1473
     war: -0.0768
     is_incumbent: false
+    war_v2: -0.0768
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2241
+    expected_two_party_share_v2: 0.2241
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7399
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.8409
     war: 0.101
     is_incumbent: true
+    war_v2: -0.0235
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7399
+    expected_two_party_share_v2: 0.8644
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.1591
     war: -0.101
     is_incumbent: false
+    war_v2: -0.101
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2601
+    expected_two_party_share_v2: 0.2601
   - name: Kyle A. Burns
     slug: kyle-a-burns
     party: Other
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.0675
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7196
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.7164
     war: -0.0032
     is_incumbent: true
+    war_v2: -0.1277
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7196
+    expected_two_party_share_v2: 0.8441
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.2836
     war: 0.0032
     is_incumbent: false
+    war_v2: 0.0032
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2804
+    expected_two_party_share_v2: 0.2804
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6053
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3947
     is_incumbent: false
+    war_v2: 0.3947
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6053
+    expected_two_party_share_v2: 0.6053
   is_open_seat: null
 title: 10th Hampden (2001-2010)
 layout: district

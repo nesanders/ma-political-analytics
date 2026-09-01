@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2706
     is_incumbent: true
+    war_v2: 0.1461
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7294
+    expected_two_party_share_v2: 0.8539
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7798
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2202
     is_incumbent: true
+    war_v2: 0.0957
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7798
+    expected_two_party_share_v2: 0.9043
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7487
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2513
     is_incumbent: true
+    war_v2: 0.1268
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7487
+    expected_two_party_share_v2: 0.8732
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.755
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.245
     is_incumbent: true
+    war_v2: 0.1205
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.755
+    expected_two_party_share_v2: 0.8795
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6346
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3654
     is_incumbent: false
+    war_v2: 0.3654
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6346
+    expected_two_party_share_v2: 0.6346
   is_open_seat: null
 title: 2nd Suffolk (2001-2010)
 layout: district

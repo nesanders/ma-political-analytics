@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3086
   war: 0.0013
+  war_v2: 0.0013
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3073
+  expected_two_party_share_v2: 0.3073
   is_uncontested: false
   is_incumbent: false
 ocpf_finance:

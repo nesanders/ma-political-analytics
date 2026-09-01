@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3433
     is_incumbent: true
+    war_v2: 0.2188
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6567
+    expected_two_party_share_v2: 0.7812
   - name: Leah Christine Mercurio
     slug: leah-christine-mercurio
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.0026
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2903
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6211
     war: 0.3308
     is_incumbent: true
+    war_v2: 0.2063
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2903
+    expected_two_party_share_v2: 0.4148
   - name: John G. Flores
     slug: john-g-flores
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3789
     war: -0.3308
     is_incumbent: false
+    war_v2: -0.3308
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7097
+    expected_two_party_share_v2: 0.7097
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6086
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5694
     war: -0.0391
     is_incumbent: false
+    war_v2: -0.0391
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6085
+    expected_two_party_share_v2: 0.6085
   - name: Anthony E. Schiavi
     slug: anthony-e-schiavi
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4306
     war: 0.0391
     is_incumbent: false
+    war_v2: 0.0391
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3915
+    expected_two_party_share_v2: 0.3915
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4731
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6273
     war: 0.1541
     is_incumbent: true
+    war_v2: 0.0296
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4732
+    expected_two_party_share_v2: 0.5977
   - name: Ronald R. Beaty, Jr.
     slug: ronald-r-beaty-jr
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3727
     war: -0.1541
     is_incumbent: false
+    war_v2: -0.1541
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5268
+    expected_two_party_share_v2: 0.5268
   - name: Allen R. Waters
     slug: allen-r-waters
     party: Other
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.0048
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5724
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4276
     is_incumbent: false
+    war_v2: 0.4276
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5724
+    expected_two_party_share_v2: 0.5724
   is_open_seat: null
 title: Cape & Islands District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3807
   war: -0.0799
+  war_v2: -0.0799
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4606
+  expected_two_party_share_v2: 0.4606
   is_uncontested: false
   is_incumbent: false
 title: Jeanne Renaud Costello

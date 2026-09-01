@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5635
   war: 0.0032
+  war_v2: 0.0032
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5603
+  expected_two_party_share_v2: 0.5603
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5631
   war: -0.0216
+  war_v2: -0.0216
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5847
+  expected_two_party_share_v2: 0.5847
   is_uncontested: false
   is_incumbent: false
 title: Susan Lynn Moran

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.419
+  war_v2: 0.2945
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.581
+  expected_two_party_share_v2: 0.7055
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5679
+  war_v2: 0.4434
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4321
+  expected_two_party_share_v2: 0.5566
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4603
+  war_v2: 0.4603
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5397
+  expected_two_party_share_v2: 0.5397
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6346
   war: 0.1962
+  war_v2: 0.0717
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4384
+  expected_two_party_share_v2: 0.5629
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4478
+  war_v2: 0.4478
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5522
+  expected_two_party_share_v2: 0.5522
   is_uncontested: true
   is_incumbent: false
 title: James J. Dwyer

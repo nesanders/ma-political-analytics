@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4673
+  war_v2: 0.4673
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5327
+  expected_two_party_share_v2: 0.5327
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5683
   war: 0.0811
+  war_v2: -0.0434
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4872
+  expected_two_party_share_v2: 0.6117
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4305
+  war_v2: 0.306
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5695
+  expected_two_party_share_v2: 0.694
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5202
   war: 0.0126
+  war_v2: -0.1119
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5076
+  expected_two_party_share_v2: 0.6321
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.5089
   war: -0.0464
+  war_v2: -0.0464
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5553
+  expected_two_party_share_v2: 0.5553
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: false
   actual_two_party_share: 0.3823
   war: -0.0174
+  war_v2: -0.0174
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3997
+  expected_two_party_share_v2: 0.3997
   is_uncontested: false
   is_incumbent: false
 title: Cleon H. Turner

@@ -1,15 +1,30 @@
 ---
 layout: default
 ---
+{% assign chart_races = page.races | where_exp: "r", "r.actual_two_party_share" | sort: "year" %}
 <article>
   <h1>{{ page.name }}</h1>
   <p>{{ page.party }}</p>
+
+  {% if chart_races.size > 0 %}
+  <section>
+    <h2>WAR v2 vs. replacement level over time</h2>
+    <p>
+      Solid points are what {{ page.name }} actually got each year; the
+      dashed line is what WAR v2 expected given the district's lean and
+      (when {{ page.name }} was the incumbent) the incumbency adjustment.
+      The gap between them is WAR v2. Click a point to open that race's
+      district page.
+    </p>
+    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR v2's expected share, by year"></div>
+  </section>
+  {% endif %}
 
   <section>
     <h2>Races</h2>
     <table>
       <thead>
-        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR</th></tr>
+        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th></tr>
       </thead>
       <tbody>
         {% for r in page.races %}
@@ -21,10 +36,17 @@ layout: default
           <td>{{ r.votes }}</td>
           <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if r.war %}{{ r.war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if r.war_v2 %}{{ r.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+    <p><small>
+      WAR (wins above replacement) is adapted from Split Ticket's published
+      methodology — see the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the full definition, citations, and the WAR v2 incumbency
+      adjustment. Null for uncontested races and minor-party candidates.
+    </small></p>
   </section>
 
   {% if page.ocpf_finance %}
@@ -55,3 +77,80 @@ layout: default
   </section>
   {% endif %}
 </article>
+
+{% if chart_races.size > 0 %}
+<script>
+  // Field-by-field, not `r | jsonify` on the race object directly — same
+  // reasoning as chamber.html's seatData: avoid ever embedding a full
+  // Document/object's other rendered fields inside this script tag.
+  const raceData = [
+    {% for r in chart_races %}
+    {
+      "year": {{ r.year | jsonify }},
+      "district_name": {{ r.district_name | jsonify }},
+      "url": {{ r.district_url | relative_url | jsonify }},
+      "series": "Actual share",
+      "share": {{ r.actual_two_party_share | jsonify }},
+      "war_v2": {{ r.war_v2 | jsonify }}
+    },
+    {
+      "year": {{ r.year | jsonify }},
+      "district_name": {{ r.district_name | jsonify }},
+      "url": {{ r.district_url | relative_url | jsonify }},
+      "series": "Expected share (v2)",
+      "share": {{ r.expected_two_party_share_v2 | jsonify }},
+      "war_v2": {{ r.war_v2 | jsonify }}
+    },
+    {% endfor %}
+  ].filter((d) => d.share !== null && d.share !== undefined);
+  const chartStyle = getComputedStyle(document.documentElement);
+  const chartCssVar = (name) => chartStyle.getPropertyValue(name).trim();
+  const party = {{ page.party | jsonify }};
+  const actualColor = party === "Democratic" ? chartCssVar("--series-dem")
+    : party === "Republican" ? chartCssVar("--series-rep")
+    : chartCssVar("--text-primary");
+  const warSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 220,
+    "background": null,
+    "data": { "values": raceData },
+    "mark": { "type": "line", "point": true, "cursor": "pointer" },
+    "encoding": {
+      "x": { "field": "year", "type": "ordinal", "title": "Year" },
+      "y": {
+        "field": "share", "type": "quantitative",
+        "axis": { "format": "%", "title": "Two-party share" },
+        "scale": { "domain": [0, 1] }
+      },
+      "color": {
+        "field": "series", "type": "nominal", "title": null,
+        "scale": { "domain": ["Actual share", "Expected share (v2)"], "range": [actualColor, chartCssVar("--text-secondary")] }
+      },
+      "strokeDash": {
+        "field": "series", "type": "nominal", "legend": null,
+        "scale": { "domain": ["Actual share", "Expected share (v2)"], "range": [[1, 0], [4, 2]] }
+      },
+      "href": { "field": "url", "type": "nominal" },
+      "tooltip": [
+        { "field": "district_name", "title": "District" },
+        { "field": "year", "title": "Year" },
+        { "field": "series", "title": "Series" },
+        { "field": "share", "type": "quantitative", "format": ".1%" },
+        { "field": "war_v2", "type": "quantitative", "format": ".1%", "title": "WAR (v2)" }
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelColor": chartCssVar("--text-secondary"),
+        "titleColor": chartCssVar("--text-primary"),
+        "gridColor": chartCssVar("--gridline"),
+        "domainColor": chartCssVar("--gridline")
+      },
+      "legend": { "labelColor": chartCssVar("--text-secondary"), "titleColor": chartCssVar("--text-primary") },
+      "view": { "stroke": null }
+    }
+  };
+  vegaEmbed("#war-chart", warSpec, { actions: false }).catch(console.error);
+</script>
+{% endif %}

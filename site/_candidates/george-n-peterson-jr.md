@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4912
+  war_v2: 0.4912
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5088
+  expected_two_party_share_v2: 0.5088
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6742
   war: 0.0672
+  war_v2: -0.0573
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.607
+  expected_two_party_share_v2: 0.7315
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5272
+  war_v2: 0.4027
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4728
+  expected_two_party_share_v2: 0.5973
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5251
+  war_v2: 0.4006
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4749
+  expected_two_party_share_v2: 0.5994
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6496
   war: 0.1777
+  war_v2: 0.0532
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4719
+  expected_two_party_share_v2: 0.5964
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3497
+  war_v2: 0.3497
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6503
+  expected_two_party_share_v2: 0.6503
   is_uncontested: true
   is_incumbent: false
 title: George N. Peterson, Jr.

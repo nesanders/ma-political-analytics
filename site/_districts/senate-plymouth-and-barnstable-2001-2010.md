@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5244
     war: 0.0853
     is_incumbent: true
+    war_v2: -0.0392
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4391
+    expected_two_party_share_v2: 0.5636
   - name: Thomas Francis Keyes
     slug: thomas-francis-keyes
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4756
     war: -0.0853
     is_incumbent: false
+    war_v2: -0.0853
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5609
+    expected_two_party_share_v2: 0.5609
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5374
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4626
     is_incumbent: true
+    war_v2: 0.3381
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5374
+    expected_two_party_share_v2: 0.6619
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5139
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4861
     is_incumbent: true
+    war_v2: 0.3616
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5139
+    expected_two_party_share_v2: 0.6384
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5354
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5769
     war: 0.0415
     is_incumbent: true
+    war_v2: -0.083
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5354
+    expected_two_party_share_v2: 0.6599
   - name: Timothy E. Duncan
     slug: timothy-e-duncan
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4231
     war: -0.0415
     is_incumbent: false
+    war_v2: -0.0415
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4646
+    expected_two_party_share_v2: 0.4646
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3927
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5799
     war: 0.1872
     is_incumbent: false
+    war_v2: 0.1872
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3927
+    expected_two_party_share_v2: 0.3927
   - name: Christopher L. Fava
     slug: christopher-l-fava
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4201
     war: -0.1872
     is_incumbent: false
+    war_v2: -0.1872
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6073
+    expected_two_party_share_v2: 0.6073
   is_open_seat: null
 title: Plymouth and Barnstable (2001-2010)
 layout: district

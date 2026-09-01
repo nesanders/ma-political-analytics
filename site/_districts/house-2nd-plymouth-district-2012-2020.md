@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5135
     is_incumbent: true
+    war_v2: 0.389
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4865
+    expected_two_party_share_v2: 0.611
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2248
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5673
     war: -0.2079
     is_incumbent: true
+    war_v2: -0.3324
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7752
+    expected_two_party_share_v2: 0.8997
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4327
     war: 0.2079
     is_incumbent: false
+    war_v2: 0.2079
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2248
+    expected_two_party_share_v2: 0.2248
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4719
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5778
     war: 0.0496
     is_incumbent: true
+    war_v2: -0.0749
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5282
+    expected_two_party_share_v2: 0.6527
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Democratic
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4222
     war: -0.0496
     is_incumbent: false
+    war_v2: -0.0496
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4718
+    expected_two_party_share_v2: 0.4718
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3874
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3874
     is_incumbent: true
+    war_v2: 0.2629
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6126
+    expected_two_party_share_v2: 0.7371
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5173
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5173
     is_incumbent: false
+    war_v2: 0.5173
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4827
+    expected_two_party_share_v2: 0.4827
   is_open_seat: null
 title: 2nd Plymouth District (2012-2020)
 layout: district

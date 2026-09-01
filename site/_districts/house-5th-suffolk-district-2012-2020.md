@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1576
     is_incumbent: true
+    war_v2: 0.0331
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8424
+    expected_two_party_share_v2: 0.9669
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5089
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4911
     is_incumbent: false
+    war_v2: 0.4911
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.5089
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.1235
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.853
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.8435
     war: -0.0095
     is_incumbent: true
+    war_v2: -0.134
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.853
+    expected_two_party_share_v2: 0.9775
   - name: Althea Garrison
     slug: althea-garrison
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.1565
     war: 0.0095
     is_incumbent: false
+    war_v2: 0.0095
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.147
+    expected_two_party_share_v2: 0.147
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6878
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.8915
     war: 0.2037
     is_incumbent: false
+    war_v2: 0.2037
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6878
+    expected_two_party_share_v2: 0.6878
   - name: Claudette N. Joseph
     slug: claudette-n-joseph
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.1085
     war: -0.2037
     is_incumbent: false
+    war_v2: -0.2037
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3122
+    expected_two_party_share_v2: 0.3122
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8034
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1966
     is_incumbent: false
+    war_v2: 0.1966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8034
+    expected_two_party_share_v2: 0.8034
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.2793
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 5th Suffolk District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.55
     war: 0.1772
     is_incumbent: false
+    war_v2: 0.1772
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3728
+    expected_two_party_share_v2: 0.3728
   - name: Meg Wheeler
     slug: meg-wheeler
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.45
     war: -0.1772
     is_incumbent: false
+    war_v2: -0.1772
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6272
+    expected_two_party_share_v2: 0.6272
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2414
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5352
     war: -0.2234
     is_incumbent: true
+    war_v2: -0.3479
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7586
+    expected_two_party_share_v2: 0.8831
   - name: Katie L. Mcbrine
     slug: katie-l-mcbrine
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4648
     war: 0.2234
     is_incumbent: false
+    war_v2: 0.2234
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2414
+    expected_two_party_share_v2: 0.2414
   - name: Stephen D. Gill
     slug: stephen-d-gill
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0573
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5739
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.5661
     war: 0.14
     is_incumbent: false
+    war_v2: 0.14
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4261
+    expected_two_party_share_v2: 0.4261
   - name: Paul J. Gannon
     slug: paul-j-gannon
     party: Democratic
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.4339
     war: -0.14
     is_incumbent: false
+    war_v2: -0.14
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5739
+    expected_two_party_share_v2: 0.5739
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.382
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.382
     is_incumbent: true
+    war_v2: 0.2575
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.618
+    expected_two_party_share_v2: 0.7425
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.501
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.6834
     war: 0.1844
     is_incumbent: false
+    war_v2: 0.1844
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.499
+    expected_two_party_share_v2: 0.499
   - name: Genevieve S. Davis
     slug: genevieve-s-davis
     party: Democratic
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.3166
     war: -0.1844
     is_incumbent: false
+    war_v2: -0.1844
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.501
+    expected_two_party_share_v2: 0.501
   is_open_seat: null
 title: Plymouth & Norfolk District (2012-2020)
 layout: district

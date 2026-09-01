@@ -164,7 +164,7 @@ full.
   competitiveness label or near-zero lean variance across a whole
   chamber) — none remained.
 
-- `python -m ma_politics.build.generate_site_data --chamber both --current-vintage 2022-present --vintages 2001-2010,2012-2020,2022-present`
+- `python -m ma_politics.build.generate_site_data --chamber both --current-vintage 2022-present --vintages 2001-2010,2012-2020,2022-present --site-data-dir site/_data`
   Emits one Markdown-with-YAML-frontmatter file per district, seat,
   candidate, town, and party (`--districts-out-dir`/`--seats-out-dir`/
   `--candidates-out-dir`/`--towns-out-dir`/`--parties-out-dir`, defaulting
@@ -205,6 +205,36 @@ full.
   `is_incumbent` to true and `is_open_seat` to false for the later year,
   and a from-scratch year correctly leaves both at their "unknown"
   defaults.
+
+  **WAR v2** is fit and applied here too, as a second pass over every
+  vintage's district records once `is_incumbent` is known
+  (`fit_incumbency_effect`/`apply_war_v2`): pool every contested
+  major-party candidate-race across the whole run, split by
+  `is_incumbent`, and take the gap between the two groups' mean WAR v1 —
+  that gap is the incumbency adjustment WAR v2 adds on top of the v1
+  (lean-only) expected share. Pooled across House and Senate rather than
+  fit per chamber, since both come out close on the real data (House
+  ~0.123, Senate ~0.128 as of the last full run) and Senate's incumbent
+  sample (under 100 races) is too thin to support its own coefficient.
+  Uncontested races are excluded from the fit (their 100% actual share is
+  a known-inflated WAR v1 residual, not a clean training signal — see the
+  methodology page's WAR v1 limitation). The fitted coefficient and its
+  sample sizes are written to `--site-data-dir` (default `site/_data`) as
+  `war_v2.yml`, which the methodology page reads live via Jekyll's
+  `site.war_v2` rather than a hardcoded number, so the published figure
+  can't drift from what a given pipeline run actually fit. Every
+  candidate-race dict gets `war_v2`, `incumbency_adjustment`,
+  `expected_two_party_share`, and `expected_two_party_share_v2` alongside
+  the existing v1 `war`/`actual_two_party_share` — verified live against
+  real data: for an incumbent, `expected_two_party_share +
+  incumbency_adjustment + war_v2` reproduces `actual_two_party_share`
+  exactly (checked directly against a written district page's frontmatter,
+  not just by construction). Campaign finance was also planned as a v2
+  fundamental but isn't included — the OCPF data fetched so far only
+  covers year 2022, not enough years to fit an honest term across the full
+  2002-2024 backfill; deferred to a future "v3" rather than forced onto
+  one year's data (see the methodology page for the same call, explained
+  for a site reader).
 
   Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
   name re-derived one, to avoid collisions between different candidates

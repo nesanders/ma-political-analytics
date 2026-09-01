@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3727
     is_incumbent: true
+    war_v2: 0.2482
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6273
+    expected_two_party_share_v2: 0.7518
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6884
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3116
     is_incumbent: false
+    war_v2: 0.3116
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6884
+    expected_two_party_share_v2: 0.6884
   - name: Michael K. Marchese
     slug: michael-k-marchese
     party: Other
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4123
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 49075

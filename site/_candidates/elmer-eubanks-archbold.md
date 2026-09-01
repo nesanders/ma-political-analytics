@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3137
   war: -0.4108
+  war_v2: -0.4108
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7245
+  expected_two_party_share_v2: 0.7245
   is_uncontested: false
   is_incumbent: false
 title: Elmer Eubanks-Archbold

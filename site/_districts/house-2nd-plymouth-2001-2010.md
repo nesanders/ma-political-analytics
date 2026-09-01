@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6611
     war: 0.1005
     is_incumbent: true
+    war_v2: -0.024
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5606
+    expected_two_party_share_v2: 0.6851
   - name: David A. Smith
     slug: david-a-smith
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3389
     war: -0.1005
     is_incumbent: false
+    war_v2: -0.1005
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4394
+    expected_two_party_share_v2: 0.4394
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5466
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5466
     is_incumbent: true
+    war_v2: 0.4221
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4534
+    expected_two_party_share_v2: 0.5779
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5611
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5697
     war: 0.1308
     is_incumbent: true
+    war_v2: 0.0063
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4389
+    expected_two_party_share_v2: 0.5634
   - name: Margaret A. Ishihara
     slug: margaret-a-ishihara
     party: Democratic
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4303
     war: -0.1308
     is_incumbent: false
+    war_v2: -0.1308
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5611
+    expected_two_party_share_v2: 0.5611
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5577
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5178
     war: 0.0755
     is_incumbent: true
+    war_v2: -0.049
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4423
+    expected_two_party_share_v2: 0.5668
   - name: Joel Ryan Malloy
     slug: joel-ryan-malloy
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4822
     war: -0.0755
     is_incumbent: false
+    war_v2: -0.0755
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5577
+    expected_two_party_share_v2: 0.5577
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4233
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5219
     war: -0.0548
     is_incumbent: false
+    war_v2: -0.0548
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5767
+    expected_two_party_share_v2: 0.5767
   - name: John T. Donahue
     slug: john-t-donahue
     party: Democratic
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4781
     war: 0.0548
     is_incumbent: false
+    war_v2: 0.0548
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4233
+    expected_two_party_share_v2: 0.4233
   is_open_seat: null
 title: 2nd Plymouth (2001-2010)
 layout: district

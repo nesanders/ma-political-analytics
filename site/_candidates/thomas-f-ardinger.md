@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4147
   war: 0.0043
+  war_v2: 0.0043
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4104
+  expected_two_party_share_v2: 0.4104
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.448
   war: -0.0065
+  war_v2: -0.0065
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4545
+  expected_two_party_share_v2: 0.4545
   is_uncontested: false
   is_incumbent: false
 title: Thomas F. Ardinger

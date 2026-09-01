@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3789
   war: -0.3308
+  war_v2: -0.3308
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7097
+  expected_two_party_share_v2: 0.7097
   is_uncontested: false
   is_incumbent: false
 title: John G. Flores

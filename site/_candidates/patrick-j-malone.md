@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4848
   war: 0.2774
+  war_v2: 0.2774
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2074
+  expected_two_party_share_v2: 0.2074
   is_uncontested: false
   is_incumbent: false
 title: Patrick J. Malone

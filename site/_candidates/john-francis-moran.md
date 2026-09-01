@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.8246
   war: 0.029
+  war_v2: 0.029
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7956
+  expected_two_party_share_v2: 0.7956
   is_uncontested: false
   is_incumbent: false
 title: John Francis Moran

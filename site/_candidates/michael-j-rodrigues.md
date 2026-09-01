@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5353
+  war_v2: 0.4108
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4647
+  expected_two_party_share_v2: 0.5892
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5766
   war: 0.0572
+  war_v2: 0.0572
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5194
+  expected_two_party_share_v2: 0.5194
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4783
+  war_v2: 0.3538
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5217
+  expected_two_party_share_v2: 0.6462
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7185
+  war_v2: 0.594
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2815
+  expected_two_party_share_v2: 0.406
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4654
+  war_v2: 0.3409
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5346
+  expected_two_party_share_v2: 0.6591
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.6537
   war: 0.1451
+  war_v2: 0.0206
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5086
+  expected_two_party_share_v2: 0.6331
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3639
+  war_v2: 0.3639
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6361
+  expected_two_party_share_v2: 0.6361
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.6216
   war: 0.0581
+  war_v2: 0.0581
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5635
+  expected_two_party_share_v2: 0.5635
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2911
+  war_v2: 0.1666
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7089
+  expected_two_party_share_v2: 0.8334
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.279
+  war_v2: 0.1545
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.721
+  expected_two_party_share_v2: 0.8455
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2697
+  war_v2: 0.1452
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7303
+  expected_two_party_share_v2: 0.8548
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -145,6 +189,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3439
+  war_v2: 0.3439
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6561
+  expected_two_party_share_v2: 0.6561
   is_uncontested: true
   is_incumbent: false
 title: Michael J. Rodrigues

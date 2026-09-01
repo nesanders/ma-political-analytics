@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3862
     is_incumbent: true
+    war_v2: 0.2617
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6138
+    expected_two_party_share_v2: 0.7383
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5106
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.7129
     war: 0.2235
     is_incumbent: true
+    war_v2: 0.099
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4894
+    expected_two_party_share_v2: 0.6139
   - name: Claire M. Paradiso
     slug: claire-m-paradiso
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2871
     war: -0.2235
     is_incumbent: false
+    war_v2: -0.2235
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5106
+    expected_two_party_share_v2: 0.5106
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4759
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4759
     is_incumbent: true
+    war_v2: 0.3514
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5241
+    expected_two_party_share_v2: 0.6486
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5259
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6599
     war: 0.1858
     is_incumbent: true
+    war_v2: 0.0613
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4741
+    expected_two_party_share_v2: 0.5986
   - name: Ben Tafoya
     slug: ben-tafoya
     party: Democratic
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3401
     war: -0.1858
     is_incumbent: false
+    war_v2: -0.1858
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5259
+    expected_two_party_share_v2: 0.5259
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3468
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3468
     is_incumbent: false
+    war_v2: 0.3468
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6532
+    expected_two_party_share_v2: 0.6532
   is_open_seat: null
 title: 20th Middlesex (2001-2010)
 layout: district

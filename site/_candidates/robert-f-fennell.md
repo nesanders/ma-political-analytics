@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.408
+  war_v2: 0.2835
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.592
+  expected_two_party_share_v2: 0.7165
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.8299
   war: 0.099
+  war_v2: 0.099
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7309
+  expected_two_party_share_v2: 0.7309
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3988
+  war_v2: 0.2743
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6012
+  expected_two_party_share_v2: 0.7257
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3007
+  war_v2: 0.1762
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6993
+  expected_two_party_share_v2: 0.8238
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3221
+  war_v2: 0.1976
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6779
+  expected_two_party_share_v2: 0.8024
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3018
+  war_v2: 0.1773
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6982
+  expected_two_party_share_v2: 0.8227
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4714
+  war_v2: 0.4714
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5286
+  expected_two_party_share_v2: 0.5286
   is_uncontested: true
   is_incumbent: false
 title: Robert F. Fennell

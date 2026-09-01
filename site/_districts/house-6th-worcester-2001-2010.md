@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5
     war: -0.0875
     is_incumbent: false
+    war_v2: -0.0875
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5875
+    expected_two_party_share_v2: 0.5875
   - name: Geraldo Alicea
     slug: geraldo-alicea
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.5
     war: 0.0875
     is_incumbent: true
+    war_v2: -0.037
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4125
+    expected_two_party_share_v2: 0.537
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5409
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6047
     war: 0.0637
     is_incumbent: true
+    war_v2: -0.0608
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.541
+    expected_two_party_share_v2: 0.6655
   - name: Ronald J. Chernisky
     slug: ronald-j-chernisky
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3953
     war: -0.0637
     is_incumbent: false
+    war_v2: -0.0637
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.459
+    expected_two_party_share_v2: 0.459
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5821
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5483
     war: -0.0338
     is_incumbent: false
+    war_v2: -0.0338
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5821
+    expected_two_party_share_v2: 0.5821
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4517
     war: 0.0338
     is_incumbent: false
+    war_v2: 0.0338
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4179
+    expected_two_party_share_v2: 0.4179
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5354
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.652
     war: 0.1166
     is_incumbent: true
+    war_v2: -0.0079
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5354
+    expected_two_party_share_v2: 0.6599
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.348
     war: -0.1166
     is_incumbent: false
+    war_v2: -0.1166
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4646
+    expected_two_party_share_v2: 0.4646
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3908
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5107
     war: 0.12
     is_incumbent: false
+    war_v2: 0.12
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3907
+    expected_two_party_share_v2: 0.3907
   - name: Jerzy J. Jachimczyk
     slug: jerzy-j-jachimczyk
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4893
     war: -0.12
     is_incumbent: false
+    war_v2: -0.12
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6093
+    expected_two_party_share_v2: 0.6093
   is_open_seat: null
 title: 6th Worcester (2001-2010)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5601
     war: 0.0753
     is_incumbent: false
+    war_v2: 0.0753
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4848
+    expected_two_party_share_v2: 0.4848
   - name: Jamison Tomasek
     slug: jamison-tomasek
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4399
     war: -0.0753
     is_incumbent: false
+    war_v2: -0.0753
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5152
+    expected_two_party_share_v2: 0.5152
   - name: Jodi Oberto
     slug: jodi-oberto
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0559
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.606
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.394
     is_incumbent: true
+    war_v2: 0.2695
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.606
+    expected_two_party_share_v2: 0.7305
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5522
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4478
     is_incumbent: true
+    war_v2: 0.3233
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5522
+    expected_two_party_share_v2: 0.6767
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5743
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.7166
     war: 0.1423
     is_incumbent: true
+    war_v2: 0.0178
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5743
+    expected_two_party_share_v2: 0.6988
   - name: Deborah J. Jones
     slug: deborah-j-jones
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.2834
     war: -0.1423
     is_incumbent: false
+    war_v2: -0.1423
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4257
+    expected_two_party_share_v2: 0.4257
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4196
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.6346
     war: 0.215
     is_incumbent: false
+    war_v2: 0.215
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4196
+    expected_two_party_share_v2: 0.4196
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.3654
     war: -0.215
     is_incumbent: false
+    war_v2: -0.215
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5804
+    expected_two_party_share_v2: 0.5804
   is_open_seat: null
 title: Second Essex and Middlesex (2001-2010)
 layout: district

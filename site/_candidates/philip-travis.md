@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6317
   war: 0.0592
+  war_v2: -0.0653
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5725
+  expected_two_party_share_v2: 0.697
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5647
+  war_v2: 0.5647
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4353
+  expected_two_party_share_v2: 0.4353
   is_uncontested: true
   is_incumbent: false
 title: Philip Travis

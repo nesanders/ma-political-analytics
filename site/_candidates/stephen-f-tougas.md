@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3155
   war: -0.0591
+  war_v2: -0.0591
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3746
+  expected_two_party_share_v2: 0.3746
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3117
   war: -0.4004
+  war_v2: -0.4004
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7121
+  expected_two_party_share_v2: 0.7121
   is_uncontested: false
   is_incumbent: false
 title: Stephen F. Tougas

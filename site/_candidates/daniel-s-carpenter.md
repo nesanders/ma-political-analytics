@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3461
   war: -0.193
+  war_v2: -0.193
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5391
+  expected_two_party_share_v2: 0.5391
   is_uncontested: false
   is_incumbent: false
 title: Daniel S. Carpenter

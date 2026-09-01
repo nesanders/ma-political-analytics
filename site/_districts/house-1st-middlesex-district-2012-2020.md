@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5155
     war: 0.1038
     is_incumbent: true
+    war_v2: -0.0207
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4117
+    expected_two_party_share_v2: 0.5362
   - name: Deborah L. Busser
     slug: deborah-l-busser
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4845
     war: -0.1038
     is_incumbent: false
+    war_v2: -0.1038
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5883
+    expected_two_party_share_v2: 0.5883
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2345
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2345
     is_incumbent: true
+    war_v2: 0.11
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7655
+    expected_two_party_share_v2: 0.89
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5308
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6518
     war: 0.1826
     is_incumbent: true
+    war_v2: 0.0581
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4692
+    expected_two_party_share_v2: 0.5937
   - name: Matthew T. Meneghini
     slug: matthew-t-meneghini
     party: Democratic
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3482
     war: -0.1826
     is_incumbent: false
+    war_v2: -0.1826
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5308
+    expected_two_party_share_v2: 0.5308
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3735
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6429
     war: 0.0165
     is_incumbent: true
+    war_v2: -0.108
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6264
+    expected_two_party_share_v2: 0.7509
   - name: Gene A. Rauhala
     slug: gene-a-rauhala
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3571
     war: -0.0165
     is_incumbent: false
+    war_v2: -0.0165
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3736
+    expected_two_party_share_v2: 0.3736
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4821
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4821
     is_incumbent: false
+    war_v2: 0.4821
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5179
+    expected_two_party_share_v2: 0.5179
   is_open_seat: null
 title: 1st Middlesex District (2012-2020)
 layout: district

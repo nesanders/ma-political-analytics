@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2937
     is_incumbent: true
+    war_v2: 0.1692
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7063
+    expected_two_party_share_v2: 0.8308
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2436
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7699
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2301
     is_incumbent: true
+    war_v2: 0.1056
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7699
+    expected_two_party_share_v2: 0.8944
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.734
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.266
     is_incumbent: true
+    war_v2: 0.1415
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.734
+    expected_two_party_share_v2: 0.8585
   - name: Megan Anzalotti
     slug: megan-anzalotti
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.2322
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Libertarian
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.0647
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7165
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2835
     is_incumbent: false
+    war_v2: 0.2835
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7165
+    expected_two_party_share_v2: 0.7165
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.602
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.398
     is_incumbent: false
+    war_v2: 0.398
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.602
+    expected_two_party_share_v2: 0.602
   is_open_seat: null
 title: 9th Hampden (2001-2010)
 layout: district

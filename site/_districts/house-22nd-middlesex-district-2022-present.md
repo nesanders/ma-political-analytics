@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5078
     is_incumbent: true
+    war_v2: 0.3833
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4922
+    expected_two_party_share_v2: 0.6167
   - name: George John Simolaris, Jr
     slug: george-simolaris-jr
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.636
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5359
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5435
     war: 0.0794
     is_incumbent: false
+    war_v2: 0.0794
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4641
+    expected_two_party_share_v2: 0.4641
   - name: Teresa Nicole English
     slug: teresa-nicole-english
     party: Democratic
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4565
     war: -0.0794
     is_incumbent: false
+    war_v2: -0.0794
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5359
+    expected_two_party_share_v2: 0.5359
   is_open_seat: null
 demographics:
   total_population: 42119

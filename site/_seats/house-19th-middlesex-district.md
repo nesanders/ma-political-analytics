@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5751
     war: 0.0654
     is_incumbent: false
+    war_v2: 0.0654
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5097
+    expected_two_party_share_v2: 0.5097
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4249
     war: -0.0654
     is_incumbent: false
+    war_v2: -0.0654
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4903
+    expected_two_party_share_v2: 0.4903
   - name: George Hugh Ferdinand
     slug: george-hugh-ferdinand
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.0929
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5232
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.563
     war: 0.0398
     is_incumbent: false
+    war_v2: 0.0398
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5232
+    expected_two_party_share_v2: 0.5232
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.437
     war: -0.0398
     is_incumbent: false
+    war_v2: -0.0398
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4768
+    expected_two_party_share_v2: 0.4768
   is_open_seat: null
 demographics:
   total_population: 42164

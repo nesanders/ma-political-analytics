@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2356
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.068
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.2546
   war: -0.2017
+  war_v2: -0.2017
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4563
+  expected_two_party_share_v2: 0.4563
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: false
   actual_two_party_share: 0.2885
   war: -0.1769
+  war_v2: -0.1769
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4654
+  expected_two_party_share_v2: 0.4654
   is_uncontested: false
   is_incumbent: false
 title: Robert Montgomery Thomas

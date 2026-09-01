@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.246
+  war_v2: 0.1215
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.754
+  expected_two_party_share_v2: 0.8785
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5299
+  war_v2: 0.4054
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4701
+  expected_two_party_share_v2: 0.5946
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3558
+  war_v2: 0.2313
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6442
+  expected_two_party_share_v2: 0.7687
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.49
+  war_v2: 0.49
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.51
+  expected_two_party_share_v2: 0.51
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3653
+  war_v2: 0.2408
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6347
+  expected_two_party_share_v2: 0.7592
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5256
+  war_v2: 0.4011
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4744
+  expected_two_party_share_v2: 0.5989
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4915
+  war_v2: 0.367
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5085
+  expected_two_party_share_v2: 0.633
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.646
   war: 0.1702
+  war_v2: 0.0457
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4758
+  expected_two_party_share_v2: 0.6003
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3412
+  war_v2: 0.3412
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6588
+  expected_two_party_share_v2: 0.6588
   is_uncontested: true
   is_incumbent: false
 title: Elizabeth A. Poirier

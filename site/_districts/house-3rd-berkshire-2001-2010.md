@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2146
     is_incumbent: true
+    war_v2: 0.0901
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7854
+    expected_two_party_share_v2: 0.9099
   - name: Mark C. Miller
     slug: mark-c-miller
     party: null
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.8189
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7805
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2195
     is_incumbent: true
+    war_v2: 0.095
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7805
+    expected_two_party_share_v2: 0.905
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7917
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2083
     is_incumbent: false
+    war_v2: 0.2083
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7917
+    expected_two_party_share_v2: 0.7917
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7536
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2464
     is_incumbent: true
+    war_v2: 0.1219
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7536
+    expected_two_party_share_v2: 0.8781
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6694
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3306
     is_incumbent: false
+    war_v2: 0.3306
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6694
+    expected_two_party_share_v2: 0.6694
   is_open_seat: null
 title: 3rd Berkshire (2001-2010)
 layout: district

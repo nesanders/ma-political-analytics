@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4874
   war: 0.1099
+  war_v2: -0.0146
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3775
+  expected_two_party_share_v2: 0.502
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5013
+  war_v2: 0.3768
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4987
+  expected_two_party_share_v2: 0.6232
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5174
   war: 0.021
+  war_v2: 0.021
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4964
+  expected_two_party_share_v2: 0.4964
   is_uncontested: false
   is_incumbent: false
 title: Allen J. McCarthy

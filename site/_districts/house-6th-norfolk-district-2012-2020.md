@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3498
     is_incumbent: true
+    war_v2: 0.2253
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6502
+    expected_two_party_share_v2: 0.7747
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2756
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7244
     is_incumbent: true
+    war_v2: 0.5999
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2756
+    expected_two_party_share_v2: 0.4001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6058
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3942
     is_incumbent: true
+    war_v2: 0.2697
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6058
+    expected_two_party_share_v2: 0.7303
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.421
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.579
     is_incumbent: true
+    war_v2: 0.4545
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.421
+    expected_two_party_share_v2: 0.5455
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5446
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4554
     is_incumbent: false
+    war_v2: 0.4554
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5446
+    expected_two_party_share_v2: 0.5446
   is_open_seat: null
 title: 6th Norfolk District (2012-2020)
 layout: district

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.7094
     war: 0.038
     is_incumbent: true
+    war_v2: -0.0865
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6714
+    expected_two_party_share_v2: 0.7959
   - name: David A. Rosa
     slug: david-a-rosa
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.2906
     war: -0.038
     is_incumbent: false
+    war_v2: -0.038
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3286
+    expected_two_party_share_v2: 0.3286
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6903
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3097
     is_incumbent: false
+    war_v2: 0.3097
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6903
+    expected_two_party_share_v2: 0.6903
   - name: Brendan M. Phair
     slug: brendan-m-phair
     party: Other
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.3085
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   median_household_income: 74551

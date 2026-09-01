@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4114
     is_incumbent: true
+    war_v2: 0.2869
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5886
+    expected_two_party_share_v2: 0.7131
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5363
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.7118
     war: 0.2481
     is_incumbent: true
+    war_v2: 0.1236
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4637
+    expected_two_party_share_v2: 0.5882
   - name: Donald R. Bumiller
     slug: donald-r-bumiller
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2882
     war: -0.2481
     is_incumbent: false
+    war_v2: -0.2481
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5363
+    expected_two_party_share_v2: 0.5363
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4939
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4939
     is_incumbent: true
+    war_v2: 0.3694
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5061
+    expected_two_party_share_v2: 0.6306
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5049
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6239
     war: 0.1288
     is_incumbent: true
+    war_v2: 0.0043
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4951
+    expected_two_party_share_v2: 0.6196
   - name: Timothy A. Purinton
     slug: timothy-a-purinton
     party: Democratic
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3761
     war: -0.1288
     is_incumbent: false
+    war_v2: -0.1288
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5049
+    expected_two_party_share_v2: 0.5049
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3222
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3222
     is_incumbent: false
+    war_v2: 0.3222
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6778
+    expected_two_party_share_v2: 0.6778
   is_open_seat: null
 title: 4th Essex (2001-2010)
 layout: district

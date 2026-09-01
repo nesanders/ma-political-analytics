@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3076
     is_incumbent: true
+    war_v2: 0.1831
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6924
+    expected_two_party_share_v2: 0.8169
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.764
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.236
     is_incumbent: true
+    war_v2: 0.1115
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.764
+    expected_two_party_share_v2: 0.8885
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7474
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2526
     is_incumbent: true
+    war_v2: 0.1281
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7474
+    expected_two_party_share_v2: 0.8719
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7613
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7331
     war: -0.0282
     is_incumbent: true
+    war_v2: -0.1527
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7613
+    expected_two_party_share_v2: 0.8858
   - name: Greer Tan Swiston
     slug: greer-tan-swiston
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2669
     war: 0.0282
     is_incumbent: false
+    war_v2: 0.0282
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2387
+    expected_two_party_share_v2: 0.2387
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5887
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4113
     is_incumbent: false
+    war_v2: 0.4113
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5887
+    expected_two_party_share_v2: 0.5887
   - name: Danny Fain
     slug: danny-fain
     party: Libertarian
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2349
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 11th Middlesex (2001-2010)
 layout: district

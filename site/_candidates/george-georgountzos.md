@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4016
   war: -0.0473
+  war_v2: -0.0473
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4489
+  expected_two_party_share_v2: 0.4489
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4029
   war: -0.1295
+  war_v2: -0.1295
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5324
+  expected_two_party_share_v2: 0.5324
   is_uncontested: false
   is_incumbent: false
 title: George Georgountzos

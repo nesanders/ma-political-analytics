@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6486
     war: 0.0964
     is_incumbent: true
+    war_v2: -0.0281
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5522
+    expected_two_party_share_v2: 0.6767
   - name: David M. Dunford
     slug: david-m-dunford
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3514
     war: -0.0964
     is_incumbent: false
+    war_v2: -0.0964
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4478
+    expected_two_party_share_v2: 0.4478
   - name: James A. Feeney
     slug: james-a-feeney
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0317
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6233
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.6787
     war: 0.0554
     is_incumbent: true
+    war_v2: -0.0691
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6233
+    expected_two_party_share_v2: 0.7478
   - name: Donald F. Howell
     slug: donald-f-howell
     party: Republican
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.3213
     war: -0.0554
     is_incumbent: false
+    war_v2: -0.0554
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3767
+    expected_two_party_share_v2: 0.3767
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5655
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.5575
     war: -0.008
     is_incumbent: false
+    war_v2: -0.008
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5655
+    expected_two_party_share_v2: 0.5655
   - name: Aaron R. Maloy
     slug: aaron-r-maloy
     party: Republican
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.4425
     war: 0.008
     is_incumbent: false
+    war_v2: 0.008
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4345
+    expected_two_party_share_v2: 0.4345
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5896
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.5717
     war: 0.1614
     is_incumbent: true
+    war_v2: 0.0369
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4103
+    expected_two_party_share_v2: 0.5348
   - name: Sarah K. Peake
     slug: sarah-k-peake
     party: Democratic
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.4283
     war: -0.1614
     is_incumbent: false
+    war_v2: -0.1614
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5897
+    expected_two_party_share_v2: 0.5897
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4411
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4411
     is_incumbent: false
+    war_v2: 0.4411
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5589
+    expected_two_party_share_v2: 0.5589
   is_open_seat: null
 title: 4th Barnstable (2001-2010)
 layout: district

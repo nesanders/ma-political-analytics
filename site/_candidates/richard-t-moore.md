@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4428
   war: 0.0808
+  war_v2: -0.0437
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.362
+  expected_two_party_share_v2: 0.4865
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4902
+  war_v2: 0.4902
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5098
+  expected_two_party_share_v2: 0.5098
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5355
   war: 0.1401
+  war_v2: 0.0156
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3954
+  expected_two_party_share_v2: 0.5199
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4666
+  war_v2: 0.3421
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5334
+  expected_two_party_share_v2: 0.6579
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4536
+  war_v2: 0.3291
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5464
+  expected_two_party_share_v2: 0.6709
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.7088
   war: 0.1644
+  war_v2: 0.0399
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5444
+  expected_two_party_share_v2: 0.6689
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.74
   war: 0.3552
+  war_v2: 0.3552
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3848
+  expected_two_party_share_v2: 0.3848
   is_uncontested: false
   is_incumbent: false
 title: Richard T. Moore

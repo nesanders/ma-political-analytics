@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4409
     is_incumbent: true
+    war_v2: 0.3164
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5591
+    expected_two_party_share_v2: 0.6836
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5391
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6539
     war: 0.193
     is_incumbent: true
+    war_v2: 0.0685
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4609
+    expected_two_party_share_v2: 0.5854
   - name: Daniel S. Carpenter
     slug: daniel-s-carpenter
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3461
     war: -0.193
     is_incumbent: false
+    war_v2: -0.193
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5391
+    expected_two_party_share_v2: 0.5391
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6064
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6064
     is_incumbent: true
+    war_v2: 0.4819
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3936
+    expected_two_party_share_v2: 0.5181
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5589
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5589
     is_incumbent: true
+    war_v2: 0.4344
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4411
+    expected_two_party_share_v2: 0.5656
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4081
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6478
     war: 0.056
     is_incumbent: false
+    war_v2: 0.056
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5918
+    expected_two_party_share_v2: 0.5918
   - name: James F. Murphy, Jr.
     slug: james-f-murphy-jr
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3522
     war: -0.056
     is_incumbent: false
+    war_v2: -0.056
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4082
+    expected_two_party_share_v2: 0.4082
   is_open_seat: null
 title: 7th Worcester (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4397
   war: -0.1536
+  war_v2: -0.1536
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5933
+  expected_two_party_share_v2: 0.5933
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4458
   war: -0.1473
+  war_v2: -0.1473
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5931
+  expected_two_party_share_v2: 0.5931
   is_uncontested: false
   is_incumbent: false
 title: Kathleen Fox Alfano

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.279
+  war_v2: 0.1545
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.721
+  expected_two_party_share_v2: 0.8455
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.281
+  war_v2: 0.281
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.719
+  expected_two_party_share_v2: 0.719
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2582
+  war_v2: 0.1337
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7418
+  expected_two_party_share_v2: 0.8663
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.662
+  war_v2: 0.5375
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.338
+  expected_two_party_share_v2: 0.4625
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2916
+  war_v2: 0.1671
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7084
+  expected_two_party_share_v2: 0.8329
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.5924
   war: 0.1013
+  war_v2: -0.0232
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4911
+  expected_two_party_share_v2: 0.6156
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.606
   war: 0.0011
+  war_v2: 0.0011
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6049
+  expected_two_party_share_v2: 0.6049
   is_uncontested: false
   is_incumbent: false
 title: Michael J. Barrett

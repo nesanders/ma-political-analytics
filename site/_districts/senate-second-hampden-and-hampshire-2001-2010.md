@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5288
     is_incumbent: true
+    war_v2: 0.4043
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4712
+    expected_two_party_share_v2: 0.5957
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6232
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6232
     is_incumbent: true
+    war_v2: 0.4987
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3768
+    expected_two_party_share_v2: 0.5013
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6144
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6144
     is_incumbent: true
+    war_v2: 0.4899
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3856
+    expected_two_party_share_v2: 0.5101
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6096
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6096
     is_incumbent: true
+    war_v2: 0.4851
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3904
+    expected_two_party_share_v2: 0.5149
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5151
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.7004
     war: 0.2155
     is_incumbent: false
+    war_v2: 0.2155
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4849
+    expected_two_party_share_v2: 0.4849
   - name: Daniel J. Szostkiewicz
     slug: daniel-j-szostkiewicz
     party: Democratic
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.2996
     war: -0.2155
     is_incumbent: false
+    war_v2: -0.2155
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5151
+    expected_two_party_share_v2: 0.5151
   is_open_seat: null
 title: Second Hampden and Hampshire (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2824
   war: -0.2415
+  war_v2: -0.2415
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5239
+  expected_two_party_share_v2: 0.5239
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2237
   war: -0.1576
+  war_v2: -0.1576
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3813
+  expected_two_party_share_v2: 0.3813
   is_uncontested: false
   is_incumbent: false
 title: Paul A. Caruccio

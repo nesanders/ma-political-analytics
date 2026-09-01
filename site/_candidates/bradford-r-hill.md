@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6547
+  war_v2: 0.5302
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3453
+  expected_two_party_share_v2: 0.4698
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5634
   war: -0.185
+  war_v2: -0.3095
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7484
+  expected_two_party_share_v2: 0.8729
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6094
+  war_v2: 0.4849
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3906
+  expected_two_party_share_v2: 0.5151
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3773
+  war_v2: 0.2528
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6227
+  expected_two_party_share_v2: 0.7472
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5025
+  war_v2: 0.5025
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4975
+  expected_two_party_share_v2: 0.4975
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4114
+  war_v2: 0.2869
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5886
+  expected_two_party_share_v2: 0.7131
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.7118
   war: 0.2481
+  war_v2: 0.1236
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4637
+  expected_two_party_share_v2: 0.5882
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4939
+  war_v2: 0.3694
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5061
+  expected_two_party_share_v2: 0.6306
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.6239
   war: 0.1288
+  war_v2: 0.0043
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4951
+  expected_two_party_share_v2: 0.6196
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3222
+  war_v2: 0.3222
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6778
+  expected_two_party_share_v2: 0.6778
   is_uncontested: true
   is_incumbent: false
 title: Bradford R. Hill

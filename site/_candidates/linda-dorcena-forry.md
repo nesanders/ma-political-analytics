@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.147
+  war_v2: 0.0225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.853
+  expected_two_party_share_v2: 0.9775
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
+  war_v2: 0.3122
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.6878
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2207
+  war_v2: 0.2207
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7793
+  expected_two_party_share_v2: 0.7793
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2884
+  war_v2: 0.1639
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7116
+  expected_two_party_share_v2: 0.8361
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.24
+  war_v2: 0.1155
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.76
+  expected_two_party_share_v2: 0.8845
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2641
+  war_v2: 0.2641
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7359
+  expected_two_party_share_v2: 0.7359
   is_uncontested: true
   is_incumbent: false
 title: Linda Dorcena Forry

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3988
     is_incumbent: true
+    war_v2: 0.2743
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6012
+    expected_two_party_share_v2: 0.7257
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6993
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3007
     is_incumbent: true
+    war_v2: 0.1762
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6993
+    expected_two_party_share_v2: 0.8238
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6779
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3221
     is_incumbent: true
+    war_v2: 0.1976
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6779
+    expected_two_party_share_v2: 0.8024
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6982
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3018
     is_incumbent: true
+    war_v2: 0.1773
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6982
+    expected_two_party_share_v2: 0.8227
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5286
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4714
     is_incumbent: false
+    war_v2: 0.4714
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5286
+    expected_two_party_share_v2: 0.5286
   is_open_seat: null
 title: 10th Essex (2001-2010)
 layout: district

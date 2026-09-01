@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3859
   war: -0.1295
+  war_v2: -0.1295
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5154
+  expected_two_party_share_v2: 0.5154
   is_uncontested: false
   is_incumbent: false
 title: A. Keith Carreiro

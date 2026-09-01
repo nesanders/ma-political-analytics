@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.591
     war: 0.0122
     is_incumbent: true
+    war_v2: -0.1123
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5788
+    expected_two_party_share_v2: 0.7033
   - name: Nicholas A. Pirro, III
     slug: nicholas-a-pirro-iii
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.409
     war: -0.0122
     is_incumbent: false
+    war_v2: -0.0122
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4212
+    expected_two_party_share_v2: 0.4212
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5845
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.6028
     war: 0.0183
     is_incumbent: false
+    war_v2: 0.0183
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5845
+    expected_two_party_share_v2: 0.5845
   - name: Kenneth B. Hoyt
     slug: kenneth-b-hoyt
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.3972
     war: -0.0183
     is_incumbent: false
+    war_v2: -0.0183
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4155
+    expected_two_party_share_v2: 0.4155
   is_open_seat: null
 demographics:
   total_population: 169214

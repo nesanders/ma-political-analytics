@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5314
     war: 0.0455
     is_incumbent: true
+    war_v2: -0.079
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4859
+    expected_two_party_share_v2: 0.6104
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4686
     war: -0.0455
     is_incumbent: false
+    war_v2: -0.0455
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5141
+    expected_two_party_share_v2: 0.5141
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5018
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5474
     war: 0.0456
     is_incumbent: false
+    war_v2: 0.0456
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5018
+    expected_two_party_share_v2: 0.5018
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4526
     war: -0.0456
     is_incumbent: false
+    war_v2: -0.0456
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4982
+    expected_two_party_share_v2: 0.4982
   - name: Charles F. McCoy, Jr
     slug: charles-f-mccoy-jr
     party: Other
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.0442
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 43268

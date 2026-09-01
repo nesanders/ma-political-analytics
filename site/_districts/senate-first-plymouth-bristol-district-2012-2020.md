@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4697
     is_incumbent: true
+    war_v2: 0.3452
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5303
+    expected_two_party_share_v2: 0.6548
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2371
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7629
     is_incumbent: true
+    war_v2: 0.6384
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2371
+    expected_two_party_share_v2: 0.3616
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4935
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.6535
     war: 0.16
     is_incumbent: true
+    war_v2: 0.0355
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4935
+    expected_two_party_share_v2: 0.618
   - name: Sandra M. Wright
     slug: sandra-m-wright
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3465
     war: -0.16
     is_incumbent: false
+    war_v2: -0.16
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5065
+    expected_two_party_share_v2: 0.5065
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4034
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6099
     war: 0.2065
     is_incumbent: true
+    war_v2: 0.082
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4034
+    expected_two_party_share_v2: 0.5279
   - name: David A. Rosa
     slug: david-a-rosa
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3901
     war: -0.2065
     is_incumbent: false
+    war_v2: -0.2065
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5966
+    expected_two_party_share_v2: 0.5966
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5284
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4716
     is_incumbent: false
+    war_v2: 0.4716
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5284
+    expected_two_party_share_v2: 0.5284
   is_open_seat: null
 title: First Plymouth & Bristol District (2012-2020)
 layout: district

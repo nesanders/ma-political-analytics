@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5883
     war: 0.0784
     is_incumbent: true
+    war_v2: -0.0461
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5099
+    expected_two_party_share_v2: 0.6344
   - name: Bridget Matthews-Kane
     slug: bridget-matthews-kane
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4117
     war: -0.0784
     is_incumbent: false
+    war_v2: -0.0784
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4901
+    expected_two_party_share_v2: 0.4901
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5
     is_incumbent: false
+    war_v2: 0.5
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5
+    expected_two_party_share_v2: 0.5
   is_open_seat: null
 demographics:
   total_population: 40834

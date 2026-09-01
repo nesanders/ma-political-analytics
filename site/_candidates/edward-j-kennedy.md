@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6358
   war: 0.0791
+  war_v2: -0.0454
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5567
+  expected_two_party_share_v2: 0.6812
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4143
+  war_v2: 0.4143
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5857
+  expected_two_party_share_v2: 0.5857
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.348
+  war_v2: 0.2235
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.652
+  expected_two_party_share_v2: 0.7765
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6388
   war: 0.3474
+  war_v2: 0.3474
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2914
+  expected_two_party_share_v2: 0.2914
   is_uncontested: false
   is_incumbent: false
 title: Edward J. Kennedy, Jr

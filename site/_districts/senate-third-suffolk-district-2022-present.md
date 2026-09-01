@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.7022
     war: 0.0244
     is_incumbent: true
+    war_v2: -0.1001
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6778
+    expected_two_party_share_v2: 0.8023
   - name: Jeannamarie Tamas
     slug: jeannamarie-tamas
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.2978
     war: -0.0244
     is_incumbent: false
+    war_v2: -0.0244
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3222
+    expected_two_party_share_v2: 0.3222
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7266
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2734
     is_incumbent: false
+    war_v2: 0.2734
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7266
+    expected_two_party_share_v2: 0.7266
   is_open_seat: null
 demographics:
   median_household_income: 93881

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2446
     is_incumbent: false
+    war_v2: 0.2446
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7554
+    expected_two_party_share_v2: 0.7554
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.8125
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1875
     is_incumbent: true
+    war_v2: 0.063
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8125
+    expected_two_party_share_v2: 0.937
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.784
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.216
     is_incumbent: true
+    war_v2: 0.0915
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.784
+    expected_two_party_share_v2: 0.9085
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7923
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.81
     war: 0.0177
     is_incumbent: true
+    war_v2: -0.1068
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7923
+    expected_two_party_share_v2: 0.9168
   - name: Martin Begien
     slug: martin-begien
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.19
     war: -0.0177
     is_incumbent: false
+    war_v2: -0.0177
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2077
+    expected_two_party_share_v2: 0.2077
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6566
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7933
     war: 0.1367
     is_incumbent: false
+    war_v2: 0.1367
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6566
+    expected_two_party_share_v2: 0.6566
   - name: David B. Estrada
     slug: david-b-estrada
     party: Other
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.215
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Richard H. Wheeler
     slug: richard-h-wheeler
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.2067
     war: -0.1367
     is_incumbent: false
+    war_v2: -0.1367
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3434
+    expected_two_party_share_v2: 0.3434
   is_open_seat: null
 title: 10th Suffolk (2001-2010)
 layout: district

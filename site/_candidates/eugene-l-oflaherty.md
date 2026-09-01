@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.8203
   war: 0.0087
+  war_v2: 0.0087
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8116
+  expected_two_party_share_v2: 0.8116
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2706
+  war_v2: 0.1461
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7294
+  expected_two_party_share_v2: 0.8539
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2202
+  war_v2: 0.0957
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7798
+  expected_two_party_share_v2: 0.9043
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2513
+  war_v2: 0.1268
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7487
+  expected_two_party_share_v2: 0.8732
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.245
+  war_v2: 0.1205
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.755
+  expected_two_party_share_v2: 0.8795
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3654
+  war_v2: 0.3654
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6346
+  expected_two_party_share_v2: 0.6346
   is_uncontested: true
   is_incumbent: false
 title: Eugene L. O'Flaherty

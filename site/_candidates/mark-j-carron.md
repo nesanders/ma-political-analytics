@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.652
   war: 0.1166
+  war_v2: -0.0079
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5354
+  expected_two_party_share_v2: 0.6599
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5107
   war: 0.12
+  war_v2: 0.12
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3907
+  expected_two_party_share_v2: 0.3907
   is_uncontested: false
   is_incumbent: false
 title: Mark J. Carron

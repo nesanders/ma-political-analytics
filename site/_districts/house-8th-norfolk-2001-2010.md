@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4797
     is_incumbent: true
+    war_v2: 0.3552
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5203
+    expected_two_party_share_v2: 0.6448
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6165
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3835
     is_incumbent: true
+    war_v2: 0.259
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6165
+    expected_two_party_share_v2: 0.741
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6145
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.733
     war: 0.1186
     is_incumbent: true
+    war_v2: -0.0059
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6144
+    expected_two_party_share_v2: 0.7389
   - name: Lydia E. Wiener
     slug: lydia-e-wiener
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.267
     war: -0.1186
     is_incumbent: false
+    war_v2: -0.1186
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3856
+    expected_two_party_share_v2: 0.3856
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6443
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3557
     is_incumbent: true
+    war_v2: 0.2312
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6443
+    expected_two_party_share_v2: 0.7688
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4556
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5444
     is_incumbent: false
+    war_v2: 0.5444
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4556
+    expected_two_party_share_v2: 0.4556
   is_open_seat: null
 title: 8th Norfolk (2001-2010)
 layout: district

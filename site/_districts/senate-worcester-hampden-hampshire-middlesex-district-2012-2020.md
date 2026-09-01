@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5283
     war: 0.0339
     is_incumbent: true
+    war_v2: -0.0906
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4944
+    expected_two_party_share_v2: 0.6189
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4717
     war: -0.0339
     is_incumbent: false
+    war_v2: -0.0339
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5056
+    expected_two_party_share_v2: 0.5056
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.204
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.549
     war: 0.345
     is_incumbent: true
+    war_v2: 0.2205
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.204
+    expected_two_party_share_v2: 0.3285
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.451
     war: -0.345
     is_incumbent: false
+    war_v2: -0.345
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.796
+    expected_two_party_share_v2: 0.796
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4457
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5441
     war: 0.0984
     is_incumbent: true
+    war_v2: -0.0261
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4457
+    expected_two_party_share_v2: 0.5702
   - name: James P. Ehrhard
     slug: james-p-ehrhard
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4559
     war: -0.0984
     is_incumbent: false
+    war_v2: -0.0984
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5543
+    expected_two_party_share_v2: 0.5543
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3596
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.5036
     war: 0.144
     is_incumbent: false
+    war_v2: 0.144
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3596
+    expected_two_party_share_v2: 0.3596
   - name: Michael J. Valanzola
     slug: michael-j-valanzola
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.4964
     war: -0.144
     is_incumbent: false
+    war_v2: -0.144
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6404
+    expected_two_party_share_v2: 0.6404
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5
     is_incumbent: false
+    war_v2: 0.5
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5
+    expected_two_party_share_v2: 0.5
   is_open_seat: null
 title: Worcester, Hampden, Hampshire & Middlesex District (2012-2020)
 layout: district

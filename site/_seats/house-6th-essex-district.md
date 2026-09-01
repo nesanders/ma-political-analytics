@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.7495
     war: 0.072
     is_incumbent: true
+    war_v2: -0.0525
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6775
+    expected_two_party_share_v2: 0.802
   - name: Ty Vitale
     slug: ty-vitale
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.2505
     war: -0.072
     is_incumbent: false
+    war_v2: -0.072
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3225
+    expected_two_party_share_v2: 0.3225
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.0549
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6922
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3078
     is_incumbent: false
+    war_v2: 0.3078
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6922
+    expected_two_party_share_v2: 0.6922
   is_open_seat: null
 demographics:
   total_population: 42670

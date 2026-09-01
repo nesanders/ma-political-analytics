@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2964
   war: -0.086
+  war_v2: -0.086
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3824
+  expected_two_party_share_v2: 0.3824
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2974
   war: -0.0615
+  war_v2: -0.0615
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3589
+  expected_two_party_share_v2: 0.3589
   is_uncontested: false
   is_incumbent: false
 title: James R. Powell

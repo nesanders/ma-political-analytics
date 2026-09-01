@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3653
     is_incumbent: true
+    war_v2: 0.2408
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6347
+    expected_two_party_share_v2: 0.7592
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5256
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5256
     is_incumbent: true
+    war_v2: 0.4011
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4744
+    expected_two_party_share_v2: 0.5989
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4915
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4915
     is_incumbent: true
+    war_v2: 0.367
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5085
+    expected_two_party_share_v2: 0.633
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5241
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.646
     war: 0.1702
     is_incumbent: true
+    war_v2: 0.0457
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4758
+    expected_two_party_share_v2: 0.6003
   - name: Brian G. Geoghegan
     slug: brian-g-geoghegan
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.354
     war: -0.1702
     is_incumbent: false
+    war_v2: -0.1702
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5242
+    expected_two_party_share_v2: 0.5242
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3412
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3412
     is_incumbent: false
+    war_v2: 0.3412
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6588
+    expected_two_party_share_v2: 0.6588
   is_open_seat: null
 title: 14th Bristol (2001-2010)
 layout: district

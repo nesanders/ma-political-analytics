@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2345
   war: 0.0781
+  war_v2: 0.0781
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.1564
+  expected_two_party_share_v2: 0.1564
   is_uncontested: false
   is_incumbent: false
 title: Richard L. Babson

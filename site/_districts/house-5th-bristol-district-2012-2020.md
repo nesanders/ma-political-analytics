@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4894
     is_incumbent: true
+    war_v2: 0.3649
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5106
+    expected_two_party_share_v2: 0.6351
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2562
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7438
     is_incumbent: true
+    war_v2: 0.6193
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2562
+    expected_two_party_share_v2: 0.3807
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.494
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.506
     is_incumbent: true
+    war_v2: 0.3815
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.494
+    expected_two_party_share_v2: 0.6185
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4726
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5274
     is_incumbent: true
+    war_v2: 0.4029
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4726
+    expected_two_party_share_v2: 0.5971
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5874
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4126
     is_incumbent: false
+    war_v2: 0.4126
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5874
+    expected_two_party_share_v2: 0.5874
   is_open_seat: null
 title: 5th Bristol District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4613
     is_incumbent: true
+    war_v2: 0.3368
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5387
+    expected_two_party_share_v2: 0.6632
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6196
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6661
     war: 0.0465
     is_incumbent: false
+    war_v2: 0.0465
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6196
+    expected_two_party_share_v2: 0.6196
   - name: Brion M Cangiamila
     slug: brion-m-cangiamila
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3339
     war: -0.0465
     is_incumbent: false
+    war_v2: -0.0465
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3804
+    expected_two_party_share_v2: 0.3804
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5928
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4072
     is_incumbent: true
+    war_v2: 0.2827
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5928
+    expected_two_party_share_v2: 0.7173
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6279
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6623
     war: 0.0344
     is_incumbent: true
+    war_v2: -0.0901
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6279
+    expected_two_party_share_v2: 0.7524
   - name: Douglas M. Lucente
     slug: douglas-m-lucente
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3377
     war: -0.0344
     is_incumbent: false
+    war_v2: -0.0344
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3721
+    expected_two_party_share_v2: 0.3721
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4723
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5277
     is_incumbent: false
+    war_v2: 0.5277
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4723
+    expected_two_party_share_v2: 0.4723
   is_open_seat: null
 title: Fourth Middlesex (2001-2010)
 layout: district

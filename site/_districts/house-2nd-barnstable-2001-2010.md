@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.59
     war: 0.1438
     is_incumbent: true
+    war_v2: 0.0193
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4462
+    expected_two_party_share_v2: 0.5707
   - name: James F. Munafo, Jr.
     slug: james-f-munafo-jr
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.41
     war: -0.1438
     is_incumbent: false
+    war_v2: -0.1438
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5538
+    expected_two_party_share_v2: 0.5538
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.55
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.45
     is_incumbent: true
+    war_v2: 0.3255
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.55
+    expected_two_party_share_v2: 0.6745
   - name: Carl D. Yingling
     slug: carl-d-yingling
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4227
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4681
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5596
     war: 0.0915
     is_incumbent: true
+    war_v2: -0.033
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4681
+    expected_two_party_share_v2: 0.5926
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4404
     war: -0.0915
     is_incumbent: false
+    war_v2: -0.0915
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5319
+    expected_two_party_share_v2: 0.5319
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5307
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.5898
     war: 0.0591
     is_incumbent: true
+    war_v2: -0.0654
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5307
+    expected_two_party_share_v2: 0.6552
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.4102
     war: -0.0591
     is_incumbent: false
+    war_v2: -0.0591
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4693
+    expected_two_party_share_v2: 0.4693
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3875
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5396
     war: 0.1522
     is_incumbent: false
+    war_v2: 0.1522
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3874
+    expected_two_party_share_v2: 0.3874
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4604
     war: -0.1522
     is_incumbent: false
+    war_v2: -0.1522
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6126
+    expected_two_party_share_v2: 0.6126
   - name: Peter A. White
     slug: peter-a-white
     party: null
@@ -147,6 +187,10 @@ results_by_year:
     actual_two_party_share: 0.0747
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 2nd Barnstable (2001-2010)
 layout: district

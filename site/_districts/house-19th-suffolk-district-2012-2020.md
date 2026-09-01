@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3659
     is_incumbent: true
+    war_v2: 0.2414
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6341
+    expected_two_party_share_v2: 0.7586
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2999
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7001
     is_incumbent: true
+    war_v2: 0.5756
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2999
+    expected_two_party_share_v2: 0.4244
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5961
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4039
     is_incumbent: true
+    war_v2: 0.2794
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5961
+    expected_two_party_share_v2: 0.7206
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4762
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7176
     war: 0.2415
     is_incumbent: true
+    war_v2: 0.117
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4761
+    expected_two_party_share_v2: 0.6006
   - name: Paul A. Caruccio
     slug: paul-a-caruccio
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2824
     war: -0.2415
     is_incumbent: false
+    war_v2: -0.2415
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5239
+    expected_two_party_share_v2: 0.5239
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6186
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7763
     war: 0.1576
     is_incumbent: false
+    war_v2: 0.1576
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6187
+    expected_two_party_share_v2: 0.6187
   - name: Paul A. Caruccio
     slug: paul-a-caruccio
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2237
     war: -0.1576
     is_incumbent: false
+    war_v2: -0.1576
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3813
+    expected_two_party_share_v2: 0.3813
   is_open_seat: null
 title: 19th Suffolk District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5067
   war: 0.0955
+  war_v2: -0.029
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4112
+  expected_two_party_share_v2: 0.5357
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4852
+  war_v2: 0.4852
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5148
+  expected_two_party_share_v2: 0.5148
   is_uncontested: true
   is_incumbent: false
 title: Brian R. Mannal

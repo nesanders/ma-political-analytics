@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5138
     war: 0.0299
     is_incumbent: true
+    war_v2: -0.0946
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4839
+    expected_two_party_share_v2: 0.6084
   - name: Marie Angelides
     slug: marie-angelides
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4862
     war: -0.0299
     is_incumbent: false
+    war_v2: -0.0299
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5161
+    expected_two_party_share_v2: 0.5161
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5735
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5446
     war: -0.0289
     is_incumbent: false
+    war_v2: -0.0289
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5735
+    expected_two_party_share_v2: 0.5735
   - name: William G. Scibelli
     slug: william-g-scibelli
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4554
     war: 0.0289
     is_incumbent: false
+    war_v2: 0.0289
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4265
+    expected_two_party_share_v2: 0.4265
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5498
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5498
     is_incumbent: true
+    war_v2: 0.4253
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4502
+    expected_two_party_share_v2: 0.5747
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5675
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5675
     is_incumbent: true
+    war_v2: 0.443
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4325
+    expected_two_party_share_v2: 0.557
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4143
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5958
     war: 0.0102
     is_incumbent: false
+    war_v2: 0.0102
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5856
+    expected_two_party_share_v2: 0.5856
   - name: Kathleen E. Grady
     slug: kathleen-e-grady
     party: Democratic
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4042
     war: -0.0102
     is_incumbent: false
+    war_v2: -0.0102
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4144
+    expected_two_party_share_v2: 0.4144
   - name: Alan L. Wilcox
     slug: alan-l-wilcox
     party: Libertarian
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.037
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 2nd Hampden (2001-2010)
 layout: district

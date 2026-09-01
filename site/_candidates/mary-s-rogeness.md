@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5498
+  war_v2: 0.4253
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4502
+  expected_two_party_share_v2: 0.5747
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5675
+  war_v2: 0.443
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4325
+  expected_two_party_share_v2: 0.557
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5958
   war: 0.0102
+  war_v2: 0.0102
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5856
+  expected_two_party_share_v2: 0.5856
   is_uncontested: false
   is_incumbent: false
 title: Mary S. Rogeness

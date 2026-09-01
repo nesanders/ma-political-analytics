@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3937
   war: -0.199
+  war_v2: -0.199
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5927
+  expected_two_party_share_v2: 0.5927
   is_uncontested: false
   is_incumbent: false
 title: Robert William Stephens, Jr

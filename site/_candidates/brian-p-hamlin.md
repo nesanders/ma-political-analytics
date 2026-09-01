@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4148
   war: -0.1886
+  war_v2: -0.1886
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6034
+  expected_two_party_share_v2: 0.6034
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4122
   war: 0.1965
+  war_v2: 0.1965
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2157
+  expected_two_party_share_v2: 0.2157
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.3911
   war: -0.1524
+  war_v2: -0.1524
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5435
+  expected_two_party_share_v2: 0.5435
   is_uncontested: false
   is_incumbent: false
 title: Brian P. Hamlin

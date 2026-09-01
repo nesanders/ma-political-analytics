@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2146
+  war_v2: 0.0901
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7854
+  expected_two_party_share_v2: 0.9099
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2195
+  war_v2: 0.095
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7805
+  expected_two_party_share_v2: 0.905
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2083
+  war_v2: 0.2083
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7917
+  expected_two_party_share_v2: 0.7917
   is_uncontested: true
   is_incumbent: false
 title: Christopher N. Speranzo

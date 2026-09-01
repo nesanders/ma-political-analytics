@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4023
     is_incumbent: true
+    war_v2: 0.2778
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5977
+    expected_two_party_share_v2: 0.7222
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6526
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3474
     is_incumbent: false
+    war_v2: 0.3474
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6526
+    expected_two_party_share_v2: 0.6526
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7018
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.7431
     war: 0.0412
     is_incumbent: true
+    war_v2: -0.0833
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7019
+    expected_two_party_share_v2: 0.8264
   - name: Joseph D. Rice
     slug: joseph-d-rice
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2569
     war: -0.0412
     is_incumbent: false
+    war_v2: -0.0412
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2981
+    expected_two_party_share_v2: 0.2981
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6475
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3525
     is_incumbent: true
+    war_v2: 0.228
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6475
+    expected_two_party_share_v2: 0.772
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5076
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4924
     is_incumbent: false
+    war_v2: 0.4924
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5076
+    expected_two_party_share_v2: 0.5076
   is_open_seat: null
 title: 14th Worcester (2001-2010)
 layout: district

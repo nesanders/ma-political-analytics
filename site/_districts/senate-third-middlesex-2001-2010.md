@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5701
     war: 0.031
     is_incumbent: true
+    war_v2: -0.0935
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5391
+    expected_two_party_share_v2: 0.6636
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4299
     war: -0.031
     is_incumbent: false
+    war_v2: -0.031
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4609
+    expected_two_party_share_v2: 0.4609
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6413
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6253
     war: -0.016
     is_incumbent: true
+    war_v2: -0.1405
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6413
+    expected_two_party_share_v2: 0.7658
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3747
     war: 0.016
     is_incumbent: false
+    war_v2: 0.016
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3587
+    expected_two_party_share_v2: 0.3587
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5919
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6393
     war: 0.0474
     is_incumbent: true
+    war_v2: -0.0771
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5919
+    expected_two_party_share_v2: 0.7164
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3607
     war: -0.0474
     is_incumbent: false
+    war_v2: -0.0474
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4081
+    expected_two_party_share_v2: 0.4081
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6245
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.5974
     war: -0.0271
     is_incumbent: true
+    war_v2: -0.1516
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6245
+    expected_two_party_share_v2: 0.749
   - name: John C. Thibault
     slug: john-c-thibault
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.4026
     war: 0.0271
     is_incumbent: false
+    war_v2: 0.0271
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3755
+    expected_two_party_share_v2: 0.3755
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4328
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5672
     is_incumbent: false
+    war_v2: 0.5672
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4328
+    expected_two_party_share_v2: 0.4328
   is_open_seat: null
 title: Third Middlesex (2001-2010)
 layout: district

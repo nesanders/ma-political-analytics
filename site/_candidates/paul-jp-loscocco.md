@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5317
+  war_v2: 0.4072
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4683
+  expected_two_party_share_v2: 0.5928
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.558
+  war_v2: 0.4335
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.442
+  expected_two_party_share_v2: 0.5665
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6998
   war: 0.0426
+  war_v2: 0.0426
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6572
+  expected_two_party_share_v2: 0.6572
   is_uncontested: false
   is_incumbent: false
 title: Paul P.J. Loscocco

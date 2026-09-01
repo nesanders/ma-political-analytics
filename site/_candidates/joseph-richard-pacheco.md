@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4909
   war: 0.0149
+  war_v2: 0.0149
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.476
+  expected_two_party_share_v2: 0.476
   is_uncontested: false
   is_incumbent: false
 title: Joseph Richard Pacheco

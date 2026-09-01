@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1643
     is_incumbent: true
+    war_v2: 0.0398
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8357
+    expected_two_party_share_v2: 0.9602
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5639
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4361
     is_incumbent: true
+    war_v2: 0.3116
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5639
+    expected_two_party_share_v2: 0.6884
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8212
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1788
     is_incumbent: true
+    war_v2: 0.0543
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8212
+    expected_two_party_share_v2: 0.9457
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6993
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3007
     is_incumbent: false
+    war_v2: 0.3007
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6993
+    expected_two_party_share_v2: 0.6993
   - name: Nicholas Lanzilli
     slug: nicholas-lanzilli
     party: Other
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5553
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7821
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.8421
     war: 0.06
     is_incumbent: false
+    war_v2: 0.06
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7821
+    expected_two_party_share_v2: 0.7821
   - name: David M. Rajczewski
     slug: david-m-rajczewski
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.1579
     war: -0.06
     is_incumbent: false
+    war_v2: -0.06
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2179
+    expected_two_party_share_v2: 0.2179
   is_open_seat: null
 title: 34th Middlesex District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3637
   war: -0.263
+  war_v2: -0.263
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6267
+  expected_two_party_share_v2: 0.6267
   is_uncontested: false
   is_incumbent: false
 title: Mario S. Marchese

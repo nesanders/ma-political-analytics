@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1492
     is_incumbent: true
+    war_v2: 0.0247
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8508
+    expected_two_party_share_v2: 0.9753
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5149
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4851
     is_incumbent: false
+    war_v2: 0.4851
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5149
+    expected_two_party_share_v2: 0.5149
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8591
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1409
     is_incumbent: true
+    war_v2: 0.0164
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8591
+    expected_two_party_share_v2: 0.9836
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6886
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3114
     is_incumbent: true
+    war_v2: 0.1869
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6886
+    expected_two_party_share_v2: 0.8131
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.801
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.199
     is_incumbent: false
+    war_v2: 0.199
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.801
+    expected_two_party_share_v2: 0.801
   is_open_seat: null
 title: 15th Suffolk District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3166
   war: -0.1844
+  war_v2: -0.1844
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.501
+  expected_two_party_share_v2: 0.501
   is_uncontested: false
   is_incumbent: false
 title: Genevieve S. Davis

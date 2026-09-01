@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4368
     is_incumbent: true
+    war_v2: 0.3123
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5632
+    expected_two_party_share_v2: 0.6877
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6331
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3669
     is_incumbent: true
+    war_v2: 0.2424
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6331
+    expected_two_party_share_v2: 0.7576
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6933
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3067
     is_incumbent: true
+    war_v2: 0.1822
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6933
+    expected_two_party_share_v2: 0.8178
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6335
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3665
     is_incumbent: true
+    war_v2: 0.242
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6335
+    expected_two_party_share_v2: 0.758
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5015
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4985
     is_incumbent: false
+    war_v2: 0.4985
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5015
+    expected_two_party_share_v2: 0.5015
   is_open_seat: null
 title: 17th Worcester (2001-2010)
 layout: district

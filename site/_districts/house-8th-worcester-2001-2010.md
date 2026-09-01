@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5722
     war: -0.0525
     is_incumbent: false
+    war_v2: -0.0525
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6247
+    expected_two_party_share_v2: 0.6247
   - name: Paul Kujawski
     slug: paul-kujawski
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4278
     war: 0.0525
     is_incumbent: true
+    war_v2: -0.072
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3753
+    expected_two_party_share_v2: 0.4998
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5095
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5334
     war: 0.0239
     is_incumbent: true
+    war_v2: -0.1006
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5095
+    expected_two_party_share_v2: 0.634
   - name: Kevin J. Kuros
     slug: kevin-j-kuros
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4666
     war: -0.0239
     is_incumbent: false
+    war_v2: -0.0239
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4905
+    expected_two_party_share_v2: 0.4905
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5503
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4497
     is_incumbent: true
+    war_v2: 0.3252
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5503
+    expected_two_party_share_v2: 0.6748
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5332
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.592
     war: 0.0588
     is_incumbent: true
+    war_v2: -0.0657
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5332
+    expected_two_party_share_v2: 0.6577
   - name: Dorothy A. Mann
     slug: dorothy-a-mann
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.408
     war: -0.0588
     is_incumbent: false
+    war_v2: -0.0588
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4668
+    expected_two_party_share_v2: 0.4668
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.381
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.619
     is_incumbent: false
+    war_v2: 0.619
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.381
+    expected_two_party_share_v2: 0.381
   is_open_seat: null
 title: 8th Worcester (2001-2010)
 layout: district

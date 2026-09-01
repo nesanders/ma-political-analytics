@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5091
     war: -0.0149
     is_incumbent: false
+    war_v2: -0.0149
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.524
+    expected_two_party_share_v2: 0.524
   - name: Joseph Richard Pacheco
     slug: joseph-richard-pacheco
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4909
     war: 0.0149
     is_incumbent: false
+    war_v2: 0.0149
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.476
+    expected_two_party_share_v2: 0.476
   - name: James B. Dupont
     slug: james-b-dupont
     party: Other
@@ -44,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.0527
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5047
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.5429
     war: 0.0382
     is_incumbent: false
+    war_v2: 0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5047
+    expected_two_party_share_v2: 0.5047
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.4571
     war: -0.0382
     is_incumbent: false
+    war_v2: -0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4953
+    expected_two_party_share_v2: 0.4953
   is_open_seat: null
 demographics:
   median_household_income: 88523

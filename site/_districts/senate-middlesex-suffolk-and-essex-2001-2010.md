@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.7763
     war: 0.0668
     is_incumbent: false
+    war_v2: 0.0668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7095
+    expected_two_party_share_v2: 0.7095
   - name: Barbara T. Bush
     slug: barbara-t-bush
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2237
     war: -0.0668
     is_incumbent: false
+    war_v2: -0.0668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2905
+    expected_two_party_share_v2: 0.2905
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.7679
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2321
     is_incumbent: false
+    war_v2: 0.2321
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7679
+    expected_two_party_share_v2: 0.7679
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7318
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2682
     is_incumbent: true
+    war_v2: 0.1437
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7318
+    expected_two_party_share_v2: 0.8563
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7592
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2408
     is_incumbent: true
+    war_v2: 0.1163
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7592
+    expected_two_party_share_v2: 0.8837
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6205
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3795
     is_incumbent: false
+    war_v2: 0.3795
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6205
+    expected_two_party_share_v2: 0.6205
   is_open_seat: null
 title: Middlesex, Suffolk, and Essex (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2647
   war: 0.0457
+  war_v2: 0.0457
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.219
+  expected_two_party_share_v2: 0.219
   is_uncontested: false
   is_incumbent: false
 title: Matthew W. Kinnaman

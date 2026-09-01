@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4496
   war: -0.1485
+  war_v2: -0.1485
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5981
+  expected_two_party_share_v2: 0.5981
   is_uncontested: false
   is_incumbent: false
 title: Jacques A. Perrault

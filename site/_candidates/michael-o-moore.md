@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3891
+  war_v2: 0.2646
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6109
+  expected_two_party_share_v2: 0.7354
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.372
+  war_v2: 0.372
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.628
+  expected_two_party_share_v2: 0.628
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3742
+  war_v2: 0.2497
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6258
+  expected_two_party_share_v2: 0.7503
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7401
+  war_v2: 0.6156
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2599
+  expected_two_party_share_v2: 0.3844
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7411
   war: 0.1459
+  war_v2: 0.0214
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5952
+  expected_two_party_share_v2: 0.7197
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.589
+  war_v2: 0.4645
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.411
+  expected_two_party_share_v2: 0.5355
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6793
   war: 0.1078
+  war_v2: 0.1078
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5715
+  expected_two_party_share_v2: 0.5715
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.498
+  war_v2: 0.3735
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.502
+  expected_two_party_share_v2: 0.6265
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.6258
   war: 0.0299
+  war_v2: 0.0299
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5959
+  expected_two_party_share_v2: 0.5959
   is_uncontested: false
   is_incumbent: false
 title: Michael O. Moore

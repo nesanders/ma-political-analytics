@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1469
+  war_v2: 0.0224
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8531
+  expected_two_party_share_v2: 0.9776
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3121
+  war_v2: 0.1876
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6879
+  expected_two_party_share_v2: 0.8124
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
+  war_v2: 0.1966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8034
+  expected_two_party_share_v2: 0.8034
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2056
+  war_v2: 0.0811
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7944
+  expected_two_party_share_v2: 0.9189
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1625
+  war_v2: 0.038
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8375
+  expected_two_party_share_v2: 0.962
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1888
+  war_v2: 0.0643
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8112
+  expected_two_party_share_v2: 0.9357
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1845
+  war_v2: 0.06
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8155
+  expected_two_party_share_v2: 0.94
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3074
+  war_v2: 0.3074
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6926
+  expected_two_party_share_v2: 0.6926
   is_uncontested: true
   is_incumbent: false
 title: Byron Rushing

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4682
   war: 0.0247
+  war_v2: 0.0247
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4435
+  expected_two_party_share_v2: 0.4435
   is_uncontested: false
   is_incumbent: false
 title: Paul J. Avella

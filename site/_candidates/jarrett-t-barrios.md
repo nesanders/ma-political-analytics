@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2682
+  war_v2: 0.1437
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7318
+  expected_two_party_share_v2: 0.8563
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2408
+  war_v2: 0.1163
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7592
+  expected_two_party_share_v2: 0.8837
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3795
+  war_v2: 0.3795
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6205
+  expected_two_party_share_v2: 0.6205
   is_uncontested: true
   is_incumbent: false
 title: Jarrett T. Barrios

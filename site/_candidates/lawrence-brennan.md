@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4085
   war: -0.0479
+  war_v2: -0.0479
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4564
+  expected_two_party_share_v2: 0.4564
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4079
   war: -0.095
+  war_v2: -0.095
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5029
+  expected_two_party_share_v2: 0.5029
   is_uncontested: false
   is_incumbent: false
 title: Lawrence Brennan

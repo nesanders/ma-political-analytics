@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.455
+  war_v2: 0.455
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.545
+  expected_two_party_share_v2: 0.545
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6755
   war: 0.0311
+  war_v2: 0.0311
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6444
+  expected_two_party_share_v2: 0.6444
   is_uncontested: false
   is_incumbent: false
 title: Daniel B. Winslow

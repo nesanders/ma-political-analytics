@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3842
   war: -0.0203
+  war_v2: -0.0203
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4045
+  expected_two_party_share_v2: 0.4045
   is_uncontested: false
   is_incumbent: false
 title: John M. Prindiville

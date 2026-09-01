@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2461
     is_incumbent: false
+    war_v2: 0.2461
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7539
+    expected_two_party_share_v2: 0.7539
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3615
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6385
     is_incumbent: false
+    war_v2: 0.6385
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3615
+    expected_two_party_share_v2: 0.3615
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7439
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2561
     is_incumbent: true
+    war_v2: 0.1316
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7439
+    expected_two_party_share_v2: 0.8684
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5464
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4536
     is_incumbent: true
+    war_v2: 0.3291
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5464
+    expected_two_party_share_v2: 0.6709
   - name: Michael John Coombes
     slug: michael-john-coombes
     party: Libertarian
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.1955
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6732
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3268
     is_incumbent: false
+    war_v2: 0.3268
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6732
+    expected_two_party_share_v2: 0.6732
   is_open_seat: null
 title: 6th Middlesex District (2012-2020)
 layout: district

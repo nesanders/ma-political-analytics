@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4076
   war: -0.1013
+  war_v2: -0.1013
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5089
+  expected_two_party_share_v2: 0.5089
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.394
   war: -0.0011
+  war_v2: -0.0011
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3951
+  expected_two_party_share_v2: 0.3951
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.4299
   war: -0.031
+  war_v2: -0.031
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4609
+  expected_two_party_share_v2: 0.4609
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: false
   actual_two_party_share: 0.3747
   war: 0.016
+  war_v2: 0.016
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3587
+  expected_two_party_share_v2: 0.3587
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: false
   actual_two_party_share: 0.3607
   war: -0.0474
+  war_v2: -0.0474
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4081
+  expected_two_party_share_v2: 0.4081
   is_uncontested: false
   is_incumbent: false
 title: Sandi Martinez

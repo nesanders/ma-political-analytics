@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5085
     is_incumbent: true
+    war_v2: 0.384
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4915
+    expected_two_party_share_v2: 0.616
   - name: Chuck S. Kuniewich, Jr.
     slug: chuck-s-kuniewich-jr
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.6643
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.604
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5226
     war: -0.0814
     is_incumbent: false
+    war_v2: -0.0814
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.604
+    expected_two_party_share_v2: 0.604
   - name: Sonny Parente
     slug: sonny-parente
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4774
     war: 0.0814
     is_incumbent: false
+    war_v2: 0.0814
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.396
+    expected_two_party_share_v2: 0.396
   - name: David A. Goulding
     slug: david-a-goulding
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0975
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5808
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4192
     is_incumbent: true
+    war_v2: 0.2947
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5808
+    expected_two_party_share_v2: 0.7053
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6034
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.7404
     war: 0.137
     is_incumbent: true
+    war_v2: 0.0125
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6034
+    expected_two_party_share_v2: 0.7279
   - name: Neal A. Heeren
     slug: neal-a-heeren
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.2596
     war: -0.137
     is_incumbent: false
+    war_v2: -0.137
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3966
+    expected_two_party_share_v2: 0.3966
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.405
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.595
     is_incumbent: false
+    war_v2: 0.595
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.405
+    expected_two_party_share_v2: 0.405
   is_open_seat: null
 title: 3rd Middlesex (2001-2010)
 layout: district

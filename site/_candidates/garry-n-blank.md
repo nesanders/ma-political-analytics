@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3395
   war: -0.1709
+  war_v2: -0.1709
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5104
+  expected_two_party_share_v2: 0.5104
   is_uncontested: false
   is_incumbent: false
 title: Garry N. Blank

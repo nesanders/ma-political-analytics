@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5227
   war: -0.0258
+  war_v2: -0.0258
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5485
+  expected_two_party_share_v2: 0.5485
   is_uncontested: false
   is_incumbent: false
 title: Michelle L. Badger

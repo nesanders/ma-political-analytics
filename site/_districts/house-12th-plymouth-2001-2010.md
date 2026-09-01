@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5455
     war: 0.1601
     is_incumbent: true
+    war_v2: 0.0356
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3854
+    expected_two_party_share_v2: 0.5099
   - name: Joseph M. Truschelli
     slug: joseph-m-truschelli
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4545
     war: -0.1601
     is_incumbent: false
+    war_v2: -0.1601
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6146
+    expected_two_party_share_v2: 0.6146
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4923
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5077
     is_incumbent: true
+    war_v2: 0.3832
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4923
+    expected_two_party_share_v2: 0.6168
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5016
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5083
     war: 0.0066
     is_incumbent: false
+    war_v2: 0.0066
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5017
+    expected_two_party_share_v2: 0.5017
   - name: Olly Demacedo
     slug: olly-demacedo
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4917
     war: -0.0066
     is_incumbent: false
+    war_v2: -0.0066
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4983
+    expected_two_party_share_v2: 0.4983
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5042
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6948
     war: 0.1906
     is_incumbent: true
+    war_v2: 0.0661
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5042
+    expected_two_party_share_v2: 0.6287
   - name: Paul Timmins Curtis
     slug: paul-timmins-curtis
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3052
     war: -0.1906
     is_incumbent: false
+    war_v2: -0.1906
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4958
+    expected_two_party_share_v2: 0.4958
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3692
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6308
     is_incumbent: false
+    war_v2: 0.6308
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3692
+    expected_two_party_share_v2: 0.3692
   is_open_seat: null
 title: 12th Plymouth (2001-2010)
 layout: district

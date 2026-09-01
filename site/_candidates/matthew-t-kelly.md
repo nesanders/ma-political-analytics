@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4025
   war: 0.0741
+  war_v2: 0.0741
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3284
+  expected_two_party_share_v2: 0.3284
   is_uncontested: false
   is_incumbent: false
 title: Matthew T. Kelly

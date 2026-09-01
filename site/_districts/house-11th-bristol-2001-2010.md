@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6664
     war: 0.0111
     is_incumbent: true
+    war_v2: -0.1134
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6553
+    expected_two_party_share_v2: 0.7798
   - name: Ivo M. Almeida
     slug: ivo-m-almeida
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3336
     war: -0.0111
     is_incumbent: false
+    war_v2: -0.0111
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3447
+    expected_two_party_share_v2: 0.3447
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6839
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3161
     is_incumbent: true
+    war_v2: 0.1916
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6839
+    expected_two_party_share_v2: 0.8084
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7262
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2738
     is_incumbent: true
+    war_v2: 0.1493
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7262
+    expected_two_party_share_v2: 0.8507
   - name: Dennis G. Dallaire, Jr.
     slug: dennis-g-dallaire-jr
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5507
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7363
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2637
     is_incumbent: true
+    war_v2: 0.1392
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7363
+    expected_two_party_share_v2: 0.8608
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6906
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3094
     is_incumbent: false
+    war_v2: 0.3094
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6906
+    expected_two_party_share_v2: 0.6906
   is_open_seat: null
 title: 11th Bristol (2001-2010)
 layout: district

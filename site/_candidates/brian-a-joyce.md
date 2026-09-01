@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5345
+  war_v2: 0.41
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4655
+  expected_two_party_share_v2: 0.59
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.413
+  war_v2: 0.413
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.587
+  expected_two_party_share_v2: 0.587
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6292
   war: 0.1139
+  war_v2: -0.0106
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5153
+  expected_two_party_share_v2: 0.6398
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4076
+  war_v2: 0.2831
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5924
+  expected_two_party_share_v2: 0.7169
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7536
   war: 0.1641
+  war_v2: 0.0396
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5895
+  expected_two_party_share_v2: 0.714
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3913
+  war_v2: 0.2668
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6087
+  expected_two_party_share_v2: 0.7332
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.55
+  war_v2: 0.55
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.45
+  expected_two_party_share_v2: 0.45
   is_uncontested: true
   is_incumbent: false
 title: Brian A. Joyce

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4911
   war: -0.0469
+  war_v2: -0.0469
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.538
+  expected_two_party_share_v2: 0.538
   is_uncontested: false
   is_incumbent: false
 title: Christopher Thrasher

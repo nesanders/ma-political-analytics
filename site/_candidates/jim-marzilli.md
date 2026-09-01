@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3079
+  war_v2: 0.1834
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6921
+  expected_two_party_share_v2: 0.8166
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7917
   war: 0.0659
+  war_v2: -0.0586
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7258
+  expected_two_party_share_v2: 0.8503
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4331
+  war_v2: 0.4331
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5669
+  expected_two_party_share_v2: 0.5669
   is_uncontested: true
   is_incumbent: false
 title: Jim Marzilli

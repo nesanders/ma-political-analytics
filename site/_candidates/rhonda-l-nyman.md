@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4985
   war: 0.1545
+  war_v2: 0.03
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.344
+  expected_two_party_share_v2: 0.4685
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5787
   war: 0.1203
+  war_v2: 0.1203
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4584
+  expected_two_party_share_v2: 0.4584
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5283
   war: 0.1396
+  war_v2: 0.1396
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3887
+  expected_two_party_share_v2: 0.3887
   is_uncontested: false
   is_incumbent: false
 title: Rhonda L. Nyman

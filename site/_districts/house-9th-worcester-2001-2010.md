@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6742
     war: 0.0672
     is_incumbent: true
+    war_v2: -0.0573
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.607
+    expected_two_party_share_v2: 0.7315
   - name: Timothy A. Dodd
     slug: timothy-a-dodd
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3258
     war: -0.0672
     is_incumbent: false
+    war_v2: -0.0672
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.393
+    expected_two_party_share_v2: 0.393
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5272
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5272
     is_incumbent: true
+    war_v2: 0.4027
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4728
+    expected_two_party_share_v2: 0.5973
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5251
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5251
     is_incumbent: true
+    war_v2: 0.4006
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4749
+    expected_two_party_share_v2: 0.5994
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5281
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6496
     war: 0.1777
     is_incumbent: true
+    war_v2: 0.0532
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4719
+    expected_two_party_share_v2: 0.5964
   - name: Andrew J. Myers
     slug: andrew-j-myers
     party: Democratic
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3504
     war: -0.1777
     is_incumbent: false
+    war_v2: -0.1777
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5281
+    expected_two_party_share_v2: 0.5281
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3497
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3497
     is_incumbent: false
+    war_v2: 0.3497
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6503
+    expected_two_party_share_v2: 0.6503
   is_open_seat: null
 title: 9th Worcester (2001-2010)
 layout: district

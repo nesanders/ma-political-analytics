@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2342
     is_incumbent: true
+    war_v2: 0.1097
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7658
+    expected_two_party_share_v2: 0.8903
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.462
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.538
     is_incumbent: true
+    war_v2: 0.4135
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.462
+    expected_two_party_share_v2: 0.5865
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7446
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2554
     is_incumbent: true
+    war_v2: 0.1309
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7446
+    expected_two_party_share_v2: 0.8691
   - name: Christopher J. Connell
     slug: christopher-j-connell
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5061
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7055
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2945
     is_incumbent: true
+    war_v2: 0.17
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7055
+    expected_two_party_share_v2: 0.83
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7941
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2059
     is_incumbent: false
+    war_v2: 0.2059
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7941
+    expected_two_party_share_v2: 0.7941
   is_open_seat: null
 title: 3rd Berkshire District (2012-2020)
 layout: district

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.419
     is_incumbent: true
+    war_v2: 0.2945
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.581
+    expected_two_party_share_v2: 0.7055
   - name: Laura L. Saylor
     slug: laura-l-saylor
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.37
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6013
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.6061
     war: 0.0049
     is_incumbent: false
+    war_v2: 0.0049
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6012
+    expected_two_party_share_v2: 0.6012
   - name: Michael Chaisson
     slug: michael-chaisson
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.3939
     war: -0.0049
     is_incumbent: false
+    war_v2: -0.0049
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3988
+    expected_two_party_share_v2: 0.3988
   - name: Laura L. Saylor
     slug: laura-l-saylor
     party: Other
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.0326
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 166850

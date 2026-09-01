@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4215
     is_incumbent: true
+    war_v2: 0.297
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5785
+    expected_two_party_share_v2: 0.703
   - name: K.c. Winslow
     slug: kc-winslow
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.6997
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6748
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3252
     is_incumbent: true
+    war_v2: 0.2007
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6748
+    expected_two_party_share_v2: 0.7993
   - name: Richard P. McClure
     slug: richard-p-mcclure
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.5262
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6249
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3751
     is_incumbent: true
+    war_v2: 0.2506
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6249
+    expected_two_party_share_v2: 0.7494
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.646
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6014
     war: -0.0446
     is_incumbent: true
+    war_v2: -0.1691
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.646
+    expected_two_party_share_v2: 0.7705
   - name: Douglas G. A. Stevenson
     slug: douglas-g-a-stevenson
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3986
     war: 0.0446
     is_incumbent: false
+    war_v2: 0.0446
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.354
+    expected_two_party_share_v2: 0.354
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4429
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5922
     war: 0.1493
     is_incumbent: false
+    war_v2: 0.1493
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4429
+    expected_two_party_share_v2: 0.4429
   - name: Peter J. Unitt, III
     slug: peter-j-unitt-iii
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4078
     war: -0.1493
     is_incumbent: false
+    war_v2: -0.1493
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5571
+    expected_two_party_share_v2: 0.5571
   is_open_seat: null
 title: 14th Middlesex (2001-2010)
 layout: district

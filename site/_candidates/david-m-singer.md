@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4517
   war: 0.0338
+  war_v2: 0.0338
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4179
+  expected_two_party_share_v2: 0.4179
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.348
   war: -0.1166
+  war_v2: -0.1166
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4646
+  expected_two_party_share_v2: 0.4646
   is_uncontested: false
   is_incumbent: false
 title: David M. Singer

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5257
     war: -0.094
     is_incumbent: false
+    war_v2: -0.094
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6197
+    expected_two_party_share_v2: 0.6197
   - name: Jennifer M. Callahan
     slug: jennifer-m-callahan
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4743
     war: 0.094
     is_incumbent: true
+    war_v2: -0.0305
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3803
+    expected_two_party_share_v2: 0.5048
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5122
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4878
     is_incumbent: true
+    war_v2: 0.3633
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5122
+    expected_two_party_share_v2: 0.6367
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5232
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4768
     is_incumbent: true
+    war_v2: 0.3523
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5232
+    expected_two_party_share_v2: 0.6477
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5318
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.7293
     war: 0.1975
     is_incumbent: true
+    war_v2: 0.073
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5318
+    expected_two_party_share_v2: 0.6563
   - name: David M. Funnell
     slug: david-m-funnell
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2707
     war: -0.1975
     is_incumbent: false
+    war_v2: -0.1975
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4682
+    expected_two_party_share_v2: 0.4682
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3822
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.61
     war: 0.2278
     is_incumbent: false
+    war_v2: 0.2278
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3822
+    expected_two_party_share_v2: 0.3822
   - name: Peter A. Amorello
     slug: peter-a-amorello
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.39
     war: -0.2278
     is_incumbent: false
+    war_v2: -0.2278
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6178
+    expected_two_party_share_v2: 0.6178
   - name: Robert J. Badzmierowski
     slug: robert-j-badzmierowski
     party: Other
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.3705
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 18th Worcester (2001-2010)
 layout: district

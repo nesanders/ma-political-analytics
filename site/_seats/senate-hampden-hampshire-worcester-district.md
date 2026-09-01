@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4506
     is_incumbent: true
+    war_v2: 0.3261
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5494
+    expected_two_party_share_v2: 0.6739
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.559
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.5631
     war: 0.0041
     is_incumbent: false
+    war_v2: 0.0041
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.559
+    expected_two_party_share_v2: 0.559
   - name: William E. Johnson
     slug: william-e-johnson
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4369
     war: -0.0041
     is_incumbent: false
+    war_v2: -0.0041
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.441
+    expected_two_party_share_v2: 0.441
   is_open_seat: null
 demographics:
   median_household_income: 88672

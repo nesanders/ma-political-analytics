@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6783
   war: 0.0936
+  war_v2: -0.0309
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5847
+  expected_two_party_share_v2: 0.7092
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5565
+  war_v2: 0.5565
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4435
+  expected_two_party_share_v2: 0.4435
   is_uncontested: true
   is_incumbent: false
 title: James M. Murphy

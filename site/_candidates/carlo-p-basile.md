@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
+  war_v2: 0.1877
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.8123
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
+  war_v2: 0.1966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8034
+  expected_two_party_share_v2: 0.8034
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2491
+  war_v2: 0.1246
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7509
+  expected_two_party_share_v2: 0.8754
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1987
+  war_v2: 0.1987
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8013
+  expected_two_party_share_v2: 0.8013
   is_uncontested: true
   is_incumbent: false
 title: Carlo P. Basile

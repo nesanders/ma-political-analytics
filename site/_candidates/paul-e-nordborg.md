@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2698
   war: -0.0776
+  war_v2: -0.0776
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3474
+  expected_two_party_share_v2: 0.3474
   is_uncontested: false
   is_incumbent: false
 title: Paul E. Nordborg

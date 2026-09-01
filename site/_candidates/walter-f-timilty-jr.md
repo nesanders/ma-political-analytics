@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6613
   war: 0.0469
+  war_v2: 0.0469
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6144
+  expected_two_party_share_v2: 0.6144
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3205
+  war_v2: 0.196
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6795
+  expected_two_party_share_v2: 0.804
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.69
+  war_v2: 0.5655
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.31
+  expected_two_party_share_v2: 0.4345
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3557
+  war_v2: 0.3557
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6443
+  expected_two_party_share_v2: 0.6443
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4517
+  war_v2: 0.3272
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5483
+  expected_two_party_share_v2: 0.6728
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3324
+  war_v2: 0.3324
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6676
+  expected_two_party_share_v2: 0.6676
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3768
+  war_v2: 0.2523
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6232
+  expected_two_party_share_v2: 0.7477
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3333
+  war_v2: 0.2088
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6667
+  expected_two_party_share_v2: 0.7912
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3381
+  war_v2: 0.2136
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6619
+  expected_two_party_share_v2: 0.7864
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3358
+  war_v2: 0.2113
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6642
+  expected_two_party_share_v2: 0.7887
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 0.8393
   war: 0.3287
+  war_v2: 0.3287
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5106
+  expected_two_party_share_v2: 0.5106
   is_uncontested: false
   is_incumbent: false
 title: Walter F. Timilty, Jr.

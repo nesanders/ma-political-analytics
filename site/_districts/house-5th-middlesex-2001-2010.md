@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4877
     is_incumbent: true
+    war_v2: 0.3632
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5123
+    expected_two_party_share_v2: 0.6368
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6298
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3702
     is_incumbent: true
+    war_v2: 0.2457
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6298
+    expected_two_party_share_v2: 0.7543
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5927
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.6547
     war: 0.062
     is_incumbent: true
+    war_v2: -0.0625
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5927
+    expected_two_party_share_v2: 0.7172
   - name: William W. Whittlesey
     slug: william-w-whittlesey
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3453
     war: -0.062
     is_incumbent: false
+    war_v2: -0.062
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4073
+    expected_two_party_share_v2: 0.4073
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6183
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6836
     war: 0.0653
     is_incumbent: true
+    war_v2: -0.0592
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6183
+    expected_two_party_share_v2: 0.7428
   - name: John Warren Lambert
     slug: john-w-lambert
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3164
     war: -0.0653
     is_incumbent: false
+    war_v2: -0.0653
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3817
+    expected_two_party_share_v2: 0.3817
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4141
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6395
     war: 0.2254
     is_incumbent: false
+    war_v2: 0.2254
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4141
+    expected_two_party_share_v2: 0.4141
   - name: Michael P. Cashman
     slug: michael-p-cashman
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3605
     war: -0.2254
     is_incumbent: false
+    war_v2: -0.2254
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5859
+    expected_two_party_share_v2: 0.5859
   is_open_seat: null
 title: 5th Middlesex (2001-2010)
 layout: district

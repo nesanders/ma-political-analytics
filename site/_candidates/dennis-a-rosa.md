@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5504
   war: 0.1485
+  war_v2: 0.024
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4019
+  expected_two_party_share_v2: 0.5264
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5719
   war: 0.0382
+  war_v2: 0.0382
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5337
+  expected_two_party_share_v2: 0.5337
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.567
+  war_v2: 0.4425
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.433
+  expected_two_party_share_v2: 0.5575
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4338
+  war_v2: 0.4338
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5662
+  expected_two_party_share_v2: 0.5662
   is_uncontested: true
   is_incumbent: false
 title: Dennis A. Rosa

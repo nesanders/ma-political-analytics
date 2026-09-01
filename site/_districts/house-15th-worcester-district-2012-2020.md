@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3035
     is_incumbent: true
+    war_v2: 0.179
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6965
+    expected_two_party_share_v2: 0.821
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.39
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.61
     is_incumbent: true
+    war_v2: 0.4855
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.39
+    expected_two_party_share_v2: 0.5145
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2916
     is_incumbent: true
+    war_v2: 0.1671
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7084
+    expected_two_party_share_v2: 0.8329
   - name: Ralph Perez
     slug: ralph-perez
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2717
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5578
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4422
     is_incumbent: true
+    war_v2: 0.3177
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5578
+    expected_two_party_share_v2: 0.6823
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7016
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7546
     war: 0.053
     is_incumbent: false
+    war_v2: 0.053
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7016
+    expected_two_party_share_v2: 0.7016
   - name: Brian J. O'Malley
     slug: brian-j-omalley
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2454
     war: -0.053
     is_incumbent: false
+    war_v2: -0.053
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2984
+    expected_two_party_share_v2: 0.2984
   is_open_seat: null
 title: 15th Worcester District (2012-2020)
 layout: district

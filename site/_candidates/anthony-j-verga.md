@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4078
+  war_v2: 0.2833
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5922
+  expected_two_party_share_v2: 0.7167
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3683
+  war_v2: 0.2438
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6317
+  expected_two_party_share_v2: 0.7562
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.7618
   war: 0.3052
+  war_v2: 0.3052
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4566
+  expected_two_party_share_v2: 0.4566
   is_uncontested: false
   is_incumbent: false
 title: Anthony J. Verga

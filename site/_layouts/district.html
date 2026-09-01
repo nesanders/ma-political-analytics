@@ -4,6 +4,7 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/vendor/maplibre-gl-4.7.1.css' | relative_url }}">
 <script src="{{ '/assets/js/vendor/maplibre-gl-4.7.1.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/district-map.js' | relative_url }}"></script>
+{% assign latest_contested = page.results_by_year | where: "is_uncontested", false | first %}
 <article>
   <p>
     <a href="{{ '/chamber/' | append: page.chamber | append: '/' | relative_url }}">{{ page.chamber | capitalize }}</a>
@@ -33,13 +34,34 @@ layout: default
   </section>
 
   <section>
-    <h2>Trend over time</h2>
+    <h2>Replacement level over time</h2>
     <p>
-      Democratic two-party lean by election year, within this district's
-      own redistricting vintage.
+      The line is this district's WAR "replacement level" &mdash; the
+      Democratic two-party lean a generic candidate of either party would
+      be expected to get, from the statewide baseline race alone (WAR v1's
+      baseline). Points are what each actual candidate got that year;
+      above the line is a Democratic overperformance, below is a
+      Republican one. Click a point to open that candidate's page.
       {% if page.results_by_year.size == 1 %}Only one election year is on record for this vintage so far &mdash; more will appear here as this site's multi-year backfill completes.{% endif %}
     </p>
-    <div id="trend-chart" role="img" aria-label="Line chart of {{ page.district_name }}'s Democratic two-party lean by year"></div>
+    <div id="trend-chart" role="img" aria-label="Line chart of {{ page.district_name }}'s Democratic two-party lean by year, with each candidate's actual result plotted against it"></div>
+  </section>
+
+  <section>
+    <h2>What drives replacement level: {{ latest_contested.year | default: "" }}</h2>
+    {% if latest_contested %}
+    <p>
+      WAR v2 breaks each candidate's actual share into the pieces that add
+      up to it: the district's lean baseline, an incumbency adjustment
+      (only for a candidate who held the seat coming in), and whatever's
+      left over &mdash; WAR v2 itself, the part attributable to the
+      candidate. See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the fitted coefficient and what it's based on.
+    </p>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing lean baseline, incumbency adjustment, and WAR v2 residual for each candidate in {{ latest_contested.year }}"></div>
+    {% else %}
+    <p>No contested major-party race is on record for this district yet.</p>
+    {% endif %}
   </section>
 
   {% if page.demographics %}
@@ -81,7 +103,7 @@ layout: default
     {% if result.is_open_seat %}<p><em>Open seat — no incumbent ran.</em></p>{% endif %}
     <table>
       <thead>
-        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR</th></tr>
+        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th></tr>
       </thead>
       <tbody>
         {% for c in result.candidates %}
@@ -91,6 +113,7 @@ layout: default
           <td>{{ c.votes }}</td>
           <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if c.war %}{{ c.war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if c.war_v2 %}{{ c.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
@@ -100,8 +123,8 @@ layout: default
       WAR (wins above replacement) is adapted from Split Ticket's published
       methodology, not an original metric — see the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the full definition and citations. Null for uncontested races and
-      minor-party candidates.
+      for the full definition, citations, and the WAR v2 incumbency
+      adjustment. Null for uncontested races and minor-party candidates.
     </small></p>
   </section>
 </article>
@@ -112,38 +135,134 @@ layout: default
     { "year": {{ r.year | jsonify }}, "lean_dem_share": {{ r.lean_dem_share | jsonify }} }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
+  // Field-by-field, not `c | jsonify` on the candidate object directly —
+  // same reasoning as chamber.html's seatData: avoid ever embedding a
+  // full Document/object's other rendered fields inside this script tag.
+  const candidatePoints = [
+    {% for r in page.results_by_year reversed %}
+    {% for c in r.candidates %}
+    {% if c.actual_two_party_share %}
+    {
+      "year": {{ r.year | jsonify }},
+      "name": {{ c.name | jsonify }},
+      "party": {{ c.party | jsonify }},
+      "actual_two_party_share": {{ c.actual_two_party_share | jsonify }},
+      "war_v2": {{ c.war_v2 | jsonify }},
+      "is_incumbent": {{ c.is_incumbent | jsonify }},
+      "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }}
+    },
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  ];
   const trendStyle = getComputedStyle(document.documentElement);
   const trendCssVar = (name) => trendStyle.getPropertyValue(name).trim();
+  const colorDem = trendCssVar("--series-dem");
+  const colorRep = trendCssVar("--series-rep");
+  const trendAxisConfig = {
+    axis: {
+      labelColor: trendCssVar("--text-secondary"),
+      titleColor: trendCssVar("--text-primary"),
+      gridColor: trendCssVar("--gridline"),
+      domainColor: trendCssVar("--gridline")
+    },
+    legend: { labelColor: trendCssVar("--text-secondary"), titleColor: trendCssVar("--text-primary") },
+    view: { stroke: null }
+  };
   const trendSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
-    "height": 140,
+    "height": 220,
     "background": null,
-    "data": { "values": trendData },
-    "mark": { "type": "line", "point": true },
     "encoding": {
       "x": { "field": "year", "type": "ordinal", "title": "Year" },
       "y": {
         "field": "lean_dem_share",
         "type": "quantitative",
-        "axis": { "format": "%", "title": "Democratic two-party lean" },
+        "axis": { "format": "%", "title": "Democratic two-party share" },
         "scale": { "domain": [0, 1] }
-      },
-      "color": { "value": trendCssVar("--series-dem") },
-      "tooltip": [
-        { "field": "year", "title": "Year" },
-        { "field": "lean_dem_share", "type": "quantitative", "format": ".1%", "title": "Dem. lean" }
-      ]
+      }
     },
-    "config": {
-      "axis": {
-        "labelColor": trendCssVar("--text-secondary"),
-        "titleColor": trendCssVar("--text-primary"),
-        "gridColor": trendCssVar("--gridline"),
-        "domainColor": trendCssVar("--gridline")
+    "layer": [
+      {
+        "data": { "values": trendData },
+        "mark": { "type": "line" },
+        "encoding": {
+          "color": { "value": trendCssVar("--text-secondary") },
+          "tooltip": [
+            { "field": "year", "title": "Year" },
+            { "field": "lean_dem_share", "type": "quantitative", "format": ".1%", "title": "Replacement level (Dem. lean)" }
+          ]
+        }
       },
-      "view": { "stroke": null }
-    }
+      {
+        "data": { "values": candidatePoints },
+        "mark": { "type": "circle", "size": 90, "opacity": 0.9, "cursor": "pointer" },
+        "encoding": {
+          "y": { "field": "actual_two_party_share", "type": "quantitative" },
+          "color": {
+            "field": "party", "type": "nominal", "title": "Party",
+            "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+          },
+          "href": { "field": "url", "type": "nominal" },
+          "tooltip": [
+            { "field": "name", "title": "Candidate" },
+            { "field": "year", "title": "Year" },
+            { "field": "actual_two_party_share", "type": "quantitative", "format": ".1%", "title": "Actual share" },
+            { "field": "war_v2", "type": "quantitative", "format": ".1%", "title": "WAR (v2)" }
+          ]
+        }
+      }
+    ],
+    "resolve": { "scale": { "y": "shared" } },
+    "config": trendAxisConfig
   };
   vegaEmbed("#trend-chart", trendSpec, { actions: false }).catch(console.error);
+
+  {% if latest_contested %}
+  const attributionCandidates = [
+    {% for c in latest_contested.candidates %}
+    {% if c.war_v2 %}
+    { "name": {{ c.name | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
+      "expected_two_party_share": {{ c.expected_two_party_share | jsonify }},
+      "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }},
+      "war_v2": {{ c.war_v2 | jsonify }} },
+    {% endif %}
+    {% endfor %}
+  ];
+  const attributionData = [];
+  attributionCandidates.forEach((c) => {
+    attributionData.push({ candidate: c.name, url: c.url, component: "Lean baseline (v1)", order: 0, value: c.expected_two_party_share });
+    attributionData.push({ candidate: c.name, url: c.url, component: "Incumbency adjustment", order: 1, value: c.incumbency_adjustment });
+    attributionData.push({ candidate: c.name, url: c.url, component: "WAR v2 (residual)", order: 2, value: c.war_v2 });
+  });
+  const attributionSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 220,
+    "background": null,
+    "data": { "values": attributionData },
+    "mark": { "type": "bar", "cursor": "pointer" },
+    "encoding": {
+      "x": { "field": "candidate", "type": "nominal", "title": null },
+      "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
+      "order": { "field": "order" },
+      "color": {
+        "field": "component", "type": "nominal", "title": "Component",
+        "scale": {
+          "domain": ["Lean baseline (v1)", "Incumbency adjustment", "WAR v2 (residual)"],
+          "range": [trendCssVar("--text-secondary"), trendCssVar("--series-dem"), trendCssVar("--series-rep")]
+        }
+      },
+      "href": { "field": "url", "type": "nominal" },
+      "tooltip": [
+        { "field": "candidate", "title": "Candidate" },
+        { "field": "component", "title": "Component" },
+        { "field": "value", "type": "quantitative", "format": ".1%" }
+      ]
+    },
+    "config": trendAxisConfig
+  };
+  vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
+  {% endif %}
 </script>

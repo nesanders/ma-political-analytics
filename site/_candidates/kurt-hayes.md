@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.452
   war: -0.0569
+  war_v2: -0.0569
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5089
+  expected_two_party_share_v2: 0.5089
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.442
   war: 0.0332
+  war_v2: 0.0332
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4088
+  expected_two_party_share_v2: 0.4088
   is_uncontested: false
   is_incumbent: false
 title: Kurt Hayes

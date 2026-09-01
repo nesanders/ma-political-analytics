@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.372
+  war_v2: 0.2475
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.628
+  expected_two_party_share_v2: 0.7525
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5481
+  war_v2: 0.5481
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4519
+  expected_two_party_share_v2: 0.4519
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.608
   war: 0.0731
+  war_v2: 0.0731
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5349
+  expected_two_party_share_v2: 0.5349
   is_uncontested: false
   is_incumbent: false
 title: Matthew A. Beaton

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4398
+  war_v2: 0.3153
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5602
+  expected_two_party_share_v2: 0.6847
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4338
+  war_v2: 0.3093
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5662
+  expected_two_party_share_v2: 0.6907
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3252
+  war_v2: 0.3252
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6748
+  expected_two_party_share_v2: 0.6748
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6664
   war: 0.0111
+  war_v2: -0.1134
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6553
+  expected_two_party_share_v2: 0.7798
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3161
+  war_v2: 0.1916
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6839
+  expected_two_party_share_v2: 0.8084
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2738
+  war_v2: 0.1493
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7262
+  expected_two_party_share_v2: 0.8507
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2637
+  war_v2: 0.1392
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7363
+  expected_two_party_share_v2: 0.8608
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3094
+  war_v2: 0.3094
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6906
+  expected_two_party_share_v2: 0.6906
   is_uncontested: true
   is_incumbent: false
 title: Robert M. Koczera

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5264
     war: 0.0052
     is_incumbent: false
+    war_v2: 0.0052
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5212
+    expected_two_party_share_v2: 0.5212
   - name: Joseph M. Pires
     slug: joseph-m-pires
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4736
     war: -0.0052
     is_incumbent: false
+    war_v2: -0.0052
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4788
+    expected_two_party_share_v2: 0.4788
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5411
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5626
     war: 0.0215
     is_incumbent: false
+    war_v2: 0.0215
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5411
+    expected_two_party_share_v2: 0.5411
   - name: Jeffrey Gerald Swift
     slug: jeffrey-gerald-swift
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4374
     war: -0.0215
     is_incumbent: false
+    war_v2: -0.0215
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4589
+    expected_two_party_share_v2: 0.4589
   is_open_seat: null
 demographics:
   total_population: 42142

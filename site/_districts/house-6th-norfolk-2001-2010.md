@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5361
     is_incumbent: true
+    war_v2: 0.4116
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4639
+    expected_two_party_share_v2: 0.5884
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.556
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.444
     is_incumbent: true
+    war_v2: 0.3195
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.556
+    expected_two_party_share_v2: 0.6805
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.553
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.447
     is_incumbent: true
+    war_v2: 0.3225
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.553
+    expected_two_party_share_v2: 0.6775
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5866
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6658
     war: 0.0791
     is_incumbent: true
+    war_v2: -0.0454
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5867
+    expected_two_party_share_v2: 0.7112
   - name: John G. Bonnanzio
     slug: john-g-bonnanzio
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3342
     war: -0.0791
     is_incumbent: false
+    war_v2: -0.0791
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4133
+    expected_two_party_share_v2: 0.4133
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4149
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7171
     war: 0.3022
     is_incumbent: false
+    war_v2: 0.3022
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4149
+    expected_two_party_share_v2: 0.4149
   - name: Howard Hansen
     slug: howard-hansen
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2829
     war: -0.3022
     is_incumbent: false
+    war_v2: -0.3022
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5851
+    expected_two_party_share_v2: 0.5851
   - name: Richard Alan Yampell
     slug: richard-a-yampell
     party: Libertarian
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.0242
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 6th Norfolk (2001-2010)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4108
     is_incumbent: true
+    war_v2: 0.2863
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5892
+    expected_two_party_share_v2: 0.7137
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6565
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3435
     is_incumbent: true
+    war_v2: 0.219
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6565
+    expected_two_party_share_v2: 0.781
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6732
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3268
     is_incumbent: true
+    war_v2: 0.2023
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6732
+    expected_two_party_share_v2: 0.7977
   - name: Mark A. Howland
     slug: mark-a-howland
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.4409
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6811
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3189
     is_incumbent: false
+    war_v2: 0.3189
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6811
+    expected_two_party_share_v2: 0.6811
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.6127
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3873
     is_incumbent: false
+    war_v2: 0.3873
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6127
+    expected_two_party_share_v2: 0.6127
   is_open_seat: null
 title: 12th Bristol (2001-2010)
 layout: district

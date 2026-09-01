@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2464
   war: -0.1641
+  war_v2: -0.1641
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4105
+  expected_two_party_share_v2: 0.4105
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1607
   war: -0.3287
+  war_v2: -0.3287
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4894
+  expected_two_party_share_v2: 0.4894
   is_uncontested: false
   is_incumbent: false
 title: James J. Aldred

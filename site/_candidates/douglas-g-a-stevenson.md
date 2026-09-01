@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3986
   war: 0.0446
+  war_v2: 0.0446
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.354
+  expected_two_party_share_v2: 0.354
   is_uncontested: false
   is_incumbent: false
 title: Douglas G. A. Stevenson

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2666
     is_incumbent: false
+    war_v2: 0.2666
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7334
+    expected_two_party_share_v2: 0.7334
   - name: Marybeth F. Mitts
     slug: marybeth-f-mitts
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.7397
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.7472
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2528
     is_incumbent: false
+    war_v2: 0.2528
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7472
+    expected_two_party_share_v2: 0.7472
   - name: Michael Silvio Lavery
     slug: michael-silvio-lavery
     party: null
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.1039
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 40989

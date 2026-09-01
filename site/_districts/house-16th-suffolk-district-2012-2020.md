@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3613
     is_incumbent: false
+    war_v2: 0.3613
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6387
+    expected_two_party_share_v2: 0.6387
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3499
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6501
     is_incumbent: true
+    war_v2: 0.5256
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3499
+    expected_two_party_share_v2: 0.4744
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6229
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3771
     is_incumbent: true
+    war_v2: 0.2526
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6229
+    expected_two_party_share_v2: 0.7474
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5034
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4966
     is_incumbent: false
+    war_v2: 0.4966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5034
+    expected_two_party_share_v2: 0.5034
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6501
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3499
     is_incumbent: false
+    war_v2: 0.3499
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6501
+    expected_two_party_share_v2: 0.6501
   is_open_seat: null
 title: 16th Suffolk District (2012-2020)
 layout: district

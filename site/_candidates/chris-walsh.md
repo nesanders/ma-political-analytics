@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2561
+  war_v2: 0.1316
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7439
+  expected_two_party_share_v2: 0.8684
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4536
+  war_v2: 0.3291
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5464
+  expected_two_party_share_v2: 0.6709
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3268
+  war_v2: 0.3268
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6732
+  expected_two_party_share_v2: 0.6732
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4279
+  war_v2: 0.4279
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5721
+  expected_two_party_share_v2: 0.5721
   is_uncontested: true
   is_incumbent: false
 title: Chris Walsh

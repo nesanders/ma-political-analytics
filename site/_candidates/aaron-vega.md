@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5805
+  war_v2: 0.456
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4195
+  expected_two_party_share_v2: 0.544
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2568
+  war_v2: 0.1323
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7432
+  expected_two_party_share_v2: 0.8677
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3983
+  war_v2: 0.2738
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6017
+  expected_two_party_share_v2: 0.7262
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.7483
   war: -0.0256
+  war_v2: -0.0256
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7739
+  expected_two_party_share_v2: 0.7739
   is_uncontested: false
   is_incumbent: false
 title: Aaron Vega

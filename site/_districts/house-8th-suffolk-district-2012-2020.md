@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0926
     is_incumbent: true
+    war_v2: -0.0319
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.9074
+    expected_two_party_share_v2: 1.0319
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6188
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3812
     is_incumbent: true
+    war_v2: 0.2567
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6188
+    expected_two_party_share_v2: 0.7433
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.9103
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0897
     is_incumbent: true
+    war_v2: -0.0348
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.9103
+    expected_two_party_share_v2: 1.0348
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7838
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2162
     is_incumbent: false
+    war_v2: 0.2162
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7838
+    expected_two_party_share_v2: 0.7838
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8642
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1358
     is_incumbent: false
+    war_v2: 0.1358
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8642
+    expected_two_party_share_v2: 0.8642
   is_open_seat: null
 title: 8th Suffolk District (2012-2020)
 layout: district

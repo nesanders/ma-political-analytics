@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5873
     war: -0.0287
     is_incumbent: false
+    war_v2: -0.0287
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.616
+    expected_two_party_share_v2: 0.616
   - name: Susan E. Smiley
     slug: susan-e-smiley
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4127
     war: 0.0287
     is_incumbent: false
+    war_v2: 0.0287
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.384
+    expected_two_party_share_v2: 0.384
   - name: Charlene R. Dicalogero
     slug: charlene-r-dicalogero
     party: null
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0468
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2378
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7622
     is_incumbent: true
+    war_v2: 0.6377
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2378
+    expected_two_party_share_v2: 0.3623
   - name: Stanley P. Marcinczyk, Jr
     slug: stanley-p-marcinczyk-jr
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.326
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5693
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4307
     is_incumbent: true
+    war_v2: 0.3062
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5693
+    expected_two_party_share_v2: 0.6938
   - name: Charlene R. Dicalogero
     slug: charlene-r-dicalogero
     party: Other
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.2451
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3994
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.5547
     war: 0.1552
     is_incumbent: true
+    war_v2: 0.0307
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3995
+    expected_two_party_share_v2: 0.524
   - name: Brad P. Wyatt
     slug: brad-p-wyatt
     party: Republican
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.4453
     war: -0.1552
     is_incumbent: false
+    war_v2: -0.1552
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6005
+    expected_two_party_share_v2: 0.6005
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5234
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4766
     is_incumbent: false
+    war_v2: 0.4766
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5234
+    expected_two_party_share_v2: 0.5234
   is_open_seat: null
 title: 12th Worcester District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4169
     is_incumbent: true
+    war_v2: 0.2924
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5831
+    expected_two_party_share_v2: 0.7076
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6667
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3333
     is_incumbent: true
+    war_v2: 0.2088
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6667
+    expected_two_party_share_v2: 0.7912
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6263
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3737
     is_incumbent: true
+    war_v2: 0.2492
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6263
+    expected_two_party_share_v2: 0.7508
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6566
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7588
     war: 0.1022
     is_incumbent: true
+    war_v2: -0.0223
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6566
+    expected_two_party_share_v2: 0.7811
   - name: Jill E. Stein
     slug: jill-e-stein
     party: null
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2711
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Linda B. Fosburg
     slug: linda-b-fosburg
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2412
     war: -0.1022
     is_incumbent: false
+    war_v2: -0.1022
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3434
+    expected_two_party_share_v2: 0.3434
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4818
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5182
     is_incumbent: false
+    war_v2: 0.5182
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4818
+    expected_two_party_share_v2: 0.4818
   is_open_seat: null
 title: 9th Middlesex (2001-2010)
 layout: district

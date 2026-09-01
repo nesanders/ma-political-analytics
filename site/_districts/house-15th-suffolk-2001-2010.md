@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.245
     is_incumbent: true
+    war_v2: 0.1205
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.755
+    expected_two_party_share_v2: 0.8795
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8102
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1898
     is_incumbent: true
+    war_v2: 0.0653
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8102
+    expected_two_party_share_v2: 0.9347
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7818
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2182
     is_incumbent: true
+    war_v2: 0.0937
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7818
+    expected_two_party_share_v2: 0.9063
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.79
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.21
     is_incumbent: true
+    war_v2: 0.0855
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.79
+    expected_two_party_share_v2: 0.9145
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6562
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3438
     is_incumbent: false
+    war_v2: 0.3438
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6562
+    expected_two_party_share_v2: 0.6562
   - name: George A. Chidi, Jr.
     slug: george-a-chidi-jr
     party: Other
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.1772
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: John H. Clifford
     slug: john-h-clifford
     party: Independent
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.1413
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 15th Suffolk (2001-2010)
 layout: district

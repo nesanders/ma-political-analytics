@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3772
     is_incumbent: true
+    war_v2: 0.2527
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6228
+    expected_two_party_share_v2: 0.7473
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.29
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.71
     is_incumbent: true
+    war_v2: 0.5855
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.29
+    expected_two_party_share_v2: 0.4145
   - name: Donald J. Flannery
     slug: donald-j-flannery
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2895
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6211
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3789
     is_incumbent: true
+    war_v2: 0.2544
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6211
+    expected_two_party_share_v2: 0.7456
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4658
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6524
     war: 0.1866
     is_incumbent: true
+    war_v2: 0.0621
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4658
+    expected_two_party_share_v2: 0.5903
   - name: Bob Russell
     slug: bob-russell
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3476
     war: -0.1866
     is_incumbent: false
+    war_v2: -0.1866
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5342
+    expected_two_party_share_v2: 0.5342
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6248
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.7027
     war: 0.0779
     is_incumbent: false
+    war_v2: 0.0779
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6248
+    expected_two_party_share_v2: 0.6248
   - name: Dennis John McCarthy
     slug: dennis-john-mccarthy
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.2973
     war: -0.0779
     is_incumbent: false
+    war_v2: -0.0779
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3752
+    expected_two_party_share_v2: 0.3752
   is_open_seat: null
 title: 12th Hampden District (2012-2020)
 layout: district

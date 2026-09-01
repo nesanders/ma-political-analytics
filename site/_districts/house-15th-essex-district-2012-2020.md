@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4303
     is_incumbent: true
+    war_v2: 0.3058
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5697
+    expected_two_party_share_v2: 0.6942
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2526
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7474
     is_incumbent: true
+    war_v2: 0.6229
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2526
+    expected_two_party_share_v2: 0.3771
   - name: Anand Gonsalves
     slug: anand-gonsalves
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2574
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5376
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4624
     is_incumbent: true
+    war_v2: 0.3379
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5376
+    expected_two_party_share_v2: 0.6621
   - name: Nicholas S. Torresi
     slug: nicholas-s-torresi
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5751
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4018
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5737
     war: 0.1719
     is_incumbent: true
+    war_v2: 0.0474
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4018
+    expected_two_party_share_v2: 0.5263
   - name: Al DiNuccio
     slug: al-dinuccio
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4263
     war: -0.1719
     is_incumbent: false
+    war_v2: -0.1719
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5982
+    expected_two_party_share_v2: 0.5982
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5293
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4707
     is_incumbent: false
+    war_v2: 0.4707
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5293
+    expected_two_party_share_v2: 0.5293
   is_open_seat: null
 title: 15th Essex District (2012-2020)
 layout: district

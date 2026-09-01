@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4271
   war: 0.0366
+  war_v2: 0.0366
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3905
+  expected_two_party_share_v2: 0.3905
   is_uncontested: false
   is_incumbent: false
 title: James F. Coffey

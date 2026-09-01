@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: true
+    war_v2: 0.2013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6742
+    expected_two_party_share_v2: 0.7987
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3419
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6581
     is_incumbent: true
+    war_v2: 0.5336
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3419
+    expected_two_party_share_v2: 0.4664
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6703
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3297
     is_incumbent: true
+    war_v2: 0.2052
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6703
+    expected_two_party_share_v2: 0.7948
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5073
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4927
     is_incumbent: true
+    war_v2: 0.3682
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5073
+    expected_two_party_share_v2: 0.6318
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6536
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.6709
     war: 0.0173
     is_incumbent: false
+    war_v2: 0.0173
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6536
+    expected_two_party_share_v2: 0.6536
   - name: William J. McCarthy, III
     slug: william-j-mccarthy-iii
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.3291
     war: -0.0173
     is_incumbent: false
+    war_v2: -0.0173
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3464
+    expected_two_party_share_v2: 0.3464
   - name: Winthrop E. Handy
     slug: winthrop-e-handy
     party: Other
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.0961
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 14th Worcester District (2012-2020)
 layout: district

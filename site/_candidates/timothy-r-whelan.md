@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5498
   war: 0.1644
+  war_v2: 0.0399
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3854
+  expected_two_party_share_v2: 0.5099
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5852
   war: -0.1749
+  war_v2: -0.2994
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7601
+  expected_two_party_share_v2: 0.8846
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5642
+  war_v2: 0.4397
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4358
+  expected_two_party_share_v2: 0.5603
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.52
   war: -0.0435
+  war_v2: -0.0435
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5635
+  expected_two_party_share_v2: 0.5635
   is_uncontested: false
   is_incumbent: false
 title: Timothy R. Whelan

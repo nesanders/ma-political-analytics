@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3419
     is_incumbent: true
+    war_v2: 0.2174
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6581
+    expected_two_party_share_v2: 0.7826
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2706
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7294
     is_incumbent: true
+    war_v2: 0.6049
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2706
+    expected_two_party_share_v2: 0.3951
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6097
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.5859
     war: -0.0239
     is_incumbent: true
+    war_v2: -0.1484
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6098
+    expected_two_party_share_v2: 0.7343
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.4141
     war: 0.0239
     is_incumbent: false
+    war_v2: 0.0239
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3902
+    expected_two_party_share_v2: 0.3902
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4332
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5227
     war: 0.0895
     is_incumbent: true
+    war_v2: -0.035
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4332
+    expected_two_party_share_v2: 0.5577
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4773
     war: -0.0895
     is_incumbent: false
+    war_v2: -0.0895
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5668
+    expected_two_party_share_v2: 0.5668
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5442
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5528
     war: 0.0086
     is_incumbent: false
+    war_v2: 0.0086
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5442
+    expected_two_party_share_v2: 0.5442
   - name: Walter Zenkin
     slug: walter-zenkin
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4472
     war: -0.0086
     is_incumbent: false
+    war_v2: -0.0086
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4558
+    expected_two_party_share_v2: 0.4558
   is_open_seat: null
 title: 21st Middlesex District (2012-2020)
 layout: district

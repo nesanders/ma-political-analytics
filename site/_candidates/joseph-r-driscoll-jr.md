@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4689
+  war_v2: 0.3444
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5311
+  expected_two_party_share_v2: 0.6556
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4786
+  war_v2: 0.3541
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5214
+  expected_two_party_share_v2: 0.6459
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.719
   war: 0.1385
+  war_v2: 0.1385
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5805
+  expected_two_party_share_v2: 0.5805
   is_uncontested: false
   is_incumbent: false
 title: Joseph R. Driscoll, Jr.

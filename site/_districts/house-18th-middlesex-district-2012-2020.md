@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: true
+    war_v2: 0.2013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6742
+    expected_two_party_share_v2: 0.7987
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3515
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6485
     is_incumbent: true
+    war_v2: 0.524
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3515
+    expected_two_party_share_v2: 0.476
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.69
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.7224
     war: 0.0325
     is_incumbent: true
+    war_v2: -0.092
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6899
+    expected_two_party_share_v2: 0.8144
   - name: Kamara Kay
     slug: kamara-kay
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2776
     war: -0.0325
     is_incumbent: false
+    war_v2: -0.0325
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3101
+    expected_two_party_share_v2: 0.3101
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5369
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4631
     is_incumbent: false
+    war_v2: 0.4631
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5369
+    expected_two_party_share_v2: 0.5369
   - name: Fred W. Bahou
     slug: fred-w-bahou
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6201
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6815
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3185
     is_incumbent: false
+    war_v2: 0.3185
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6815
+    expected_two_party_share_v2: 0.6815
   is_open_seat: null
 title: 18th Middlesex District (2012-2020)
 layout: district

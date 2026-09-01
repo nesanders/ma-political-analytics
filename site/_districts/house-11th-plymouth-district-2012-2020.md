@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2946
     is_incumbent: true
+    war_v2: 0.1701
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7054
+    expected_two_party_share_v2: 0.8299
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3626
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6374
     is_incumbent: true
+    war_v2: 0.5129
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3626
+    expected_two_party_share_v2: 0.4871
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6681
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3319
     is_incumbent: true
+    war_v2: 0.2074
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6681
+    expected_two_party_share_v2: 0.7926
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5166
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4834
     is_incumbent: true
+    war_v2: 0.3589
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5166
+    expected_two_party_share_v2: 0.6411
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6327
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.6327
     war: 0.0001
     is_incumbent: false
+    war_v2: 0.0001
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6326
+    expected_two_party_share_v2: 0.6326
   - name: Daniel J. Murphy
     slug: daniel-j-murphy
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.3673
     war: -0.0001
     is_incumbent: false
+    war_v2: -0.0001
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3674
+    expected_two_party_share_v2: 0.3674
   is_open_seat: null
 title: 11th Plymouth District (2012-2020)
 layout: district

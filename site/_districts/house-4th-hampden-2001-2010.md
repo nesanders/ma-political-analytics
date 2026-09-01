@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.447
     is_incumbent: true
+    war_v2: 0.3225
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.553
+    expected_two_party_share_v2: 0.6775
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5452
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.694
     war: 0.2392
     is_incumbent: true
+    war_v2: 0.1147
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4548
+    expected_two_party_share_v2: 0.5793
   - name: Brian R. Hoose
     slug: brian-r-hoose
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.306
     war: -0.2392
     is_incumbent: false
+    war_v2: -0.2392
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5452
+    expected_two_party_share_v2: 0.5452
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5565
     is_incumbent: true
+    war_v2: 0.432
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4435
+    expected_two_party_share_v2: 0.568
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.545
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.545
     is_incumbent: true
+    war_v2: 0.4205
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.455
+    expected_two_party_share_v2: 0.5795
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4346
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6309
     war: 0.0654
     is_incumbent: false
+    war_v2: 0.0654
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5655
+    expected_two_party_share_v2: 0.5655
   - name: Bo Sullivan
     slug: bo-sullivan
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3691
     war: -0.0654
     is_incumbent: false
+    war_v2: -0.0654
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4345
+    expected_two_party_share_v2: 0.4345
   is_open_seat: null
 title: 4th Hampden (2001-2010)
 layout: district

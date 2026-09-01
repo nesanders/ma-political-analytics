@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.209
+  war_v2: 0.0845
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.791
+  expected_two_party_share_v2: 0.9155
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.9143
   war: 0.045
+  war_v2: 0.045
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8693
+  expected_two_party_share_v2: 0.8693
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1796
+  war_v2: 0.0551
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8204
+  expected_two_party_share_v2: 0.9449
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1387
+  war_v2: 0.0142
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8613
+  expected_two_party_share_v2: 0.9858
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.172
+  war_v2: 0.0475
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.828
+  expected_two_party_share_v2: 0.9525
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.8678
   war: 0.0257
+  war_v2: -0.0988
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8421
+  expected_two_party_share_v2: 0.9666
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2862
+  war_v2: 0.2862
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7138
+  expected_two_party_share_v2: 0.7138
   is_uncontested: true
   is_incumbent: false
 title: Timothy J. Toomey, Jr.

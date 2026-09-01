@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.343
     is_incumbent: true
+    war_v2: 0.2185
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.657
+    expected_two_party_share_v2: 0.7815
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6914
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3086
     is_incumbent: true
+    war_v2: 0.1841
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6914
+    expected_two_party_share_v2: 0.8159
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7179
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2821
     is_incumbent: true
+    war_v2: 0.1576
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7179
+    expected_two_party_share_v2: 0.8424
   - name: Raimundo Delgado
     slug: raimundo-delgado
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2158
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7293
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2707
     is_incumbent: true
+    war_v2: 0.1462
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7293
+    expected_two_party_share_v2: 0.8538
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6604
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3396
     is_incumbent: false
+    war_v2: 0.3396
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6604
+    expected_two_party_share_v2: 0.6604
   is_open_seat: null
 title: Second Bristol and Plymouth (2001-2010)
 layout: district

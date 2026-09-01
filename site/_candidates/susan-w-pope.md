@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4112
   war: 0.091
+  war_v2: 0.091
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3202
+  expected_two_party_share_v2: 0.3202
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4807
   war: 0.1055
+  war_v2: -0.019
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3752
+  expected_two_party_share_v2: 0.4997
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5172
   war: 0.1753
+  war_v2: 0.0508
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3419
+  expected_two_party_share_v2: 0.4664
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4294
+  war_v2: 0.4294
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5706
+  expected_two_party_share_v2: 0.5706
   is_uncontested: true
   is_incumbent: false
 title: Susan W. Pope

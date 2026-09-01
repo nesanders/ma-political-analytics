@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5038
     war: -0.0724
     is_incumbent: false
+    war_v2: -0.0724
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5762
+    expected_two_party_share_v2: 0.5762
   - name: James Chip Harrington
     slug: james-chip-harrington
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4962
     war: 0.0724
     is_incumbent: false
+    war_v2: 0.0724
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4238
+    expected_two_party_share_v2: 0.4238
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2832
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7168
     is_incumbent: true
+    war_v2: 0.5923
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2832
+    expected_two_party_share_v2: 0.4077
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5608
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4392
     is_incumbent: true
+    war_v2: 0.3147
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5608
+    expected_two_party_share_v2: 0.6853
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4579
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5421
     is_incumbent: true
+    war_v2: 0.4176
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4579
+    expected_two_party_share_v2: 0.5824
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6212
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3788
     is_incumbent: false
+    war_v2: 0.3788
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6212
+    expected_two_party_share_v2: 0.6212
   is_open_seat: null
 title: 7th Hampden District (2012-2020)
 layout: district

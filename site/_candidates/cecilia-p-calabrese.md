@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.343
   war: -0.0929
+  war_v2: -0.0929
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4359
+  expected_two_party_share_v2: 0.4359
   is_uncontested: false
   is_incumbent: false
 title: Cecilia P. Calabrese

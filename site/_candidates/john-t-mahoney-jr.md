@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.477
   war: 0.2485
+  war_v2: 0.2485
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2285
+  expected_two_party_share_v2: 0.2285
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4914
   war: -0.0302
+  war_v2: -0.0302
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5216
+  expected_two_party_share_v2: 0.5216
   is_uncontested: false
   is_incumbent: false
 title: John T. Mahoney, Jr

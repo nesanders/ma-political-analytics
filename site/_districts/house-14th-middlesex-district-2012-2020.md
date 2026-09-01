@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.211
     is_incumbent: true
+    war_v2: 0.0865
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.789
+    expected_two_party_share_v2: 0.9135
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3521
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6479
     is_incumbent: false
+    war_v2: 0.6479
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3521
+    expected_two_party_share_v2: 0.3521
   - name: Daniel L. Factor
     slug: daniel-l-factor
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.1109
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7573
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6236
     war: -0.1336
     is_incumbent: true
+    war_v2: -0.2581
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7572
+    expected_two_party_share_v2: 0.8817
   - name: Helen Brady
     slug: helen-brady
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3764
     war: 0.1336
     is_incumbent: false
+    war_v2: 0.1336
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2428
+    expected_two_party_share_v2: 0.2428
   - name: Daniel L. Factor
     slug: daniel-l-factor
     party: Other
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.0346
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5207
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4793
     is_incumbent: true
+    war_v2: 0.3548
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5207
+    expected_two_party_share_v2: 0.6452
   - name: Kenneth William Van Tassell
     slug: kenneth-william-van-tassell
     party: Libertarian
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3289
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.633
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.654
     war: 0.021
     is_incumbent: false
+    war_v2: 0.021
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.633
+    expected_two_party_share_v2: 0.633
   - name: Michael J. Benn
     slug: michael-j-benn
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.346
     war: -0.021
     is_incumbent: false
+    war_v2: -0.021
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.367
+    expected_two_party_share_v2: 0.367
   is_open_seat: null
 title: 14th Middlesex District (2012-2020)
 layout: district

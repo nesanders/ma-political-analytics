@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.428
   war: 0.1987
+  war_v2: 0.1987
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2293
+  expected_two_party_share_v2: 0.2293
   is_uncontested: false
   is_incumbent: false
 title: Jack Stanton

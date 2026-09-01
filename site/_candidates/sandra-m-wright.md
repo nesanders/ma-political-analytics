@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4949
   war: -0.02
+  war_v2: -0.02
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5149
+  expected_two_party_share_v2: 0.5149
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3465
   war: -0.16
+  war_v2: -0.16
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5065
+  expected_two_party_share_v2: 0.5065
   is_uncontested: false
   is_incumbent: false
 title: Sandra M. Wright

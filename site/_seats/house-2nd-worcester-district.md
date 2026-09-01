@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5225
     war: 0.0358
     is_incumbent: true
+    war_v2: -0.0887
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4867
+    expected_two_party_share_v2: 0.6112
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4775
     war: -0.0358
     is_incumbent: false
+    war_v2: -0.0358
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5133
+    expected_two_party_share_v2: 0.5133
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5146
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.535
     war: 0.0204
     is_incumbent: false
+    war_v2: 0.0204
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5146
+    expected_two_party_share_v2: 0.5146
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.465
     war: -0.0204
     is_incumbent: false
+    war_v2: -0.0204
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4854
+    expected_two_party_share_v2: 0.4854
   is_open_seat: null
 demographics:
   total_population: 42161

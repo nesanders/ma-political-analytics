@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.34
   war: -0.0667
+  war_v2: -0.0667
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4067
+  expected_two_party_share_v2: 0.4067
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4188
   war: -0.1749
+  war_v2: -0.1749
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5937
+  expected_two_party_share_v2: 0.5937
   is_uncontested: false
   is_incumbent: false
 title: Tim Hempton

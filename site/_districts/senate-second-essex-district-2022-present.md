@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.6685
     war: 0.0504
     is_incumbent: true
+    war_v2: -0.0741
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6181
+    expected_two_party_share_v2: 0.7426
   - name: Damian Mitchell Anketell
     slug: damian-mitchell-anketell
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.3315
     war: -0.0504
     is_incumbent: false
+    war_v2: -0.0504
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3819
+    expected_two_party_share_v2: 0.3819
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6493
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.6772
     war: 0.0279
     is_incumbent: false
+    war_v2: 0.0279
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6493
+    expected_two_party_share_v2: 0.6493
   - name: Damian M. Anketell
     slug: damian-m-anketell
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.3228
     war: -0.0279
     is_incumbent: false
+    war_v2: -0.0279
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3507
+    expected_two_party_share_v2: 0.3507
   is_open_seat: null
 demographics:
   total_population: 176287

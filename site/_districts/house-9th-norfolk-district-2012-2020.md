@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5852
     war: 0.1886
     is_incumbent: true
+    war_v2: 0.0641
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3966
+    expected_two_party_share_v2: 0.5211
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4148
     war: -0.1886
     is_incumbent: false
+    war_v2: -0.1886
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6034
+    expected_two_party_share_v2: 0.6034
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2158
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5878
     war: -0.1965
     is_incumbent: true
+    war_v2: -0.321
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7843
+    expected_two_party_share_v2: 0.9088
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4122
     war: 0.1965
     is_incumbent: false
+    war_v2: 0.1965
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2157
+    expected_two_party_share_v2: 0.2157
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5435
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6089
     war: 0.1524
     is_incumbent: true
+    war_v2: 0.0279
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4565
+    expected_two_party_share_v2: 0.581
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3911
     war: -0.1524
     is_incumbent: false
+    war_v2: -0.1524
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5435
+    expected_two_party_share_v2: 0.5435
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3258
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3258
     is_incumbent: false
+    war_v2: 0.3258
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6742
+    expected_two_party_share_v2: 0.6742
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.455
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.455
     is_incumbent: false
+    war_v2: 0.455
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.545
+    expected_two_party_share_v2: 0.545
   is_open_seat: null
 title: 9th Norfolk District (2012-2020)
 layout: district

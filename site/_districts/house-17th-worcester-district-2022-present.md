@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3881
     is_incumbent: true
+    war_v2: 0.2636
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6119
+    expected_two_party_share_v2: 0.7364
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6497
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.592
     war: -0.0577
     is_incumbent: false
+    war_v2: -0.0577
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6497
+    expected_two_party_share_v2: 0.6497
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.408
     war: 0.0577
     is_incumbent: false
+    war_v2: 0.0577
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3503
+    expected_two_party_share_v2: 0.3503
   is_open_seat: null
 demographics:
   total_population: 43466

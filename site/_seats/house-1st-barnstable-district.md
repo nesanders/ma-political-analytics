@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5654
     war: -0.039
     is_incumbent: true
+    war_v2: -0.1635
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6044
+    expected_two_party_share_v2: 0.7289
   - name: Gerald Joseph O'Connell
     slug: gerald-joseph-oconnell
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4346
     war: 0.039
     is_incumbent: false
+    war_v2: 0.039
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3956
+    expected_two_party_share_v2: 0.3956
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5452
     war: -0.0629
     is_incumbent: false
+    war_v2: -0.0629
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6081
+    expected_two_party_share_v2: 0.6081
   - name: Tracy A. Post
     slug: tracy-a-post
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4548
     war: 0.0629
     is_incumbent: false
+    war_v2: 0.0629
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3919
+    expected_two_party_share_v2: 0.3919
   - name: Abraham Kasparian, Jr.
     slug: abraham-kasparian-jr
     party: Other
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.0196
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 43626

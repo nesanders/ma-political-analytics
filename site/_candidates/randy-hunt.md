@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.572
   war: -0.1987
+  war_v2: -0.3232
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7707
+  expected_two_party_share_v2: 0.8952
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5124
+  war_v2: 0.3879
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4876
+  expected_two_party_share_v2: 0.6121
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6274
   war: 0.0089
+  war_v2: -0.1156
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6185
+  expected_two_party_share_v2: 0.743
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5615
   war: 0.0478
+  war_v2: 0.0478
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5137
+  expected_two_party_share_v2: 0.5137
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.5304
   war: -0.0511
+  war_v2: -0.0511
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5815
+  expected_two_party_share_v2: 0.5815
   is_uncontested: false
   is_incumbent: false
 title: Randy Hunt

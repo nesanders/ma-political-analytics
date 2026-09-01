@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.37
     is_incumbent: true
+    war_v2: 0.2455
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.63
+    expected_two_party_share_v2: 0.7545
   - name: Andrew M. Bissanti
     slug: andrew-m-bissanti
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.0391
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.226
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5853
     war: 0.3593
     is_incumbent: true
+    war_v2: 0.2348
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.226
+    expected_two_party_share_v2: 0.3505
   - name: Patrick R. Casey
     slug: patrick-r-casey
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4147
     war: -0.3593
     is_incumbent: false
+    war_v2: -0.3593
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.774
+    expected_two_party_share_v2: 0.774
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5765
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4235
     is_incumbent: true
+    war_v2: 0.299
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5765
+    expected_two_party_share_v2: 0.701
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3679
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6321
     is_incumbent: true
+    war_v2: 0.5076
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3679
+    expected_two_party_share_v2: 0.4924
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5027
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5429
     war: 0.0402
     is_incumbent: false
+    war_v2: 0.0402
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5027
+    expected_two_party_share_v2: 0.5027
   - name: Richard A. Eustis
     slug: richard-a-eustis
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4571
     war: -0.0402
     is_incumbent: false
+    war_v2: -0.0402
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4973
+    expected_two_party_share_v2: 0.4973
   is_open_seat: null
 title: 10th Norfolk District (2012-2020)
 layout: district

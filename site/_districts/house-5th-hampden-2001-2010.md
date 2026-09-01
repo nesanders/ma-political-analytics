@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3234
     is_incumbent: true
+    war_v2: 0.1989
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6766
+    expected_two_party_share_v2: 0.8011
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7334
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2666
     is_incumbent: true
+    war_v2: 0.1421
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7334
+    expected_two_party_share_v2: 0.8579
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7125
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2875
     is_incumbent: true
+    war_v2: 0.163
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7125
+    expected_two_party_share_v2: 0.837
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6894
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3106
     is_incumbent: true
+    war_v2: 0.1861
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6894
+    expected_two_party_share_v2: 0.8139
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5884
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.7294
     war: 0.141
     is_incumbent: false
+    war_v2: 0.141
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5884
+    expected_two_party_share_v2: 0.5884
   - name: Michael Franco
     slug: michael-franco
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.2706
     war: -0.141
     is_incumbent: false
+    war_v2: -0.141
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4116
+    expected_two_party_share_v2: 0.4116
   is_open_seat: null
 title: 5th Hampden (2001-2010)
 layout: district

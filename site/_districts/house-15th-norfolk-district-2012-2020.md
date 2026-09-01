@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1119
     is_incumbent: true
+    war_v2: -0.0126
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8881
+    expected_two_party_share_v2: 1.0126
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5401
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4599
     is_incumbent: false
+    war_v2: 0.4599
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5401
+    expected_two_party_share_v2: 0.5401
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8856
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1144
     is_incumbent: true
+    war_v2: -0.0101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8856
+    expected_two_party_share_v2: 1.0101
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6916
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.8067
     war: 0.1151
     is_incumbent: true
+    war_v2: -0.0094
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6916
+    expected_two_party_share_v2: 0.8161
   - name: Curt Myers
     slug: curt-myers
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.1933
     war: -0.1151
     is_incumbent: false
+    war_v2: -0.1151
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3084
+    expected_two_party_share_v2: 0.3084
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7912
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2088
     is_incumbent: false
+    war_v2: 0.2088
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7912
+    expected_two_party_share_v2: 0.7912
   is_open_seat: null
 title: 15th Norfolk District (2012-2020)
 layout: district

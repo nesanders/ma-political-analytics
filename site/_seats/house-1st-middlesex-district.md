@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5135
     war: -0.0305
     is_incumbent: true
+    war_v2: -0.155
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.544
+    expected_two_party_share_v2: 0.6685
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4865
     war: 0.0305
     is_incumbent: false
+    war_v2: 0.0305
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.456
+    expected_two_party_share_v2: 0.456
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5002
     war: -0.0482
     is_incumbent: false
+    war_v2: -0.0482
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5484
+    expected_two_party_share_v2: 0.5484
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4998
     war: 0.0482
     is_incumbent: false
+    war_v2: 0.0482
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4516
+    expected_two_party_share_v2: 0.4516
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.0571
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 42599

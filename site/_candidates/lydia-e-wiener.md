@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.267
   war: -0.1186
+  war_v2: -0.1186
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3856
+  expected_two_party_share_v2: 0.3856
   is_uncontested: false
   is_incumbent: false
 title: Lydia E. Wiener

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.636
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.408
   war: -0.0867
+  war_v2: -0.0867
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4947
+  expected_two_party_share_v2: 0.4947
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.0063
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
 title: George John Simolaris, Jr

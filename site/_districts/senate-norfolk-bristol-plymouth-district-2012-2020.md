@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3205
     is_incumbent: true
+    war_v2: 0.196
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6795
+    expected_two_party_share_v2: 0.804
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.31
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.69
     is_incumbent: true
+    war_v2: 0.5655
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.31
+    expected_two_party_share_v2: 0.4345
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6443
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3557
     is_incumbent: false
+    war_v2: 0.3557
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6443
+    expected_two_party_share_v2: 0.6443
   - name: Jonathan D. Lott
     slug: jonathan-d-lott
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3535
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4655
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5345
     is_incumbent: true
+    war_v2: 0.41
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4655
+    expected_two_party_share_v2: 0.59
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.587
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.413
     is_incumbent: false
+    war_v2: 0.413
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.587
+    expected_two_party_share_v2: 0.587
   is_open_seat: null
 title: Norfolk, Bristol & Plymouth District (2012-2020)
 layout: district

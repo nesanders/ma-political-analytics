@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1848
+  war_v2: 0.1848
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8152
+  expected_two_party_share_v2: 0.8152
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1697
+  war_v2: 0.0452
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8303
+  expected_two_party_share_v2: 0.9548
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5592
+  war_v2: 0.4347
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4408
+  expected_two_party_share_v2: 0.5653
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1756
+  war_v2: 0.0511
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8244
+  expected_two_party_share_v2: 0.9489
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3881
+  war_v2: 0.2636
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6119
+  expected_two_party_share_v2: 0.7364
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.7438
   war: 0.0186
+  war_v2: 0.0186
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7252
+  expected_two_party_share_v2: 0.7252
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3076
+  war_v2: 0.1831
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6924
+  expected_two_party_share_v2: 0.8169
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.236
+  war_v2: 0.1115
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.764
+  expected_two_party_share_v2: 0.8885
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2526
+  war_v2: 0.1281
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7474
+  expected_two_party_share_v2: 0.8719
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 0.7331
   war: -0.0282
+  war_v2: -0.1527
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7613
+  expected_two_party_share_v2: 0.8858
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4113
+  war_v2: 0.4113
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5887
+  expected_two_party_share_v2: 0.5887
   is_uncontested: true
   is_incumbent: false
 ocpf_finance:

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3133
     is_incumbent: true
+    war_v2: 0.1888
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6867
+    expected_two_party_share_v2: 0.8112
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7539
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.7267
     war: -0.0272
     is_incumbent: false
+    war_v2: -0.0272
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7539
+    expected_two_party_share_v2: 0.7539
   - name: Todd B. Taylor
     slug: todd-b-taylor
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.2733
     war: 0.0272
     is_incumbent: false
+    war_v2: 0.0272
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2461
+    expected_two_party_share_v2: 0.2461
   is_open_seat: null
 demographics:
   total_population: 42263

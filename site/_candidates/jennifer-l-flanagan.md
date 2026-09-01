@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.455
+  war_v2: 0.3305
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.545
+  expected_two_party_share_v2: 0.6695
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6043
   war: 0.2067
+  war_v2: 0.0822
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3976
+  expected_two_party_share_v2: 0.5221
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4715
+  war_v2: 0.4715
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5285
+  expected_two_party_share_v2: 0.5285
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5892
   war: 0.1569
+  war_v2: 0.0324
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4323
+  expected_two_party_share_v2: 0.5568
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4433
+  war_v2: 0.4433
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5567
+  expected_two_party_share_v2: 0.5567
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4197
+  war_v2: 0.2952
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5803
+  expected_two_party_share_v2: 0.7048
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6904
   war: 0.1119
+  war_v2: 0.1119
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5785
+  expected_two_party_share_v2: 0.5785
   is_uncontested: false
   is_incumbent: false
 title: Jennifer L. Flanagan

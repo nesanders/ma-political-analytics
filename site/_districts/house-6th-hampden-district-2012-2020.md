@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4447
     is_incumbent: true
+    war_v2: 0.3202
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5553
+    expected_two_party_share_v2: 0.6798
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2404
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7596
     is_incumbent: true
+    war_v2: 0.6351
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2404
+    expected_two_party_share_v2: 0.3649
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5288
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4712
     is_incumbent: true
+    war_v2: 0.3467
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5288
+    expected_two_party_share_v2: 0.6533
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3974
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.5688
     war: 0.1714
     is_incumbent: true
+    war_v2: 0.0469
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3974
+    expected_two_party_share_v2: 0.5219
   - name: Nathan A. Bech
     slug: nathan-a-bech
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.4312
     war: -0.1714
     is_incumbent: false
+    war_v2: -0.1714
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6026
+    expected_two_party_share_v2: 0.6026
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5718
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4282
     is_incumbent: false
+    war_v2: 0.4282
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5718
+    expected_two_party_share_v2: 0.5718
   - name: Lincoln A. Blackie
     slug: lincoln-a-blackie
     party: Other
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.57
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 6th Hampden District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5098
     war: -0.0742
     is_incumbent: false
+    war_v2: -0.0742
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.584
+    expected_two_party_share_v2: 0.584
   - name: Dean Tran
     slug: dean-tran
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4902
     war: 0.0742
     is_incumbent: true
+    war_v2: -0.0503
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.416
+    expected_two_party_share_v2: 0.5405
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2356
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5431
     war: -0.2213
     is_incumbent: false
+    war_v2: -0.2213
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7644
+    expected_two_party_share_v2: 0.7644
   - name: Susan A. Chalifoux Zephir
     slug: susan-a-chalifoux-zephir
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4569
     war: 0.2213
     is_incumbent: false
+    war_v2: 0.2213
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2356
+    expected_two_party_share_v2: 0.2356
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.545
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.455
     is_incumbent: true
+    war_v2: 0.3305
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.545
+    expected_two_party_share_v2: 0.6695
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3976
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6043
     war: 0.2067
     is_incumbent: true
+    war_v2: 0.0822
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3976
+    expected_two_party_share_v2: 0.5221
   - name: Richard M. Bastien
     slug: richard-m-bastien
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3957
     war: -0.2067
     is_incumbent: false
+    war_v2: -0.2067
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6024
+    expected_two_party_share_v2: 0.6024
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5285
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4715
     is_incumbent: false
+    war_v2: 0.4715
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5285
+    expected_two_party_share_v2: 0.5285
   is_open_seat: null
 title: Worcester & Middlesex District (2012-2020)
 layout: district

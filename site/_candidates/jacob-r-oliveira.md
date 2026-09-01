@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4506
+  war_v2: 0.3261
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5494
+  expected_two_party_share_v2: 0.6739
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5631
   war: 0.0041
+  war_v2: 0.0041
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.559
+  expected_two_party_share_v2: 0.559
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5038
   war: -0.0724
+  war_v2: -0.0724
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5762
+  expected_two_party_share_v2: 0.5762
   is_uncontested: false
   is_incumbent: false
 title: Jacob R. Oliveira

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6122
     war: 0.0983
     is_incumbent: true
+    war_v2: -0.0262
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5139
+    expected_two_party_share_v2: 0.6384
   - name: Royall H. Switzler
     slug: royall-h-switzler
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3878
     war: -0.0983
     is_incumbent: false
+    war_v2: -0.0983
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4861
+    expected_two_party_share_v2: 0.4861
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6447
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3553
     is_incumbent: true
+    war_v2: 0.2308
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6447
+    expected_two_party_share_v2: 0.7692
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5837
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4163
     is_incumbent: true
+    war_v2: 0.2918
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5837
+    expected_two_party_share_v2: 0.7082
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6178
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6162
     war: -0.0016
     is_incumbent: true
+    war_v2: -0.1261
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6178
+    expected_two_party_share_v2: 0.7423
   - name: George P. Field
     slug: george-p-field
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3838
     war: 0.0016
     is_incumbent: false
+    war_v2: 0.0016
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3822
+    expected_two_party_share_v2: 0.3822
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3861
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.56
     war: 0.1739
     is_incumbent: false
+    war_v2: 0.1739
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3861
+    expected_two_party_share_v2: 0.3861
   - name: George P. Field
     slug: george-p-field
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.44
     war: -0.1739
     is_incumbent: false
+    war_v2: -0.1739
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6139
+    expected_two_party_share_v2: 0.6139
   is_open_seat: null
 title: 14th Norfolk (2001-2010)
 layout: district

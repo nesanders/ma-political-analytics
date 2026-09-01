@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4389
   war: -0.3352
+  war_v2: -0.3352
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7741
+  expected_two_party_share_v2: 0.7741
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4499
   war: 0.0134
+  war_v2: 0.0134
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4365
+  expected_two_party_share_v2: 0.4365
   is_uncontested: false
   is_incumbent: false
 title: Sandra Slattery E. Biagetti

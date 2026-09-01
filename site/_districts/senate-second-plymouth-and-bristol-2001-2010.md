@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5138
     is_incumbent: true
+    war_v2: 0.3893
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4862
+    expected_two_party_share_v2: 0.6107
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5943
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4057
     is_incumbent: false
+    war_v2: 0.4057
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5943
+    expected_two_party_share_v2: 0.5943
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5676
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4324
     is_incumbent: true
+    war_v2: 0.3079
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5676
+    expected_two_party_share_v2: 0.6921
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5816
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.677
     war: 0.0954
     is_incumbent: true
+    war_v2: -0.0291
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5816
+    expected_two_party_share_v2: 0.7061
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.323
     war: -0.0954
     is_incumbent: false
+    war_v2: -0.0954
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4184
+    expected_two_party_share_v2: 0.4184
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4499
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5501
     is_incumbent: false
+    war_v2: 0.5501
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4499
+    expected_two_party_share_v2: 0.4499
   is_open_seat: null
 title: Second Plymouth and Bristol (2001-2010)
 layout: district

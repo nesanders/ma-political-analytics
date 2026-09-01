@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3874
   war: 0.1119
+  war_v2: 0.1119
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2755
+  expected_two_party_share_v2: 0.2755
   is_uncontested: false
   is_incumbent: false
 title: Michael F. Case

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3255
     is_incumbent: true
+    war_v2: 0.201
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6745
+    expected_two_party_share_v2: 0.799
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2471
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5703
     war: 0.3232
     is_incumbent: true
+    war_v2: 0.1987
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2471
+    expected_two_party_share_v2: 0.3716
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4297
     war: -0.3232
     is_incumbent: false
+    war_v2: -0.3232
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7529
+    expected_two_party_share_v2: 0.7529
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6259
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5402
     war: -0.0857
     is_incumbent: false
+    war_v2: -0.0857
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6259
+    expected_two_party_share_v2: 0.6259
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4598
     war: 0.0857
     is_incumbent: false
+    war_v2: 0.0857
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3741
+    expected_two_party_share_v2: 0.3741
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.3894
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6106
     is_incumbent: true
+    war_v2: 0.4861
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3894
+    expected_two_party_share_v2: 0.5139
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.507
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.493
     is_incumbent: false
+    war_v2: 0.493
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.507
+    expected_two_party_share_v2: 0.507
   is_open_seat: null
 title: 3rd Plymouth District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2464
+  war_v2: 0.1219
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7536
+  expected_two_party_share_v2: 0.8781
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3306
+  war_v2: 0.3306
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6694
+  expected_two_party_share_v2: 0.6694
   is_uncontested: true
   is_incumbent: false
 title: Peter J. Larkin

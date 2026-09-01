@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4552
   war: 0.0139
+  war_v2: -0.1106
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4413
+  expected_two_party_share_v2: 0.5658
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4431
+  war_v2: 0.3186
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5569
+  expected_two_party_share_v2: 0.6814
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5696
   war: 0.0372
+  war_v2: 0.0372
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5324
+  expected_two_party_share_v2: 0.5324
   is_uncontested: false
   is_incumbent: false
 title: Steven J. D'Amico

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3998
     is_incumbent: true
+    war_v2: 0.2753
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6002
+    expected_two_party_share_v2: 0.7247
   - name: Joseph Paul Onoroski
     slug: joseph-paul-onoroski
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.2843
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6453
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3547
     is_incumbent: false
+    war_v2: 0.3547
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6453
+    expected_two_party_share_v2: 0.6453
   is_open_seat: null
 demographics:
   total_population: 44833

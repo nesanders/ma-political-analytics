@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.8435
   war: -0.0095
+  war_v2: -0.134
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.853
+  expected_two_party_share_v2: 0.9775
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.8915
   war: 0.2037
+  war_v2: 0.2037
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.6878
   is_uncontested: false
   is_incumbent: false
 title: Evandro C. Carvalho

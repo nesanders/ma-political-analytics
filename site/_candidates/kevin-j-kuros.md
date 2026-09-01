@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4714
+  war_v2: 0.3469
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5286
+  expected_two_party_share_v2: 0.6531
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6315
   war: -0.0076
+  war_v2: -0.1321
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6391
+  expected_two_party_share_v2: 0.7636
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5125
   war: 0.0083
+  war_v2: 0.0083
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5042
+  expected_two_party_share_v2: 0.5042
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5722
   war: -0.0525
+  war_v2: -0.0525
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6247
+  expected_two_party_share_v2: 0.6247
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: false
   actual_two_party_share: 0.4666
   war: -0.0239
+  war_v2: -0.0239
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4905
+  expected_two_party_share_v2: 0.4905
   is_uncontested: false
   is_incumbent: false
 title: Kevin J. Kuros

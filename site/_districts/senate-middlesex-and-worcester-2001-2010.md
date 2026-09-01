@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5712
     war: 0.071
     is_incumbent: true
+    war_v2: -0.0535
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5002
+    expected_two_party_share_v2: 0.6247
   - name: George M. Thompson
     slug: george-m-thompson
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4288
     war: -0.071
     is_incumbent: false
+    war_v2: -0.071
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4998
+    expected_two_party_share_v2: 0.4998
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6123
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5704
     war: -0.0419
     is_incumbent: false
+    war_v2: -0.0419
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6123
+    expected_two_party_share_v2: 0.6123
   - name: Steven L. Levy
     slug: steven-l-levy
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4296
     war: 0.0419
     is_incumbent: false
+    war_v2: 0.0419
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3877
+    expected_two_party_share_v2: 0.3877
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.578
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.422
     is_incumbent: true
+    war_v2: 0.2975
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.578
+    expected_two_party_share_v2: 0.7025
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5994
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5963
     war: -0.0031
     is_incumbent: true
+    war_v2: -0.1276
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5994
+    expected_two_party_share_v2: 0.7239
   - name: Rod Jane
     slug: rod-jane
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4037
     war: 0.0031
     is_incumbent: false
+    war_v2: 0.0031
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4006
+    expected_two_party_share_v2: 0.4006
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3915
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5998
     war: 0.2083
     is_incumbent: false
+    war_v2: 0.2083
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3915
+    expected_two_party_share_v2: 0.3915
   - name: Mary Jane Hillery
     slug: mary-jane-hillery
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4002
     war: -0.2083
     is_incumbent: false
+    war_v2: -0.2083
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6085
+    expected_two_party_share_v2: 0.6085
   is_open_seat: null
 title: Middlesex and Worcester (2001-2010)
 layout: district

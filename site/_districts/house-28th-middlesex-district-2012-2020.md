@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2804
     is_incumbent: true
+    war_v2: 0.1559
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7196
+    expected_two_party_share_v2: 0.8441
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4241
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5759
     is_incumbent: true
+    war_v2: 0.4514
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4241
+    expected_two_party_share_v2: 0.5486
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7063
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2937
     is_incumbent: true
+    war_v2: 0.1692
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7063
+    expected_two_party_share_v2: 0.8308
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6015
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3985
     is_incumbent: false
+    war_v2: 0.3985
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6015
+    expected_two_party_share_v2: 0.6015
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7241
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2759
     is_incumbent: false
+    war_v2: 0.2759
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7241
+    expected_two_party_share_v2: 0.7241
   is_open_seat: null
 title: 28th Middlesex District (2012-2020)
 layout: district

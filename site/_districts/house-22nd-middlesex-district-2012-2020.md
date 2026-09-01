@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5532
     war: 0.1072
     is_incumbent: true
+    war_v2: -0.0173
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.446
+    expected_two_party_share_v2: 0.5705
   - name: Teresa Nicole English
     slug: teresa-nicole-english
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4468
     war: -0.1072
     is_incumbent: false
+    war_v2: -0.1072
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.554
+    expected_two_party_share_v2: 0.554
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2316
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6172
     war: -0.1512
     is_incumbent: true
+    war_v2: -0.2757
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7684
+    expected_two_party_share_v2: 0.8929
   - name: Christopher J. Tribou
     slug: christopher-j-tribou
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3828
     war: 0.1512
     is_incumbent: false
+    war_v2: 0.1512
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2316
+    expected_two_party_share_v2: 0.2316
   - name: Matthew Murphy Mixon
     slug: matthew-murphy-mixon
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0186
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4947
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.592
     war: 0.0867
     is_incumbent: true
+    war_v2: -0.0378
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5053
+    expected_two_party_share_v2: 0.6298
   - name: George Simolaris, Jr.
     slug: george-simolaris-jr
     party: Democratic
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.408
     war: -0.0867
     is_incumbent: false
+    war_v2: -0.0867
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4947
+    expected_two_party_share_v2: 0.4947
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3831
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3831
     is_incumbent: true
+    war_v2: 0.2586
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6169
+    expected_two_party_share_v2: 0.7414
   - name: Dean Douglas Santoro
     slug: dean-douglas-santoro
     party: Other
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.0363
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.497
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.497
     is_incumbent: false
+    war_v2: 0.497
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.503
+    expected_two_party_share_v2: 0.503
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -147,6 +187,10 @@ results_by_year:
     actual_two_party_share: 0.6446
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 22nd Middlesex District (2012-2020)
 layout: district

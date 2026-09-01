@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6808
     war: 0.0639
     is_incumbent: true
+    war_v2: -0.0606
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6169
+    expected_two_party_share_v2: 0.7414
   - name: Paul J. Rotondo
     slug: paul-j-rotondo
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3192
     war: -0.0639
     is_incumbent: false
+    war_v2: -0.0639
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3831
+    expected_two_party_share_v2: 0.3831
   - name: Dominic S. Giannone, III
     slug: dominic-s-giannone-iii
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0522
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2715
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7285
     is_incumbent: true
+    war_v2: 0.604
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2715
+    expected_two_party_share_v2: 0.396
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5679
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4321
     is_incumbent: true
+    war_v2: 0.3076
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5679
+    expected_two_party_share_v2: 0.6924
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4193
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5849
     war: 0.1656
     is_incumbent: true
+    war_v2: 0.0411
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4193
+    expected_two_party_share_v2: 0.5438
   - name: Andrea E. Farretta
     slug: andrea-e-farretta
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4151
     war: -0.1656
     is_incumbent: false
+    war_v2: -0.1656
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5807
+    expected_two_party_share_v2: 0.5807
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5459
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4541
     is_incumbent: false
+    war_v2: 0.4541
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5459
+    expected_two_party_share_v2: 0.5459
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Other
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.2356
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 4th Norfolk District (2012-2020)
 layout: district

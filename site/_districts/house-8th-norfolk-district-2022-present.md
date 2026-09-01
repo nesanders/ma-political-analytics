@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3329
     is_incumbent: true
+    war_v2: 0.2084
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6671
+    expected_two_party_share_v2: 0.7916
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6821
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.6942
     war: 0.0121
     is_incumbent: false
+    war_v2: 0.0121
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6821
+    expected_two_party_share_v2: 0.6821
   - name: Howard L. Terban
     slug: howard-l-terban
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.3058
     war: -0.0121
     is_incumbent: false
+    war_v2: -0.0121
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3179
+    expected_two_party_share_v2: 0.3179
   is_open_seat: null
 demographics:
   total_population: 44240

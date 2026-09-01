@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5103
+  war_v2: 0.3858
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4897
+  expected_two_party_share_v2: 0.6142
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7112
   war: 0.0907
+  war_v2: 0.0907
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6205
+  expected_two_party_share_v2: 0.6205
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6378
   war: 0.1087
+  war_v2: -0.0158
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5291
+  expected_two_party_share_v2: 0.6536
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3544
+  war_v2: 0.2299
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6456
+  expected_two_party_share_v2: 0.7701
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4007
+  war_v2: 0.2762
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5993
+  expected_two_party_share_v2: 0.7238
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.6591
   war: 0.0193
+  war_v2: 0.0193
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6398
+  expected_two_party_share_v2: 0.6398
   is_uncontested: false
   is_incumbent: false
 title: Tom Sannicandro

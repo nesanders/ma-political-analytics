@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.548
     war: 0.0569
     is_incumbent: true
+    war_v2: -0.0676
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4911
+    expected_two_party_share_v2: 0.6156
   - name: Kurt Hayes
     slug: kurt-hayes
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.452
     war: -0.0569
     is_incumbent: false
+    war_v2: -0.0569
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.5089
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5912
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.558
     war: -0.0332
     is_incumbent: false
+    war_v2: -0.0332
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5912
+    expected_two_party_share_v2: 0.5912
   - name: Kurt Hayes
     slug: kurt-hayes
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.442
     war: 0.0332
     is_incumbent: false
+    war_v2: 0.0332
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4088
+    expected_two_party_share_v2: 0.4088
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5716
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6422
     war: 0.0705
     is_incumbent: true
+    war_v2: -0.054
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5717
+    expected_two_party_share_v2: 0.6962
   - name: Kevin C. Hayes, Sr.
     slug: kevin-c-hayes-sr
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3578
     war: -0.0705
     is_incumbent: false
+    war_v2: -0.0705
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4283
+    expected_two_party_share_v2: 0.4283
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5833
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6349
     war: 0.0516
     is_incumbent: true
+    war_v2: -0.0729
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5833
+    expected_two_party_share_v2: 0.7078
   - name: Thomas J. Dyer
     slug: thomas-j-dyer
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3651
     war: -0.0516
     is_incumbent: false
+    war_v2: -0.0516
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4167
+    expected_two_party_share_v2: 0.4167
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3933
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5208
     war: 0.1275
     is_incumbent: false
+    war_v2: 0.1275
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3933
+    expected_two_party_share_v2: 0.3933
   - name: Todd D. Fenniman
     slug: todd-d-fenniman
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4792
     war: -0.1275
     is_incumbent: false
+    war_v2: -0.1275
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6067
+    expected_two_party_share_v2: 0.6067
   is_open_seat: null
 title: 37th Middlesex (2001-2010)
 layout: district

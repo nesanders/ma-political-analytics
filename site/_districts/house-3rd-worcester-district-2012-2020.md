@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.556
     war: -0.0575
     is_incumbent: false
+    war_v2: -0.0575
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6135
+    expected_two_party_share_v2: 0.6135
   - name: Glenn C. Fossa
     slug: glenn-c-fossa
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.444
     war: 0.0575
     is_incumbent: false
+    war_v2: 0.0575
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3865
+    expected_two_party_share_v2: 0.3865
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2755
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6863
     war: 0.4108
     is_incumbent: true
+    war_v2: 0.2863
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2755
+    expected_two_party_share_v2: 0.4
   - name: Elmer Eubanks-Archbold
     slug: elmer-eubanks-archbold
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3137
     war: -0.4108
     is_incumbent: false
+    war_v2: -0.4108
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7245
+    expected_two_party_share_v2: 0.7245
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6016
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3984
     is_incumbent: false
+    war_v2: 0.3984
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6016
+    expected_two_party_share_v2: 0.6016
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4422
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5578
     is_incumbent: true
+    war_v2: 0.4333
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4422
+    expected_two_party_share_v2: 0.5667
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.598
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.402
     is_incumbent: false
+    war_v2: 0.402
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.598
+    expected_two_party_share_v2: 0.598
   is_open_seat: null
 title: 3rd Worcester District (2012-2020)
 layout: district

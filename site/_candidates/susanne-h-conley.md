@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4064
   war: -0.0287
+  war_v2: -0.0287
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4351
+  expected_two_party_share_v2: 0.4351
   is_uncontested: false
   is_incumbent: false
 title: Susanne H. Conley

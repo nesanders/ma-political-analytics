@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3757
   war: 0.0167
+  war_v2: 0.0167
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.359
+  expected_two_party_share_v2: 0.359
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.363
   war: 0.0015
+  war_v2: 0.0015
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3615
+  expected_two_party_share_v2: 0.3615
   is_uncontested: false
   is_incumbent: false
 title: Christopher Robert Lauzon

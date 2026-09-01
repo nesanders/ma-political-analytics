@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2906
   war: -0.038
+  war_v2: -0.038
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3286
+  expected_two_party_share_v2: 0.3286
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3901
   war: -0.2065
+  war_v2: -0.2065
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5966
+  expected_two_party_share_v2: 0.5966
   is_uncontested: false
   is_incumbent: false
 title: David A. Rosa

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6899
     war: -0.0704
     is_incumbent: true
+    war_v2: -0.1949
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7603
+    expected_two_party_share_v2: 0.8848
   - name: Ingrid I. Centurion
     slug: ingrid-i-centurion
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3101
     war: 0.0704
     is_incumbent: false
+    war_v2: 0.0704
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2397
+    expected_two_party_share_v2: 0.2397
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3149
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6851
     is_incumbent: true
+    war_v2: 0.5606
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3149
+    expected_two_party_share_v2: 0.4394
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7304
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2696
     is_incumbent: true
+    war_v2: 0.1451
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7304
+    expected_two_party_share_v2: 0.8549
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4677
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5323
     is_incumbent: false
+    war_v2: 0.5323
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4677
+    expected_two_party_share_v2: 0.4677
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6012
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3988
     is_incumbent: false
+    war_v2: 0.3988
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6012
+    expected_two_party_share_v2: 0.6012
   is_open_seat: null
 title: 13th Middlesex District (2012-2020)
 layout: district

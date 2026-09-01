@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.6587
     war: 0.1342
     is_incumbent: true
+    war_v2: 0.0097
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5245
+    expected_two_party_share_v2: 0.649
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.3413
     war: -0.1342
     is_incumbent: false
+    war_v2: -0.1342
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4755
+    expected_two_party_share_v2: 0.4755
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4886
     is_incumbent: false
+    war_v2: 0.4886
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5114
+    expected_two_party_share_v2: 0.5114
   is_open_seat: null
 demographics:
   median_household_income: 98787

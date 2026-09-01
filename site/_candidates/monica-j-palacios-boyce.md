@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3718
   war: -0.1864
+  war_v2: -0.1864
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5582
+  expected_two_party_share_v2: 0.5582
   is_uncontested: false
   is_incumbent: false
 title: Monica J. Palacios-Boyce

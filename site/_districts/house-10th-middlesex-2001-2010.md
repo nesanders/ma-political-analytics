@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.7377
     war: 0.1284
     is_incumbent: true
+    war_v2: 0.0039
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6093
+    expected_two_party_share_v2: 0.7338
   - name: James E. Dixon
     slug: james-e-dixon
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2623
     war: -0.1284
     is_incumbent: false
+    war_v2: -0.1284
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3907
+    expected_two_party_share_v2: 0.3907
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6902
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3098
     is_incumbent: true
+    war_v2: 0.1853
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6902
+    expected_two_party_share_v2: 0.8147
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.657
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.8238
     war: 0.1668
     is_incumbent: true
+    war_v2: 0.0423
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.657
+    expected_two_party_share_v2: 0.7815
   - name: Dara Pourghasemi
     slug: dara-pourghasemi
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.1762
     war: -0.1668
     is_incumbent: false
+    war_v2: -0.1668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.343
+    expected_two_party_share_v2: 0.343
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.684
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.316
     is_incumbent: true
+    war_v2: 0.1915
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.684
+    expected_two_party_share_v2: 0.8085
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5137
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4863
     is_incumbent: false
+    war_v2: 0.4863
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5137
+    expected_two_party_share_v2: 0.5137
   is_open_seat: null
 title: 10th Middlesex (2001-2010)
 layout: district

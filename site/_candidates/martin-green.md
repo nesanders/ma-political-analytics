@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3761
   war: 0.0319
+  war_v2: 0.0319
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3442
+  expected_two_party_share_v2: 0.3442
   is_uncontested: false
   is_incumbent: false
 title: Martin Green

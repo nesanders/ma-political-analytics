@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5871
     is_incumbent: true
+    war_v2: 0.4626
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4129
+    expected_two_party_share_v2: 0.5374
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5148
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4852
     is_incumbent: false
+    war_v2: 0.4852
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5148
+    expected_two_party_share_v2: 0.5148
   - name: John M. Valianti
     slug: john-m-valianti
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.62
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5056
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4944
     is_incumbent: true
+    war_v2: 0.3699
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5056
+    expected_two_party_share_v2: 0.6301
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.523
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.477
     is_incumbent: true
+    war_v2: 0.3525
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.523
+    expected_two_party_share_v2: 0.6475
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3682
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6318
     is_incumbent: false
+    war_v2: 0.6318
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3682
+    expected_two_party_share_v2: 0.3682
   is_open_seat: null
 title: 4th Plymouth (2001-2010)
 layout: district

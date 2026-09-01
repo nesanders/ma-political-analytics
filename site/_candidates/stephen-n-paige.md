@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3328
   war: -0.0533
+  war_v2: -0.0533
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3861
+  expected_two_party_share_v2: 0.3861
   is_uncontested: false
   is_incumbent: false
 title: Stephen N. Paige

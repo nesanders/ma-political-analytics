@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6194
     war: 0.0713
     is_incumbent: false
+    war_v2: 0.0713
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5481
+    expected_two_party_share_v2: 0.5481
   - name: John M. Iredale
     slug: john-m-iredale
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3806
     war: -0.0713
     is_incumbent: false
+    war_v2: -0.0713
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4519
+    expected_two_party_share_v2: 0.4519
   - name: Karl Roos
     slug: karl-roos
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1927
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5947
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4053
     is_incumbent: true
+    war_v2: 0.2808
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5947
+    expected_two_party_share_v2: 0.7192
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5826
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4174
     is_incumbent: true
+    war_v2: 0.2929
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5826
+    expected_two_party_share_v2: 0.7071
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6438
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3562
     is_incumbent: true
+    war_v2: 0.2317
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6438
+    expected_two_party_share_v2: 0.7683
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5
     is_incumbent: false
+    war_v2: 0.5
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5
+    expected_two_party_share_v2: 0.5
   is_open_seat: null
 title: 2nd Norfolk (2001-2010)
 layout: district

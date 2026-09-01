@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1358
+  war_v2: 0.1358
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8642
+  expected_two_party_share_v2: 0.8642
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7725
   war: -0.057
+  war_v2: -0.1815
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8295
+  expected_two_party_share_v2: 0.954
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1324
+  war_v2: 0.0079
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8676
+  expected_two_party_share_v2: 0.9921
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1578
+  war_v2: 0.0333
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8422
+  expected_two_party_share_v2: 0.9667
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7655
   war: -0.0781
+  war_v2: -0.0781
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8436
+  expected_two_party_share_v2: 0.8436
   is_uncontested: false
   is_incumbent: false
 title: Martha Walz

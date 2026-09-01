@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2467
     is_incumbent: true
+    war_v2: 0.1222
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7533
+    expected_two_party_share_v2: 0.8778
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8032
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1968
     is_incumbent: true
+    war_v2: 0.0723
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8032
+    expected_two_party_share_v2: 0.9277
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.259
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7748
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2252
     is_incumbent: true
+    war_v2: 0.1007
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7748
+    expected_two_party_share_v2: 0.8993
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7832
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2168
     is_incumbent: true
+    war_v2: 0.0923
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7832
+    expected_two_party_share_v2: 0.9077
   - name: Susan C. Long
     slug: susan-c-long
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2261
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6541
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.8569
     war: 0.2027
     is_incumbent: false
+    war_v2: 0.2027
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6542
+    expected_two_party_share_v2: 0.6542
   - name: Walter R. Campbell
     slug: walter-r-campbell
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.1431
     war: -0.2027
     is_incumbent: false
+    war_v2: -0.2027
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3458
+    expected_two_party_share_v2: 0.3458
   is_open_seat: null
 title: First Suffolk (2001-2010)
 layout: district

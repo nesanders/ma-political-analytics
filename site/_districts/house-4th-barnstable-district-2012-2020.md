@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2966
     is_incumbent: true
+    war_v2: 0.1721
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7034
+    expected_two_party_share_v2: 0.8279
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3207
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6793
     is_incumbent: true
+    war_v2: 0.5548
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3207
+    expected_two_party_share_v2: 0.4452
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6511
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3489
     is_incumbent: true
+    war_v2: 0.2244
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6511
+    expected_two_party_share_v2: 0.7756
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.522
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.478
     is_incumbent: true
+    war_v2: 0.3535
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.522
+    expected_two_party_share_v2: 0.6465
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.607
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.393
     is_incumbent: false
+    war_v2: 0.393
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.607
+    expected_two_party_share_v2: 0.607
   is_open_seat: null
 title: 4th Barnstable District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3142
   war: -0.128
+  war_v2: -0.128
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4422
+  expected_two_party_share_v2: 0.4422
   is_uncontested: false
   is_incumbent: false
 title: Jacqueline Gisela Kostas

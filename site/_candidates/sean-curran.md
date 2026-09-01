@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2011
+  war_v2: 0.2011
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7989
+  expected_two_party_share_v2: 0.7989
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2937
+  war_v2: 0.1692
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7063
+  expected_two_party_share_v2: 0.8308
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2301
+  war_v2: 0.1056
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7699
+  expected_two_party_share_v2: 0.8944
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.266
+  war_v2: 0.1415
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.734
+  expected_two_party_share_v2: 0.8585
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2835
+  war_v2: 0.2835
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7165
+  expected_two_party_share_v2: 0.7165
   is_uncontested: true
   is_incumbent: false
 title: Sean Curran

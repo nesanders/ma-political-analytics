@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2763
+  war_v2: 0.2763
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7237
+  expected_two_party_share_v2: 0.7237
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.412
+  war_v2: 0.2875
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.588
+  expected_two_party_share_v2: 0.7125
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3051
+  war_v2: 0.1806
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6949
+  expected_two_party_share_v2: 0.8194
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3454
+  war_v2: 0.2209
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6546
+  expected_two_party_share_v2: 0.7791
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2906
+  war_v2: 0.1661
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7094
+  expected_two_party_share_v2: 0.8339
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4389
+  war_v2: 0.4389
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5611
+  expected_two_party_share_v2: 0.5611
   is_uncontested: true
   is_incumbent: false
 title: Christopher G. Fallon

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3542
   war: -0.1346
+  war_v2: -0.1346
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4888
+  expected_two_party_share_v2: 0.4888
   is_uncontested: false
   is_incumbent: false
 title: Anthony Lucacio

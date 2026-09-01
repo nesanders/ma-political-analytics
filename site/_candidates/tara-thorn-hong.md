@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3797
+  war_v2: 0.3797
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6203
+  expected_two_party_share_v2: 0.6203
   is_uncontested: true
   is_incumbent: false
 title: Tara Thorn Hong

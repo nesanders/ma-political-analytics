@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5448
     war: -0.0139
     is_incumbent: false
+    war_v2: -0.0139
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5587
+    expected_two_party_share_v2: 0.5587
   - name: Steven J. D'Amico
     slug: steven-j-damico
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4552
     war: 0.0139
     is_incumbent: true
+    war_v2: -0.1106
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4413
+    expected_two_party_share_v2: 0.5658
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4431
     is_incumbent: true
+    war_v2: 0.3186
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5569
+    expected_two_party_share_v2: 0.6814
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5324
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5696
     war: 0.0372
     is_incumbent: false
+    war_v2: 0.0372
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5324
+    expected_two_party_share_v2: 0.5324
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4304
     war: -0.0372
     is_incumbent: false
+    war_v2: -0.0372
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4676
+    expected_two_party_share_v2: 0.4676
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5725
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6317
     war: 0.0592
     is_incumbent: true
+    war_v2: -0.0653
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5725
+    expected_two_party_share_v2: 0.697
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3683
     war: -0.0592
     is_incumbent: false
+    war_v2: -0.0592
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4275
+    expected_two_party_share_v2: 0.4275
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4353
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5647
     is_incumbent: false
+    war_v2: 0.5647
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4353
+    expected_two_party_share_v2: 0.4353
   is_open_seat: null
 title: 4th Bristol (2001-2010)
 layout: district

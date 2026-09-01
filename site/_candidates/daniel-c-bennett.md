@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.372
   war: -0.1102
+  war_v2: -0.1102
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4822
+  expected_two_party_share_v2: 0.4822
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4855
   war: -0.0979
+  war_v2: -0.0979
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5834
+  expected_two_party_share_v2: 0.5834
   is_uncontested: false
   is_incumbent: false
 title: Daniel C. Bennett

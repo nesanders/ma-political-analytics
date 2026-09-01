@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5713
     war: 0.0373
     is_incumbent: true
+    war_v2: -0.0872
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.534
+    expected_two_party_share_v2: 0.6585
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4287
     war: -0.0373
     is_incumbent: false
+    war_v2: -0.0373
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.466
+    expected_two_party_share_v2: 0.466
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2159
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.554
     war: 0.3381
     is_incumbent: true
+    war_v2: 0.2136
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2159
+    expected_two_party_share_v2: 0.3404
   - name: Edward A. Gravel
     slug: edward-a-gravel
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.446
     war: -0.3381
     is_incumbent: false
+    war_v2: -0.3381
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7841
+    expected_two_party_share_v2: 0.7841
   - name: Yasmine Khdeer
     slug: yasmine-khdeer
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0291
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4984
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5016
     is_incumbent: true
+    war_v2: 0.3771
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4984
+    expected_two_party_share_v2: 0.6229
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4101
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.5015
     war: 0.0913
     is_incumbent: true
+    war_v2: -0.0332
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4102
+    expected_two_party_share_v2: 0.5347
   - name: Garret Shetrawski
     slug: garret-shetrawski
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.4985
     war: -0.0913
     is_incumbent: false
+    war_v2: -0.0913
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5898
+    expected_two_party_share_v2: 0.5898
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5441
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.51
     war: -0.0341
     is_incumbent: false
+    war_v2: -0.0341
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5441
+    expected_two_party_share_v2: 0.5441
   - name: Richard M. Bastien
     slug: richard-m-bastien
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.49
     war: 0.0341
     is_incumbent: false
+    war_v2: 0.0341
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4559
+    expected_two_party_share_v2: 0.4559
   is_open_seat: null
 title: 2nd Worcester District (2012-2020)
 layout: district

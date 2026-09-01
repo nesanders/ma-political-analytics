@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4183
   war: -0.0637
+  war_v2: -0.0637
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.482
+  expected_two_party_share_v2: 0.482
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3654
   war: -0.215
+  war_v2: -0.215
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5804
+  expected_two_party_share_v2: 0.5804
   is_uncontested: false
   is_incumbent: false
 title: Maria Marasco

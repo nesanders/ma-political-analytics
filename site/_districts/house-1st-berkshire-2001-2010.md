@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2393
     is_incumbent: false
+    war_v2: 0.2393
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7607
+    expected_two_party_share_v2: 0.7607
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.771
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.229
     is_incumbent: true
+    war_v2: 0.1045
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.771
+    expected_two_party_share_v2: 0.8955
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.8108
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1892
     is_incumbent: true
+    war_v2: 0.0647
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8108
+    expected_two_party_share_v2: 0.9353
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7461
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.8217
     war: 0.0757
     is_incumbent: true
+    war_v2: -0.0488
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.746
+    expected_two_party_share_v2: 0.8705
   - name: Jay H. Lukkarila
     slug: jay-h-lukkarila
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.1783
     war: -0.0757
     is_incumbent: false
+    war_v2: -0.0757
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.254
+    expected_two_party_share_v2: 0.254
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6858
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3142
     is_incumbent: false
+    war_v2: 0.3142
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6858
+    expected_two_party_share_v2: 0.6858
   is_open_seat: null
 title: 1st Berkshire (2001-2010)
 layout: district

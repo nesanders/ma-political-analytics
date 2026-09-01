@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4778
     is_incumbent: true
+    war_v2: 0.3533
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5222
+    expected_two_party_share_v2: 0.6467
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6316
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3684
     is_incumbent: true
+    war_v2: 0.2439
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6316
+    expected_two_party_share_v2: 0.7561
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6132
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3868
     is_incumbent: true
+    war_v2: 0.2623
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6132
+    expected_two_party_share_v2: 0.7377
   - name: Ronald R. Sliski
     slug: ronald-r-sliski
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2379
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6479
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.8158
     war: 0.1679
     is_incumbent: true
+    war_v2: 0.0434
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6479
+    expected_two_party_share_v2: 0.7724
   - name: Brant G. DuBois
     slug: brant-g-dubois
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.1842
     war: -0.1679
     is_incumbent: false
+    war_v2: -0.1679
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3521
+    expected_two_party_share_v2: 0.3521
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5268
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4732
     is_incumbent: false
+    war_v2: 0.4732
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5268
+    expected_two_party_share_v2: 0.5268
   is_open_seat: null
 title: 8th Hampden (2001-2010)
 layout: district

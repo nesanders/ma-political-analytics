@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.41
   war: -0.1438
+  war_v2: -0.1438
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5538
+  expected_two_party_share_v2: 0.5538
   is_uncontested: false
   is_incumbent: false
 title: James F. Munafo, Jr.

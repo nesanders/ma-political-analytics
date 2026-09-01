@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.4491
+  war_v2: 0.4491
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5509
+  expected_two_party_share_v2: 0.5509
   is_uncontested: true
   is_incumbent: false
 title: William E. Larose

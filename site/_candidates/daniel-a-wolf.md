@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6273
   war: 0.1541
+  war_v2: 0.0296
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4732
+  expected_two_party_share_v2: 0.5977
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4276
+  war_v2: 0.4276
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5724
+  expected_two_party_share_v2: 0.5724
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5745
   war: 0.0738
+  war_v2: 0.0738
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5007
+  expected_two_party_share_v2: 0.5007
   is_uncontested: false
   is_incumbent: false
 title: Daniel A. Wolf

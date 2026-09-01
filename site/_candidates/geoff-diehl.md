@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4757
+  war_v2: 0.3512
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5243
+  expected_two_party_share_v2: 0.6488
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3652
+  war_v2: 0.2407
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6348
+  expected_two_party_share_v2: 0.7593
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5424
   war: 0.0348
+  war_v2: 0.0348
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5076
+  expected_two_party_share_v2: 0.5076
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5126
   war: -0.1099
+  war_v2: -0.1099
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6225
+  expected_two_party_share_v2: 0.6225
   is_uncontested: false
   is_incumbent: false
 title: Geoff Diehl

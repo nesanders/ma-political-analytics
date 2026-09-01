@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1234
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4327
   war: 0.2079
+  war_v2: 0.2079
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2248
+  expected_two_party_share_v2: 0.2248
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.4222
   war: -0.0496
+  war_v2: -0.0496
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4718
+  expected_two_party_share_v2: 0.4718
   is_uncontested: false
   is_incumbent: false
 title: Sarah G. Hewins

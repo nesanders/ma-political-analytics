@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2524
     is_incumbent: true
+    war_v2: 0.1279
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7476
+    expected_two_party_share_v2: 0.8721
   - name: Lee Scott Laugenour
     slug: lee-scott-laugenour
     party: null
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2201
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.759
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.241
     is_incumbent: true
+    war_v2: 0.1165
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.759
+    expected_two_party_share_v2: 0.8835
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7732
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2268
     is_incumbent: true
+    war_v2: 0.1023
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7732
+    expected_two_party_share_v2: 0.8977
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.721
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.7316
     war: 0.0107
     is_incumbent: true
+    war_v2: -0.1138
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7209
+    expected_two_party_share_v2: 0.8454
   - name: James J. Bashour
     slug: james-j-bashour
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2684
     war: -0.0107
     is_incumbent: false
+    war_v2: -0.0107
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2791
+    expected_two_party_share_v2: 0.2791
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6294
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.7224
     war: 0.093
     is_incumbent: false
+    war_v2: 0.093
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6294
+    expected_two_party_share_v2: 0.6294
   - name: Thomas H. Stokes
     slug: thomas-h-stokes
     party: Other
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4393
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: J. Cristopher Irsfeld
     slug: j-cristopher-irsfeld
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.2776
     war: -0.093
     is_incumbent: false
+    war_v2: -0.093
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3706
+    expected_two_party_share_v2: 0.3706
   is_open_seat: null
 title: 4th Berkshire (2001-2010)
 layout: district

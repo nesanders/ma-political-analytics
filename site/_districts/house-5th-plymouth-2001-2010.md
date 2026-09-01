@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5283
     war: 0.1396
     is_incumbent: false
+    war_v2: 0.1396
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3887
+    expected_two_party_share_v2: 0.3887
   - name: Korey M. Welch
     slug: korey-m-welch
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4717
     war: -0.1396
     is_incumbent: false
+    war_v2: -0.1396
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6113
+    expected_two_party_share_v2: 0.6113
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.4813
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5187
     is_incumbent: true
+    war_v2: 0.3942
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4813
+    expected_two_party_share_v2: 0.6058
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4758
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6346
     war: 0.1588
     is_incumbent: true
+    war_v2: 0.0343
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4758
+    expected_two_party_share_v2: 0.6003
   - name: Timothy M. Gillespie, Jr.
     slug: timothy-m-gillespie-jr
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3654
     war: -0.1588
     is_incumbent: false
+    war_v2: -0.1588
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5242
+    expected_two_party_share_v2: 0.5242
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5075
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4925
     is_incumbent: true
+    war_v2: 0.368
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5075
+    expected_two_party_share_v2: 0.632
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3649
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6255
     war: 0.2606
     is_incumbent: false
+    war_v2: 0.2606
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3649
+    expected_two_party_share_v2: 0.3649
   - name: Joseph E. Mullin
     slug: joseph-e-mullin
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3745
     war: -0.2606
     is_incumbent: false
+    war_v2: -0.2606
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6351
+    expected_two_party_share_v2: 0.6351
   is_open_seat: null
 title: 5th Plymouth (2001-2010)
 layout: district

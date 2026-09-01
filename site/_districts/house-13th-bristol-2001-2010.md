@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2742
     is_incumbent: true
+    war_v2: 0.1497
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7258
+    expected_two_party_share_v2: 0.8503
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7521
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2479
     is_incumbent: true
+    war_v2: 0.1234
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7521
+    expected_two_party_share_v2: 0.8766
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7646
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2354
     is_incumbent: true
+    war_v2: 0.1109
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7646
+    expected_two_party_share_v2: 0.8891
   - name: Robert K. Gardner, Jr.
     slug: robert-k-gardner-jr
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.1836
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Carlos Felix
     slug: carlos-felix
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.082
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7771
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2229
     is_incumbent: true
+    war_v2: 0.0984
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7771
+    expected_two_party_share_v2: 0.9016
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.7336
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2664
     is_incumbent: false
+    war_v2: 0.2664
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7336
+    expected_two_party_share_v2: 0.7336
   is_open_seat: null
 title: 13th Bristol (2001-2010)
 layout: district

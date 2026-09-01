@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5331
     is_incumbent: true
+    war_v2: 0.4086
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4669
+    expected_two_party_share_v2: 0.5914
   - name: Gary M. Lowell
     slug: gary-m-lowell
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.5695
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5545
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4455
     is_incumbent: true
+    war_v2: 0.321
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5545
+    expected_two_party_share_v2: 0.679
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5402
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4598
     is_incumbent: true
+    war_v2: 0.3353
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5402
+    expected_two_party_share_v2: 0.6647
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5929
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4071
     is_incumbent: true
+    war_v2: 0.2826
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5929
+    expected_two_party_share_v2: 0.7174
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4494
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5506
     is_incumbent: false
+    war_v2: 0.5506
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4494
+    expected_two_party_share_v2: 0.4494
   is_open_seat: null
 title: 3rd Norfolk (2001-2010)
 layout: district

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3797
     is_incumbent: false
+    war_v2: 0.3797
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6203
+    expected_two_party_share_v2: 0.6203
   - name: David Michael Ouellette
     slug: david-michael-ouellette
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.2766
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6753
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3247
     is_incumbent: false
+    war_v2: 0.3247
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6753
+    expected_two_party_share_v2: 0.6753
   is_open_seat: null
 demographics:
   total_population: 42499

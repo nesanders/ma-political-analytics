@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3478
+  war_v2: 0.2233
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6522
+  expected_two_party_share_v2: 0.7767
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4875
+  war_v2: 0.363
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5125
+  expected_two_party_share_v2: 0.637
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6816
   war: 0.0742
+  war_v2: 0.0742
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6074
+  expected_two_party_share_v2: 0.6074
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4613
+  war_v2: 0.3368
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5387
+  expected_two_party_share_v2: 0.6632
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6661
   war: 0.0465
+  war_v2: 0.0465
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6196
+  expected_two_party_share_v2: 0.6196
   is_uncontested: false
   is_incumbent: false
 title: Kenneth J. Donnelly

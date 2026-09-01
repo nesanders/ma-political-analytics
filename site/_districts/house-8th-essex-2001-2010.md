@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6194
     war: 0.1521
     is_incumbent: true
+    war_v2: 0.0276
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4673
+    expected_two_party_share_v2: 0.5918
   - name: Katherine Kozitza
     slug: katherine-kozitza
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3806
     war: -0.1521
     is_incumbent: false
+    war_v2: -0.1521
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5327
+    expected_two_party_share_v2: 0.5327
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6388
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6672
     war: 0.0285
     is_incumbent: false
+    war_v2: 0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6387
+    expected_two_party_share_v2: 0.6387
   - name: John Blaisdell
     slug: john-blaisdell
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3328
     war: -0.0285
     is_incumbent: false
+    war_v2: -0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3613
+    expected_two_party_share_v2: 0.3613
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6077
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3923
     is_incumbent: true
+    war_v2: 0.2678
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6077
+    expected_two_party_share_v2: 0.7322
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6408
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6548
     war: 0.014
     is_incumbent: true
+    war_v2: -0.1105
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6408
+    expected_two_party_share_v2: 0.7653
   - name: Sharon D. Randall
     slug: sharon-d-randall
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3452
     war: -0.014
     is_incumbent: false
+    war_v2: -0.014
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3592
+    expected_two_party_share_v2: 0.3592
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4257
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5743
     is_incumbent: false
+    war_v2: 0.5743
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4257
+    expected_two_party_share_v2: 0.4257
   is_open_seat: null
 title: 8th Essex (2001-2010)
 layout: district

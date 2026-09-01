@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2131
+  war_v2: 0.0886
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7869
+  expected_two_party_share_v2: 0.9114
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3441
+  war_v2: 0.3441
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6559
+  expected_two_party_share_v2: 0.6559
   is_uncontested: true
   is_incumbent: false
 title: Brian Paul Golden

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0658
     is_incumbent: true
+    war_v2: -0.0587
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.9342
+    expected_two_party_share_v2: 1.0587
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6598
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3402
     is_incumbent: true
+    war_v2: 0.2157
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6598
+    expected_two_party_share_v2: 0.7843
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.9331
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.0669
     is_incumbent: true
+    war_v2: -0.0576
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.9331
+    expected_two_party_share_v2: 1.0576
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.82
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.18
     is_incumbent: true
+    war_v2: 0.0555
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.82
+    expected_two_party_share_v2: 0.9445
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.888
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.112
     is_incumbent: false
+    war_v2: 0.112
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.888
+    expected_two_party_share_v2: 0.888
   is_open_seat: null
 title: 25th Middlesex District (2012-2020)
 layout: district

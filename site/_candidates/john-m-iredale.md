@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3806
   war: -0.0713
+  war_v2: -0.0713
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4519
+  expected_two_party_share_v2: 0.4519
   is_uncontested: false
   is_incumbent: false
 title: John M. Iredale

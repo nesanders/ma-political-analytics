@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3775
   war: -0.2471
+  war_v2: -0.2471
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6246
+  expected_two_party_share_v2: 0.6246
   is_uncontested: false
   is_incumbent: false
 title: Robert G. Hazelton, III

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5145
     war: 0.0979
     is_incumbent: true
+    war_v2: -0.0266
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4166
+    expected_two_party_share_v2: 0.5411
   - name: Daniel C. Bennett
     slug: daniel-c-bennett
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4855
     war: -0.0979
     is_incumbent: false
+    war_v2: -0.0979
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5834
+    expected_two_party_share_v2: 0.5834
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5489
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4511
     is_incumbent: true
+    war_v2: 0.3266
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5489
+    expected_two_party_share_v2: 0.6734
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5055
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4945
     is_incumbent: true
+    war_v2: 0.37
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5055
+    expected_two_party_share_v2: 0.63
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5417
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5779
     war: 0.0362
     is_incumbent: true
+    war_v2: -0.0883
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5417
+    expected_two_party_share_v2: 0.6662
   - name: Judith F. Judson
     slug: judith-f-judson
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4221
     war: -0.0362
     is_incumbent: false
+    war_v2: -0.0362
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4583
+    expected_two_party_share_v2: 0.4583
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3622
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5331
     war: 0.1709
     is_incumbent: false
+    war_v2: 0.1709
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3622
+    expected_two_party_share_v2: 0.3622
   - name: Stephen S. Clark
     slug: stephen-s-clark
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4669
     war: -0.1709
     is_incumbent: false
+    war_v2: -0.1709
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6378
+    expected_two_party_share_v2: 0.6378
   is_open_seat: null
 title: 13th Essex (2001-2010)
 layout: district

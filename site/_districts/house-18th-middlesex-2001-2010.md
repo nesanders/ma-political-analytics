@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4535
     is_incumbent: true
+    war_v2: 0.329
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5465
+    expected_two_party_share_v2: 0.671
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.665
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.335
     is_incumbent: true
+    war_v2: 0.2105
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.665
+    expected_two_party_share_v2: 0.7895
   - name: Kenneth J. Patrician
     slug: kenneth-j-patrician
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.1952
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6168
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3832
     is_incumbent: true
+    war_v2: 0.2587
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6168
+    expected_two_party_share_v2: 0.7413
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6327
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3673
     is_incumbent: true
+    war_v2: 0.2428
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6327
+    expected_two_party_share_v2: 0.7572
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5019
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7679
     war: 0.266
     is_incumbent: false
+    war_v2: 0.266
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5019
+    expected_two_party_share_v2: 0.5019
   - name: John W. Charow, Jr.
     slug: john-w-charow-jr
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2321
     war: -0.266
     is_incumbent: false
+    war_v2: -0.266
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4981
+    expected_two_party_share_v2: 0.4981
   is_open_seat: null
 title: 18th Middlesex (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1534
   war: -0.0636
+  war_v2: -0.0636
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.217
+  expected_two_party_share_v2: 0.217
   is_uncontested: false
   is_incumbent: false
 title: Camillo Giangrande, III

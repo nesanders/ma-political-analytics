@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3973
   war: -0.1317
+  war_v2: -0.1317
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.529
+  expected_two_party_share_v2: 0.529
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3878
   war: 0.0024
+  war_v2: 0.0024
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3854
+  expected_two_party_share_v2: 0.3854
   is_uncontested: false
   is_incumbent: false
 title: Paul J. Franco

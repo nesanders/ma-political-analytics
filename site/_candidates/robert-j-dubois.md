@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4875
   war: -0.0083
+  war_v2: -0.0083
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4958
+  expected_two_party_share_v2: 0.4958
   is_uncontested: false
   is_incumbent: false
 title: Robert J. Dubois

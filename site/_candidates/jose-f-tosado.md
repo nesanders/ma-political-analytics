@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5717
+  war_v2: 0.4472
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4283
+  expected_two_party_share_v2: 0.5528
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2283
+  war_v2: 0.1038
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7717
+  expected_two_party_share_v2: 0.8962
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3574
+  war_v2: 0.3574
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6426
+  expected_two_party_share_v2: 0.6426
   is_uncontested: true
   is_incumbent: false
 title: Jose F. Tosado

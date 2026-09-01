@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4938
     is_incumbent: true
+    war_v2: 0.3693
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5062
+    expected_two_party_share_v2: 0.6307
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6084
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3916
     is_incumbent: true
+    war_v2: 0.2671
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6084
+    expected_two_party_share_v2: 0.7329
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5734
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4266
     is_incumbent: true
+    war_v2: 0.3021
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5734
+    expected_two_party_share_v2: 0.6979
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6575
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7833
     war: 0.1258
     is_incumbent: true
+    war_v2: 0.0013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6575
+    expected_two_party_share_v2: 0.782
   - name: Stephen John White
     slug: stephen-john-white
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2167
     war: -0.1258
     is_incumbent: false
+    war_v2: -0.1258
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3425
+    expected_two_party_share_v2: 0.3425
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4945
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7491
     war: 0.2546
     is_incumbent: false
+    war_v2: 0.2546
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4945
+    expected_two_party_share_v2: 0.4945
   - name: Paul J. Ronukaitus
     slug: paul-j-ronukaitus
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2509
     war: -0.2546
     is_incumbent: false
+    war_v2: -0.2546
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5055
+    expected_two_party_share_v2: 0.5055
   is_open_seat: null
 title: 19th Suffolk (2001-2010)
 layout: district

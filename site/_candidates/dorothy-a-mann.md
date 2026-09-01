@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.408
   war: -0.0588
+  war_v2: -0.0588
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4668
+  expected_two_party_share_v2: 0.4668
   is_uncontested: false
   is_incumbent: false
 title: Dorothy A. Mann

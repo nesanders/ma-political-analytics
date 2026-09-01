@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.285
+  war_v2: 0.1605
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.715
+  expected_two_party_share_v2: 0.8395
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7381
+  war_v2: 0.6136
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2619
+  expected_two_party_share_v2: 0.3864
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3394
+  war_v2: 0.2149
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6606
+  expected_two_party_share_v2: 0.7851
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5676
   war: 0.169
+  war_v2: 0.0445
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3986
+  expected_two_party_share_v2: 0.5231
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6137
   war: 0.0839
+  war_v2: 0.0839
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5298
+  expected_two_party_share_v2: 0.5298
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5625
+  war_v2: 0.438
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4375
+  expected_two_party_share_v2: 0.562
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.5222
   war: -0.0499
+  war_v2: -0.0499
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5721
+  expected_two_party_share_v2: 0.5721
   is_uncontested: false
   is_incumbent: false
 title: Carolyn C. Dykema

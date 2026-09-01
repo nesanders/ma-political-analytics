@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4449
+  war_v2: 0.3204
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5551
+  expected_two_party_share_v2: 0.6796
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3415
+  war_v2: 0.3415
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6585
+  expected_two_party_share_v2: 0.6585
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4269
+  war_v2: 0.3024
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5731
+  expected_two_party_share_v2: 0.6976
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.2687
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Timothy R. Madden

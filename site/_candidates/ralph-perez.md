@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2717
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.26
   war: -0.3552
+  war_v2: -0.3552
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6152
+  expected_two_party_share_v2: 0.6152
   is_uncontested: false
   is_incumbent: false
 title: Ralph Perez

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4871
   war: -0.1096
+  war_v2: -0.1096
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5967
+  expected_two_party_share_v2: 0.5967
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4929
   war: 0.261
+  war_v2: 0.261
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2319
+  expected_two_party_share_v2: 0.2319
   is_uncontested: false
   is_incumbent: false
 title: Christina Eckert

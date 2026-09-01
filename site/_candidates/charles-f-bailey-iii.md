@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3823
   war: -0.0187
+  war_v2: -0.0187
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.401
+  expected_two_party_share_v2: 0.401
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3626
   war: -0.0327
+  war_v2: -0.0327
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3953
+  expected_two_party_share_v2: 0.3953
   is_uncontested: false
   is_incumbent: false
 title: Charles F. Bailey, III

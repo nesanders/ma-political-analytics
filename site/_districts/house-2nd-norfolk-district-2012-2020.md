@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3202
     is_incumbent: true
+    war_v2: 0.1957
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6798
+    expected_two_party_share_v2: 0.8043
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3409
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.7071
     war: 0.3662
     is_incumbent: true
+    war_v2: 0.2417
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3409
+    expected_two_party_share_v2: 0.4654
   - name: William Burke
     slug: william-burke
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2929
     war: -0.3662
     is_incumbent: false
+    war_v2: -0.3662
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6591
+    expected_two_party_share_v2: 0.6591
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6567
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3433
     is_incumbent: true
+    war_v2: 0.2188
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6567
+    expected_two_party_share_v2: 0.7812
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4776
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5224
     is_incumbent: true
+    war_v2: 0.3979
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4776
+    expected_two_party_share_v2: 0.6021
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6259
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3741
     is_incumbent: false
+    war_v2: 0.3741
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6259
+    expected_two_party_share_v2: 0.6259
   is_open_seat: null
 title: 2nd Norfolk District (2012-2020)
 layout: district

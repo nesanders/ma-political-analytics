@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4735
   war: 0.0243
+  war_v2: 0.0243
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4492
+  expected_two_party_share_v2: 0.4492
   is_uncontested: false
   is_incumbent: false
 title: Kevin J. Begley

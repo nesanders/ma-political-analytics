@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2167
   war: -0.1258
+  war_v2: -0.1258
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3425
+  expected_two_party_share_v2: 0.3425
   is_uncontested: false
   is_incumbent: false
 title: Stephen John White

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4263
   war: -0.1719
+  war_v2: -0.1719
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5982
+  expected_two_party_share_v2: 0.5982
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4206
   war: -0.1799
+  war_v2: -0.1799
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6005
+  expected_two_party_share_v2: 0.6005
   is_uncontested: false
   is_incumbent: false
 title: Al DiNuccio

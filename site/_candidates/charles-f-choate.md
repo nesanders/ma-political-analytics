@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2382
   war: -0.3052
+  war_v2: -0.3052
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5434
+  expected_two_party_share_v2: 0.5434
   is_uncontested: false
   is_incumbent: false
 title: Charles F. Choate

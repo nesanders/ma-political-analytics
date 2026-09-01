@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3376
+  war_v2: 0.2131
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6624
+  expected_two_party_share_v2: 0.7869
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6361
   war: -0.0413
+  war_v2: -0.0413
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6774
+  expected_two_party_share_v2: 0.6774
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3045
+  war_v2: 0.18
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6955
+  expected_two_party_share_v2: 0.82
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6703
   war: 0.3471
+  war_v2: 0.2226
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3232
+  expected_two_party_share_v2: 0.4477
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6915
   war: 0.0376
+  war_v2: -0.0869
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6539
+  expected_two_party_share_v2: 0.7784
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.5684
   war: 0.0884
+  war_v2: 0.0884
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.48
+  expected_two_party_share_v2: 0.48
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.5984
   war: 0.0473
+  war_v2: 0.0473
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5511
+  expected_two_party_share_v2: 0.5511
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.5971
   war: 0.1295
+  war_v2: 0.005
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4676
+  expected_two_party_share_v2: 0.5921
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.6784
   war: 0.0955
+  war_v2: 0.0955
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5829
+  expected_two_party_share_v2: 0.5829
   is_uncontested: false
   is_incumbent: false
 title: Jason M. Lewis

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.449
+  war_v2: 0.3245
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.551
+  expected_two_party_share_v2: 0.6755
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6112
   war: 0.1844
+  war_v2: 0.0599
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4268
+  expected_two_party_share_v2: 0.5513
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5821
   war: 0.0285
+  war_v2: 0.0285
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5536
+  expected_two_party_share_v2: 0.5536
   is_uncontested: false
   is_incumbent: false
 title: Paul R. Heroux

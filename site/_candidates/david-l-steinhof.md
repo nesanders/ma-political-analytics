@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3778
   war: -0.2997
+  war_v2: -0.2997
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6775
+  expected_two_party_share_v2: 0.6775
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4061
   war: -0.0033
+  war_v2: -0.0033
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4094
+  expected_two_party_share_v2: 0.4094
   is_uncontested: false
   is_incumbent: false
 title: David L. Steinhof

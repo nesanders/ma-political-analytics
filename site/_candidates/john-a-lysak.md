@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2135
   war: -0.066
+  war_v2: -0.066
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2795
+  expected_two_party_share_v2: 0.2795
   is_uncontested: false
   is_incumbent: false
 title: John A. Lysak

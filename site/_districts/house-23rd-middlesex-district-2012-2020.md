@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1762
     is_incumbent: true
+    war_v2: 0.0517
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8238
+    expected_two_party_share_v2: 0.9483
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4986
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5014
     is_incumbent: true
+    war_v2: 0.3769
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4986
+    expected_two_party_share_v2: 0.6231
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7955
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2045
     is_incumbent: true
+    war_v2: 0.08
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7955
+    expected_two_party_share_v2: 0.92
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6564
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7762
     war: 0.1198
     is_incumbent: true
+    war_v2: -0.0047
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6564
+    expected_two_party_share_v2: 0.7809
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2238
     war: -0.1198
     is_incumbent: false
+    war_v2: -0.1198
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3436
+    expected_two_party_share_v2: 0.3436
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7281
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.8135
     war: 0.0854
     is_incumbent: false
+    war_v2: 0.0854
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7281
+    expected_two_party_share_v2: 0.7281
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.1865
     war: -0.0854
     is_incumbent: false
+    war_v2: -0.0854
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2719
+    expected_two_party_share_v2: 0.2719
   is_open_seat: null
 title: 23rd Middlesex District (2012-2020)
 layout: district

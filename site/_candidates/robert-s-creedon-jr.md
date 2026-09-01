@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4324
+  war_v2: 0.3079
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5676
+  expected_two_party_share_v2: 0.6921
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.677
   war: 0.0954
+  war_v2: -0.0291
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5816
+  expected_two_party_share_v2: 0.7061
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5501
+  war_v2: 0.5501
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4499
+  expected_two_party_share_v2: 0.4499
   is_uncontested: true
   is_incumbent: false
 title: Robert S. Creedon, Jr.

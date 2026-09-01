@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.283
     is_incumbent: true
+    war_v2: 0.1585
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.717
+    expected_two_party_share_v2: 0.8415
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.299
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.701
     is_incumbent: true
+    war_v2: 0.5765
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.299
+    expected_two_party_share_v2: 0.4235
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6839
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3161
     is_incumbent: true
+    war_v2: 0.1916
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6839
+    expected_two_party_share_v2: 0.8084
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4633
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5367
     is_incumbent: true
+    war_v2: 0.4122
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4633
+    expected_two_party_share_v2: 0.5878
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5946
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4054
     is_incumbent: false
+    war_v2: 0.4054
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5946
+    expected_two_party_share_v2: 0.5946
   is_open_seat: null
 title: Second Middlesex & Norfolk District (2012-2020)
 layout: district

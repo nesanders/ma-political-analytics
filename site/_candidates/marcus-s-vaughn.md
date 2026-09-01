@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5741
   war: 0.1415
+  war_v2: 0.017
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4326
+  expected_two_party_share_v2: 0.5571
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5087
   war: 0.0705
+  war_v2: 0.0705
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4382
+  expected_two_party_share_v2: 0.4382
   is_uncontested: false
   is_incumbent: false
 ocpf_finance:

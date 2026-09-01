@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5373
+  war_v2: 0.4128
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4627
+  expected_two_party_share_v2: 0.5872
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4363
+  war_v2: 0.3118
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5637
+  expected_two_party_share_v2: 0.6882
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4664
+  war_v2: 0.3419
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5336
+  expected_two_party_share_v2: 0.6581
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6485
   war: 0.074
+  war_v2: -0.0505
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5745
+  expected_two_party_share_v2: 0.699
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.675
   war: 0.2781
+  war_v2: 0.2781
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3969
+  expected_two_party_share_v2: 0.3969
   is_uncontested: false
   is_incumbent: false
 title: Charles A. Murphy

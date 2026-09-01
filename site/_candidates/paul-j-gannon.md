@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4339
   war: -0.14
+  war_v2: -0.14
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5739
+  expected_two_party_share_v2: 0.5739
   is_uncontested: false
   is_incumbent: false
 title: Paul J. Gannon

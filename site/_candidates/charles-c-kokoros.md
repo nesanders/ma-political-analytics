@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.281
   war: -0.1385
+  war_v2: -0.1385
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4195
+  expected_two_party_share_v2: 0.4195
   is_uncontested: false
   is_incumbent: false
 title: Charles C. Kokoros

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5997
   war: 0.2145
+  war_v2: 0.2145
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3852
+  expected_two_party_share_v2: 0.3852
   is_uncontested: false
   is_incumbent: false
 title: Cheryl Ann Jacques

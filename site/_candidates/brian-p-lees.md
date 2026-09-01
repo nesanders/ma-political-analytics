@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6256
+  war_v2: 0.5011
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3744
+  expected_two_party_share_v2: 0.4989
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4873
+  war_v2: 0.4873
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5127
+  expected_two_party_share_v2: 0.5127
   is_uncontested: true
   is_incumbent: false
 title: Brian P. Lees

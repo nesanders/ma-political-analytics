@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4255
   war: -0.0738
+  war_v2: -0.0738
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4993
+  expected_two_party_share_v2: 0.4993
   is_uncontested: false
   is_incumbent: false
 title: James H. Crocker, Jr.

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5817
     is_incumbent: true
+    war_v2: 0.4572
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4183
+    expected_two_party_share_v2: 0.5428
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5642
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4358
     is_incumbent: true
+    war_v2: 0.3113
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5642
+    expected_two_party_share_v2: 0.6887
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5371
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.6544
     war: 0.1173
     is_incumbent: false
+    war_v2: 0.1173
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5371
+    expected_two_party_share_v2: 0.5371
   - name: Robert P. Burns
     slug: robert-p-burns
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.3456
     war: -0.1173
     is_incumbent: false
+    war_v2: -0.1173
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4629
+    expected_two_party_share_v2: 0.4629
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5703
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4297
     is_incumbent: true
+    war_v2: 0.3052
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5703
+    expected_two_party_share_v2: 0.6948
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3843
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6157
     is_incumbent: false
+    war_v2: 0.6157
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3843
+    expected_two_party_share_v2: 0.3843
   is_open_seat: null
 title: 10th Worcester (2001-2010)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1905
     is_incumbent: true
+    war_v2: 0.066
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8095
+    expected_two_party_share_v2: 0.934
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5143
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4857
     is_incumbent: true
+    war_v2: 0.3612
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5143
+    expected_two_party_share_v2: 0.6388
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8369
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1631
     is_incumbent: true
+    war_v2: 0.0386
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8369
+    expected_two_party_share_v2: 0.9614
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6885
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3115
     is_incumbent: false
+    war_v2: 0.3115
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6885
+    expected_two_party_share_v2: 0.6885
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8116
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.8203
     war: 0.0087
     is_incumbent: false
+    war_v2: 0.0087
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8116
+    expected_two_party_share_v2: 0.8116
   - name: Charles F. Klauder
     slug: charles-f-klauder
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.1797
     war: -0.0087
     is_incumbent: false
+    war_v2: -0.0087
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.1884
+    expected_two_party_share_v2: 0.1884
   is_open_seat: null
 title: 2nd Suffolk District (2012-2020)
 layout: district

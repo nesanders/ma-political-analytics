@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2796
     is_incumbent: true
+    war_v2: 0.1551
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7204
+    expected_two_party_share_v2: 0.8449
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7195
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2805
     is_incumbent: false
+    war_v2: 0.2805
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7195
+    expected_two_party_share_v2: 0.7195
   - name: Fred Fontaine
     slug: fred-fontaine
     party: Other
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.0817
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 47084

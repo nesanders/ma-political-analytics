@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4571
   war: -0.022
+  war_v2: -0.022
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4791
+  expected_two_party_share_v2: 0.4791
   is_uncontested: false
   is_incumbent: false
 title: Patricia A. Commane

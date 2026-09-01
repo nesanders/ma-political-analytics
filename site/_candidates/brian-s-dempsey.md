@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4389
+  war_v2: 0.3144
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5611
+  expected_two_party_share_v2: 0.6856
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5665
+  war_v2: 0.442
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4335
+  expected_two_party_share_v2: 0.558
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4327
+  war_v2: 0.4327
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5673
+  expected_two_party_share_v2: 0.5673
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5517
+  war_v2: 0.4272
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4483
+  expected_two_party_share_v2: 0.5728
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4102
+  war_v2: 0.2857
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5898
+  expected_two_party_share_v2: 0.7143
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4448
+  war_v2: 0.3203
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5552
+  expected_two_party_share_v2: 0.6797
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6784
   war: 0.1045
+  war_v2: -0.02
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5739
+  expected_two_party_share_v2: 0.6984
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5852
+  war_v2: 0.5852
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4148
+  expected_two_party_share_v2: 0.4148
   is_uncontested: true
   is_incumbent: false
 title: Brian S. Dempsey

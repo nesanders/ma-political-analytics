@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4941
+  war_v2: 0.4941
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5059
+  expected_two_party_share_v2: 0.5059
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5135
+  war_v2: 0.389
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4865
+  expected_two_party_share_v2: 0.611
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5673
   war: -0.2079
+  war_v2: -0.3324
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7752
+  expected_two_party_share_v2: 0.8997
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5778
   war: 0.0496
+  war_v2: -0.0749
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5282
+  expected_two_party_share_v2: 0.6527
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3874
+  war_v2: 0.2629
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6126
+  expected_two_party_share_v2: 0.7371
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5173
+  war_v2: 0.5173
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4827
+  expected_two_party_share_v2: 0.4827
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6611
   war: 0.1005
+  war_v2: -0.024
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5606
+  expected_two_party_share_v2: 0.6851
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5466
+  war_v2: 0.4221
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4534
+  expected_two_party_share_v2: 0.5779
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 0.5697
   war: 0.1308
+  war_v2: 0.0063
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4389
+  expected_two_party_share_v2: 0.5634
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 0.5178
   war: 0.0755
+  war_v2: -0.049
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4423
+  expected_two_party_share_v2: 0.5668
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 0.5219
   war: -0.0548
+  war_v2: -0.0548
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5767
+  expected_two_party_share_v2: 0.5767
   is_uncontested: false
   is_incumbent: false
 title: Susan Williams Gifford

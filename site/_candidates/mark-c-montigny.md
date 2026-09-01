@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4847
+  war_v2: 0.3602
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5153
+  expected_two_party_share_v2: 0.6398
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4301
+  war_v2: 0.4301
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5699
+  expected_two_party_share_v2: 0.5699
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4209
+  war_v2: 0.2964
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5791
+  expected_two_party_share_v2: 0.7036
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6519
+  war_v2: 0.5274
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3481
+  expected_two_party_share_v2: 0.4726
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4008
+  war_v2: 0.2763
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5992
+  expected_two_party_share_v2: 0.7237
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4335
+  war_v2: 0.309
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5665
+  expected_two_party_share_v2: 0.691
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3134
+  war_v2: 0.3134
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6866
+  expected_two_party_share_v2: 0.6866
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.343
+  war_v2: 0.2185
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.657
+  expected_two_party_share_v2: 0.7815
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3086
+  war_v2: 0.1841
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6914
+  expected_two_party_share_v2: 0.8159
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2821
+  war_v2: 0.1576
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7179
+  expected_two_party_share_v2: 0.8424
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2707
+  war_v2: 0.1462
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7293
+  expected_two_party_share_v2: 0.8538
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -145,6 +189,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3396
+  war_v2: 0.3396
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6604
+  expected_two_party_share_v2: 0.6604
   is_uncontested: true
   is_incumbent: false
 title: Mark C. Montigny

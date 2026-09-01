@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6234
     war: 0.1034
     is_incumbent: true
+    war_v2: -0.0211
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.52
+    expected_two_party_share_v2: 0.6445
   - name: Samuel Biagetti
     slug: samuel-biagetti
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3766
     war: -0.1034
     is_incumbent: false
+    war_v2: -0.1034
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.48
+    expected_two_party_share_v2: 0.48
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2005
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5949
     war: -0.2046
     is_incumbent: true
+    war_v2: -0.3291
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7995
+    expected_two_party_share_v2: 0.924
   - name: Jean Anne Strauss
     slug: jean-anne-strauss
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4051
     war: 0.2046
     is_incumbent: false
+    war_v2: 0.2046
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2005
+    expected_two_party_share_v2: 0.2005
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4296
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4296
     is_incumbent: true
+    war_v2: 0.3051
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5704
+    expected_two_party_share_v2: 0.6949
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3557
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5638
     war: -0.0805
     is_incumbent: false
+    war_v2: -0.0805
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6443
+    expected_two_party_share_v2: 0.6443
   - name: Matthew Castriotta
     slug: matthew-castriotta
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4362
     war: 0.0805
     is_incumbent: false
+    war_v2: 0.0805
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3557
+    expected_two_party_share_v2: 0.3557
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.4862
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.697
     war: 0.2108
     is_incumbent: false
+    war_v2: 0.2108
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4862
+    expected_two_party_share_v2: 0.4862
   - name: Jason M. Petraitis
     slug: jason-m-petraitis
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.303
     war: -0.2108
     is_incumbent: false
+    war_v2: -0.2108
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5138
+    expected_two_party_share_v2: 0.5138
   is_open_seat: null
 title: 5th Worcester District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4831
     is_incumbent: true
+    war_v2: 0.3586
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5169
+    expected_two_party_share_v2: 0.6414
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.64
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.36
     is_incumbent: true
+    war_v2: 0.2355
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.64
+    expected_two_party_share_v2: 0.7645
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5888
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4112
     is_incumbent: true
+    war_v2: 0.2867
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5888
+    expected_two_party_share_v2: 0.7133
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6119
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.7789
     war: 0.167
     is_incumbent: true
+    war_v2: 0.0425
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6119
+    expected_two_party_share_v2: 0.7364
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.2211
     war: -0.167
     is_incumbent: false
+    war_v2: -0.167
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3881
+    expected_two_party_share_v2: 0.3881
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4694
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7729
     war: 0.3035
     is_incumbent: false
+    war_v2: 0.3035
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4694
+    expected_two_party_share_v2: 0.4694
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2271
     war: -0.3035
     is_incumbent: false
+    war_v2: -0.3035
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5306
+    expected_two_party_share_v2: 0.5306
   - name: Eryk C. Boston
     slug: eryk-c-boston
     party: Libertarian
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.0751
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 17th Middlesex (2001-2010)
 layout: district

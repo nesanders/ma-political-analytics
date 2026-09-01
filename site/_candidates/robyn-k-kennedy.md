@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3597
+  war_v2: 0.2352
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6403
+  expected_two_party_share_v2: 0.7648
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.339
+  war_v2: 0.339
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.661
+  expected_two_party_share_v2: 0.661
   is_uncontested: true
   is_incumbent: false
 title: Robyn K. Kennedy

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3364
     is_incumbent: true
+    war_v2: 0.2119
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6636
+    expected_two_party_share_v2: 0.7881
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3133
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6867
     is_incumbent: true
+    war_v2: 0.5622
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3133
+    expected_two_party_share_v2: 0.4378
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6585
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3415
     is_incumbent: true
+    war_v2: 0.217
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6585
+    expected_two_party_share_v2: 0.783
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4844
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5156
     is_incumbent: true
+    war_v2: 0.3911
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4844
+    expected_two_party_share_v2: 0.6089
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6262
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3738
     is_incumbent: false
+    war_v2: 0.3738
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6262
+    expected_two_party_share_v2: 0.6262
   is_open_seat: null
 title: 16th Middlesex District (2012-2020)
 layout: district

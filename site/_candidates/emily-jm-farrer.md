@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3849
   war: 0.11
+  war_v2: 0.11
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2749
+  expected_two_party_share_v2: 0.2749
   is_uncontested: false
   is_incumbent: false
 title: Emily Jm Farrer

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3349
   war: -0.3435
+  war_v2: -0.3435
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6784
+  expected_two_party_share_v2: 0.6784
   is_uncontested: false
   is_incumbent: false
 title: Scott Hall

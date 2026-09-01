@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5335
     is_incumbent: true
+    war_v2: 0.409
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4665
+    expected_two_party_share_v2: 0.591
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.5453
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1942
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6545
     war: -0.1513
     is_incumbent: true
+    war_v2: -0.2758
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8058
+    expected_two_party_share_v2: 0.9303
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3455
     war: 0.1513
     is_incumbent: false
+    war_v2: 0.1513
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.1942
+    expected_two_party_share_v2: 0.1942
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4874
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6633
     war: 0.1507
     is_incumbent: true
+    war_v2: 0.0262
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5126
+    expected_two_party_share_v2: 0.6371
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3367
     war: -0.1507
     is_incumbent: false
+    war_v2: -0.1507
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4874
+    expected_two_party_share_v2: 0.4874
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3577
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.737
     war: 0.0947
     is_incumbent: true
+    war_v2: -0.0298
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6423
+    expected_two_party_share_v2: 0.7668
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.263
     war: -0.0947
     is_incumbent: false
+    war_v2: -0.0947
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3577
+    expected_two_party_share_v2: 0.3577
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5078
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5078
     is_incumbent: false
+    war_v2: 0.5078
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4922
+    expected_two_party_share_v2: 0.4922
   is_open_seat: null
 title: 7th Worcester District (2012-2020)
 layout: district

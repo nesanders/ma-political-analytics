@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4957
     is_incumbent: true
+    war_v2: 0.3712
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5043
+    expected_two_party_share_v2: 0.6288
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6289
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3711
     is_incumbent: true
+    war_v2: 0.2466
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6289
+    expected_two_party_share_v2: 0.7534
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5769
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.7746
     war: 0.1978
     is_incumbent: true
+    war_v2: 0.0733
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5768
+    expected_two_party_share_v2: 0.7013
   - name: Matthew Lewis Prahl
     slug: matthew-lewis-prahl
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2254
     war: -0.1978
     is_incumbent: false
+    war_v2: -0.1978
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4232
+    expected_two_party_share_v2: 0.4232
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6026
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3974
     is_incumbent: true
+    war_v2: 0.2729
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6026
+    expected_two_party_share_v2: 0.7271
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4555
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.7201
     war: 0.2646
     is_incumbent: false
+    war_v2: 0.2646
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4555
+    expected_two_party_share_v2: 0.4555
   - name: Harry H. Garavanian
     slug: harry-h-garavanian
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2799
     war: -0.2646
     is_incumbent: false
+    war_v2: -0.2646
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5445
+    expected_two_party_share_v2: 0.5445
   is_open_seat: null
 title: 16th Middlesex (2001-2010)
 layout: district

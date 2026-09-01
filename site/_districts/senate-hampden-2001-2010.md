@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6094
     war: 0.0555
     is_incumbent: false
+    war_v2: 0.0555
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5539
+    expected_two_party_share_v2: 0.5539
   - name: Robert A. Magovern
     slug: robert-a-magovern
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3906
     war: -0.0555
     is_incumbent: false
+    war_v2: -0.0555
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4461
+    expected_two_party_share_v2: 0.4461
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6448
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3552
     is_incumbent: true
+    war_v2: 0.2307
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6448
+    expected_two_party_share_v2: 0.7693
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6211
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3789
     is_incumbent: true
+    war_v2: 0.2544
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6211
+    expected_two_party_share_v2: 0.7456
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6297
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.7379
     war: 0.1082
     is_incumbent: false
+    war_v2: 0.1082
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6297
+    expected_two_party_share_v2: 0.6297
   - name: Travis W. Chaput
     slug: travis-w-chaput
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2621
     war: -0.1082
     is_incumbent: false
+    war_v2: -0.1082
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3703
+    expected_two_party_share_v2: 0.3703
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4969
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5031
     is_incumbent: false
+    war_v2: 0.5031
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4969
+    expected_two_party_share_v2: 0.4969
   is_open_seat: null
 title: Hampden (2001-2010)
 layout: district

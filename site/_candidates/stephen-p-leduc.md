@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4538
+  war_v2: 0.3293
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5462
+  expected_two_party_share_v2: 0.6707
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7074
   war: 0.1346
+  war_v2: 0.0101
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5728
+  expected_two_party_share_v2: 0.6973
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.734
   war: 0.3659
+  war_v2: 0.3659
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3681
+  expected_two_party_share_v2: 0.3681
   is_uncontested: false
   is_incumbent: false
 title: Stephen P. LeDuc

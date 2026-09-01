@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5453
     is_incumbent: true
+    war_v2: 0.4208
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4547
+    expected_two_party_share_v2: 0.5792
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5535
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5535
     is_incumbent: false
+    war_v2: 0.5535
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4465
+    expected_two_party_share_v2: 0.4465
   is_open_seat: null
 demographics:
   total_population: 44915

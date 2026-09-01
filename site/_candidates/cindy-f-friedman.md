@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3356
+  war_v2: 0.2111
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6644
+  expected_two_party_share_v2: 0.7889
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3192
+  war_v2: 0.3192
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6808
+  expected_two_party_share_v2: 0.6808
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3086
+  war_v2: 0.1841
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6914
+  expected_two_party_share_v2: 0.8159
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6461
+  war_v2: 0.6461
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3539
+  expected_two_party_share_v2: 0.3539
   is_uncontested: true
   is_incumbent: false
 title: Cindy F. Friedman

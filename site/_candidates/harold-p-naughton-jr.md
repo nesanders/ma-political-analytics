@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7622
+  war_v2: 0.6377
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2378
+  expected_two_party_share_v2: 0.3623
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4307
+  war_v2: 0.3062
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5693
+  expected_two_party_share_v2: 0.6938
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5547
   war: 0.1552
+  war_v2: 0.0307
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3995
+  expected_two_party_share_v2: 0.524
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4766
+  war_v2: 0.4766
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5234
+  expected_two_party_share_v2: 0.5234
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6087
   war: 0.1613
+  war_v2: 0.0368
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4474
+  expected_two_party_share_v2: 0.5719
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4431
+  war_v2: 0.3186
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5569
+  expected_two_party_share_v2: 0.6814
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4423
+  war_v2: 0.3178
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5577
+  expected_two_party_share_v2: 0.6822
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.6454
   war: 0.0895
+  war_v2: -0.035
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5559
+  expected_two_party_share_v2: 0.6804
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6333
+  war_v2: 0.6333
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3667
+  expected_two_party_share_v2: 0.3667
   is_uncontested: true
   is_incumbent: false
 title: Harold P. Naughton, Jr.

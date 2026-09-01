@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.184
   war: -0.067
+  war_v2: -0.067
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.251
+  expected_two_party_share_v2: 0.251
   is_uncontested: false
   is_incumbent: false
 title: Thomas J. Dooley, III

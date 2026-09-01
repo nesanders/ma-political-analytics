@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3648
   war: -0.007
+  war_v2: -0.007
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3718
+  expected_two_party_share_v2: 0.3718
   is_uncontested: false
   is_incumbent: false
 title: Susan M. Laplante

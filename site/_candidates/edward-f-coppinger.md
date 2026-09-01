@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1343
+  war_v2: 0.0098
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8657
+  expected_two_party_share_v2: 0.9902
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4747
+  war_v2: 0.3502
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5253
+  expected_two_party_share_v2: 0.6498
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1303
+  war_v2: 0.0058
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8697
+  expected_two_party_share_v2: 0.9942
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3103
+  war_v2: 0.1858
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6897
+  expected_two_party_share_v2: 0.8142
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2032
+  war_v2: 0.2032
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7968
+  expected_two_party_share_v2: 0.7968
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2446
+  war_v2: 0.2446
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7554
+  expected_two_party_share_v2: 0.7554
   is_uncontested: true
   is_incumbent: false
 title: Edward F. Coppinger

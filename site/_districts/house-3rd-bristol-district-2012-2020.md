@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5803
     war: -0.0008
     is_incumbent: false
+    war_v2: -0.0008
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5811
+    expected_two_party_share_v2: 0.5811
   - name: Kelly A. Dooner
     slug: kelly-a-dooner
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4197
     war: 0.0008
     is_incumbent: false
+    war_v2: 0.0008
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4189
+    expected_two_party_share_v2: 0.4189
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2749
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6151
     war: -0.11
     is_incumbent: true
+    war_v2: -0.2345
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7251
+    expected_two_party_share_v2: 0.8496
   - name: Emily Jm Farrer
     slug: emily-jm-farrer
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3849
     war: 0.11
     is_incumbent: false
+    war_v2: 0.11
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2749
+    expected_two_party_share_v2: 0.2749
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.554
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5865
     war: 0.1405
     is_incumbent: true
+    war_v2: 0.016
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.446
+    expected_two_party_share_v2: 0.5705
   - name: Estele C. Borges
     slug: estele-c-borges
     party: Democratic
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4135
     war: -0.1405
     is_incumbent: false
+    war_v2: -0.1405
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.554
+    expected_two_party_share_v2: 0.554
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4637
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6134
     war: 0.0771
     is_incumbent: true
+    war_v2: -0.0474
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5363
+    expected_two_party_share_v2: 0.6608
   - name: Keavin P. Duffy, Jr
     slug: keavin-p-duffy-jr
     party: Democratic
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3866
     war: -0.0771
     is_incumbent: false
+    war_v2: -0.0771
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4637
+    expected_two_party_share_v2: 0.4637
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5822
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5646
     war: 0.1469
     is_incumbent: false
+    war_v2: 0.1469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4177
+    expected_two_party_share_v2: 0.4177
   - name: Sherry Costa-Hanlon
     slug: sherry-costa-hanlon
     party: Democratic
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4354
     war: -0.1469
     is_incumbent: false
+    war_v2: -0.1469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5823
+    expected_two_party_share_v2: 0.5823
   is_open_seat: null
 title: 3rd Bristol District (2012-2020)
 layout: district

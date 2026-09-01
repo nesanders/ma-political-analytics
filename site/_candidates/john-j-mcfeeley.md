@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4373
   war: -0.0641
+  war_v2: -0.0641
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5014
+  expected_two_party_share_v2: 0.5014
   is_uncontested: false
   is_incumbent: false
 title: John J. McFeeley

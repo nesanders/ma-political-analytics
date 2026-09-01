@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4108
+  war_v2: 0.2863
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5892
+  expected_two_party_share_v2: 0.7137
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3435
+  war_v2: 0.219
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6565
+  expected_two_party_share_v2: 0.781
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3268
+  war_v2: 0.2023
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6732
+  expected_two_party_share_v2: 0.7977
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3189
+  war_v2: 0.3189
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6811
+  expected_two_party_share_v2: 0.6811
   is_uncontested: true
   is_incumbent: false
 title: Stephen R. Canessa

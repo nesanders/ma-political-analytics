@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6227
     is_incumbent: true
+    war_v2: 0.4982
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3773
+    expected_two_party_share_v2: 0.5018
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2405
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2405
     is_incumbent: true
+    war_v2: 0.116
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7595
+    expected_two_party_share_v2: 0.884
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5738
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5738
     is_incumbent: true
+    war_v2: 0.4493
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4262
+    expected_two_party_share_v2: 0.5507
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3922
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3922
     is_incumbent: true
+    war_v2: 0.2677
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6078
+    expected_two_party_share_v2: 0.7323
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5119
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5119
     is_incumbent: false
+    war_v2: 0.5119
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4881
+    expected_two_party_share_v2: 0.4881
   is_open_seat: null
 title: First Essex & Middlesex District (2012-2020)
 layout: district

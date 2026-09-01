@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3863
     is_incumbent: true
+    war_v2: 0.2618
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6137
+    expected_two_party_share_v2: 0.7382
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2647
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6631
     war: 0.3984
     is_incumbent: false
+    war_v2: 0.3984
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2647
+    expected_two_party_share_v2: 0.2647
   - name: Alexander Leighton Williams
     slug: alexander-leighton-williams
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3369
     war: -0.3984
     is_incumbent: false
+    war_v2: -0.3984
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7353
+    expected_two_party_share_v2: 0.7353
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5731
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4269
     is_incumbent: true
+    war_v2: 0.3024
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5731
+    expected_two_party_share_v2: 0.6976
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.427
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5382
     war: 0.1112
     is_incumbent: true
+    war_v2: -0.0133
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.427
+    expected_two_party_share_v2: 0.5515
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4618
     war: -0.1112
     is_incumbent: false
+    war_v2: -0.1112
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.573
+    expected_two_party_share_v2: 0.573
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5556
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5773
     war: 0.0217
     is_incumbent: false
+    war_v2: 0.0217
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5556
+    expected_two_party_share_v2: 0.5556
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4227
     war: -0.0217
     is_incumbent: false
+    war_v2: -0.0217
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4444
+    expected_two_party_share_v2: 0.4444
   - name: Paul A. Magliocchetti
     slug: paul-a-magliocchetti
     party: Other
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.2041
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: James M. Kelcourse
     slug: james-m-kelcourse
     party: Other
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.0533
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: First Essex District (2012-2020)
 layout: district

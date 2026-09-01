@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.589
   war: -0.0311
+  war_v2: -0.1556
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6201
+  expected_two_party_share_v2: 0.7446
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5487
   war: -0.0737
+  war_v2: -0.0737
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6224
+  expected_two_party_share_v2: 0.6224
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5975
   war: -0.0741
+  war_v2: -0.1986
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6716
+  expected_two_party_share_v2: 0.7961
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5134
   war: 0.2397
+  war_v2: 0.2397
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2737
+  expected_two_party_share_v2: 0.2737
   is_uncontested: false
   is_incumbent: false
 title: Rebecca L. Rausch

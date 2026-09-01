@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2973
     is_incumbent: true
+    war_v2: 0.1728
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7027
+    expected_two_party_share_v2: 0.8272
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3804
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.7429
     war: 0.3625
     is_incumbent: false
+    war_v2: 0.3625
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3804
+    expected_two_party_share_v2: 0.3804
   - name: Donald Peltier
     slug: donald-peltier
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.2571
     war: -0.3625
     is_incumbent: false
+    war_v2: -0.3625
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6196
+    expected_two_party_share_v2: 0.6196
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.656
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.344
     is_incumbent: true
+    war_v2: 0.2195
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.656
+    expected_two_party_share_v2: 0.7805
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5362
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4638
     is_incumbent: true
+    war_v2: 0.3393
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5362
+    expected_two_party_share_v2: 0.6607
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6668
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3332
     is_incumbent: false
+    war_v2: 0.3332
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6668
+    expected_two_party_share_v2: 0.6668
   is_open_seat: null
 title: 2nd Hampshire District (2012-2020)
 layout: district

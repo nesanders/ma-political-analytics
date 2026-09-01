@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6709
     war: 0.0233
     is_incumbent: true
+    war_v2: -0.1012
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6476
+    expected_two_party_share_v2: 0.7721
   - name: David M. Carnevale
     slug: david-m-carnevale
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3291
     war: -0.0233
     is_incumbent: false
+    war_v2: -0.0233
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3524
+    expected_two_party_share_v2: 0.3524
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7212
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2788
     is_incumbent: true
+    war_v2: 0.1543
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7212
+    expected_two_party_share_v2: 0.8457
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6792
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3208
     is_incumbent: false
+    war_v2: 0.3208
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6792
+    expected_two_party_share_v2: 0.6792
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.721
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.279
     is_incumbent: true
+    war_v2: 0.1545
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.721
+    expected_two_party_share_v2: 0.8455
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5503
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4497
     is_incumbent: false
+    war_v2: 0.4497
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5503
+    expected_two_party_share_v2: 0.5503
   is_open_seat: null
 title: Second Middlesex (2001-2010)
 layout: district

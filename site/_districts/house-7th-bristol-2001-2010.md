@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.7525
     war: 0.0764
     is_incumbent: true
+    war_v2: -0.0481
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6761
+    expected_two_party_share_v2: 0.8006
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2475
     war: -0.0764
     is_incumbent: false
+    war_v2: -0.0764
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3239
+    expected_two_party_share_v2: 0.3239
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7401
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.8069
     war: 0.0668
     is_incumbent: false
+    war_v2: 0.0668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7401
+    expected_two_party_share_v2: 0.7401
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.1931
     war: -0.0668
     is_incumbent: false
+    war_v2: -0.0668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2599
+    expected_two_party_share_v2: 0.2599
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7531
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2469
     is_incumbent: true
+    war_v2: 0.1224
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7531
+    expected_two_party_share_v2: 0.8776
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.1552
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.764
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.236
     is_incumbent: true
+    war_v2: 0.1115
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.764
+    expected_two_party_share_v2: 0.8885
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.1727
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.697
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.303
     is_incumbent: false
+    war_v2: 0.303
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.697
+    expected_two_party_share_v2: 0.697
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.1765
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 7th Bristol (2001-2010)
 layout: district

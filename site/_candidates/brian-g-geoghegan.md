@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.354
   war: -0.1702
+  war_v2: -0.1702
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5242
+  expected_two_party_share_v2: 0.5242
   is_uncontested: false
   is_incumbent: false
 title: Brian G. Geoghegan

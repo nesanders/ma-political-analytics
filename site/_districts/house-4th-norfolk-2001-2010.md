@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6633
     war: 0.2099
     is_incumbent: true
+    war_v2: 0.0854
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4534
+    expected_two_party_share_v2: 0.5779
   - name: Douglas R. Ness
     slug: douglas-r-ness
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3367
     war: -0.2099
     is_incumbent: false
+    war_v2: -0.2099
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5466
+    expected_two_party_share_v2: 0.5466
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.068
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5437
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.7454
     war: 0.2017
     is_incumbent: true
+    war_v2: 0.0772
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5437
+    expected_two_party_share_v2: 0.6682
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Republican
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.2546
     war: -0.2017
     is_incumbent: false
+    war_v2: -0.2017
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4563
+    expected_two_party_share_v2: 0.4563
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5346
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.7115
     war: 0.1769
     is_incumbent: false
+    war_v2: 0.1769
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5346
+    expected_two_party_share_v2: 0.5346
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Republican
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.2885
     war: -0.1769
     is_incumbent: false
+    war_v2: -0.1769
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4654
+    expected_two_party_share_v2: 0.4654
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5847
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.6783
     war: 0.0936
     is_incumbent: true
+    war_v2: -0.0309
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5847
+    expected_two_party_share_v2: 0.7092
   - name: Douglas M. Veeder
     slug: douglas-m-veeder
     party: Republican
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.3217
     war: -0.0936
     is_incumbent: false
+    war_v2: -0.0936
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4153
+    expected_two_party_share_v2: 0.4153
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4435
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5565
     is_incumbent: false
+    war_v2: 0.5565
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4435
+    expected_two_party_share_v2: 0.4435
   is_open_seat: null
 title: 4th Norfolk (2001-2010)
 layout: district

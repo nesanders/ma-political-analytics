@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3826
   war: -0.1412
+  war_v2: -0.1412
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5238
+  expected_two_party_share_v2: 0.5238
   is_uncontested: false
   is_incumbent: false
 title: Daniel M. Dewey

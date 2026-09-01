@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3979
     is_incumbent: true
+    war_v2: 0.2734
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6021
+    expected_two_party_share_v2: 0.7266
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.278
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.722
     is_incumbent: false
+    war_v2: 0.722
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.278
+    expected_two_party_share_v2: 0.278
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5611
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4389
     is_incumbent: true
+    war_v2: 0.3144
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5611
+    expected_two_party_share_v2: 0.6856
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4335
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5665
     is_incumbent: true
+    war_v2: 0.442
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4335
+    expected_two_party_share_v2: 0.558
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5673
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4327
     is_incumbent: false
+    war_v2: 0.4327
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5673
+    expected_two_party_share_v2: 0.5673
   is_open_seat: null
 title: 3rd Essex District (2012-2020)
 layout: district

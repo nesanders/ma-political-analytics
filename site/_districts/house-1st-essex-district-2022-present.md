@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3577
     is_incumbent: false
+    war_v2: 0.3577
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6423
+    expected_two_party_share_v2: 0.6423
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6555
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.5964
     war: -0.0591
     is_incumbent: false
+    war_v2: -0.0591
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6555
+    expected_two_party_share_v2: 0.6555
   - name: Cj Fitzwater
     slug: cj-fitzwater
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4036
     war: 0.0591
     is_incumbent: false
+    war_v2: 0.0591
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3445
+    expected_two_party_share_v2: 0.3445
   is_open_seat: null
 demographics:
   total_population: 44891

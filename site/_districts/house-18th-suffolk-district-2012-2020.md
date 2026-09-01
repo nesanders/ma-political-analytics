@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1511
     is_incumbent: true
+    war_v2: 0.0266
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8489
+    expected_two_party_share_v2: 0.9734
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5153
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4847
     is_incumbent: true
+    war_v2: 0.3602
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5153
+    expected_two_party_share_v2: 0.6398
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8579
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1421
     is_incumbent: true
+    war_v2: 0.0176
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8579
+    expected_two_party_share_v2: 0.9824
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6905
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3095
     is_incumbent: true
+    war_v2: 0.185
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6905
+    expected_two_party_share_v2: 0.815
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8032
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1968
     is_incumbent: false
+    war_v2: 0.1968
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8032
+    expected_two_party_share_v2: 0.8032
   is_open_seat: null
 title: 18th Suffolk District (2012-2020)
 layout: district

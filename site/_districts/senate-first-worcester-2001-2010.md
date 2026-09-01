@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6223
     war: 0.0778
     is_incumbent: true
+    war_v2: -0.0467
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5445
+    expected_two_party_share_v2: 0.669
   - name: William J. Higgins, Sr
     slug: william-j-higgins-sr
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3777
     war: -0.0778
     is_incumbent: false
+    war_v2: -0.0778
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4555
+    expected_two_party_share_v2: 0.4555
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6204
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3796
     is_incumbent: true
+    war_v2: 0.2551
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6204
+    expected_two_party_share_v2: 0.7449
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6526
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.7302
     war: 0.0776
     is_incumbent: true
+    war_v2: -0.0469
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6526
+    expected_two_party_share_v2: 0.7771
   - name: Paul E. Nordborg
     slug: paul-e-nordborg
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.2698
     war: -0.0776
     is_incumbent: false
+    war_v2: -0.0776
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3474
+    expected_two_party_share_v2: 0.3474
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.614
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6672
     war: 0.0533
     is_incumbent: true
+    war_v2: -0.0712
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6139
+    expected_two_party_share_v2: 0.7384
   - name: Stephen N. Paige
     slug: stephen-n-paige
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3328
     war: -0.0533
     is_incumbent: false
+    war_v2: -0.0533
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3861
+    expected_two_party_share_v2: 0.3861
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4595
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.615
     war: 0.1555
     is_incumbent: false
+    war_v2: 0.1555
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4595
+    expected_two_party_share_v2: 0.4595
   - name: Robert E. Amorello
     slug: robert-e-amorello
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.385
     war: -0.1555
     is_incumbent: false
+    war_v2: -0.1555
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5405
+    expected_two_party_share_v2: 0.5405
   is_open_seat: null
 title: First Worcester (2001-2010)
 layout: district

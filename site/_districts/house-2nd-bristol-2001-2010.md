@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5234
     war: -0.056
     is_incumbent: false
+    war_v2: -0.056
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5794
+    expected_two_party_share_v2: 0.5794
   - name: Bill Bowles
     slug: bill-bowles
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4766
     war: 0.056
     is_incumbent: true
+    war_v2: -0.0685
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4206
+    expected_two_party_share_v2: 0.5451
   - name: James S. Connolly
     slug: james-s-connolly
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0769
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5671
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.5403
     war: -0.0268
     is_incumbent: false
+    war_v2: -0.0268
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5671
+    expected_two_party_share_v2: 0.5671
   - name: George T. Ross
     slug: george-t-ross
     party: Republican
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.4597
     war: 0.0268
     is_incumbent: false
+    war_v2: 0.0268
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4329
+    expected_two_party_share_v2: 0.4329
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5349
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.5435
     war: 0.0784
     is_incumbent: true
+    war_v2: -0.0461
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4651
+    expected_two_party_share_v2: 0.5896
   - name: Kate M. Jackson
     slug: kate-m-jackson
     party: Democratic
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.4565
     war: -0.0784
     is_incumbent: false
+    war_v2: -0.0784
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5349
+    expected_two_party_share_v2: 0.5349
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5602
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5602
     is_incumbent: true
+    war_v2: 0.4357
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4398
+    expected_two_party_share_v2: 0.5643
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3849
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3849
     is_incumbent: false
+    war_v2: 0.3849
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6151
+    expected_two_party_share_v2: 0.6151
   is_open_seat: null
 title: 2nd Bristol (2001-2010)
 layout: district

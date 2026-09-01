@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5187
+  war_v2: 0.3942
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4813
+  expected_two_party_share_v2: 0.6058
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6346
   war: 0.1588
+  war_v2: 0.0343
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4758
+  expected_two_party_share_v2: 0.6003
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4925
+  war_v2: 0.368
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5075
+  expected_two_party_share_v2: 0.632
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6255
   war: 0.2606
+  war_v2: 0.2606
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3649
+  expected_two_party_share_v2: 0.3649
   is_uncontested: false
   is_incumbent: false
 title: Robert J. Nyman

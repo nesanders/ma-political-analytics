@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1579
   war: -0.06
+  war_v2: -0.06
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2179
+  expected_two_party_share_v2: 0.2179
   is_uncontested: false
   is_incumbent: false
 title: David M. Rajczewski

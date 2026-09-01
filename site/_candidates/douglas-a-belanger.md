@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4977
   war: 0.021
+  war_v2: 0.021
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4767
+  expected_two_party_share_v2: 0.4767
   is_uncontested: false
   is_incumbent: false
 title: Douglas A. Belanger

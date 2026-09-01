@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4297
+  war_v2: 0.3052
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5703
+  expected_two_party_share_v2: 0.6948
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6157
+  war_v2: 0.6157
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3843
+  expected_two_party_share_v2: 0.3843
   is_uncontested: true
   is_incumbent: false
 title: Marie J. Parente

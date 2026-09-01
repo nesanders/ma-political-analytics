@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5564
     war: 0.1403
     is_incumbent: true
+    war_v2: 0.0158
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4161
+    expected_two_party_share_v2: 0.5406
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4436
     war: -0.1403
     is_incumbent: false
+    war_v2: -0.1403
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5839
+    expected_two_party_share_v2: 0.5839
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.523
     war: -0.2485
     is_incumbent: true
+    war_v2: -0.373
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7715
+    expected_two_party_share_v2: 0.896
   - name: John T. Mahoney, Jr
     slug: john-t-mahoney-jr
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.477
     war: 0.2485
     is_incumbent: false
+    war_v2: 0.2485
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2285
+    expected_two_party_share_v2: 0.2285
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5216
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5086
     war: 0.0302
     is_incumbent: true
+    war_v2: -0.0943
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4784
+    expected_two_party_share_v2: 0.6029
   - name: John T. Mahoney, Jr
     slug: john-t-mahoney-jr
     party: Democratic
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4914
     war: -0.0302
     is_incumbent: false
+    war_v2: -0.0302
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5216
+    expected_two_party_share_v2: 0.5216
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3964
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6021
     war: -0.0015
     is_incumbent: false
+    war_v2: -0.0015
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6036
+    expected_two_party_share_v2: 0.6036
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3979
     war: 0.0015
     is_incumbent: false
+    war_v2: 0.0015
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3964
+    expected_two_party_share_v2: 0.3964
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.515
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.515
     is_incumbent: false
+    war_v2: 0.515
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.485
+    expected_two_party_share_v2: 0.485
   is_open_seat: null
 title: 1st Plymouth District (2012-2020)
 layout: district

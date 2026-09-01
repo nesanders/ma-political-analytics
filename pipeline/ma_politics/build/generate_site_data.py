@@ -112,9 +112,95 @@ def _candidate_list(district_war: pd.DataFrame) -> list[dict]:
                 round(float(row["actual_two_party_share"]), 4) if pd.notna(row["actual_two_party_share"]) else None
             ),
             "war": round(float(row["war"]), 4) if pd.notna(row["war"]) else None,
+            # war_v2, incumbency_adjustment, expected_two_party_share(_v2)
+            # are added afterward by apply_war_v2, once is_incumbent (also
+            # set later, in build_district_records) and the globally-fit
+            # incumbency effect are both available — not present yet on
+            # the dict this function returns.
         }
         for _, row in district_war.sort_values("votes", ascending=False).iterrows()
     ]
+
+
+def fit_incumbency_effect(district_records_by_vintage: dict[str, list[dict]]) -> dict:
+    """WAR v2 folds incumbency into the expected-share baseline WAR v1 uses
+    (district lean alone — see build.derived_metrics.compute_war). Fit as a
+    simple two-group model directly on WAR v1's own residuals: the mean
+    gap between incumbents' and non-incumbents' WAR v1, over contested
+    major-party races only. Uncontested races are excluded from the fit —
+    their actual_two_party_share is mechanically 100% (no opponent to
+    divide the vote against), a known-inflated v1 residual per
+    methodology.md, not a clean training signal.
+
+    Pooled across House and Senate rather than fit separately: checked
+    both chambers independently against the real backfilled data and they
+    come out close (House ~0.123, Senate ~0.128), and Senate's incumbent
+    sample (under 100 races) is too thin to support its own coefficient
+    without a lot more noise than the ~0.005 gap between the two chambers
+    would justify splitting on.
+
+    Campaign finance was also planned as a v2 fundamental (see
+    methodology.md and docs/PLAN.md's original design, "same spirit as
+    Split Ticket's approach"), but the OCPF data this project has fetched
+    so far (data/raw/ocpf/finance_summary.parquet) only covers year 2022 —
+    nowhere near enough years to fit an honest term across the 2002-2024
+    backfill WAR v2 otherwise covers. Deferred to a future "v3" once OCPF
+    backfill exists, rather than forced into v2 on one year's data."""
+    rows = []
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for entry in d["results_by_year"]:
+                if entry["is_uncontested"]:
+                    continue
+                for c in entry["candidates"]:
+                    if c["war"] is None:
+                        continue
+                    rows.append({"is_incumbent": c["is_incumbent"], "war": c["war"]})
+    df = pd.DataFrame(rows)
+    incumbent_war = df.loc[df["is_incumbent"], "war"]
+    non_incumbent_war = df.loc[~df["is_incumbent"], "war"]
+    return {
+        "incumbency_effect": round(float(incumbent_war.mean() - non_incumbent_war.mean()), 4),
+        "n_incumbent": int(incumbent_war.count()),
+        "n_non_incumbent": int(non_incumbent_war.count()),
+    }
+
+
+def apply_war_v2(district_records_by_vintage: dict[str, list[dict]], incumbency_effect: float) -> None:
+    """Second pass over already-built district records (mutates candidate
+    dicts in place), adding WAR v2 fields now that both is_incumbent
+    (set earlier in build_district_records) and the global incumbency
+    effect (fit_incumbency_effect, which needs every district's data at
+    once) are available. expected_two_party_share_v1 is recovered from
+    actual - war rather than re-threaded from compute_war, since war
+    already *is* that difference and re-deriving it here avoids a second
+    parquet read.
+
+    A non-incumbent's expected share is unchanged from v1 (adjustment 0) —
+    v2 only adds a term for the fundamental this site can actually fit
+    honestly across the full backfill; it doesn't re-center the baseline
+    for everyone else. See fit_incumbency_effect's docstring for what a
+    future v3 (campaign finance) would add on top of this."""
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for entry in d["results_by_year"]:
+                for c in entry["candidates"]:
+                    if c["war"] is None:
+                        c.update(
+                            war_v2=None,
+                            incumbency_adjustment=None,
+                            expected_two_party_share=None,
+                            expected_two_party_share_v2=None,
+                        )
+                        continue
+                    adjustment = incumbency_effect if c["is_incumbent"] else 0.0
+                    expected_v1 = round(c["actual_two_party_share"] - c["war"], 4)
+                    c.update(
+                        war_v2=round(c["war"] - adjustment, 4),
+                        incumbency_adjustment=round(adjustment, 4),
+                        expected_two_party_share=expected_v1,
+                        expected_two_party_share_v2=round(expected_v1 + adjustment, 4),
+                    )
 
 
 def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> list[dict]:
@@ -317,6 +403,10 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "winner": c["winner"],
                             "actual_two_party_share": c["actual_two_party_share"],
                             "war": c["war"],
+                            "war_v2": c.get("war_v2"),
+                            "incumbency_adjustment": c.get("incumbency_adjustment"),
+                            "expected_two_party_share": c.get("expected_two_party_share"),
+                            "expected_two_party_share_v2": c.get("expected_two_party_share_v2"),
                             "is_uncontested": entry["is_uncontested"],
                             "is_incumbent": c["is_incumbent"],
                         }
@@ -472,6 +562,12 @@ def write_party_files(records: list[dict], out_dir: Path) -> None:
     default=Path("data/raw/demographics"),
     help="Census PL 94-171/ACS data from fetch.demographics; only covers the current vintage, skipped if missing",
 )
+@click.option(
+    "--site-data-dir",
+    type=click.Path(path_type=Path),
+    default=Path("site/_data"),
+    help="Where to write war_v2.yml — the fitted incumbency-effect coefficient, for the methodology page to read via site.war_v2",
+)
 @click.option("--seats-out-dir", type=click.Path(path_type=Path), default=Path("site/_seats"))
 @click.option("--districts-out-dir", type=click.Path(path_type=Path), default=Path("site/_districts"))
 @click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
@@ -486,6 +582,7 @@ def main(
     crosswalks_dir: Path,
     ocpf_dir: Path,
     demographics_dir: Path,
+    site_data_dir: Path,
     seats_out_dir: Path,
     districts_out_dir: Path,
     candidates_out_dir: Path,
@@ -503,6 +600,20 @@ def main(
         for c in chambers:
             recs.extend(build_district_records(c, vintage, derived_dir))
         district_records_by_vintage[vintage] = recs
+
+    # WAR v2: fit the incumbency effect once, globally, across every
+    # vintage's data (it needs the whole pooled sample, not one district's
+    # worth), then apply it as a second pass over the records just built.
+    incumbency_fit = fit_incumbency_effect(district_records_by_vintage)
+    apply_war_v2(district_records_by_vintage, incumbency_fit["incumbency_effect"])
+    logger.info(
+        "WAR v2 incumbency effect: %+.4f (n=%d incumbent, n=%d non-incumbent)",
+        incumbency_fit["incumbency_effect"],
+        incumbency_fit["n_incumbent"],
+        incumbency_fit["n_non_incumbent"],
+    )
+    site_data_dir.mkdir(parents=True, exist_ok=True)
+    (site_data_dir / "war_v2.yml").write_text(yaml.safe_dump(incumbency_fit, sort_keys=False))
 
     # Census demographics (PL 94-171 + ACS) only exist for the current
     # vintage — see demographics_match.py's docstring — so only those

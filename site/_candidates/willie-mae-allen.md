@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
+  war_v2: 0.0722
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8033
+  expected_two_party_share_v2: 0.9278
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2252
+  war_v2: 0.2252
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7748
+  expected_two_party_share_v2: 0.7748
   is_uncontested: true
   is_incumbent: false
 title: Willie Mae Allen

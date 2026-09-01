@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4798
   war: -0.0126
+  war_v2: -0.0126
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4924
+  expected_two_party_share_v2: 0.4924
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4911
   war: 0.0464
+  war_v2: 0.0464
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4447
+  expected_two_party_share_v2: 0.4447
   is_uncontested: false
   is_incumbent: false
 title: Richard W. Neitz

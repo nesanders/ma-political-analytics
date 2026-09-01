@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1276
     is_incumbent: false
+    war_v2: 0.1276
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8724
+    expected_two_party_share_v2: 0.8724
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.5816
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4184
     is_incumbent: true
+    war_v2: 0.2939
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5816
+    expected_two_party_share_v2: 0.7061
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8599
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1401
     is_incumbent: true
+    war_v2: 0.0156
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8599
+    expected_two_party_share_v2: 0.9844
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7311
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2689
     is_incumbent: true
+    war_v2: 0.1444
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7311
+    expected_two_party_share_v2: 0.8556
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8157
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1843
     is_incumbent: false
+    war_v2: 0.1843
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8157
+    expected_two_party_share_v2: 0.8157
   is_open_seat: null
 title: 29th Middlesex District (2012-2020)
 layout: district

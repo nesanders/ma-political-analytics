@@ -21,7 +21,12 @@ import click
 import pandas as pd
 
 from ma_politics.build import campaign_finance_match, demographics_match
-from ma_politics.build.generate_site_data import build_candidate_records, build_district_records
+from ma_politics.build.generate_site_data import (
+    apply_war_v2,
+    build_candidate_records,
+    build_district_records,
+    fit_incumbency_effect,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -75,30 +80,44 @@ def build_results_table(chambers: list[str], vintages: list[str], derived_dir: P
     """Same rationale as build_seats_table: built from the already-computed
     district records (which carry is_incumbent, resolved once there against
     the prior election within the same vintage) instead of a separate pass
-    over raw WAR parquet."""
+    over raw WAR parquet.
+
+    WAR v2 is fit and applied here too (fit_incumbency_effect/apply_war_v2 —
+    same functions generate_site_data.py's own main() calls), rather than
+    read back from the already-written site/_data/war_v2.yml, so this table
+    can't silently go stale relative to whatever data this particular
+    invocation actually has on disk — this module is runnable independently
+    of generate_site_data.py, with its own --derived-dir."""
+    district_records_by_vintage = {
+        vintage: [d for c in chambers for d in build_district_records(c, vintage, derived_dir)] for vintage in vintages
+    }
+    incumbency_fit = fit_incumbency_effect(district_records_by_vintage)
+    apply_war_v2(district_records_by_vintage, incumbency_fit["incumbency_effect"])
+
     rows = []
-    for c in chambers:
-        for vintage in vintages:
-            for d in build_district_records(c, vintage, derived_dir):
-                for entry in d["results_by_year"]:
-                    for cand in entry["candidates"]:
-                        rows.append(
-                            {
-                                "chamber": d["chamber"],
-                                "year": entry["year"],
-                                "district_name": d["district_name"],
-                                "candidate_name": cand["name"],
-                                "candidate_slug": cand["slug"],
-                                "party": cand["party"],
-                                "votes": cand["votes"],
-                                "winner": cand["winner"],
-                                "is_uncontested": entry["is_uncontested"],
-                                "is_incumbent": cand["is_incumbent"],
-                                "actual_two_party_share": cand["actual_two_party_share"],
-                                "district_lean_dem_share": entry["lean_dem_share"],
-                                "war": cand["war"],
-                            }
-                        )
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for entry in d["results_by_year"]:
+                for cand in entry["candidates"]:
+                    rows.append(
+                        {
+                            "chamber": d["chamber"],
+                            "year": entry["year"],
+                            "district_name": d["district_name"],
+                            "candidate_name": cand["name"],
+                            "candidate_slug": cand["slug"],
+                            "party": cand["party"],
+                            "votes": cand["votes"],
+                            "winner": cand["winner"],
+                            "is_uncontested": entry["is_uncontested"],
+                            "is_incumbent": cand["is_incumbent"],
+                            "actual_two_party_share": cand["actual_two_party_share"],
+                            "district_lean_dem_share": entry["lean_dem_share"],
+                            "war": cand["war"],
+                            "war_v2": cand.get("war_v2"),
+                            "incumbency_adjustment": cand.get("incumbency_adjustment"),
+                        }
+                    )
     return pd.DataFrame(rows)
 
 
@@ -210,9 +229,19 @@ SCHEMA_CARD = {
                 "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
                 "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
                 "war": (
-                    "actual_two_party_share minus the expected share from district_lean_dem_share. "
-                    "Only defined for Democratic/Republican candidates. Positive = overperformed the "
+                    "WAR v1: actual_two_party_share minus the expected share from district_lean_dem_share "
+                    "alone. Only defined for Democratic/Republican candidates. Positive = overperformed the "
                     "baseline; negative = underperformed. Inflated for uncontested races — see is_uncontested."
+                ),
+                "war_v2": (
+                    "WAR v2: same as war, but the expected share also adds incumbency_adjustment when "
+                    "is_incumbent is true. A single fitted coefficient (see the methodology page for the "
+                    "current value) — the average gap between incumbents' and non-incumbents' WAR v1 over "
+                    "every contested major-party race. Same null cases as war."
+                ),
+                "incumbency_adjustment": (
+                    "The fitted incumbency term war_v2 subtracts from war when is_incumbent is true, 0 "
+                    "otherwise. Exposed separately so a query can decompose war_v2 back into war and this."
                 ),
             },
         },

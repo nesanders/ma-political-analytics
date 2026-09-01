@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4337
+  war_v2: 0.3092
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5663
+  expected_two_party_share_v2: 0.6908
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6397
   war: 0.0738
+  war_v2: -0.0507
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5659
+  expected_two_party_share_v2: 0.6904
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5921
+  war_v2: 0.5921
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4079
+  expected_two_party_share_v2: 0.4079
   is_uncontested: true
   is_incumbent: false
 title: Robert A. Antonioni

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4744
+  war_v2: 0.3499
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5256
+  expected_two_party_share_v2: 0.6501
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4247
+  war_v2: 0.4247
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5753
+  expected_two_party_share_v2: 0.5753
   is_uncontested: true
   is_incumbent: false
 title: Patrick Natale

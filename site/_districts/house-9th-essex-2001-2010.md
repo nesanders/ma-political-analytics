@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5109
     war: -0.0593
     is_incumbent: false
+    war_v2: -0.0593
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5702
+    expected_two_party_share_v2: 0.5702
   - name: Mark V. Falzone
     slug: mark-v-falzone
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4891
     war: 0.0593
     is_incumbent: true
+    war_v2: -0.0652
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4298
+    expected_two_party_share_v2: 0.5543
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5613
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4387
     is_incumbent: true
+    war_v2: 0.3142
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5613
+    expected_two_party_share_v2: 0.6858
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5397
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4603
     is_incumbent: true
+    war_v2: 0.3358
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5397
+    expected_two_party_share_v2: 0.6642
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5966
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6573
     war: 0.0608
     is_incumbent: true
+    war_v2: -0.0637
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5965
+    expected_two_party_share_v2: 0.721
   - name: Michael M. Motzkin
     slug: michael-m-motzkin
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3427
     war: -0.0608
     is_incumbent: false
+    war_v2: -0.0608
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4035
+    expected_two_party_share_v2: 0.4035
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4242
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5758
     is_incumbent: false
+    war_v2: 0.5758
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4242
+    expected_two_party_share_v2: 0.4242
   is_open_seat: null
 title: 9th Essex (2001-2010)
 layout: district

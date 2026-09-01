@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3861
     is_incumbent: true
+    war_v2: 0.2616
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6139
+    expected_two_party_share_v2: 0.7384
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6847
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3153
     is_incumbent: true
+    war_v2: 0.1908
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6847
+    expected_two_party_share_v2: 0.8092
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6712
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3288
     is_incumbent: true
+    war_v2: 0.2043
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6712
+    expected_two_party_share_v2: 0.7957
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6565
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3435
     is_incumbent: true
+    war_v2: 0.219
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6565
+    expected_two_party_share_v2: 0.781
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5892
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4108
     is_incumbent: false
+    war_v2: 0.4108
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5892
+    expected_two_party_share_v2: 0.5892
   - name: Max Pappas
     slug: max-pappas
     party: Other
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.5831
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Sue Bartone
     slug: sue-bartone
     party: null
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.2449
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 2nd Hampshire (2001-2010)
 layout: district

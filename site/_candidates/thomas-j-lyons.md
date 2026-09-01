@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4756
   war: -0.1373
+  war_v2: -0.1373
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6129
+  expected_two_party_share_v2: 0.6129
   is_uncontested: false
   is_incumbent: false
 title: Thomas J. Lyons

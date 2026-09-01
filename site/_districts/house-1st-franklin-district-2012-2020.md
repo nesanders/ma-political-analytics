@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2544
     is_incumbent: true
+    war_v2: 0.1299
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7456
+    expected_two_party_share_v2: 0.8701
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4659
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5341
     is_incumbent: false
+    war_v2: 0.5341
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4659
+    expected_two_party_share_v2: 0.4659
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7176
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2824
     is_incumbent: true
+    war_v2: 0.1579
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7176
+    expected_two_party_share_v2: 0.8421
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6439
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6996
     war: 0.0558
     is_incumbent: true
+    war_v2: -0.0687
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6438
+    expected_two_party_share_v2: 0.7683
   - name: Dylan E. Korpita
     slug: dylan-e-korpita
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3004
     war: -0.0558
     is_incumbent: false
+    war_v2: -0.0558
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3562
+    expected_two_party_share_v2: 0.3562
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7483
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2517
     is_incumbent: false
+    war_v2: 0.2517
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7483
+    expected_two_party_share_v2: 0.7483
   is_open_seat: null
 title: 1st Franklin District (2012-2020)
 layout: district

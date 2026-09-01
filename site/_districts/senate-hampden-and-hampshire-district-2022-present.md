@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4547
     is_incumbent: true
+    war_v2: 0.3302
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5453
+    expected_two_party_share_v2: 0.6698
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.564
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.657
     war: 0.0929
     is_incumbent: false
+    war_v2: 0.0929
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5641
+    expected_two_party_share_v2: 0.5641
   - name: Cecilia P. Calabrese
     slug: cecilia-p-calabrese
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.343
     war: -0.0929
     is_incumbent: false
+    war_v2: -0.0929
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4359
+    expected_two_party_share_v2: 0.4359
   is_open_seat: null
 demographics:
   median_household_income: 69361

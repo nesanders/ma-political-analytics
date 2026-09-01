@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3768
     is_incumbent: true
+    war_v2: 0.2523
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6232
+    expected_two_party_share_v2: 0.7477
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6667
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3333
     is_incumbent: true
+    war_v2: 0.2088
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6667
+    expected_two_party_share_v2: 0.7912
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6619
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3381
     is_incumbent: true
+    war_v2: 0.2136
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6619
+    expected_two_party_share_v2: 0.7864
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6642
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3358
     is_incumbent: true
+    war_v2: 0.2113
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6642
+    expected_two_party_share_v2: 0.7887
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5106
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.8393
     war: 0.3287
     is_incumbent: false
+    war_v2: 0.3287
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5106
+    expected_two_party_share_v2: 0.5106
   - name: Jeremiah Lowney
     slug: jeremiah-lowney
     party: Other
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.3111
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: James J. Aldred
     slug: james-j-aldred
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.1607
     war: -0.3287
     is_incumbent: false
+    war_v2: -0.3287
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4894
+    expected_two_party_share_v2: 0.4894
   is_open_seat: null
 title: 7th Norfolk (2001-2010)
 layout: district

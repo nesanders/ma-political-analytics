@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5741
     war: 0.1415
     is_incumbent: true
+    war_v2: 0.017
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4326
+    expected_two_party_share_v2: 0.5571
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4259
     war: -0.1415
     is_incumbent: false
+    war_v2: -0.1415
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5674
+    expected_two_party_share_v2: 0.5674
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5618
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5087
     war: 0.0705
     is_incumbent: false
+    war_v2: 0.0705
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4382
+    expected_two_party_share_v2: 0.4382
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4913
     war: -0.0705
     is_incumbent: false
+    war_v2: -0.0705
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5618
+    expected_two_party_share_v2: 0.5618
   is_open_seat: null
 demographics:
   total_population: 46075

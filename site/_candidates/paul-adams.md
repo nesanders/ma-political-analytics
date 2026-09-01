@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3482
   war: -0.059
+  war_v2: -0.059
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4072
+  expected_two_party_share_v2: 0.4072
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5429
   war: 0.022
+  war_v2: 0.022
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5209
+  expected_two_party_share_v2: 0.5209
   is_uncontested: false
   is_incumbent: false
 title: Paul Adams

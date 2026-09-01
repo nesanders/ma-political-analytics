@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5445
     war: -0.0484
     is_incumbent: false
+    war_v2: -0.0484
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5929
+    expected_two_party_share_v2: 0.5929
   - name: John D. Simmons
     slug: john-d-simmons
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4555
     war: 0.0484
     is_incumbent: false
+    war_v2: 0.0484
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4071
+    expected_two_party_share_v2: 0.4071
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.246
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.246
     is_incumbent: true
+    war_v2: 0.1215
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.754
+    expected_two_party_share_v2: 0.8785
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5299
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5299
     is_incumbent: true
+    war_v2: 0.4054
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4701
+    expected_two_party_share_v2: 0.5946
   - name: Scott P. Dubuc
     slug: scott-p-dubuc
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4187
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3558
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3558
     is_incumbent: true
+    war_v2: 0.2313
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6442
+    expected_two_party_share_v2: 0.7687
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.49
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.49
     is_incumbent: false
+    war_v2: 0.49
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.51
+    expected_two_party_share_v2: 0.51
   is_open_seat: null
 title: 14th Bristol District (2012-2020)
 layout: district

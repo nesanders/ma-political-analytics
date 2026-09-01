@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1313
     is_incumbent: true
+    war_v2: 0.0068
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8687
+    expected_two_party_share_v2: 0.9932
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6194
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3806
     is_incumbent: false
+    war_v2: 0.3806
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6194
+    expected_two_party_share_v2: 0.6194
   - name: Solomon Israel Goldstein-Rose
     slug: solomon-israel-goldstein-rose
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3305
     war: null
     is_incumbent: true
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8624
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1376
     is_incumbent: false
+    war_v2: 0.1376
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8624
+    expected_two_party_share_v2: 0.8624
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.7684
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2316
     is_incumbent: true
+    war_v2: 0.1071
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7684
+    expected_two_party_share_v2: 0.8929
   - name: Kenneth J. Roberts, Jr
     slug: kenneth-j-roberts-jr
     party: Libertarian
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.1344
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8352
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1648
     is_incumbent: false
+    war_v2: 0.1648
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8352
+    expected_two_party_share_v2: 0.8352
   is_open_seat: null
 title: 3rd Hampshire District (2012-2020)
 layout: district

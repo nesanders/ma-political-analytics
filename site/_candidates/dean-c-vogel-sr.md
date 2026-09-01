@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3588
   war: -0.051
+  war_v2: -0.051
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4098
+  expected_two_party_share_v2: 0.4098
   is_uncontested: false
   is_incumbent: false
 title: Dean C. Vogel, Sr.

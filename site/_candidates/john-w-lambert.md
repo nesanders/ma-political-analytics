@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3164
   war: -0.0653
+  war_v2: -0.0653
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3817
+  expected_two_party_share_v2: 0.3817
   is_uncontested: false
   is_incumbent: false
 title: John Warren Lambert

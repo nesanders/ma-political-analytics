@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5456
   war: 0.1666
+  war_v2: 0.0421
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.379
+  expected_two_party_share_v2: 0.5035
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5023
   war: -0.021
+  war_v2: -0.021
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5233
+  expected_two_party_share_v2: 0.5233
   is_uncontested: false
   is_incumbent: false
 title: Kate D. Campanale

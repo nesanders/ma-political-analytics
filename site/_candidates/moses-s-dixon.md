@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4544
   war: -0.1666
+  war_v2: -0.1666
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.621
+  expected_two_party_share_v2: 0.621
   is_uncontested: false
   is_incumbent: false
 title: Moses S. Dixon

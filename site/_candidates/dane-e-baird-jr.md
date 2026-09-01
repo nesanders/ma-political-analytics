@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1863
   war: 0.0091
+  war_v2: 0.0091
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.1772
+  expected_two_party_share_v2: 0.1772
   is_uncontested: false
   is_incumbent: false
 title: Dane E. Baird, Jr.

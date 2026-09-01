@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3742
     is_incumbent: true
+    war_v2: 0.2497
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6258
+    expected_two_party_share_v2: 0.7503
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2599
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7401
     is_incumbent: true
+    war_v2: 0.6156
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2599
+    expected_two_party_share_v2: 0.3844
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5952
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.7411
     war: 0.1459
     is_incumbent: true
+    war_v2: 0.0214
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5952
+    expected_two_party_share_v2: 0.7197
   - name: Mesfin H. Beshir
     slug: mesfin-h-beshir
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.2589
     war: -0.1459
     is_incumbent: false
+    war_v2: -0.1459
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4048
+    expected_two_party_share_v2: 0.4048
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.411
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.589
     is_incumbent: true
+    war_v2: 0.4645
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.411
+    expected_two_party_share_v2: 0.5355
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5715
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.6793
     war: 0.1078
     is_incumbent: false
+    war_v2: 0.1078
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5715
+    expected_two_party_share_v2: 0.5715
   - name: Stephen R. Simonian
     slug: stephen-r-simonian
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.3207
     war: -0.1078
     is_incumbent: false
+    war_v2: -0.1078
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4285
+    expected_two_party_share_v2: 0.4285
   is_open_seat: null
 title: Second Worcester District (2012-2020)
 layout: district

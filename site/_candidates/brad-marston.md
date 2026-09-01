@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2275
   war: 0.057
+  war_v2: 0.057
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.1705
+  expected_two_party_share_v2: 0.1705
   is_uncontested: false
   is_incumbent: false
 title: Brad Marston

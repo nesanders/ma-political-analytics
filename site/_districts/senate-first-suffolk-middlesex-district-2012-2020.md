@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2279
     is_incumbent: true
+    war_v2: 0.1034
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7721
+    expected_two_party_share_v2: 0.8966
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4654
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5346
     is_incumbent: true
+    war_v2: 0.4101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4654
+    expected_two_party_share_v2: 0.5899
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7653
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2347
     is_incumbent: false
+    war_v2: 0.2347
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7653
+    expected_two_party_share_v2: 0.7653
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6258
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3742
     is_incumbent: true
+    war_v2: 0.2497
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6258
+    expected_two_party_share_v2: 0.7503
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.749
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.816
     war: 0.067
     is_incumbent: false
+    war_v2: 0.067
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.749
+    expected_two_party_share_v2: 0.749
   - name: Thomas J. Dooley, III
     slug: thomas-j-dooley-iii
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.184
     war: -0.067
     is_incumbent: false
+    war_v2: -0.067
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.251
+    expected_two_party_share_v2: 0.251
   is_open_seat: null
 title: First Suffolk & Middlesex District (2012-2020)
 layout: district

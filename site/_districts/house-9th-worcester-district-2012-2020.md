@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5948
     is_incumbent: true
+    war_v2: 0.4703
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4052
+    expected_two_party_share_v2: 0.5297
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2112
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2112
     is_incumbent: true
+    war_v2: 0.0867
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7888
+    expected_two_party_share_v2: 0.9133
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5341
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5341
     is_incumbent: true
+    war_v2: 0.4096
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4659
+    expected_two_party_share_v2: 0.5904
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3442
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6239
     war: -0.0319
     is_incumbent: false
+    war_v2: -0.0319
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6558
+    expected_two_party_share_v2: 0.6558
   - name: Martin Green
     slug: martin-green
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3761
     war: 0.0319
     is_incumbent: false
+    war_v2: 0.0319
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3442
+    expected_two_party_share_v2: 0.3442
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.4912
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4912
     is_incumbent: false
+    war_v2: 0.4912
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5088
+    expected_two_party_share_v2: 0.5088
   is_open_seat: null
 title: 9th Worcester District (2012-2020)
 layout: district

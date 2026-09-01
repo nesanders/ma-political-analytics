@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.8246
     war: 0.029
     is_incumbent: false
+    war_v2: 0.029
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7956
+    expected_two_party_share_v2: 0.7956
   - name: Roy A. Owens
     slug: roy-a-owens
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.1754
     war: -0.029
     is_incumbent: false
+    war_v2: -0.029
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2044
+    expected_two_party_share_v2: 0.2044
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8238
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1762
     is_incumbent: false
+    war_v2: 0.1762
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8238
+    expected_two_party_share_v2: 0.8238
   is_open_seat: null
 demographics:
   total_population: 45282

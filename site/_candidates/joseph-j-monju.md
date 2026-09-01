@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2238
   war: -0.1198
+  war_v2: -0.1198
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3436
+  expected_two_party_share_v2: 0.3436
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1865
   war: -0.0854
+  war_v2: -0.0854
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2719
+  expected_two_party_share_v2: 0.2719
   is_uncontested: false
   is_incumbent: false
 title: Joseph J. Monju

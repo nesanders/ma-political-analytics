@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4664
   war: 0.0206
+  war_v2: 0.0206
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4458
+  expected_two_party_share_v2: 0.4458
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4995
   war: -0.0836
+  war_v2: -0.0836
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5831
+  expected_two_party_share_v2: 0.5831
   is_uncontested: false
   is_incumbent: false
 title: Larry F. Wheatley

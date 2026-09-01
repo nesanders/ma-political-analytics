@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7525
   war: 0.0764
+  war_v2: -0.0481
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6761
+  expected_two_party_share_v2: 0.8006
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.8069
   war: 0.0668
+  war_v2: 0.0668
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7401
+  expected_two_party_share_v2: 0.7401
   is_uncontested: false
   is_incumbent: false
 title: Kevin Aguiar

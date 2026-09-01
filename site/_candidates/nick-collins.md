@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4912
+  war_v2: 0.4912
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5088
+  expected_two_party_share_v2: 0.5088
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.147
+  war_v2: 0.0225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.853
+  expected_two_party_share_v2: 0.9775
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
+  war_v2: 0.1877
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6878
+  expected_two_party_share_v2: 0.8123
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
+  war_v2: 0.1966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8034
+  expected_two_party_share_v2: 0.8034
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7334
   war: -0.0199
+  war_v2: -0.0199
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7533
+  expected_two_party_share_v2: 0.7533
   is_uncontested: false
   is_incumbent: false
 title: Nick Collins

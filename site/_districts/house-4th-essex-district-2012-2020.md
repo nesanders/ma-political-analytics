@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6547
     is_incumbent: true
+    war_v2: 0.5302
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3453
+    expected_two_party_share_v2: 0.4698
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2516
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5634
     war: -0.185
     is_incumbent: true
+    war_v2: -0.3095
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7484
+    expected_two_party_share_v2: 0.8729
   - name: Allison M. Gustavson
     slug: allison-m-gustavson
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4366
     war: 0.185
     is_incumbent: false
+    war_v2: 0.185
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2516
+    expected_two_party_share_v2: 0.2516
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6094
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6094
     is_incumbent: true
+    war_v2: 0.4849
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3906
+    expected_two_party_share_v2: 0.5151
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3773
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3773
     is_incumbent: true
+    war_v2: 0.2528
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6227
+    expected_two_party_share_v2: 0.7472
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5025
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5025
     is_incumbent: false
+    war_v2: 0.5025
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4975
+    expected_two_party_share_v2: 0.4975
   is_open_seat: null
 title: 4th Essex District (2012-2020)
 layout: district

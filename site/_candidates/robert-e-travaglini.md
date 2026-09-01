@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2293
+  war_v2: 0.1048
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7707
+  expected_two_party_share_v2: 0.8952
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7985
   war: 0.008
+  war_v2: -0.1165
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7905
+  expected_two_party_share_v2: 0.915
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.7755
   war: 0.1201
+  war_v2: 0.1201
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6554
+  expected_two_party_share_v2: 0.6554
   is_uncontested: false
   is_incumbent: false
 title: Robert E. Travaglini

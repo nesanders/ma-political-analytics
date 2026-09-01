@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4373
   war: -0.3231
+  war_v2: -0.3231
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7604
+  expected_two_party_share_v2: 0.7604
   is_uncontested: false
   is_incumbent: false
 title: Richard E. Palmieri

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6464
   war: 0.1255
+  war_v2: 0.001
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5209
+  expected_two_party_share_v2: 0.6454
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6118
   war: 0.181
+  war_v2: 0.181
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4308
+  expected_two_party_share_v2: 0.4308
   is_uncontested: false
   is_incumbent: false
 title: Kathleen M. Teahan

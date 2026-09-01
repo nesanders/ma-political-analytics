@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3988
+  war_v2: 0.3988
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6012
+  expected_two_party_share_v2: 0.6012
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4362
+  war_v2: 0.3117
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5638
+  expected_two_party_share_v2: 0.6883
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5888
   war: -0.091
+  war_v2: -0.2155
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6798
+  expected_two_party_share_v2: 0.8043
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5193
   war: -0.1055
+  war_v2: -0.1055
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6248
+  expected_two_party_share_v2: 0.6248
   is_uncontested: false
   is_incumbent: false
 title: Thomas P. Conroy

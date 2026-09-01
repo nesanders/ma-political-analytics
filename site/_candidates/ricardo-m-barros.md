@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3667
   war: -0.1086
+  war_v2: -0.1086
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4753
+  expected_two_party_share_v2: 0.4753
   is_uncontested: false
   is_incumbent: false
 title: Ricardo M. Barros

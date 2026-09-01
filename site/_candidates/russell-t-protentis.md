@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4234
   war: -0.0572
+  war_v2: -0.0572
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4806
+  expected_two_party_share_v2: 0.4806
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.0576
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
 title: Russell T. Protentis

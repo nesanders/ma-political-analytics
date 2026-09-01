@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4464
   war: -0.053
+  war_v2: -0.053
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4994
+  expected_two_party_share_v2: 0.4994
   is_uncontested: false
   is_incumbent: false
 title: John P. O'Leary

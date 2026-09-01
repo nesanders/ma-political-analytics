@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3688
   war: -0.03
+  war_v2: -0.03
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3988
+  expected_two_party_share_v2: 0.3988
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4008
   war: -0.14
+  war_v2: -0.14
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5408
+  expected_two_party_share_v2: 0.5408
   is_uncontested: false
   is_incumbent: false
 title: Bob Collamore

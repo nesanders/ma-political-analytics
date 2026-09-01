@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4361
+  war_v2: 0.4361
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5639
+  expected_two_party_share_v2: 0.5639
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5962
   war: 0.1401
+  war_v2: 0.0156
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4561
+  expected_two_party_share_v2: 0.5806
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4217
+  war_v2: 0.2972
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5783
+  expected_two_party_share_v2: 0.7028
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.6921
   war: 0.1355
+  war_v2: 0.011
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5566
+  expected_two_party_share_v2: 0.6811
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.6616
   war: 0.0465
+  war_v2: -0.078
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6151
+  expected_two_party_share_v2: 0.7396
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.5993
   war: 0.1558
+  war_v2: 0.1558
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4435
+  expected_two_party_share_v2: 0.4435
   is_uncontested: false
   is_incumbent: false
 title: Joyce A. Spiliotis

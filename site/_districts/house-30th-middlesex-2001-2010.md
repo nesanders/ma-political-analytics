@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6346
     war: 0.1962
     is_incumbent: true
+    war_v2: 0.0717
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4384
+    expected_two_party_share_v2: 0.5629
   - name: Kara Marie Fratto
     slug: kara-marie-fratto
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3654
     war: -0.1962
     is_incumbent: false
+    war_v2: -0.1962
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5616
+    expected_two_party_share_v2: 0.5616
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5522
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4478
     is_incumbent: false
+    war_v2: 0.4478
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5522
+    expected_two_party_share_v2: 0.5522
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5256
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4744
     is_incumbent: true
+    war_v2: 0.3499
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5256
+    expected_two_party_share_v2: 0.6501
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5753
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4247
     is_incumbent: false
+    war_v2: 0.4247
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5753
+    expected_two_party_share_v2: 0.5753
   - name: Paul J. Meaney
     slug: paul-j-meaney
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6077
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4127
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5873
     is_incumbent: false
+    war_v2: 0.5873
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4127
+    expected_two_party_share_v2: 0.4127
   is_open_seat: null
 title: 30th Middlesex (2001-2010)
 layout: district

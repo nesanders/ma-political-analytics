@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3593
     is_incumbent: true
+    war_v2: 0.2348
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6407
+    expected_two_party_share_v2: 0.7652
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3022
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6446
     war: 0.3424
     is_incumbent: false
+    war_v2: 0.3424
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3022
+    expected_two_party_share_v2: 0.3022
   - name: Ryan R. Losco
     slug: ryan-r-losco
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3554
     war: -0.3424
     is_incumbent: false
+    war_v2: -0.3424
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6978
+    expected_two_party_share_v2: 0.6978
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6428
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3572
     is_incumbent: true
+    war_v2: 0.2327
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6428
+    expected_two_party_share_v2: 0.7673
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4621
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.549
     war: 0.0869
     is_incumbent: true
+    war_v2: -0.0376
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4621
+    expected_two_party_share_v2: 0.5866
   - name: Rosemary Connelly Smedile
     slug: rosemary-connelly-smedile
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.451
     war: -0.0869
     is_incumbent: false
+    war_v2: -0.0869
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5379
+    expected_two_party_share_v2: 0.5379
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5922
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6292
     war: 0.037
     is_incumbent: false
+    war_v2: 0.037
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5922
+    expected_two_party_share_v2: 0.5922
   - name: Karin K. Rhoton
     slug: karin-k-rhoton
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3708
     war: -0.037
     is_incumbent: false
+    war_v2: -0.037
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4078
+    expected_two_party_share_v2: 0.4078
   is_open_seat: null
 title: 14th Essex District (2012-2020)
 layout: district

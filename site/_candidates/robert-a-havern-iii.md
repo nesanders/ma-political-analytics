@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4072
+  war_v2: 0.2827
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5928
+  expected_two_party_share_v2: 0.7173
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6623
   war: 0.0344
+  war_v2: -0.0901
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6279
+  expected_two_party_share_v2: 0.7524
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5277
+  war_v2: 0.5277
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4723
+  expected_two_party_share_v2: 0.4723
   is_uncontested: true
   is_incumbent: false
 title: Robert A. Havern, III

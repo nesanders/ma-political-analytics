@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3425
   war: -0.0536
+  war_v2: -0.0536
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3961
+  expected_two_party_share_v2: 0.3961
   is_uncontested: false
   is_incumbent: false
 title: Erford C. Fowler

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6087
     war: 0.1613
     is_incumbent: true
+    war_v2: 0.0368
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4474
+    expected_two_party_share_v2: 0.5719
   - name: James F. Gettens
     slug: james-f-gettens
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3913
     war: -0.1613
     is_incumbent: false
+    war_v2: -0.1613
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5526
+    expected_two_party_share_v2: 0.5526
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4431
     is_incumbent: true
+    war_v2: 0.3186
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5569
+    expected_two_party_share_v2: 0.6814
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5577
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4423
     is_incumbent: true
+    war_v2: 0.3178
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5577
+    expected_two_party_share_v2: 0.6822
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5559
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6454
     war: 0.0895
     is_incumbent: true
+    war_v2: -0.035
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5559
+    expected_two_party_share_v2: 0.6804
   - name: James B. Stanton
     slug: james-b-stanton
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3546
     war: -0.0895
     is_incumbent: false
+    war_v2: -0.0895
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4441
+    expected_two_party_share_v2: 0.4441
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3667
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6333
     is_incumbent: false
+    war_v2: 0.6333
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3667
+    expected_two_party_share_v2: 0.3667
   - name: William D. Pacheco
     slug: william-d-pacheco
     party: Libertarian
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.2548
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 12th Worcester (2001-2010)
 layout: district

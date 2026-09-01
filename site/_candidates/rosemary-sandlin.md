@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4
   war: -0.0348
+  war_v2: -0.0348
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4348
+  expected_two_party_share_v2: 0.4348
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4959
   war: 0.0761
+  war_v2: -0.0484
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4198
+  expected_two_party_share_v2: 0.5443
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4769
+  war_v2: 0.3524
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5231
+  expected_two_party_share_v2: 0.6476
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.5553
   war: 0.026
+  war_v2: 0.026
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5293
+  expected_two_party_share_v2: 0.5293
   is_uncontested: false
   is_incumbent: false
 title: Rosemary Sandlin

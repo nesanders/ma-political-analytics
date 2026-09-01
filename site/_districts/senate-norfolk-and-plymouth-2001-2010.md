@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6174
     war: 0.1412
     is_incumbent: false
+    war_v2: 0.1412
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4762
+    expected_two_party_share_v2: 0.4762
   - name: Daniel M. Dewey
     slug: daniel-m-dewey
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3826
     war: -0.1412
     is_incumbent: false
+    war_v2: -0.1412
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5238
+    expected_two_party_share_v2: 0.5238
   - name: Laura Innis
     slug: laura-innis
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1061
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5523
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4477
     is_incumbent: true
+    war_v2: 0.3232
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5523
+    expected_two_party_share_v2: 0.6768
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5427
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4573
     is_incumbent: true
+    war_v2: 0.3328
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5427
+    expected_two_party_share_v2: 0.6672
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5963
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4037
     is_incumbent: true
+    war_v2: 0.2792
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5963
+    expected_two_party_share_v2: 0.7208
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4588
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5412
     is_incumbent: false
+    war_v2: 0.5412
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4588
+    expected_two_party_share_v2: 0.4588
   is_open_seat: null
 title: Norfolk and Plymouth (2001-2010)
 layout: district

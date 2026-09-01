@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4102
   war: -0.0591
+  war_v2: -0.0591
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4693
+  expected_two_party_share_v2: 0.4693
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4604
   war: -0.1522
+  war_v2: -0.1522
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6126
+  expected_two_party_share_v2: 0.6126
   is_uncontested: false
   is_incumbent: false
 title: Ann B. Canedy

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5194
     war: -0.0232
     is_incumbent: false
+    war_v2: -0.0232
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5426
+    expected_two_party_share_v2: 0.5426
   - name: Patricia A. Haddad
     slug: patricia-a-haddad
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4806
     war: 0.0232
     is_incumbent: true
+    war_v2: -0.1013
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4574
+    expected_two_party_share_v2: 0.5819
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5151
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5436
     war: 0.0285
     is_incumbent: false
+    war_v2: 0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5151
+    expected_two_party_share_v2: 0.5151
   - name: Justin Thurber
     slug: justin-thurber
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4564
     war: -0.0285
     is_incumbent: false
+    war_v2: -0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4849
+    expected_two_party_share_v2: 0.4849
   is_open_seat: null
 demographics:
   total_population: 44702

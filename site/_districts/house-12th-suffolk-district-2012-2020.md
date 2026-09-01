@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1694
     is_incumbent: false
+    war_v2: 0.1694
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8306
+    expected_two_party_share_v2: 0.8306
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.4876
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5124
     is_incumbent: true
+    war_v2: 0.3879
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4876
+    expected_two_party_share_v2: 0.6121
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8371
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1629
     is_incumbent: true
+    war_v2: 0.0384
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8371
+    expected_two_party_share_v2: 0.9616
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6602
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3398
     is_incumbent: false
+    war_v2: 0.3398
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6602
+    expected_two_party_share_v2: 0.6602
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7793
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2207
     is_incumbent: false
+    war_v2: 0.2207
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7793
+    expected_two_party_share_v2: 0.7793
   is_open_seat: null
 title: 12th Suffolk District (2012-2020)
 layout: district

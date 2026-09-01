@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2627
+  war_v2: 0.1382
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7373
+  expected_two_party_share_v2: 0.8618
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2404
+  war_v2: 0.1159
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7596
+  expected_two_party_share_v2: 0.8841
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.6978
   war: 0.0011
+  war_v2: 0.0011
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6967
+  expected_two_party_share_v2: 0.6967
   is_uncontested: false
   is_incumbent: false
 title: Denis E. Guyer

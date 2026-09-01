@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1037
     is_incumbent: false
+    war_v2: 0.1037
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8963
+    expected_two_party_share_v2: 0.8963
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.6494
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3506
     is_incumbent: true
+    war_v2: 0.2261
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6494
+    expected_two_party_share_v2: 0.7739
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.891
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.109
     is_incumbent: true
+    war_v2: -0.0155
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.891
+    expected_two_party_share_v2: 1.0155
   - name: Aaron James
     slug: aaron-james
     party: Other
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.1456
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7688
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2312
     is_incumbent: true
+    war_v2: 0.1067
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7688
+    expected_two_party_share_v2: 0.8933
   - name: Noelani Kamelamela
     slug: noelani-kamelamela
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.135
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8552
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1448
     is_incumbent: false
+    war_v2: 0.1448
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8552
+    expected_two_party_share_v2: 0.8552
   is_open_seat: null
 title: 27th Middlesex District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5687
     is_incumbent: true
+    war_v2: 0.4442
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4313
+    expected_two_party_share_v2: 0.5558
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5565
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5318
     war: -0.0247
     is_incumbent: false
+    war_v2: -0.0247
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5565
+    expected_two_party_share_v2: 0.5565
   - name: Paul J. Avella
     slug: paul-j-avella
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4682
     war: 0.0247
     is_incumbent: false
+    war_v2: 0.0247
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4435
+    expected_two_party_share_v2: 0.4435
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.4992
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5008
     is_incumbent: true
+    war_v2: 0.3763
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4992
+    expected_two_party_share_v2: 0.6237
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.539
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5505
     war: 0.0115
     is_incumbent: true
+    war_v2: -0.113
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.539
+    expected_two_party_share_v2: 0.6635
   - name: Dennis J. Galvin
     slug: dennis-j-galvin
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4495
     war: -0.0115
     is_incumbent: false
+    war_v2: -0.0115
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.461
+    expected_two_party_share_v2: 0.461
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3482
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6518
     is_incumbent: false
+    war_v2: 0.6518
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3482
+    expected_two_party_share_v2: 0.3482
   is_open_seat: null
 title: 2nd Middlesex (2001-2010)
 layout: district

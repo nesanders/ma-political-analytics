@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.403
     is_incumbent: true
+    war_v2: 0.2785
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.597
+    expected_two_party_share_v2: 0.7215
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.595
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.5429
     war: -0.0521
     is_incumbent: false
+    war_v2: -0.0521
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.595
+    expected_two_party_share_v2: 0.595
   - name: Joseph G. Finn
     slug: joseph-g-finn
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.4571
     war: 0.0521
     is_incumbent: false
+    war_v2: 0.0521
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.405
+    expected_two_party_share_v2: 0.405
   is_open_seat: null
 demographics:
   total_population: 47705

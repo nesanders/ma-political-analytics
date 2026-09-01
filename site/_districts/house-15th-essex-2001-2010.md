@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5794
     war: 0.1799
     is_incumbent: true
+    war_v2: 0.0554
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3995
+    expected_two_party_share_v2: 0.524
   - name: Al DiNuccio
     slug: al-dinuccio
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4206
     war: -0.1799
     is_incumbent: false
+    war_v2: -0.1799
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6005
+    expected_two_party_share_v2: 0.6005
   - name: Philip J. Lahey, Jr.
     slug: philip-j-lahey-jr
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0975
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Hector Montalvo
     slug: hector-montalvo
     party: Other
@@ -55,6 +67,10 @@ results_by_year:
     actual_two_party_share: 0.0137
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5487
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4513
     is_incumbent: true
+    war_v2: 0.3268
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5487
+    expected_two_party_share_v2: 0.6732
   - name: Joseph A. Leone, III
     slug: joseph-a-leone-iii
     party: Other
@@ -80,6 +100,10 @@ results_by_year:
     actual_two_party_share: 0.424
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4994
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.6807
     war: 0.1813
     is_incumbent: false
+    war_v2: 0.1813
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4994
+    expected_two_party_share_v2: 0.4994
   - name: Robert A. Andrew
     slug: robert-a-andrew
     party: Republican
@@ -105,6 +133,10 @@ results_by_year:
     actual_two_party_share: 0.3193
     war: -0.1813
     is_incumbent: false
+    war_v2: -0.1813
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5006
+    expected_two_party_share_v2: 0.5006
   - name: Kenneth A. Henrick
     slug: kenneth-a-henrick
     party: Other
@@ -113,6 +145,10 @@ results_by_year:
     actual_two_party_share: 0.1236
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5259
@@ -130,6 +166,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4741
     is_incumbent: true
+    war_v2: 0.3496
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5259
+    expected_two_party_share_v2: 0.6504
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3754
@@ -147,6 +187,10 @@ results_by_year:
     actual_two_party_share: 0.6225
     war: 0.2471
     is_incumbent: false
+    war_v2: 0.2471
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3754
+    expected_two_party_share_v2: 0.3754
   - name: Robert G. Hazelton, III
     slug: robert-g-hazelton-iii
     party: Republican
@@ -155,6 +199,10 @@ results_by_year:
     actual_two_party_share: 0.3775
     war: -0.2471
     is_incumbent: false
+    war_v2: -0.2471
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6246
+    expected_two_party_share_v2: 0.6246
   is_open_seat: null
 title: 15th Essex (2001-2010)
 layout: district

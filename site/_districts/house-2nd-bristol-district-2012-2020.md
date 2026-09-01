@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4043
     is_incumbent: true
+    war_v2: 0.2798
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5957
+    expected_two_party_share_v2: 0.7202
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2927
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5835
     war: 0.2908
     is_incumbent: false
+    war_v2: 0.2908
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2927
+    expected_two_party_share_v2: 0.2927
   - name: Julie A. Hall
     slug: julie-a-hall
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4165
     war: -0.2908
     is_incumbent: false
+    war_v2: -0.2908
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7073
+    expected_two_party_share_v2: 0.7073
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.551
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.449
     is_incumbent: true
+    war_v2: 0.3245
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.551
+    expected_two_party_share_v2: 0.6755
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4268
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6112
     war: 0.1844
     is_incumbent: true
+    war_v2: 0.0599
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4268
+    expected_two_party_share_v2: 0.5513
   - name: Bert J. Buckley
     slug: bert-j-buckley
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3888
     war: -0.1844
     is_incumbent: false
+    war_v2: -0.1844
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5732
+    expected_two_party_share_v2: 0.5732
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5536
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.5821
     war: 0.0285
     is_incumbent: false
+    war_v2: 0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5536
+    expected_two_party_share_v2: 0.5536
   - name: George T. Ross
     slug: george-t-ross
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.4179
     war: -0.0285
     is_incumbent: false
+    war_v2: -0.0285
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4464
+    expected_two_party_share_v2: 0.4464
   is_open_seat: null
 title: 2nd Bristol District (2012-2020)
 layout: district

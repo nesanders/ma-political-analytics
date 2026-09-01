@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5819
     war: 0.0266
     is_incumbent: true
+    war_v2: -0.0979
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5553
+    expected_two_party_share_v2: 0.6798
   - name: Thomas A. McCarthy
     slug: thomas-a-mccarthy
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4181
     war: -0.0266
     is_incumbent: false
+    war_v2: -0.0266
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4447
+    expected_two_party_share_v2: 0.4447
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6473
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3527
     is_incumbent: true
+    war_v2: 0.2282
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6473
+    expected_two_party_share_v2: 0.7718
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6136
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5972
     war: -0.0165
     is_incumbent: false
+    war_v2: -0.0165
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6137
+    expected_two_party_share_v2: 0.6137
   - name: Enrico John Villamaino, III
     slug: enrico-john-villamaino-iii
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4028
     war: 0.0165
     is_incumbent: false
+    war_v2: 0.0165
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3863
+    expected_two_party_share_v2: 0.3863
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6256
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6256
     is_incumbent: true
+    war_v2: 0.5011
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3744
+    expected_two_party_share_v2: 0.4989
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4873
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4873
     is_incumbent: false
+    war_v2: 0.4873
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5127
+    expected_two_party_share_v2: 0.5127
   is_open_seat: null
 title: First Hampden and Hampshire (2001-2010)
 layout: district

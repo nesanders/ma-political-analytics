@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.444
   war: 0.0575
+  war_v2: 0.0575
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3865
+  expected_two_party_share_v2: 0.3865
   is_uncontested: false
   is_incumbent: false
 title: Glenn C. Fossa

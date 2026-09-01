@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2973
   war: -0.0779
+  war_v2: -0.0779
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3752
+  expected_two_party_share_v2: 0.3752
   is_uncontested: false
   is_incumbent: false
 title: Dennis John McCarthy

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5227
     war: -0.0258
     is_incumbent: false
+    war_v2: -0.0258
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5485
+    expected_two_party_share_v2: 0.5485
   - name: Jesse G. Brown
     slug: jesse-g-brown
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4773
     war: 0.0258
     is_incumbent: false
+    war_v2: 0.0258
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4515
+    expected_two_party_share_v2: 0.4515
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5611
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5776
     war: 0.1387
     is_incumbent: false
+    war_v2: 0.1387
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4389
+    expected_two_party_share_v2: 0.4389
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4224
     war: -0.1387
     is_incumbent: false
+    war_v2: -0.1387
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5611
+    expected_two_party_share_v2: 0.5611
   is_open_seat: null
 demographics:
   total_population: 45312

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3234
+  war_v2: 0.1989
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6766
+  expected_two_party_share_v2: 0.8011
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2666
+  war_v2: 0.1421
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7334
+  expected_two_party_share_v2: 0.8579
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2875
+  war_v2: 0.163
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7125
+  expected_two_party_share_v2: 0.837
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3106
+  war_v2: 0.1861
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6894
+  expected_two_party_share_v2: 0.8139
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7294
   war: 0.141
+  war_v2: 0.141
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5884
+  expected_two_party_share_v2: 0.5884
   is_uncontested: false
   is_incumbent: false
 title: Michael F. Kane

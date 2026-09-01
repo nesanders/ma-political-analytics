@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3331
+  war_v2: 0.2086
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6669
+  expected_two_party_share_v2: 0.7914
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2768
+  war_v2: 0.1523
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7232
+  expected_two_party_share_v2: 0.8477
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3392
+  war_v2: 0.2147
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6608
+  expected_two_party_share_v2: 0.7853
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4723
+  war_v2: 0.4723
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5277
+  expected_two_party_share_v2: 0.5277
   is_uncontested: true
   is_incumbent: false
 title: Robert P. Spellane

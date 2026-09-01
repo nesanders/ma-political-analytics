@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2635
     is_incumbent: true
+    war_v2: 0.139
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7365
+    expected_two_party_share_v2: 0.861
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4782
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5218
     is_incumbent: true
+    war_v2: 0.3973
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4782
+    expected_two_party_share_v2: 0.6027
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7159
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2841
     is_incumbent: true
+    war_v2: 0.1596
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7159
+    expected_two_party_share_v2: 0.8404
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6688
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3312
     is_incumbent: true
+    war_v2: 0.2067
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6688
+    expected_two_party_share_v2: 0.7933
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7431
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2569
     is_incumbent: false
+    war_v2: 0.2569
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7431
+    expected_two_party_share_v2: 0.7431
   - name: Lee Scott Laugenour
     slug: lee-scott-laugenour
     party: null
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.2174
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 4th Berkshire District (2012-2020)
 layout: district

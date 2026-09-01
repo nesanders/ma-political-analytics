@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3644
   war: -0.36
+  war_v2: -0.36
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7244
+  expected_two_party_share_v2: 0.7244
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4035
   war: 0.0486
+  war_v2: 0.0486
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3549
+  expected_two_party_share_v2: 0.3549
   is_uncontested: false
   is_incumbent: false
 title: Paul R. Ferro

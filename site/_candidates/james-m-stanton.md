@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3928
   war: -0.0747
+  war_v2: -0.0747
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4675
+  expected_two_party_share_v2: 0.4675
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4627
   war: -0.0951
+  war_v2: -0.0951
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5578
+  expected_two_party_share_v2: 0.5578
   is_uncontested: false
   is_incumbent: false
 title: James M. Stanton

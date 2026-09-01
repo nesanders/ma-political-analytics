@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3705
     is_incumbent: true
+    war_v2: 0.246
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6295
+    expected_two_party_share_v2: 0.754
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2661
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.699
     war: 0.4329
     is_incumbent: false
+    war_v2: 0.4329
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2661
+    expected_two_party_share_v2: 0.2661
   - name: Claire M. Malaguti
     slug: claire-m-malaguti
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.301
     war: -0.4329
     is_incumbent: false
+    war_v2: -0.4329
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7339
+    expected_two_party_share_v2: 0.7339
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.581
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.419
     is_incumbent: true
+    war_v2: 0.2945
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.581
+    expected_two_party_share_v2: 0.7055
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4321
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5679
     is_incumbent: true
+    war_v2: 0.4434
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4321
+    expected_two_party_share_v2: 0.5566
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5397
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4603
     is_incumbent: false
+    war_v2: 0.4603
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5397
+    expected_two_party_share_v2: 0.5397
   is_open_seat: null
 title: 30th Middlesex District (2012-2020)
 layout: district

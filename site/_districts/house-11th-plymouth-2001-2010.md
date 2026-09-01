@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5748
     war: 0.0761
     is_incumbent: true
+    war_v2: -0.0484
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4987
+    expected_two_party_share_v2: 0.6232
   - name: Kristine Abrams
     slug: kristine-abrams
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4252
     war: -0.0761
     is_incumbent: false
+    war_v2: -0.0761
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5013
+    expected_two_party_share_v2: 0.5013
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6077
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3923
     is_incumbent: true
+    war_v2: 0.2678
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6077
+    expected_two_party_share_v2: 0.7322
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5756
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4244
     is_incumbent: true
+    war_v2: 0.2999
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5756
+    expected_two_party_share_v2: 0.7001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5873
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6922
     war: 0.1049
     is_incumbent: true
+    war_v2: -0.0196
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5873
+    expected_two_party_share_v2: 0.7118
   - name: Marissa E. Lima
     slug: marissa-e-lima
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3078
     war: -0.1049
     is_incumbent: false
+    war_v2: -0.1049
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4127
+    expected_two_party_share_v2: 0.4127
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4282
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5718
     is_incumbent: false
+    war_v2: 0.5718
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4282
+    expected_two_party_share_v2: 0.4282
   is_open_seat: null
 title: 11th Plymouth (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1144
+  war_v2: -0.0101
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8856
+  expected_two_party_share_v2: 1.0101
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.8067
   war: 0.1151
+  war_v2: -0.0094
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6916
+  expected_two_party_share_v2: 0.8161
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2088
+  war_v2: 0.2088
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7912
+  expected_two_party_share_v2: 0.7912
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2422
+  war_v2: 0.1177
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7578
+  expected_two_party_share_v2: 0.8823
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1773
+  war_v2: 0.0528
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8227
+  expected_two_party_share_v2: 0.9472
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2068
+  war_v2: 0.0823
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7932
+  expected_two_party_share_v2: 0.9177
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1987
+  war_v2: 0.0742
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8013
+  expected_two_party_share_v2: 0.9258
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3407
+  war_v2: 0.3407
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6593
+  expected_two_party_share_v2: 0.6593
   is_uncontested: true
   is_incumbent: false
 title: Frank Israel Smizik

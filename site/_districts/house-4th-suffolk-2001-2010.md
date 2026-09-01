@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.7334
     war: -0.0199
     is_incumbent: false
+    war_v2: -0.0199
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7533
+    expected_two_party_share_v2: 0.7533
   - name: Patrick James Brennan
     slug: patrick-james-brennan
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2666
     war: 0.0199
     is_incumbent: false
+    war_v2: 0.0199
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2467
+    expected_two_party_share_v2: 0.2467
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.8033
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1967
     is_incumbent: true
+    war_v2: 0.0722
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8033
+    expected_two_party_share_v2: 0.9278
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7748
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2252
     is_incumbent: true
+    war_v2: 0.1007
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7748
+    expected_two_party_share_v2: 0.8993
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7833
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2167
     is_incumbent: true
+    war_v2: 0.0922
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7833
+    expected_two_party_share_v2: 0.9078
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6542
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3458
     is_incumbent: false
+    war_v2: 0.3458
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6542
+    expected_two_party_share_v2: 0.6542
   is_open_seat: null
 title: 4th Suffolk (2001-2010)
 layout: district

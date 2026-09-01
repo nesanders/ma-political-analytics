@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.8421
   war: 0.06
+  war_v2: 0.06
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7821
+  expected_two_party_share_v2: 0.7821
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.304
+  war_v2: 0.1795
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.696
+  expected_two_party_share_v2: 0.8205
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2449
+  war_v2: 0.1204
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7551
+  expected_two_party_share_v2: 0.8796
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2812
+  war_v2: 0.1567
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7188
+  expected_two_party_share_v2: 0.8433
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2435
+  war_v2: 0.2435
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7565
+  expected_two_party_share_v2: 0.7565
   is_uncontested: true
   is_incumbent: false
 title: Carl M. Sciortino, Jr.

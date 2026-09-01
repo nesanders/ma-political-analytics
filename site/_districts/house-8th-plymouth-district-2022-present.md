@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5051
     war: 0.02
     is_incumbent: false
+    war_v2: 0.02
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4851
+    expected_two_party_share_v2: 0.4851
   - name: Sandra M. Wright
     slug: sandra-m-wright
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4949
     war: -0.02
     is_incumbent: false
+    war_v2: -0.02
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5149
+    expected_two_party_share_v2: 0.5149
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4953
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.6
     war: 0.0953
     is_incumbent: false
+    war_v2: 0.0953
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5047
+    expected_two_party_share_v2: 0.5047
   - name: Eric J. Haikola
     slug: eric-j-haikola
     party: Democratic
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4
     war: -0.0953
     is_incumbent: false
+    war_v2: -0.0953
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4953
+    expected_two_party_share_v2: 0.4953
   is_open_seat: null
 demographics:
   total_population: 43775

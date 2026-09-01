@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2542
+  war_v2: 0.1297
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7458
+  expected_two_party_share_v2: 0.8703
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4962
+  war_v2: 0.4962
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5038
+  expected_two_party_share_v2: 0.5038
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.8007
   war: 0.0828
+  war_v2: -0.0417
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7179
+  expected_two_party_share_v2: 0.8424
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1593
+  war_v2: 0.1593
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8407
+  expected_two_party_share_v2: 0.8407
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.8477
   war: 0.1046
+  war_v2: 0.1046
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7431
+  expected_two_party_share_v2: 0.7431
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: false
   actual_two_party_share: 0.2503
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 title: Marcos A. Devers

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4409
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3873
+  war_v2: 0.3873
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6127
+  expected_two_party_share_v2: 0.6127
   is_uncontested: true
   is_incumbent: false
 title: Mark A. Howland

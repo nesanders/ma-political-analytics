@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3926
+  war_v2: 0.3926
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6074
+  expected_two_party_share_v2: 0.6074
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.263
+  war_v2: 0.263
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.737
+  expected_two_party_share_v2: 0.737
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2365
+  war_v2: 0.112
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7635
+  expected_two_party_share_v2: 0.888
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6234
+  war_v2: 0.4989
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3766
+  expected_two_party_share_v2: 0.5011
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.257
+  war_v2: 0.257
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.743
+  expected_two_party_share_v2: 0.743
   is_uncontested: true
   is_incumbent: false
 title: William J. Driscoll, Jr

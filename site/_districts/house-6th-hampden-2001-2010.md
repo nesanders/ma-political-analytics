@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.546
     war: 0.0549
     is_incumbent: false
+    war_v2: 0.0549
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4911
+    expected_two_party_share_v2: 0.4911
   - name: Gregory C. Neffinger
     slug: gregory-c-neffinger
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.454
     war: -0.0549
     is_incumbent: false
+    war_v2: -0.0549
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.5089
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5895
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4105
     is_incumbent: true
+    war_v2: 0.286
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5895
+    expected_two_party_share_v2: 0.714
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5667
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4333
     is_incumbent: true
+    war_v2: 0.3088
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5667
+    expected_two_party_share_v2: 0.6912
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5903
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6412
     war: 0.051
     is_incumbent: false
+    war_v2: 0.051
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5902
+    expected_two_party_share_v2: 0.5902
   - name: Dean C. Vogel, Sr.
     slug: dean-c-vogel-sr
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3588
     war: -0.051
     is_incumbent: false
+    war_v2: -0.051
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4098
+    expected_two_party_share_v2: 0.4098
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4488
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5512
     is_incumbent: false
+    war_v2: 0.5512
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4488
+    expected_two_party_share_v2: 0.4488
   is_open_seat: null
 title: 6th Hampden (2001-2010)
 layout: district

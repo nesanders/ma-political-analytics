@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4773
   war: 0.0258
+  war_v2: 0.0258
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4515
+  expected_two_party_share_v2: 0.4515
   is_uncontested: false
   is_incumbent: false
 title: Jesse G. Brown

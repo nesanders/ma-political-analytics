@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2248
     is_incumbent: true
+    war_v2: 0.1003
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7752
+    expected_two_party_share_v2: 0.8997
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.396
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.604
     is_incumbent: false
+    war_v2: 0.604
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.396
+    expected_two_party_share_v2: 0.396
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7473
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2527
     is_incumbent: true
+    war_v2: 0.1282
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7473
+    expected_two_party_share_v2: 0.8718
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5654
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4346
     is_incumbent: true
+    war_v2: 0.3101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5654
+    expected_two_party_share_v2: 0.6899
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6667
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3333
     is_incumbent: false
+    war_v2: 0.3333
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6667
+    expected_two_party_share_v2: 0.6667
   is_open_seat: null
 title: 15th Middlesex District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7185
   war: 0.1818
+  war_v2: 0.0573
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5367
+  expected_two_party_share_v2: 0.6612
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5971
+  war_v2: 0.5971
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4029
+  expected_two_party_share_v2: 0.4029
   is_uncontested: true
   is_incumbent: false
 title: Daniel F. Keenan

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.294
     is_incumbent: true
+    war_v2: 0.1695
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.706
+    expected_two_party_share_v2: 0.8305
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4641
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5359
     is_incumbent: false
+    war_v2: 0.5359
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4641
+    expected_two_party_share_v2: 0.4641
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6915
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3085
     is_incumbent: true
+    war_v2: 0.184
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6915
+    expected_two_party_share_v2: 0.816
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7177
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2823
     is_incumbent: true
+    war_v2: 0.1578
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7177
+    expected_two_party_share_v2: 0.8422
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7757
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2243
     is_incumbent: false
+    war_v2: 0.2243
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7757
+    expected_two_party_share_v2: 0.7757
   is_open_seat: null
 title: 1st Berkshire District (2012-2020)
 layout: district

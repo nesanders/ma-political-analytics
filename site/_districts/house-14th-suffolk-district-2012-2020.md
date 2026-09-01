@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1577
     is_incumbent: false
+    war_v2: 0.1577
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8423
+    expected_two_party_share_v2: 0.8423
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.5088
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4912
     is_incumbent: true
+    war_v2: 0.3667
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5088
+    expected_two_party_share_v2: 0.6333
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.853
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.147
     is_incumbent: true
+    war_v2: 0.0225
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.853
+    expected_two_party_share_v2: 0.9775
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6878
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3122
     is_incumbent: true
+    war_v2: 0.1877
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6878
+    expected_two_party_share_v2: 0.8123
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8034
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1966
     is_incumbent: false
+    war_v2: 0.1966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8034
+    expected_two_party_share_v2: 0.8034
   is_open_seat: null
 title: 14th Suffolk District (2012-2020)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2925
   war: -0.1184
+  war_v2: -0.1184
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4109
+  expected_two_party_share_v2: 0.4109
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3385
   war: -0.1936
+  war_v2: -0.1936
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5321
+  expected_two_party_share_v2: 0.5321
   is_uncontested: false
   is_incumbent: false
 title: Richard A. Jolitz

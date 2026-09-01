@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2363
   war: -0.0345
+  war_v2: -0.0345
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2708
+  expected_two_party_share_v2: 0.2708
   is_uncontested: false
   is_incumbent: false
 title: Steven W. Aylward

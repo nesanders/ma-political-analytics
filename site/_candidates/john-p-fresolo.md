@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4888
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2984
+  war_v2: 0.2984
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7016
+  expected_two_party_share_v2: 0.7016
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3547
+  war_v2: 0.2302
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6453
+  expected_two_party_share_v2: 0.7698
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3093
+  war_v2: 0.1848
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6907
+  expected_two_party_share_v2: 0.8152
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2524
+  war_v2: 0.1279
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7476
+  expected_two_party_share_v2: 0.8721
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.7582
   war: 0.0742
+  war_v2: -0.0503
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.684
+  expected_two_party_share_v2: 0.8085
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4434
+  war_v2: 0.4434
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5566
+  expected_two_party_share_v2: 0.5566
   is_uncontested: true
   is_incumbent: false
 title: John P. Fresolo

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2336
   war: -0.1354
+  war_v2: -0.1354
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.369
+  expected_two_party_share_v2: 0.369
   is_uncontested: false
   is_incumbent: false
 title: William G. Lebeau

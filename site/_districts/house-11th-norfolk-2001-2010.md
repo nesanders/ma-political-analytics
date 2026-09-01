@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5428
     is_incumbent: true
+    war_v2: 0.4183
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4572
+    expected_two_party_share_v2: 0.5817
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5494
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4506
     is_incumbent: false
+    war_v2: 0.4506
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5494
+    expected_two_party_share_v2: 0.5494
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5162
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4838
     is_incumbent: true
+    war_v2: 0.3593
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5162
+    expected_two_party_share_v2: 0.6407
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.569
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.431
     is_incumbent: true
+    war_v2: 0.3065
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.569
+    expected_two_party_share_v2: 0.6935
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3959
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 0.6264
     war: 0.2305
     is_incumbent: false
+    war_v2: 0.2305
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3959
+    expected_two_party_share_v2: 0.3959
   - name: Joseph A. Pascarella
     slug: joseph-a-pascarella
     party: Republican
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.3736
     war: -0.2305
     is_incumbent: false
+    war_v2: -0.2305
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6041
+    expected_two_party_share_v2: 0.6041
   is_open_seat: null
 title: 11th Norfolk (2001-2010)
 layout: district

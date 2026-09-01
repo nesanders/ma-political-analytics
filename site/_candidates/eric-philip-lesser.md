@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7126
+  war_v2: 0.5881
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2874
+  expected_two_party_share_v2: 0.4119
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.559
   war: -0.0379
+  war_v2: -0.1624
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5969
+  expected_two_party_share_v2: 0.7214
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.53
   war: 0.072
+  war_v2: 0.072
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.458
+  expected_two_party_share_v2: 0.458
   is_uncontested: false
   is_incumbent: false
 title: Eric P. Lesser

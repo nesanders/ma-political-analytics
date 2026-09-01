@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4964
   war: -0.144
+  war_v2: -0.144
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6404
+  expected_two_party_share_v2: 0.6404
   is_uncontested: false
   is_incumbent: false
 title: Michael J. Valanzola

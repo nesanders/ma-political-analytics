@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5149
     war: 0.0404
     is_incumbent: false
+    war_v2: 0.0404
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4745
+    expected_two_party_share_v2: 0.4745
   - name: David R. Lucas
     slug: david-r-lucas
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4851
     war: -0.0404
     is_incumbent: false
+    war_v2: -0.0404
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5255
+    expected_two_party_share_v2: 0.5255
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5925
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4075
     is_incumbent: false
+    war_v2: 0.4075
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5925
+    expected_two_party_share_v2: 0.5925
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5627
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4373
     is_incumbent: true
+    war_v2: 0.3128
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5627
+    expected_two_party_share_v2: 0.6872
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6111
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6684
     war: 0.0573
     is_incumbent: true
+    war_v2: -0.0672
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6111
+    expected_two_party_share_v2: 0.7356
   - name: Thomas M. Quinn
     slug: thomas-m-quinn
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3316
     war: -0.0573
     is_incumbent: false
+    war_v2: -0.0573
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3889
+    expected_two_party_share_v2: 0.3889
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4345
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6524
     war: 0.2179
     is_incumbent: false
+    war_v2: 0.2179
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4345
+    expected_two_party_share_v2: 0.4345
   - name: Arthur E. Hitchman, Jr.
     slug: arthur-e-hitchman-jr
     party: Republican
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3476
     war: -0.2179
     is_incumbent: false
+    war_v2: -0.2179
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5655
+    expected_two_party_share_v2: 0.5655
   is_open_seat: null
 title: 32nd Middlesex (2001-2010)
 layout: district

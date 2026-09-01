@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5121
   war: -0.0414
+  war_v2: -0.0414
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5535
+  expected_two_party_share_v2: 0.5535
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.289
+  war_v2: 0.289
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.711
+  expected_two_party_share_v2: 0.711
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2713
+  war_v2: 0.1468
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7287
+  expected_two_party_share_v2: 0.8532
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6238
+  war_v2: 0.4993
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.3762
+  expected_two_party_share_v2: 0.5007
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3032
+  war_v2: 0.3032
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6968
+  expected_two_party_share_v2: 0.6968
   is_uncontested: true
   is_incumbent: false
 title: Dylan A. Fernandes

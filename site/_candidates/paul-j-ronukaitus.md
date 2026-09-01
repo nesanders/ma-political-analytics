@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2509
   war: -0.2546
+  war_v2: -0.2546
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5055
+  expected_two_party_share_v2: 0.5055
   is_uncontested: false
   is_incumbent: false
 title: Paul J. Ronukaitus

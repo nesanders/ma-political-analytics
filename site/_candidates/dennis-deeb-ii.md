@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4279
   war: -0.2061
+  war_v2: -0.2061
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.634
+  expected_two_party_share_v2: 0.634
   is_uncontested: false
   is_incumbent: false
 title: Dennis Deeb, II

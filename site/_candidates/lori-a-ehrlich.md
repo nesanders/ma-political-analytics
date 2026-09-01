@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2762
+  war_v2: 0.1517
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7238
+  expected_two_party_share_v2: 0.8483
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7359
+  war_v2: 0.6114
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.2641
+  expected_two_party_share_v2: 0.3886
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3134
+  war_v2: 0.1889
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6866
+  expected_two_party_share_v2: 0.8111
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5733
+  war_v2: 0.4488
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4267
+  expected_two_party_share_v2: 0.5512
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3966
+  war_v2: 0.3966
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6034
+  expected_two_party_share_v2: 0.6034
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.6194
   war: 0.1521
+  war_v2: 0.0276
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4673
+  expected_two_party_share_v2: 0.5918
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.6672
   war: 0.0285
+  war_v2: 0.0285
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6387
+  expected_two_party_share_v2: 0.6387
   is_uncontested: false
   is_incumbent: false
 title: Lori A. Ehrlich

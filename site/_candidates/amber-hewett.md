@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4836
   war: -0.189
+  war_v2: -0.189
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6726
+  expected_two_party_share_v2: 0.6726
   is_uncontested: false
   is_incumbent: false
 title: Amber Hewett

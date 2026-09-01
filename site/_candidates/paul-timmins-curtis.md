@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3052
   war: -0.1906
+  war_v2: -0.1906
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4958
+  expected_two_party_share_v2: 0.4958
   is_uncontested: false
   is_incumbent: false
 title: Paul Timmins Curtis

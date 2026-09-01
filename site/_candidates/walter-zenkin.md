@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4472
   war: -0.0086
+  war_v2: -0.0086
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4558
+  expected_two_party_share_v2: 0.4558
   is_uncontested: false
   is_incumbent: false
 title: Walter Zenkin

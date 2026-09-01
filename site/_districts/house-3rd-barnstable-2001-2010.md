@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5395
     war: 0.0169
     is_incumbent: false
+    war_v2: 0.0169
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5226
+    expected_two_party_share_v2: 0.5226
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4605
     war: -0.0169
     is_incumbent: true
+    war_v2: -0.1414
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4774
+    expected_two_party_share_v2: 0.6019
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5704
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4296
     is_incumbent: true
+    war_v2: 0.3051
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5704
+    expected_two_party_share_v2: 0.6949
   - name: Carey M. Murphy
     slug: carey-m-murphy
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.6782
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5242
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4758
     is_incumbent: true
+    war_v2: 0.3513
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5242
+    expected_two_party_share_v2: 0.6487
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5542
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5336
     war: -0.0206
     is_incumbent: true
+    war_v2: -0.1451
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5542
+    expected_two_party_share_v2: 0.6787
   - name: Larry F. Wheatley
     slug: larry-f-wheatley
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4664
     war: 0.0206
     is_incumbent: false
+    war_v2: 0.0206
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4458
+    expected_two_party_share_v2: 0.4458
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4169
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5005
     war: 0.0836
     is_incumbent: false
+    war_v2: 0.0836
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4169
+    expected_two_party_share_v2: 0.4169
   - name: Larry F. Wheatley
     slug: larry-f-wheatley
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4995
     war: -0.0836
     is_incumbent: false
+    war_v2: -0.0836
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5831
+    expected_two_party_share_v2: 0.5831
   is_open_seat: null
 title: 3rd Barnstable (2001-2010)
 layout: district

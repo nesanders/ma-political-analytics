@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 1.3205
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3294
   war: 0.0005
+  war_v2: 0.0005
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3289
+  expected_two_party_share_v2: 0.3289
   is_uncontested: false
   is_incumbent: false
 title: Nicolas Sanchez

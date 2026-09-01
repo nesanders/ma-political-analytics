@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5019
     war: 0.0591
     is_incumbent: false
+    war_v2: 0.0591
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4428
+    expected_two_party_share_v2: 0.4428
   - name: Kostas Loukos
     slug: kostas-loukos
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4981
     war: -0.0591
     is_incumbent: false
+    war_v2: -0.0591
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5572
+    expected_two_party_share_v2: 0.5572
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5712
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5757
     war: 0.1468
     is_incumbent: false
+    war_v2: 0.1468
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4289
+    expected_two_party_share_v2: 0.4289
   - name: Brendan A. Roche
     slug: brendan-a-roche
     party: Democratic
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.4243
     war: -0.1468
     is_incumbent: false
+    war_v2: -0.1468
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5711
+    expected_two_party_share_v2: 0.5711
   is_open_seat: null
 demographics:
   total_population: 42367

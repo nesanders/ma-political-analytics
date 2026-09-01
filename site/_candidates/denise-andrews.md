@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4537
   war: 0.0106
+  war_v2: -0.1139
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4431
+  expected_two_party_share_v2: 0.5676
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.506
   war: -0.0778
+  war_v2: -0.0778
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5838
+  expected_two_party_share_v2: 0.5838
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.5537
   war: -0.0658
+  war_v2: -0.0658
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6195
+  expected_two_party_share_v2: 0.6195
   is_uncontested: false
   is_incumbent: false
 title: Denise Andrews

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5853
     war: -0.0043
     is_incumbent: true
+    war_v2: -0.1288
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5896
+    expected_two_party_share_v2: 0.7141
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4147
     war: 0.0043
     is_incumbent: false
+    war_v2: 0.0043
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4104
+    expected_two_party_share_v2: 0.4104
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2396
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5627
     war: 0.3231
     is_incumbent: true
+    war_v2: 0.1986
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2396
+    expected_two_party_share_v2: 0.3641
   - name: Richard E. Palmieri
     slug: richard-e-palmieri
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4373
     war: -0.3231
     is_incumbent: false
+    war_v2: -0.3231
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7604
+    expected_two_party_share_v2: 0.7604
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5455
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.552
     war: 0.0065
     is_incumbent: false
+    war_v2: 0.0065
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5455
+    expected_two_party_share_v2: 0.5455
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.448
     war: -0.0065
     is_incumbent: false
+    war_v2: -0.0065
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4545
+    expected_two_party_share_v2: 0.4545
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4019
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.5504
     war: 0.1485
     is_incumbent: true
+    war_v2: 0.024
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4019
+    expected_two_party_share_v2: 0.5264
   - name: Jacques A. Perrault
     slug: jacques-a-perrault
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.4496
     war: -0.1485
     is_incumbent: false
+    war_v2: -0.1485
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5981
+    expected_two_party_share_v2: 0.5981
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5338
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.5719
     war: 0.0382
     is_incumbent: false
+    war_v2: 0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5337
+    expected_two_party_share_v2: 0.5337
   - name: Justin A. Brooks
     slug: justin-a-brooks
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.4281
     war: -0.0382
     is_incumbent: false
+    war_v2: -0.0382
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4663
+    expected_two_party_share_v2: 0.4663
   is_open_seat: null
 title: 4th Worcester District (2012-2020)
 layout: district

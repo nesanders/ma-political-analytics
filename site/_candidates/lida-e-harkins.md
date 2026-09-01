@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.372
+  war_v2: 0.2475
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.628
+  expected_two_party_share_v2: 0.7525
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4164
+  war_v2: 0.2919
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5836
+  expected_two_party_share_v2: 0.7081
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3913
+  war_v2: 0.2668
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6087
+  expected_two_party_share_v2: 0.7332
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6086
+  war_v2: 0.6086
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3914
+  expected_two_party_share_v2: 0.3914
   is_uncontested: true
   is_incumbent: false
 title: Lida E. Harkins

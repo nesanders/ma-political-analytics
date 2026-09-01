@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1575
     is_incumbent: true
+    war_v2: 0.033
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8425
+    expected_two_party_share_v2: 0.967
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.509
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.491
     is_incumbent: true
+    war_v2: 0.3665
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.509
+    expected_two_party_share_v2: 0.6335
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8532
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1468
     is_incumbent: false
+    war_v2: 0.1468
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8532
+    expected_two_party_share_v2: 0.8532
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6878
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3122
     is_incumbent: true
+    war_v2: 0.1877
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6878
+    expected_two_party_share_v2: 0.8123
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8034
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1966
     is_incumbent: false
+    war_v2: 0.1966
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8034
+    expected_two_party_share_v2: 0.8034
   is_open_seat: null
 title: 7th Suffolk District (2012-2020)
 layout: district

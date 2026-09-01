@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2414
   war: -0.2134
+  war_v2: -0.2134
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4548
+  expected_two_party_share_v2: 0.4548
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2418
   war: -0.1847
+  war_v2: -0.1847
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4265
+  expected_two_party_share_v2: 0.4265
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.2788
   war: -0.3077
+  war_v2: -0.3077
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5865
+  expected_two_party_share_v2: 0.5865
   is_uncontested: false
   is_incumbent: false
 title: Brooks T. Lyman

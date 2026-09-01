@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6193
   war: 0.0799
+  war_v2: 0.0799
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5394
+  expected_two_party_share_v2: 0.5394
   is_uncontested: false
   is_incumbent: false
 title: John J. Marsi, Jr

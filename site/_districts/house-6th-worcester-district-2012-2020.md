@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5062
     is_incumbent: true
+    war_v2: 0.3817
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4938
+    expected_two_party_share_v2: 0.6183
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2089
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2089
     is_incumbent: true
+    war_v2: 0.0844
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7911
+    expected_two_party_share_v2: 0.9156
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4801
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4801
     is_incumbent: true
+    war_v2: 0.3556
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5199
+    expected_two_party_share_v2: 0.6444
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3684
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6294
     war: -0.0022
     is_incumbent: true
+    war_v2: -0.1267
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6316
+    expected_two_party_share_v2: 0.7561
   - name: Karen A. Spiewak
     slug: karen-a-spiewak
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3706
     war: 0.0022
     is_incumbent: false
+    war_v2: 0.0022
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3684
+    expected_two_party_share_v2: 0.3684
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5357
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.5549
     war: 0.0906
     is_incumbent: false
+    war_v2: 0.0906
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4643
+    expected_two_party_share_v2: 0.4643
   - name: Kathleen Walker
     slug: kathleen-walker
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.4451
     war: -0.0906
     is_incumbent: false
+    war_v2: -0.0906
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5357
+    expected_two_party_share_v2: 0.5357
   is_open_seat: null
 title: 6th Worcester District (2012-2020)
 layout: district

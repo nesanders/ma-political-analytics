@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3926
     is_incumbent: false
+    war_v2: 0.3926
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6074
+    expected_two_party_share_v2: 0.6074
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6144
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.6613
     war: 0.0469
     is_incumbent: false
+    war_v2: 0.0469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6144
+    expected_two_party_share_v2: 0.6144
   - name: Brian R. Muello
     slug: brian-r-muello
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.3387
     war: -0.0469
     is_incumbent: false
+    war_v2: -0.0469
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3856
+    expected_two_party_share_v2: 0.3856
   is_open_seat: null
 demographics:
   median_household_income: 116202

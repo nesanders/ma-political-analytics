@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3761
     is_incumbent: true
+    war_v2: 0.2516
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6239
+    expected_two_party_share_v2: 0.7484
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6901
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3099
     is_incumbent: true
+    war_v2: 0.1854
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6901
+    expected_two_party_share_v2: 0.8146
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6538
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3462
     is_incumbent: true
+    war_v2: 0.2217
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6538
+    expected_two_party_share_v2: 0.7783
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6842
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6975
     war: 0.0133
     is_incumbent: true
+    war_v2: -0.1112
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6842
+    expected_two_party_share_v2: 0.8087
   - name: Catherine D. Ryan
     slug: catherine-d-ryan
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3025
     war: -0.0133
     is_incumbent: false
+    war_v2: -0.0133
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3158
+    expected_two_party_share_v2: 0.3158
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5176
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4824
     is_incumbent: false
+    war_v2: 0.4824
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5176
+    expected_two_party_share_v2: 0.5176
   - name: Michael J. Dever
     slug: michael-j-dever
     party: Other
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.4499
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 15th Middlesex (2001-2010)
 layout: district

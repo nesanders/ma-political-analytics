@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3593
+  war_v2: 0.2348
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6407
+  expected_two_party_share_v2: 0.7652
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6446
   war: 0.3424
+  war_v2: 0.3424
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3022
+  expected_two_party_share_v2: 0.3022
   is_uncontested: false
   is_incumbent: false
 title: Christina A. Minicucci

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1473
   war: -0.0768
+  war_v2: -0.0768
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2241
+  expected_two_party_share_v2: 0.2241
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.1591
   war: -0.101
+  war_v2: -0.101
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2601
+  expected_two_party_share_v2: 0.2601
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.2836
   war: 0.0032
+  war_v2: 0.0032
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2804
+  expected_two_party_share_v2: 0.2804
   is_uncontested: false
   is_incumbent: false
 title: George Vazquez

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4184
   war: -0.0721
+  war_v2: -0.0721
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4905
+  expected_two_party_share_v2: 0.4905
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4756
   war: -0.0853
+  war_v2: -0.0853
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5609
+  expected_two_party_share_v2: 0.5609
   is_uncontested: false
   is_incumbent: false
 title: Thomas F. Keyes

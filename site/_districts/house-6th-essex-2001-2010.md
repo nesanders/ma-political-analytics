@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6031
     war: 0.1029
     is_incumbent: false
+    war_v2: 0.1029
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5002
+    expected_two_party_share_v2: 0.5002
   - name: Brett R. Schetzsle
     slug: brett-r-schetzsle
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3969
     war: -0.1029
     is_incumbent: false
+    war_v2: -0.1029
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4998
+    expected_two_party_share_v2: 0.4998
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.613
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.387
     is_incumbent: true
+    war_v2: 0.2625
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.613
+    expected_two_party_share_v2: 0.7375
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4435
     is_incumbent: true
+    war_v2: 0.319
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5565
+    expected_two_party_share_v2: 0.681
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.2422
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5985
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.7193
     war: 0.1208
     is_incumbent: true
+    war_v2: -0.0037
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5985
+    expected_two_party_share_v2: 0.723
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.2807
     war: -0.1208
     is_incumbent: false
+    war_v2: -0.1208
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4015
+    expected_two_party_share_v2: 0.4015
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.0672
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4169
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.6586
     war: 0.2417
     is_incumbent: false
+    war_v2: 0.2417
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4169
+    expected_two_party_share_v2: 0.4169
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.3414
     war: -0.2417
     is_incumbent: false
+    war_v2: -0.2417
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5831
+    expected_two_party_share_v2: 0.5831
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -147,6 +187,10 @@ results_by_year:
     actual_two_party_share: 0.0614
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 6th Essex (2001-2010)
 layout: district

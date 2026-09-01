@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2829
   war: -0.3022
+  war_v2: -0.3022
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5851
+  expected_two_party_share_v2: 0.5851
   is_uncontested: false
   is_incumbent: false
 title: Howard Hansen

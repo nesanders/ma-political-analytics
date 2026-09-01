@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.567
     is_incumbent: true
+    war_v2: 0.4425
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.433
+    expected_two_party_share_v2: 0.5575
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5662
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4338
     is_incumbent: false
+    war_v2: 0.4338
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5662
+    expected_two_party_share_v2: 0.5662
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.7727
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5803
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4197
     is_incumbent: true
+    war_v2: 0.2952
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5803
+    expected_two_party_share_v2: 0.7048
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.6095
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5785
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6904
     war: 0.1119
     is_incumbent: false
+    war_v2: 0.1119
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5785
+    expected_two_party_share_v2: 0.5785
   - name: David G. Nault
     slug: david-g-nault
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3096
     war: -0.1119
     is_incumbent: false
+    war_v2: -0.1119
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4215
+    expected_two_party_share_v2: 0.4215
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4231
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5769
     is_incumbent: false
+    war_v2: 0.5769
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4231
+    expected_two_party_share_v2: 0.4231
   is_open_seat: null
 title: 4th Worcester (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4741
+  war_v2: 0.3496
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5259
+  expected_two_party_share_v2: 0.6504
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6225
   war: 0.2471
+  war_v2: 0.2471
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3754
+  expected_two_party_share_v2: 0.3754
   is_uncontested: false
   is_incumbent: false
 title: Arthur J. Broadhurst, Jr.

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3464
+  war_v2: 0.3464
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6536
+  expected_two_party_share_v2: 0.6536
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5615
   war: 0.0375
+  war_v2: -0.087
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.524
+  expected_two_party_share_v2: 0.6485
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3701
+  war_v2: 0.2456
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6299
+  expected_two_party_share_v2: 0.7544
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4016
+  war_v2: 0.2771
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5984
+  expected_two_party_share_v2: 0.7229
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.7061
   war: 0.102
+  war_v2: -0.0225
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6041
+  expected_two_party_share_v2: 0.7286
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5463
+  war_v2: 0.5463
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4537
+  expected_two_party_share_v2: 0.4537
   is_uncontested: true
   is_incumbent: false
 title: Christine E. Canavan

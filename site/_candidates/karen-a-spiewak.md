@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3706
   war: 0.0022
+  war_v2: 0.0022
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3684
+  expected_two_party_share_v2: 0.3684
   is_uncontested: false
   is_incumbent: false
 title: Karen A. Spiewak

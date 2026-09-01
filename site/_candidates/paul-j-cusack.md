@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4796
   war: 0.2411
+  war_v2: 0.2411
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2385
+  expected_two_party_share_v2: 0.2385
   is_uncontested: false
   is_incumbent: false
 title: Paul J. Cusack

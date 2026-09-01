@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.0755
   war: null
+  war_v2: null
+  incumbency_adjustment: null
+  expected_two_party_share: null
+  expected_two_party_share_v2: null
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2282
   war: -0.0104
+  war_v2: -0.0104
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2386
+  expected_two_party_share_v2: 0.2386
   is_uncontested: false
   is_incumbent: false
 title: Matthew J. Fraser

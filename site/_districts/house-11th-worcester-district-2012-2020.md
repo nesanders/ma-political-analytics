@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6717
     is_incumbent: true
+    war_v2: 0.5472
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3283
+    expected_two_party_share_v2: 0.4528
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2378
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2378
     is_incumbent: true
+    war_v2: 0.1133
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7622
+    expected_two_party_share_v2: 0.8867
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6237
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6237
     is_incumbent: false
+    war_v2: 0.6237
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3763
+    expected_two_party_share_v2: 0.3763
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.372
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.372
     is_incumbent: true
+    war_v2: 0.2475
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.628
+    expected_two_party_share_v2: 0.7525
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5481
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5481
     is_incumbent: false
+    war_v2: 0.5481
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4519
+    expected_two_party_share_v2: 0.4519
   is_open_seat: null
 title: 11th Worcester District (2012-2020)
 layout: district

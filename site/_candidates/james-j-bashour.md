@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2684
   war: -0.0107
+  war_v2: -0.0107
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2791
+  expected_two_party_share_v2: 0.2791
   is_uncontested: false
   is_incumbent: false
 title: James J. Bashour

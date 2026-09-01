@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1814
+  war_v2: 0.0569
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8186
+  expected_two_party_share_v2: 0.9431
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1652
+  war_v2: 0.1652
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.8348
+  expected_two_party_share_v2: 0.8348
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1496
+  war_v2: 0.0251
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8504
+  expected_two_party_share_v2: 0.9749
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4328
+  war_v2: 0.3083
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5672
+  expected_two_party_share_v2: 0.6917
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1619
+  war_v2: 0.0374
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8381
+  expected_two_party_share_v2: 0.9626
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.7567
   war: 0.0534
+  war_v2: -0.0711
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7033
+  expected_two_party_share_v2: 0.8278
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2103
+  war_v2: 0.2103
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7897
+  expected_two_party_share_v2: 0.7897
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.6709
   war: 0.0233
+  war_v2: -0.1012
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6476
+  expected_two_party_share_v2: 0.7721
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -109,6 +141,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2788
+  war_v2: 0.1543
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7212
+  expected_two_party_share_v2: 0.8457
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -121,6 +157,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3208
+  war_v2: 0.3208
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6792
+  expected_two_party_share_v2: 0.6792
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -133,6 +173,10 @@ races:
   winner: true
   actual_two_party_share: 0.8137
   war: -0.0091
+  war_v2: -0.1336
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8228
+  expected_two_party_share_v2: 0.9473
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -145,6 +189,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3165
+  war_v2: 0.3165
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6835
+  expected_two_party_share_v2: 0.6835
   is_uncontested: true
   is_incumbent: false
 title: Patricia D. Jehlen

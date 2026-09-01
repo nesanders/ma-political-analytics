@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5725
     war: 0.0824
     is_incumbent: true
+    war_v2: -0.0421
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4901
+    expected_two_party_share_v2: 0.6146
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4275
     war: -0.0824
     is_incumbent: false
+    war_v2: -0.0824
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5099
+    expected_two_party_share_v2: 0.5099
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5555
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4445
     is_incumbent: true
+    war_v2: 0.32
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5555
+    expected_two_party_share_v2: 0.68
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.587
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.7084
     war: 0.1214
     is_incumbent: true
+    war_v2: -0.0031
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.587
+    expected_two_party_share_v2: 0.7115
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.2916
     war: -0.1214
     is_incumbent: false
+    war_v2: -0.1214
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.413
+    expected_two_party_share_v2: 0.413
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5869
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6505
     war: 0.0635
     is_incumbent: true
+    war_v2: -0.061
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.587
+    expected_two_party_share_v2: 0.7115
   - name: John T. Haaland
     slug: john-t-haaland
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3495
     war: -0.0635
     is_incumbent: false
+    war_v2: -0.0635
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.413
+    expected_two_party_share_v2: 0.413
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4632
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5368
     is_incumbent: false
+    war_v2: 0.5368
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4632
+    expected_two_party_share_v2: 0.4632
   is_open_seat: null
 title: 10th Bristol (2001-2010)
 layout: district

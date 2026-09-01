@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6122
     war: -0.0024
     is_incumbent: false
+    war_v2: -0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6146
+    expected_two_party_share_v2: 0.6146
   - name: Paul J. Franco
     slug: paul-j-franco
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3878
     war: 0.0024
     is_incumbent: false
+    war_v2: 0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3854
+    expected_two_party_share_v2: 0.3854
   - name: Ronal Madnick
     slug: ronal-madnick
     party: Independent
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0844
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Bruce R. Card
     slug: bruce-r-card
     party: Other
@@ -55,6 +67,10 @@ results_by_year:
     actual_two_party_share: 0.0178
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6669
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3331
     is_incumbent: true
+    war_v2: 0.2086
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6669
+    expected_two_party_share_v2: 0.7914
   - name: John J. Mahoney, Jr.
     slug: john-j-mahoney-jr
     party: Other
@@ -80,6 +100,10 @@ results_by_year:
     actual_two_party_share: 0.6322
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7232
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2768
     is_incumbent: true
+    war_v2: 0.1523
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7232
+    expected_two_party_share_v2: 0.8477
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6608
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3392
     is_incumbent: true
+    war_v2: 0.2147
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6608
+    expected_two_party_share_v2: 0.7853
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5277
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4723
     is_incumbent: false
+    war_v2: 0.4723
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5277
+    expected_two_party_share_v2: 0.5277
   is_open_seat: null
 title: 13th Worcester (2001-2010)
 layout: district

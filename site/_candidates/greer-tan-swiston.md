@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2562
   war: -0.0186
+  war_v2: -0.0186
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2748
+  expected_two_party_share_v2: 0.2748
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.2669
   war: 0.0282
+  war_v2: 0.0282
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2387
+  expected_two_party_share_v2: 0.2387
   is_uncontested: false
   is_incumbent: false
 title: Greer Tan Swiston

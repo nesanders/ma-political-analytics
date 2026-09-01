@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4816
   war: -0.0991
+  war_v2: -0.0991
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5807
+  expected_two_party_share_v2: 0.5807
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3669
   war: -0.1058
+  war_v2: -0.1058
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4727
+  expected_two_party_share_v2: 0.4727
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.3995
   war: -0.236
+  war_v2: -0.236
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6355
+  expected_two_party_share_v2: 0.6355
   is_uncontested: false
   is_incumbent: false
 title: Robert V. Finneran

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.6193
     war: 0.0799
     is_incumbent: false
+    war_v2: 0.0799
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5394
+    expected_two_party_share_v2: 0.5394
   - name: Jeanne Renaud Costello
     slug: jeanne-renaud-costello
     party: Democratic
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.3807
     war: -0.0799
     is_incumbent: false
+    war_v2: -0.0799
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4606
+    expected_two_party_share_v2: 0.4606
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4821
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4821
     is_incumbent: false
+    war_v2: 0.4821
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5179
+    expected_two_party_share_v2: 0.5179
   is_open_seat: null
 demographics:
   total_population: 42768

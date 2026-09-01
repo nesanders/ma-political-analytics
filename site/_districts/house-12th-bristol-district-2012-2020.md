@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4987
     is_incumbent: true
+    war_v2: 0.3742
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5013
+    expected_two_party_share_v2: 0.6258
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5211
     war: -0.2504
     is_incumbent: false
+    war_v2: -0.2504
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7715
+    expected_two_party_share_v2: 0.7715
   - name: Allin John Frawley
     slug: allin-john-frawley
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4789
     war: 0.2504
     is_incumbent: false
+    war_v2: 0.2504
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2285
+    expected_two_party_share_v2: 0.2285
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.469
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.469
     is_incumbent: true
+    war_v2: 0.3445
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.531
+    expected_two_party_share_v2: 0.6555
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3839
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3839
     is_incumbent: true
+    war_v2: 0.2594
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6161
+    expected_two_party_share_v2: 0.7406
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5041
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.5764
     war: 0.0806
     is_incumbent: false
+    war_v2: 0.0806
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4958
+    expected_two_party_share_v2: 0.4958
   - name: Roger P. Brunelle, Jr.
     slug: roger-p-brunelle-jr
     party: Democratic
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.4236
     war: -0.0806
     is_incumbent: false
+    war_v2: -0.0806
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5042
+    expected_two_party_share_v2: 0.5042
   is_open_seat: null
 title: 12th Bristol District (2012-2020)
 layout: district

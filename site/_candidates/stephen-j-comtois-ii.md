@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2969
   war: -0.1746
+  war_v2: -0.1746
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4715
+  expected_two_party_share_v2: 0.4715
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3094
   war: -0.1099
+  war_v2: -0.1099
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4193
+  expected_two_party_share_v2: 0.4193
   is_uncontested: false
   is_incumbent: false
 title: Stephen J. Comtois, II

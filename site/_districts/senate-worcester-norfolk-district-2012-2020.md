@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6048
     war: 0.1342
     is_incumbent: true
+    war_v2: 0.0097
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4706
+    expected_two_party_share_v2: 0.5951
   - name: Christine Crean
     slug: christine-crean
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3952
     war: -0.1342
     is_incumbent: false
+    war_v2: -0.1342
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5294
+    expected_two_party_share_v2: 0.5294
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2064
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5797
     war: -0.2139
     is_incumbent: true
+    war_v2: -0.3384
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7936
+    expected_two_party_share_v2: 0.9181
   - name: Thomas M. Merolli
     slug: thomas-m-merolli
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4203
     war: 0.2139
     is_incumbent: false
+    war_v2: 0.2139
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2064
+    expected_two_party_share_v2: 0.2064
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4903
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4903
     is_incumbent: true
+    war_v2: 0.3658
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5097
+    expected_two_party_share_v2: 0.6342
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.362
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5572
     war: -0.0808
     is_incumbent: false
+    war_v2: -0.0808
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.638
+    expected_two_party_share_v2: 0.638
   - name: Richard T. Moore
     slug: richard-t-moore
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4428
     war: 0.0808
     is_incumbent: true
+    war_v2: -0.0437
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.362
+    expected_two_party_share_v2: 0.4865
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5098
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4902
     is_incumbent: false
+    war_v2: 0.4902
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5098
+    expected_two_party_share_v2: 0.5098
   is_open_seat: null
 title: Worcester & Norfolk District (2012-2020)
 layout: district

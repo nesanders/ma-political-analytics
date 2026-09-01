@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.9195
     war: null
     is_incumbent: true
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Jeffrey L. Raymond
     slug: jeffrey-l-raymond
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5689
     is_incumbent: false
+    war_v2: 0.5689
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4311
+    expected_two_party_share_v2: 0.4311
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6017
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 2.0027
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Jeffrey L. Raymond
     slug: jeffrey-l-raymond
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6017
     is_incumbent: false
+    war_v2: 0.6017
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3983
+    expected_two_party_share_v2: 0.3983
   - name: Kevin Patrick McKeown (W)
     slug: kevin-patrick-mckeown
     party: Other
@@ -69,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.1504
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 demographics:
   total_population: 41668

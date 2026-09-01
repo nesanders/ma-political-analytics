@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1796
     is_incumbent: true
+    war_v2: 0.0551
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8204
+    expected_two_party_share_v2: 0.9449
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8613
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1387
     is_incumbent: true
+    war_v2: 0.0142
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8613
+    expected_two_party_share_v2: 0.9858
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.828
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.172
     is_incumbent: true
+    war_v2: 0.0475
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.828
+    expected_two_party_share_v2: 0.9525
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8421
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.8678
     war: 0.0257
     is_incumbent: true
+    war_v2: -0.0988
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8421
+    expected_two_party_share_v2: 0.9666
   - name: David R. Slavitt
     slug: david-r-slavitt
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.1322
     war: -0.0257
     is_incumbent: false
+    war_v2: -0.0257
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.1579
+    expected_two_party_share_v2: 0.1579
   - name: Avi E. Green
     slug: avi-e-green
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.0042
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.7138
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2862
     is_incumbent: false
+    war_v2: 0.2862
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7138
+    expected_two_party_share_v2: 0.7138
   - name: Paul E. Lachelier
     slug: paul-e-lachelier
     party: null
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5944
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 26th Middlesex (2001-2010)
 layout: district

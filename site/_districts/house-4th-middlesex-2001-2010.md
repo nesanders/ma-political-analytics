@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5034
     war: -0.0296
     is_incumbent: false
+    war_v2: -0.0296
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.533
+    expected_two_party_share_v2: 0.533
   - name: Danielle W. Gregoire
     slug: danielle-w-gregoire
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4966
     war: 0.0296
     is_incumbent: true
+    war_v2: -0.0949
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.467
+    expected_two_party_share_v2: 0.5915
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5848
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5216
     war: -0.0632
     is_incumbent: false
+    war_v2: -0.0632
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5848
+    expected_two_party_share_v2: 0.5848
   - name: Arthur G. Vigeant
     slug: arthur-g-vigeant
     party: Republican
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4784
     war: 0.0632
     is_incumbent: false
+    war_v2: 0.0632
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4152
+    expected_two_party_share_v2: 0.4152
   - name: Joseph L. Valianti
     slug: joseph-l-valianti
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0856
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5462
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4538
     is_incumbent: true
+    war_v2: 0.3293
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5462
+    expected_two_party_share_v2: 0.6707
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5728
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.7074
     war: 0.1346
     is_incumbent: true
+    war_v2: 0.0101
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5728
+    expected_two_party_share_v2: 0.6973
   - name: Kenneth A. Cosco, Jr.
     slug: kenneth-a-cosco-jr
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.2926
     war: -0.1346
     is_incumbent: false
+    war_v2: -0.1346
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4272
+    expected_two_party_share_v2: 0.4272
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3681
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.734
     war: 0.3659
     is_incumbent: false
+    war_v2: 0.3659
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3681
+    expected_two_party_share_v2: 0.3681
   - name: William J. Hagan
     slug: william-j-hagan
     party: Republican
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 0.266
     war: -0.3659
     is_incumbent: false
+    war_v2: -0.3659
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6319
+    expected_two_party_share_v2: 0.6319
   - name: Mark P. Testagrossa
     slug: mark-p-testagrossa
     party: Libertarian
@@ -147,6 +187,10 @@ results_by_year:
     actual_two_party_share: 0.0406
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 4th Middlesex (2001-2010)
 layout: district

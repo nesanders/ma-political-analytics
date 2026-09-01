@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1085
   war: -0.2037
+  war_v2: -0.2037
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.3122
+  expected_two_party_share_v2: 0.3122
   is_uncontested: false
   is_incumbent: false
 title: Claudette N. Joseph

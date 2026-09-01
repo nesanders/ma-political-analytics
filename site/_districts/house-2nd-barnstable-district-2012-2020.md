@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5429
     war: -0.051
     is_incumbent: false
+    war_v2: -0.051
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5939
+    expected_two_party_share_v2: 0.5939
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4571
     war: 0.051
     is_incumbent: true
+    war_v2: -0.0735
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4061
+    expected_two_party_share_v2: 0.5306
   - name: Michael Luis Mecenas
     slug: michael-luis-mecenas
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.0394
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2385
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.5204
     war: -0.2411
     is_incumbent: true
+    war_v2: -0.3656
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7615
+    expected_two_party_share_v2: 0.886
   - name: Paul J. Cusack
     slug: paul-j-cusack
     party: Democratic
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.4796
     war: 0.2411
     is_incumbent: false
+    war_v2: 0.2411
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2385
+    expected_two_party_share_v2: 0.2385
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5419
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.548
     war: 0.0899
     is_incumbent: false
+    war_v2: 0.0899
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4581
+    expected_two_party_share_v2: 0.4581
   - name: Aaron S. Kanzer
     slug: aaron-s-kanzer
     party: Democratic
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 0.452
     war: -0.0899
     is_incumbent: false
+    war_v2: -0.0899
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5419
+    expected_two_party_share_v2: 0.5419
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4112
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.5067
     war: 0.0955
     is_incumbent: true
+    war_v2: -0.029
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4112
+    expected_two_party_share_v2: 0.5357
   - name: Adam G. Chaprales, Sr
     slug: adam-g-chaprales-sr
     party: Republican
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.4933
     war: -0.0955
     is_incumbent: false
+    war_v2: -0.0955
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5888
+    expected_two_party_share_v2: 0.5888
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5148
@@ -139,6 +175,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4852
     is_incumbent: false
+    war_v2: 0.4852
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5148
+    expected_two_party_share_v2: 0.5148
   is_open_seat: null
 title: 2nd Barnstable District (2012-2020)
 layout: district

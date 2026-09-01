@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2824
+  war_v2: 0.1579
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7176
+  expected_two_party_share_v2: 0.8421
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6996
   war: 0.0558
+  war_v2: -0.0687
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6438
+  expected_two_party_share_v2: 0.7683
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2517
+  war_v2: 0.2517
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7483
+  expected_two_party_share_v2: 0.7483
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2994
+  war_v2: 0.1749
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7006
+  expected_two_party_share_v2: 0.8251
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2579
+  war_v2: 0.1334
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7421
+  expected_two_party_share_v2: 0.8666
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2448
+  war_v2: 0.1203
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7552
+  expected_two_party_share_v2: 0.8797
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.79
   war: 0.0791
+  war_v2: -0.0454
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7109
+  expected_two_party_share_v2: 0.8354
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.788
   war: 0.153
+  war_v2: 0.153
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.635
+  expected_two_party_share_v2: 0.635
   is_uncontested: false
   is_incumbent: false
 title: Stephen Kulik

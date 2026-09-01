@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3742
+  war_v2: 0.2497
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6258
+  expected_two_party_share_v2: 0.7503
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.816
   war: 0.067
+  war_v2: 0.067
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.749
+  expected_two_party_share_v2: 0.749
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 0.751
   war: 0.0027
+  war_v2: -0.1218
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7483
+  expected_two_party_share_v2: 0.8728
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2001
+  war_v2: 0.2001
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7999
+  expected_two_party_share_v2: 0.7999
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2273
+  war_v2: 0.1028
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7727
+  expected_two_party_share_v2: 0.8972
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2181
+  war_v2: 0.0936
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7819
+  expected_two_party_share_v2: 0.9064
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3478
+  war_v2: 0.3478
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6522
+  expected_two_party_share_v2: 0.6522
   is_uncontested: true
   is_incumbent: false
 title: Anthony W. Petruccelli

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5286
     war: -0.0827
     is_incumbent: false
+    war_v2: -0.0827
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6113
+    expected_two_party_share_v2: 0.6113
   - name: Patricia A. Lawton
     slug: patricia-a-lawton
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4714
     war: 0.0827
     is_incumbent: false
+    war_v2: 0.0827
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3887
+    expected_two_party_share_v2: 0.3887
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.4997
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5003
     is_incumbent: true
+    war_v2: 0.3758
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4997
+    expected_two_party_share_v2: 0.6242
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5089
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4911
     is_incumbent: true
+    war_v2: 0.3666
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5089
+    expected_two_party_share_v2: 0.6334
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5085
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5847
     war: 0.0761
     is_incumbent: true
+    war_v2: -0.0484
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5086
+    expected_two_party_share_v2: 0.6331
   - name: Jane McLaughlin
     slug: jane-mclaughlin
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4153
     war: -0.0761
     is_incumbent: false
+    war_v2: -0.0761
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4914
+    expected_two_party_share_v2: 0.4914
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3784
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.6216
     is_incumbent: false
+    war_v2: 0.6216
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3784
+    expected_two_party_share_v2: 0.3784
   - name: George L. Berdos, Jr.
     slug: george-l-berdos-jr
     party: Libertarian
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.2642
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 8th Plymouth (2001-2010)
 layout: district

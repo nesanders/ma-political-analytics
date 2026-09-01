@@ -63,15 +63,12 @@ being explicit about, not hidden:**
   and Senate), not federal — smaller electorates, a higher share of
   uncontested races, and much thinner public polling/finance data per
   race than a Congressional or Senate race has.
-- *Different baseline, for now*: what's actually computed on this site
-  today is district partisan lean alone — the "v1" baseline described
-  above. The original design also called for adding incumbency and OCPF
-  campaign-finance data as further fundamentals (a "v2" baseline, same
-  spirit as Split Ticket's approach but this project's own regression and
-  weighting, not theirs). Incumbency is now tracked and shown throughout
-  the site (see below), but not yet folded into WAR's *expected*-share
-  calculation itself — treat current WAR values as baseline-only, not the
-  fuller model.
+- *Two baselines, both shown*: **WAR v1** is district partisan lean alone
+  (the baseline described above). **WAR v2** folds in one more
+  fundamental — incumbency — same spirit as Split Ticket's approach, but
+  this project's own fit, not theirs. Both are computed and shown side by
+  side throughout the site (district, seat, and candidate pages) — see
+  "WAR v2: incumbency" below for the formula and the real coefficient.
 - *Different redistricting handling*: this site's lean baseline has to
   cross three Massachusetts redistricting vintages (2001-2010, 2012-2020,
   2022-present); Split Ticket's federal-district baseline doesn't face
@@ -87,6 +84,48 @@ WAR the way this site currently computes it. Split Ticket's own WAR
 reportedly handles uncontested races with distinct logic; this project's
 doesn't yet. Treat uncontested-race WAR as directionally meaningful, not
 precisely comparable to contested races, until this is addressed.
+
+## WAR v2: incumbency
+
+**WAR v2 = actual two-party vote share − (expected share from lean +
+incumbency adjustment).**
+
+The incumbency adjustment is a single fitted number, applied only to a
+candidate who held the seat coming into the race (see "Incumbency and
+open seats" below for exactly how that's determined): it's the gap
+between incumbents' and non-incumbents' mean WAR v1, over every contested
+major-party race across this site's full backfill (uncontested races are
+excluded from the fit — see the WAR v1 limitation above; a mechanically
+inflated 100% share is not a clean training signal). As of the last full
+pipeline run, that gap is
+**{{ site.data.war_v2.incumbency_effect | times: 100 | round: 1 }} points**
+({{ site.data.war_v2.n_incumbent }} incumbent and
+{{ site.data.war_v2.n_non_incumbent }} non-incumbent contested candidate-races
+in the fit). A non-incumbent's WAR v2 baseline is unchanged from v1 — v2
+only adds a term for the one fundamental this site can currently fit
+honestly across the full 2002-2024 backfill, it doesn't re-center the
+baseline for everyone else.
+
+This is intentionally a simple model — a two-group mean difference, not a
+multi-variable regression — chosen because it's transparent and because
+the two chambers fit almost identically when checked separately (House
+and Senate both land within half a point of the pooled figure above), so
+a single pooled coefficient isn't hiding a real chamber-level difference.
+
+Every district and seat page has a "What drives replacement level" chart
+breaking a race's most recent contested year into these pieces (lean
+baseline, incumbency adjustment, WAR v2 residual) for each candidate, and
+a candidate's own page charts their actual share against WAR v2's
+expected share across every year they ran — the gap between the two lines
+*is* WAR v2, made visible.
+
+**Campaign finance was also planned as a v2 fundamental** (same spirit as
+Split Ticket's approach) but isn't included yet: the OCPF data this site
+has fetched so far (see "Campaign finance" below) only covers year 2022,
+nowhere near enough years to fit an honest term across the full backfill
+WAR v2 otherwise spans. That's deferred to a future "v3," once a fuller
+OCPF backfill exists — not silently dropped, just not forced onto one
+year's data.
 
 ## Turnout
 

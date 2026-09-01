@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5962
     war: 0.1401
     is_incumbent: true
+    war_v2: 0.0156
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4561
+    expected_two_party_share_v2: 0.5806
   - name: Martin J. Scafidi
     slug: martin-j-scafidi
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4038
     war: -0.1401
     is_incumbent: false
+    war_v2: -0.1401
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5439
+    expected_two_party_share_v2: 0.5439
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5783
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4217
     is_incumbent: true
+    war_v2: 0.2972
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5783
+    expected_two_party_share_v2: 0.7028
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6921
     war: 0.1355
     is_incumbent: true
+    war_v2: 0.011
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5566
+    expected_two_party_share_v2: 0.6811
   - name: Jason C. Harding
     slug: jason-c-harding
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3079
     war: -0.1355
     is_incumbent: false
+    war_v2: -0.1355
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4434
+    expected_two_party_share_v2: 0.4434
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6151
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6616
     war: 0.0465
     is_incumbent: true
+    war_v2: -0.078
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6151
+    expected_two_party_share_v2: 0.7396
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3384
     war: -0.0465
     is_incumbent: false
+    war_v2: -0.0465
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3849
+    expected_two_party_share_v2: 0.3849
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4435
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5993
     war: 0.1558
     is_incumbent: false
+    war_v2: 0.1558
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4435
+    expected_two_party_share_v2: 0.4435
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4007
     war: -0.1558
     is_incumbent: false
+    war_v2: -0.1558
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5565
+    expected_two_party_share_v2: 0.5565
   is_open_seat: null
 title: 12th Essex (2001-2010)
 layout: district

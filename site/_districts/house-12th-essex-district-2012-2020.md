@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4297
     is_incumbent: true
+    war_v2: 0.3052
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5703
+    expected_two_party_share_v2: 0.6948
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7715
     is_incumbent: true
+    war_v2: 0.647
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2285
+    expected_two_party_share_v2: 0.353
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5446
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4554
     is_incumbent: false
+    war_v2: 0.4554
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5446
+    expected_two_party_share_v2: 0.5446
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4283
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.5154
     war: -0.0563
     is_incumbent: false
+    war_v2: -0.0563
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5717
+    expected_two_party_share_v2: 0.5717
   - name: Beverley  A. Griffin Dunne
     slug: beverley--a-griffin-dunne
     party: Democratic
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.4846
     war: 0.0563
     is_incumbent: false
+    war_v2: 0.0563
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4283
+    expected_two_party_share_v2: 0.4283
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5639
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4361
     is_incumbent: false
+    war_v2: 0.4361
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5639
+    expected_two_party_share_v2: 0.5639
   is_open_seat: null
 title: 12th Essex District (2012-2020)
 layout: district

@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 0.5422
     war: -0.0674
     is_incumbent: true
+    war_v2: -0.1919
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6096
+    expected_two_party_share_v2: 0.7341
   - name: Mark T. Tashjian
     slug: mark-t-tashjian
     party: Republican
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.4578
     war: 0.0674
     is_incumbent: false
+    war_v2: 0.0674
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3904
+    expected_two_party_share_v2: 0.3904
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6033
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.5
     war: -0.1033
     is_incumbent: false
+    war_v2: -0.1033
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6033
+    expected_two_party_share_v2: 0.6033
   - name: Leonard Mirra
     slug: leonard-mirra
     party: Republican
@@ -61,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.5
     war: 0.1033
     is_incumbent: false
+    war_v2: 0.1033
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3967
+    expected_two_party_share_v2: 0.3967
   is_open_seat: null
 demographics:
   total_population: 44809

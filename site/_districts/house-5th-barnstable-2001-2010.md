@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5304
     war: -0.0511
     is_incumbent: false
+    war_v2: -0.0511
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5815
+    expected_two_party_share_v2: 0.5815
   - name: Lance William Lambros
     slug: lance-william-lambros
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4696
     war: 0.0511
     is_incumbent: false
+    war_v2: 0.0511
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4185
+    expected_two_party_share_v2: 0.4185
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5255
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.6992
     war: 0.2247
     is_incumbent: true
+    war_v2: 0.1002
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4745
+    expected_two_party_share_v2: 0.599
   - name: Glenn S. Pare
     slug: glenn-s-pare
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3008
     war: -0.2247
     is_incumbent: false
+    war_v2: -0.2247
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5255
+    expected_two_party_share_v2: 0.5255
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4669
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4669
     is_incumbent: true
+    war_v2: 0.3424
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5331
+    expected_two_party_share_v2: 0.6576
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5104
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6605
     war: 0.1709
     is_incumbent: true
+    war_v2: 0.0464
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4896
+    expected_two_party_share_v2: 0.6141
   - name: Garry N. Blank
     slug: garry-n-blank
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3395
     war: -0.1709
     is_incumbent: false
+    war_v2: -0.1709
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5104
+    expected_two_party_share_v2: 0.5104
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3699
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5121
     war: -0.118
     is_incumbent: false
+    war_v2: -0.118
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6301
+    expected_two_party_share_v2: 0.6301
   - name: Ruth W. Provost
     slug: ruth-w-provost
     party: Democratic
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4879
     war: 0.118
     is_incumbent: false
+    war_v2: 0.118
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3699
+    expected_two_party_share_v2: 0.3699
   is_open_seat: null
 title: 5th Barnstable (2001-2010)
 layout: district

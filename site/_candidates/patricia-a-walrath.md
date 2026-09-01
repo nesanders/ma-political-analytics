@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4192
+  war_v2: 0.2947
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5808
+  expected_two_party_share_v2: 0.7053
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.7404
   war: 0.137
+  war_v2: 0.0125
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6034
+  expected_two_party_share_v2: 0.7279
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.595
+  war_v2: 0.595
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.405
+  expected_two_party_share_v2: 0.405
   is_uncontested: true
   is_incumbent: false
 title: Patricia A. Walrath

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2277
     is_incumbent: true
+    war_v2: 0.1032
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7723
+    expected_two_party_share_v2: 0.8968
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4559
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5441
     is_incumbent: true
+    war_v2: 0.4196
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4559
+    expected_two_party_share_v2: 0.5804
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7441
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 0.8557
     war: 0.1116
     is_incumbent: false
+    war_v2: 0.1116
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7441
+    expected_two_party_share_v2: 0.7441
   - name: Danny J. Yoon
     slug: danny-j-yoon
     party: Republican
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.1443
     war: -0.1116
     is_incumbent: false
+    war_v2: -0.1116
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2559
+    expected_two_party_share_v2: 0.2559
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6325
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3675
     is_incumbent: true
+    war_v2: 0.243
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6325
+    expected_two_party_share_v2: 0.757
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7436
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2564
     is_incumbent: false
+    war_v2: 0.2564
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7436
+    expected_two_party_share_v2: 0.7436
   is_open_seat: null
 title: 9th Plymouth District (2012-2020)
 layout: district

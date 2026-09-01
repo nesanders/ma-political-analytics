@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4704
   war: -0.0836
+  war_v2: -0.0836
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.554
+  expected_two_party_share_v2: 0.554
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3657
   war: -0.0343
+  war_v2: -0.0343
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4
+  expected_two_party_share_v2: 0.4
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.4605
   war: -0.0169
+  war_v2: -0.1414
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4774
+  expected_two_party_share_v2: 0.6019
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4296
+  war_v2: 0.3051
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5704
+  expected_two_party_share_v2: 0.6949
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4758
+  war_v2: 0.3513
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5242
+  expected_two_party_share_v2: 0.6487
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 0.5336
   war: -0.0206
+  war_v2: -0.1451
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5542
+  expected_two_party_share_v2: 0.6787
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 0.5005
   war: 0.0836
+  war_v2: 0.0836
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4169
+  expected_two_party_share_v2: 0.4169
   is_uncontested: false
   is_incumbent: false
 title: Matthew C. Patrick

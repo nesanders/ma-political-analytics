@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5154
   war: -0.0563
+  war_v2: -0.0563
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5717
+  expected_two_party_share_v2: 0.5717
   is_uncontested: false
   is_incumbent: false
 title: Leah Cole

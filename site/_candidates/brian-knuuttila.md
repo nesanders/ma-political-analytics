@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4247
+  war_v2: 0.3002
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.5753
+  expected_two_party_share_v2: 0.6998
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.6461
   war: 0.2074
+  war_v2: 0.2074
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4387
+  expected_two_party_share_v2: 0.4387
   is_uncontested: false
   is_incumbent: false
 title: Brian Knuuttila

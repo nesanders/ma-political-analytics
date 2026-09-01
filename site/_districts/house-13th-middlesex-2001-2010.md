@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4362
     is_incumbent: true
+    war_v2: 0.3117
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5638
+    expected_two_party_share_v2: 0.6883
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6798
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5888
     war: -0.091
     is_incumbent: true
+    war_v2: -0.2155
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6798
+    expected_two_party_share_v2: 0.8043
   - name: Susan W. Pope
     slug: susan-w-pope
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4112
     war: 0.091
     is_incumbent: false
+    war_v2: 0.091
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3202
+    expected_two_party_share_v2: 0.3202
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6248
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5193
     war: -0.1055
     is_incumbent: false
+    war_v2: -0.1055
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6248
+    expected_two_party_share_v2: 0.6248
   - name: Susan W. Pope
     slug: susan-w-pope
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4807
     war: 0.1055
     is_incumbent: true
+    war_v2: -0.019
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3752
+    expected_two_party_share_v2: 0.4997
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6581
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5172
     war: 0.1753
     is_incumbent: true
+    war_v2: 0.0508
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3419
+    expected_two_party_share_v2: 0.4664
   - name: John C. Thomas
     slug: john-c-thomas
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4828
     war: -0.1753
     is_incumbent: false
+    war_v2: -0.1753
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6581
+    expected_two_party_share_v2: 0.6581
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4294
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4294
     is_incumbent: false
+    war_v2: 0.4294
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5706
+    expected_two_party_share_v2: 0.5706
   is_open_seat: null
 title: 13th Middlesex (2001-2010)
 layout: district

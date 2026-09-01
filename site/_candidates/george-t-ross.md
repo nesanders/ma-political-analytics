@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4179
   war: -0.0285
+  war_v2: -0.0285
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4464
+  expected_two_party_share_v2: 0.4464
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5234
   war: -0.056
+  war_v2: -0.056
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5794
+  expected_two_party_share_v2: 0.5794
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: false
   actual_two_party_share: 0.4597
   war: 0.0268
+  war_v2: 0.0268
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4329
+  expected_two_party_share_v2: 0.4329
   is_uncontested: false
   is_incumbent: false
 title: George T. Ross

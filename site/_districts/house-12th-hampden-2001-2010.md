@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6478
     war: 0.1105
     is_incumbent: true
+    war_v2: -0.014
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5373
+    expected_two_party_share_v2: 0.6618
   - name: Joshua Carpenter
     slug: joshua-carpenter
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3522
     war: -0.1105
     is_incumbent: false
+    war_v2: -0.1105
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4627
+    expected_two_party_share_v2: 0.4627
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6313
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3687
     is_incumbent: true
+    war_v2: 0.2442
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6313
+    expected_two_party_share_v2: 0.7558
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.586
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5884
     war: 0.0024
     is_incumbent: false
+    war_v2: 0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.586
+    expected_two_party_share_v2: 0.586
   - name: Christopher R. Leisey
     slug: christopher-r-leisey
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4116
     war: -0.0024
     is_incumbent: false
+    war_v2: -0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.414
+    expected_two_party_share_v2: 0.414
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6012
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6312
     war: 0.03
     is_incumbent: true
+    war_v2: -0.0945
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6012
+    expected_two_party_share_v2: 0.7257
   - name: Bob Collamore
     slug: bob-collamore
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3688
     war: -0.03
     is_incumbent: false
+    war_v2: -0.03
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3988
+    expected_two_party_share_v2: 0.3988
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4592
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5992
     war: 0.14
     is_incumbent: false
+    war_v2: 0.14
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4592
+    expected_two_party_share_v2: 0.4592
   - name: Bob Collamore
     slug: bob-collamore
     party: Republican
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4008
     war: -0.14
     is_incumbent: false
+    war_v2: -0.14
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5408
+    expected_two_party_share_v2: 0.5408
   is_open_seat: null
 title: 12th Hampden (2001-2010)
 layout: district

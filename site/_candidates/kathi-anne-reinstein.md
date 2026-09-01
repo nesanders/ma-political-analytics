@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3499
+  war_v2: 0.3499
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6501
+  expected_two_party_share_v2: 0.6501
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.49
+  war_v2: 0.3655
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.51
+  expected_two_party_share_v2: 0.6345
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3879
+  war_v2: 0.2634
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6121
+  expected_two_party_share_v2: 0.7366
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.418
+  war_v2: 0.2935
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.582
+  expected_two_party_share_v2: 0.7065
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3424
+  war_v2: 0.2179
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6576
+  expected_two_party_share_v2: 0.7821
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4998
+  war_v2: 0.4998
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5002
+  expected_two_party_share_v2: 0.5002
   is_uncontested: true
   is_incumbent: false
 title: Kathi-Anne Reinstein

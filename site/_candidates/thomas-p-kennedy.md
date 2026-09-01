@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.6648
   war: 0.1901
+  war_v2: 0.0656
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4747
+  expected_two_party_share_v2: 0.5992
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4003
+  war_v2: 0.4003
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5997
+  expected_two_party_share_v2: 0.5997
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5138
+  war_v2: 0.3893
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4862
+  expected_two_party_share_v2: 0.6107
   is_uncontested: true
   is_incumbent: true
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4057
+  war_v2: 0.4057
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5943
+  expected_two_party_share_v2: 0.5943
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3317
+  war_v2: 0.2072
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6683
+  expected_two_party_share_v2: 0.7928
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3338
+  war_v2: 0.2093
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6662
+  expected_two_party_share_v2: 0.7907
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4869
+  war_v2: 0.4869
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5131
+  expected_two_party_share_v2: 0.5131
   is_uncontested: true
   is_incumbent: false
 title: Thomas P. Kennedy

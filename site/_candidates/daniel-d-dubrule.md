@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3376
   war: -0.247
+  war_v2: -0.247
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5846
+  expected_two_party_share_v2: 0.5846
   is_uncontested: false
   is_incumbent: false
 title: Daniel D. Dubrule

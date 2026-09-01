@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5214
     war: 0.09
     is_incumbent: false
+    war_v2: 0.09
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4314
+    expected_two_party_share_v2: 0.4314
   - name: James J. Dever
     slug: james-j-dever
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4786
     war: -0.09
     is_incumbent: false
+    war_v2: -0.09
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5686
+    expected_two_party_share_v2: 0.5686
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2293
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.572
     war: -0.1987
     is_incumbent: true
+    war_v2: -0.3232
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7707
+    expected_two_party_share_v2: 0.8952
   - name: Jack Stanton
     slug: jack-stanton
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.428
     war: 0.1987
     is_incumbent: false
+    war_v2: 0.1987
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2293
+    expected_two_party_share_v2: 0.2293
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5124
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5124
     is_incumbent: true
+    war_v2: 0.3879
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4876
+    expected_two_party_share_v2: 0.6121
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3815
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.6274
     war: 0.0089
     is_incumbent: true
+    war_v2: -0.1156
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6185
+    expected_two_party_share_v2: 0.743
   - name: Matthew M. Terry
     slug: matthew-m-terry
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.3726
     war: -0.0089
     is_incumbent: false
+    war_v2: -0.0089
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3815
+    expected_two_party_share_v2: 0.3815
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4863
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.5615
     war: 0.0478
     is_incumbent: false
+    war_v2: 0.0478
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5137
+    expected_two_party_share_v2: 0.5137
   - name: R. Patrick Ellis
     slug: r-patrick-ellis
     party: Democratic
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.4385
     war: -0.0478
     is_incumbent: false
+    war_v2: -0.0478
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4863
+    expected_two_party_share_v2: 0.4863
   is_open_seat: null
 title: 5th Barnstable District (2012-2020)
 layout: district

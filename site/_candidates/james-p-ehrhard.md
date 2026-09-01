@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4559
   war: -0.0984
+  war_v2: -0.0984
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5543
+  expected_two_party_share_v2: 0.5543
   is_uncontested: false
   is_incumbent: false
 title: James P. Ehrhard

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2882
   war: -0.1261
+  war_v2: -0.1261
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4143
+  expected_two_party_share_v2: 0.4143
   is_uncontested: false
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3995
   war: -0.131
+  war_v2: -0.131
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5305
+  expected_two_party_share_v2: 0.5305
   is_uncontested: false
   is_incumbent: false
 title: James J. Buba

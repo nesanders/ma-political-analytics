@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.368
     is_incumbent: true
+    war_v2: 0.2435
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.632
+    expected_two_party_share_v2: 0.7565
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4396
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2966
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7034
     is_incumbent: true
+    war_v2: 0.5789
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2966
+    expected_two_party_share_v2: 0.4211
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.3186
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5979
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4021
     is_incumbent: true
+    war_v2: 0.2776
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5979
+    expected_two_party_share_v2: 0.7224
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4075
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4433
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6606
     war: 0.2174
     is_incumbent: true
+    war_v2: 0.0929
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4432
+    expected_two_party_share_v2: 0.5677
   - name: Leslie C. Gosule
     slug: leslie-c-gosule
     party: Republican
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3394
     war: -0.2174
     is_incumbent: false
+    war_v2: -0.2174
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5568
+    expected_two_party_share_v2: 0.5568
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5803
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4197
     is_incumbent: false
+    war_v2: 0.4197
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5803
+    expected_two_party_share_v2: 0.5803
   is_open_seat: null
 title: Norfolk & Plymouth District (2012-2020)
 layout: district

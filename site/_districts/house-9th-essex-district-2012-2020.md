@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5944
     is_incumbent: true
+    war_v2: 0.4699
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4056
+    expected_two_party_share_v2: 0.5301
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2728
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6463
     war: -0.0808
     is_incumbent: true
+    war_v2: -0.2053
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7271
+    expected_two_party_share_v2: 0.8516
   - name: Matthew Crescenzo
     slug: matthew-crescenzo
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3537
     war: 0.0808
     is_incumbent: false
+    war_v2: 0.0808
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2729
+    expected_two_party_share_v2: 0.2729
   - name: Michael Coller
     slug: michael-coller
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.0405
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5562
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.5494
     war: 0.1056
     is_incumbent: true
+    war_v2: -0.0189
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4438
+    expected_two_party_share_v2: 0.5683
   - name: Jennifer Migliore
     slug: jennifer-migliore
     party: Democratic
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.4506
     war: -0.1056
     is_incumbent: false
+    war_v2: -0.1056
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5562
+    expected_two_party_share_v2: 0.5562
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4415
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.6056
     war: 0.0471
     is_incumbent: true
+    war_v2: -0.0774
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5585
+    expected_two_party_share_v2: 0.683
   - name: Christopher J. Finn
     slug: christopher-j-finn
     party: Democratic
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3944
     war: -0.0471
     is_incumbent: false
+    war_v2: -0.0471
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4415
+    expected_two_party_share_v2: 0.4415
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5648
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5648
     is_incumbent: false
+    war_v2: 0.5648
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4352
+    expected_two_party_share_v2: 0.4352
   is_open_seat: null
 title: 9th Essex District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.27
     is_incumbent: false
+    war_v2: 0.27
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.73
+    expected_two_party_share_v2: 0.73
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2482
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.4283
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5717
     is_incumbent: true
+    war_v2: 0.4472
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4283
+    expected_two_party_share_v2: 0.5528
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7717
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2283
     is_incumbent: true
+    war_v2: 0.1038
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7717
+    expected_two_party_share_v2: 0.8962
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.24
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6426
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3574
     is_incumbent: false
+    war_v2: 0.3574
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6426
+    expected_two_party_share_v2: 0.6426
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.2719
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7989
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2011
     is_incumbent: false
+    war_v2: 0.2011
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7989
+    expected_two_party_share_v2: 0.7989
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 0.1797
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 9th Hampden District (2012-2020)
 layout: district

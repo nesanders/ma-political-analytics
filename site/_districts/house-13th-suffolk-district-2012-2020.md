@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1697
     is_incumbent: true
+    war_v2: 0.0452
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8303
+    expected_two_party_share_v2: 0.9548
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4969
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5031
     is_incumbent: true
+    war_v2: 0.3786
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4969
+    expected_two_party_share_v2: 0.6214
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.839
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.161
     is_incumbent: true
+    war_v2: 0.0365
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.839
+    expected_two_party_share_v2: 0.9635
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.671
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.329
     is_incumbent: false
+    war_v2: 0.329
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.671
+    expected_two_party_share_v2: 0.671
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7899
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2101
     is_incumbent: false
+    war_v2: 0.2101
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7899
+    expected_two_party_share_v2: 0.7899
   is_open_seat: null
 title: 13th Suffolk District (2012-2020)
 layout: district

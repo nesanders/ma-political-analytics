@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.1701
   war: -0.099
+  war_v2: -0.099
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.2691
+  expected_two_party_share_v2: 0.2691
   is_uncontested: false
   is_incumbent: false
 title: Dwight J. Caufield

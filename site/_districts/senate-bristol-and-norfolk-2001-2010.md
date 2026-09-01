@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5883
     is_incumbent: true
+    war_v2: 0.4638
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4117
+    expected_two_party_share_v2: 0.5362
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5429
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6456
     war: 0.1027
     is_incumbent: true
+    war_v2: -0.0218
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5429
+    expected_two_party_share_v2: 0.6674
   - name: Jon W. Rockwood, Sr.
     slug: jon-w-rockwood-sr
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3544
     war: -0.1027
     is_incumbent: false
+    war_v2: -0.1027
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4571
+    expected_two_party_share_v2: 0.4571
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5154
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.6047
     war: 0.0893
     is_incumbent: true
+    war_v2: -0.0352
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5154
+    expected_two_party_share_v2: 0.6399
   - name: Michael L. Atwill
     slug: michael-l-atwill
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.3953
     war: -0.0893
     is_incumbent: false
+    war_v2: -0.0893
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4846
+    expected_two_party_share_v2: 0.4846
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5471
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5672
     war: 0.0201
     is_incumbent: false
+    war_v2: 0.0201
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5471
+    expected_two_party_share_v2: 0.5471
   - name: David W. McCarter
     slug: david-w-mccarter
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4328
     war: -0.0201
     is_incumbent: false
+    war_v2: -0.0201
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4529
+    expected_two_party_share_v2: 0.4529
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3646
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3646
     is_incumbent: false
+    war_v2: 0.3646
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6354
+    expected_two_party_share_v2: 0.6354
   is_open_seat: null
 title: Bristol and Norfolk (2001-2010)
 layout: district

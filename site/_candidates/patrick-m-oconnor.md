@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5352
   war: -0.2234
+  war_v2: -0.3479
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7586
+  expected_two_party_share_v2: 0.8831
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5661
   war: 0.14
+  war_v2: 0.14
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4261
+  expected_two_party_share_v2: 0.4261
   is_uncontested: false
   is_incumbent: false
 title: Patrick M. O'Connor

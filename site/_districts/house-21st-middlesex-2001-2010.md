@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5373
     is_incumbent: true
+    war_v2: 0.4128
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4627
+    expected_two_party_share_v2: 0.5872
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5637
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4363
     is_incumbent: true
+    war_v2: 0.3118
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5637
+    expected_two_party_share_v2: 0.6882
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5336
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4664
     is_incumbent: true
+    war_v2: 0.3419
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5336
+    expected_two_party_share_v2: 0.6581
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5745
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6485
     war: 0.074
     is_incumbent: true
+    war_v2: -0.0505
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5745
+    expected_two_party_share_v2: 0.699
   - name: John J. Cirignano
     slug: john-j-cirignano
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3515
     war: -0.074
     is_incumbent: false
+    war_v2: -0.074
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4255
+    expected_two_party_share_v2: 0.4255
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3969
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 0.675
     war: 0.2781
     is_incumbent: false
+    war_v2: 0.2781
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3969
+    expected_two_party_share_v2: 0.3969
   - name: John J. Cirignano
     slug: john-j-cirignano
     party: Republican
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.325
     war: -0.2781
     is_incumbent: false
+    war_v2: -0.2781
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6031
+    expected_two_party_share_v2: 0.6031
   - name: Elias Israel
     slug: elias-israel
     party: Libertarian
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.0389
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 21st Middlesex (2001-2010)
 layout: district

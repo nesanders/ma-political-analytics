@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1409
+  war_v2: 0.0164
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8591
+  expected_two_party_share_v2: 0.9836
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3114
+  war_v2: 0.1869
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6886
+  expected_two_party_share_v2: 0.8131
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.199
+  war_v2: 0.199
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.801
+  expected_two_party_share_v2: 0.801
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.245
+  war_v2: 0.1205
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.755
+  expected_two_party_share_v2: 0.8795
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1898
+  war_v2: 0.0653
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.8102
+  expected_two_party_share_v2: 0.9347
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2182
+  war_v2: 0.0937
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7818
+  expected_two_party_share_v2: 0.9063
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.21
+  war_v2: 0.0855
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.79
+  expected_two_party_share_v2: 0.9145
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3438
+  war_v2: 0.3438
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6562
+  expected_two_party_share_v2: 0.6562
   is_uncontested: true
   is_incumbent: false
 title: Jeffrey Sanchez

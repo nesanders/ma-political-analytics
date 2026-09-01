@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.304
     is_incumbent: true
+    war_v2: 0.1795
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.696
+    expected_two_party_share_v2: 0.8205
   - name: Richard Cannava
     slug: richard-cannava
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3598
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7551
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2449
     is_incumbent: true
+    war_v2: 0.1204
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7551
+    expected_two_party_share_v2: 0.8796
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7188
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2812
     is_incumbent: true
+    war_v2: 0.1567
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7188
+    expected_two_party_share_v2: 0.8433
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7565
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2435
     is_incumbent: false
+    war_v2: 0.2435
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7565
+    expected_two_party_share_v2: 0.7565
   - name: Vincent Paul Ciampa
     slug: vincent-paul-ciampa
     party: Other
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4786
     war: null
     is_incumbent: true
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5999
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4001
     is_incumbent: false
+    war_v2: 0.4001
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5999
+    expected_two_party_share_v2: 0.5999
   is_open_seat: null
 title: 34th Middlesex (2001-2010)
 layout: district

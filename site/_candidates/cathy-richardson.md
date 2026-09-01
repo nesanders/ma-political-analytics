@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4626
   war: -0.1946
+  war_v2: -0.1946
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6572
+  expected_two_party_share_v2: 0.6572
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.4143
   war: -0.1239
+  war_v2: -0.1239
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5382
+  expected_two_party_share_v2: 0.5382
   is_uncontested: false
   is_incumbent: false
 title: Cathy Richardson

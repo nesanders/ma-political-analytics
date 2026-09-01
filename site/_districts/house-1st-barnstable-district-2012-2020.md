@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5498
     war: 0.1644
     is_incumbent: true
+    war_v2: 0.0399
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3854
+    expected_two_party_share_v2: 0.5099
   - name: Josh Mason
     slug: josh-mason
     party: Democratic
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4502
     war: -0.1644
     is_incumbent: false
+    war_v2: -0.1644
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6146
+    expected_two_party_share_v2: 0.6146
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2399
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.5852
     war: -0.1749
     is_incumbent: true
+    war_v2: -0.2994
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7601
+    expected_two_party_share_v2: 0.8846
   - name: Steven Leibowitz
     slug: steven-leibowitz
     party: Democratic
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.4148
     war: 0.1749
     is_incumbent: false
+    war_v2: 0.1749
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2399
+    expected_two_party_share_v2: 0.2399
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5642
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5642
     is_incumbent: true
+    war_v2: 0.4397
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4358
+    expected_two_party_share_v2: 0.5603
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4365
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.52
     war: -0.0435
     is_incumbent: false
+    war_v2: -0.0435
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5635
+    expected_two_party_share_v2: 0.5635
   - name: Elisa Beth Zawadzkas
     slug: elisa-beth-zawadzkas
     party: Democratic
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.48
     war: 0.0435
     is_incumbent: false
+    war_v2: 0.0435
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4365
+    expected_two_party_share_v2: 0.4365
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5327
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4673
     is_incumbent: false
+    war_v2: 0.4673
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5327
+    expected_two_party_share_v2: 0.5327
   is_open_seat: null
 title: 1st Barnstable District (2012-2020)
 layout: district

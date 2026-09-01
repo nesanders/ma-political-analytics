@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6512
     war: 0.1485
     is_incumbent: true
+    war_v2: 0.024
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5027
+    expected_two_party_share_v2: 0.6272
   - name: Valentino James Troyli
     slug: valentino-james-troyli
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3488
     war: -0.1485
     is_incumbent: false
+    war_v2: -0.1485
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4973
+    expected_two_party_share_v2: 0.4973
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6264
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3736
     is_incumbent: true
+    war_v2: 0.2491
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6264
+    expected_two_party_share_v2: 0.7509
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6017
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3983
     is_incumbent: true
+    war_v2: 0.2738
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6017
+    expected_two_party_share_v2: 0.7262
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.604
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6575
     war: 0.0536
     is_incumbent: true
+    war_v2: -0.0709
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6039
+    expected_two_party_share_v2: 0.7284
   - name: Erford C. Fowler
     slug: erford-c-fowler
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3425
     war: -0.0536
     is_incumbent: false
+    war_v2: -0.0536
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3961
+    expected_two_party_share_v2: 0.3961
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4281
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5719
     is_incumbent: false
+    war_v2: 0.5719
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4281
+    expected_two_party_share_v2: 0.4281
   is_open_seat: null
 title: 1st Essex (2001-2010)
 layout: district

@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.4512
   war: -0.3121
+  war_v2: -0.4366
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7633
+  expected_two_party_share_v2: 0.8878
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5966
   war: 0.174
+  war_v2: 0.0495
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4226
+  expected_two_party_share_v2: 0.5471
   is_uncontested: false
   is_incumbent: true
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3626
+  war_v2: 0.2381
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6374
+  expected_two_party_share_v2: 0.7619
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 0.511
   war: -0.0042
+  war_v2: -0.0042
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5152
+  expected_two_party_share_v2: 0.5152
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 0.5327
   war: -0.0618
+  war_v2: -0.0618
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5945
+  expected_two_party_share_v2: 0.5945
   is_uncontested: false
   is_incumbent: false
 title: James J. Lyons, Jr.

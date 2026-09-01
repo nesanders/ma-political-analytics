@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3967
     is_incumbent: true
+    war_v2: 0.2722
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6033
+    expected_two_party_share_v2: 0.7278
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2259
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.5611
     war: 0.3352
     is_incumbent: true
+    war_v2: 0.2107
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2259
+    expected_two_party_share_v2: 0.3504
   - name: Sandra Slattery E. Biagetti
     slug: sandra-slattery-e-biagetti
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.4389
     war: -0.3352
     is_incumbent: false
+    war_v2: -0.3352
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7741
+    expected_two_party_share_v2: 0.7741
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5635
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 0.5501
     war: -0.0134
     is_incumbent: false
+    war_v2: -0.0134
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5635
+    expected_two_party_share_v2: 0.5635
   - name: Sandra Slattery E. Biagetti
     slug: sandra-slattery-e-biagetti
     party: Republican
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 0.4499
     war: 0.0134
     is_incumbent: false
+    war_v2: 0.0134
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4365
+    expected_two_party_share_v2: 0.4365
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.3895
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.5892
     war: 0.1997
     is_incumbent: true
+    war_v2: 0.0752
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3895
+    expected_two_party_share_v2: 0.514
   - name: Mark W. Reil, Jr
     slug: mark-w-reil-jr
     party: Republican
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 0.4108
     war: -0.1997
     is_incumbent: false
+    war_v2: -0.1997
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6105
+    expected_two_party_share_v2: 0.6105
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5352
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4648
     is_incumbent: false
+    war_v2: 0.4648
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5352
+    expected_two_party_share_v2: 0.5352
   is_open_seat: null
 title: 10th Worcester District (2012-2020)
 layout: district

@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2796
     is_incumbent: true
+    war_v2: 0.1551
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7204
+    expected_two_party_share_v2: 0.8449
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7839
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2161
     is_incumbent: true
+    war_v2: 0.0916
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7839
+    expected_two_party_share_v2: 0.9084
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7366
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2634
     is_incumbent: true
+    war_v2: 0.1389
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7366
+    expected_two_party_share_v2: 0.8611
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7617
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.8285
     war: 0.0668
     is_incumbent: true
+    war_v2: -0.0577
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7617
+    expected_two_party_share_v2: 0.8862
   - name: Robert P. Ferencsik
     slug: robert-p-ferencsik
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.1715
     war: -0.0668
     is_incumbent: false
+    war_v2: -0.0668
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2383
+    expected_two_party_share_v2: 0.2383
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5893
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4107
     is_incumbent: false
+    war_v2: 0.4107
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5893
+    expected_two_party_share_v2: 0.5893
   is_open_seat: null
 title: Second Suffolk and Middlesex (2001-2010)
 layout: district

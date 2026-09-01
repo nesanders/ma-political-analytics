@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.3878
   war: -0.0983
+  war_v2: -0.0983
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4861
+  expected_two_party_share_v2: 0.4861
   is_uncontested: false
   is_incumbent: false
 title: Royall H. Switzler

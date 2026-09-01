@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2636
     is_incumbent: false
+    war_v2: 0.2636
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7364
+    expected_two_party_share_v2: 0.7364
   - name: Clinton Graham
     slug: clinton-graham
     party: Other
@@ -36,6 +40,10 @@ results_by_year:
     actual_two_party_share: 0.5418
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.737
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.263
     is_incumbent: false
+    war_v2: 0.263
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.737
+    expected_two_party_share_v2: 0.737
   is_open_seat: null
 demographics:
   total_population: 43045

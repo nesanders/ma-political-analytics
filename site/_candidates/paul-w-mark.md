@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.7094
   war: 0.038
+  war_v2: -0.0865
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6714
+  expected_two_party_share_v2: 0.7959
   is_uncontested: false
   is_incumbent: true
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3097
+  war_v2: 0.3097
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6903
+  expected_two_party_share_v2: 0.6903
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2868
+  war_v2: 0.1623
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.7132
+  expected_two_party_share_v2: 0.8377
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -49,6 +61,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5812
+  war_v2: 0.4567
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.4188
+  expected_two_party_share_v2: 0.5433
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -61,6 +77,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3129
+  war_v2: 0.1884
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6871
+  expected_two_party_share_v2: 0.8116
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -73,6 +93,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3672
+  war_v2: 0.2427
+  incumbency_adjustment: 0.1245
+  expected_two_party_share: 0.6328
+  expected_two_party_share_v2: 0.7573
   is_uncontested: true
   is_incumbent: true
 - chamber: house
@@ -85,6 +109,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2576
+  war_v2: 0.2576
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7424
+  expected_two_party_share_v2: 0.7424
   is_uncontested: true
   is_incumbent: false
 - chamber: house
@@ -97,6 +125,10 @@ races:
   winner: true
   actual_two_party_share: 0.6126
   war: -0.1119
+  war_v2: -0.1119
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.7245
+  expected_two_party_share_v2: 0.7245
   is_uncontested: false
   is_incumbent: false
 title: Paul W. Mark

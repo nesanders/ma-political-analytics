@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.437
     is_incumbent: true
+    war_v2: 0.3125
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.563
+    expected_two_party_share_v2: 0.6875
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2618
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7382
     is_incumbent: true
+    war_v2: 0.6137
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2618
+    expected_two_party_share_v2: 0.3863
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5371
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4629
     is_incumbent: true
+    war_v2: 0.3384
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5371
+    expected_two_party_share_v2: 0.6616
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4586
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 0.6554
     war: 0.1968
     is_incumbent: true
+    war_v2: 0.0723
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4586
+    expected_two_party_share_v2: 0.5831
   - name: Abilio Bill Soares
     slug: abilio-bill-soares
     party: Republican
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.3446
     war: -0.1968
     is_incumbent: false
+    war_v2: -0.1968
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5414
+    expected_two_party_share_v2: 0.5414
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5689
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4311
     is_incumbent: false
+    war_v2: 0.4311
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5689
+    expected_two_party_share_v2: 0.5689
   is_open_seat: null
 title: 10th Bristol District (2012-2020)
 layout: district

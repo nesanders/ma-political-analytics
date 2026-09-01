@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4032
+  war_v2: 0.4032
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5968
+  expected_two_party_share_v2: 0.5968
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -25,6 +29,10 @@ races:
   winner: true
   actual_two_party_share: 0.5232
   war: 0.0599
+  war_v2: 0.0599
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4633
+  expected_two_party_share_v2: 0.4633
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -37,6 +45,10 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4075
+  war_v2: 0.4075
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5925
+  expected_two_party_share_v2: 0.5925
   is_uncontested: true
   is_incumbent: false
 - chamber: senate
@@ -49,6 +61,10 @@ races:
   winner: false
   actual_two_party_share: 0.4337
   war: -0.1797
+  war_v2: -0.1797
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.6134
+  expected_two_party_share_v2: 0.6134
   is_uncontested: false
   is_incumbent: false
 title: Katherine M. Clark

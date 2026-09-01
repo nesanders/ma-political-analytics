@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1693
     is_incumbent: true
+    war_v2: 0.0448
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8307
+    expected_two_party_share_v2: 0.9552
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5472
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4528
     is_incumbent: true
+    war_v2: 0.3283
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5472
+    expected_two_party_share_v2: 0.6717
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8367
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1633
     is_incumbent: true
+    war_v2: 0.0388
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.8367
+    expected_two_party_share_v2: 0.9612
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7097
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2903
     is_incumbent: true
+    war_v2: 0.1658
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7097
+    expected_two_party_share_v2: 0.8342
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8141
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.1859
     is_incumbent: false
+    war_v2: 0.1859
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.8141
+    expected_two_party_share_v2: 0.8141
   is_open_seat: null
 title: Middlesex & Suffolk District (2012-2020)
 layout: district

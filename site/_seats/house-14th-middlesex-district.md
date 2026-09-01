@@ -28,6 +28,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2647
     is_incumbent: true
+    war_v2: 0.1402
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.7353
+    expected_two_party_share_v2: 0.8598
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7268
@@ -45,6 +49,10 @@ results_by_year:
     actual_two_party_share: 0.7292
     war: 0.0024
     is_incumbent: false
+    war_v2: 0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7268
+    expected_two_party_share_v2: 0.7268
   - name: Rodney E. Cleaves
     slug: rodney-e-cleaves
     party: Republican
@@ -53,6 +61,10 @@ results_by_year:
     actual_two_party_share: 0.2708
     war: -0.0024
     is_incumbent: false
+    war_v2: -0.0024
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.2732
+    expected_two_party_share_v2: 0.2732
   is_open_seat: null
 demographics:
   total_population: 44336

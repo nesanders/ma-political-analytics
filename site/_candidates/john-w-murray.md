@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.2807
   war: -0.1208
+  war_v2: -0.1208
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.4015
+  expected_two_party_share_v2: 0.4015
   is_uncontested: false
   is_incumbent: false
 - chamber: house
@@ -25,6 +29,10 @@ races:
   winner: false
   actual_two_party_share: 0.3414
   war: -0.2417
+  war_v2: -0.2417
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5831
+  expected_two_party_share_v2: 0.5831
   is_uncontested: false
   is_incumbent: false
 title: John W. Murray

@@ -13,6 +13,10 @@ races:
   winner: true
   actual_two_party_share: 0.5264
   war: 0.0052
+  war_v2: 0.0052
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.5212
+  expected_two_party_share_v2: 0.5212
   is_uncontested: false
   is_incumbent: false
 title: Mark David Sylvia

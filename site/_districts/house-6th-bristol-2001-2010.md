@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.6362
     war: 0.0647
     is_incumbent: true
+    war_v2: -0.0598
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5715
+    expected_two_party_share_v2: 0.696
   - name: David K. Rose
     slug: david-k-rose
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.3638
     war: -0.0647
     is_incumbent: false
+    war_v2: -0.0647
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4285
+    expected_two_party_share_v2: 0.4285
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6611
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3389
     is_incumbent: true
+    war_v2: 0.2144
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6611
+    expected_two_party_share_v2: 0.7856
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6807
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3193
     is_incumbent: true
+    war_v2: 0.1948
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6807
+    expected_two_party_share_v2: 0.8052
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6921
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3079
     is_incumbent: true
+    war_v2: 0.1834
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6921
+    expected_two_party_share_v2: 0.8166
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6057
@@ -107,6 +127,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3943
     is_incumbent: false
+    war_v2: 0.3943
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6057
+    expected_two_party_share_v2: 0.6057
   is_open_seat: null
 title: 6th Bristol (2001-2010)
 layout: district

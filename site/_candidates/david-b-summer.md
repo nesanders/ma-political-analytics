@@ -13,6 +13,10 @@ races:
   winner: false
   actual_two_party_share: 0.185
   war: -0.127
+  war_v2: -0.127
+  incumbency_adjustment: 0.0
+  expected_two_party_share: 0.312
+  expected_two_party_share_v2: 0.312
   is_uncontested: false
   is_incumbent: false
 title: David B. Summer

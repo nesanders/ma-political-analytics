@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4279
     is_incumbent: false
+    war_v2: 0.4279
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5721
+    expected_two_party_share_v2: 0.5721
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2932
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Jim M. Rizoli
     slug: jim-m-rizoli
     party: Other
@@ -47,6 +55,10 @@ results_by_year:
     actual_two_party_share: 0.1353
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6782
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3218
     is_incumbent: true
+    war_v2: 0.1973
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6782
+    expected_two_party_share_v2: 0.8027
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -72,6 +88,10 @@ results_by_year:
     actual_two_party_share: 0.0268
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6257
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 1.8469
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Nicolas Sanchez
     slug: nicolas-sanchez
     party: Other
@@ -97,6 +121,10 @@ results_by_year:
     actual_two_party_share: 1.3205
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   - name: Deborah D. Blumer
     slug: deborah-d-blumer
     party: Democratic
@@ -105,6 +133,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3743
     is_incumbent: true
+    war_v2: 0.2498
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6257
+    expected_two_party_share_v2: 0.7502
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6711
@@ -122,6 +154,10 @@ results_by_year:
     actual_two_party_share: 0.6706
     war: -0.0005
     is_incumbent: true
+    war_v2: -0.125
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6711
+    expected_two_party_share_v2: 0.7956
   - name: Nicolas Sanchez
     slug: nicolas-sanchez
     party: Republican
@@ -130,6 +166,10 @@ results_by_year:
     actual_two_party_share: 0.3294
     war: 0.0005
     is_incumbent: false
+    war_v2: 0.0005
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3289
+    expected_two_party_share_v2: 0.3289
   - name: Gerald L. Bloomfield
     slug: gerald-l-bloomfield
     party: Other
@@ -138,6 +178,10 @@ results_by_year:
     actual_two_party_share: 0.0785
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4591
@@ -155,6 +199,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5409
     is_incumbent: false
+    war_v2: 0.5409
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4591
+    expected_two_party_share_v2: 0.4591
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Libertarian
@@ -163,6 +211,10 @@ results_by_year:
     actual_two_party_share: 0.3379
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: null
 title: 6th Middlesex (2001-2010)
 layout: district

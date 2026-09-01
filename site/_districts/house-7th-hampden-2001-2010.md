@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4687
     is_incumbent: true
+    war_v2: 0.3442
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5313
+    expected_two_party_share_v2: 0.6558
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6373
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3627
     is_incumbent: true
+    war_v2: 0.2382
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6373
+    expected_two_party_share_v2: 0.7618
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6234
@@ -65,6 +73,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3766
     is_incumbent: true
+    war_v2: 0.2521
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6234
+    expected_two_party_share_v2: 0.7479
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6424
@@ -82,6 +94,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3576
     is_incumbent: true
+    war_v2: 0.2331
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6424
+    expected_two_party_share_v2: 0.7669
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5203
@@ -99,6 +115,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4797
     is_incumbent: false
+    war_v2: 0.4797
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5203
+    expected_two_party_share_v2: 0.5203
   is_open_seat: null
 title: 7th Hampden (2001-2010)
 layout: district

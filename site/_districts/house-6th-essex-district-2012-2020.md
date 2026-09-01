@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3014
     is_incumbent: true
+    war_v2: 0.1769
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6986
+    expected_two_party_share_v2: 0.8231
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.2527
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2967
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.7033
     is_incumbent: true
+    war_v2: 0.5788
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.2967
+    expected_two_party_share_v2: 0.4212
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -64,6 +76,10 @@ results_by_year:
     actual_two_party_share: 0.1711
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6563
@@ -81,6 +97,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3437
     is_incumbent: true
+    war_v2: 0.2192
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6563
+    expected_two_party_share_v2: 0.7808
   - name: Daniel Fishman
     slug: daniel-fishman
     party: Other
@@ -89,6 +109,10 @@ results_by_year:
     actual_two_party_share: 0.3361
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4589
@@ -106,6 +130,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5411
     is_incumbent: true
+    war_v2: 0.4166
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4589
+    expected_two_party_share_v2: 0.5834
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -114,6 +142,10 @@ results_by_year:
     actual_two_party_share: 0.3489
     war: null
     is_incumbent: false
+    war_v2: null
+    incumbency_adjustment: null
+    expected_two_party_share: null
+    expected_two_party_share_v2: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5935
@@ -131,6 +163,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4065
     is_incumbent: false
+    war_v2: 0.4065
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5935
+    expected_two_party_share_v2: 0.5935
   is_open_seat: null
 title: 6th Essex District (2012-2020)
 layout: district

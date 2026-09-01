@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4352
     is_incumbent: true
+    war_v2: 0.3107
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5648
+    expected_two_party_share_v2: 0.6893
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.536
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6749
     war: 0.211
     is_incumbent: true
+    war_v2: 0.0865
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4639
+    expected_two_party_share_v2: 0.5884
   - name: Jay D. Ferguson
     slug: jay-d-ferguson
     party: Democratic
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3251
     war: -0.211
     is_incumbent: false
+    war_v2: -0.211
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5361
+    expected_two_party_share_v2: 0.5361
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5371
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5371
     is_incumbent: true
+    war_v2: 0.4126
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4629
+    expected_two_party_share_v2: 0.5874
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5442
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.6211
     war: 0.1653
     is_incumbent: true
+    war_v2: 0.0408
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.4558
+    expected_two_party_share_v2: 0.5803
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.3789
     war: -0.1653
     is_incumbent: false
+    war_v2: -0.1653
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5442
+    expected_two_party_share_v2: 0.5442
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.385
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 0.6718
     war: 0.0568
     is_incumbent: false
+    war_v2: 0.0568
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.615
+    expected_two_party_share_v2: 0.615
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -123,6 +151,10 @@ results_by_year:
     actual_two_party_share: 0.3282
     war: -0.0568
     is_incumbent: false
+    war_v2: -0.0568
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.385
+    expected_two_party_share_v2: 0.385
   is_open_seat: null
 title: 1st Plymouth (2001-2010)
 layout: district

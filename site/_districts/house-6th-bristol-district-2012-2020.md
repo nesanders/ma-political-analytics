@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4485
     is_incumbent: true
+    war_v2: 0.324
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5515
+    expected_two_party_share_v2: 0.676
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3225
@@ -48,6 +52,10 @@ results_by_year:
     actual_two_party_share: 0.6222
     war: 0.2997
     is_incumbent: true
+    war_v2: 0.1752
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.3225
+    expected_two_party_share_v2: 0.447
   - name: David L. Steinhof
     slug: david-l-steinhof
     party: Republican
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 0.3778
     war: -0.2997
     is_incumbent: false
+    war_v2: -0.2997
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.6775
+    expected_two_party_share_v2: 0.6775
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5978
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4022
     is_incumbent: true
+    war_v2: 0.2777
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5978
+    expected_two_party_share_v2: 0.7223
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5906
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.5939
     war: 0.0033
     is_incumbent: false
+    war_v2: 0.0033
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.5906
+    expected_two_party_share_v2: 0.5906
   - name: David L. Steinhof
     slug: david-l-steinhof
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.4061
     war: -0.0033
     is_incumbent: false
+    war_v2: -0.0033
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4094
+    expected_two_party_share_v2: 0.4094
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7237
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.2763
     is_incumbent: false
+    war_v2: 0.2763
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.7237
+    expected_two_party_share_v2: 0.7237
   is_open_seat: null
 title: 6th Bristol District (2012-2020)
 layout: district

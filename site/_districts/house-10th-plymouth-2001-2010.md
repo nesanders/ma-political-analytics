@@ -31,6 +31,10 @@ results_by_year:
     actual_two_party_share: 0.5615
     war: 0.0375
     is_incumbent: true
+    war_v2: -0.087
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.524
+    expected_two_party_share_v2: 0.6485
   - name: John F. Cruz
     slug: john-f-cruz
     party: Republican
@@ -39,6 +43,10 @@ results_by_year:
     actual_two_party_share: 0.4385
     war: -0.0375
     is_incumbent: false
+    war_v2: -0.0375
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.476
+    expected_two_party_share_v2: 0.476
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6299
@@ -56,6 +64,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.3701
     is_incumbent: true
+    war_v2: 0.2456
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6299
+    expected_two_party_share_v2: 0.7544
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5984
@@ -73,6 +85,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.4016
     is_incumbent: true
+    war_v2: 0.2771
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.5984
+    expected_two_party_share_v2: 0.7229
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6041
@@ -90,6 +106,10 @@ results_by_year:
     actual_two_party_share: 0.7061
     war: 0.102
     is_incumbent: true
+    war_v2: -0.0225
+    incumbency_adjustment: 0.1245
+    expected_two_party_share: 0.6041
+    expected_two_party_share_v2: 0.7286
   - name: Mark W. Chauppette
     slug: mark-w-chauppette
     party: Republican
@@ -98,6 +118,10 @@ results_by_year:
     actual_two_party_share: 0.2939
     war: -0.102
     is_incumbent: false
+    war_v2: -0.102
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.3959
+    expected_two_party_share_v2: 0.3959
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4537
@@ -115,6 +139,10 @@ results_by_year:
     actual_two_party_share: 1.0
     war: 0.5463
     is_incumbent: false
+    war_v2: 0.5463
+    incumbency_adjustment: 0.0
+    expected_two_party_share: 0.4537
+    expected_two_party_share_v2: 0.4537
   is_open_seat: null
 title: 10th Plymouth (2001-2010)
 layout: district
