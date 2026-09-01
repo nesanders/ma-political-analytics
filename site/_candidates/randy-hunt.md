@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15041
+  by_year:
+    2016:
+      total_raised: 7765.0
+      total_spent: 9810.77
+    2018:
+      total_raised: 22660.0
+      total_spent: 30961.03
+    2010:
+      total_raised: 44079.0
+      total_spent: 35909.93
+    2012:
+      total_raised: 44976.9
+      total_spent: 38070.79
+    2014:
+      total_raised: 45121.45
+      total_spent: 30913.06
 title: Randy Hunt
 layout: candidate
 ---

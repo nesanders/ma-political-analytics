@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10633
+  by_year:
+    2024:
+      total_raised: 33211.7
+      total_spent: 32870.63
 title: Lawrence Peter Novak
 layout: candidate
 ---

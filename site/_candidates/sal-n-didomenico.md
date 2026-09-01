@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15031
   by_year:
+    2016:
+      total_raised: 48345.0
+      total_spent: 75500.05
+    2018:
+      total_raised: 55450.0
+      total_spent: 85445.63
+    2020:
+      total_raised: 50771.33
+      total_spent: 47653.67
     2022:
       total_raised: 57574.08
       total_spent: 77481.4
+    2024:
+      total_raised: 104321.49
+      total_spent: 110969.31
+    2010:
+      total_raised: 210376.69
+      total_spent: 225571.12
+    2012:
+      total_raised: 69648.87
+      total_spent: 41460.92
+    2014:
+      total_raised: 49883.0
+      total_spent: 71249.45
 title: Sal N. DiDomenico
 layout: candidate
 ---

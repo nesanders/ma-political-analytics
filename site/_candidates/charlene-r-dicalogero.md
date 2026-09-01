@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16394
+  by_year:
+    2016:
+      total_raised: 2695.0
+      total_spent: 891.36
+    2020:
+      total_raised: 3111.19
+      total_spent: 1860.78
 title: Charlene R. Dicalogero
 layout: candidate
 ---

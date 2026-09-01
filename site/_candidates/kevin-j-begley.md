@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15165
+  by_year:
+    2010:
+      total_raised: 17355.0
+      total_spent: 7701.32
 title: Kevin J. Begley
 layout: candidate
 ---

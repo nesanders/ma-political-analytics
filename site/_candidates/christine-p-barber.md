@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15839
   by_year:
+    2016:
+      total_raised: 14947.0
+      total_spent: 5410.37
+    2018:
+      total_raised: 19266.0
+      total_spent: 9502.55
+    2020:
+      total_raised: 134394.41
+      total_spent: 146428.56
     2022:
       total_raised: 38084.61
       total_spent: 18745.96
+    2024:
+      total_raised: 19733.5
+      total_spent: 17010.39
+    2014:
+      total_raised: 62438.01
+      total_spent: 60675.64
 title: Christine P. Barber
 layout: candidate
 ---

@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11421
+  by_year:
+    2002:
+      total_raised: 47924.64
+      total_spent: 19372.73
+    2004:
+      total_raised: 50253.29
+      total_spent: 28494.18
+    2006:
+      total_raised: 42151.0
+      total_spent: 40217.33
+    2008:
+      total_raised: 52247.1
+      total_spent: 42215.32
+    2010:
+      total_raised: 47335.05
+      total_spent: 36993.95
+    2012:
+      total_raised: 66629.16
+      total_spent: 52105.42
 title: Stephen M. Brewer
 layout: candidate
 ---

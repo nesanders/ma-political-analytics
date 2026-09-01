@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11186
+  by_year:
+    2002:
+      total_raised: 1175.0
+      total_spent: 600.0
+    2004:
+      total_raised: 2275.0
+      total_spent: 916.33
 title: Shirley Owens-Hicks
 layout: candidate
 ---

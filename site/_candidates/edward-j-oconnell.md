@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14877
+  by_year:
+    2018:
+      total_raised: 18466.88
+      total_spent: 12429.36
 title: Edward J. O'Connell
 layout: candidate
 ---

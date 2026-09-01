@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15166
+  by_year:
+    2010:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Bruce R. Card
 layout: candidate
 ---

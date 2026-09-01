@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17421
+  by_year:
+    2020:
+      total_raised: 71964.62
+      total_spent: 60579.17
 title: Matthew T. Kelly
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17007
+  by_year:
+    2018:
+      total_raised: 6435.0
+      total_spent: 6324.13
 title: Nathaniel K. Powell
 layout: candidate
 ---

@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15533
+  by_year:
+    2016:
+      total_raised: 42181.2
+      total_spent: 46111.36
+    2018:
+      total_raised: 28666.81
+      total_spent: 29368.9
+    2012:
+      total_raised: 36433.45
+      total_spent: 24390.27
+    2014:
+      total_raised: 29318.0
+      total_spent: 29571.1
 title: Aaron Vega
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17188
+  by_year:
+    2024:
+      total_raised: 36656.77
+      total_spent: 35959.63
 title: Kostas Loukos
 layout: candidate
 ---

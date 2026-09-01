@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14331
+  by_year:
+    2004:
+      total_raised: 84340.0
+      total_spent: 69599.04
 title: Richard L. Babson
 layout: candidate
 ---

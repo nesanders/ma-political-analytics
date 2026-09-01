@@ -163,6 +163,34 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11323
+  by_year:
+    2016:
+      total_raised: 22973.15
+      total_spent: 12899.9
+    2002:
+      total_raised: 10284.19
+      total_spent: 4250.4
+    2004:
+      total_raised: 13614.72
+      total_spent: 5617.58
+    2006:
+      total_raised: 12852.87
+      total_spent: 7200.56
+    2008:
+      total_raised: 9422.27
+      total_spent: 3260.48
+    2010:
+      total_raised: 5909.61
+      total_spent: 4766.22
+    2012:
+      total_raised: 25712.69
+      total_spent: 9235.72
+    2014:
+      total_raised: 48524.66
+      total_spent: 24533.72
 title: Stephen Kulik
 layout: candidate
 ---

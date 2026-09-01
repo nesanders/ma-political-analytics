@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14289
+  by_year:
+    2010:
+      total_raised: 24060.18
+      total_spent: 5423.29
 title: Stanley J. Nacewicz
 layout: candidate
 ---

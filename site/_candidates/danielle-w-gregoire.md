@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14796
   by_year:
+    2016:
+      total_raised: 26365.0
+      total_spent: 16095.68
+    2018:
+      total_raised: 22655.0
+      total_spent: 22668.18
+    2020:
+      total_raised: 32265.36
+      total_spent: 29319.06
     2022:
       total_raised: 32662.18
       total_spent: 40126.45
+    2024:
+      total_raised: 36926.58
+      total_spent: 41523.44
+    2008:
+      total_raised: 24650.18
+      total_spent: 15738.49
+    2010:
+      total_raised: 13286.54
+      total_spent: 12254.71
+    2012:
+      total_raised: 14035.0
+      total_spent: 9272.63
+    2014:
+      total_raised: 17059.5
+      total_spent: 5343.15
 title: Danielle W. Gregoire
 layout: candidate
 ---

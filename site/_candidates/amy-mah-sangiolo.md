@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16022
+  by_year:
+    2024:
+      total_raised: 51376.13
+      total_spent: 57616.92
 title: Amy Mah Sangiolo
 layout: candidate
 ---

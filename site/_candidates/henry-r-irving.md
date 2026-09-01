@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14463
+  by_year:
+    2006:
+      total_raised: 3929.89
+      total_spent: 2594.65
 title: Henry R. Irving
 layout: candidate
 ---

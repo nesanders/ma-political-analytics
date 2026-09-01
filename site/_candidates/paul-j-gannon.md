@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16237
+  by_year:
+    2016:
+      total_raised: 50870.0
+      total_spent: 56125.49
 title: Paul J. Gannon
 layout: candidate
 ---

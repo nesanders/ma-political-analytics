@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16302
+  by_year:
+    2016:
+      total_raised: 49260.0
+      total_spent: 40753.02
 title: Paul W. Jacques
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15440
+  by_year:
+    2012:
+      total_raised: 89048.82
+      total_spent: 70524.49
 title: R. Patrick Ellis
 layout: candidate
 ---

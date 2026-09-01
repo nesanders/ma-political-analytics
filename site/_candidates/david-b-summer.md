@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14130
+  by_year:
+    2004:
+      total_raised: 3240.0
+      total_spent: 4446.59
 title: David B. Summer
 layout: candidate
 ---

@@ -203,6 +203,40 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12623
+  by_year:
+    2016:
+      total_raised: 17200.3
+      total_spent: 10064.55
+    2018:
+      total_raised: 43164.18
+      total_spent: 72562.84
+    2020:
+      total_raised: 0.0
+      total_spent: 4150.94
+    2002:
+      total_raised: 10200.0
+      total_spent: 7837.66
+    2004:
+      total_raised: 37509.0
+      total_spent: 31794.7
+    2006:
+      total_raised: 17605.0
+      total_spent: 7343.63
+    2008:
+      total_raised: 30850.0
+      total_spent: 14191.03
+    2010:
+      total_raised: 17960.0
+      total_spent: 7003.4
+    2012:
+      total_raised: 22440.0
+      total_spent: 10296.56
+    2014:
+      total_raised: 14790.0
+      total_spent: 6407.9
 title: Bradford R. Hill
 layout: candidate
 ---

@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14778
+  by_year:
+    2016:
+      total_raised: 28611.0
+      total_spent: 25919.66
+    2008:
+      total_raised: 60892.0
+      total_spent: 67864.41
+    2010:
+      total_raised: 45930.0
+      total_spent: 39421.52
+    2012:
+      total_raised: 19145.0
+      total_spent: 27031.42
+    2014:
+      total_raised: 22025.0
+      total_spent: 22904.44
 title: James J. Dwyer
 layout: candidate
 ---

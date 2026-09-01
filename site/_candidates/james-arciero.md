@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14814
   by_year:
+    2016:
+      total_raised: 28545.12
+      total_spent: 17765.07
+    2018:
+      total_raised: 51251.0
+      total_spent: 51927.93
+    2020:
+      total_raised: 26665.75
+      total_spent: 7572.18
     2022:
       total_raised: 46805.82
       total_spent: 69980.26
+    2024:
+      total_raised: 65036.69
+      total_spent: 53841.78
+    2008:
+      total_raised: 41093.0
+      total_spent: 27146.91
+    2010:
+      total_raised: 15290.0
+      total_spent: 9784.63
+    2012:
+      total_raised: 28230.0
+      total_spent: 17043.1
+    2014:
+      total_raised: 41176.05
+      total_spent: 27216.15
 title: James Arciero
 layout: candidate
 ---

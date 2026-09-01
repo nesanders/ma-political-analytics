@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15805
+  by_year:
+    2024:
+      total_raised: 0.0
+      total_spent: 0.0
+    2020:
+      total_raised: 400.0
+      total_spent: 4.0
+    2014:
+      total_raised: 4311.53
+      total_spent: 3812.02
 title: Euplio R. Marciano
 layout: candidate
 ---

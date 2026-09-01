@@ -88,7 +88,15 @@ skipped, so re-running after a future election only pulls new rows.
   `finance_summary.parquet` (total raised/spent per `cpf_id` per year) to
   `--out-dir` (default `data/raw/ocpf`). Verified live against 2024 data
   (10,162 filers, 2,012 with finance activity) and cross-checked against
-  MAPLE's own validated example. Idempotent per year.
+  MAPLE's own validated example. Idempotent per year — this ran against
+  2022 alone for a long stretch of this project (a proof-of-concept
+  fetched alongside the initial 2022-only dataset, never revisited once
+  the election-results backfill moved on to the full 2002-2024 range) and
+  was only actually backfilled to the full range later: 28,824 total
+  filer-years across all 23 years, 2002-2024, once run for real — see the
+  WAR v3 campaign-finance diagnostic below for what that unlocked (a
+  proper multi-year fit instead of a single cycle's snapshot, and the
+  candidate-match rate on candidate pages jumping from ~16% to 70%).
 
 ## Build steps (`ma_politics.build.*`)
 
@@ -294,13 +302,26 @@ full.
   cross-district variation to estimate a bachelor's-degree% × tide
   interaction, but with a deliberately tighter prior than its own main
   effect, since two elections can't support trusting it as a stable
-  trend. Campaign finance is restricted to 2022 only (the only year OCPF
-  data covers) and drops the tide term entirely (zero within-year
-  variance, would be collinear with the intercept). Both write their
-  posterior summaries to `--site-data-dir` as `war_v3_demographics.yml`/
-  `war_v3_finance.yml`, which the methodology page reports as labeled
-  diagnostics (coefficients, credible intervals, real sample sizes) —
-  not silently dropped, not forced onto data too thin to support them.
+  trend. Campaign finance, once OCPF's own bulk export was backfilled to
+  the full 2002-2024 range (see the `fetch.campaign_finance` bullet
+  above), now fits across every year with a real match instead of one
+  cycle alone — `own_tide` is back in this fit too, since real cross-year
+  tide variation exists to identify it against, unlike the single-year
+  version. Both write their posterior summaries to `--site-data-dir` as
+  `war_v3_demographics.yml`/`war_v3_finance.yml`, which the methodology
+  page reports as labeled diagnostics (coefficients, credible intervals,
+  real sample sizes) — not silently dropped, not forced onto data too
+  thin to support them.
+
+  `build_war_v2_fit_sample()` also writes every contested major-party
+  candidate-race's actual vs. WAR v2 expected share (plus party and year)
+  to `war_v2_fit_sample.yml` — not a fitted-model output itself, just the
+  same rows `fit_war_v2_core` trained on, exported so the methodology page
+  can render a real "predicted vs. actual" scatter across all of them
+  instead of describing the fit in prose alone. `_bayesian_linear_regression`
+  now also returns each coefficient's `prior_mean`/`prior_sd` alongside its
+  posterior, so the same page can show a genuine before/after (prior vs.
+  posterior density) for one term without hardcoding the prior elsewhere.
 
   Candidates are keyed by PD43+'s own candidate slug (lowercased), not a
   name re-derived one, to avoid collisions between different candidates

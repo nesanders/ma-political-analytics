@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10315
+  by_year:
+    2002:
+      total_raised: 70401.88
+      total_spent: 109259.08
+    2004:
+      total_raised: 101037.33
+      total_spent: 112414.35
+    2006:
+      total_raised: 70741.25
+      total_spent: 83389.84
+    2008:
+      total_raised: 27955.02
+      total_spent: 76595.28
+    2010:
+      total_raised: 101870.76
+      total_spent: 49956.04
+    2012:
+      total_raised: 52940.54
+      total_spent: 41464.95
+    2014:
+      total_raised: 159155.71
+      total_spent: 109806.48
 title: Richard T. Moore
 layout: candidate
 ---

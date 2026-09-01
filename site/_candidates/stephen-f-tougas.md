@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16756
+  by_year:
+    2018:
+      total_raised: 16029.55
+      total_spent: 1338.03
+    2020:
+      total_raised: 433.8
+      total_spent: 1949.0
 title: Stephen F. Tougas
 layout: candidate
 ---

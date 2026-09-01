@@ -163,6 +163,34 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14466
+  by_year:
+    2016:
+      total_raised: 18253.92
+      total_spent: 12857.74
+    2018:
+      total_raised: 14861.8
+      total_spent: 14113.22
+    2020:
+      total_raised: 16723.05
+      total_spent: 7896.94
+    2006:
+      total_raised: 32695.0
+      total_spent: 36940.23
+    2008:
+      total_raised: 32353.82
+      total_spent: 46052.13
+    2010:
+      total_raised: 16011.65
+      total_spent: 7952.71
+    2012:
+      total_raised: 6820.0
+      total_spent: 3032.34
+    2014:
+      total_raised: 13287.81
+      total_spent: 15372.56
 title: Linda Dean Campbell
 layout: candidate
 ---

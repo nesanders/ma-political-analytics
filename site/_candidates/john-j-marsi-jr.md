@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18678
+  by_year:
+    2024:
+      total_raised: 50359.7
+      total_spent: 48040.03
 title: John J. Marsi, Jr
 layout: candidate
 ---

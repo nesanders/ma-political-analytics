@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17035
+  by_year:
+    2020:
+      total_raised: 17111.66
+      total_spent: 23474.75
 title: Maria Duaime Robinson
 layout: candidate
 ---

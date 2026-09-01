@@ -203,6 +203,40 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11413
+  by_year:
+    2016:
+      total_raised: 484696.16
+      total_spent: 363386.19
+    2018:
+      total_raised: 439783.18
+      total_spent: 283961.49
+    2020:
+      total_raised: 102037.08
+      total_spent: 280890.49
+    2002:
+      total_raised: 37090.0
+      total_spent: 29920.82
+    2004:
+      total_raised: 32315.0
+      total_spent: 40036.76
+    2006:
+      total_raised: 177663.5
+      total_spent: 82888.1
+    2008:
+      total_raised: 255366.58
+      total_spent: 141726.37
+    2010:
+      total_raised: 430589.46
+      total_spent: 269608.3
+    2012:
+      total_raised: 300809.91
+      total_spent: 386053.17
+    2014:
+      total_raised: 386595.91
+      total_spent: 368914.51
 title: Robert A. DeLeo
 layout: candidate
 ---

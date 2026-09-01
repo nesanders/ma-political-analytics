@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13933
+  by_year:
+    2016:
+      total_raised: 28434.74
+      total_spent: 42635.79
+    2002:
+      total_raised: 46923.18
+      total_spent: 39188.1
+    2004:
+      total_raised: 10404.0
+      total_spent: 5196.4
+    2006:
+      total_raised: 8727.0
+      total_spent: 9621.51
+    2008:
+      total_raised: 20018.65
+      total_spent: 9894.4
+    2010:
+      total_raised: 21257.6
+      total_spent: 18320.34
+    2012:
+      total_raised: 25839.68
+      total_spent: 23420.86
+    2014:
+      total_raised: 35301.64
+      total_spent: 37324.19
 title: John W. Scibak
 layout: candidate
 ---

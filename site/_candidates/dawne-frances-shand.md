@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18127
+  by_year:
+    2024:
+      total_raised: 27341.88
+      total_spent: 18179.81
 title: Dawne Frances Shand
 layout: candidate
 ---

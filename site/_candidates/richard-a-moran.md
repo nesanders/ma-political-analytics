@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14864
+  by_year:
+    2008:
+      total_raised: 2287.35
+      total_spent: 1959.0
 title: Richard A. Moran
 layout: candidate
 ---

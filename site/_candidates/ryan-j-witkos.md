@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13728
+  by_year:
+    2002:
+      total_raised: 20835.18
+      total_spent: 11974.46
 title: Ryan J. Witkos
 layout: candidate
 ---

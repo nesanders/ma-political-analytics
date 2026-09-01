@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 13597
   by_year:
+    2016:
+      total_raised: 42644.95
+      total_spent: 24075.53
+    2018:
+      total_raised: 48870.0
+      total_spent: 46287.79
+    2020:
+      total_raised: 24325.0
+      total_spent: 19748.5
     2022:
       total_raised: 38876.3
       total_spent: 25097.65
+    2024:
+      total_raised: 67881.91
+      total_spent: 40601.91
+    2014:
+      total_raised: 56340.0
+      total_spent: 22354.75
 title: Carole A. Fiola
 layout: candidate
 ---

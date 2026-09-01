@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17978
+  by_year:
+    2024:
+      total_raised: 35584.51
+      total_spent: 29201.49
 title: Tara Thorn Hong
 layout: candidate
 ---

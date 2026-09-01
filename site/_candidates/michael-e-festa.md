@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11064
+  by_year:
+    2002:
+      total_raised: 32387.37
+      total_spent: 34111.25
+    2004:
+      total_raised: 32447.9
+      total_spent: 25271.92
+    2006:
+      total_raised: 121773.88
+      total_spent: 132058.87
 title: Michael E. Festa
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14322
+  by_year:
+    2002:
+      total_raised: 6715.0
+      total_spent: 4943.29
+    2004:
+      total_raised: 7025.0
+      total_spent: 6710.07
 title: John W. Murray
 layout: candidate
 ---

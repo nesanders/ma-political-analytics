@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15820
+  by_year:
+    2024:
+      total_raised: 2828.97
+      total_spent: 8638.2
 title: Michelle Marie Dubois
 layout: candidate
 ---

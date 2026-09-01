@@ -183,6 +183,37 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13249
+  by_year:
+    2016:
+      total_raised: 12045.0
+      total_spent: 16994.05
+    2018:
+      total_raised: 78470.0
+      total_spent: 53871.26
+    2002:
+      total_raised: 35344.0
+      total_spent: 31374.37
+    2004:
+      total_raised: 44959.0
+      total_spent: 36346.47
+    2006:
+      total_raised: 12299.0
+      total_spent: 15722.68
+    2008:
+      total_raised: 16490.0
+      total_spent: 20578.34
+    2010:
+      total_raised: 11610.0
+      total_spent: 10829.62
+    2012:
+      total_raised: 8275.0
+      total_spent: 12543.18
+    2014:
+      total_raised: 160685.0
+      total_spent: 149227.59
 title: Vinny M. deMacedo
 layout: candidate
 ---

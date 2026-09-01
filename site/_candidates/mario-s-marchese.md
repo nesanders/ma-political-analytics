@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14948
+  by_year:
+    2010:
+      total_raised: 6245.0
+      total_spent: 6195.05
 title: Mario S. Marchese
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14777
+  by_year:
+    2008:
+      total_raised: 33900.11
+      total_spent: 21076.22
 title: Sonny Parente
 layout: candidate
 ---

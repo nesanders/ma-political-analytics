@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14567
+  by_year:
+    2006:
+      total_raised: 10684.0
+      total_spent: 7152.56
 title: Joseph F. Hickey
 layout: candidate
 ---

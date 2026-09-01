@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18800
+  by_year:
+    2024:
+      total_raised: 25.0
+      total_spent: 0.0
 title: Joseph Paul Onoroski
 layout: candidate
 ---

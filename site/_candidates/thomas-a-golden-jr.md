@@ -203,6 +203,40 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12600
+  by_year:
+    2016:
+      total_raised: 48326.67
+      total_spent: 38296.61
+    2018:
+      total_raised: 61649.0
+      total_spent: 55580.93
+    2020:
+      total_raised: 39406.97
+      total_spent: 39531.54
+    2002:
+      total_raised: 30094.49
+      total_spent: 13593.29
+    2004:
+      total_raised: 25695.97
+      total_spent: 15792.91
+    2006:
+      total_raised: 36017.0
+      total_spent: 23341.83
+    2008:
+      total_raised: 44514.0
+      total_spent: 31618.37
+    2010:
+      total_raised: 16435.0
+      total_spent: 22670.11
+    2012:
+      total_raised: 27210.0
+      total_spent: 20693.94
+    2014:
+      total_raised: 66999.46
+      total_spent: 24618.84
 title: Thomas A. Golden, Jr.
 layout: candidate
 ---

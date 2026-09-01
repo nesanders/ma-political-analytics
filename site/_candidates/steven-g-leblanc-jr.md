@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18892
+  by_year:
+    2024:
+      total_raised: 2900.0
+      total_spent: 2712.7
 title: Steven G. Leblanc, Jr
 layout: candidate
 ---

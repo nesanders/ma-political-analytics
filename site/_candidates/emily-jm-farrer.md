@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16940
+  by_year:
+    2018:
+      total_raised: 9847.58
+      total_spent: 6295.42
 title: Emily Jm Farrer
 layout: candidate
 ---

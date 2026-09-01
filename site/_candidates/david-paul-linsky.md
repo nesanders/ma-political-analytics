@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13431
   by_year:
+    2016:
+      total_raised: 1600.27
+      total_spent: 2636.04
+    2018:
+      total_raised: 1665.5
+      total_spent: 1417.35
+    2020:
+      total_raised: 11564.99
+      total_spent: 145.99
     2022:
       total_raised: 2044.05
       total_spent: 2486.17
+    2024:
+      total_raised: 7594.68
+      total_spent: 9886.85
+    2002:
+      total_raised: 15369.42
+      total_spent: 12259.16
+    2004:
+      total_raised: 32753.23
+      total_spent: 23510.18
+    2006:
+      total_raised: 19059.01
+      total_spent: 20004.83
+    2008:
+      total_raised: 9087.64
+      total_spent: 11804.43
+    2010:
+      total_raised: 2108.39
+      total_spent: 2605.87
+    2012:
+      total_raised: 21880.73
+      total_spent: 11197.64
+    2014:
+      total_raised: 7158.56
+      total_spent: 6072.85
 title: David Paul Linsky
 layout: candidate
 ---

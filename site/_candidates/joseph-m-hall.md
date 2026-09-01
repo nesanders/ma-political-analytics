@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15696
+  by_year:
+    2014:
+      total_raised: 5349.0
+      total_spent: 4437.47
 title: Joseph M. Hall
 layout: candidate
 ---

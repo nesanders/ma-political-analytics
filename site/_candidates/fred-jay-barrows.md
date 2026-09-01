@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14561
   by_year:
+    2016:
+      total_raised: 22953.0
+      total_spent: 8954.51
+    2018:
+      total_raised: 2290.0
+      total_spent: 2689.0
+    2020:
+      total_raised: 11035.0
+      total_spent: 13852.92
     2022:
       total_raised: 19875.0
       total_spent: 21450.36
+    2006:
+      total_raised: 45545.0
+      total_spent: 41266.79
+    2008:
+      total_raised: 25840.0
+      total_spent: 28285.88
+    2010:
+      total_raised: 13366.04
+      total_spent: 7411.03
+    2012:
+      total_raised: 12095.0
+      total_spent: 14751.16
+    2014:
+      total_raised: 326.56
+      total_spent: 3561.4
 title: Fred Jay Barrows
 layout: candidate
 ---

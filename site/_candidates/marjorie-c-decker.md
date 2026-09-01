@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 13736
   by_year:
+    2016:
+      total_raised: 22060.0
+      total_spent: 25416.73
+    2018:
+      total_raised: 51910.0
+      total_spent: 41675.17
+    2020:
+      total_raised: 62169.38
+      total_spent: 48155.86
     2022:
       total_raised: 48214.68
       total_spent: 55891.6
+    2024:
+      total_raised: 173952.74
+      total_spent: 280392.27
+    2012:
+      total_raised: 107373.82
+      total_spent: 71823.03
+    2014:
+      total_raised: 48020.5
+      total_spent: 48321.24
 title: Marjorie C. Decker
 layout: candidate
 ---

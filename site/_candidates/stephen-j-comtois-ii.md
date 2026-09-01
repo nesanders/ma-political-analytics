@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14437
+  by_year:
+    2008:
+      total_raised: 7049.21
+      total_spent: 4580.01
+    2006:
+      total_raised: 20549.25
+      total_spent: 18809.29
 title: Stephen J. Comtois, II
 layout: candidate
 ---

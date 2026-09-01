@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15703
+  by_year:
+    2014:
+      total_raised: 58005.41
+      total_spent: 71487.9
 title: Matthew M. Terry
 layout: candidate
 ---

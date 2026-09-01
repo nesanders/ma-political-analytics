@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17060
+  by_year:
+    2018:
+      total_raised: 6791.5
+      total_spent: 4826.04
 title: Christopher J. Tribou
 layout: candidate
 ---

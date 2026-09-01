@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14748
+  by_year:
+    2008:
+      total_raised: 19608.0
+      total_spent: 17338.29
 title: John Blaisdell
 layout: candidate
 ---

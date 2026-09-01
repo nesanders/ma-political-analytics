@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 12719
   by_year:
+    2016:
+      total_raised: 1735.0
+      total_spent: 5054.81
+    2018:
+      total_raised: 3250.0
+      total_spent: 5770.27
+    2020:
+      total_raised: 13748.06
+      total_spent: 3444.58
     2022:
       total_raised: 1400.0
       total_spent: 1274.42
+    2002:
+      total_raised: 20791.0
+      total_spent: 18770.3
+    2004:
+      total_raised: 50780.0
+      total_spent: 25488.96
+    2006:
+      total_raised: 8660.0
+      total_spent: 7730.19
+    2008:
+      total_raised: 18468.0
+      total_spent: 14068.49
+    2010:
+      total_raised: 16141.0
+      total_spent: 8794.73
+    2012:
+      total_raised: 42493.0
+      total_spent: 30218.06
+    2014:
+      total_raised: 10725.0
+      total_spent: 5520.86
 title: Kay S. Khan
 layout: candidate
 ---

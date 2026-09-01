@@ -325,6 +325,8 @@ def _bayesian_linear_regression(
     for idx, name in enumerate(feature_names):
         draws = beta_samples[:, idx]
         coefficients[name] = {
+            "prior_mean": round(float(prior_mean[idx]), 4),
+            "prior_sd": round(float(prior_sd[idx]), 4),
             "posterior_mean": round(float(draws.mean()), 4),
             "posterior_sd": round(float(draws.std()), 4),
             "ci_95_low": round(float(np.percentile(draws, 2.5)), 4),
@@ -470,6 +472,36 @@ def apply_war_v2(
                     )
 
 
+def build_war_v2_fit_sample(district_records_by_vintage: dict[str, list[dict]]) -> list[dict]:
+    """Every contested major-party candidate-race's actual vs. WAR v2
+    expected share, party, and year — the exact same rows fit_war_v2_core
+    trained on (must be called after apply_war_v2, so
+    expected_two_party_share_v2 is populated). Exists purely for the
+    methodology page's "actual vs. expected" scatter chart, which needs a
+    full sample to plot rather than the summary statistics war_v2.yml
+    already carries — written to site/_data/war_v2_fit_sample.yml so the
+    page can embed it directly via Jekyll's site.data, the same pattern
+    already used for the fitted coefficients themselves."""
+    rows = []
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for entry in d["results_by_year"]:
+                if entry["is_uncontested"]:
+                    continue
+                for c in entry["candidates"]:
+                    if c.get("war_v2") is None:
+                        continue
+                    rows.append(
+                        {
+                            "actual": c["actual_two_party_share"],
+                            "expected": c["expected_two_party_share_v2"],
+                            "party": c["party"],
+                            "year": entry["year"],
+                        }
+                    )
+    return rows
+
+
 def fit_war_v3_demographics(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
@@ -558,43 +590,50 @@ def fit_war_v3_demographics(
 
 def fit_war_v3_finance(
     district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
     finance_by_slug: dict[str, dict],
-    finance_year: int = 2022,
 ) -> dict | None:
     """A second diagnostic extension of the WAR v2 core model, adding
     campaign finance — a candidate's own OCPF total raised that cycle,
     log-transformed (fundraising totals are heavily right-skewed: a few
-    candidates raise vastly more than most). Restricted to `finance_year`
-    (2022) alone, not the full backfill: OCPF data this project has
-    fetched so far only covers that one year (see campaign_finance_match
-    and methodology.md), further restricted to candidates
-    campaign_finance_match actually matched to an OCPF filer (a best-
-    effort name/district/chamber match, not every candidate — see its own
-    docstring). own_tide is dropped entirely here, not just left out of
-    an interaction: every 2022 race shares the same statewide tide by
-    construction, so within a single-year sample it has zero variance and
-    would be perfectly collinear with the intercept. Reported as a
-    methodology-page diagnostic only, same "too thin a sample for every
-    candidate's WAR" reasoning as the demographics extension above."""
+    candidates raise vastly more than most). OCPF's bulk export now
+    covers the full 2002-2024 range this project backfills elsewhere (see
+    fetch.campaign_finance) — no longer restricted to a single year — so
+    own_tide is back in the model, the same as the core fit above: with
+    real cross-year variation, it's no longer collinear with the
+    intercept the way it was when this was fit on 2022 alone. Restricted
+    to candidate-races campaign_finance_match actually matched to an OCPF
+    filer (a best-effort name/district/chamber match, not every candidate
+    — see its own docstring). Still reported as a methodology-page
+    diagnostic only, not threaded into every candidate's WAR the way v2
+    is: even with the full backfill, only a fraction of candidate-races
+    have a confident OCPF match, so folding it into the site's main WAR
+    number would still leave most races undefined."""
     rows = []
     for records in district_records_by_vintage.values():
         for d in records:
             for entry in d["results_by_year"]:
-                if entry["year"] != finance_year or entry["is_uncontested"]:
+                if entry["is_uncontested"]:
+                    continue
+                tide = tide_by_year.get(entry["year"])
+                if tide is None:
                     continue
                 for c in entry["candidates"]:
                     if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
                         continue
                     finance = finance_by_slug.get(c["slug"])
-                    raised = finance["by_year"].get(finance_year, {}).get("total_raised") if finance else None
+                    raised = finance["by_year"].get(entry["year"], {}).get("total_raised") if finance else None
                     if raised is None:
                         continue
                     is_dem = c["party"] == "Democratic"
                     own_lean = entry["lean_dem_share"] if is_dem else 1 - entry["lean_dem_share"]
+                    own_tide = tide if is_dem else 1 - tide
                     row = {
                         "own_share": c["actual_two_party_share"],
                         "own_lean": own_lean,
+                        "own_tide": own_tide,
                         "log_raised": float(np.log1p(raised)),
+                        "year": entry["year"],
                     }
                     row.update(_incumbent_term_dummies(c.get("incumbent_terms", 0)))
                     rows.append(row)
@@ -602,14 +641,14 @@ def fit_war_v3_finance(
     if len(rows) < 20:
         return None
     df = pd.DataFrame(rows)
-    feature_names = ["intercept", "own_lean", *INCUMBENT_TERM_BUCKETS, "log_raised"]
+    feature_names = ["intercept", "own_lean", "own_tide", *INCUMBENT_TERM_BUCKETS, "log_raised"]
     x = np.column_stack(
-        [np.ones(len(df)), df["own_lean"].to_numpy()]
+        [np.ones(len(df)), df["own_lean"].to_numpy(), df["own_tide"].to_numpy()]
         + [df[b].to_numpy() for b in INCUMBENT_TERM_BUCKETS]
         + [df["log_raised"].to_numpy()]
     )
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
-    fit["finance_year"] = finance_year
+    fit["n_distinct_years"] = int(df["year"].nunique())
     return fit
 
 
@@ -1082,6 +1121,10 @@ def main(
     )
     (site_data_dir / "war_v2.yml").write_text(yaml.safe_dump(war_v2_fit, sort_keys=False))
 
+    fit_sample = build_war_v2_fit_sample(district_records_by_vintage)
+    (site_data_dir / "war_v2_fit_sample.yml").write_text(yaml.safe_dump(fit_sample, sort_keys=False))
+    logger.info("Wrote %d rows to %s", len(fit_sample), site_data_dir / "war_v2_fit_sample.yml")
+
     # WAR v3: two diagnostic extensions of the core model, reported on the
     # methodology page only (see each function's docstring for why they
     # aren't threaded into every candidate's WAR the way v2 is — real
@@ -1115,17 +1158,18 @@ def main(
             if candidate["slug"] in finance_by_slug:
                 candidate["ocpf_finance"] = finance_by_slug[candidate["slug"]]
 
-        war_v3_finance_fit = fit_war_v3_finance(district_records_by_vintage, finance_by_slug)
+        war_v3_finance_fit = fit_war_v3_finance(district_records_by_vintage, tide_by_year, finance_by_slug)
         if war_v3_finance_fit is not None:
             logger.info(
-                "WAR v3 finance diagnostic: n=%d, R²=%s, log_raised=%+.4f",
+                "WAR v3 finance diagnostic: n=%d, R²=%s, log_raised=%+.4f, years=%d",
                 war_v3_finance_fit["n"],
                 war_v3_finance_fit["r_squared"],
                 war_v3_finance_fit["coefficients"]["log_raised"]["posterior_mean"],
+                war_v3_finance_fit["n_distinct_years"],
             )
             (site_data_dir / "war_v3_finance.yml").write_text(yaml.safe_dump(war_v3_finance_fit, sort_keys=False))
         else:
-            logger.warning("Not enough finance-matched 2022 races to fit the WAR v3 finance diagnostic")
+            logger.warning("Not enough finance-matched races to fit the WAR v3 finance diagnostic")
     else:
         logger.warning("No OCPF data at %s — candidate pages will have no campaign-finance section", ocpf_dir)
     write_candidate_files(candidate_records, candidates_out_dir)

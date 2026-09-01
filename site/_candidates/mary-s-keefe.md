@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 14957
   by_year:
+    2016:
+      total_raised: 10320.0
+      total_spent: 9808.81
+    2018:
+      total_raised: 9424.06
+      total_spent: 8204.48
+    2020:
+      total_raised: 1471.24
+      total_spent: 4434.48
     2022:
       total_raised: 19460.13
       total_spent: 9429.23
+    2024:
+      total_raised: 5786.05
+      total_spent: 5458.21
+    2012:
+      total_raised: 45198.0
+      total_spent: 20773.16
+    2014:
+      total_raised: 30430.0
+      total_spent: 27117.69
 title: Mary S. Keefe
 layout: candidate
 ---

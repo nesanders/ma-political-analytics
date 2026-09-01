@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15098
+  by_year:
+    2010:
+      total_raised: 364332.49
+      total_spent: 262241.76
+    2012:
+      total_raised: 76407.7
+      total_spent: 77791.69
+    2014:
+      total_raised: 94398.6
+      total_spent: 106493.89
 title: Daniel A. Wolf
 layout: candidate
 ---

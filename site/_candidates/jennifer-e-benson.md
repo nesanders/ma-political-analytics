@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14768
+  by_year:
+    2016:
+      total_raised: 28500.0
+      total_spent: 25847.8
+    2018:
+      total_raised: 30623.05
+      total_spent: 37771.94
+    2008:
+      total_raised: 53317.5
+      total_spent: 35352.85
+    2010:
+      total_raised: 42318.0
+      total_spent: 31037.72
+    2012:
+      total_raised: 5925.0
+      total_spent: 10143.87
+    2014:
+      total_raised: 10475.0
+      total_spent: 6054.38
 title: Jennifer E. Benson
 layout: candidate
 ---

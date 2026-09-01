@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11770
+  by_year:
+    2008:
+      total_raised: 27514.0
+      total_spent: 13111.48
+    2002:
+      total_raised: 0.0
+      total_spent: 1596.65
+    2004:
+      total_raised: 12871.18
+      total_spent: 14632.55
+    2006:
+      total_raised: 1550.0
+      total_spent: 763.0
 title: William G. Greene, Jr.
 layout: candidate
 ---

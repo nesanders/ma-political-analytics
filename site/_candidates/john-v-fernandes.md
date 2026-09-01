@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14472
+  by_year:
+    2006:
+      total_raised: 70199.0
+      total_spent: 66538.01
+    2008:
+      total_raised: 1032.9
+      total_spent: 3896.93
+    2010:
+      total_raised: 750.0
+      total_spent: 5005.0
+    2012:
+      total_raised: 1425.0
+      total_spent: 3408.82
+    2014:
+      total_raised: 45430.0
+      total_spent: 36392.65
 title: John V. Fernandes
 layout: candidate
 ---

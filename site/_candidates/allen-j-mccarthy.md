@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14477
+  by_year:
+    2008:
+      total_raised: 18051.18
+      total_spent: 13050.41
+    2010:
+      total_raised: 43915.0
+      total_spent: 35444.13
+    2006:
+      total_raised: 48520.27
+      total_spent: 35173.46
 title: Allen J. McCarthy
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14846
+  by_year:
+    2008:
+      total_raised: 12064.8
+      total_spent: 4854.28
 title: Anthony Lucacio
 layout: candidate
 ---

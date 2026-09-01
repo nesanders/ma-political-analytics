@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15089
   by_year:
+    2016:
+      total_raised: 25544.0
+      total_spent: 7881.31
+    2018:
+      total_raised: 11815.0
+      total_spent: 5326.89
+    2020:
+      total_raised: 1300.0
+      total_spent: 4859.22
     2022:
       total_raised: 1870.0
       total_spent: 4316.28
+    2010:
+      total_raised: 36280.19
+      total_spent: 19485.17
+    2012:
+      total_raised: 37320.0
+      total_spent: 14051.81
+    2014:
+      total_raised: 39770.0
+      total_spent: 27507.08
 title: Angelo L. D'Emilia
 layout: candidate
 ---

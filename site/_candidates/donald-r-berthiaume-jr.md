@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15775
   by_year:
+    2016:
+      total_raised: 5975.0
+      total_spent: 4318.29
+    2018:
+      total_raised: 10810.0
+      total_spent: 7301.65
+    2020:
+      total_raised: 3100.0
+      total_spent: 2377.5
     2022:
       total_raised: 12800.0
       total_spent: 6562.23
+    2024:
+      total_raised: 17980.0
+      total_spent: 9306.08
+    2014:
+      total_raised: 14274.0
+      total_spent: 10149.66
 title: Donald R. Berthiaume, Jr
 layout: candidate
 ---

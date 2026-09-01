@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13048
+  by_year:
+    2002:
+      total_raised: 36505.0
+      total_spent: 23901.97
+    2004:
+      total_raised: 64950.0
+      total_spent: 108915.98
+    2006:
+      total_raised: 33959.0
+      total_spent: 31235.97
+    2008:
+      total_raised: 46660.0
+      total_spent: 59087.52
+    2010:
+      total_raised: 36305.0
+      total_spent: 34304.88
+    2012:
+      total_raised: 40676.0
+      total_spent: 22539.85
 title: Eugene L. O'Flaherty
 layout: candidate
 ---

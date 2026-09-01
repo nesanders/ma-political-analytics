@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14347
+  by_year:
+    2004:
+      total_raised: 3969.0
+      total_spent: 3918.03
 title: Stephen John White
 layout: candidate
 ---

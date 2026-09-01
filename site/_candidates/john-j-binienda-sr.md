@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10030
+  by_year:
+    2002:
+      total_raised: 45155.0
+      total_spent: 12062.33
+    2004:
+      total_raised: 48745.0
+      total_spent: 14477.07
+    2006:
+      total_raised: 54205.0
+      total_spent: 20934.69
+    2008:
+      total_raised: 46670.0
+      total_spent: 23717.09
+    2010:
+      total_raised: 42470.0
+      total_spent: 23888.64
+    2012:
+      total_raised: 40105.0
+      total_spent: 62781.15
 title: John J. Binienda, Sr.
 layout: candidate
 ---

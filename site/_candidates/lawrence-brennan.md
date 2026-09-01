@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14450
+  by_year:
+    2008:
+      total_raised: 20883.0
+      total_spent: 19533.17
+    2006:
+      total_raised: 15652.13
+      total_spent: 13611.7
 title: Lawrence Brennan
 layout: candidate
 ---

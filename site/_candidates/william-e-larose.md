@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17486
+  by_year:
+    2020:
+      total_raised: 24026.47
+      total_spent: 20831.77
 title: William E. Larose
 layout: candidate
 ---

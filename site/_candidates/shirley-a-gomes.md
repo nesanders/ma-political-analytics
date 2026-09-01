@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12178
+  by_year:
+    2002:
+      total_raised: 1066.3
+      total_spent: 3362.48
+    2004:
+      total_raised: 45944.93
+      total_spent: 31399.61
 title: Shirley A. Gomes
 layout: candidate
 ---

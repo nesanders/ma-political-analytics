@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15709
   by_year:
+    2016:
+      total_raised: 15175.0
+      total_spent: 13323.71
+    2018:
+      total_raised: 13204.0
+      total_spent: 11210.22
+    2020:
+      total_raised: 111754.55
+      total_spent: 140888.73
     2022:
       total_raised: 152877.83
       total_spent: 230261.87
+    2024:
+      total_raised: 97327.3
+      total_spent: 72391.03
+    2014:
+      total_raised: 43945.3
+      total_spent: 45182.17
 title: John C. Velis
 layout: candidate
 ---

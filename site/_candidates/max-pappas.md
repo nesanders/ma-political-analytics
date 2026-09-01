@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13986
+  by_year:
+    2002:
+      total_raised: 12146.87
+      total_spent: 4842.1
 title: Max Pappas
 layout: candidate
 ---

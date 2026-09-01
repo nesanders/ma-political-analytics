@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15762
+  by_year:
+    2016:
+      total_raised: 18044.62
+      total_spent: 15071.94
 title: Oscar Camargo
 layout: candidate
 ---

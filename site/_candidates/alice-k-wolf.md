@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13036
+  by_year:
+    2002:
+      total_raised: 37850.24
+      total_spent: 22783.72
+    2004:
+      total_raised: 35450.56
+      total_spent: 22850.26
+    2006:
+      total_raised: 21495.08
+      total_spent: 20414.14
+    2008:
+      total_raised: 22008.07
+      total_spent: 15093.77
+    2010:
+      total_raised: 24926.13
+      total_spent: 12052.38
 title: Alice K. Wolf
 layout: candidate
 ---

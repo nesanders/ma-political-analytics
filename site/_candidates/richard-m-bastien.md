@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15083
+  by_year:
+    2010:
+      total_raised: 9438.81
+      total_spent: 8082.6
+    2012:
+      total_raised: 21158.5
+      total_spent: 20931.5
+    2014:
+      total_raised: 3253.9
+      total_spent: 2337.32
 title: Richard M. Bastien
 layout: candidate
 ---

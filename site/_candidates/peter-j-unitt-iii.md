@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13993
+  by_year:
+    2002:
+      total_raised: 12865.87
+      total_spent: 10950.28
 title: Peter J. Unitt, III
 layout: candidate
 ---

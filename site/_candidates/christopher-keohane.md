@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17507
+  by_year:
+    2020:
+      total_raised: 711.8
+      total_spent: 711.8
 title: Christopher Keohane
 layout: candidate
 ---

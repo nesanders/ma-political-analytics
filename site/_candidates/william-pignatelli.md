@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 12730
   by_year:
+    2016:
+      total_raised: 35740.0
+      total_spent: 26676.7
+    2018:
+      total_raised: 31250.0
+      total_spent: 28110.84
+    2020:
+      total_raised: 11510.98
+      total_spent: 15069.51
     2022:
       total_raised: 43835.18
       total_spent: 49917.38
+    2002:
+      total_raised: 20575.0
+      total_spent: 16788.87
+    2004:
+      total_raised: 31786.11
+      total_spent: 30275.67
+    2006:
+      total_raised: 30430.0
+      total_spent: 17963.17
+    2008:
+      total_raised: 52080.0
+      total_spent: 18155.77
+    2010:
+      total_raised: 42410.0
+      total_spent: 29952.76
+    2012:
+      total_raised: 34445.0
+      total_spent: 40215.93
+    2014:
+      total_raised: 37735.0
+      total_spent: 27392.57
 title: William "Smitty" Pignatelli
 layout: candidate
 ---

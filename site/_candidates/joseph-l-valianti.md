@@ -43,6 +43,17 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11717
+  - 14788
+  by_year:
+    2008:
+      total_raised: 7819.19
+      total_spent: 6795.58
+    2014:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Joseph L. Valianti
 layout: candidate
 ---

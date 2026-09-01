@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15755
+  by_year:
+    2016:
+      total_raised: 15550.0
+      total_spent: 8886.26
+    2018:
+      total_raised: 18950.0
+      total_spent: 8586.27
+    2014:
+      total_raised: 66080.29
+      total_spent: 63640.15
 title: Roselee Vincent
 layout: candidate
 ---

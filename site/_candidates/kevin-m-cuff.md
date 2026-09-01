@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15514
+  by_year:
+    2012:
+      total_raised: 7175.0
+      total_spent: 3808.16
 title: Kevin M. Cuff
 layout: candidate
 ---

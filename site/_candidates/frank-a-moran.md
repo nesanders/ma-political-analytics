@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15498
   by_year:
+    2016:
+      total_raised: 22025.0
+      total_spent: 12565.0
+    2018:
+      total_raised: 10875.0
+      total_spent: 11856.87
+    2020:
+      total_raised: 85143.81
+      total_spent: 84921.71
     2022:
       total_raised: 31636.26
       total_spent: 20776.14
+    2024:
+      total_raised: 22382.99
+      total_spent: 41364.76
+    2012:
+      total_raised: 10970.0
+      total_spent: 5266.11
+    2014:
+      total_raised: 4190.0
+      total_spent: 4673.5
 title: Frank A. Moran
 layout: candidate
 ---

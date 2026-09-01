@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15544
   by_year:
+    2016:
+      total_raised: 31520.7
+      total_spent: 36052.76
+    2018:
+      total_raised: 43994.0
+      total_spent: 46729.07
+    2020:
+      total_raised: 132882.44
+      total_spent: 112454.22
     2022:
       total_raised: 88491.07
       total_spent: 68610.73
+    2014:
+      total_raised: 133855.31
+      total_spent: 126684.09
 title: Daniel Joseph Ryan
 layout: candidate
 ---

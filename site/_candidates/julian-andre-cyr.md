@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 16300
   by_year:
+    2016:
+      total_raised: 227067.47
+      total_spent: 223018.62
+    2018:
+      total_raised: 250871.73
+      total_spent: 223141.7
+    2020:
+      total_raised: 121599.06
+      total_spent: 68660.93
     2022:
       total_raised: 178783.2
       total_spent: 245092.72
+    2024:
+      total_raised: 215268.2
+      total_spent: 304346.22
 title: Julian Andre Cyr
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16946
+  by_year:
+    2018:
+      total_raised: 16611.42
+      total_spent: 8064.64
 title: Steven Leibowitz
 layout: candidate
 ---

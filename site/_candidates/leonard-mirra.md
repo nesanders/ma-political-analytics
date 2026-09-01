@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15422
   by_year:
+    2016:
+      total_raised: 3816.0
+      total_spent: 2060.4
+    2018:
+      total_raised: 17633.18
+      total_spent: 17695.39
+    2020:
+      total_raised: 30343.61
+      total_spent: 53871.53
     2022:
       total_raised: 39160.08
       total_spent: 43401.96
+    2012:
+      total_raised: 54867.1
+      total_spent: 52291.84
+    2014:
+      total_raised: 7214.96
+      total_spent: 9235.26
 title: Leonard Mirra
 layout: candidate
 ---

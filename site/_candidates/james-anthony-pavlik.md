@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15857
+  by_year:
+    2014:
+      total_raised: 26945.45
+      total_spent: 21485.21
 title: James Anthony Pavlik
 layout: candidate
 ---

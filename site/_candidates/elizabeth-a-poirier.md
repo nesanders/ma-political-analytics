@@ -183,6 +183,38 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10360
+  - 13455
+  by_year:
+    2016:
+      total_raised: 27759.45
+      total_spent: 9817.08
+    2018:
+      total_raised: 3275.34
+      total_spent: 4972.45
+    2002:
+      total_raised: 15720.0
+      total_spent: 12928.99
+    2004:
+      total_raised: 30336.82
+      total_spent: 14952.51
+    2006:
+      total_raised: 16484.08
+      total_spent: 11874.63
+    2008:
+      total_raised: 13355.12
+      total_spent: 11835.99
+    2010:
+      total_raised: 13478.97
+      total_spent: 8803.71
+    2012:
+      total_raised: 14470.49
+      total_spent: 14779.92
+    2014:
+      total_raised: 12496.43
+      total_spent: 12495.39
 title: Elizabeth A. Poirier
 layout: candidate
 ---

@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 12122
   by_year:
+    2016:
+      total_raised: 71500.0
+      total_spent: 78473.08
+    2018:
+      total_raised: 163560.0
+      total_spent: 85383.36
+    2020:
+      total_raised: 91295.75
+      total_spent: 86350.18
     2022:
       total_raised: 202496.28
       total_spent: 284761.71
+    2024:
+      total_raised: 39743.7
+      total_spent: 325004.95
+    2002:
+      total_raised: 45168.76
+      total_spent: 13894.18
+    2004:
+      total_raised: 44510.52
+      total_spent: 49277.66
+    2006:
+      total_raised: 98298.67
+      total_spent: 36524.8
+    2008:
+      total_raised: 80505.0
+      total_spent: 41370.98
+    2010:
+      total_raised: 48467.28
+      total_spent: 54419.87
+    2012:
+      total_raised: 68035.25
+      total_spent: 63902.59
+    2014:
+      total_raised: 76875.0
+      total_spent: 64536.97
 title: Ronald Mariano
 layout: candidate
 ---

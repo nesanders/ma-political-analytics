@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15172
+  by_year:
+    2010:
+      total_raised: 11806.3
+      total_spent: 10026.76
 title: Timothy A. Dodd
 layout: candidate
 ---

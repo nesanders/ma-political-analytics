@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13033
+  by_year:
+    2008:
+      total_raised: 35568.81
+      total_spent: 41062.98
+    2002:
+      total_raised: 17189.72
+      total_spent: 7048.6
+    2004:
+      total_raised: 27357.77
+      total_spent: 27934.2
+    2006:
+      total_raised: 19545.0
+      total_spent: 27004.33
 title: Susan W. Pope
 layout: candidate
 ---

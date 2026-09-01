@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12530
+  by_year:
+    2002:
+      total_raised: 84955.46
+      total_spent: 112108.07
 title: Paul C. Demakis
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13312
+  by_year:
+    2024:
+      total_raised: 6600.0
+      total_spent: 6454.5
 title: Virginia A Gardner
 layout: candidate
 ---

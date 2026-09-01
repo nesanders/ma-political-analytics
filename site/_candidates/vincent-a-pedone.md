@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12199
+  by_year:
+    2002:
+      total_raised: 5755.99
+      total_spent: 10534.08
+    2004:
+      total_raised: 32549.83
+      total_spent: 18748.69
+    2006:
+      total_raised: 81880.0
+      total_spent: 38897.3
+    2008:
+      total_raised: 26335.0
+      total_spent: 33895.06
+    2010:
+      total_raised: 34421.35
+      total_spent: 61466.04
 title: Vincent A. Pedone
 layout: candidate
 ---

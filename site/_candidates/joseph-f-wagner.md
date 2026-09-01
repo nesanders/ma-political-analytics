@@ -203,6 +203,40 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12103
+  by_year:
+    2016:
+      total_raised: 35656.04
+      total_spent: 30790.14
+    2018:
+      total_raised: 87636.18
+      total_spent: 43400.21
+    2020:
+      total_raised: 41905.54
+      total_spent: 39910.86
+    2002:
+      total_raised: 19968.35
+      total_spent: 25033.09
+    2004:
+      total_raised: 84016.12
+      total_spent: 59038.77
+    2006:
+      total_raised: 33917.31
+      total_spent: 39474.17
+    2008:
+      total_raised: 32664.21
+      total_spent: 36786.35
+    2010:
+      total_raised: 25386.17
+      total_spent: 29838.17
+    2012:
+      total_raised: 52066.4
+      total_spent: 30789.87
+    2014:
+      total_raised: 51375.8
+      total_spent: 38564.26
 title: Joseph F. Wagner
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18824
+  by_year:
+    2024:
+      total_raised: 74612.08
+      total_spent: 73156.54
 title: Joshua Tarsky
 layout: candidate
 ---

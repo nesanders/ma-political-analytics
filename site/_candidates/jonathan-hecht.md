@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14881
+  by_year:
+    2016:
+      total_raised: 0.0
+      total_spent: 0.0
+    2018:
+      total_raised: 50.0
+      total_spent: 0.0
+    2008:
+      total_raised: 90564.0
+      total_spent: 89166.79
+    2010:
+      total_raised: 26285.0
+      total_spent: 3246.46
+    2012:
+      total_raised: 26141.31
+      total_spent: 5089.81
+    2014:
+      total_raised: 100.0
+      total_spent: 4287.58
 title: Jonathan Hecht
 layout: candidate
 ---

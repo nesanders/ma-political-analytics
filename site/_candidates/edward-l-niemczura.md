@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14551
+  by_year:
+    2006:
+      total_raised: 22750.0
+      total_spent: 22725.87
 title: Edward L. Niemczura
 layout: candidate
 ---

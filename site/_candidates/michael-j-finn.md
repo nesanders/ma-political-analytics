@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15158
   by_year:
+    2016:
+      total_raised: 12690.0
+      total_spent: 14698.72
+    2018:
+      total_raised: 5265.0
+      total_spent: 12231.04
+    2020:
+      total_raised: 15654.75
+      total_spent: 24844.95
     2022:
       total_raised: 20382.03
       total_spent: 20758.1
+    2024:
+      total_raised: 5892.44
+      total_spent: 15240.63
+    2010:
+      total_raised: 25515.0
+      total_spent: 15899.83
+    2012:
+      total_raised: 33624.99
+      total_spent: 21214.87
+    2014:
+      total_raised: 39145.0
+      total_spent: 31336.32
 title: Michael J. Finn
 layout: candidate
 ---

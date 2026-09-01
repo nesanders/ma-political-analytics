@@ -47,6 +47,9 @@ ocpf_finance:
   cpf_ids:
   - 16653
   by_year:
+    2024:
+      total_raised: 1956.23
+      total_spent: 10022.98
     2022:
       total_raised: 40340.71
       total_spent: 36121.62

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11593
+  by_year:
+    2010:
+      total_raised: 45855.0
+      total_spent: 35144.01
 title: Patricia A. Lawton
 layout: candidate
 ---

@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 11859
   by_year:
+    2016:
+      total_raised: 9175.0
+      total_spent: 10307.34
+    2018:
+      total_raised: 17025.0
+      total_spent: 15086.32
+    2020:
+      total_raised: 12578.39
+      total_spent: 27013.9
     2022:
       total_raised: 23268.75
       total_spent: 36415.34
+    2024:
+      total_raised: 15837.79
+      total_spent: 11454.7
+    2002:
+      total_raised: 9740.0
+      total_spent: 7118.27
+    2004:
+      total_raised: 55745.0
+      total_spent: 39944.2
+    2006:
+      total_raised: 14940.0
+      total_spent: 5531.08
+    2008:
+      total_raised: 3850.0
+      total_spent: 7309.25
+    2010:
+      total_raised: 4350.0
+      total_spent: 10847.79
+    2012:
+      total_raised: 7225.0
+      total_spent: 10915.11
+    2014:
+      total_raised: 6075.0
+      total_spent: 8513.59
 title: William C. Galvin
 layout: candidate
 ---

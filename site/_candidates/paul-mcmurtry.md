@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14680
   by_year:
+    2016:
+      total_raised: 24352.65
+      total_spent: 15542.26
+    2018:
+      total_raised: 49667.55
+      total_spent: 40044.85
+    2020:
+      total_raised: 11093.43
+      total_spent: 10272.71
     2022:
       total_raised: 12153.36
       total_spent: 13438.61
+    2024:
+      total_raised: 54862.13
+      total_spent: 43419.76
+    2008:
+      total_raised: 15171.0
+      total_spent: 13832.61
+    2010:
+      total_raised: 12586.63
+      total_spent: 10962.2
+    2012:
+      total_raised: 11842.44
+      total_spent: 20554.61
+    2014:
+      total_raised: 19441.37
+      total_spent: 25274.67
 title: Paul McMurtry
 layout: candidate
 ---

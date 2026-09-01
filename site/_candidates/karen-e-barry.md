@@ -23,6 +23,14 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14005
+  - 15552
+  by_year:
+    2012:
+      total_raised: 58636.93
+      total_spent: 26498.35
 title: Karen E. Barry
 layout: candidate
 ---

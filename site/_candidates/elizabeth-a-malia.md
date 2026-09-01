@@ -203,6 +203,40 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13232
+  by_year:
+    2016:
+      total_raised: 19040.0
+      total_spent: 18207.12
+    2018:
+      total_raised: 33325.0
+      total_spent: 40510.69
+    2020:
+      total_raised: 7244.79
+      total_spent: 7575.88
+    2002:
+      total_raised: 20717.99
+      total_spent: 22695.7
+    2004:
+      total_raised: 17535.39
+      total_spent: 17212.39
+    2006:
+      total_raised: 7470.6
+      total_spent: 9208.71
+    2008:
+      total_raised: 4375.0
+      total_spent: 9087.37
+    2010:
+      total_raised: 9356.55
+      total_spent: 11643.84
+    2012:
+      total_raised: 7935.52
+      total_spent: 8978.31
+    2014:
+      total_raised: 8175.0
+      total_spent: 6188.51
 title: Elizabeth A. Malia
 layout: candidate
 ---

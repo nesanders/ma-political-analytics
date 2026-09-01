@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14584
+  by_year:
+    2010:
+      total_raised: 1600.0
+      total_spent: 1166.3
+    2006:
+      total_raised: 6789.49
+      total_spent: 5969.61
 title: Stefan G. Racz
 layout: candidate
 ---

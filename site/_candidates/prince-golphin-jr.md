@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17459
+  by_year:
+    2020:
+      total_raised: 1180.23
+      total_spent: 1065.68
 title: Prince Golphin, Jr
 layout: candidate
 ---

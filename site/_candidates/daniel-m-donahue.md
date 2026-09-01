@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15637
   by_year:
+    2016:
+      total_raised: 47195.0
+      total_spent: 24607.76
+    2018:
+      total_raised: 7800.0
+      total_spent: 9599.72
+    2020:
+      total_raised: 8792.1
+      total_spent: 5993.73
     2022:
       total_raised: 4668.09
       total_spent: 11110.92
+    2024:
+      total_raised: 21474.58
+      total_spent: 9235.95
+    2014:
+      total_raised: 46868.0
+      total_spent: 46579.08
 title: Daniel M. Donahue
 layout: candidate
 ---

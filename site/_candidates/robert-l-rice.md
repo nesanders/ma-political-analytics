@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14451
+  by_year:
+    2008:
+      total_raised: 5320.0
+      total_spent: 7708.16
+    2006:
+      total_raised: 29906.56
+      total_spent: 29867.52
 title: Robert L. Rice
 layout: candidate
 ---

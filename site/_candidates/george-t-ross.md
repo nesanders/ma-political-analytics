@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14800
+  by_year:
+    2008:
+      total_raised: 22975.62
+      total_spent: 19525.62
+    2010:
+      total_raised: 16237.17
+      total_spent: 9496.78
+    2012:
+      total_raised: 19001.37
+      total_spent: 16351.11
 title: George T. Ross
 layout: candidate
 ---

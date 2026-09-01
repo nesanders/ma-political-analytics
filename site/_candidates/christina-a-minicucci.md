@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16991
+  by_year:
+    2018:
+      total_raised: 76651.0
+      total_spent: 67511.55
+    2020:
+      total_raised: 1709.73
+      total_spent: 5783.47
 title: Christina A. Minicucci
 layout: candidate
 ---

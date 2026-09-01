@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13885
+  by_year:
+    2002:
+      total_raised: 22511.07
+      total_spent: 21194.38
 title: Jonathan A. Leavitt
 layout: candidate
 ---

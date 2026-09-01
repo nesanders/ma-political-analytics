@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15527
+  by_year:
+    2016:
+      total_raised: 56142.5
+      total_spent: 40602.73
+    2018:
+      total_raised: 62394.0
+      total_spent: 49644.42
+    2020:
+      total_raised: 63280.78
+      total_spent: 94406.65
+    2012:
+      total_raised: 12495.49
+      total_spent: 11923.32
+    2014:
+      total_raised: 23053.91
+      total_spent: 20410.17
 title: James M. Kelcourse
 layout: candidate
 ---

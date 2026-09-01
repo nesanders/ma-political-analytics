@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16345
+  by_year:
+    2016:
+      total_raised: 14573.0
+      total_spent: 11218.29
 title: Yolanda Greaves
 layout: candidate
 ---

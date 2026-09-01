@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15376
   by_year:
+    2016:
+      total_raised: 41410.0
+      total_spent: 32668.15
+    2018:
+      total_raised: 3075.0
+      total_spent: 8056.53
+    2020:
+      total_raised: 8704.23
+      total_spent: 5071.02
     2022:
       total_raised: 6684.0
       total_spent: 3494.82
+    2024:
+      total_raised: 25304.78
+      total_spent: 9633.32
+    2012:
+      total_raised: 5775.2
+      total_spent: 8008.17
+    2014:
+      total_raised: 12840.67
+      total_spent: 8431.43
 title: Tricia Farley-Bouvier
 layout: candidate
 ---

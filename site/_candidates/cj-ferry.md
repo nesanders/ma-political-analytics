@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14799
+  by_year:
+    2008:
+      total_raised: 11147.35
+      total_spent: 10222.96
+    2010:
+      total_raised: 4179.11
+      total_spent: 3596.43
 title: C.J. Ferry
 layout: candidate
 ---

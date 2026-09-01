@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15149
+  by_year:
+    2010:
+      total_raised: 6452.9
+      total_spent: 6296.31
 title: Richard Cannava
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15878
+  by_year:
+    2014:
+      total_raised: 335.0
+      total_spent: 30.0
 title: Noelani Kamelamela
 layout: candidate
 ---

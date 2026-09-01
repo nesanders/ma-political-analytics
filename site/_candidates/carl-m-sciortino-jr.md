@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14185
+  by_year:
+    2004:
+      total_raised: 60551.35
+      total_spent: 50544.41
+    2006:
+      total_raised: 5750.0
+      total_spent: 11094.31
+    2008:
+      total_raised: 107514.47
+      total_spent: 113408.43
+    2010:
+      total_raised: 35023.0
+      total_spent: 22750.82
+    2012:
+      total_raised: 32633.12
+      total_spent: 17471.13
 title: Carl M. Sciortino, Jr.
 layout: candidate
 ---

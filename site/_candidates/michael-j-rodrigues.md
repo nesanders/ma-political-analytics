@@ -243,6 +243,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15209
+  by_year:
+    2006:
+      total_raised: 7206.96
+      total_spent: 7206.96
+    2008:
+      total_raised: 7345.67
+      total_spent: 7272.25
+    2010:
+      total_raised: 4200.0
+      total_spent: 4200.0
 title: Michael J. Rodrigues
 layout: candidate
 ---

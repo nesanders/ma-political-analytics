@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18905
+  by_year:
+    2024:
+      total_raised: 37744.76
+      total_spent: 42374.89
 title: Christopher Thrasher
 layout: candidate
 ---

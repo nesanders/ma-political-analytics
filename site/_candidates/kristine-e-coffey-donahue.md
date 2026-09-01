@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15876
+  by_year:
+    2014:
+      total_raised: 500.0
+      total_spent: 333.81
 title: Kristine E. Coffey-Donahue
 layout: candidate
 ---

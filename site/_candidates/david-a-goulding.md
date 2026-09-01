@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14842
+  by_year:
+    2008:
+      total_raised: 3300.0
+      total_spent: 2646.7
 title: David A. Goulding
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14169
+  by_year:
+    2004:
+      total_raised: 12589.0
+      total_spent: 11997.83
 title: Dane E. Baird, Jr.
 layout: candidate
 ---

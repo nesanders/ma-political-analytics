@@ -23,6 +23,14 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18413
+  - 19722
+  by_year:
+    2024:
+      total_raised: 2622.89
+      total_spent: 3349.24
 title: Anthony L. Ferrante
 layout: candidate
 ---

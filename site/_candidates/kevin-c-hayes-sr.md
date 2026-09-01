@@ -23,6 +23,14 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14536
+  - 14818
+  by_year:
+    2006:
+      total_raised: 23402.06
+      total_spent: 17583.4
 title: Kevin C. Hayes, Sr.
 layout: candidate
 ---

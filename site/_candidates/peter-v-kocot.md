@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13850
+  by_year:
+    2016:
+      total_raised: 22770.0
+      total_spent: 19991.09
+    2002:
+      total_raised: 38359.5
+      total_spent: 33867.28
+    2004:
+      total_raised: 16625.89
+      total_spent: 13392.56
+    2006:
+      total_raised: 18538.0
+      total_spent: 14510.26
+    2008:
+      total_raised: 6560.0
+      total_spent: 8175.58
+    2010:
+      total_raised: 5330.17
+      total_spent: 5429.61
+    2012:
+      total_raised: 18942.85
+      total_spent: 16175.37
+    2014:
+      total_raised: 23984.0
+      total_spent: 22824.79
 title: Peter V. Kocot
 layout: candidate
 ---

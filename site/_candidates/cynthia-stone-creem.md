@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 12735
   by_year:
+    2016:
+      total_raised: 11446.0
+      total_spent: 14387.98
+    2018:
+      total_raised: 3894.0
+      total_spent: 10425.69
+    2020:
+      total_raised: 67471.06
+      total_spent: 12493.31
     2022:
       total_raised: 4453.86
       total_spent: 6281.47
+    2024:
+      total_raised: 9598.46
+      total_spent: 10611.26
+    2002:
+      total_raised: 7668.54
+      total_spent: 4970.24
+    2004:
+      total_raised: 42489.0
+      total_spent: 8852.99
+    2006:
+      total_raised: 34429.0
+      total_spent: 15197.84
+    2008:
+      total_raised: 1375.0
+      total_spent: 13917.55
+    2010:
+      total_raised: 87080.1
+      total_spent: 148638.01
+    2012:
+      total_raised: 3775.0
+      total_spent: 10141.93
+    2014:
+      total_raised: 736.0
+      total_spent: 9068.72
 title: Cynthia Stone Creem
 layout: candidate
 ---

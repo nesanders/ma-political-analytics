@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13724
+  by_year:
+    2002:
+      total_raised: 16465.0
+      total_spent: 5841.34
+    2004:
+      total_raised: 31694.0
+      total_spent: 15935.49
 title: James M. Murphy
 layout: candidate
 ---

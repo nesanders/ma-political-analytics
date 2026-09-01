@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13946
   by_year:
+    2016:
+      total_raised: 39111.03
+      total_spent: 31692.42
+    2018:
+      total_raised: 28373.93
+      total_spent: 32239.39
+    2020:
+      total_raised: 28701.3
+      total_spent: 29353.07
     2022:
       total_raised: 29397.41
       total_spent: 36528.63
+    2024:
+      total_raised: 43604.6
+      total_spent: 41214.99
+    2002:
+      total_raised: 50885.0
+      total_spent: 50024.55
+    2004:
+      total_raised: 30890.0
+      total_spent: 28525.09
+    2006:
+      total_raised: 18535.0
+      total_spent: 21326.79
+    2008:
+      total_raised: 45783.18
+      total_spent: 43147.13
+    2010:
+      total_raised: 106602.19
+      total_spent: 112992.43
+    2012:
+      total_raised: 37632.52
+      total_spent: 30100.68
+    2014:
+      total_raised: 26671.41
+      total_spent: 28306.01
 title: Michael F. Rush
 layout: candidate
 ---

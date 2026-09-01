@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15167
+  by_year:
+    2010:
+      total_raised: 29732.86
+      total_spent: 17529.89
 title: Timothy F. Finnerty
 layout: candidate
 ---

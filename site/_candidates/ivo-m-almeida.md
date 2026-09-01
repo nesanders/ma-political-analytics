@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12527
+  by_year:
+    2010:
+      total_raised: 5397.0
+      total_spent: 4611.6
 title: Ivo M. Almeida
 layout: candidate
 ---

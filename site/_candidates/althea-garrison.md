@@ -127,9 +127,21 @@ ocpf_finance:
   cpf_ids:
   - 10911
   by_year:
+    2016:
+      total_raised: 1711.74
+      total_spent: 1711.74
+    2018:
+      total_raised: 261.12
+      total_spent: 261.12
     2022:
       total_raised: 5787.75
       total_spent: 6025.75
+    2006:
+      total_raised: 0.0
+      total_spent: 0.0
+    2012:
+      total_raised: 1786.57
+      total_spent: 1786.57
 title: Althea Garrison
 layout: candidate
 ---

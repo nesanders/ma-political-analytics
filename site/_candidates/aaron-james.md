@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16425
+  by_year:
+    2016:
+      total_raised: 1047.72
+      total_spent: 917.71
 title: Aaron James
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14552
+  by_year:
+    2006:
+      total_raised: 9901.32
+      total_spent: 9901.32
 title: Megan Anzalotti
 layout: candidate
 ---

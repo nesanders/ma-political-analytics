@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14340
+  by_year:
+    2004:
+      total_raised: 7850.0
+      total_spent: 7116.16
 title: Paul J. Meaney
 layout: candidate
 ---

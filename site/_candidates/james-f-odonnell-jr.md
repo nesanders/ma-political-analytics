@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14843
+  by_year:
+    2010:
+      total_raised: 7807.38
+      total_spent: 4290.44
+    2012:
+      total_raised: 15469.6
+      total_spent: 5130.38
 title: James F. O'Donnell, Jr.
 layout: candidate
 ---

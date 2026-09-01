@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16427
+  by_year:
+    2016:
+      total_raised: 1101.0
+      total_spent: 922.91
 title: Jonathan D. Lott
 layout: candidate
 ---

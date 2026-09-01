@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17527
+  by_year:
+    2020:
+      total_raised: 8846.64
+      total_spent: 9084.84
 title: Michael Luis Mecenas
 layout: candidate
 ---

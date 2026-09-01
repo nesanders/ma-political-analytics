@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13954
+  by_year:
+    2016:
+      total_raised: 32925.0
+      total_spent: 36318.07
+    2002:
+      total_raised: 25609.91
+      total_spent: 20805.02
+    2004:
+      total_raised: 17973.39
+      total_spent: 14519.83
+    2006:
+      total_raised: 32958.05
+      total_spent: 19047.75
+    2008:
+      total_raised: 5550.0
+      total_spent: 16475.19
+    2010:
+      total_raised: 34375.0
+      total_spent: 28794.58
+    2012:
+      total_raised: 20050.0
+      total_spent: 31725.37
+    2014:
+      total_raised: 29700.0
+      total_spent: 31418.24
 title: Jeffrey Sanchez
 layout: candidate
 ---

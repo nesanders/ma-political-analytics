@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17381
+  by_year:
+    2020:
+      total_raised: 94737.33
+      total_spent: 88772.67
 title: Amber Hewett
 layout: candidate
 ---

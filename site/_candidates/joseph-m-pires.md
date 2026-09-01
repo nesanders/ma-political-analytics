@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18844
+  by_year:
+    2024:
+      total_raised: 30378.54
+      total_spent: 28817.75
 title: Joseph M. Pires
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10183
+  by_year:
+    2002:
+      total_raised: 5390.0
+      total_spent: 3836.16
+    2004:
+      total_raised: 5597.0
+      total_spent: 3958.0
 title: Emile J. Goguen
 layout: candidate
 ---

@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15581
   by_year:
+    2016:
+      total_raised: 169270.16
+      total_spent: 219507.92
+    2018:
+      total_raised: 28430.0
+      total_spent: 25837.01
+    2020:
+      total_raised: 11275.38
+      total_spent: 16788.4
     2022:
       total_raised: 29110.32
       total_spent: 26980.1
+    2024:
+      total_raised: 57195.88
+      total_spent: 52234.46
+    2014:
+      total_raised: 29861.0
+      total_spent: 15748.37
 title: Jay D. Livingstone
 layout: candidate
 ---

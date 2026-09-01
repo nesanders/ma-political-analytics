@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15444
+  by_year:
+    2016:
+      total_raised: 69878.0
+      total_spent: 56532.74
+    2018:
+      total_raised: 54220.0
+      total_spent: 59410.84
+    2020:
+      total_raised: 34474.89
+      total_spent: 38930.12
+    2012:
+      total_raised: 74975.0
+      total_spent: 47871.13
+    2014:
+      total_raised: 31439.0
+      total_spent: 33608.17
 title: Claire D. Cronin
 layout: candidate
 ---

@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16478
+  by_year:
+    2016:
+      total_raised: 36564.76
+      total_spent: 19574.39
+    2018:
+      total_raised: 9945.0
+      total_spent: 10759.48
+    2020:
+      total_raised: 800.0
+      total_spent: 1200.0
 title: Brian W. Murray
 layout: candidate
 ---

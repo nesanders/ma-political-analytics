@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15906
   by_year:
+    2016:
+      total_raised: 0.0
+      total_spent: 0.0
+    2018:
+      total_raised: 0.0
+      total_spent: 0.0
+    2020:
+      total_raised: 10900.0
+      total_spent: 10452.36
     2022:
       total_raised: 11331.0
       total_spent: 11510.33
+    2024:
+      total_raised: 10349.53
+      total_spent: 10264.82
+    2014:
+      total_raised: 1752.57
+      total_spent: 1752.57
 title: Terry Burke Dotson
 layout: candidate
 ---

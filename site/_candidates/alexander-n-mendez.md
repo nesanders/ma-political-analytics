@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16239
+  by_year:
+    2016:
+      total_raised: 4341.04
+      total_spent: 4077.88
+    2018:
+      total_raised: 2270.0
+      total_spent: 2016.44
+    2020:
+      total_raised: 4078.81
+      total_spent: 2303.66
 title: Alexander N. Mendez
 layout: candidate
 ---

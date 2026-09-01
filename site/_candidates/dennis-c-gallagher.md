@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18762
+  by_year:
+    2024:
+      total_raised: 34120.8
+      total_spent: 32916.83
 title: Dennis C. Gallagher
 layout: candidate
 ---

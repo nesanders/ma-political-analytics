@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16481
+  by_year:
+    2016:
+      total_raised: 1000.0
+      total_spent: 566.57
+    2018:
+      total_raised: 1125.0
+      total_spent: 383.43
 title: Donald Peltier
 layout: candidate
 ---

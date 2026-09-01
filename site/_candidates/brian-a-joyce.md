@@ -143,6 +143,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12991
+  by_year:
+    2002:
+      total_raised: 202352.96
+      total_spent: 200966.47
+    2004:
+      total_raised: 181849.42
+      total_spent: 122445.23
+    2006:
+      total_raised: 130707.56
+      total_spent: 113249.06
+    2008:
+      total_raised: 112846.37
+      total_spent: 80804.39
+    2010:
+      total_raised: 149925.12
+      total_spent: 119645.98
+    2012:
+      total_raised: 53954.92
+      total_spent: 63972.69
+    2014:
+      total_raised: 116145.54
+      total_spent: 93199.29
 title: Brian A. Joyce
 layout: candidate
 ---

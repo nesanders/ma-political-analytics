@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15025
   by_year:
+    2016:
+      total_raised: 40365.0
+      total_spent: 22428.62
+    2018:
+      total_raised: 2750.0
+      total_spent: 8924.46
+    2020:
+      total_raised: 9305.0
+      total_spent: 9883.14
     2022:
       total_raised: 16130.0
       total_spent: 14161.04
+    2024:
+      total_raised: 38222.3
+      total_spent: 37197.82
+    2010:
+      total_raised: 30671.28
+      total_spent: 20300.8
+    2012:
+      total_raised: 5430.0
+      total_spent: 9545.13
+    2014:
+      total_raised: 13930.0
+      total_spent: 12844.75
 title: David T. Vieira
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18826
+  by_year:
+    2024:
+      total_raised: 60862.66
+      total_spent: 55395.73
 title: Richard Gerard Wells, Jr
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15256
+  by_year:
+    2010:
+      total_raised: 1893.01
+      total_spent: 594.5
 title: Valentino James Troyli
 layout: candidate
 ---

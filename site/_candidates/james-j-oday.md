@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14668
   by_year:
+    2016:
+      total_raised: 20432.5
+      total_spent: 22234.62
+    2018:
+      total_raised: 19550.0
+      total_spent: 24159.25
+    2020:
+      total_raised: 17279.04
+      total_spent: 11172.24
     2022:
       total_raised: 6009.79
       total_spent: 15360.01
+    2024:
+      total_raised: 35803.55
+      total_spent: 24430.8
+    2008:
+      total_raised: 12113.85
+      total_spent: 10973.6
+    2010:
+      total_raised: 7840.0
+      total_spent: 15223.64
+    2012:
+      total_raised: 52980.0
+      total_spent: 55450.71
+    2014:
+      total_raised: 30450.0
+      total_spent: 21803.94
 title: James J. O'Day
 layout: candidate
 ---

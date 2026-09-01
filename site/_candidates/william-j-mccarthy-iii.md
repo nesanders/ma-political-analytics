@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14692
+  by_year:
+    2012:
+      total_raised: 14609.04
+      total_spent: 10119.34
 title: William J. McCarthy, III
 layout: candidate
 ---

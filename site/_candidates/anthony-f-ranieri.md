@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13812
+  by_year:
+    2002:
+      total_raised: 16581.05
+      total_spent: 15947.75
 title: Anthony F. Ranieri
 layout: candidate
 ---

@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15060
   by_year:
+    2016:
+      total_raised: 22765.0
+      total_spent: 20269.21
+    2018:
+      total_raised: 22748.74
+      total_spent: 35212.94
+    2020:
+      total_raised: 15122.98
+      total_spent: 32862.54
     2022:
       total_raised: 47582.06
       total_spent: 40260.47
+    2024:
+      total_raised: 25112.88
+      total_spent: 32294.36
+    2012:
+      total_raised: 25532.13
+      total_spent: 52880.76
+    2014:
+      total_raised: 53343.43
+      total_spent: 23477.79
 title: Alan Silvia
 layout: candidate
 ---

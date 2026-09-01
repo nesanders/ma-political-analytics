@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15106
+  by_year:
+    2010:
+      total_raised: 3462.19
+      total_spent: 2895.08
 title: Enrique Matos
 layout: candidate
 ---

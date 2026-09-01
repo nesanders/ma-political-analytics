@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15011
   by_year:
+    2016:
+      total_raised: 3800.0
+      total_spent: 1576.63
+    2018:
+      total_raised: 1680.0
+      total_spent: 7188.62
+    2020:
+      total_raised: 2622.12
+      total_spent: 694.2
     2022:
       total_raised: 500.0
       total_spent: 6186.98
+    2024:
+      total_raised: 71237.61
+      total_spent: 87619.05
+    2010:
+      total_raised: 7487.65
+      total_spent: 4720.32
+    2012:
+      total_raised: 28148.93
+      total_spent: 18235.77
+    2014:
+      total_raised: 12429.13
+      total_spent: 8017.35
 title: Peter J. Durant
 layout: candidate
 ---

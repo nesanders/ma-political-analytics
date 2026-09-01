@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15520
+  by_year:
+    2012:
+      total_raised: 110.86
+      total_spent: 110.86
 title: Richard F. Schober, Jr.
 layout: candidate
 ---

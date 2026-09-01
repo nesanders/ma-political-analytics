@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13912
+  by_year:
+    2002:
+      total_raised: 3114.95
+      total_spent: 2426.39
+    2004:
+      total_raised: 3212.61
+      total_spent: 1824.78
 title: Clifford R. Krieger
 layout: candidate
 ---

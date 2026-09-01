@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14770
   by_year:
+    2016:
+      total_raised: 20417.0
+      total_spent: 15125.45
+    2018:
+      total_raised: 41565.0
+      total_spent: 38296.21
+    2020:
+      total_raised: 7545.21
+      total_spent: 17084.87
     2022:
       total_raised: 54740.16
       total_spent: 35066.48
+    2024:
+      total_raised: 38996.98
+      total_spent: 44483.12
+    2008:
+      total_raised: 29705.18
+      total_spent: 19461.38
+    2010:
+      total_raised: 18525.0
+      total_spent: 18890.17
+    2012:
+      total_raised: 17930.0
+      total_spent: 14436.41
+    2014:
+      total_raised: 25655.0
+      total_spent: 20457.89
 title: Kate Hogan
 layout: candidate
 ---

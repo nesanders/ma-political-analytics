@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14596
+  by_year:
+    2006:
+      total_raised: 3743.01
+      total_spent: 3743.01
 title: Ronald R. Sliski
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14034
+  by_year:
+    2002:
+      total_raised: 20505.0
+      total_spent: 17829.05
+    2004:
+      total_raised: 29958.0
+      total_spent: 25636.55
 title: Maria Marasco
 layout: candidate
 ---

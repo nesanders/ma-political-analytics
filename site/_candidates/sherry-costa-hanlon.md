@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15517
+  by_year:
+    2012:
+      total_raised: 24961.92
+      total_spent: 23252.26
 title: Sherry Costa-Hanlon
 layout: candidate
 ---

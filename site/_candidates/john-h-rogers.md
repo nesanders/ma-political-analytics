@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 12242
   by_year:
+    2016:
+      total_raised: 24685.0
+      total_spent: 27852.32
+    2018:
+      total_raised: 18005.0
+      total_spent: 20766.15
+    2020:
+      total_raised: 33457.47
+      total_spent: 33759.14
     2022:
       total_raised: 15188.77
       total_spent: 23867.81
+    2024:
+      total_raised: 2016.52
+      total_spent: 3090.16
+    2002:
+      total_raised: 76666.47
+      total_spent: 61543.84
+    2004:
+      total_raised: 202248.52
+      total_spent: 207987.43
+    2006:
+      total_raised: 164004.17
+      total_spent: 146918.87
+    2008:
+      total_raised: 72114.35
+      total_spent: 98737.96
+    2010:
+      total_raised: 60032.97
+      total_spent: 62777.88
+    2012:
+      total_raised: 35998.74
+      total_spent: 31238.79
+    2014:
+      total_raised: 25578.0
+      total_spent: 24274.15
 title: John H. Rogers
 layout: candidate
 ---

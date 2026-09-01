@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13811
   by_year:
+    2016:
+      total_raised: 52396.42
+      total_spent: 49121.28
+    2018:
+      total_raised: 160858.76
+      total_spent: 90375.79
+    2020:
+      total_raised: 112522.16
+      total_spent: 65892.83
     2022:
       total_raised: 153685.04
       total_spent: 92444.24
+    2024:
+      total_raised: 156256.61
+      total_spent: 214058.0
+    2002:
+      total_raised: 48487.57
+      total_spent: 39119.99
+    2004:
+      total_raised: 60247.0
+      total_spent: 40600.69
+    2006:
+      total_raised: 58648.0
+      total_spent: 41167.34
+    2008:
+      total_raised: 229440.0
+      total_spent: 206494.61
+    2010:
+      total_raised: 132074.0
+      total_spent: 83417.55
+    2012:
+      total_raised: 93322.5
+      total_spent: 120327.66
+    2014:
+      total_raised: 15153.64
+      total_spent: 14136.7
 title: James B. Eldridge
 layout: candidate
 ---

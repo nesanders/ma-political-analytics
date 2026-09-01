@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15482
+  by_year:
+    2012:
+      total_raised: 37538.0
+      total_spent: 26168.6
 title: Marilee Kenney Hunt
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15543
+  by_year:
+    2012:
+      total_raised: 28050.0
+      total_spent: 17559.12
 title: William J. Callahan
 layout: candidate
 ---

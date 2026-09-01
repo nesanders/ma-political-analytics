@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 16293
   by_year:
+    2016:
+      total_raised: 122261.11
+      total_spent: 117811.51
+    2018:
+      total_raised: 41945.0
+      total_spent: 9197.57
+    2020:
+      total_raised: 40312.27
+      total_spent: 17027.15
     2022:
       total_raised: 36124.63
       total_spent: 17174.26
+    2024:
+      total_raised: 34086.66
+      total_spent: 13462.59
 title: Joan Meschino
 layout: candidate
 ---

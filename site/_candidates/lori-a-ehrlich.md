@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14743
+  by_year:
+    2016:
+      total_raised: 825.0
+      total_spent: 7330.5
+    2018:
+      total_raised: 16735.0
+      total_spent: 10934.4
+    2020:
+      total_raised: 6132.7
+      total_spent: 5395.18
+    2008:
+      total_raised: 42487.0
+      total_spent: 28270.69
+    2010:
+      total_raised: 29618.0
+      total_spent: 21370.66
+    2012:
+      total_raised: 625.0
+      total_spent: 5721.72
+    2014:
+      total_raised: 8072.0
+      total_spent: 3908.1
 title: Lori A. Ehrlich
 layout: candidate
 ---

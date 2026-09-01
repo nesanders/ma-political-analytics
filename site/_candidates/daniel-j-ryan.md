@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15544
+  by_year:
+    2024:
+      total_raised: 75084.6
+      total_spent: 76582.48
 title: Daniel J. Ryan
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11973
+  by_year:
+    2002:
+      total_raised: 39912.25
+      total_spent: 37590.4
+    2004:
+      total_raised: 35681.34
+      total_spent: 28995.41
 title: Peter J. Larkin
 layout: candidate
 ---

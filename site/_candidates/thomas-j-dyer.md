@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14231
+  by_year:
+    2004:
+      total_raised: 32359.5
+      total_spent: 26263.58
 title: Thomas J. Dyer
 layout: candidate
 ---

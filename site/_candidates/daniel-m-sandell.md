@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15216
+  by_year:
+    2010:
+      total_raised: 2100.0
+      total_spent: 1706.36
 title: Daniel M. Sandell
 layout: candidate
 ---

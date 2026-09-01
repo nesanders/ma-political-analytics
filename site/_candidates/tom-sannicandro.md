@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14345
+  by_year:
+    2004:
+      total_raised: 26261.53
+      total_spent: 18472.7
+    2006:
+      total_raised: 10740.0
+      total_spent: 6013.81
+    2008:
+      total_raised: 700.0
+      total_spent: 5304.61
+    2010:
+      total_raised: 20646.0
+      total_spent: 24342.72
+    2012:
+      total_raised: 42916.0
+      total_spent: 36835.94
+    2014:
+      total_raised: 7285.0
+      total_spent: 10063.01
 title: Tom Sannicandro
 layout: candidate
 ---

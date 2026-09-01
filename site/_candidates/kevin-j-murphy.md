@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12999
+  by_year:
+    2002:
+      total_raised: 17126.0
+      total_spent: 8895.3
+    2004:
+      total_raised: 4325.0
+      total_spent: 3962.43
+    2006:
+      total_raised: 11110.0
+      total_spent: 6423.81
+    2008:
+      total_raised: 4739.83
+      total_spent: 22734.4
+    2010:
+      total_raised: 5084.15
+      total_spent: 17601.46
+    2012:
+      total_raised: 3094.53
+      total_spent: 7661.75
 title: Kevin J. Murphy
 layout: candidate
 ---

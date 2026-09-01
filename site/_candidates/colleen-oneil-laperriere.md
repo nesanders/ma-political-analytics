@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15227
+  by_year:
+    2010:
+      total_raised: 1255.73
+      total_spent: 964.35
 title: Colleen O'Neil-Laperriere
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15496
+  by_year:
+    2012:
+      total_raised: 6750.61
+      total_spent: 2587.54
 title: Michael J. Benn
 layout: candidate
 ---

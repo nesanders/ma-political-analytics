@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14036
+  by_year:
+    2006:
+      total_raised: 830.32
+      total_spent: 822.57
 title: Joseph F. Schebel
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14505
+  by_year:
+    2014:
+      total_raised: 11395.0
+      total_spent: 10172.61
 title: Karen A. Spiewak
 layout: candidate
 ---

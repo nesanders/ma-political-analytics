@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12639
+  by_year:
+    2002:
+      total_raised: 11491.0
+      total_spent: 11264.97
+    2004:
+      total_raised: 11928.53
+      total_spent: 12826.06
 title: Daniel F. Keenan
 layout: candidate
 ---

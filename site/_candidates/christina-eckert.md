@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16988
+  by_year:
+    2018:
+      total_raised: 95765.0
+      total_spent: 51151.45
+    2020:
+      total_raised: 92228.62
+      total_spent: 144316.88
 title: Christina Eckert
 layout: candidate
 ---

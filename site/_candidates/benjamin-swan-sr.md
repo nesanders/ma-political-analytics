@@ -143,6 +143,32 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12626
+  - 16454
+  by_year:
+    2002:
+      total_raised: 30750.0
+      total_spent: 32172.66
+    2004:
+      total_raised: 11190.0
+      total_spent: 2760.33
+    2006:
+      total_raised: 13410.0
+      total_spent: 13662.04
+    2008:
+      total_raised: 23995.0
+      total_spent: 17750.21
+    2010:
+      total_raised: 1730.0
+      total_spent: 3443.46
+    2012:
+      total_raised: 7650.0
+      total_spent: 4554.43
+    2014:
+      total_raised: 6280.99
+      total_spent: 9158.56
 title: Benjamin Swan
 layout: candidate
 ---

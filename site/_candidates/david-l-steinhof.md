@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15658
+  by_year:
+    2018:
+      total_raised: 25939.0
+      total_spent: 23871.5
+    2014:
+      total_raised: 13090.0
+      total_spent: 6225.27
 title: David L. Steinhof
 layout: candidate
 ---

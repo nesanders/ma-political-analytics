@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14542
+  by_year:
+    2016:
+      total_raised: 19875.4
+      total_spent: 7942.22
+    2010:
+      total_raised: 48822.05
+      total_spent: 50820.86
+    2006:
+      total_raised: 41648.59
+      total_spent: 36694.26
+    2008:
+      total_raised: 41328.0
+      total_spent: 22680.95
 title: Rosemary Sandlin
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14174
+  by_year:
+    2010:
+      total_raised: 10865.46
+      total_spent: 6746.97
+    2006:
+      total_raised: 7869.5
+      total_spent: 5611.68
 title: Peter F. Winters
 layout: candidate
 ---

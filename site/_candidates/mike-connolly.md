@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15470
   by_year:
+    2016:
+      total_raised: 66286.32
+      total_spent: 72207.84
+    2018:
+      total_raised: 22779.33
+      total_spent: 33999.72
+    2020:
+      total_raised: 20225.53
+      total_spent: 31813.24
     2022:
       total_raised: 11824.61
       total_spent: 15743.8
+    2024:
+      total_raised: 15919.93
+      total_spent: 11582.54
+    2012:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Mike Connolly
 layout: candidate
 ---

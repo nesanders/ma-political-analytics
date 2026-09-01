@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14323
+  by_year:
+    2004:
+      total_raised: 1478.0
+      total_spent: 237.19
 title: Ellen E. Johnson
 layout: candidate
 ---

@@ -183,6 +183,37 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10389
+  by_year:
+    2016:
+      total_raised: 14620.15
+      total_spent: 25613.19
+    2018:
+      total_raised: 28182.13
+      total_spent: 27587.47
+    2002:
+      total_raised: 21178.55
+      total_spent: 19333.62
+    2004:
+      total_raised: 12702.04
+      total_spent: 22900.72
+    2006:
+      total_raised: 18263.81
+      total_spent: 24850.83
+    2008:
+      total_raised: 18412.67
+      total_spent: 20106.68
+    2010:
+      total_raised: 17156.57
+      total_spent: 23151.99
+    2012:
+      total_raised: 10913.77
+      total_spent: 20698.97
+    2014:
+      total_raised: 14370.71
+      total_spent: 20786.84
 title: Angelo M. Scaccia
 layout: candidate
 ---

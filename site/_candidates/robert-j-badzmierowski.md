@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13819
+  by_year:
+    2002:
+      total_raised: 24538.44
+      total_spent: 21535.46
 title: Robert J. Badzmierowski
 layout: candidate
 ---

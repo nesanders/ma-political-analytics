@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11434
+  by_year:
+    2002:
+      total_raised: 8071.18
+      total_spent: 4854.53
+    2004:
+      total_raised: 21665.0
+      total_spent: 13263.81
+    2006:
+      total_raised: 5975.0
+      total_spent: 4325.63
 title: Geoffrey D. Hall
 layout: candidate
 ---

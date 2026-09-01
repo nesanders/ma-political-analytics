@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13994
+  by_year:
+    2002:
+      total_raised: 2965.37
+      total_spent: 2549.74
 title: Michael J. Dever
 layout: candidate
 ---

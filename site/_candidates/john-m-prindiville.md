@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14127
+  by_year:
+    2004:
+      total_raised: 23472.93
+      total_spent: 18135.38
 title: John M. Prindiville
 layout: candidate
 ---

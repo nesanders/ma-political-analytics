@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15012
   by_year:
+    2016:
+      total_raised: 41193.71
+      total_spent: 12296.4
+    2018:
+      total_raised: 19715.0
+      total_spent: 13638.84
     2022:
       total_raised: 58209.58
       total_spent: 52423.41
+    2010:
+      total_raised: 77439.66
+      total_spent: 72169.54
+    2012:
+      total_raised: 49877.0
+      total_spent: 80621.99
+    2014:
+      total_raised: 43665.14
+      total_spent: 35237.41
 title: Josh S. Cutler
 layout: candidate
 ---

@@ -163,6 +163,34 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14191
+  by_year:
+    2016:
+      total_raised: 42080.0
+      total_spent: 30189.33
+    2018:
+      total_raised: 92957.5
+      total_spent: 115456.2
+    2004:
+      total_raised: 28205.0
+      total_spent: 14256.9
+    2006:
+      total_raised: 11689.02
+      total_spent: 14893.57
+    2008:
+      total_raised: 16700.0
+      total_spent: 17464.81
+    2010:
+      total_raised: 60079.0
+      total_spent: 70648.49
+    2012:
+      total_raised: 50268.45
+      total_spent: 57821.24
+    2014:
+      total_raised: 28657.12
+      total_spent: 31624.17
 title: James T. Welch
 layout: candidate
 ---

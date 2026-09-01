@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 12894
   by_year:
+    2016:
+      total_raised: 16325.0
+      total_spent: 27370.97
+    2018:
+      total_raised: 28450.0
+      total_spent: 6065.25
+    2020:
+      total_raised: 27336.11
+      total_spent: 15547.06
     2022:
       total_raised: 25306.44
       total_spent: 16482.5
+    2024:
+      total_raised: 34556.46
+      total_spent: 34530.0
 title: Bud L. Williams
 layout: candidate
 ---

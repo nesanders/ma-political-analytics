@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13356
+  by_year:
+    2002:
+      total_raised: 10720.0
+      total_spent: 5175.86
+    2004:
+      total_raised: 30625.0
+      total_spent: 25009.39
 title: Mark J. Carron
 layout: candidate
 ---

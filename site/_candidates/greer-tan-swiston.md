@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14138
+  by_year:
+    2004:
+      total_raised: 27050.0
+      total_spent: 24893.23
+    2012:
+      total_raised: 13490.0
+      total_spent: 13172.5
 title: Greer Tan Swiston
 layout: candidate
 ---

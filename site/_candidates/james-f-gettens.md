@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14992
+  by_year:
+    2010:
+      total_raised: 11147.56
+      total_spent: 8917.03
 title: James F. Gettens
 layout: candidate
 ---

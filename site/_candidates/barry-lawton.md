@@ -23,6 +23,14 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13448
+  - 15555
+  by_year:
+    2010:
+      total_raised: 13394.98
+      total_spent: 9579.6
 title: Barry Lawton
 layout: candidate
 ---

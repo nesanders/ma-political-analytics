@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18817
+  by_year:
+    2024:
+      total_raised: 59020.47
+      total_spent: 59020.47
 title: William R. Dermody
 layout: candidate
 ---

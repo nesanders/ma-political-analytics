@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14859
+  by_year:
+    2008:
+      total_raised: 259.0
+      total_spent: 259.0
 title: Kenneth J. Patrician
 layout: candidate
 ---

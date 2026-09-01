@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15057
   by_year:
+    2016:
+      total_raised: 32837.0
+      total_spent: 42293.8
+    2018:
+      total_raised: 99731.7
+      total_spent: 129795.01
+    2020:
+      total_raised: 39526.35
+      total_spent: 37775.62
     2022:
       total_raised: 50316.12
       total_spent: 37645.05
+    2010:
+      total_raised: 56902.53
+      total_spent: 48569.04
+    2012:
+      total_raised: 19847.08
+      total_spent: 15094.42
+    2014:
+      total_raised: 24812.85
+      total_spent: 22899.16
 title: Denise C. Garlick
 layout: candidate
 ---

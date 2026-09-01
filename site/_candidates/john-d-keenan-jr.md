@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14075
+  by_year:
+    2004:
+      total_raised: 71164.9
+      total_spent: 88423.34
+    2006:
+      total_raised: 33780.0
+      total_spent: 27630.95
+    2008:
+      total_raised: 37494.0
+      total_spent: 27998.96
+    2010:
+      total_raised: 48715.0
+      total_spent: 38873.7
+    2012:
+      total_raised: 69053.1
+      total_spent: 43337.82
 title: John D. Keenan
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14805
+  by_year:
+    2008:
+      total_raised: 8237.0
+      total_spent: 3135.49
 title: Devin P. Romanul
 layout: candidate
 ---

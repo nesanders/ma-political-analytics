@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17043
+  by_year:
+    2024:
+      total_raised: 18313.85
+      total_spent: 15180.43
+    2018:
+      total_raised: 19000.0
+      total_spent: 6757.42
+    2020:
+      total_raised: 20865.2
+      total_spent: 14105.77
 title: David Allen Robertson
 layout: candidate
 ---

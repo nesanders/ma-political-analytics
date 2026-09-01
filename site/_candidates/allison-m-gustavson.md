@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16871
+  by_year:
+    2018:
+      total_raised: 79915.14
+      total_spent: 83730.54
 title: Allison M. Gustavson
 layout: candidate
 ---

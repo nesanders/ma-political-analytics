@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16442
+  by_year:
+    2016:
+      total_raised: 45378.0
+      total_spent: 44328.45
 title: Tobias B. Glidden
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15175
+  by_year:
+    2010:
+      total_raised: 11703.0
+      total_spent: 7910.65
 title: Patrick M. Gerry
 layout: candidate
 ---

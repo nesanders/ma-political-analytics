@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13990
+  by_year:
+    2002:
+      total_raised: 2860.0
+      total_spent: 685.0
 title: James P. Carboneau
 layout: candidate
 ---

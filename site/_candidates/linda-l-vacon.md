@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15551
+  by_year:
+    2012:
+      total_raised: 8110.0
+      total_spent: 1736.25
 title: Linda L. Vacon
 layout: candidate
 ---

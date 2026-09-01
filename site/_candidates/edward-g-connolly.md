@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11831
+  by_year:
+    2002:
+      total_raised: 23336.0
+      total_spent: 20282.77
+    2004:
+      total_raised: 41590.0
+      total_spent: 48123.03
 title: Edward G. Connolly
 layout: candidate
 ---

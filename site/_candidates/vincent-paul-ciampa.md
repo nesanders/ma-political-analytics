@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10088
+  by_year:
+    2002:
+      total_raised: 16503.57
+      total_spent: 10545.73
+    2004:
+      total_raised: 24005.03
+      total_spent: 40598.3
 title: Vincent Paul Ciampa
 layout: candidate
 ---

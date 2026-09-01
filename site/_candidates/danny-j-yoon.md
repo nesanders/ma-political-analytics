@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16463
+  by_year:
+    2016:
+      total_raised: 1410.0
+      total_spent: 23.36
 title: Danny J. Yoon
 layout: candidate
 ---

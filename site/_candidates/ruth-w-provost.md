@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12979
+  by_year:
+    2002:
+      total_raised: 23051.34
+      total_spent: 18155.36
 title: Ruth W. Provost
 layout: candidate
 ---

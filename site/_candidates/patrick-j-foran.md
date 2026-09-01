@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15000
+  by_year:
+    2010:
+      total_raised: 26385.41
+      total_spent: 21819.15
 title: Patrick J. Foran
 layout: candidate
 ---

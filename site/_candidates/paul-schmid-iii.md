@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15093
   by_year:
+    2016:
+      total_raised: 34720.0
+      total_spent: 14985.76
+    2018:
+      total_raised: 34860.0
+      total_spent: 20639.3
+    2020:
+      total_raised: 45224.08
+      total_spent: 153747.13
     2022:
       total_raised: 40247.25
       total_spent: 106169.46
+    2010:
+      total_raised: 85544.41
+      total_spent: 52776.57
+    2012:
+      total_raised: 38300.0
+      total_spent: 15669.79
+    2014:
+      total_raised: 37425.0
+      total_spent: 19008.38
 title: Paul Schmid, III
 layout: candidate
 ---

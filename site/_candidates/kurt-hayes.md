@@ -43,6 +43,17 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14536
+  - 14818
+  by_year:
+    2008:
+      total_raised: 23127.0
+      total_spent: 11799.23
+    2010:
+      total_raised: 34039.22
+      total_spent: 36552.04
 title: Kurt Hayes
 layout: candidate
 ---

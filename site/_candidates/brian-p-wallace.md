@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13729
+  by_year:
+    2008:
+      total_raised: 50230.0
+      total_spent: 46435.08
+    2002:
+      total_raised: 87910.0
+      total_spent: 87772.31
+    2004:
+      total_raised: 29151.0
+      total_spent: 27659.31
+    2006:
+      total_raised: 16350.0
+      total_spent: 16531.28
 title: Brian P. Wallace
 layout: candidate
 ---

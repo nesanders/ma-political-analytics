@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15868
+  by_year:
+    2016:
+      total_raised: 69280.25
+      total_spent: 60177.24
+    2018:
+      total_raised: 40990.0
+      total_spent: 41384.14
+    2014:
+      total_raised: 31033.12
+      total_spent: 18621.97
 title: Caroline Colarusso
 layout: candidate
 ---

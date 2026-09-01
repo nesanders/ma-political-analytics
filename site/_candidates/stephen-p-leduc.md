@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13065
+  by_year:
+    2002:
+      total_raised: 18256.32
+      total_spent: 17314.34
+    2004:
+      total_raised: 23908.5
+      total_spent: 27461.13
+    2006:
+      total_raised: 27375.35
+      total_spent: 18844.75
 title: Stephen P. LeDuc
 layout: candidate
 ---

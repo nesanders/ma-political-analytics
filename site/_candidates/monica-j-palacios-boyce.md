@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14278
+  by_year:
+    2004:
+      total_raised: 10812.45
+      total_spent: 6433.69
 title: Monica J. Palacios-Boyce
 layout: candidate
 ---

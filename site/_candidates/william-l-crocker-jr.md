@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14535
+  by_year:
+    2016:
+      total_raised: 83772.0
+      total_spent: 46682.84
+    2018:
+      total_raised: 73610.0
+      total_spent: 80545.98
+    2020:
+      total_raised: 71681.37
+      total_spent: 109986.72
+    2006:
+      total_raised: 41637.98
+      total_spent: 32000.31
 title: William L. Crocker, Jr.
 layout: candidate
 ---

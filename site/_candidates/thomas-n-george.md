@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13008
+  by_year:
+    2002:
+      total_raised: 21172.0
+      total_spent: 26936.86
 title: Thomas N. George
 layout: candidate
 ---

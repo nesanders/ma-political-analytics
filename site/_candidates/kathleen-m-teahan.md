@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12917
+  by_year:
+    2002:
+      total_raised: 27465.0
+      total_spent: 12318.51
+    2004:
+      total_raised: 50945.0
+      total_spent: 26791.18
 title: Kathleen M. Teahan
 layout: candidate
 ---

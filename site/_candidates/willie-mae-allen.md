@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14545
+  by_year:
+    2008:
+      total_raised: 24084.0
+      total_spent: 27212.44
+    2006:
+      total_raised: 26623.9
+      total_spent: 26578.11
 title: Willie Mae Allen
 layout: candidate
 ---

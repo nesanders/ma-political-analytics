@@ -136,10 +136,28 @@ A Gaussian prior on each coefficient shrinks it toward a substantively
 reasonable value in proportion to how little the data actually pins it
 down — real regularization, not an ad hoc penalty — and the fit reports a
 full posterior (mean, standard deviation, and a 95% credible interval
-taken directly from the sampled draws), not just a point estimate. As of
-the last full pipeline run, on
+taken directly from the sampled draws), not just a point estimate.
+
+**Concretely, here's what that regularization does to one term.** Before
+seeing any data, the prior for a first-term incumbent's edge was a wide,
+weakly-informed guess (mean {{ site.data.war_v2.coefficients.incumbent_1.prior_mean | times: 100 | round: 0 }}
+points, standard deviation {{ site.data.war_v2.coefficients.incumbent_1.prior_sd | times: 100 | round: 0 }}
+points — that shape, below). After fitting on
+{{ site.data.war_v2.n_incumbent_1 }} real 1st-term-incumbent races, the
+posterior is both narrower and shifted to
+{{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }}
+points — the data had enough to say something much more specific than the
+prior alone did, which is exactly what "the data pins it down" should
+look like:
+
+<div id="prior-posterior-chart" role="img" aria-label="Density chart comparing the prior and posterior distributions for the first-term incumbency coefficient"></div>
+
+As of the last full pipeline run, on
 {{ site.data.war_v2.n }} contested major-party candidate-races
-(R² = {{ site.data.war_v2.r_squared }}):
+(R² = {{ site.data.war_v2.r_squared }}), every coefficient's posterior
+mean and 95% credible interval:
+
+<div id="war-v2-forest-chart" role="img" aria-label="Forest plot of WAR v2's regression coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -161,6 +179,16 @@ that a top-of-ticket baseline can't see. The three incumbency terms
 landing close to each other says this site's data doesn't show a strong
 "sophomore surge" or a fading effect in later terms — an incumbent's edge
 looks fairly flat across term number so far.
+
+**What that fit actually looks like against every one of those races**:
+each point is one contested major-party candidate-race, WAR v2's expected
+share (x) against what actually happened (y). A point sitting exactly on
+the dashed diagonal means the model called it perfectly; above the line
+is a real overperformance (positive WAR v2), below is an underperformance
+— the same information the site's own WAR v2 numbers carry, just all
+{{ site.data.war_v2.n }} of them at once instead of one race at a time.
+
+<div id="war-v2-fit-scatter" role="img" aria-label="Scatter plot of WAR v2's expected two-party share against each candidate's actual share, colored by party"></div>
 
 Every district and seat page has a "What drives replacement level" chart
 breaking a race's most recent contested year into these pieces (intercept,
@@ -218,31 +246,37 @@ exactly that reason.
 {% endif %}
 
 {% if site.data.war_v3_finance %}
-**Campaign finance** ({{ site.data.war_v3_finance.n }} candidate-races,
+**Campaign finance** ({{ site.data.war_v3_finance.n }} candidate-races
+across {{ site.data.war_v3_finance.n_distinct_years }} election years,
 R² = {{ site.data.war_v3_finance.r_squared }}) adds a candidate's own OCPF
 total raised that cycle (log-transformed — fundraising totals are heavily
-right-skewed), restricted to
-**{{ site.data.war_v3_finance.finance_year }} only** and to candidates
-`campaign_finance_match` actually matched to an OCPF filer: the OCPF data
-this project has fetched so far only covers that one year (see "Campaign
-finance" below), nowhere near enough for an honest term across the full
-2002-2024 backfill WAR v2 otherwise spans. Statewide tide is dropped
-entirely from this fit, not just left out of an interaction — every 2022
-race shares the same tide by construction, so within a single year it has
-zero variance.
+right-skewed), restricted to candidates `campaign_finance_match` actually
+matched to an OCPF filer (see "Campaign finance" below). OCPF's bulk
+export now covers the full 2002-2024 range this project backfills
+elsewhere, so statewide tide is back in this fit as a real term — with
+genuine cross-year variation to work with, it's no longer collinear with
+the intercept the way it was when this was fit on a single year's races.
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
+| District lean | {{ site.data.war_v3_finance.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_lean.ci_95_high | round: 3 }}] |
+| Statewide tide | {{ site.data.war_v3_finance.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_tide.ci_95_high | round: 3 }}] |
 | log(total raised + 1) | {{ site.data.war_v3_finance.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_v3_finance.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_v3_finance.coefficients.log_raised.ci_95_high | round: 4 }}] |
+
+A positive, clearly-nonzero coefficient on logged fundraising (95% credible
+interval entirely above zero) says money and vote share move together in
+this data even after accounting for lean, tide, and incumbency — the
+expected direction, and one this site can now say with real confidence
+across two decades of races rather than one cycle's snapshot.
 {% endif %}
 
-Both extensions are reported here, on this page, as labeled diagnostics —
-not threaded into district/seat/candidate pages the way WAR v2 is — since
-folding either into the site's main per-candidate WAR would leave it
-undefined for the large majority of races outside their narrow coverage.
-A fuller OCPF backfill (more years) and more elections in the current
-redistricting vintage would each directly widen what these extensions can
-support.
+Still not folded into any candidate's actual WAR number the way v2 is:
+even with the full finance backfill, only candidates with a confident OCPF
+match get a fundraising term at all, and demographics still only covers
+two current-vintage elections — both real, narrower-than-v2 slices of the
+data, not an oversight. More elections landing in the current
+redistricting vintage over time would directly widen what the
+demographics extension can support.
 
 ## Turnout
 
@@ -301,12 +335,19 @@ since a shared last name and the exact same numbered district is already a
 strong-enough constraint that nickname/initial variation in the first name
 doesn't need to factor in. This design errs toward **missing** a real match
 over risking a **wrong** one: a candidate simply won't show a finance
-section rather than showing someone else's numbers. Around three in four
-candidates matched this way when last checked — the rest either have no
-OCPF filing on record (common for candidates under OCPF's low-fundraising
-exemption threshold) or use a last name this matching doesn't correctly
-extract (multi-word surnames in particular — see the module docstring in
-`build.campaign_finance_match` for the exact rule).
+section rather than showing someone else's numbers.
+{% assign finance_matched = site.candidates | where_exp: "c", "c.ocpf_finance" | size %}
+{% assign candidate_total = site.candidates | size %}
+**{{ finance_matched }} of {{ candidate_total }} candidates**
+({{ finance_matched | times: 100.0 | divided_by: candidate_total | round: 0 }}%)
+in this site's full backfill are matched this way, now that OCPF's own
+bulk export has been pulled for the full 2002-2024 range (see
+`fetch.campaign_finance` in `pipeline/README.md`) rather than just one
+year — the rest either have no OCPF filing on record (common for
+candidates under OCPF's low-fundraising exemption threshold) or use a last
+name this matching doesn't correctly extract (multi-word surnames in
+particular — see the module docstring in `build.campaign_finance_match`
+for the exact rule).
 
 ## Demographics
 
@@ -377,3 +418,173 @@ for election results, Census TIGER/Line and MIT Libraries' GeoData
 Repository for district boundaries — published in full at
 [github.com/nesanders/ma-political-analytics](https://github.com/nesanders/ma-political-analytics),
 including the exact code that computes everything on this page.
+
+<script>
+  // Field-by-field data, not a full-object jsonify — same reasoning as
+  // every other inline chart on this site (see e.g. chamber.html's
+  // seatData): avoids ever embedding a Jekyll Document's other rendered
+  // fields inside a script tag. site.data.war_v2/_fit_sample are plain
+  // Python-written YAML (numbers and short strings only, no Document
+  // risk), so jsonify-ing them directly here is safe.
+  const methodologyStyle = getComputedStyle(document.documentElement);
+  const methodologyCssVar = (name) => methodologyStyle.getPropertyValue(name).trim();
+  const methodologyAxisConfig = {
+    axis: {
+      labelColor: methodologyCssVar("--text-secondary"),
+      titleColor: methodologyCssVar("--text-primary"),
+      gridColor: methodologyCssVar("--gridline"),
+      domainColor: methodologyCssVar("--gridline")
+    },
+    legend: { labelColor: methodologyCssVar("--text-secondary"), titleColor: methodologyCssVar("--text-primary") },
+    view: { stroke: null }
+  };
+
+  {% if site.data.war_v2 %}
+  // --- Prior vs. posterior: incumbent_1 term ---------------------------
+  (function () {
+    function normalPdf(x, mean, sd) {
+      return Math.exp(-0.5 * Math.pow((x - mean) / sd, 2)) / (sd * Math.sqrt(2 * Math.PI));
+    }
+    const priorMean = {{ site.data.war_v2.coefficients.incumbent_1.prior_mean | jsonify }};
+    const priorSd = {{ site.data.war_v2.coefficients.incumbent_1.prior_sd | jsonify }};
+    const postMean = {{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | jsonify }};
+    const postSd = {{ site.data.war_v2.coefficients.incumbent_1.posterior_sd | jsonify }};
+    const lo = Math.min(priorMean - 3.5 * priorSd, postMean - 3.5 * postSd);
+    const hi = Math.max(priorMean + 3.5 * priorSd, postMean + 3.5 * postSd);
+    const steps = 200;
+    const data = [];
+    for (let i = 0; i <= steps; i++) {
+      const x = lo + ((hi - lo) * i) / steps;
+      data.push({ x: x, density: normalPdf(x, priorMean, priorSd), series: "Prior belief" });
+      data.push({ x: x, density: normalPdf(x, postMean, postSd), series: "Posterior (after data)" });
+    }
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 200,
+      "background": null,
+      "data": { "values": data },
+      "mark": { "type": "area", "opacity": 0.45, "line": { "strokeWidth": 2 } },
+      "encoding": {
+        "x": { "field": "x", "type": "quantitative", "title": "Incumbent, 1st term — coefficient value", "axis": { "format": "+.0%" } },
+        "y": { "field": "density", "type": "quantitative", "title": null, "axis": null },
+        "color": {
+          "field": "series", "type": "nominal", "title": null,
+          "scale": { "domain": ["Prior belief", "Posterior (after data)"], "range": [methodologyCssVar("--text-secondary"), methodologyCssVar("--war-incumbency")] }
+        },
+        "tooltip": [{ "field": "series", "title": "Distribution" }, { "field": "x", "type": "quantitative", "format": "+.1%", "title": "Value" }]
+      },
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#prior-posterior-chart", spec, { actions: false }).catch(console.error);
+  })();
+
+  // --- WAR v2 coefficient forest plot ------------------------------------
+  (function () {
+    const coefs = {{ site.data.war_v2.coefficients | jsonify }};
+    const terms = [
+      ["Intercept", "intercept"],
+      ["District lean", "own_lean"],
+      ["Statewide tide", "own_tide"],
+      ["Incumbent, 1st term", "incumbent_1"],
+      ["Incumbent, 2nd term", "incumbent_2"],
+      ["Incumbent, 3rd+ term", "incumbent_3plus"],
+    ];
+    const data = terms.map(([label, key]) => ({
+      term: label,
+      mean: coefs[key].posterior_mean,
+      lo: coefs[key].ci_95_low,
+      hi: coefs[key].ci_95_high,
+    }));
+    const termOrder = terms.map((t) => t[0]);
+    const forestColor = methodologyCssVar("--war-incumbency");
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 220,
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0 }] },
+          "mark": { "type": "rule", "strokeDash": [4, 2] },
+          "encoding": { "x": { "field": "x", "type": "quantitative", "title": "Coefficient value" }, "color": { "value": methodologyCssVar("--gridline") } }
+        },
+        {
+          "data": { "values": data },
+          "mark": { "type": "rule", "size": 2 },
+          "encoding": {
+            "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
+            "x": { "field": "lo", "type": "quantitative" },
+            "x2": { "field": "hi" },
+            "color": { "value": forestColor }
+          }
+        },
+        {
+          "data": { "values": data },
+          "mark": { "type": "point", "filled": true, "size": 90 },
+          "encoding": {
+            "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
+            "x": { "field": "mean", "type": "quantitative" },
+            "color": { "value": forestColor },
+            "tooltip": [
+              { "field": "term", "title": "Term" },
+              { "field": "mean", "type": "quantitative", "format": ".3f", "title": "Posterior mean" },
+              { "field": "lo", "type": "quantitative", "format": ".3f", "title": "95% CI low" },
+              { "field": "hi", "type": "quantitative", "format": ".3f", "title": "95% CI high" }
+            ]
+          }
+        }
+      ],
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#war-v2-forest-chart", spec, { actions: false }).catch(console.error);
+  })();
+  {% endif %}
+
+  {% if site.data.war_v2_fit_sample %}
+  // --- Actual vs. expected share scatter ----------------------------------
+  (function () {
+    const fitSample = {{ site.data.war_v2_fit_sample | jsonify }};
+    const colorDem = methodologyCssVar("--series-dem");
+    const colorRep = methodologyCssVar("--series-rep");
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 320,
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0, "y": 0 }, { "x": 1, "y": 1 }] },
+          "mark": { "type": "line", "strokeDash": [4, 2] },
+          "encoding": {
+            "x": { "field": "x", "type": "quantitative" },
+            "y": { "field": "y", "type": "quantitative" },
+            "color": { "value": methodologyCssVar("--text-secondary") }
+          }
+        },
+        {
+          "data": { "values": fitSample },
+          "mark": { "type": "circle", "opacity": 0.35, "size": 30 },
+          "encoding": {
+            "x": { "field": "expected", "type": "quantitative", "title": "WAR v2 expected share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
+            "y": { "field": "actual", "type": "quantitative", "title": "Actual share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
+            "color": {
+              "field": "party", "type": "nominal", "title": "Party",
+              "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+            },
+            "tooltip": [
+              { "field": "year", "title": "Year" },
+              { "field": "party", "title": "Party" },
+              { "field": "actual", "type": "quantitative", "format": ".1%", "title": "Actual" },
+              { "field": "expected", "type": "quantitative", "format": ".1%", "title": "Expected (v2)" }
+            ]
+          }
+        }
+      ],
+      "resolve": { "scale": { "x": "shared", "y": "shared" } },
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#war-v2-fit-scatter", spec, { actions: false }).catch(console.error);
+  })();
+  {% endif %}
+</script>

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14592
+  by_year:
+    2006:
+      total_raised: 5840.0
+      total_spent: 1767.0
 title: Robert A. Andrew
 layout: candidate
 ---

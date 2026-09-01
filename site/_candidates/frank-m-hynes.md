@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10223
+  by_year:
+    2002:
+      total_raised: 560.0
+      total_spent: 0.0
+    2004:
+      total_raised: 325.0
+      total_spent: 271.8
+    2006:
+      total_raised: 255.0
+      total_spent: 0.0
 title: Frank M. Hynes
 layout: candidate
 ---

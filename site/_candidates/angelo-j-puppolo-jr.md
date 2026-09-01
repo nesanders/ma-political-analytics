@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 12889
   by_year:
+    2016:
+      total_raised: 28155.0
+      total_spent: 34558.28
+    2018:
+      total_raised: 40120.0
+      total_spent: 50956.91
+    2020:
+      total_raised: 32393.56
+      total_spent: 33636.07
     2022:
       total_raised: 49417.87
       total_spent: 47071.98
+    2024:
+      total_raised: 51636.16
+      total_spent: 54324.27
+    2006:
+      total_raised: 35075.0
+      total_spent: 47595.16
+    2008:
+      total_raised: 67920.0
+      total_spent: 34016.68
+    2010:
+      total_raised: 46304.83
+      total_spent: 29970.35
+    2012:
+      total_raised: 43364.0
+      total_spent: 28098.49
+    2014:
+      total_raised: 47640.0
+      total_spent: 55080.19
 title: Angelo J. Puppolo, Jr.
 layout: candidate
 ---

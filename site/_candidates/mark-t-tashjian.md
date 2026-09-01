@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18694
+  by_year:
+    2024:
+      total_raised: 37566.36
+      total_spent: 36418.6
 title: Mark T. Tashjian
 layout: candidate
 ---

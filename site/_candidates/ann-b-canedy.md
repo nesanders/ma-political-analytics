@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14319
+  by_year:
+    2002:
+      total_raised: 20095.13
+      total_spent: 12102.16
+    2004:
+      total_raised: 20720.0
+      total_spent: 20898.43
 title: Ann B. Canedy
 layout: candidate
 ---

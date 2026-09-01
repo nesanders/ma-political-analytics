@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18885
+  by_year:
+    2024:
+      total_raised: 26366.86
+      total_spent: 25843.33
 title: John Robert Gaskey
 layout: candidate
 ---

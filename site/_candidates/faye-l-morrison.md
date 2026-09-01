@@ -43,6 +43,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13829
+  by_year:
+    2002:
+      total_raised: 27333.97
+      total_spent: 30375.33
 title: Faye L. Morrison
 layout: candidate
 ---

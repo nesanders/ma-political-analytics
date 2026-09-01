@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12859
+  by_year:
+    2008:
+      total_raised: 10913.71
+      total_spent: 14543.98
+    2002:
+      total_raised: 28108.83
+      total_spent: 10970.66
+    2004:
+      total_raised: 11642.79
+      total_spent: 8502.18
+    2006:
+      total_raised: 22407.07
+      total_spent: 18372.86
 title: Robert S. Hargraves
 layout: candidate
 ---

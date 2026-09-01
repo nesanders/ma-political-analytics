@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15976
   by_year:
+    2016:
+      total_raised: 45019.05
+      total_spent: 31113.46
+    2018:
+      total_raised: 9274.0
+      total_spent: 21449.23
+    2020:
+      total_raised: 5683.52
+      total_spent: 12878.84
     2022:
       total_raised: 25636.91
       total_spent: 18568.68
+    2024:
+      total_raised: 42993.46
+      total_spent: 42930.76
 title: Daniel H. Cahill
 layout: candidate
 ---

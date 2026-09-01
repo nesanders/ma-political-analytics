@@ -63,6 +63,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13970
+  by_year:
+    2010:
+      total_raised: 3325.0
+      total_spent: 2462.51
+    2004:
+      total_raised: 14619.0
+      total_spent: 13421.54
 title: Robert V. Finneran
 layout: candidate
 ---

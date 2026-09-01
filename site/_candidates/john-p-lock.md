@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15845
+  by_year:
+    2014:
+      total_raised: 6014.32
+      total_spent: 3561.14
 title: John P. Lock
 layout: candidate
 ---

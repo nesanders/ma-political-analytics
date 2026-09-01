@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14993
+  by_year:
+    2010:
+      total_raised: 7640.15
+      total_spent: 822.0
 title: James E. Dixon
 layout: candidate
 ---

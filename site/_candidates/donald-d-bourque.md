@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15413
+  by_year:
+    2012:
+      total_raised: 9562.01
+      total_spent: 6601.14
 title: Donald D. Bourque
 layout: candidate
 ---

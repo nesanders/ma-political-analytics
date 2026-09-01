@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14786
+  by_year:
+    2008:
+      total_raised: 26940.95
+      total_spent: 26205.88
+    2010:
+      total_raised: 5325.0
+      total_spent: 1247.14
+    2012:
+      total_raised: 15926.18
+      total_spent: 16218.99
+    2014:
+      total_raised: 6738.08
+      total_spent: 758.0
 title: Dennis A. Rosa
 layout: candidate
 ---

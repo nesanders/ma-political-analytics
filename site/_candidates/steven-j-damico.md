@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14550
+  by_year:
+    2008:
+      total_raised: 7120.0
+      total_spent: 8975.57
+    2010:
+      total_raised: 21025.0
+      total_spent: 25600.77
+    2006:
+      total_raised: 35060.4
+      total_spent: 23737.55
 title: Steven J. D'Amico
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13913
+  by_year:
+    2002:
+      total_raised: 32362.13
+      total_spent: 20600.37
+    2004:
+      total_raised: 46877.0
+      total_spent: 36901.92
 title: Larry F. Wheatley
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18761
+  by_year:
+    2024:
+      total_raised: 37825.0
+      total_spent: 43449.02
 title: Susanne H. Conley
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15513
+  by_year:
+    2012:
+      total_raised: 28090.0
+      total_spent: 8178.31
 title: Daniel J. Murphy
 layout: candidate
 ---

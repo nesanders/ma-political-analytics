@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12987
+  by_year:
+    2012:
+      total_raised: 23960.78
+      total_spent: 24565.99
 title: Dean J. Cavaretta
 layout: candidate
 ---

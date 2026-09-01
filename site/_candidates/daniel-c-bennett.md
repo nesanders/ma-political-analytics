@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15140
+  by_year:
+    2010:
+      total_raised: 15314.0
+      total_spent: 14649.46
+    2012:
+      total_raised: 9041.25
+      total_spent: 5412.21
 title: Daniel C. Bennett
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18261
+  by_year:
+    2024:
+      total_raised: 58915.25
+      total_spent: 38483.85
 title: William Macgregor
 layout: candidate
 ---

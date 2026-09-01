@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14298
+  by_year:
+    2004:
+      total_raised: 11273.0
+      total_spent: 4280.49
 title: Brian G. Geoghegan
 layout: candidate
 ---

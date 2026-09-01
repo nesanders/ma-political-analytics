@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15495
+  by_year:
+    2012:
+      total_raised: 2472.75
+      total_spent: 2436.73
+    2014:
+      total_raised: 302.21
+      total_spent: 302.21
 title: Thomas Michael Vasconcelos
 layout: candidate
 ---

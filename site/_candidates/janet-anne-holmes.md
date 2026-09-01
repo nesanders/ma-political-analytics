@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15241
+  by_year:
+    2010:
+      total_raised: 4869.05
+      total_spent: 4079.17
 title: Janet Anne Holmes
 layout: candidate
 ---

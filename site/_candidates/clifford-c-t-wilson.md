@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16471
+  by_year:
+    2016:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Clifford c. T. Wilson
 layout: candidate
 ---

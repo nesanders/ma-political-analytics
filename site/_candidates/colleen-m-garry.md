@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 12563
   by_year:
+    2016:
+      total_raised: 4570.0
+      total_spent: 5283.44
+    2018:
+      total_raised: 33670.0
+      total_spent: 27547.99
+    2020:
+      total_raised: 3190.0
+      total_spent: 5120.81
     2022:
       total_raised: 9360.8
       total_spent: 6191.13
+    2024:
+      total_raised: 2495.0
+      total_spent: 2720.04
+    2002:
+      total_raised: 26090.0
+      total_spent: 23968.09
+    2004:
+      total_raised: 19777.0
+      total_spent: 27322.72
+    2006:
+      total_raised: 175.0
+      total_spent: 4132.05
+    2008:
+      total_raised: 2310.0
+      total_spent: 575.0
+    2010:
+      total_raised: 12158.0
+      total_spent: 4919.68
+    2012:
+      total_raised: 15615.0
+      total_spent: 5144.05
+    2014:
+      total_raised: 13016.0
+      total_spent: 5952.99
 title: Colleen M. Garry
 layout: candidate
 ---

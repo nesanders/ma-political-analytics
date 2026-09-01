@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14150
+  by_year:
+    2004:
+      total_raised: 48466.0
+      total_spent: 40497.47
+    2006:
+      total_raised: 41281.0
+      total_spent: 47723.03
 title: Richard W. Neitz
 layout: candidate
 ---

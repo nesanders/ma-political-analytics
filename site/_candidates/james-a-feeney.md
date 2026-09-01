@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14878
+  by_year:
+    2010:
+      total_raised: 851.95
+      total_spent: 851.95
 title: James A. Feeney
 layout: candidate
 ---

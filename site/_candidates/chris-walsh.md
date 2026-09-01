@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14759
+  by_year:
+    2016:
+      total_raised: 7915.0
+      total_spent: 11103.0
+    2010:
+      total_raised: 13680.73
+      total_spent: 12731.91
+    2012:
+      total_raised: 20391.0
+      total_spent: 21326.88
+    2014:
+      total_raised: 6336.11
+      total_spent: 4461.89
 title: Chris Walsh
 layout: candidate
 ---

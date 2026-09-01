@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13645
   by_year:
+    2016:
+      total_raised: 27120.0
+      total_spent: 28455.95
+    2018:
+      total_raised: 24778.0
+      total_spent: 11091.28
+    2020:
+      total_raised: 38749.08
+      total_spent: 27631.96
     2022:
       total_raised: 46297.23
       total_spent: 39360.8
+    2024:
+      total_raised: 67884.81
+      total_spent: 95909.79
+    2002:
+      total_raised: 28730.0
+      total_spent: 28544.13
+    2004:
+      total_raised: 61349.0
+      total_spent: 51566.0
+    2006:
+      total_raised: 28172.0
+      total_spent: 33128.39
+    2008:
+      total_raised: 33340.0
+      total_spent: 18040.79
+    2010:
+      total_raised: 20118.0
+      total_spent: 18459.44
+    2012:
+      total_raised: 20853.0
+      total_spent: 7877.04
+    2014:
+      total_raised: 32778.15
+      total_spent: 36009.51
 title: Thomas M. Stanley
 layout: candidate
 ---

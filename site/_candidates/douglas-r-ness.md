@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14980
+  by_year:
+    2010:
+      total_raised: 488.83
+      total_spent: 341.92
 title: Douglas R. Ness
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15064
+  by_year:
+    2010:
+      total_raised: 28124.22
+      total_spent: 22398.39
 title: Jesse Reich
 layout: candidate
 ---

@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16499
+  by_year:
+    2016:
+      total_raised: 30835.0
+      total_spent: 18526.46
+    2018:
+      total_raised: 12012.0
+      total_spent: 12292.92
 title: Sandra Slattery E. Biagetti
 layout: candidate
 ---

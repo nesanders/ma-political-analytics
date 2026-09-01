@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14171
+  by_year:
+    2004:
+      total_raised: 13212.32
+      total_spent: 9232.45
 title: Jeanne Traester
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17030
+  by_year:
+    2018:
+      total_raised: 1633.32
+      total_spent: 1283.68
 title: Donald J. Flannery
 layout: candidate
 ---

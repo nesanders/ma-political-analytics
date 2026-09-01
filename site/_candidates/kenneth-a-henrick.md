@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14556
+  by_year:
+    2006:
+      total_raised: 3474.0
+      total_spent: 1991.43
 title: Kenneth A. Henrick
 layout: candidate
 ---

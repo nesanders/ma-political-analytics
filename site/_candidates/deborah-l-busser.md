@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17316
+  by_year:
+    2020:
+      total_raised: 30582.28
+      total_spent: 40033.39
 title: Deborah L. Busser
 layout: candidate
 ---

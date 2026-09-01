@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13396
+  by_year:
+    2008:
+      total_raised: 35100.0
+      total_spent: 16572.63
+    2002:
+      total_raised: 3100.0
+      total_spent: 2445.43
+    2004:
+      total_raised: 41950.0
+      total_spent: 37318.85
+    2006:
+      total_raised: 16475.0
+      total_spent: 18893.68
 title: David L. Flynn
 layout: candidate
 ---

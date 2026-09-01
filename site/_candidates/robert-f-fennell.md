@@ -143,6 +143,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12533
+  by_year:
+    2002:
+      total_raised: 10800.0
+      total_spent: 8237.53
+    2004:
+      total_raised: 12585.0
+      total_spent: 7848.81
+    2006:
+      total_raised: 1100.0
+      total_spent: 8938.19
+    2008:
+      total_raised: 0.0
+      total_spent: 7675.23
+    2010:
+      total_raised: 2559.46
+      total_spent: 7829.33
+    2012:
+      total_raised: 34664.11
+      total_spent: 24572.4
+    2014:
+      total_raised: 9530.0
+      total_spent: 5519.69
 title: Robert F. Fennell
 layout: candidate
 ---

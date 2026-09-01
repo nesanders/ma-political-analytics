@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17021
+  by_year:
+    2018:
+      total_raised: 7048.56
+      total_spent: 4586.56
 title: Anand Gonsalves
 layout: candidate
 ---

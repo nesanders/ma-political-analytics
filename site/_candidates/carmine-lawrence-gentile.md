@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15742
   by_year:
+    2016:
+      total_raised: 7615.0
+      total_spent: 1632.45
+    2018:
+      total_raised: 6525.0
+      total_spent: 1675.86
+    2020:
+      total_raised: 25830.9
+      total_spent: 21979.98
     2022:
       total_raised: 1356.22
       total_spent: 2869.77
+    2024:
+      total_raised: 4100.45
+      total_spent: 15984.87
+    2014:
+      total_raised: 18156.18
+      total_spent: 19517.65
 title: Carmine Lawrence Gentile
 layout: candidate
 ---

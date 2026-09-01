@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15746
+  by_year:
+    2020:
+      total_raised: 15348.87
+      total_spent: 22676.41
+    2014:
+      total_raised: 35377.75
+      total_spent: 32121.06
 title: Dan Allie
 layout: candidate
 ---

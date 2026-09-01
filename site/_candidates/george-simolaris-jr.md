@@ -63,6 +63,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16472
+  by_year:
+    2024:
+      total_raised: 17062.0
+      total_spent: 16440.01
+    2016:
+      total_raised: 7330.0
+      total_spent: 2639.42
 title: George John Simolaris, Jr
 layout: candidate
 ---

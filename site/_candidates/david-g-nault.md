@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14257
+  by_year:
+    2004:
+      total_raised: 27637.86
+      total_spent: 23090.37
 title: David G. Nault
 layout: candidate
 ---

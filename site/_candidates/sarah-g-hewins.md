@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16458
+  by_year:
+    2024:
+      total_raised: 42847.15
+      total_spent: 46194.1
+    2018:
+      total_raised: 25337.0
+      total_spent: 18449.26
+    2016:
+      total_raised: 27165.0
+      total_spent: 21363.1
 title: Sarah G. Hewins
 layout: candidate
 ---

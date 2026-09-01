@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 14975
   by_year:
+    2016:
+      total_raised: 105254.86
+      total_spent: 53310.87
+    2018:
+      total_raised: 72646.22
+      total_spent: 74364.13
+    2020:
+      total_raised: 73657.05
+      total_spent: 41620.54
     2022:
       total_raised: 36212.01
       total_spent: 23231.52
+    2024:
+      total_raised: 77965.46
+      total_spent: 62507.81
+    2014:
+      total_raised: 115944.83
+      total_spent: 67724.4
 title: Michael Seamus Day
 layout: candidate
 ---

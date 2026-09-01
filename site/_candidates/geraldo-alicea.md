@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14566
+  by_year:
+    2008:
+      total_raised: 42453.0
+      total_spent: 49403.89
+    2010:
+      total_raised: 27162.54
+      total_spent: 15993.18
+    2006:
+      total_raised: 27469.0
+      total_spent: 26542.68
 title: Geraldo Alicea
 layout: candidate
 ---

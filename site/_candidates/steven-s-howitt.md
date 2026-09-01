@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 14265
   by_year:
+    2016:
+      total_raised: 45081.1
+      total_spent: 39232.45
+    2018:
+      total_raised: 6452.82
+      total_spent: 534.15
+    2020:
+      total_raised: 107188.67
+      total_spent: 5586.31
     2022:
       total_raised: 1765.58
       total_spent: 2845.0
+    2024:
+      total_raised: 3912.19
+      total_spent: 10339.37
+    2004:
+      total_raised: 39101.0
+      total_spent: 37721.75
+    2006:
+      total_raised: 21318.0
+      total_spent: 9648.35
+    2010:
+      total_raised: 15605.0
+      total_spent: 15271.95
+    2012:
+      total_raised: 27052.29
+      total_spent: 12056.0
+    2014:
+      total_raised: 2974.27
+      total_spent: 300.0
 title: Steven S. Howitt
 layout: candidate
 ---

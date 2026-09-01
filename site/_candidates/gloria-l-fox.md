@@ -143,6 +143,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10573
+  by_year:
+    2002:
+      total_raised: 4350.0
+      total_spent: 1405.09
+    2004:
+      total_raised: 2350.0
+      total_spent: 2123.64
+    2006:
+      total_raised: 4025.0
+      total_spent: 2461.12
+    2008:
+      total_raised: 825.0
+      total_spent: 1811.04
+    2010:
+      total_raised: 1695.12
+      total_spent: 1160.81
+    2012:
+      total_raised: 22223.0
+      total_spent: 18257.73
+    2014:
+      total_raised: 10158.2
+      total_spent: 1743.21
 title: Gloria L. Fox
 layout: candidate
 ---

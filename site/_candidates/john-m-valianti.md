@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14785
+  by_year:
+    2008:
+      total_raised: 15456.0
+      total_spent: 14971.75
 title: John M. Valianti
 layout: candidate
 ---

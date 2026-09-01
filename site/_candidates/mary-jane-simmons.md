@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12293
+  by_year:
+    2002:
+      total_raised: 0.0
+      total_spent: 778.8
 title: Mary Jane Simmons
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14351
+  by_year:
+    2004:
+      total_raised: 15580.0
+      total_spent: 5835.91
 title: Dorothy A. Mann
 layout: candidate
 ---

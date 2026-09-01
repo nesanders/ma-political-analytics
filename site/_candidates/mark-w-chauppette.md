@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14173
+  by_year:
+    2004:
+      total_raised: 11590.0
+      total_spent: 13487.66
 title: Mark W. Chauppette
 layout: candidate
 ---

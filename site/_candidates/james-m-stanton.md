@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14978
+  by_year:
+    2010:
+      total_raised: 39190.0
+      total_spent: 34031.86
+    2012:
+      total_raised: 39386.0
+      total_spent: 21384.62
 title: James M. Stanton
 layout: candidate
 ---

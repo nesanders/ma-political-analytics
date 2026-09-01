@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14434
+  by_year:
+    2006:
+      total_raised: 11413.46
+      total_spent: 10956.13
 title: Nate Kaplan
 layout: candidate
 ---

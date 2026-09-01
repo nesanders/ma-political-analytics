@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15702
+  by_year:
+    2014:
+      total_raised: 63959.04
+      total_spent: 42774.33
 title: Leslie C. Gosule
 layout: candidate
 ---

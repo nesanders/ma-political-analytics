@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16854
+  by_year:
+    2018:
+      total_raised: 114954.1
+      total_spent: 146590.91
 title: Margaret W. Busse
 layout: candidate
 ---

@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13834
+  by_year:
+    2002:
+      total_raised: 43945.0
+      total_spent: 46025.82
+    2004:
+      total_raised: 24113.31
+      total_spent: 17508.49
+    2006:
+      total_raised: 24150.0
+      total_spent: 16444.31
+    2008:
+      total_raised: 21036.0
+      total_spent: 24123.23
+    2010:
+      total_raised: 17125.0
+      total_spent: 33350.91
+    2012:
+      total_raised: 31475.0
+      total_spent: 31998.18
 title: Steven M. Walsh
 layout: candidate
 ---

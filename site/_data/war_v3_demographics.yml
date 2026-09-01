@@ -3,41 +3,57 @@ r_squared: 0.766
 posterior_sigma_mean: 0.0625
 coefficients:
   intercept:
+    prior_mean: 0.5
+    prior_sd: 0.2
     posterior_mean: 0.0602
     posterior_sd: 0.0345
     ci_95_low: -0.0063
     ci_95_high: 0.1278
   own_lean:
+    prior_mean: 1.0
+    prior_sd: 0.4
     posterior_mean: 0.9683
     posterior_sd: 0.0619
     ci_95_low: 0.845
     ci_95_high: 1.0903
   own_tide:
+    prior_mean: 0.0
+    prior_sd: 0.4
     posterior_mean: -0.0827
     posterior_sd: 0.0602
     ci_95_low: -0.1998
     ci_95_high: 0.0353
   incumbent_1:
+    prior_mean: 0.05
+    prior_sd: 0.08
     posterior_mean: 0.0578
     posterior_sd: 0.0144
     ci_95_low: 0.0307
     ci_95_high: 0.0866
   incumbent_2:
+    prior_mean: 0.05
+    prior_sd: 0.08
     posterior_mean: 0.0496
     posterior_sd: 0.0793
     ci_95_low: -0.1051
     ci_95_high: 0.2059
   incumbent_3plus:
+    prior_mean: 0.05
+    prior_sd: 0.08
     posterior_mean: 0.0515
     posterior_sd: 0.0807
     ci_95_low: -0.1111
     ci_95_high: 0.2101
   bachelors_pct:
+    prior_mean: 0.0
+    prior_sd: 0.3
     posterior_mean: -0.0155
     posterior_sd: 0.1417
     ci_95_low: -0.2934
     ci_95_high: 0.2597
   bachelors_pct_x_tide:
+    prior_mean: 0.0
+    prior_sd: 0.2
     posterior_mean: -0.0782
     posterior_sd: 0.1871
     ci_95_low: -0.441

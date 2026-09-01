@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10381
+  by_year:
+    2002:
+      total_raised: 12431.53
+      total_spent: 16844.85
 title: J. Michael Ruane
 layout: candidate
 ---

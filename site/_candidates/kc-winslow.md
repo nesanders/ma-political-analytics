@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15163
+  by_year:
+    2010:
+      total_raised: 19465.5
+      total_spent: 9217.76
 title: K.c. Winslow
 layout: candidate
 ---

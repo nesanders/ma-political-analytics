@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14427
+  by_year:
+    2016:
+      total_raised: 1500.0
+      total_spent: 535.88
+    2020:
+      total_raised: 1000.0
+      total_spent: 3579.7
+    2006:
+      total_raised: 0.0
+      total_spent: 0.0
+    2010:
+      total_raised: 700.0
+      total_spent: 374.6
+    2012:
+      total_raised: 1280.0
+      total_spent: 856.18
+    2014:
+      total_raised: 800.0
+      total_spent: 774.6
 title: Robert J. Underwood
 layout: candidate
 ---

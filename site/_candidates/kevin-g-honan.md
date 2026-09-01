@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 10595
   by_year:
+    2016:
+      total_raised: 47437.45
+      total_spent: 28957.57
+    2018:
+      total_raised: 49225.0
+      total_spent: 34362.26
+    2020:
+      total_raised: 141581.26
+      total_spent: 186814.97
     2022:
       total_raised: 55274.22
       total_spent: 55918.17
+    2024:
+      total_raised: 56234.24
+      total_spent: 42579.57
+    2002:
+      total_raised: 18938.16
+      total_spent: 15566.61
+    2004:
+      total_raised: 31046.0
+      total_spent: 19225.37
+    2006:
+      total_raised: 37760.0
+      total_spent: 26973.46
+    2008:
+      total_raised: 47240.0
+      total_spent: 31762.84
+    2010:
+      total_raised: 35336.29
+      total_spent: 54345.68
+    2012:
+      total_raised: 34185.0
+      total_spent: 32933.41
+    2014:
+      total_raised: 39150.06
+      total_spent: 38194.23
 title: Kevin G. Honan
 layout: candidate
 ---

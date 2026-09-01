@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17039
+  by_year:
+    2018:
+      total_raised: 140210.51
+      total_spent: 126651.97
+    2020:
+      total_raised: 49308.87
+      total_spent: 30837.02
 title: Joanne M. Comerford
 layout: candidate
 ---

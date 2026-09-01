@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16353
+  by_year:
+    2016:
+      total_raised: 10389.0
+      total_spent: 8764.91
 title: Christopher J. Connell
 layout: candidate
 ---

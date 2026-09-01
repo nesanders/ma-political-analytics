@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16311
+  by_year:
+    2018:
+      total_raised: 104266.08
+      total_spent: 83345.71
+    2020:
+      total_raised: 75333.62
+      total_spent: 117975.78
 title: Dean Tran
 layout: candidate
 ---

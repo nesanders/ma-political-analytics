@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15872
+  by_year:
+    2016:
+      total_raised: 22213.0
+      total_spent: 12543.94
+    2014:
+      total_raised: 18791.0
+      total_spent: 11528.26
 title: Paul Girouard, Jr
 layout: candidate
 ---

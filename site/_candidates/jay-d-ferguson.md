@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13548
+  by_year:
+    2008:
+      total_raised: 3220.0
+      total_spent: 0.0
 title: Jay D. Ferguson
 layout: candidate
 ---

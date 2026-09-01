@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 14168
   by_year:
+    2016:
+      total_raised: 17000.0
+      total_spent: 11731.42
+    2018:
+      total_raised: 30665.0
+      total_spent: 9806.9
+    2020:
+      total_raised: 2829.5
+      total_spent: 8325.5
     2022:
       total_raised: 19758.0
       total_spent: 20611.3
+    2024:
+      total_raised: 18110.0
+      total_spent: 27823.16
+    2004:
+      total_raised: 41442.52
+      total_spent: 30693.26
+    2006:
+      total_raised: 33452.0
+      total_spent: 20467.98
+    2008:
+      total_raised: 18595.0
+      total_spent: 15469.1
+    2010:
+      total_raised: 15593.33
+      total_spent: 16020.27
+    2012:
+      total_raised: 14295.0
+      total_spent: 15966.04
+    2014:
+      total_raised: 11550.0
+      total_spent: 12412.32
 title: Todd M. Smola
 layout: candidate
 ---

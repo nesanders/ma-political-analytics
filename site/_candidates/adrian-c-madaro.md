@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15934
   by_year:
+    2016:
+      total_raised: 82570.0
+      total_spent: 52838.36
+    2018:
+      total_raised: 71033.0
+      total_spent: 66380.26
+    2020:
+      total_raised: 29063.51
+      total_spent: 56077.22
     2022:
       total_raised: 88630.59
       total_spent: 91933.76
+    2024:
+      total_raised: 108264.28
+      total_spent: 123874.8
 title: Adrian C. Madaro
 layout: candidate
 ---

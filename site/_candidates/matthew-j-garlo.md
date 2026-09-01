@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17538
+  by_year:
+    2020:
+      total_raised: 11735.9
+      total_spent: 11540.03
 title: Matthew J. Garlo
 layout: candidate
 ---

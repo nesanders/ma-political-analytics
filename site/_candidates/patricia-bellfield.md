@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18479
+  by_year:
+    2024:
+      total_raised: 580.01
+      total_spent: 558.42
 title: Patricia Bellfield
 layout: candidate
 ---

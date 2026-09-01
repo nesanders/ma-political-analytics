@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14001
+  by_year:
+    2002:
+      total_raised: 2321.49
+      total_spent: 793.05
 title: Howard Hansen
 layout: candidate
 ---

@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 14902
   by_year:
+    2016:
+      total_raised: 147830.2
+      total_spent: 85675.87
+    2018:
+      total_raised: 137855.0
+      total_spent: 91998.75
+    2020:
+      total_raised: 109210.48
+      total_spent: 138867.88
     2022:
       total_raised: 471692.12
       total_spent: 267313.88
+    2024:
+      total_raised: 548443.8
+      total_spent: 377343.66
+    2010:
+      total_raised: 40510.0
+      total_spent: 24544.32
+    2012:
+      total_raised: 56775.0
+      total_spent: 48180.23
+    2014:
+      total_raised: 66075.0
+      total_spent: 46787.71
 title: Aaron M. Michlewitz
 layout: candidate
 ---

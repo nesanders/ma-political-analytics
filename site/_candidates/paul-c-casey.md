@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10740
+  by_year:
+    2002:
+      total_raised: 20156.66
+      total_spent: 14858.27
+    2004:
+      total_raised: 37702.0
+      total_spent: 29614.94
+    2006:
+      total_raised: 15655.0
+      total_spent: 15356.87
 title: Paul C. Casey
 layout: candidate
 ---

@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13289
+  by_year:
+    2002:
+      total_raised: 41329.97
+      total_spent: 30821.59
+    2004:
+      total_raised: 23096.71
+      total_spent: 15103.46
+    2006:
+      total_raised: 18068.47
+      total_spent: 15225.3
+    2008:
+      total_raised: 22848.26
+      total_spent: 19841.92
+    2010:
+      total_raised: 26215.55
+      total_spent: 32413.26
 title: David M. Torrisi
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15516
+  by_year:
+    2012:
+      total_raised: 14025.29
+      total_spent: 12363.78
 title: Tommasina Anne Olson
 layout: candidate
 ---

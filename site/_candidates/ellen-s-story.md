@@ -143,6 +143,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12135
+  by_year:
+    2002:
+      total_raised: 2799.01
+      total_spent: 1382.7
+    2004:
+      total_raised: 31618.64
+      total_spent: 17132.3
+    2006:
+      total_raised: 7512.48
+      total_spent: 7545.19
+    2008:
+      total_raised: 8572.92
+      total_spent: 7932.94
+    2010:
+      total_raised: 13476.52
+      total_spent: 9170.42
+    2012:
+      total_raised: 14702.25
+      total_spent: 13003.29
+    2014:
+      total_raised: 15414.77
+      total_spent: 10790.97
 title: Ellen S. Story
 layout: candidate
 ---

@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13833
+  by_year:
+    2008:
+      total_raised: 92518.02
+      total_spent: 91055.7
+    2002:
+      total_raised: 39325.41
+      total_spent: 30238.84
+    2004:
+      total_raised: 59942.99
+      total_spent: 53666.55
+    2006:
+      total_raised: 44975.95
+      total_spent: 38256.0
 title: Jeffrey Davis Perry
 layout: candidate
 ---

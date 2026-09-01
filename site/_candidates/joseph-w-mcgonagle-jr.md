@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15577
   by_year:
+    2016:
+      total_raised: 31335.0
+      total_spent: 29143.43
+    2018:
+      total_raised: 44124.0
+      total_spent: 48481.62
+    2020:
+      total_raised: 57539.77
+      total_spent: 60810.49
     2022:
       total_raised: 63159.64
       total_spent: 84004.9
+    2024:
+      total_raised: 52941.29
+      total_spent: 49319.23
+    2014:
+      total_raised: 29005.0
+      total_spent: 27991.04
 title: Joseph W. Mcgonagle, Jr
 layout: candidate
 ---

@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12681
+  by_year:
+    2002:
+      total_raised: 12290.0
+      total_spent: 7215.75
+    2004:
+      total_raised: 15533.0
+      total_spent: 15363.4
+    2006:
+      total_raised: 29605.0
+      total_spent: 44688.32
 title: Rachel Kaprielian
 layout: candidate
 ---

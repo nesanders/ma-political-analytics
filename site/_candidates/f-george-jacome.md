@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15208
+  by_year:
+    2010:
+      total_raised: 23268.57
+      total_spent: 19235.69
 title: F. George Jacome
 layout: candidate
 ---

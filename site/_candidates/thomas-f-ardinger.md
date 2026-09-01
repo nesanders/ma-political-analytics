@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16449
+  by_year:
+    2016:
+      total_raised: 20455.01
+      total_spent: 2667.71
+    2020:
+      total_raised: 18386.64
+      total_spent: 17947.69
 title: Thomas F. Ardinger
 layout: candidate
 ---

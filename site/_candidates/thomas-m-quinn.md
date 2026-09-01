@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14216
+  by_year:
+    2004:
+      total_raised: 17382.13
+      total_spent: 6851.21
 title: Thomas M. Quinn
 layout: candidate
 ---

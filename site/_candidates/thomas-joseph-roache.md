@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14790
+  by_year:
+    2008:
+      total_raised: 10105.18
+      total_spent: 9243.74
 title: Thomas Joseph Roache
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14633
+  by_year:
+    2006:
+      total_raised: 29221.57
+      total_spent: 24698.45
 title: William W. Whittlesey
 layout: candidate
 ---

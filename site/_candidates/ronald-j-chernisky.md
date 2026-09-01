@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14488
+  by_year:
+    2008:
+      total_raised: 27562.0
+      total_spent: 27149.46
 title: Ronald J. Chernisky
 layout: candidate
 ---

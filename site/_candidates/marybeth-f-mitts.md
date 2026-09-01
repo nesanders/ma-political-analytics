@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18771
+  by_year:
+    2024:
+      total_raised: 25841.45
+      total_spent: 22181.08
 title: Marybeth F. Mitts
 layout: candidate
 ---

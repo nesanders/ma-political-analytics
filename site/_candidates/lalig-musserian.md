@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15218
+  by_year:
+    2010:
+      total_raised: 14233.43
+      total_spent: 5450.09
 title: Lalig Musserian
 layout: candidate
 ---

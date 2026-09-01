@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15809
   by_year:
+    2016:
+      total_raised: 14754.84
+      total_spent: 8149.15
+    2018:
+      total_raised: 4100.0
+      total_spent: 5823.25
+    2020:
+      total_raised: 5195.88
+      total_spent: 4204.67
     2022:
       total_raised: 4422.95
       total_spent: 5690.45
+    2024:
+      total_raised: 10380.1
+      total_spent: 5534.83
+    2014:
+      total_raised: 18228.5
+      total_spent: 16043.72
 title: Joseph D. Mckenna
 layout: candidate
 ---

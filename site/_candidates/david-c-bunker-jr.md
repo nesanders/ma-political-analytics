@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13512
+  by_year:
+    2002:
+      total_raised: 6795.65
+      total_spent: 5428.95
 title: David C. Bunker, Jr.
 layout: candidate
 ---

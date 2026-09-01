@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12189
+  by_year:
+    2002:
+      total_raised: 5051.48
+      total_spent: 2863.85
+    2004:
+      total_raised: 15359.28
+      total_spent: 10774.43
+    2006:
+      total_raised: 8900.0
+      total_spent: 8885.05
+    2008:
+      total_raised: 4935.0
+      total_spent: 9108.93
+    2010:
+      total_raised: 16340.0
+      total_spent: 18533.1
+    2012:
+      total_raised: 6525.0
+      total_spent: 6047.11
 title: Christine E. Canavan
 layout: candidate
 ---

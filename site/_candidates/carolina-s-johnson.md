@@ -23,6 +23,14 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14274
+  - 15477
+  by_year:
+    2004:
+      total_raised: 2405.74
+      total_spent: 1710.2
 title: Carolina S. Johnson
 layout: candidate
 ---

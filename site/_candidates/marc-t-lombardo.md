@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14232
   by_year:
+    2016:
+      total_raised: 28155.0
+      total_spent: 23231.16
+    2018:
+      total_raised: 18034.23
+      total_spent: 18072.73
+    2020:
+      total_raised: 33363.31
+      total_spent: 40732.82
     2022:
       total_raised: 40725.19
       total_spent: 65928.42
+    2024:
+      total_raised: 30723.79
+      total_spent: 28226.63
+    2004:
+      total_raised: 8138.5
+      total_spent: 5629.23
+    2010:
+      total_raised: 35389.62
+      total_spent: 27360.51
+    2012:
+      total_raised: 19983.03
+      total_spent: 11280.8
+    2014:
+      total_raised: 13284.0
+      total_spent: 10787.97
 title: Marc T. Lombardo
 layout: candidate
 ---

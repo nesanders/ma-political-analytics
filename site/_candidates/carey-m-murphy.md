@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14810
+  by_year:
+    2008:
+      total_raised: 19395.0
+      total_spent: 21094.01
 title: Carey M. Murphy
 layout: candidate
 ---

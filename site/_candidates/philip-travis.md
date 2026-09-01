@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10429
+  by_year:
+    2002:
+      total_raised: 5130.77
+      total_spent: 5925.7
+    2004:
+      total_raised: 7397.0
+      total_spent: 5131.14
 title: Philip Travis
 layout: candidate
 ---

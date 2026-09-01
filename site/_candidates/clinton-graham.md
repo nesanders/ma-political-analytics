@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18862
+  by_year:
+    2024:
+      total_raised: 16824.44
+      total_spent: 16798.75
 title: Clinton Graham
 layout: candidate
 ---

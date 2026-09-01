@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13627
   by_year:
+    2016:
+      total_raised: 31236.54
+      total_spent: 34683.19
+    2018:
+      total_raised: 22810.28
+      total_spent: 28014.49
+    2020:
+      total_raised: 18907.91
+      total_spent: 22918.7
     2022:
       total_raised: 4287.94
       total_spent: 54437.51
+    2024:
+      total_raised: 43078.02
+      total_spent: 58571.3
+    2002:
+      total_raised: 8022.59
+      total_spent: 3302.69
+    2004:
+      total_raised: 20107.7
+      total_spent: 6344.49
+    2006:
+      total_raised: 13874.22
+      total_spent: 1271.63
+    2008:
+      total_raised: 24332.15
+      total_spent: 5153.78
+    2010:
+      total_raised: 18867.51
+      total_spent: 23529.19
+    2012:
+      total_raised: 42369.91
+      total_spent: 20426.37
+    2014:
+      total_raised: 37172.22
+      total_spent: 36752.23
 title: Patricia A. Haddad
 layout: candidate
 ---

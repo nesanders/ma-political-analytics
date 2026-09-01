@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17545
+  by_year:
+    2020:
+      total_raised: 30684.87
+      total_spent: 26725.06
 title: Christine Crean
 layout: candidate
 ---

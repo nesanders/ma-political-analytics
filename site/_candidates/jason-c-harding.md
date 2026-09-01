@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14480
+  by_year:
+    2006:
+      total_raised: 6532.0
+      total_spent: 4354.35
 title: Jason C. Harding
 layout: candidate
 ---

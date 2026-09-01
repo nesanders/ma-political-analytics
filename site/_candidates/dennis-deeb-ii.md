@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13865
+  by_year:
+    2002:
+      total_raised: 12445.25
+      total_spent: 12445.25
 title: Dennis Deeb, II
 layout: candidate
 ---

@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13651
   by_year:
+    2016:
+      total_raised: 61329.51
+      total_spent: 35394.71
+    2018:
+      total_raised: 62768.8
+      total_spent: 42188.27
+    2020:
+      total_raised: 79902.95
+      total_spent: 130052.91
     2022:
       total_raised: 164815.47
       total_spent: 235212.06
+    2024:
+      total_raised: 96319.23
+      total_spent: 127451.53
+    2002:
+      total_raised: 47778.19
+      total_spent: 42259.59
+    2004:
+      total_raised: 55032.68
+      total_spent: 55028.5
+    2006:
+      total_raised: 67102.27
+      total_spent: 35817.3
+    2008:
+      total_raised: 96662.12
+      total_spent: 112055.72
+    2010:
+      total_raised: 59119.58
+      total_spent: 49207.93
+    2012:
+      total_raised: 51071.47
+      total_spent: 42435.28
+    2014:
+      total_raised: 52772.62
+      total_spent: 34354.6
 title: Paul J. Donato, Sr.
 layout: candidate
 ---

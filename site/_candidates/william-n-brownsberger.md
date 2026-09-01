@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 14454
   by_year:
+    2016:
+      total_raised: 13302.0
+      total_spent: 10664.38
+    2018:
+      total_raised: 56345.0
+      total_spent: 37347.85
+    2020:
+      total_raised: 33672.01
+      total_spent: 12985.97
     2022:
       total_raised: 23786.52
       total_spent: 27817.3
+    2024:
+      total_raised: 30243.1
+      total_spent: 59148.03
+    2006:
+      total_raised: 77530.0
+      total_spent: 43984.53
+    2008:
+      total_raised: 7996.29
+      total_spent: 10516.77
+    2010:
+      total_raised: 61850.4
+      total_spent: 50651.56
+    2012:
+      total_raised: 78543.88
+      total_spent: 55138.47
+    2014:
+      total_raised: 2785.0
+      total_spent: 5847.52
 title: William N. Brownsberger
 layout: candidate
 ---

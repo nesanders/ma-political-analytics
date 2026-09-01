@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14990
+  by_year:
+    2016:
+      total_raised: 9030.0
+      total_spent: 8563.2
+    2018:
+      total_raised: 1860.0
+      total_spent: 4785.39
+    2020:
+      total_raised: 21147.38
+      total_spent: 9876.05
+    2010:
+      total_raised: 29460.0
+      total_spent: 30689.1
+    2012:
+      total_raised: 6445.0
+      total_spent: 7670.13
+    2014:
+      total_raised: 14115.0
+      total_spent: 8662.78
 title: Sheila C. Harrington
 layout: candidate
 ---

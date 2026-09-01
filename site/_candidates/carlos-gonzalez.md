@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15901
   by_year:
+    2016:
+      total_raised: 5980.0
+      total_spent: 4431.98
+    2018:
+      total_raised: 11086.0
+      total_spent: 16444.01
+    2020:
+      total_raised: 8032.2
+      total_spent: 1054.19
     2022:
       total_raised: 25292.31
       total_spent: 6988.53
+    2024:
+      total_raised: 12788.42
+      total_spent: 14267.37
+    2014:
+      total_raised: 8575.0
+      total_spent: 8098.21
 title: Carlos Gonzalez
 layout: candidate
 ---

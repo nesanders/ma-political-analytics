@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14755
+  by_year:
+    2008:
+      total_raised: 34620.28
+      total_spent: 36013.15
 title: Paul J. Avella
 layout: candidate
 ---

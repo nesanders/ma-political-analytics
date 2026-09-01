@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15123
   by_year:
+    2016:
+      total_raised: 42233.0
+      total_spent: 17997.36
+    2018:
+      total_raised: 68545.0
+      total_spent: 31617.41
+    2020:
+      total_raised: 56690.4
+      total_spent: 27835.67
     2022:
       total_raised: 88751.66
       total_spent: 34660.92
+    2024:
+      total_raised: 66401.07
+      total_spent: 42978.43
+    2010:
+      total_raised: 58348.24
+      total_spent: 41109.61
+    2012:
+      total_raised: 29354.0
+      total_spent: 19164.74
+    2014:
+      total_raised: 37155.0
+      total_spent: 13412.91
 title: Tackey Chan
 layout: candidate
 ---

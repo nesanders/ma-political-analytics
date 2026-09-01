@@ -103,6 +103,26 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13013
+  - 17894
+  by_year:
+    2002:
+      total_raised: 36081.88
+      total_spent: 41612.8
+    2004:
+      total_raised: 47925.01
+      total_spent: 43409.25
+    2006:
+      total_raised: 29910.0
+      total_spent: 24229.72
+    2008:
+      total_raised: 24805.0
+      total_spent: 23204.23
+    2010:
+      total_raised: 194705.99
+      total_spent: 187918.07
 title: Charles A. Murphy
 layout: candidate
 ---

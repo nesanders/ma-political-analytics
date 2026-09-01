@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13600
+  by_year:
+    2002:
+      total_raised: 340.01
+      total_spent: 629.95
+    2004:
+      total_raised: 6840.31
+      total_spent: 110.0
 title: Michael J. Coppola
 layout: candidate
 ---

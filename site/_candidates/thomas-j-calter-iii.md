@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14637
+  by_year:
+    2016:
+      total_raised: 54565.0
+      total_spent: 40946.94
+    2006:
+      total_raised: 27779.43
+      total_spent: 26409.07
+    2008:
+      total_raised: 17909.22
+      total_spent: 20175.22
+    2010:
+      total_raised: 59709.65
+      total_spent: 61652.92
+    2012:
+      total_raised: 62226.0
+      total_spent: 61855.48
+    2014:
+      total_raised: 60099.0
+      total_spent: 51677.27
 title: Thomas J. Calter, III
 layout: candidate
 ---

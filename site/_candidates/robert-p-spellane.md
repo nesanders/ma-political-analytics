@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13589
+  by_year:
+    2008:
+      total_raised: 45561.66
+      total_spent: 41662.96
+    2002:
+      total_raised: 23275.33
+      total_spent: 25213.97
+    2004:
+      total_raised: 38510.0
+      total_spent: 62530.1
+    2006:
+      total_raised: 54325.0
+      total_spent: 56288.22
 title: Robert P. Spellane
 layout: candidate
 ---

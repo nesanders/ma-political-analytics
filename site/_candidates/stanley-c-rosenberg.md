@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11155
+  by_year:
+    2016:
+      total_raised: 383291.63
+      total_spent: 255400.96
+    2002:
+      total_raised: 43025.42
+      total_spent: 33513.86
+    2004:
+      total_raised: 85214.55
+      total_spent: 46244.21
+    2006:
+      total_raised: 55528.01
+      total_spent: 47468.52
+    2008:
+      total_raised: 80334.71
+      total_spent: 50378.12
+    2010:
+      total_raised: 42268.55
+      total_spent: 38691.21
+    2012:
+      total_raised: 50650.22
+      total_spent: 44510.27
+    2014:
+      total_raised: 166104.49
+      total_spent: 128947.12
 title: Stanley C. Rosenberg
 layout: candidate
 ---

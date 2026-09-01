@@ -128,9 +128,24 @@ ocpf_finance:
   - 13171
   - 15721
   by_year:
+    2016:
+      total_raised: 32020.0
+      total_spent: 54916.65
+    2018:
+      total_raised: 26225.0
+      total_spent: 36154.4
+    2020:
+      total_raised: 30637.45
+      total_spent: 24512.35
     2022:
       total_raised: 32926.74
       total_spent: 44282.98
+    2024:
+      total_raised: 61754.25
+      total_spent: 55141.84
+    2014:
+      total_raised: 125038.66
+      total_spent: 141595.16
 title: Daniel J. Hunt
 layout: candidate
 ---

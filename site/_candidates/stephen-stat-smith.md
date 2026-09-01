@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14305
+  by_year:
+    2008:
+      total_raised: 34300.62
+      total_spent: 36855.68
+    2010:
+      total_raised: 26540.42
+      total_spent: 28900.7
+    2012:
+      total_raised: 4561.12
+      total_spent: 6549.13
+    2006:
+      total_raised: 26129.02
+      total_spent: 14929.36
 title: Stephen Stat Smith
 layout: candidate
 ---

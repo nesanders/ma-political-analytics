@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15904
   by_year:
+    2016:
+      total_raised: 27115.0
+      total_spent: 64574.99
+    2018:
+      total_raised: 20890.0
+      total_spent: 12127.66
+    2020:
+      total_raised: 63433.05
+      total_spent: 58440.19
     2022:
       total_raised: 38272.88
       total_spent: 57584.59
+    2024:
+      total_raised: 12375.0
+      total_spent: 7778.88
+    2014:
+      total_raised: 22472.44
+      total_spent: 15663.95
 title: David F. Decoste
 layout: candidate
 ---

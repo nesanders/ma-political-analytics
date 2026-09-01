@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17540
+  by_year:
+    2020:
+      total_raised: 2368.04
+      total_spent: 2129.46
 title: Dominic S. Giannone, III
 layout: candidate
 ---

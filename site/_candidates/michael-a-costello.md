@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13801
+  by_year:
+    2002:
+      total_raised: 45770.0
+      total_spent: 45775.55
+    2004:
+      total_raised: 49557.0
+      total_spent: 35994.29
+    2006:
+      total_raised: 10600.0
+      total_spent: 26332.45
+    2008:
+      total_raised: 49750.08
+      total_spent: 52007.93
+    2010:
+      total_raised: 72490.0
+      total_spent: 55571.99
+    2012:
+      total_raised: 65020.0
+      total_spent: 82619.17
 title: Michael A. Costello
 layout: candidate
 ---

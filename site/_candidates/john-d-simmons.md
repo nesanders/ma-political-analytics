@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17558
+  by_year:
+    2020:
+      total_raised: 21960.55
+      total_spent: 19403.83
 title: John D. Simmons
 layout: candidate
 ---

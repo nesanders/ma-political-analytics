@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10130
+  by_year:
+    2008:
+      total_raised: 261879.2
+      total_spent: 348341.76
+    2002:
+      total_raised: 64857.1
+      total_spent: 42480.27
+    2004:
+      total_raised: 85934.64
+      total_spent: 89023.13
+    2006:
+      total_raised: 294419.0
+      total_spent: 289004.16
 title: Salvatore F. DiMasi
 layout: candidate
 ---

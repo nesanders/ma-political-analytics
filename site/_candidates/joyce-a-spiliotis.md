@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13908
+  by_year:
+    2002:
+      total_raised: 26969.2
+      total_spent: 25422.41
+    2004:
+      total_raised: 44544.0
+      total_spent: 46610.23
+    2006:
+      total_raised: 23519.0
+      total_spent: 18239.56
+    2008:
+      total_raised: 9400.0
+      total_spent: 2780.43
+    2010:
+      total_raised: 15282.96
+      total_spent: 18350.22
+    2012:
+      total_raised: 6850.0
+      total_spent: 4353.35
 title: Joyce A. Spiliotis
 layout: candidate
 ---

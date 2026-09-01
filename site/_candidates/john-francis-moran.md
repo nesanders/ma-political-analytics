@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18276
+  by_year:
+    2024:
+      total_raised: 81987.0
+      total_spent: 36467.13
 title: John Francis Moran
 layout: candidate
 ---

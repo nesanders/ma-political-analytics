@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12796
+  by_year:
+    2002:
+      total_raised: 11838.79
+      total_spent: 7233.01
+    2004:
+      total_raised: 9625.0
+      total_spent: 4146.24
+    2006:
+      total_raised: 14952.0
+      total_spent: 31206.14
 title: Anthony J. Verga
 layout: candidate
 ---

@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12408
+  by_year:
+    2002:
+      total_raised: 24490.63
+      total_spent: 20775.14
+    2004:
+      total_raised: 49718.0
+      total_spent: 49522.19
+    2006:
+      total_raised: 25380.0
+      total_spent: 20843.87
+    2008:
+      total_raised: 24225.0
+      total_spent: 21590.6
+    2010:
+      total_raised: 55930.0
+      total_spent: 49383.12
+    2012:
+      total_raised: 27710.0
+      total_spent: 29972.18
 title: George N. Peterson, Jr.
 layout: candidate
 ---

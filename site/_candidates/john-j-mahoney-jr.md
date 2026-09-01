@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14681
   by_year:
+    2016:
+      total_raised: 30420.0
+      total_spent: 25121.5
+    2018:
+      total_raised: 28993.5
+      total_spent: 43462.24
+    2020:
+      total_raised: 35139.59
+      total_spent: 49026.38
     2022:
       total_raised: 35495.86
       total_spent: 53850.86
+    2024:
+      total_raised: 36327.24
+      total_spent: 28083.95
+    2008:
+      total_raised: 0.0
+      total_spent: 500.0
+    2010:
+      total_raised: 34450.0
+      total_spent: 36143.06
+    2012:
+      total_raised: 24425.0
+      total_spent: 17067.27
+    2014:
+      total_raised: 37442.0
+      total_spent: 18237.39
 title: John J. Mahoney, Jr.
 layout: candidate
 ---

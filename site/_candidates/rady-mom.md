@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 14410
   by_year:
+    2016:
+      total_raised: 47670.0
+      total_spent: 42185.62
+    2018:
+      total_raised: 20549.0
+      total_spent: 18540.23
+    2020:
+      total_raised: 600.0
+      total_spent: 3284.97
     2022:
       total_raised: 32034.93
       total_spent: 27337.15
+    2014:
+      total_raised: 30028.93
+      total_spent: 26254.67
 title: Rady Mom
 layout: candidate
 ---

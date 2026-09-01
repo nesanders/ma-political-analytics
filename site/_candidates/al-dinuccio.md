@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15213
+  by_year:
+    2010:
+      total_raised: 1625.0
+      total_spent: 684.75
+    2014:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Al DiNuccio
 layout: candidate
 ---

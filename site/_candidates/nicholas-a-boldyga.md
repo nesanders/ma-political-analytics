@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14831
   by_year:
+    2016:
+      total_raised: 14795.0
+      total_spent: 13250.64
+    2018:
+      total_raised: 10896.0
+      total_spent: 14749.99
+    2020:
+      total_raised: 39125.87
+      total_spent: 29875.5
     2022:
       total_raised: 44960.66
       total_spent: 51924.58
+    2024:
+      total_raised: 12369.4
+      total_spent: 1047.86
+    2008:
+      total_raised: 6045.88
+      total_spent: 5606.37
+    2010:
+      total_raised: 13824.75
+      total_spent: 11899.59
+    2012:
+      total_raised: 22626.41
+      total_spent: 27764.99
+    2014:
+      total_raised: 12304.0
+      total_spent: 9410.11
 title: Nicholas A. Boldyga
 layout: candidate
 ---

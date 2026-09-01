@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18612
+  by_year:
+    2024:
+      total_raised: 60291.38
+      total_spent: 66390.74
 title: Owen G. Fletcher
 layout: candidate
 ---

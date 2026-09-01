@@ -163,6 +163,34 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13484
+  by_year:
+    2016:
+      total_raised: 47703.42
+      total_spent: 35277.6
+    2002:
+      total_raised: 27200.0
+      total_spent: 17142.07
+    2004:
+      total_raised: 107383.97
+      total_spent: 78655.3
+    2006:
+      total_raised: 11985.05
+      total_spent: 25260.54
+    2008:
+      total_raised: 37370.9
+      total_spent: 32619.89
+    2010:
+      total_raised: 45175.0
+      total_spent: 48816.86
+    2012:
+      total_raised: 15120.0
+      total_spent: 11585.82
+    2014:
+      total_raised: 23256.65
+      total_spent: 18653.74
 title: Cory Atkins
 layout: candidate
 ---

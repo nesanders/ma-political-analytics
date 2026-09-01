@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16371
+  by_year:
+    2016:
+      total_raised: 6535.0
+      total_spent: 2270.19
 title: Michael White
 layout: candidate
 ---

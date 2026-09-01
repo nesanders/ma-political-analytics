@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13876
+  by_year:
+    2002:
+      total_raised: 15351.13
+      total_spent: 10386.38
 title: Kathleen R. Sachs
 layout: candidate
 ---

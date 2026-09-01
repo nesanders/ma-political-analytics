@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14413
+  by_year:
+    2012:
+      total_raised: 1202.17
+      total_spent: 1082.17
 title: Norman W. Oliver
 layout: candidate
 ---

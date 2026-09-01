@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16424
+  by_year:
+    2016:
+      total_raised: 2373.75
+      total_spent: 2347.5
 title: Stephen Charles Bedell
 layout: candidate
 ---

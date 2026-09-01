@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15306
+  by_year:
+    2012:
+      total_raised: 5467.8
+      total_spent: 6060.17
 title: Dwight J. Caufield
 layout: candidate
 ---

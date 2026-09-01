@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13508
+  by_year:
+    2016:
+      total_raised: 3943.0
+      total_spent: 887.88
+    2002:
+      total_raised: 1271.0
+      total_spent: 6880.5
+    2004:
+      total_raised: 4786.0
+      total_spent: 5026.19
+    2006:
+      total_raised: 15780.0
+      total_spent: 21335.33
+    2008:
+      total_raised: 6200.0
+      total_spent: 8669.41
+    2010:
+      total_raised: 600.0
+      total_spent: 3728.79
+    2012:
+      total_raised: 0.0
+      total_spent: 2210.74
+    2014:
+      total_raised: 11576.0
+      total_spent: 5784.9
 title: Frank Israel Smizik
 layout: candidate
 ---

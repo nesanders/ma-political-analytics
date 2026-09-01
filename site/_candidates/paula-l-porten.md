@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13895
+  by_year:
+    2002:
+      total_raised: 18428.0
+      total_spent: 14461.2
 title: Paula L. Porten
 layout: candidate
 ---

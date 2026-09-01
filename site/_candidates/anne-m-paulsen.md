@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12202
+  by_year:
+    2002:
+      total_raised: 9440.3
+      total_spent: 7993.18
+    2004:
+      total_raised: 31169.01
+      total_spent: 25256.09
 title: Anne M. Paulsen
 layout: candidate
 ---

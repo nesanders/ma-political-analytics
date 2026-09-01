@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14435
+  by_year:
+    2006:
+      total_raised: 7375.0
+      total_spent: 6611.95
 title: Timothy M. Gillespie, Jr.
 layout: candidate
 ---

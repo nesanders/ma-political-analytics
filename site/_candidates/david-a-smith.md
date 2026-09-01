@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15087
+  by_year:
+    2010:
+      total_raised: 9752.73
+      total_spent: 8316.49
 title: David A. Smith
 layout: candidate
 ---

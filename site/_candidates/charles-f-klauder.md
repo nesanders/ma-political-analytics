@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15540
+  by_year:
+    2012:
+      total_raised: 300.0
+      total_spent: 587.94
 title: Charles F. Klauder
 layout: candidate
 ---

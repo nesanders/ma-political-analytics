@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15047
+  by_year:
+    2010:
+      total_raised: 35447.88
+      total_spent: 32228.89
 title: Anthony C. Bonavita
 layout: candidate
 ---

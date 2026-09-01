@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15066
+  by_year:
+    2016:
+      total_raised: 33604.17
+      total_spent: 28327.54
+    2018:
+      total_raised: 42745.0
+      total_spent: 39525.27
+    2020:
+      total_raised: 1600.0
+      total_spent: 14266.86
+    2010:
+      total_raised: 61499.21
+      total_spent: 57427.97
+    2012:
+      total_raised: 31554.99
+      total_spent: 17801.87
+    2014:
+      total_raised: 35455.0
+      total_spent: 31517.29
 title: Edward F. Coppinger
 layout: candidate
 ---

@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13284
   by_year:
+    2016:
+      total_raised: 23249.6
+      total_spent: 22323.81
+    2018:
+      total_raised: 17590.0
+      total_spent: 23693.66
+    2020:
+      total_raised: 7646.97
+      total_spent: 31108.82
     2022:
       total_raised: 43087.43
       total_spent: 49620.79
+    2024:
+      total_raised: 27511.16
+      total_spent: 33381.48
+    2002:
+      total_raised: 12200.2
+      total_spent: 2699.7
+    2004:
+      total_raised: 36339.41
+      total_spent: 38168.46
+    2006:
+      total_raised: 18203.2
+      total_spent: 19327.64
+    2008:
+      total_raised: 22605.21
+      total_spent: 25940.23
+    2010:
+      total_raised: 592.86
+      total_spent: 10374.02
+    2012:
+      total_raised: 1786.99
+      total_spent: 7131.31
+    2014:
+      total_raised: 24642.34
+      total_spent: 13010.32
 title: Bruce J. Ayers
 layout: candidate
 ---

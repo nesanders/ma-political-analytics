@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15779
   by_year:
+    2016:
+      total_raised: 37836.0
+      total_spent: 20208.87
+    2018:
+      total_raised: 35805.0
+      total_spent: 14208.12
+    2020:
+      total_raised: 16909.89
+      total_spent: 19021.93
     2022:
       total_raised: 8050.0
       total_spent: 17695.36
+    2014:
+      total_raised: 52444.0
+      total_spent: 39797.03
 title: David K. Muradian, Jr
 layout: candidate
 ---

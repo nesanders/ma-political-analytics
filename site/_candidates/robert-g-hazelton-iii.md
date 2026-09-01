@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14029
+  by_year:
+    2002:
+      total_raised: 4252.0
+      total_spent: 3546.97
 title: Robert G. Hazelton, III
 layout: candidate
 ---

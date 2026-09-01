@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13926
+  by_year:
+    2002:
+      total_raised: 20707.48
+      total_spent: 18115.11
 title: Arthur E. Hitchman, Jr.
 layout: candidate
 ---

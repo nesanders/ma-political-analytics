@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13059
+  by_year:
+    2002:
+      total_raised: 41030.5
+      total_spent: 40076.16
+    2004:
+      total_raised: 7289.0
+      total_spent: 12768.09
+    2006:
+      total_raised: 13140.0
+      total_spent: 16340.4
+    2008:
+      total_raised: 57392.84
+      total_spent: 39645.22
+    2010:
+      total_raised: 33151.0
+      total_spent: 27383.8
+    2012:
+      total_raised: 17735.0
+      total_spent: 17962.27
 title: David B. Sullivan
 layout: candidate
 ---

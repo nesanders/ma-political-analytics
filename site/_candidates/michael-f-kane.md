@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13568
+  by_year:
+    2002:
+      total_raised: 23346.38
+      total_spent: 19058.72
+    2004:
+      total_raised: 23059.44
+      total_spent: 16704.15
+    2006:
+      total_raised: 33159.3
+      total_spent: 24931.91
+    2008:
+      total_raised: 13775.69
+      total_spent: 19037.58
+    2010:
+      total_raised: 12697.01
+      total_spent: 25700.69
 title: Michael F. Kane
 layout: candidate
 ---

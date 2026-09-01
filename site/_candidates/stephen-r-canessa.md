@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14128
+  by_year:
+    2008:
+      total_raised: 36360.0
+      total_spent: 21754.56
+    2010:
+      total_raised: 30523.69
+      total_spent: 19885.43
+    2004:
+      total_raised: 35300.0
+      total_spent: 42291.94
+    2006:
+      total_raised: 42396.0
+      total_spent: 32132.0
 title: Stephen R. Canessa
 layout: candidate
 ---

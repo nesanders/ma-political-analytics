@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13951
   by_year:
+    2016:
+      total_raised: 4581.46
+      total_spent: 10841.18
+    2018:
+      total_raised: 10303.8
+      total_spent: 14572.52
+    2020:
+      total_raised: 16952.17
+      total_spent: 14004.91
     2022:
       total_raised: 12031.31
       total_spent: 11353.44
+    2024:
+      total_raised: 79120.71
+      total_spent: 34461.54
+    2002:
+      total_raised: 59157.45
+      total_spent: 53213.23
+    2004:
+      total_raised: 111666.25
+      total_spent: 110670.33
+    2006:
+      total_raised: 4998.72
+      total_spent: 6105.88
+    2008:
+      total_raised: 59988.48
+      total_spent: 63637.02
+    2010:
+      total_raised: 33109.48
+      total_spent: 21556.42
+    2012:
+      total_raised: 23514.85
+      total_spent: 17257.16
+    2014:
+      total_raised: 2202.89
+      total_spent: 6211.9
 title: Alice Hanlon Peisch
 layout: candidate
 ---

@@ -183,6 +183,37 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11102
+  by_year:
+    2016:
+      total_raised: 36472.94
+      total_spent: 28435.95
+    2018:
+      total_raised: 5577.99
+      total_spent: 22649.94
+    2002:
+      total_raised: 59078.94
+      total_spent: 23917.65
+    2004:
+      total_raised: 75921.36
+      total_spent: 31043.12
+    2006:
+      total_raised: 110590.75
+      total_spent: 34434.32
+    2008:
+      total_raised: 112123.58
+      total_spent: 41473.03
+    2010:
+      total_raised: 69625.31
+      total_spent: 65228.67
+    2012:
+      total_raised: 46152.34
+      total_spent: 60054.15
+    2014:
+      total_raised: 33729.35
+      total_spent: 38294.77
 title: Thomas M. Petrolati
 layout: candidate
 ---

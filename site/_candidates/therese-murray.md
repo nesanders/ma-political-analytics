@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12229
+  by_year:
+    2002:
+      total_raised: 60675.0
+      total_spent: 51807.41
+    2004:
+      total_raised: 298271.1
+      total_spent: 375725.74
+    2006:
+      total_raised: 187878.0
+      total_spent: 162685.88
+    2008:
+      total_raised: 311208.0
+      total_spent: 293547.96
+    2010:
+      total_raised: 311735.8
+      total_spent: 324574.66
+    2012:
+      total_raised: 445353.38
+      total_spent: 369824.23
 title: Therese Murray
 layout: candidate
 ---

@@ -123,6 +123,29 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11122
+  - 13411
+  by_year:
+    2002:
+      total_raised: 14488.16
+      total_spent: 25448.07
+    2004:
+      total_raised: 19087.08
+      total_spent: 27751.38
+    2006:
+      total_raised: 24433.13
+      total_spent: 37817.19
+    2008:
+      total_raised: 26198.28
+      total_spent: 33595.59
+    2010:
+      total_raised: 42967.76
+      total_spent: 41726.99
+    2012:
+      total_raised: 25820.13
+      total_spent: 36507.55
 title: Kathi-Anne Reinstein
 layout: candidate
 ---

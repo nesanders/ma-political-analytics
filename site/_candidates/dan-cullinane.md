@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15621
+  by_year:
+    2016:
+      total_raised: 51155.5
+      total_spent: 64568.87
+    2018:
+      total_raised: 83869.0
+      total_spent: 86437.48
+    2014:
+      total_raised: 87291.0
+      total_spent: 80706.41
 title: Dan Cullinane
 layout: candidate
 ---

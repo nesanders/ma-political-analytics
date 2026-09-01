@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14746
+  by_year:
+    2016:
+      total_raised: 13208.0
+      total_spent: 7152.91
+    2018:
+      total_raised: 4467.5
+      total_spent: 7406.13
+    2020:
+      total_raised: 4120.49
+      total_spent: 3990.44
+    2008:
+      total_raised: 18483.0
+      total_spent: 15617.77
+    2010:
+      total_raised: 9961.0
+      total_spent: 8668.87
+    2012:
+      total_raised: 36107.0
+      total_spent: 25395.98
+    2014:
+      total_raised: 18615.17
+      total_spent: 13220.96
 title: Carolyn C. Dykema
 layout: candidate
 ---

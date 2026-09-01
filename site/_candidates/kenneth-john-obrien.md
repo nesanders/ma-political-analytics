@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15050
+  by_year:
+    2010:
+      total_raised: 26304.31
+      total_spent: 20008.12
 title: Kenneth John O'Brien
 layout: candidate
 ---

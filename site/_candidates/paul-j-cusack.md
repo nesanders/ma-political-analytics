@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17033
+  by_year:
+    2018:
+      total_raised: 116388.5
+      total_spent: 78763.34
 title: Paul J. Cusack
 layout: candidate
 ---

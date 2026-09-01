@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15146
+  by_year:
+    2010:
+      total_raised: 2840.0
+      total_spent: 1008.1
 title: Matthew James Sheehan
 layout: candidate
 ---

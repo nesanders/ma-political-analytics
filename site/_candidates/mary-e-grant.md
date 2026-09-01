@@ -83,6 +83,22 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13909
+  by_year:
+    2008:
+      total_raised: 13575.0
+      total_spent: 7571.97
+    2002:
+      total_raised: 26944.12
+      total_spent: 22904.33
+    2004:
+      total_raised: 24115.0
+      total_spent: 10142.22
+    2006:
+      total_raised: 14736.0
+      total_spent: 9966.03
 title: Mary E. Grant
 layout: candidate
 ---

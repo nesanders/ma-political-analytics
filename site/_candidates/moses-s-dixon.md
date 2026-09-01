@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15813
+  by_year:
+    2016:
+      total_raised: 43140.19
+      total_spent: 44314.1
 title: Moses S. Dixon
 layout: candidate
 ---

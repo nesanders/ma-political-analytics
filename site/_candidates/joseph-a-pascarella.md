@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13868
+  by_year:
+    2002:
+      total_raised: 10761.0
+      total_spent: 6958.91
 title: Joseph A. Pascarella
 layout: candidate
 ---

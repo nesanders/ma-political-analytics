@@ -163,6 +163,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10383
+  by_year:
+    2016:
+      total_raised: 1200.0
+      total_spent: 270.0
+    2004:
+      total_raised: 500.0
+      total_spent: 161.75
+    2006:
+      total_raised: 500.0
+      total_spent: 611.65
+    2008:
+      total_raised: 500.0
+      total_spent: 180.0
+    2010:
+      total_raised: 500.0
+      total_spent: 180.0
+    2012:
+      total_raised: 0.0
+      total_spent: 180.0
+    2014:
+      total_raised: 300.0
+      total_spent: 270.0
 title: Byron Rushing
 layout: candidate
 ---

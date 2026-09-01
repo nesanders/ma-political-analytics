@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15044
+  by_year:
+    2010:
+      total_raised: 60975.23
+      total_spent: 53278.6
+    2012:
+      total_raised: 22043.0
+      total_spent: 38879.97
 title: Daniel B. Winslow
 layout: candidate
 ---

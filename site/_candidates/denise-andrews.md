@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15102
+  by_year:
+    2010:
+      total_raised: 33946.18
+      total_spent: 24124.63
+    2012:
+      total_raised: 34056.1
+      total_spent: 33192.76
+    2014:
+      total_raised: 17172.93
+      total_spent: 12154.37
 title: Denise Andrews
 layout: candidate
 ---

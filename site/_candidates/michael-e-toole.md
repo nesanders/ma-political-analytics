@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16423
+  by_year:
+    2016:
+      total_raised: 13375.0
+      total_spent: 9449.31
 title: Michael E. Toole
 layout: candidate
 ---

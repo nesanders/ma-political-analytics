@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15902
+  by_year:
+    2014:
+      total_raised: 38.28
+      total_spent: 38.28
 title: Arleen M. Martino
 layout: candidate
 ---

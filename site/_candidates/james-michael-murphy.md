@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 13724
   by_year:
+    2016:
+      total_raised: 17869.0
+      total_spent: 14832.31
+    2018:
+      total_raised: 11625.0
+      total_spent: 9009.8
+    2020:
+      total_raised: 68233.4
+      total_spent: 115510.74
     2022:
       total_raised: 75614.27
       total_spent: 114136.72
+    2024:
+      total_raised: 76863.44
+      total_spent: 91983.42
+    2006:
+      total_raised: 39550.0
+      total_spent: 20455.16
+    2008:
+      total_raised: 27885.59
+      total_spent: 39571.35
+    2010:
+      total_raised: 25625.0
+      total_spent: 19762.57
+    2012:
+      total_raised: 20135.0
+      total_spent: 15323.46
+    2014:
+      total_raised: 27070.0
+      total_spent: 17811.21
 title: James Michael Murphy
 layout: candidate
 ---

@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13839
+  by_year:
+    2002:
+      total_raised: 148590.0
+      total_spent: 147284.99
+    2004:
+      total_raised: 41475.0
+      total_spent: 60160.57
+    2006:
+      total_raised: 48076.5
+      total_spent: 41659.13
 title: Robert K. Coughlin
 layout: candidate
 ---

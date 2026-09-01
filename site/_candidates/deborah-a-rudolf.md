@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16634
+  by_year:
+    2018:
+      total_raised: 24651.5
+      total_spent: 23691.97
 title: Deborah A. Rudolf
 layout: candidate
 ---

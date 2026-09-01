@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15751
+  by_year:
+    2014:
+      total_raised: 54650.1
+      total_spent: 50791.77
 title: Michael J. Valanzola
 layout: candidate
 ---

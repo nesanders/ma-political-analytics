@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15105
+  by_year:
+    2016:
+      total_raised: 57468.43
+      total_spent: 59713.55
+    2018:
+      total_raised: 91721.05
+      total_spent: 84483.53
+    2010:
+      total_raised: 36704.5
+      total_spent: 23721.19
+    2012:
+      total_raised: 42274.0
+      total_spent: 49169.59
+    2014:
+      total_raised: 20491.38
+      total_spent: 20371.68
 title: James J. Lyons, Jr.
 layout: candidate
 ---

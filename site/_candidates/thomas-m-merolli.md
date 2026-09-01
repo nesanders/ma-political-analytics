@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16885
+  by_year:
+    2018:
+      total_raised: 46666.26
+      total_spent: 43605.55
 title: Thomas M. Merolli
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14453
+  by_year:
+    2006:
+      total_raised: 8093.99
+      total_spent: 8053.19
 title: Kenneth Joseph Procaccianti
 layout: candidate
 ---

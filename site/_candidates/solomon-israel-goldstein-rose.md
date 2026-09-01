@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16333
+  by_year:
+    2016:
+      total_raised: 25738.0
+      total_spent: 25621.27
+    2018:
+      total_raised: 2432.31
+      total_spent: 7781.37
 title: Solomon Israel Goldstein-Rose
 layout: candidate
 ---

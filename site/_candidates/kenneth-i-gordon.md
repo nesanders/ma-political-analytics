@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15554
   by_year:
+    2016:
+      total_raised: 37142.5
+      total_spent: 36544.28
+    2018:
+      total_raised: 16625.0
+      total_spent: 12153.71
+    2020:
+      total_raised: 12547.59
+      total_spent: 12947.89
     2022:
       total_raised: 42342.03
       total_spent: 71305.5
+    2024:
+      total_raised: 14284.03
+      total_spent: 31229.1
+    2012:
+      total_raised: 18449.95
+      total_spent: 8127.86
+    2014:
+      total_raised: 34600.15
+      total_spent: 37272.75
 title: Kenneth I. Gordon
 layout: candidate
 ---

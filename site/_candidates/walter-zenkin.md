@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15550
+  by_year:
+    2012:
+      total_raised: 14672.62
+      total_spent: 7182.76
 title: Walter Zenkin
 layout: candidate
 ---

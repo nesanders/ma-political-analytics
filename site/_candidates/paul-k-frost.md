@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13110
   by_year:
+    2016:
+      total_raised: 23760.0
+      total_spent: 15369.09
+    2018:
+      total_raised: 7660.2
+      total_spent: 12621.88
+    2020:
+      total_raised: 23040.32
+      total_spent: 19272.21
     2022:
       total_raised: 18792.91
       total_spent: 22724.38
+    2024:
+      total_raised: 49423.06
+      total_spent: 28495.04
+    2002:
+      total_raised: 17164.06
+      total_spent: 14651.15
+    2004:
+      total_raised: 10169.38
+      total_spent: 17318.24
+    2006:
+      total_raised: 8537.54
+      total_spent: 10738.38
+    2008:
+      total_raised: 26713.08
+      total_spent: 19464.71
+    2010:
+      total_raised: 6599.23
+      total_spent: 13407.59
+    2012:
+      total_raised: 6942.96
+      total_spent: 10900.59
+    2014:
+      total_raised: 8707.72
+      total_spent: 10900.56
 title: Paul K. Frost
 layout: candidate
 ---

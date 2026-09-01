@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11853
+  by_year:
+    2016:
+      total_raised: 229762.49
+      total_spent: 99437.92
+    2002:
+      total_raised: 25410.0
+      total_spent: 16212.38
+    2004:
+      total_raised: 35600.0
+      total_spent: 20542.5
+    2006:
+      total_raised: 47877.87
+      total_spent: 33939.51
+    2008:
+      total_raised: 47512.36
+      total_spent: 34823.97
+    2010:
+      total_raised: 24459.0
+      total_spent: 33956.6
+    2012:
+      total_raised: 157483.0
+      total_spent: 57214.49
+    2014:
+      total_raised: 146712.04
+      total_spent: 83197.1
 title: Brian S. Dempsey
 layout: candidate
 ---

@@ -123,6 +123,28 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13894
+  by_year:
+    2002:
+      total_raised: 18360.0
+      total_spent: 10722.59
+    2004:
+      total_raised: 34680.0
+      total_spent: 27465.29
+    2006:
+      total_raised: 40965.0
+      total_spent: 38625.7
+    2008:
+      total_raised: 10225.0
+      total_spent: 3705.0
+    2010:
+      total_raised: 23215.0
+      total_spent: 25389.98
+    2012:
+      total_raised: 400.0
+      total_spent: 1361.95
 title: Cleon H. Turner
 layout: candidate
 ---

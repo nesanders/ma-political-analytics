@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12592
+  by_year:
+    2002:
+      total_raised: 51407.81
+      total_spent: 52880.95
+    2004:
+      total_raised: 41416.67
+      total_spent: 43534.72
+    2006:
+      total_raised: 43384.0
+      total_spent: 32150.07
+    2008:
+      total_raised: 58393.05
+      total_spent: 46879.21
+    2010:
+      total_raised: 36292.6
+      total_spent: 31384.11
 title: Paul Kujawski
 layout: candidate
 ---

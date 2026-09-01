@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13545
+  by_year:
+    2002:
+      total_raised: 575.0
+      total_spent: 86.11
 title: Alan L. Wilcox
 layout: candidate
 ---

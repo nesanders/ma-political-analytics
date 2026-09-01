@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14099
+  by_year:
+    2004:
+      total_raised: 74536.08
+      total_spent: 94769.15
 title: Avi E. Green
 layout: candidate
 ---

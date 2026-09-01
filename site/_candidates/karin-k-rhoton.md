@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15414
+  by_year:
+    2012:
+      total_raised: 20010.0
+      total_spent: 20194.56
 title: Karin K. Rhoton
 layout: candidate
 ---

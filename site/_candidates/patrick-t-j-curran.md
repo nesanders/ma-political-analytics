@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15894
+  by_year:
+    2014:
+      total_raised: 3100.0
+      total_spent: 3100.0
 title: Patrick t. J. Curran
 layout: candidate
 ---

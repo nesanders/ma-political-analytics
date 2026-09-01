@@ -168,9 +168,30 @@ ocpf_finance:
   - 13502
   - 15055
   by_year:
+    2016:
+      total_raised: 11600.0
+      total_spent: 6002.32
+    2018:
+      total_raised: 4350.0
+      total_spent: 3825.5
+    2020:
+      total_raised: 1700.0
+      total_spent: 2119.17
     2022:
       total_raised: 12060.0
       total_spent: 7647.94
+    2024:
+      total_raised: 8120.1
+      total_spent: 10174.56
+    2010:
+      total_raised: 28320.0
+      total_spent: 19725.99
+    2012:
+      total_raised: 955.0
+      total_spent: 7456.15
+    2014:
+      total_raised: 4450.0
+      total_spent: 3731.43
 title: Kimberly N. Ferguson
 layout: candidate
 ---

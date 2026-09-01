@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13971
+  by_year:
+    2002:
+      total_raised: 1896.1
+      total_spent: 1721.03
+    2004:
+      total_raised: 3371.74
+      total_spent: 2850.55
+    2006:
+      total_raised: 4000.0
+      total_spent: 3749.8
 title: Raymond P. Leary, Jr.
 layout: candidate
 ---

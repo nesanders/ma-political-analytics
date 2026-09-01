@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 16324
   by_year:
+    2016:
+      total_raised: 36942.29
+      total_spent: 27989.12
+    2018:
+      total_raised: 12515.0
+      total_spent: 16244.36
+    2020:
+      total_raised: 22422.35
+      total_spent: 24979.68
     2022:
       total_raised: 40877.01
       total_spent: 26660.43
+    2024:
+      total_raised: 60780.92
+      total_spent: 45869.21
 title: Jack Patrick Lewis
 layout: candidate
 ---

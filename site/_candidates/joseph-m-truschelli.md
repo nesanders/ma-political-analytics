@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14984
+  by_year:
+    2010:
+      total_raised: 7272.76
+      total_spent: 6274.5
+    2018:
+      total_raised: 18491.0
+      total_spent: 8063.16
 title: Joseph M. Truschelli
 layout: candidate
 ---

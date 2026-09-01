@@ -123,6 +123,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14593
+  by_year:
+    2018:
+      total_raised: 43977.0
+      total_spent: 44879.11
+    2020:
+      total_raised: 2276.88
+      total_spent: 5501.53
+    2006:
+      total_raised: 14996.88
+      total_spent: 14305.85
+    2010:
+      total_raised: 16380.0
+      total_spent: 15737.69
+    2012:
+      total_raised: 11172.64
+      total_spent: 9409.14
+    2014:
+      total_raised: 14535.9
+      total_spent: 13700.92
 title: Marcos A. Devers
 layout: candidate
 ---

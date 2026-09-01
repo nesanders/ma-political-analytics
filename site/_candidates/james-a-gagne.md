@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13882
+  by_year:
+    2002:
+      total_raised: 2402.22
+      total_spent: 1778.41
 title: James A. Gagne
 layout: candidate
 ---

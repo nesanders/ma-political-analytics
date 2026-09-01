@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13842
+  by_year:
+    2002:
+      total_raised: 17647.0
+      total_spent: 7551.55
 title: Michael E. Aleo
 layout: candidate
 ---

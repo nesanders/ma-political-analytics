@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18891
+  by_year:
+    2024:
+      total_raised: 3375.0
+      total_spent: 2841.64
 title: Laura A. Hadley
 layout: candidate
 ---

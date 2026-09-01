@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15574
+  by_year:
+    2014:
+      total_raised: 38598.0
+      total_spent: 31329.16
 title: Dylan Hayre
 layout: candidate
 ---

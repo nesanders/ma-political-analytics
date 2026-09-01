@@ -23,6 +23,14 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11356
+  - 16384
+  by_year:
+    2016:
+      total_raised: 37074.0
+      total_spent: 16556.68
 title: Kara L. Nyman
 layout: candidate
 ---

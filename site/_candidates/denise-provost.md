@@ -143,6 +143,31 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14444
+  by_year:
+    2016:
+      total_raised: 15962.58
+      total_spent: 5779.92
+    2018:
+      total_raised: 10975.76
+      total_spent: 2520.84
+    2006:
+      total_raised: 17394.46
+      total_spent: 29748.33
+    2008:
+      total_raised: 10192.4
+      total_spent: 1440.03
+    2010:
+      total_raised: 603.28
+      total_spent: 265.0
+    2012:
+      total_raised: 31607.83
+      total_spent: 22357.42
+    2014:
+      total_raised: 15606.22
+      total_spent: 5660.61
 title: Denise Provost
 layout: candidate
 ---

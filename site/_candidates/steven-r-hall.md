@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16683
+  by_year:
+    2018:
+      total_raised: 14757.0
+      total_spent: 11849.41
+    2020:
+      total_raised: 36430.47
+      total_spent: 38066.84
 title: Steven R. Hall
 layout: candidate
 ---

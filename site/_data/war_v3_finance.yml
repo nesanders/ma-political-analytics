@@ -1,35 +1,54 @@
-n: 87
-r_squared: 0.7384
-posterior_sigma_mean: 0.0626
+n: 1069
+r_squared: 0.5493
+posterior_sigma_mean: 0.1015
 coefficients:
   intercept:
-    posterior_mean: -0.0122
-    posterior_sd: 0.0475
-    ci_95_low: -0.1015
-    ci_95_high: 0.0845
+    prior_mean: 0.5
+    prior_sd: 0.2
+    posterior_mean: -0.09
+    posterior_sd: 0.0258
+    ci_95_low: -0.1402
+    ci_95_high: -0.0395
   own_lean:
-    posterior_mean: 0.7794
-    posterior_sd: 0.062
-    ci_95_low: 0.6559
-    ci_95_high: 0.9011
+    prior_mean: 1.0
+    prior_sd: 0.4
+    posterior_mean: 0.4385
+    posterior_sd: 0.0321
+    ci_95_low: 0.3762
+    ci_95_high: 0.5015
+  own_tide:
+    prior_mean: 0.0
+    prior_sd: 0.4
+    posterior_mean: -0.0122
+    posterior_sd: 0.0373
+    ci_95_low: -0.0848
+    ci_95_high: 0.0615
   incumbent_1:
-    posterior_mean: 0.0494
-    posterior_sd: 0.0801
-    ci_95_low: -0.1108
-    ci_95_high: 0.2053
+    prior_mean: 0.05
+    prior_sd: 0.08
+    posterior_mean: 0.135
+    posterior_sd: 0.0091
+    ci_95_low: 0.1171
+    ci_95_high: 0.153
   incumbent_2:
-    posterior_mean: 0.0491
-    posterior_sd: 0.0804
-    ci_95_low: -0.1106
-    ci_95_high: 0.2046
+    prior_mean: 0.05
+    prior_sd: 0.08
+    posterior_mean: 0.1235
+    posterior_sd: 0.013
+    ci_95_low: 0.0983
+    ci_95_high: 0.1486
   incumbent_3plus:
-    posterior_mean: 0.0508
-    posterior_sd: 0.0803
-    ci_95_low: -0.1056
-    ci_95_high: 0.2105
+    prior_mean: 0.05
+    prior_sd: 0.08
+    posterior_mean: 0.12
+    posterior_sd: 0.0121
+    ci_95_low: 0.0962
+    ci_95_high: 0.1439
   log_raised:
-    posterior_mean: 0.0127
-    posterior_sd: 0.0045
-    ci_95_low: 0.0034
-    ci_95_high: 0.0212
-finance_year: 2022
+    prior_mean: 0.0
+    prior_sd: 0.02
+    posterior_mean: 0.0343
+    posterior_sd: 0.0024
+    ci_95_low: 0.0295
+    ci_95_high: 0.039
+n_distinct_years: 12

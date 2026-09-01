@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15537
+  by_year:
+    2012:
+      total_raised: 2655.5
+      total_spent: 2365.5
 title: Martin D. Burke
 layout: candidate
 ---

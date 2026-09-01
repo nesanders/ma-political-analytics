@@ -163,6 +163,34 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10312
+  by_year:
+    2016:
+      total_raised: 17635.0
+      total_spent: 13879.45
+    2002:
+      total_raised: 12604.52
+      total_spent: 8302.42
+    2004:
+      total_raised: 16696.7
+      total_spent: 11260.35
+    2006:
+      total_raised: 6344.03
+      total_spent: 6464.25
+    2008:
+      total_raised: 8150.92
+      total_spent: 7938.81
+    2010:
+      total_raised: 8800.0
+      total_spent: 15775.05
+    2012:
+      total_raised: 22868.0
+      total_spent: 8989.59
+    2014:
+      total_raised: 16460.06
+      total_spent: 10501.79
 title: James R. Miceli
 layout: candidate
 ---

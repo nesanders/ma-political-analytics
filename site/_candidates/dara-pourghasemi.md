@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14336
+  by_year:
+    2006:
+      total_raised: 450.0
+      total_spent: 152.9
 title: Dara Pourghasemi
 layout: candidate
 ---

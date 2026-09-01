@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15488
   by_year:
+    2016:
+      total_raised: 16830.0
+      total_spent: 1694.03
+    2018:
+      total_raised: 15015.0
+      total_spent: 21982.47
+    2020:
+      total_raised: 15785.02
+      total_spent: 24086.01
     2022:
       total_raised: 25947.49
       total_spent: 29909.37
+    2024:
+      total_raised: 21282.77
+      total_spent: 54018.43
+    2012:
+      total_raised: 16337.04
+      total_spent: 7742.66
+    2014:
+      total_raised: 21625.0
+      total_spent: 8000.01
 title: Jonathan D. Zlotnik
 layout: candidate
 ---

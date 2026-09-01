@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14230
+  by_year:
+    2004:
+      total_raised: 14645.0
+      total_spent: 12596.62
 title: A. Larry Hasenfus
 layout: candidate
 ---

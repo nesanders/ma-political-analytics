@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11636
+  by_year:
+    2016:
+      total_raised: 33354.62
+      total_spent: 35278.19
+    2002:
+      total_raised: 25853.0
+      total_spent: 19281.91
+    2004:
+      total_raised: 58619.5
+      total_spent: 43618.82
+    2006:
+      total_raised: 16541.0
+      total_spent: 11129.71
+    2008:
+      total_raised: 23880.0
+      total_spent: 27607.32
+    2010:
+      total_raised: 36654.0
+      total_spent: 28266.25
+    2014:
+      total_raised: 66342.09
+      total_spent: 50104.96
 title: Matthew C. Patrick
 layout: candidate
 ---

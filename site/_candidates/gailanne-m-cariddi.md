@@ -83,6 +83,22 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14669
+  by_year:
+    2016:
+      total_raised: 1051.0
+      total_spent: 3722.6
+    2010:
+      total_raised: 42013.36
+      total_spent: 35800.11
+    2012:
+      total_raised: 506.08
+      total_spent: 8.0
+    2014:
+      total_raised: 776.3
+      total_spent: 1393.81
 title: Gailanne M. Cariddi
 layout: candidate
 ---

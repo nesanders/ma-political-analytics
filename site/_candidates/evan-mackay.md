@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18680
+  by_year:
+    2024:
+      total_raised: 74914.56
+      total_spent: 68127.84
 title: Evan Mackay
 layout: candidate
 ---

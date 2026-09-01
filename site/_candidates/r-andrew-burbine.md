@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14490
+  by_year:
+    2002:
+      total_raised: 24780.73
+      total_spent: 19835.03
+    2006:
+      total_raised: 33516.0
+      total_spent: 23458.36
 title: R. Andrew Burbine
 layout: candidate
 ---

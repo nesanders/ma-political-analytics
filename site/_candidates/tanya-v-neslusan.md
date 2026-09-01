@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16902
+  by_year:
+    2018:
+      total_raised: 15679.15
+      total_spent: 11266.21
 title: Tanya V. Neslusan
 layout: candidate
 ---

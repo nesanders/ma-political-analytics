@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16863
+  by_year:
+    2018:
+      total_raised: 17029.58
+      total_spent: 14216.85
 title: Patrick J. Malone
 layout: candidate
 ---

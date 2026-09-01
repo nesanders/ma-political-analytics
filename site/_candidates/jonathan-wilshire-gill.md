@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18774
+  by_year:
+    2024:
+      total_raised: 10336.05
+      total_spent: 7362.44
 title: Jonathan Wilshire Gill
 layout: candidate
 ---

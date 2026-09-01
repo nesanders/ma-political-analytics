@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15772
+  by_year:
+    2016:
+      total_raised: 1680.0
+      total_spent: 1409.86
+    2018:
+      total_raised: 816.0
+      total_spent: 362.04
 title: Daniel L. Factor
 layout: candidate
 ---

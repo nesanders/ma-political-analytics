@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14133
+  by_year:
+    2008:
+      total_raised: 14640.0
+      total_spent: 20947.59
+    2004:
+      total_raised: 22478.08
+      total_spent: 17213.64
+    2006:
+      total_raised: 11149.99
+      total_spent: 12618.15
 title: Denis E. Guyer
 layout: candidate
 ---

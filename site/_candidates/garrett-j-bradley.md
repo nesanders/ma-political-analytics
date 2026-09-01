@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13228
+  by_year:
+    2002:
+      total_raised: 51552.83
+      total_spent: 66325.7
+    2004:
+      total_raised: 42613.99
+      total_spent: 38140.37
+    2006:
+      total_raised: 56920.0
+      total_spent: 60530.01
+    2008:
+      total_raised: 39159.78
+      total_spent: 46785.1
+    2010:
+      total_raised: 72900.34
+      total_spent: 109668.21
+    2012:
+      total_raised: 25890.0
+      total_spent: 31005.12
+    2014:
+      total_raised: 23245.0
+      total_spent: 40247.74
 title: Garrett J. Bradley
 layout: candidate
 ---

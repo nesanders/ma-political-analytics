@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15490
   by_year:
+    2016:
+      total_raised: 17986.0
+      total_spent: 10133.53
+    2018:
+      total_raised: 50264.71
+      total_spent: 34832.79
+    2020:
+      total_raised: 30707.93
+      total_spent: 9108.81
     2022:
       total_raised: 105220.26
       total_spent: 52433.81
+    2024:
+      total_raised: 115776.28
+      total_spent: 99936.52
+    2012:
+      total_raised: 40658.81
+      total_spent: 33073.56
+    2014:
+      total_raised: 8132.0
+      total_spent: 4879.28
 title: Jeffrey N. Roy
 layout: candidate
 ---

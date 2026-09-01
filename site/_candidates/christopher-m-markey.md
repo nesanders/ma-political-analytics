@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15107
   by_year:
+    2016:
+      total_raised: 1372.03
+      total_spent: 8714.15
+    2018:
+      total_raised: 5444.07
+      total_spent: 2477.5
+    2020:
+      total_raised: 10.0
+      total_spent: 3827.2
     2022:
       total_raised: 29901.3
       total_spent: 33889.16
+    2024:
+      total_raised: 19301.0
+      total_spent: 21407.52
+    2010:
+      total_raised: 59010.0
+      total_spent: 44849.73
+    2012:
+      total_raised: 33225.0
+      total_spent: 21023.19
+    2014:
+      total_raised: 30910.0
+      total_spent: 32886.5
 title: Christopher M. Markey
 layout: candidate
 ---

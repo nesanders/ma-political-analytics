@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10152
+  by_year:
+    2002:
+      total_raised: 285456.03
+      total_spent: 296005.9
+    2004:
+      total_raised: 312111.41
+      total_spent: 298135.9
 title: Thomas M. Finneran
 layout: candidate
 ---

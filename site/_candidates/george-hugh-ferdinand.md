@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18894
+  by_year:
+    2024:
+      total_raised: 1200.0
+      total_spent: 1194.75
 title: George Hugh Ferdinand
 layout: candidate
 ---

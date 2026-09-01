@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14781
+  by_year:
+    2016:
+      total_raised: 51144.0
+      total_spent: 25326.42
+    2008:
+      total_raised: 71084.44
+      total_spent: 58552.91
+    2010:
+      total_raised: 11830.0
+      total_spent: 26250.53
+    2012:
+      total_raised: 38140.5
+      total_spent: 69505.26
+    2014:
+      total_raised: 49237.44
+      total_spent: 58700.87
 title: James M. Cantwell
 layout: candidate
 ---

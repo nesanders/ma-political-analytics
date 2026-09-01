@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13991
+  by_year:
+    2002:
+      total_raised: 1625.0
+      total_spent: 1656.85
 title: Danny Fain
 layout: candidate
 ---

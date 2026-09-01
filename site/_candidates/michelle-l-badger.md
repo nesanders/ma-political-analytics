@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18685
+  by_year:
+    2024:
+      total_raised: 42126.36
+      total_spent: 37146.66
 title: Michelle L. Badger
 layout: candidate
 ---

@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15063
   by_year:
+    2016:
+      total_raised: 1200.0
+      total_spent: 937.08
+    2018:
+      total_raised: 2178.6
+      total_spent: 2046.51
+    2020:
+      total_raised: 4263.25
+      total_spent: 1847.85
     2022:
       total_raised: 91735.17
       total_spent: 52682.8
+    2024:
+      total_raised: 57130.64
+      total_spent: 49142.89
+    2010:
+      total_raised: 23161.29
+      total_spent: 20599.57
+    2012:
+      total_raised: 5039.11
+      total_spent: 4659.55
+    2014:
+      total_raised: 1970.0
+      total_spent: 2198.71
 title: Russell E. Holmes
 layout: candidate
 ---

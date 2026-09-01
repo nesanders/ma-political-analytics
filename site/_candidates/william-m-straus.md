@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 11466
   by_year:
+    2016:
+      total_raised: 19124.6
+      total_spent: 14134.74
+    2018:
+      total_raised: 14068.99
+      total_spent: 11247.27
+    2020:
+      total_raised: 19786.42
+      total_spent: 13544.85
     2022:
       total_raised: 98715.62
       total_spent: 142578.94
+    2002:
+      total_raised: 9975.35
+      total_spent: 5525.62
+    2004:
+      total_raised: 37262.99
+      total_spent: 40667.35
+    2006:
+      total_raised: 24455.11
+      total_spent: 12031.02
+    2008:
+      total_raised: 16324.45
+      total_spent: 14483.31
+    2010:
+      total_raised: 27653.21
+      total_spent: 26607.98
+    2012:
+      total_raised: 41663.2
+      total_spent: 46345.53
+    2014:
+      total_raised: 23854.27
+      total_spent: 20876.8
 title: William M. Straus
 layout: candidate
 ---

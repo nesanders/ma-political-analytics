@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16968
+  by_year:
+    2018:
+      total_raised: 3484.0
+      total_spent: 1807.46
 title: John William Arena
 layout: candidate
 ---

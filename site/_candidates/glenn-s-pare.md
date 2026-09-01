@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14802
+  by_year:
+    2008:
+      total_raised: 17238.68
+      total_spent: 15660.6
 title: Glenn S. Pare
 layout: candidate
 ---

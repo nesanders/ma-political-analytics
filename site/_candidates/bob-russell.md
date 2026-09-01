@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15826
+  by_year:
+    2014:
+      total_raised: 21365.0
+      total_spent: 13770.78
 title: Bob Russell
 layout: candidate
 ---

@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14260
+  by_year:
+    2004:
+      total_raised: 91009.4
+      total_spent: 68567.13
+    2006:
+      total_raised: 35961.0
+      total_spent: 10616.73
+    2008:
+      total_raised: 50985.0
+      total_spent: 12740.13
+    2010:
+      total_raised: 73351.0
+      total_spent: 50860.61
+    2012:
+      total_raised: 24752.28
+      total_spent: 11814.04
 title: Martha Walz
 layout: candidate
 ---

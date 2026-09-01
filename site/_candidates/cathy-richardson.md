@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15473
+  by_year:
+    2012:
+      total_raised: 16580.34
+      total_spent: 12331.96
+    2014:
+      total_raised: 4795.0
+      total_spent: 2540.83
 title: Cathy Richardson
 layout: candidate
 ---

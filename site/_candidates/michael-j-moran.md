@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 12650
   by_year:
+    2016:
+      total_raised: 67195.0
+      total_spent: 68981.2
+    2018:
+      total_raised: 81550.0
+      total_spent: 73757.83
+    2020:
+      total_raised: 67427.49
+      total_spent: 69658.5
     2022:
       total_raised: 96653.69
       total_spent: 128771.57
+    2024:
+      total_raised: 175889.81
+      total_spent: 157840.57
+    2006:
+      total_raised: 23135.84
+      total_spent: 13733.33
+    2008:
+      total_raised: 27101.39
+      total_spent: 29088.16
+    2010:
+      total_raised: 33041.86
+      total_spent: 25469.84
+    2012:
+      total_raised: 53425.68
+      total_spent: 35851.85
+    2014:
+      total_raised: 38637.36
+      total_spent: 38960.64
 title: Michael J. Moran
 layout: candidate
 ---

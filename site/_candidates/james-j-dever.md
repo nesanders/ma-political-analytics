@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17352
+  by_year:
+    2020:
+      total_raised: 30013.13
+      total_spent: 37641.98
 title: James J. Dever
 layout: candidate
 ---

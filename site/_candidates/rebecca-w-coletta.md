@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17390
+  by_year:
+    2024:
+      total_raised: 100457.97
+      total_spent: 101466.66
 title: Rebecca W. Coletta
 layout: candidate
 ---

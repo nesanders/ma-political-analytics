@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18065
+  by_year:
+    2024:
+      total_raised: 4620.12
+      total_spent: 4374.77
 title: Ty Vitale
 layout: candidate
 ---

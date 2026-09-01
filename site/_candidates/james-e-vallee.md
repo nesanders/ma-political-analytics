@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12542
+  by_year:
+    2002:
+      total_raised: 16476.13
+      total_spent: 15272.08
+    2004:
+      total_raised: 24762.7
+      total_spent: 17557.18
+    2006:
+      total_raised: 38831.0
+      total_spent: 31768.85
+    2008:
+      total_raised: 32999.0
+      total_spent: 37412.51
+    2010:
+      total_raised: 25574.0
+      total_spent: 33646.0
 title: James E. Vallee
 layout: candidate
 ---

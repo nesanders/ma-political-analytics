@@ -203,6 +203,40 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11119
+  by_year:
+    2016:
+      total_raised: 26915.0
+      total_spent: 10208.15
+    2018:
+      total_raised: 33070.0
+      total_spent: 9271.13
+    2020:
+      total_raised: 3767.8
+      total_spent: 3258.83
+    2002:
+      total_raised: 38988.63
+      total_spent: 25813.77
+    2004:
+      total_raised: 22576.86
+      total_spent: 13949.32
+    2006:
+      total_raised: 33711.38
+      total_spent: 60217.5
+    2008:
+      total_raised: 22124.26
+      total_spent: 13299.66
+    2010:
+      total_raised: 21145.0
+      total_spent: 11657.12
+    2012:
+      total_raised: 20344.95
+      total_spent: 21905.16
+    2014:
+      total_raised: 33225.0
+      total_spent: 23011.67
 title: Antonio F.D. Cabral
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17415
+  by_year:
+    2024:
+      total_raised: 64681.0
+      total_spent: 62524.45
 title: Jesse G. Brown
 layout: candidate
 ---

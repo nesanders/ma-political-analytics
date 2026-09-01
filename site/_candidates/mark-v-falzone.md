@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13435
+  by_year:
+    2002:
+      total_raised: 42282.75
+      total_spent: 58866.45
+    2004:
+      total_raised: 44985.74
+      total_spent: 33405.38
+    2006:
+      total_raised: 48093.93
+      total_spent: 50371.51
+    2008:
+      total_raised: 15353.98
+      total_spent: 36211.6
+    2010:
+      total_raised: 53764.55
+      total_spent: 63808.9
 title: Mark V. Falzone
 layout: candidate
 ---

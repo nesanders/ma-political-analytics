@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14516
+  by_year:
+    2006:
+      total_raised: 10430.0
+      total_spent: 10360.9
 title: Dennis G. Dallaire, Jr.
 layout: candidate
 ---

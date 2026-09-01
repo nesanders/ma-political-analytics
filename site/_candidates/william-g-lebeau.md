@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15497
+  by_year:
+    2012:
+      total_raised: 2935.0
+      total_spent: 2560.98
 title: William G. Lebeau
 layout: candidate
 ---

@@ -83,6 +83,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13975
+  by_year:
+    2018:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Donato H. Paglia
 layout: candidate
 ---

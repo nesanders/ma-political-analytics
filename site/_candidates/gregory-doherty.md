@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13989
+  by_year:
+    2002:
+      total_raised: 4909.52
+      total_spent: 4353.96
+    2004:
+      total_raised: 1375.0
+      total_spent: 273.17
 title: Gregory Doherty
 layout: candidate
 ---

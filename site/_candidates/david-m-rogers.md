@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15483
   by_year:
+    2016:
+      total_raised: 700.0
+      total_spent: 5826.34
+    2018:
+      total_raised: 9560.0
+      total_spent: 11406.79
+    2020:
+      total_raised: 64357.22
+      total_spent: 127305.46
     2022:
       total_raised: 18176.42
       total_spent: 18959.43
+    2024:
+      total_raised: 15831.55
+      total_spent: 22049.6
+    2012:
+      total_raised: 48236.94
+      total_spent: 37541.27
+    2014:
+      total_raised: 17500.0
+      total_spent: 22097.11
 title: David M. Rogers
 layout: candidate
 ---

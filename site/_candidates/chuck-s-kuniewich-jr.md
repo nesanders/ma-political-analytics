@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14985
+  by_year:
+    2010:
+      total_raised: 3684.0
+      total_spent: 3264.51
+    2012:
+      total_raised: 4024.0
+      total_spent: 5632.85
 title: Chuck S. Kuniewich, Jr.
 layout: candidate
 ---

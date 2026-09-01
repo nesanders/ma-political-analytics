@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18740
+  by_year:
+    2024:
+      total_raised: 94046.7
+      total_spent: 66299.38
 title: Leigh Susan Davis
 layout: candidate
 ---

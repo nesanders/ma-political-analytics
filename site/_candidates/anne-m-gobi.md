@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 13731
   by_year:
+    2016:
+      total_raised: 19875.0
+      total_spent: 25701.55
+    2018:
+      total_raised: 31680.0
+      total_spent: 18200.94
+    2020:
+      total_raised: 10919.53
+      total_spent: 20320.65
     2022:
       total_raised: 21073.3
       total_spent: 28998.96
+    2002:
+      total_raised: 18645.0
+      total_spent: 13517.79
+    2004:
+      total_raised: 19560.0
+      total_spent: 7059.0
+    2006:
+      total_raised: 11970.0
+      total_spent: 13674.77
+    2008:
+      total_raised: 14070.0
+      total_spent: 6339.35
+    2010:
+      total_raised: 9935.0
+      total_spent: 3484.51
+    2012:
+      total_raised: 6990.0
+      total_spent: 2919.09
+    2014:
+      total_raised: 43996.0
+      total_spent: 17588.38
 title: Anne M. Gobi
 layout: candidate
 ---

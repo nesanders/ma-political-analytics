@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14763
   by_year:
+    2016:
+      total_raised: 6025.0
+      total_spent: 6886.79
+    2018:
+      total_raised: 25570.68
+      total_spent: 27165.09
+    2020:
+      total_raised: 1650.0
+      total_spent: 1063.36
     2022:
       total_raised: 2922.35
       total_spent: 5875.19
+    2024:
+      total_raised: 18435.0
+      total_spent: 14225.18
+    2008:
+      total_raised: 35132.47
+      total_spent: 35108.51
+    2010:
+      total_raised: 11605.05
+      total_spent: 10141.44
+    2012:
+      total_raised: 12630.12
+      total_spent: 8309.23
+    2014:
+      total_raised: 13437.5
+      total_spent: 8648.07
 title: Sean Garballey
 layout: candidate
 ---

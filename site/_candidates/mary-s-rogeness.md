@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12106
+  by_year:
+    2002:
+      total_raised: 23330.02
+      total_spent: 30416.97
+    2004:
+      total_raised: 22222.16
+      total_spent: 17307.93
+    2006:
+      total_raised: 2074.98
+      total_spent: 6901.8
 title: Mary S. Rogeness
 layout: candidate
 ---

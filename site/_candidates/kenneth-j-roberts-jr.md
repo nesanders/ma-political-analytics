@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15756
+  by_year:
+    2014:
+      total_raised: 1599.56
+      total_spent: 1453.64
 title: Kenneth J. Roberts, Jr
 layout: candidate
 ---

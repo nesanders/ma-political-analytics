@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13866
+  by_year:
+    2002:
+      total_raised: 28974.0
+      total_spent: 22042.44
+    2004:
+      total_raised: 19185.0
+      total_spent: 16919.14
+    2006:
+      total_raised: 29069.64
+      total_spent: 38108.56
+    2008:
+      total_raised: 13480.0
+      total_spent: 13609.55
+    2010:
+      total_raised: 30910.0
+      total_spent: 29992.41
 title: Daniel K. Webster
 layout: candidate
 ---

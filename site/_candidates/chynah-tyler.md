@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 16408
   by_year:
+    2016:
+      total_raised: 30456.73
+      total_spent: 26942.78
+    2018:
+      total_raised: 2039.0
+      total_spent: 7636.91
+    2020:
+      total_raised: 34052.54
+      total_spent: 18487.64
     2022:
       total_raised: 41005.1
       total_spent: 70166.96
+    2024:
+      total_raised: 24794.84
+      total_spent: 15615.43
 title: Chynah Tyler
 layout: candidate
 ---

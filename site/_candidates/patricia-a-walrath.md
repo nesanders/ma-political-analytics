@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10449
+  by_year:
+    2002:
+      total_raised: 8004.54
+      total_spent: 8052.48
+    2004:
+      total_raised: 26853.2
+      total_spent: 28751.74
+    2006:
+      total_raised: 7599.48
+      total_spent: 2583.47
 title: Patricia A. Walrath
 layout: candidate
 ---

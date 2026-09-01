@@ -183,6 +183,37 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 10403
+  by_year:
+    2016:
+      total_raised: 41788.0
+      total_spent: 32932.91
+    2018:
+      total_raised: 42545.0
+      total_spent: 30735.45
+    2002:
+      total_raised: 9971.29
+      total_spent: 6590.19
+    2004:
+      total_raised: 19478.0
+      total_spent: 8765.04
+    2006:
+      total_raised: 7338.0
+      total_spent: 3795.31
+    2008:
+      total_raised: 1905.0
+      total_spent: 281.86
+    2010:
+      total_raised: 35349.06
+      total_spent: 21576.95
+    2012:
+      total_raised: 24529.79
+      total_spent: 29955.55
+    2014:
+      total_raised: 23840.0
+      total_spent: 26214.04
 title: Theodore C. Speliotis
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15783
+  by_year:
+    2014:
+      total_raised: 12808.83
+      total_spent: 7386.38
 title: Gene A. Rauhala
 layout: candidate
 ---

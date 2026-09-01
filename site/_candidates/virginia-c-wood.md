@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14754
+  by_year:
+    2008:
+      total_raised: 33126.54
+      total_spent: 33402.54
 title: Virginia C. Wood
 layout: candidate
 ---

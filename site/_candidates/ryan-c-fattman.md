@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15006
   by_year:
+    2016:
+      total_raised: 58225.0
+      total_spent: 19519.56
+    2018:
+      total_raised: 86756.08
+      total_spent: 17466.18
+    2020:
+      total_raised: 61376.28
+      total_spent: 213603.11
     2022:
       total_raised: 71379.9
       total_spent: 34479.77
+    2024:
+      total_raised: 86149.72
+      total_spent: 72841.59
+    2010:
+      total_raised: 28482.85
+      total_spent: 35231.18
+    2012:
+      total_raised: 50384.68
+      total_spent: 24860.43
+    2014:
+      total_raised: 62735.0
+      total_spent: 123132.08
 title: Ryan C. Fattman
 layout: candidate
 ---

@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15015
   by_year:
+    2016:
+      total_raised: 31160.0
+      total_spent: 15163.48
+    2018:
+      total_raised: 28740.0
+      total_spent: 16979.22
+    2020:
+      total_raised: 36610.49
+      total_spent: 19032.59
     2022:
       total_raised: 28288.29
       total_spent: 13433.79
+    2024:
+      total_raised: 19331.54
+      total_spent: 15598.78
+    2010:
+      total_raised: 36735.22
+      total_spent: 31650.55
+    2012:
+      total_raised: 11110.0
+      total_spent: 9828.34
+    2014:
+      total_raised: 15935.0
+      total_spent: 15447.7
 title: Jerald A. Parisella
 layout: candidate
 ---

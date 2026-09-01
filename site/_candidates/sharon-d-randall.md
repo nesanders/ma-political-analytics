@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14140
+  by_year:
+    2004:
+      total_raised: 31207.23
+      total_spent: 33136.58
 title: Sharon D. Randall
 layout: candidate
 ---

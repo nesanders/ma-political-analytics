@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17512
+  by_year:
+    2020:
+      total_raised: 6113.55
+      total_spent: 6060.73
 title: Frank Herbert Collins
 layout: candidate
 ---

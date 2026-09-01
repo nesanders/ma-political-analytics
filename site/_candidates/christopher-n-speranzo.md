@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14373
+  by_year:
+    2008:
+      total_raised: 15045.0
+      total_spent: 4136.86
+    2010:
+      total_raised: 11200.0
+      total_spent: 12021.24
+    2006:
+      total_raised: 5450.0
+      total_spent: 9155.79
 title: Christopher N. Speranzo
 layout: candidate
 ---

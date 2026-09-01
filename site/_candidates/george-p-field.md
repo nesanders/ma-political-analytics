@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13944
+  by_year:
+    2002:
+      total_raised: 33291.0
+      total_spent: 18312.08
+    2004:
+      total_raised: 65911.93
+      total_spent: 35544.92
 title: George P. Field
 layout: candidate
 ---

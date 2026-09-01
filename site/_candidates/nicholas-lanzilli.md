@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15852
+  by_year:
+    2014:
+      total_raised: 20220.0
+      total_spent: 7662.88
 title: Nicholas Lanzilli
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11842
+  by_year:
+    2002:
+      total_raised: 1981.05
+      total_spent: 4917.43
 title: Shaun P. Kelly
 layout: candidate
 ---

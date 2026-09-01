@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15895
+  by_year:
+    2014:
+      total_raised: 30049.28
+      total_spent: 21798.09
 title: Edward C. Cameron
 layout: candidate
 ---

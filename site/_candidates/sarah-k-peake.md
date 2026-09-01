@@ -207,9 +207,36 @@ ocpf_finance:
   cpf_ids:
   - 14208
   by_year:
+    2016:
+      total_raised: 6050.18
+      total_spent: 17468.84
+    2018:
+      total_raised: 2685.18
+      total_spent: 10924.61
+    2020:
+      total_raised: 14966.22
+      total_spent: 8225.18
     2022:
       total_raised: 127630.56
       total_spent: 163431.01
+    2004:
+      total_raised: 51133.71
+      total_spent: 44604.59
+    2006:
+      total_raised: 55498.0
+      total_spent: 47026.31
+    2008:
+      total_raised: 65311.93
+      total_spent: 35673.44
+    2010:
+      total_raised: 64550.0
+      total_spent: 54504.1
+    2012:
+      total_raised: 29038.25
+      total_spent: 19080.02
+    2014:
+      total_raised: 26540.52
+      total_spent: 19343.97
 title: Sarah K. Peake
 layout: candidate
 ---

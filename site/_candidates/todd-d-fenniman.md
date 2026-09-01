@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13917
+  by_year:
+    2002:
+      total_raised: 30531.13
+      total_spent: 22067.92
 title: Todd D. Fenniman
 layout: candidate
 ---

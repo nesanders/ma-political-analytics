@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11930
+  by_year:
+    2002:
+      total_raised: 7349.3
+      total_spent: 762.72
+    2004:
+      total_raised: 40921.0
+      total_spent: 33696.19
+    2006:
+      total_raised: 5762.69
+      total_spent: 1277.14
 title: Douglas W. Petersen
 layout: candidate
 ---

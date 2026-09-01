@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18326
+  by_year:
+    2024:
+      total_raised: 43680.19
+      total_spent: 44368.48
 title: Sean Reid
 layout: candidate
 ---

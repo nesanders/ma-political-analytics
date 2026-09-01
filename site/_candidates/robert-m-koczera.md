@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11497
+  by_year:
+    2016:
+      total_raised: 555.79
+      total_spent: 562.0
+    2002:
+      total_raised: 5283.32
+      total_spent: 4622.98
+    2004:
+      total_raised: 18184.44
+      total_spent: 6996.74
+    2006:
+      total_raised: 22559.01
+      total_spent: 24177.91
+    2008:
+      total_raised: 12970.48
+      total_spent: 8187.11
+    2010:
+      total_raised: 13704.39
+      total_spent: 6220.29
+    2012:
+      total_raised: 7633.71
+      total_spent: 5417.16
+    2014:
+      total_raised: 550.12
+      total_spent: 2442.69
 title: Robert M. Koczera
 layout: candidate
 ---

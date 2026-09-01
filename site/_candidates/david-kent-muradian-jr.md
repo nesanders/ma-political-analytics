@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15779
+  by_year:
+    2024:
+      total_raised: 3950.0
+      total_spent: 21969.98
 title: David Kent Muradian, Jr
 layout: candidate
 ---

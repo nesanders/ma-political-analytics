@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15393
+  by_year:
+    2012:
+      total_raised: 14091.23
+      total_spent: 13088.63
+    2014:
+      total_raised: 2300.0
+      total_spent: 1274.2
 title: Samuel Salvatore Disanti, Jr.
 layout: candidate
 ---

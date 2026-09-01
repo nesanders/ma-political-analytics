@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14511
+  by_year:
+    2006:
+      total_raised: 5020.0
+      total_spent: 4148.62
 title: Joseph D. Rice
 layout: candidate
 ---

@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13342
+  by_year:
+    2002:
+      total_raised: 27030.0
+      total_spent: 25127.99
+    2004:
+      total_raised: 37119.0
+      total_spent: 30482.38
+    2006:
+      total_raised: 29995.0
+      total_spent: 35104.78
+    2008:
+      total_raised: 19430.0
+      total_spent: 18050.63
+    2010:
+      total_raised: 19769.0
+      total_spent: 15823.7
 title: Demetrius J. Atsalis
 layout: candidate
 ---

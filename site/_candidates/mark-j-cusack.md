@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15177
   by_year:
+    2016:
+      total_raised: 26695.0
+      total_spent: 40685.48
+    2018:
+      total_raised: 31895.0
+      total_spent: 34047.56
+    2020:
+      total_raised: 39860.0
+      total_spent: 50774.16
     2022:
       total_raised: 30109.03
       total_spent: 29475.51
+    2024:
+      total_raised: 37703.88
+      total_spent: 40958.29
+    2010:
+      total_raised: 27610.0
+      total_spent: 20633.83
+    2012:
+      total_raised: 23158.07
+      total_spent: 17280.29
+    2014:
+      total_raised: 23095.0
+      total_spent: 31243.94
 title: Mark J. Cusack
 layout: candidate
 ---

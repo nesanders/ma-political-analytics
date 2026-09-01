@@ -23,6 +23,14 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14772
+  - 15115
+  by_year:
+    2008:
+      total_raised: 0.0
+      total_spent: 450.0
 title: Zachary E. Saboliauskas
 layout: candidate
 ---

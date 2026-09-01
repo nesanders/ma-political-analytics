@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15446
+  by_year:
+    2012:
+      total_raised: 8811.54
+      total_spent: 4599.24
 title: A. Keith Carreiro
 layout: candidate
 ---

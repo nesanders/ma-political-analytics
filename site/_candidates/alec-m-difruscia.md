@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16320
+  by_year:
+    2020:
+      total_raised: 42010.73
+      total_spent: 48250.75
 title: Alec M. Difruscia
 layout: candidate
 ---

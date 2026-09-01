@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12966
+  by_year:
+    2002:
+      total_raised: 14850.0
+      total_spent: 10879.05
+    2004:
+      total_raised: 16575.0
+      total_spent: 13754.18
+    2006:
+      total_raised: 16600.0
+      total_spent: 12159.84
+    2008:
+      total_raised: 15250.0
+      total_spent: 8485.97
+    2010:
+      total_raised: 17750.0
+      total_spent: 11213.2
 title: Geraldine Creedon
 layout: candidate
 ---

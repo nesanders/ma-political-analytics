@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15863
+  by_year:
+    2014:
+      total_raised: 15012.19
+      total_spent: 6470.39
 title: Keavin P. Duffy, Jr
 layout: candidate
 ---

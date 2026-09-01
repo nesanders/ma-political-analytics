@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14813
+  by_year:
+    2008:
+      total_raised: 93692.94
+      total_spent: 70019.08
 title: Dan Haley
 layout: candidate
 ---

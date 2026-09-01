@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15072
+  by_year:
+    2010:
+      total_raised: 52820.0
+      total_spent: 42088.42
+    2012:
+      total_raised: 19640.0
+      total_spent: 12370.08
+    2014:
+      total_raised: 19588.0
+      total_spent: 17097.65
 title: Matthew A. Beaton
 layout: candidate
 ---

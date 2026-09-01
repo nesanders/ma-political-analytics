@@ -163,6 +163,34 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12606
+  by_year:
+    2016:
+      total_raised: 5625.0
+      total_spent: 5496.59
+    2002:
+      total_raised: 44620.56
+      total_spent: 19786.9
+    2004:
+      total_raised: 21201.73
+      total_spent: 22398.97
+    2006:
+      total_raised: 1056.46
+      total_spent: 8428.6
+    2008:
+      total_raised: 19667.55
+      total_spent: 21431.76
+    2010:
+      total_raised: 1982.92
+      total_spent: 5425.25
+    2012:
+      total_raised: 16973.78
+      total_spent: 8822.4
+    2014:
+      total_raised: 6323.59
+      total_spent: 5193.18
 title: Jay R. Kaufman
 layout: candidate
 ---

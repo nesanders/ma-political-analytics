@@ -43,6 +43,16 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13972
+  by_year:
+    2002:
+      total_raised: 11891.06
+      total_spent: 11334.92
+    2006:
+      total_raised: 16922.07
+      total_spent: 11796.04
 title: Mark A. Howland
 layout: candidate
 ---

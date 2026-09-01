@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15880
+  by_year:
+    2014:
+      total_raised: 4225.0
+      total_spent: 3438.39
 title: Sharon K. Antia
 layout: candidate
 ---

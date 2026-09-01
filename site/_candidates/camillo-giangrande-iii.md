@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14295
+  by_year:
+    2004:
+      total_raised: 3530.0
+      total_spent: 4303.49
 title: Camillo Giangrande, III
 layout: candidate
 ---

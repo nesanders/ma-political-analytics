@@ -127,9 +127,24 @@ ocpf_finance:
   cpf_ids:
   - 15829
   by_year:
+    2016:
+      total_raised: 17630.0
+      total_spent: 14509.32
+    2018:
+      total_raised: 16476.0
+      total_spent: 18488.5
+    2020:
+      total_raised: 17063.16
+      total_spent: 12187.33
     2022:
       total_raised: 27709.36
       total_spent: 8888.18
+    2024:
+      total_raised: 26614.67
+      total_spent: 16311.41
+    2014:
+      total_raised: 83202.7
+      total_spent: 76541.38
 title: Steven Ultrino
 layout: candidate
 ---

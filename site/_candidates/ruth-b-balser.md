@@ -227,9 +227,39 @@ ocpf_finance:
   cpf_ids:
   - 13237
   by_year:
+    2016:
+      total_raised: 23355.16
+      total_spent: 12772.72
+    2018:
+      total_raised: 22838.18
+      total_spent: 9693.33
+    2020:
+      total_raised: 1773.87
+      total_spent: 5270.21
     2022:
       total_raised: 16905.0
       total_spent: 13178.71
+    2002:
+      total_raised: 18844.46
+      total_spent: 7404.13
+    2004:
+      total_raised: 20248.54
+      total_spent: 13236.76
+    2006:
+      total_raised: 26478.0
+      total_spent: 14151.4
+    2008:
+      total_raised: 69469.0
+      total_spent: 49712.34
+    2010:
+      total_raised: 64263.0
+      total_spent: 63918.03
+    2012:
+      total_raised: 31980.05
+      total_spent: 9993.94
+    2014:
+      total_raised: 717.1
+      total_spent: 5937.89
 title: Ruth B. Balser
 layout: candidate
 ---

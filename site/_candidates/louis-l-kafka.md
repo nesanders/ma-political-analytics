@@ -183,6 +183,37 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11709
+  by_year:
+    2016:
+      total_raised: 14850.0
+      total_spent: 10528.9
+    2018:
+      total_raised: 14301.0
+      total_spent: 20035.27
+    2002:
+      total_raised: 8087.67
+      total_spent: 7719.44
+    2004:
+      total_raised: 5326.09
+      total_spent: 6094.55
+    2006:
+      total_raised: 17427.73
+      total_spent: 13386.92
+    2008:
+      total_raised: 19739.83
+      total_spent: 10527.96
+    2010:
+      total_raised: 22850.0
+      total_spent: 18802.23
+    2012:
+      total_raised: 19880.0
+      total_spent: 13601.94
+    2014:
+      total_raised: 16241.0
+      total_spent: 17497.2
 title: Louis L. Kafka
 layout: candidate
 ---

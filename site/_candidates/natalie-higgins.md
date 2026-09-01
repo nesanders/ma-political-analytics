@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 16366
   by_year:
+    2016:
+      total_raised: 32817.2
+      total_spent: 21214.09
+    2018:
+      total_raised: 24219.0
+      total_spent: 8355.03
+    2020:
+      total_raised: 24597.1
+      total_spent: 23481.94
     2022:
       total_raised: 31945.28
       total_spent: 32025.08
+    2024:
+      total_raised: 24541.43
+      total_spent: 28577.46
 title: Natalie Higgins
 layout: candidate
 ---

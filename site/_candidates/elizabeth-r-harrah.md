@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17518
+  by_year:
+    2020:
+      total_raised: 17643.74
+      total_spent: 17447.52
 title: Elizabeth R. Harrah
 layout: candidate
 ---

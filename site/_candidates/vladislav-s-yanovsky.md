@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17988
+  by_year:
+    2024:
+      total_raised: 5050.0
+      total_spent: 128.72
 title: Vladislav S. Yanovsky
 layout: candidate
 ---

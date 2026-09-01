@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15135
+  by_year:
+    2010:
+      total_raised: 23252.36
+      total_spent: 19393.25
 title: Katherine Kozitza
 layout: candidate
 ---

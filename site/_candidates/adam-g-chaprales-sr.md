@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15704
+  by_year:
+    2014:
+      total_raised: 22061.62
+      total_spent: 19178.4
 title: Adam G. Chaprales, Sr
 layout: candidate
 ---

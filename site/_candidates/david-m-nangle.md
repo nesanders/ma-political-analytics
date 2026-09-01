@@ -183,6 +183,37 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13338
+  by_year:
+    2016:
+      total_raised: 45835.0
+      total_spent: 43291.6
+    2018:
+      total_raised: 65055.18
+      total_spent: 44069.98
+    2002:
+      total_raised: 32795.0
+      total_spent: 19449.38
+    2004:
+      total_raised: 44595.0
+      total_spent: 21160.08
+    2006:
+      total_raised: 29670.0
+      total_spent: 23898.72
+    2008:
+      total_raised: 40464.0
+      total_spent: 29820.29
+    2010:
+      total_raised: 28135.0
+      total_spent: 22848.32
+    2012:
+      total_raised: 48966.5
+      total_spent: 32866.53
+    2014:
+      total_raised: 79579.0
+      total_spent: 35073.57
 title: David M. Nangle
 layout: candidate
 ---

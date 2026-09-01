@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15157
+  by_year:
+    2010:
+      total_raised: 175.0
+      total_spent: 175.0
 title: Hector Montalvo
 layout: candidate
 ---

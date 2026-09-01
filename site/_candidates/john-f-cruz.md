@@ -63,6 +63,19 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12023
+  by_year:
+    2010:
+      total_raised: 14078.28
+      total_spent: 13562.24
+    2018:
+      total_raised: 11775.0
+      total_spent: 3880.56
+    2014:
+      total_raised: 35173.27
+      total_spent: 18797.59
 title: John F. Cruz
 layout: candidate
 ---

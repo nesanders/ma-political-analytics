@@ -108,9 +108,21 @@ ocpf_finance:
   - 11118
   - 16291
   by_year:
+    2016:
+      total_raised: 50446.6
+      total_spent: 43171.48
+    2018:
+      total_raised: 7882.58
+      total_spent: 4857.51
+    2020:
+      total_raised: 39443.68
+      total_spent: 2917.92
     2022:
       total_raised: 1542.1
       total_spent: 6775.3
+    2024:
+      total_raised: 13684.12
+      total_spent: 7937.16
 title: Thomas P. Walsh
 layout: candidate
 ---

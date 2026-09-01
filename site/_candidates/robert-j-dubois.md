@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13837
+  by_year:
+    2012:
+      total_raised: 28695.0
+      total_spent: 17011.63
 title: Robert J. Dubois
 layout: candidate
 ---

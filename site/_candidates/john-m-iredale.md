@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15150
+  by_year:
+    2010:
+      total_raised: 26291.03
+      total_spent: 15000.27
 title: John M. Iredale
 layout: candidate
 ---

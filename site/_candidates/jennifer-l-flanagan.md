@@ -143,6 +143,31 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14196
+  by_year:
+    2016:
+      total_raised: 45990.0
+      total_spent: 52933.28
+    2004:
+      total_raised: 22757.0
+      total_spent: 23622.43
+    2006:
+      total_raised: 25139.0
+      total_spent: 20371.47
+    2008:
+      total_raised: 107873.17
+      total_spent: 112958.58
+    2010:
+      total_raised: 51001.41
+      total_spent: 41736.21
+    2012:
+      total_raised: 46168.18
+      total_spent: 44502.9
+    2014:
+      total_raised: 78047.96
+      total_spent: 52513.52
 title: Jennifer L. Flanagan
 layout: candidate
 ---

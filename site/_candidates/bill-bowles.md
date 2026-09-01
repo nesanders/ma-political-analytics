@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14774
+  by_year:
+    2008:
+      total_raised: 22312.35
+      total_spent: 18610.18
+    2010:
+      total_raised: 22529.77
+      total_spent: 23595.63
 title: Bill Bowles
 layout: candidate
 ---

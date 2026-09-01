@@ -103,6 +103,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12266
+  by_year:
+    2002:
+      total_raised: 16395.0
+      total_spent: 18239.28
+    2004:
+      total_raised: 33429.59
+      total_spent: 22091.41
+    2006:
+      total_raised: 37895.22
+      total_spent: 21954.62
+    2008:
+      total_raised: 32706.07
+      total_spent: 28870.78
+    2010:
+      total_raised: 39862.82
+      total_spent: 49961.73
 title: James H. Fagan
 layout: candidate
 ---

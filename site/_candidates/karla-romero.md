@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14946
+  by_year:
+    2010:
+      total_raised: 1725.0
+      total_spent: 936.78
 title: Karla Romero
 layout: candidate
 ---

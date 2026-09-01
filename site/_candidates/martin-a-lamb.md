@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15404
+  by_year:
+    2012:
+      total_raised: 41728.78
+      total_spent: 44332.6
 title: Martin A. Lamb
 layout: candidate
 ---

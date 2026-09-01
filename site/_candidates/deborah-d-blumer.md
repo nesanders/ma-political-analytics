@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13537
+  by_year:
+    2002:
+      total_raised: 13904.0
+      total_spent: 12527.36
+    2004:
+      total_raised: 13749.0
+      total_spent: 6169.86
+    2006:
+      total_raised: 10715.0
+      total_spent: 5476.06
 title: Deborah D. Blumer
 layout: candidate
 ---

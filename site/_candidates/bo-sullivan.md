@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13891
+  by_year:
+    2002:
+      total_raised: 27840.0
+      total_spent: 17478.06
 title: Bo Sullivan
 layout: candidate
 ---

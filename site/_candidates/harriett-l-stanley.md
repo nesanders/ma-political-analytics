@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12791
+  by_year:
+    2002:
+      total_raised: 27290.0
+      total_spent: 6724.76
+    2004:
+      total_raised: 23547.02
+      total_spent: 9669.22
+    2006:
+      total_raised: 19520.0
+      total_spent: 16673.44
+    2008:
+      total_raised: 9901.69
+      total_spent: 6866.72
+    2010:
+      total_raised: 22905.35
+      total_spent: 30982.54
 title: Harriett L. Stanley
 layout: candidate
 ---

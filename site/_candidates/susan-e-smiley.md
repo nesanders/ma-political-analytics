@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17503
+  by_year:
+    2020:
+      total_raised: 17906.61
+      total_spent: 15909.24
 title: Susan E. Smiley
 layout: candidate
 ---

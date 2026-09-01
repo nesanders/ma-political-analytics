@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14833
+  by_year:
+    2008:
+      total_raised: 1867.5
+      total_spent: 1867.5
 title: Richard P. McClure
 layout: candidate
 ---

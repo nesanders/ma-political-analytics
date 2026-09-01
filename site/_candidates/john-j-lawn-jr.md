@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15297
   by_year:
+    2016:
+      total_raised: 14342.1
+      total_spent: 19444.62
+    2018:
+      total_raised: 13542.1
+      total_spent: 14128.52
+    2020:
+      total_raised: 75740.7
+      total_spent: 75740.9
     2022:
       total_raised: 69345.25
       total_spent: 61034.33
+    2024:
+      total_raised: 103856.41
+      total_spent: 128032.28
+    2012:
+      total_raised: 28946.0
+      total_spent: 14335.3
+    2014:
+      total_raised: 9369.77
+      total_spent: 9615.69
 title: John J. Lawn, Jr.
 layout: candidate
 ---

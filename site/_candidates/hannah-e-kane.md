@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15930
   by_year:
+    2016:
+      total_raised: 38866.0
+      total_spent: 26019.53
+    2018:
+      total_raised: 41723.37
+      total_spent: 31427.93
+    2020:
+      total_raised: 35387.04
+      total_spent: 18392.84
     2022:
       total_raised: 69600.89
       total_spent: 40429.42
+    2024:
+      total_raised: 17367.8
+      total_spent: 29154.0
 title: Hannah E. Kane
 layout: candidate
 ---

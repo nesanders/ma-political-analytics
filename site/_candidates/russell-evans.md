@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14506
+  by_year:
+    2006:
+      total_raised: 9503.5
+      total_spent: 4748.56
 title: Russell Evans
 layout: candidate
 ---

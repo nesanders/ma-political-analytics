@@ -107,9 +107,21 @@ ocpf_finance:
   cpf_ids:
   - 15820
   by_year:
+    2016:
+      total_raised: 9115.0
+      total_spent: 9286.81
+    2018:
+      total_raised: 11760.0
+      total_spent: 9812.8
+    2020:
+      total_raised: 24389.87
+      total_spent: 28109.8
     2022:
       total_raised: 1070.25
       total_spent: 1614.47
+    2014:
+      total_raised: 19835.0
+      total_spent: 16426.13
 title: Michelle M. Dubois
 layout: candidate
 ---

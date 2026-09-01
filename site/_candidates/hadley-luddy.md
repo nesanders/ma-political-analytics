@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18752
+  by_year:
+    2024:
+      total_raised: 67357.74
+      total_spent: 51218.81
 title: Hadley Luddy
 layout: candidate
 ---

@@ -103,6 +103,25 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13309
+  by_year:
+    2002:
+      total_raised: 34510.0
+      total_spent: 38567.95
+    2004:
+      total_raised: 30495.0
+      total_spent: 24285.64
+    2006:
+      total_raised: 16643.0
+      total_spent: 25375.23
+    2008:
+      total_raised: 26340.0
+      total_spent: 30339.6
+    2010:
+      total_raised: 48296.0
+      total_spent: 68851.27
 title: Jennifer M. Callahan
 layout: candidate
 ---

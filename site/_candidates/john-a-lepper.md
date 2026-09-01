@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12726
+  by_year:
+    2002:
+      total_raised: 7200.0
+      total_spent: 6528.83
+    2004:
+      total_raised: 0.0
+      total_spent: 4104.63
+    2006:
+      total_raised: 38994.0
+      total_spent: 28518.91
 title: John A. Lepper
 layout: candidate
 ---

@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14543
   by_year:
+    2016:
+      total_raised: 8275.0
+      total_spent: 3993.36
+    2018:
+      total_raised: 35382.79
+      total_spent: 19527.89
+    2020:
+      total_raised: 848.02
+      total_spent: 3031.61
     2022:
       total_raised: 15371.02
       total_spent: 4485.31
+    2024:
+      total_raised: 11890.85
+      total_spent: 7526.65
+    2008:
+      total_raised: 16290.0
+      total_spent: 9995.95
+    2010:
+      total_raised: 11577.97
+      total_spent: 10552.38
+    2012:
+      total_raised: 10225.0
+      total_spent: 11929.38
+    2014:
+      total_raised: 1250.0
+      total_spent: 1587.48
 title: Brian M. Ashe
 layout: candidate
 ---

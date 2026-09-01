@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14863
+  by_year:
+    2008:
+      total_raised: 41623.0
+      total_spent: 29687.37
 title: Chad Riley
 layout: candidate
 ---

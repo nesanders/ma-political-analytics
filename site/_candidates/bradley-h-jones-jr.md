@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 12534
   by_year:
+    2016:
+      total_raised: 58518.0
+      total_spent: 30594.55
+    2018:
+      total_raised: 51473.62
+      total_spent: 34392.36
+    2020:
+      total_raised: 88860.97
+      total_spent: 101465.51
     2022:
       total_raised: 67116.62
       total_spent: 38594.17
+    2024:
+      total_raised: 56490.95
+      total_spent: 67600.31
+    2002:
+      total_raised: 31393.13
+      total_spent: 24025.46
+    2004:
+      total_raised: 89136.99
+      total_spent: 83780.78
+    2006:
+      total_raised: 63937.82
+      total_spent: 34255.75
+    2008:
+      total_raised: 58024.6
+      total_spent: 47921.87
+    2010:
+      total_raised: 45160.06
+      total_spent: 37490.64
+    2012:
+      total_raised: 52039.26
+      total_spent: 40701.68
+    2014:
+      total_raised: 48160.9
+      total_spent: 37491.59
 title: Bradley H. Jones, Jr
 layout: candidate
 ---

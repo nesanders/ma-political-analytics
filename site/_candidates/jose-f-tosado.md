@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13785
+  by_year:
+    2016:
+      total_raised: 18065.0
+      total_spent: 11697.23
+    2018:
+      total_raised: 16200.0
+      total_spent: 18698.72
+    2014:
+      total_raised: 17140.0
+      total_spent: 17007.8
 title: Jose F. Tosado
 layout: candidate
 ---

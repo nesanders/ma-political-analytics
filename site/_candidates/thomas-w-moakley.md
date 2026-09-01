@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 17401
+  by_year:
+    2024:
+      total_raised: 77212.05
+      total_spent: 84331.87
 title: Thomas W. Moakley
 layout: candidate
 ---

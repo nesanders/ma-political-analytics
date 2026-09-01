@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15021
   by_year:
+    2016:
+      total_raised: 29730.0
+      total_spent: 15635.39
+    2018:
+      total_raised: 3200.0
+      total_spent: 9269.34
+    2020:
+      total_raised: 6500.0
+      total_spent: 5440.4
     2022:
       total_raised: 41224.24
       total_spent: 20462.8
+    2024:
+      total_raised: 6190.34
+      total_spent: 10502.3
+    2010:
+      total_raised: 72450.15
+      total_spent: 75625.25
+    2012:
+      total_raised: 15257.75
+      total_spent: 11234.89
+    2014:
+      total_raised: 50984.36
+      total_spent: 34585.84
 title: John F. Keenan
 layout: candidate
 ---

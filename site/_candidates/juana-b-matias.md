@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15713
+  by_year:
+    2016:
+      total_raised: 42966.34
+      total_spent: 39321.34
 title: Juana B. Matias
 layout: candidate
 ---

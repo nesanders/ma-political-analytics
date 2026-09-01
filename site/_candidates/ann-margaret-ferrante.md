@@ -187,9 +187,33 @@ ocpf_finance:
   cpf_ids:
   - 14757
   by_year:
+    2016:
+      total_raised: 40297.47
+      total_spent: 25300.21
+    2018:
+      total_raised: 24590.52
+      total_spent: 35416.01
+    2020:
+      total_raised: 66521.76
+      total_spent: 30777.84
     2022:
       total_raised: 82863.36
       total_spent: 68037.84
+    2024:
+      total_raised: 69645.15
+      total_spent: 97499.6
+    2008:
+      total_raised: 46335.0
+      total_spent: 62447.39
+    2010:
+      total_raised: 33198.0
+      total_spent: 20108.08
+    2012:
+      total_raised: 28865.0
+      total_spent: 15226.23
+    2014:
+      total_raised: 48518.17
+      total_spent: 46065.1
 title: Ann-Margaret Ferrante
 layout: candidate
 ---

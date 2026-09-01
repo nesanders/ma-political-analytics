@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15716
+  by_year:
+    2014:
+      total_raised: 41943.97
+      total_spent: 46154.28
 title: Brad P. Wyatt
 layout: candidate
 ---

@@ -147,9 +147,27 @@ ocpf_finance:
   cpf_ids:
   - 15463
   by_year:
+    2016:
+      total_raised: 21944.5
+      total_spent: 20366.21
+    2018:
+      total_raised: 13150.0
+      total_spent: 8437.14
+    2020:
+      total_raised: 16729.6
+      total_spent: 19378.35
     2022:
       total_raised: 19251.97
       total_spent: 17004.25
+    2024:
+      total_raised: 8539.7
+      total_spent: 10556.04
+    2012:
+      total_raised: 29702.6
+      total_spent: 20469.82
+    2014:
+      total_raised: 50618.0
+      total_spent: 44662.01
 title: Susannah M. Whipps
 layout: candidate
 ---

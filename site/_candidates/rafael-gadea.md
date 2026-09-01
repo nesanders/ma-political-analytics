@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15137
+  by_year:
+    2010:
+      total_raised: 5158.38
+      total_spent: 1719.28
 title: Rafael Gadea
 layout: candidate
 ---

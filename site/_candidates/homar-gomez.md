@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 18816
+  by_year:
+    2024:
+      total_raised: 8292.84
+      total_spent: 7780.61
 title: Homar Gomez
 layout: candidate
 ---

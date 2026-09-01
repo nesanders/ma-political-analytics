@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16352
+  by_year:
+    2016:
+      total_raised: 4571.0
+      total_spent: 3501.01
 title: Ted Busiek
 layout: candidate
 ---

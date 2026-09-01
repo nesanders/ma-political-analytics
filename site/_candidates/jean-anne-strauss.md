@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16945
+  by_year:
+    2018:
+      total_raised: 37696.51
+      total_spent: 25928.69
 title: Jean Anne Strauss
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16922
+  by_year:
+    2018:
+      total_raised: 70090.57
+      total_spent: 56304.46
 title: Katie L. Mcbrine
 layout: candidate
 ---

@@ -183,6 +183,37 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 12832
+  by_year:
+    2016:
+      total_raised: 53795.0
+      total_spent: 61007.96
+    2018:
+      total_raised: 39111.66
+      total_spent: 38120.58
+    2002:
+      total_raised: 25400.0
+      total_spent: 28730.81
+    2004:
+      total_raised: 80725.0
+      total_spent: 88477.17
+    2006:
+      total_raised: 7875.0
+      total_spent: 17633.0
+    2008:
+      total_raised: 85303.63
+      total_spent: 92580.26
+    2010:
+      total_raised: 50140.0
+      total_spent: 41165.72
+    2012:
+      total_raised: 19960.0
+      total_spent: 14332.81
+    2014:
+      total_raised: 97089.59
+      total_spent: 149918.97
 title: Harold P. Naughton, Jr.
 layout: candidate
 ---

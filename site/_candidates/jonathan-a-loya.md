@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15042
+  by_year:
+    2010:
+      total_raised: 3935.19
+      total_spent: 3817.1
 title: Jonathan A. Loya
 layout: candidate
 ---

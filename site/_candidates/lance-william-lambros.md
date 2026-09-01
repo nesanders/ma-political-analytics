@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13669
+  by_year:
+    2010:
+      total_raised: 25697.51
+      total_spent: 13191.3
 title: Lance William Lambros
 layout: candidate
 ---

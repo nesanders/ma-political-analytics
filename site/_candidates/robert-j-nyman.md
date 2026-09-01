@@ -83,6 +83,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 11356
+  - 16384
+  by_year:
+    2008:
+      total_raised: 13170.0
+      total_spent: 13759.6
+    2002:
+      total_raised: 22455.0
+      total_spent: 17971.58
+    2004:
+      total_raised: 16018.0
+      total_spent: 21641.84
+    2006:
+      total_raised: 25659.0
+      total_spent: 20763.37
 title: Robert J. Nyman
 layout: candidate
 ---

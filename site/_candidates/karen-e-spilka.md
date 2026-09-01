@@ -247,9 +247,42 @@ ocpf_finance:
   cpf_ids:
   - 13758
   by_year:
+    2016:
+      total_raised: 158449.53
+      total_spent: 69136.09
+    2018:
+      total_raised: 245978.21
+      total_spent: 164422.98
+    2020:
+      total_raised: 230577.41
+      total_spent: 189166.9
     2022:
       total_raised: 232569.41
       total_spent: 334423.84
+    2024:
+      total_raised: 325764.47
+      total_spent: 367305.9
+    2002:
+      total_raised: 6205.0
+      total_spent: 15284.55
+    2004:
+      total_raised: 115919.43
+      total_spent: 113852.45
+    2006:
+      total_raised: 32286.04
+      total_spent: 16165.88
+    2008:
+      total_raised: 10972.69
+      total_spent: 9359.53
+    2010:
+      total_raised: 96137.46
+      total_spent: 67706.11
+    2012:
+      total_raised: 45400.33
+      total_spent: 41547.42
+    2014:
+      total_raised: 19759.18
+      total_spent: 19387.43
 title: Karen E. Spilka
 layout: candidate
 ---

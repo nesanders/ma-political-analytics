@@ -23,6 +23,13 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14855
+  by_year:
+    2008:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Joseph A. Leone, III
 layout: candidate
 ---

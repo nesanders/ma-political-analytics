@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13892
+  by_year:
+    2002:
+      total_raised: 47720.0
+      total_spent: 40270.44
 title: Jeremiah Lowney
 layout: candidate
 ---

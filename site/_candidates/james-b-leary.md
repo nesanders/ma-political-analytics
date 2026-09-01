@@ -63,6 +63,19 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 13527
+  by_year:
+    2002:
+      total_raised: 19360.75
+      total_spent: 14448.59
+    2004:
+      total_raised: 35289.97
+      total_spent: 29668.46
+    2006:
+      total_raised: 23502.08
+      total_spent: 30620.63
 title: James B. Leary
 layout: candidate
 ---

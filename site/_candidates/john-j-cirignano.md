@@ -43,6 +43,16 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 14035
+  by_year:
+    2002:
+      total_raised: 4835.0
+      total_spent: 3287.95
+    2004:
+      total_raised: 16532.0
+      total_spent: 10331.98
 title: John J. Cirignano
 layout: candidate
 ---

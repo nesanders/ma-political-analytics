@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 16251
+  by_year:
+    2016:
+      total_raised: 23984.0
+      total_spent: 33102.84
 title: Vince Cogliano
 layout: candidate
 ---

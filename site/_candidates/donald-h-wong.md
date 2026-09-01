@@ -167,9 +167,30 @@ ocpf_finance:
   cpf_ids:
   - 15174
   by_year:
+    2016:
+      total_raised: 49472.15
+      total_spent: 31315.43
+    2018:
+      total_raised: 30860.98
+      total_spent: 19965.91
+    2020:
+      total_raised: 11915.86
+      total_spent: 8283.15
     2022:
       total_raised: 1450.0
       total_spent: 6475.12
+    2024:
+      total_raised: 12537.36
+      total_spent: 8170.2
+    2010:
+      total_raised: 50400.09
+      total_spent: 40129.94
+    2012:
+      total_raised: 13100.0
+      total_spent: 10111.82
+    2014:
+      total_raised: 26307.97
+      total_spent: 8511.57
 title: Donald H. Wong
 layout: candidate
 ---

@@ -23,6 +23,13 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+ocpf_finance:
+  cpf_ids:
+  - 15154
+  by_year:
+    2010:
+      total_raised: 33225.41
+      total_spent: 13700.24
 title: Patricia A. Commane
 layout: candidate
 ---
