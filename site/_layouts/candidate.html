@@ -39,13 +39,17 @@ layout: default
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
     <p>
-      The chart above shows each component's best estimate for
-      {{ page.name }}'s most recent race; it doesn't show how uncertain any
-      of them are. This one does &mdash; the same components, plotted as a
-      point (the estimate) and a line (an approximate 95% interval, from
-      each coefficient's own posterior uncertainty):
+      The chart above shows each component's best estimate; it doesn't
+      show how uncertain any of them are. This one does &mdash; the same
+      components for one selected race, plotted as a point (the estimate)
+      and a line (an approximate 95% interval, from each coefficient's own
+      posterior uncertainty):
     </p>
-    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the same attribution components, for the most recent race, with approximate 95% intervals"></div>
+    <p>
+      <label for="attribution-uncertainty-year">Race: </label>
+      <select id="attribution-uncertainty-year"></select>
+    </p>
+    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the attribution components for the selected race, with approximate 95% intervals"></div>
   </section>
   {% endif %}
 
@@ -285,71 +289,87 @@ layout: default
   };
   vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
 
-  // Companion uncertainty chart, scoped to the most recent race only
-  // (attributionRaces is already sorted ascending by year, so the last
-  // entry is it) — a full per-year uncertainty view would need one row per
-  // component per year, too dense to read as a forest plot.
+  // Companion uncertainty chart — a full per-year view would need one row
+  // per component per year, too dense to read as a forest plot, so this
+  // shows one race at a time, picked via the year selector below it.
   if (attributionRaces.length > 0) {
-    const latestRace = attributionRaces[attributionRaces.length - 1];
-    const useV3 = latestRace.fundraising_component !== null && latestRace.fundraising_component !== undefined;
-    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
-    const uncertaintyData = [];
-    CANONICAL_COMPONENTS.forEach(([label]) => {
-      const fields = fieldMap[label];
-      if (!fields) return;
-      const value = latestRace[fields[0]];
-      if (value === null || value === undefined) return;
-      const sd = latestRace[fields[1]] || 0;
-      uncertaintyData.push({ component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
+    const yearSelect = document.getElementById("attribution-uncertainty-year");
+    attributionRaces.forEach((r) => {
+      const opt = document.createElement("option");
+      opt.value = String(r.year);
+      opt.textContent = r.year + " — " + r.district_name;
+      yearSelect.appendChild(opt);
     });
-    const uncertaintySpec = {
-      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-      "width": "container",
-      "height": 220,
-      "background": null,
-      "layer": [
-        {
-          "data": { "values": [{ "x": 0 }] },
-          "mark": { "type": "rule", "strokeDash": [4, 2] },
-          "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": chartCssVar("--gridline") } }
-        },
-        {
-          "data": { "values": uncertaintyData },
-          "mark": { "type": "rule", "size": 2 },
-          "encoding": {
-            "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
-            "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
-            "x2": { "field": "hi" },
-            "color": { "value": actualColor }
+    // Default to the most recent race (attributionRaces is sorted
+    // ascending by year, so the last entry is it).
+    yearSelect.value = String(attributionRaces[attributionRaces.length - 1].year);
+
+    function renderUncertaintyChart(year) {
+      const race = attributionRaces.find((r) => String(r.year) === year);
+      if (!race) return;
+      const useV3 = race.fundraising_component !== null && race.fundraising_component !== undefined;
+      const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
+      const uncertaintyData = [];
+      CANONICAL_COMPONENTS.forEach(([label]) => {
+        const fields = fieldMap[label];
+        if (!fields) return;
+        const value = race[fields[0]];
+        if (value === null || value === undefined) return;
+        const sd = race[fields[1]] || 0;
+        uncertaintyData.push({ component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
+      });
+      const uncertaintySpec = {
+        "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+        "width": "container",
+        "height": 220,
+        "background": null,
+        "layer": [
+          {
+            "data": { "values": [{ "x": 0 }] },
+            "mark": { "type": "rule", "strokeDash": [4, 2] },
+            "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": chartCssVar("--gridline") } }
+          },
+          {
+            "data": { "values": uncertaintyData },
+            "mark": { "type": "rule", "size": 2 },
+            "encoding": {
+              "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+              "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
+              "x2": { "field": "hi" },
+              "color": { "value": actualColor }
+            }
+          },
+          {
+            "data": { "values": uncertaintyData },
+            "mark": { "type": "point", "filled": true, "size": 90 },
+            "encoding": {
+              "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
+              "x": { "field": "mean", "type": "quantitative" },
+              "color": { "value": actualColor },
+              "tooltip": [
+                { "field": "component", "title": "Component" },
+                { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
+                { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
+                { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
+              ]
+            }
           }
-        },
-        {
-          "data": { "values": uncertaintyData },
-          "mark": { "type": "point", "filled": true, "size": 90 },
-          "encoding": {
-            "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
-            "x": { "field": "mean", "type": "quantitative" },
-            "color": { "value": actualColor },
-            "tooltip": [
-              { "field": "component", "title": "Component" },
-              { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
-              { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
-              { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
-            ]
-          }
+        ],
+        "config": {
+          "axis": {
+            "labelColor": chartCssVar("--text-secondary"),
+            "titleColor": chartCssVar("--text-primary"),
+            "gridColor": chartCssVar("--gridline"),
+            "domainColor": chartCssVar("--gridline")
+          },
+          "view": { "stroke": null }
         }
-      ],
-      "config": {
-        "axis": {
-          "labelColor": chartCssVar("--text-secondary"),
-          "titleColor": chartCssVar("--text-primary"),
-          "gridColor": chartCssVar("--gridline"),
-          "domainColor": chartCssVar("--gridline")
-        },
-        "view": { "stroke": null }
-      }
-    };
-    vegaEmbed("#attribution-uncertainty-chart", uncertaintySpec, { actions: false }).catch(console.error);
+      };
+      vegaEmbed("#attribution-uncertainty-chart", uncertaintySpec, { actions: false }).catch(console.error);
+    }
+
+    renderUncertaintyChart(yearSelect.value);
+    yearSelect.addEventListener("change", (e) => renderUncertaintyChart(e.target.value));
   }
 </script>
 {% endif %}
