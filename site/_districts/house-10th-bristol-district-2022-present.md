@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5212
     expected_two_party_share_v2: 0.4691
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5046
-    lean_component_v3_demographics_sd: 0.0323
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5066
+    lean_component_v3_demographics_sd: 0.033
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0112
-    education_component_sd: 0.0318
-    expected_two_party_share_v3_demographics: 0.5015
-    war_v3_demographics: 0.0249
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1776
+    demographics_component_sd: 0.1268
+    expected_two_party_share_v3_demographics: 0.5004
+    war_v3_demographics: 0.026
+    war_v3_demographics_sd: 0.063
   - name: Joseph M. Pires
     slug: joseph-m-pires
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4788
     expected_two_party_share_v2: 0.4475
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4637
-    lean_component_v3_demographics_sd: 0.0296
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4655
+    lean_component_v3_demographics_sd: 0.0303
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0077
-    education_component_sd: 0.0272
-    expected_two_party_share_v3_demographics: 0.4856
-    war_v3_demographics: -0.012
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1739
+    demographics_component_sd: 0.1258
+    expected_two_party_share_v3_demographics: 0.4841
+    war_v3_demographics: -0.0105
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5411
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5411
     expected_two_party_share_v2: 0.4796
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5239
-    lean_component_v3_demographics_sd: 0.0335
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.526
+    lean_component_v3_demographics_sd: 0.0343
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0114
-    education_component_sd: 0.0322
-    expected_two_party_share_v3_demographics: 0.5191
-    war_v3_demographics: 0.0435
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1779
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.518
+    war_v3_demographics: 0.0446
+    war_v3_demographics_sd: 0.063
   - name: Jeffrey Gerald Swift
     slug: jeffrey-gerald-swift
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4589
     expected_two_party_share_v2: 0.437
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4444
-    lean_component_v3_demographics_sd: 0.0284
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4461
+    lean_component_v3_demographics_sd: 0.029
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0074
-    education_component_sd: 0.027
-    expected_two_party_share_v3_demographics: 0.4681
-    war_v3_demographics: -0.0307
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1736
+    demographics_component_sd: 0.1257
+    expected_two_party_share_v3_demographics: 0.4665
+    war_v3_demographics: -0.0291
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 42142
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 3398
   median_household_income: 95646
   bachelors_degree_count: 7271
+  total_population_acs: 43737
   acs_year: 2022
 title: 10th Bristol District (2022-present)
 layout: district

@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5788
     expected_two_party_share_v2: 0.6561
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5605
-    lean_component_v3_demographics_sd: 0.0358
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0113
-    education_component_sd: 0.0322
-    expected_two_party_share_v3_demographics: 0.6152
-    war_v3_demographics: -0.0242
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5627
+    lean_component_v3_demographics_sd: 0.0366
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1746
+    demographics_component_sd: 0.1243
+    expected_two_party_share_v3_demographics: 0.6176
+    war_v3_demographics: -0.0266
+    war_v3_demographics_sd: 0.063
   - name: Nicholas A. Pirro, III
     slug: nicholas-a-pirro-iii
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4212
     expected_two_party_share_v2: 0.417
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4078
-    lean_component_v3_demographics_sd: 0.0261
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4094
+    lean_component_v3_demographics_sd: 0.0267
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0078
-    education_component_sd: 0.0276
-    expected_two_party_share_v3_demographics: 0.4295
-    war_v3_demographics: -0.0205
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1708
+    demographics_component_sd: 0.1232
+    expected_two_party_share_v3_demographics: 0.431
+    war_v3_demographics: -0.022
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5845
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5845
     expected_two_party_share_v2: 0.5025
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.566
-    lean_component_v3_demographics_sd: 0.0362
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5682
+    lean_component_v3_demographics_sd: 0.037
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0116
-    education_component_sd: 0.0326
-    expected_two_party_share_v3_demographics: 0.561
-    war_v3_demographics: 0.0418
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1749
+    demographics_component_sd: 0.1244
+    expected_two_party_share_v3_demographics: 0.5632
+    war_v3_demographics: 0.0396
+    war_v3_demographics_sd: 0.063
   - name: Kenneth B. Hoyt
     slug: kenneth-b-hoyt
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4155
     expected_two_party_share_v2: 0.4141
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4023
-    lean_component_v3_demographics_sd: 0.0257
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4039
+    lean_component_v3_demographics_sd: 0.0263
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0075
-    education_component_sd: 0.0273
-    expected_two_party_share_v3_demographics: 0.4259
-    war_v3_demographics: -0.0287
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1706
+    demographics_component_sd: 0.1231
+    expected_two_party_share_v3_demographics: 0.4273
+    war_v3_demographics: -0.0301
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 169214
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 27395
   median_household_income: 92466
   bachelors_degree_count: 29554
+  total_population_acs: 175845
   acs_year: 2022
 title: Worcester and Middlesex District (2022-present)
 layout: district

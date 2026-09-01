@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4067
     expected_two_party_share_v2: 0.5659
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3938
-    lean_component_v3_demographics_sd: 0.0252
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0089
-    education_component_sd: 0.0315
-    expected_two_party_share_v3_demographics: 0.4723
-    war_v3_demographics: 0.088
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3954
+    lean_component_v3_demographics_sd: 0.0257
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1804
+    demographics_component_sd: 0.1324
+    expected_two_party_share_v3_demographics: 0.4654
+    war_v3_demographics: 0.0949
+    war_v3_demographics_sd: 0.063
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5933
     expected_two_party_share_v2: 0.5072
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5745
-    lean_component_v3_demographics_sd: 0.0367
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5767
+    lean_component_v3_demographics_sd: 0.0376
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0129
-    education_component_sd: 0.0369
-    expected_two_party_share_v3_demographics: 0.5697
-    war_v3_demographics: -0.13
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1848
+    demographics_component_sd: 0.1338
+    expected_two_party_share_v3_demographics: 0.5634
+    war_v3_demographics: -0.1237
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5931
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4069
     expected_two_party_share_v2: 0.4095
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.394
-    lean_component_v3_demographics_sd: 0.0252
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3955
+    lean_component_v3_demographics_sd: 0.0258
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0086
-    education_component_sd: 0.0312
-    expected_two_party_share_v3_demographics: 0.4165
-    war_v3_demographics: 0.1377
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1801
+    demographics_component_sd: 0.1324
+    expected_two_party_share_v3_demographics: 0.4094
+    war_v3_demographics: 0.1448
+    war_v3_demographics_sd: 0.063
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5931
     expected_two_party_share_v2: 0.5071
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5743
-    lean_component_v3_demographics_sd: 0.0367
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5766
+    lean_component_v3_demographics_sd: 0.0375
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0132
-    education_component_sd: 0.0373
-    expected_two_party_share_v3_demographics: 0.5676
-    war_v3_demographics: -0.1218
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1851
+    demographics_component_sd: 0.1339
+    expected_two_party_share_v3_demographics: 0.5614
+    war_v3_demographics: -0.1156
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 44408
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1245
   median_household_income: 92257
   bachelors_degree_count: 8881
+  total_population_acs: 45376
   acs_year: 2022
 history:
 - vintage: 2012-2020

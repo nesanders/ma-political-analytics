@@ -34,8 +34,8 @@ results_by_year:
     incumbent_terms: 3
     own_lean: 0.9074
     own_tide: 0.6712
-    war_v2: 0.1835
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1436
     incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956
@@ -66,8 +66,8 @@ results_by_year:
     incumbent_terms: 2
     own_lean: 0.6188
     own_tide: 0.3321
-    war_v2: 0.3325
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1461
     incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
@@ -98,8 +98,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.9103
     own_tide: 0.6465
-    war_v2: 0.169
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -130,8 +130,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.7838
     own_tide: 0.4902
-    war_v2: 0.3919
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -162,8 +162,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.8642
     own_tide: 0.6179
-    war_v2: 0.3498
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956

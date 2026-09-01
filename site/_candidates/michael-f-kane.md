@@ -15,8 +15,8 @@ races:
   war: 0.3234
   own_lean: 0.6766
   own_tide: 0.5355
-  war_v2: 0.305
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -41,8 +41,8 @@ races:
   incumbency_adjustment_v3_finance: 0.12
   incumbency_adjustment_v3_finance_sd: 0.0121
   expected_two_party_share_v3_finance: 0.6443
-  war_v3_finance: 0.3557
-  war_v3_finance_sd: 0.1015
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -55,8 +55,8 @@ races:
   war: 0.2666
   own_lean: 0.7334
   own_tide: 0.632
-  war_v2: 0.2752
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -81,8 +81,8 @@ races:
   incumbency_adjustment_v3_finance: 0.12
   incumbency_adjustment_v3_finance_sd: 0.0121
   expected_two_party_share_v3_finance: 0.6708
-  war_v3_finance: 0.3292
-  war_v3_finance_sd: 0.1015
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -95,8 +95,8 @@ races:
   war: 0.2875
   own_lean: 0.7125
   own_tide: 0.6116
-  war_v2: 0.2837
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1461
   incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
@@ -121,8 +121,8 @@ races:
   incumbency_adjustment_v3_finance: 0.1235
   incumbency_adjustment_v3_finance_sd: 0.013
   expected_two_party_share_v3_finance: 0.6955
-  war_v3_finance: 0.3045
-  war_v3_finance_sd: 0.1015
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -135,8 +135,8 @@ races:
   war: 0.3106
   own_lean: 0.6894
   own_tide: 0.6274
-  war_v2: 0.2855
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1565
   incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
@@ -161,8 +161,8 @@ races:
   incumbency_adjustment_v3_finance: 0.135
   incumbency_adjustment_v3_finance_sd: 0.0091
   expected_two_party_share_v3_finance: 0.6842
-  war_v3_finance: 0.3158
-  war_v3_finance_sd: 0.1015
+  war_v3_finance: null
+  war_v3_finance_sd: null
 - chamber: house
   year: 2002
   vintage: 2001-2010

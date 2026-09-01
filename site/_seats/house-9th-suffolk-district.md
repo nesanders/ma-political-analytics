@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7956
     expected_two_party_share_v2: 0.614
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7704
-    lean_component_v3_demographics_sd: 0.0492
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.7734
+    lean_component_v3_demographics_sd: 0.0504
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0129
-    education_component_sd: 0.0368
-    expected_two_party_share_v3_demographics: 0.7656
-    war_v3_demographics: 0.059
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1939
+    demographics_component_sd: 0.1395
+    expected_two_party_share_v3_demographics: 0.751
+    war_v3_demographics: 0.0736
+    war_v3_demographics_sd: 0.063
   - name: Roy A. Owens
     slug: roy-a-owens
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2044
     expected_two_party_share_v2: 0.3026
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.1979
-    lean_component_v3_demographics_sd: 0.0127
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.1987
+    lean_component_v3_demographics_sd: 0.0129
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0089
-    education_component_sd: 0.0315
-    expected_two_party_share_v3_demographics: 0.2186
-    war_v3_demographics: -0.0432
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1895
+    demographics_component_sd: 0.1382
+    expected_two_party_share_v3_demographics: 0.2016
+    war_v3_demographics: -0.0262
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8238
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.8238
     own_tide: 0.6484
-    war_v2: 0.3712
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.8238
     expected_two_party_share_v2: 0.6288
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7977
-    lean_component_v3_demographics_sd: 0.051
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.8008
+    lean_component_v3_demographics_sd: 0.0521
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0132
-    education_component_sd: 0.0373
-    expected_two_party_share_v3_demographics: 0.791
-    war_v3_demographics: 0.209
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1942
+    demographics_component_sd: 0.1396
+    expected_two_party_share_v3_demographics: 0.7766
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 45282
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 8016
   median_household_income: 69620
   bachelors_degree_count: 9053
+  total_population_acs: 41301
   acs_year: 2022
 history:
 - vintage: 2012-2020

@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.6385
     own_tide: 0.6296
-    war_v2: 0.3124
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6385
     expected_two_party_share_v2: 0.6876
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6183
-    lean_component_v3_demographics_sd: 0.0395
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0148
-    education_component_sd: 0.042
-    expected_two_party_share_v3_demographics: 0.6694
-    war_v3_demographics: 0.3306
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6207
+    lean_component_v3_demographics_sd: 0.0404
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1795
+    demographics_component_sd: 0.1305
+    expected_two_party_share_v3_demographics: 0.6707
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Andrew M. Pepoli
     slug: andrew-m-pepoli
     party: Other
@@ -79,6 +80,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -87,8 +89,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.645
     own_tide: 0.6484
-    war_v2: 0.4655
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.645
     expected_two_party_share_v2: 0.5345
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6246
-    lean_component_v3_demographics_sd: 0.0399
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.627
+    lean_component_v3_demographics_sd: 0.0408
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0151
-    education_component_sd: 0.0425
-    expected_two_party_share_v3_demographics: 0.616
-    war_v3_demographics: 0.384
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1798
+    demographics_component_sd: 0.1306
+    expected_two_party_share_v3_demographics: 0.6171
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 44825
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 2680
   median_household_income: 147785
   bachelors_degree_count: 10218
+  total_population_acs: 44744
   acs_year: 2022
 title: 11th Norfolk District (2022-present)
 layout: district

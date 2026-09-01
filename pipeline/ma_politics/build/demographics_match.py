@@ -76,6 +76,17 @@ def load_demographics(chamber: str, demographics_dir: Path, district_names: list
                 int(income) if pd.notna(income) and int(income) != _ACS_SUPPRESSED_SENTINEL else None
             )
             entry["bachelors_degree_count"] = int(row["bachelors_degree_count"]) if pd.notna(row["bachelors_degree_count"]) else None
+            # Fetched but previously dropped on the floor here: a fallback
+            # population denominator for districts PL 94-171 failed to
+            # match (its own name-matching runs independently of ACS's —
+            # a real, live gap, not hypothetical: 15 of 200 current-vintage
+            # districts, all Senate seats, have ACS income/education but no
+            # PL 94-171 match at all). Lets bachelors_pct still be computed
+            # for those districts instead of losing them entirely — see
+            # generate_site_data.fit_war_v3_demographics_core's population
+            # fallback.
+            pop_acs = row["total_population_acs"]
+            entry["total_population_acs"] = int(pop_acs) if pd.notna(pop_acs) else None
             entry["acs_year"] = int(row["acs_year"])
 
     return result

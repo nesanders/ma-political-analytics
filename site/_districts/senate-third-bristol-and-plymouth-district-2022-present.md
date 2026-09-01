@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.524
     expected_two_party_share_v2: 0.4713
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5136
+    lean_component_v3_demographics_sd: 0.0314
+    tide_component_v3_demographics: -0.0307
+    tide_component_v3_demographics_sd: 0.0216
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0056
+    demographics_component_sd: 0.0218
+    expected_two_party_share_v3_demographics: 0.5318
+    war_v3_demographics: -0.0227
+    war_v3_demographics_sd: 0.0642
   - name: Joseph Richard Pacheco
     slug: joseph-richard-pacheco
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.476
     expected_two_party_share_v2: 0.4453
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.4664
+    lean_component_v3_demographics_sd: 0.0286
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0366
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0103
+    demographics_component_sd: 0.0257
+    expected_two_party_share_v3_demographics: 0.4585
+    war_v3_demographics: 0.0324
+    war_v3_demographics_sd: 0.0642
   - name: James B. Dupont
     slug: james-b-dupont
     party: Other
@@ -115,6 +117,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -123,8 +126,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5047
     expected_two_party_share_v2: 0.4604
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.4946
+    lean_component_v3_demographics_sd: 0.0303
+    tide_component_v3_demographics: -0.0537
+    tide_component_v3_demographics_sd: 0.0377
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0106
+    demographics_component_sd: 0.026
+    expected_two_party_share_v3_demographics: 0.4848
+    war_v3_demographics: 0.0581
+    war_v3_demographics_sd: 0.0642
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -196,23 +200,25 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4953
     expected_two_party_share_v2: 0.4562
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.4854
+    lean_component_v3_demographics_sd: 0.0297
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0205
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0053
+    demographics_component_sd: 0.0216
+    expected_two_party_share_v3_demographics: 0.5055
+    war_v3_demographics: -0.0484
+    war_v3_demographics_sd: 0.0642
   is_open_seat: null
 demographics:
   median_household_income: 88523
   bachelors_degree_count: 25732
+  total_population_acs: 181906
   acs_year: 2022
 title: Third Bristol and Plymouth District (2022-present)
 layout: district

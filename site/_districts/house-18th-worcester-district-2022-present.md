@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.5462
     own_tide: 0.3704
-    war_v2: 0.3605
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5462
     expected_two_party_share_v2: 0.6395
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5289
-    lean_component_v3_demographics_sd: 0.0338
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0072
-    education_component_sd: 0.0257
-    expected_two_party_share_v3_demographics: 0.609
-    war_v3_demographics: 0.391
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.531
+    lean_component_v3_demographics_sd: 0.0346
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1716
+    demographics_component_sd: 0.1237
+    expected_two_party_share_v3_demographics: 0.6098
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.468
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.532
     own_tide: 0.3516
-    war_v2: 0.5245
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.532
     expected_two_party_share_v2: 0.4755
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5151
-    lean_component_v3_demographics_sd: 0.0329
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5172
+    lean_component_v3_demographics_sd: 0.0337
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.007
-    education_component_sd: 0.0255
-    expected_two_party_share_v3_demographics: 0.5392
-    war_v3_demographics: 0.4608
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1714
+    demographics_component_sd: 0.1236
+    expected_two_party_share_v3_demographics: 0.5398
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 42709
@@ -108,6 +110,7 @@ demographics:
   hispanic_or_latino_population: 3463
   median_household_income: 98713
   bachelors_degree_count: 6962
+  total_population_acs: 45854
   acs_year: 2022
 title: 18th Worcester District (2022-present)
 layout: district

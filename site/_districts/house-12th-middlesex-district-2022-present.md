@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.832
     own_tide: 0.6296
-    war_v2: 0.3668
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.832
     expected_two_party_share_v2: 0.6332
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.8056
-    lean_component_v3_demographics_sd: 0.0515
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.8088
+    lean_component_v3_demographics_sd: 0.0527
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0145
-    education_component_sd: 0.0414
-    expected_two_party_share_v3_demographics: 0.7992
-    war_v3_demographics: 0.2008
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1833
+    demographics_component_sd: 0.1333
+    expected_two_party_share_v3_demographics: 0.7969
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.838
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.838
     own_tide: 0.6484
-    war_v2: 0.3637
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.838
     expected_two_party_share_v2: 0.6363
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.8114
-    lean_component_v3_demographics_sd: 0.0519
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.8146
+    lean_component_v3_demographics_sd: 0.053
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0149
-    education_component_sd: 0.0419
-    expected_two_party_share_v3_demographics: 0.8031
-    war_v3_demographics: 0.1969
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1837
+    demographics_component_sd: 0.1335
+    expected_two_party_share_v3_demographics: 0.8008
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 41632
@@ -108,6 +110,7 @@ demographics:
   hispanic_or_latino_population: 1809
   median_household_income: 188030
   bachelors_degree_count: 9354
+  total_population_acs: 45153
   acs_year: 2022
 title: 12th Middlesex District (2022-present)
 layout: district

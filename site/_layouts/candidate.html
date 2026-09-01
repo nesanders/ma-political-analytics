@@ -34,8 +34,11 @@ layout: default
       a small fundraising coefficient multiplies out to a sizeable chunk
       of the bar. See the standardized comparison on the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for a scale that's genuinely comparable across terms. Click a bar to
-      open that race's district page.
+      for a scale that's genuinely comparable across terms. An uncontested
+      year's bar stops at the model's baseline expectation instead of the
+      actual result &mdash; there's no WAR (residual) slice, since WAR
+      itself isn't meaningful against a mechanically near-100% unopposed
+      share. Click a bar to open that race's district page.
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
     <p>
@@ -57,7 +60,7 @@ layout: default
     <h2>Races</h2>
     <table>
       <thead>
-        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th></tr>
+        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th><th>Baseline expectation</th></tr>
       </thead>
       <tbody>
         {% for r in page.races %}
@@ -70,10 +73,17 @@ layout: default
           <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if r.war %}{{ r.war | times: 100 | round: 1 }}{% endif %}</td>
           <td>{% if r.war_v2 %}{{ r.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if r.expected_two_party_share_v2 %}{{ r.expected_two_party_share_v2 | times: 100 | round: 1 }}%{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+    <p><small>
+      <strong>Baseline expectation</strong> is what WAR v2's regression
+      expects a generic candidate of this party to get here, from district
+      lean, statewide tide, and incumbency alone — defined whether or not
+      the race was actually contested, unlike WAR itself (see below).
+    </small></p>
     <p><small>
       WAR (wins above replacement) is adapted from Split Ticket's published
       methodology — see the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
@@ -192,11 +202,12 @@ layout: default
   // separate fields rather than overwriting v2's.
   const attributionRaces = [
     {% for r in chart_races %}
-    {% if r.war_v2 %}
+    {% if r.intercept_component %}
     {
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
+      "is_uncontested": {{ r.is_uncontested | jsonify }},
       "intercept_component": {{ r.intercept_component | jsonify }}, "intercept_component_sd": {{ r.intercept_component_sd | jsonify }},
       "lean_component": {{ r.lean_component | jsonify }}, "lean_component_sd": {{ r.lean_component_sd | jsonify }},
       "tide_component": {{ r.tide_component | jsonify }}, "tide_component_sd": {{ r.tide_component_sd | jsonify }},
@@ -247,7 +258,7 @@ layout: default
       if (!fields) return;
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
-      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, component: label, order, value });
+      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested, component: label, order, value });
     });
   });
   const attributionSpec = {
@@ -272,6 +283,7 @@ layout: default
       "tooltip": [
         { "field": "district_name", "title": "District" },
         { "field": "year", "title": "Year" },
+        { "field": "is_uncontested", "title": "Uncontested?" },
         { "field": "component", "title": "Component" },
         { "field": "value", "type": "quantitative", "format": ".1%" }
       ]
@@ -297,7 +309,7 @@ layout: default
     attributionRaces.forEach((r) => {
       const opt = document.createElement("option");
       opt.value = String(r.year);
-      opt.textContent = r.year + " — " + r.district_name;
+      opt.textContent = r.year + " — " + r.district_name + (r.is_uncontested ? " (uncontested)" : "");
       yearSelect.appendChild(opt);
     });
     // Default to the most recent race (attributionRaces is sorted

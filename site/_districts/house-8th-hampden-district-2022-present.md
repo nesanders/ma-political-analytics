@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.529
     own_tide: 0.6296
-    war_v2: 0.3702
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.529
     expected_two_party_share_v2: 0.6298
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5122
-    lean_component_v3_demographics_sd: 0.0327
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0074
-    education_component_sd: 0.0211
-    expected_two_party_share_v3_demographics: 0.5707
-    war_v3_demographics: 0.4293
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5142
+    lean_component_v3_demographics_sd: 0.0335
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1736
+    demographics_component_sd: 0.1222
+    expected_two_party_share_v3_demographics: 0.5701
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5554
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.5554
     own_tide: 0.6484
-    war_v2: 0.5128
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5554
     expected_two_party_share_v2: 0.4872
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5378
-    lean_component_v3_demographics_sd: 0.0344
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5399
+    lean_component_v3_demographics_sd: 0.0352
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0076
-    education_component_sd: 0.0214
-    expected_two_party_share_v3_demographics: 0.5368
-    war_v3_demographics: 0.4632
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1738
+    demographics_component_sd: 0.1223
+    expected_two_party_share_v3_demographics: 0.536
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Sean Goonan
     slug: sean-goonan
     party: Other
@@ -124,6 +126,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -132,8 +135,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 9083
   median_household_income: 63625
   bachelors_degree_count: 4614
+  total_population_acs: 42986
   acs_year: 2022
 title: 8th Hampden District (2022-present)
 layout: district

@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5426
     expected_two_party_share_v2: 0.4811
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5255
-    lean_component_v3_demographics_sd: 0.0336
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5276
+    lean_component_v3_demographics_sd: 0.0344
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0067
-    education_component_sd: 0.0237
-    expected_two_party_share_v3_demographics: 0.5484
-    war_v3_demographics: -0.029
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1689
+    demographics_component_sd: 0.1217
+    expected_two_party_share_v3_demographics: 0.5511
+    war_v3_demographics: -0.0317
+    war_v3_demographics_sd: 0.063
   - name: Patricia A. Haddad
     slug: patricia-a-haddad
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4574
     expected_two_party_share_v2: 0.592
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4428
-    lean_component_v3_demographics_sd: 0.0283
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0097
-    education_component_sd: 0.0277
-    expected_two_party_share_v3_demographics: 0.499
-    war_v3_demographics: -0.0184
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4445
+    lean_component_v3_demographics_sd: 0.0289
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1721
+    demographics_component_sd: 0.1225
+    expected_two_party_share_v3_demographics: 0.5019
+    war_v3_demographics: -0.0213
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5151
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5151
     expected_two_party_share_v2: 0.4659
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4988
-    lean_component_v3_demographics_sd: 0.0319
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5007
+    lean_component_v3_demographics_sd: 0.0326
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0099
-    education_component_sd: 0.028
-    expected_two_party_share_v3_demographics: 0.4954
-    war_v3_demographics: 0.0482
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1724
+    demographics_component_sd: 0.1226
+    expected_two_party_share_v3_demographics: 0.4983
+    war_v3_demographics: 0.0453
+    war_v3_demographics_sd: 0.063
   - name: Justin Thurber
     slug: justin-thurber
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4849
     expected_two_party_share_v2: 0.4507
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4695
-    lean_component_v3_demographics_sd: 0.03
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4714
+    lean_component_v3_demographics_sd: 0.0307
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0065
-    education_component_sd: 0.0235
-    expected_two_party_share_v3_demographics: 0.4942
-    war_v3_demographics: -0.0378
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1686
+    demographics_component_sd: 0.1216
+    expected_two_party_share_v3_demographics: 0.4967
+    war_v3_demographics: -0.0403
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 44702
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1866
   median_household_income: 96827
   bachelors_degree_count: 6711
+  total_population_acs: 43560
   acs_year: 2022
 title: 5th Bristol District (2022-present)
 layout: district

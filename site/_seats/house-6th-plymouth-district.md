@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4769
     expected_two_party_share_v2: 0.4465
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4619
-    lean_component_v3_demographics_sd: 0.0295
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4637
+    lean_component_v3_demographics_sd: 0.0302
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0108
-    education_component_sd: 0.0382
-    expected_two_party_share_v3_demographics: 0.4807
-    war_v3_demographics: 0.049
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1691
+    demographics_component_sd: 0.1266
+    expected_two_party_share_v3_demographics: 0.4871
+    war_v3_demographics: 0.0426
+    war_v3_demographics_sd: 0.063
   - name: Rebecca W. Coletta
     slug: rebecca-w-coletta
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5231
     expected_two_party_share_v2: 0.4701
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5064
-    lean_component_v3_demographics_sd: 0.0324
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5084
+    lean_component_v3_demographics_sd: 0.0331
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0157
-    education_component_sd: 0.0446
-    expected_two_party_share_v3_demographics: 0.4989
-    war_v3_demographics: -0.0286
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1744
+    demographics_component_sd: 0.1286
+    expected_two_party_share_v3_demographics: 0.5055
+    war_v3_demographics: -0.0352
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5223
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5223
     expected_two_party_share_v2: 0.4697
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5057
-    lean_component_v3_demographics_sd: 0.0323
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5077
+    lean_component_v3_demographics_sd: 0.0331
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.016
-    education_component_sd: 0.0452
-    expected_two_party_share_v3_demographics: 0.4963
-    war_v3_demographics: 0.0651
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1747
+    demographics_component_sd: 0.1288
+    expected_two_party_share_v3_demographics: 0.5029
+    war_v3_demographics: 0.0585
+    war_v3_demographics_sd: 0.063
   - name: Kenneth Sweezey
     slug: kenneth-sweezey
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4777
     expected_two_party_share_v2: 0.4469
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4626
-    lean_component_v3_demographics_sd: 0.0296
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4644
+    lean_component_v3_demographics_sd: 0.0302
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0104
-    education_component_sd: 0.0378
-    expected_two_party_share_v3_demographics: 0.4833
-    war_v3_demographics: -0.0447
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1687
+    demographics_component_sd: 0.1265
+    expected_two_party_share_v3_demographics: 0.4896
+    war_v3_demographics: -0.051
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 42287
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 803
   median_household_income: 129688
   bachelors_degree_count: 10238
+  total_population_acs: 46753
   acs_year: 2022
 history:
 - vintage: 2012-2020

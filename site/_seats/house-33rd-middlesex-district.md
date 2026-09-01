@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.704
     own_tide: 0.6296
-    war_v2: 0.2778
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.704
     expected_two_party_share_v2: 0.7222
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6817
-    lean_component_v3_demographics_sd: 0.0436
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0117
-    education_component_sd: 0.0333
-    expected_two_party_share_v3_demographics: 0.7359
-    war_v3_demographics: 0.2641
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6844
+    lean_component_v3_demographics_sd: 0.0446
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1792
+    demographics_component_sd: 0.1284
+    expected_two_party_share_v3_demographics: 0.7346
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7503
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.7503
     own_tide: 0.6484
-    war_v2: 0.41
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.7503
     expected_two_party_share_v2: 0.59
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7265
-    lean_component_v3_demographics_sd: 0.0464
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.7294
+    lean_component_v3_demographics_sd: 0.0475
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.012
-    education_component_sd: 0.0337
-    expected_two_party_share_v3_demographics: 0.7211
-    war_v3_demographics: 0.2789
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1794
+    demographics_component_sd: 0.1285
+    expected_two_party_share_v3_demographics: 0.7198
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 45941
@@ -108,6 +110,7 @@ demographics:
   hispanic_or_latino_population: 4570
   median_household_income: 86168
   bachelors_degree_count: 8308
+  total_population_acs: 46236
   acs_year: 2022
 history:
 - vintage: 2012-2020

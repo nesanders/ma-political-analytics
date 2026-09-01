@@ -15,8 +15,8 @@ races:
   war: 0.5924
   own_lean: 0.4076
   own_tide: 0.368
-  war_v2: 0.4466
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -55,8 +55,8 @@ races:
   war: 0.5555
   own_lean: 0.4445
   own_tide: 0.3884
-  war_v2: 0.4246
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1461
   incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
@@ -135,8 +135,8 @@ races:
   war: 0.4401
   own_lean: 0.5599
   own_tide: 0.5255
-  war_v2: 0.5101
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956

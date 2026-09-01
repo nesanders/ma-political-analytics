@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5245
     expected_two_party_share_v2: 0.628
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5139
+    lean_component_v3_demographics_sd: 0.0315
+    tide_component_v3_demographics: -0.0307
+    tide_component_v3_demographics_sd: 0.0216
+    incumbency_adjustment_v3_demographics: 0.0581
+    incumbency_adjustment_v3_demographics_sd: 0.0138
+    demographics_component: -0.0061
+    demographics_component_sd: 0.0236
+    expected_two_party_share_v3_demographics: 0.5898
+    war_v3_demographics: 0.0689
+    war_v3_demographics_sd: 0.0642
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4755
     expected_two_party_share_v2: 0.4451
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.4661
+    lean_component_v3_demographics_sd: 0.0285
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0366
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0111
+    demographics_component_sd: 0.0278
+    expected_two_party_share_v3_demographics: 0.4574
+    war_v3_demographics: -0.1161
+    war_v3_demographics_sd: 0.0642
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.5114
     own_tide: 0.3516
-    war_v2: 0.5353
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,23 +126,25 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.5114
     expected_two_party_share_v2: 0.4647
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5012
+    lean_component_v3_demographics_sd: 0.0307
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0205
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0057
+    demographics_component_sd: 0.0234
+    expected_two_party_share_v3_demographics: 0.5209
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 98787
   bachelors_degree_count: 27800
+  total_population_acs: 181753
   acs_year: 2022
 title: Worcester and Hampden District (2022-present)
 layout: district

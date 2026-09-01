@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6096
     expected_two_party_share_v2: 0.6723
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5903
-    lean_component_v3_demographics_sd: 0.0377
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0156
-    education_component_sd: 0.0445
-    expected_two_party_share_v3_demographics: 0.6406
-    war_v3_demographics: -0.0984
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5926
+    lean_component_v3_demographics_sd: 0.0386
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1794
+    demographics_component_sd: 0.1316
+    expected_two_party_share_v3_demographics: 0.6426
+    war_v3_demographics: -0.1004
+    war_v3_demographics_sd: 0.063
   - name: Mark T. Tashjian
     slug: mark-t-tashjian
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3904
     expected_two_party_share_v2: 0.4008
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.378
-    lean_component_v3_demographics_sd: 0.0242
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3795
+    lean_component_v3_demographics_sd: 0.0247
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0107
-    education_component_sd: 0.0381
-    expected_two_party_share_v3_demographics: 0.3968
-    war_v3_demographics: 0.061
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1742
+    demographics_component_sd: 0.1296
+    expected_two_party_share_v3_demographics: 0.3978
+    war_v3_demographics: 0.06
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6033
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6033
     expected_two_party_share_v2: 0.5125
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5842
-    lean_component_v3_demographics_sd: 0.0373
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5865
+    lean_component_v3_demographics_sd: 0.0382
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.016
-    education_component_sd: 0.0451
-    expected_two_party_share_v3_demographics: 0.5748
-    war_v3_demographics: -0.0748
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1798
+    demographics_component_sd: 0.1318
+    expected_two_party_share_v3_demographics: 0.5766
+    war_v3_demographics: -0.0766
+    war_v3_demographics_sd: 0.063
   - name: Leonard Mirra
     slug: leonard-mirra
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3967
     expected_two_party_share_v2: 0.4041
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3841
-    lean_component_v3_demographics_sd: 0.0246
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3856
+    lean_component_v3_demographics_sd: 0.0251
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0104
-    education_component_sd: 0.0377
-    expected_two_party_share_v3_demographics: 0.4049
-    war_v3_demographics: 0.0951
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1738
+    demographics_component_sd: 0.1295
+    expected_two_party_share_v3_demographics: 0.4058
+    war_v3_demographics: 0.0942
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 44809
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1556
   median_household_income: 137904
   bachelors_degree_count: 10824
+  total_population_acs: 46133
   acs_year: 2022
 title: 2nd Essex District (2022-present)
 layout: district

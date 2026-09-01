@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6044
     expected_two_party_share_v2: 0.6696
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5852
-    lean_component_v3_demographics_sd: 0.0374
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0127
-    education_component_sd: 0.0361
-    expected_two_party_share_v3_demographics: 0.6385
-    war_v3_demographics: -0.0731
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5875
+    lean_component_v3_demographics_sd: 0.0383
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.187
+    demographics_component_sd: 0.1352
+    expected_two_party_share_v3_demographics: 0.63
+    war_v3_demographics: -0.0646
+    war_v3_demographics_sd: 0.063
   - name: Gerald Joseph O'Connell
     slug: gerald-joseph-oconnell
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3956
     expected_two_party_share_v2: 0.4035
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3831
-    lean_component_v3_demographics_sd: 0.0245
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3846
+    lean_component_v3_demographics_sd: 0.025
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0087
-    education_component_sd: 0.0309
-    expected_two_party_share_v3_demographics: 0.4039
-    war_v3_demographics: 0.0307
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1827
+    demographics_component_sd: 0.134
+    expected_two_party_share_v3_demographics: 0.3943
+    war_v3_demographics: 0.0403
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6081
     expected_two_party_share_v2: 0.515
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5888
-    lean_component_v3_demographics_sd: 0.0376
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5911
+    lean_component_v3_demographics_sd: 0.0385
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.013
-    education_component_sd: 0.0365
-    expected_two_party_share_v3_demographics: 0.5824
-    war_v3_demographics: -0.0372
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1873
+    demographics_component_sd: 0.1354
+    expected_two_party_share_v3_demographics: 0.5738
+    war_v3_demographics: -0.0286
+    war_v3_demographics_sd: 0.063
   - name: Tracy A. Post
     slug: tracy-a-post
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3919
     expected_two_party_share_v2: 0.4016
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3795
-    lean_component_v3_demographics_sd: 0.0243
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.381
+    lean_component_v3_demographics_sd: 0.0248
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0084
-    education_component_sd: 0.0306
-    expected_two_party_share_v3_demographics: 0.4022
-    war_v3_demographics: 0.0526
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1824
+    demographics_component_sd: 0.1339
+    expected_two_party_share_v3_demographics: 0.3926
+    war_v3_demographics: 0.0622
+    war_v3_demographics_sd: 0.063
   - name: Abraham Kasparian, Jr.
     slug: abraham-kasparian-jr
     party: Other
@@ -196,6 +200,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -204,8 +209,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 1339
   median_household_income: 85958
   bachelors_degree_count: 8538
+  total_population_acs: 43152
   acs_year: 2022
 title: 1st Barnstable District (2022-present)
 layout: district

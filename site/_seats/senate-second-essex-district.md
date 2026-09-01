@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6181
     expected_two_party_share_v2: 0.6768
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5985
-    lean_component_v3_demographics_sd: 0.0383
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0125
-    education_component_sd: 0.0357
-    expected_two_party_share_v3_demographics: 0.6519
-    war_v3_demographics: 0.0166
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6009
+    lean_component_v3_demographics_sd: 0.0391
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1799
+    demographics_component_sd: 0.1293
+    expected_two_party_share_v3_demographics: 0.6504
+    war_v3_demographics: 0.0181
+    war_v3_demographics_sd: 0.063
   - name: Damian Mitchell Anketell
     slug: damian-mitchell-anketell
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3819
     expected_two_party_share_v2: 0.3963
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3698
-    lean_component_v3_demographics_sd: 0.0236
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3712
+    lean_component_v3_demographics_sd: 0.0242
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0086
-    education_component_sd: 0.0305
-    expected_two_party_share_v3_demographics: 0.3907
-    war_v3_demographics: -0.0592
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1757
+    demographics_component_sd: 0.128
+    expected_two_party_share_v3_demographics: 0.388
+    war_v3_demographics: -0.0565
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6493
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6493
     expected_two_party_share_v2: 0.5367
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6287
-    lean_component_v3_demographics_sd: 0.0402
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6312
+    lean_component_v3_demographics_sd: 0.0411
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0128
-    education_component_sd: 0.0361
-    expected_two_party_share_v3_demographics: 0.6225
-    war_v3_demographics: 0.0547
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1802
+    demographics_component_sd: 0.1294
+    expected_two_party_share_v3_demographics: 0.6209
+    war_v3_demographics: 0.0563
+    war_v3_demographics_sd: 0.063
   - name: Damian M. Anketell
     slug: damian-m-anketell
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3507
     expected_two_party_share_v2: 0.3799
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3396
-    lean_component_v3_demographics_sd: 0.0217
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3409
+    lean_component_v3_demographics_sd: 0.0222
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0083
-    education_component_sd: 0.0302
-    expected_two_party_share_v3_demographics: 0.3624
-    war_v3_demographics: -0.0396
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1754
+    demographics_component_sd: 0.1279
+    expected_two_party_share_v3_demographics: 0.3595
+    war_v3_demographics: -0.0367
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 176287
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 18411
   median_household_income: 93530
   bachelors_degree_count: 34128
+  total_population_acs: 169069
   acs_year: 2022
 history:
 - vintage: 2012-2020

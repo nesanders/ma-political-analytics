@@ -56,12 +56,21 @@ layout: default
       + that year's statewide tide + incumbency (1st/2nd/3rd-or-later
       term). This breaks each candidate's actual share into exactly those
       pieces, plus whatever's left over &mdash; WAR v2 itself, the part
-      attributable to the candidate. Where this district has a current-vintage
-      demographics match, a candidate's bar instead uses the WAR v3
-      demographics extension (same idea, with an added Education slice for
-      the district's bachelor's-degree share and its interaction with
-      statewide tide, folded into one component) &mdash; see the
-      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      attributable to the candidate.
+      {% assign tier = latest_contested.candidates | where_exp: "c", "c.demographics_tier" | first %}
+      {% if tier.demographics_tier == "full" %}
+      This district has a full Census match, so each bar instead uses the
+      WAR v3 demographics extension's full model &mdash; bachelor's-degree
+      share, Hispanic-or-Latino population share, voting-age population
+      share, and median household income, all folded into one Demographics
+      slice.
+      {% elsif tier.demographics_tier == "core" %}
+      This district's Census match is partial (see its Demographics section
+      above), so each bar uses WAR v3's simpler fallback model &mdash;
+      bachelor's-degree share alone, folded into one Demographics slice,
+      rather than the full model's four terms.
+      {% endif %}
+      See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the fitted coefficients, their uncertainty, and what they're
       based on.
     </p>
@@ -118,7 +127,7 @@ layout: default
     {% if result.is_open_seat %}<p><em>Open seat — no incumbent ran.</em></p>{% endif %}
     <table>
       <thead>
-        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th></tr>
+        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th><th>Baseline expectation</th></tr>
       </thead>
       <tbody>
         {% for c in result.candidates %}
@@ -129,11 +138,18 @@ layout: default
           <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if c.war %}{{ c.war | times: 100 | round: 1 }}{% endif %}</td>
           <td>{% if c.war_v2 %}{{ c.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if c.expected_two_party_share_v2 %}{{ c.expected_two_party_share_v2 | times: 100 | round: 1 }}%{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
     {% endfor %}
+    <p><small>
+      <strong>Baseline expectation</strong> is what WAR v2's regression
+      expects a generic candidate of this party to get here, from district
+      lean, statewide tide, and incumbency alone — defined whether or not
+      the race was actually contested, unlike WAR itself (see below).
+    </small></p>
     <p><small>
       WAR (wins above replacement) is adapted from Split Ticket's published
       methodology, not an original metric — see the
@@ -252,20 +268,21 @@ layout: default
       "lean_component_v3_demographics": {{ c.lean_component_v3_demographics | jsonify }}, "lean_component_v3_demographics_sd": {{ c.lean_component_v3_demographics_sd | jsonify }},
       "tide_component_v3_demographics": {{ c.tide_component_v3_demographics | jsonify }}, "tide_component_v3_demographics_sd": {{ c.tide_component_v3_demographics_sd | jsonify }},
       "incumbency_adjustment_v3_demographics": {{ c.incumbency_adjustment_v3_demographics | jsonify }}, "incumbency_adjustment_v3_demographics_sd": {{ c.incumbency_adjustment_v3_demographics_sd | jsonify }},
-      "education_component": {{ c.education_component | jsonify }}, "education_component_sd": {{ c.education_component_sd | jsonify }},
+      "demographics_component": {{ c.demographics_component | jsonify }}, "demographics_component_sd": {{ c.demographics_component_sd | jsonify }},
+      "demographics_tier": {{ c.demographics_tier | jsonify }},
       "war_v3_demographics": {{ c.war_v3_demographics | jsonify }}, "war_v3_demographics_sd": {{ c.war_v3_demographics_sd | jsonify }} },
     {% endif %}
     {% endfor %}
   ];
   // Canonical component order/colors, shared by both decompositions —
-  // v2 candidates simply have no "Education" entry in their field map, so
-  // that segment is skipped for them rather than plotted as zero.
+  // v2 candidates simply have no "Demographics" entry in their field map,
+  // so that segment is skipped for them rather than plotted as zero.
   const CANONICAL_COMPONENTS = [
     ["Intercept", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
     ["Incumbency", "--war-incumbency"],
-    ["Education", "--war-extra"],
+    ["Demographics", "--war-extra"],
     ["WAR (residual)", "--war-residual"],
   ];
   const V2_FIELDS = {
@@ -280,13 +297,13 @@ layout: default
     "Lean": ["lean_component_v3_demographics", "lean_component_v3_demographics_sd"],
     "Statewide tide": ["tide_component_v3_demographics", "tide_component_v3_demographics_sd"],
     "Incumbency": ["incumbency_adjustment_v3_demographics", "incumbency_adjustment_v3_demographics_sd"],
-    "Education": ["education_component", "education_component_sd"],
+    "Demographics": ["demographics_component", "demographics_component_sd"],
     "WAR (residual)": ["war_v3_demographics", "war_v3_demographics_sd"],
   };
   const attributionData = [];
   const uncertaintyData = [];
   attributionCandidates.forEach((c) => {
-    const useV3 = c.education_component !== null && c.education_component !== undefined;
+    const useV3 = c.demographics_component !== null && c.demographics_component !== undefined;
     const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
     CANONICAL_COMPONENTS.forEach(([label], order) => {
       const fields = fieldMap[label];

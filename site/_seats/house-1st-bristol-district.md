@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4428
     expected_two_party_share_v2: 0.4284
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4288
-    lean_component_v3_demographics_sd: 0.0274
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4304
+    lean_component_v3_demographics_sd: 0.028
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0096
-    education_component_sd: 0.0339
-    expected_two_party_share_v3_demographics: 0.4488
-    war_v3_demographics: 0.0531
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1715
+    demographics_component_sd: 0.1266
+    expected_two_party_share_v3_demographics: 0.4514
+    war_v3_demographics: 0.0505
+    war_v3_demographics_sd: 0.063
   - name: Kostas Loukos
     slug: kostas-loukos
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5572
     expected_two_party_share_v2: 0.4882
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5395
-    lean_component_v3_demographics_sd: 0.0345
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5417
+    lean_component_v3_demographics_sd: 0.0353
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0139
-    education_component_sd: 0.0396
-    expected_two_party_share_v3_demographics: 0.5338
-    war_v3_demographics: -0.0357
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1762
+    demographics_component_sd: 0.1282
+    expected_two_party_share_v3_demographics: 0.5369
+    war_v3_demographics: -0.0388
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5712
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4289
     expected_two_party_share_v2: 0.4211
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4152
-    lean_component_v3_demographics_sd: 0.0265
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4168
+    lean_component_v3_demographics_sd: 0.0271
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0092
-    education_component_sd: 0.0336
-    expected_two_party_share_v3_demographics: 0.4371
-    war_v3_demographics: 0.1386
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1711
+    demographics_component_sd: 0.1265
+    expected_two_party_share_v3_demographics: 0.4397
+    war_v3_demographics: 0.136
+    war_v3_demographics_sd: 0.063
   - name: Brendan A. Roche
     slug: brendan-a-roche
     party: Democratic
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5711
     expected_two_party_share_v2: 0.4955
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5531
-    lean_component_v3_demographics_sd: 0.0354
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5553
+    lean_component_v3_demographics_sd: 0.0362
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0142
-    education_component_sd: 0.0401
-    expected_two_party_share_v3_demographics: 0.5455
-    war_v3_demographics: -0.1212
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1765
+    demographics_component_sd: 0.1283
+    expected_two_party_share_v3_demographics: 0.5487
+    war_v3_demographics: -0.1244
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 42367
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1585
   median_household_income: 107495
   bachelors_degree_count: 9102
+  total_population_acs: 42815
   acs_year: 2022
 history:
 - vintage: 2012-2020

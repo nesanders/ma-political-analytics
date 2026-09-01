@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.5955
     own_tide: 0.6296
-    war_v2: 0.4916
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5955
     expected_two_party_share_v2: 0.5084
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5766
-    lean_component_v3_demographics_sd: 0.0369
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5789
+    lean_component_v3_demographics_sd: 0.0377
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0094
-    education_component_sd: 0.0269
-    expected_two_party_share_v3_demographics: 0.5753
-    war_v3_demographics: 0.4247
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1717
+    demographics_component_sd: 0.1208
+    expected_two_party_share_v3_demographics: 0.5787
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6333
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.6333
     own_tide: 0.6484
-    war_v2: 0.4717
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6333
     expected_two_party_share_v2: 0.5283
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6132
-    lean_component_v3_demographics_sd: 0.0392
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6156
+    lean_component_v3_demographics_sd: 0.0401
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0097
-    education_component_sd: 0.0272
-    expected_two_party_share_v3_demographics: 0.6102
-    war_v3_demographics: 0.3898
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1719
+    demographics_component_sd: 0.1208
+    expected_two_party_share_v3_demographics: 0.6137
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Annalisa Salustri
     slug: annalisa-salustri
     party: Other
@@ -124,6 +126,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -132,8 +135,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 49436
   median_household_income: 88241
   bachelors_degree_count: 26506
+  total_population_acs: 180955
   acs_year: 2022
 history:
 - vintage: 2012-2020

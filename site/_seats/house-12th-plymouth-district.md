@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4859
     expected_two_party_share_v2: 0.6071
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4705
-    lean_component_v3_demographics_sd: 0.0301
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0133
-    education_component_sd: 0.0378
-    expected_two_party_share_v3_demographics: 0.5232
-    war_v3_demographics: 0.0082
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4723
+    lean_component_v3_demographics_sd: 0.0308
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1739
+    demographics_component_sd: 0.1267
+    expected_two_party_share_v3_demographics: 0.5279
+    war_v3_demographics: 0.0035
+    war_v3_demographics_sd: 0.063
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5141
     expected_two_party_share_v2: 0.466
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4978
-    lean_component_v3_demographics_sd: 0.0318
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4998
+    lean_component_v3_demographics_sd: 0.0325
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0091
-    education_component_sd: 0.0323
-    expected_two_party_share_v3_demographics: 0.5183
-    war_v3_demographics: -0.0497
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1695
+    demographics_component_sd: 0.1252
+    expected_two_party_share_v3_demographics: 0.5227
+    war_v3_demographics: -0.0541
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5018
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5018
     expected_two_party_share_v2: 0.4589
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4859
-    lean_component_v3_demographics_sd: 0.0311
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4878
+    lean_component_v3_demographics_sd: 0.0318
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0136
-    education_component_sd: 0.0382
-    expected_two_party_share_v3_demographics: 0.4789
-    war_v3_demographics: 0.0685
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1743
+    demographics_component_sd: 0.1268
+    expected_two_party_share_v3_demographics: 0.4835
+    war_v3_demographics: 0.0639
+    war_v3_demographics_sd: 0.063
   - name: Eric J. Meschino
     slug: eric-j-meschino
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4982
     expected_two_party_share_v2: 0.4577
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4824
-    lean_component_v3_demographics_sd: 0.0308
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4843
+    lean_component_v3_demographics_sd: 0.0315
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0088
-    education_component_sd: 0.032
-    expected_two_party_share_v3_demographics: 0.5047
-    war_v3_demographics: -0.0521
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1692
+    demographics_component_sd: 0.1251
+    expected_two_party_share_v3_demographics: 0.5091
+    war_v3_demographics: -0.0565
+    war_v3_demographics_sd: 0.063
   - name: Charles F. McCoy, Jr
     slug: charles-f-mccoy-jr
     party: Other
@@ -196,6 +200,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -204,8 +209,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 1041
   median_household_income: 92009
   bachelors_degree_count: 8867
+  total_population_acs: 44648
   acs_year: 2022
 history:
 - vintage: 2012-2020

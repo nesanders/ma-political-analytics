@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6778
     expected_two_party_share_v2: 0.7083
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.6642
+    lean_component_v3_demographics_sd: 0.0407
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0366
+    incumbency_adjustment_v3_demographics: 0.0581
+    incumbency_adjustment_v3_demographics_sd: 0.0138
+    demographics_component: -0.0141
+    demographics_component_sd: 0.0353
+    expected_two_party_share_v3_demographics: 0.7106
+    war_v3_demographics: -0.0084
+    war_v3_demographics_sd: 0.0642
   - name: Jeannamarie Tamas
     slug: jeannamarie-tamas
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3222
     expected_two_party_share_v2: 0.3648
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.3158
+    lean_component_v3_demographics_sd: 0.0193
+    tide_component_v3_demographics: -0.0307
+    tide_component_v3_demographics_sd: 0.0216
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0077
+    demographics_component_sd: 0.0301
+    expected_two_party_share_v3_demographics: 0.3319
+    war_v3_demographics: -0.0341
+    war_v3_demographics_sd: 0.0642
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7266
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.7266
     own_tide: 0.6484
-    war_v2: 0.4225
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,23 +126,25 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.7266
     expected_two_party_share_v2: 0.5775
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.7121
+    lean_component_v3_demographics_sd: 0.0436
+    tide_component_v3_demographics: -0.0537
+    tide_component_v3_demographics_sd: 0.0377
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0146
+    demographics_component_sd: 0.0358
+    expected_two_party_share_v3_demographics: 0.6983
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 93881
   bachelors_degree_count: 34786
+  total_population_acs: 178707
   acs_year: 2022
 title: Third Suffolk District (2022-present)
 layout: district

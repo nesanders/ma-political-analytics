@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.5453
     own_tide: 0.6296
-    war_v2: 0.3616
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,17 +43,18 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5453
     expected_two_party_share_v2: 0.6384
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5344
+    lean_component_v3_demographics_sd: 0.0327
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0366
+    incumbency_adjustment_v3_demographics: 0.0581
+    incumbency_adjustment_v3_demographics_sd: 0.0138
+    demographics_component: -0.0102
+    demographics_component_sd: 0.0254
+    expected_two_party_share_v3_demographics: 0.5847
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: false
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5641
     expected_two_party_share_v2: 0.4917
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5527
+    lean_component_v3_demographics_sd: 0.0338
+    tide_component_v3_demographics: -0.0537
+    tide_component_v3_demographics_sd: 0.0377
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0105
+    demographics_component_sd: 0.0257
+    expected_two_party_share_v3_demographics: 0.5431
+    war_v3_demographics: 0.1139
+    war_v3_demographics_sd: 0.0642
   - name: Cecilia P. Calabrese
     slug: cecilia-p-calabrese
     party: Republican
@@ -124,23 +126,25 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4359
     expected_two_party_share_v2: 0.4249
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.4273
+    lean_component_v3_demographics_sd: 0.0262
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0205
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0052
+    demographics_component_sd: 0.0214
+    expected_two_party_share_v3_demographics: 0.4475
+    war_v3_demographics: -0.1045
+    war_v3_demographics_sd: 0.0642
   is_open_seat: null
 demographics:
   median_household_income: 69361
   bachelors_degree_count: 23412
+  total_population_acs: 167299
   acs_year: 2022
 history:
 - vintage: 2012-2020

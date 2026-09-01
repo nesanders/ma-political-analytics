@@ -43,6 +43,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -51,8 +52,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -67,8 +68,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.4311
     own_tide: 0.3704
-    war_v2: 0.5778
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4311
     expected_two_party_share_v2: 0.4222
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4174
-    lean_component_v3_demographics_sd: 0.0267
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4191
+    lean_component_v3_demographics_sd: 0.0273
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0057
-    education_component_sd: 0.0201
-    expected_two_party_share_v3_demographics: 0.4413
-    war_v3_demographics: 0.5587
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1672
+    demographics_component_sd: 0.1205
+    expected_two_party_share_v3_demographics: 0.4443
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6017
@@ -124,6 +126,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -132,8 +135,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -148,8 +151,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.3983
     own_tide: 0.3516
-    war_v2: 0.595
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3983
     expected_two_party_share_v2: 0.405
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3857
-    lean_component_v3_demographics_sd: 0.0247
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3872
+    lean_component_v3_demographics_sd: 0.0252
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0055
-    education_component_sd: 0.0199
-    expected_two_party_share_v3_demographics: 0.4113
-    war_v3_demographics: 0.5887
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.167
+    demographics_component_sd: 0.1205
+    expected_two_party_share_v3_demographics: 0.4142
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Kevin Patrick McKeown (W)
     slug: kevin-patrick-mckeown
     party: Other
@@ -196,6 +200,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -204,8 +209,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 1812
   median_household_income: 69792
   bachelors_degree_count: 5311
+  total_population_acs: 42824
   acs_year: 2022
 history:
 - vintage: 2012-2020

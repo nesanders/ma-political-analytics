@@ -89,8 +89,8 @@ results_by_year:
     incumbent_terms: 2
     own_lean: 0.4973
     own_tide: 0.368
-    war_v2: 0.3967
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1461
     incumbency_adjustment_sd: 0.0126
     intercept_component: 0.1956
@@ -144,8 +144,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.5221
     own_tide: 0.3884
-    war_v2: 0.3733
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -231,8 +231,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.6729
     own_tide: 0.5255
-    war_v2: 0.4505
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956

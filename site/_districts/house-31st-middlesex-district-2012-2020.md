@@ -34,8 +34,8 @@ results_by_year:
     incumbent_terms: 3
     own_lean: 0.6696
     own_tide: 0.6712
-    war_v2: 0.309
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1436
     incumbency_adjustment_sd: 0.0115
     intercept_component: 0.1956

@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.6178
     own_tide: 0.6296
-    war_v2: 0.4798
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6178
     expected_two_party_share_v2: 0.5202
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5982
-    lean_component_v3_demographics_sd: 0.0382
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6006
+    lean_component_v3_demographics_sd: 0.0391
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0072
-    education_component_sd: 0.0204
-    expected_two_party_share_v3_demographics: 0.5992
-    war_v3_demographics: 0.4008
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1692
+    demographics_component_sd: 0.1192
+    expected_two_party_share_v3_demographics: 0.6028
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6749
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.6749
     own_tide: 0.6484
-    war_v2: 0.4497
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6749
     expected_two_party_share_v2: 0.5503
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6535
-    lean_component_v3_demographics_sd: 0.0418
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6561
+    lean_component_v3_demographics_sd: 0.0427
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0073
-    education_component_sd: 0.0207
-    expected_two_party_share_v3_demographics: 0.6527
-    war_v3_demographics: 0.3473
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1694
+    demographics_component_sd: 0.1192
+    expected_two_party_share_v3_demographics: 0.6566
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 43375
@@ -108,6 +110,7 @@ demographics:
   hispanic_or_latino_population: 18383
   median_household_income: 65806
   bachelors_degree_count: 4812
+  total_population_acs: 44875
   acs_year: 2022
 title: 11th Essex District (2022-present)
 layout: district

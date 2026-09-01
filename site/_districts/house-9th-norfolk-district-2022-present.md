@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4326
     expected_two_party_share_v2: 0.5795
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4189
-    lean_component_v3_demographics_sd: 0.0268
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0107
-    education_component_sd: 0.0378
-    expected_two_party_share_v3_demographics: 0.4956
-    war_v3_demographics: 0.0785
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4205
+    lean_component_v3_demographics_sd: 0.0274
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1723
+    demographics_component_sd: 0.1282
+    expected_two_party_share_v3_demographics: 0.4987
+    war_v3_demographics: 0.0754
+    war_v3_demographics_sd: 0.063
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5674
     expected_two_party_share_v2: 0.4936
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5494
-    lean_component_v3_demographics_sd: 0.0351
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5516
+    lean_component_v3_demographics_sd: 0.0359
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0155
-    education_component_sd: 0.0442
-    expected_two_party_share_v3_demographics: 0.542
-    war_v3_demographics: -0.1161
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1775
+    demographics_component_sd: 0.1302
+    expected_two_party_share_v3_demographics: 0.5455
+    war_v3_demographics: -0.1196
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5618
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4382
     expected_two_party_share_v2: 0.426
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4243
-    lean_component_v3_demographics_sd: 0.0271
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.426
+    lean_component_v3_demographics_sd: 0.0277
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0103
-    education_component_sd: 0.0374
-    expected_two_party_share_v3_demographics: 0.4451
-    war_v3_demographics: 0.0636
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1719
+    demographics_component_sd: 0.1281
+    expected_two_party_share_v3_demographics: 0.448
+    war_v3_demographics: 0.0607
+    war_v3_demographics_sd: 0.063
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5618
     expected_two_party_share_v2: 0.4906
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.544
-    lean_component_v3_demographics_sd: 0.0348
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5461
+    lean_component_v3_demographics_sd: 0.0356
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0159
-    education_component_sd: 0.0447
-    expected_two_party_share_v3_demographics: 0.5347
-    war_v3_demographics: -0.0434
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1779
+    demographics_component_sd: 0.1304
+    expected_two_party_share_v3_demographics: 0.5381
+    war_v3_demographics: -0.0468
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 46075
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1887
   median_household_income: 148904
   bachelors_degree_count: 11043
+  total_population_acs: 46727
   acs_year: 2022
 title: 9th Norfolk District (2022-present)
 layout: district

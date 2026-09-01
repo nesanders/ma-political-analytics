@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.544
     expected_two_party_share_v2: 0.6377
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5268
-    lean_component_v3_demographics_sd: 0.0337
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0125
-    education_component_sd: 0.0357
-    expected_two_party_share_v3_demographics: 0.5802
-    war_v3_demographics: -0.0667
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5288
+    lean_component_v3_demographics_sd: 0.0344
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1751
+    demographics_component_sd: 0.126
+    expected_two_party_share_v3_demographics: 0.5831
+    war_v3_demographics: -0.0696
+    war_v3_demographics_sd: 0.063
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.456
     expected_two_party_share_v2: 0.4354
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4415
-    lean_component_v3_demographics_sd: 0.0282
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4433
+    lean_component_v3_demographics_sd: 0.0289
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0086
-    education_component_sd: 0.0306
-    expected_two_party_share_v3_demographics: 0.4625
-    war_v3_demographics: 0.024
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1709
+    demographics_component_sd: 0.1247
+    expected_two_party_share_v3_demographics: 0.4648
+    war_v3_demographics: 0.0217
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5484
     expected_two_party_share_v2: 0.4835
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.531
-    lean_component_v3_demographics_sd: 0.0339
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5331
+    lean_component_v3_demographics_sd: 0.0347
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0128
-    education_component_sd: 0.0361
-    expected_two_party_share_v3_demographics: 0.5248
-    war_v3_demographics: -0.0246
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1754
+    demographics_component_sd: 0.1262
+    expected_two_party_share_v3_demographics: 0.5276
+    war_v3_demographics: -0.0274
+    war_v3_demographics_sd: 0.063
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4516
     expected_two_party_share_v2: 0.4331
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4373
-    lean_component_v3_demographics_sd: 0.028
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.439
+    lean_component_v3_demographics_sd: 0.0286
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0083
-    education_component_sd: 0.0303
-    expected_two_party_share_v3_demographics: 0.4601
-    war_v3_demographics: 0.0397
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1706
+    demographics_component_sd: 0.1246
+    expected_two_party_share_v3_demographics: 0.4624
+    war_v3_demographics: 0.0374
+    war_v3_demographics_sd: 0.063
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -196,6 +200,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -204,8 +209,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 1723
   median_household_income: 121970
   bachelors_degree_count: 8252
+  total_population_acs: 42245
   acs_year: 2022
 title: 1st Middlesex District (2022-present)
 layout: district

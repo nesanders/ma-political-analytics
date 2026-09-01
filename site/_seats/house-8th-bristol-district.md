@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.462
     expected_two_party_share_v2: 0.4379
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4474
-    lean_component_v3_demographics_sd: 0.0286
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4491
+    lean_component_v3_demographics_sd: 0.0292
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0086
-    education_component_sd: 0.0246
-    expected_two_party_share_v3_demographics: 0.4469
-    war_v3_demographics: 0.062
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1767
+    demographics_component_sd: 0.1252
+    expected_two_party_share_v3_demographics: 0.4439
+    war_v3_demographics: 0.065
+    war_v3_demographics_sd: 0.063
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.538
     expected_two_party_share_v2: 0.4787
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5209
-    lean_component_v3_demographics_sd: 0.0333
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.523
+    lean_component_v3_demographics_sd: 0.0341
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0059
-    education_component_sd: 0.021
-    expected_two_party_share_v3_demographics: 0.5446
-    war_v3_demographics: -0.0535
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1738
+    demographics_component_sd: 0.1246
+    expected_two_party_share_v3_demographics: 0.5417
+    war_v3_demographics: -0.0506
+    war_v3_demographics_sd: 0.063
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -115,6 +117,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -123,8 +126,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -151,6 +154,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -159,8 +163,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -187,6 +191,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -195,8 +200,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -232,19 +237,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5228
     expected_two_party_share_v2: 0.47
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5062
-    lean_component_v3_demographics_sd: 0.0324
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5082
+    lean_component_v3_demographics_sd: 0.0331
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0088
-    education_component_sd: 0.0249
-    expected_two_party_share_v3_demographics: 0.504
-    war_v3_demographics: 0.0312
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1769
+    demographics_component_sd: 0.1253
+    expected_two_party_share_v3_demographics: 0.5012
+    war_v3_demographics: 0.034
+    war_v3_demographics_sd: 0.063
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -268,19 +274,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4772
     expected_two_party_share_v2: 0.4466
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4621
-    lean_component_v3_demographics_sd: 0.0295
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4639
+    lean_component_v3_demographics_sd: 0.0302
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0057
-    education_component_sd: 0.0208
-    expected_two_party_share_v3_demographics: 0.4875
-    war_v3_demographics: -0.0227
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1736
+    demographics_component_sd: 0.1246
+    expected_two_party_share_v3_demographics: 0.4843
+    war_v3_demographics: -0.0195
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 41084
@@ -288,6 +295,7 @@ demographics:
   hispanic_or_latino_population: 2128
   median_household_income: 88646
   bachelors_degree_count: 5475
+  total_population_acs: 42327
   acs_year: 2022
 history:
 - vintage: 2012-2020

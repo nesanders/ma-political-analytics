@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.7055
     own_tide: 0.6296
-    war_v2: 0.2771
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,17 +43,18 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7055
     expected_two_party_share_v2: 0.7229
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.6914
+    lean_component_v3_demographics_sd: 0.0423
+    tide_component_v3_demographics: -0.0521
+    tide_component_v3_demographics_sd: 0.0366
+    incumbency_adjustment_v3_demographics: 0.0581
+    incumbency_adjustment_v3_demographics_sd: 0.0138
+    demographics_component: -0.0166
+    demographics_component_sd: 0.0416
+    expected_two_party_share_v3_demographics: 0.7352
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: false
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.7132
     own_tide: 0.6484
-    war_v2: 0.4295
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,23 +89,25 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.7132
     expected_two_party_share_v2: 0.5705
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.6989
+    lean_component_v3_demographics_sd: 0.0428
+    tide_component_v3_demographics: -0.0537
+    tide_component_v3_demographics_sd: 0.0377
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0172
+    demographics_component_sd: 0.0422
+    expected_two_party_share_v3_demographics: 0.6826
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   median_household_income: 123523
   bachelors_degree_count: 39879
+  total_population_acs: 173842
   acs_year: 2022
 title: Middlesex and Norfolk District (2022-present)
 layout: district

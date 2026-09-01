@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4851
     expected_two_party_share_v2: 0.4501
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4697
-    lean_component_v3_demographics_sd: 0.03
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4716
+    lean_component_v3_demographics_sd: 0.0307
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0108
-    education_component_sd: 0.0308
-    expected_two_party_share_v3_demographics: 0.467
-    war_v3_demographics: 0.0381
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1778
+    demographics_component_sd: 0.1268
+    expected_two_party_share_v3_demographics: 0.4652
+    war_v3_demographics: 0.0399
+    war_v3_demographics_sd: 0.063
   - name: Sandra M. Wright
     slug: sandra-m-wright
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5149
     expected_two_party_share_v2: 0.4665
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4986
-    lean_component_v3_demographics_sd: 0.0319
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5005
+    lean_component_v3_demographics_sd: 0.0326
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0074
-    education_component_sd: 0.0264
-    expected_two_party_share_v3_demographics: 0.5207
-    war_v3_demographics: -0.0258
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1742
+    demographics_component_sd: 0.1259
+    expected_two_party_share_v3_demographics: 0.5188
+    war_v3_demographics: -0.0239
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4953
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.5047
     expected_two_party_share_v2: 0.4611
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4887
-    lean_component_v3_demographics_sd: 0.0312
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4906
+    lean_component_v3_demographics_sd: 0.0319
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0072
-    education_component_sd: 0.0261
-    expected_two_party_share_v3_demographics: 0.5126
-    war_v3_demographics: 0.0874
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1739
+    demographics_component_sd: 0.1258
+    expected_two_party_share_v3_demographics: 0.5107
+    war_v3_demographics: 0.0893
+    war_v3_demographics_sd: 0.063
   - name: Eric J. Haikola
     slug: eric-j-haikola
     party: Democratic
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.4953
     expected_two_party_share_v2: 0.4555
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4796
-    lean_component_v3_demographics_sd: 0.0307
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4815
+    lean_component_v3_demographics_sd: 0.0314
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0111
-    education_component_sd: 0.0312
-    expected_two_party_share_v3_demographics: 0.4751
-    war_v3_demographics: -0.0751
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1781
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.4733
+    war_v3_demographics: -0.0733
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 43775
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1715
   median_household_income: 109784
   bachelors_degree_count: 7326
+  total_population_acs: 43655
   acs_year: 2022
 history:
 - vintage: 2012-2020

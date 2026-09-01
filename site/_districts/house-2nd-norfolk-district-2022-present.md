@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6277
     expected_two_party_share_v2: 0.6819
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6079
-    lean_component_v3_demographics_sd: 0.0389
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0137
-    education_component_sd: 0.0391
-    expected_two_party_share_v3_demographics: 0.6601
-    war_v3_demographics: 0.0356
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6103
+    lean_component_v3_demographics_sd: 0.0397
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1822
+    demographics_component_sd: 0.1324
+    expected_two_party_share_v3_demographics: 0.6575
+    war_v3_demographics: 0.0382
+    war_v3_demographics_sd: 0.063
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3723
     expected_two_party_share_v2: 0.3912
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3604
-    lean_component_v3_demographics_sd: 0.023
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3618
+    lean_component_v3_demographics_sd: 0.0236
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0094
-    education_component_sd: 0.0335
-    expected_two_party_share_v3_demographics: 0.3805
-    war_v3_demographics: -0.0762
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1776
+    demographics_component_sd: 0.1309
+    expected_two_party_share_v3_demographics: 0.3767
+    war_v3_demographics: -0.0724
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6629
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6628
     expected_two_party_share_v2: 0.5439
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6419
-    lean_component_v3_demographics_sd: 0.041
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6444
+    lean_component_v3_demographics_sd: 0.042
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.014
-    education_component_sd: 0.0396
-    expected_two_party_share_v3_demographics: 0.6344
-    war_v3_demographics: 0.0715
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1825
+    demographics_component_sd: 0.1326
+    expected_two_party_share_v3_demographics: 0.6318
+    war_v3_demographics: 0.0741
+    war_v3_demographics_sd: 0.063
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3372
     expected_two_party_share_v2: 0.3727
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3264
-    lean_component_v3_demographics_sd: 0.0209
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3277
+    lean_component_v3_demographics_sd: 0.0213
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0091
-    education_component_sd: 0.0331
-    expected_two_party_share_v3_demographics: 0.3484
-    war_v3_demographics: -0.0543
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1773
+    demographics_component_sd: 0.1308
+    expected_two_party_share_v3_demographics: 0.3444
+    war_v3_demographics: -0.0503
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 43173
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 2251
   median_household_income: 90460
   bachelors_degree_count: 9160
+  total_population_acs: 44943
   acs_year: 2022
 title: 2nd Norfolk District (2022-present)
 layout: district

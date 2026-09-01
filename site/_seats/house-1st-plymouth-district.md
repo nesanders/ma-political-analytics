@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5485
     expected_two_party_share_v2: 0.4836
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5311
-    lean_component_v3_demographics_sd: 0.034
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5332
+    lean_component_v3_demographics_sd: 0.0347
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0137
-    education_component_sd: 0.0391
-    expected_two_party_share_v3_demographics: 0.5255
-    war_v3_demographics: -0.0028
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1836
+    demographics_component_sd: 0.133
+    expected_two_party_share_v3_demographics: 0.521
+    war_v3_demographics: 0.0017
+    war_v3_demographics_sd: 0.063
   - name: Jesse G. Brown
     slug: jesse-g-brown
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4515
     expected_two_party_share_v2: 0.433
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4372
-    lean_component_v3_demographics_sd: 0.0279
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4389
+    lean_component_v3_demographics_sd: 0.0286
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0094
-    education_component_sd: 0.0335
-    expected_two_party_share_v3_demographics: 0.4573
-    war_v3_demographics: 0.02
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.179
+    demographics_component_sd: 0.1315
+    expected_two_party_share_v3_demographics: 0.4524
+    war_v3_demographics: 0.0249
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5611
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4389
     expected_two_party_share_v2: 0.4264
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.425
-    lean_component_v3_demographics_sd: 0.0272
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4267
+    lean_component_v3_demographics_sd: 0.0278
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0091
-    education_component_sd: 0.0332
-    expected_two_party_share_v3_demographics: 0.447
-    war_v3_demographics: 0.1306
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1787
+    demographics_component_sd: 0.1314
+    expected_two_party_share_v3_demographics: 0.442
+    war_v3_demographics: 0.1356
+    war_v3_demographics_sd: 0.063
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5611
     expected_two_party_share_v2: 0.4902
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5433
-    lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5454
+    lean_component_v3_demographics_sd: 0.0355
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.014
-    education_component_sd: 0.0396
-    expected_two_party_share_v3_demographics: 0.5358
-    war_v3_demographics: -0.1134
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1839
+    demographics_component_sd: 0.1331
+    expected_two_party_share_v3_demographics: 0.5314
+    war_v3_demographics: -0.109
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 45312
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1216
   median_household_income: 116926
   bachelors_degree_count: 9615
+  total_population_acs: 44661
   acs_year: 2022
 history:
 - vintage: 2012-2020

@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.6719
     own_tide: 0.6296
-    war_v2: 0.2948
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6719
     expected_two_party_share_v2: 0.7052
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6506
-    lean_component_v3_demographics_sd: 0.0416
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0155
-    education_component_sd: 0.0442
-    expected_two_party_share_v3_demographics: 0.701
-    war_v3_demographics: 0.299
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6532
+    lean_component_v3_demographics_sd: 0.0425
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1832
+    demographics_component_sd: 0.1347
+    expected_two_party_share_v3_demographics: 0.6994
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Steven G. Leblanc, Jr
     slug: steven-g-leblanc-jr
     party: Other
@@ -79,6 +80,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -87,8 +89,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6927
     expected_two_party_share_v2: 0.5596
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6707
-    lean_component_v3_demographics_sd: 0.0429
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6734
+    lean_component_v3_demographics_sd: 0.0438
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0159
-    education_component_sd: 0.0447
-    expected_two_party_share_v3_demographics: 0.6615
-    war_v3_demographics: 0.0299
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1836
+    demographics_component_sd: 0.1349
+    expected_two_party_share_v3_demographics: 0.6597
+    war_v3_demographics: 0.0317
+    war_v3_demographics_sd: 0.063
   - name: Ashley Sullivan
     slug: ashley-sullivan
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3073
     expected_two_party_share_v2: 0.357
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.2976
-    lean_component_v3_demographics_sd: 0.019
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.2987
+    lean_component_v3_demographics_sd: 0.0195
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0103
-    education_component_sd: 0.0375
-    expected_two_party_share_v3_demographics: 0.3184
-    war_v3_demographics: -0.0098
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1776
+    demographics_component_sd: 0.1327
+    expected_two_party_share_v3_demographics: 0.3151
+    war_v3_demographics: -0.0065
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 40396
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1659
   median_household_income: 95854
   bachelors_degree_count: 9685
+  total_population_acs: 45863
   acs_year: 2022
 history:
 - vintage: 2012-2020

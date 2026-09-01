@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.5609
     own_tide: 0.6296
-    war_v2: 0.3534
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5609
     expected_two_party_share_v2: 0.6466
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5431
-    lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0072
-    education_component_sd: 0.0205
-    expected_two_party_share_v3_demographics: 0.6019
-    war_v3_demographics: 0.3981
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5453
+    lean_component_v3_demographics_sd: 0.0355
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1701
+    demographics_component_sd: 0.1193
+    expected_two_party_share_v3_demographics: 0.6046
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5772
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5772
     expected_two_party_share_v2: 0.4987
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5589
-    lean_component_v3_demographics_sd: 0.0357
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5611
+    lean_component_v3_demographics_sd: 0.0365
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0074
-    education_component_sd: 0.0208
-    expected_two_party_share_v3_demographics: 0.5581
-    war_v3_demographics: 0.069
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1703
+    demographics_component_sd: 0.1194
+    expected_two_party_share_v3_demographics: 0.5608
+    war_v3_demographics: 0.0663
+    war_v3_demographics_sd: 0.063
   - name: Aaron L. Packard
     slug: aaron-l-packard
     party: Republican
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4228
     expected_two_party_share_v2: 0.4179
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4094
-    lean_component_v3_demographics_sd: 0.0262
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.411
+    lean_component_v3_demographics_sd: 0.0268
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0048
-    education_component_sd: 0.0174
-    expected_two_party_share_v3_demographics: 0.4357
-    war_v3_demographics: -0.0628
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1675
+    demographics_component_sd: 0.1189
+    expected_two_party_share_v3_demographics: 0.4375
+    war_v3_demographics: -0.0646
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 44935
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 12893
   median_household_income: 67342
   bachelors_degree_count: 4999
+  total_population_acs: 45244
   acs_year: 2022
 history:
 - vintage: 2012-2020

@@ -230,9 +230,17 @@ def _incumbent_term_dummies(terms: int) -> dict[str, float]:
 # than 1-term ones). `bachelors_pct_x_tide` gets a deliberately *tighter*
 # prior than its own main effect: it's the interaction term identified by
 # only two distinct tide values (2022, 2024 — see
-# fit_war_v3_demographics), so it needs the most regularizing of anything
-# fit here. `log_raised`'s prior is scaled for a variable that itself
-# spans roughly log($1k) to log($1M) (~7-14).
+# fit_war_v3_demographics_core), so it needs the most regularizing of
+# anything fit here. `log_raised`'s prior is scaled for a variable that
+# itself spans roughly log($1k) to log($1M) (~7-14). `hispanic_pct` and
+# `voting_age_pct` are proportions like `bachelors_pct`, so they share its
+# prior. `income_10k` is median household income in $10,000 units (so a
+# district going from $70k to $170k median income is a 10-unit swing) —
+# its prior is scaled down from `bachelors_pct`'s the same way `log_raised`
+# was scaled down from `own_lean`'s: a $10k step is a much finer-grained
+# unit than a full 0-to-1 population share, so the same substantive belief
+# ("this shouldn't move vote share by double-digit points on its own")
+# implies a much smaller per-unit coefficient.
 _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "intercept": (0.5, 0.2),
     "own_lean": (1.0, 0.4),
@@ -242,6 +250,9 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "incumbent_3plus": (0.05, 0.08),
     "bachelors_pct": (0.0, 0.3),
     "bachelors_pct_x_tide": (0.0, 0.2),
+    "hispanic_pct": (0.0, 0.3),
+    "voting_age_pct": (0.0, 0.3),
+    "income_10k": (0.0, 0.02),
     "log_raised": (0.0, 0.02),
 }
 
@@ -450,7 +461,16 @@ def apply_war_v2(
     expected_two_party_share_v2 — rather than just the final number, so
     the district/seat page attribution chart can show what the actual
     fitted model attributes the expected share to, not a hand-picked
-    approximation of it."""
+    approximation of it.
+
+    war_v2 itself is left null for an uncontested race: an unopposed
+    candidate's ~100% actual share isn't a meaningful comparison to the
+    model's expectation (it's mechanically inflated, not earned against
+    real competition — same reasoning already documented for WAR v1's own
+    uncontested-race limitation). expected_two_party_share_v2 and every
+    *_component stay defined regardless, since none of them depend on the
+    actual outcome — they're this project's "baseline expectation" metric,
+    the number that's still meaningful when WAR itself isn't."""
     coefs = fit["coefficients"]
     b0 = coefs["intercept"]["posterior_mean"]
     b_lean = coefs["own_lean"]["posterior_mean"]
@@ -511,8 +531,11 @@ def apply_war_v2(
                     c.update(
                         own_lean=round(own_lean, 4),
                         own_tide=round(own_tide, 4),
-                        war_v2=round(c["actual_two_party_share"] - expected_v2, 4),
-                        war_v2_sd=round(fit["posterior_sigma_mean"], 4),
+                        war_v2=(
+                            None if entry["is_uncontested"]
+                            else round(c["actual_two_party_share"] - expected_v2, 4)
+                        ),
+                        war_v2_sd=None if entry["is_uncontested"] else round(fit["posterior_sigma_mean"], 4),
                         incumbency_adjustment=round(incumbency_component, 4),
                         incumbency_adjustment_sd=round(incumbency_component_sd, 4),
                         intercept_component=round(b0, 4),
@@ -556,7 +579,86 @@ def build_war_v2_fit_sample(district_records_by_vintage: dict[str, list[dict]]) 
     return rows
 
 
-def fit_war_v3_demographics(
+_DEMOGRAPHICS_CORE_COVARIATES = ("bachelors_pct",)
+_DEMOGRAPHICS_FULL_COVARIATES = ("bachelors_pct", "hispanic_pct", "voting_age_pct", "income_10k")
+
+
+def _demographic_covariates(demographics: dict | None) -> dict[str, float]:
+    """Computes whatever demographic covariates a district's own Census
+    match actually supports — never all-or-nothing the way the original
+    single-tier version of this fit was, which silently dropped a district
+    entirely if it was missing even one field. Real, live gap this closes:
+    15 of 200 current-vintage districts (all Senate seats) have a PL 94-171
+    name-matching failure (see demographics_match.py) but DO have ACS
+    income/education data — those districts can still support
+    `bachelors_pct` (falling back to ACS's own `total_population_acs` as
+    the denominator when PL 94-171's `total_population` is missing) even
+    though `hispanic_pct`/`voting_age_pct` can't be computed for them
+    (both need PL 94-171's population specifically — its own numerator and
+    denominator have to come from the same table, not mixed across ACS and
+    PL 94-171, which use different survey methodologies and reference
+    years). `income_10k` is median household income in $10,000 units."""
+    if not demographics:
+        return {}
+    covariates: dict[str, float] = {}
+    pop = demographics.get("total_population") or demographics.get("total_population_acs")
+    if pop and demographics.get("bachelors_degree_count") is not None:
+        covariates["bachelors_pct"] = demographics["bachelors_degree_count"] / pop
+    pl_pop = demographics.get("total_population")
+    if pl_pop:
+        if demographics.get("hispanic_or_latino_population") is not None:
+            covariates["hispanic_pct"] = demographics["hispanic_or_latino_population"] / pl_pop
+        if demographics.get("voting_age_population") is not None:
+            covariates["voting_age_pct"] = demographics["voting_age_population"] / pl_pop
+    if demographics.get("median_household_income") is not None:
+        covariates["income_10k"] = demographics["median_household_income"] / 10000
+    return covariates
+
+
+def _build_demographics_rows(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    current_vintage: str,
+    required_covariates: tuple[str, ...],
+) -> list[dict]:
+    """Shared row-builder for both demographics fit tiers below — only
+    difference between the core and full fits is which covariates a
+    district needs to have to contribute a row at all."""
+    rows = []
+    for d in district_records_by_vintage.get(current_vintage, []):
+        covariates = _demographic_covariates(d.get("demographics"))
+        if not all(k in covariates for k in required_covariates):
+            continue
+        for entry in d["results_by_year"]:
+            if entry["is_uncontested"]:
+                continue
+            tide = tide_by_year.get(entry["year"])
+            if tide is None:
+                continue
+            for c in entry["candidates"]:
+                if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
+                    continue
+                is_dem = c["party"] == "Democratic"
+                own_lean = entry["lean_dem_share"] if is_dem else 1 - entry["lean_dem_share"]
+                own_tide = tide if is_dem else 1 - tide
+                row = {
+                    "own_share": c["actual_two_party_share"],
+                    "own_lean": own_lean,
+                    "own_tide": own_tide,
+                    "bachelors_pct": covariates["bachelors_pct"],
+                    "bachelors_pct_x_tide": covariates["bachelors_pct"] * own_tide,
+                    "year": entry["year"],
+                }
+                if "hispanic_pct" in required_covariates:
+                    row["hispanic_pct"] = covariates["hispanic_pct"]
+                    row["voting_age_pct"] = covariates["voting_age_pct"]
+                    row["income_10k"] = covariates["income_10k"]
+                row.update(_incumbent_term_dummies(c.get("incumbent_terms", 0)))
+                rows.append(row)
+    return rows
+
+
+def fit_war_v3_demographics_core(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
     current_vintage: str,
@@ -579,42 +681,15 @@ def fit_war_v3_demographics(
     the site's main per-candidate WAR number (which needs to stay defined
     and comparable across the full 2002-2024 backfill).
 
-    Uses one demographic measure — bachelor's-degree-or-higher share of
-    population — the "diploma divide" variable most associated with
+    This is the "core" tier — bachelor's-degree-or-higher share of
+    population alone, the "diploma divide" variable most associated with
     recent-era partisan realignment in the real political-science
-    literature, rather than every available Census field at once, to keep
-    this a legible single diagnostic rather than an uninterpretable
-    kitchen sink. Returns None if too few current-vintage districts have
-    a demographics match to fit anything meaningful."""
-    rows = []
-    for d in district_records_by_vintage.get(current_vintage, []):
-        demographics = d.get("demographics")
-        if not demographics or not demographics.get("total_population") or not demographics.get("bachelors_degree_count"):
-            continue
-        bachelors_pct = demographics["bachelors_degree_count"] / demographics["total_population"]
-        for entry in d["results_by_year"]:
-            if entry["is_uncontested"]:
-                continue
-            tide = tide_by_year.get(entry["year"])
-            if tide is None:
-                continue
-            for c in entry["candidates"]:
-                if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
-                    continue
-                is_dem = c["party"] == "Democratic"
-                own_lean = entry["lean_dem_share"] if is_dem else 1 - entry["lean_dem_share"]
-                own_tide = tide if is_dem else 1 - tide
-                row = {
-                    "own_share": c["actual_two_party_share"],
-                    "own_lean": own_lean,
-                    "own_tide": own_tide,
-                    "bachelors_pct": bachelors_pct,
-                    "bachelors_pct_x_tide": bachelors_pct * own_tide,
-                    "year": entry["year"],
-                }
-                row.update(_incumbent_term_dummies(c.get("incumbent_terms", 0)))
-                rows.append(row)
-
+    literature — used both as its own labeled diagnostic and as the
+    fallback fit for districts whose PL 94-171 match failed (see
+    _demographic_covariates), so apply_war_v3_demographics can still give
+    them *something* rather than nothing. See fit_war_v3_demographics_full
+    for the richer tier. Returns None if too few districts qualify."""
+    rows = _build_demographics_rows(district_records_by_vintage, tide_by_year, current_vintage, _DEMOGRAPHICS_CORE_COVARIATES)
     if len(rows) < 20:
         return None
     df = pd.DataFrame(rows)
@@ -638,6 +713,55 @@ def fit_war_v3_demographics(
     # about how the tide moves cycle to cycle, so counting years directly
     # is the honest measure of how thin this interaction's identification
     # really is (see this function's own docstring).
+    fit["n_distinct_years"] = int(df["year"].nunique())
+    return fit
+
+
+def fit_war_v3_demographics_full(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    current_vintage: str,
+) -> dict | None:
+    """The richer tier of the demographics diagnostic: fit_war_v3_demographics_core's
+    bachelors_pct terms plus Hispanic-or-Latino population share, voting-age
+    population share, and median household income (in $10,000 units) —
+    the remaining Census fields this project already fetches (see
+    fetch.demographics) but had never threaded into WAR v3, even though
+    Hispanic/Latino population and income are both already surfaced in the
+    site's own Demographics section. Restricted to districts with a real
+    PL 94-171 match (hispanic_pct/voting_age_pct need it, see
+    _demographic_covariates) — a strictly narrower sample than the core
+    tier's, which is exactly why apply_war_v3_demographics falls back to
+    the core fit rather than this one for districts that don't qualify,
+    instead of leaving them out of WAR v3 entirely. Returns None if too
+    few districts qualify."""
+    rows = _build_demographics_rows(district_records_by_vintage, tide_by_year, current_vintage, _DEMOGRAPHICS_FULL_COVARIATES)
+    if len(rows) < 20:
+        return None
+    df = pd.DataFrame(rows)
+    feature_names = [
+        "intercept",
+        "own_lean",
+        "own_tide",
+        *INCUMBENT_TERM_BUCKETS,
+        "bachelors_pct",
+        "bachelors_pct_x_tide",
+        "hispanic_pct",
+        "voting_age_pct",
+        "income_10k",
+    ]
+    x = np.column_stack(
+        [np.ones(len(df)), df["own_lean"].to_numpy(), df["own_tide"].to_numpy()]
+        + [df[b].to_numpy() for b in INCUMBENT_TERM_BUCKETS]
+        + [
+            df["bachelors_pct"].to_numpy(),
+            df["bachelors_pct_x_tide"].to_numpy(),
+            df["hispanic_pct"].to_numpy(),
+            df["voting_age_pct"].to_numpy(),
+            df["income_10k"].to_numpy(),
+        ]
+    )
+    fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["n_distinct_years"] = int(df["year"].nunique())
     return fit
 
@@ -710,46 +834,75 @@ def apply_war_v3_demographics(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
     current_vintage: str,
-    fit: dict,
+    core_fit: dict | None,
+    full_fit: dict | None,
 ) -> None:
-    """Mirrors apply_war_v2, but for the demographics diagnostic
-    (fit_war_v3_demographics) — mutates the SAME current-vintage candidate
-    dicts apply_war_v2 already updated, adding a distinctly-suffixed
-    (`*_v3_demographics`) set of fields alongside v2's own
+    """Mirrors apply_war_v2, but for the two-tier demographics diagnostic
+    (fit_war_v3_demographics_core/_full) — mutates the SAME current-vintage
+    candidate dicts apply_war_v2 already updated, adding a distinctly-
+    suffixed (`*_v3_demographics`) set of fields alongside v2's own
     intercept_component/lean_component/tide_component/incumbency_adjustment,
-    rather than overwriting them: the two models fit different coefficients
-    (this one's own_lean/own_tide/incumbency terms come from a much smaller,
-    current-vintage-only sample), so v2's original components need to
-    survive untouched for the district/seat page's existing attribution
-    chart. Scoped to district/seat pages only: demographics is a
-    district-level attribute, not a per-candidate one, so this
-    deliberately isn't threaded into candidate pages the way the finance
-    diagnostic below is. Combines the main bachelors_pct effect and its
-    tide interaction into a single "education_component" (rather than two
-    separate stacked-bar segments) so the attribution chart's palette
-    doesn't need a 7th color and reads as one legible "what does education
-    explain" slice. Runs only over district_records_by_vintage[current_vintage],
-    same real-coverage scope fit_war_v3_demographics itself documents, and
-    only for districts that actually have a demographics match."""
-    coefs = fit["coefficients"]
-    b0 = coefs["intercept"]["posterior_mean"]
-    b_lean = coefs["own_lean"]["posterior_mean"]
-    b_tide = coefs["own_tide"]["posterior_mean"]
-    b_terms = {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
-    b_edu = coefs["bachelors_pct"]["posterior_mean"]
-    b_edu_tide = coefs["bachelors_pct_x_tide"]["posterior_mean"]
+    rather than overwriting them: these models fit different coefficients
+    (their own_lean/own_tide/incumbency terms come from smaller, current-
+    vintage-only samples), so v2's original components need to survive
+    untouched for the district/seat page's existing attribution chart.
+    Scoped to district/seat pages only: demographics is a district-level
+    attribute, not a per-candidate one, so this deliberately isn't
+    threaded into candidate pages the way the finance diagnostic below is.
+
+    Graceful per-district fallback, not all-or-nothing: each district
+    picks whichever tier its own Census match actually supports —
+    `full_fit` (bachelors_pct + hispanic_pct + voting_age_pct + income_10k)
+    when all four are available, else `core_fit` (bachelors_pct alone)
+    when at least that is, else no WAR v3 at all for that district (same
+    as before this tiering existed). The chosen tier's name is recorded in
+    `demographics_tier` ("full"/"core"/None) so pages can say which model
+    actually applied rather than leaving it invisible. All of a tier's
+    added terms are combined into one "demographics_component" (not one
+    stacked-bar segment per term) so the attribution chart's palette still
+    only needs a single extra color regardless of which tier ran.
+
+    war_v3_demographics itself is null for an uncontested race (a
+    mechanically-inflated ~100% actual share isn't a meaningful gap from
+    expectation — same reasoning as WAR v1/v2's documented uncontested
+    limitation) — but expected_two_party_share_v3_demographics and every
+    *_component stay defined regardless, since they don't depend on the
+    actual outcome at all: they're this project's "baseline expectation"
+    metric, the one still meaningful when WAR itself isn't."""
+
+    def _tier_coefs(fit: dict) -> dict:
+        coefs = fit["coefficients"]
+        return {
+            "b0": coefs["intercept"]["posterior_mean"],
+            "b0_sd": coefs["intercept"]["posterior_sd"],
+            "b_lean": coefs["own_lean"]["posterior_mean"],
+            "b_lean_sd": coefs["own_lean"]["posterior_sd"],
+            "b_tide": coefs["own_tide"]["posterior_mean"],
+            "b_tide_sd": coefs["own_tide"]["posterior_sd"],
+            "b_terms": {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS},
+            "b_terms_sd": {b: coefs[b]["posterior_sd"] for b in INCUMBENT_TERM_BUCKETS},
+            "coefs": coefs,
+            "sigma": fit["posterior_sigma_mean"],
+        }
+
+    core = _tier_coefs(core_fit) if core_fit else None
+    full = _tier_coefs(full_fit) if full_fit else None
 
     for d in district_records_by_vintage.get(current_vintage, []):
-        demographics = d.get("demographics")
-        bachelors_pct = None
-        if demographics and demographics.get("total_population") and demographics.get("bachelors_degree_count"):
-            bachelors_pct = demographics["bachelors_degree_count"] / demographics["total_population"]
+        covariates = _demographic_covariates(d.get("demographics"))
+        if full and all(k in covariates for k in _DEMOGRAPHICS_FULL_COVARIATES):
+            tier, tc = "full", full
+        elif core and "bachelors_pct" in covariates:
+            tier, tc = "core", core
+        else:
+            tier, tc = None, None
 
         for entry in d["results_by_year"]:
             tide = tide_by_year.get(entry["year"])
             for c in entry["candidates"]:
-                if c["war"] is None or tide is None or bachelors_pct is None or c["party"] not in ("Democratic", "Republican"):
+                if c["war"] is None or tide is None or tc is None or c["party"] not in ("Democratic", "Republican"):
                     c.update(
+                        demographics_tier=None,
                         intercept_component_v3_demographics=None,
                         intercept_component_v3_demographics_sd=None,
                         lean_component_v3_demographics=None,
@@ -758,8 +911,8 @@ def apply_war_v3_demographics(
                         tide_component_v3_demographics_sd=None,
                         incumbency_adjustment_v3_demographics=None,
                         incumbency_adjustment_v3_demographics_sd=None,
-                        education_component=None,
-                        education_component_sd=None,
+                        demographics_component=None,
+                        demographics_component_sd=None,
                         expected_two_party_share_v3_demographics=None,
                         war_v3_demographics=None,
                         war_v3_demographics_sd=None,
@@ -769,36 +922,45 @@ def apply_war_v3_demographics(
                 own_lean = entry["lean_dem_share"] if is_dem else 1 - entry["lean_dem_share"]
                 own_tide = tide if is_dem else 1 - tide
                 dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
-                incumbency_component = sum(b_terms[b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
-                lean_component = b_lean * own_lean
-                tide_component = b_tide * own_tide
-                education_component = b_edu * bachelors_pct + b_edu_tide * bachelors_pct * own_tide
-                expected = b0 + lean_component + tide_component + incumbency_component + education_component
+                incumbency_component = sum(tc["b_terms"][b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
+                lean_component = tc["b_lean"] * own_lean
+                tide_component = tc["b_tide"] * own_tide
+
+                # Every term this tier actually fits, combined into one
+                # "demographics_component" plus its delta-method SD summed
+                # in quadrature across all contributing terms (same
+                # independence approximation as apply_war_v2, extended to
+                # however many terms this tier has).
+                coefs = tc["coefs"]
+                demo_terms = [(covariates["bachelors_pct"], "bachelors_pct")]
+                demo_terms.append((covariates["bachelors_pct"] * own_tide, "bachelors_pct_x_tide"))
+                if tier == "full":
+                    demo_terms.append((covariates["hispanic_pct"], "hispanic_pct"))
+                    demo_terms.append((covariates["voting_age_pct"], "voting_age_pct"))
+                    demo_terms.append((covariates["income_10k"], "income_10k"))
+                demographics_component = sum(coefs[name]["posterior_mean"] * value for value, name in demo_terms)
+                demographics_component_sd = sum((coefs[name]["posterior_sd"] * value) ** 2 for value, name in demo_terms) ** 0.5
+
+                expected = tc["b0"] + lean_component + tide_component + incumbency_component + demographics_component
                 active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
-                incumbency_component_sd = coefs[active_bucket]["posterior_sd"] if active_bucket else 0.0
-                # Same delta-method independence approximation as apply_war_v2,
-                # extended to sum the main effect's and the interaction's
-                # variance in quadrature (still treating the two terms'
-                # posteriors as independent of each other, not just of the
-                # other coefficients) since both feed the one combined slice.
-                education_component_sd = (
-                    (bachelors_pct * coefs["bachelors_pct"]["posterior_sd"]) ** 2
-                    + (bachelors_pct * own_tide * coefs["bachelors_pct_x_tide"]["posterior_sd"]) ** 2
-                ) ** 0.5
+                incumbency_component_sd = tc["b_terms_sd"][active_bucket] if active_bucket else 0.0
                 c.update(
-                    intercept_component_v3_demographics=round(b0, 4),
-                    intercept_component_v3_demographics_sd=coefs["intercept"]["posterior_sd"],
+                    demographics_tier=tier,
+                    intercept_component_v3_demographics=round(tc["b0"], 4),
+                    intercept_component_v3_demographics_sd=round(tc["b0_sd"], 4),
                     lean_component_v3_demographics=round(lean_component, 4),
-                    lean_component_v3_demographics_sd=round(abs(own_lean) * coefs["own_lean"]["posterior_sd"], 4),
+                    lean_component_v3_demographics_sd=round(abs(own_lean) * tc["b_lean_sd"], 4),
                     tide_component_v3_demographics=round(tide_component, 4),
-                    tide_component_v3_demographics_sd=round(abs(own_tide) * coefs["own_tide"]["posterior_sd"], 4),
+                    tide_component_v3_demographics_sd=round(abs(own_tide) * tc["b_tide_sd"], 4),
                     incumbency_adjustment_v3_demographics=round(incumbency_component, 4),
                     incumbency_adjustment_v3_demographics_sd=round(incumbency_component_sd, 4),
-                    education_component=round(education_component, 4),
-                    education_component_sd=round(education_component_sd, 4),
+                    demographics_component=round(demographics_component, 4),
+                    demographics_component_sd=round(demographics_component_sd, 4),
                     expected_two_party_share_v3_demographics=round(expected, 4),
-                    war_v3_demographics=round(c["actual_two_party_share"] - expected, 4),
-                    war_v3_demographics_sd=round(fit["posterior_sigma_mean"], 4),
+                    war_v3_demographics=(
+                        None if entry["is_uncontested"] else round(c["actual_two_party_share"] - expected, 4)
+                    ),
+                    war_v3_demographics_sd=None if entry["is_uncontested"] else round(tc["sigma"], 4),
                 )
 
 
@@ -812,7 +974,13 @@ def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, f
     race where this candidate actually has an OCPF-matched total for that
     specific year; every other race gets explicit Nones (same "missing
     over wrong" pattern as apply_war_v2), so candidate.html can check one
-    field to decide whether to show the finance-aware attribution view."""
+    field to decide whether to show the finance-aware attribution view.
+
+    war_v3_finance itself is left null for an uncontested race, same
+    reasoning and same fields-that-stay-defined pattern as apply_war_v2's
+    own uncontested handling — expected_two_party_share_v3_finance is
+    this candidate's "baseline expectation" for that race regardless of
+    whether the race itself was ever contested."""
     coefs = fit["coefficients"]
     b0 = coefs["intercept"]["posterior_mean"]
     b_lean = coefs["own_lean"]["posterior_mean"]
@@ -867,8 +1035,11 @@ def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, f
                 incumbency_adjustment_v3_finance=round(incumbency_component, 4),
                 incumbency_adjustment_v3_finance_sd=round(incumbency_component_sd, 4),
                 expected_two_party_share_v3_finance=round(expected, 4),
-                war_v3_finance=round(race["actual_two_party_share"] - expected, 4),
-                war_v3_finance_sd=round(fit["posterior_sigma_mean"], 4),
+                war_v3_finance=(
+                    None if race["is_uncontested"]
+                    else round(race["actual_two_party_share"] - expected, 4)
+                ),
+                war_v3_finance_sd=None if race["is_uncontested"] else round(fit["posterior_sigma_mean"], 4),
             )
 
 
@@ -1355,22 +1526,40 @@ def main(
     # WAR v3: two diagnostic extensions of the core model, reported on the
     # methodology page only (see each function's docstring for why they
     # aren't threaded into every candidate's WAR the way v2 is — real
-    # coverage limits, not an oversight).
-    war_v3_demographics_fit = fit_war_v3_demographics(district_records_by_vintage, tide_by_year, current_vintage)
-    if war_v3_demographics_fit is not None:
+    # coverage limits, not an oversight). Demographics is itself two
+    # tiers — core (bachelors_pct alone) and full (+ hispanic_pct,
+    # voting_age_pct, income_10k) — so a district whose PL 94-171 match
+    # failed but has ACS data still gets the core tier rather than nothing.
+    war_v3_demographics_core_fit = fit_war_v3_demographics_core(district_records_by_vintage, tide_by_year, current_vintage)
+    war_v3_demographics_full_fit = fit_war_v3_demographics_full(district_records_by_vintage, tide_by_year, current_vintage)
+    if war_v3_demographics_core_fit is not None:
         logger.info(
-            "WAR v3 demographics diagnostic: n=%d, R²=%s, bachelors_pct=%+.3f, bachelors_pct_x_tide=%+.3f",
-            war_v3_demographics_fit["n"],
-            war_v3_demographics_fit["r_squared"],
-            war_v3_demographics_fit["coefficients"]["bachelors_pct"]["posterior_mean"],
-            war_v3_demographics_fit["coefficients"]["bachelors_pct_x_tide"]["posterior_mean"],
+            "WAR v3 demographics (core) diagnostic: n=%d, R²=%s, bachelors_pct=%+.3f, bachelors_pct_x_tide=%+.3f",
+            war_v3_demographics_core_fit["n"],
+            war_v3_demographics_core_fit["r_squared"],
+            war_v3_demographics_core_fit["coefficients"]["bachelors_pct"]["posterior_mean"],
+            war_v3_demographics_core_fit["coefficients"]["bachelors_pct_x_tide"]["posterior_mean"],
         )
-        (site_data_dir / "war_v3_demographics.yml").write_text(
-            yaml.safe_dump(war_v3_demographics_fit, sort_keys=False)
-        )
-        apply_war_v3_demographics(district_records_by_vintage, tide_by_year, current_vintage, war_v3_demographics_fit)
     else:
-        logger.warning("Not enough current-vintage demographics-matched races to fit the WAR v3 demographics diagnostic")
+        logger.warning("Not enough current-vintage demographics-matched races to fit the WAR v3 demographics (core) diagnostic")
+    if war_v3_demographics_full_fit is not None:
+        logger.info(
+            "WAR v3 demographics (full) diagnostic: n=%d, R²=%s, hispanic_pct=%+.3f, voting_age_pct=%+.3f, income_10k=%+.4f",
+            war_v3_demographics_full_fit["n"],
+            war_v3_demographics_full_fit["r_squared"],
+            war_v3_demographics_full_fit["coefficients"]["hispanic_pct"]["posterior_mean"],
+            war_v3_demographics_full_fit["coefficients"]["voting_age_pct"]["posterior_mean"],
+            war_v3_demographics_full_fit["coefficients"]["income_10k"]["posterior_mean"],
+        )
+    else:
+        logger.warning("Not enough fully-Census-matched districts to fit the WAR v3 demographics (full) diagnostic")
+    if war_v3_demographics_core_fit is not None or war_v3_demographics_full_fit is not None:
+        (site_data_dir / "war_v3_demographics.yml").write_text(
+            yaml.safe_dump({"core": war_v3_demographics_core_fit, "full": war_v3_demographics_full_fit}, sort_keys=False)
+        )
+        apply_war_v3_demographics(
+            district_records_by_vintage, tide_by_year, current_vintage, war_v3_demographics_core_fit, war_v3_demographics_full_fit
+        )
 
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)

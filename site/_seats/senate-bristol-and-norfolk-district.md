@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.581
     own_tide: 0.6296
-    war_v2: 0.3428
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.581
     expected_two_party_share_v2: 0.6572
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5626
-    lean_component_v3_demographics_sd: 0.036
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0143
-    education_component_sd: 0.0406
-    expected_two_party_share_v3_demographics: 0.6143
-    war_v3_demographics: 0.3857
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5648
+    lean_component_v3_demographics_sd: 0.0368
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1738
+    demographics_component_sd: 0.1268
+    expected_two_party_share_v3_demographics: 0.6204
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Laura L. Saylor
     slug: laura-l-saylor
     party: Other
@@ -79,6 +80,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -87,8 +89,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.5114
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5822
-    lean_component_v3_demographics_sd: 0.0372
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5845
+    lean_component_v3_demographics_sd: 0.0381
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0146
-    education_component_sd: 0.0411
-    expected_two_party_share_v3_demographics: 0.5742
-    war_v3_demographics: 0.0319
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1742
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.5803
+    war_v3_demographics: 0.0258
+    war_v3_demographics_sd: 0.063
   - name: Michael Chaisson
     slug: michael-chaisson
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3988
     expected_two_party_share_v2: 0.4052
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3861
-    lean_component_v3_demographics_sd: 0.0247
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3876
+    lean_component_v3_demographics_sd: 0.0252
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0095
-    education_component_sd: 0.0344
-    expected_two_party_share_v3_demographics: 0.4077
-    war_v3_demographics: -0.0138
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1687
+    demographics_component_sd: 0.125
+    expected_two_party_share_v3_demographics: 0.4129
+    war_v3_demographics: -0.019
+    war_v3_demographics_sd: 0.063
   - name: Laura L. Saylor
     slug: laura-l-saylor
     party: Other
@@ -196,6 +200,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -204,8 +209,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 7474
   median_household_income: 112106
   bachelors_degree_count: 36751
+  total_population_acs: 181384
   acs_year: 2022
 history:
 - vintage: 2012-2020

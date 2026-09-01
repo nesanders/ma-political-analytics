@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5473
     expected_two_party_share_v2: 0.6395
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.53
-    lean_component_v3_demographics_sd: 0.0339
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.01
-    education_component_sd: 0.0284
-    expected_two_party_share_v3_demographics: 0.586
-    war_v3_demographics: -0.011
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5321
+    lean_component_v3_demographics_sd: 0.0347
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1734
+    demographics_component_sd: 0.123
+    expected_two_party_share_v3_demographics: 0.5882
+    war_v3_demographics: -0.0132
+    war_v3_demographics_sd: 0.063
   - name: Salvatore Perla
     slug: salvatore-perla
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4527
     expected_two_party_share_v2: 0.4336
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4383
-    lean_component_v3_demographics_sd: 0.028
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.44
+    lean_component_v3_demographics_sd: 0.0286
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0068
-    education_component_sd: 0.0243
-    expected_two_party_share_v3_demographics: 0.461
-    war_v3_demographics: -0.036
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1701
+    demographics_component_sd: 0.1221
+    expected_two_party_share_v3_demographics: 0.4624
+    war_v3_demographics: -0.0374
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5625
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.5625
     own_tide: 0.6484
-    war_v2: 0.5091
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5625
     expected_two_party_share_v2: 0.4909
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5447
-    lean_component_v3_demographics_sd: 0.0348
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5468
+    lean_component_v3_demographics_sd: 0.0356
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0102
-    education_component_sd: 0.0287
-    expected_two_party_share_v3_demographics: 0.5411
-    war_v3_demographics: 0.4589
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1736
+    demographics_component_sd: 0.1231
+    expected_two_party_share_v3_demographics: 0.5431
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: John M. Dombrowski
     slug: john-m-dombrowski
     party: Other
@@ -160,6 +163,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -168,8 +172,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 8268
   median_household_income: 75620
   bachelors_degree_count: 6737
+  total_population_acs: 43620
   acs_year: 2022
 title: 4th Worcester District (2022-present)
 layout: district

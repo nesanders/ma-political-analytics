@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.6119
     own_tide: 0.6296
-    war_v2: 0.3264
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6119
     expected_two_party_share_v2: 0.6736
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5925
-    lean_component_v3_demographics_sd: 0.0379
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.006
-    education_component_sd: 0.0172
-    expected_two_party_share_v3_demographics: 0.6524
-    war_v3_demographics: 0.3476
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5948
+    lean_component_v3_demographics_sd: 0.0387
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1722
+    demographics_component_sd: 0.1212
+    expected_two_party_share_v3_demographics: 0.652
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6497
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6497
     expected_two_party_share_v2: 0.537
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6291
-    lean_component_v3_demographics_sd: 0.0402
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6316
+    lean_component_v3_demographics_sd: 0.0411
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0062
-    education_component_sd: 0.0174
-    expected_two_party_share_v3_demographics: 0.6295
-    war_v3_demographics: -0.0375
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1724
+    demographics_component_sd: 0.1212
+    expected_two_party_share_v3_demographics: 0.6291
+    war_v3_demographics: -0.0371
+    war_v3_demographics_sd: 0.063
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3503
     expected_two_party_share_v2: 0.3796
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3392
-    lean_component_v3_demographics_sd: 0.0217
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3405
+    lean_component_v3_demographics_sd: 0.0222
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.004
-    education_component_sd: 0.0146
-    expected_two_party_share_v3_demographics: 0.3663
-    war_v3_demographics: 0.0417
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1701
+    demographics_component_sd: 0.1208
+    expected_two_party_share_v3_demographics: 0.3645
+    war_v3_demographics: 0.0435
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 43466
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 10098
   median_household_income: 54717
   bachelors_degree_count: 4051
+  total_population_acs: 41028
   acs_year: 2022
 history:
 - vintage: 2012-2020

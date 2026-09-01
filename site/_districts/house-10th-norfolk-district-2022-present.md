@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.599
     expected_two_party_share_v2: 0.6667
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.58
-    lean_component_v3_demographics_sd: 0.0371
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0143
-    education_component_sd: 0.0406
-    expected_two_party_share_v3_demographics: 0.6317
-    war_v3_demographics: -0.014
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5823
+    lean_component_v3_demographics_sd: 0.0379
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1752
+    demographics_component_sd: 0.1275
+    expected_two_party_share_v3_demographics: 0.6365
+    war_v3_demographics: -0.0188
+    war_v3_demographics_sd: 0.063
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.401
     expected_two_party_share_v2: 0.4064
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3883
-    lean_component_v3_demographics_sd: 0.0248
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3898
+    lean_component_v3_demographics_sd: 0.0254
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0098
-    education_component_sd: 0.0348
-    expected_two_party_share_v3_demographics: 0.4081
-    war_v3_demographics: -0.0258
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1704
+    demographics_component_sd: 0.1258
+    expected_two_party_share_v3_demographics: 0.4119
+    war_v3_demographics: -0.0296
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6047
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6047
     expected_two_party_share_v2: 0.5132
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5855
-    lean_component_v3_demographics_sd: 0.0374
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5878
+    lean_component_v3_demographics_sd: 0.0383
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0146
-    education_component_sd: 0.0411
-    expected_two_party_share_v3_demographics: 0.5775
-    war_v3_demographics: 0.0599
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1755
+    demographics_component_sd: 0.1276
+    expected_two_party_share_v3_demographics: 0.5822
+    war_v3_demographics: 0.0552
+    war_v3_demographics_sd: 0.063
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3953
     expected_two_party_share_v2: 0.4034
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3828
-    lean_component_v3_demographics_sd: 0.0245
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3843
+    lean_component_v3_demographics_sd: 0.025
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0095
-    education_component_sd: 0.0344
-    expected_two_party_share_v3_demographics: 0.4044
-    war_v3_demographics: -0.0418
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1701
+    demographics_component_sd: 0.1257
+    expected_two_party_share_v3_demographics: 0.4082
+    war_v3_demographics: -0.0456
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 43328
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 1554
   median_household_income: 139379
   bachelors_degree_count: 9548
+  total_population_acs: 42543
   acs_year: 2022
 title: 10th Norfolk District (2022-present)
 layout: district

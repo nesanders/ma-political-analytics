@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.4051
     own_tide: 0.3704
-    war_v2: 0.5915
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,17 +43,18 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4051
     expected_two_party_share_v2: 0.4085
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.397
+    lean_component_v3_demographics_sd: 0.0243
+    tide_component_v3_demographics: -0.0307
+    tide_component_v3_demographics_sd: 0.0216
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0096
+    demographics_component_sd: 0.0374
+    expected_two_party_share_v3_demographics: 0.4113
     war_v3_demographics: null
     war_v3_demographics_sd: null
   is_open_seat: true
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4097
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.3991
+    lean_component_v3_demographics_sd: 0.0244
+    tide_component_v3_demographics: -0.0291
+    tide_component_v3_demographics_sd: 0.0205
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.009
+    demographics_component_sd: 0.037
+    expected_two_party_share_v3_demographics: 0.4154
+    war_v3_demographics: 0.1909
+    war_v3_demographics_sd: 0.0642
   - name: Robert William Stephens, Jr
     slug: robert-william-stephens-jr
     party: Democratic
@@ -124,23 +126,25 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.5069
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    demographics_tier: core
+    intercept_component_v3_demographics: 0.0545
+    intercept_component_v3_demographics_sd: 0.0331
+    lean_component_v3_demographics: 0.5809
+    lean_component_v3_demographics_sd: 0.0356
+    tide_component_v3_demographics: -0.0537
+    tide_component_v3_demographics_sd: 0.0377
+    incumbency_adjustment_v3_demographics: 0.0
+    incumbency_adjustment_v3_demographics_sd: 0.0
+    demographics_component: -0.0181
+    demographics_component_sd: 0.0445
+    expected_two_party_share_v3_demographics: 0.5636
+    war_v3_demographics: -0.1699
+    war_v3_demographics_sd: 0.0642
   is_open_seat: null
 demographics:
   median_household_income: 121100
   bachelors_degree_count: 41637
+  total_population_acs: 172062
   acs_year: 2022
 title: First Plymouth and Norfolk District (2022-present)
 layout: district

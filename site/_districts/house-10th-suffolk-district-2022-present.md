@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.8037
     own_tide: 0.6296
-    war_v2: 0.3817
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.8037
     expected_two_party_share_v2: 0.6183
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7782
-    lean_component_v3_demographics_sd: 0.0497
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.7813
+    lean_component_v3_demographics_sd: 0.0509
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0161
-    education_component_sd: 0.0457
-    expected_two_party_share_v3_demographics: 0.7703
-    war_v3_demographics: 0.2297
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1831
+    demographics_component_sd: 0.134
+    expected_two_party_share_v3_demographics: 0.7696
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.8298
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.8298
     own_tide: 0.6484
-    war_v2: 0.368
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.8298
     expected_two_party_share_v2: 0.632
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.8035
-    lean_component_v3_demographics_sd: 0.0514
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.8066
+    lean_component_v3_demographics_sd: 0.0525
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0164
-    education_component_sd: 0.0463
-    expected_two_party_share_v3_demographics: 0.7936
-    war_v3_demographics: 0.2064
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1835
+    demographics_component_sd: 0.1342
+    expected_two_party_share_v3_demographics: 0.7931
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 41210
@@ -108,6 +110,7 @@ demographics:
   hispanic_or_latino_population: 3257
   median_household_income: 145889
   bachelors_degree_count: 10227
+  total_population_acs: 45349
   acs_year: 2022
 title: 10th Suffolk District (2022-present)
 layout: district

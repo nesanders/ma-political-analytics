@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5535
     expected_two_party_share_v2: 0.4863
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5361
-    lean_component_v3_demographics_sd: 0.0343
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5382
+    lean_component_v3_demographics_sd: 0.035
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0149
-    education_component_sd: 0.0424
-    expected_two_party_share_v3_demographics: 0.5293
-    war_v3_demographics: -0.0172
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1811
+    demographics_component_sd: 0.1326
+    expected_two_party_share_v3_demographics: 0.5285
+    war_v3_demographics: -0.0164
+    war_v3_demographics_sd: 0.063
   - name: Mathew J. Muratore
     slug: mathew-j-muratore
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4465
     expected_two_party_share_v2: 0.4303
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4322
-    lean_component_v3_demographics_sd: 0.0276
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4339
+    lean_component_v3_demographics_sd: 0.0283
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0102
-    education_component_sd: 0.0363
-    expected_two_party_share_v3_demographics: 0.4516
-    war_v3_demographics: 0.0363
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1761
+    demographics_component_sd: 0.1309
+    expected_two_party_share_v3_demographics: 0.4503
+    war_v3_demographics: 0.0376
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5603
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5603
     expected_two_party_share_v2: 0.4898
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5425
-    lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5447
+    lean_component_v3_demographics_sd: 0.0355
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0152
-    education_component_sd: 0.0429
-    expected_two_party_share_v3_demographics: 0.5339
-    war_v3_demographics: 0.0296
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1815
+    demographics_component_sd: 0.1328
+    expected_two_party_share_v3_demographics: 0.5331
+    war_v3_demographics: 0.0304
+    war_v3_demographics_sd: 0.063
   - name: Kari Macrae
     slug: kari-macrae
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4397
     expected_two_party_share_v2: 0.4268
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4258
-    lean_component_v3_demographics_sd: 0.0272
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4274
+    lean_component_v3_demographics_sd: 0.0278
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0099
-    education_component_sd: 0.036
-    expected_two_party_share_v3_demographics: 0.447
-    war_v3_demographics: -0.0105
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1758
+    demographics_component_sd: 0.1308
+    expected_two_party_share_v3_demographics: 0.4457
+    war_v3_demographics: -0.0092
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 166514
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 4198
   median_household_income: 104998
   bachelors_degree_count: 38337
+  total_population_acs: 185295
   acs_year: 2022
 history:
 - vintage: 2012-2020

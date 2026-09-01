@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4867
     expected_two_party_share_v2: 0.6075
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4713
-    lean_component_v3_demographics_sd: 0.0301
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0078
-    education_component_sd: 0.0221
-    expected_two_party_share_v3_demographics: 0.5294
-    war_v3_demographics: -0.0069
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4731
+    lean_component_v3_demographics_sd: 0.0308
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1707
+    demographics_component_sd: 0.1209
+    expected_two_party_share_v3_demographics: 0.5318
+    war_v3_demographics: -0.0093
+    war_v3_demographics_sd: 0.063
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5133
     expected_two_party_share_v2: 0.4656
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.497
-    lean_component_v3_demographics_sd: 0.0318
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.499
+    lean_component_v3_demographics_sd: 0.0325
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0053
-    education_component_sd: 0.0189
-    expected_two_party_share_v3_demographics: 0.5213
-    war_v3_demographics: -0.0438
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1681
+    demographics_component_sd: 0.1203
+    expected_two_party_share_v3_demographics: 0.5233
+    war_v3_demographics: -0.0458
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5146
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5146
     expected_two_party_share_v2: 0.4657
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4983
-    lean_component_v3_demographics_sd: 0.0319
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5002
+    lean_component_v3_demographics_sd: 0.0326
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0079
-    education_component_sd: 0.0224
-    expected_two_party_share_v3_demographics: 0.4969
-    war_v3_demographics: 0.0381
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1709
+    demographics_component_sd: 0.1209
+    expected_two_party_share_v3_demographics: 0.4992
+    war_v3_demographics: 0.0358
+    war_v3_demographics_sd: 0.063
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4854
     expected_two_party_share_v2: 0.4509
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.47
-    lean_component_v3_demographics_sd: 0.03
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4719
+    lean_component_v3_demographics_sd: 0.0307
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0052
-    education_component_sd: 0.0187
-    expected_two_party_share_v3_demographics: 0.496
-    war_v3_demographics: -0.031
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.168
+    demographics_component_sd: 0.1203
+    expected_two_party_share_v3_demographics: 0.4979
+    war_v3_demographics: -0.0329
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 42161
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 3300
   median_household_income: 74638
   bachelors_degree_count: 5053
+  total_population_acs: 42690
   acs_year: 2022
 history:
 - vintage: 2012-2020

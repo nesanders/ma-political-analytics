@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5097
     expected_two_party_share_v2: 0.4631
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4935
-    lean_component_v3_demographics_sd: 0.0316
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4955
+    lean_component_v3_demographics_sd: 0.0323
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.013
-    education_component_sd: 0.0369
-    expected_two_party_share_v3_demographics: 0.4887
-    war_v3_demographics: 0.0864
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1801
+    demographics_component_sd: 0.1296
+    expected_two_party_share_v3_demographics: 0.4868
+    war_v3_demographics: 0.0883
+    war_v3_demographics_sd: 0.063
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4903
     expected_two_party_share_v2: 0.4535
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4748
-    lean_component_v3_demographics_sd: 0.0303
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4766
+    lean_component_v3_demographics_sd: 0.031
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0089
-    education_component_sd: 0.0316
-    expected_two_party_share_v3_demographics: 0.4954
-    war_v3_demographics: -0.0705
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1757
+    demographics_component_sd: 0.1283
+    expected_two_party_share_v3_demographics: 0.4933
+    war_v3_demographics: -0.0684
+    war_v3_demographics_sd: 0.063
   - name: George Hugh Ferdinand
     slug: george-hugh-ferdinand
     party: Other
@@ -115,6 +117,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -123,8 +126,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5232
     expected_two_party_share_v2: 0.4702
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5066
-    lean_component_v3_demographics_sd: 0.0324
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5086
+    lean_component_v3_demographics_sd: 0.0331
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0133
-    education_component_sd: 0.0373
-    expected_two_party_share_v3_demographics: 0.4999
-    war_v3_demographics: 0.0631
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1804
+    demographics_component_sd: 0.1298
+    expected_two_party_share_v3_demographics: 0.4981
+    war_v3_demographics: 0.0649
+    war_v3_demographics_sd: 0.063
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -196,19 +200,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4768
     expected_two_party_share_v2: 0.4464
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4617
-    lean_component_v3_demographics_sd: 0.0295
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4635
+    lean_component_v3_demographics_sd: 0.0302
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0086
-    education_component_sd: 0.0313
-    expected_two_party_share_v3_demographics: 0.4842
-    war_v3_demographics: -0.0472
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1754
+    demographics_component_sd: 0.1282
+    expected_two_party_share_v3_demographics: 0.4821
+    war_v3_demographics: -0.0451
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 42164
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 1481
   median_household_income: 133313
   bachelors_degree_count: 8442
+  total_population_acs: 41287
   acs_year: 2022
 title: 19th Middlesex District (2022-present)
 layout: district

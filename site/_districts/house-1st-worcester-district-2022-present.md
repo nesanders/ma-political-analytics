@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.4647
     own_tide: 0.3704
-    war_v2: 0.4035
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4647
     expected_two_party_share_v2: 0.5965
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.45
-    lean_component_v3_demographics_sd: 0.0288
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0087
-    education_component_sd: 0.031
-    expected_two_party_share_v3_demographics: 0.5286
-    war_v3_demographics: 0.4714
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4517
+    lean_component_v3_demographics_sd: 0.0294
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1692
+    demographics_component_sd: 0.1236
+    expected_two_party_share_v3_demographics: 0.533
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Anthony L. Ferrante
     slug: anthony-l-ferrante
     party: Other
@@ -79,6 +80,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -87,8 +89,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.4573
     own_tide: 0.3516
-    war_v2: 0.5639
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4573
     expected_two_party_share_v2: 0.4361
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4428
-    lean_component_v3_demographics_sd: 0.0283
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4445
+    lean_component_v3_demographics_sd: 0.0289
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0085
-    education_component_sd: 0.0307
-    expected_two_party_share_v3_demographics: 0.4655
-    war_v3_demographics: 0.5345
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1689
+    demographics_component_sd: 0.1235
+    expected_two_party_share_v3_demographics: 0.4696
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 45365
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 1941
   median_household_income: 131272
   bachelors_degree_count: 8926
+  total_population_acs: 45615
   acs_year: 2022
 title: 1st Worcester District (2022-present)
 layout: district

@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.7364
     own_tide: 0.6296
-    war_v2: 0.4172
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7364
     expected_two_party_share_v2: 0.5828
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7131
-    lean_component_v3_demographics_sd: 0.0456
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.7159
+    lean_component_v3_demographics_sd: 0.0466
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0112
-    education_component_sd: 0.032
-    expected_two_party_share_v3_demographics: 0.71
-    war_v3_demographics: 0.29
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1746
+    demographics_component_sd: 0.1243
+    expected_two_party_share_v3_demographics: 0.7127
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Clinton Graham
     slug: clinton-graham
     party: Other
@@ -79,6 +80,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -87,8 +89,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.737
     own_tide: 0.6484
-    war_v2: 0.417
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.737
     expected_two_party_share_v2: 0.583
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.7136
-    lean_component_v3_demographics_sd: 0.0456
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.7164
+    lean_component_v3_demographics_sd: 0.0467
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0115
-    education_component_sd: 0.0324
-    expected_two_party_share_v3_demographics: 0.7087
-    war_v3_demographics: 0.2913
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1748
+    demographics_component_sd: 0.1244
+    expected_two_party_share_v3_demographics: 0.7115
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 43045
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 3171
   median_household_income: 124742
   bachelors_degree_count: 7469
+  total_population_acs: 43558
   acs_year: 2022
 history:
 - vintage: 2012-2020

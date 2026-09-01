@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5649
     expected_two_party_share_v2: 0.6487
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.547
-    lean_component_v3_demographics_sd: 0.035
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0103
-    education_component_sd: 0.0294
-    expected_two_party_share_v3_demographics: 0.6026
-    war_v3_demographics: -0.009
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5491
+    lean_component_v3_demographics_sd: 0.0358
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1796
+    demographics_component_sd: 0.1283
+    expected_two_party_share_v3_demographics: 0.599
+    war_v3_demographics: -0.0054
+    war_v3_demographics_sd: 0.063
   - name: Susanne H. Conley
     slug: susanne-h-conley
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4351
     expected_two_party_share_v2: 0.4244
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4213
-    lean_component_v3_demographics_sd: 0.0269
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.423
+    lean_component_v3_demographics_sd: 0.0275
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0071
-    education_component_sd: 0.0251
-    expected_two_party_share_v3_demographics: 0.4438
-    war_v3_demographics: -0.0374
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1761
+    demographics_component_sd: 0.1274
+    expected_two_party_share_v3_demographics: 0.4393
+    war_v3_demographics: -0.0329
+    war_v3_demographics_sd: 0.063
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5655
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4925
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5476
-    lean_component_v3_demographics_sd: 0.035
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5497
+    lean_component_v3_demographics_sd: 0.0358
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0106
-    education_component_sd: 0.0297
-    expected_two_party_share_v3_demographics: 0.5436
-    war_v3_demographics: 0.0781
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1799
+    demographics_component_sd: 0.1284
+    expected_two_party_share_v3_demographics: 0.5398
+    war_v3_demographics: 0.0819
+    war_v3_demographics_sd: 0.063
   - name: William Buffington Peters
     slug: william-buffington-peters
     party: Republican
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4241
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4207
-    lean_component_v3_demographics_sd: 0.0269
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4224
+    lean_component_v3_demographics_sd: 0.0275
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0069
-    education_component_sd: 0.0249
-    expected_two_party_share_v3_demographics: 0.445
-    war_v3_demographics: -0.0667
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1759
+    demographics_component_sd: 0.1274
+    expected_two_party_share_v3_demographics: 0.4405
+    war_v3_demographics: -0.0622
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 44617
@@ -180,6 +184,7 @@ demographics:
   hispanic_or_latino_population: 2875
   median_household_income: 81933
   bachelors_degree_count: 7113
+  total_population_acs: 45267
   acs_year: 2022
 title: 2nd Barnstable District (2022-present)
 layout: district

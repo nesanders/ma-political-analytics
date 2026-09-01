@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.5394
     expected_two_party_share_v2: 0.4794
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5223
-    lean_component_v3_demographics_sd: 0.0334
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5244
+    lean_component_v3_demographics_sd: 0.0341
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0048
-    education_component_sd: 0.0169
-    expected_two_party_share_v3_demographics: 0.5471
-    war_v3_demographics: 0.0722
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1698
+    demographics_component_sd: 0.1201
+    expected_two_party_share_v3_demographics: 0.547
+    war_v3_demographics: 0.0723
+    war_v3_demographics_sd: 0.063
   - name: Jeanne Renaud Costello
     slug: jeanne-renaud-costello
     party: Democratic
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4606
     expected_two_party_share_v2: 0.4372
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.446
-    lean_component_v3_demographics_sd: 0.0285
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4477
+    lean_component_v3_demographics_sd: 0.0292
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0069
-    education_component_sd: 0.0197
-    expected_two_party_share_v3_demographics: 0.4472
-    war_v3_demographics: -0.0665
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1721
+    demographics_component_sd: 0.1205
+    expected_two_party_share_v3_demographics: 0.4471
+    war_v3_demographics: -0.0664
+    war_v3_demographics_sd: 0.063
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4821
@@ -112,8 +114,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.5179
     own_tide: 0.3516
-    war_v2: 0.5319
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.5179
     expected_two_party_share_v2: 0.4681
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5015
-    lean_component_v3_demographics_sd: 0.0321
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5035
+    lean_component_v3_demographics_sd: 0.0328
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0046
-    education_component_sd: 0.0167
-    expected_two_party_share_v3_demographics: 0.528
-    war_v3_demographics: 0.472
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1696
+    demographics_component_sd: 0.1201
+    expected_two_party_share_v3_demographics: 0.5278
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: null
 demographics:
   total_population: 42768
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 8546
   median_household_income: 76593
   bachelors_degree_count: 4581
+  total_population_acs: 42675
   acs_year: 2022
 title: 6th Worcester District (2022-present)
 layout: district

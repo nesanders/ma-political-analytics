@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.3843
     own_tide: 0.3704
-    war_v2: 0.446
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3843
     expected_two_party_share_v2: 0.554
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3721
-    lean_component_v3_demographics_sd: 0.0238
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0104
-    education_component_sd: 0.0369
-    expected_two_party_share_v3_demographics: 0.4491
-    war_v3_demographics: 0.5509
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3736
+    lean_component_v3_demographics_sd: 0.0243
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.174
+    demographics_component_sd: 0.1291
+    expected_two_party_share_v3_demographics: 0.4501
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6211
@@ -76,8 +77,8 @@ results_by_year:
     incumbent_terms: 0
     own_lean: 0.3789
     own_tide: 0.3516
-    war_v2: 0.6053
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     intercept_component: 0.1956
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3789
     expected_two_party_share_v2: 0.3947
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3669
-    lean_component_v3_demographics_sd: 0.0235
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3683
+    lean_component_v3_demographics_sd: 0.024
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0101
-    education_component_sd: 0.0366
-    expected_two_party_share_v3_demographics: 0.3879
-    war_v3_demographics: 0.6121
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1736
+    demographics_component_sd: 0.129
+    expected_two_party_share_v3_demographics: 0.3887
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   - name: Terence William Cudney
     slug: terence-william-cudney
     party: Other
@@ -124,6 +126,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -132,8 +135,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 6514
   median_household_income: 128469
   bachelors_degree_count: 41462
+  total_population_acs: 178873
   acs_year: 2022
 title: First Essex and Middlesex District (2022-present)
 layout: district

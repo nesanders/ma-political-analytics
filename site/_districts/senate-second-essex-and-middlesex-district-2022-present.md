@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.5742
     own_tide: 0.6296
-    war_v2: 0.3463
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5742
     expected_two_party_share_v2: 0.6537
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.556
-    lean_component_v3_demographics_sd: 0.0355
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0124
-    education_component_sd: 0.0353
-    expected_two_party_share_v3_demographics: 0.6095
-    war_v3_demographics: 0.3905
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5582
+    lean_component_v3_demographics_sd: 0.0363
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1778
+    demographics_component_sd: 0.1266
+    expected_two_party_share_v3_demographics: 0.6098
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5866
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5866
     expected_two_party_share_v2: 0.5037
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.568
-    lean_component_v3_demographics_sd: 0.0363
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5702
+    lean_component_v3_demographics_sd: 0.0371
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0127
-    education_component_sd: 0.0357
-    expected_two_party_share_v3_demographics: 0.5619
-    war_v3_demographics: 0.0116
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1781
+    demographics_component_sd: 0.1267
+    expected_two_party_share_v3_demographics: 0.562
+    war_v3_demographics: 0.0115
+    war_v3_demographics_sd: 0.063
   - name: SalvatorE Paul Defranco
     slug: salvatore-paul-defranco
     party: Republican
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4134
     expected_two_party_share_v2: 0.4129
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4003
-    lean_component_v3_demographics_sd: 0.0256
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4019
+    lean_component_v3_demographics_sd: 0.0262
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0082
-    education_component_sd: 0.0299
-    expected_two_party_share_v3_demographics: 0.4232
-    war_v3_demographics: 0.0033
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1734
+    demographics_component_sd: 0.1252
+    expected_two_party_share_v3_demographics: 0.4225
+    war_v3_demographics: 0.004
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 189671
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 78639
   median_household_income: 120286
   bachelors_degree_count: 36314
+  total_population_acs: 183041
   acs_year: 2022
 title: Second Essex and Middlesex District (2022-present)
 layout: district

@@ -31,8 +31,8 @@ results_by_year:
     incumbent_terms: 1
     own_lean: 0.4647
     own_tide: 0.6296
-    war_v2: 0.4041
-    war_v2_sd: 0.1125
+    war_v2: null
+    war_v2_sd: null
     incumbency_adjustment: 0.1565
     incumbency_adjustment_sd: 0.0086
     intercept_component: 0.1956
@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.4647
     expected_two_party_share_v2: 0.5959
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.45
-    lean_component_v3_demographics_sd: 0.0288
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0076
-    education_component_sd: 0.0215
-    expected_two_party_share_v3_demographics: 0.5083
-    war_v3_demographics: 0.4917
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4517
+    lean_component_v3_demographics_sd: 0.0294
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.171
+    demographics_component_sd: 0.121
+    expected_two_party_share_v3_demographics: 0.5102
+    war_v3_demographics: null
+    war_v3_demographics_sd: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5195
@@ -88,19 +89,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5194
     expected_two_party_share_v2: 0.4682
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.503
-    lean_component_v3_demographics_sd: 0.0322
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.505
+    lean_component_v3_demographics_sd: 0.0329
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0077
-    education_component_sd: 0.0218
-    expected_two_party_share_v3_demographics: 0.5019
-    war_v3_demographics: 0.0747
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1712
+    demographics_component_sd: 0.121
+    expected_two_party_share_v3_demographics: 0.5037
+    war_v3_demographics: 0.0729
+    war_v3_demographics_sd: 0.063
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Republican
@@ -124,19 +126,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.4484
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.4653
-    lean_component_v3_demographics_sd: 0.0297
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.4671
+    lean_component_v3_demographics_sd: 0.0304
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.005
-    education_component_sd: 0.0183
-    expected_two_party_share_v3_demographics: 0.4914
-    war_v3_demographics: -0.068
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1683
+    demographics_component_sd: 0.1204
+    expected_two_party_share_v3_demographics: 0.4928
+    war_v3_demographics: -0.0694
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 172232
@@ -144,6 +147,7 @@ demographics:
   hispanic_or_latino_population: 14267
   median_household_income: 73784
   bachelors_degree_count: 20132
+  total_population_acs: 171943
   acs_year: 2022
 title: First Bristol and Plymouth District (2022-present)
 layout: district

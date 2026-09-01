@@ -293,25 +293,62 @@ full.
   the same exact-sum property across all 3,142 candidate-race rows in
   `site/_candidates/*.md` after wiring that through.
 
-  **WAR v3** (`fit_war_v3_demographics`/`fit_war_v3_finance`) extends the
-  same core model with the remaining fundamentals this project's original
-  design called for, as two separate diagnostic fits — not threaded into
-  every candidate's WAR the way v2 is, for real coverage reasons: Census
-  demographics only cover the current (2022-present) vintage, which so
-  far has exactly two election years (2022, 2024) — enough real
-  cross-district variation to estimate a bachelor's-degree% × tide
+  **WAR v3** extends the same core model with the remaining fundamentals
+  this project's original design called for, as diagnostic fits — not
+  threaded into every candidate's WAR the way v2 is, for real coverage
+  reasons. Campaign finance (`fit_war_v3_finance`), once OCPF's own bulk
+  export was backfilled to the full 2002-2024 range (see the
+  `fetch.campaign_finance` bullet above), now fits across every year with
+  a real match instead of one cycle alone — `own_tide` is back in this fit
+  too, since real cross-year tide variation exists to identify it against,
+  unlike the single-year version.
+
+  **Demographics is now two tiers, not one** (`fit_war_v3_demographics_core`/
+  `_full`), each falling back gracefully rather than all-or-nothing: a
+  district missing some Census fields still gets a simpler diagnostic
+  instead of being dropped from WAR v3 entirely. The **core** tier
+  (bachelor's-degree % + its tide interaction — the original single-tier
+  model) needs only `bachelors_pct`, computable for all 200 current-
+  vintage districts thanks to the ACS population-denominator fallback
+  above; the **full** tier adds Hispanic-or-Latino population share,
+  voting-age population share, and median household income (in $10,000
+  units) — three Census fields this project already fetched but had never
+  put in a regression — restricted to the 185 districts with a real PL
+  94-171 match (the two population-share terms need it specifically).
+  `_demographic_covariates()` computes whichever covariates a district's
+  own data actually supports; `apply_war_v3_demographics` picks the full
+  tier when all four are available, the core tier when only bachelors_pct
+  is, or neither (falling back to WAR v2 alone, same as before this
+  tiering existed) — verified live: exactly the 15 districts whose PL
+  94-171 match failed land in the core tier, the other 185 in the full
+  tier, all 200 get *something* rather than nothing.
+
+  Census demographics only cover the current (2022-present) vintage,
+  which so far has exactly two election years (2022, 2024) — enough real
+  cross-district variation to estimate the bachelor's-degree% × tide
   interaction, but with a deliberately tighter prior than its own main
-  effect, since two elections can't support trusting it as a stable
-  trend. Campaign finance, once OCPF's own bulk export was backfilled to
-  the full 2002-2024 range (see the `fetch.campaign_finance` bullet
-  above), now fits across every year with a real match instead of one
-  cycle alone — `own_tide` is back in this fit too, since real cross-year
-  tide variation exists to identify it against, unlike the single-year
-  version. Both write their posterior summaries to `--site-data-dir` as
-  `war_v3_demographics.yml`/`war_v3_finance.yml`, which the methodology
-  page reports as labeled diagnostics (coefficients, credible intervals,
-  real sample sizes) — not silently dropped, not forced onto data too
-  thin to support them.
+  effect, since two elections can't support trusting it as a stable trend.
+  All three fits write their posterior summaries to `--site-data-dir` —
+  `war_v3_demographics.yml` (now `{core: ..., full: ...}`, not a flat
+  dict) and `war_v3_finance.yml` — which the methodology page reports as
+  labeled diagnostics (coefficients, credible intervals, real sample
+  sizes) — not silently dropped, not forced onto data too thin to support
+  them.
+
+  **WAR is now null for an uncontested race**, for v2 and both v3
+  diagnostics (WAR v1 still isn't — a separate, older computation in
+  `derived_metrics.py`, documented on the methodology page as its own
+  known, not-yet-fixed limitation): an unopposed candidate's mechanically-
+  inflated ~100% share isn't a meaningful gap from expectation. What's
+  shown in its place, always defined regardless of contested status since
+  it doesn't depend on the actual outcome at all, is **baseline
+  expectation** — `expected_two_party_share_v2`/`_v3_finance`/
+  `_v3_demographics`, which were already computed as an intermediate value
+  but not surfaced directly before this. Verified live across the full
+  2002-2024 backfill: all 1,648 uncontested candidate-race rows have
+  `war_v2` (and `war_v3_*` where applicable) null and a real, non-null
+  baseline expectation; all 1,494 contested rows still have both, summing
+  exactly to `actual_two_party_share` as before.
 
   `build_war_v2_fit_sample()` also writes every contested major-party
   candidate-race's actual vs. WAR v2 expected share (plus party and year)
@@ -412,11 +449,21 @@ full.
   published against current district boundaries). Verified live: House
   matched 159 of 160 districts (the one miss, 19th Worcester District,
   simply has no corresponding entry in Census's own house district list —
-  a genuine data gap, not a matching bug); Senate matched 26 of 40 (a real,
-  larger gap — Census's Senate district names diverge more from PD43+'s,
-  e.g. "Second Hampden & Hampshire District" vs. this site's "Hampden and
-  Hampshire District", an ordinal-prefix-plus-wording difference beyond
-  what the existing ordinal-number-guarded fuzzy matcher resolves).
+  a genuine data gap, not a matching bug); Senate matched 26 of 40 for PL
+  94-171 specifically (a real, larger gap — Census's Senate district names
+  diverge more from PD43+'s, e.g. "Second Hampden & Hampshire District"
+  vs. this site's "Hampden and Hampshire District", an ordinal-prefix-
+  plus-wording difference beyond what the existing ordinal-number-guarded
+  fuzzy matcher resolves). ACS matches independently and doesn't have this
+  gap (all 200 current-vintage districts, House and Senate, get an ACS
+  match) — `load_demographics()` now also surfaces ACS's own
+  `total_population_acs` (fetched but previously left unused) as a
+  population-denominator fallback for districts PL 94-171 missed, so
+  `bachelors_pct` (income/education-only demographics) can still be
+  computed for all 200 districts even though `hispanic_pct`/`voting_age_pct`
+  (which need PL 94-171 specifically) still can't be — see
+  `generate_site_data._demographic_covariates` and the two-tier WAR v3
+  demographics fit below for how this gets used.
   Accepted as a documented limitation rather than building further
   matching sophistication, consistent with the missing-over-wrong-match
   philosophy above. Also caught a real Census API convention live: ACS

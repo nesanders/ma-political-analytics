@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.641
     expected_two_party_share_v2: 0.6889
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6207
-    lean_component_v3_demographics_sd: 0.0397
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
-    incumbency_adjustment_v3_demographics: 0.0578
-    incumbency_adjustment_v3_demographics_sd: 0.0144
-    education_component: -0.0116
-    education_component_sd: 0.0332
-    expected_two_party_share_v3_demographics: 0.675
-    war_v3_demographics: -0.0507
-    war_v3_demographics_sd: 0.0625
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6231
+    lean_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
+    incumbency_adjustment_v3_demographics: 0.058
+    incumbency_adjustment_v3_demographics_sd: 0.0148
+    demographics_component: -0.1846
+    demographics_component_sd: 0.1325
+    expected_two_party_share_v3_demographics: 0.668
+    war_v3_demographics: -0.0437
+    war_v3_demographics_sd: 0.063
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.359
     expected_two_party_share_v2: 0.3842
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3476
-    lean_component_v3_demographics_sd: 0.0222
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.349
+    lean_component_v3_demographics_sd: 0.0227
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.008
-    education_component_sd: 0.0284
-    expected_two_party_share_v3_demographics: 0.3692
-    war_v3_demographics: 0.0065
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1806
+    demographics_component_sd: 0.1314
+    expected_two_party_share_v3_demographics: 0.3608
+    war_v3_demographics: 0.0149
+    war_v3_demographics_sd: 0.063
   - name: Joe Van Nes
     slug: joe-van-nes
     party: Other
@@ -115,6 +117,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -123,8 +126,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.6385
     expected_two_party_share_v2: 0.531
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.6183
-    lean_component_v3_demographics_sd: 0.0395
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.6207
+    lean_component_v3_demographics_sd: 0.0404
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0119
-    education_component_sd: 0.0336
-    expected_two_party_share_v3_demographics: 0.6129
-    war_v3_demographics: 0.0241
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1848
+    demographics_component_sd: 0.1326
+    expected_two_party_share_v3_demographics: 0.6058
+    war_v3_demographics: 0.0312
+    war_v3_demographics_sd: 0.063
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -196,19 +200,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.3615
     expected_two_party_share_v2: 0.3856
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.35
-    lean_component_v3_demographics_sd: 0.0224
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3514
+    lean_component_v3_demographics_sd: 0.0229
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0077
-    education_component_sd: 0.0281
-    expected_two_party_share_v3_demographics: 0.3734
-    war_v3_demographics: -0.0104
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1804
+    demographics_component_sd: 0.1314
+    expected_two_party_share_v3_demographics: 0.365
+    war_v3_demographics: -0.002
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 190623
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 8943
   median_household_income: 90260
   bachelors_degree_count: 34298
+  total_population_acs: 175332
   acs_year: 2022
 history:
 - vintage: 2012-2020

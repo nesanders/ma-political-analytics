@@ -15,8 +15,8 @@ races:
   war: 0.4847
   own_lean: 0.5153
   own_tide: 0.6296
-  war_v2: 0.3774
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1565
   incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
@@ -55,8 +55,8 @@ races:
   war: 0.4301
   own_lean: 0.5699
   own_tide: 0.6484
-  war_v2: 0.5052
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
@@ -95,8 +95,8 @@ races:
   war: 0.4209
   own_lean: 0.5791
   own_tide: 0.6712
-  war_v2: 0.3568
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -135,8 +135,8 @@ races:
   war: 0.6519
   own_lean: 0.3481
   own_tide: 0.3321
-  war_v2: 0.4779
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -175,8 +175,8 @@ races:
   war: 0.4008
   own_lean: 0.5992
   own_tide: 0.6465
-  war_v2: 0.3436
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1461
   incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
@@ -215,8 +215,8 @@ races:
   war: 0.4335
   own_lean: 0.5665
   own_tide: 0.4902
-  war_v2: 0.3501
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1565
   incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
@@ -255,8 +255,8 @@ races:
   war: 0.3134
   own_lean: 0.6866
   own_tide: 0.6179
-  war_v2: 0.4435
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956
@@ -295,8 +295,8 @@ races:
   war: 0.343
   own_lean: 0.657
   own_tide: 0.5355
-  war_v2: 0.3153
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -335,8 +335,8 @@ races:
   war: 0.3086
   own_lean: 0.6914
   own_tide: 0.632
-  war_v2: 0.2974
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1436
   incumbency_adjustment_sd: 0.0115
   intercept_component: 0.1956
@@ -375,8 +375,8 @@ races:
   war: 0.2821
   own_lean: 0.7179
   own_tide: 0.6116
-  war_v2: 0.2809
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1461
   incumbency_adjustment_sd: 0.0126
   intercept_component: 0.1956
@@ -415,8 +415,8 @@ races:
   war: 0.2707
   own_lean: 0.7293
   own_tide: 0.6274
-  war_v2: 0.2645
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.1565
   incumbency_adjustment_sd: 0.0086
   intercept_component: 0.1956
@@ -455,8 +455,8 @@ races:
   war: 0.3396
   own_lean: 0.6604
   own_tide: 0.4745
-  war_v2: 0.457
-  war_v2_sd: 0.1125
+  war_v2: null
+  war_v2_sd: null
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   intercept_component: 0.1956

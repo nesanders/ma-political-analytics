@@ -43,19 +43,20 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6046
     expected_two_party_share_v2: 0.5132
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5854
-    lean_component_v3_demographics_sd: 0.0374
-    tide_component_v3_demographics: -0.0521
-    tide_component_v3_demographics_sd: 0.0379
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5877
+    lean_component_v3_demographics_sd: 0.0383
+    tide_component_v3_demographics: -0.0511
+    tide_component_v3_demographics_sd: 0.0376
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0102
-    education_component_sd: 0.0291
-    expected_two_party_share_v3_demographics: 0.5834
-    war_v3_demographics: 0.0602
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1648
+    demographics_component_sd: 0.1167
+    expected_two_party_share_v3_demographics: 0.5944
+    war_v3_demographics: 0.0492
+    war_v3_demographics_sd: 0.063
   - name: Lawrence Peter Novak
     slug: lawrence-peter-novak
     party: Republican
@@ -79,19 +80,20 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3954
     expected_two_party_share_v2: 0.4034
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3829
-    lean_component_v3_demographics_sd: 0.0245
-    tide_component_v3_demographics: -0.0306
-    tide_component_v3_demographics_sd: 0.0223
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3844
+    lean_component_v3_demographics_sd: 0.025
+    tide_component_v3_demographics: -0.03
+    tide_component_v3_demographics_sd: 0.0222
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.007
-    education_component_sd: 0.0249
-    expected_two_party_share_v3_demographics: 0.4054
-    war_v3_demographics: -0.049
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1614
+    demographics_component_sd: 0.1158
+    expected_two_party_share_v3_demographics: 0.4155
+    war_v3_demographics: -0.0591
+    war_v3_demographics_sd: 0.063
   - name: Jonathan Wilshire Gill
     slug: jonathan-wilshire-gill
     party: Other
@@ -115,6 +117,7 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    demographics_tier: null
     intercept_component_v3_demographics: null
     intercept_component_v3_demographics_sd: null
     lean_component_v3_demographics: null
@@ -123,8 +126,8 @@ results_by_year:
     tide_component_v3_demographics_sd: null
     incumbency_adjustment_v3_demographics: null
     incumbency_adjustment_v3_demographics_sd: null
-    education_component: null
-    education_component_sd: null
+    demographics_component: null
+    demographics_component_sd: null
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -160,19 +163,20 @@ results_by_year:
     tide_component_sd: 0.0232
     expected_two_party_share: 0.5986
     expected_two_party_share_v2: 0.5099
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.5795
-    lean_component_v3_demographics_sd: 0.037
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.039
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.5818
+    lean_component_v3_demographics_sd: 0.0379
+    tide_component_v3_demographics: -0.0526
+    tide_component_v3_demographics_sd: 0.0388
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0104
-    education_component_sd: 0.0294
-    expected_two_party_share_v3_demographics: 0.5757
-    war_v3_demographics: 0.0308
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.165
+    demographics_component_sd: 0.1168
+    expected_two_party_share_v3_demographics: 0.5867
+    war_v3_demographics: 0.0198
+    war_v3_demographics_sd: 0.063
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -196,19 +200,20 @@ results_by_year:
     tide_component_sd: 0.0126
     expected_two_party_share: 0.4014
     expected_two_party_share_v2: 0.4067
-    intercept_component_v3_demographics: 0.0602
-    intercept_component_v3_demographics_sd: 0.0345
-    lean_component_v3_demographics: 0.3888
-    lean_component_v3_demographics_sd: 0.0249
-    tide_component_v3_demographics: -0.0291
-    tide_component_v3_demographics_sd: 0.0212
+    demographics_tier: full
+    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics_sd: 0.1269
+    lean_component_v3_demographics: 0.3903
+    lean_component_v3_demographics_sd: 0.0254
+    tide_component_v3_demographics: -0.0285
+    tide_component_v3_demographics_sd: 0.021
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    education_component: -0.0068
-    education_component_sd: 0.0246
-    expected_two_party_share_v3_demographics: 0.4131
-    war_v3_demographics: -0.0196
-    war_v3_demographics_sd: 0.0625
+    demographics_component: -0.1611
+    demographics_component_sd: 0.1157
+    expected_two_party_share_v3_demographics: 0.4232
+    war_v3_demographics: -0.0297
+    war_v3_demographics_sd: 0.063
   is_open_seat: null
 demographics:
   total_population: 46300
@@ -216,6 +221,7 @@ demographics:
   hispanic_or_latino_population: 6205
   median_household_income: 102123
   bachelors_degree_count: 7304
+  total_population_acs: 45005
   acs_year: 2022
 title: 9th Plymouth District (2022-present)
 layout: district

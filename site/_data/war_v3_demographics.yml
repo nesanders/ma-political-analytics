@@ -1,101 +1,240 @@
-n: 170
-r_squared: 0.766
-posterior_sigma_mean: 0.0625
-coefficients:
-  intercept:
-    prior_mean: 0.5
-    prior_sd: 0.2
-    posterior_mean: 0.0602
-    posterior_sd: 0.0345
-    ci_95_low: -0.0063
-    ci_95_high: 0.1278
-    predictor_sd: null
-    standardized_mean: null
-    standardized_sd: null
-    standardized_ci_95_low: null
-    standardized_ci_95_high: null
-  own_lean:
-    prior_mean: 1.0
-    prior_sd: 0.4
-    posterior_mean: 0.9683
-    posterior_sd: 0.0619
-    ci_95_low: 0.845
-    ci_95_high: 1.0903
-    predictor_sd: 0.1145
-    standardized_mean: 0.1109
-    standardized_sd: 0.0071
-    standardized_ci_95_low: 0.0968
-    standardized_ci_95_high: 0.1249
-  own_tide:
-    prior_mean: 0.0
-    prior_sd: 0.4
-    posterior_mean: -0.0827
-    posterior_sd: 0.0602
-    ci_95_low: -0.1998
-    ci_95_high: 0.0353
-    predictor_sd: 0.1411
-    standardized_mean: -0.0117
-    standardized_sd: 0.0085
-    standardized_ci_95_low: -0.0282
-    standardized_ci_95_high: 0.005
-  incumbent_1:
-    prior_mean: 0.05
-    prior_sd: 0.08
-    posterior_mean: 0.0578
-    posterior_sd: 0.0144
-    ci_95_low: 0.0307
-    ci_95_high: 0.0866
-    predictor_sd: 0.3357
-    standardized_mean: 0.0194
-    standardized_sd: 0.0048
-    standardized_ci_95_low: 0.0103
-    standardized_ci_95_high: 0.0291
-  incumbent_2:
-    prior_mean: 0.05
-    prior_sd: 0.08
-    posterior_mean: 0.0496
-    posterior_sd: 0.0793
-    ci_95_low: -0.1051
-    ci_95_high: 0.2059
-    predictor_sd: 0.0
-    standardized_mean: 0.0
-    standardized_sd: 0.0
-    standardized_ci_95_low: -0.0
-    standardized_ci_95_high: 0.0
-  incumbent_3plus:
-    prior_mean: 0.05
-    prior_sd: 0.08
-    posterior_mean: 0.0515
-    posterior_sd: 0.0807
-    ci_95_low: -0.1111
-    ci_95_high: 0.2101
-    predictor_sd: 0.0
-    standardized_mean: 0.0
-    standardized_sd: 0.0
-    standardized_ci_95_low: 0.0
-    standardized_ci_95_high: 0.0
-  bachelors_pct:
-    prior_mean: 0.0
-    prior_sd: 0.3
-    posterior_mean: -0.0155
-    posterior_sd: 0.1417
-    ci_95_low: -0.2934
-    ci_95_high: 0.2597
-    predictor_sd: 0.037
-    standardized_mean: -0.0006
-    standardized_sd: 0.0052
-    standardized_ci_95_low: -0.0109
-    standardized_ci_95_high: 0.0096
-  bachelors_pct_x_tide:
-    prior_mean: 0.0
-    prior_sd: 0.2
-    posterior_mean: -0.0782
-    posterior_sd: 0.1871
-    ci_95_low: -0.441
-    ci_95_high: 0.2907
-    predictor_sd: 0.0327
-    standardized_mean: -0.0026
-    standardized_sd: 0.0061
-    standardized_ci_95_low: -0.0144
-    standardized_ci_95_high: 0.0095
-n_distinct_years: 2
+core:
+  n: 200
+  r_squared: 0.7519
+  posterior_sigma_mean: 0.0642
+  coefficients:
+    intercept:
+      prior_mean: 0.5
+      prior_sd: 0.2
+      posterior_mean: 0.0545
+      posterior_sd: 0.0331
+      ci_95_low: -0.0093
+      ci_95_high: 0.1185
+      predictor_sd: null
+      standardized_mean: null
+      standardized_sd: null
+      standardized_ci_95_low: null
+      standardized_ci_95_high: null
+    own_lean:
+      prior_mean: 1.0
+      prior_sd: 0.4
+      posterior_mean: 0.98
+      posterior_sd: 0.06
+      ci_95_low: 0.8643
+      ci_95_high: 1.0979
+      predictor_sd: 0.1131
+      standardized_mean: 0.1108
+      standardized_sd: 0.0068
+      standardized_ci_95_low: 0.0977
+      standardized_ci_95_high: 0.1242
+    own_tide:
+      prior_mean: 0.0
+      prior_sd: 0.4
+      posterior_mean: -0.0828
+      posterior_sd: 0.0582
+      ci_95_low: -0.1975
+      ci_95_high: 0.0299
+      predictor_sd: 0.1411
+      standardized_mean: -0.0117
+      standardized_sd: 0.0082
+      standardized_ci_95_low: -0.0279
+      standardized_ci_95_high: 0.0042
+    incumbent_1:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.0581
+      posterior_sd: 0.0138
+      ci_95_low: 0.032
+      ci_95_high: 0.0855
+      predictor_sd: 0.3363
+      standardized_mean: 0.0195
+      standardized_sd: 0.0046
+      standardized_ci_95_low: 0.0108
+      standardized_ci_95_high: 0.0287
+    incumbent_2:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.0486
+      posterior_sd: 0.0797
+      ci_95_low: -0.1061
+      ci_95_high: 0.2083
+      predictor_sd: 0.0
+      standardized_mean: 0.0
+      standardized_sd: 0.0
+      standardized_ci_95_low: 0.0
+      standardized_ci_95_high: 0.0
+    incumbent_3plus:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.0487
+      posterior_sd: 0.0798
+      ci_95_low: -0.1075
+      ci_95_high: 0.2073
+      predictor_sd: 0.0
+      standardized_mean: 0.0
+      standardized_sd: 0.0
+      standardized_ci_95_low: 0.0
+      standardized_ci_95_high: 0.0
+    bachelors_pct:
+      prior_mean: 0.0
+      prior_sd: 0.3
+      posterior_mean: 0.0076
+      posterior_sd: 0.138
+      ci_95_low: -0.2615
+      ci_95_high: 0.278
+      predictor_sd: 0.0373
+      standardized_mean: 0.0003
+      standardized_sd: 0.0052
+      standardized_ci_95_low: -0.0098
+      standardized_ci_95_high: 0.0104
+    bachelors_pct_x_tide:
+      prior_mean: 0.0
+      prior_sd: 0.2
+      posterior_mean: -0.1273
+      posterior_sd: 0.1872
+      ci_95_low: -0.4903
+      ci_95_high: 0.2437
+      predictor_sd: 0.0326
+      standardized_mean: -0.0041
+      standardized_sd: 0.0061
+      standardized_ci_95_low: -0.016
+      standardized_ci_95_high: 0.0079
+  n_distinct_years: 2
+full:
+  n: 170
+  r_squared: 0.7652
+  posterior_sigma_mean: 0.063
+  coefficients:
+    intercept:
+      prior_mean: 0.5
+      prior_sd: 0.2
+      posterior_mean: 0.2225
+      posterior_sd: 0.1269
+      ci_95_low: -0.0256
+      ci_95_high: 0.4707
+      predictor_sd: null
+      standardized_mean: null
+      standardized_sd: null
+      standardized_ci_95_low: null
+      standardized_ci_95_high: null
+    own_lean:
+      prior_mean: 1.0
+      prior_sd: 0.4
+      posterior_mean: 0.9721
+      posterior_sd: 0.0633
+      ci_95_low: 0.8508
+      ci_95_high: 1.0951
+      predictor_sd: 0.1145
+      standardized_mean: 0.1113
+      standardized_sd: 0.0073
+      standardized_ci_95_low: 0.0974
+      standardized_ci_95_high: 0.1254
+    own_tide:
+      prior_mean: 0.0
+      prior_sd: 0.4
+      posterior_mean: -0.0811
+      posterior_sd: 0.0598
+      ci_95_low: -0.2008
+      ci_95_high: 0.0344
+      predictor_sd: 0.1411
+      standardized_mean: -0.0114
+      standardized_sd: 0.0084
+      standardized_ci_95_low: -0.0283
+      standardized_ci_95_high: 0.0048
+    incumbent_1:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.058
+      posterior_sd: 0.0148
+      ci_95_low: 0.0282
+      ci_95_high: 0.086
+      predictor_sd: 0.3357
+      standardized_mean: 0.0195
+      standardized_sd: 0.005
+      standardized_ci_95_low: 0.0095
+      standardized_ci_95_high: 0.0289
+    incumbent_2:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.0504
+      posterior_sd: 0.0793
+      ci_95_low: -0.1009
+      ci_95_high: 0.2057
+      predictor_sd: 0.0
+      standardized_mean: 0.0
+      standardized_sd: 0.0
+      standardized_ci_95_low: 0.0
+      standardized_ci_95_high: 0.0
+    incumbent_3plus:
+      prior_mean: 0.05
+      prior_sd: 0.08
+      posterior_mean: 0.0488
+      posterior_sd: 0.0802
+      ci_95_low: -0.1072
+      ci_95_high: 0.2037
+      predictor_sd: 0.0
+      standardized_mean: 0.0
+      standardized_sd: 0.0
+      standardized_ci_95_low: -0.0
+      standardized_ci_95_high: 0.0
+    bachelors_pct:
+      prior_mean: 0.0
+      prior_sd: 0.3
+      posterior_mean: 0.0285
+      posterior_sd: 0.1767
+      ci_95_low: -0.3166
+      ci_95_high: 0.3766
+      predictor_sd: 0.037
+      standardized_mean: 0.0011
+      standardized_sd: 0.0065
+      standardized_ci_95_low: -0.0117
+      standardized_ci_95_high: 0.0139
+    bachelors_pct_x_tide:
+      prior_mean: 0.0
+      prior_sd: 0.2
+      posterior_mean: -0.0839
+      posterior_sd: 0.1852
+      ci_95_low: -0.4428
+      ci_95_high: 0.2832
+      predictor_sd: 0.0327
+      standardized_mean: -0.0027
+      standardized_sd: 0.0061
+      standardized_ci_95_low: -0.0145
+      standardized_ci_95_high: 0.0093
+    hispanic_pct:
+      prior_mean: 0.0
+      prior_sd: 0.3
+      posterior_mean: -0.0196
+      posterior_sd: 0.0745
+      ci_95_low: -0.1656
+      ci_95_high: 0.1234
+      predictor_sd: 0.0725
+      standardized_mean: -0.0014
+      standardized_sd: 0.0054
+      standardized_ci_95_low: -0.012
+      standardized_ci_95_high: 0.0089
+    voting_age_pct:
+      prior_mean: 0.0
+      prior_sd: 0.3
+      posterior_mean: -0.1979
+      posterior_sd: 0.1459
+      ci_95_low: -0.483
+      ci_95_high: 0.0885
+      predictor_sd: 0.0292
+      standardized_mean: -0.0058
+      standardized_sd: 0.0043
+      standardized_ci_95_low: -0.0141
+      standardized_ci_95_high: 0.0026
+    income_10k:
+      prior_mean: 0.0
+      prior_sd: 0.02
+      posterior_mean: -0.0011
+      posterior_sd: 0.0025
+      ci_95_low: -0.0061
+      ci_95_high: 0.0036
+      predictor_sd: 2.7728
+      standardized_mean: -0.0031
+      standardized_sd: 0.0068
+      standardized_ci_95_low: -0.017
+      standardized_ci_95_high: 0.01
+  n_distinct_years: 2
