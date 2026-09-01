@@ -25,9 +25,7 @@ about who's actually running.
 **A known simplification, not yet fixed**: apportionment is area-weighted,
 not population-weighted. A town that's 10% of a district's land area
 could hold anywhere from a sliver to a majority of its population — this
-site currently treats those the same. See the
-[design plan](https://github.com/nesanders/ma-political-analytics/blob/HEAD/docs/PLAN.md)
-for the full pipeline.
+site currently treats those the same.
 
 ## WAR (wins above replacement)
 

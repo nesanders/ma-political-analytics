@@ -24,5 +24,6 @@ races, back through three redistricting cycles.
 </ul>
 
 This site is under active development — see the
-[design plan](https://github.com/nesanders/ma-political-analytics/blob/HEAD/docs/PLAN.md)
-for scope and architecture.
+[methodology page]({{ '/methodology/' | relative_url }}) for how lean and
+WAR are computed, or the [source](https://github.com/nesanders/ma-political-analytics)
+for the full data pipeline.
