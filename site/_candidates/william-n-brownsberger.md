@@ -15,6 +15,9 @@ races:
   war: 0.183
   war_v2: 0.2182
   incumbency_adjustment: 0.1565
+  intercept_component: 0.1956
+  lean_component: 0.4311
+  tide_component: -0.0014
   expected_two_party_share: 0.817
   expected_two_party_share_v2: 0.7818
   is_uncontested: true
@@ -32,6 +35,9 @@ races:
   war: 0.1752
   war_v2: 0.3706
   incumbency_adjustment: 0.0
+  intercept_component: 0.1956
+  lean_component: 0.4352
+  tide_component: -0.0015
   expected_two_party_share: 0.8248
   expected_two_party_share_v2: 0.6294
   is_uncontested: true
@@ -49,6 +55,9 @@ races:
   war: 0.1866
   war_v2: 0.2331
   incumbency_adjustment: 0.1436
+  intercept_component: 0.1956
+  lean_component: 0.4292
+  tide_component: -0.0015
   expected_two_party_share: 0.8134
   expected_two_party_share_v2: 0.7669
   is_uncontested: true
@@ -66,6 +75,9 @@ races:
   war: 0.5255
   war_v2: 0.4112
   incumbency_adjustment: 0.1436
+  intercept_component: 0.1956
+  lean_component: 0.2504
+  tide_component: -0.0008
   expected_two_party_share: 0.4745
   expected_two_party_share_v2: 0.5888
   is_uncontested: true
@@ -83,6 +95,9 @@ races:
   war: null
   war_v2: null
   incumbency_adjustment: null
+  intercept_component: null
+  lean_component: null
+  tide_component: null
   expected_two_party_share: null
   expected_two_party_share_v2: null
   is_uncontested: true
@@ -100,6 +115,9 @@ races:
   war: 0.3766
   war_v2: 0.3201
   incumbency_adjustment: 0.1565
+  intercept_component: 0.1956
+  lean_component: 0.329
+  tide_component: -0.0011
   expected_two_party_share: 0.6234
   expected_two_party_share_v2: 0.6799
   is_uncontested: true
@@ -117,6 +135,9 @@ races:
   war: 0.0345
   war_v2: 0.1847
   incumbency_adjustment: 0.0
+  intercept_component: 0.1956
+  lean_component: 0.3848
+  tide_component: -0.0014
   expected_two_party_share: 0.7292
   expected_two_party_share_v2: 0.579
   is_uncontested: false
@@ -134,6 +155,9 @@ races:
   war: 0.303
   war_v2: 0.2917
   incumbency_adjustment: 0.1461
+  intercept_component: 0.1956
+  lean_component: 0.3678
+  tide_component: -0.0012
   expected_two_party_share: 0.697
   expected_two_party_share_v2: 0.7083
   is_uncontested: true
@@ -151,6 +175,9 @@ races:
   war: 0.2347
   war_v2: 0.2455
   incumbency_adjustment: 0.1565
+  intercept_component: 0.1956
+  lean_component: 0.4038
+  tide_component: -0.0015
   expected_two_party_share: 0.7653
   expected_two_party_share_v2: 0.7545
   is_uncontested: true
@@ -168,6 +195,9 @@ races:
   war: -0.0187
   war_v2: 0.1196
   incumbency_adjustment: 0.0
+  intercept_component: 0.1956
+  lean_component: 0.3715
+  tide_component: -0.0014
   expected_two_party_share: 0.704
   expected_two_party_share_v2: 0.5657
   is_uncontested: false

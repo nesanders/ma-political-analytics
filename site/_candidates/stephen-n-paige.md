@@ -15,6 +15,9 @@ races:
   war: -0.0533
   war_v2: -0.0656
   incumbency_adjustment: 0.0
+  intercept_component: 0.1956
+  lean_component: 0.2037
+  tide_component: -0.0009
   expected_two_party_share: 0.3861
   expected_two_party_share_v2: 0.3984
   is_uncontested: false

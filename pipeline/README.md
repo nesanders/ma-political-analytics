@@ -277,6 +277,13 @@ full.
   lean_component + tide_component + incumbency_adjustment` reproduces
   `expected_two_party_share_v2` exactly, and `actual_two_party_share -
   expected_two_party_share_v2` reproduces `war_v2` exactly.
+  `build_candidate_records()` carries the same four component fields into
+  each race in a candidate's own `races` list (not just the district-page
+  candidate dicts they're copied from), so a candidate's own page can
+  render the identical 5-component attribution chart broken out by year,
+  not just the district/seat pages' single-year snapshot — re-verified
+  the same exact-sum property across all 3,142 candidate-race rows in
+  `site/_candidates/*.md` after wiring that through.
 
   **WAR v3** (`fit_war_v3_demographics`/`fit_war_v3_finance`) extends the
   same core model with the remaining fundamentals this project's original

@@ -18,6 +18,18 @@ layout: default
     </p>
     <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR v2's expected share, by year"></div>
   </section>
+
+  <section>
+    <h2>What drives replacement level, by year</h2>
+    <p>
+      Same regression as above, broken into its own terms for every year
+      {{ page.name }} ran: the intercept, district lean, statewide tide,
+      and incumbency, stacked up to WAR v2's expected share &mdash; plus
+      whatever's left over, WAR v2 itself. Click a bar to open that race's
+      district page.
+    </p>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR v2 residual for {{ page.name }}'s actual share by year"></div>
+  </section>
   {% endif %}
 
   <section>
@@ -152,5 +164,74 @@ layout: default
     }
   };
   vegaEmbed("#war-chart", warSpec, { actions: false }).catch(console.error);
+
+  // Field-by-field, not `r | jsonify` — same reasoning as raceData above.
+  const attributionRaces = [
+    {% for r in chart_races %}
+    {% if r.war_v2 %}
+    {
+      "year": {{ r.year | jsonify }},
+      "district_name": {{ r.district_name | jsonify }},
+      "url": {{ r.district_url | relative_url | jsonify }},
+      "intercept_component": {{ r.intercept_component | jsonify }},
+      "lean_component": {{ r.lean_component | jsonify }},
+      "tide_component": {{ r.tide_component | jsonify }},
+      "incumbency_adjustment": {{ r.incumbency_adjustment | jsonify }},
+      "war_v2": {{ r.war_v2 | jsonify }}
+    },
+    {% endif %}
+    {% endfor %}
+  ];
+  const attributionComponents = [
+    ["Intercept", "intercept_component", "--war-intercept"],
+    ["Lean", "lean_component", "--war-lean"],
+    ["Statewide tide", "tide_component", "--war-tide"],
+    ["Incumbency", "incumbency_adjustment", "--war-incumbency"],
+    ["WAR v2 (residual)", "war_v2", "--war-residual"],
+  ];
+  const attributionData = [];
+  attributionRaces.forEach((r) => {
+    attributionComponents.forEach(([label, field], order) => {
+      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, component: label, order, value: r[field] });
+    });
+  });
+  const attributionSpec = {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": 240,
+    "background": null,
+    "data": { "values": attributionData },
+    "mark": { "type": "bar", "cursor": "pointer" },
+    "encoding": {
+      "x": { "field": "year", "type": "ordinal", "title": "Year" },
+      "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
+      "order": { "field": "order" },
+      "color": {
+        "field": "component", "type": "nominal", "title": "Component",
+        "scale": {
+          "domain": attributionComponents.map((c) => c[0]),
+          "range": attributionComponents.map((c) => chartCssVar(c[2]))
+        }
+      },
+      "href": { "field": "url", "type": "nominal" },
+      "tooltip": [
+        { "field": "district_name", "title": "District" },
+        { "field": "year", "title": "Year" },
+        { "field": "component", "title": "Component" },
+        { "field": "value", "type": "quantitative", "format": ".1%" }
+      ]
+    },
+    "config": {
+      "axis": {
+        "labelColor": chartCssVar("--text-secondary"),
+        "titleColor": chartCssVar("--text-primary"),
+        "gridColor": chartCssVar("--gridline"),
+        "domainColor": chartCssVar("--gridline")
+      },
+      "legend": { "labelColor": chartCssVar("--text-secondary"), "titleColor": chartCssVar("--text-primary") },
+      "view": { "stroke": null }
+    }
+  };
+  vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
 </script>
 {% endif %}

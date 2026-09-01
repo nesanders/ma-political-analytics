@@ -166,8 +166,25 @@ Every district and seat page has a "What drives replacement level" chart
 breaking a race's most recent contested year into these pieces (intercept,
 lean, tide, incumbency, and the WAR v2 residual) for each candidate, and a
 candidate's own page charts their actual share against WAR v2's expected
-share across every year they ran — the gap between the two lines *is*
-WAR v2, made visible.
+share, and the same decomposition, across every year they ran — the gap
+between the two lines on the first chart *is* WAR v2, made visible.
+
+**A related, worth-naming property**: in `own_lean`/`own_tide`'s own
+terms, the two candidates in a race are exact mirrors
+(`own_lean` + the other candidate's `own_lean` = 1, always) — the
+"Lean" and "Statewide tide" bars for both candidates in the attribution
+chart are both genuinely positive because a district's baseline splits
+into two positive shares, not because the model favors both sides at
+once. The **intercept**, though, is a single fitted constant applied
+identically to both candidates' own expected share, not split between
+them — so unlike WAR v1 (where the two opposing candidates' expected
+shares always summed to exactly 100%, and their WAR values were exact
+opposites), **WAR v2's two expected shares in a race don't sum to 100%**,
+and the two WAR v2 values aren't required to cancel out. That's an
+accepted consequence of letting the regression fit its own intercept
+rather than assuming WAR v1's implicit "coefficient on lean = 1, no
+intercept" structure — not an error in the numbers, but a real change in
+what the model guarantees.
 
 ## WAR v3: demographics and campaign finance (experimental)
 
