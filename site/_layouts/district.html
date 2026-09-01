@@ -77,7 +77,7 @@ layout: default
       <li>Hispanic or Latino population: {{ page.demographics.hispanic_or_latino_population }} ({{ page.demographics.hispanic_or_latino_population | times: 100.0 | divided_by: page.demographics.total_population | round: 0 }}%)</li>
       {% endif %}
       {% if page.demographics.median_household_income %}
-      <li>Median household income: ${{ page.demographics.median_household_income }}</li>
+      <li>Median household income: ${{ page.demographics.median_household_income | number_with_commas }}</li>
       {% endif %}
       {% if page.demographics.bachelors_degree_count and page.demographics.total_population %}
       <li>Bachelor's degree or higher: {{ page.demographics.bachelors_degree_count }} ({{ page.demographics.bachelors_degree_count | times: 100.0 | divided_by: page.demographics.total_population | round: 0 }}%)</li>

@@ -73,8 +73,8 @@ layout: default
         {% for entry in years %}
         <tr>
           <td>{{ entry[0] }}</td>
-          <td>${{ entry[1].total_raised | round: 0 }}</td>
-          <td>${{ entry[1].total_spent | round: 0 }}</td>
+          <td>${{ entry[1].total_raised | round: 0 | number_with_commas }}</td>
+          <td>${{ entry[1].total_spent | round: 0 | number_with_commas }}</td>
         </tr>
         {% endfor %}
       </tbody>

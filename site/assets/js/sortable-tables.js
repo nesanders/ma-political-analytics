@@ -8,13 +8,14 @@
     return cell ? cell.textContent.trim() : "";
   }
 
-  // Numeric-aware compare: strips "%" and "," so "60.0%" and "11,093" sort
-  // as numbers, not lexicographically (which would put "9" after "10").
-  // Falls back to a plain string compare for genuinely non-numeric columns
-  // (candidate/district names, party labels).
+  // Numeric-aware compare: strips "%", ",", and "$" so "60.0%", "11,093",
+  // and "$105,220" all sort as numbers, not lexicographically (which would
+  // put "9" after "10", or "$9" after "$105" since parseFloat doesn't skip
+  // a leading "$").  Falls back to a plain string compare for genuinely
+  // non-numeric columns (candidate/district names, party labels).
   function compareCells(a, b) {
-    var na = parseFloat(a.replace(/[%,]/g, ""));
-    var nb = parseFloat(b.replace(/[%,]/g, ""));
+    var na = parseFloat(a.replace(/[%,$]/g, ""));
+    var nb = parseFloat(b.replace(/[%,$]/g, ""));
     var aIsNum = a !== "" && !isNaN(na);
     var bIsNum = b !== "" && !isNaN(nb);
     if (aIsNum && bIsNum) return na - nb;
