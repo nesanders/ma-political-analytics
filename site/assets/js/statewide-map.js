@@ -6,14 +6,14 @@
 // simpler script rather than a shared one, since it renders a whole
 // FeatureCollection with data-driven styling instead of one polygon in a
 // fixed color.
+// Basemap: OpenStreetMap's standard raster tiles — see district-map.js's
+// top-of-file comment for why (CARTO's basemaps.cartocdn.com, used here
+// originally, turned out to require an API key in production despite this
+// project's own documentation to the contrary — found live, from a real
+// deployed screenshot showing "API KEY REQUIRED" tiles). No dark-mode
+// variant here, unlike CARTO's, so this map no longer adapts to the page
+// theme.
 (function () {
-  function prefersDark() {
-    var theme = document.documentElement.getAttribute("data-theme");
-    if (theme === "dark") return true;
-    if (theme === "light") return false;
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
   // Each feature's `url` property is a site-root-relative path computed in
   // Python at pipeline build time (ma_politics.build.generate_site_data's
   // district_url()) with no knowledge of Jekyll's site.baseurl — needs the
@@ -35,7 +35,6 @@
     var colorRep = style.getPropertyValue("--series-rep").trim();
     var colorNeutral = style.getPropertyValue("--series-neutral").trim();
 
-    var tileVariant = prefersDark() ? "dark_all" : "light_all";
     var map = new maplibregl.Map({
       container: container,
       style: {
@@ -43,11 +42,13 @@
         sources: {
           basemap: {
             type: "raster",
-            tiles: ["https://basemaps.cartocdn.com/rastertiles/" + tileVariant + "/{z}/{x}/{y}{r}.png"],
+            tiles: [
+              "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            ],
             tileSize: 256,
-            attribution:
-              '© <a href="https://carto.com/attributions">CARTO</a> © ' +
-              '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
           },
         },
         layers: [{ id: "basemap", type: "raster", source: "basemap" }],

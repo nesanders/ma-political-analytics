@@ -374,15 +374,36 @@ district's real 2022 lean.
   that tolerance. 602 files, 7.6MB total, verified live: every district
   page's map fetches and renders its own file (not another district's) as
   a MapLibre GeoJSON fill/outline layer, colored by which party the seat's
-  lean favors. The basemap underneath (CARTO's free raster tiles, no API
-  key) is a separate concern from the district polygon itself and is
-  **not verified live from this environment** — this session's network
-  policy blocks `basemaps.cartocdn.com` the same way it blocks jsDelivr
-  for AskAI's DuckDB-Wasm bundles (see `site/src/askai/src/duckdb.ts`).
-  What's confirmed instead: the district polygon still renders correctly
-  (screenshotted) with the basemap tiles failing to load, since it's added
-  as its own MapLibre layer independent of the basemap source's own
-  load success — real end-user browsers reach the CDN directly.
+  lean favors. The basemap underneath is a separate concern from the
+  district polygon itself and has never been verified live from this
+  environment — this session's network policy blocks the tile host the
+  same way it blocks jsDelivr for AskAI's DuckDB-Wasm bundles (see
+  `site/src/askai/src/duckdb.ts`). What's confirmed instead: the district
+  polygon still renders correctly (screenshotted) with the basemap tiles
+  failing to load, since it's added as its own MapLibre layer independent
+  of the basemap source's own load success.
+
+  **The basemap provider itself changed once, for a real reason.**
+  Originally CARTO's free raster tiles (`basemaps.cartocdn.com`), on the
+  documented understanding that they didn't require an API key. A real
+  screenshot of the deployed site (the one place this could actually be
+  checked, given this session can't reach the tile host either way) showed
+  every tile as an "API KEY REQUIRED" placeholder image instead of a map —
+  CARTO's free tier apparently doesn't cover this project's traffic/
+  referrer the way it once did, or the docs this was built against were
+  already wrong. Switched to OpenStreetMap's own standard tile server
+  (`tile.openstreetmap.org`) in both `district-map.js` and
+  `statewide-map.js` — no signup, no key, the most standard "just works"
+  XYZ raster tile source there is. Traded away CARTO's light/dark tile
+  variants in the process (OSM's standard tiles have no dark-mode
+  counterpart), so the basemap no longer adapts to the page's theme — a
+  real, accepted regression rather than a silently reintroduced one.
+  OSM's own tile usage policy is explicitly scoped to light/moderate use,
+  not heavy production traffic; fine for a site this size, worth
+  revisiting (dedicated tile hosting, or a paid provider) if that ever
+  changes. Still unverified live from this session for the same reason as
+  before — the fix can only really be confirmed from a real browser
+  reaching the real deployed site.
 
   The same command also writes one **combined** FeatureCollection per
   (chamber, vintage) — `<chamber>-<vintage>-all.geojson`, every district's

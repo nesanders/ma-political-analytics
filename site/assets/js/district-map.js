@@ -4,25 +4,29 @@
 // See docs/PLAN.md §6 and pipeline/README.md for how the GeoJSON itself is
 // published (ma_politics.build.publish_district_geo).
 //
-// Basemap: CARTO's free raster tiles (no API key, attribution required) —
-// this session's network policy blocks basemaps.cartocdn.com, so the
-// basemap layer itself is unverified live from this environment (real
-// end-user browsers reach it directly, the same situation as AskAI's
-// jsDelivr/extensions.duckdb.org dependencies — see duckdb.ts). What *is*
-// verified: the district polygon itself renders correctly as a MapLibre
-// GeoJSON source/layer against a blank style with no external tiles at
-// all — the basemap failing to load (blocked host, offline, etc.) leaves
-// the polygon still visible on a plain background rather than blanking
-// the whole map, since it's added as its own layer independent of the
-// basemap's own load success.
+// Basemap: OpenStreetMap's standard raster tiles (tile.openstreetmap.org) —
+// genuinely free and keyless, unlike CARTO's basemaps.cartocdn.com, which
+// this project originally used on the understanding that it didn't require
+// an API key. Found live, from a real deployed screenshot, that it does now
+// (or does for this project's traffic/referrer): every tile came back as an
+// "API KEY REQUIRED" placeholder image instead of a map. OSM's tile usage
+// policy (operations.osmfoundation.org/policies/tiles) is explicitly scoped
+// to light/moderate use, not heavy production traffic — acceptable for a
+// small site like this one, but revisit (dedicated tile hosting, or a paid
+// provider) if traffic ever grows enough to matter. No light/dark variant
+// exists here the way CARTO's light_all/dark_all did, so the map no longer
+// adapts to the page's theme — a real regression traded for one that
+// actually shows a map. This session's own network policy still blocks
+// tile.openstreetmap.org, so the basemap layer itself remains unverified
+// live from here (real end-user browsers reach it directly, the same
+// situation as AskAI's jsDelivr/extensions.duckdb.org dependencies — see
+// duckdb.ts). What *is* verified: the district polygon itself renders
+// correctly as a MapLibre GeoJSON source/layer against a blank style with
+// no external tiles at all — the basemap failing to load (blocked host,
+// offline, etc.) leaves the polygon still visible on a plain background
+// rather than blanking the whole map, since it's added as its own layer
+// independent of the basemap's own load success.
 (function () {
-  function prefersDark() {
-    var theme = document.documentElement.getAttribute("data-theme");
-    if (theme === "dark") return true;
-    if (theme === "light") return false;
-    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  }
-
   function collectCoords(coords, out) {
     if (typeof coords[0] === "number") {
       out.push(coords);
@@ -61,7 +65,6 @@
         ? style.getPropertyValue("--series-rep").trim()
         : style.getPropertyValue("--series-neutral").trim();
 
-    var tileVariant = prefersDark() ? "dark_all" : "light_all";
     var map = new maplibregl.Map({
       container: container,
       style: {
@@ -69,11 +72,13 @@
         sources: {
           basemap: {
             type: "raster",
-            tiles: ["https://basemaps.cartocdn.com/rastertiles/" + tileVariant + "/{z}/{x}/{y}{r}.png"],
+            tiles: [
+              "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
+            ],
             tileSize: 256,
-            attribution:
-              '© <a href="https://carto.com/attributions">CARTO</a> © ' +
-              '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
           },
         },
         layers: [{ id: "basemap", type: "raster", source: "basemap" }],
