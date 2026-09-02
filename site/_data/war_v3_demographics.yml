@@ -238,3 +238,5 @@ full:
       standardized_ci_95_low: -0.017
       standardized_ci_95_high: 0.01
   n_distinct_years: 2
+  reference_values:
+    income_10k: 10.78257294117647

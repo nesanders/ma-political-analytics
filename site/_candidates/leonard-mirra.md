@@ -30,9 +30,9 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.3627
-  fundraising_component_sd: 0.0254
-  intercept_component_v3_finance: -0.09
+  fundraising_component: 0.0202
+  fundraising_component_sd: 0.0014
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.174
   lean_component_v3_finance_sd: 0.0127
@@ -79,9 +79,9 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 4
-  fundraising_component: 0.354
-  fundraising_component_sd: 0.0248
-  intercept_component_v3_finance: -0.09
+  fundraising_component: 0.0115
+  fundraising_component_sd: 0.0008
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.1768
   lean_component_v3_finance_sd: 0.0129
@@ -124,9 +124,9 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 3
-  fundraising_component: 0.3354
-  fundraising_component_sd: 0.0235
-  intercept_component_v3_finance: -0.09
+  fundraising_component: -0.0071
+  fundraising_component_sd: 0.0005
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.3368
   lean_component_v3_finance_sd: 0.0247
@@ -169,9 +169,9 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
-  fundraising_component: 0.2829
-  fundraising_component_sd: 0.0198
-  intercept_component_v3_finance: -0.09
+  fundraising_component: -0.0596
+  fundraising_component_sd: 0.0042
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.1996
   lean_component_v3_finance_sd: 0.0146
@@ -214,9 +214,9 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.3047
-  fundraising_component_sd: 0.0213
-  intercept_component_v3_finance: -0.09
+  fundraising_component: -0.0378
+  fundraising_component_sd: 0.0026
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.2722
   lean_component_v3_finance_sd: 0.0199
@@ -259,9 +259,9 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.3743
-  fundraising_component_sd: 0.0262
-  intercept_component_v3_finance: -0.09
+  fundraising_component: 0.0318
+  fundraising_component_sd: 0.0022
+  intercept_component_v3_finance: 0.2525
   intercept_component_v3_finance_sd: 0.0258
   lean_component_v3_finance: 0.2208
   lean_component_v3_finance_sd: 0.0162

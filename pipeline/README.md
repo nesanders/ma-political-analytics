@@ -549,6 +549,62 @@ deliberately queries via the site's query tool, not passive page prose,
 so they were left as the distinct technical surface they are rather than
 renamed to match.
 
+**Asked directly why the candidate attribution chart's Fundraising bar
+looked disproportionately large next to lean/tide's** — a real
+observation about the raw decomposition, not a bug: `log_raised` runs
+7-14 across real candidates, a completely different numeric scale than
+lean/tide's natural 0-1 fractions, so even the fit's genuinely small
+`log_raised` coefficient (`+0.0343`) multiplied out to a large-looking
+bar purely from comparing against an impossible $0-raised baseline. Two
+changes fixed the actual decomposition, not just added a caveat:
+
+1. **Reference-centering.** `fit_war_v3_finance` and
+   `fit_war_v3_demographics_full` now also export `reference_values`
+   (each fit's own sample mean for `log_raised`/`income_10k` — the two
+   continuous predictors with no natural zero-effect anchor, unlike
+   lean/tide/population-share fractions which already read sensibly at
+   `coefficient*value`). `apply_war_v3_finance`/`apply_war_v3_demographics`
+   compute those two terms' bar-chart contribution as
+   `coefficient*(value - reference)` instead of `coefficient*value`,
+   folding the removed constant into a renamed "Baseline" bar (was
+   "Intercept," in both v2's and v3's field maps in
+   district/seat/candidate.html — accurate for v2 too, since v2's
+   intercept always meant "predicted share at lean=tide=0," i.e. already
+   a baseline). This is algebraically exact, not an approximation: the
+   sum of all components still equals `expected_two_party_share_v3_*` to
+   the same value as before — only which bar a given dollar of predicted
+   share shows up in changed. Real effect: Aaron Michlewitz's real
+   $548k-raised 2024 race now shows an ~11-point Fundraising bar (was
+   3-4x that), proportionate to lean/tide/incumbency instead of dwarfing
+   them.
+2. **Fair interaction splitting.** `bachelors_pct_x_tide` was previously
+   credited whole to the Demographics bar — an arbitrary choice, since the
+   interaction term is literally the product of bachelors-degree rate and
+   tide, a joint property of both. A new `_shapley_pair_split(beta1, x1,
+   ref1, beta2, x2, ref2, beta_interaction)` helper computes the standard
+   two-player Shapley value (average of both "which feature gets credited
+   first" orderings) instead: `phi1 = beta1*(x1-ref1) +
+   (beta_interaction/2)*(x1-ref1)*(x2+ref2)`, and symmetrically for
+   `phi2` — a closed form that's exact for a linear model (phi1+phi2
+   always equals the full interaction's contribution, no residual left
+   over) and generalizes to a non-zero reference point on either side,
+   should a future interaction ever pair a centered predictor with an
+   uncentered one. `apply_war_v3_demographics` now uses it to move half
+   of `bachelors_pct_x_tide`'s contribution out of `demographics_component`
+   and into `tide_component`.
+
+Both changes are display-only reshaping of an already-computed
+prediction, not a refit: the underlying `_bayesian_linear_regression`
+coefficients are untouched, and `war_v3_demographics`/`war_v3_finance`
+(and everything downstream — `war_resolved`, `expected_share_resolved`)
+are numerically identical to before. Verified live: components still sum
+exactly to `expected_two_party_share_v3_*` (0 mismatches across 500
+district `v3_demographics` rows and 2,325 candidate `v3_finance` rows —
+same invariant checked after every previous change to this
+decomposition); a Jekyll build + Playwright sweep across a full-tier
+district, a core-tier district, a high-fundraising candidate, and the
+methodology page came back with zero JS errors.
+
 ## Site chart assets (`site/assets/js/vendor/`)
 
 Vega/Vega-Lite/Vega-Embed, used by `site/_layouts/chamber.html`'s

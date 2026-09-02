@@ -315,6 +315,21 @@ combined bachelors/Hispanic/voting-age/income effect everywhere on that
 district's own pages; a district with only a partial match uses the core
 tier's bachelors-only effect instead; a district with no match at all
 still falls back to the core model alone, same as before this tiering existed.
+
+**On a district or seat page's own per-race attribution chart, the
+bachelors-degree-rate × tide interaction is split, not credited whole to
+either bar.** The two coefficients above are fit terms in the regression
+itself and don't change; what changed is how a single race's predicted
+share gets divided up for the stacked bar. Handing 100% of the
+interaction's contribution to the Demographics bar (as an earlier version
+of this chart did) is an arbitrary choice — the interaction is literally
+the product of bachelors-degree rate and that year's tide, a joint
+property of both, not purely either one's. The chart now uses the
+two-player Shapley value (the standard game-theoretic way to divide a
+joint effect fairly): each bar gets its own main effect plus exactly half
+of the interaction, and the two halves always sum back to the full
+interaction term, so the race's total predicted share is unchanged —
+only which bar the money shows up in.
 {% endif %}
 
 {% if site.data.war_v3_finance %}
@@ -358,6 +373,20 @@ scale as the demographics comparison above — this is the fairest way to
 ask "how big is fundraising's effect, really, next to lean or incumbency":
 
 <div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the campaign finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+
+**On a candidate page's own per-race attribution chart, the Fundraising
+bar is centered on this fit's own mean log-dollar total, not on $0.** The
+coefficient above (`log(total raised + 1)`) is genuinely small, but its
+predictor lives on a log-dollar scale (typically 7–14 across real
+candidates) rather than the 0–1 fraction lean, tide, and the demographics
+terms use — multiplying that small coefficient by a raw value in the
+7–14 range, rather than by how far it sits from a *typical* matched
+candidate's total, made the bar look disproportionately large purely from
+comparing against an impossible $0-raised baseline. Centering it removes
+that artifact: the bar now reads as "how this candidate's fundraising
+compares to a typical matched candidate's," in real vote-share points,
+with the removed constant folded into the chart's Baseline bar instead —
+the total predicted share for the race is unchanged.
 
 On this standardized scale, a 1-SD swing in a candidate's own district
 lean still moves the needle more than a 1-SD swing in logged fundraising

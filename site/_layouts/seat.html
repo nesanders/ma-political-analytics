@@ -51,22 +51,25 @@ layout: default
     {% if latest_contested %}
     <p>
       WAR is a regression, fit across every contested race in this site's
-      backfill: actual share ~ a baseline intercept + district lean +
-      that year's statewide tide + incumbency (1st/2nd/3rd-or-later term).
-      This breaks each candidate's actual share into exactly those pieces,
-      plus whatever's left over &mdash; WAR itself, the part attributable
-      to the candidate.
+      backfill: actual share ~ a baseline + district lean + that year's
+      statewide tide + incumbency (1st/2nd/3rd-or-later term). This breaks
+      each candidate's actual share into exactly those pieces, plus
+      whatever's left over &mdash; WAR itself, the part attributable to the
+      candidate.
       {% assign factors = latest_contested.candidates | where_exp: "c", "c.war_factors" | first %}
       {% if factors.war_factors.size > 3 %}
       This district's own Census match adds one more factor here &mdash;
       {{ factors.war_factors | last }} &mdash; folded into a Demographics
-      slice below.
+      slice below, whose bachelor's-degree rate is estimated to swing with
+      the statewide tide, too; that joint effect is split evenly between
+      the Demographics and Statewide tide bars rather than credited whole
+      to either.
       {% endif %}
       See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the fitted coefficients, their uncertainty, and what they're
       based on.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for each candidate in {{ latest_contested.year }}"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for each candidate in {{ latest_contested.year }}"></div>
     <p>
       The chart above shows each component's best estimate; it doesn't show
       how uncertain any of them are. This one does &mdash; the same
@@ -296,7 +299,7 @@ layout: default
   // v2 candidates simply have no "Demographics" entry in their field map,
   // so that segment is skipped for them rather than plotted as zero.
   const CANONICAL_COMPONENTS = [
-    ["Intercept", "--war-intercept"],
+    ["Baseline", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
     ["Incumbency", "--war-incumbency"],
@@ -304,14 +307,14 @@ layout: default
     ["WAR (residual)", "--war-residual"],
   ];
   const V2_FIELDS = {
-    "Intercept": ["intercept_component", "intercept_component_sd"],
+    "Baseline": ["intercept_component", "intercept_component_sd"],
     "Lean": ["lean_component", "lean_component_sd"],
     "Statewide tide": ["tide_component", "tide_component_sd"],
     "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
     "WAR (residual)": ["war_v2", "war_v2_sd"],
   };
   const V3_FIELDS = {
-    "Intercept": ["intercept_component_v3_demographics", "intercept_component_v3_demographics_sd"],
+    "Baseline": ["intercept_component_v3_demographics", "intercept_component_v3_demographics_sd"],
     "Lean": ["lean_component_v3_demographics", "lean_component_v3_demographics_sd"],
     "Statewide tide": ["tide_component_v3_demographics", "tide_component_v3_demographics_sd"],
     "Incumbency": ["incumbency_adjustment_v3_demographics", "incumbency_adjustment_v3_demographics_sd"],

@@ -44,16 +44,16 @@ results_by_year:
     expected_two_party_share: 0.5642
     expected_two_party_share_v2: 0.6484
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics: 0.2106
     intercept_component_v3_demographics_sd: 0.1269
     lean_component_v3_demographics: 0.5485
     lean_component_v3_demographics_sd: 0.0357
-    tide_component_v3_demographics: -0.0511
-    tide_component_v3_demographics_sd: 0.0376
+    tide_component_v3_demographics: -0.0551
+    tide_component_v3_demographics_sd: 0.0387
     incumbency_adjustment_v3_demographics: 0.058
     incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1763
-    demographics_component_sd: 0.125
+    demographics_component: -0.1604
+    demographics_component_sd: 0.1224
     expected_two_party_share_v3_demographics: 0.6016
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -100,16 +100,16 @@ results_by_year:
     expected_two_party_share: 0.5792
     expected_two_party_share_v2: 0.4997
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics: 0.2106
     intercept_component_v3_demographics_sd: 0.1269
     lean_component_v3_demographics: 0.5629
     lean_component_v3_demographics_sd: 0.0367
-    tide_component_v3_demographics: -0.0526
-    tide_component_v3_demographics_sd: 0.0388
+    tide_component_v3_demographics: -0.0567
+    tide_component_v3_demographics_sd: 0.0398
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1765
-    demographics_component_sd: 0.1251
+    demographics_component: -0.1605
+    demographics_component_sd: 0.1224
     expected_two_party_share_v3_demographics: 0.5564
     war_v3_demographics: -0.0287
     war_v3_demographics_sd: 0.063
@@ -142,16 +142,16 @@ results_by_year:
     expected_two_party_share: 0.4208
     expected_two_party_share_v2: 0.4169
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2225
+    intercept_component_v3_demographics: 0.2106
     intercept_component_v3_demographics_sd: 0.1269
     lean_component_v3_demographics: 0.4092
     lean_component_v3_demographics_sd: 0.0266
-    tide_component_v3_demographics: -0.0285
-    tide_component_v3_demographics_sd: 0.021
+    tide_component_v3_demographics: -0.0308
+    tide_component_v3_demographics_sd: 0.0216
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1727
-    demographics_component_sd: 0.1241
+    demographics_component: -0.1586
+    demographics_component_sd: 0.1221
     expected_two_party_share_v3_demographics: 0.4304
     war_v3_demographics: 0.0419
     war_v3_demographics_sd: 0.063

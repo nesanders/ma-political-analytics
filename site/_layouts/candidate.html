@@ -24,23 +24,23 @@ layout: default
     <h2>What drives replacement level, by year</h2>
     <p>
       Same regression as above, broken into its own terms for every year
-      {{ page.name }} ran: the intercept, district lean, statewide tide,
-      and incumbency, stacked up to WAR's expected share &mdash; plus
-      whatever's left over, WAR itself. For a year with a matched OCPF
+      {{ page.name }} ran: a baseline, district lean, statewide tide, and
+      incumbency, stacked up to WAR's expected share &mdash; plus whatever's
+      left over, WAR itself. For a year with a matched OCPF
       campaign-finance total, the bar also gets an added Fundraising slice
-      for that year's logged total raised. That slice can look
-      disproportionately large next to lean or tide's &mdash; unlike those
-      two (naturally bounded 0&ndash;1), logged dollars typically run
-      7&ndash;14, so even a small fundraising coefficient multiplies out
-      to a sizeable chunk of the bar. See the standardized comparison on
-      the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for a scale that's genuinely comparable across terms. An uncontested
-      year's bar stops at the model's expected share instead of the actual
-      result &mdash; there's no WAR (residual) slice, since WAR itself
-      isn't meaningful against a mechanically near-100% unopposed share.
-      Click a bar to open that race's district page.
+      &mdash; not the raw logged dollar amount (which has no natural
+      zero-effect baseline the way lean and tide's 0&ndash;1 shares do,
+      and would make the bar disproportionately large purely from its
+      units), but how {{ page.name }}'s fundraising that year compared to a
+      typical matched candidate's, in real vote-share points. See the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the underlying coefficients. An uncontested year's bar stops at
+      the model's expected share instead of the actual result &mdash;
+      there's no WAR (residual) slice, since WAR itself isn't meaningful
+      against a mechanically near-100% unopposed share. Click a bar to
+      open that race's district page.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
     <p>
       The chart above shows each component's best estimate; it doesn't
       show how uncertain any of them are. This one does &mdash; the same
@@ -230,7 +230,7 @@ layout: default
   // year without a finance match simply has no "Fundraising" entry in its
   // field map, so that segment is skipped rather than plotted as zero.
   const CANONICAL_COMPONENTS = [
-    ["Intercept", "--war-intercept"],
+    ["Baseline", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
     ["Incumbency", "--war-incumbency"],
@@ -238,14 +238,14 @@ layout: default
     ["WAR (residual)", "--war-residual"],
   ];
   const V2_FIELDS = {
-    "Intercept": ["intercept_component", "intercept_component_sd"],
+    "Baseline": ["intercept_component", "intercept_component_sd"],
     "Lean": ["lean_component", "lean_component_sd"],
     "Statewide tide": ["tide_component", "tide_component_sd"],
     "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
     "WAR (residual)": ["war_v2", "war_v2_sd"],
   };
   const V3_FIELDS = {
-    "Intercept": ["intercept_component_v3_finance", "intercept_component_v3_finance_sd"],
+    "Baseline": ["intercept_component_v3_finance", "intercept_component_v3_finance_sd"],
     "Lean": ["lean_component_v3_finance", "lean_component_v3_finance_sd"],
     "Statewide tide": ["tide_component_v3_finance", "tide_component_v3_finance_sd"],
     "Incumbency": ["incumbency_adjustment_v3_finance", "incumbency_adjustment_v3_finance_sd"],

@@ -763,6 +763,10 @@ def fit_war_v3_demographics_full(
     )
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["n_distinct_years"] = int(df["year"].nunique())
+    # income_10k has the same issue as log_raised below: no meaningful
+    # $0-income baseline, so it's centered on this fit's own mean rather
+    # than compared to zero.
+    fit["reference_values"] = {"income_10k": float(df["income_10k"].mean())}
     return fit
 
 
@@ -827,7 +831,40 @@ def fit_war_v3_finance(
     )
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["n_distinct_years"] = int(df["year"].nunique())
+    # log_raised has no natural zero-effect anchor the way a lean/tide/
+    # population-share fraction does (0 log-dollars raised isn't a real
+    # candidate) — its attribution-chart contribution is centered on this
+    # fitted sample's own mean, not the raw value, so the fundraising bar
+    # reads as "how this candidate's fundraising compares to a typical
+    # candidate's" rather than an arbitrary distance from an impossible
+    # $0 baseline. See apply_war_v3_finance for where this gets used.
+    fit["reference_values"] = {"log_raised": float(df["log_raised"].mean())}
     return fit
+
+
+def _shapley_pair_split(
+    beta1: float, x1: float, ref1: float, beta2: float, x2: float, ref2: float, beta_interaction: float
+) -> tuple[float, float]:
+    """Fairly splits a fitted x1*x2 interaction term's contribution to a
+    prediction between its two parent features, using the two-player
+    Shapley value (average of both "add x1 first" / "add x2 first"
+    orderings) rather than dumping the whole interaction onto one
+    feature's bar the way a naive coefficient*value decomposition would.
+    For a linear model this has a closed form:
+
+        phi1 = beta1*(x1-ref1) + (beta_interaction/2)*(x1-ref1)*(x2+ref2)
+        phi2 = beta2*(x2-ref2) + (beta_interaction/2)*(x2-ref2)*(x1+ref1)
+
+    which is exact: phi1 + phi2 always equals the model's full x1,x2
+    contribution relative to the (ref1, ref2) baseline, including the
+    interaction term, with no residual left over. ref1/ref2 are each
+    feature's own attribution-chart reference point (0 for an
+    already-fraction-like predictor such as a population share; a
+    fitted-sample mean for one like log-dollars raised with no natural
+    zero baseline — see apply_war_v3_finance/fit_war_v3_finance)."""
+    phi1 = beta1 * (x1 - ref1) + (beta_interaction / 2) * (x1 - ref1) * (x2 + ref2)
+    phi2 = beta2 * (x2 - ref2) + (beta_interaction / 2) * (x2 - ref2) * (x1 + ref1)
+    return phi1, phi2
 
 
 def apply_war_v3_demographics(
@@ -883,6 +920,7 @@ def apply_war_v3_demographics(
             "b_terms_sd": {b: coefs[b]["posterior_sd"] for b in INCUMBENT_TERM_BUCKETS},
             "coefs": coefs,
             "sigma": fit["posterior_sigma_mean"],
+            "reference_values": fit.get("reference_values", {}),
         }
 
     core = _tier_coefs(core_fit) if core_fit else None
@@ -924,34 +962,70 @@ def apply_war_v3_demographics(
                 dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
                 incumbency_component = sum(tc["b_terms"][b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
                 lean_component = tc["b_lean"] * own_lean
-                tide_component = tc["b_tide"] * own_tide
 
-                # Every term this tier actually fits, combined into one
-                # "demographics_component" plus its delta-method SD summed
-                # in quadrature across all contributing terms (same
-                # independence approximation as apply_war_v2, extended to
-                # however many terms this tier has).
+                # bachelors_pct and bachelors_pct_x_tide are two views of
+                # the same underlying data (the interaction term is
+                # literally their product), so handing the whole
+                # interaction to one bar or the other — as a naive
+                # coefficient*value decomposition would — is an arbitrary
+                # choice, not a principled one. _shapley_pair_split gives
+                # each parent feature its fair (game-theoretic) half of
+                # the joint effect instead: tide_component below now
+                # includes half of it, moved out of demographics_component,
+                # since a bachelors-degree-rate x tide effect is honestly a
+                # joint property of both, not purely either. Both features'
+                # own reference point is 0 (an already-fraction-like
+                # predictor, same as lean above), so this only redistributes
+                # the interaction — it doesn't change the total.
                 coefs = tc["coefs"]
-                demo_terms = [(covariates["bachelors_pct"], "bachelors_pct")]
-                demo_terms.append((covariates["bachelors_pct"] * own_tide, "bachelors_pct_x_tide"))
-                if tier == "full":
-                    demo_terms.append((covariates["hispanic_pct"], "hispanic_pct"))
-                    demo_terms.append((covariates["voting_age_pct"], "voting_age_pct"))
-                    demo_terms.append((covariates["income_10k"], "income_10k"))
-                demographics_component = sum(coefs[name]["posterior_mean"] * value for value, name in demo_terms)
-                demographics_component_sd = sum((coefs[name]["posterior_sd"] * value) ** 2 for value, name in demo_terms) ** 0.5
+                b_bachelors, sd_bachelors = coefs["bachelors_pct"]["posterior_mean"], coefs["bachelors_pct"]["posterior_sd"]
+                b_interaction, sd_interaction = (
+                    coefs["bachelors_pct_x_tide"]["posterior_mean"],
+                    coefs["bachelors_pct_x_tide"]["posterior_sd"],
+                )
+                bachelors_pct = covariates["bachelors_pct"]
+                phi_bachelors, tide_component = _shapley_pair_split(
+                    b_bachelors, bachelors_pct, 0.0, tc["b_tide"], own_tide, 0.0, b_interaction
+                )
+                half_interaction_sd = (bachelors_pct * own_tide / 2) * sd_interaction
+                tide_component_sd = ((own_tide * tc["b_tide_sd"]) ** 2 + half_interaction_sd**2) ** 0.5
 
-                expected = tc["b0"] + lean_component + tide_component + incumbency_component + demographics_component
+                # income_10k (full tier only) has no natural zero-income
+                # baseline the way a population share does, so — same as
+                # log_raised in apply_war_v3_finance below — its
+                # contribution is centered on this fit's own mean, with the
+                # removed constant folded into the baseline/intercept
+                # instead of left in the demographics bar.
+                demo_terms = []
+                if tier == "full":
+                    demo_terms.append((covariates["hispanic_pct"], 0.0, "hispanic_pct"))
+                    demo_terms.append((covariates["voting_age_pct"], 0.0, "voting_age_pct"))
+                    income_ref = tc["reference_values"]["income_10k"]
+                    demo_terms.append((covariates["income_10k"], income_ref, "income_10k"))
+                demographics_component = phi_bachelors + sum(
+                    coefs[name]["posterior_mean"] * (value - ref) for value, ref, name in demo_terms
+                )
+                demographics_component_sd = (
+                    (bachelors_pct * sd_bachelors) ** 2
+                    + half_interaction_sd**2
+                    + sum((coefs[name]["posterior_sd"] * (value - ref)) ** 2 for value, ref, name in demo_terms)
+                ) ** 0.5
+
+                intercept_effective = tc["b0"]
+                if tier == "full":
+                    intercept_effective += coefs["income_10k"]["posterior_mean"] * income_ref
+
+                expected = intercept_effective + lean_component + tide_component + incumbency_component + demographics_component
                 active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
                 incumbency_component_sd = tc["b_terms_sd"][active_bucket] if active_bucket else 0.0
                 c.update(
                     demographics_tier=tier,
-                    intercept_component_v3_demographics=round(tc["b0"], 4),
+                    intercept_component_v3_demographics=round(intercept_effective, 4),
                     intercept_component_v3_demographics_sd=round(tc["b0_sd"], 4),
                     lean_component_v3_demographics=round(lean_component, 4),
                     lean_component_v3_demographics_sd=round(abs(own_lean) * tc["b_lean_sd"], 4),
                     tide_component_v3_demographics=round(tide_component, 4),
-                    tide_component_v3_demographics_sd=round(abs(own_tide) * tc["b_tide_sd"], 4),
+                    tide_component_v3_demographics_sd=round(tide_component_sd, 4),
                     incumbency_adjustment_v3_demographics=round(incumbency_component, 4),
                     incumbency_adjustment_v3_demographics_sd=round(incumbency_component_sd, 4),
                     demographics_component=round(demographics_component, 4),
@@ -982,7 +1056,17 @@ def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, f
     this candidate's "baseline expectation" for that race regardless of
     whether the race itself was ever contested."""
     coefs = fit["coefficients"]
-    b0 = coefs["intercept"]["posterior_mean"]
+    # log_raised has no natural zero-effect baseline the way lean/tide's
+    # 0-1 fractions do (a candidate who raised $0 isn't a meaningful
+    # reference point), so its attribution-chart contribution is centered
+    # on this fit's own mean instead of the raw log-dollar value — the
+    # removed constant (b_raised * log_raised_ref) is folded into the
+    # baseline/intercept below, so the fundraising bar reads as "how this
+    # candidate's fundraising compares to a typical matched candidate's,"
+    # not an arbitrary distance from an impossible $0 baseline. See
+    # fit_war_v3_finance for where reference_values comes from.
+    log_raised_ref = fit["reference_values"]["log_raised"]
+    b0 = coefs["intercept"]["posterior_mean"] + coefs["log_raised"]["posterior_mean"] * log_raised_ref
     b_lean = coefs["own_lean"]["posterior_mean"]
     b_tide = coefs["own_tide"]["posterior_mean"]
     b_terms = {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
@@ -1019,13 +1103,13 @@ def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, f
             incumbency_component = sum(b_terms[b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
             lean_component = b_lean * race["own_lean"]
             tide_component = b_tide * race["own_tide"]
-            fundraising_component = b_raised * log_raised
+            fundraising_component = b_raised * (log_raised - log_raised_ref)
             expected = b0 + lean_component + tide_component + incumbency_component + fundraising_component
             active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
             incumbency_component_sd = coefs[active_bucket]["posterior_sd"] if active_bucket else 0.0
             race.update(
                 fundraising_component=round(fundraising_component, 4),
-                fundraising_component_sd=round(abs(log_raised) * coefs["log_raised"]["posterior_sd"], 4),
+                fundraising_component_sd=round(abs(log_raised - log_raised_ref) * coefs["log_raised"]["posterior_sd"], 4),
                 intercept_component_v3_finance=round(b0, 4),
                 intercept_component_v3_finance_sd=coefs["intercept"]["posterior_sd"],
                 lean_component_v3_finance=round(lean_component, 4),
