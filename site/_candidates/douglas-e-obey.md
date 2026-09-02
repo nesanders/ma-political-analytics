@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0735
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.3862
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 title: Douglas E. Obey
 layout: candidate
 ---

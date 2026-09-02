@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5429
     expected_two_party_share_v2: 0.637
+    war_resolved: -0.0727
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.637
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Alec M. Difruscia
     slug: alec-m-difruscia
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4571
     expected_two_party_share_v2: 0.4361
+    war_resolved: -0.0004
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4361
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2069
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2069
     expected_two_party_share_v2: 0.304
+    war_resolved: 0.222
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.304
+    war_model: core
+    war_factors: *id001
   - name: Pina Prinzivalli
     slug: pina-prinzivalli
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7931
     expected_two_party_share_v2: 0.6126
+    war_resolved: -0.1386
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6126
+    war_model: core
+    war_factors: *id001
   - name: Patricia W M. Meuse
     slug: patricia-w-m-meuse
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4877
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4877
     expected_two_party_share_v2: 0.5976
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5976
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3654
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3654
     expected_two_party_share_v2: 0.5438
+    war_resolved: 0.1593
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5438
+    war_model: core
+    war_factors: *id001
   - name: Douglas W. Sears
     slug: douglas-w-sears
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6346
     expected_two_party_share_v2: 0.5293
+    war_resolved: -0.2324
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5293
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4767
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.4457
+    war_resolved: 0.2895
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4457
+    war_model: core
+    war_factors: *id001
   - name: Douglas W. Sears
     slug: douglas-w-sears
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5233
     expected_two_party_share_v2: 0.4709
+    war_resolved: -0.2061
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4709
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 19th Middlesex District (2012-2020)
 layout: district

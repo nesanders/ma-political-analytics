@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4915
     expected_two_party_share_v2: 0.6102
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6102
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Chuck S. Kuniewich, Jr.
     slug: chuck-s-kuniewich-jr
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.604
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.604
     expected_two_party_share_v2: 0.5129
+    war_resolved: 0.0097
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5129
+    war_model: core
+    war_factors: *id001
   - name: Sonny Parente
     slug: sonny-parente
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.396
     expected_two_party_share_v2: 0.4037
+    war_resolved: 0.0737
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4037
+    war_model: core
+    war_factors: *id001
   - name: David A. Goulding
     slug: david-a-goulding
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5808
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5808
     expected_two_party_share_v2: 0.6468
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6468
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6034
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6034
     expected_two_party_share_v2: 0.6691
+    war_resolved: 0.0713
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6691
+    war_model: core
+    war_factors: *id001
   - name: Neal A. Heeren
     slug: neal-a-heeren
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3966
     expected_two_party_share_v2: 0.404
+    war_resolved: -0.1444
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.404
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.405
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.405
     expected_two_party_share_v2: 0.4082
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4082
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Middlesex (2001-2010)
 layout: district

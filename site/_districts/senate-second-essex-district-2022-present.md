@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6504
     war_v3_demographics: 0.0181
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0181
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6504
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Damian Mitchell Anketell
     slug: damian-mitchell-anketell
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.388
     war_v3_demographics: -0.0565
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0565
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.388
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6493
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6209
     war_v3_demographics: 0.0563
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0563
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6209
+    war_model: demographics_full
+    war_factors: *id001
   - name: Damian M. Anketell
     slug: damian-m-anketell
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3595
     war_v3_demographics: -0.0367
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0367
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3595
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 176287

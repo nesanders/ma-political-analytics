@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7723
     expected_two_party_share_v2: 0.7477
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7477
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4559
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4559
     expected_two_party_share_v2: 0.5919
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5919
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7441
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7441
     expected_two_party_share_v2: 0.5868
+    war_resolved: 0.2689
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5868
+    war_model: core
+    war_factors: *id001
   - name: Danny J. Yoon
     slug: danny-j-yoon
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.2559
     expected_two_party_share_v2: 0.3298
+    war_resolved: -0.1855
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3298
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6325
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6325
     expected_two_party_share_v2: 0.6847
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6847
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7436
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7436
     expected_two_party_share_v2: 0.5866
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5866
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Plymouth District (2012-2020)
 layout: district

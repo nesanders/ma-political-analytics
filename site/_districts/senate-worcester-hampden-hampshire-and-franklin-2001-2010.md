@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4154
     expected_two_party_share_v2: 0.5572
+    war_resolved: 0.1052
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5572
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Daniel D. Dubrule
     slug: daniel-d-dubrule
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5846
     expected_two_party_share_v2: 0.503
+    war_resolved: -0.1654
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.503
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5319
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5319
     expected_two_party_share_v2: 0.6184
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6184
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5599
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5599
     expected_two_party_share_v2: 0.6358
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6358
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5318
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5317
     expected_two_party_share_v2: 0.6313
+    war_resolved: 0.1632
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6313
+    war_model: core
+    war_factors: *id001
   - name: Jennifer J. Gaucher
     slug: jennifer-j-gaucher
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4683
     expected_two_party_share_v2: 0.4418
+    war_resolved: -0.2363
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4418
+    war_model: core
+    war_factors: *id001
   - name: Carolyn J. McMahon
     slug: carolyn-j-mcmahon
     party: Libertarian
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4088
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4088
     expected_two_party_share_v2: 0.4102
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4102
+    war_model: core
+    war_factors: *id001
   - name: Carolyn J. McMahon
     slug: carolyn-j-mcmahon
     party: Libertarian
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: Worcester, Hampden, Hampshire, and Franklin (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.5013
     expected_two_party_share_v2: 0.6159
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6159
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7715
     expected_two_party_share_v2: 0.6012
+    war_resolved: -0.0801
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6012
+    war_model: core
+    war_factors: *id001
   - name: Allin John Frawley
     slug: allin-john-frawley
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.3154
+    war_resolved: 0.1635
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3154
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.469
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.531
     expected_two_party_share_v2: 0.6211
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6211
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3839
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6161
     expected_two_party_share_v2: 0.676
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.676
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5041
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4564
+    war_resolved: 0.12
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4564
+    war_model: core
+    war_factors: *id001
   - name: Roger P. Brunelle, Jr.
     slug: roger-p-brunelle-jr
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.4602
+    war_resolved: -0.0366
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4602
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Bristol District (2012-2020)
 layout: district

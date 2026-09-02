@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7265
     expected_two_party_share_v2: 0.7235
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7235
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3124
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3124
     expected_two_party_share_v2: 0.5162
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5162
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6966
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6966
     expected_two_party_share_v2: 0.5617
+    war_resolved: 0.0891
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5617
+    war_model: core
+    war_factors: *id001
   - name: Yolanda Greaves
     slug: yolanda-greaves
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3034
     expected_two_party_share_v2: 0.3549
+    war_resolved: -0.0057
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3549
+    war_model: core
+    war_factors: *id001
   - name: Clifford c. T. Wilson
     slug: clifford-c-t-wilson
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4897
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4897
     expected_two_party_share_v2: 0.6094
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6094
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6205
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6205
     expected_two_party_share_v2: 0.5216
+    war_resolved: 0.1896
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5216
+    war_model: core
+    war_factors: *id001
   - name: Jon Andrew Fetherston
     slug: jon-andrew-fetherston
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3795
     expected_two_party_share_v2: 0.395
+    war_resolved: -0.1062
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.395
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Middlesex District (2012-2020)
 layout: district

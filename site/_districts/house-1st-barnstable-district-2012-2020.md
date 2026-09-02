@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3854
     expected_two_party_share_v2: 0.5418
+    war_resolved: 0.008
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5418
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Josh Mason
     slug: josh-mason
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6146
     expected_two_party_share_v2: 0.5184
+    war_resolved: -0.0682
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5184
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2399
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7601
     expected_two_party_share_v2: 0.7413
+    war_resolved: -0.1561
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7413
+    war_model: core
+    war_factors: *id001
   - name: Steven Leibowitz
     slug: steven-leibowitz
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2399
     expected_two_party_share_v2: 0.3214
+    war_resolved: 0.0934
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3214
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5642
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4358
     expected_two_party_share_v2: 0.5813
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5813
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4365
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5635
     expected_two_party_share_v2: 0.4918
+    war_resolved: 0.0282
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4918
+    war_model: core
+    war_factors: *id001
   - name: Elisa Beth Zawadzkas
     slug: elisa-beth-zawadzkas
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4365
     expected_two_party_share_v2: 0.4248
+    war_resolved: 0.0552
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4248
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5327
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5327
     expected_two_party_share_v2: 0.4753
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4753
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Barnstable District (2012-2020)
 layout: district

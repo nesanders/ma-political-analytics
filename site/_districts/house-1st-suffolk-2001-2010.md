@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7509
     expected_two_party_share_v2: 0.7471
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7471
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8013
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8013
     expected_two_party_share_v2: 0.617
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.617
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7727
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7727
     expected_two_party_share_v2: 0.748
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.748
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7819
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7819
     expected_two_party_share_v2: 0.7633
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7633
+    war_model: core
+    war_factors: *id001
   - name: Laura Garza
     slug: laura-garza
     party: Other
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6522
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6522
     expected_two_party_share_v2: 0.5387
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5387
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Suffolk (2001-2010)
 layout: district

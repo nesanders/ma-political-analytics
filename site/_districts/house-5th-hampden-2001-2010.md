@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6766
     expected_two_party_share_v2: 0.695
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.695
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7334
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7334
     expected_two_party_share_v2: 0.7248
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7248
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7125
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7125
     expected_two_party_share_v2: 0.7163
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7163
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6894
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6894
     expected_two_party_share_v2: 0.7145
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7145
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5884
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5884
     expected_two_party_share_v2: 0.505
+    war_resolved: 0.2244
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.505
+    war_model: core
+    war_factors: *id001
   - name: Michael Franco
     slug: michael-franco
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.4116
     expected_two_party_share_v2: 0.4116
+    war_resolved: -0.141
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4116
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Hampden (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6238
     expected_two_party_share_v2: 0.6797
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6797
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3143
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3142
     expected_two_party_share_v2: 0.3607
+    war_resolved: 0.2328
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3607
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.6858
     expected_two_party_share_v2: 0.5559
+    war_resolved: -0.1494
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5559
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6209
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.379
     expected_two_party_share_v2: 0.5513
+    war_resolved: -0.0057
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5513
+    war_model: core
+    war_factors: *id001
   - name: Moses S. Dixon
     slug: moses-s-dixon
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.621
     expected_two_party_share_v2: 0.5218
+    war_resolved: -0.0674
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5218
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4767
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5233
     expected_two_party_share_v2: 0.4706
+    war_resolved: 0.0317
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4706
+    war_model: core
+    war_factors: *id001
   - name: Douglas A. Belanger
     slug: douglas-a-belanger
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.446
+    war_resolved: 0.0517
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.446
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.631
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.631
     expected_two_party_share_v2: 0.5272
+    war_resolved: 0.2392
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5272
+    war_model: core
+    war_factors: *id001
   - name: William G. Lebeau
     slug: william-g-lebeau
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.369
     expected_two_party_share_v2: 0.3894
+    war_resolved: -0.1558
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3894
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 17th Worcester District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7534
     expected_two_party_share_v2: 0.7484
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7484
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8033
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8033
     expected_two_party_share_v2: 0.618
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.618
+    war_model: core
+    war_factors: *id001
   - name: William Theodore Leonard
     slug: william-theodore-leonard
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Dianne Wilkerson
     slug: dianne-wilkerson
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7749
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7749
     expected_two_party_share_v2: 0.7492
+    war_resolved: -0.0269
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7492
+    war_model: core
+    war_factors: *id001
   - name: Samiyah Diaz
     slug: samiyah-diaz
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.2251
     expected_two_party_share_v2: 0.3135
+    war_resolved: -0.0358
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3135
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7833
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7833
     expected_two_party_share_v2: 0.764
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.764
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6543
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6543
     expected_two_party_share_v2: 0.5398
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5398
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Suffolk (2001-2010)
 layout: district

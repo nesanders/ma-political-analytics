@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5006
     expected_two_party_share_v2: 0.4585
+    war_resolved: 0.0951
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4585
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: John P. O'Leary
     slug: john-p-oleary
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4994
     expected_two_party_share_v2: 0.4581
+    war_resolved: -0.0117
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4581
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.628
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.628
     expected_two_party_share_v2: 0.6691
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6691
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5836
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5836
     expected_two_party_share_v2: 0.6483
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6483
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6087
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6087
     expected_two_party_share_v2: 0.6719
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6719
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3914
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3914
     expected_two_party_share_v2: 0.4011
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4011
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Norfolk (2001-2010)
 layout: district

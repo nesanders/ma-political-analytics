@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7721
     expected_two_party_share_v2: 0.7476
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7476
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4654
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4654
     expected_two_party_share_v2: 0.5969
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5969
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7653
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7653
     expected_two_party_share_v2: 0.598
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.598
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6258
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6258
     expected_two_party_share_v2: 0.6812
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6812
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.749
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.749
     expected_two_party_share_v2: 0.5894
+    war_resolved: 0.2266
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5894
+    war_model: core
+    war_factors: *id001
   - name: Thomas J. Dooley, III
     slug: thomas-j-dooley-iii
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.251
     expected_two_party_share_v2: 0.3272
+    war_resolved: -0.1432
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3272
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Suffolk & Middlesex District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4193
     expected_two_party_share_v2: 0.5592
+    war_resolved: -0.0408
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5592
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5807
     expected_two_party_share_v2: 0.501
+    war_resolved: -0.0194
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.501
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5428
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5428
     expected_two_party_share_v2: 0.6242
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6242
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.52
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.52
     expected_two_party_share_v2: 0.6147
+    war_resolved: 0.0053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6147
+    war_model: core
+    war_factors: *id001
   - name: Evan James O'Reilly
     slug: evan-james-oreilly
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.48
     expected_two_party_share_v2: 0.448
+    war_resolved: -0.068
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.448
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5273
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5273
     expected_two_party_share_v2: 0.6289
+    war_resolved: 0.0042
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6289
+    war_model: core
+    war_factors: *id001
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4727
     expected_two_party_share_v2: 0.4442
+    war_resolved: -0.0773
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4442
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3645
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3645
     expected_two_party_share_v2: 0.3869
+    war_resolved: 0.2136
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3869
+    war_model: core
+    war_factors: *id001
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6355
     expected_two_party_share_v2: 0.5297
+    war_resolved: -0.1302
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5297
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Essex (2001-2010)
 layout: district

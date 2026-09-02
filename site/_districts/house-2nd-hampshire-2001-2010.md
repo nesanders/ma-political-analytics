@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6139
     expected_two_party_share_v2: 0.6619
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6619
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6847
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6847
     expected_two_party_share_v2: 0.6991
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6991
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6712
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6712
     expected_two_party_share_v2: 0.6945
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6945
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6565
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6565
     expected_two_party_share_v2: 0.6971
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6971
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5892
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5892
     expected_two_party_share_v2: 0.5054
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5054
+    war_model: core
+    war_factors: *id001
   - name: Max Pappas
     slug: max-pappas
     party: Other
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Sue Bartone
     slug: sue-bartone
     party: null
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 2nd Hampshire (2001-2010)
 layout: district

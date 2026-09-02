@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.8204
     expected_two_party_share_v2: 0.7709
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7709
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8613
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8613
     expected_two_party_share_v2: 0.7923
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7923
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.828
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.828
     expected_two_party_share_v2: 0.7772
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7772
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8421
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.8421
     expected_two_party_share_v2: 0.795
+    war_resolved: 0.0728
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.795
+    war_model: core
+    war_factors: *id001
   - name: David R. Slavitt
     slug: david-r-slavitt
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.1579
     expected_two_party_share_v2: 0.2781
+    war_resolved: -0.1459
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2781
+    war_model: core
+    war_factors: *id001
   - name: Avi E. Green
     slug: avi-e-green
     party: Other
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.7138
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.7138
     expected_two_party_share_v2: 0.5712
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5712
+    war_model: core
+    war_factors: *id001
   - name: Paul E. Lachelier
     slug: paul-e-lachelier
     party: null
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 26th Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4166
     expected_two_party_share_v2: 0.5578
+    war_resolved: -0.0433
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5578
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Daniel C. Bennett
     slug: daniel-c-bennett
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5834
     expected_two_party_share_v2: 0.5024
+    war_resolved: -0.0169
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5024
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5489
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5489
     expected_two_party_share_v2: 0.6274
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6274
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5055
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5055
     expected_two_party_share_v2: 0.607
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.607
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5417
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5417
     expected_two_party_share_v2: 0.6365
+    war_resolved: -0.0586
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6365
+    war_model: core
+    war_factors: *id001
   - name: Judith F. Judson
     slug: judith-f-judson
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4583
     expected_two_party_share_v2: 0.4366
+    war_resolved: -0.0145
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4366
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3622
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3622
     expected_two_party_share_v2: 0.3856
+    war_resolved: 0.1475
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3856
+    war_model: core
+    war_factors: *id001
   - name: Stephen S. Clark
     slug: stephen-s-clark
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6378
     expected_two_party_share_v2: 0.531
+    war_resolved: -0.0641
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.531
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Essex (2001-2010)
 layout: district

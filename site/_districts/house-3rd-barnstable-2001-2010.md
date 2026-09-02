@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5226
     expected_two_party_share_v2: 0.4703
+    war_resolved: 0.0692
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4703
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4774
     expected_two_party_share_v2: 0.5899
+    war_resolved: -0.1294
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5899
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5704
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5704
     expected_two_party_share_v2: 0.6387
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6387
+    war_model: core
+    war_factors: *id001
   - name: Carey M. Murphy
     slug: carey-m-murphy
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5242
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5242
     expected_two_party_share_v2: 0.6169
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6169
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5542
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5542
     expected_two_party_share_v2: 0.6431
+    war_resolved: -0.1095
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6431
+    war_model: core
+    war_factors: *id001
   - name: Larry F. Wheatley
     slug: larry-f-wheatley
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4458
     expected_two_party_share_v2: 0.43
+    war_resolved: 0.0364
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.43
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4169
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4169
     expected_two_party_share_v2: 0.4145
+    war_resolved: 0.086
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4145
+    war_model: core
+    war_factors: *id001
   - name: Larry F. Wheatley
     slug: larry-f-wheatley
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5831
     expected_two_party_share_v2: 0.5021
+    war_resolved: -0.0026
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5021
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Barnstable (2001-2010)
 layout: district

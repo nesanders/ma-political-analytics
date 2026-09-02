@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4459
     expected_two_party_share_v2: 0.5737
+    war_resolved: -0.0667
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5737
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Emmanuel J. Dockter
     slug: emmanuel-j-dockter
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5541
     expected_two_party_share_v2: 0.4865
+    war_resolved: 0.0065
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4865
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2017
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7984
     expected_two_party_share_v2: 0.7614
+    war_resolved: -0.244
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7614
+    war_model: core
+    war_factors: *id001
   - name: Alison M. Demong
     slug: alison-m-demong
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2016
     expected_two_party_share_v2: 0.3013
+    war_resolved: 0.1813
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3013
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5003
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4996
     expected_two_party_share_v2: 0.615
+    war_resolved: -0.1046
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.615
+    war_model: core
+    war_factors: *id001
   - name: Kara L. Nyman
     slug: kara-l-nyman
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5004
     expected_two_party_share_v2: 0.4581
+    war_resolved: 0.0315
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4581
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3441
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.656
     expected_two_party_share_v2: 0.5405
+    war_resolved: -0.039
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5405
+    war_model: core
+    war_factors: *id001
   - name: Rhonda L. Nyman
     slug: rhonda-l-nyman
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.344
     expected_two_party_share_v2: 0.5326
+    war_resolved: -0.0341
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5326
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4584
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4584
     expected_two_party_share_v2: 0.4361
+    war_resolved: 0.1426
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4361
+    war_model: core
+    war_factors: *id001
   - name: Korey M. Welch
     slug: korey-m-welch
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5416
     expected_two_party_share_v2: 0.4805
+    war_resolved: -0.0592
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4805
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Plymouth District (2012-2020)
 layout: district

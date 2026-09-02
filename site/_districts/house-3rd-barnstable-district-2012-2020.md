@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3926
     expected_two_party_share_v2: 0.5456
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5456
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2456
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7544
     expected_two_party_share_v2: 0.7358
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7358
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5541
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.446
     expected_two_party_share_v2: 0.5762
+    war_resolved: -0.0466
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5762
+    war_model: core
+    war_factors: *id001
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.554
     expected_two_party_share_v2: 0.4865
+    war_resolved: -0.0161
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4865
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.424
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.576
     expected_two_party_share_v2: 0.6549
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6549
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5259
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4741
     expected_two_party_share_v2: 0.4449
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4449
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Barnstable District (2012-2020)
 layout: district

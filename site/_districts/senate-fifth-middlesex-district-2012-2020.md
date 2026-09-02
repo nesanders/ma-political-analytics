@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6955
     expected_two_party_share_v2: 0.7047
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7047
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3233
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3232
     expected_two_party_share_v2: 0.5115
+    war_resolved: 0.1588
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5115
+    war_model: core
+    war_factors: *id001
   - name: Erin K. Calvo-Bacci
     slug: erin-k-calvo-bacci
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.6768
     expected_two_party_share_v2: 0.5512
+    war_resolved: -0.2215
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5512
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6539
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6539
     expected_two_party_share_v2: 0.6957
+    war_resolved: -0.0042
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6957
+    war_model: core
+    war_factors: *id001
   - name: Vincent Lawrence Dixon
     slug: vincent-lawrence-dixon
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3461
     expected_two_party_share_v2: 0.3774
+    war_resolved: -0.0689
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3774
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4801
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.48
     expected_two_party_share_v2: 0.4478
+    war_resolved: 0.1206
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4478
+    war_model: core
+    war_factors: *id001
   - name: Monica C. Medeiros
     slug: monica-c-medeiros-solano
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.52
     expected_two_party_share_v2: 0.4688
+    war_resolved: -0.0372
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4688
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5968
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5968
     expected_two_party_share_v2: 0.5091
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5091
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Fifth Middlesex District (2012-2020)
 layout: district

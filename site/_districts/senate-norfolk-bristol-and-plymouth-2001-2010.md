@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5153
     expected_two_party_share_v2: 0.6099
+    war_resolved: 0.0193
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6099
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert E. Burr, Jr.
     slug: robert-e-burr-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4847
     expected_two_party_share_v2: 0.4503
+    war_resolved: -0.0795
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4503
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5924
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5924
     expected_two_party_share_v2: 0.6504
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6504
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5895
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5895
     expected_two_party_share_v2: 0.6514
+    war_resolved: 0.1022
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6514
+    war_model: core
+    war_factors: *id001
   - name: James J. Aldred
     slug: james-j-aldred
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4105
     expected_two_party_share_v2: 0.4113
+    war_resolved: -0.1649
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4113
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6087
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6087
     expected_two_party_share_v2: 0.6719
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6719
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.45
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.45
     expected_two_party_share_v2: 0.432
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.432
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk, Bristol, and Plymouth (2001-2010)
 layout: district

@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5318
     war_v3_demographics: -0.0227
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0227
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5318
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   - name: Joseph Richard Pacheco
     slug: joseph-richard-pacheco
     party: Democratic
@@ -94,6 +103,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4585
     war_v3_demographics: 0.0324
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0324
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.4585
+    war_model: demographics_core
+    war_factors: *id001
   - name: James B. Dupont
     slug: james-b-dupont
     party: Other
@@ -131,6 +145,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5047
@@ -177,6 +196,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4848
     war_v3_demographics: 0.0581
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0581
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.4848
+    war_model: demographics_core
+    war_factors: *id001
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -214,6 +238,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5055
     war_v3_demographics: -0.0484
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0484
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5055
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 88523

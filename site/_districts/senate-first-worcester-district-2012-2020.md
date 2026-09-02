@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6617
     expected_two_party_share_v2: 0.6868
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6868
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3161
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3161
     expected_two_party_share_v2: 0.5052
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5052
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6489
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6489
     expected_two_party_share_v2: 0.6826
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6826
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.471
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.471
     expected_two_party_share_v2: 0.5995
+    war_resolved: 0.0032
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5995
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Franco
     slug: paul-j-franco
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.529
     expected_two_party_share_v2: 0.4736
+    war_resolved: -0.0763
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4736
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6187
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6187
     expected_two_party_share_v2: 0.5207
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5207
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Worcester District (2012-2020)
 layout: district

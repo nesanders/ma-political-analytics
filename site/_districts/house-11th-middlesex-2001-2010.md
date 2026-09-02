@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6924
     expected_two_party_share_v2: 0.7033
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7033
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.764
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.764
     expected_two_party_share_v2: 0.7409
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7409
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7474
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7474
     expected_two_party_share_v2: 0.7347
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7347
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7613
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7613
     expected_two_party_share_v2: 0.7524
+    war_resolved: -0.0193
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7524
+    war_model: core
+    war_factors: *id001
   - name: Greer Tan Swiston
     slug: greer-tan-swiston
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2387
     expected_two_party_share_v2: 0.3207
+    war_resolved: -0.0538
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3207
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5887
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5887
     expected_two_party_share_v2: 0.5052
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5052
+    war_model: core
+    war_factors: *id001
   - name: Danny Fain
     slug: danny-fain
     party: Libertarian
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 11th Middlesex (2001-2010)
 layout: district

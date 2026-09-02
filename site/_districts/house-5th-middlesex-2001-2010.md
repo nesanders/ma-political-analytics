@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5123
     expected_two_party_share_v2: 0.6083
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6083
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6298
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6298
     expected_two_party_share_v2: 0.6701
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6701
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5927
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.6531
+    war_resolved: 0.0016
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6531
+    war_model: core
+    war_factors: *id001
   - name: William W. Whittlesey
     slug: william-w-whittlesey
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4096
+    war_resolved: -0.0643
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4096
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6183
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6183
     expected_two_party_share_v2: 0.6769
+    war_resolved: 0.0067
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6769
+    war_model: core
+    war_factors: *id001
   - name: John Warren Lambert
     slug: john-w-lambert
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3817
     expected_two_party_share_v2: 0.3962
+    war_resolved: -0.0798
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3962
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4141
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4141
     expected_two_party_share_v2: 0.413
+    war_resolved: 0.2265
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.413
+    war_model: core
+    war_factors: *id001
   - name: Michael P. Cashman
     slug: michael-p-cashman
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5859
     expected_two_party_share_v2: 0.5036
+    war_resolved: -0.1431
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5036
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Middlesex (2001-2010)
 layout: district

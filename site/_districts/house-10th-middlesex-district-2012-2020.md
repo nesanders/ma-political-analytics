@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7613
     expected_two_party_share_v2: 0.7394
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7394
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4237
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4237
     expected_two_party_share_v2: 0.562
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.562
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7365
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7365
     expected_two_party_share_v2: 0.7289
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7289
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5729
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5729
     expected_two_party_share_v2: 0.6533
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6533
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6795
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6796
     expected_two_party_share_v2: 0.5528
+    war_resolved: 0.2072
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5528
+    war_model: core
+    war_factors: *id001
   - name: Francis Xavier Stanton, III
     slug: francis-xavier-stanton-iii
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3204
     expected_two_party_share_v2: 0.3638
+    war_resolved: -0.1238
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3638
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Middlesex District (2012-2020)
 layout: district

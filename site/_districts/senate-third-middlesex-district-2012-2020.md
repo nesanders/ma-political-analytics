@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7418
     expected_two_party_share_v2: 0.7291
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7291
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.338
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.338
     expected_two_party_share_v2: 0.5168
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5168
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7084
     expected_two_party_share_v2: 0.714
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.714
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4911
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4911
     expected_two_party_share_v2: 0.6101
+    war_resolved: -0.0177
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6101
+    war_model: core
+    war_factors: *id001
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.463
+    war_resolved: -0.0554
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.463
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6049
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6049
     expected_two_party_share_v2: 0.5134
+    war_resolved: 0.0926
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5134
+    war_model: core
+    war_factors: *id001
   - name: Sandi Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3951
     expected_two_party_share_v2: 0.4032
+    war_resolved: -0.0092
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4032
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Third Middlesex District (2012-2020)
 layout: district

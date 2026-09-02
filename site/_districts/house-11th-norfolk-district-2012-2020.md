@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6733
     expected_two_party_share_v2: 0.693
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.693
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2782
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2782
     expected_two_party_share_v2: 0.4852
+    war_resolved: 0.1853
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4852
+    war_model: core
+    war_factors: *id001
   - name: John G. Mcdonald
     slug: john-g-mcdonald
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7218
     expected_two_party_share_v2: 0.575
+    war_resolved: -0.2455
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.575
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6261
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6261
     expected_two_party_share_v2: 0.6706
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6706
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4075
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4075
     expected_two_party_share_v2: 0.566
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.566
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5324
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5324
     expected_two_party_share_v2: 0.4751
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4751
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 11th Norfolk District (2012-2020)
 layout: district

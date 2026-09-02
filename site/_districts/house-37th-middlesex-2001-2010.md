@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4911
     expected_two_party_share_v2: 0.61
+    war_resolved: -0.062
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.61
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kurt Hayes
     slug: kurt-hayes
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.4631
+    war_resolved: -0.0111
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4631
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5912
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5912
     expected_two_party_share_v2: 0.5061
+    war_resolved: 0.0519
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5061
+    war_model: core
+    war_factors: *id001
   - name: Kurt Hayes
     slug: kurt-hayes
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4088
     expected_two_party_share_v2: 0.4105
+    war_resolved: 0.0315
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4105
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5716
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5717
     expected_two_party_share_v2: 0.6419
+    war_resolved: 0.0003
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6419
+    war_model: core
+    war_factors: *id001
   - name: Kevin C. Hayes, Sr.
     slug: kevin-c-hayes-sr
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4283
     expected_two_party_share_v2: 0.4208
+    war_resolved: -0.063
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4208
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5833
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5833
     expected_two_party_share_v2: 0.6585
+    war_resolved: -0.0236
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6585
+    war_model: core
+    war_factors: *id001
   - name: Thomas J. Dyer
     slug: thomas-j-dyer
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4167
     expected_two_party_share_v2: 0.4146
+    war_resolved: -0.0495
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4146
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3933
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3933
     expected_two_party_share_v2: 0.4021
+    war_resolved: 0.1187
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4021
+    war_model: core
+    war_factors: *id001
   - name: Todd D. Fenniman
     slug: todd-d-fenniman
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6067
     expected_two_party_share_v2: 0.5145
+    war_resolved: -0.0353
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5145
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 37th Middlesex (2001-2010)
 layout: district

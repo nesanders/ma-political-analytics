@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6567
     expected_two_party_share_v2: 0.6867
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6867
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Leah Christine Mercurio
     slug: leah-christine-mercurio
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2903
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2903
     expected_two_party_share_v2: 0.5045
+    war_resolved: 0.1166
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5045
+    war_model: core
+    war_factors: *id001
   - name: John G. Flores
     slug: john-g-flores
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7097
     expected_two_party_share_v2: 0.5686
+    war_resolved: -0.1897
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5686
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6086
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6085
     expected_two_party_share_v2: 0.5153
+    war_resolved: 0.0541
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5153
+    war_model: core
+    war_factors: *id001
   - name: Anthony E. Schiavi
     slug: anthony-e-schiavi
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3915
     expected_two_party_share_v2: 0.4013
+    war_resolved: 0.0293
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4013
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4731
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4732
     expected_two_party_share_v2: 0.6006
+    war_resolved: 0.0267
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6006
+    war_model: core
+    war_factors: *id001
   - name: Ronald R. Beaty, Jr.
     slug: ronald-r-beaty-jr
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5268
     expected_two_party_share_v2: 0.4725
+    war_resolved: -0.0998
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4725
+    war_model: core
+    war_factors: *id001
   - name: Allen R. Waters
     slug: allen-r-waters
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5724
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5724
     expected_two_party_share_v2: 0.4962
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4962
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Cape & Islands District (2012-2020)
 layout: district

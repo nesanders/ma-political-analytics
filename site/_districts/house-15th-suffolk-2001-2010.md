@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.755
     expected_two_party_share_v2: 0.7364
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7364
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8102
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8102
     expected_two_party_share_v2: 0.7653
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7653
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7818
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7818
     expected_two_party_share_v2: 0.7528
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7528
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.79
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.79
     expected_two_party_share_v2: 0.7675
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7675
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6562
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6562
     expected_two_party_share_v2: 0.5408
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5408
+    war_model: core
+    war_factors: *id001
   - name: George A. Chidi, Jr.
     slug: george-a-chidi-jr
     party: Other
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: John H. Clifford
     slug: john-h-clifford
     party: Independent
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 15th Suffolk (2001-2010)
 layout: district

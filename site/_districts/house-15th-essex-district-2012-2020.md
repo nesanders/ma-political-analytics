@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5697
     expected_two_party_share_v2: 0.6383
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6383
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2526
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2526
     expected_two_party_share_v2: 0.4717
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4717
+    war_model: core
+    war_factors: *id001
   - name: Anand Gonsalves
     slug: anand-gonsalves
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5376
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5376
     expected_two_party_share_v2: 0.6239
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6239
+    war_model: core
+    war_factors: *id001
   - name: Nicholas S. Torresi
     slug: nicholas-s-torresi
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4018
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4018
     expected_two_party_share_v2: 0.563
+    war_resolved: 0.0107
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.563
+    war_model: core
+    war_factors: *id001
   - name: Al DiNuccio
     slug: al-dinuccio
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5982
     expected_two_party_share_v2: 0.5101
+    war_resolved: -0.0838
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5101
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5293
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5293
     expected_two_party_share_v2: 0.4735
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4735
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 15th Essex District (2012-2020)
 layout: district

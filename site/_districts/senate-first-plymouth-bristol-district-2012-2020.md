@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5303
     expected_two_party_share_v2: 0.6175
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6175
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2371
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2371
     expected_two_party_share_v2: 0.4636
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4636
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4935
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4935
     expected_two_party_share_v2: 0.6006
+    war_resolved: 0.0529
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6006
+    war_model: core
+    war_factors: *id001
   - name: Sandra M. Wright
     slug: sandra-m-wright
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5065
     expected_two_party_share_v2: 0.4621
+    war_resolved: -0.1156
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4621
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4034
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4034
     expected_two_party_share_v2: 0.5638
+    war_resolved: 0.0461
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5638
+    war_model: core
+    war_factors: *id001
   - name: David A. Rosa
     slug: david-a-rosa
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5966
     expected_two_party_share_v2: 0.5093
+    war_resolved: -0.1192
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5093
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5284
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5284
     expected_two_party_share_v2: 0.473
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.473
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Plymouth & Bristol District (2012-2020)
 layout: district

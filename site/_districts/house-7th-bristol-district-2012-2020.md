@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5626
     expected_two_party_share_v2: 0.6345
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6345
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3381
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3381
     expected_two_party_share_v2: 0.5169
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5169
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6168
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6168
     expected_two_party_share_v2: 0.6657
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6657
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6144
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6144
     expected_two_party_share_v2: 0.6752
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6752
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7475
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7475
     expected_two_party_share_v2: 0.5886
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5886
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Bristol District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4638
     expected_two_party_share_v2: 0.4391
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4391
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Paul Dan Clifford
     slug: paul-dan-clifford
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5311
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5311
     expected_two_party_share_v2: 0.6205
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6205
+    war_model: core
+    war_factors: *id001
   - name: Richard A. Moran
     slug: richard-a-moran
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5214
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5214
     expected_two_party_share_v2: 0.6258
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6258
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5805
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5805
     expected_two_party_share_v2: 0.5005
+    war_resolved: 0.2185
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5005
+    war_model: core
+    war_factors: *id001
   - name: Charles C. Kokoros
     slug: charles-c-kokoros
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4195
     expected_two_party_share_v2: 0.4161
+    war_resolved: -0.1351
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4161
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4414
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4414
     expected_two_party_share_v2: 0.4274
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4274
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Norfolk (2001-2010)
 layout: district

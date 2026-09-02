@@ -43,6 +43,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -83,6 +88,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -123,6 +133,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -163,6 +178,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -203,6 +223,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -243,6 +268,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 ocpf_finance:
   cpf_ids:
   - 14427

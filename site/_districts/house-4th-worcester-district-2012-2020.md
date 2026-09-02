@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5896
     expected_two_party_share_v2: 0.6513
+    war_resolved: -0.066
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6513
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4104
     expected_two_party_share_v2: 0.4114
+    war_resolved: 0.0033
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4114
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2396
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2396
     expected_two_party_share_v2: 0.4778
+    war_resolved: 0.0849
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4778
+    war_model: core
+    war_factors: *id001
   - name: Richard E. Palmieri
     slug: richard-e-palmieri
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7604
     expected_two_party_share_v2: 0.5953
+    war_resolved: -0.158
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5953
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5455
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5455
     expected_two_party_share_v2: 0.482
+    war_resolved: 0.07
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.482
+    war_model: core
+    war_factors: *id001
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4545
     expected_two_party_share_v2: 0.4346
+    war_resolved: 0.0134
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4346
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4019
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4019
     expected_two_party_share_v2: 0.5631
+    war_resolved: -0.0127
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5631
+    war_model: core
+    war_factors: *id001
   - name: Jacques A. Perrault
     slug: jacques-a-perrault
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5981
     expected_two_party_share_v2: 0.51
+    war_resolved: -0.0604
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.51
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5338
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5337
     expected_two_party_share_v2: 0.4759
+    war_resolved: 0.096
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4759
+    war_model: core
+    war_factors: *id001
   - name: Justin A. Brooks
     slug: justin-a-brooks
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4663
     expected_two_party_share_v2: 0.4407
+    war_resolved: -0.0126
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4407
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Worcester District (2012-2020)
 layout: district

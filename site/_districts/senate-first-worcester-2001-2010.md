@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.6253
+    war_resolved: -0.003
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6253
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: William J. Higgins, Sr
     slug: william-j-higgins-sr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4555
     expected_two_party_share_v2: 0.4349
+    war_resolved: -0.0572
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4349
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6204
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6204
     expected_two_party_share_v2: 0.6651
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6651
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6526
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6526
     expected_two_party_share_v2: 0.6847
+    war_resolved: 0.0455
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6847
+    war_model: core
+    war_factors: *id001
   - name: Paul E. Nordborg
     slug: paul-e-nordborg
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3474
     expected_two_party_share_v2: 0.378
+    war_resolved: -0.1082
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.378
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.614
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6139
     expected_two_party_share_v2: 0.6747
+    war_resolved: -0.0075
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6747
+    war_model: core
+    war_factors: *id001
   - name: Stephen N. Paige
     slug: stephen-n-paige
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3861
     expected_two_party_share_v2: 0.3984
+    war_resolved: -0.0656
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3984
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4595
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4595
     expected_two_party_share_v2: 0.437
+    war_resolved: 0.178
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.437
+    war_model: core
+    war_factors: *id001
   - name: Robert E. Amorello
     slug: robert-e-amorello
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5405
     expected_two_party_share_v2: 0.4796
+    war_resolved: -0.0946
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4796
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Worcester (2001-2010)
 layout: district

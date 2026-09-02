@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6844
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6214
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1669
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5147
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6351
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.145
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5211
+  war_model: core
+  war_factors: *id001
 title: Kenneth J. Donnelly
 layout: candidate
 ---

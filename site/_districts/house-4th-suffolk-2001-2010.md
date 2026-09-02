@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7533
     expected_two_party_share_v2: 0.5919
+    war_resolved: 0.1415
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5919
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Patrick James Brennan
     slug: patrick-james-brennan
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.2467
     expected_two_party_share_v2: 0.3247
+    war_resolved: -0.0581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3247
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.8033
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8033
     expected_two_party_share_v2: 0.7616
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7616
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7748
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7748
     expected_two_party_share_v2: 0.7492
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7492
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7833
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7833
     expected_two_party_share_v2: 0.764
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.764
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6542
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6542
     expected_two_party_share_v2: 0.5397
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5397
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Suffolk (2001-2010)
 layout: district

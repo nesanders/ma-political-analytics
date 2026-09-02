@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4314
     expected_two_party_share_v2: 0.4225
+    war_resolved: 0.0989
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4225
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James J. Dever
     slug: james-j-dever
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5686
     expected_two_party_share_v2: 0.4941
+    war_resolved: -0.0155
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4941
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2293
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7707
     expected_two_party_share_v2: 0.7444
+    war_resolved: -0.1724
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7444
+    war_model: core
+    war_factors: *id001
   - name: Jack Stanton
     slug: jack-stanton
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2293
     expected_two_party_share_v2: 0.3158
+    war_resolved: 0.1122
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3158
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5124
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4876
     expected_two_party_share_v2: 0.5982
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5982
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3815
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6185
     expected_two_party_share_v2: 0.6773
+    war_resolved: -0.0499
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6773
+    war_model: core
+    war_factors: *id001
   - name: Matthew M. Terry
     slug: matthew-m-terry
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3815
     expected_two_party_share_v2: 0.3958
+    war_resolved: -0.0232
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3958
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4863
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5137
     expected_two_party_share_v2: 0.4658
+    war_resolved: 0.0957
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4658
+    war_model: core
+    war_factors: *id001
   - name: R. Patrick Ellis
     slug: r-patrick-ellis
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4863
     expected_two_party_share_v2: 0.4508
+    war_resolved: -0.0123
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4508
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Barnstable District (2012-2020)
 layout: district

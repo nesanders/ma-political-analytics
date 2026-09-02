@@ -43,6 +43,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 ocpf_finance:
   cpf_ids:
   - 14274

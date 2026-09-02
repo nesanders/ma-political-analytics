@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5847
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5847
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.6144
@@ -103,6 +112,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5895
     war_v3_demographics: 0.0718
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0718
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5895
+    war_model: demographics_core
+    war_factors: *id001
   - name: Brian R. Muello
     slug: brian-r-muello
     party: Republican
@@ -140,6 +154,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3966
     war_v3_demographics: -0.0579
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0579
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.3966
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 116202

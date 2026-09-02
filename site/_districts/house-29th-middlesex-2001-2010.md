@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7485
     expected_two_party_share_v2: 0.7459
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7459
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8052
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8052
     expected_two_party_share_v2: 0.6191
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6191
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7681
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7681
     expected_two_party_share_v2: 0.7456
+    war_resolved: -0.0074
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7456
+    war_model: core
+    war_factors: *id001
   - name: Keith Allan Mercurio
     slug: keith-allan-mercurio
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.2319
     expected_two_party_share_v2: 0.3171
+    war_resolved: -0.0553
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3171
+    war_model: core
+    war_factors: *id001
   - name: Thomas A. Geary, Jr.
     slug: thomas-a-geary-jr
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7872
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7872
     expected_two_party_share_v2: 0.7661
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7661
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6413
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6413
     expected_two_party_share_v2: 0.5329
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5329
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 29th Middlesex (2001-2010)
 layout: district

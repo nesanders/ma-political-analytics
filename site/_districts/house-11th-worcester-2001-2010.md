@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5349
     expected_two_party_share_v2: 0.4767
+    war_resolved: 0.1313
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4767
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kevin T. Byrne
     slug: kevin-t-byrne
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4651
     expected_two_party_share_v2: 0.4399
+    war_resolved: -0.0479
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4399
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5827
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4173
     expected_two_party_share_v2: 0.5586
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5586
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5729
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4271
     expected_two_party_share_v2: 0.5662
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5662
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5631
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4369
     expected_two_party_share_v2: 0.5818
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5818
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3608
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6392
     expected_two_party_share_v2: 0.5317
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5317
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 11th Worcester (2001-2010)
 layout: district

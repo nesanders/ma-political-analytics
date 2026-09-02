@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0045
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.7049
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5584
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.714
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5594
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7028
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6849
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5859
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -323,6 +361,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0359
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5767
+  war_model: core
+  war_factors: *id001
 title: Paul W. Mark
 layout: candidate
 ---

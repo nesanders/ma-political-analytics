@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5635
     expected_two_party_share_v2: 0.4917
+    war_resolved: 0.1299
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4917
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Derek A. Maksy
     slug: derek-a-maksy
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4365
     expected_two_party_share_v2: 0.4249
+    war_resolved: -0.0465
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4249
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6466
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6466
     expected_two_party_share_v2: 0.679
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.679
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6628
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6628
     expected_two_party_share_v2: 0.6901
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6901
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6749
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6749
     expected_two_party_share_v2: 0.7068
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7068
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5881
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5881
     expected_two_party_share_v2: 0.5048
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5048
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Bristol and Plymouth (2001-2010)
 layout: district

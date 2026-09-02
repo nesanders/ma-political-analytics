@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4989
     expected_two_party_share_v2: 0.6017
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6017
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2115
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7884
     expected_two_party_share_v2: 0.7538
+    war_resolved: -0.0809
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7538
+    war_model: core
+    war_factors: *id001
   - name: Tanya V. Neslusan
     slug: tanya-v-neslusan
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2116
     expected_two_party_share_v2: 0.3064
+    war_resolved: 0.0207
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3064
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4532
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5468
     expected_two_party_share_v2: 0.6294
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6294
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3722
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6278
     expected_two_party_share_v2: 0.6822
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6822
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5229
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4771
     expected_two_party_share_v2: 0.4465
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4465
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Hampden District (2012-2020)
 layout: district

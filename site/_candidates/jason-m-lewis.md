@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7002
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0845
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5516
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7047
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1588
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5115
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0042
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6957
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1206
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4478
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1134
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.485
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -323,6 +361,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0005
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5976
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -363,6 +406,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1767
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5017
+  war_model: core
+  war_factors: *id001
 title: Jason M. Lewis
 layout: candidate
 ---

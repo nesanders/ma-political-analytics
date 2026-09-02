@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5811
     expected_two_party_share_v2: 0.5008
+    war_resolved: 0.0795
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5008
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kelly A. Dooner
     slug: kelly-a-dooner
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4189
     expected_two_party_share_v2: 0.4158
+    war_resolved: 0.0039
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4158
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2749
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7251
     expected_two_party_share_v2: 0.7203
+    war_resolved: -0.1052
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7203
+    war_model: core
+    war_factors: *id001
   - name: Emily Jm Farrer
     slug: emily-jm-farrer
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2749
     expected_two_party_share_v2: 0.3399
+    war_resolved: 0.045
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3399
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.554
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.446
     expected_two_party_share_v2: 0.5762
+    war_resolved: 0.0103
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5762
+    war_model: core
+    war_factors: *id001
   - name: Estele C. Borges
     slug: estele-c-borges
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.554
     expected_two_party_share_v2: 0.4865
+    war_resolved: -0.073
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4865
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4637
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5363
     expected_two_party_share_v2: 0.6339
+    war_resolved: -0.0205
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6339
+    war_model: core
+    war_factors: *id001
   - name: Keavin P. Duffy, Jr
     slug: keavin-p-duffy-jr
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4637
     expected_two_party_share_v2: 0.4392
+    war_resolved: -0.0526
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4392
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5822
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4177
     expected_two_party_share_v2: 0.4152
+    war_resolved: 0.1494
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4152
+    war_model: core
+    war_factors: *id001
   - name: Sherry Costa-Hanlon
     slug: sherry-costa-hanlon
     party: Democratic
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5823
     expected_two_party_share_v2: 0.5014
+    war_resolved: -0.066
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5014
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Bristol District (2012-2020)
 layout: district

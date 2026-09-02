@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5957
     expected_two_party_share_v2: 0.6649
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6649
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2927
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2927
     expected_two_party_share_v2: 0.3493
+    war_resolved: 0.2342
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3493
+    war_model: core
+    war_factors: *id001
   - name: Julie A. Hall
     slug: julie-a-hall
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7073
     expected_two_party_share_v2: 0.5673
+    war_resolved: -0.1508
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5673
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.551
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.551
     expected_two_party_share_v2: 0.631
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.631
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4268
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4268
     expected_two_party_share_v2: 0.5762
+    war_resolved: 0.035
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5762
+    war_model: core
+    war_factors: *id001
   - name: Bert J. Buckley
     slug: bert-j-buckley
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5732
     expected_two_party_share_v2: 0.4969
+    war_resolved: -0.1081
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4969
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5536
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5536
     expected_two_party_share_v2: 0.4863
+    war_resolved: 0.0958
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4863
+    war_model: core
+    war_factors: *id001
   - name: George T. Ross
     slug: george-t-ross
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4464
     expected_two_party_share_v2: 0.4303
+    war_resolved: -0.0124
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4303
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Bristol District (2012-2020)
 layout: district

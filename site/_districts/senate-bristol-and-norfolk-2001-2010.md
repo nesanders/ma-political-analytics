@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4117
     expected_two_party_share_v2: 0.5552
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5552
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5429
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5429
     expected_two_party_share_v2: 0.6267
+    war_resolved: 0.0189
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6267
+    war_model: core
+    war_factors: *id001
   - name: Jon W. Rockwood, Sr.
     slug: jon-w-rockwood-sr
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4571
     expected_two_party_share_v2: 0.436
+    war_resolved: -0.0816
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.436
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5154
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5154
     expected_two_party_share_v2: 0.6227
+    war_resolved: -0.018
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6227
+    war_model: core
+    war_factors: *id001
   - name: Michael L. Atwill
     slug: michael-l-atwill
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4846
     expected_two_party_share_v2: 0.4504
+    war_resolved: -0.0551
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4504
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5471
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5471
     expected_two_party_share_v2: 0.4829
+    war_resolved: 0.0843
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4829
+    war_model: core
+    war_factors: *id001
   - name: David W. McCarter
     slug: david-w-mccarter
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4529
     expected_two_party_share_v2: 0.4337
+    war_resolved: -0.0009
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4337
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3646
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6354
     expected_two_party_share_v2: 0.5297
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5297
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Bristol and Norfolk (2001-2010)
 layout: district

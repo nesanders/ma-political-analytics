@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5539
     expected_two_party_share_v2: 0.4867
+    war_resolved: 0.1227
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4867
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert A. Magovern
     slug: robert-a-magovern
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4461
     expected_two_party_share_v2: 0.4299
+    war_resolved: -0.0393
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4299
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6448
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6448
     expected_two_party_share_v2: 0.6805
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6805
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6211
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6211
     expected_two_party_share_v2: 0.6784
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6784
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6297
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6297
     expected_two_party_share_v2: 0.5264
+    war_resolved: 0.2115
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5264
+    war_model: core
+    war_factors: *id001
   - name: Travis W. Chaput
     slug: travis-w-chaput
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3703
     expected_two_party_share_v2: 0.3902
+    war_resolved: -0.1281
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3902
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4969
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4969
     expected_two_party_share_v2: 0.4567
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4567
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Hampden (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5929
     expected_two_party_share_v2: 0.5069
+    war_resolved: 0.0376
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5069
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: John D. Simmons
     slug: john-d-simmons
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4071
     expected_two_party_share_v2: 0.4097
+    war_resolved: 0.0458
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4097
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.246
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.754
     expected_two_party_share_v2: 0.7355
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7355
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5299
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4701
     expected_two_party_share_v2: 0.589
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.589
+    war_model: core
+    war_factors: *id001
   - name: Scott P. Dubuc
     slug: scott-p-dubuc
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3558
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6442
     expected_two_party_share_v2: 0.6909
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6909
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.49
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.51
     expected_two_party_share_v2: 0.4638
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4638
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Bristol District (2012-2020)
 layout: district

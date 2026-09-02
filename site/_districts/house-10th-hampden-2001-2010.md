@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7148
     expected_two_party_share_v2: 0.7152
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7152
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7759
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7759
     expected_two_party_share_v2: 0.7472
+    war_resolved: 0.1055
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7472
+    war_model: core
+    war_factors: *id001
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.2241
     expected_two_party_share_v2: 0.313
+    war_resolved: -0.1657
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.313
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7399
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7399
     expected_two_party_share_v2: 0.7307
+    war_resolved: 0.1102
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7307
+    war_model: core
+    war_factors: *id001
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.2601
     expected_two_party_share_v2: 0.332
+    war_resolved: -0.1729
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.332
+    war_model: core
+    war_factors: *id001
   - name: Kyle A. Burns
     slug: kyle-a-burns
     party: Other
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7196
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7196
     expected_two_party_share_v2: 0.7304
+    war_resolved: -0.014
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7304
+    war_model: core
+    war_factors: *id001
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2804
     expected_two_party_share_v2: 0.3427
+    war_resolved: -0.0591
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3427
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6053
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6053
     expected_two_party_share_v2: 0.5139
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5139
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Hampden (2001-2010)
 layout: district

@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0241
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4064
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0408
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4034
+  war_model: core
+  war_factors: *id001
 title: Charles F. Bailey, III
 layout: candidate
 ---

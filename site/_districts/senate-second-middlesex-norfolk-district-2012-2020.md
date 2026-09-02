@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.717
     expected_two_party_share_v2: 0.716
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.716
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.299
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.299
     expected_two_party_share_v2: 0.4962
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4962
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6839
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6839
     expected_two_party_share_v2: 0.7011
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7011
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4633
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4633
     expected_two_party_share_v2: 0.5955
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5955
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5946
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5946
     expected_two_party_share_v2: 0.5079
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5079
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Middlesex & Norfolk District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6341
     expected_two_party_share_v2: 0.6723
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6723
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2999
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2999
     expected_two_party_share_v2: 0.4967
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4967
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5961
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5961
     expected_two_party_share_v2: 0.6548
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6548
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4762
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4761
     expected_two_party_share_v2: 0.6023
+    war_resolved: 0.1153
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6023
+    war_model: core
+    war_factors: *id001
   - name: Paul A. Caruccio
     slug: paul-a-caruccio
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5239
     expected_two_party_share_v2: 0.4708
+    war_resolved: -0.1884
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4708
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6186
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6187
     expected_two_party_share_v2: 0.5206
+    war_resolved: 0.2557
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5206
+    war_model: core
+    war_factors: *id001
   - name: Paul A. Caruccio
     slug: paul-a-caruccio
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3813
     expected_two_party_share_v2: 0.396
+    war_resolved: -0.1723
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.396
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 19th Suffolk District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5785
     expected_two_party_share_v2: 0.6432
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6432
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: K.c. Winslow
     slug: kc-winslow
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6748
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6748
     expected_two_party_share_v2: 0.6938
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6938
+    war_model: core
+    war_factors: *id001
   - name: Richard P. McClure
     slug: richard-p-mcclure
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6249
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6249
     expected_two_party_share_v2: 0.6701
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6701
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.646
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.646
     expected_two_party_share_v2: 0.6916
+    war_resolved: -0.0902
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6916
+    war_model: core
+    war_factors: *id001
   - name: Douglas G. A. Stevenson
     slug: douglas-g-a-stevenson
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.354
     expected_two_party_share_v2: 0.3815
+    war_resolved: 0.0171
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3815
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4429
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4429
     expected_two_party_share_v2: 0.4282
+    war_resolved: 0.164
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4282
+    war_model: core
+    war_factors: *id001
   - name: Peter J. Unitt, III
     slug: peter-j-unitt-iii
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5571
     expected_two_party_share_v2: 0.4884
+    war_resolved: -0.0806
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4884
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Middlesex (2001-2010)
 layout: district

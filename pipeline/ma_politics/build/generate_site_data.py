@@ -1043,6 +1043,94 @@ def apply_war_v3_finance(candidate_records: list[dict], finance_by_slug: dict, f
             )
 
 
+_WAR_FACTOR_LABELS = {
+    "core": ["District lean", "Statewide tide", "Incumbency"],
+    "demographics_core": ["District lean", "Statewide tide", "Incumbency", "District demographics (bachelor's degree %)"],
+    "demographics_full": [
+        "District lean", "Statewide tide", "Incumbency",
+        "District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, median income)",
+    ],
+    "finance": ["District lean", "Statewide tide", "Incumbency", "Campaign fundraising"],
+}
+
+
+def apply_resolved_war_district(district_records_by_vintage: dict[str, list[dict]]) -> None:
+    """The single, user-facing WAR number this site now shows on district,
+    seat, chamber, and party pages, instead of separate v1/v2/v3 columns:
+    always the richest model this specific district's own Census match
+    supports (the full demographics tier, else the bachelors_pct-only core
+    demographics tier, else the plain core regression) — never the raw v1
+    baseline (kept internally as `war` for other computations —
+    is_incumbent, open-seat detection, etc. — but no longer surfaced to
+    readers, since it's mechanically inflated for uncontested races and
+    superseded by v2 everywhere it has data to be). Must run after
+    apply_war_v2 and apply_war_v3_demographics, and before any of this
+    vintage's district/seat files are written — those write functions
+    serialize these same dicts immediately, not lazily, so mutating them
+    afterward would never reach the files.
+
+    `war_factors` is a plain-language list of what actually went into that
+    specific number (no "v2"/"v3"/"core"/"full" jargon), attached to the
+    WAR figure itself so a reader can see, right where they see the
+    number, whether it reflects local demographics or not, without needing
+    to trace which internal model tier produced it. See
+    apply_resolved_war_candidate for the equivalent on candidate pages."""
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for entry in d["results_by_year"]:
+                for c in entry["candidates"]:
+                    tier = c.get("demographics_tier")
+                    if c["war"] is None:
+                        c.update(war_resolved=None, war_resolved_sd=None, expected_share_resolved=None, war_model=None, war_factors=None)
+                        continue
+                    if tier in ("full", "core"):
+                        war_model = "demographics_full" if tier == "full" else "demographics_core"
+                        war_resolved, war_resolved_sd = c["war_v3_demographics"], c["war_v3_demographics_sd"]
+                        expected_share_resolved = c["expected_two_party_share_v3_demographics"]
+                    else:
+                        war_model = "core"
+                        war_resolved, war_resolved_sd = c.get("war_v2"), c.get("war_v2_sd")
+                        expected_share_resolved = c.get("expected_two_party_share_v2")
+                    c.update(
+                        war_resolved=war_resolved,
+                        war_resolved_sd=war_resolved_sd,
+                        expected_share_resolved=expected_share_resolved,
+                        war_model=war_model,
+                        war_factors=_WAR_FACTOR_LABELS[war_model],
+                    )
+
+
+def apply_resolved_war_candidate(candidate_records: list[dict]) -> None:
+    """Candidate-page counterpart to apply_resolved_war_district: resolves
+    to the finance-extended model for any specific race-year with a
+    matched OCPF total, falling back to the core model for the rest of
+    that same candidate's races — "prefer sophisticated, drop back only
+    where the data requires it," same direction as the district-level
+    resolution but keyed by year instead of by district. Must run after
+    apply_war_v2 and apply_war_v3_finance, and before write_candidate_files."""
+    for candidate in candidate_records:
+        for race in candidate["races"]:
+            if race.get("war") is None:
+                race.update(war_resolved=None, war_resolved_sd=None, expected_share_resolved=None, war_model=None, war_factors=None)
+                continue
+            has_finance = race.get("fundraising_component") is not None
+            if has_finance:
+                war_model = "finance"
+                war_resolved, war_resolved_sd = race["war_v3_finance"], race["war_v3_finance_sd"]
+                expected_share_resolved = race["expected_two_party_share_v3_finance"]
+            else:
+                war_model = "core"
+                war_resolved, war_resolved_sd = race.get("war_v2"), race.get("war_v2_sd")
+                expected_share_resolved = race.get("expected_two_party_share_v2")
+            race.update(
+                war_resolved=war_resolved,
+                war_resolved_sd=war_resolved_sd,
+                expected_share_resolved=expected_share_resolved,
+                war_model=war_model,
+                war_factors=_WAR_FACTOR_LABELS[war_model],
+            )
+
+
 def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> list[dict]:
     years = discover_years(chamber, vintage, derived_dir)
     if not years:
@@ -1381,7 +1469,8 @@ def build_party_records(seat_records: list[dict]) -> list[dict]:
                 "url": seat_url(seat["chamber"], seat["district_name"]),
                 "winner_name": winner["name"],
                 "winner_slug": winner["slug"],
-                "war": winner["war"],
+                "war_resolved": winner.get("war_resolved"),
+                "war_factors": winner.get("war_factors"),
             }
         )
 
@@ -1390,7 +1479,7 @@ def build_party_records(seat_records: list[dict]) -> list[dict]:
         # Highest WAR (biggest overperformance) first; null-WAR (uncontested
         # or minor-party winner) entries sort last, not scattered by the
         # coincidence of comparing None to a float.
-        seats_held_sorted = sorted(seats_held, key=lambda s: (s["war"] is None, -(s["war"] or 0)))
+        seats_held_sorted = sorted(seats_held, key=lambda s: (s["war_resolved"] is None, -(s["war_resolved"] or 0)))
         by_chamber = {}
         for s in seats_held:
             by_chamber[s["chamber"]] = by_chamber.get(s["chamber"], 0) + 1
@@ -1560,6 +1649,7 @@ def main(
         apply_war_v3_demographics(
             district_records_by_vintage, tide_by_year, current_vintage, war_v3_demographics_core_fit, war_v3_demographics_full_fit
         )
+    apply_resolved_war_district(district_records_by_vintage)
 
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)
@@ -1590,6 +1680,7 @@ def main(
             logger.warning("Not enough finance-matched races to fit the WAR v3 finance diagnostic")
     else:
         logger.warning("No OCPF data at %s — candidate pages will have no campaign-finance section", ocpf_dir)
+    apply_resolved_war_candidate(candidate_records)
     write_candidate_files(candidate_records, candidates_out_dir)
 
     town_records = build_town_records(chambers, current_vintage, crosswalks_dir, seat_records)

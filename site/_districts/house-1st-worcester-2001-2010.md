@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5929
     expected_two_party_share_v2: 0.5074
+    war_resolved: 0.1419
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5074
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kenneth John O'Brien
     slug: kenneth-john-obrien
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4071
     expected_two_party_share_v2: 0.4092
+    war_resolved: -0.0585
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4092
+    war_model: core
+    war_factors: *id001
   - name: Jonathan B. Long
     slug: jonathan-b-long
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5103
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4897
     expected_two_party_share_v2: 0.5968
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5968
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5298
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4702
     expected_two_party_share_v2: 0.5889
+    war_resolved: 0.0976
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5889
+    war_model: core
+    war_factors: *id001
   - name: Nate Kaplan
     slug: nate-kaplan
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5298
     expected_two_party_share_v2: 0.4738
+    war_resolved: -0.1603
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4738
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5059
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4941
     expected_two_party_share_v2: 0.612
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.612
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3381
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6618
     expected_two_party_share_v2: 0.5437
+    war_resolved: 0.0318
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5437
+    war_model: core
+    war_factors: *id001
   - name: David C. Bunker, Jr.
     slug: david-c-bunker-jr
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3382
     expected_two_party_share_v2: 0.3729
+    war_resolved: 0.0516
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3729
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Worcester (2001-2010)
 layout: district

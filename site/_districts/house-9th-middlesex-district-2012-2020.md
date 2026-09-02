@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.743
     expected_two_party_share_v2: 0.7297
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7297
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George A. Darcy, III
     slug: george-a-darcy-iii
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3909
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3909
     expected_two_party_share_v2: 0.5447
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5447
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7176
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7176
     expected_two_party_share_v2: 0.7189
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7189
+    war_model: core
+    war_factors: *id001
   - name: Stacey Gallagher M. Tully
     slug: stacey-gallagher-m-tully
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5449
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5449
     expected_two_party_share_v2: 0.6385
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6385
+    war_model: core
+    war_factors: *id001
   - name: Sharon K. Antia
     slug: sharon-k-antia
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6536
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6536
     expected_two_party_share_v2: 0.5391
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5391
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Middlesex District (2012-2020)
 layout: district

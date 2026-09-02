@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5944
     war_v3_demographics: 0.0492
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0492
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5944
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Lawrence Peter Novak
     slug: lawrence-peter-novak
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4155
     war_v3_demographics: -0.0591
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0591
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4155
+    war_model: demographics_full
+    war_factors: *id001
   - name: Jonathan Wilshire Gill
     slug: jonathan-wilshire-gill
     party: Other
@@ -131,6 +146,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5985
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5867
     war_v3_demographics: 0.0198
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0198
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5867
+    war_model: demographics_full
+    war_factors: *id001
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -214,6 +239,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4232
     war_v3_demographics: -0.0297
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0297
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4232
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 46300

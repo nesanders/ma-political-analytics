@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5314
     expected_two_party_share_v2: 0.6313
+    war_resolved: 0.0202
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6313
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Janet Anne Holmes
     slug: janet-anne-holmes
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4686
     expected_two_party_share_v2: 0.4418
+    war_resolved: -0.0933
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4418
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.649
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.649
     expected_two_party_share_v2: 0.5366
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5366
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5922
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5922
     expected_two_party_share_v2: 0.6528
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6528
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6317
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6317
     expected_two_party_share_v2: 0.684
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.684
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4566
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4566
     expected_two_party_share_v2: 0.4355
+    war_resolved: 0.3263
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4355
+    war_model: core
+    war_factors: *id001
   - name: Charles F. Choate
     slug: charles-f-choate
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5434
     expected_two_party_share_v2: 0.4811
+    war_resolved: -0.2429
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4811
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Essex (2001-2010)
 layout: district

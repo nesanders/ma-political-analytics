@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4534
     expected_two_party_share_v2: 0.5797
+    war_resolved: 0.0836
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5797
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Douglas R. Ness
     slug: douglas-r-ness
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5466
     expected_two_party_share_v2: 0.483
+    war_resolved: -0.1463
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.483
+    war_model: core
+    war_factors: *id001
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5437
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5437
     expected_two_party_share_v2: 0.6376
+    war_resolved: 0.1078
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6376
+    war_model: core
+    war_factors: *id001
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Republican
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4563
     expected_two_party_share_v2: 0.4355
+    war_resolved: -0.1809
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4355
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5346
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5346
     expected_two_party_share_v2: 0.4763
+    war_resolved: 0.2352
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4763
+    war_model: core
+    war_factors: *id001
   - name: Robert Montgomery Thomas
     slug: robert-montgomery-thomas
     party: Republican
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4654
     expected_two_party_share_v2: 0.4403
+    war_resolved: -0.1518
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4403
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5847
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5847
     expected_two_party_share_v2: 0.6592
+    war_resolved: 0.0191
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6592
+    war_model: core
+    war_factors: *id001
   - name: Douglas M. Veeder
     slug: douglas-m-veeder
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4153
     expected_two_party_share_v2: 0.4139
+    war_resolved: -0.0922
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4139
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4435
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4285
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4285
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Norfolk (2001-2010)
 layout: district

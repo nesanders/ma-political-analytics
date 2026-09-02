@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5007
     expected_two_party_share_v2: 0.4585
+    war_resolved: 0.116
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4585
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James H. Crocker, Jr.
     slug: james-h-crocker-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4993
     expected_two_party_share_v2: 0.4581
+    war_resolved: -0.0326
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4581
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5909
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5909
     expected_two_party_share_v2: 0.6496
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6496
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5247
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5247
     expected_two_party_share_v2: 0.6172
+    war_resolved: 0.0161
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6172
+    war_model: core
+    war_factors: *id001
   - name: Ricardo M. Barros
     slug: ricardo-m-barros
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4753
     expected_two_party_share_v2: 0.4455
+    war_resolved: -0.0788
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4455
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5676
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5676
     expected_two_party_share_v2: 0.6502
+    war_resolved: -0.0604
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6502
+    war_model: core
+    war_factors: *id001
   - name: Gail Bronwyn Lese
     slug: gail-bronwyn-lese
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4324
     expected_two_party_share_v2: 0.4229
+    war_resolved: -0.0127
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4229
+    war_model: core
+    war_factors: *id001
   - name: Luiz Gonzaga
     slug: luiz-gonzaga
     party: Other
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4152
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4151
     expected_two_party_share_v2: 0.4136
+    war_resolved: 0.1874
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4136
+    war_model: core
+    war_factors: *id001
   - name: Mark C. Boardman
     slug: mark-c-boardman
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5849
     expected_two_party_share_v2: 0.503
+    war_resolved: -0.104
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.503
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Cape and Islands (2001-2010)
 layout: district

@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.143
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5183
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6987
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5149
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5341
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6403
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5465
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6668
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -323,6 +361,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6896
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -363,6 +406,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6896
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -403,6 +451,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7012
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -443,6 +496,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.3753
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.464
+  war_model: core
+  war_factors: *id001
 title: Walter F. Timilty, Jr.
 layout: candidate
 ---

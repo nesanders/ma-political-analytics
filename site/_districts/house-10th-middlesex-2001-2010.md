@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6093
     expected_two_party_share_v2: 0.6595
+    war_resolved: 0.0782
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6595
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James E. Dixon
     slug: james-e-dixon
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.3907
     expected_two_party_share_v2: 0.4007
+    war_resolved: -0.1384
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4007
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6902
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6902
     expected_two_party_share_v2: 0.702
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.702
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.657
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.657
     expected_two_party_share_v2: 0.687
+    war_resolved: 0.1368
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.687
+    war_model: core
+    war_factors: *id001
   - name: Dara Pourghasemi
     slug: dara-pourghasemi
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.343
     expected_two_party_share_v2: 0.3757
+    war_resolved: -0.1995
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3757
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.684
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.684
     expected_two_party_share_v2: 0.7116
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7116
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5137
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5137
     expected_two_party_share_v2: 0.4656
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4656
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Middlesex (2001-2010)
 layout: district

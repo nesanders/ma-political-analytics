@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4384
     expected_two_party_share_v2: 0.5822
+    war_resolved: 0.0524
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5822
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kara Marie Fratto
     slug: kara-marie-fratto
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5616
     expected_two_party_share_v2: 0.4909
+    war_resolved: -0.1255
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4909
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5522
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5522
     expected_two_party_share_v2: 0.4855
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4855
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5256
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5256
     expected_two_party_share_v2: 0.6281
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6281
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5753
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5753
     expected_two_party_share_v2: 0.4977
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4977
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Meaney
     slug: paul-j-meaney
     party: Other
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4127
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4127
     expected_two_party_share_v2: 0.4123
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4123
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 30th Middlesex (2001-2010)
 layout: district

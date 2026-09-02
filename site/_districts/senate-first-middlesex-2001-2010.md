@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4695
     expected_two_party_share_v2: 0.4421
+    war_resolved: 0.1584
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4421
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James J. Buba
     slug: james-j-buba
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5305
     expected_two_party_share_v2: 0.4745
+    war_resolved: -0.075
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4745
+    war_model: core
+    war_factors: *id001
   - name: Patrick A. O'Connor
     slug: patrick-a-oconnor
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5976
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5976
     expected_two_party_share_v2: 0.6531
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6531
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5452
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5452
     expected_two_party_share_v2: 0.628
+    war_resolved: 0.1306
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.628
+    war_model: core
+    war_factors: *id001
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4548
     expected_two_party_share_v2: 0.4347
+    war_resolved: -0.1933
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4347
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5736
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5735
     expected_two_party_share_v2: 0.6533
+    war_resolved: 0.1049
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6533
+    war_model: core
+    war_factors: *id001
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4265
     expected_two_party_share_v2: 0.4198
+    war_resolved: -0.178
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4198
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4134
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4135
     expected_two_party_share_v2: 0.4127
+    war_resolved: 0.3085
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4127
+    war_model: core
+    war_factors: *id001
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5865
     expected_two_party_share_v2: 0.5039
+    war_resolved: -0.2251
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5039
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Middlesex (2001-2010)
 layout: district

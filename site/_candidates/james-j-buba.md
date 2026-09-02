@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.1251
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4133
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.075
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4745
+  war_model: core
+  war_factors: *id001
 title: James J. Buba
 layout: candidate
 ---

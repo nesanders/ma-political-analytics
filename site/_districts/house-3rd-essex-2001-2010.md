@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4483
     expected_two_party_share_v2: 0.5745
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5745
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5898
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5898
     expected_two_party_share_v2: 0.649
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.649
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5552
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5552
     expected_two_party_share_v2: 0.6333
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6333
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5739
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5739
     expected_two_party_share_v2: 0.6535
+    war_resolved: 0.0249
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6535
+    war_model: core
+    war_factors: *id001
   - name: Maureen M. Corbett
     slug: maureen-m-corbett
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4261
     expected_two_party_share_v2: 0.4196
+    war_resolved: -0.098
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4196
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4148
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4148
     expected_two_party_share_v2: 0.4134
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4134
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Essex (2001-2010)
 layout: district

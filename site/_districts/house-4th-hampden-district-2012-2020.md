@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4915
     expected_two_party_share_v2: 0.4542
+    war_resolved: 0.0925
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4542
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Matthew J. Garlo
     slug: matthew-j-garlo
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5085
     expected_two_party_share_v2: 0.4624
+    war_resolved: -0.0091
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4624
+    war_model: core
+    war_factors: *id001
   - name: Ethan Flaherty
     slug: ethan-flaherty
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Dan Allie
     slug: dan-allie
     party: Other
@@ -115,6 +133,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2153
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2153
     expected_two_party_share_v2: 0.4545
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4545
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4769
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4769
     expected_two_party_share_v2: 0.6023
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6023
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3682
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3682
     expected_two_party_share_v2: 0.3888
+    war_resolved: 0.2003
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3888
+    war_model: core
+    war_factors: *id001
   - name: Dan Allie
     slug: dan-allie
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6318
     expected_two_party_share_v2: 0.5278
+    war_resolved: -0.1169
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5278
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5304
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4696
     expected_two_party_share_v2: 0.4425
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4425
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Hampden District (2012-2020)
 layout: district

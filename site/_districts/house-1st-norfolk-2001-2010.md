@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5742
     expected_two_party_share_v2: 0.641
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.641
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6233
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6233
     expected_two_party_share_v2: 0.6667
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6667
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6084
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6084
     expected_two_party_share_v2: 0.6613
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6613
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6587
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6587
     expected_two_party_share_v2: 0.6983
+    war_resolved: 0.0778
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6983
+    war_model: core
+    war_factors: *id001
   - name: Marco D. Sandonato
     slug: marco-d-sandonato
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3413
     expected_two_party_share_v2: 0.3748
+    war_resolved: -0.1509
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3748
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5107
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5107
     expected_two_party_share_v2: 0.464
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.464
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Norfolk (2001-2010)
 layout: district

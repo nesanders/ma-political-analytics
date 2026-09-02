@@ -500,6 +500,55 @@ full.
   by coercing explicitly to `None` before writing
   YAML (`_clean_str` in the module).
 
+**A full-site review of how WAR was presented** (asked directly: "I don't
+want the user to see war v1, v2, v3") found the site showing up to four
+separate WAR columns on the same page (v1/v2/v3-demographics/v3-finance),
+and — worse — chamber and party leaderboards silently showing the raw v1
+number, unlabeled, with no fallback logic at all: the site's most-visited
+pages showing its crudest, uncontested-inflated metric. Two new functions,
+`apply_resolved_war_district`/`apply_resolved_war_candidate`, resolve each
+race to a single `war_resolved` figure — the richest model that specific
+race's own data supports (demographics-full > demographics-core > core on
+district/seat/chamber/party pages, keyed by each district's own Census
+match tier; finance > core on candidate pages, keyed by year, since
+finance data is per-candidate-per-cycle rather than a fixed district
+property) — never the raw v1 baseline, which stays computed internally
+(`war`, still used for `is_incumbent`/open-seat detection) but is no
+longer surfaced to readers. Alongside the number, `war_resolved_sd`,
+`expected_share_resolved`, and a plain-language `war_factors` list (e.g.
+`["District lean", "Statewide tide", "Incumbency", "Demographics"]`, no
+"v2"/"v3"/"core"/"full" jargon) travel together, so a template can show
+what specifically produced a given number without the reader needing to
+know which internal model tier ran. Both null out consistently with the
+existing uncontested-race behavior. `apply_resolved_war_district` has to
+run after `apply_war_v2`/`apply_war_v3_demographics` but *before*
+`write_district_files`/`write_seat_files`, since those serialize the
+records immediately rather than lazily; `apply_resolved_war_candidate`
+has the same constraint relative to `write_candidate_files` — a subtlety
+worth calling out because `write_seat_files` runs before
+`candidate_records` even exists in `main()`, which is why this is two
+functions rather than one shared pass over both record sets.
+`build_party_records()`'s `seats_held` entries and sort key were also
+switched from raw `war` to `war_resolved`. Templates (chamber, party,
+district, seat, candidate) were rewritten to show one WAR + Expected
+share + Factors, in place of the old per-version columns, and the
+methodology page's "WAR v2"/"WAR v3" section headers/prose were reframed
+as "The core regression model" and "Demographics and campaign finance
+extensions" (the underlying fits, coefficients, and forest plots
+themselves are untouched — only the branding around them). The candidate
+page's attribution-chart year selector was explicitly left alone, per the
+request. Verified live: `war_resolved + expected_share_resolved ==
+actual_two_party_share` exactly for every non-null row, checked
+separately on the district side (3,142 rows) and the candidate side
+(3,142 rows) — zero mismatches on either; a Jekyll build plus a grep
+sweep of the rendered site confirmed no remaining "WAR v1/v2/v3" text
+outside two deliberately-untouched, non-page surfaces — an internal code
+comment in `main.css`, and AskAI's `schema.json`/`publish_query_data.py`,
+whose `war`/`war_v2` are literal SQL column names a power user
+deliberately queries via the site's query tool, not passive page prose,
+so they were left as the distinct technical surface they are rather than
+renamed to match.
+
 ## Site chart assets (`site/assets/js/vendor/`)
 
 Vega/Vega-Lite/Vega-Embed, used by `site/_layouts/chamber.html`'s

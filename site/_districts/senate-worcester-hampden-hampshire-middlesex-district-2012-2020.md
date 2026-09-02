@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.4944
     expected_two_party_share_v2: 0.5986
+    war_resolved: -0.0703
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5986
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.5056
     expected_two_party_share_v2: 0.4616
+    war_resolved: 0.0101
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4616
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.204
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.204
     expected_two_party_share_v2: 0.4486
+    war_resolved: 0.1004
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4486
+    war_model: core
+    war_factors: *id001
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.796
     expected_two_party_share_v2: 0.6141
+    war_resolved: -0.1631
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6141
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4457
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4457
     expected_two_party_share_v2: 0.5858
+    war_resolved: -0.0417
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5858
+    war_model: core
+    war_factors: *id001
   - name: James P. Ehrhard
     slug: james-p-ehrhard
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5543
     expected_two_party_share_v2: 0.4873
+    war_resolved: -0.0314
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4873
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3596
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3596
     expected_two_party_share_v2: 0.3842
+    war_resolved: 0.1194
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3842
+    war_model: core
+    war_factors: *id001
   - name: Michael J. Valanzola
     slug: michael-j-valanzola
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6404
     expected_two_party_share_v2: 0.5324
+    war_resolved: -0.036
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5324
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5
     expected_two_party_share_v2: 0.458
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.458
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Worcester, Hampden, Hampshire & Middlesex District (2012-2020)
 layout: district

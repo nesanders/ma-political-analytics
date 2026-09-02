@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.2452
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5821
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 title: Alexander Leighton Williams
 layout: candidate
 ---

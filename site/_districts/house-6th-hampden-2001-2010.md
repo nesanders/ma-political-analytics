@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4911
     expected_two_party_share_v2: 0.4536
+    war_resolved: 0.0924
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4536
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Gregory C. Neffinger
     slug: gregory-c-neffinger
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5089
     expected_two_party_share_v2: 0.463
+    war_resolved: -0.009
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.463
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5895
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5895
     expected_two_party_share_v2: 0.6513
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6513
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5667
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5667
     expected_two_party_share_v2: 0.6497
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6497
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5903
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5902
     expected_two_party_share_v2: 0.5057
+    war_resolved: 0.1355
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5057
+    war_model: core
+    war_factors: *id001
   - name: Dean C. Vogel, Sr.
     slug: dean-c-vogel-sr
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4098
     expected_two_party_share_v2: 0.4109
+    war_resolved: -0.0521
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4109
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4488
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4488
     expected_two_party_share_v2: 0.4313
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4313
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Hampden (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5945
     expected_two_party_share_v2: 0.5082
+    war_resolved: 0.0245
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5082
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4055
     expected_two_party_share_v2: 0.552
+    war_resolved: -0.0847
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.552
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5436
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5436
     expected_two_party_share_v2: 0.6246
+    war_resolved: -0.0331
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6246
+    war_model: core
+    war_factors: *id001
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4564
     expected_two_party_share_v2: 0.4356
+    war_resolved: -0.0271
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4356
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.497
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4971
     expected_two_party_share_v2: 0.6026
+    war_resolved: -0.0105
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6026
+    war_model: core
+    war_factors: *id001
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5029
     expected_two_party_share_v2: 0.4601
+    war_resolved: -0.0522
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4601
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5181
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.518
     expected_two_party_share_v2: 0.6241
+    war_resolved: -0.0424
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6241
+    war_model: core
+    war_factors: *id001
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.482
     expected_two_party_share_v2: 0.449
+    war_resolved: -0.0307
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.449
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3385
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3385
     expected_two_party_share_v2: 0.3731
+    war_resolved: 0.1613
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3731
+    war_model: core
+    war_factors: *id001
   - name: Kathleen R. Sachs
     slug: kathleen-r-sachs
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6615
     expected_two_party_share_v2: 0.5435
+    war_resolved: -0.0779
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5435
+    war_model: core
+    war_factors: *id001
   - name: Alfred J. Depietro
     slug: alfred-j-depietro
     party: Other
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 18th Essex (2001-2010)
 layout: district

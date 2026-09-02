@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5203
     expected_two_party_share_v2: 0.6125
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6125
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6165
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6165
     expected_two_party_share_v2: 0.6631
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6631
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6145
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6144
     expected_two_party_share_v2: 0.6646
+    war_resolved: 0.0684
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6646
+    war_model: core
+    war_factors: *id001
   - name: Lydia E. Wiener
     slug: lydia-e-wiener
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3856
     expected_two_party_share_v2: 0.3981
+    war_resolved: -0.1311
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3981
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6443
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6443
     expected_two_party_share_v2: 0.6907
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6907
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4556
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4556
     expected_two_party_share_v2: 0.4349
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4349
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Norfolk (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5794
     expected_two_party_share_v2: 0.5003
+    war_resolved: 0.0231
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5003
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Bill Bowles
     slug: bill-bowles
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4206
     expected_two_party_share_v2: 0.5728
+    war_resolved: -0.0962
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5728
+    war_model: core
+    war_factors: *id001
   - name: James S. Connolly
     slug: james-s-connolly
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5671
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5671
     expected_two_party_share_v2: 0.4934
+    war_resolved: 0.0469
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4934
+    war_model: core
+    war_factors: *id001
   - name: George T. Ross
     slug: george-t-ross
     party: Republican
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4329
     expected_two_party_share_v2: 0.4232
+    war_resolved: 0.0365
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4232
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5349
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4651
     expected_two_party_share_v2: 0.5862
+    war_resolved: -0.0427
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5862
+    war_model: core
+    war_factors: *id001
   - name: Kate M. Jackson
     slug: kate-m-jackson
     party: Democratic
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5349
     expected_two_party_share_v2: 0.4765
+    war_resolved: -0.02
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4765
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5602
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4398
     expected_two_party_share_v2: 0.5833
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5833
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3849
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6151
     expected_two_party_share_v2: 0.519
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.519
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Bristol (2001-2010)
 layout: district

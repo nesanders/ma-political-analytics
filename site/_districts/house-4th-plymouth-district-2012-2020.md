@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5927
     expected_two_party_share_v2: 0.6634
+    war_resolved: -0.0035
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6634
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Craig S. Valdez
     slug: craig-s-valdez
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4073
     expected_two_party_share_v2: 0.4097
+    war_resolved: -0.0696
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4097
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2215
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2216
     expected_two_party_share_v2: 0.3117
+    war_resolved: 0.3156
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3117
+    war_model: core
+    war_factors: *id001
   - name: Edward J. O'Connell
     slug: edward-j-oconnell
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7784
     expected_two_party_share_v2: 0.6049
+    war_resolved: -0.2322
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6049
+    war_model: core
+    war_factors: *id001
   - name: Nathaniel K. Powell
     slug: nathaniel-k-powell
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Joseph M. Armstrong
     slug: joseph-m-armstrong
     party: Other
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.534
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5339
     expected_two_party_share_v2: 0.622
+    war_resolved: 0.0738
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.622
+    war_model: core
+    war_factors: *id001
   - name: Michael White
     slug: michael-white
     party: Republican
@@ -225,6 +263,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4661
     expected_two_party_share_v2: 0.4407
+    war_resolved: -0.1365
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4407
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3647
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3647
     expected_two_party_share_v2: 0.5434
+    war_resolved: 0.0431
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5434
+    war_model: core
+    war_factors: *id001
   - name: James Anthony Pavlik
     slug: james-anthony-pavlik
     party: Republican
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6353
     expected_two_party_share_v2: 0.5297
+    war_resolved: -0.1162
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5297
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4798
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4797
     expected_two_party_share_v2: 0.4474
+    war_resolved: 0.2366
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4474
+    war_model: core
+    war_factors: *id001
   - name: Stephen W. Coulter
     slug: stephen-w-coulter
     party: Republican
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5203
     expected_two_party_share_v2: 0.4692
+    war_resolved: -0.1532
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4692
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Plymouth District (2012-2020)
 layout: district

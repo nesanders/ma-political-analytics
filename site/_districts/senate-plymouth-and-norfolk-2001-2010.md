@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5714
     expected_two_party_share_v2: 0.6397
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6397
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Paul R. Kearney, Jr.
     slug: paul-r-kearney-jr
     party: Independent
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5264
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4736
     expected_two_party_share_v2: 0.5883
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5883
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5083
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4917
     expected_two_party_share_v2: 0.6003
+    war_resolved: 0.0438
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6003
+    war_model: core
+    war_factors: *id001
   - name: Stephen A. Lynch
     slug: stephen-a-lynch
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5083
     expected_two_party_share_v2: 0.4624
+    war_resolved: -0.1065
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4624
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.539
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.461
     expected_two_party_share_v2: 0.5945
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5945
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3764
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6237
     expected_two_party_share_v2: 0.5235
+    war_resolved: 0.1021
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5235
+    war_model: core
+    war_factors: *id001
   - name: Ted LeClair
     slug: ted-leclair
     party: Democratic
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3763
     expected_two_party_share_v2: 0.3931
+    war_resolved: -0.0187
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3931
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Plymouth and Norfolk (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5648
     expected_two_party_share_v2: 0.6362
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6362
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.536
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4639
     expected_two_party_share_v2: 0.5832
+    war_resolved: 0.0917
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5832
+    war_model: core
+    war_factors: *id001
   - name: Jay D. Ferguson
     slug: jay-d-ferguson
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5361
     expected_two_party_share_v2: 0.477
+    war_resolved: -0.1519
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.477
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5371
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4629
     expected_two_party_share_v2: 0.5851
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5851
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5442
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4558
     expected_two_party_share_v2: 0.5918
+    war_resolved: 0.0293
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5918
+    war_model: core
+    war_factors: *id001
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5442
     expected_two_party_share_v2: 0.4813
+    war_resolved: -0.1024
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4813
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.385
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.615
     expected_two_party_share_v2: 0.5189
+    war_resolved: 0.1529
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5189
+    war_model: core
+    war_factors: *id001
   - name: Loring Tripp, III
     slug: loring-tripp-iii
     party: Democratic
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.385
     expected_two_party_share_v2: 0.3977
+    war_resolved: -0.0695
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3977
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Plymouth (2001-2010)
 layout: district

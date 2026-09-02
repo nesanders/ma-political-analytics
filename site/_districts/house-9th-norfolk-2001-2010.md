@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6444
     expected_two_party_share_v2: 0.5346
+    war_resolved: 0.1409
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5346
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Stanley J. Nacewicz
     slug: stanley-j-nacewicz
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3556
     expected_two_party_share_v2: 0.382
+    war_resolved: -0.0575
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.382
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5027
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4973
     expected_two_party_share_v2: 0.6033
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6033
+    war_model: core
+    war_factors: *id001
   - name: Thomas Joseph Roache
     slug: thomas-joseph-roache
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4779
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5221
     expected_two_party_share_v2: 0.6267
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6267
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5014
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4986
     expected_two_party_share_v2: 0.4579
+    war_resolved: 0.1048
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4579
+    war_model: core
+    war_factors: *id001
   - name: John J. McFeeley
     slug: john-j-mcfeeley
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5014
     expected_two_party_share_v2: 0.4587
+    war_resolved: -0.0214
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4587
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3271
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6729
     expected_two_party_share_v2: 0.5495
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5495
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Norfolk (2001-2010)
 layout: district

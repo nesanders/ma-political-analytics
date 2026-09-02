@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4839
     expected_two_party_share_v2: 0.6067
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6067
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2074
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7926
     expected_two_party_share_v2: 0.6123
+    war_resolved: -0.0971
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6123
+    war_model: core
+    war_factors: *id001
   - name: Patrick J. Malone
     slug: patrick-j-malone
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2074
     expected_two_party_share_v2: 0.3043
+    war_resolved: 0.1805
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3043
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4714
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5286
     expected_two_party_share_v2: 0.6198
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6198
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.361
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6391
     expected_two_party_share_v2: 0.6881
+    war_resolved: -0.0566
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6881
+    war_model: core
+    war_factors: *id001
   - name: Joseph M. Hall
     slug: joseph-m-hall
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3609
     expected_two_party_share_v2: 0.385
+    war_resolved: -0.0165
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.385
+    war_model: core
+    war_factors: *id001
   - name: Joseph F. Guertin
     slug: joseph-f-guertin
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4958
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.4608
+    war_resolved: 0.0517
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4608
+    war_model: core
+    war_factors: *id001
   - name: Robert J. Dubois
     slug: robert-j-dubois
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4558
+    war_resolved: 0.0317
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4558
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Worcester District (2012-2020)
 layout: district

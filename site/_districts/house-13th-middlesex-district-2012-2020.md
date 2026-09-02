@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7603
     expected_two_party_share_v2: 0.7389
+    war_resolved: -0.049
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7389
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Ingrid I. Centurion
     slug: ingrid-i-centurion
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.2397
     expected_two_party_share_v2: 0.3213
+    war_resolved: -0.0112
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3213
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3149
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3149
     expected_two_party_share_v2: 0.5071
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5071
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7304
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7304
     expected_two_party_share_v2: 0.736
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.736
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4677
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4677
     expected_two_party_share_v2: 0.4413
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4413
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6012
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.5114
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5114
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Middlesex District (2012-2020)
 layout: district

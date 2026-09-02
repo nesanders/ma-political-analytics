@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7365
     expected_two_party_share_v2: 0.7263
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7263
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4782
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4782
     expected_two_party_share_v2: 0.5908
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5908
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7159
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7159
     expected_two_party_share_v2: 0.718
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.718
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6688
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6688
     expected_two_party_share_v2: 0.7039
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7039
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7431
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7431
     expected_two_party_share_v2: 0.5863
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5863
+    war_model: core
+    war_factors: *id001
   - name: Lee Scott Laugenour
     slug: lee-scott-laugenour
     party: null
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 4th Berkshire District (2012-2020)
 layout: district

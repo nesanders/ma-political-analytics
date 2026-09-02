@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4161
     expected_two_party_share_v2: 0.558
+    war_resolved: -0.0016
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.558
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5839
     expected_two_party_share_v2: 0.5022
+    war_resolved: -0.0586
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5022
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7715
     expected_two_party_share_v2: 0.7473
+    war_resolved: -0.2243
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7473
+    war_model: core
+    war_factors: *id001
   - name: John T. Mahoney, Jr
     slug: john-t-mahoney-jr
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.3154
+    war_resolved: 0.1616
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3154
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5216
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4784
     expected_two_party_share_v2: 0.6037
+    war_resolved: -0.0951
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6037
+    war_model: core
+    war_factors: *id001
   - name: John T. Mahoney, Jr
     slug: john-t-mahoney-jr
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5216
     expected_two_party_share_v2: 0.4694
+    war_resolved: 0.022
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4694
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3964
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6036
     expected_two_party_share_v2: 0.5129
+    war_resolved: 0.0892
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5129
+    war_model: core
+    war_factors: *id001
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3964
     expected_two_party_share_v2: 0.4037
+    war_resolved: -0.0058
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4037
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.515
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.485
     expected_two_party_share_v2: 0.4507
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4507
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Plymouth District (2012-2020)
 layout: district

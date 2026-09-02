@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4652
     war_v3_demographics: 0.0399
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0399
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4652
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Sandra M. Wright
     slug: sandra-m-wright
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5188
     war_v3_demographics: -0.0239
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0239
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5188
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4953
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5107
     war_v3_demographics: 0.0893
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0893
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5107
+    war_model: demographics_full
+    war_factors: *id001
   - name: Eric J. Haikola
     slug: eric-j-haikola
     party: Democratic
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4733
     war_v3_demographics: -0.0733
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0733
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4733
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 43775

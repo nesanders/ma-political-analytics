@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7539
     expected_two_party_share_v2: 0.5919
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5919
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3615
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3615
     expected_two_party_share_v2: 0.3856
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3856
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7439
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7439
     expected_two_party_share_v2: 0.7328
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7328
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5464
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5464
     expected_two_party_share_v2: 0.6393
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6393
+    war_model: core
+    war_factors: *id001
   - name: Michael John Coombes
     slug: michael-john-coombes
     party: Libertarian
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6732
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6732
     expected_two_party_share_v2: 0.5494
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5494
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Middlesex District (2012-2020)
 layout: district

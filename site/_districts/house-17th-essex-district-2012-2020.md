@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7209
     expected_two_party_share_v2: 0.7181
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7181
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4088
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4088
     expected_two_party_share_v2: 0.5542
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5542
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7789
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7789
     expected_two_party_share_v2: 0.7512
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7512
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5951
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5951
     expected_two_party_share_v2: 0.665
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.665
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7287
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7287
     expected_two_party_share_v2: 0.5787
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5787
+    war_model: core
+    war_factors: *id001
   - name: Kevin M. Cuff
     slug: kevin-m-cuff
     party: Other
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 17th Essex District (2012-2020)
 layout: district

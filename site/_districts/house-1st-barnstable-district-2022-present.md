@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.63
     war_v3_demographics: -0.0646
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0646
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.63
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Gerald Joseph O'Connell
     slug: gerald-joseph-oconnell
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3943
     war_v3_demographics: 0.0403
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0403
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3943
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5738
     war_v3_demographics: -0.0286
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0286
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5738
+    war_model: demographics_full
+    war_factors: *id001
   - name: Tracy A. Post
     slug: tracy-a-post
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3926
     war_v3_demographics: 0.0622
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0622
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3926
+    war_model: demographics_full
+    war_factors: *id001
   - name: Abraham Kasparian, Jr.
     slug: abraham-kasparian-jr
     party: Other
@@ -214,6 +239,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 demographics:
   total_population: 43626

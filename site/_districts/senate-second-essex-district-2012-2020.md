@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6548
     expected_two_party_share_v2: 0.6832
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6832
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2885
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2885
     expected_two_party_share_v2: 0.4907
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4907
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6175
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6175
     expected_two_party_share_v2: 0.6661
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6661
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4518
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4518
     expected_two_party_share_v2: 0.5894
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5894
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5891
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5891
     expected_two_party_share_v2: 0.505
+    war_resolved: 0.2025
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.505
+    war_model: core
+    war_factors: *id001
   - name: Richard A. Jolitz
     slug: richard-a-jolitz
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4109
     expected_two_party_share_v2: 0.4116
+    war_resolved: -0.1191
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4116
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Essex District (2012-2020)
 layout: district

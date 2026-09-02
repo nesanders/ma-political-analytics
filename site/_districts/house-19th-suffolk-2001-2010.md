@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5062
     expected_two_party_share_v2: 0.6051
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6051
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6084
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6084
     expected_two_party_share_v2: 0.6588
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6588
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5734
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5734
     expected_two_party_share_v2: 0.6429
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6429
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6575
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6575
     expected_two_party_share_v2: 0.6976
+    war_resolved: 0.0857
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6976
+    war_model: core
+    war_factors: *id001
   - name: Stephen John White
     slug: stephen-john-white
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3425
     expected_two_party_share_v2: 0.3755
+    war_resolved: -0.1588
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3755
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4945
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4945
     expected_two_party_share_v2: 0.4555
+    war_resolved: 0.2936
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4555
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Ronukaitus
     slug: paul-j-ronukaitus
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5055
     expected_two_party_share_v2: 0.4611
+    war_resolved: -0.2102
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4611
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 19th Suffolk (2001-2010)
 layout: district

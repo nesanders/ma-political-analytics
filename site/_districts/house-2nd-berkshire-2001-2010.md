@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7245
     expected_two_party_share_v2: 0.5767
+    war_resolved: 0.0359
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5767
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Michael F. Case
     slug: michael-f-case
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.2755
     expected_two_party_share_v2: 0.3399
+    war_resolved: 0.0475
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3399
+    war_model: core
+    war_factors: *id001
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.7373
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7373
     expected_two_party_share_v2: 0.7293
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7293
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7596
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7596
     expected_two_party_share_v2: 0.7515
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7515
+    war_model: core
+    war_factors: *id001
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6967
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6967
     expected_two_party_share_v2: 0.5618
+    war_resolved: 0.136
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5618
+    war_model: core
+    war_factors: *id001
   - name: Richard S. Stockwell
     slug: richard-s-stockwell
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3033
     expected_two_party_share_v2: 0.3548
+    war_resolved: -0.0526
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3548
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.6198
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.3802
     expected_two_party_share_v2: 0.395
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.395
+    war_model: core
+    war_factors: *id001
   - name: Matthew E. Goddard
     slug: matthew-e-goddard
     party: Other
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 2nd Berkshire (2001-2010)
 layout: district

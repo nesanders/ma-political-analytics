@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5391
     expected_two_party_share_v2: 0.6225
+    war_resolved: -0.0524
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6225
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4609
     expected_two_party_share_v2: 0.4377
+    war_resolved: -0.0078
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4377
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6413
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6413
     expected_two_party_share_v2: 0.6762
+    war_resolved: -0.0509
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6762
+    war_model: core
+    war_factors: *id001
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3587
     expected_two_party_share_v2: 0.384
+    war_resolved: -0.0093
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.384
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5919
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5919
     expected_two_party_share_v2: 0.6526
+    war_resolved: -0.0133
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6526
+    war_model: core
+    war_factors: *id001
   - name: Sandra B. Martinez
     slug: sandra-b-martinez
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4081
     expected_two_party_share_v2: 0.4101
+    war_resolved: -0.0494
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4101
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6245
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6245
     expected_two_party_share_v2: 0.6802
+    war_resolved: -0.0828
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6802
+    war_model: core
+    war_factors: *id001
   - name: John C. Thibault
     slug: john-c-thibault
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3755
     expected_two_party_share_v2: 0.3929
+    war_resolved: 0.0097
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3929
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4328
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4328
     expected_two_party_share_v2: 0.4229
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4229
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Third Middlesex (2001-2010)
 layout: district

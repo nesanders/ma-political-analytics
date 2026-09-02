@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6169
     expected_two_party_share_v2: 0.6637
+    war_resolved: -0.1499
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6637
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Josh S. Cutler
     slug: josh-s-cutler
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3831
     expected_two_party_share_v2: 0.3965
+    war_resolved: 0.0897
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3965
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4985
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.5015
     expected_two_party_share_v2: 0.603
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.603
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4865
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5134
     expected_two_party_share_v2: 0.6118
+    war_resolved: -0.0921
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6118
+    war_model: core
+    war_factors: *id001
   - name: Greg Hanley
     slug: greg-hanley
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4866
     expected_two_party_share_v2: 0.4509
+    war_resolved: 0.0294
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4509
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5096
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4904
     expected_two_party_share_v2: 0.61
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.61
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3597
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6403
     expected_two_party_share_v2: 0.5323
+    war_resolved: 0.0062
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5323
+    war_model: core
+    war_factors: *id001
   - name: Bridget A. Simmons
     slug: bridget-a-simmons
     party: Democratic
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3597
     expected_two_party_share_v2: 0.3843
+    war_resolved: 0.0772
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3843
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Plymouth (2001-2010)
 layout: district

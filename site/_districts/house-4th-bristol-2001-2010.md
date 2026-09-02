@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5587
     expected_two_party_share_v2: 0.4894
+    war_resolved: 0.0554
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4894
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Steven J. D'Amico
     slug: steven-j-damico
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4413
     expected_two_party_share_v2: 0.5733
+    war_resolved: -0.1181
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5733
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5569
     expected_two_party_share_v2: 0.6445
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6445
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5324
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5324
     expected_two_party_share_v2: 0.4751
+    war_resolved: 0.0945
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4751
+    war_model: core
+    war_factors: *id001
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4676
     expected_two_party_share_v2: 0.4415
+    war_resolved: -0.0111
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4415
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5725
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5725
     expected_two_party_share_v2: 0.6528
+    war_resolved: -0.0211
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6528
+    war_model: core
+    war_factors: *id001
   - name: Steven S. Howitt
     slug: steven-s-howitt
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4275
     expected_two_party_share_v2: 0.4203
+    war_resolved: -0.052
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4203
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4353
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4353
     expected_two_party_share_v2: 0.4242
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4242
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Bristol (2001-2010)
 layout: district

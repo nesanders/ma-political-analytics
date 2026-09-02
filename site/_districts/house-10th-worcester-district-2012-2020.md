@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6033
     expected_two_party_share_v2: 0.6585
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6585
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2259
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2259
     expected_two_party_share_v2: 0.4705
+    war_resolved: 0.0906
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4705
+    war_model: core
+    war_factors: *id001
   - name: Sandra Slattery E. Biagetti
     slug: sandra-slattery-e-biagetti
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7741
     expected_two_party_share_v2: 0.6026
+    war_resolved: -0.1637
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6026
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5635
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5635
     expected_two_party_share_v2: 0.4915
+    war_resolved: 0.0586
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4915
+    war_model: core
+    war_factors: *id001
   - name: Sandra Slattery E. Biagetti
     slug: sandra-slattery-e-biagetti
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4365
     expected_two_party_share_v2: 0.4251
+    war_resolved: 0.0248
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4251
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.3895
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3895
     expected_two_party_share_v2: 0.5565
+    war_resolved: 0.0327
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5565
+    war_model: core
+    war_factors: *id001
   - name: Mark W. Reil, Jr
     slug: mark-w-reil-jr
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6105
     expected_two_party_share_v2: 0.5166
+    war_resolved: -0.1058
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5166
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5352
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5352
     expected_two_party_share_v2: 0.4766
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4766
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Worcester District (2012-2020)
 layout: district

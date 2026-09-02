@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4474
     expected_two_party_share_v2: 0.574
+    war_resolved: 0.0347
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.574
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James F. Gettens
     slug: james-f-gettens
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5526
     expected_two_party_share_v2: 0.4862
+    war_resolved: -0.0949
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4862
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5569
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5569
     expected_two_party_share_v2: 0.6316
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6316
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5577
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5577
     expected_two_party_share_v2: 0.6346
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6346
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5559
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5559
     expected_two_party_share_v2: 0.644
+    war_resolved: 0.0014
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.644
+    war_model: core
+    war_factors: *id001
   - name: James B. Stanton
     slug: james-b-stanton
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4441
     expected_two_party_share_v2: 0.4291
+    war_resolved: -0.0745
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4291
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3667
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3667
     expected_two_party_share_v2: 0.388
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.388
+    war_model: core
+    war_factors: *id001
   - name: William D. Pacheco
     slug: william-d-pacheco
     party: Libertarian
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 12th Worcester (2001-2010)
 layout: district

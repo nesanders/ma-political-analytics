@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.547
     war_v3_demographics: 0.0723
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0723
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.547
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Jeanne Renaud Costello
     slug: jeanne-renaud-costello
     party: Democratic
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4471
     war_v3_demographics: -0.0664
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0664
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4471
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4821
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5278
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5278
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 42768

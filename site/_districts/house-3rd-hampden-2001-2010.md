@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5802
     expected_two_party_share_v2: 0.5007
+    war_resolved: 0.0034
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5007
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Rosemary Sandlin
     slug: rosemary-sandlin
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4198
     expected_two_party_share_v2: 0.562
+    war_resolved: -0.0661
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.562
+    war_model: core
+    war_factors: *id001
   - name: Anthony C. Bonavita
     slug: anthony-c-bonavita
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5231
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5231
     expected_two_party_share_v2: 0.6267
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6267
+    war_model: core
+    war_factors: *id001
   - name: Nicholas A. Boldyga
     slug: nicholas-a-boldyga
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5293
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5293
     expected_two_party_share_v2: 0.4735
+    war_resolved: 0.0818
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4735
+    war_model: core
+    war_factors: *id001
   - name: Robert A. Magovern
     slug: robert-a-magovern
     party: Republican
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4707
     expected_two_party_share_v2: 0.4431
+    war_resolved: 0.0016
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4431
+    war_model: core
+    war_factors: *id001
   - name: Joseph F. Schebel
     slug: joseph-f-schebel
     party: Other
@@ -225,6 +263,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Owen Broadhurst
     slug: owen-broadhurst
     party: null
@@ -248,6 +291,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5367
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5367
     expected_two_party_share_v2: 0.6339
+    war_resolved: 0.0846
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6339
+    war_model: core
+    war_factors: *id001
   - name: Uwe H. Porth
     slug: uwe-h-porth
     party: Republican
@@ -303,6 +356,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4633
     expected_two_party_share_v2: 0.4392
+    war_resolved: -0.1577
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4392
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4029
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4029
     expected_two_party_share_v2: 0.4071
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4071
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Hampden (2001-2010)
 layout: district

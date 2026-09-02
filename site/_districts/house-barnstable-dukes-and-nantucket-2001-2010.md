@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5731
     expected_two_party_share_v2: 0.6533
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6533
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6694
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Daniel James Larkosh
     slug: daniel-james-larkosh
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6694
     expected_two_party_share_v2: 0.5474
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5474
+    war_model: core
+    war_factors: *id001
   - name: Melissa C. Freitag
     slug: melissa-c-freitag
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Jacob D. Ferreira
     slug: jacob-d-ferreira
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6176
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6176
     expected_two_party_share_v2: 0.6662
+    war_resolved: 0.0374
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6662
+    war_model: core
+    war_factors: *id001
   - name: James R. Powell
     slug: james-r-powell
     party: Republican
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3824
     expected_two_party_share_v2: 0.3965
+    war_resolved: -0.1001
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3965
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6411
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6411
     expected_two_party_share_v2: 0.689
+    war_resolved: 0.0136
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.689
+    war_model: core
+    war_factors: *id001
   - name: James R. Powell
     slug: james-r-powell
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3589
     expected_two_party_share_v2: 0.3841
+    war_resolved: -0.0867
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3841
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4907
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4907
     expected_two_party_share_v2: 0.4535
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4535
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Barnstable, Dukes and Nantucket (2001-2010)
 layout: district

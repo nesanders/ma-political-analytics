@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8095
     expected_two_party_share_v2: 0.7648
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7648
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5143
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5143
     expected_two_party_share_v2: 0.6123
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6123
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8369
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8369
     expected_two_party_share_v2: 0.7922
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7922
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6885
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6885
     expected_two_party_share_v2: 0.5578
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5578
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.8116
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8116
     expected_two_party_share_v2: 0.6225
+    war_resolved: 0.1978
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6225
+    war_model: core
+    war_factors: *id001
   - name: Charles F. Klauder
     slug: charles-f-klauder
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.1884
     expected_two_party_share_v2: 0.2941
+    war_resolved: -0.1144
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2941
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Suffolk District (2012-2020)
 layout: district

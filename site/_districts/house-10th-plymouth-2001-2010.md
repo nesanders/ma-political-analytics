@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.524
     expected_two_party_share_v2: 0.6145
+    war_resolved: -0.053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6145
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: John F. Cruz
     slug: john-f-cruz
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.476
     expected_two_party_share_v2: 0.4457
+    war_resolved: -0.0072
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4457
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6299
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6299
     expected_two_party_share_v2: 0.6701
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6701
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5984
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5984
     expected_two_party_share_v2: 0.6561
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6561
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6041
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6041
     expected_two_party_share_v2: 0.6694
+    war_resolved: 0.0367
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6694
+    war_model: core
+    war_factors: *id001
   - name: Mark W. Chauppette
     slug: mark-w-chauppette
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3959
     expected_two_party_share_v2: 0.4037
+    war_resolved: -0.1098
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4037
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4537
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4537
     expected_two_party_share_v2: 0.4339
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4339
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Plymouth (2001-2010)
 layout: district

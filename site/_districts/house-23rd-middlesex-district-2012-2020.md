@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8238
     expected_two_party_share_v2: 0.7724
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7724
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4986
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4986
     expected_two_party_share_v2: 0.6015
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6015
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7955
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7955
     expected_two_party_share_v2: 0.76
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.76
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6564
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6564
     expected_two_party_share_v2: 0.6974
+    war_resolved: 0.0788
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6974
+    war_model: core
+    war_factors: *id001
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.3436
     expected_two_party_share_v2: 0.3757
+    war_resolved: -0.1519
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3757
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7281
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7281
     expected_two_party_share_v2: 0.5784
+    war_resolved: 0.2351
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5784
+    war_model: core
+    war_factors: *id001
   - name: Joseph J. Monju
     slug: joseph-j-monju
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.2719
     expected_two_party_share_v2: 0.3382
+    war_resolved: -0.1517
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3382
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 23rd Middlesex District (2012-2020)
 layout: district

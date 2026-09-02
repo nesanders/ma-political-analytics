@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.563
     expected_two_party_share_v2: 0.6348
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6348
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2618
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2618
     expected_two_party_share_v2: 0.4766
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4766
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5371
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5371
     expected_two_party_share_v2: 0.6236
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6236
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4586
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4586
     expected_two_party_share_v2: 0.593
+    war_resolved: 0.0624
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.593
+    war_model: core
+    war_factors: *id001
   - name: Abilio Bill Soares
     slug: abilio-bill-soares
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5414
     expected_two_party_share_v2: 0.4801
+    war_resolved: -0.1355
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4801
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5689
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5689
     expected_two_party_share_v2: 0.4944
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4944
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Bristol District (2012-2020)
 layout: district

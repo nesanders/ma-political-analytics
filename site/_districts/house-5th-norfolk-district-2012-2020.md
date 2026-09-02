@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6018
     expected_two_party_share_v2: 0.6552
+    war_resolved: -0.0096
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6552
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Frank Herbert Collins
     slug: frank-herbert-collins
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3982
     expected_two_party_share_v2: 0.405
+    war_resolved: -0.0506
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.405
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2669
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2669
     expected_two_party_share_v2: 0.4793
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4793
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5652
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5652
     expected_two_party_share_v2: 0.6385
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6385
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.412
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.412
     expected_two_party_share_v2: 0.5684
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5684
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.535
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.535
     expected_two_party_share_v2: 0.4765
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4765
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Norfolk District (2012-2020)
 layout: district

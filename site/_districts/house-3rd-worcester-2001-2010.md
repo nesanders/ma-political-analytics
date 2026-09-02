@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4912
     expected_two_party_share_v2: 0.5997
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5997
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.615
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.615
     expected_two_party_share_v2: 0.6752
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6752
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6276
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6276
     expected_two_party_share_v2: 0.5254
+    war_resolved: 0.2415
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5254
+    war_model: core
+    war_factors: *id001
   - name: Edward L. Niemczura
     slug: edward-l-niemczura
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3724
     expected_two_party_share_v2: 0.3912
+    war_resolved: -0.1581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3912
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6266
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6266
     expected_two_party_share_v2: 0.6813
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6813
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4789
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4789
     expected_two_party_share_v2: 0.4472
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4472
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Worcester (2001-2010)
 layout: district

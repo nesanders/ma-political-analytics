@@ -43,6 +43,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -83,6 +88,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 title: Laura L. Saylor
 layout: candidate
 ---

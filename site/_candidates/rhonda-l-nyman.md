@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0341
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5326
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1426
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4361
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1288
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.3995
+  war_model: core
+  war_factors: *id001
 title: Rhonda L. Nyman
 layout: candidate
 ---

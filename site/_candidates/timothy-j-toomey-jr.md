@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7684
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.2613
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.653
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7709
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7923
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.7772
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0728
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.795
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5712
+  war_model: core
+  war_factors: *id001
 title: Timothy J. Toomey, Jr.
 layout: candidate
 ---

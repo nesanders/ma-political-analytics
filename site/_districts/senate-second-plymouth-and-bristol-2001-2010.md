@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4862
     expected_two_party_share_v2: 0.6074
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6074
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5943
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5943
     expected_two_party_share_v2: 0.5078
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5078
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5676
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5676
     expected_two_party_share_v2: 0.6398
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6398
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5816
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5816
     expected_two_party_share_v2: 0.6576
+    war_resolved: 0.0194
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6576
+    war_model: core
+    war_factors: *id001
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4184
     expected_two_party_share_v2: 0.4155
+    war_resolved: -0.0925
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4155
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4499
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4499
     expected_two_party_share_v2: 0.4319
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4319
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Plymouth and Bristol (2001-2010)
 layout: district

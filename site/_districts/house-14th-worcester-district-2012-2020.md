@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6742
     expected_two_party_share_v2: 0.6934
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6934
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3419
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3419
     expected_two_party_share_v2: 0.5189
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5189
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6703
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6703
     expected_two_party_share_v2: 0.6939
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6939
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5073
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5073
     expected_two_party_share_v2: 0.6187
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6187
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6536
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6536
     expected_two_party_share_v2: 0.5391
+    war_resolved: 0.1318
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5391
+    war_model: core
+    war_factors: *id001
   - name: William J. McCarthy, III
     slug: william-j-mccarthy-iii
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3464
     expected_two_party_share_v2: 0.3775
+    war_resolved: -0.0484
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3775
+    war_model: core
+    war_factors: *id001
   - name: Winthrop E. Handy
     slug: winthrop-e-handy
     party: Other
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 14th Worcester District (2012-2020)
 layout: district

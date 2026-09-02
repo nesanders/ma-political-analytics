@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6696
     expected_two_party_share_v2: 0.691
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.691
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Elizabeth R. Harrah
     slug: elizabeth-r-harrah
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2777
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2777
     expected_two_party_share_v2: 0.4875
+    war_resolved: 0.1259
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4875
+    war_model: core
+    war_factors: *id001
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7223
     expected_two_party_share_v2: 0.5752
+    war_resolved: -0.1886
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5752
+    war_model: core
+    war_factors: *id001
   - name: Kateen R. Kumar
     slug: kateen-r-kumar
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6269
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6269
     expected_two_party_share_v2: 0.6814
+    war_resolved: -0.093
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6814
+    war_model: core
+    war_factors: *id001
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3731
     expected_two_party_share_v2: 0.3917
+    war_resolved: 0.0199
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3917
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4334
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4334
     expected_two_party_share_v2: 0.4232
+    war_resolved: 0.091
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4232
+    war_model: core
+    war_factors: *id001
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5666
     expected_two_party_share_v2: 0.4934
+    war_resolved: -0.0076
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4934
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5512
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5511
     expected_two_party_share_v2: 0.485
+    war_resolved: 0.1134
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.485
+    war_model: core
+    war_factors: *id001
   - name: George Georgountzos
     slug: george-georgountzos
     party: Republican
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4489
     expected_two_party_share_v2: 0.4316
+    war_resolved: -0.03
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4316
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 31st Middlesex District (2012-2020)
 layout: district

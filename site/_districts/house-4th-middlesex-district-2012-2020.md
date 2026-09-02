@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6858
     expected_two_party_share_v2: 0.6996
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6996
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Syed H. Hashmi
     slug: syed-h-hashmi
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2756
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2756
     expected_two_party_share_v2: 0.4839
+    war_resolved: 0.1517
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4839
+    war_model: core
+    war_factors: *id001
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7244
     expected_two_party_share_v2: 0.5763
+    war_resolved: -0.2119
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5763
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.645
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6451
     expected_two_party_share_v2: 0.6806
+    war_resolved: -0.0841
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6806
+    war_model: core
+    war_factors: *id001
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3549
     expected_two_party_share_v2: 0.3821
+    war_resolved: 0.0214
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3821
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4295
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4295
     expected_two_party_share_v2: 0.5776
+    war_resolved: -0.0384
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5776
+    war_model: core
+    war_factors: *id001
   - name: Matthew H. Elder
     slug: matthew-h-elder
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5705
     expected_two_party_share_v2: 0.4955
+    war_resolved: -0.0347
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4955
+    war_model: core
+    war_factors: *id001
   - name: Kristine E. Coffey-Donahue
     slug: kristine-e-coffey-donahue
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5691
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.569
     expected_two_party_share_v2: 0.4945
+    war_resolved: 0.0114
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4945
+    war_model: core
+    war_factors: *id001
   - name: Steven L. Levy
     slug: steven-l-levy
     party: Republican
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.431
     expected_two_party_share_v2: 0.4221
+    war_resolved: 0.072
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4221
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Middlesex District (2012-2020)
 layout: district

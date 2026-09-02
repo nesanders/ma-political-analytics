@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6716
     expected_two_party_share_v2: 0.705
+    war_resolved: -0.1075
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.705
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Matthew T. Kelly
     slug: matthew-t-kelly
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3284
     expected_two_party_share_v2: 0.3681
+    war_resolved: 0.0344
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3681
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2737
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2737
     expected_two_party_share_v2: 0.3393
+    war_resolved: 0.1741
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3393
+    war_model: core
+    war_factors: *id001
   - name: Richard J. Ross
     slug: richard-j-ross
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7263
     expected_two_party_share_v2: 0.7209
+    war_resolved: -0.2343
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7209
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.626
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.374
     expected_two_party_share_v2: 0.5382
+    war_resolved: 0.0625
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5382
+    war_model: core
+    war_factors: *id001
   - name: Kristopher K. Aleksov
     slug: kristopher-k-aleksov
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.626
     expected_two_party_share_v2: 0.5245
+    war_resolved: -0.1252
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5245
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4065
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5935
     expected_two_party_share_v2: 0.6641
+    war_resolved: -0.0533
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6641
+    war_model: core
+    war_factors: *id001
   - name: Dylan Hayre
     slug: dylan-hayre
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4065
     expected_two_party_share_v2: 0.409
+    war_resolved: -0.0198
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.409
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5375
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4625
     expected_two_party_share_v2: 0.4388
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4388
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk, Bristol & Middlesex District (2012-2020)
 layout: district

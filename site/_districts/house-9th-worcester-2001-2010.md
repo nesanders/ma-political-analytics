@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.607
     expected_two_party_share_v2: 0.6584
+    war_resolved: 0.0158
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6584
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Timothy A. Dodd
     slug: timothy-a-dodd
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.393
     expected_two_party_share_v2: 0.4018
+    war_resolved: -0.076
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4018
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5272
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4728
     expected_two_party_share_v2: 0.5879
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5879
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5251
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4749
     expected_two_party_share_v2: 0.5914
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5914
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5281
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4719
     expected_two_party_share_v2: 0.6003
+    war_resolved: 0.0493
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6003
+    war_model: core
+    war_factors: *id001
   - name: Andrew J. Myers
     slug: andrew-j-myers
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5281
     expected_two_party_share_v2: 0.4728
+    war_resolved: -0.1224
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4728
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3497
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6503
     expected_two_party_share_v2: 0.5376
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5376
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Worcester (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3954
     expected_two_party_share_v2: 0.5466
+    war_resolved: -0.0111
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5466
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kimberly B. Roy
     slug: kimberly-b-roy
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6046
     expected_two_party_share_v2: 0.5136
+    war_resolved: -0.0491
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5136
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5334
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5334
     expected_two_party_share_v2: 0.6192
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6192
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5464
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5464
     expected_two_party_share_v2: 0.6286
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6286
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5443
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5444
     expected_two_party_share_v2: 0.6379
+    war_resolved: 0.0709
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6379
+    war_model: core
+    war_factors: *id001
   - name: Jerzy J. Jachimczyk
     slug: jerzy-j-jachimczyk
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4556
     expected_two_party_share_v2: 0.4352
+    war_resolved: -0.144
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4352
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3848
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3848
     expected_two_party_share_v2: 0.3976
+    war_resolved: 0.3424
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3976
+    war_model: core
+    war_factors: *id001
   - name: Ralph Perez
     slug: ralph-perez
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6152
     expected_two_party_share_v2: 0.519
+    war_resolved: -0.259
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.519
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Worcester and Norfolk (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5139
     expected_two_party_share_v2: 0.6092
+    war_resolved: 0.003
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6092
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Royall H. Switzler
     slug: royall-h-switzler
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4861
     expected_two_party_share_v2: 0.451
+    war_resolved: -0.0632
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.451
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6447
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6447
     expected_two_party_share_v2: 0.678
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.678
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5837
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5837
     expected_two_party_share_v2: 0.6483
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6483
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6178
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6178
     expected_two_party_share_v2: 0.6767
+    war_resolved: -0.0605
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6767
+    war_model: core
+    war_factors: *id001
   - name: George P. Field
     slug: george-p-field
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3822
     expected_two_party_share_v2: 0.3964
+    war_resolved: -0.0126
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3964
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3861
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3861
     expected_two_party_share_v2: 0.3983
+    war_resolved: 0.1617
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3983
+    war_model: core
+    war_factors: *id001
   - name: George P. Field
     slug: george-p-field
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6139
     expected_two_party_share_v2: 0.5183
+    war_resolved: -0.0783
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5183
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Norfolk (2001-2010)
 layout: district

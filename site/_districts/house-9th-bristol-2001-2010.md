@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5745
     expected_two_party_share_v2: 0.4975
+    war_resolved: 0.0706
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4975
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Joe Michaud
     slug: joe-michaud
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4255
     expected_two_party_share_v2: 0.4191
+    war_resolved: 0.0128
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4191
+    war_model: core
+    war_factors: *id001
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6285
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6285
     expected_two_party_share_v2: 0.6694
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6694
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.652
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.652
     expected_two_party_share_v2: 0.6844
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6844
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6617
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6617
     expected_two_party_share_v2: 0.6998
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6998
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5691
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5691
     expected_two_party_share_v2: 0.4948
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4948
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Bristol (2001-2010)
 layout: district

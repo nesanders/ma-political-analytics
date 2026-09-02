@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7894
     expected_two_party_share_v2: 0.757
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.757
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8364
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8364
     expected_two_party_share_v2: 0.792
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.792
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7961
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7961
     expected_two_party_share_v2: 0.6143
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6143
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.8228
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.8228
     expected_two_party_share_v2: 0.7848
+    war_resolved: 0.0289
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7848
+    war_model: core
+    war_factors: *id001
   - name: Dane E. Baird, Jr.
     slug: dane-e-baird-jr
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.1772
     expected_two_party_share_v2: 0.2883
+    war_resolved: -0.102
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2883
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6835
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6835
     expected_two_party_share_v2: 0.5552
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5552
+    war_model: core
+    war_factors: *id001
   - name: John Alan Roderick
     slug: john-alan-roderick
     party: Libertarian
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 27th Middlesex (2001-2010)
 layout: district

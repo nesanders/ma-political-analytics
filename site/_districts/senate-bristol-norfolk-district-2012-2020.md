@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6066
     expected_two_party_share_v2: 0.6707
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6707
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2541
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2541
     expected_two_party_share_v2: 0.3289
+    war_resolved: 0.2767
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3289
+    war_model: core
+    war_factors: *id001
   - name: Jacob J. Ventura
     slug: jacob-j-ventura
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7459
     expected_two_party_share_v2: 0.5877
+    war_resolved: -0.1933
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5877
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5579
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5579
     expected_two_party_share_v2: 0.6346
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6346
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3813
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3813
     expected_two_party_share_v2: 0.5522
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5522
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5092
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5093
     expected_two_party_share_v2: 0.4629
+    war_resolved: 0.1625
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4629
+    war_model: core
+    war_factors: *id001
   - name: Jeffrey Robert Bailey
     slug: jeffrey-robert-bailey
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4907
     expected_two_party_share_v2: 0.4537
+    war_resolved: -0.0791
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4537
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Bristol & Norfolk District (2012-2020)
 layout: district

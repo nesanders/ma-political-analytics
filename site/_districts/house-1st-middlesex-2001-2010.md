@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6008
     expected_two_party_share_v2: 0.5115
+    war_resolved: 0.1137
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5115
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Jesse Reich
     slug: jesse-reich
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3992
     expected_two_party_share_v2: 0.4051
+    war_resolved: -0.0303
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4051
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5272
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4728
     expected_two_party_share_v2: 0.5879
+    war_resolved: -0.0221
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5879
+    war_model: core
+    war_factors: *id001
   - name: Virginia C. Wood
     slug: virginia-c-wood
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5272
     expected_two_party_share_v2: 0.4723
+    war_resolved: -0.0381
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4723
+    war_model: core
+    war_factors: *id001
   - name: Zachary E. Saboliauskas
     slug: zachary-e-saboliauskas
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4898
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5102
     expected_two_party_share_v2: 0.61
+    war_resolved: -0.0145
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.61
+    war_model: core
+    war_factors: *id001
   - name: Carol L. Bousquet
     slug: carol-l-bousquet
     party: Democratic
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4898
     expected_two_party_share_v2: 0.4527
+    war_resolved: -0.0482
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4527
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5143
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4857
     expected_two_party_share_v2: 0.6075
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6075
+    war_model: core
+    war_factors: *id001
   - name: Faye L. Morrison
     slug: faye-l-morrison
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.345
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.655
     expected_two_party_share_v2: 0.54
+    war_resolved: 0.0989
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.54
+    war_model: core
+    war_factors: *id001
   - name: Faye L. Morrison
     slug: faye-l-morrison
     party: Democratic
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.345
     expected_two_party_share_v2: 0.3766
+    war_resolved: -0.0155
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3766
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Middlesex (2001-2010)
 layout: district

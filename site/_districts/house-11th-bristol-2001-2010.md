@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6553
     expected_two_party_share_v2: 0.6838
+    war_resolved: -0.0174
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6838
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Ivo M. Almeida
     slug: ivo-m-almeida
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.3447
     expected_two_party_share_v2: 0.3764
+    war_resolved: -0.0428
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3764
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6839
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6839
     expected_two_party_share_v2: 0.6986
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6986
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7262
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7262
     expected_two_party_share_v2: 0.7235
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7235
+    war_model: core
+    war_factors: *id001
   - name: Dennis G. Dallaire, Jr.
     slug: dennis-g-dallaire-jr
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7363
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7363
     expected_two_party_share_v2: 0.7392
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7392
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6906
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6906
     expected_two_party_share_v2: 0.5589
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5589
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 11th Bristol (2001-2010)
 layout: district

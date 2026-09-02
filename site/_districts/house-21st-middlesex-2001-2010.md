@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4627
     expected_two_party_share_v2: 0.5821
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5821
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5637
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5637
     expected_two_party_share_v2: 0.6352
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6352
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5336
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5336
     expected_two_party_share_v2: 0.6219
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6219
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5745
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5745
     expected_two_party_share_v2: 0.6538
+    war_resolved: -0.0053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6538
+    war_model: core
+    war_factors: *id001
   - name: John J. Cirignano
     slug: john-j-cirignano
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4255
     expected_two_party_share_v2: 0.4193
+    war_resolved: -0.0678
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4193
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3969
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3969
     expected_two_party_share_v2: 0.404
+    war_resolved: 0.271
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.404
+    war_model: core
+    war_factors: *id001
   - name: John J. Cirignano
     slug: john-j-cirignano
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6031
     expected_two_party_share_v2: 0.5126
+    war_resolved: -0.1876
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5126
+    war_model: core
+    war_factors: *id001
   - name: Elias Israel
     slug: elias-israel
     party: Libertarian
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 21st Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4872
     expected_two_party_share_v2: 0.5951
+    war_resolved: -0.0268
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5951
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Patrick J. Foran
     slug: patrick-j-foran
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5128
     expected_two_party_share_v2: 0.4651
+    war_resolved: -0.0334
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4651
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5695
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5695
     expected_two_party_share_v2: 0.6408
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6408
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5076
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5076
     expected_two_party_share_v2: 0.6186
+    war_resolved: -0.0984
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6186
+    war_model: core
+    war_factors: *id001
   - name: Richard W. Neitz
     slug: richard-w-neitz
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4924
     expected_two_party_share_v2: 0.4545
+    war_resolved: 0.0253
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4545
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5553
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5553
     expected_two_party_share_v2: 0.4872
+    war_resolved: 0.0217
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4872
+    war_model: core
+    war_factors: *id001
   - name: Richard W. Neitz
     slug: richard-w-neitz
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4447
     expected_two_party_share_v2: 0.4294
+    war_resolved: 0.0617
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4294
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3997
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6003
     expected_two_party_share_v2: 0.5112
+    war_resolved: 0.1065
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5112
+    war_model: core
+    war_factors: *id001
   - name: Cleon H. Turner
     slug: cleon-h-turner
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3997
     expected_two_party_share_v2: 0.4054
+    war_resolved: -0.0231
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4054
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Barnstable (2001-2010)
 layout: district

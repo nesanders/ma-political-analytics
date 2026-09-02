@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7136
     expected_two_party_share_v2: 0.5706
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5706
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.3318
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3318
     expected_two_party_share_v2: 0.5135
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5135
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6646
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6646
     expected_two_party_share_v2: 0.6909
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6909
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4897
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4897
     expected_two_party_share_v2: 0.6094
+    war_resolved: 0.0503
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6094
+    war_model: core
+    war_factors: *id001
   - name: John P. Lock
     slug: john-p-lock
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5103
     expected_two_party_share_v2: 0.4637
+    war_resolved: -0.1234
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4637
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5976
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5976
     expected_two_party_share_v2: 0.5095
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5095
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 32nd Middlesex District (2012-2020)
 layout: district

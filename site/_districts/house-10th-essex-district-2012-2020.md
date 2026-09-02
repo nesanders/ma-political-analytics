@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7029
     expected_two_party_share_v2: 0.7111
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7111
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3879
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3879
     expected_two_party_share_v2: 0.556
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.556
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7042
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7042
     expected_two_party_share_v2: 0.5657
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5657
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.592
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.592
     expected_two_party_share_v2: 0.6634
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6634
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7309
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7309
     expected_two_party_share_v2: 0.5799
+    war_resolved: 0.25
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5799
+    war_model: core
+    war_factors: *id001
   - name: Dwight J. Caufield
     slug: dwight-j-caufield
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.2691
     expected_two_party_share_v2: 0.3367
+    war_resolved: -0.1666
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3367
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Essex District (2012-2020)
 layout: district

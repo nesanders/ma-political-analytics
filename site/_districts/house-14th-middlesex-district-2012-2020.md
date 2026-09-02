@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.789
     expected_two_party_share_v2: 0.7669
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7669
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3521
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3521
     expected_two_party_share_v2: 0.3806
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3806
+    war_model: core
+    war_factors: *id001
   - name: Daniel L. Factor
     slug: daniel-l-factor
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7573
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7572
     expected_two_party_share_v2: 0.7398
+    war_resolved: -0.1162
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7398
+    war_model: core
+    war_factors: *id001
   - name: Helen Brady
     slug: helen-brady
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.2428
     expected_two_party_share_v2: 0.3229
+    war_resolved: 0.0535
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3229
+    war_model: core
+    war_factors: *id001
   - name: Daniel L. Factor
     slug: daniel-l-factor
     party: Other
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5207
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5207
     expected_two_party_share_v2: 0.6257
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6257
+    war_model: core
+    war_factors: *id001
   - name: Kenneth William Van Tassell
     slug: kenneth-william-van-tassell
     party: Libertarian
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.633
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.633
     expected_two_party_share_v2: 0.5282
+    war_resolved: 0.1258
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5282
+    war_model: core
+    war_factors: *id001
   - name: Michael J. Benn
     slug: michael-j-benn
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.367
     expected_two_party_share_v2: 0.3884
+    war_resolved: -0.0424
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3884
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Middlesex District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4056
     expected_two_party_share_v2: 0.5525
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5525
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2728
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7271
     expected_two_party_share_v2: 0.7214
+    war_resolved: -0.0751
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7214
+    war_model: core
+    war_factors: *id001
   - name: Matthew Crescenzo
     slug: matthew-crescenzo
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2729
     expected_two_party_share_v2: 0.3388
+    war_resolved: 0.0149
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3388
+    war_model: core
+    war_factors: *id001
   - name: Michael Coller
     slug: michael-coller
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5562
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4438
     expected_two_party_share_v2: 0.5751
+    war_resolved: -0.0257
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5751
+    war_model: core
+    war_factors: *id001
   - name: Jennifer Migliore
     slug: jennifer-migliore
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5562
     expected_two_party_share_v2: 0.4876
+    war_resolved: -0.037
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4876
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4415
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5585
     expected_two_party_share_v2: 0.6456
+    war_resolved: -0.04
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6456
+    war_model: core
+    war_factors: *id001
   - name: Christopher J. Finn
     slug: christopher-j-finn
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4415
     expected_two_party_share_v2: 0.4275
+    war_resolved: -0.0331
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4275
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5648
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4352
     expected_two_party_share_v2: 0.4244
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4244
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Essex District (2012-2020)
 layout: district

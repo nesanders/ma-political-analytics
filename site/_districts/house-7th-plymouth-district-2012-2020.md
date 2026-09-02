@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4703
     expected_two_party_share_v2: 0.5995
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5995
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2251
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7749
     expected_two_party_share_v2: 0.603
+    war_resolved: -0.045
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.603
+    war_model: core
+    war_factors: *id001
   - name: Alex A. Bezanson
     slug: alex-a-bezanson
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2251
     expected_two_party_share_v2: 0.3136
+    war_resolved: 0.1284
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3136
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4757
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5243
     expected_two_party_share_v2: 0.6176
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6176
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3652
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6348
     expected_two_party_share_v2: 0.6859
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6859
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4924
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5076
     expected_two_party_share_v2: 0.4626
+    war_resolved: 0.0798
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4626
+    war_model: core
+    war_factors: *id001
   - name: Robert L. Toomey, Jr.
     slug: robert-l-toomey-jr
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4924
     expected_two_party_share_v2: 0.454
+    war_resolved: 0.0036
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.454
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Plymouth District (2012-2020)
 layout: district

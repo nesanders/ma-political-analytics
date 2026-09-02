@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.62
     expected_two_party_share_v2: 0.5217
+    war_resolved: 0.0746
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5217
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kevin P. Conway
     slug: kevin-p-conway
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.38
     expected_two_party_share_v2: 0.3949
+    war_resolved: 0.0088
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3949
+    war_model: core
+    war_factors: *id001
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: George Simolaris, Jr.
     slug: george-simolaris-jr
     party: Other
@@ -115,6 +133,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5112
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5112
     expected_two_party_share_v2: 0.6075
+    war_resolved: 0.0383
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6075
+    war_model: core
+    war_factors: *id001
   - name: Anthony Lucacio
     slug: anthony-lucacio
     party: Republican
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4888
     expected_two_party_share_v2: 0.4527
+    war_resolved: -0.0985
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4527
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4806
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.5939
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5939
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5278
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5278
     expected_two_party_share_v2: 0.6292
+    war_resolved: -0.0048
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6292
+    war_model: core
+    war_factors: *id001
   - name: Marc T. Lombardo
     slug: marc-t-lombardo
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4722
     expected_two_party_share_v2: 0.4439
+    war_resolved: -0.0683
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4439
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3818
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3818
     expected_two_party_share_v2: 0.396
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.396
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 22nd Middlesex (2001-2010)
 layout: district

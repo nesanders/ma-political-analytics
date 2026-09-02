@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.1272
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.3026
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 title: Roy A. Owens
 layout: candidate
 ---

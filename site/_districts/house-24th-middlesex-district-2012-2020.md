@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8341
     expected_two_party_share_v2: 0.7778
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7778
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4872
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4872
     expected_two_party_share_v2: 0.5955
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5955
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.807
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.807
     expected_two_party_share_v2: 0.7661
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7661
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6291
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6291
     expected_two_party_share_v2: 0.6829
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6829
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7168
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7168
     expected_two_party_share_v2: 0.5724
+    war_resolved: 0.1672
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5724
+    war_model: core
+    war_factors: *id001
   - name: James F. Gammill
     slug: james-f-gammill
     party: Other
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Tommasina Anne Olson
     slug: tommasina-anne-olson
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.2832
     expected_two_party_share_v2: 0.3442
+    war_resolved: -0.0838
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3442
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 24th Middlesex District (2012-2020)
 layout: district

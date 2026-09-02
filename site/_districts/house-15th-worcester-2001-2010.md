@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6459
     expected_two_party_share_v2: 0.6788
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6788
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6911
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6911
     expected_two_party_share_v2: 0.7024
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7024
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7479
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7479
     expected_two_party_share_v2: 0.735
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.735
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6843
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6843
     expected_two_party_share_v2: 0.7118
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7118
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.557
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.557
     expected_two_party_share_v2: 0.4884
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4884
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 15th Worcester (2001-2010)
 layout: district

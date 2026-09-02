@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7531
     expected_two_party_share_v2: 0.7354
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7354
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.803
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.803
     expected_two_party_share_v2: 0.7615
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7615
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7746
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7746
     expected_two_party_share_v2: 0.749
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.749
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.783
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.783
     expected_two_party_share_v2: 0.7638
+    war_resolved: 0.0828
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7638
+    war_model: core
+    war_factors: *id001
   - name: Camillo Giangrande, III
     slug: camillo-giangrande-iii
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.217
     expected_two_party_share_v2: 0.3093
+    war_resolved: -0.1559
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3093
+    war_model: core
+    war_factors: *id001
   - name: Douglas L. Krick
     slug: douglas-l-krick
     party: Libertarian
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6539
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6539
     expected_two_party_share_v2: 0.5396
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5396
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Suffolk (2001-2010)
 layout: district

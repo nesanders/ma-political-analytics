@@ -10,7 +10,7 @@ layout: default
 
   <section>
     <h2>Seats held</h2>
-    <p>Sorted by WAR (biggest overperformance relative to the district's baseline lean first).</p>
+    <p>Sorted by WAR (biggest overperformance relative to the district's baseline expectation first).</p>
     <table>
       <thead>
         <tr><th>District</th><th>Chamber</th><th>Winner</th><th>WAR</th></tr>
@@ -21,10 +21,19 @@ layout: default
           <td><a href="{{ s.url | relative_url }}">{{ s.district_name }}</a></td>
           <td>{{ s.chamber | capitalize }}</td>
           <td><a href="{{ '/candidate/' | append: s.winner_slug | append: '/' | relative_url }}">{{ s.winner_name }}</a></td>
-          <td>{% if s.war %}{{ s.war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if s.war_resolved %}{{ s.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+    <p><small>
+      <strong>WAR (wins above replacement)</strong> is how much better (or
+      worse) this winner did than a generic candidate of their party would
+      be expected to, from a regression on district lean, statewide tide,
+      and incumbency — plus local demographics where this district's own
+      Census match supports it. Null for uncontested races. See the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the full computation.
+    </small></p>
   </section>
 </article>

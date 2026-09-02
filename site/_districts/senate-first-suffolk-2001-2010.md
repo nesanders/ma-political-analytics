@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7533
     expected_two_party_share_v2: 0.7355
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7355
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8032
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8032
     expected_two_party_share_v2: 0.7616
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7616
+    war_model: core
+    war_factors: *id001
   - name: Althea Garrison
     slug: althea-garrison
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7748
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7748
     expected_two_party_share_v2: 0.7492
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7492
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7832
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7832
     expected_two_party_share_v2: 0.764
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.764
+    war_model: core
+    war_factors: *id001
   - name: Susan C. Long
     slug: susan-c-long
     party: Other
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6541
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6542
     expected_two_party_share_v2: 0.5397
+    war_resolved: 0.3172
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5397
+    war_model: core
+    war_factors: *id001
   - name: Walter R. Campbell
     slug: walter-r-campbell
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.3458
     expected_two_party_share_v2: 0.3769
+    war_resolved: -0.2338
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3769
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Suffolk (2001-2010)
 layout: district

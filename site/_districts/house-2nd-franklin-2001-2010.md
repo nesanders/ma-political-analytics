@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6195
     expected_two_party_share_v2: 0.5213
+    war_resolved: 0.0324
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5213
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Steven E. Adam
     slug: steven-e-adam
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.3805
     expected_two_party_share_v2: 0.3953
+    war_resolved: 0.051
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3953
+    war_model: core
+    war_factors: *id001
   - name: Genevieve C. Fraser
     slug: genevieve-c-fraser
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6786
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6786
     expected_two_party_share_v2: 0.6958
+    war_resolved: 0.0951
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6958
+    war_model: core
+    war_factors: *id001
   - name: Robert E. Parks
     slug: robert-e-parks
     party: Republican
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3214
     expected_two_party_share_v2: 0.3644
+    war_resolved: -0.1553
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3644
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7048
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7048
     expected_two_party_share_v2: 0.7122
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7122
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6321
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6321
     expected_two_party_share_v2: 0.6842
+    war_resolved: 0.0767
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6842
+    war_model: core
+    war_factors: *id001
   - name: Christopher Eugene Richard
     slug: christopher-eugene-richard
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3679
     expected_two_party_share_v2: 0.3889
+    war_resolved: -0.1498
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3889
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5218
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5218
     expected_two_party_share_v2: 0.4699
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4699
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Franklin (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6407
     expected_two_party_share_v2: 0.6887
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6887
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3022
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3022
     expected_two_party_share_v2: 0.3543
+    war_resolved: 0.2903
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3543
+    war_model: core
+    war_factors: *id001
   - name: Ryan R. Losco
     slug: ryan-r-losco
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.6978
     expected_two_party_share_v2: 0.5623
+    war_resolved: -0.2069
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5623
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6428
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6428
     expected_two_party_share_v2: 0.6794
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6794
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4621
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4621
     expected_two_party_share_v2: 0.5948
+    war_resolved: -0.0458
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5948
+    war_model: core
+    war_factors: *id001
   - name: Rosemary Connelly Smedile
     slug: rosemary-connelly-smedile
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5379
     expected_two_party_share_v2: 0.4783
+    war_resolved: -0.0273
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4783
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5922
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5922
     expected_two_party_share_v2: 0.5067
+    war_resolved: 0.1225
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5067
+    war_model: core
+    war_factors: *id001
   - name: Karin K. Rhoton
     slug: karin-k-rhoton
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4078
     expected_two_party_share_v2: 0.4099
+    war_resolved: -0.0391
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4099
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Essex District (2012-2020)
 layout: district

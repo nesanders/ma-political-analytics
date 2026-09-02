@@ -43,6 +43,15 @@ races:
   expected_two_party_share_v3_finance: 0.5023
   war_v3_finance: -0.0319
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0319
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.5023
+  war_model: finance
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -83,6 +92,11 @@ races:
   expected_two_party_share_v3_finance: 0.4602
   war_v3_finance: -0.0945
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0945
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4602
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -123,6 +137,11 @@ races:
   expected_two_party_share_v3_finance: 0.5933
   war_v3_finance: -0.1328
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.1328
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.5933
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -163,6 +182,11 @@ races:
   expected_two_party_share_v3_finance: 0.6182
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6182
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -203,6 +227,11 @@ races:
   expected_two_party_share_v3_finance: 0.5891
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5891
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -243,6 +272,11 @@ races:
   expected_two_party_share_v3_finance: 0.6569
   war_v3_finance: -0.1233
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.1233
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.6569
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -283,6 +317,11 @@ races:
   expected_two_party_share_v3_finance: 0.4355
   war_v3_finance: 0.065
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.065
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4355
+  war_model: finance
+  war_factors: *id001
 ocpf_finance:
   cpf_ids:
   - 11636

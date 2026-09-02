@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6228
     expected_two_party_share_v2: 0.6663
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6663
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.29
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.29
     expected_two_party_share_v2: 0.4915
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4915
+    war_model: core
+    war_factors: *id001
   - name: Donald J. Flannery
     slug: donald-j-flannery
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6211
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6211
     expected_two_party_share_v2: 0.668
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.668
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4658
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4658
     expected_two_party_share_v2: 0.5968
+    war_resolved: 0.0556
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5968
+    war_model: core
+    war_factors: *id001
   - name: Bob Russell
     slug: bob-russell
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5342
     expected_two_party_share_v2: 0.4763
+    war_resolved: -0.1287
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4763
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6248
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6248
     expected_two_party_share_v2: 0.5239
+    war_resolved: 0.1788
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5239
+    war_model: core
+    war_factors: *id001
   - name: Dennis John McCarthy
     slug: dennis-john-mccarthy
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3752
     expected_two_party_share_v2: 0.3927
+    war_resolved: -0.0954
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3927
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Hampden District (2012-2020)
 layout: district

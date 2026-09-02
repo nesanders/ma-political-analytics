@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4355
     expected_two_party_share_v2: 0.5683
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5683
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2145
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7855
     expected_two_party_share_v2: 0.7522
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7522
+    war_model: core
+    war_factors: *id001
   - name: Matthew O. Moncreaff
     slug: matthew-o-moncreaff
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5165
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4835
     expected_two_party_share_v2: 0.596
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.596
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3447
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6553
     expected_two_party_share_v2: 0.6967
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6967
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4741
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.4722
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4722
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Worcester District (2012-2020)
 layout: district

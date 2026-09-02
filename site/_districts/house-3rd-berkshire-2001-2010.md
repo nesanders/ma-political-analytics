@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7854
     expected_two_party_share_v2: 0.7549
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7549
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Mark C. Miller
     slug: mark-c-miller
     party: null
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7805
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7805
     expected_two_party_share_v2: 0.7625
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7625
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7917
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7917
     expected_two_party_share_v2: 0.612
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.612
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7536
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7536
     expected_two_party_share_v2: 0.7483
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7483
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6694
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6694
     expected_two_party_share_v2: 0.5478
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5478
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Berkshire (2001-2010)
 layout: district

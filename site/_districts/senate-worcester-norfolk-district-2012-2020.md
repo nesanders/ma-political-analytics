@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4706
     expected_two_party_share_v2: 0.5868
+    war_resolved: 0.018
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5868
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Christine Crean
     slug: christine-crean
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5294
     expected_two_party_share_v2: 0.4734
+    war_resolved: -0.0782
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4734
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2064
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7936
     expected_two_party_share_v2: 0.7589
+    war_resolved: -0.1792
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7589
+    war_model: core
+    war_factors: *id001
   - name: Thomas M. Merolli
     slug: thomas-m-merolli
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2064
     expected_two_party_share_v2: 0.3038
+    war_resolved: 0.1165
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3038
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4903
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5097
     expected_two_party_share_v2: 0.6203
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6203
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.362
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.638
     expected_two_party_share_v2: 0.5311
+    war_resolved: 0.0261
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5311
+    war_model: core
+    war_factors: *id001
   - name: Richard T. Moore
     slug: richard-t-moore
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.362
     expected_two_party_share_v2: 0.542
+    war_resolved: -0.0992
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.542
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5098
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5098
     expected_two_party_share_v2: 0.4632
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4632
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Worcester & Norfolk District (2012-2020)
 layout: district

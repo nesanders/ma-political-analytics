@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5522
     expected_two_party_share_v2: 0.6319
+    war_resolved: 0.0167
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6319
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: David M. Dunford
     slug: david-m-dunford
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4478
     expected_two_party_share_v2: 0.4308
+    war_resolved: -0.0794
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4308
+    war_model: core
+    war_factors: *id001
   - name: James A. Feeney
     slug: james-a-feeney
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6233
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6233
     expected_two_party_share_v2: 0.6796
+    war_resolved: -0.0009
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6796
+    war_model: core
+    war_factors: *id001
   - name: Donald F. Howell
     slug: donald-f-howell
     party: Republican
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3767
     expected_two_party_share_v2: 0.3935
+    war_resolved: -0.0722
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3935
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5655
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4926
+    war_resolved: 0.0649
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4926
+    war_model: core
+    war_factors: *id001
   - name: Aaron R. Maloy
     slug: aaron-r-maloy
     party: Republican
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.424
+    war_resolved: 0.0185
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.424
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5896
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4103
     expected_two_party_share_v2: 0.5678
+    war_resolved: 0.0039
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5678
+    war_model: core
+    war_factors: *id001
   - name: Sarah K. Peake
     slug: sarah-k-peake
     party: Democratic
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5897
     expected_two_party_share_v2: 0.5053
+    war_resolved: -0.077
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5053
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4411
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5589
     expected_two_party_share_v2: 0.4893
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4893
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Barnstable (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5939
     expected_two_party_share_v2: 0.5075
+    war_resolved: 0.0354
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5075
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4061
     expected_two_party_share_v2: 0.5552
+    war_resolved: -0.0981
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5552
+    war_model: core
+    war_factors: *id001
   - name: Michael Luis Mecenas
     slug: michael-luis-mecenas
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2385
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7615
     expected_two_party_share_v2: 0.7524
+    war_resolved: -0.232
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7524
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Cusack
     slug: paul-j-cusack
     party: Democratic
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2385
     expected_two_party_share_v2: 0.3207
+    war_resolved: 0.1589
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3207
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5419
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4581
     expected_two_party_share_v2: 0.4365
+    war_resolved: 0.1115
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4365
+    war_model: core
+    war_factors: *id001
   - name: Aaron S. Kanzer
     slug: aaron-s-kanzer
     party: Democratic
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5419
     expected_two_party_share_v2: 0.4801
+    war_resolved: -0.0281
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4801
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4112
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4112
     expected_two_party_share_v2: 0.568
+    war_resolved: -0.0613
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.568
+    war_model: core
+    war_factors: *id001
   - name: Adam G. Chaprales, Sr
     slug: adam-g-chaprales-sr
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5888
     expected_two_party_share_v2: 0.5051
+    war_resolved: -0.0118
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5051
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5148
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5148
     expected_two_party_share_v2: 0.4658
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4658
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Barnstable District (2012-2020)
 layout: district

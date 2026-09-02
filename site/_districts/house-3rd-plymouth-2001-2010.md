@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4486
     expected_two_party_share_v2: 0.5747
+    war_resolved: 0.0462
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5747
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Timothy F. Finnerty
     slug: timothy-f-finnerty
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5514
     expected_two_party_share_v2: 0.4855
+    war_resolved: -0.1064
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4855
+    war_model: core
+    war_factors: *id001
   - name: Carlton A. Chambers
     slug: carlton-a-chambers
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.54
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.54
     expected_two_party_share_v2: 0.6227
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6227
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.51
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.51
     expected_two_party_share_v2: 0.6094
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6094
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5305
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5305
     expected_two_party_share_v2: 0.6306
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6306
+    war_model: core
+    war_factors: *id001
   - name: Laura M. Burns
     slug: laura-m-burns
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3412
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3412
     expected_two_party_share_v2: 0.3746
+    war_resolved: 0.3019
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3746
+    war_model: core
+    war_factors: *id001
   - name: Nathaniel G. Palmer
     slug: nathaniel-g-palmer
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6588
     expected_two_party_share_v2: 0.542
+    war_resolved: -0.2185
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.542
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Plymouth (2001-2010)
 layout: district

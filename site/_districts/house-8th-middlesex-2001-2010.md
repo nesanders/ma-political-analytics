@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4375
     expected_two_party_share_v2: 0.5817
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5817
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Jonathan A. Loya
     slug: jonathan-a-loya
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5722
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5721
     expected_two_party_share_v2: 0.4961
+    war_resolved: 0.0261
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4961
+    war_model: core
+    war_factors: *id001
   - name: Dan Haley
     slug: dan-haley
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4279
     expected_two_party_share_v2: 0.4205
+    war_resolved: 0.0573
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4205
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5317
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4683
     expected_two_party_share_v2: 0.5879
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5879
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.558
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.442
     expected_two_party_share_v2: 0.5845
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5845
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3428
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6572
     expected_two_party_share_v2: 0.5412
+    war_resolved: 0.1586
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5412
+    war_model: core
+    war_factors: *id001
   - name: James P. Carboneau
     slug: james-p-carboneau
     party: Democratic
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3428
     expected_two_party_share_v2: 0.3754
+    war_resolved: -0.0752
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3754
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Middlesex (2001-2010)
 layout: district

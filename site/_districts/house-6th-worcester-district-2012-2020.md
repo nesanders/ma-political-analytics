@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4938
     expected_two_party_share_v2: 0.599
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.599
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2089
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7911
     expected_two_party_share_v2: 0.7551
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7551
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4801
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5199
     expected_two_party_share_v2: 0.6152
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6152
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3684
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6316
     expected_two_party_share_v2: 0.6842
+    war_resolved: -0.0548
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6842
+    war_model: core
+    war_factors: *id001
   - name: Karen A. Spiewak
     slug: karen-a-spiewak
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3684
     expected_two_party_share_v2: 0.3889
+    war_resolved: -0.0183
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3889
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5357
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4643
     expected_two_party_share_v2: 0.4397
+    war_resolved: 0.1152
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4397
+    war_model: core
+    war_factors: *id001
   - name: Kathleen Walker
     slug: kathleen-walker
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5357
     expected_two_party_share_v2: 0.4769
+    war_resolved: -0.0318
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4769
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Worcester District (2012-2020)
 layout: district

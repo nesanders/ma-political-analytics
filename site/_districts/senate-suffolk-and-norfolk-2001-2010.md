@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5953
     expected_two_party_share_v2: 0.5085
+    war_resolved: 0.1687
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5085
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Brad Williams
     slug: brad-williams
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4047
     expected_two_party_share_v2: 0.4081
+    war_resolved: -0.0853
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4081
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6768
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6768
     expected_two_party_share_v2: 0.6949
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6949
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6371
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6371
     expected_two_party_share_v2: 0.6765
+    war_resolved: 0.0108
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6765
+    war_model: core
+    war_factors: *id001
   - name: Douglas E. Obey
     slug: douglas-e-obey
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3629
     expected_two_party_share_v2: 0.3862
+    war_resolved: -0.0735
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3862
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.674
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.674
     expected_two_party_share_v2: 0.7063
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7063
+    war_model: core
+    war_factors: *id001
   - name: Robert W. Joyce
     slug: robert-w-joyce
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5135
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5135
     expected_two_party_share_v2: 0.4655
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4655
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Suffolk and Norfolk (2001-2010)
 layout: district

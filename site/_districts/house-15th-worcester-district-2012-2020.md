@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6965
     expected_two_party_share_v2: 0.7052
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7052
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.39
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.39
     expected_two_party_share_v2: 0.5442
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5442
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7084
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7084
     expected_two_party_share_v2: 0.714
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.714
+    war_model: core
+    war_factors: *id001
   - name: Ralph Perez
     slug: ralph-perez
     party: Other
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5578
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5578
     expected_two_party_share_v2: 0.6453
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6453
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7016
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7016
     expected_two_party_share_v2: 0.5644
+    war_resolved: 0.1902
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5644
+    war_model: core
+    war_factors: *id001
   - name: Brian J. O'Malley
     slug: brian-j-omalley
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.2984
     expected_two_party_share_v2: 0.3522
+    war_resolved: -0.1068
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3522
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 15th Worcester District (2012-2020)
 layout: district

@@ -43,6 +43,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: null
+  war_model: null
+  war_factors: null
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -83,6 +88,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.141
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4116
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 title: Mike Franco
 layout: candidate
 ---

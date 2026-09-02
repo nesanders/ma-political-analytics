@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5606
     expected_two_party_share_v2: 0.634
+    war_resolved: 0.0271
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.634
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: David A. Smith
     slug: david-a-smith
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4394
     expected_two_party_share_v2: 0.4262
+    war_resolved: -0.0873
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4262
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5466
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4534
     expected_two_party_share_v2: 0.5776
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5776
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5611
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4389
     expected_two_party_share_v2: 0.5724
+    war_resolved: -0.0027
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5724
+    war_model: core
+    war_factors: *id001
   - name: Margaret A. Ishihara
     slug: margaret-a-ishihara
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5611
     expected_two_party_share_v2: 0.4903
+    war_resolved: -0.06
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4903
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5577
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4423
     expected_two_party_share_v2: 0.5846
+    war_resolved: -0.0668
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5846
+    war_model: core
+    war_factors: *id001
   - name: Joel Ryan Malloy
     slug: joel-ryan-malloy
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5577
     expected_two_party_share_v2: 0.4885
+    war_resolved: -0.0063
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4885
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4233
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5767
     expected_two_party_share_v2: 0.4987
+    war_resolved: 0.0232
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4987
+    war_model: core
+    war_factors: *id001
   - name: John T. Donahue
     slug: john-t-donahue
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4233
     expected_two_party_share_v2: 0.4179
+    war_resolved: 0.0602
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4179
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Plymouth (2001-2010)
 layout: district

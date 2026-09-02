@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5591
     expected_two_party_share_v2: 0.6332
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6332
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5391
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4609
     expected_two_party_share_v2: 0.5816
+    war_resolved: 0.0723
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5816
+    war_model: core
+    war_factors: *id001
   - name: Daniel S. Carpenter
     slug: daniel-s-carpenter
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5391
     expected_two_party_share_v2: 0.4786
+    war_resolved: -0.1325
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4786
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6064
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3936
     expected_two_party_share_v2: 0.5485
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5485
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5589
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4411
     expected_two_party_share_v2: 0.584
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.584
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4081
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5918
     expected_two_party_share_v2: 0.5067
+    war_resolved: 0.1411
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5067
+    war_model: core
+    war_factors: *id001
   - name: James F. Murphy, Jr.
     slug: james-f-murphy-jr
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4082
     expected_two_party_share_v2: 0.4099
+    war_resolved: -0.0577
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4099
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Worcester (2001-2010)
 layout: district

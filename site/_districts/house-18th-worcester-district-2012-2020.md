@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.5121
     expected_two_party_share_v2: 0.6087
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6087
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1833
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.8167
     expected_two_party_share_v2: 0.7711
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7711
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4401
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5599
     expected_two_party_share_v2: 0.6467
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6467
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3206
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6794
     expected_two_party_share_v2: 0.5529
+    war_resolved: 0.048
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5529
+    war_model: core
+    war_factors: *id001
   - name: Mark G. Dowgiewicz
     slug: mark-g-dowgiewicz
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3206
     expected_two_party_share_v2: 0.3637
+    war_resolved: 0.0354
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3637
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.467
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.533
     expected_two_party_share_v2: 0.476
+    war_resolved: 0.2246
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.476
+    war_model: core
+    war_factors: *id001
   - name: Donald D. Bourque
     slug: donald-d-bourque
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.467
     expected_two_party_share_v2: 0.4406
+    war_resolved: -0.1412
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4406
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 18th Worcester District (2012-2020)
 layout: district

@@ -43,6 +43,15 @@ races:
   expected_two_party_share_v3_finance: 0.4372
   war_v3_finance: 0.0444
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0444
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4372
+  war_model: finance
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - Campaign fundraising
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -83,6 +92,11 @@ races:
   expected_two_party_share_v3_finance: 0.4417
   war_v3_finance: -0.0748
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0748
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4417
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -123,6 +137,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.1302
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5297
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 ocpf_finance:
   cpf_ids:
   - 13970

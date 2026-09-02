@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6426
     war_v3_demographics: -0.1004
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.1004
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6426
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Mark T. Tashjian
     slug: mark-t-tashjian
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3978
     war_v3_demographics: 0.06
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.06
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3978
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6033
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5766
     war_v3_demographics: -0.0766
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0766
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5766
+    war_model: demographics_full
+    war_factors: *id001
   - name: Leonard Mirra
     slug: leonard-mirra
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4058
     war_v3_demographics: 0.0942
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0942
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4058
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 44809

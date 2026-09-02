@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4462
     expected_two_party_share_v2: 0.5734
+    war_resolved: 0.0166
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5734
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James F. Munafo, Jr.
     slug: james-f-munafo-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5538
     expected_two_party_share_v2: 0.4868
+    war_resolved: -0.0768
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4868
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.55
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.55
     expected_two_party_share_v2: 0.628
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.628
+    war_model: core
+    war_factors: *id001
   - name: Carl D. Yingling
     slug: carl-d-yingling
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4681
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4681
     expected_two_party_share_v2: 0.5873
+    war_resolved: -0.0277
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5873
+    war_model: core
+    war_factors: *id001
   - name: William L. Crocker, Jr.
     slug: william-l-crocker-jr
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5319
     expected_two_party_share_v2: 0.4754
+    war_resolved: -0.035
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4754
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5307
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5307
     expected_two_party_share_v2: 0.6307
+    war_resolved: -0.0409
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6307
+    war_model: core
+    war_factors: *id001
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4693
     expected_two_party_share_v2: 0.4424
+    war_resolved: -0.0322
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4424
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3875
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3874
     expected_two_party_share_v2: 0.399
+    war_resolved: 0.1406
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.399
+    war_model: core
+    war_factors: *id001
   - name: Ann B. Canedy
     slug: ann-b-canedy
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6126
     expected_two_party_share_v2: 0.5176
+    war_resolved: -0.0572
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5176
+    war_model: core
+    war_factors: *id001
   - name: Peter A. White
     slug: peter-a-white
     party: null
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 2nd Barnstable (2001-2010)
 layout: district

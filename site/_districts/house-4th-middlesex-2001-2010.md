@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.533
     expected_two_party_share_v2: 0.4758
+    war_resolved: 0.0276
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4758
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Danielle W. Gregoire
     slug: danielle-w-gregoire
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.467
     expected_two_party_share_v2: 0.5973
+    war_resolved: -0.1007
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5973
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5848
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5848
     expected_two_party_share_v2: 0.5027
+    war_resolved: 0.0189
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5027
+    war_model: core
+    war_factors: *id001
   - name: Arthur G. Vigeant
     slug: arthur-g-vigeant
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4152
     expected_two_party_share_v2: 0.4139
+    war_resolved: 0.0645
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4139
+    war_model: core
+    war_factors: *id001
   - name: Joseph L. Valianti
     slug: joseph-l-valianti
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5462
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5462
     expected_two_party_share_v2: 0.6285
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6285
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5728
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5728
     expected_two_party_share_v2: 0.6529
+    war_resolved: 0.0545
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6529
+    war_model: core
+    war_factors: *id001
   - name: Kenneth A. Cosco, Jr.
     slug: kenneth-a-cosco-jr
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4272
     expected_two_party_share_v2: 0.4202
+    war_resolved: -0.1276
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4202
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3681
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3681
     expected_two_party_share_v2: 0.3888
+    war_resolved: 0.3452
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3888
+    war_model: core
+    war_factors: *id001
   - name: William J. Hagan
     slug: william-j-hagan
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6319
     expected_two_party_share_v2: 0.5278
+    war_resolved: -0.2618
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5278
+    war_model: core
+    war_factors: *id001
   - name: Mark P. Testagrossa
     slug: mark-p-testagrossa
     party: Libertarian
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 4th Middlesex (2001-2010)
 layout: district

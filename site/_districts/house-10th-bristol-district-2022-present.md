@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5004
     war_v3_demographics: 0.026
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.026
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5004
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Joseph M. Pires
     slug: joseph-m-pires
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4841
     war_v3_demographics: -0.0105
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0105
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4841
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5411
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.518
     war_v3_demographics: 0.0446
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0446
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.518
+    war_model: demographics_full
+    war_factors: *id001
   - name: Jeffrey Gerald Swift
     slug: jeffrey-gerald-swift
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4665
     war_v3_demographics: -0.0291
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0291
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4665
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 42142

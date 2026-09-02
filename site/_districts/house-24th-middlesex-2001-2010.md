@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.697
     expected_two_party_share_v2: 0.7083
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7083
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Lalig Musserian
     slug: lalig-musserian
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7653
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7653
     expected_two_party_share_v2: 0.7545
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7545
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.704
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.704
     expected_two_party_share_v2: 0.5657
+    war_resolved: 0.1196
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5657
+    war_model: core
+    war_factors: *id001
   - name: M. Elizabeth Firenze
     slug: m-elizabeth-firenze
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.296
     expected_two_party_share_v2: 0.3509
+    war_resolved: -0.0362
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3509
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7378
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7378
     expected_two_party_share_v2: 0.74
+    war_resolved: 0.0115
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.74
+    war_model: core
+    war_factors: *id001
   - name: Kevin M. Cuddeback
     slug: kevin-m-cuddeback
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2622
     expected_two_party_share_v2: 0.3331
+    war_resolved: -0.0846
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3331
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5321
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5321
     expected_two_party_share_v2: 0.4753
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4753
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 24th Middlesex (2001-2010)
 layout: district

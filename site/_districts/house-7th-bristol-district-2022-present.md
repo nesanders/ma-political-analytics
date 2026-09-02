@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5439
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5439
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5828
@@ -103,6 +113,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.573
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.573
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 41990

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.52
     expected_two_party_share_v2: 0.6128
+    war_resolved: 0.0106
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6128
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Samuel Biagetti
     slug: samuel-biagetti
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.48
     expected_two_party_share_v2: 0.4474
+    war_resolved: -0.0708
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4474
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2005
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7995
     expected_two_party_share_v2: 0.7621
+    war_resolved: -0.1672
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7621
+    war_model: core
+    war_factors: *id001
   - name: Jean Anne Strauss
     slug: jean-anne-strauss
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2005
     expected_two_party_share_v2: 0.3006
+    war_resolved: 0.1045
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3006
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4296
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5704
     expected_two_party_share_v2: 0.6523
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6523
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3557
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6443
     expected_two_party_share_v2: 0.5344
+    war_resolved: 0.0294
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5344
+    war_model: core
+    war_factors: *id001
   - name: Matthew Castriotta
     slug: matthew-castriotta
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3557
     expected_two_party_share_v2: 0.3822
+    war_resolved: 0.054
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3822
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.4862
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4862
     expected_two_party_share_v2: 0.4507
+    war_resolved: 0.2463
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4507
+    war_model: core
+    war_factors: *id001
   - name: Jason M. Petraitis
     slug: jason-m-petraitis
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5138
     expected_two_party_share_v2: 0.4659
+    war_resolved: -0.1629
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4659
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Worcester District (2012-2020)
 layout: district

@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5318
     war_v3_demographics: -0.0093
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0093
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5318
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5233
     war_v3_demographics: -0.0458
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0458
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5233
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5146
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4992
     war_v3_demographics: 0.0358
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0358
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4992
+    war_model: demographics_full
+    war_factors: *id001
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4979
     war_v3_demographics: -0.0329
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0329
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4979
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 42161

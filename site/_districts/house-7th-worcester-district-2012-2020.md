@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4665
     expected_two_party_share_v2: 0.5846
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5846
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1942
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.8058
     expected_two_party_share_v2: 0.7629
+    war_resolved: -0.1084
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7629
+    war_model: core
+    war_factors: *id001
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.1942
     expected_two_party_share_v2: 0.2973
+    war_resolved: 0.0482
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2973
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4874
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5126
     expected_two_party_share_v2: 0.6114
+    war_resolved: 0.0519
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6114
+    war_model: core
+    war_factors: *id001
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4874
     expected_two_party_share_v2: 0.4513
+    war_resolved: -0.1146
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4513
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3577
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6423
     expected_two_party_share_v2: 0.6899
+    war_resolved: 0.0471
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6899
+    war_model: core
+    war_factors: *id001
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3577
     expected_two_party_share_v2: 0.3832
+    war_resolved: -0.1202
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3832
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5078
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4922
     expected_two_party_share_v2: 0.4545
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4545
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Worcester District (2012-2020)
 layout: district

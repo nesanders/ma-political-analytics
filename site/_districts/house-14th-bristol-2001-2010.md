@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6347
     expected_two_party_share_v2: 0.6731
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6731
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5256
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4744
     expected_two_party_share_v2: 0.5887
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5887
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4915
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5085
     expected_two_party_share_v2: 0.6091
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6091
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5241
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4758
     expected_two_party_share_v2: 0.6024
+    war_resolved: 0.0436
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6024
+    war_model: core
+    war_factors: *id001
   - name: Brian G. Geoghegan
     slug: brian-g-geoghegan
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5242
     expected_two_party_share_v2: 0.4707
+    war_resolved: -0.1167
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4707
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3412
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6588
     expected_two_party_share_v2: 0.542
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.542
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Bristol (2001-2010)
 layout: district

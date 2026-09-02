@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7258
     expected_two_party_share_v2: 0.721
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.721
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7521
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7521
     expected_two_party_share_v2: 0.7346
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7346
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7646
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7646
     expected_two_party_share_v2: 0.7438
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7438
+    war_model: core
+    war_factors: *id001
   - name: Robert K. Gardner, Jr.
     slug: robert-k-gardner-jr
     party: Other
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Carlos Felix
     slug: carlos-felix
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7771
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7771
     expected_two_party_share_v2: 0.7607
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7607
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.7336
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.7336
     expected_two_party_share_v2: 0.5816
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5816
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Bristol (2001-2010)
 layout: district

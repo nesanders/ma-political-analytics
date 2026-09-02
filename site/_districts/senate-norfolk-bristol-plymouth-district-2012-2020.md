@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6795
     expected_two_party_share_v2: 0.6987
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6987
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.31
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.31
     expected_two_party_share_v2: 0.5149
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5149
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6443
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6443
     expected_two_party_share_v2: 0.5341
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5341
+    war_model: core
+    war_factors: *id001
   - name: Jonathan D. Lott
     slug: jonathan-d-lott
     party: Other
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4655
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4655
     expected_two_party_share_v2: 0.5966
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5966
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.587
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.587
     expected_two_party_share_v2: 0.5039
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5039
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk, Bristol & Plymouth District (2012-2020)
 layout: district

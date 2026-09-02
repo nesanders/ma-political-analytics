@@ -95,11 +95,20 @@ layout: default
           <td>{{ seat.lean_dem_share | times: 100 | round: 1 }}% D</td>
           <td>{{ seat.competitiveness_label }}</td>
           <td>{% if winner %}{{ winner.name }} ({{ winner.party | slice: 0, 1 }}), {{ latest.year }}{% endif %}</td>
-          <td>{% if winner.war %}{{ winner.war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if winner.war_resolved %}{{ winner.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
+    <p><small>
+      <strong>WAR (wins above replacement)</strong> is how much better (or
+      worse) a candidate did than a generic candidate of their party would
+      be expected to, from a regression on district lean, statewide tide,
+      and incumbency — plus local demographics where this district's own
+      Census match supports it. Null for uncontested races and minor-party
+      winners — see the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the full computation.
+    </small></p>
   </section>
 </article>
 

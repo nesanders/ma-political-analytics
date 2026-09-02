@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4439
     war_v3_demographics: 0.065
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.065
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4439
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5417
     war_v3_demographics: -0.0506
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0506
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5417
+    war_model: demographics_full
+    war_factors: *id001
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -131,6 +146,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Manuel Soares, Jr
     slug: manuel-soares-jr
     party: Other
@@ -168,6 +188,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Laura A. Hadley
     slug: laura-a-hadley
     party: Other
@@ -205,6 +230,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5228
@@ -251,6 +281,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5012
     war_v3_demographics: 0.034
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.034
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5012
+    war_model: demographics_full
+    war_factors: *id001
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -288,6 +323,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4843
     war_v3_demographics: -0.0195
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0195
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4843
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 41084

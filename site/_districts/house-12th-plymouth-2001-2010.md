@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3854
     expected_two_party_share_v2: 0.5438
+    war_resolved: 0.0017
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5438
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Joseph M. Truschelli
     slug: joseph-m-truschelli
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6146
     expected_two_party_share_v2: 0.5189
+    war_resolved: -0.0644
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5189
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4923
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.4923
     expected_two_party_share_v2: 0.6104
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6104
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5016
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5017
     expected_two_party_share_v2: 0.4589
+    war_resolved: 0.0494
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4589
+    war_model: core
+    war_factors: *id001
   - name: Olly Demacedo
     slug: olly-demacedo
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4983
     expected_two_party_share_v2: 0.4577
+    war_resolved: 0.034
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4577
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5042
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5042
     expected_two_party_share_v2: 0.6167
+    war_resolved: 0.0781
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6167
+    war_model: core
+    war_factors: *id001
   - name: Paul Timmins Curtis
     slug: paul-timmins-curtis
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4958
     expected_two_party_share_v2: 0.4564
+    war_resolved: -0.1512
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4564
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3692
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3692
     expected_two_party_share_v2: 0.3893
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3893
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Plymouth (2001-2010)
 layout: district

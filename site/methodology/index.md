@@ -63,46 +63,46 @@ being explicit about, not hidden:**
   and Senate), not federal — smaller electorates, a higher share of
   uncontested races, and much thinner public polling/finance data per
   race than a Congressional or Senate race has.
-- *Two baselines, both shown*: **WAR v1** is district partisan lean alone
-  (the baseline described above). **WAR v2** folds in one more
-  fundamental — incumbency — same spirit as Split Ticket's approach, but
-  this project's own fit, not theirs. Both are computed and shown side by
-  side throughout the site (district, seat, and candidate pages) — see
-  "WAR v2: a Bayesian fundamentals regression" below for the formula and
-  the real coefficients.
+- *One number, several models feeding it*: the site shows a single WAR
+  figure per race, always computed by the richest model that specific
+  race's own data supports — a core regression on district lean,
+  statewide tide, and incumbency, extended with local demographics or
+  campaign fundraising wherever a district or candidate has data for it
+  (same spirit as Split Ticket's approach, but this project's own fit,
+  not theirs). See "The core regression model" and "Demographics and
+  campaign finance extensions" below for the formulas and the real
+  coefficients, and each page's own "Factors" column for which pieces
+  went into that specific number.
 - *Different redistricting handling*: this site's lean baseline has to
   cross three Massachusetts redistricting vintages (2001-2010, 2012-2020,
   2022-present); Split Ticket's federal-district baseline doesn't face
   that at the same scale.
 
-**A known limitation of WAR v1 specifically, not yet fixed**: an
-uncontested major-party candidate mechanically gets an actual two-party
-share of 100% (there's no opponent to divide the vote against), which
-inflates WAR v1 regardless of how strong a candidate they actually are.
-WAR v1's number is still computed and shown for uncontested races, but
-treat it as directionally meaningful only, not precisely comparable to a
-contested race's.
+**A known limitation of a lean-only baseline**: an uncontested major-party
+candidate mechanically gets an actual two-party share of 100% (there's no
+opponent to divide the vote against), which would inflate a lean-only
+comparison regardless of how strong a candidate they actually are.
 
-**WAR v2 and both WAR v3 diagnostics handle this differently: their WAR
-is null (not shown) for an uncontested race**, rather than a
-mechanically-inflated number. Holding a seat the environment says should
-be competitive, uncontested, is a real signal — but there's no meaningful
-"actual vs. expected" gap to report when the "actual" side is degenerate.
-What's shown instead, everywhere WAR itself would be, is **baseline
-expectation**: what the fitted model expects a generic candidate of that
-party to get here, from district lean, statewide tide, and incumbency
-(and, where it applies, demographics or fundraising) alone. Unlike WAR,
-baseline expectation never depends on the actual outcome, so it's defined
-whether or not the race was contested — the one number on this site that
-answers "how strong should this seat's environment be for this party"
-even when the race itself gave no real signal. It's the same number
-that's always been computed as WAR v2/v3's `expected_two_party_share`
-under the hood (see the regression below); it's just now surfaced
-directly, in its own column, on every district, seat, and candidate page.
+**The regression models below handle this by defining WAR as null (not
+shown) for an uncontested race**, rather than a mechanically-inflated
+number. Holding a seat the environment says should be competitive,
+uncontested, is a real signal — but there's no meaningful "actual vs.
+expected" gap to report when the "actual" side is degenerate. What's
+shown instead, everywhere WAR itself would be, is **expected share**:
+what the fitted model expects a generic candidate of that party to get
+here, from district lean, statewide tide, and incumbency (and, where it
+applies, demographics or fundraising) alone. Unlike WAR, expected share
+never depends on the actual outcome, so it's defined whether or not the
+race was contested — the one number on this site that answers "how
+strong should this seat's environment be for this party" even when the
+race itself gave no real signal. It's the same number that's always been
+computed as the regression's `expected_two_party_share` under the hood
+(see below); it's just now surfaced directly, in its own column, on every
+district, seat, and candidate page.
 
-## WAR v2: a Bayesian fundamentals regression
+## The core regression model
 
-**WAR v2 = actual two-party vote share − a fitted regression's expected
+**WAR = actual two-party vote share − a fitted regression's expected
 share**, where the regression is:
 
 > *own-party share ~ intercept + district lean + statewide tide +
@@ -110,7 +110,7 @@ share**, where the regression is:
 
 "Own-party" means every value is already flipped to the candidate's own
 party's perspective (a Republican's own_lean is `1 − lean_dem_share`,
-same for tide) — the same symmetry the plain WAR v1 definition above
+same for tide) — the same symmetry the plain lean-only definition above
 already uses, so one fit covers both parties.
 
 **Statewide tide** is a new fundamental beyond district lean itself: the
@@ -122,11 +122,11 @@ from a given cycle's overall national/state mood — the same normal-vote-
 plus-national-tide idea behind Gelman & King (1990), cited above, rather
 than lean alone conflating the two.
 
-**Incumbency** is now three terms — 1st, 2nd, and 3rd-or-later
-consecutive term already served (see "Incumbency and open seats" below)
-— rather than v1's plain incumbent/non-incumbent split, so the fit can
-show whether a second or third term brings a bigger or smaller edge than
-the first instead of assuming they're identical.
+**Incumbency** is three terms — 1st, 2nd, and 3rd-or-later consecutive
+term already served (see "Incumbency and open seats" below) — rather
+than a plain incumbent/non-incumbent split, so the fit can show whether a
+second or third term brings a bigger or smaller edge than the first
+instead of assuming they're identical.
 
 ### Why Bayesian, not ordinary least squares
 
@@ -171,7 +171,7 @@ As of the last full pipeline run, on
 (R² = {{ site.data.war_v2.r_squared }}), every coefficient's posterior
 mean and 95% credible interval:
 
-<div id="war-v2-forest-chart" role="img" aria-label="Forest plot of WAR v2's regression coefficients with 95% credible intervals"></div>
+<div id="war-v2-forest-chart" role="img" aria-label="Forest plot of the core regression's coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -195,21 +195,22 @@ landing close to each other says this site's data doesn't show a strong
 looks fairly flat across term number so far.
 
 **What that fit actually looks like against every one of those races**:
-each point is one contested major-party candidate-race, WAR v2's expected
-share (x) against what actually happened (y). A point sitting exactly on
-the dashed diagonal means the model called it perfectly; above the line
-is a real overperformance (positive WAR v2), below is an underperformance
-— the same information the site's own WAR v2 numbers carry, just all
-{{ site.data.war_v2.n }} of them at once instead of one race at a time.
+each point is one contested major-party candidate-race, this model's
+expected share (x) against what actually happened (y). A point sitting
+exactly on the dashed diagonal means the model called it perfectly; above
+the line is a real overperformance (positive WAR), below is an
+underperformance — the same information the site's own WAR numbers
+carry, just all {{ site.data.war_v2.n }} of them at once instead of one
+race at a time.
 
-<div id="war-v2-fit-scatter" role="img" aria-label="Scatter plot of WAR v2's expected two-party share against each candidate's actual share, colored by party"></div>
+<div id="war-v2-fit-scatter" role="img" aria-label="Scatter plot of the core regression's expected two-party share against each candidate's actual share, colored by party"></div>
 
 Every district and seat page has a "What drives replacement level" chart
 breaking a race's most recent contested year into these pieces (intercept,
-lean, tide, incumbency, and the WAR v2 residual) for each candidate, and a
-candidate's own page charts their actual share against WAR v2's expected
-share, and the same decomposition, across every year they ran — the gap
-between the two lines on the first chart *is* WAR v2, made visible.
+lean, tide, incumbency, and the WAR residual) for each candidate, and a
+candidate's own page charts their actual share against this model's
+expected share, and the same decomposition, across every year they ran —
+the gap between the two lines on the first chart *is* WAR, made visible.
 
 **A related, worth-naming property**: in `own_lean`/`own_tide`'s own
 terms, the two candidates in a race are exact mirrors
@@ -219,33 +220,35 @@ chart are both genuinely positive because a district's baseline splits
 into two positive shares, not because the model favors both sides at
 once. The **intercept**, though, is a single fitted constant applied
 identically to both candidates' own expected share, not split between
-them — so unlike WAR v1 (where the two opposing candidates' expected
-shares always summed to exactly 100%, and their WAR values were exact
-opposites), **WAR v2's two expected shares in a race don't sum to 100%**,
-and the two WAR v2 values aren't required to cancel out. That's an
-accepted consequence of letting the regression fit its own intercept
-rather than assuming WAR v1's implicit "coefficient on lean = 1, no
-intercept" structure — not an error in the numbers, but a real change in
-what the model guarantees.
+them — so unlike a plain lean-only baseline (where the two opposing
+candidates' expected shares always summed to exactly 100%, and their WAR
+values were exact opposites), **this model's two expected shares in a
+race don't sum to 100%**, and the two WAR values aren't required to
+cancel out. That's an accepted consequence of letting the regression fit
+its own intercept rather than assuming a lean-only "coefficient on lean =
+1, no intercept" structure — not an error in the numbers, but a real
+change in what the model guarantees.
 
-## WAR v3: demographics and campaign finance (experimental)
+## Demographics and campaign finance extensions
 
-Two further diagnostic regressions, built the same Bayesian way as WAR v2
-above, extend the core model with demographics and campaign finance —
-the remaining fundamentals this project's original design called for
-(same spirit as Split Ticket's approach, this project's own fit, not
-theirs). **Neither is folded into any candidate's actual WAR number the
-way v2 is** — both fit on real but genuinely thin slices of this site's
-data, for reasons specific to what's been fetched so far, not an
-oversight:
+Two further regressions, built the same Bayesian way as the core model
+above, extend it with demographics and campaign finance — the remaining
+fundamentals this project's original design called for (same spirit as
+Split Ticket's approach, this project's own fit, not theirs). **Each
+extension is only folded into a candidate's actual WAR number where that
+specific district or candidate has the data to support it** — both fit
+on real but genuinely thin slices of this site's data, for reasons
+specific to what's been fetched so far, not an oversight; where the data
+falls short, the site falls back to the core model above and the
+Factors column says so:
 
 {% if site.data.war_v3_demographics.core or site.data.war_v3_demographics.full %}
 **Demographics** extends the core model with district-level Census fields
 (2020 PL 94-171 + 2022 ACS 5-year, current 2022-present vintage only). It's
 fit in **two tiers,
 falling back gracefully rather than all-or-nothing**: a district missing
-some Census fields still gets a simpler version of this diagnostic
-instead of being dropped from WAR v3 entirely.
+some Census fields still gets a simpler version of this extension
+instead of being dropped from the demographics model entirely.
 
 {% if site.data.war_v3_demographics.core %}
 The **core** tier ({{ site.data.war_v3_demographics.core.n }} candidate-races,
@@ -265,7 +268,7 @@ cycles to trust it as a stable multi-year trend rather than two elections'
 worth of noise. Its prior is deliberately tighter than its own main
 effect's for exactly that reason.
 
-<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the WAR v3 demographics core tier's two added coefficients with 95% credible intervals"></div>
+<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the demographics extension's core tier's two added coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -286,7 +289,7 @@ income are already shown in each district's own Demographics section
 above — this is the first time either is used *in* a regression rather
 than just displayed.
 
-<div id="war-v3-demographics-full-forest-chart" role="img" aria-label="Forest plot of the WAR v3 demographics full tier's three added coefficients with 95% credible intervals"></div>
+<div id="war-v3-demographics-full-forest-chart" role="img" aria-label="Forest plot of the demographics extension's full tier's three added coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -303,7 +306,7 @@ this fit's sample, so continuous slopes, a 0/1 incumbency dummy, and
 population-share/income terms can all be read as "vote-share points per 1
 SD of this predictor":
 
-<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all ten of the WAR v3 demographics full tier's non-intercept coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all ten of the demographics extension's full tier's non-intercept coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
 {% endif %}
 
 Neither tier's Demographics slice is chosen per-race — it's chosen per
@@ -311,7 +314,7 @@ Neither tier's Demographics slice is chosen per-race — it's chosen per
 combined bachelors/Hispanic/voting-age/income effect everywhere on that
 district's own pages; a district with only a partial match uses the core
 tier's bachelors-only effect instead; a district with no match at all
-still falls back to WAR v2 alone, same as before this tiering existed.
+still falls back to the core model alone, same as before this tiering existed.
 {% endif %}
 
 {% if site.data.war_v3_finance %}
@@ -333,7 +336,7 @@ the new term charted below, on its own scale — log(dollars) moves in much
 smaller coefficient units than lean/tide do, so plotting it next to them
 would make a clearly-nonzero effect look like it hugs zero:
 
-<div id="war-v3-finance-forest-chart" role="img" aria-label="Forest plot of the WAR v3 finance extension's fundraising coefficient with a 95% credible interval"></div>
+<div id="war-v3-finance-forest-chart" role="img" aria-label="Forest plot of the campaign finance extension's fundraising coefficient with a 95% credible interval"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
@@ -354,7 +357,7 @@ All six of this fit's terms, standardized to the same per-1-SD-of-predictor
 scale as the demographics comparison above — this is the fairest way to
 ask "how big is fundraising's effect, really, next to lean or incumbency":
 
-<div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the WAR v3 finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+<div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the campaign finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
 
 On this standardized scale, a 1-SD swing in a candidate's own district
 lean still moves the needle more than a 1-SD swing in logged fundraising
@@ -756,7 +759,7 @@ including the exact code that computes everything on this page.
           "data": { "values": fitSample },
           "mark": { "type": "circle", "opacity": 0.35, "size": 30 },
           "encoding": {
-            "x": { "field": "expected", "type": "quantitative", "title": "WAR v2 expected share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
+            "x": { "field": "expected", "type": "quantitative", "title": "Expected share (core model)", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
             "y": { "field": "actual", "type": "quantitative", "title": "Actual share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
             "color": {
               "field": "party", "type": "nominal", "title": "Party",

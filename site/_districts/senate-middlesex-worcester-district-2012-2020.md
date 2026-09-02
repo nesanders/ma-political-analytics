@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7166
     expected_two_party_share_v2: 0.7158
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7158
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3037
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3037
     expected_two_party_share_v2: 0.4987
+    war_resolved: 0.1668
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4987
+    war_model: core
+    war_factors: *id001
   - name: Margaret W. Busse
     slug: margaret-w-busse
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.6963
     expected_two_party_share_v2: 0.5615
+    war_resolved: -0.227
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5615
+    war_model: core
+    war_factors: *id001
   - name: Terra Friedrichs
     slug: terra-friedrichs
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6731
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6731
     expected_two_party_share_v2: 0.6954
+    war_resolved: -0.0208
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6954
+    war_model: core
+    war_factors: *id001
   - name: Ted Busiek
     slug: ted-busiek
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3269
     expected_two_party_share_v2: 0.3673
+    war_resolved: -0.0419
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3673
+    war_model: core
+    war_factors: *id001
   - name: Terra Friedrichs
     slug: terra-friedrichs
     party: Other
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4554
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4554
     expected_two_party_share_v2: 0.5913
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5913
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5859
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5859
     expected_two_party_share_v2: 0.5034
+    war_resolved: 0.1442
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5034
+    war_model: core
+    war_factors: *id001
   - name: Dean J. Cavaretta
     slug: dean-j-cavaretta
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4141
     expected_two_party_share_v2: 0.4132
+    war_resolved: -0.0608
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4132
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Middlesex & Worcester District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.446
     expected_two_party_share_v2: 0.5738
+    war_resolved: -0.0206
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5738
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Teresa Nicole English
     slug: teresa-nicole-english
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.554
     expected_two_party_share_v2: 0.4864
+    war_resolved: -0.0396
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4864
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2316
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7684
     expected_two_party_share_v2: 0.7431
+    war_resolved: -0.1259
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7431
+    war_model: core
+    war_factors: *id001
   - name: Christopher J. Tribou
     slug: christopher-j-tribou
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2316
     expected_two_party_share_v2: 0.3171
+    war_resolved: 0.0657
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3171
+    war_model: core
+    war_factors: *id001
   - name: Matthew Murphy Mixon
     slug: matthew-murphy-mixon
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4947
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5053
     expected_two_party_share_v2: 0.6075
+    war_resolved: -0.0155
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6075
+    war_model: core
+    war_factors: *id001
   - name: George Simolaris, Jr.
     slug: george-simolaris-jr
     party: Democratic
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4947
     expected_two_party_share_v2: 0.4552
+    war_resolved: -0.0472
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4552
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3831
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6169
     expected_two_party_share_v2: 0.6765
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6765
+    war_model: core
+    war_factors: *id001
   - name: Dean Douglas Santoro
     slug: dean-douglas-santoro
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.497
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.503
     expected_two_party_share_v2: 0.4602
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4602
+    war_model: core
+    war_factors: *id001
   - name: James F. O'Donnell, Jr.
     slug: james-f-odonnell-jr
     party: Other
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 22nd Middlesex District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5977
     expected_two_party_share_v2: 0.6663
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6663
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6526
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6526
     expected_two_party_share_v2: 0.5385
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5385
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7018
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7019
     expected_two_party_share_v2: 0.7106
+    war_resolved: 0.0325
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7106
+    war_model: core
+    war_factors: *id001
   - name: Joseph D. Rice
     slug: joseph-d-rice
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.2981
     expected_two_party_share_v2: 0.3521
+    war_resolved: -0.0952
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3521
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6475
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6475
     expected_two_party_share_v2: 0.6923
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6923
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5076
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5076
     expected_two_party_share_v2: 0.4624
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4624
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Worcester (2001-2010)
 layout: district

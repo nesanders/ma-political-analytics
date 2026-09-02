@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4633
     expected_two_party_share_v2: 0.4388
+    war_resolved: 0.0844
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4388
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Craig Spadafora
     slug: craig-spadafora
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5367
     expected_two_party_share_v2: 0.4778
+    war_resolved: -0.001
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4778
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5924
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4076
     expected_two_party_share_v2: 0.5534
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5534
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5555
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4445
     expected_two_party_share_v2: 0.5754
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5754
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6134
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3866
     expected_two_party_share_v2: 0.5553
+    war_resolved: 0.011
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5553
+    war_model: core
+    war_factors: *id001
   - name: Katherine M. Clark
     slug: katherine-m-clark
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6134
     expected_two_party_share_v2: 0.5178
+    war_resolved: -0.0841
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5178
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4401
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5599
     expected_two_party_share_v2: 0.4899
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4899
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Middlesex and Essex (2001-2010)
 layout: district

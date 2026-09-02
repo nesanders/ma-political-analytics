@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5532
     expected_two_party_share_v2: 0.4865
+    war_resolved: 0.0319
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4865
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Patrick M. Gerry
     slug: patrick-m-gerry
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4468
     expected_two_party_share_v2: 0.4301
+    war_resolved: 0.0515
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4301
+    war_model: core
+    war_factors: *id001
   - name: Colleen O'Neil-Laperriere
     slug: colleen-oneil-laperriere
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Carolyn A. Kamuda
     slug: carolyn-a-kamuda
     party: Other
@@ -115,6 +133,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5718
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5718
     expected_two_party_share_v2: 0.6524
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6524
+    war_model: core
+    war_factors: *id001
   - name: Carolyn A. Kamuda
     slug: carolyn-a-kamuda
     party: Other
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6082
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6082
     expected_two_party_share_v2: 0.5151
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5151
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5753
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5753
     expected_two_party_share_v2: 0.6542
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6542
+    war_model: core
+    war_factors: *id001
   - name: Doreen C. Noble
     slug: doreen-c-noble
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4387
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4387
     expected_two_party_share_v2: 0.426
+    war_resolved: 0.2201
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.426
+    war_model: core
+    war_factors: *id001
   - name: William A. Hunt
     slug: william-a-hunt
     party: Republican
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5613
     expected_two_party_share_v2: 0.4906
+    war_resolved: -0.1367
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4906
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Worcester (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4415
     expected_two_party_share_v2: 0.5709
+    war_resolved: 0.0189
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5709
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Stephen R. Cole
     slug: stephen-r-cole
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5585
     expected_two_party_share_v2: 0.4893
+    war_resolved: -0.0791
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4893
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5796
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5796
     expected_two_party_share_v2: 0.6436
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6436
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5445
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.6276
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6276
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5581
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5581
     expected_two_party_share_v2: 0.6452
+    war_resolved: 0.0415
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6452
+    war_model: core
+    war_factors: *id001
   - name: Leo T. Martin
     slug: leo-t-martin
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4419
     expected_two_party_share_v2: 0.4279
+    war_resolved: -0.1146
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4279
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3937
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3937
     expected_two_party_share_v2: 0.4023
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4023
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Essex (2001-2010)
 layout: district

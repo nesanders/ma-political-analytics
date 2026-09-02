@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6761
     expected_two_party_share_v2: 0.7076
+    war_resolved: 0.0449
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7076
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.3239
     expected_two_party_share_v2: 0.3655
+    war_resolved: -0.118
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3655
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7401
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7401
     expected_two_party_share_v2: 0.5847
+    war_resolved: 0.2222
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5847
+    war_model: core
+    war_factors: *id001
   - name: C.J. Ferry
     slug: cj-ferry
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.2599
     expected_two_party_share_v2: 0.3319
+    war_resolved: -0.1388
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3319
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7531
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7531
     expected_two_party_share_v2: 0.7377
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7377
+    war_model: core
+    war_factors: *id001
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.764
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.764
     expected_two_party_share_v2: 0.7538
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7538
+    war_model: core
+    war_factors: *id001
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.697
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.697
     expected_two_party_share_v2: 0.5623
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5623
+    war_model: core
+    war_factors: *id001
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 7th Bristol (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7513
     expected_two_party_share_v2: 0.7341
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7341
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3118
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3118
     expected_two_party_share_v2: 0.503
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.503
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7137
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7137
     expected_two_party_share_v2: 0.7168
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7168
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4779
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4779
     expected_two_party_share_v2: 0.6032
+    war_resolved: 0.0225
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6032
+    war_model: core
+    war_factors: *id001
   - name: Douglas A. Grindle
     slug: douglas-a-grindle
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5221
     expected_two_party_share_v2: 0.4699
+    war_resolved: -0.0956
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4699
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6083
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6083
     expected_two_party_share_v2: 0.5152
+    war_resolved: 0.1313
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5152
+    war_model: core
+    war_factors: *id001
   - name: William J. Callahan
     slug: william-j-callahan
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3917
     expected_two_party_share_v2: 0.4014
+    war_resolved: -0.0479
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4014
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Middlesex District (2012-2020)
 layout: district

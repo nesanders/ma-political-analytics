@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4728
     expected_two_party_share_v2: 0.5879
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5879
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2174
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7826
     expected_two_party_share_v2: 0.7506
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7506
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4732
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5268
     expected_two_party_share_v2: 0.6189
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6189
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.355
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.645
     expected_two_party_share_v2: 0.6913
+    war_resolved: -0.1548
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6913
+    war_model: core
+    war_factors: *id001
   - name: Joseph R. Pacheco
     slug: joseph-r-pacheco
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.355
     expected_two_party_share_v2: 0.3818
+    war_resolved: 0.0817
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3818
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4798
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5202
     expected_two_party_share_v2: 0.4692
+    war_resolved: 0.054
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4692
+    war_model: core
+    war_factors: *id001
   - name: Marilee Kenney Hunt
     slug: marilee-kenney-hunt
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4798
     expected_two_party_share_v2: 0.4474
+    war_resolved: 0.0294
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4474
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Plymouth District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.616
     expected_two_party_share_v2: 0.5191
+    war_resolved: 0.0682
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5191
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Susan E. Smiley
     slug: susan-e-smiley
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.384
     expected_two_party_share_v2: 0.3975
+    war_resolved: 0.0152
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3975
+    war_model: core
+    war_factors: *id001
   - name: Charlene R. Dicalogero
     slug: charlene-r-dicalogero
     party: null
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2378
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2378
     expected_two_party_share_v2: 0.4639
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4639
+    war_model: core
+    war_factors: *id001
   - name: Stanley P. Marcinczyk, Jr
     slug: stanley-p-marcinczyk-jr
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5693
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5693
     expected_two_party_share_v2: 0.6406
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6406
+    war_model: core
+    war_factors: *id001
   - name: Charlene R. Dicalogero
     slug: charlene-r-dicalogero
     party: Other
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3994
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3995
     expected_two_party_share_v2: 0.5617
+    war_resolved: -0.007
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5617
+    war_model: core
+    war_factors: *id001
   - name: Brad P. Wyatt
     slug: brad-p-wyatt
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6005
     expected_two_party_share_v2: 0.5114
+    war_resolved: -0.0661
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5114
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5234
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5234
     expected_two_party_share_v2: 0.4704
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4704
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Worcester District (2012-2020)
 layout: district

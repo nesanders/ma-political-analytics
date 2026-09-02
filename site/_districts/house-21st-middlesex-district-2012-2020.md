@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6581
     expected_two_party_share_v2: 0.6849
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6849
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2706
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2706
     expected_two_party_share_v2: 0.4812
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4812
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6097
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6098
     expected_two_party_share_v2: 0.662
+    war_resolved: -0.0761
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.662
+    war_model: core
+    war_factors: *id001
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3902
     expected_two_party_share_v2: 0.4007
+    war_resolved: 0.0134
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4007
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4332
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4332
     expected_two_party_share_v2: 0.5796
+    war_resolved: -0.0569
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5796
+    war_model: core
+    war_factors: *id001
   - name: Paul Girouard, Jr
     slug: paul-girouard-jr
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5668
     expected_two_party_share_v2: 0.4935
+    war_resolved: -0.0162
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4935
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5442
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5442
     expected_two_party_share_v2: 0.4814
+    war_resolved: 0.0714
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4814
+    war_model: core
+    war_factors: *id001
   - name: Walter Zenkin
     slug: walter-zenkin
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4558
     expected_two_party_share_v2: 0.4352
+    war_resolved: 0.012
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4352
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 21st Middlesex District (2012-2020)
 layout: district

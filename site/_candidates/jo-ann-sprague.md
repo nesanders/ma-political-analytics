@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5297
+  war_model: core
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 title: Jo Ann Sprague
 layout: candidate
 ---

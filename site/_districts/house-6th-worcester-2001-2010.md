@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5875
     expected_two_party_share_v2: 0.5046
+    war_resolved: -0.0046
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5046
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Geraldo Alicea
     slug: geraldo-alicea
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4125
     expected_two_party_share_v2: 0.5581
+    war_resolved: -0.0581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5581
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5409
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.541
     expected_two_party_share_v2: 0.6361
+    war_resolved: -0.0314
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6361
+    war_model: core
+    war_factors: *id001
   - name: Ronald J. Chernisky
     slug: ronald-j-chernisky
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.459
     expected_two_party_share_v2: 0.437
+    war_resolved: -0.0417
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.437
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5821
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5821
     expected_two_party_share_v2: 0.5014
+    war_resolved: 0.0469
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5014
+    war_model: core
+    war_factors: *id001
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4179
     expected_two_party_share_v2: 0.4152
+    war_resolved: 0.0365
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4152
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5354
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5354
     expected_two_party_share_v2: 0.6332
+    war_resolved: 0.0188
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6332
+    war_model: core
+    war_factors: *id001
   - name: David M. Singer
     slug: david-m-singer
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4646
     expected_two_party_share_v2: 0.4399
+    war_resolved: -0.0919
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4399
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3908
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3907
     expected_two_party_share_v2: 0.4007
+    war_resolved: 0.11
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4007
+    war_model: core
+    war_factors: *id001
   - name: Jerzy J. Jachimczyk
     slug: jerzy-j-jachimczyk
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6093
     expected_two_party_share_v2: 0.5159
+    war_resolved: -0.0266
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5159
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Worcester (2001-2010)
 layout: district

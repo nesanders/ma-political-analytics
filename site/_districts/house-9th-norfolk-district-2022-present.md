@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4987
     war_v3_demographics: 0.0754
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0754
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4987
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5455
     war_v3_demographics: -0.1196
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.1196
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5455
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5618
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.448
     war_v3_demographics: 0.0607
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0607
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.448
+    war_model: demographics_full
+    war_factors: *id001
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5381
     war_v3_demographics: -0.0468
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0468
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5381
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 46075

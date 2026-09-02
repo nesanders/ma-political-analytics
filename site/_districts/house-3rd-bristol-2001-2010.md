@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4941
     expected_two_party_share_v2: 0.4553
+    war_resolved: 0.0461
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4553
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James H. Fagan
     slug: james-h-fagan
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5059
     expected_two_party_share_v2: 0.6049
+    war_resolved: -0.1063
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6049
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6037
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6037
     expected_two_party_share_v2: 0.6563
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6563
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6307
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6307
     expected_two_party_share_v2: 0.6731
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6731
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6281
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6281
     expected_two_party_share_v2: 0.6821
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6821
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5258
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5258
     expected_two_party_share_v2: 0.472
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.472
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Bristol (2001-2010)
 layout: district

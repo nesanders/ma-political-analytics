@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4391
     expected_two_party_share_v2: 0.5697
+    war_resolved: -0.0453
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5697
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Thomas Francis Keyes
     slug: thomas-francis-keyes
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5609
     expected_two_party_share_v2: 0.4905
+    war_resolved: -0.0149
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4905
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5374
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5374
     expected_two_party_share_v2: 0.6213
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6213
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5139
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5139
     expected_two_party_share_v2: 0.6115
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6115
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5354
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5354
     expected_two_party_share_v2: 0.6332
+    war_resolved: -0.0563
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6332
+    war_model: core
+    war_factors: *id001
   - name: Timothy E. Duncan
     slug: timothy-e-duncan
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4646
     expected_two_party_share_v2: 0.4399
+    war_resolved: -0.0168
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4399
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3927
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3927
     expected_two_party_share_v2: 0.4017
+    war_resolved: 0.1782
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4017
+    war_model: core
+    war_factors: *id001
   - name: Christopher L. Fava
     slug: christopher-l-fava
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6073
     expected_two_party_share_v2: 0.5149
+    war_resolved: -0.0948
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5149
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Plymouth and Barnstable (2001-2010)
 layout: district

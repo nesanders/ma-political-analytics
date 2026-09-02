@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3966
     expected_two_party_share_v2: 0.5477
+    war_resolved: 0.0375
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5477
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6034
     expected_two_party_share_v2: 0.5125
+    war_resolved: -0.0977
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5125
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2158
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7843
     expected_two_party_share_v2: 0.754
+    war_resolved: -0.1662
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.754
+    war_model: core
+    war_factors: *id001
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2157
     expected_two_party_share_v2: 0.3087
+    war_resolved: 0.1035
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3087
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5435
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4565
     expected_two_party_share_v2: 0.5922
+    war_resolved: 0.0167
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5922
+    war_model: core
+    war_factors: *id001
   - name: Brian P. Hamlin
     slug: brian-p-hamlin
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5435
     expected_two_party_share_v2: 0.4809
+    war_resolved: -0.0898
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4809
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3258
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6742
     expected_two_party_share_v2: 0.5502
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5502
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.455
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.545
     expected_two_party_share_v2: 0.4823
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4823
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Norfolk District (2012-2020)
 layout: district

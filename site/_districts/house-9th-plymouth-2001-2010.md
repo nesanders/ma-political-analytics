@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6176
     expected_two_party_share_v2: 0.6768
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6768
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.707
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.707
     expected_two_party_share_v2: 0.5672
+    war_resolved: 0.27
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5672
+    war_model: core
+    war_factors: *id001
   - name: Lawrence P. Novak
     slug: lawrence-p-novak
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.293
     expected_two_party_share_v2: 0.3494
+    war_resolved: -0.1866
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3494
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.6683
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6683
     expected_two_party_share_v2: 0.693
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.693
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6662
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6662
     expected_two_party_share_v2: 0.7022
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7022
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5131
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5131
     expected_two_party_share_v2: 0.4653
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4653
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Plymouth (2001-2010)
 layout: district

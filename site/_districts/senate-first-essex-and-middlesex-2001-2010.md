@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5838
     expected_two_party_share_v2: 0.6462
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6462
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5378
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4622
     expected_two_party_share_v2: 0.5823
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5823
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5047
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4953
     expected_two_party_share_v2: 0.6022
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6022
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.528
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.472
     expected_two_party_share_v2: 0.6003
+    war_resolved: 0.0496
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6003
+    war_model: core
+    war_factors: *id001
   - name: Paul M. McGeary
     slug: paul-m-mcgeary
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.528
     expected_two_party_share_v2: 0.4728
+    war_resolved: -0.1227
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4728
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3558
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6442
     expected_two_party_share_v2: 0.5343
+    war_resolved: 0.1843
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5343
+    war_model: core
+    war_factors: *id001
   - name: Andrew F. Armata
     slug: andrew-f-armata
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3558
     expected_two_party_share_v2: 0.3823
+    war_resolved: -0.1009
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3823
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Essex and Middlesex (2001-2010)
 layout: district

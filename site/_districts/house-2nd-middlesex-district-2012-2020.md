@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6762
     expected_two_party_share_v2: 0.6945
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6945
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2553
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2553
     expected_two_party_share_v2: 0.4732
+    war_resolved: 0.171
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4732
+    war_model: core
+    war_factors: *id001
   - name: Kathleen Lynch
     slug: kathleen-lynch
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7447
     expected_two_party_share_v2: 0.587
+    war_resolved: -0.2312
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.587
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.619
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.619
     expected_two_party_share_v2: 0.6669
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6669
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3959
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3958
     expected_two_party_share_v2: 0.5599
+    war_resolved: -0.0166
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5599
+    war_model: core
+    war_factors: *id001
   - name: Dennis J. Galvin
     slug: dennis-j-galvin
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6042
     expected_two_party_share_v2: 0.5132
+    war_resolved: -0.0565
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5132
+    war_model: core
+    war_factors: *id001
   - name: Arleen M. Martino
     slug: arleen-m-martino
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5142
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5142
     expected_two_party_share_v2: 0.4655
+    war_resolved: 0.1855
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4655
+    war_model: core
+    war_factors: *id001
   - name: Valerie A. Wormell
     slug: valerie-a-wormell
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4858
     expected_two_party_share_v2: 0.4511
+    war_resolved: -0.1021
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4511
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Middlesex District (2012-2020)
 layout: district

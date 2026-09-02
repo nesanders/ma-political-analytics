@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6798
     expected_two_party_share_v2: 0.6964
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6964
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3409
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3409
     expected_two_party_share_v2: 0.5183
+    war_resolved: 0.1888
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5183
+    war_model: core
+    war_factors: *id001
   - name: William Burke
     slug: william-burke
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.6591
     expected_two_party_share_v2: 0.5419
+    war_resolved: -0.249
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5419
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6567
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6567
     expected_two_party_share_v2: 0.6868
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6868
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4776
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4776
     expected_two_party_share_v2: 0.603
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.603
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6259
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6259
     expected_two_party_share_v2: 0.5245
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5245
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Norfolk District (2012-2020)
 layout: district

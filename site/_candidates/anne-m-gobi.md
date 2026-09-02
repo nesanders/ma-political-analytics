@@ -43,6 +43,15 @@ races:
   expected_two_party_share_v3_finance: 0.4729
   war_v3_finance: 0.0707
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0707
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4729
+  war_model: finance
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -83,6 +92,11 @@ races:
   expected_two_party_share_v3_finance: 0.5576
   war_v3_finance: -0.0293
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0293
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.5576
+  war_model: finance
+  war_factors: *id001
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -123,6 +137,11 @@ races:
   expected_two_party_share_v3_finance: 0.4744
   war_v3_finance: 0.0746
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0746
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4744
+  war_model: finance
+  war_factors: *id001
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -163,6 +182,11 @@ races:
   expected_two_party_share_v3_finance: 0.572
   war_v3_finance: -0.0279
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0279
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.572
+  war_model: finance
+  war_factors: *id001
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -203,6 +227,11 @@ races:
   expected_two_party_share_v3_finance: 0.4284
   war_v3_finance: 0.0752
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0752
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4284
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -243,6 +272,11 @@ races:
   expected_two_party_share_v3_finance: 0.4193
   war_v3_finance: 0.2777
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.2777
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4193
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -283,6 +317,11 @@ races:
   expected_two_party_share_v3_finance: 0.5241
   war_v3_finance: 0.1298
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.1298
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.5241
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -323,6 +362,11 @@ races:
   expected_two_party_share_v3_finance: 0.5817
   war_v3_finance: 0.1214
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.1214
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.5817
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -363,6 +407,11 @@ races:
   expected_two_party_share_v3_finance: 0.6028
   war_v3_finance: 0.0878
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0878
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.6028
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -403,6 +452,11 @@ races:
   expected_two_party_share_v3_finance: 0.6106
   war_v3_finance: 0.0784
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0784
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.6106
+  war_model: finance
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -443,6 +497,11 @@ races:
   expected_two_party_share_v3_finance: 0.424
   war_v3_finance: 0.1322
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.1322
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.424
+  war_model: finance
+  war_factors: *id001
 ocpf_finance:
   cpf_ids:
   - 13731

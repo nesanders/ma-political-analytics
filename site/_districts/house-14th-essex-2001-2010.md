@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5508
     expected_two_party_share_v2: 0.6286
+    war_resolved: -0.1021
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6286
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kevin J. Begley
     slug: kevin-j-begley
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4492
     expected_two_party_share_v2: 0.4316
+    war_resolved: 0.0419
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4316
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6677
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6677
     expected_two_party_share_v2: 0.6901
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6901
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5962
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5962
     expected_two_party_share_v2: 0.6549
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6549
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5944
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5944
     expected_two_party_share_v2: 0.6643
+    war_resolved: -0.0037
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6643
+    war_model: core
+    war_factors: *id001
   - name: Ellen E. Johnson
     slug: ellen-e-johnson
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4056
     expected_two_party_share_v2: 0.4088
+    war_resolved: -0.0694
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4088
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4402
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4401
     expected_two_party_share_v2: 0.4268
+    war_resolved: 0.1815
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4268
+    war_model: core
+    war_factors: *id001
   - name: Paula L. Porten
     slug: paula-l-porten
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5599
     expected_two_party_share_v2: 0.4898
+    war_resolved: -0.0981
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4898
+    war_model: core
+    war_factors: *id001
   - name: Jonathan A. Leavitt
     slug: jonathan-a-leavitt
     party: null
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 14th Essex (2001-2010)
 layout: district

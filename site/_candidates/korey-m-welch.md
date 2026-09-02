@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0592
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4805
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0454
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5171
+  war_model: core
+  war_factors: *id001
 title: Korey M. Welch
 layout: candidate
 ---

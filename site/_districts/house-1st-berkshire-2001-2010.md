@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7607
     expected_two_party_share_v2: 0.5958
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5958
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.771
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.771
     expected_two_party_share_v2: 0.7446
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7446
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.8108
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.8108
     expected_two_party_share_v2: 0.7682
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7682
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7461
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.746
     expected_two_party_share_v2: 0.7444
+    war_resolved: 0.0773
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7444
+    war_model: core
+    war_factors: *id001
   - name: Jay H. Lukkarila
     slug: jay-h-lukkarila
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.254
     expected_two_party_share_v2: 0.3287
+    war_resolved: -0.1504
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3287
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6858
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6858
     expected_two_party_share_v2: 0.5564
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5564
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Berkshire (2001-2010)
 layout: district

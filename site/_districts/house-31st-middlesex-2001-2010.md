@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4676
     expected_two_party_share_v2: 0.5976
+    war_resolved: -0.0005
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5976
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George Georgountzos
     slug: george-georgountzos
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5324
     expected_two_party_share_v2: 0.4755
+    war_resolved: -0.0726
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4755
+    war_model: core
+    war_factors: *id001
   - name: Michael J. Rotondi
     slug: michael-j-rotondi
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5829
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5829
     expected_two_party_share_v2: 0.5017
+    war_resolved: 0.1767
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5017
+    war_model: core
+    war_factors: *id001
   - name: Brian P. O'Connor
     slug: brian-p-oconnor
     party: Republican
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4171
     expected_two_party_share_v2: 0.4149
+    war_resolved: -0.0933
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4149
+    war_model: core
+    war_factors: *id001
   - name: Chad Riley
     slug: chad-riley
     party: Other
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5479
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5479
     expected_two_party_share_v2: 0.6294
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6294
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5955
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5955
     expected_two_party_share_v2: 0.6649
+    war_resolved: -0.0491
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6649
+    war_model: core
+    war_factors: *id001
   - name: John M. Prindiville
     slug: john-m-prindiville
     party: Republican
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4045
     expected_two_party_share_v2: 0.4082
+    war_resolved: -0.024
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4082
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4065
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4065
     expected_two_party_share_v2: 0.409
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.409
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 31st Middlesex (2001-2010)
 layout: district

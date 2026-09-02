@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5748
     expected_two_party_share_v2: 0.6415
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6415
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5466
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4534
     expected_two_party_share_v2: 0.5801
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5801
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5397
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4603
     expected_two_party_share_v2: 0.5941
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5941
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5582
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4418
     expected_two_party_share_v2: 0.4279
+    war_resolved: 0.2003
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4279
+    war_model: core
+    war_factors: *id001
   - name: Monica J. Palacios-Boyce
     slug: monica-j-palacios-boyce
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5582
     expected_two_party_share_v2: 0.4887
+    war_resolved: -0.1169
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4887
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4338
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5662
     expected_two_party_share_v2: 0.4932
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4932
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Hampden (2001-2010)
 layout: district

@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.4048
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5868
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5372
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5443
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5573
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.2501
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4503
+  war_model: core
+  war_factors: *id001
 title: Michael R. Knapik
 layout: candidate
 ---

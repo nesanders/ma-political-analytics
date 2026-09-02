@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5313
     expected_two_party_share_v2: 0.6183
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6183
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6373
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6373
     expected_two_party_share_v2: 0.674
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.674
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6234
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6234
     expected_two_party_share_v2: 0.6693
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6693
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6424
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6424
     expected_two_party_share_v2: 0.6897
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6897
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5203
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5203
     expected_two_party_share_v2: 0.4691
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4691
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 7th Hampden (2001-2010)
 layout: district

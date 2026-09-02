@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.553
     expected_two_party_share_v2: 0.6299
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6299
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5452
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4548
     expected_two_party_share_v2: 0.5784
+    war_resolved: 0.1156
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5784
+    war_model: core
+    war_factors: *id001
   - name: Brian R. Hoose
     slug: brian-r-hoose
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5452
     expected_two_party_share_v2: 0.4818
+    war_resolved: -0.1758
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4818
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.5748
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5748
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.545
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.455
     expected_two_party_share_v2: 0.5913
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5913
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4346
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4928
+    war_resolved: 0.1381
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4928
+    war_model: core
+    war_factors: *id001
   - name: Bo Sullivan
     slug: bo-sullivan
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4238
+    war_resolved: -0.0547
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4238
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Hampden (2001-2010)
 layout: district

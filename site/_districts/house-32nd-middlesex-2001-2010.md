@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4745
     expected_two_party_share_v2: 0.4448
+    war_resolved: 0.0701
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4448
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: David R. Lucas
     slug: david-r-lucas
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5255
     expected_two_party_share_v2: 0.4718
+    war_resolved: 0.0133
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4718
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5925
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5925
     expected_two_party_share_v2: 0.5068
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5068
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5627
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5627
     expected_two_party_share_v2: 0.6372
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6372
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6111
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6111
     expected_two_party_share_v2: 0.6731
+    war_resolved: -0.0047
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6731
+    war_model: core
+    war_factors: *id001
   - name: Thomas M. Quinn
     slug: thomas-m-quinn
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3889
     expected_two_party_share_v2: 0.4
+    war_resolved: -0.0684
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4345
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4345
     expected_two_party_share_v2: 0.4238
+    war_resolved: 0.2286
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4238
+    war_model: core
+    war_factors: *id001
   - name: Arthur E. Hitchman, Jr.
     slug: arthur-e-hitchman-jr
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5655
     expected_two_party_share_v2: 0.4928
+    war_resolved: -0.1452
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4928
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 32nd Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.63
     expected_two_party_share_v2: 0.6701
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6701
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Andrew M. Bissanti
     slug: andrew-m-bissanti
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.226
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.226
     expected_two_party_share_v2: 0.4577
+    war_resolved: 0.1276
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4577
+    war_model: core
+    war_factors: *id001
   - name: Patrick R. Casey
     slug: patrick-r-casey
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.774
     expected_two_party_share_v2: 0.6025
+    war_resolved: -0.1878
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6025
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5765
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5765
     expected_two_party_share_v2: 0.6444
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6444
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3679
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3679
     expected_two_party_share_v2: 0.5451
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5451
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5027
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5027
     expected_two_party_share_v2: 0.4595
+    war_resolved: 0.0834
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4595
+    war_model: core
+    war_factors: *id001
   - name: Richard A. Eustis
     slug: richard-a-eustis
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4973
     expected_two_party_share_v2: 0.4571
+    war_resolved: -0.0
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4571
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Norfolk District (2012-2020)
 layout: district

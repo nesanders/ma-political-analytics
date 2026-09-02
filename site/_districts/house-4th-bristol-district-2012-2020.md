@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4855
     expected_two_party_share_v2: 0.5946
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5946
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2572
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7428
     expected_two_party_share_v2: 0.7296
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7296
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4806
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5194
     expected_two_party_share_v2: 0.615
+    war_resolved: 0.0077
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.615
+    war_model: core
+    war_factors: *id001
   - name: Paul W. Jacques
     slug: paul-w-jacques
     party: Democratic
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4806
     expected_two_party_share_v2: 0.4477
+    war_resolved: -0.0704
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4477
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3997
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6003
     expected_two_party_share_v2: 0.6677
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6677
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5154
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4846
     expected_two_party_share_v2: 0.4504
+    war_resolved: 0.1637
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4504
+    war_model: core
+    war_factors: *id001
   - name: A. Keith Carreiro
     slug: a-keith-carreiro
     party: Democratic
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5154
     expected_two_party_share_v2: 0.4662
+    war_resolved: -0.0803
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4662
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Bristol District (2012-2020)
 layout: district

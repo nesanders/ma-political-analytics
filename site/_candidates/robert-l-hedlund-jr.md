@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.677
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.2254
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.458
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6397
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5883
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0438
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6003
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5945
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1021
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5235
+  war_model: core
+  war_factors: *id001
 title: Robert L. Hedlund, Jr
 layout: candidate
 ---

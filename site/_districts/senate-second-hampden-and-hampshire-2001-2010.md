@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4712
     expected_two_party_share_v2: 0.5868
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5868
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6232
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3768
     expected_two_party_share_v2: 0.5372
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5372
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6144
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3856
     expected_two_party_share_v2: 0.5443
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5443
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6096
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3904
     expected_two_party_share_v2: 0.5573
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5573
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5151
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.4849
     expected_two_party_share_v2: 0.4503
+    war_resolved: 0.2501
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4503
+    war_model: core
+    war_factors: *id001
   - name: Daniel J. Szostkiewicz
     slug: daniel-j-szostkiewicz
     party: Democratic
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5151
     expected_two_party_share_v2: 0.4663
+    war_resolved: -0.1667
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4663
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Hampden and Hampshire (2001-2010)
 layout: district

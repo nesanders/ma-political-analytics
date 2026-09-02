@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5638
     expected_two_party_share_v2: 0.638
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.638
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6798
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6798
     expected_two_party_share_v2: 0.7094
+    war_resolved: -0.1206
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7094
+    war_model: core
+    war_factors: *id001
   - name: Susan W. Pope
     slug: susan-w-pope
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3202
     expected_two_party_share_v2: 0.3637
+    war_resolved: 0.0475
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3637
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6248
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6248
     expected_two_party_share_v2: 0.5239
+    war_resolved: -0.0046
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5239
+    war_model: core
+    war_factors: *id001
   - name: Susan W. Pope
     slug: susan-w-pope
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.3752
     expected_two_party_share_v2: 0.5388
+    war_resolved: -0.0581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5388
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6581
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3419
     expected_two_party_share_v2: 0.5317
+    war_resolved: -0.0145
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5317
+    war_model: core
+    war_factors: *id001
   - name: John C. Thomas
     slug: john-c-thomas
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6581
     expected_two_party_share_v2: 0.5414
+    war_resolved: -0.0586
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5414
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4294
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5706
     expected_two_party_share_v2: 0.4955
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4955
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Middlesex (2001-2010)
 layout: district

@@ -43,6 +43,15 @@ races:
   expected_two_party_share_v3_finance: 0.4228
   war_v3_finance: -0.0081
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0081
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4228
+  war_model: finance
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - Campaign fundraising
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -83,6 +92,11 @@ races:
   expected_two_party_share_v3_finance: 0.4454
   war_v3_finance: 0.0026
   war_v3_finance_sd: 0.1015
+  war_resolved: 0.0026
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.4454
+  war_model: finance
+  war_factors: *id001
 ocpf_finance:
   cpf_ids:
   - 16449

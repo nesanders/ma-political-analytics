@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6575
     war_v3_demographics: 0.0382
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0382
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6575
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3767
     war_v3_demographics: -0.0724
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0724
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3767
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6629
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6318
     war_v3_demographics: 0.0741
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0741
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6318
+    war_model: demographics_full
+    war_factors: *id001
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3444
     war_v3_demographics: -0.0503
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0503
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3444
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 43173

@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6533
     war_v3_demographics: -0.0643
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0643
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.6533
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   - name: Dashe M. Videira
     slug: dashe-m-videira
     party: Republican
@@ -94,6 +103,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.388
     war_v3_demographics: 0.023
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.023
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.388
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6225
@@ -140,6 +154,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5956
     war_v3_demographics: -0.0469
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0469
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5956
+    war_model: demographics_core
+    war_factors: *id001
   - name: Shawn C. Dooley
     slug: shawn-c-dooley
     party: Republican
@@ -177,6 +196,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3877
     war_v3_demographics: 0.0636
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0636
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.3877
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 138132

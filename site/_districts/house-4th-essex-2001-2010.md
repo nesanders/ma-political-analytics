@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5886
     expected_two_party_share_v2: 0.6487
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6487
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5363
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4637
     expected_two_party_share_v2: 0.583
+    war_resolved: 0.1288
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.583
+    war_model: core
+    war_factors: *id001
   - name: Donald R. Bumiller
     slug: donald-r-bumiller
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5363
     expected_two_party_share_v2: 0.4772
+    war_resolved: -0.189
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4772
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4939
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5061
     expected_two_party_share_v2: 0.6079
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6079
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5049
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4951
     expected_two_party_share_v2: 0.6125
+    war_resolved: 0.0114
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6125
+    war_model: core
+    war_factors: *id001
   - name: Timothy A. Purinton
     slug: timothy-a-purinton
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5049
     expected_two_party_share_v2: 0.4606
+    war_resolved: -0.0845
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4606
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3222
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6778
     expected_two_party_share_v2: 0.5521
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5521
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Essex (2001-2010)
 layout: district

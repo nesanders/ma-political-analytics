@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.2157
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.7509
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1465
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4196
+  war_model: core
+  war_factors: *id001
 title: Patrick M. O'Connor
 layout: candidate
 ---

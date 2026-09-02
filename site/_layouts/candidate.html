@@ -8,15 +8,16 @@ layout: default
 
   {% if chart_races.size > 0 %}
   <section>
-    <h2>WAR v2 vs. replacement level over time</h2>
+    <h2>WAR vs. replacement level over time</h2>
     <p>
       Solid points are what {{ page.name }} actually got each year; the
-      dashed line is what WAR v2 expected given the district's lean and
-      (when {{ page.name }} was the incumbent) the incumbency adjustment.
-      The gap between them is WAR v2. Click a point to open that race's
-      district page.
+      dashed line is what WAR expected given the district's lean and
+      (when {{ page.name }} was the incumbent) the incumbency adjustment
+      &mdash; plus local demographics or {{ page.name }}'s own campaign
+      fundraising, for any year that data supports it. The gap between
+      them is WAR. Click a point to open that race's district page.
     </p>
-    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR v2's expected share, by year"></div>
+    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR's expected share, by year"></div>
   </section>
 
   <section>
@@ -24,21 +25,20 @@ layout: default
     <p>
       Same regression as above, broken into its own terms for every year
       {{ page.name }} ran: the intercept, district lean, statewide tide,
-      and incumbency, stacked up to WAR v2's expected share &mdash; plus
-      whatever's left over, WAR v2 itself. For a year with a matched OCPF
-      campaign-finance total, the bar instead uses the WAR v3 finance
-      extension (same idea, with an added Fundraising slice for that
-      year's logged total raised). That slice can look disproportionately
-      large next to lean or tide's &mdash; unlike those two (naturally
-      bounded 0&ndash;1), logged dollars typically run 7&ndash;14, so even
-      a small fundraising coefficient multiplies out to a sizeable chunk
-      of the bar. See the standardized comparison on the
-      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      and incumbency, stacked up to WAR's expected share &mdash; plus
+      whatever's left over, WAR itself. For a year with a matched OCPF
+      campaign-finance total, the bar also gets an added Fundraising slice
+      for that year's logged total raised. That slice can look
+      disproportionately large next to lean or tide's &mdash; unlike those
+      two (naturally bounded 0&ndash;1), logged dollars typically run
+      7&ndash;14, so even a small fundraising coefficient multiplies out
+      to a sizeable chunk of the bar. See the standardized comparison on
+      the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for a scale that's genuinely comparable across terms. An uncontested
-      year's bar stops at the model's baseline expectation instead of the
-      actual result &mdash; there's no WAR (residual) slice, since WAR
-      itself isn't meaningful against a mechanically near-100% unopposed
-      share. Click a bar to open that race's district page.
+      year's bar stops at the model's expected share instead of the actual
+      result &mdash; there's no WAR (residual) slice, since WAR itself
+      isn't meaningful against a mechanically near-100% unopposed share.
+      Click a bar to open that race's district page.
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression intercept, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
     <p>
@@ -60,7 +60,7 @@ layout: default
     <h2>Races</h2>
     <table>
       <thead>
-        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th><th>WAR (v3, finance)</th><th>Baseline expectation</th></tr>
+        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR</th><th>Expected share</th><th>Factors</th></tr>
       </thead>
       <tbody>
         {% for r in page.races %}
@@ -71,30 +71,27 @@ layout: default
           <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}{% if r.is_incumbent %} (incumbent){% endif %}</td>
           <td>{{ r.votes }}</td>
           <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if r.war %}{{ r.war | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if r.war_v2 %}{{ r.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if r.war_v3_finance %}{{ r.war_v3_finance | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if r.expected_two_party_share_v2 %}{{ r.expected_two_party_share_v2 | times: 100 | round: 1 }}%{% endif %}</td>
+          <td>{% if r.war_resolved %}{{ r.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if r.expected_share_resolved %}{{ r.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
+          <td><small>{% if r.war_factors %}{% if r.war_factors.size > 3 %}Lean, tide, incumbency, fundraising{% else %}Lean, tide, incumbency{% endif %}{% endif %}</small></td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
     <p><small>
-      <strong>Baseline expectation</strong> is what WAR v2's regression
-      expects a generic candidate of this party to get here, from district
-      lean, statewide tide, and incumbency alone — defined whether or not
-      the race was actually contested, unlike WAR itself (see below).
-    </small></p>
-    <p><small>
-      WAR (wins above replacement) is adapted from Split Ticket's published
+      <strong>WAR (wins above replacement)</strong> is how much better (or
+      worse) {{ page.name }} did than their <strong>expected share</strong>
+      that year — what a generic candidate of their party would be
+      expected to get, from a regression on district lean, statewide tide,
+      and incumbency, plus {{ page.name }}'s own campaign fundraising for
+      any year with a matched OCPF total (see the <strong>Factors</strong>
+      column, and "Campaign finance" below). Expected share is defined
+      whether or not the race was actually contested; WAR itself is null
+      for an uncontested race and for minor-party candidates — an
+      unopposed candidate's mechanically-inflated share isn't a meaningful
+      gap from expectation. Adapted from Split Ticket's published
       methodology — see the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the full definition, citations, and the WAR v2 regression's
-      fitted coefficients. Null for uncontested races and minor-party candidates.
-      <strong>WAR (v3, finance)</strong> re-estimates the same gap using the
-      finance-extended model instead of the core one — only defined for a
-      year with a matched OCPF total for {{ page.name }} specifically
-      (see "Campaign finance" below); blank rows here simply have no match,
-      not a computation error.
+      for the full definition, citations, and the fitted coefficients.
     </small></p>
   </section>
 
@@ -140,15 +137,15 @@ layout: default
       "url": {{ r.district_url | relative_url | jsonify }},
       "series": "Actual share",
       "share": {{ r.actual_two_party_share | jsonify }},
-      "war_v2": {{ r.war_v2 | jsonify }}
+      "war_resolved": {{ r.war_resolved | jsonify }}
     },
     {
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
-      "series": "Expected share (v2)",
-      "share": {{ r.expected_two_party_share_v2 | jsonify }},
-      "war_v2": {{ r.war_v2 | jsonify }}
+      "series": "Expected share",
+      "share": {{ r.expected_share_resolved | jsonify }},
+      "war_resolved": {{ r.war_resolved | jsonify }}
     },
     {% endfor %}
   ].filter((d) => d.share !== null && d.share !== undefined);
@@ -174,11 +171,11 @@ layout: default
       },
       "color": {
         "field": "series", "type": "nominal", "title": null,
-        "scale": { "domain": ["Actual share", "Expected share (v2)"], "range": [actualColor, chartCssVar("--text-secondary")] }
+        "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
       },
       "strokeDash": {
         "field": "series", "type": "nominal", "legend": null,
-        "scale": { "domain": ["Actual share", "Expected share (v2)"], "range": [[1, 0], [4, 2]] }
+        "scale": { "domain": ["Actual share", "Expected share"], "range": [[1, 0], [4, 2]] }
       },
       "href": { "field": "url", "type": "nominal" },
       "tooltip": [
@@ -186,7 +183,7 @@ layout: default
         { "field": "year", "title": "Year" },
         { "field": "series", "title": "Series" },
         { "field": "share", "type": "quantitative", "format": ".1%" },
-        { "field": "war_v2", "type": "quantitative", "format": ".1%", "title": "WAR (v2)" }
+        { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
       ]
     },
     "config": {

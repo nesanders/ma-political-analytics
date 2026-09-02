@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4848
     expected_two_party_share_v2: 0.4502
+    war_resolved: 0.1099
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4502
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Jamison Tomasek
     slug: jamison-tomasek
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5152
     expected_two_party_share_v2: 0.4664
+    war_resolved: -0.0265
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4664
+    war_model: core
+    war_factors: *id001
   - name: Jodi Oberto
     slug: jodi-oberto
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.606
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.606
     expected_two_party_share_v2: 0.6575
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6575
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5522
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5522
     expected_two_party_share_v2: 0.6317
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6317
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5743
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5743
     expected_two_party_share_v2: 0.6537
+    war_resolved: 0.0629
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6537
+    war_model: core
+    war_factors: *id001
   - name: Deborah J. Jones
     slug: deborah-j-jones
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4257
     expected_two_party_share_v2: 0.4194
+    war_resolved: -0.136
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4194
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4196
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4196
     expected_two_party_share_v2: 0.4159
+    war_resolved: 0.2187
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4159
+    war_model: core
+    war_factors: *id001
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5804
     expected_two_party_share_v2: 0.5007
+    war_resolved: -0.1353
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5007
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Essex and Middlesex (2001-2010)
 layout: district

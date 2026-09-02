@@ -10,7 +10,8 @@ seats_held:
   url: /seat/house-2nd-franklin-district/
   winner_name: Susannah M. Whipps
   winner_slug: susannah-m-whipps
-  war: null
+  war_resolved: null
+  war_factors: null
 title: Other
 layout: party
 ---

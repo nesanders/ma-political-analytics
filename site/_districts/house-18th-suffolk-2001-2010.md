@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7551
     expected_two_party_share_v2: 0.7389
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7389
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8069
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8069
     expected_two_party_share_v2: 0.7764
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7764
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7786
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7786
     expected_two_party_share_v2: 0.6051
+    war_resolved: 0.2053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6051
+    war_model: core
+    war_factors: *id001
   - name: Russell Evans
     slug: russell-evans
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.2214
     expected_two_party_share_v2: 0.3115
+    war_resolved: -0.1219
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3115
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7869
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7869
     expected_two_party_share_v2: 0.7659
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7659
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6559
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6559
     expected_two_party_share_v2: 0.5406
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5406
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 18th Suffolk (2001-2010)
 layout: district

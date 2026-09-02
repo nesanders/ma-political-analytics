@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6476
     expected_two_party_share_v2: 0.6822
+    war_resolved: -0.0113
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6822
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: David M. Carnevale
     slug: david-m-carnevale
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.3524
     expected_two_party_share_v2: 0.3805
+    war_resolved: -0.0514
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3805
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7212
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7212
     expected_two_party_share_v2: 0.7312
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7312
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6792
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6792
     expected_two_party_share_v2: 0.5526
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5526
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.721
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.721
     expected_two_party_share_v2: 0.7311
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7311
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5503
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5503
     expected_two_party_share_v2: 0.4849
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4849
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Middlesex (2001-2010)
 layout: district

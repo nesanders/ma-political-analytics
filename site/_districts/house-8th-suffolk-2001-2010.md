@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.8295
     expected_two_party_share_v2: 0.7757
+    war_resolved: -0.0032
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7757
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Brad Marston
     slug: brad-marston
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.1705
     expected_two_party_share_v2: 0.2845
+    war_resolved: -0.057
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2845
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.8676
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.8676
     expected_two_party_share_v2: 0.7981
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7981
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.8422
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.8422
     expected_two_party_share_v2: 0.7951
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7951
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.8436
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.8436
     expected_two_party_share_v2: 0.6393
+    war_resolved: 0.1262
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6393
+    war_model: core
+    war_factors: *id001
   - name: Richard L. Babson
     slug: richard-l-babson
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.1564
     expected_two_party_share_v2: 0.2773
+    war_resolved: -0.0428
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.2773
+    war_model: core
+    war_factors: *id001
   - name: L. Thomas White
     slug: l-thomas-white
     party: Other
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.7253
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.7253
     expected_two_party_share_v2: 0.5772
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5772
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Suffolk (2001-2010)
 layout: district

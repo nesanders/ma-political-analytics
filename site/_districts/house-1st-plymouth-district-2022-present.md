@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.521
     war_v3_demographics: 0.0017
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0017
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.521
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Jesse G. Brown
     slug: jesse-g-brown
     party: Republican
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4524
     war_v3_demographics: 0.0249
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0249
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4524
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5611
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.442
     war_v3_demographics: 0.1356
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.1356
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.442
+    war_model: demographics_full
+    war_factors: *id001
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5314
     war_v3_demographics: -0.109
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.109
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5314
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 45312

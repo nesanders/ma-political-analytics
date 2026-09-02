@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4514
     war_v3_demographics: 0.0505
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0505
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4514
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Kostas Loukos
     slug: kostas-loukos
     party: Democratic
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5369
     war_v3_demographics: -0.0388
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0388
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5369
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5712
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4397
     war_v3_demographics: 0.136
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.136
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4397
+    war_model: demographics_full
+    war_factors: *id001
   - name: Brendan A. Roche
     slug: brendan-a-roche
     party: Democratic
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5487
     war_v3_demographics: -0.1244
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.1244
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5487
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 42367

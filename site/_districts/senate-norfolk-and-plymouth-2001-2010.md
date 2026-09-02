@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4762
     expected_two_party_share_v2: 0.4457
+    war_resolved: 0.1717
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4457
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Daniel M. Dewey
     slug: daniel-m-dewey
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5238
     expected_two_party_share_v2: 0.4709
+    war_resolved: -0.0883
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4709
+    war_model: core
+    war_factors: *id001
   - name: Laura Innis
     slug: laura-innis
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5523
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5523
     expected_two_party_share_v2: 0.6292
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6292
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5427
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5427
     expected_two_party_share_v2: 0.6267
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6267
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5963
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5963
     expected_two_party_share_v2: 0.6653
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6653
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4588
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4588
     expected_two_party_share_v2: 0.4366
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4366
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk and Plymouth (2001-2010)
 layout: district

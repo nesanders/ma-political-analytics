@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8724
     expected_two_party_share_v2: 0.6544
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6544
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.5816
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5816
     expected_two_party_share_v2: 0.6453
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6453
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8599
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8599
     expected_two_party_share_v2: 0.794
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.794
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7311
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.7311
     expected_two_party_share_v2: 0.7368
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7368
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8157
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8157
     expected_two_party_share_v2: 0.6246
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6246
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 29th Middlesex District (2012-2020)
 layout: district

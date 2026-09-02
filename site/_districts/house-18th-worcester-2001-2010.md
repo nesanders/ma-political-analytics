@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6197
     expected_two_party_share_v2: 0.5215
+    war_resolved: 0.0042
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5215
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Jennifer M. Callahan
     slug: jennifer-m-callahan
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3803
     expected_two_party_share_v2: 0.5387
+    war_resolved: -0.0644
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5387
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5122
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5122
     expected_two_party_share_v2: 0.608
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.608
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5232
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5232
     expected_two_party_share_v2: 0.6164
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6164
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5318
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5318
     expected_two_party_share_v2: 0.6313
+    war_resolved: 0.098
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6313
+    war_model: core
+    war_factors: *id001
   - name: David M. Funnell
     slug: david-m-funnell
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4682
     expected_two_party_share_v2: 0.4418
+    war_resolved: -0.1711
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4418
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3822
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3822
     expected_two_party_share_v2: 0.3962
+    war_resolved: 0.2138
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3962
+    war_model: core
+    war_factors: *id001
   - name: Peter A. Amorello
     slug: peter-a-amorello
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6178
     expected_two_party_share_v2: 0.5204
+    war_resolved: -0.1304
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5204
+    war_model: core
+    war_factors: *id001
   - name: Robert J. Badzmierowski
     slug: robert-j-badzmierowski
     party: Other
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 18th Worcester (2001-2010)
 layout: district

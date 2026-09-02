@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6914
     expected_two_party_share_v2: 0.7154
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7154
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Michael Paul Robbins
     slug: michael-paul-robbins
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3539
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3539
     expected_two_party_share_v2: 0.3816
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3816
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6522
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6522
     expected_two_party_share_v2: 0.6844
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6844
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5125
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5125
     expected_two_party_share_v2: 0.6214
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6214
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6073
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6074
     expected_two_party_share_v2: 0.5147
+    war_resolved: 0.1669
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5147
+    war_model: core
+    war_factors: *id001
   - name: Gerry Dembrowski
     slug: gerry-dembrowski
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3926
     expected_two_party_share_v2: 0.4019
+    war_resolved: -0.0835
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4019
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Fourth Middlesex District (2012-2020)
 layout: district

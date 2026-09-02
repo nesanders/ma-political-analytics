@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7752
     expected_two_party_share_v2: 0.7596
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7596
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.396
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.396
     expected_two_party_share_v2: 0.4038
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4038
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7473
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7473
     expected_two_party_share_v2: 0.7346
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7346
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5654
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5654
     expected_two_party_share_v2: 0.6493
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6493
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6667
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6667
     expected_two_party_share_v2: 0.546
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.546
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 15th Middlesex District (2012-2020)
 layout: district

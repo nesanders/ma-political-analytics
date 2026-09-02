@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3995
     expected_two_party_share_v2: 0.5513
+    war_resolved: 0.0281
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5513
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Al DiNuccio
     slug: al-dinuccio
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6005
     expected_two_party_share_v2: 0.5114
+    war_resolved: -0.0908
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5114
+    war_model: core
+    war_factors: *id001
   - name: Philip J. Lahey, Jr.
     slug: philip-j-lahey-jr
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Hector Montalvo
     slug: hector-montalvo
     party: Other
@@ -115,6 +133,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5487
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5487
     expected_two_party_share_v2: 0.6402
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6402
+    war_model: core
+    war_factors: *id001
   - name: Joseph A. Leone, III
     slug: joseph-a-leone-iii
     party: Other
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4994
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4994
     expected_two_party_share_v2: 0.4577
+    war_resolved: 0.223
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4577
+    war_model: core
+    war_factors: *id001
   - name: Robert A. Andrew
     slug: robert-a-andrew
     party: Republican
@@ -225,6 +263,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5006
     expected_two_party_share_v2: 0.4589
+    war_resolved: -0.1396
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4589
+    war_model: core
+    war_factors: *id001
   - name: Kenneth A. Henrick
     slug: kenneth-a-henrick
     party: Other
@@ -248,6 +291,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5259
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.6282
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6282
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3754
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3754
     expected_two_party_share_v2: 0.3926
+    war_resolved: 0.2299
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3926
+    war_model: core
+    war_factors: *id001
   - name: Robert G. Hazelton, III
     slug: robert-g-hazelton-iii
     party: Republican
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6246
     expected_two_party_share_v2: 0.524
+    war_resolved: -0.1465
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.524
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 15th Essex (2001-2010)
 layout: district

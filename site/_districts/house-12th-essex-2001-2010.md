@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4561
     expected_two_party_share_v2: 0.5787
+    war_resolved: 0.0175
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5787
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Martin J. Scafidi
     slug: martin-j-scafidi
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5439
     expected_two_party_share_v2: 0.4815
+    war_resolved: -0.0777
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4815
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5783
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5783
     expected_two_party_share_v2: 0.6429
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6429
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5566
     expected_two_party_share_v2: 0.634
+    war_resolved: 0.0581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.634
+    war_model: core
+    war_factors: *id001
   - name: Jason C. Harding
     slug: jason-c-harding
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4434
     expected_two_party_share_v2: 0.4287
+    war_resolved: -0.1208
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4287
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6151
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6151
     expected_two_party_share_v2: 0.6752
+    war_resolved: -0.0136
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6752
+    war_model: core
+    war_factors: *id001
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3849
     expected_two_party_share_v2: 0.3979
+    war_resolved: -0.0595
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3979
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4435
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4285
+    war_resolved: 0.1708
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4285
+    war_model: core
+    war_factors: *id001
   - name: John F. McCarthy, Jr.
     slug: john-f-mccarthy-jr
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5565
     expected_two_party_share_v2: 0.4881
+    war_resolved: -0.0874
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4881
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Essex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5002
     expected_two_party_share_v2: 0.6149
+    war_resolved: -0.0437
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6149
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George M. Thompson
     slug: george-m-thompson
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4998
     expected_two_party_share_v2: 0.4582
+    war_resolved: -0.0294
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4582
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6123
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6123
     expected_two_party_share_v2: 0.5173
+    war_resolved: 0.0531
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5173
+    war_model: core
+    war_factors: *id001
   - name: Steven L. Levy
     slug: steven-l-levy
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.3877
     expected_two_party_share_v2: 0.3993
+    war_resolved: 0.0303
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3993
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.578
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.578
     expected_two_party_share_v2: 0.6453
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6453
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5994
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5994
     expected_two_party_share_v2: 0.667
+    war_resolved: -0.0707
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.667
+    war_model: core
+    war_factors: *id001
   - name: Rod Jane
     slug: rod-jane
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4006
     expected_two_party_share_v2: 0.4061
+    war_resolved: -0.0024
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4061
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3915
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3915
     expected_two_party_share_v2: 0.4011
+    war_resolved: 0.1987
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4011
+    war_model: core
+    war_factors: *id001
   - name: Mary Jane Hillery
     slug: mary-jane-hillery
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6085
     expected_two_party_share_v2: 0.5155
+    war_resolved: -0.1153
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5155
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Middlesex and Worcester (2001-2010)
 layout: district

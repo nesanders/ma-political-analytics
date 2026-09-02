@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4901
     expected_two_party_share_v2: 0.5966
+    war_resolved: -0.0241
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5966
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5099
     expected_two_party_share_v2: 0.4636
+    war_resolved: -0.0361
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4636
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5555
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5555
     expected_two_party_share_v2: 0.6309
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6309
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.587
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.587
     expected_two_party_share_v2: 0.6501
+    war_resolved: 0.0583
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6501
+    war_model: core
+    war_factors: *id001
   - name: Peter F. Winters
     slug: peter-f-winters
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.413
     expected_two_party_share_v2: 0.4126
+    war_resolved: -0.121
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4126
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5869
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.587
     expected_two_party_share_v2: 0.6604
+    war_resolved: -0.0099
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6604
+    war_model: core
+    war_factors: *id001
   - name: John T. Haaland
     slug: john-t-haaland
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.413
     expected_two_party_share_v2: 0.4127
+    war_resolved: -0.0632
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4127
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4632
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4632
     expected_two_party_share_v2: 0.4389
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4389
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 10th Bristol (2001-2010)
 layout: district

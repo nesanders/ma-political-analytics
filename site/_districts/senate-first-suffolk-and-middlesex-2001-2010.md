@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7483
     expected_two_party_share_v2: 0.7457
+    war_resolved: 0.0053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7457
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Frank John Addivinola, Jr.
     slug: frank-john-addivinola-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.2517
     expected_two_party_share_v2: 0.3274
+    war_resolved: -0.0784
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3274
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7999
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7999
     expected_two_party_share_v2: 0.6163
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6163
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7707
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7707
     expected_two_party_share_v2: 0.747
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.747
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7904
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7905
     expected_two_party_share_v2: 0.7678
+    war_resolved: 0.0307
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7678
+    war_model: core
+    war_factors: *id001
   - name: Gilbert R. Lavoie
     slug: gilbert-r-lavoie
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2095
     expected_two_party_share_v2: 0.3053
+    war_resolved: -0.1038
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3053
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6554
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6554
     expected_two_party_share_v2: 0.5404
+    war_resolved: 0.2351
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5404
+    war_model: core
+    war_factors: *id001
   - name: Vincent J. Manganello
     slug: vincent-j-manganello
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.3446
     expected_two_party_share_v2: 0.3762
+    war_resolved: -0.1517
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3762
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Suffolk and Middlesex (2001-2010)
 layout: district

@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5005
     war_v3_demographics: 0.0837
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0837
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5005
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   - name: Sheila H. Dibb
     slug: sheila-h-dibb
     party: Democratic
@@ -94,6 +103,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4891
     war_v3_demographics: -0.0733
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0733
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.4891
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5229
@@ -140,6 +154,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5022
     war_v3_demographics: 0.0414
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0414
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5022
+    war_model: demographics_core
+    war_factors: *id001
   - name: James Anthony Amorello
     slug: james-anthony-amorello
     party: Republican
@@ -177,6 +196,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4874
     war_v3_demographics: -0.031
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.031
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.4874
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 89393

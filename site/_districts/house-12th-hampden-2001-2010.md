@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5373
     expected_two_party_share_v2: 0.624
+    war_resolved: 0.0238
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.624
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Joshua Carpenter
     slug: joshua-carpenter
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4627
     expected_two_party_share_v2: 0.4387
+    war_resolved: -0.0865
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4387
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6313
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6313
     expected_two_party_share_v2: 0.6838
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6838
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.586
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.586
     expected_two_party_share_v2: 0.5034
+    war_resolved: 0.085
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5034
+    war_model: core
+    war_factors: *id001
   - name: Christopher R. Leisey
     slug: christopher-r-leisey
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.414
     expected_two_party_share_v2: 0.4132
+    war_resolved: -0.0016
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4132
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.6012
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.6679
+    war_resolved: -0.0367
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6679
+    war_model: core
+    war_factors: *id001
   - name: Bob Collamore
     slug: bob-collamore
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3988
     expected_two_party_share_v2: 0.4052
+    war_resolved: -0.0364
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4052
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4592
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4592
     expected_two_party_share_v2: 0.4368
+    war_resolved: 0.1624
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4368
+    war_model: core
+    war_factors: *id001
   - name: Bob Collamore
     slug: bob-collamore
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5408
     expected_two_party_share_v2: 0.4798
+    war_resolved: -0.079
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4798
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Hampden (2001-2010)
 layout: district

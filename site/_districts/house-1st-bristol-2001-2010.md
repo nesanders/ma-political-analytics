@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6092
     expected_two_party_share_v2: 0.6621
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6621
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5299
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4702
     expected_two_party_share_v2: 0.5993
+    war_resolved: 0.0132
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5993
+    war_model: core
+    war_factors: *id001
   - name: Devin P. Romanul
     slug: devin-p-romanul
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5298
     expected_two_party_share_v2: 0.4738
+    war_resolved: -0.0863
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4738
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5095
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4905
     expected_two_party_share_v2: 0.4535
+    war_resolved: 0.0579
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4535
+    war_model: core
+    war_factors: *id001
   - name: Claire B. Naughton
     slug: claire-b-naughton
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5095
     expected_two_party_share_v2: 0.4631
+    war_resolved: 0.0255
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4631
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5362
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4638
     expected_two_party_share_v2: 0.596
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.596
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3568
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6432
     expected_two_party_share_v2: 0.5338
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5338
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Bristol (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.529
     expected_two_party_share_v2: 0.6176
+    war_resolved: 0.0068
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6176
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kerri A. O'Connor
     slug: kerri-a-oconnor
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.471
     expected_two_party_share_v2: 0.4426
+    war_resolved: -0.067
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4426
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1803
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.8197
     expected_two_party_share_v2: 0.7702
+    war_resolved: -0.1102
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7702
+    war_model: core
+    war_factors: *id001
   - name: Forrest W. Bradford
     slug: forrest-w-bradford
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.1803
     expected_two_party_share_v2: 0.29
+    war_resolved: 0.05
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.29
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4347
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5652
     expected_two_party_share_v2: 0.6392
+    war_resolved: -0.0392
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6392
+    war_model: core
+    war_factors: *id001
   - name: Rosemary Sandlin
     slug: rosemary-sandlin
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4348
     expected_two_party_share_v2: 0.4235
+    war_resolved: -0.0235
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4235
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3322
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6677
     expected_two_party_share_v2: 0.7033
+    war_resolved: -0.0245
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7033
+    war_model: core
+    war_factors: *id001
   - name: Samuel Salvatore Disanti, Jr.
     slug: samuel-salvatore-disanti-jr
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3323
     expected_two_party_share_v2: 0.3698
+    war_resolved: -0.0486
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3698
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4893
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5107
     expected_two_party_share_v2: 0.4642
+    war_resolved: 0.1477
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4642
+    war_model: core
+    war_factors: *id001
   - name: Samuel Salvatore Disanti, Jr.
     slug: samuel-salvatore-disanti-jr
     party: Democratic
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4893
     expected_two_party_share_v2: 0.4524
+    war_resolved: -0.0643
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4524
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Hampden District (2012-2020)
 layout: district

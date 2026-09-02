@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6675
     expected_two_party_share_v2: 0.5463
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5463
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.327
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.327
     expected_two_party_share_v2: 0.511
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.511
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6701
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6701
     expected_two_party_share_v2: 0.6938
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6938
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5029
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5029
     expected_two_party_share_v2: 0.6164
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6164
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6464
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6464
     expected_two_party_share_v2: 0.5353
+    war_resolved: 0.2327
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5353
+    war_model: core
+    war_factors: *id001
   - name: Martin D. Burke
     slug: martin-d-burke
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3536
     expected_two_party_share_v2: 0.3813
+    war_resolved: -0.1493
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3813
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 17th Middlesex District (2012-2020)
 layout: district

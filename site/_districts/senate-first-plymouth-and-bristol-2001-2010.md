@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4309
     expected_two_party_share_v2: 0.5654
+    war_resolved: 0.0152
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5654
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: David W. Pottier
     slug: david-w-pottier
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5691
     expected_two_party_share_v2: 0.4948
+    war_resolved: -0.0754
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4948
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5372
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5372
     expected_two_party_share_v2: 0.6212
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6212
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5594
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5594
     expected_two_party_share_v2: 0.6355
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6355
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5554
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5554
     expected_two_party_share_v2: 0.6437
+    war_resolved: 0.0953
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6437
+    war_model: core
+    war_factors: *id001
   - name: Donald J. Jonah
     slug: donald-j-jonah
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4446
     expected_two_party_share_v2: 0.4294
+    war_resolved: -0.1684
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4294
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4384
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4384
     expected_two_party_share_v2: 0.4259
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4259
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Plymouth and Bristol (2001-2010)
 layout: district

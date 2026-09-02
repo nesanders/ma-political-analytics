@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5739
     expected_two_party_share_v2: 0.4969
+    war_resolved: 0.058
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4969
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert E. May, Jr
     slug: robert-e-may-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4261
     expected_two_party_share_v2: 0.4197
+    war_resolved: 0.0254
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4197
+    war_model: core
+    war_factors: *id001
   - name: William J. Bates
     slug: william-j-bates
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Jason Guida
     slug: jason-guida
     party: Other
@@ -115,6 +133,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Christopher Keohane
     slug: christopher-keohane
     party: Other
@@ -138,6 +161,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2115
@@ -170,6 +198,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2114
     expected_two_party_share_v2: 0.45
+    war_resolved: 0.0644
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.45
+    war_model: core
+    war_factors: *id001
   - name: Mark B. Mezzina
     slug: mark-b-mezzina
     party: Republican
@@ -193,6 +226,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7886
     expected_two_party_share_v2: 0.6102
+    war_resolved: -0.1246
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6102
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5334
@@ -225,6 +263,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5334
     expected_two_party_share_v2: 0.6217
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6217
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3871
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3871
     expected_two_party_share_v2: 0.5552
+    war_resolved: -0.0308
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5552
+    war_model: core
+    war_factors: *id001
   - name: Thomas J. Lyons
     slug: thomas-j-lyons
     party: Republican
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6129
     expected_two_party_share_v2: 0.5179
+    war_resolved: -0.0423
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5179
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5178
@@ -312,6 +365,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5178
     expected_two_party_share_v2: 0.4674
+    war_resolved: 0.1606
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4674
+    war_model: core
+    war_factors: *id001
   - name: Daniel C. Bennett
     slug: daniel-c-bennett
     party: Republican
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4822
     expected_two_party_share_v2: 0.4492
+    war_resolved: -0.0772
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4492
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 13th Essex District (2012-2020)
 layout: district

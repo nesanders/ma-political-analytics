@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4323
     expected_two_party_share_v2: 0.579
+    war_resolved: 0.0102
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.579
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Neal Andrew Heeren
     slug: neal-andrew-heeren
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5677
     expected_two_party_share_v2: 0.4941
+    war_resolved: -0.0833
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4941
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5567
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5567
     expected_two_party_share_v2: 0.4879
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4879
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5663
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5663
     expected_two_party_share_v2: 0.6391
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6391
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5659
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5659
     expected_two_party_share_v2: 0.6493
+    war_resolved: -0.0096
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6493
+    war_model: core
+    war_factors: *id001
   - name: David Shnaider
     slug: david-shnaider
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4341
     expected_two_party_share_v2: 0.4238
+    war_resolved: -0.0635
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4238
+    war_model: core
+    war_factors: *id001
   - name: Richard R. Zitola
     slug: richard-r-zitola
     party: null
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4079
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4079
     expected_two_party_share_v2: 0.4098
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4098
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Worcester and Middlesex (2001-2010)
 layout: district

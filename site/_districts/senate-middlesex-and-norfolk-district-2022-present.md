@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.7352
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7352
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7132
@@ -103,6 +112,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6826
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6826
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 123523

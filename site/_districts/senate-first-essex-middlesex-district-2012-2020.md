@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3773
     expected_two_party_share_v2: 0.5375
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5375
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2405
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7595
     expected_two_party_share_v2: 0.7385
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7385
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5738
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4262
     expected_two_party_share_v2: 0.5658
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5658
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3922
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6078
     expected_two_party_share_v2: 0.6717
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6717
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5119
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4881
     expected_two_party_share_v2: 0.4523
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4523
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Essex & Middlesex District (2012-2020)
 layout: district

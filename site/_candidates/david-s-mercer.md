@@ -43,6 +43,15 @@ races:
   expected_two_party_share_v3_finance: 0.372
   war_v3_finance: -0.0098
   war_v3_finance_sd: 0.1015
+  war_resolved: -0.0098
+  war_resolved_sd: 0.1015
+  expected_share_resolved: 0.372
+  war_model: finance
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - Campaign fundraising
 ocpf_finance:
   cpf_ids:
   - 15164

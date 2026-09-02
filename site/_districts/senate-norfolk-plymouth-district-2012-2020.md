@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.632
     expected_two_party_share_v2: 0.6712
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6712
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2966
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2966
     expected_two_party_share_v2: 0.495
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.495
+    war_model: core
+    war_factors: *id001
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5979
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5979
     expected_two_party_share_v2: 0.6557
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6557
+    war_model: core
+    war_factors: *id001
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4433
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4432
     expected_two_party_share_v2: 0.5849
+    war_resolved: 0.0757
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5849
+    war_model: core
+    war_factors: *id001
   - name: Leslie C. Gosule
     slug: leslie-c-gosule
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5568
     expected_two_party_share_v2: 0.4882
+    war_resolved: -0.1488
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4882
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5803
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5803
     expected_two_party_share_v2: 0.5004
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5004
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk & Plymouth District (2012-2020)
 layout: district

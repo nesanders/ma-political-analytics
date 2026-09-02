@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6419
     expected_two_party_share_v2: 0.6764
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6764
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2654
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2654
     expected_two_party_share_v2: 0.4785
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4785
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5933
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5933
     expected_two_party_share_v2: 0.6533
+    war_resolved: 0.0067
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6533
+    war_model: core
+    war_factors: *id001
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4067
     expected_two_party_share_v2: 0.4094
+    war_resolved: -0.0694
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4094
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4063
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4063
     expected_two_party_share_v2: 0.5654
+    war_resolved: 0.0158
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5654
+    war_model: core
+    war_factors: *id001
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5937
     expected_two_party_share_v2: 0.5077
+    war_resolved: -0.0889
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5077
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5326
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5325
     expected_two_party_share_v2: 0.4752
+    war_resolved: 0.132
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4752
+    war_model: core
+    war_factors: *id001
   - name: James M. Stanton
     slug: james-m-stanton
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4675
     expected_two_party_share_v2: 0.4414
+    war_resolved: -0.0486
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4414
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Norfolk District (2012-2020)
 layout: district

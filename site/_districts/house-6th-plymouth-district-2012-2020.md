@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5616
     expected_two_party_share_v2: 0.4904
+    war_resolved: 0.1015
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4904
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Tatyana Medvedev Semyrog
     slug: tatyana-medvedev-semyrog
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4384
     expected_two_party_share_v2: 0.4262
+    war_resolved: -0.0181
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4262
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2055
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2055
     expected_two_party_share_v2: 0.4469
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4469
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5032
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5032
     expected_two_party_share_v2: 0.6058
+    war_resolved: 0.0347
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6058
+    war_model: core
+    war_factors: *id001
   - name: Vince Cogliano
     slug: vince-cogliano
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4968
     expected_two_party_share_v2: 0.4569
+    war_resolved: -0.0974
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4569
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3437
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3437
     expected_two_party_share_v2: 0.5323
+    war_resolved: 0.0059
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5323
+    war_model: core
+    war_factors: *id001
   - name: Joseph Sheehan
     slug: joseph-sheehan
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6563
     expected_two_party_share_v2: 0.5408
+    war_resolved: -0.079
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5408
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4589
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4589
     expected_two_party_share_v2: 0.4363
+    war_resolved: 0.1144
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4363
+    war_model: core
+    war_factors: *id001
   - name: Karen E. Barry
     slug: karen-e-barry
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5411
     expected_two_party_share_v2: 0.4803
+    war_resolved: -0.031
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4803
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Plymouth District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6138
     expected_two_party_share_v2: 0.662
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.662
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5106
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4894
     expected_two_party_share_v2: 0.5966
+    war_resolved: 0.1163
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5966
+    war_model: core
+    war_factors: *id001
   - name: Claire M. Paradiso
     slug: claire-m-paradiso
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5106
     expected_two_party_share_v2: 0.4636
+    war_resolved: -0.1765
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4636
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4759
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5241
     expected_two_party_share_v2: 0.6174
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6174
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5259
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4741
     expected_two_party_share_v2: 0.6014
+    war_resolved: 0.0585
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6014
+    war_model: core
+    war_factors: *id001
   - name: Ben Tafoya
     slug: ben-tafoya
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.4717
+    war_resolved: -0.1316
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4717
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3468
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6532
     expected_two_party_share_v2: 0.5391
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5391
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 20th Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: William E. Larose
     slug: william-e-larose
     party: Democratic
@@ -69,6 +74,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5509
     expected_two_party_share_v2: 0.4848
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4848
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2724
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: John William Arena
     slug: john-william-arena
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2724
     expected_two_party_share_v2: 0.3386
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3386
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5098
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4902
     expected_two_party_share_v2: 0.61
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.61
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4431
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5569
     expected_two_party_share_v2: 0.4883
+    war_resolved: 0.058
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4883
+    war_model: core
+    war_factors: *id001
   - name: Denise Andrews
     slug: denise-andrews
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4431
     expected_two_party_share_v2: 0.5848
+    war_resolved: -0.1311
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5848
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5838
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5838
     expected_two_party_share_v2: 0.5023
+    war_resolved: 0.0037
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5023
+    war_model: core
+    war_factors: *id001
   - name: Susannah M. Whipps Lee
     slug: susannah-m-whipps
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4162
     expected_two_party_share_v2: 0.4143
+    war_resolved: 0.0797
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4143
+    war_model: core
+    war_factors: *id001
   - name: Richard F. Schober, Jr.
     slug: richard-f-schober-jr
     party: Other
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 2nd Franklin District (2012-2020)
 layout: district

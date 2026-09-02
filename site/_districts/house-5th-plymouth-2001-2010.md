@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3887
     expected_two_party_share_v2: 0.3995
+    war_resolved: 0.1288
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3995
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Korey M. Welch
     slug: korey-m-welch
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6113
     expected_two_party_share_v2: 0.5171
+    war_resolved: -0.0454
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5171
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.4813
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.4813
     expected_two_party_share_v2: 0.5917
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5917
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4758
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4758
     expected_two_party_share_v2: 0.5914
+    war_resolved: 0.0432
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5914
+    war_model: core
+    war_factors: *id001
   - name: Timothy M. Gillespie, Jr.
     slug: timothy-m-gillespie-jr
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5242
     expected_two_party_share_v2: 0.4713
+    war_resolved: -0.1059
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4713
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5075
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5075
     expected_two_party_share_v2: 0.6185
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6185
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3649
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3649
     expected_two_party_share_v2: 0.3871
+    war_resolved: 0.2384
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3871
+    war_model: core
+    war_factors: *id001
   - name: Joseph E. Mullin
     slug: joseph-e-mullin
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6351
     expected_two_party_share_v2: 0.5295
+    war_resolved: -0.155
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5295
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Plymouth (2001-2010)
 layout: district

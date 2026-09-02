@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4865
     expected_two_party_share_v2: 0.5952
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5952
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2248
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7752
     expected_two_party_share_v2: 0.7467
+    war_resolved: -0.1794
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7467
+    war_model: core
+    war_factors: *id001
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2248
     expected_two_party_share_v2: 0.3135
+    war_resolved: 0.1192
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3135
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4719
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5282
     expected_two_party_share_v2: 0.6196
+    war_resolved: -0.0418
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6196
+    war_model: core
+    war_factors: *id001
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4718
     expected_two_party_share_v2: 0.4431
+    war_resolved: -0.0209
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4431
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3874
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6126
     expected_two_party_share_v2: 0.6742
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6742
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5173
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4827
     expected_two_party_share_v2: 0.4494
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4494
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Plymouth District (2012-2020)
 layout: district

@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5898
     war_v3_demographics: 0.0689
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0689
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.5898
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -94,6 +103,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4574
     war_v3_demographics: -0.1161
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.1161
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.4574
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -140,6 +154,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5209
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5209
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 98787

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3728
     expected_two_party_share_v2: 0.3916
+    war_resolved: 0.1584
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3916
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Meg Wheeler
     slug: meg-wheeler
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6272
     expected_two_party_share_v2: 0.525
+    war_resolved: -0.075
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.525
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2414
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7586
     expected_two_party_share_v2: 0.7509
+    war_resolved: -0.2157
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7509
+    war_model: core
+    war_factors: *id001
   - name: Katie L. Mcbrine
     slug: katie-l-mcbrine
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2414
     expected_two_party_share_v2: 0.3222
+    war_resolved: 0.1426
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3222
+    war_model: core
+    war_factors: *id001
   - name: Stephen D. Gill
     slug: stephen-d-gill
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5739
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4261
     expected_two_party_share_v2: 0.4196
+    war_resolved: 0.1465
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4196
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Gannon
     slug: paul-j-gannon
     party: Democratic
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5739
     expected_two_party_share_v2: 0.497
+    war_resolved: -0.0631
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.497
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.382
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.618
     expected_two_party_share_v2: 0.677
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.677
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.501
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.499
     expected_two_party_share_v2: 0.458
+    war_resolved: 0.2254
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.458
+    war_model: core
+    war_factors: *id001
   - name: Genevieve S. Davis
     slug: genevieve-s-davis
     party: Democratic
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.501
     expected_two_party_share_v2: 0.4586
+    war_resolved: -0.142
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4586
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Plymouth & Norfolk District (2012-2020)
 layout: district

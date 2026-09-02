@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6986
     expected_two_party_share_v2: 0.7063
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7063
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2967
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2967
     expected_two_party_share_v2: 0.495
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.495
+    war_model: core
+    war_factors: *id001
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6563
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6563
     expected_two_party_share_v2: 0.6865
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6865
+    war_model: core
+    war_factors: *id001
   - name: Daniel Fishman
     slug: daniel-fishman
     party: Other
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4589
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4589
     expected_two_party_share_v2: 0.5931
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5931
+    war_model: core
+    war_factors: *id001
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5935
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5935
     expected_two_party_share_v2: 0.5074
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5074
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 6th Essex District (2012-2020)
 layout: district

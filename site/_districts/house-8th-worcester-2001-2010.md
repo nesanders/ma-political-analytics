@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6247
     expected_two_party_share_v2: 0.5242
+    war_resolved: 0.048
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5242
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Paul Kujawski
     slug: paul-kujawski
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3753
     expected_two_party_share_v2: 0.536
+    war_resolved: -0.1082
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.536
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5095
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5095
     expected_two_party_share_v2: 0.6066
+    war_resolved: -0.0732
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6066
+    war_model: core
+    war_factors: *id001
   - name: Kevin J. Kuros
     slug: kevin-j-kuros
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4905
     expected_two_party_share_v2: 0.4536
+    war_resolved: 0.013
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4536
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5503
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5503
     expected_two_party_share_v2: 0.6307
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6307
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5332
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5332
     expected_two_party_share_v2: 0.632
+    war_resolved: -0.04
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.632
+    war_model: core
+    war_factors: *id001
   - name: Dorothy A. Mann
     slug: dorothy-a-mann
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4668
     expected_two_party_share_v2: 0.4411
+    war_resolved: -0.0331
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4411
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.381
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.381
     expected_two_party_share_v2: 0.3956
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3956
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Worcester (2001-2010)
 layout: district

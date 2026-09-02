@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7382
     expected_two_party_share_v2: 0.7297
+    war_resolved: 0.1074
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7297
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Prince Golphin, Jr
     slug: prince-golphin-jr
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.2618
     expected_two_party_share_v2: 0.333
+    war_resolved: -0.1701
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.333
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4373
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4373
     expected_two_party_share_v2: 0.5821
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5821
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7822
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7822
     expected_two_party_share_v2: 0.6069
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6069
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.6531
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6531
     expected_two_party_share_v2: 0.6956
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6956
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8067
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8067
     expected_two_party_share_v2: 0.6199
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6199
+    war_model: core
+    war_factors: *id001
   - name: Norman W. Oliver
     slug: norman-w-oliver
     party: Other
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 11th Hampden District (2012-2020)
 layout: district

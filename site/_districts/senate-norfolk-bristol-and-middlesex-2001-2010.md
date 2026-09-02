@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5431
     expected_two_party_share_v2: 0.4811
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4811
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5891
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4108
     expected_two_party_share_v2: 0.5577
+    war_resolved: 0.0275
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5577
+    war_model: core
+    war_factors: *id001
   - name: Sara Orozco
     slug: sara-orozco
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5892
     expected_two_party_share_v2: 0.505
+    war_resolved: -0.0902
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.505
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5559
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4441
     expected_two_party_share_v2: 0.5856
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5856
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5793
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4207
     expected_two_party_share_v2: 0.4167
+    war_resolved: 0.0995
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4167
+    war_model: core
+    war_factors: *id001
   - name: Angus G. McQuilken
     slug: angus-g-mcquilken
     party: Democratic
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5793
     expected_two_party_share_v2: 0.4999
+    war_resolved: -0.0161
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4999
+    war_model: core
+    war_factors: *id001
   - name: Louis Sinoff
     slug: louis-sinoff
     party: Libertarian
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.3853
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3852
     expected_two_party_share_v2: 0.3978
+    war_resolved: 0.2019
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3978
+    war_model: core
+    war_factors: *id001
   - name: Earl Henry Sholley
     slug: earl-h-sholley
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6148
     expected_two_party_share_v2: 0.5188
+    war_resolved: -0.1185
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5188
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Norfolk, Bristol, and Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.534
     expected_two_party_share_v2: 0.6194
+    war_resolved: -0.0481
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6194
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Bruce K. Chester
     slug: bruce-k-chester
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.466
     expected_two_party_share_v2: 0.4408
+    war_resolved: -0.0121
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4408
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2159
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2159
     expected_two_party_share_v2: 0.4524
+    war_resolved: 0.1016
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4524
+    war_model: core
+    war_factors: *id001
   - name: Edward A. Gravel
     slug: edward-a-gravel
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7841
     expected_two_party_share_v2: 0.6078
+    war_resolved: -0.1618
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6078
+    war_model: core
+    war_factors: *id001
   - name: Yasmine Khdeer
     slug: yasmine-khdeer
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4984
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4984
     expected_two_party_share_v2: 0.6032
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6032
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4101
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4102
     expected_two_party_share_v2: 0.5674
+    war_resolved: -0.0659
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5674
+    war_model: core
+    war_factors: *id001
   - name: Garret Shetrawski
     slug: garret-shetrawski
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5898
     expected_two_party_share_v2: 0.5057
+    war_resolved: -0.0072
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5057
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5441
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5441
     expected_two_party_share_v2: 0.4813
+    war_resolved: 0.0287
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4813
+    war_model: core
+    war_factors: *id001
   - name: Richard M. Bastien
     slug: richard-m-bastien
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4559
     expected_two_party_share_v2: 0.4353
+    war_resolved: 0.0547
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4353
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Worcester District (2012-2020)
 layout: district

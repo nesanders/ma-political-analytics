@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0889
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6779
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0261
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5226
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.1075
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.705
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1741
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.3393
+  war_model: core
+  war_factors: *id001
 title: Rebecca L. Rausch
 layout: candidate
 ---

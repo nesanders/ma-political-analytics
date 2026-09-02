@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6225
     expected_two_party_share_v2: 0.523
+    war_resolved: -0.0104
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.523
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Allen J. McCarthy
     slug: allen-j-mccarthy
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3775
     expected_two_party_share_v2: 0.5397
+    war_resolved: -0.0523
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5397
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4987
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.4987
     expected_two_party_share_v2: 0.6138
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6138
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4965
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4964
     expected_two_party_share_v2: 0.4562
+    war_resolved: 0.0612
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4562
+    war_model: core
+    war_factors: *id001
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5036
     expected_two_party_share_v2: 0.4604
+    war_resolved: 0.0222
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4604
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.5209
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5209
     expected_two_party_share_v2: 0.6255
+    war_resolved: 0.0209
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6255
+    war_model: core
+    war_factors: *id001
   - name: Edward P. Kirby
     slug: edward-p-kirby
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4791
     expected_two_party_share_v2: 0.4476
+    war_resolved: -0.094
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4476
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4308
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4308
     expected_two_party_share_v2: 0.4218
+    war_resolved: 0.19
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4218
+    war_model: core
+    war_factors: *id001
   - name: R. Andrew Burbine
     slug: r-andrew-burbine
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5692
     expected_two_party_share_v2: 0.4948
+    war_resolved: -0.1066
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4948
+    war_model: core
+    war_factors: *id001
   - name: Steven P. Olson
     slug: steven-p-olson
     party: Libertarian
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 7th Plymouth (2001-2010)
 layout: district

@@ -57,6 +57,15 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.7217
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7217
+    war_model: demographics_core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   - name: Boyd Stewart Conklin
     slug: boyd-stewart-conklin
     party: Other
@@ -94,6 +103,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: null
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6799
@@ -140,6 +154,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6499
     war_v3_demographics: 0.0253
     war_v3_demographics_sd: 0.0642
+    war_resolved: 0.0253
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.6499
+    war_model: demographics_core
+    war_factors: *id001
   - name: Jonathan I. Hostage
     slug: jonathan-i-hostage
     party: Republican
@@ -177,6 +196,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.3306
     war_v3_demographics: -0.0058
     war_v3_demographics_sd: 0.0642
+    war_resolved: -0.0058
+    war_resolved_sd: 0.0642
+    expected_share_resolved: 0.3306
+    war_model: demographics_core
+    war_factors: *id001
   is_open_seat: null
 demographics:
   median_household_income: 145137

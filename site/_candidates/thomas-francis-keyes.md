@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0352
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4536
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0149
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4905
+  war_model: core
+  war_factors: *id001
 title: Thomas F. Keyes
 layout: candidate
 ---

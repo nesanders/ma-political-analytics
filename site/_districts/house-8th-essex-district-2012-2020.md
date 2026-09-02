@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7238
     expected_two_party_share_v2: 0.7196
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7196
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2641
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2641
     expected_two_party_share_v2: 0.4778
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4778
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6866
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6866
     expected_two_party_share_v2: 0.7025
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7025
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4267
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4267
     expected_two_party_share_v2: 0.5761
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5761
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6034
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6034
     expected_two_party_share_v2: 0.5126
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5126
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Essex District (2012-2020)
 layout: district

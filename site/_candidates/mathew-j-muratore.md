@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0576
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4303
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1512
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4264
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0016
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.558
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.2243
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.7473
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0951
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6037
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0892
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5129
+  war_model: core
+  war_factors: *id001
 title: Mathew J. Muratore
 layout: candidate
 ---

@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.6346
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5522
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1625
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4629
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: null
+  war_resolved_sd: null
+  expected_share_resolved: 0.5552
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0189
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6267
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.018
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6227
+  war_model: core
+  war_factors: *id001
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0843
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.4829
+  war_model: core
+  war_factors: *id001
 title: James E. Timilty
 layout: candidate
 ---

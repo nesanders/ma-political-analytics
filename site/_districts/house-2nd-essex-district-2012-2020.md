@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4033
     expected_two_party_share_v2: 0.5513
+    war_resolved: -0.0384
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5513
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Christina Eckert
     slug: christina-eckert
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5967
     expected_two_party_share_v2: 0.5089
+    war_resolved: -0.0218
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5089
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2319
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7681
     expected_two_party_share_v2: 0.743
+    war_resolved: -0.2359
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.743
+    war_model: core
+    war_factors: *id001
   - name: Christina Eckert
     slug: christina-eckert
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2319
     expected_two_party_share_v2: 0.3172
+    war_resolved: 0.1757
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3172
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5448
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4552
     expected_two_party_share_v2: 0.5811
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5811
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3793
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6207
     expected_two_party_share_v2: 0.6785
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6785
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4965
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5036
     expected_two_party_share_v2: 0.4604
+    war_resolved: 0.0619
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4604
+    war_model: core
+    war_factors: *id001
   - name: Barry P. Fogel
     slug: barry-p-fogel
     party: Democratic
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4964
     expected_two_party_share_v2: 0.4562
+    war_resolved: 0.0215
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4562
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Essex District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6745
     expected_two_party_share_v2: 0.6961
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6961
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2471
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2471
     expected_two_party_share_v2: 0.4817
+    war_resolved: 0.0886
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4817
+    war_model: core
+    war_factors: *id001
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7529
     expected_two_party_share_v2: 0.5914
+    war_resolved: -0.1617
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5914
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6259
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6259
     expected_two_party_share_v2: 0.5244
+    war_resolved: 0.0158
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5244
+    war_model: core
+    war_factors: *id001
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3741
     expected_two_party_share_v2: 0.3922
+    war_resolved: 0.0676
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3922
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.3894
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3894
     expected_two_party_share_v2: 0.5565
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5565
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.507
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.507
     expected_two_party_share_v2: 0.4617
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4617
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Plymouth District (2012-2020)
 layout: district

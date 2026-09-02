@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5815
     expected_two_party_share_v2: 0.5014
+    war_resolved: 0.029
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5014
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Lance William Lambros
     slug: lance-william-lambros
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4185
     expected_two_party_share_v2: 0.4152
+    war_resolved: 0.0544
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4152
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.5255
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4745
     expected_two_party_share_v2: 0.5887
+    war_resolved: 0.1105
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5887
+    war_model: core
+    war_factors: *id001
   - name: Glenn S. Pare
     slug: glenn-s-pare
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5255
     expected_two_party_share_v2: 0.4715
+    war_resolved: -0.1707
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4715
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.4669
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.5331
     expected_two_party_share_v2: 0.6221
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6221
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5104
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4896
     expected_two_party_share_v2: 0.6096
+    war_resolved: 0.0509
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6096
+    war_model: core
+    war_factors: *id001
   - name: Garry N. Blank
     slug: garry-n-blank
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5104
     expected_two_party_share_v2: 0.4635
+    war_resolved: -0.124
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4635
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3699
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.6301
     expected_two_party_share_v2: 0.5269
+    war_resolved: -0.0148
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5269
+    war_model: core
+    war_factors: *id001
   - name: Ruth W. Provost
     slug: ruth-w-provost
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3699
     expected_two_party_share_v2: 0.3897
+    war_resolved: 0.0982
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3897
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Barnstable (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4639
     expected_two_party_share_v2: 0.5828
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5828
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.556
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.556
     expected_two_party_share_v2: 0.6311
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6311
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.553
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.553
     expected_two_party_share_v2: 0.6321
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6321
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5866
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5867
     expected_two_party_share_v2: 0.6602
+    war_resolved: 0.0056
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6602
+    war_model: core
+    war_factors: *id001
   - name: John G. Bonnanzio
     slug: john-g-bonnanzio
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4133
     expected_two_party_share_v2: 0.4129
+    war_resolved: -0.0787
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4129
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4149
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4149
     expected_two_party_share_v2: 0.4135
+    war_resolved: 0.3036
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4135
+    war_model: core
+    war_factors: *id001
   - name: Howard Hansen
     slug: howard-hansen
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5851
     expected_two_party_share_v2: 0.5031
+    war_resolved: -0.2202
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5031
+    war_model: core
+    war_factors: *id001
   - name: Richard Alan Yampell
     slug: richard-a-yampell
     party: Libertarian
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 6th Norfolk (2001-2010)
 layout: district

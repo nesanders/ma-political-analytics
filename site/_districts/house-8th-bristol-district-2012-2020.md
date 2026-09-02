@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5586
     expected_two_party_share_v2: 0.6324
+    war_resolved: -0.0621
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6324
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4414
     expected_two_party_share_v2: 0.4278
+    war_resolved: 0.0019
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4278
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3413
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3413
     expected_two_party_share_v2: 0.5185
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5185
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5908
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5908
     expected_two_party_share_v2: 0.652
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.652
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5801
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5801
     expected_two_party_share_v2: 0.6571
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6571
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7026
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7026
     expected_two_party_share_v2: 0.5649
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5649
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Bristol District (2012-2020)
 layout: district

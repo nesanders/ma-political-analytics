@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.3519
     expected_two_party_share_v2: 0.5237
+    war_resolved: 0.076
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5237
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George Derek Boag
     slug: george-derek-boag
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.6481
     expected_two_party_share_v2: 0.5365
+    war_resolved: -0.1362
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5365
+    war_model: core
+    war_factors: *id001
   - name: Matthew James Sheehan
     slug: matthew-james-sheehan
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.4957
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.4957
     expected_two_party_share_v2: 0.5993
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5993
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.473
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.473
     expected_two_party_share_v2: 0.5899
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5899
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5066
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5066
     expected_two_party_share_v2: 0.618
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.618
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.366
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.366
     expected_two_party_share_v2: 0.3876
+    war_resolved: 0.1845
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3876
+    war_model: core
+    war_factors: *id001
   - name: Dennis Deeb, II
     slug: dennis-deeb-ii
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.634
     expected_two_party_share_v2: 0.529
+    war_resolved: -0.1011
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.529
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 36th Middlesex (2001-2010)
 layout: district

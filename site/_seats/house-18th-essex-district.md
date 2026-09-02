@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.6448
     war_v3_demographics: null
     war_v3_demographics_sd: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6448
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6054
@@ -103,6 +113,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.581
     war_v3_demographics: 0.0232
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0232
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.581
+    war_model: demographics_full
+    war_factors: *id001
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4058
     war_v3_demographics: -0.01
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.01
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4058
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 46846

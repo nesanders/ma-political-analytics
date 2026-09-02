@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5043
     expected_two_party_share_v2: 0.6041
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6041
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6289
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6289
     expected_two_party_share_v2: 0.6696
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6696
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5769
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5768
     expected_two_party_share_v2: 0.6447
+    war_resolved: 0.1299
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6447
+    war_model: core
+    war_factors: *id001
   - name: Matthew Lewis Prahl
     slug: matthew-lewis-prahl
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4232
     expected_two_party_share_v2: 0.418
+    war_resolved: -0.1926
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.418
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6026
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6026
     expected_two_party_share_v2: 0.6686
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6686
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4555
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4555
     expected_two_party_share_v2: 0.4349
+    war_resolved: 0.2852
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4349
+    war_model: core
+    war_factors: *id001
   - name: Harry H. Garavanian
     slug: harry-h-garavanian
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5445
     expected_two_party_share_v2: 0.4817
+    war_resolved: -0.2018
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4817
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 16th Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6254
     expected_two_party_share_v2: 0.6677
+    war_resolved: 0.0168
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6677
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Stephen F. Tougas
     slug: stephen-f-tougas
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3746
     expected_two_party_share_v2: 0.3925
+    war_resolved: -0.077
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3925
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2879
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2879
     expected_two_party_share_v2: 0.4904
+    war_resolved: 0.1979
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4904
+    war_model: core
+    war_factors: *id001
   - name: Stephen F. Tougas
     slug: stephen-f-tougas
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7121
     expected_two_party_share_v2: 0.5698
+    war_resolved: -0.2581
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5698
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5791
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5791
     expected_two_party_share_v2: 0.6458
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6458
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.441
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4409
     expected_two_party_share_v2: 0.5837
+    war_resolved: 0.0773
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5837
+    war_model: core
+    war_factors: *id001
   - name: Patricia Kriegel
     slug: patricia-kriegel
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5591
     expected_two_party_share_v2: 0.4894
+    war_resolved: -0.1504
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4894
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5689
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5689
     expected_two_party_share_v2: 0.4944
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4944
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Norfolk District (2012-2020)
 layout: district

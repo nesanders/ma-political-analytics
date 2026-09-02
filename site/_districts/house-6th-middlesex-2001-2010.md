@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5721
     expected_two_party_share_v2: 0.4963
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4963
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Jim M. Rizoli
     slug: jim-m-rizoli
     party: Other
@@ -92,6 +105,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.6782
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6782
     expected_two_party_share_v2: 0.7085
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7085
+    war_model: core
+    war_factors: *id001
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Other
@@ -147,6 +170,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6257
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Nicolas Sanchez
     slug: nicolas-sanchez
     party: Other
@@ -202,6 +235,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Deborah D. Blumer
     slug: deborah-d-blumer
     party: Democratic
@@ -225,6 +263,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6257
     expected_two_party_share_v2: 0.6705
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6705
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6711
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6711
     expected_two_party_share_v2: 0.7048
+    war_resolved: -0.0342
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7048
+    war_model: core
+    war_factors: *id001
   - name: Nicolas Sanchez
     slug: nicolas-sanchez
     party: Republican
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3289
     expected_two_party_share_v2: 0.3683
+    war_resolved: -0.0389
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3683
+    war_model: core
+    war_factors: *id001
   - name: Gerald L. Bloomfield
     slug: gerald-l-bloomfield
     party: Other
@@ -303,6 +356,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4591
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4591
     expected_two_party_share_v2: 0.4368
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4368
+    war_model: core
+    war_factors: *id001
   - name: James M. Pillsbury
     slug: james-m-pillsbury
     party: Libertarian
@@ -358,6 +421,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 6th Middlesex (2001-2010)
 layout: district

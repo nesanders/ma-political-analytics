@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0469
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6821
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0949
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.438
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -123,6 +136,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.039
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.45
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -163,6 +181,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0847
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.552
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -203,6 +226,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0331
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6246
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -243,6 +271,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0105
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6026
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -283,6 +316,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: -0.0424
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6241
+  war_model: core
+  war_factors: *id001
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -323,6 +361,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1613
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.3731
+  war_model: core
+  war_factors: *id001
 title: Barbara A. L'Italien
 layout: candidate
 ---

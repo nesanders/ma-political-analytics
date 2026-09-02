@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6295
     expected_two_party_share_v2: 0.6827
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6827
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2661
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2661
     expected_two_party_share_v2: 0.3353
+    war_resolved: 0.3637
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3353
+    war_model: core
+    war_factors: *id001
   - name: Claire M. Malaguti
     slug: claire-m-malaguti
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7339
     expected_two_party_share_v2: 0.5813
+    war_resolved: -0.2803
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5813
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.581
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.581
     expected_two_party_share_v2: 0.6468
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6468
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4321
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4321
     expected_two_party_share_v2: 0.579
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.579
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5397
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5397
     expected_two_party_share_v2: 0.479
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.479
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 30th Middlesex District (2012-2020)
 layout: district

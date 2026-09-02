@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.715
     expected_two_party_share_v2: 0.715
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.715
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2619
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2619
     expected_two_party_share_v2: 0.4766
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4766
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6606
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6606
     expected_two_party_share_v2: 0.6888
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6888
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3987
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3986
     expected_two_party_share_v2: 0.5614
+    war_resolved: 0.0062
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5614
+    war_model: core
+    war_factors: *id001
   - name: Patricia M. Vanaria
     slug: patricia-m-vanaria
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6014
     expected_two_party_share_v2: 0.5117
+    war_resolved: -0.0793
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5117
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5298
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5298
     expected_two_party_share_v2: 0.4738
+    war_resolved: 0.1399
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4738
+    war_model: core
+    war_factors: *id001
   - name: Martin A. Lamb
     slug: martin-a-lamb
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4702
     expected_two_party_share_v2: 0.4428
+    war_resolved: -0.0565
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4428
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 8th Middlesex District (2012-2020)
 layout: district

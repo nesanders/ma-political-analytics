@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.657
     expected_two_party_share_v2: 0.6847
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6847
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6914
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6914
     expected_two_party_share_v2: 0.7026
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7026
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7179
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7179
     expected_two_party_share_v2: 0.7191
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7191
+    war_model: core
+    war_factors: *id001
   - name: Raimundo Delgado
     slug: raimundo-delgado
     party: Other
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7293
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7293
     expected_two_party_share_v2: 0.7355
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7355
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6604
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6604
     expected_two_party_share_v2: 0.543
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.543
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Bristol and Plymouth (2001-2010)
 layout: district

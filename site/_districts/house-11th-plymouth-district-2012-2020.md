@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7054
     expected_two_party_share_v2: 0.7099
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7099
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3626
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3626
     expected_two_party_share_v2: 0.5298
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5298
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6681
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6681
     expected_two_party_share_v2: 0.6928
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6928
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.5166
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5166
     expected_two_party_share_v2: 0.6236
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6236
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6327
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6326
     expected_two_party_share_v2: 0.5281
+    war_resolved: 0.1046
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5281
+    war_model: core
+    war_factors: *id001
   - name: Daniel J. Murphy
     slug: daniel-j-murphy
     party: Republican
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.3674
     expected_two_party_share_v2: 0.3885
+    war_resolved: -0.0212
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3885
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 11th Plymouth District (2012-2020)
 layout: district

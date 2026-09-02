@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7456
     expected_two_party_share_v2: 0.744
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.744
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.4659
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.4659
     expected_two_party_share_v2: 0.4407
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4407
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7176
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7176
     expected_two_party_share_v2: 0.7189
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7189
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6439
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6438
     expected_two_party_share_v2: 0.6908
+    war_resolved: 0.0088
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6908
+    war_model: core
+    war_factors: *id001
   - name: Dylan E. Korpita
     slug: dylan-e-korpita
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.3562
     expected_two_party_share_v2: 0.3823
+    war_resolved: -0.0819
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3823
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7483
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7483
     expected_two_party_share_v2: 0.5891
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5891
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Franklin District (2012-2020)
 layout: district

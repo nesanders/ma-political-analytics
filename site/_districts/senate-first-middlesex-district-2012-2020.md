@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.652
     expected_two_party_share_v2: 0.6946
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6946
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2914
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2914
     expected_two_party_share_v2: 0.3486
+    war_resolved: 0.2902
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3486
+    war_model: core
+    war_factors: *id001
   - name: John A. Macdonald
     slug: john-a-macdonald
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7086
     expected_two_party_share_v2: 0.568
+    war_resolved: -0.2068
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.568
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6328
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6328
     expected_two_party_share_v2: 0.6741
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6741
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.451
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.451
     expected_two_party_share_v2: 0.589
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.589
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5857
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5857
     expected_two_party_share_v2: 0.5033
+    war_resolved: 0.2085
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5033
+    war_model: core
+    war_factors: *id001
   - name: James J. Buba
     slug: james-j-buba
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4143
     expected_two_party_share_v2: 0.4133
+    war_resolved: -0.1251
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4133
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Middlesex District (2012-2020)
 layout: district

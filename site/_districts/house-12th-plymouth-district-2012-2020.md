@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5334
     expected_two_party_share_v2: 0.632
+    war_resolved: -0.0845
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.632
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Summer K. Schmaling
     slug: summer-k-schmaling
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4666
     expected_two_party_share_v2: 0.4411
+    war_resolved: 0.0114
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4411
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2121
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2121
     expected_two_party_share_v2: 0.3068
+    war_resolved: 0.2185
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3068
+    war_model: core
+    war_factors: *id001
   - name: Joseph M. Truschelli
     slug: joseph-m-truschelli
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7879
     expected_two_party_share_v2: 0.6098
+    war_resolved: -0.1351
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6098
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.4771
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.4771
     expected_two_party_share_v2: 0.592
+    war_resolved: 0.0074
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.592
+    war_model: core
+    war_factors: *id001
   - name: Peter J. Boncek
     slug: peter-j-boncek
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.5229
     expected_two_party_share_v2: 0.4707
+    war_resolved: -0.0701
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4707
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3561
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6439
     expected_two_party_share_v2: 0.6907
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6907
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.474
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4741
     expected_two_party_share_v2: 0.4443
+    war_resolved: 0.181
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4443
+    war_model: core
+    war_factors: *id001
   - name: Debra A. Betz
     slug: debra-a-betz
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5259
     expected_two_party_share_v2: 0.4723
+    war_resolved: -0.0976
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4723
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Plymouth District (2012-2020)
 layout: district

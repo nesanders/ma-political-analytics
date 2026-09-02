@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8489
     expected_two_party_share_v2: 0.7856
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7856
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5153
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5153
     expected_two_party_share_v2: 0.6104
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6104
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8579
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8579
     expected_two_party_share_v2: 0.7929
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7929
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6905
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6905
     expected_two_party_share_v2: 0.7153
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7153
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8032
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8032
     expected_two_party_share_v2: 0.618
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.618
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 18th Suffolk District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3957
     expected_two_party_share_v2: 0.5473
+    war_resolved: 0.0131
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5473
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Brendan A. Roche
     slug: brendan-a-roche
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6043
     expected_two_party_share_v2: 0.5129
+    war_resolved: -0.0733
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5129
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2389
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7611
     expected_two_party_share_v2: 0.7393
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7393
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5488
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4512
     expected_two_party_share_v2: 0.579
+    war_resolved: 0.0214
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.579
+    war_model: core
+    war_factors: *id001
   - name: Michael E. Toole
     slug: michael-e-toole
     party: Democratic
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5488
     expected_two_party_share_v2: 0.4837
+    war_resolved: -0.0841
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4837
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3689
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6311
     expected_two_party_share_v2: 0.684
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.684
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5003
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4997
     expected_two_party_share_v2: 0.4584
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4584
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Bristol District (2012-2020)
 layout: district

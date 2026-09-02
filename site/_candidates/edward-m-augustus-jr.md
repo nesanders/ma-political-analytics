@@ -43,6 +43,14 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.0449
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.6839
+  war_model: core
+  war_factors: &id001
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -83,6 +91,11 @@ races:
   expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
+  war_resolved: 0.1415
+  war_resolved_sd: 0.1125
+  expected_share_resolved: 0.5081
+  war_model: core
+  war_factors: *id001
 title: Edward M. Augustus, Jr.
 layout: candidate
 ---

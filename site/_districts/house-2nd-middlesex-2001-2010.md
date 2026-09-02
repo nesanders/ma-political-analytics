@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4313
     expected_two_party_share_v2: 0.5785
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5785
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5565
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5565
     expected_two_party_share_v2: 0.4878
+    war_resolved: 0.044
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4878
+    war_model: core
+    war_factors: *id001
   - name: Paul J. Avella
     slug: paul-j-avella
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4435
     expected_two_party_share_v2: 0.4288
+    war_resolved: 0.0394
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4288
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.4992
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.4992
     expected_two_party_share_v2: 0.6037
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6037
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.539
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.539
     expected_two_party_share_v2: 0.6351
+    war_resolved: -0.0846
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6351
+    war_model: core
+    war_factors: *id001
   - name: Dennis J. Galvin
     slug: dennis-j-galvin
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.461
     expected_two_party_share_v2: 0.438
+    war_resolved: 0.0115
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.438
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3482
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.3482
     expected_two_party_share_v2: 0.3783
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.3783
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Middlesex (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4052
     expected_two_party_share_v2: 0.5523
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5523
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2112
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7888
     expected_two_party_share_v2: 0.7564
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7564
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5341
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4659
     expected_two_party_share_v2: 0.5971
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5971
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3442
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6558
     expected_two_party_share_v2: 0.5405
+    war_resolved: 0.0834
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5405
+    war_model: core
+    war_factors: *id001
   - name: Martin Green
     slug: martin-green
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.3442
     expected_two_party_share_v2: 0.3761
+    war_resolved: -0.0
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3761
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.4912
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5088
     expected_two_party_share_v2: 0.4632
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4632
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Worcester District (2012-2020)
 layout: district

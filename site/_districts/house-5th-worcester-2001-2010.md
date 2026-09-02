@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4218
     expected_two_party_share_v2: 0.5606
+    war_resolved: 0.0933
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5606
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Rodney Arvid Josephson
     slug: rodney-arvid-josephson
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5782
     expected_two_party_share_v2: 0.4996
+    war_resolved: -0.1535
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4996
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5285
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.5285
     expected_two_party_share_v2: 0.6166
+    war_resolved: 0.0865
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6166
+    war_model: core
+    war_factors: *id001
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0132
     expected_two_party_share: 0.4715
     expected_two_party_share_v2: 0.4436
+    war_resolved: -0.1467
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4436
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5808
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5807
     expected_two_party_share_v2: 0.6468
+    war_resolved: 0.0438
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6468
+    war_model: core
+    war_factors: *id001
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.4193
     expected_two_party_share_v2: 0.4159
+    war_resolved: -0.1065
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4159
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5343
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5343
     expected_two_party_share_v2: 0.6326
+    war_resolved: 0.0564
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6326
+    war_model: core
+    war_factors: *id001
   - name: A. Larry Hasenfus
     slug: a-larry-hasenfus
     party: Republican
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4657
     expected_two_party_share_v2: 0.4405
+    war_resolved: -0.1295
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4405
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4161
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4161
     expected_two_party_share_v2: 0.4141
+    war_resolved: 0.1421
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4141
+    war_model: core
+    war_factors: *id001
   - name: Ryan J. Witkos
     slug: ryan-j-witkos
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5839
     expected_two_party_share_v2: 0.5025
+    war_resolved: -0.0587
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5025
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 5th Worcester (2001-2010)
 layout: district

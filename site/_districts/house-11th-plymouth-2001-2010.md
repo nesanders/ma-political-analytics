@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.4987
     expected_two_party_share_v2: 0.6011
+    war_resolved: -0.0263
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6011
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kristine Abrams
     slug: kristine-abrams
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.5013
     expected_two_party_share_v2: 0.4591
+    war_resolved: -0.0339
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4591
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6077
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6077
     expected_two_party_share_v2: 0.6584
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6584
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5756
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5756
     expected_two_party_share_v2: 0.644
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.644
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5873
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.5873
     expected_two_party_share_v2: 0.6606
+    war_resolved: 0.0316
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6606
+    war_model: core
+    war_factors: *id001
   - name: Marissa E. Lima
     slug: marissa-e-lima
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.4127
     expected_two_party_share_v2: 0.4125
+    war_resolved: -0.1047
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4125
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4282
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4282
     expected_two_party_share_v2: 0.4205
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4205
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 11th Plymouth (2001-2010)
 layout: district

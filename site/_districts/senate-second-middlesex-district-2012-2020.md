@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8504
     expected_two_party_share_v2: 0.7864
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7864
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5672
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5672
     expected_two_party_share_v2: 0.6377
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6377
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8381
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8381
     expected_two_party_share_v2: 0.7825
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7825
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.7033
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.7033
     expected_two_party_share_v2: 0.7221
+    war_resolved: 0.0346
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7221
+    war_model: core
+    war_factors: *id001
   - name: Robert L. Cappucci, Jr.
     slug: robert-l-cappucci-jr
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.2967
     expected_two_party_share_v2: 0.351
+    war_resolved: -0.1077
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.351
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7897
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7897
     expected_two_party_share_v2: 0.6109
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6109
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Middlesex District (2012-2020)
 layout: district

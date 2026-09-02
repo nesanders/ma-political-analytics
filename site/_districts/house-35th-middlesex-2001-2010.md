@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5982
     expected_two_party_share_v2: 0.6536
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6536
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Karla Romero
     slug: karla-romero
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6765
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6765
     expected_two_party_share_v2: 0.6947
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6947
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6452
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6452
     expected_two_party_share_v2: 0.6808
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6808
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6956
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6956
     expected_two_party_share_v2: 0.7177
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7177
+    war_model: core
+    war_factors: *id001
   - name: John F. Carey
     slug: john-f-carey
     party: Other
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5343
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5343
     expected_two_party_share_v2: 0.4765
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4765
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 35th Middlesex (2001-2010)
 layout: district

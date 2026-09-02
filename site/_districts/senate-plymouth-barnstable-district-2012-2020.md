@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5847
     expected_two_party_share_v2: 0.5026
+    war_resolved: 0.0605
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5026
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: James R. McMahon, III
     slug: james-r-mcmahon-iii
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.4153
     expected_two_party_share_v2: 0.414
+    war_resolved: 0.0229
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.414
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.236
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.764
     expected_two_party_share_v2: 0.7433
+    war_resolved: -0.1551
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7433
+    war_model: core
+    war_factors: *id001
   - name: Deborah A. Rudolf
     slug: deborah-a-rudolf
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.236
     expected_two_party_share_v2: 0.3194
+    war_resolved: 0.0924
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3194
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5292
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4708
     expected_two_party_share_v2: 0.5997
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5997
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6
     expected_two_party_share_v2: 0.511
+    war_resolved: 0.1233
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.511
+    war_model: core
+    war_factors: *id001
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4
     expected_two_party_share_v2: 0.4056
+    war_resolved: -0.0399
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4056
+    war_model: core
+    war_factors: *id001
   - name: Heather M. Mullins
     slug: heather-m-mullins
     party: Libertarian
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5094
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5095
     expected_two_party_share_v2: 0.463
+    war_resolved: 0.1186
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.463
+    war_model: core
+    war_factors: *id001
   - name: Thomas F. Keyes
     slug: thomas-francis-keyes
     party: Republican
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4905
     expected_two_party_share_v2: 0.4536
+    war_resolved: -0.0352
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4536
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Plymouth & Barnstable District (2012-2020)
 layout: district

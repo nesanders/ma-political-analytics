@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6322
     expected_two_party_share_v2: 0.6842
+    war_resolved: -0.0605
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6842
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3678
     expected_two_party_share_v2: 0.3889
+    war_resolved: -0.0126
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3889
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2367
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2367
     expected_two_party_share_v2: 0.3197
+    war_resolved: 0.2291
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3197
+    war_model: core
+    war_factors: *id001
   - name: James J. Lyons, Jr.
     slug: james-j-lyons-jr
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7633
     expected_two_party_share_v2: 0.7405
+    war_resolved: -0.2893
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7405
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5774
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.4226
     expected_two_party_share_v2: 0.5639
+    war_resolved: 0.0327
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5639
+    war_model: core
+    war_factors: *id001
   - name: Oscar Camargo
     slug: oscar-camargo
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5774
     expected_two_party_share_v2: 0.4988
+    war_resolved: -0.0954
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4988
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3626
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6374
     expected_two_party_share_v2: 0.6873
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6873
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4848
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.5152
     expected_two_party_share_v2: 0.4666
+    war_resolved: 0.0444
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4666
+    war_model: core
+    war_factors: *id001
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.4848
     expected_two_party_share_v2: 0.45
+    war_resolved: 0.039
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.45
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 18th Essex District (2012-2020)
 layout: district

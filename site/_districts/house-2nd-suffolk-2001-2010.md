@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7294
     expected_two_party_share_v2: 0.7229
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7229
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7798
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7798
     expected_two_party_share_v2: 0.7492
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7492
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7487
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7487
     expected_two_party_share_v2: 0.7354
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7354
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.755
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.755
     expected_two_party_share_v2: 0.7491
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7491
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6346
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6346
     expected_two_party_share_v2: 0.5294
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5294
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 2nd Suffolk (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8357
     expected_two_party_share_v2: 0.7787
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7787
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5639
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5639
     expected_two_party_share_v2: 0.6385
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6385
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8212
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8212
     expected_two_party_share_v2: 0.784
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.784
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6993
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6993
     expected_two_party_share_v2: 0.5635
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5635
+    war_model: core
+    war_factors: *id001
   - name: Nicholas Lanzilli
     slug: nicholas-lanzilli
     party: Other
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.7821
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7821
     expected_two_party_share_v2: 0.6069
+    war_resolved: 0.2352
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6069
+    war_model: core
+    war_factors: *id001
   - name: David M. Rajczewski
     slug: david-m-rajczewski
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.2179
     expected_two_party_share_v2: 0.3097
+    war_resolved: -0.1518
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3097
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 34th Middlesex District (2012-2020)
 layout: district

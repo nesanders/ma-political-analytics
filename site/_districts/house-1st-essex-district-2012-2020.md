@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3274
     expected_two_party_share_v2: 0.5112
+    war_resolved: 0.0052
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5112
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Amber Hewett
     slug: amber-hewett
     party: Democratic
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6726
     expected_two_party_share_v2: 0.549
+    war_resolved: -0.0654
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.549
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2781
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7219
     expected_two_party_share_v2: 0.7211
+    war_resolved: -0.1941
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7211
+    war_model: core
+    war_factors: *id001
   - name: Jennifer A. Rocco-Runnion
     slug: jennifer-a-rocco-runnion
     party: Democratic
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2781
     expected_two_party_share_v2: 0.3416
+    war_resolved: 0.1314
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3416
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6303
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3697
     expected_two_party_share_v2: 0.5464
+    war_resolved: -0.0058
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5464
+    war_model: core
+    war_factors: *id001
   - name: Brianna Sullivan
     slug: brianna-sullivan
     party: Democratic
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6303
     expected_two_party_share_v2: 0.5267
+    war_resolved: -0.0673
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5267
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4656
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5344
     expected_two_party_share_v2: 0.4764
+    war_resolved: 0.024
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4764
+    war_model: core
+    war_factors: *id001
   - name: Edward C. Cameron
     slug: edward-c-cameron
     party: Democratic
@@ -234,6 +272,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4656
     expected_two_party_share_v2: 0.4402
+    war_resolved: 0.0594
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4402
+    war_model: core
+    war_factors: *id001
   - name: Ari B. Herzog
     slug: ari-b-herzog
     party: Other
@@ -257,6 +300,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Steven J. Stanganeli
     slug: steven-j-stanganeli
     party: Other
@@ -280,6 +328,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Joseph L. Valianti
     slug: joseph-l-valianti
     party: Other
@@ -303,6 +356,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5964
@@ -335,6 +393,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5964
     expected_two_party_share_v2: 0.5089
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5089
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Essex District (2012-2020)
 layout: district

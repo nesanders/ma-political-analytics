@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3453
     expected_two_party_share_v2: 0.5207
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5207
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2516
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7484
     expected_two_party_share_v2: 0.7326
+    war_resolved: -0.1692
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7326
+    war_model: core
+    war_factors: *id001
   - name: Allison M. Gustavson
     slug: allison-m-gustavson
     party: Democratic
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2516
     expected_two_party_share_v2: 0.3276
+    war_resolved: 0.109
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3276
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6094
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3906
     expected_two_party_share_v2: 0.547
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.547
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3773
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.6227
     expected_two_party_share_v2: 0.6795
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6795
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5025
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4975
     expected_two_party_share_v2: 0.4573
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4573
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 4th Essex District (2012-2020)
 layout: district

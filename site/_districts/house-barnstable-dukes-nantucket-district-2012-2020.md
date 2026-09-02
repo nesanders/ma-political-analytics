@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7287
     expected_two_party_share_v2: 0.7247
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7247
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3762
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3762
     expected_two_party_share_v2: 0.5499
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5499
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6968
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6968
     expected_two_party_share_v2: 0.5618
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5618
+    war_model: core
+    war_factors: *id001
   - name: Tobias B. Glidden
     slug: tobias-b-glidden
     party: Other
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Jacob Norman Ferry
     slug: jacob-norman-ferry
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.5551
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.5551
     expected_two_party_share_v2: 0.6439
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6439
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.6585
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.6585
     expected_two_party_share_v2: 0.5417
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5417
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Barnstable, Dukes & Nantucket District (2012-2020)
 layout: district

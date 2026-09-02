@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6959
     expected_two_party_share_v2: 0.7052
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7052
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7735
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7735
     expected_two_party_share_v2: 0.7459
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7459
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7468
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7468
     expected_two_party_share_v2: 0.7344
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7344
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7614
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7614
     expected_two_party_share_v2: 0.7524
+    war_resolved: 0.0194
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7524
+    war_model: core
+    war_factors: *id001
   - name: Matthew J. Fraser
     slug: matthew-j-fraser
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2386
     expected_two_party_share_v2: 0.3207
+    war_resolved: -0.0925
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3207
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.59
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.59
     expected_two_party_share_v2: 0.5059
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5059
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: First Middlesex and Norfolk (2001-2010)
 layout: district

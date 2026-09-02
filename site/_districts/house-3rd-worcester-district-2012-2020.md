@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6135
     expected_two_party_share_v2: 0.5178
+    war_resolved: 0.0382
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5178
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Glenn C. Fossa
     slug: glenn-c-fossa
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0118
     expected_two_party_share: 0.3865
     expected_two_party_share_v2: 0.3988
+    war_resolved: 0.0452
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3988
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2755
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2755
     expected_two_party_share_v2: 0.4967
+    war_resolved: 0.1896
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4967
+    war_model: core
+    war_factors: *id001
   - name: Elmer Eubanks-Archbold
     slug: elmer-eubanks-archbold
     party: Republican
@@ -124,6 +142,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7245
     expected_two_party_share_v2: 0.5764
+    war_resolved: -0.2627
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5764
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6016
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6016
     expected_two_party_share_v2: 0.5116
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5116
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4422
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4422
     expected_two_party_share_v2: 0.5843
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5843
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.598
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.598
     expected_two_party_share_v2: 0.5097
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5097
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Worcester District (2012-2020)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.6453
     expected_two_party_share_v2: 0.6785
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6785
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6907
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6907
     expected_two_party_share_v2: 0.7022
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7022
+    war_model: core
+    war_factors: *id001
   - name: Mathew T. Taylor
     slug: mathew-t-taylor
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7476
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7476
     expected_two_party_share_v2: 0.7348
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7348
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6839
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.684
     expected_two_party_share_v2: 0.7116
+    war_resolved: 0.0466
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7116
+    war_model: core
+    war_factors: *id001
   - name: Scott C. Cashman
     slug: scott-c-cashman
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.316
     expected_two_party_share_v2: 0.3615
+    war_resolved: -0.1197
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3615
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5566
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.5566
     expected_two_party_share_v2: 0.4882
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4882
+    war_model: core
+    war_factors: *id001
   - name: Aidan T. Yeaw
     slug: aidan-t-yeaw
     party: Other
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 16th Worcester (2001-2010)
 layout: district

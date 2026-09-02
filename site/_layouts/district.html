@@ -36,12 +36,12 @@ layout: default
   <section>
     <h2>Replacement level over time</h2>
     <p>
-      The line is this district's WAR "replacement level" &mdash; the
+      The line is this district's "replacement level" &mdash; the
       Democratic two-party lean a generic candidate of either party would
-      be expected to get, from the statewide baseline race alone (WAR v1's
-      baseline). Points are what each actual candidate got that year;
-      above the line is a Democratic overperformance, below is a
-      Republican one. Click a point to open that candidate's page.
+      be expected to get, from the statewide baseline race alone. Points
+      are what each actual candidate got that year; above the line is a
+      Democratic overperformance, below is a Republican one. Click a point
+      to open that candidate's page.
       {% if page.results_by_year.size == 1 %}Only one election year is on record for this vintage so far &mdash; more will appear here as this site's multi-year backfill completes.{% endif %}
     </p>
     <div id="trend-chart" role="img" aria-label="Line chart of {{ page.district_name }}'s Democratic two-party lean by year, with each candidate's actual result plotted against it"></div>
@@ -51,24 +51,17 @@ layout: default
     <h2>What drives replacement level: {{ latest_contested.year | default: "" }}</h2>
     {% if latest_contested %}
     <p>
-      WAR v2 is a regression, fit across every contested race in this
-      site's backfill: actual share ~ a baseline intercept + district lean
-      + that year's statewide tide + incumbency (1st/2nd/3rd-or-later
-      term). This breaks each candidate's actual share into exactly those
-      pieces, plus whatever's left over &mdash; WAR v2 itself, the part
-      attributable to the candidate.
-      {% assign tier = latest_contested.candidates | where_exp: "c", "c.demographics_tier" | first %}
-      {% if tier.demographics_tier == "full" %}
-      This district has a full Census match, so each bar instead uses the
-      WAR v3 demographics extension's full model &mdash; bachelor's-degree
-      share, Hispanic-or-Latino population share, voting-age population
-      share, and median household income, all folded into one Demographics
-      slice.
-      {% elsif tier.demographics_tier == "core" %}
-      This district's Census match is partial (see its Demographics section
-      above), so each bar uses WAR v3's simpler fallback model &mdash;
-      bachelor's-degree share alone, folded into one Demographics slice,
-      rather than the full model's four terms.
+      WAR is a regression, fit across every contested race in this site's
+      backfill: actual share ~ a baseline intercept + district lean +
+      that year's statewide tide + incumbency (1st/2nd/3rd-or-later term).
+      This breaks each candidate's actual share into exactly those pieces,
+      plus whatever's left over &mdash; WAR itself, the part attributable
+      to the candidate.
+      {% assign factors = latest_contested.candidates | where_exp: "c", "c.war_factors" | first %}
+      {% if factors.war_factors.size > 3 %}
+      This district's own Census match adds one more factor here &mdash;
+      {{ factors.war_factors | last }} &mdash; folded into a Demographics
+      slice below.
       {% endif %}
       See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the fitted coefficients, their uncertainty, and what they're
@@ -127,7 +120,7 @@ layout: default
     {% if result.is_open_seat %}<p><em>Open seat — no incumbent ran.</em></p>{% endif %}
     <table>
       <thead>
-        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR (v1)</th><th>WAR (v2)</th><th>WAR (v3, demographics)</th><th>Baseline expectation</th></tr>
+        <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Two-party share</th><th>WAR</th><th>Expected share</th><th>Factors</th></tr>
       </thead>
       <tbody>
         {% for c in result.candidates %}
@@ -136,32 +129,28 @@ layout: default
           <td>{{ c.party }}</td>
           <td>{{ c.votes }}</td>
           <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if c.war %}{{ c.war | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if c.war_v2 %}{{ c.war_v2 | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if c.war_v3_demographics %}{{ c.war_v3_demographics | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if c.expected_two_party_share_v2 %}{{ c.expected_two_party_share_v2 | times: 100 | round: 1 }}%{% endif %}</td>
+          <td>{% if c.war_resolved %}{{ c.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if c.expected_share_resolved %}{{ c.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
+          <td><small>{% if c.war_factors %}{% if c.war_factors.size > 3 %}Lean, tide, incumbency, demographics{% else %}Lean, tide, incumbency{% endif %}{% endif %}</small></td>
         </tr>
         {% endfor %}
       </tbody>
     </table>
     {% endfor %}
     <p><small>
-      <strong>Baseline expectation</strong> is what WAR v2's regression
-      expects a generic candidate of this party to get here, from district
-      lean, statewide tide, and incumbency alone — defined whether or not
-      the race was actually contested, unlike WAR itself (see below).
-    </small></p>
-    <p><small>
-      WAR (wins above replacement) is adapted from Split Ticket's published
-      methodology, not an original metric — see the
+      <strong>WAR (wins above replacement)</strong> is how much better (or
+      worse) a candidate did than their <strong>expected share</strong> —
+      what a generic candidate of their party would be expected to get
+      here, from a regression on district lean, statewide tide, and
+      incumbency, plus local demographics where this district's own Census
+      match supports it (see the <strong>Factors</strong> column). Expected
+      share is defined whether or not the race was actually contested; WAR
+      itself is null for an uncontested race and for minor-party candidates
+      — an unopposed candidate's mechanically-inflated share isn't a
+      meaningful gap from expectation. Adapted from Split Ticket's
+      published methodology, not an original metric — see the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the full definition, citations, and the WAR v2 regression's
-      fitted coefficients. Null for uncontested races and minor-party candidates.
-      <strong>WAR (v3, demographics)</strong> re-estimates the same gap
-      using the demographics-extended model instead of the core one — only
-      defined for a district with a current-vintage Census match (see
-      "Demographics" above); blank rows here simply have no match, not a
-      computation error.
+      for the full definition, citations, and the fitted coefficients.
     </small></p>
   </section>
 </article>
@@ -184,7 +173,7 @@ layout: default
       "name": {{ c.name | jsonify }},
       "party": {{ c.party | jsonify }},
       "actual_two_party_share": {{ c.actual_two_party_share | jsonify }},
-      "war_v2": {{ c.war_v2 | jsonify }},
+      "war_resolved": {{ c.war_resolved | jsonify }},
       "is_incumbent": {{ c.is_incumbent | jsonify }},
       "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }}
     },
@@ -246,7 +235,7 @@ layout: default
             { "field": "name", "title": "Candidate" },
             { "field": "year", "title": "Year" },
             { "field": "actual_two_party_share", "type": "quantitative", "format": ".1%", "title": "Actual share" },
-            { "field": "war_v2", "type": "quantitative", "format": ".1%", "title": "WAR (v2)" }
+            { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
           ]
         }
       }

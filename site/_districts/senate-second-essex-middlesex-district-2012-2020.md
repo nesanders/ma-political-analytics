@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6251
     expected_two_party_share_v2: 0.6804
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6804
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2959
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2959
     expected_two_party_share_v2: 0.351
+    war_resolved: 0.2774
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.351
+    war_model: core
+    war_factors: *id001
   - name: Joseph M. Espinola, III
     slug: joseph-m-espinola-iii
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7041
     expected_two_party_share_v2: 0.5656
+    war_resolved: -0.194
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5656
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6282
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.6282
     expected_two_party_share_v2: 0.6821
+    war_resolved: -0.0469
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6821
+    war_model: core
+    war_factors: *id001
   - name: Susan M. Laplante
     slug: susan-m-laplante
     party: Republican
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: 0.0127
     expected_two_party_share: 0.3718
     expected_two_party_share_v2: 0.391
+    war_resolved: -0.0262
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.391
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4614
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4614
     expected_two_party_share_v2: 0.438
+    war_resolved: 0.0949
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.438
+    war_model: core
+    war_factors: *id001
   - name: Alex J. Vispoli
     slug: alex-j-vispoli
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5386
     expected_two_party_share_v2: 0.4786
+    war_resolved: -0.0115
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4786
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5928
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5928
     expected_two_party_share_v2: 0.507
+    war_resolved: 0.1448
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.507
+    war_model: core
+    war_factors: *id001
   - name: Paul Adams
     slug: paul-adams
     party: Republican
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4072
     expected_two_party_share_v2: 0.4096
+    war_resolved: -0.0614
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4096
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Second Essex & Middlesex District (2012-2020)
 layout: district

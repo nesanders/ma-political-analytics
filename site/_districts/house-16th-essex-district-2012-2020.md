@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7458
     expected_two_party_share_v2: 0.7441
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7441
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5038
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5038
     expected_two_party_share_v2: 0.4607
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4607
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.8488
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8488
     expected_two_party_share_v2: 0.642
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.642
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.7178
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.7179
     expected_two_party_share_v2: 0.7298
+    war_resolved: 0.0709
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7298
+    war_model: core
+    war_factors: *id001
   - name: William Lantigua
     slug: william-lantigua
     party: Other
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Roger A. Twomey
     slug: roger-a-twomey
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.2821
     expected_two_party_share_v2: 0.3433
+    war_resolved: -0.144
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3433
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8407
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8407
     expected_two_party_share_v2: 0.6378
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6378
+    war_model: core
+    war_factors: *id001
   - name: Jose L. Santiago
     slug: jose-l-santiago
     party: Other
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 16th Essex District (2012-2020)
 layout: district

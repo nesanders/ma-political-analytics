@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.7833
     expected_two_party_share_v2: 0.751
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.751
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3044
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.3044
     expected_two_party_share_v2: 0.4991
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4991
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7567
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7567
     expected_two_party_share_v2: 0.7395
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7395
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4232
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4232
     expected_two_party_share_v2: 0.5743
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5743
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5665
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5665
     expected_two_party_share_v2: 0.4931
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4931
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 14th Norfolk District (2012-2020)
 layout: district

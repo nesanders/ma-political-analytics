@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7063
     expected_two_party_share_v2: 0.7107
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7107
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Other
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7699
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7699
     expected_two_party_share_v2: 0.7465
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7465
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.734
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.734
     expected_two_party_share_v2: 0.738
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.738
+    war_model: core
+    war_factors: *id001
   - name: Megan Anzalotti
     slug: megan-anzalotti
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: Robert J. Underwood
     slug: robert-j-underwood
     party: Libertarian
@@ -179,6 +207,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7165
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7165
     expected_two_party_share_v2: 0.5723
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5723
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.602
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.602
     expected_two_party_share_v2: 0.5122
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5122
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 9th Hampden (2001-2010)
 layout: district

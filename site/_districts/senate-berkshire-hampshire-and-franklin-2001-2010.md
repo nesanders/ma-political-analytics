@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7509
     expected_two_party_share_v2: 0.7367
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7367
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7602
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7602
     expected_two_party_share_v2: 0.7518
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7518
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.781
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.781
     expected_two_party_share_v2: 0.6063
+    war_resolved: 0.129
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6063
+    war_model: core
+    war_factors: *id001
   - name: Matthew W. Kinnaman
     slug: matthew-w-kinnaman
     party: Republican
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0139
     expected_two_party_share: 0.219
     expected_two_party_share_v2: 0.3103
+    war_resolved: -0.0456
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3103
+    war_model: core
+    war_factors: *id001
   - name: Dion C. Robbins-Zust
     slug: dion-c-robbins-zust
     party: Other
@@ -156,6 +179,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: true
 - year: 2004
   lean_dem_share: 0.7285
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7286
     expected_two_party_share_v2: 0.7351
+    war_resolved: 0.0411
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7351
+    war_model: core
+    war_factors: *id001
   - name: Dawn Taylor Thompson
     slug: dawn-taylor-thompson
     party: Republican
@@ -211,6 +244,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2714
     expected_two_party_share_v2: 0.338
+    war_resolved: -0.1142
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.338
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6533
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.6533
     expected_two_party_share_v2: 0.5393
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5393
+    war_model: core
+    war_factors: *id001
   - name: William P. Foley
     slug: william-p-foley
     party: Other
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: Berkshire, Hampshire, and Franklin (2001-2010)
 layout: district

@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.5703
     expected_two_party_share_v2: 0.6411
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6411
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2285
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2285
     expected_two_party_share_v2: 0.4719
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4719
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5446
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5446
     expected_two_party_share_v2: 0.4815
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4815
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4283
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.5717
     expected_two_party_share_v2: 0.4961
+    war_resolved: 0.0193
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4961
+    war_model: core
+    war_factors: *id001
   - name: Beverley  A. Griffin Dunne
     slug: beverley--a-griffin-dunne
     party: Democratic
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.4283
     expected_two_party_share_v2: 0.4205
+    war_resolved: 0.0641
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4205
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5639
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5639
     expected_two_party_share_v2: 0.4917
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4917
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 12th Essex District (2012-2020)
 layout: district

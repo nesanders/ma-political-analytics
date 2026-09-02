@@ -57,6 +57,16 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5511
     war_v3_demographics: -0.0317
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0317
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5511
+    war_model: demographics_full
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      median income)
   - name: Patricia A. Haddad
     slug: patricia-a-haddad
     party: Democratic
@@ -94,6 +104,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.5019
     war_v3_demographics: -0.0213
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0213
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5019
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5151
@@ -140,6 +155,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4983
     war_v3_demographics: 0.0453
     war_v3_demographics_sd: 0.063
+    war_resolved: 0.0453
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4983
+    war_model: demographics_full
+    war_factors: *id001
   - name: Justin Thurber
     slug: justin-thurber
     party: Republican
@@ -177,6 +197,11 @@ results_by_year:
     expected_two_party_share_v3_demographics: 0.4967
     war_v3_demographics: -0.0403
     war_v3_demographics_sd: 0.063
+    war_resolved: -0.0403
+    war_resolved_sd: 0.063
+    expected_share_resolved: 0.4967
+    war_model: demographics_full
+    war_factors: *id001
   is_open_seat: null
 demographics:
   total_population: 44702

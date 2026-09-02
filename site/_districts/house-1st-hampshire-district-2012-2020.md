@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8005
     expected_two_party_share_v2: 0.773
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.773
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.5429
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.5429
     expected_two_party_share_v2: 0.4813
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4813
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.7791
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.7791
     expected_two_party_share_v2: 0.7513
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7513
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.6854
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.6854
     expected_two_party_share_v2: 0.7127
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7127
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.7737
@@ -174,6 +197,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.7737
     expected_two_party_share_v2: 0.6025
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6025
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Hampshire District (2012-2020)
 layout: district

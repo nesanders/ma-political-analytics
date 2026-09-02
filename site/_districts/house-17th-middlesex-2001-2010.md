@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5169
     expected_two_party_share_v2: 0.6107
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6107
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.64
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.64
     expected_two_party_share_v2: 0.6755
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6755
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5888
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.5888
     expected_two_party_share_v2: 0.651
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.651
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6119
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6119
     expected_two_party_share_v2: 0.6736
+    war_resolved: 0.1053
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6736
+    war_model: core
+    war_factors: *id001
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.3881
     expected_two_party_share_v2: 0.3995
+    war_resolved: -0.1784
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3995
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4694
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4694
     expected_two_party_share_v2: 0.4422
+    war_resolved: 0.3307
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4422
+    war_model: core
+    war_factors: *id001
   - name: Clifford R. Krieger
     slug: clifford-r-krieger
     party: Republican
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.5306
     expected_two_party_share_v2: 0.4744
+    war_resolved: -0.2473
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4744
+    war_model: core
+    war_factors: *id001
   - name: Eryk C. Boston
     slug: eryk-c-boston
     party: Libertarian
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: 17th Middlesex (2001-2010)
 layout: district

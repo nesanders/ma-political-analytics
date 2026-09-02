@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.6137
     expected_two_party_share_v2: 0.6744
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6744
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2647
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.2647
     expected_two_party_share_v2: 0.3345
+    war_resolved: 0.3286
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3345
+    war_model: core
+    war_factors: *id001
   - name: Alexander Leighton Williams
     slug: alexander-leighton-williams
     party: Republican
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0239
     expected_two_party_share: 0.7353
     expected_two_party_share_v2: 0.5821
+    war_resolved: -0.2452
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5821
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.5731
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.5731
     expected_two_party_share_v2: 0.6426
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6426
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.427
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.427
     expected_two_party_share_v2: 0.5763
+    war_resolved: -0.0381
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5763
+    war_model: core
+    war_factors: *id001
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: 0.0183
     expected_two_party_share: 0.573
     expected_two_party_share_v2: 0.4968
+    war_resolved: -0.035
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4968
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5556
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.5556
     expected_two_party_share_v2: 0.4874
+    war_resolved: 0.0899
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4874
+    war_model: core
+    war_factors: *id001
   - name: Shaun P. Toohey
     slug: shaun-p-toohey
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0137
     expected_two_party_share: 0.4444
     expected_two_party_share_v2: 0.4292
+    war_resolved: -0.0065
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4292
+    war_model: core
+    war_factors: *id001
   - name: Paul A. Magliocchetti
     slug: paul-a-magliocchetti
     party: Other
@@ -266,6 +309,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   - name: James M. Kelcourse
     slug: james-m-kelcourse
     party: Other
@@ -289,6 +337,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: null
 title: First Essex District (2012-2020)
 layout: district

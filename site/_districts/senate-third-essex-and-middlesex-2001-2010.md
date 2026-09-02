@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.5223
     expected_two_party_share_v2: 0.6136
+    war_resolved: 0.0617
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.6136
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Christopher Jordan Dent
     slug: christopher-jordan-dent
     party: Republican
@@ -69,6 +77,11 @@ results_by_year:
     tide_component_sd: 0.0166
     expected_two_party_share: 0.4777
     expected_two_party_share_v2: 0.4466
+    war_resolved: -0.1219
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.4466
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.6405
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.6405
     expected_two_party_share_v2: 0.6757
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6757
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.6172
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.6172
     expected_two_party_share_v2: 0.666
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.666
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6543
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.6543
     expected_two_party_share_v2: 0.6959
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6959
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4767
@@ -197,6 +225,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.4767
     expected_two_party_share_v2: 0.4461
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.4461
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: Third Essex and Middlesex (2001-2010)
 layout: district

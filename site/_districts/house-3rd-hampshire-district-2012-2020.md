@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.024
     expected_two_party_share: 0.8687
     expected_two_party_share_v2: 0.809
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.809
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.6194
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0119
     expected_two_party_share: 0.6194
     expected_two_party_share_v2: 0.5217
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.5217
+    war_model: core
+    war_factors: *id001
   - name: Solomon Israel Goldstein-Rose
     slug: solomon-israel-goldstein-rose
     party: Other
@@ -101,6 +114,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.8624
@@ -133,6 +151,11 @@ results_by_year:
     tide_component_sd: 0.0231
     expected_two_party_share: 0.8624
     expected_two_party_share_v2: 0.6492
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6492
+    war_model: core
+    war_factors: *id001
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.7684
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0175
     expected_two_party_share: 0.7684
     expected_two_party_share_v2: 0.7565
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7565
+    war_model: core
+    war_factors: *id001
   - name: Kenneth J. Roberts, Jr
     slug: kenneth-j-roberts-jr
     party: Libertarian
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.8352
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.0221
     expected_two_party_share: 0.8352
     expected_two_party_share_v2: 0.6349
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.6349
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 3rd Hampshire District (2012-2020)
 layout: district

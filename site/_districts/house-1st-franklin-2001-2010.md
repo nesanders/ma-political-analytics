@@ -46,6 +46,14 @@ results_by_year:
     tide_component_sd: 0.0192
     expected_two_party_share: 0.7006
     expected_two_party_share_v2: 0.7077
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7077
+    war_model: core
+    war_factors: &id001
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7421
@@ -78,6 +86,11 @@ results_by_year:
     tide_component_sd: 0.0226
     expected_two_party_share: 0.7421
     expected_two_party_share_v2: 0.7294
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7294
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7552
@@ -110,6 +123,11 @@ results_by_year:
     tide_component_sd: 0.0219
     expected_two_party_share: 0.7552
     expected_two_party_share_v2: 0.7388
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: 0.7388
+    war_model: core
+    war_factors: *id001
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.7109
@@ -142,6 +160,11 @@ results_by_year:
     tide_component_sd: 0.0225
     expected_two_party_share: 0.7109
     expected_two_party_share_v2: 0.7258
+    war_resolved: 0.0642
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.7258
+    war_model: core
+    war_factors: *id001
   - name: Jeffrey C. Cranston
     slug: jeffrey-c-cranston
     party: Republican
@@ -165,6 +188,11 @@ results_by_year:
     tide_component_sd: 0.0133
     expected_two_party_share: 0.2891
     expected_two_party_share_v2: 0.3473
+    war_resolved: -0.1373
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.3473
+    war_model: core
+    war_factors: *id001
   - name: Nathanael Alexander Fortune
     slug: nathanael-alexander-fortune
     party: null
@@ -188,6 +216,11 @@ results_by_year:
     tide_component_sd: null
     expected_two_party_share: null
     expected_two_party_share_v2: null
+    war_resolved: null
+    war_resolved_sd: null
+    expected_share_resolved: null
+    war_model: null
+    war_factors: null
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.635
@@ -220,6 +253,11 @@ results_by_year:
     tide_component_sd: 0.017
     expected_two_party_share: 0.635
     expected_two_party_share_v2: 0.5296
+    war_resolved: 0.2584
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.5296
+    war_model: core
+    war_factors: *id001
   - name: James A. Gagne
     slug: james-a-gagne
     party: Republican
@@ -243,6 +281,11 @@ results_by_year:
     tide_component_sd: 0.0188
     expected_two_party_share: 0.365
     expected_two_party_share_v2: 0.387
+    war_resolved: -0.175
+    war_resolved_sd: 0.1125
+    expected_share_resolved: 0.387
+    war_model: core
+    war_factors: *id001
   is_open_seat: null
 title: 1st Franklin (2001-2010)
 layout: district
