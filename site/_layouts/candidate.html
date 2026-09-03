@@ -191,6 +191,7 @@ layout: default
   const primaryRaceData = [
     {% for r in primary_chart_races %}
     {
+      "race_id": {{ forloop.index0 | jsonify }},
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
@@ -201,6 +202,7 @@ layout: default
       "is_special": {{ r.is_special | jsonify }}
     },
     {
+      "race_id": {{ forloop.index0 | jsonify }},
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
@@ -213,6 +215,25 @@ layout: default
     {% endfor %}
   ].filter((d) => d.share !== null && d.share !== undefined);
   primaryRaceData.forEach((d) => { d.shape = d.is_special ? "Special-election primary" : "Primary"; });
+  // A per-year occurrence index, not a fixed regular/special bucket — a
+  // candidate can have more than one same-kind primary in one year (found
+  // live: Denise Provost, 27th Middlesex, 2006, has both a Democratic and
+  // a Republican special primary that year, from a handful of write-in
+  // votes on the Republican line), which a 2- or 3-bucket dodge would
+  // still draw on top of each other. Indexing by race_id (stable per
+  // race, shared by its Actual/Expected rows) keeps each race's own two
+  // points paired at the same offset.
+  (function () {
+    const yearCounts = {};
+    const indexByRaceId = {};
+    primaryRaceData.forEach((d) => {
+      if (!(d.race_id in indexByRaceId)) {
+        indexByRaceId[d.race_id] = yearCounts[d.year] || 0;
+        yearCounts[d.year] = indexByRaceId[d.race_id] + 1;
+      }
+      d.race_index = indexByRaceId[d.race_id];
+    });
+  })();
   const chartStyle = getComputedStyle(document.documentElement);
   const chartCssVar = (name) => chartStyle.getPropertyValue(name).trim();
   const party = {{ page.party | jsonify }};
@@ -281,9 +302,13 @@ layout: default
       },
       {
         "data": { "values": primaryRaceData },
-        "mark": { "type": "point", "filled": true, "size": 110, "cursor": "pointer", "xOffset": 9 },
+        // xOffset by the guaranteed-unique per-year race_index computed
+        // above, not a fixed regular/special bucket — see that block's own
+        // comment for why a fixed bucket count isn't safe here.
+        "mark": { "type": "point", "filled": true, "size": 110, "cursor": "pointer" },
         "encoding": {
           "x": { "field": "year", "type": "ordinal" },
+          "xOffset": { "field": "race_index", "type": "ordinal", "legend": null, "scale": { "range": [8, 16, 24, 32] } },
           "y": { "field": "share", "type": "quantitative" },
           "shape": {
             "field": "shape", "type": "nominal", "title": "Stage",
@@ -345,6 +370,7 @@ layout: default
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
+      "party": {{ r.party | jsonify }},
       "is_uncontested": {{ r.is_uncontested | jsonify }},
       "stage": {{ r.stage | jsonify }},
       "is_special": {{ r.is_special | jsonify }},
@@ -381,15 +407,40 @@ layout: default
     "Fundraising": ["fundraising_component", "fundraising_component_sd"],
     "WAR (residual)": ["war_resolved", "war_resolved_sd"],
   };
+  // race_label is a human-readable "kind of race" (for the opacity legend
+  // below); race_index is the real xOffset/dodge key, and the two are
+  // deliberately different fields. A fixed 2- or 3-way bucket on stage/
+  // is_special alone isn't a safe dodge key: a district can have BOTH a
+  // regular and a special primary in the same calendar year, and — found
+  // live — even two *special* primaries in one year for one candidate
+  // (Denise Provost, 27th Middlesex, 2006, picked up a handful of write-in
+  // votes on the Republican line of that year's special primary alongside
+  // her own Democratic one). Two bars sharing one xOffset bucket get
+  // folded into a single Vega-Lite stack, which visibly summed two
+  // separate races' components into one bar reading well over 100% — a
+  // real rendering bug, not just a legend-clarity gap. race_index (a
+  // simple per-year occurrence count, computed just below) has no such
+  // fixed ceiling: it dodges apart however many races one candidate has
+  // in the same year, whatever kind they are.
+  const RACE_LABELS = ["General", "Primary", "Special-election primary"];
+  (function () {
+    const yearCounts = {};
+    attributionRaces.forEach((r) => {
+      r.race_index = yearCounts[r.year] || 0;
+      yearCounts[r.year] = r.race_index + 1;
+    });
+  })();
   const attributionData = [];
   attributionRaces.forEach((r) => {
+    const raceLabel = r.stage === "primary" ? (r.is_special ? "Special-election primary" : "Primary") : "General";
     CANONICAL_COMPONENTS.forEach(([label], order) => {
       const fields = FIELD_MAP[label];
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
       attributionData.push({
         year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested,
-        stage: r.stage, is_special: r.is_special, component: label, order, value,
+        party: r.party, race_label: raceLabel, race_index: r.race_index, is_special: r.is_special,
+        component: label, order, value,
       });
     });
   });
@@ -402,19 +453,20 @@ layout: default
       redistrictingLayer("ordinal"),
       {
         "data": { "values": attributionData },
-        // Primary bars sit beside that year's general bar (xOffset,
-        // dodged within the year's ordinal band), shaded at reduced
-        // opacity, and a special-election primary additionally gets a
-        // dashed outline — see this chart's own intro paragraph.
+        // A primary's bar sits beside that year's general bar (xOffset,
+        // dodged within the year's ordinal band, real legend below),
+        // shaded at reduced opacity, and a special-election primary's bar
+        // additionally gets a dashed outline — see this chart's own intro
+        // paragraph.
         "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
         "encoding": {
           "x": { "field": "year", "type": "ordinal", "title": "Year" },
-          "xOffset": { "field": "stage", "type": "nominal", "sort": ["general", "primary"] },
+          "xOffset": { "field": "race_index", "type": "ordinal", "legend": null },
           "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
           "order": { "field": "order" },
           "opacity": {
-            "field": "stage", "type": "nominal", "legend": null,
-            "scale": { "domain": ["general", "primary"], "range": [1, 0.55] }
+            "field": "race_label", "type": "nominal", "title": "Race",
+            "scale": { "domain": RACE_LABELS, "range": [1, 0.6, 0.6] }
           },
           "strokeDash": {
             "condition": { "test": "datum.is_special", "value": [3, 2] },
@@ -431,8 +483,8 @@ layout: default
           "tooltip": [
             { "field": "district_name", "title": "District" },
             { "field": "year", "title": "Year" },
-            { "field": "stage", "title": "Stage" },
-            { "field": "is_special", "title": "Special election?" },
+            { "field": "race_label", "title": "Race" },
+            { "field": "party", "title": "Party" },
             { "field": "is_uncontested", "title": "Uncontested?" },
             { "field": "component", "title": "Component" },
             { "field": "value", "type": "quantitative", "format": ".1%" }
@@ -457,17 +509,19 @@ layout: default
   // per component per year, too dense to read as a forest plot, so this
   // shows one race at a time, picked via the year selector below it.
   if (attributionRaces.length > 0) {
-    // Keyed by year+stage, not year alone — a candidate can have both a
-    // primary and a general in the same year (the ordinary case, since a
-    // primary always precedes that year's general), which year alone
-    // can't disambiguate in this dropdown.
-    const raceKey = (r) => r.year + "|" + r.stage;
+    // Keyed by year+race_index (the same guaranteed-unique-per-year index
+    // computed for the bar chart's own xOffset above), not year+stage —
+    // a candidate can have more than one race of the very same stage/
+    // is_special combination in one year (found live: Denise Provost,
+    // 27th Middlesex, 2006, has a Democratic AND a Republican special
+    // primary that year), which year+stage can't disambiguate either.
+    const raceKey = (r) => r.year + "|" + r.race_index;
     const yearSelect = document.getElementById("attribution-uncertainty-year");
     attributionRaces.forEach((r) => {
       const opt = document.createElement("option");
       opt.value = raceKey(r);
       const stageLabel = r.stage === "primary" ? (r.is_special ? "Special primary" : "Primary") : "General";
-      opt.textContent = r.year + " " + stageLabel + " — " + r.district_name + (r.is_uncontested ? " (uncontested)" : "");
+      opt.textContent = r.year + " " + stageLabel + " (" + r.party + ")" + " — " + r.district_name + (r.is_uncontested ? " (uncontested)" : "");
       yearSelect.appendChild(opt);
     });
     // Default to the most recent race (attributionRaces is sorted
