@@ -52,10 +52,9 @@ layout: default
     <p>
       WAR is a regression, fit across every contested race in this site's
       backfill: actual share ~ a baseline + district lean + that year's
-      statewide tide + incumbency (1st/2nd/3rd-or-later term). This breaks
-      each candidate's actual share into exactly those pieces, plus
-      whatever's left over &mdash; WAR itself, the part attributable to the
-      candidate.
+      statewide tide + incumbency. This breaks each candidate's actual
+      share into exactly those pieces, plus whatever's left over
+      &mdash; WAR itself, the part attributable to the candidate.
       {% assign factors = latest_contested.candidates | where_exp: "c", "c.war_factors" | first %}
       {% if factors.war_factors.size > 3 %}
       {% assign extra_factors = factors.war_factors | slice: 3, 2 %}

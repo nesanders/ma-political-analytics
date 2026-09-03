@@ -30,20 +30,20 @@ results_by_year:
     war: 0.1832
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.6987
-    lean_component_sd: 0.047
-    tide_component: 0.0018
-    tide_component_sd: 0.0348
-    incumbency_adjustment: 0.0746
-    incumbency_adjustment_sd: 0.0193
-    demographics_component: -0.0149
-    demographics_component_sd: 0.0297
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.7013
+    lean_component_sd: 0.0476
+    tide_component: 0.006
+    tide_component_sd: 0.0342
+    incumbency_adjustment: 0.0726
+    incumbency_adjustment_sd: 0.0137
+    demographics_component: -0.0155
+    demographics_component_sd: 0.0295
     fundraising_component: 0.0193
     fundraising_component_sd: 0.0015
     demographics_tier: full
-    expected_share_resolved: 0.8777
+    expected_share_resolved: 0.8773
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.1606
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.6987
-    lean_component_sd: 0.047
-    tide_component: 0.0019
-    tide_component_sd: 0.0358
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.7013
+    lean_component_sd: 0.0476
+    tide_component: 0.0062
+    tide_component_sd: 0.0353
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0149
-    demographics_component_sd: 0.0297
+    demographics_component: -0.0155
+    demographics_component_sd: 0.0295
     fundraising_component: 0.019
     fundraising_component_sd: 0.0014
     demographics_tier: full
-    expected_share_resolved: 0.8028
+    expected_share_resolved: 0.8046
     war_resolved: null
     war_resolved_sd: null
     war_factors:

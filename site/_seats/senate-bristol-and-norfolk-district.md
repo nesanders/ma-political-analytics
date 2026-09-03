@@ -30,20 +30,20 @@ results_by_year:
     war: 0.419
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.4987
-    lean_component_sd: 0.0336
-    tide_component: 0.0018
-    tide_component_sd: 0.0348
-    incumbency_adjustment: 0.0746
-    incumbency_adjustment_sd: 0.0193
-    demographics_component: -0.0027
-    demographics_component_sd: 0.0084
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.5006
+    lean_component_sd: 0.034
+    tide_component: 0.006
+    tide_component_sd: 0.0342
+    incumbency_adjustment: 0.0726
+    incumbency_adjustment_sd: 0.0137
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0083
     fundraising_component: 0.015
     fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.6857
+    expected_share_resolved: 0.6853
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,22 +97,22 @@ results_by_year:
     war: 0.0049
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.4987
-    lean_component_sd: 0.0336
-    tide_component: 0.0019
-    tide_component_sd: 0.0358
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.5006
+    lean_component_sd: 0.034
+    tide_component: 0.0062
+    tide_component_sd: 0.0353
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0027
-    demographics_component_sd: 0.0084
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0083
     fundraising_component: 0.0243
     fundraising_component_sd: 0.0019
     demographics_tier: full
-    expected_share_resolved: 0.6204
-    war_resolved: -0.0143
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.6222
+    war_resolved: -0.0161
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide
@@ -129,22 +129,22 @@ results_by_year:
     war: -0.0049
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0577
+    intercept_component: 0.0613
     intercept_component_sd: 0.0188
-    lean_component: 0.2987
+    lean_component: 0.2953
     lean_component_sd: 0.0139
-    tide_component: 0.0031
-    tide_component_sd: 0.0113
+    tide_component: 0.0026
+    tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0027
-    demographics_component_sd: 0.0084
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0083
     fundraising_component: 0.0059
     fundraising_component_sd: 0.0004
     demographics_tier: full
-    expected_share_resolved: 0.3627
-    war_resolved: 0.0312
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.3626
+    war_resolved: 0.0313
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide

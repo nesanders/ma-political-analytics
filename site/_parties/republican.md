@@ -11,7 +11,7 @@ seats_held:
   url: /seat/house-6th-worcester-district/
   winner_name: John J. Marsi, Jr
   winner_slug: john-j-marsi-jr
-  war_resolved: 0.1534
+  war_resolved: 0.155
   war_factors:
   - District lean
   - Statewide tide
@@ -23,7 +23,7 @@ seats_held:
   url: /seat/senate-worcester-and-hampshire-district/
   winner_name: Peter J. Durant
   winner_slug: peter-j-durant
-  war_resolved: 0.14
+  war_resolved: 0.1409
   war_factors:
   - District lean
   - Statewide tide
@@ -35,7 +35,7 @@ seats_held:
   url: /seat/house-1st-bristol-district/
   winner_name: Michael Chaisson
   winner_slug: michael-chaisson
-  war_resolved: 0.1168
+  war_resolved: 0.1172
   war_factors:
   - District lean
   - Statewide tide
@@ -47,7 +47,7 @@ seats_held:
   url: /seat/house-6th-plymouth-district/
   winner_name: Kenneth Peter Sweezey
   winner_slug: kenneth-sweezey
-  war_resolved: 0.1074
+  war_resolved: 0.1081
   war_factors:
   - District lean
   - Statewide tide
@@ -59,7 +59,7 @@ seats_held:
   url: /seat/house-5th-bristol-district/
   winner_name: Justin Thurber
   winner_slug: justin-thurber
-  war_resolved: 0.0842
+  war_resolved: 0.0851
   war_factors:
   - District lean
   - Statewide tide
@@ -71,7 +71,7 @@ seats_held:
   url: /seat/house-5th-barnstable-district/
   winner_name: Steven G. Xiarhos
   winner_slug: steven-g-xiarhos
-  war_resolved: 0.06
+  war_resolved: 0.0659
   war_factors:
   - District lean
   - Statewide tide
@@ -83,7 +83,7 @@ seats_held:
   url: /seat/house-3rd-barnstable-district/
   winner_name: David T. Vieira
   winner_slug: david-t-vieira
-  war_resolved: 0.0569
+  war_resolved: 0.0624
   war_factors:
   - District lean
   - Statewide tide
@@ -95,7 +95,7 @@ seats_held:
   url: /seat/senate-worcester-and-hampden-district/
   winner_name: Ryan C. Fattman
   winner_slug: ryan-c-fattman
-  war_resolved: 0.0515
+  war_resolved: 0.0581
   war_factors:
   - District lean
   - Statewide tide
@@ -107,7 +107,7 @@ seats_held:
   url: /seat/house-9th-norfolk-district/
   winner_name: Marcus S. Vaughn
   winner_slug: marcus-s-vaughn
-  war_resolved: 0.044
+  war_resolved: 0.0501
   war_factors:
   - District lean
   - Statewide tide
@@ -119,7 +119,7 @@ seats_held:
   url: /seat/senate-third-bristol-and-plymouth-district/
   winner_name: Kelly A. Dooner
   winner_slug: kelly-a-dooner
-  war_resolved: 0.0331
+  war_resolved: 0.0342
   war_factors:
   - District lean
   - Statewide tide
@@ -131,7 +131,7 @@ seats_held:
   url: /seat/house-4th-hampden-district/
   winner_name: Kelly W. Pease
   winner_slug: kelly-w-pease
-  war_resolved: 0.0176
+  war_resolved: 0.024
   war_factors:
   - District lean
   - Statewide tide

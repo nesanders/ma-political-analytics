@@ -1171,3 +1171,46 @@ D-vs-R residual-note spans populate with the now-near-zero figures), a
 district page and a candidate page each showing simultaneous
 Demographics+Fundraising attribution bars, plus chamber/party/seat pages,
 came back with zero JS console errors.
+
+## Incumbency simplified to a single term
+
+`fit_war_model`'s three consecutive-term incumbency buckets
+(`incumbent_1`/`incumbent_2`/`incumbent_3plus`, each with its own
+`_x_dem` interaction — six parameters) were replaced with one
+`incumbent`/`incumbent_x_dem` pair (asked for directly, since the three
+buckets' posterior means had already landed close enough together in a
+prior round's fit to not show a real "sophomore surge" or later-term
+fade). `INCUMBENT_TERM_BUCKETS`/`_incumbent_term_dummies` (a dict of
+three dummies, keyed by bucket name) are gone, replaced by
+`_is_incumbent_dummy(terms) -> float` (`1.0` if `terms >= 1` else
+`0.0`); `_COEFFICIENT_PRIORS` dropped from 17 entries to 13. `apply_war`'s
+per-race incumbency computation collapsed from a dict-keyed sum over
+`INCUMBENT_TERM_BUCKETS` plus an "active bucket" lookup for its SD to a
+single `(b_inc + b_inc_dem * dem_flag) * is_incumbent` expression — no
+behavior change for a non-incumbent (still 0), and one shared coefficient
+instead of three for every incumbent regardless of consecutive-term
+count. `incumbent_terms` (the actual consecutive-term count) is
+unchanged and still carried on every candidate record for display —
+only the regression's own use of it changed, from three dummy buckets to
+one `>= 1` test.
+
+Real effect on the fit, re-run against the full 2002-2024 backfill: R²
+essentially unchanged (0.7336 → 0.7327 — the three-way split wasn't
+buying real explanatory power), `incumbent`'s posterior mean (+13.0 pts)
+falls within the old three buckets' own range (+11.1 to +13.5), and
+`incumbent_x_dem`'s 95% credible interval ([-7.8, -3.7] pts) stays clear
+of zero — a real, if modest, party asymmetry in the incumbency effect
+survives the simplification. `fit["n_incumbent_1"]`/`n_incumbent_2`/
+`n_incumbent_3plus` are replaced by `fit["n_incumbent"]` (413, the sum of
+the old three) alongside the unchanged `n_non_incumbent` (1,081). All
+five page templates' formula text, the methodology page's coefficient
+table/forest chart/prior-posterior chart/model-overview chart term lists,
+and the AskAI schema card's `incumbent_terms`/`incumbency_adjustment`
+descriptions were updated to match. Verified live: components still sum
+exactly to `expected_share_resolved` across a 191-race sample; the
+Democratic/Republican residual fix from the round above still holds
+post-simplification (+0.02/-0.00 points, from +0.02/-0.01 before); a
+Jekyll build + Playwright sweep of the methodology page (forest and
+prior-posterior charts render against the new single-term coefficient
+set) and a district page (one Incumbency segment in the attribution
+chart, not three) came back with zero JS errors.

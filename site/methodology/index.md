@@ -110,7 +110,7 @@ expected share**, where the regression is:
 
 > *own-party share ~ intercept + Democratic + district lean + district
 > lean × Democratic + statewide tide + statewide tide × Democratic +
-> incumbency (1st / 2nd / 3rd-or-later term) + incumbency × Democratic +
+> incumbency + incumbency × Democratic +
 > district demographics + campaign fundraising*
 
 "Own-party" means lean, tide, and the actual share are all already
@@ -131,11 +131,13 @@ from a given cycle's overall national/state mood — the same normal-vote-
 plus-national-tide idea behind Gelman & King (1990), cited above, rather
 than lean alone conflating the two.
 
-**Incumbency** is three terms — 1st, 2nd, and 3rd-or-later consecutive
-term already served (see "Incumbency and open seats" below) — rather
-than a plain incumbent/non-incumbent split, so the fit can show whether a
-second or third term brings a bigger or smaller edge than the first
-instead of assuming they're identical.
+**Incumbency** is a single incumbent/non-incumbent term (see "Incumbency
+and open seats" below) rather than one term per consecutive-term bucket
+(1st/2nd/3rd-or-later, as an earlier version of this fit used) — that
+split's three posterior means landed close enough together (this site's
+data doesn't show a strong "sophomore surge" or a fading effect in later
+terms) that the extra parameters weren't earning their keep over one
+shared incumbency effect.
 
 ### Party interaction terms
 
@@ -146,9 +148,9 @@ positive, Republican candidates' averaged negative, by close to equal and
 opposite amounts (see the residual histogram further down, which now
 shows the *corrected* picture). That's not a contradiction of the
 own-party symmetry above — a pooled fit with one shared `own_lean` slope,
-one shared `own_tide` slope, and one shared set of incumbency terms
-literally cannot tell a Democrat in a D+10 district from a Republican in
-an R+10 one. What it *can* miss is whether incumbent and non-incumbent
+one shared `own_tide` slope, and one shared `incumbent` term literally
+cannot tell a Democrat in a D+10 district from a Republican in an R+10
+one. What it *can* miss is whether incumbent and non-incumbent
 candidates relate to lean/tide identically between the two parties. In
 Massachusetts specifically that looks shaky: the legislature's real,
 well-documented Democratic supermajority is larger than the state's own
@@ -183,10 +185,10 @@ preference:
   apportioned share and the state's overall result on the same race move
   together), which unregularized least squares can split unstably between
   the two.
-- The incumbency buckets are **unevenly sized** — far fewer candidates
-  have served 3+ consecutive terms than 1 — and the diagnostic extensions
-  below fit on samples small enough that an unconstrained estimate would
-  be mostly noise.
+- Incumbents are a **minority of races** (roughly a quarter of this
+  fit's sample), and the demographics/finance terms below are informed
+  by samples small enough that an unconstrained estimate would be
+  mostly noise.
 
 A Gaussian prior on each coefficient shrinks it toward a substantively
 reasonable value in proportion to how little the data actually pins it
@@ -195,18 +197,18 @@ full posterior (mean, standard deviation, and a 95% credible interval
 taken directly from the sampled draws), not just a point estimate.
 
 **Concretely, here's what that regularization does to one term.** Before
-seeing any data, the prior for a first-term incumbent's edge was a wide,
-weakly-informed guess (mean {{ site.data.war_model.coefficients.incumbent_1.prior_mean | times: 100 | round: 0 }}
-points, standard deviation {{ site.data.war_model.coefficients.incumbent_1.prior_sd | times: 100 | round: 0 }}
+seeing any data, the prior for an incumbent's edge was a wide,
+weakly-informed guess (mean {{ site.data.war_model.coefficients.incumbent.prior_mean | times: 100 | round: 0 }}
+points, standard deviation {{ site.data.war_model.coefficients.incumbent.prior_sd | times: 100 | round: 0 }}
 points — that shape, below). After fitting on
-{{ site.data.war_model.n_incumbent_1 }} real 1st-term-incumbent races, the
+{{ site.data.war_model.n_incumbent }} real incumbent races, the
 posterior is both narrower and shifted to
-{{ site.data.war_model.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }}
+{{ site.data.war_model.coefficients.incumbent.posterior_mean | times: 100 | round: 1 }}
 points — the data had enough to say something much more specific than the
 prior alone did, which is exactly what "the data pins it down" should
 look like:
 
-<div id="prior-posterior-chart" role="img" aria-label="Density chart comparing the prior and posterior distributions for the first-term incumbency coefficient"></div>
+<div id="prior-posterior-chart" role="img" aria-label="Density chart comparing the prior and posterior distributions for the incumbency coefficient"></div>
 
 As of the last full pipeline run, on
 {{ site.data.war_model.n }} contested major-party candidate-races
@@ -223,12 +225,8 @@ term's posterior mean and 95% credible interval:
 | District lean × Democratic | {{ site.data.war_model.coefficients.own_lean_x_dem.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_lean_x_dem.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_lean_x_dem.ci_95_high | round: 3 }}] |
 | Statewide tide | {{ site.data.war_model.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_tide.ci_95_high | round: 3 }}] |
 | Statewide tide × Democratic | {{ site.data.war_model.coefficients.own_tide_x_dem.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_tide_x_dem.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_tide_x_dem.ci_95_high | round: 3 }}] |
-| Incumbent, 1st term | +{{ site.data.war_model.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_1.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_1.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 1st term × Democratic | {{ site.data.war_model.coefficients.incumbent_1_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_1_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_1_x_dem.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 2nd term | +{{ site.data.war_model.coefficients.incumbent_2.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_2.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_2.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 2nd term × Democratic | {{ site.data.war_model.coefficients.incumbent_2_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_2_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_2_x_dem.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 3rd+ term | +{{ site.data.war_model.coefficients.incumbent_3plus.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_3plus.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_3plus.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 3rd+ term × Democratic | {{ site.data.war_model.coefficients.incumbent_3plus_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_3plus_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_3plus_x_dem.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent | +{{ site.data.war_model.coefficients.incumbent.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent × Democratic | {{ site.data.war_model.coefficients.incumbent_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_x_dem.ci_95_high | times: 100 | round: 1 }}] |
 
 District lean's coefficient sitting well below 1.0 is a real finding, not
 a fitting artifact — checked directly against plain least squares on the
@@ -237,15 +235,15 @@ own structural lean, once that year's statewide tide is already in the
 model, only partially carries through to actual legislative vote share —
 plausibly some mix of the area-weighted apportionment noise documented
 above and real candidate-to-candidate variation legislative races carry
-that a top-of-ticket baseline can't see. The three incumbency terms
-landing close to each other says this site's data doesn't show a strong
-"sophomore surge" or a fading effect in later terms — an incumbent's edge
-looks fairly flat across term number so far. The `× Democratic` rows are
-each centered near a much smaller magnitude than their shared term, with
-a 95% interval straddling zero for most of them — a partial-pooling fit
-correctly reporting that most of the party asymmetry this fit found lives
-in the intercept/`is_dem` pair, not in how strongly Democrats vs.
-Republicans respond to lean, tide, or incumbency specifically.
+that a top-of-ticket baseline can't see. The `× Democratic` rows are each
+centered near a much smaller magnitude than their shared term, and a
+partial-pooling fit lets the data decide term by term which ones move: on
+the last run, `own_lean_x_dem` and `incumbent_x_dem` both have 95%
+intervals clear of zero (a real, if modest, party difference in how
+strongly lean and incumbency translate into vote share), while `is_dem`
+and `own_tide_x_dem` straddle zero (no clear evidence of a party
+difference in the baseline or the tide response beyond what lean and
+incumbency already explain).
 
 **What that fit actually looks like against every one of those races**:
 each point is one contested major-party candidate-race, this model's
@@ -581,15 +579,15 @@ including the exact code that computes everything on this page.
   };
 
   {% if site.data.war_model %}
-  // --- Prior vs. posterior: incumbent_1 term ---------------------------
+  // --- Prior vs. posterior: incumbent term ------------------------------
   (function () {
     function normalPdf(x, mean, sd) {
       return Math.exp(-0.5 * Math.pow((x - mean) / sd, 2)) / (sd * Math.sqrt(2 * Math.PI));
     }
-    const priorMean = {{ site.data.war_model.coefficients.incumbent_1.prior_mean | jsonify }};
-    const priorSd = {{ site.data.war_model.coefficients.incumbent_1.prior_sd | jsonify }};
-    const postMean = {{ site.data.war_model.coefficients.incumbent_1.posterior_mean | jsonify }};
-    const postSd = {{ site.data.war_model.coefficients.incumbent_1.posterior_sd | jsonify }};
+    const priorMean = {{ site.data.war_model.coefficients.incumbent.prior_mean | jsonify }};
+    const priorSd = {{ site.data.war_model.coefficients.incumbent.prior_sd | jsonify }};
+    const postMean = {{ site.data.war_model.coefficients.incumbent.posterior_mean | jsonify }};
+    const postSd = {{ site.data.war_model.coefficients.incumbent.posterior_sd | jsonify }};
     const lo = Math.min(priorMean - 3.5 * priorSd, postMean - 3.5 * postSd);
     const hi = Math.max(priorMean + 3.5 * priorSd, postMean + 3.5 * postSd);
     const steps = 200;
@@ -607,7 +605,7 @@ including the exact code that computes everything on this page.
       "data": { "values": data },
       "mark": { "type": "area", "opacity": 0.45, "line": { "strokeWidth": 2 } },
       "encoding": {
-        "x": { "field": "x", "type": "quantitative", "title": "Incumbent, 1st term — coefficient value", "axis": { "format": "+.0%" } },
+        "x": { "field": "x", "type": "quantitative", "title": "Incumbent — coefficient value", "axis": { "format": "+.0%" } },
         "y": { "field": "density", "type": "quantitative", "title": null, "axis": null },
         "color": {
           "field": "series", "type": "nominal", "title": null,
@@ -691,15 +689,11 @@ including the exact code that computes everything on this page.
       ["District lean × Dem.", "own_lean_x_dem"],
       ["Statewide tide", "own_tide"],
       ["Statewide tide × Dem.", "own_tide_x_dem"],
-      ["Incumbent, 1st term", "incumbent_1"],
-      ["Incumbent, 1st term × Dem.", "incumbent_1_x_dem"],
-      ["Incumbent, 2nd term", "incumbent_2"],
-      ["Incumbent, 2nd term × Dem.", "incumbent_2_x_dem"],
-      ["Incumbent, 3rd+ term", "incumbent_3plus"],
-      ["Incumbent, 3rd+ term × Dem.", "incumbent_3plus_x_dem"],
+      ["Incumbent", "incumbent"],
+      ["Incumbent × Dem.", "incumbent_x_dem"],
     ],
     methodologyCssVar("--war-incumbency"),
-    420
+    280
   );
 
   // --- Model overview: every fitted effect, one comparable scale ---------
@@ -712,15 +706,11 @@ including the exact code that computes everything on this page.
     const rows = [
       { term: "District lean", family: "Core", key: "own_lean" },
       { term: "Statewide tide", family: "Core", key: "own_tide" },
-      { term: "Incumbency, 1st term", family: "Core", key: "incumbent_1" },
-      { term: "Incumbency, 2nd term", family: "Core", key: "incumbent_2" },
-      { term: "Incumbency, 3rd+ term", family: "Core", key: "incumbent_3plus" },
+      { term: "Incumbency", family: "Core", key: "incumbent" },
       { term: "Democratic (intercept delta)", family: "Party interaction", key: "is_dem" },
       { term: "District lean × Dem.", family: "Party interaction", key: "own_lean_x_dem" },
       { term: "Statewide tide × Dem.", family: "Party interaction", key: "own_tide_x_dem" },
-      { term: "Incumbency, 1st term × Dem.", family: "Party interaction", key: "incumbent_1_x_dem" },
-      { term: "Incumbency, 2nd term × Dem.", family: "Party interaction", key: "incumbent_2_x_dem" },
-      { term: "Incumbency, 3rd+ term × Dem.", family: "Party interaction", key: "incumbent_3plus_x_dem" },
+      { term: "Incumbency × Dem.", family: "Party interaction", key: "incumbent_x_dem" },
     ].map((r) => {
       const c = coefs[r.key];
       return { term: r.term, family: r.family, mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high };

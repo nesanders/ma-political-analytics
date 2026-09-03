@@ -201,15 +201,14 @@ def compute_statewide_tide_by_year(baseline_dir: Path) -> dict[int, float]:
     return tide_by_year
 
 
-INCUMBENT_TERM_BUCKETS = ("incumbent_1", "incumbent_2", "incumbent_3plus")
-
-
-def _incumbent_term_dummies(terms: int) -> dict[str, float]:
-    return {
-        "incumbent_1": 1.0 if terms == 1 else 0.0,
-        "incumbent_2": 1.0 if terms == 2 else 0.0,
-        "incumbent_3plus": 1.0 if terms >= 3 else 0.0,
-    }
+def _is_incumbent_dummy(terms: int) -> float:
+    """A single incumbent/non-incumbent dummy, not one term per consecutive-
+    term bucket (1st/2nd/3rd-or-later) — an earlier version of this fit
+    split those out, but their posterior means landed close enough together
+    (this site's data doesn't show a strong "sophomore surge" or later-term
+    fade) that the extra three parameters weren't earning their keep over
+    one shared incumbency effect."""
+    return 1.0 if terms >= 1 else 0.0
 
 
 # Weakly informative, regularizing priors for every coefficient
@@ -222,13 +221,12 @@ def _incumbent_term_dummies(terms: int) -> dict[str, float]:
 # are centered on the theoretically-expected values (a generic candidate
 # splits the vote evenly; lean alone should track actual share about 1:1
 # if it were a perfect predictor; no prior sign on tide's residual effect
-# once lean is already in the model). The incumbency buckets share one
-# modest, positive-leaning prior (grounded in the same incumbency-
-# advantage literature methodology.md already cites, not fit from this
-# project's own preliminary numbers) with real shrinkage (sd 0.08) —
-# useful given how unevenly sized the three buckets are (far fewer
-# 3+-term incumbents than 1-term ones). `log_raised`'s prior is scaled
-# for a variable that itself spans roughly log($1k) to log($1M) (~7-14).
+# once lean is already in the model). `incumbent` gets a modest,
+# positive-leaning prior (grounded in the same incumbency-advantage
+# literature methodology.md already cites, not fit from this project's
+# own preliminary numbers) with real shrinkage (sd 0.08). `log_raised`'s
+# prior is scaled for a variable that itself spans roughly log($1k) to
+# log($1M) (~7-14).
 # `hispanic_pct` and `voting_age_pct` are proportions like `bachelors_pct`,
 # so they share its prior. `income_10k` is median household income in
 # $10,000 units (so a district going from $70k to $170k median income is
@@ -239,8 +237,8 @@ def _incumbent_term_dummies(terms: int) -> dict[str, float]:
 # points on its own") implies a much smaller per-unit coefficient.
 #
 # The `_x_dem` terms are Democratic-specific deltas layered on top of the
-# shared coefficient above them (own_lean, own_tide, and each incumbency
-# bucket), plus a plain `is_dem` delta on the intercept — see
+# shared coefficient above them (own_lean, own_tide, and incumbent),
+# plus a plain `is_dem` delta on the intercept — see
 # fit_war_model's own docstring for why: a real, found-live asymmetry
 # (Democratic candidates' residuals average +5.3 points, Republicans'
 # -5.3, from the same shared-coefficient model these priors used to
@@ -275,12 +273,8 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "own_lean_x_dem": (0.0, 0.2),
     "own_tide": (0.0, 0.4),
     "own_tide_x_dem": (0.0, 0.2),
-    "incumbent_1": (0.05, 0.08),
-    "incumbent_1_x_dem": (0.0, 0.04),
-    "incumbent_2": (0.05, 0.08),
-    "incumbent_2_x_dem": (0.0, 0.04),
-    "incumbent_3plus": (0.05, 0.08),
-    "incumbent_3plus_x_dem": (0.0, 0.04),
+    "incumbent": (0.05, 0.08),
+    "incumbent_x_dem": (0.0, 0.04),
     "bachelors_pct": (0.0, 0.3),
     "hispanic_pct": (0.0, 0.3),
     "voting_age_pct": (0.0, 0.3),
@@ -305,7 +299,7 @@ def _bayesian_linear_regression(
     OLS handles badly: own_lean and own_tide, though now derived from
     different sources (structural district lean vs. per-year statewide
     tide), remain correlated with the party-interaction and incumbency
-    terms built from them; the incumbency buckets are unevenly sized; and
+    terms built from them; incumbents are a minority of races; and
     the demographics/finance extension terms are informed by samples small
     enough (a couple hundred rows, one covering just a handful of election
     years) that an unconstrained least-squares estimate would be little
@@ -419,13 +413,19 @@ def fit_war_model(
     major-party candidate-race:
 
         own_share ~ intercept + is_dem
-                     + own_lean          + own_lean_x_dem
-                     + own_tide          + own_tide_x_dem
-                     + incumbent_1term   + incumbent_1term_x_dem
-                     + incumbent_2term   + incumbent_2term_x_dem
-                     + incumbent_3plusterm + incumbent_3plusterm_x_dem
+                     + own_lean    + own_lean_x_dem
+                     + own_tide    + own_tide_x_dem
+                     + incumbent   + incumbent_x_dem
                      + bachelors_pct + hispanic_pct + voting_age_pct + income_10k
                      + log_raised
+
+    `incumbent` is a single dummy (any candidate who won their district's
+    immediately preceding election, whatever their consecutive-term
+    count), not three separate 1st/2nd/3rd-or-later-term buckets — an
+    earlier version of this fit split those out, but their posterior
+    means landed close enough together (no real "sophomore surge" or
+    later-term fade in this data) that the extra parameters weren't
+    earning their keep; see _is_incumbent_dummy's own docstring.
 
     "own_*" means the value is already flipped to that candidate's own
     party's perspective (own_lean = lean for a Democrat, 1 - lean for a
@@ -505,10 +505,9 @@ def fit_war_model(
                         "income_10k": covariates.get("income_10k"),
                         "log_raised": float(np.log1p(raised)) if raised is not None else None,
                     }
-                    dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
-                    for b in INCUMBENT_TERM_BUCKETS:
-                        row[b] = dummies[b]
-                        row[f"{b}_x_dem"] = dummies[b] * dem_flag
+                    is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
+                    row["incumbent"] = is_incumbent
+                    row["incumbent_x_dem"] = is_incumbent * dem_flag
                     rows.append(row)
 
     df = pd.DataFrame(rows)
@@ -534,12 +533,8 @@ def fit_war_model(
         "own_lean_x_dem",
         "own_tide",
         "own_tide_x_dem",
-        "incumbent_1",
-        "incumbent_1_x_dem",
-        "incumbent_2",
-        "incumbent_2_x_dem",
-        "incumbent_3plus",
-        "incumbent_3plus_x_dem",
+        "incumbent",
+        "incumbent_x_dem",
         "bachelors_pct",
         "hispanic_pct",
         "voting_age_pct",
@@ -549,12 +544,8 @@ def fit_war_model(
     x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in feature_names[1:]])
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["reference_values"] = reference_values
-    fit["n_incumbent_1"] = int(df["incumbent_1"].sum())
-    fit["n_incumbent_2"] = int(df["incumbent_2"].sum())
-    fit["n_incumbent_3plus"] = int(df["incumbent_3plus"].sum())
-    fit["n_non_incumbent"] = int(
-        len(df) - df["incumbent_1"].sum() - df["incumbent_2"].sum() - df["incumbent_3plus"].sum()
-    )
+    fit["n_incumbent"] = int(df["incumbent"].sum())
+    fit["n_non_incumbent"] = int(len(df) - df["incumbent"].sum())
     fit["n_demographics"] = int(df["n_bachelors_pct"].iloc[0])
     fit["n_finance"] = int(df["n_log_raised"].iloc[0])
     return fit
@@ -592,10 +583,8 @@ def apply_war(
     b_lean_dem, b_lean_dem_sd = coefs["own_lean_x_dem"]["posterior_mean"], coefs["own_lean_x_dem"]["posterior_sd"]
     b_tide, b_tide_sd = coefs["own_tide"]["posterior_mean"], coefs["own_tide"]["posterior_sd"]
     b_tide_dem, b_tide_dem_sd = coefs["own_tide_x_dem"]["posterior_mean"], coefs["own_tide_x_dem"]["posterior_sd"]
-    b_terms = {b: coefs[b]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
-    b_terms_sd = {b: coefs[b]["posterior_sd"] for b in INCUMBENT_TERM_BUCKETS}
-    b_terms_dem = {b: coefs[f"{b}_x_dem"]["posterior_mean"] for b in INCUMBENT_TERM_BUCKETS}
-    b_terms_dem_sd = {b: coefs[f"{b}_x_dem"]["posterior_sd"] for b in INCUMBENT_TERM_BUCKETS}
+    b_inc, b_inc_sd = coefs["incumbent"]["posterior_mean"], coefs["incumbent"]["posterior_sd"]
+    b_inc_dem, b_inc_dem_sd = coefs["incumbent_x_dem"]["posterior_mean"], coefs["incumbent_x_dem"]["posterior_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for vintage, records in district_records_by_vintage.items():
@@ -634,7 +623,7 @@ def apply_war(
                     dem_flag = 1.0 if is_dem else 0.0
                     own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
                     own_tide = tide if is_dem else 1 - tide
-                    dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
+                    is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
 
                     intercept_component = b0 + b_dem * dem_flag
                     intercept_component_sd = (b0_sd**2 + (dem_flag * b_dem_sd) ** 2) ** 0.5
@@ -642,14 +631,9 @@ def apply_war(
                     lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
                     tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
                     tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
-                    incumbency_component = sum(
-                        (b_terms[b] + b_terms_dem[b] * dem_flag) * dummies[b] for b in INCUMBENT_TERM_BUCKETS
-                    )
-                    active_bucket = next((b for b in INCUMBENT_TERM_BUCKETS if dummies[b] == 1.0), None)
+                    incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
                     incumbency_component_sd = (
-                        (b_terms_sd[active_bucket] ** 2 + (dem_flag * b_terms_dem_sd[active_bucket]) ** 2) ** 0.5
-                        if active_bucket
-                        else 0.0
+                        (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
                     )
 
                     if has_bachelors:
@@ -1316,20 +1300,15 @@ def main(
     war_fit = fit_war_model(district_records_by_vintage, tide_by_year, current_vintage, finance_by_slug)
     logger.info(
         "WAR model fit: n=%d, R²=%s, own_lean=%+.3f (x_dem %+.3f), own_tide=%+.3f (x_dem %+.3f), "
-        "incumbent_1=%+.3f (x_dem %+.3f), incumbent_2=%+.3f (x_dem %+.3f), incumbent_3plus=%+.3f (x_dem %+.3f), "
-        "n_demographics=%d, n_finance=%d",
+        "incumbent=%+.3f (x_dem %+.3f), n_demographics=%d, n_finance=%d",
         war_fit["n"],
         war_fit["r_squared"],
         war_fit["coefficients"]["own_lean"]["posterior_mean"],
         war_fit["coefficients"]["own_lean_x_dem"]["posterior_mean"],
         war_fit["coefficients"]["own_tide"]["posterior_mean"],
         war_fit["coefficients"]["own_tide_x_dem"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_1"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_1_x_dem"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_2"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_2_x_dem"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_3plus"]["posterior_mean"],
-        war_fit["coefficients"]["incumbent_3plus_x_dem"]["posterior_mean"],
+        war_fit["coefficients"]["incumbent"]["posterior_mean"],
+        war_fit["coefficients"]["incumbent_x_dem"]["posterior_mean"],
         war_fit["n_demographics"],
         war_fit["n_finance"],
     )

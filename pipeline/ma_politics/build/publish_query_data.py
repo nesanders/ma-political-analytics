@@ -262,8 +262,10 @@ SCHEMA_CARD = {
                 ),
                 "incumbent_terms": (
                     "How many consecutive prior elections (within this same vintage) this candidate has "
-                    "already won in a row, as of this race — 0 for a non-incumbent. Feeds WAR v2's "
-                    "incumbency terms (1 / 2 / 3-or-more), a richer signal than the is_incumbent boolean alone."
+                    "already won in a row, as of this race — 0 for a non-incumbent. war_resolved's own "
+                    "incumbency term only distinguishes incumbent from non-incumbent (any value >= 1 counts "
+                    "the same — 1st/2nd/3rd+ term posteriors landed close enough together that this site no "
+                    "longer fits them separately), but this richer count is still exposed here."
                 ),
                 "actual_two_party_share": "this candidate's share of (Democratic + Republican) votes in the race",
                 "district_lean_dem_share": "the district's baseline lean at the time of this race (same as seats.lean_dem_share)",
@@ -275,17 +277,18 @@ SCHEMA_CARD = {
                 "war_resolved": (
                     "actual_two_party_share minus this site's one fitted Bayesian regression's expected "
                     "share — the district's structural (multi-year average) lean, that year's statewide "
-                    "(unapportioned) tide, incumbency terms (1st/2nd/3rd-or-later), each with its own "
+                    "(unapportioned) tide, and a single incumbent/non-incumbent term, each with its own "
                     "Democratic-vs-Republican interaction term, plus district demographics and/or campaign "
                     "fundraising wherever this race's own data supports them. Fit across every contested "
                     "major-party race in the backfill. See the methodology page for the current posterior "
                     "coefficients and their uncertainty. Same null cases as war."
                 ),
                 "incumbency_adjustment": (
-                    "The fitted incumbency term's contribution to war_resolved's expected share for this "
-                    "candidate's incumbent_terms bucket (0 for a non-incumbent). Exposed separately, "
-                    "alongside district_lean_dem_share and the statewide tide (see the methodology page's "
-                    "coefficients), so a query can reconstruct war_resolved's full decomposition."
+                    "The fitted incumbency term's contribution to war_resolved's expected share — 0 for a "
+                    "non-incumbent, the same fitted value for every incumbent regardless of consecutive-term "
+                    "count. Exposed separately, alongside district_lean_dem_share and the statewide tide (see "
+                    "the methodology page's coefficients), so a query can reconstruct war_resolved's full "
+                    "decomposition."
                 ),
                 "demographics_component": (
                     "The fitted demographics terms' contribution to war_resolved's expected share, where "

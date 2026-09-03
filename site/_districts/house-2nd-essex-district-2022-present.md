@@ -30,22 +30,22 @@ results_by_year:
     war: -0.0674
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.5116
-    lean_component_sd: 0.0344
-    tide_component: 0.0018
-    tide_component_sd: 0.0348
-    incumbency_adjustment: 0.0746
-    incumbency_adjustment_sd: 0.0193
-    demographics_component: -0.0021
-    demographics_component_sd: 0.0147
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.5136
+    lean_component_sd: 0.0349
+    tide_component: 0.006
+    tide_component_sd: 0.0342
+    incumbency_adjustment: 0.0726
+    incumbency_adjustment_sd: 0.0137
+    demographics_component: -0.0022
+    demographics_component_sd: 0.0144
     fundraising_component: 0.0207
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.7048
-    war_resolved: -0.1626
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.7041
+    war_resolved: -0.1619
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: 0.0674
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0577
+    intercept_component: 0.0613
     intercept_component_sd: 0.0188
-    lean_component: 0.2875
+    lean_component: 0.2842
     lean_component_sd: 0.0134
-    tide_component: 0.0032
-    tide_component_sd: 0.0119
+    tide_component: 0.0027
+    tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0021
-    demographics_component_sd: 0.0147
+    demographics_component: -0.0022
+    demographics_component_sd: 0.0144
     fundraising_component: 0.0109
     fundraising_component_sd: 0.0008
     demographics_tier: full
-    expected_share_resolved: 0.3572
-    war_resolved: 0.1006
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.3569
+    war_resolved: 0.1009
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: -0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0982
-    intercept_component_sd: 0.0341
-    lean_component: 0.5116
-    lean_component_sd: 0.0344
-    tide_component: 0.0019
-    tide_component_sd: 0.0358
+    intercept_component: 0.0935
+    intercept_component_sd: 0.0342
+    lean_component: 0.5136
+    lean_component_sd: 0.0349
+    tide_component: 0.0062
+    tide_component_sd: 0.0353
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0021
-    demographics_component_sd: 0.0147
+    demographics_component: -0.0022
+    demographics_component_sd: 0.0144
     fundraising_component: 0.0168
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.6263
-    war_resolved: -0.1263
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.6278
+    war_resolved: -0.1278
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide
@@ -135,22 +135,22 @@ results_by_year:
     war: 0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0577
+    intercept_component: 0.0613
     intercept_component_sd: 0.0188
-    lean_component: 0.2875
+    lean_component: 0.2842
     lean_component_sd: 0.0134
-    tide_component: 0.0031
-    tide_component_sd: 0.0113
+    tide_component: 0.0026
+    tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0021
-    demographics_component_sd: 0.0147
+    demographics_component: -0.0022
+    demographics_component_sd: 0.0144
     fundraising_component: 0.0117
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.3579
-    war_resolved: 0.1421
-    war_resolved_sd: 0.081
+    expected_share_resolved: 0.3576
+    war_resolved: 0.1424
+    war_resolved_sd: 0.0811
     war_factors:
     - District lean
     - Statewide tide
