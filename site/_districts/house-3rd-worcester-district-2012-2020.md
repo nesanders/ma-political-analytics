@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6135
+lean_dem_share_structural: 0.5062
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0575
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6135
-    own_tide: 0.6712
-    war_v2: 0.0382
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4271
+    lean_component_sd: 0.0288
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3237
-    lean_component_sd: 0.0189
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6135
-    expected_two_party_share_v2: 0.5178
-    war_resolved: 0.0382
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5178
-    war_model: core
-    war_factors: &id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0028
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.53
+    war_resolved: 0.026
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Glenn C. Fossa
     slug: glenn-c-fossa
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0575
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3865
-    own_tide: 0.3288
-    war_v2: 0.0452
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3607
+    lean_component_sd: 0.0168
+    tide_component: 0.0029
+    tide_component_sd: 0.0106
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.204
-    lean_component_sd: 0.0119
-    tide_component: -0.0008
-    tide_component_sd: 0.0118
-    expected_two_party_share: 0.3865
-    expected_two_party_share_v2: 0.3988
-    war_resolved: 0.0452
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3988
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0136
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.4077
+    war_resolved: 0.0363
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.2755
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.4108
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.2755
-    own_tide: 0.3321
-    war_v2: 0.1896
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1454
-    lean_component_sd: 0.0085
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2755
-    expected_two_party_share_v2: 0.4967
-    war_resolved: 0.1896
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4967
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4271
+    lean_component_sd: 0.0288
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0041
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5968
+    war_resolved: 0.0895
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Elmer Eubanks-Archbold
     slug: elmer-eubanks-archbold
     party: Republican
@@ -128,25 +132,27 @@ results_by_year:
     war: -0.4108
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7245
-    own_tide: 0.6679
-    war_v2: -0.2627
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3607
+    lean_component_sd: 0.0168
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3823
-    lean_component_sd: 0.0223
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7245
-    expected_two_party_share_v2: 0.5764
-    war_resolved: -0.2627
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5764
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0382
+    fundraising_component_sd: 0.0029
+    demographics_tier: null
+    expected_share_resolved: 0.386
+    war_resolved: -0.0723
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6016
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.3984
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6016
-    own_tide: 0.6465
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4271
+    lean_component_sd: 0.0288
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3175
-    lean_component_sd: 0.0185
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.6016
-    expected_two_party_share_v2: 0.5116
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0131
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5402
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5116
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4422
@@ -202,25 +210,26 @@ results_by_year:
     war: 0.5578
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4422
-    own_tide: 0.4902
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2333
-    lean_component_sd: 0.0136
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4422
-    expected_two_party_share_v2: 0.5843
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4271
+    lean_component_sd: 0.0288
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.6013
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5843
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.598
@@ -239,25 +248,26 @@ results_by_year:
     war: 0.402
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.598
-    own_tide: 0.6179
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4271
+    lean_component_sd: 0.0288
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3156
-    lean_component_sd: 0.0184
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.598
-    expected_two_party_share_v2: 0.5097
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.5271
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5097
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: null
 title: 3rd Worcester District (2012-2020)
 layout: district

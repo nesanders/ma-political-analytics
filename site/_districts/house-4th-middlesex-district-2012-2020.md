@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6858
+lean_dem_share_structural: 0.521
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.3142
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.6858
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3619
-    lean_component_sd: 0.0211
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6858
-    expected_two_party_share_v2: 0.6996
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4396
+    lean_component_sd: 0.0296
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0077
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.6085
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6996
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Syed H. Hashmi
     slug: syed-h-hashmi
     party: Other
@@ -63,24 +63,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2018
@@ -100,25 +98,27 @@ results_by_year:
     war: 0.36
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.2756
-    own_tide: 0.3321
-    war_v2: 0.1517
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1454
-    lean_component_sd: 0.0085
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2756
-    expected_two_party_share_v2: 0.4839
-    war_resolved: 0.1517
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4839
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4396
+    lean_component_sd: 0.0296
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0002
+    fundraising_component_sd: 0.0
+    demographics_tier: null
+    expected_share_resolved: 0.6001
+    war_resolved: 0.0355
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -128,25 +128,26 @@ results_by_year:
     war: -0.36
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7244
-    own_tide: 0.6679
-    war_v2: -0.2119
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3499
+    lean_component_sd: 0.0163
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3823
-    lean_component_sd: 0.0223
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7244
-    expected_two_party_share_v2: 0.5763
-    war_resolved: -0.2119
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5763
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4134
+    war_resolved: -0.049
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.645
@@ -165,25 +166,27 @@ results_by_year:
     war: -0.0486
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.645
-    own_tide: 0.6465
-    war_v2: -0.0841
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3404
-    lean_component_sd: 0.0199
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.6451
-    expected_two_party_share_v2: 0.6806
-    war_resolved: -0.0841
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6806
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4396
+    lean_component_sd: 0.0296
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0034
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.6326
+    war_resolved: -0.0361
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Paul R. Ferro
     slug: paul-r-ferro
     party: Republican
@@ -193,25 +196,26 @@ results_by_year:
     war: 0.0486
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.355
-    own_tide: 0.3535
-    war_v2: 0.0214
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3499
+    lean_component_sd: 0.0163
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1873
-    lean_component_sd: 0.0109
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.3549
-    expected_two_party_share_v2: 0.3821
-    war_resolved: 0.0214
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3821
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4107
+    war_resolved: -0.0072
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4295
@@ -230,25 +234,27 @@ results_by_year:
     war: 0.1097
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4295
-    own_tide: 0.4902
-    war_v2: -0.0384
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2266
-    lean_component_sd: 0.0132
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4295
-    expected_two_party_share_v2: 0.5776
-    war_resolved: -0.0384
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5776
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4396
+    lean_component_sd: 0.0296
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0057
+    fundraising_component_sd: 0.0004
+    demographics_tier: null
+    expected_share_resolved: 0.6081
+    war_resolved: -0.0689
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Matthew H. Elder
     slug: matthew-h-elder
     party: Republican
@@ -258,25 +264,26 @@ results_by_year:
     war: -0.1097
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5705
-    own_tide: 0.5098
-    war_v2: -0.0347
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3499
+    lean_component_sd: 0.0163
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3011
-    lean_component_sd: 0.0176
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5705
-    expected_two_party_share_v2: 0.4955
-    war_resolved: -0.0347
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4955
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.412
+    war_resolved: 0.0488
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Kristine E. Coffey-Donahue
     slug: kristine-e-coffey-donahue
     party: Other
@@ -286,24 +293,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2012
@@ -323,25 +328,27 @@ results_by_year:
     war: -0.0631
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5691
-    own_tide: 0.6179
-    war_v2: 0.0114
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4396
+    lean_component_sd: 0.0296
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3003
-    lean_component_sd: 0.0175
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.569
-    expected_two_party_share_v2: 0.4945
-    war_resolved: 0.0114
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4945
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0098
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.5297
+    war_resolved: -0.0238
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Steven L. Levy
     slug: steven-l-levy
     party: Republican
@@ -351,25 +358,27 @@ results_by_year:
     war: 0.0631
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4309
-    own_tide: 0.3821
-    war_v2: 0.072
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3499
+    lean_component_sd: 0.0163
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2274
-    lean_component_sd: 0.0133
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.431
-    expected_two_party_share_v2: 0.4221
-    war_resolved: 0.072
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4221
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.008
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.419
+    war_resolved: 0.0751
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 4th Middlesex District (2012-2020)
 layout: district

@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.6157
+lean_dem_share_structural: 0.6184
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.6157
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.3843
-    own_tide: 0.3704
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2028
-    lean_component_sd: 0.0118
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.3843
-    expected_two_party_share_v2: 0.554
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2788
+    lean_component_sd: 0.013
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
+    incumbency_adjustment: 0.1354
+    incumbency_adjustment_sd: 0.013
+    demographics_component: -0.0023
+    demographics_component_sd: 0.0118
+    fundraising_component: 0.0256
+    fundraising_component_sd: 0.0019
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3727
-    lean_component_v3_demographics_sd: 0.0243
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1591
-    demographics_component_sd: 0.1216
-    expected_two_party_share_v3_demographics: 0.45
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.4984
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.45
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6211
@@ -85,39 +71,29 @@ results_by_year:
     war: 0.6211
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3789
-    own_tide: 0.3516
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2788
+    lean_component_sd: 0.013
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1999
-    lean_component_sd: 0.0117
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.3789
-    expected_two_party_share_v2: 0.3947
+    demographics_component: -0.0023
+    demographics_component_sd: 0.0118
+    fundraising_component: 0.0269
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3675
-    lean_component_v3_demographics_sd: 0.024
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1591
-    demographics_component_sd: 0.1216
-    expected_two_party_share_v3_demographics: 0.3882
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.3642
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.3882
-    war_model: demographics_full
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Terence William Cudney
     slug: terence-william-cudney
     party: Other
@@ -127,38 +103,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: null
 demographics:

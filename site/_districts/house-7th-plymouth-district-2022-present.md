@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.4824
+lean_dem_share_structural: 0.4853
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.4824
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5176
-    own_tide: 0.3704
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.376
+    lean_component_sd: 0.0175
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2731
-    lean_component_sd: 0.0159
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.5176
-    expected_two_party_share_v2: 0.4679
+    demographics_component: 0.0058
+    demographics_component_sd: 0.0068
+    fundraising_component: -0.0077
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.502
-    lean_component_v3_demographics_sd: 0.0328
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1561
-    demographics_component_sd: 0.1174
-    expected_two_party_share_v3_demographics: 0.5238
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.4349
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5238
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4882
@@ -85,39 +71,28 @@ results_by_year:
     war: 0.4882
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5118
-    own_tide: 0.3516
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.376
+    lean_component_sd: 0.0175
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2701
-    lean_component_sd: 0.0158
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.5118
-    expected_two_party_share_v2: 0.4649
+    demographics_component: 0.0058
+    demographics_component_sd: 0.0068
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4964
-    lean_component_v3_demographics_sd: 0.0324
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1561
-    demographics_component_sd: 0.1174
-    expected_two_party_share_v3_demographics: 0.52
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.4425
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.52
-    war_model: demographics_full
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
   - name: Brandon J. Griffin
     slug: brandon-j-griffin
     party: Other
@@ -127,38 +102,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: null
 demographics:

@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5211
+lean_dem_share_structural: 0.5311
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.0052
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5211
-    own_tide: 0.6296
-    war_v2: 0.0573
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4481
+    lean_component_sd: 0.0302
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.275
-    lean_component_sd: 0.016
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5212
-    expected_two_party_share_v2: 0.4691
+    demographics_component: 0.0003
+    demographics_component_sd: 0.0047
+    fundraising_component: 0.0318
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5054
-    lean_component_v3_demographics_sd: 0.033
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1587
-    demographics_component_sd: 0.121
-    expected_two_party_share_v3_demographics: 0.4998
-    war_v3_demographics: 0.0266
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0266
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4998
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.5802
+    war_resolved: -0.0538
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Joseph M. Pires
     slug: joseph-m-pires
     party: Republican
@@ -76,39 +62,29 @@ results_by_year:
     war: -0.0052
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4789
-    own_tide: 0.3704
-    war_v2: 0.0261
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3425
+    lean_component_sd: 0.0159
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2527
-    lean_component_sd: 0.0148
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4788
-    expected_two_party_share_v2: 0.4475
+    demographics_component: 0.0003
+    demographics_component_sd: 0.0047
+    fundraising_component: 0.0064
+    fundraising_component_sd: 0.0005
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4645
-    lean_component_v3_demographics_sd: 0.0303
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1587
-    demographics_component_sd: 0.121
-    expected_two_party_share_v3_demographics: 0.4838
-    war_v3_demographics: -0.0102
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0102
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4838
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.4102
+    war_resolved: 0.0634
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5411
@@ -127,39 +103,29 @@ results_by_year:
     war: 0.0215
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5411
-    own_tide: 0.6484
-    war_v2: 0.083
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4481
+    lean_component_sd: 0.0302
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2855
-    lean_component_sd: 0.0167
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5411
-    expected_two_party_share_v2: 0.4796
+    demographics_component: 0.0003
+    demographics_component_sd: 0.0047
+    fundraising_component: 0.0311
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5248
-    lean_component_v3_demographics_sd: 0.0343
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1587
-    demographics_component_sd: 0.121
-    expected_two_party_share_v3_demographics: 0.5174
-    war_v3_demographics: 0.0452
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0452
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5174
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5797
+    war_resolved: -0.0171
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Jeffrey Gerald Swift
     slug: jeffrey-gerald-swift
     party: Republican
@@ -169,39 +135,29 @@ results_by_year:
     war: -0.0215
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4589
-    own_tide: 0.3516
-    war_v2: 0.0004
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3425
+    lean_component_sd: 0.0159
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2422
-    lean_component_sd: 0.0141
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4589
-    expected_two_party_share_v2: 0.437
+    demographics_component: 0.0003
+    demographics_component_sd: 0.0047
+    fundraising_component: -0.0141
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4451
-    lean_component_v3_demographics_sd: 0.029
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1587
-    demographics_component_sd: 0.121
-    expected_two_party_share_v3_demographics: 0.4662
-    war_v3_demographics: -0.0288
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0288
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4662
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3895
+    war_resolved: 0.0479
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 42142

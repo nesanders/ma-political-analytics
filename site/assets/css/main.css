@@ -29,12 +29,21 @@
   --war-tide: #eda100;
   --war-incumbency: #e87ba4;
   --war-residual: #008300;
-  /* 6th slot (palette position 7, violet) for the one WAR v3-specific
-     component threaded into the attribution charts — Fundraising on
-     candidate pages, Education on district/seat pages. The two never
-     appear on the same chart (finance is per-candidate, demographics is
-     per-district), so one shared variable is unambiguous. */
+  /* 7th slot (palette position 7, violet) for the Demographics component. */
   --war-extra: #4a3aa7;
+  /* One unified WAR model (see docs/PLAN.md) can now attribute both a
+     Demographics and a Fundraising component to the same race at once —
+     the old three-separate-models design never let that happen, so one
+     shared color slot used to be enough. This 8th hue sits outside the
+     dataviz skill's validated 8-slot reference set (all 8 of those are
+     already spoken for elsewhere on these same pages — war-extra, the
+     other five war-* slots, and series-dem/series-rep); chosen instead by
+     running the skill's own validate_palette.py over the specific
+     adjacent pairs this hue can land next to in the attribution stack
+     (incumbency, war-extra, war-residual, in both light and dark) until
+     one cleared every gate — see pipeline/README.md's entry for this
+     round for the exact search. */
+  --war-fundraising: #9725d0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,6 +66,7 @@
     --war-incumbency: #d55181;
     --war-residual: #008300;
     --war-extra: #9085e9;
+    --war-fundraising: #a73cdd;
   }
 }
 
@@ -79,6 +89,7 @@
   --war-incumbency: #d55181;
   --war-residual: #008300;
   --war-extra: #9085e9;
+  --war-fundraising: #a73cdd;
 }
 
 /* Fixed institutional masthead — deliberately does not flip with the

@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6696
+lean_dem_share_structural: 0.5118
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.3304
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.6696
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3533
-    lean_component_sd: 0.0206
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6696
-    expected_two_party_share_v2: 0.691
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4318
+    lean_component_sd: 0.0291
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.025
+    fundraising_component_sd: 0.0019
+    demographics_tier: null
+    expected_share_resolved: 0.618
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.691
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Elizabeth R. Harrah
     slug: elizabeth-r-harrah
     party: Other
@@ -63,24 +63,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2018
@@ -100,25 +98,27 @@ results_by_year:
     war: 0.3357
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.2777
-    own_tide: 0.3321
-    war_v2: 0.1259
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1465
-    lean_component_sd: 0.0086
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2777
-    expected_two_party_share_v2: 0.4875
-    war_resolved: 0.1259
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4875
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4318
+    lean_component_sd: 0.0291
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0247
+    fundraising_component_sd: 0.0019
+    demographics_tier: null
+    expected_share_resolved: 0.6452
+    war_resolved: -0.0318
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -128,25 +128,27 @@ results_by_year:
     war: -0.3357
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7223
-    own_tide: 0.6679
-    war_v2: -0.1886
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3566
+    lean_component_sd: 0.0166
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3812
-    lean_component_sd: 0.0222
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7223
-    expected_two_party_share_v2: 0.5752
-    war_resolved: -0.1886
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5752
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0127
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.4328
+    war_resolved: -0.0462
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Kateen R. Kumar
     slug: kateen-r-kumar
     party: Other
@@ -156,24 +158,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2016
@@ -193,25 +193,27 @@ results_by_year:
     war: -0.0385
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6269
-    own_tide: 0.6465
-    war_v2: -0.093
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3308
-    lean_component_sd: 0.0193
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.6269
-    expected_two_party_share_v2: 0.6814
-    war_resolved: -0.093
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6814
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4318
+    lean_component_sd: 0.0291
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0325
+    fundraising_component_sd: 0.0025
+    demographics_tier: null
+    expected_share_resolved: 0.639
+    war_resolved: -0.0506
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -221,25 +223,27 @@ results_by_year:
     war: 0.0385
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3731
-    own_tide: 0.3535
-    war_v2: 0.0199
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3566
+    lean_component_sd: 0.0166
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1969
-    lean_component_sd: 0.0115
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.3731
-    expected_two_party_share_v2: 0.3917
-    war_resolved: 0.0199
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3917
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0237
+    fundraising_component_sd: 0.0018
+    demographics_tier: null
+    expected_share_resolved: 0.4411
+    war_resolved: -0.0295
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4334
@@ -258,25 +262,27 @@ results_by_year:
     war: 0.0808
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4334
-    own_tide: 0.4902
-    war_v2: 0.091
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4318
+    lean_component_sd: 0.0291
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2287
-    lean_component_sd: 0.0133
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4334
-    expected_two_party_share_v2: 0.4232
-    war_resolved: 0.091
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4232
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0345
+    fundraising_component_sd: 0.0026
+    demographics_tier: null
+    expected_share_resolved: 0.5659
+    war_resolved: -0.0517
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Caroline Colarusso
     slug: caroline-colarusso
     party: Republican
@@ -286,25 +292,27 @@ results_by_year:
     war: -0.0808
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5666
-    own_tide: 0.5098
-    war_v2: -0.0076
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3566
+    lean_component_sd: 0.0166
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.299
-    lean_component_sd: 0.0175
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5666
-    expected_two_party_share_v2: 0.4934
-    war_resolved: -0.0076
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4934
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0068
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4256
+    war_resolved: 0.0602
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5512
@@ -323,25 +331,27 @@ results_by_year:
     war: 0.0473
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5512
-    own_tide: 0.6179
-    war_v2: 0.1134
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4318
+    lean_component_sd: 0.0291
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2909
-    lean_component_sd: 0.017
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.5511
-    expected_two_party_share_v2: 0.485
-    war_resolved: 0.1134
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.485
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0174
+    fundraising_component_sd: 0.0013
+    demographics_tier: null
+    expected_share_resolved: 0.5492
+    war_resolved: 0.0492
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: George Georgountzos
     slug: george-georgountzos
     party: Republican
@@ -351,25 +361,27 @@ results_by_year:
     war: -0.0473
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4488
-    own_tide: 0.3821
-    war_v2: -0.03
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3566
+    lean_component_sd: 0.0166
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2368
-    lean_component_sd: 0.0138
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.4489
-    expected_two_party_share_v2: 0.4316
-    war_resolved: -0.03
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4316
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0016
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.4161
+    war_resolved: -0.0145
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 31st Middlesex District (2012-2020)
 layout: district

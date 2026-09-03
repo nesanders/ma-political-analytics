@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.7148
+lean_dem_share_structural: 0.7111
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,25 +33,23 @@ results_by_year:
     war: 0.2852
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.7148
-    own_tide: 0.5355
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3772
-    lean_component_sd: 0.022
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.7148
-    expected_two_party_share_v2: 0.7152
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6
+    lean_component_sd: 0.0404
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7608
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7152
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
@@ -72,25 +71,26 @@ results_by_year:
     war: 0.0768
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.7759
-    own_tide: 0.632
-    war_v2: 0.1055
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4094
-    lean_component_sd: 0.0239
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.7759
-    expected_two_party_share_v2: 0.7472
-    war_resolved: 0.1055
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.7472
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6
+    lean_component_sd: 0.0404
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7611
+    war_resolved: 0.0916
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -100,25 +100,26 @@ results_by_year:
     war: -0.0768
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2241
-    own_tide: 0.368
-    war_v2: -0.1657
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.211
+    lean_component_sd: 0.0098
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1183
-    lean_component_sd: 0.0069
-    tide_component: -0.0008
-    tide_component_sd: 0.0132
-    expected_two_party_share: 0.2241
-    expected_two_party_share_v2: 0.313
-    war_resolved: -0.1657
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.313
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.2719
+    war_resolved: -0.1246
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7399
@@ -137,25 +138,26 @@ results_by_year:
     war: 0.101
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.7399
-    own_tide: 0.6116
-    war_v2: 0.1102
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3904
-    lean_component_sd: 0.0228
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.7399
-    expected_two_party_share_v2: 0.7307
-    war_resolved: 0.1102
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.7307
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6
+    lean_component_sd: 0.0404
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7894
+    war_resolved: 0.0515
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -165,25 +167,27 @@ results_by_year:
     war: -0.101
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2601
-    own_tide: 0.3884
-    war_v2: -0.1729
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.211
+    lean_component_sd: 0.0098
+    tide_component: 0.0034
+    tide_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1373
-    lean_component_sd: 0.008
-    tide_component: -0.0009
-    tide_component_sd: 0.0139
-    expected_two_party_share: 0.2601
-    expected_two_party_share_v2: 0.332
-    war_resolved: -0.1729
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.332
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.2104
+    fundraising_component_sd: 0.016
+    demographics_tier: null
+    expected_share_resolved: 0.0618
+    war_resolved: 0.0973
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Kyle A. Burns
     slug: kyle-a-burns
     party: Other
@@ -193,24 +197,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2004
@@ -230,25 +232,26 @@ results_by_year:
     war: -0.0032
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.7196
-    own_tide: 0.6274
-    war_v2: -0.014
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3797
-    lean_component_sd: 0.0222
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.7196
-    expected_two_party_share_v2: 0.7304
-    war_resolved: -0.014
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.7304
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6
+    lean_component_sd: 0.0404
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7746
+    war_resolved: -0.0582
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: George Vazquez
     slug: george-vazquez
     party: Republican
@@ -258,25 +261,27 @@ results_by_year:
     war: 0.0032
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2804
-    own_tide: 0.3726
-    war_v2: -0.0591
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.211
+    lean_component_sd: 0.0098
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.148
-    lean_component_sd: 0.0086
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.2804
-    expected_two_party_share_v2: 0.3427
-    war_resolved: -0.0591
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3427
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0431
+    fundraising_component_sd: 0.0033
+    demographics_tier: null
+    expected_share_resolved: 0.2289
+    war_resolved: 0.0547
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6053
@@ -295,25 +300,26 @@ results_by_year:
     war: 0.3947
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6053
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6
+    lean_component_sd: 0.0404
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3194
-    lean_component_sd: 0.0186
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.6053
-    expected_two_party_share_v2: 0.5139
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.6995
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5139
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: null
 title: 10th Hampden (2001-2010)
 layout: district

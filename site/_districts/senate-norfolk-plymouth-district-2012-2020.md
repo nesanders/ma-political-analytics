@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.632
+lean_dem_share_structural: 0.51
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.368
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.632
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3335
-    lean_component_sd: 0.0195
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.632
-    expected_two_party_share_v2: 0.6712
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4303
+    lean_component_sd: 0.029
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.026
+    fundraising_component_sd: 0.002
+    demographics_tier: null
+    expected_share_resolved: 0.5655
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6712
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -63,24 +63,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2018
@@ -100,25 +98,27 @@ results_by_year:
     war: 0.7034
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.2966
-    own_tide: 0.3321
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1565
-    lean_component_sd: 0.0091
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2966
-    expected_two_party_share_v2: 0.495
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4303
+    lean_component_sd: 0.029
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0409
+    fundraising_component_sd: 0.0031
+    demographics_tier: null
+    expected_share_resolved: 0.5497
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.495
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -128,24 +128,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2016
@@ -165,25 +163,27 @@ results_by_year:
     war: 0.4021
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.5979
-    own_tide: 0.6465
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3155
-    lean_component_sd: 0.0184
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.5979
-    expected_two_party_share_v2: 0.6557
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4303
+    lean_component_sd: 0.029
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0059
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.6258
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6557
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Alexander N. Mendez
     slug: alexander-n-mendez
     party: Other
@@ -193,24 +193,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2014
@@ -230,25 +228,27 @@ results_by_year:
     war: 0.2174
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4433
-    own_tide: 0.4902
-    war_v2: 0.0757
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2339
-    lean_component_sd: 0.0137
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4432
-    expected_two_party_share_v2: 0.5849
-    war_resolved: 0.0757
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5849
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4303
+    lean_component_sd: 0.029
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0173
+    fundraising_component_sd: 0.0013
+    demographics_tier: null
+    expected_share_resolved: 0.6218
+    war_resolved: 0.0388
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Leslie C. Gosule
     slug: leslie-c-gosule
     party: Republican
@@ -258,25 +258,27 @@ results_by_year:
     war: -0.2174
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5567
-    own_tide: 0.5098
-    war_v2: -0.1488
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3579
+    lean_component_sd: 0.0167
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2938
-    lean_component_sd: 0.0171
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5568
-    expected_two_party_share_v2: 0.4882
-    war_resolved: -0.1488
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4882
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.022
+    fundraising_component_sd: 0.0017
+    demographics_tier: null
+    expected_share_resolved: 0.4421
+    war_resolved: -0.1027
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5803
@@ -295,25 +297,27 @@ results_by_year:
     war: 0.4197
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5803
-    own_tide: 0.6179
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4303
+    lean_component_sd: 0.029
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3062
-    lean_component_sd: 0.0179
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.5803
-    expected_two_party_share_v2: 0.5004
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0081
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.5222
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5004
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: Norfolk & Plymouth District (2012-2020)
 layout: district

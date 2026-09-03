@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6322
+lean_dem_share_structural: 0.4587
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0085
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6322
-    own_tide: 0.6712
-    war_v2: -0.0605
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3336
-    lean_component_sd: 0.0195
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6322
-    expected_two_party_share_v2: 0.6842
-    war_resolved: -0.0605
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6842
-    war_model: core
-    war_factors: &id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.387
+    lean_component_sd: 0.0261
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0397
+    fundraising_component_sd: 0.003
+    demographics_tier: null
+    expected_share_resolved: 0.6014
+    war_resolved: 0.0223
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0085
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3678
-    own_tide: 0.3288
-    war_v2: -0.0126
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3954
+    lean_component_sd: 0.0184
+    tide_component: 0.0029
+    tide_component_sd: 0.0106
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1941
-    lean_component_sd: 0.0113
-    tide_component: -0.0008
-    tide_component_sd: 0.0118
-    expected_two_party_share: 0.3678
-    expected_two_party_share_v2: 0.3889
-    war_resolved: -0.0126
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3889
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0002
+    fundraising_component_sd: 0.0
+    demographics_tier: null
+    expected_share_resolved: 0.4557
+    war_resolved: -0.0794
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2367
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.3121
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2367
-    own_tide: 0.3321
-    war_v2: 0.2291
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.387
+    lean_component_sd: 0.0261
+    tide_component: 0.001
+    tide_component_sd: 0.0183
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1249
-    lean_component_sd: 0.0073
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2367
-    expected_two_party_share_v2: 0.3197
-    war_resolved: 0.2291
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3197
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0422
+    fundraising_component_sd: 0.0032
+    demographics_tier: null
+    expected_share_resolved: 0.5284
+    war_resolved: 0.0204
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: James J. Lyons, Jr.
     slug: james-j-lyons-jr
     party: Republican
@@ -128,25 +132,27 @@ results_by_year:
     war: -0.3121
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.7633
-    own_tide: 0.6679
-    war_v2: -0.2893
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4028
-    lean_component_sd: 0.0235
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7633
-    expected_two_party_share_v2: 0.7405
-    war_resolved: -0.2893
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.7405
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3954
+    lean_component_sd: 0.0184
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
+    incumbency_adjustment: 0.1226
+    incumbency_adjustment_sd: 0.0134
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0296
+    fundraising_component_sd: 0.0023
+    demographics_tier: null
+    expected_share_resolved: 0.6111
+    war_resolved: -0.1599
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5774
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.174
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.4226
-    own_tide: 0.3535
-    war_v2: 0.0327
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.223
-    lean_component_sd: 0.013
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.4226
-    expected_two_party_share_v2: 0.5639
-    war_resolved: 0.0327
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5639
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3954
+    lean_component_sd: 0.0184
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
+    incumbency_adjustment: 0.1109
+    incumbency_adjustment_sd: 0.0144
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0198
+    fundraising_component_sd: 0.0015
+    demographics_tier: null
+    expected_share_resolved: 0.5869
+    war_resolved: 0.0097
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Oscar Camargo
     slug: oscar-camargo
     party: Democratic
@@ -193,25 +201,27 @@ results_by_year:
     war: -0.174
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5774
-    own_tide: 0.6465
-    war_v2: -0.0954
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.387
+    lean_component_sd: 0.0261
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3047
-    lean_component_sd: 0.0178
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.5774
-    expected_two_party_share_v2: 0.4988
-    war_resolved: -0.0954
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4988
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0045
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.4825
+    war_resolved: -0.0791
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3626
@@ -230,25 +240,27 @@ results_by_year:
     war: 0.3626
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6374
-    own_tide: 0.5098
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3364
-    lean_component_sd: 0.0196
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.6374
-    expected_two_party_share_v2: 0.6873
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3954
+    lean_component_sd: 0.0184
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
+    incumbency_adjustment: 0.1354
+    incumbency_adjustment_sd: 0.013
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0019
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.5911
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6873
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4848
@@ -267,25 +279,27 @@ results_by_year:
     war: -0.0042
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5152
-    own_tide: 0.3821
-    war_v2: 0.0444
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3954
+    lean_component_sd: 0.0184
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2719
-    lean_component_sd: 0.0159
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.5152
-    expected_two_party_share_v2: 0.4666
-    war_resolved: 0.0444
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4666
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0133
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.4698
+    war_resolved: 0.0412
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -295,25 +309,27 @@ results_by_year:
     war: 0.0042
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4848
-    own_tide: 0.6179
-    war_v2: 0.039
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.387
+    lean_component_sd: 0.0261
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2558
-    lean_component_sd: 0.0149
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.4848
-    expected_two_party_share_v2: 0.45
-    war_resolved: 0.039
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.45
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0222
+    fundraising_component_sd: 0.0017
+    demographics_tier: null
+    expected_share_resolved: 0.5092
+    war_resolved: -0.0202
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 18th Essex District (2012-2020)
 layout: district

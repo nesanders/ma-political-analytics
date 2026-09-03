@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6745
+lean_dem_share_structural: 0.4888
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.3255
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.6745
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3559
-    lean_component_sd: 0.0208
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6745
-    expected_two_party_share_v2: 0.6961
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4124
+    lean_component_sd: 0.0278
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0123
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.6144
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6961
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2471
@@ -72,25 +72,27 @@ results_by_year:
     war: 0.3232
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.2471
-    own_tide: 0.3321
-    war_v2: 0.0886
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1304
-    lean_component_sd: 0.0076
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2471
-    expected_two_party_share_v2: 0.4817
-    war_resolved: 0.0886
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4817
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4124
+    lean_component_sd: 0.0278
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0132
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5993
+    war_resolved: -0.029
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -100,25 +102,27 @@ results_by_year:
     war: -0.3232
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7529
-    own_tide: 0.6679
-    war_v2: -0.1617
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3734
+    lean_component_sd: 0.0174
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3973
-    lean_component_sd: 0.0232
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7529
-    expected_two_party_share_v2: 0.5914
-    war_resolved: -0.1617
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5914
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0054
+    fundraising_component_sd: 0.0004
+    demographics_tier: null
+    expected_share_resolved: 0.4424
+    war_resolved: -0.0127
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.6259
@@ -137,25 +141,27 @@ results_by_year:
     war: -0.0857
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6259
-    own_tide: 0.6465
-    war_v2: 0.0158
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4124
+    lean_component_sd: 0.0278
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3303
-    lean_component_sd: 0.0193
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.6259
-    expected_two_party_share_v2: 0.5244
-    war_resolved: 0.0158
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5244
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0356
+    fundraising_component_sd: 0.0027
+    demographics_tier: null
+    expected_share_resolved: 0.5481
+    war_resolved: -0.0079
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Kristen G. Arute
     slug: kristen-g-arute
     party: Republican
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.0857
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3741
-    own_tide: 0.3535
-    war_v2: 0.0676
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3734
+    lean_component_sd: 0.0174
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1974
-    lean_component_sd: 0.0115
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.3741
-    expected_two_party_share_v2: 0.3922
-    war_resolved: 0.0676
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3922
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0006
+    fundraising_component_sd: 0.0
+    demographics_tier: null
+    expected_share_resolved: 0.4336
+    war_resolved: 0.0262
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.3894
@@ -202,25 +210,27 @@ results_by_year:
     war: 0.6106
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.3894
-    own_tide: 0.4902
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2055
-    lean_component_sd: 0.012
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.3894
-    expected_two_party_share_v2: 0.5565
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4124
+    lean_component_sd: 0.0278
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0008
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.5874
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5565
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.507
@@ -239,25 +249,27 @@ results_by_year:
     war: 0.493
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.507
-    own_tide: 0.6179
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4124
+    lean_component_sd: 0.0278
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2675
-    lean_component_sd: 0.0156
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.507
-    expected_two_party_share_v2: 0.4617
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.003
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.5154
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4617
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 3rd Plymouth District (2012-2020)
 layout: district

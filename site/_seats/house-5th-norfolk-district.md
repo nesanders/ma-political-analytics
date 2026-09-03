@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5377
+lean_dem_share_structural: 0.5504
 competitiveness: Lean
 competitiveness_label: Lean D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.4623
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5377
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2837
-    lean_component_sd: 0.0166
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5377
-    expected_two_party_share_v2: 0.6344
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4644
+    lean_component_sd: 0.0313
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: 0.0023
+    demographics_component_sd: 0.0054
+    fundraising_component: 0.0109
+    fundraising_component_sd: 0.0008
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5215
-    lean_component_v3_demographics_sd: 0.034
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.156
-    demographics_component_sd: 0.1178
-    expected_two_party_share_v3_demographics: 0.577
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6523
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.577
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5632
@@ -85,39 +71,29 @@ results_by_year:
     war: 0.4368
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5632
-    own_tide: 0.6484
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4644
+    lean_component_sd: 0.0313
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2972
-    lean_component_sd: 0.0173
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5632
-    expected_two_party_share_v2: 0.4913
+    demographics_component: 0.0023
+    demographics_component_sd: 0.0054
+    fundraising_component: 0.0062
+    fundraising_component_sd: 0.0005
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5462
-    lean_component_v3_demographics_sd: 0.0357
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.156
-    demographics_component_sd: 0.1178
-    expected_two_party_share_v3_demographics: 0.5415
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.573
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5415
-    war_model: demographics_full
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 44935

@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.462
+lean_dem_share_structural: 0.4924
 competitiveness: Lean
 competitiveness_label: Lean R
 party_favored: Republican
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.0469
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.462
-    own_tide: 0.6296
-    war_v2: 0.071
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4154
+    lean_component_sd: 0.028
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2438
-    lean_component_sd: 0.0142
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.462
-    expected_two_party_share_v2: 0.4379
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0119
+    fundraising_component: -0.0115
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4481
-    lean_component_v3_demographics_sd: 0.0292
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1589
-    demographics_component_sd: 0.1207
-    expected_two_party_share_v3_demographics: 0.4423
-    war_v3_demographics: 0.0666
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0666
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4423
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.5098
+    war_resolved: -0.0009
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -76,39 +62,29 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.538
-    own_tide: 0.3704
-    war_v2: 0.0124
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3708
+    lean_component_sd: 0.0173
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2839
-    lean_component_sd: 0.0166
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.538
-    expected_two_party_share_v2: 0.4787
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0119
+    fundraising_component: 0.011
+    fundraising_component_sd: 0.0008
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5218
-    lean_component_v3_demographics_sd: 0.0341
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1589
-    demographics_component_sd: 0.1207
-    expected_two_party_share_v3_demographics: 0.5409
-    war_v3_demographics: -0.0498
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0498
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5409
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.4486
+    war_resolved: 0.0425
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -118,38 +94,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Manuel Soares, Jr
     slug: manuel-soares-jr
@@ -160,38 +120,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Laura A. Hadley
     slug: laura-a-hadley
@@ -202,38 +146,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: true
 - year: 2022
@@ -253,39 +181,29 @@ results_by_year:
     war: 0.0124
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5228
-    own_tide: 0.6484
-    war_v2: 0.0652
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4154
+    lean_component_sd: 0.028
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2759
-    lean_component_sd: 0.0161
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5228
-    expected_two_party_share_v2: 0.47
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0119
+    fundraising_component: 0.0123
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5071
-    lean_component_v3_demographics_sd: 0.0331
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1589
-    demographics_component_sd: 0.1207
-    expected_two_party_share_v3_demographics: 0.4995
-    war_v3_demographics: 0.0357
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0357
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4995
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5338
+    war_resolved: 0.0014
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -295,39 +213,29 @@ results_by_year:
     war: -0.0124
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4772
-    own_tide: 0.3516
-    war_v2: 0.0182
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3708
+    lean_component_sd: 0.0173
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2518
-    lean_component_sd: 0.0147
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4772
-    expected_two_party_share_v2: 0.4466
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0119
+    fundraising_component: -0.0075
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4628
-    lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1589
-    demographics_component_sd: 0.1207
-    expected_two_party_share_v3_demographics: 0.4837
-    war_v3_demographics: -0.0189
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0189
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4837
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.43
+    war_resolved: 0.0348
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 41084

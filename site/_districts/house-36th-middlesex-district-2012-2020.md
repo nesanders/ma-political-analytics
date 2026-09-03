@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.5112
+lean_dem_share_structural: 0.3929
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.4888
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.5112
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2698
-    lean_component_sd: 0.0157
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.5112
-    expected_two_party_share_v2: 0.6074
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3315
+    lean_component_sd: 0.0223
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0409
+    fundraising_component_sd: 0.0031
+    demographics_tier: null
+    expected_share_resolved: 0.4518
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6074
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.1906
@@ -72,25 +72,27 @@ results_by_year:
     war: 0.4415
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.1906
-    own_tide: 0.3321
-    war_v2: 0.1931
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1006
-    lean_component_sd: 0.0059
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.1906
-    expected_two_party_share_v2: 0.439
-    war_resolved: 0.1931
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.439
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3315
+    lean_component_sd: 0.0223
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0086
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.5003
+    war_resolved: 0.1318
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Raymond G. Leczynski
     slug: raymond-g-leczynski
     party: Republican
@@ -100,25 +102,27 @@ results_by_year:
     war: -0.4415
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.8094
-    own_tide: 0.6679
-    war_v2: -0.2533
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4435
+    lean_component_sd: 0.0206
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4271
-    lean_component_sd: 0.0249
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.8094
-    expected_two_party_share_v2: 0.6212
-    war_resolved: -0.2533
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6212
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0163
+    fundraising_component_sd: 0.0012
+    demographics_tier: null
+    expected_share_resolved: 0.4907
+    war_resolved: -0.1228
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4582
@@ -137,25 +141,27 @@ results_by_year:
     war: 0.5418
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.4582
-    own_tide: 0.6465
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2418
-    lean_component_sd: 0.0141
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.4582
-    expected_two_party_share_v2: 0.582
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3315
+    lean_component_sd: 0.0223
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0334
+    fundraising_component_sd: 0.0025
+    demographics_tier: null
+    expected_share_resolved: 0.4877
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.582
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3427
@@ -174,25 +180,27 @@ results_by_year:
     war: 0.1946
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.3427
-    own_tide: 0.4902
-    war_v2: 0.0056
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1808
-    lean_component_sd: 0.0106
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.3428
-    expected_two_party_share_v2: 0.5318
-    war_resolved: 0.0056
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5318
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3315
+    lean_component_sd: 0.0223
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0114
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.4943
+    war_resolved: 0.0431
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Cathy Richardson
     slug: cathy-richardson
     party: Republican
@@ -202,25 +210,27 @@ results_by_year:
     war: -0.1946
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6573
-    own_tide: 0.5098
-    war_v2: -0.0787
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4435
+    lean_component_sd: 0.0206
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3469
-    lean_component_sd: 0.0202
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.6572
-    expected_two_party_share_v2: 0.5413
-    war_resolved: -0.0787
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5413
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0324
+    fundraising_component_sd: 0.0025
+    demographics_tier: null
+    expected_share_resolved: 0.4733
+    war_resolved: -0.0107
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.4617
@@ -239,25 +249,27 @@ results_by_year:
     war: 0.1239
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4617
-    own_tide: 0.6179
-    war_v2: 0.1479
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3315
+    lean_component_sd: 0.0223
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2436
-    lean_component_sd: 0.0142
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.4618
-    expected_two_party_share_v2: 0.4378
-    war_resolved: 0.1479
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4378
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0076
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.4239
+    war_resolved: 0.1618
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Cathy Richardson
     slug: cathy-richardson
     party: Republican
@@ -267,25 +279,27 @@ results_by_year:
     war: -0.1239
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5383
-    own_tide: 0.3821
-    war_v2: -0.0645
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4435
+    lean_component_sd: 0.0206
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2841
-    lean_component_sd: 0.0166
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.5382
-    expected_two_party_share_v2: 0.4788
-    war_resolved: -0.0645
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4788
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0063
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4982
+    war_resolved: -0.0839
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 36th Middlesex District (2012-2020)
 layout: district

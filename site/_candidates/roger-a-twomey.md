@@ -13,45 +13,30 @@ races:
   winner: false
   actual_two_party_share: 0.1993
   war: -0.0828
-  own_lean: 0.2822
-  own_tide: 0.5098
-  war_v2: -0.144
-  war_v2_sd: 0.1125
+  intercept_component: 0.0577
+  intercept_component_sd: 0.0188
+  lean_component: 0.1962
+  lean_component_sd: 0.0091
+  tide_component: 0.0044
+  tide_component_sd: 0.0164
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.1489
-  lean_component_sd: 0.0087
-  tide_component: -0.0012
-  tide_component_sd: 0.0183
-  expected_two_party_share: 0.2821
-  expected_two_party_share_v2: 0.3433
-  is_uncontested: false
-  is_incumbent: false
-  incumbent_terms: 0
-  is_redistricting_year: false
+  demographics_component: null
+  demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.144
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.3433
-  war_model: core
+  demographics_tier: null
+  expected_share_resolved: 0.2583
+  war_resolved: -0.059
+  war_resolved_sd: 0.081
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
 title: Roger A. Twomey
 layout: candidate
 ---

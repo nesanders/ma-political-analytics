@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.523
+lean_dem_share_structural: 0.5227
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.0528
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.477
-    own_tide: 0.3704
-    war_v2: 0.0832
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3487
+    lean_component_sd: 0.0162
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2517
-    lean_component_sd: 0.0147
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4769
-    expected_two_party_share_v2: 0.4465
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0148
+    fundraising_component: 0.0152
+    fundraising_component_sd: 0.0012
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4626
-    lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1188
-    expected_two_party_share_v3_demographics: 0.4863
-    war_v3_demographics: 0.0434
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0434
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4863
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.4223
+    war_resolved: 0.1074
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Rebecca W. Coletta
     slug: rebecca-w-coletta
     party: Democratic
@@ -76,39 +62,29 @@ results_by_year:
     war: -0.0528
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.523
-    own_tide: 0.6296
-    war_v2: 0.0002
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.441
+    lean_component_sd: 0.0297
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.276
-    lean_component_sd: 0.0161
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5231
-    expected_two_party_share_v2: 0.4701
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0148
+    fundraising_component: 0.0315
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5073
-    lean_component_v3_demographics_sd: 0.0331
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1188
-    expected_two_party_share_v3_demographics: 0.506
-    war_v3_demographics: -0.0357
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0357
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.506
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.57
+    war_resolved: -0.0997
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5223
@@ -127,39 +103,29 @@ results_by_year:
     war: 0.0391
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5223
-    own_tide: 0.6484
-    war_v2: 0.0917
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.441
+    lean_component_sd: 0.0297
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2756
-    lean_component_sd: 0.0161
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5223
-    expected_two_party_share_v2: 0.4697
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0148
+    fundraising_component: 0.0201
+    fundraising_component_sd: 0.0015
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5066
-    lean_component_v3_demographics_sd: 0.0331
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1188
-    expected_two_party_share_v3_demographics: 0.5035
-    war_v3_demographics: 0.0579
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0579
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5035
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5586
+    war_resolved: 0.0028
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Kenneth Sweezey
     slug: kenneth-sweezey
     party: Republican
@@ -169,39 +135,29 @@ results_by_year:
     war: -0.0391
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4777
-    own_tide: 0.3516
-    war_v2: -0.0083
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3487
+    lean_component_sd: 0.0162
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2521
-    lean_component_sd: 0.0147
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4777
-    expected_two_party_share_v2: 0.4469
+    demographics_component: -0.0025
+    demographics_component_sd: 0.0148
+    fundraising_component: 0.0027
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4633
-    lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1188
-    expected_two_party_share_v3_demographics: 0.4888
-    war_v3_demographics: -0.0502
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0502
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4888
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.4096
+    war_resolved: 0.029
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 42287

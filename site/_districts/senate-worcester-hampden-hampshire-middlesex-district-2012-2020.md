@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.4945
+lean_dem_share_structural: 0.4008
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.0339
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.4945
-    own_tide: 0.6712
-    war_v2: -0.0703
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2609
-    lean_component_sd: 0.0152
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.4944
-    expected_two_party_share_v2: 0.5986
-    war_resolved: -0.0703
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5986
-    war_model: core
-    war_factors: &id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3382
+    lean_component_sd: 0.0228
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0151
+    fundraising_component_sd: 0.0011
+    demographics_tier: null
+    expected_share_resolved: 0.4843
+    war_resolved: 0.044
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: -0.0339
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5055
-    own_tide: 0.3288
-    war_v2: 0.0101
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4377
+    lean_component_sd: 0.0204
+    tide_component: 0.0029
+    tide_component_sd: 0.0106
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2668
-    lean_component_sd: 0.0156
-    tide_component: -0.0008
-    tide_component_sd: 0.0118
-    expected_two_party_share: 0.5056
-    expected_two_party_share_v2: 0.4616
-    war_resolved: 0.0101
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4616
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0102
+    fundraising_component_sd: 0.0008
+    demographics_tier: null
+    expected_share_resolved: 0.5085
+    war_resolved: -0.0368
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.204
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.345
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.204
-    own_tide: 0.3321
-    war_v2: 0.1004
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1077
-    lean_component_sd: 0.0063
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.204
-    expected_two_party_share_v2: 0.4486
-    war_resolved: 0.1004
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4486
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3382
+    lean_component_sd: 0.0228
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0073
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.5341
+    war_resolved: 0.0149
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Steven R. Hall
     slug: steven-r-hall
     party: Republican
@@ -128,25 +132,27 @@ results_by_year:
     war: -0.345
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.796
-    own_tide: 0.6679
-    war_v2: -0.1631
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4377
+    lean_component_sd: 0.0204
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.42
-    lean_component_sd: 0.0245
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.796
-    expected_two_party_share_v2: 0.6141
-    war_resolved: -0.1631
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6141
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0088
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.4925
+    war_resolved: -0.0415
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4457
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.0984
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4457
-    own_tide: 0.6465
-    war_v2: -0.0417
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2352
-    lean_component_sd: 0.0137
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.4457
-    expected_two_party_share_v2: 0.5858
-    war_resolved: -0.0417
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5858
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3382
+    lean_component_sd: 0.0228
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0025
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.5103
+    war_resolved: 0.0338
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: James P. Ehrhard
     slug: james-p-ehrhard
     party: Republican
@@ -193,25 +201,27 @@ results_by_year:
     war: -0.0984
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5543
-    own_tide: 0.3535
-    war_v2: -0.0314
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4377
+    lean_component_sd: 0.0204
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2925
-    lean_component_sd: 0.0171
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.5543
-    expected_two_party_share_v2: 0.4873
-    war_resolved: -0.0314
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4873
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0095
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.508
+    war_resolved: -0.0521
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3596
@@ -230,25 +240,27 @@ results_by_year:
     war: 0.144
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3596
-    own_tide: 0.4902
-    war_v2: 0.1194
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3382
+    lean_component_sd: 0.0228
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1898
-    lean_component_sd: 0.0111
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.3596
-    expected_two_party_share_v2: 0.3842
-    war_resolved: 0.1194
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3842
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0142
+    fundraising_component_sd: 0.0011
+    demographics_tier: null
+    expected_share_resolved: 0.4519
+    war_resolved: 0.0517
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Michael J. Valanzola
     slug: michael-j-valanzola
     party: Republican
@@ -258,25 +270,27 @@ results_by_year:
     war: -0.144
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6404
-    own_tide: 0.5098
-    war_v2: -0.036
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.4377
+    lean_component_sd: 0.0204
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3379
-    lean_component_sd: 0.0197
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.6404
-    expected_two_party_share_v2: 0.5324
-    war_resolved: -0.036
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5324
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0187
+    fundraising_component_sd: 0.0014
+    demographics_tier: null
+    expected_share_resolved: 0.5186
+    war_resolved: -0.0222
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.5
@@ -295,25 +309,27 @@ results_by_year:
     war: 0.5
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5
-    own_tide: 0.6179
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3382
+    lean_component_sd: 0.0228
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2638
-    lean_component_sd: 0.0154
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.5
-    expected_two_party_share_v2: 0.458
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0229
+    fundraising_component_sd: 0.0017
+    demographics_tier: null
+    expected_share_resolved: 0.461
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.458
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: Worcester, Hampden, Hampshire & Middlesex District (2012-2020)
 layout: district

@@ -27,6 +27,18 @@ not population-weighted. A town that's 10% of a district's land area
 could hold anywhere from a sliver to a majority of its population — this
 site currently treats those the same.
 
+**The WAR regression below uses a different, *structural* version of this
+lean** — the plain average of `lean_dem_share` across every election year
+on record for that district within its current redistricting vintage,
+rather than the one specific year's own apportioned value. Splitting a
+district's long-run partisan baseline from a given cycle's national mood
+this way is the standard Gelman & King "normal vote" decomposition (cited
+below) — and, practically, it's much less collinear with the model's
+separate statewide-tide term than two numbers both freshly derived from
+the same year's baseline race used to be. Every other use of lean on this
+site (the headline stat above, the trend-over-time chart, the
+competitiveness bucket) is still the plain per-year value.
+
 ## WAR (wins above replacement)
 
 **WAR = actual two-party vote share − expected share from a fitted
@@ -38,12 +50,14 @@ against, and an uncontested race has no meaningful "actual" side (an
 unopposed candidate's near-100% share is mechanically inflated, not
 earned against real competition) — so WAR is null in both cases.
 
-The site always shows **one WAR figure per race, computed by the
-richest model that race's own data supports**: a core regression on
-district lean, statewide tide, and incumbency, extended with local
-demographics or a candidate's own campaign fundraising wherever the
-district or candidate has data for it. Every page's own **Factors**
-column says which pieces actually went into that specific number.
+The site fits **one regression** — district lean, statewide tide, and
+incumbency, each with its own Democratic-vs-Republican interaction term,
+plus district demographics and campaign fundraising wherever a race's own
+data supports them — and shows every race's WAR from that single model.
+A race's expected share automatically includes whichever of the
+demographics/fundraising terms its own data supports (both, either, or
+neither); every page's own **Factors** column says which pieces actually
+went into that specific number.
 
 Whether or not a race was contested, the model's **expected share** is
 always defined — what a generic candidate of that party would be
@@ -89,20 +103,26 @@ side:
 
 <div id="war-overview-chart" role="img" aria-label="Forest plot of every model's standardized coefficients, colored by which model fits it, with 95% credible intervals"></div>
 
-## The core regression model
+## The regression model
 
-**WAR = actual two-party vote share − a fitted regression's expected
-share**, where the regression is:
+**WAR = actual two-party vote share − this one fitted regression's
+expected share**, where the regression is:
 
-> *own-party share ~ intercept + district lean + statewide tide +
-> incumbency (1st / 2nd / 3rd-or-later term)*
+> *own-party share ~ intercept + Democratic + district lean + district
+> lean × Democratic + statewide tide + statewide tide × Democratic +
+> incumbency (1st / 2nd / 3rd-or-later term) + incumbency × Democratic +
+> district demographics + campaign fundraising*
 
-"Own-party" means every value is already flipped to the candidate's own
-party's perspective (a Republican's own_lean is `1 − lean_dem_share`,
-same for tide) — the same symmetry the plain lean-only definition above
-already uses, so one fit covers both parties.
+"Own-party" means lean, tide, and the actual share are all already
+flipped to the candidate's own party's perspective (a Republican's
+own_lean is `1 − ` the district's structural lean, same for tide) — the
+same symmetry the plain lean-only definition above already uses, so one
+fit covers both parties' *shared* behavior. The `× Democratic` terms then
+let a Democrat's fitted relationship to lean/tide/incumbency differ from
+a Republican's on top of that shared baseline — see "Party interaction
+terms" below for why.
 
-**Statewide tide** is a new fundamental beyond district lean itself: the
+**Statewide tide** is a fundamental beyond district lean itself: the
 *unapportioned*, whole-state two-party Democratic share on that year's
 baseline race (Governor or President), as opposed to `lean_dem_share`,
 which is that same race apportioned down to one district. Splitting them
@@ -116,6 +136,39 @@ term already served (see "Incumbency and open seats" below) — rather
 than a plain incumbent/non-incumbent split, so the fit can show whether a
 second or third term brings a bigger or smaller edge than the first
 instead of assuming they're identical.
+
+### Party interaction terms
+
+Splitting a scatter of this model's own residuals (actual share minus
+expected share, before these interaction terms existed) by party revealed
+a real, found-live asymmetry: Democratic candidates' residuals averaged
+positive, Republican candidates' averaged negative, by close to equal and
+opposite amounts (see the residual histogram further down, which now
+shows the *corrected* picture). That's not a contradiction of the
+own-party symmetry above — a pooled fit with one shared `own_lean` slope,
+one shared `own_tide` slope, and one shared set of incumbency terms
+literally cannot tell a Democrat in a D+10 district from a Republican in
+an R+10 one. What it *can* miss is whether incumbent and non-incumbent
+candidates relate to lean/tide identically between the two parties. In
+Massachusetts specifically that looks shaky: the legislature's real,
+well-documented Democratic supermajority is larger than the state's own
+top-of-ticket vote share alone would predict, and this backfill's own
+composition reflects it — most Democratic candidates in it are
+incumbents, while most Republicans are non-incumbent challengers running
+in a chamber their party rarely controls. A shared coefficient set in
+that situation lands closer to whichever pattern is more common in the
+data, leaving same-direction residuals within each party even though the
+pooled average comes out to zero by construction.
+
+Rather than fit two fully separate regressions per party (which would
+throw away the fact that both parties share a lot of the same underlying
+relationship, and would double the number of poorly-identified
+coefficients), each core term gets one additional `× Democratic` delta
+term — a **partial-pooling design**: the delta's own prior is centered at
+0 with **half** the width of its corresponding shared term's prior, so
+the fit only pulls a term away from full pooling when the data actually
+supports a real asymmetry, rather than assuming symmetry or independence
+outright.
 
 ### Why Bayesian, not ordinary least squares
 
@@ -143,12 +196,12 @@ taken directly from the sampled draws), not just a point estimate.
 
 **Concretely, here's what that regularization does to one term.** Before
 seeing any data, the prior for a first-term incumbent's edge was a wide,
-weakly-informed guess (mean {{ site.data.war_v2.coefficients.incumbent_1.prior_mean | times: 100 | round: 0 }}
-points, standard deviation {{ site.data.war_v2.coefficients.incumbent_1.prior_sd | times: 100 | round: 0 }}
+weakly-informed guess (mean {{ site.data.war_model.coefficients.incumbent_1.prior_mean | times: 100 | round: 0 }}
+points, standard deviation {{ site.data.war_model.coefficients.incumbent_1.prior_sd | times: 100 | round: 0 }}
 points — that shape, below). After fitting on
-{{ site.data.war_v2.n_incumbent_1 }} real 1st-term-incumbent races, the
+{{ site.data.war_model.n_incumbent_1 }} real 1st-term-incumbent races, the
 posterior is both narrower and shifted to
-{{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }}
+{{ site.data.war_model.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }}
 points — the data had enough to say something much more specific than the
 prior alone did, which is exactly what "the data pins it down" should
 look like:
@@ -156,32 +209,43 @@ look like:
 <div id="prior-posterior-chart" role="img" aria-label="Density chart comparing the prior and posterior distributions for the first-term incumbency coefficient"></div>
 
 As of the last full pipeline run, on
-{{ site.data.war_v2.n }} contested major-party candidate-races
-(R² = {{ site.data.war_v2.r_squared }}), every coefficient's posterior
-mean and 95% credible interval:
+{{ site.data.war_model.n }} contested major-party candidate-races
+(R² = {{ site.data.war_model.r_squared }}), every core and party-interaction
+term's posterior mean and 95% credible interval:
 
-<div id="war-v2-forest-chart" role="img" aria-label="Forest plot of the core regression's coefficients with 95% credible intervals"></div>
+<div id="war-model-forest-chart" role="img" aria-label="Forest plot of the regression's core and party-interaction coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
-| Intercept | {{ site.data.war_v2.coefficients.intercept.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.intercept.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.intercept.ci_95_high | times: 100 | round: 1 }}] |
-| District lean | {{ site.data.war_v2.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_v2.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_v2.coefficients.own_lean.ci_95_high | round: 3 }}] |
-| Statewide tide | {{ site.data.war_v2.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v2.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_v2.coefficients.own_tide.ci_95_high | round: 3 }}] |
-| Incumbent, 1st term | +{{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_1.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_1.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 2nd term | +{{ site.data.war_v2.coefficients.incumbent_2.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_2.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_2.ci_95_high | times: 100 | round: 1 }}] |
-| Incumbent, 3rd+ term | +{{ site.data.war_v2.coefficients.incumbent_3plus.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_v2.coefficients.incumbent_3plus.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_v2.coefficients.incumbent_3plus.ci_95_high | times: 100 | round: 1 }}] |
+| Intercept | {{ site.data.war_model.coefficients.intercept.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.intercept.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.intercept.ci_95_high | times: 100 | round: 1 }}] |
+| Democratic | {{ site.data.war_model.coefficients.is_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.is_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.is_dem.ci_95_high | times: 100 | round: 1 }}] |
+| District lean | {{ site.data.war_model.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_lean.ci_95_high | round: 3 }}] |
+| District lean × Democratic | {{ site.data.war_model.coefficients.own_lean_x_dem.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_lean_x_dem.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_lean_x_dem.ci_95_high | round: 3 }}] |
+| Statewide tide | {{ site.data.war_model.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_tide.ci_95_high | round: 3 }}] |
+| Statewide tide × Democratic | {{ site.data.war_model.coefficients.own_tide_x_dem.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.own_tide_x_dem.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.own_tide_x_dem.ci_95_high | round: 3 }}] |
+| Incumbent, 1st term | +{{ site.data.war_model.coefficients.incumbent_1.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_1.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_1.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 1st term × Democratic | {{ site.data.war_model.coefficients.incumbent_1_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_1_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_1_x_dem.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 2nd term | +{{ site.data.war_model.coefficients.incumbent_2.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_2.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_2.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 2nd term × Democratic | {{ site.data.war_model.coefficients.incumbent_2_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_2_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_2_x_dem.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 3rd+ term | +{{ site.data.war_model.coefficients.incumbent_3plus.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_3plus.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_3plus.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent, 3rd+ term × Democratic | {{ site.data.war_model.coefficients.incumbent_3plus_x_dem.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.war_model.coefficients.incumbent_3plus_x_dem.ci_95_low | times: 100 | round: 1 }}, {{ site.data.war_model.coefficients.incumbent_3plus_x_dem.ci_95_high | times: 100 | round: 1 }}] |
 
 District lean's coefficient sitting well below 1.0 is a real finding, not
 a fitting artifact — checked directly against plain least squares on the
 same data, which lands in the same neighborhood. It means a district's
-own apportioned lean, once that year's statewide tide is already in the
+own structural lean, once that year's statewide tide is already in the
 model, only partially carries through to actual legislative vote share —
 plausibly some mix of the area-weighted apportionment noise documented
 above and real candidate-to-candidate variation legislative races carry
 that a top-of-ticket baseline can't see. The three incumbency terms
 landing close to each other says this site's data doesn't show a strong
 "sophomore surge" or a fading effect in later terms — an incumbent's edge
-looks fairly flat across term number so far.
+looks fairly flat across term number so far. The `× Democratic` rows are
+each centered near a much smaller magnitude than their shared term, with
+a 95% interval straddling zero for most of them — a partial-pooling fit
+correctly reporting that most of the party asymmetry this fit found lives
+in the intercept/`is_dem` pair, not in how strongly Democrats vs.
+Republicans respond to lean, tide, or incumbency specifically.
 
 **What that fit actually looks like against every one of those races**:
 each point is one contested major-party candidate-race, this model's
@@ -189,205 +253,171 @@ expected share (x) against what actually happened (y). A point sitting
 exactly on the dashed diagonal means the model called it perfectly; above
 the line is a real overperformance (positive WAR), below is an
 underperformance — the same information the site's own WAR numbers
-carry, just all {{ site.data.war_v2.n }} of them at once instead of one
+carry, just all {{ site.data.war_model.n }} of them at once instead of one
 race at a time.
 
-<div id="war-v2-fit-scatter" role="img" aria-label="Scatter plot of the core regression's expected two-party share against each candidate's actual share, colored by party"></div>
+<div id="war-fit-scatter" role="img" aria-label="Scatter plot of the regression's expected two-party share against each candidate's actual share, colored by party"></div>
 
-**Split by party, that scatter hides a real pattern the pooled fit doesn't
-correct for**: Democratic candidates' residuals (actual share minus
-expected) average <span id="dem-residual-note">…</span>; Republican
-candidates' average <span id="rep-residual-note">…</span> — close to
-equal and opposite, so the intercept still zeros out the residual
-*pooled* across every race (that's guaranteed by construction), but not
-the residual *within* each party:
+**Split by party, here's the residual picture the party-interaction terms
+above were added to correct**: Democratic candidates' residuals (actual
+share minus expected) average <span id="dem-residual-note">…</span>;
+Republican candidates' average <span id="rep-residual-note">…</span> —
+both should now sit much closer to zero than the roughly ±5-point gap a
+purely-pooled fit (no `× Democratic` terms at all) showed on this same
+data:
 
-<div id="war-v2-residual-histogram" role="img" aria-label="Histogram of the core regression's residuals (actual minus expected share), separately for Democratic and Republican candidates"></div>
+<div id="war-residual-histogram" role="img" aria-label="Histogram of the regression's residuals (actual minus expected share), separately for Democratic and Republican candidates"></div>
 
-This isn't a failure of the own-party symmetry above — `own_lean`,
-`own_tide`, and `actual_two_party_share` are each already computed from
-that specific candidate's own party's perspective, so the fit literally
-can't tell a Democrat in a D+10 district from a Republican in an R+10
-one. What it *does* assume is that one shared set of coefficients (one
-`own_lean` slope, one `own_tide` slope, one set of incumbency terms)
-describes both parties' relationship between district fundamentals and
-actual performance equally well. In Massachusetts specifically, that
-assumption looks shaky: the legislature's real, well-documented
-Democratic supermajority is larger than the state's own top-of-ticket
-vote share alone would predict, and this backfill's own composition
-reflects it — most Democratic candidates in it are incumbents, while
-most Republicans are non-incumbent challengers running in a chamber their
-party rarely controls. If incumbent and non-incumbent candidates don't
-relate to lean/tide identically between the two parties (a real
-possibility a single pooled model can't represent), a shared coefficient
-set will land closer to whichever pattern is more common in the data —
-and leave same-direction residuals within each party even though the
-overall average comes out to zero. A real, open limitation of pooling
-both parties into one regression rather than fitting party-specific
-slopes or a party interaction term — not yet addressed here.
+Whatever asymmetry remains here is what the shrinkage priors on the
+`× Democratic` terms deliberately left on the table rather than fully
+absorbing — half-width priors regularize toward the shared, pooled
+coefficients by design, so a real but modest party-specific pattern can
+still show up as a small residual gap even after fitting it, rather than
+being eliminated outright. That's the accepted tradeoff of partial
+pooling over two fully separate per-party regressions: less noise-driven
+overfitting to each party's own thinner sample, at the cost of not fully
+zeroing out a real asymmetry if one exists.
 
 Every district and seat page has a "What drives replacement level" chart
 breaking a race's most recent contested year into these pieces (intercept,
-lean, tide, incumbency, and the WAR residual) for each candidate, and a
+lean, tide, incumbency, demographics and/or fundraising where a race's own
+data supports them, and the WAR residual) for each candidate, and a
 candidate's own page charts their actual share against this model's
 expected share, and the same decomposition, across every year they ran —
 the gap between the two lines on the first chart *is* WAR, made visible.
 
 **A related, worth-naming property**: in `own_lean`/`own_tide`'s own
 terms, the two candidates in a race are exact mirrors
-(`own_lean` + the other candidate's `own_lean` = 1, always) — the
-"Lean" and "Statewide tide" bars for both candidates in the attribution
-chart are both genuinely positive because a district's baseline splits
-into two positive shares, not because the model favors both sides at
-once. The **intercept**, though, is a single fitted constant applied
-identically to both candidates' own expected share, not split between
-them — so unlike a plain lean-only baseline (where the two opposing
-candidates' expected shares always summed to exactly 100%, and their WAR
-values were exact opposites), **this model's two expected shares in a
-race don't sum to 100%**, and the two WAR values aren't required to
-cancel out. That's an accepted consequence of letting the regression fit
-its own intercept rather than assuming a lean-only "coefficient on lean =
-1, no intercept" structure — not an error in the numbers, but a real
-change in what the model guarantees.
+(`own_lean` + the other candidate's `own_lean` = 1, always, since a
+district's structural lean is still one number split between the two
+parties' perspectives) — the "Lean" and "Statewide tide" bars for both
+candidates in the attribution chart are both genuinely positive because a
+district's baseline splits into two positive shares, not because the
+model favors both sides at once. The **intercept** (plus its `is_dem`
+delta), though, is a single fitted pair of constants applied identically
+to every race of that party, not split between the two opposing
+candidates in one race — so unlike a plain lean-only baseline (where the
+two opposing candidates' expected shares always summed to exactly 100%,
+and their WAR values were exact opposites), **this model's two expected
+shares in a race don't sum to 100%**, and the two WAR values aren't
+required to cancel out. That's an accepted consequence of letting the
+regression fit its own intercept rather than assuming a lean-only
+"coefficient on lean = 1, no intercept" structure — not an error in the
+numbers, but a real change in what the model guarantees.
 
-## Demographics and campaign finance extensions
+### Demographics and campaign fundraising
 
-Two further regressions, built the same Bayesian way as the core model
-above, extend it with local demographics and campaign fundraising — the
-remaining fundamentals this project's design calls for (same spirit as
-Split Ticket's approach, this project's own fit, not theirs). **Each
-extension folds into a candidate's actual WAR number only where that
-specific district or candidate has the data to support it** — both fit
-on real but genuinely thin slices of this site's data, a coverage limit
-rather than an oversight; where the data falls short, the site falls
-back to the core model above and the Factors column says so.
+The same regression also carries district-level demographics and a
+candidate's own campaign fundraising as ordinary terms — not two
+separate diagnostic fits reported only on this page, the way an earlier
+version of this site's model worked. **Each term folds into a candidate's
+actual WAR number wherever that specific district or candidate has the
+data to support it**, and — new in this design — a single race can now
+carry both a demographics contribution and a fundraising contribution at
+once, which the old "resolve to exactly one extension" design could never
+represent.
 
-{% if site.data.war_v3_demographics.core or site.data.war_v3_demographics.full %}
-**Demographics** adds district-level Census fields (2020 PL 94-171 +
-2022 ACS 5-year, current 2022-present vintage only), fit in **two
-tiers that fall back gracefully rather than all-or-nothing** — a
-district missing some Census fields still gets a simpler version of
-this extension instead of being dropped entirely:
+That's possible because of how each term handles missing data: rather
+than an explicit indicator/dummy variable marking "this term doesn't
+apply here," each of these five covariates is centered on its own mean
+*among the rows that actually have it*, and a row missing it gets that
+same mean substituted — so its centered value is exactly 0 and it
+contributes nothing to that term's fitted share, while the row's
+lean/tide/incumbency values still fully inform the shared core terms
+above. Mathematically that's equivalent to "this term simply doesn't
+apply to this race," without needing a separate dummy column or a second
+model.
 
-{% if site.data.war_v3_demographics.core %}
-- **Core** ({{ site.data.war_v3_demographics.core.n }} candidate-races,
-  R² = {{ site.data.war_v3_demographics.core.r_squared }}): bachelor's-
-  degree-or-higher share of population alone — the "diploma divide"
-  variable most associated with recent-era partisan realignment. This is
-  the fallback every current-vintage district with *any* Census match
-  can use, including ones a PL 94-171 name-matching gap keeps out of the
-  full tier (Census's own district-name spelling doesn't always match
-  this project's boundary data cleanly, especially for Senate seats
-  spanning multiple counties — see `pipeline/README.md`).
-{% endif %}
-{% if site.data.war_v3_demographics.full %}
-- **Full** ({{ site.data.war_v3_demographics.full.n }} candidate-races,
-  R² = {{ site.data.war_v3_demographics.full.r_squared }}): adds
-  Hispanic-or-Latino population share, voting-age population share, and
-  median household income (per $10,000) — restricted to districts with a
-  real PL 94-171 match, since the two population-share terms need it
-  specifically (a district with only ACS data, like the core tier's
-  fallback districts, can't compute them).
-{% endif %}
+{% if site.data.war_model.coefficients.bachelors_pct %}
+**Demographics** adds district-level Census fields (2020 PL 94-171 + 2022
+ACS 5-year, current 2022-present vintage only) — bachelor's-degree-or-
+higher share of population (the "diploma divide" variable most associated
+with recent-era partisan realignment), Hispanic-or-Latino population
+share, voting-age population share, and median household income (per
+$10,000):
 
-Both tiers re-estimate lean, tide, and incumbency on their own
-(current-vintage-only) samples rather than borrowing the core model's
-coefficients:
-
-{% if site.data.war_v3_demographics.core %}
-<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the demographics extension's core tier's added coefficient with a 95% credible interval"></div>
-{% endif %}
-{% if site.data.war_v3_demographics.full %}
-<div id="war-v3-demographics-full-forest-chart" role="img" aria-label="Forest plot of the demographics extension's full tier's added coefficients with 95% credible intervals"></div>
+<div id="war-demographics-forest-chart" role="img" aria-label="Forest plot of the demographics terms' coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
-| Bachelor's degree % | {{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
-| Hispanic or Latino % | {{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.ci_95_high | round: 3 }}] |
-| Voting-age % | {{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.ci_95_high | round: 3 }}] |
-| Median household income (per $10k) | {{ site.data.war_v3_demographics.full.coefficients.income_10k.posterior_mean | round: 4 }} | [{{ site.data.war_v3_demographics.full.coefficients.income_10k.ci_95_low | round: 4 }}, {{ site.data.war_v3_demographics.full.coefficients.income_10k.ci_95_high | round: 4 }}] |
+| Bachelor's degree % | {{ site.data.war_model.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
+| Hispanic or Latino % | {{ site.data.war_model.coefficients.hispanic_pct.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.hispanic_pct.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.hispanic_pct.ci_95_high | round: 3 }}] |
+| Voting-age % | {{ site.data.war_model.coefficients.voting_age_pct.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.voting_age_pct.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.voting_age_pct.ci_95_high | round: 3 }}] |
+| Median household income (per $10k) | {{ site.data.war_model.coefficients.income_10k.posterior_mean | round: 4 }} | [{{ site.data.war_model.coefficients.income_10k.ci_95_low | round: 4 }}, {{ site.data.war_model.coefficients.income_10k.ci_95_high | round: 4 }}] |
 
-Every term the full tier fits, on the same standardized scale as the
-overview chart above:
+Fit on {{ site.data.war_model.n_demographics }} candidate-races with at
+least a bachelor's-degree match — a district missing the fuller PL
+94-171 match (Hispanic/voting-age population specifically) still
+contributes its bachelor's-degree term, via the same per-covariate
+mean-centering described above, rather than being dropped from this term
+entirely (see `demographics_tier` on district/seat pages' own data — a
+district shows `"full"`, `"core"`, or no Demographics section at all).
 
-<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all nine of the demographics extension's full tier's non-intercept coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+No interaction with tide (e.g. "does a district's education level swing
+more or less with the national mood than average") is fit here — an
+interaction is only as identified as the number of distinct election
+years behind it, and demographics only covers the current, 2022-present
+vintage's election years on record so far, nowhere near enough to trust
+one over just a couple of elections' worth of noise.
 {% endif %}
 
-Neither tier's Demographics slice is chosen per-race — it's chosen per
-**district**: a district with a full Census match uses the full tier's
-combined effect everywhere on that district's own pages; a district with
-only a partial match uses the core tier's bachelors-only effect instead;
-a district with no match at all falls back to the core model alone.
+{% if site.data.war_model.coefficients.log_raised %}
+**Campaign finance** adds a candidate's own OCPF total raised that cycle
+(log-transformed — fundraising totals are heavily right-skewed),
+restricted to candidates `campaign_finance_match` actually matched to an
+OCPF filer (see "Campaign finance" below):
 
-Neither tier fits an interaction with tide (e.g. "does a district's
-education level swing more or less with the national mood than average")
-— an interaction is only as identified as the number of distinct
-election years in the fit, and demographics only covers **{{ site.data.war_v3_demographics.full.n_distinct_years | default: site.data.war_v3_demographics.core.n_distinct_years }}
-election years on record** (the current, 2022-present vintage), nowhere
-near enough to trust one over just two elections' worth of noise.
-{% endif %}
-
-{% if site.data.war_v3_finance %}
-**Campaign finance** ({{ site.data.war_v3_finance.n }} candidate-races
-across {{ site.data.war_v3_finance.n_distinct_years }} election years,
-R² = {{ site.data.war_v3_finance.r_squared }}) adds a candidate's own OCPF
-total raised that cycle (log-transformed — fundraising totals are heavily
-right-skewed), restricted to candidates `campaign_finance_match` actually
-matched to an OCPF filer (see "Campaign finance" below). Unlike the
-demographics extension above, this fit re-estimates lean, tide, **and**
-incumbency too, alongside the new fundraising term — it doesn't drop any
-of the core model's terms, just adds one:
-
-<div id="war-v3-finance-forest-chart" role="img" aria-label="Forest plot of the campaign finance extension's fundraising coefficient with a 95% credible interval"></div>
+<div id="war-finance-forest-chart" role="img" aria-label="Forest plot of the campaign fundraising term's coefficient with a 95% credible interval"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
-| District lean | {{ site.data.war_v3_finance.coefficients.own_lean.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_lean.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_lean.ci_95_high | round: 3 }}] |
-| Statewide tide | {{ site.data.war_v3_finance.coefficients.own_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.own_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.own_tide.ci_95_high | round: 3 }}] |
-| Incumbent, 1st term | {{ site.data.war_v3_finance.coefficients.incumbent_1.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_1.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_1.ci_95_high | round: 3 }}] |
-| Incumbent, 2nd term | {{ site.data.war_v3_finance.coefficients.incumbent_2.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_2.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_2.ci_95_high | round: 3 }}] |
-| Incumbent, 3rd+ term | {{ site.data.war_v3_finance.coefficients.incumbent_3plus.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_high | round: 3 }}] |
-| log(total raised + 1) | {{ site.data.war_v3_finance.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_v3_finance.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_v3_finance.coefficients.log_raised.ci_95_high | round: 4 }}] |
+| log(total raised + 1) | {{ site.data.war_model.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_model.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_model.coefficients.log_raised.ci_95_high | round: 4 }}] |
 
-A positive, clearly-nonzero coefficient on logged fundraising (95%
-credible interval entirely above zero) says money and vote share move
-together in this data even after accounting for lean, tide, and
-incumbency, across two decades of races:
+Fit on {{ site.data.war_model.n_finance }} candidate-races with a matched
+OCPF total, across the full 2002-2024 backfill. A positive, clearly-
+nonzero coefficient (95% credible interval entirely above zero) says
+money and vote share move together in this data even after accounting
+for lean, tide, incumbency, and their party-interaction terms.
 
-<div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the campaign finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
-
-**On a candidate page's own per-race attribution chart, the Fundraising
-bar is centered on this fit's own mean log-dollar total, not on $0.**
-`log(total raised + 1)`'s coefficient above is genuinely small, but its
-predictor lives on a log-dollar scale (typically 7–14 across real
-candidates) rather than the 0–1 fraction lean, tide, and the demographics
-terms use — multiplying that small coefficient by a raw value in the
-7–14 range, rather than by how far it sits from a *typical* matched
-candidate's total, would make the bar disproportionately large purely
-from comparing against an impossible $0-raised baseline. Centering it
-avoids that: the bar reads as "how this candidate's fundraising compares
-to a typical matched candidate's," in real vote-share points, with the
-removed constant folded into the chart's Baseline bar instead — the
-total predicted share for the race is unchanged.
+**On a per-race attribution chart, the Fundraising bar is centered on
+this fit's own mean log-dollar total ({{ site.data.war_model.reference_values.log_raised | round: 2 }}),
+not on $0.** `log(total raised + 1)`'s coefficient above is genuinely
+small, but its predictor lives on a log-dollar scale (typically 7–14
+across real candidates) rather than the 0–1 fraction lean, tide, and the
+demographics terms use — multiplying that small coefficient by a raw
+value in the 7–14 range, rather than by how far it sits from a *typical*
+matched candidate's total, would make the bar disproportionately large
+purely from comparing against an impossible $0-raised baseline.
+Centering it avoids that: the bar reads as "how this candidate's
+fundraising compares to a typical matched candidate's," in real
+vote-share points, with the removed constant folded into the chart's
+Baseline bar instead — the total predicted share for the race is
+unchanged. The same centering-not-zero convention applies to the
+Demographics bar above.
 {% endif %}
 
-Neither extension is folded into every candidate's WAR the way the core
-model is — campaign finance only where `campaign_finance_match` found a
-confident OCPF match, demographics only for the current redistricting
-vintage — but both **are** threaded into their attribution charts
-wherever they apply: a candidate page's "What drives replacement level,
-by year" chart uses the finance extension for any year with a matched
-OCPF total (falling back to the core model otherwise), and a district or
-seat page's chart does the same with the demographics extension for
-districts with a current-vintage match. Each of those pages also has a
-companion forest-style chart, right below the stacked bar, showing the
-same components as a point plus an approximate 95% interval — the
+Every fitted effect on this page, including these two extension terms,
+appears together on one standardized scale in the forest plot near the
+top of this page.
+
+Wherever demographics and/or fundraising apply, they're threaded into
+their race's own attribution chart alongside the core components: a
+candidate page's "What drives replacement level, by year" chart shows a
+Fundraising and/or Demographics segment for any year that candidate's own
+data supports it, and a district or seat page's chart does the same for
+whichever candidates in that race have a match. Each of those pages also
+has a companion forest-style chart, right below the stacked bar, showing
+the same components as a point plus an approximate 95% interval — the
 stacked bar is good at showing what a share is made of, not at showing
 how confidently. Those intervals use the same delta-method shortcut as
 everywhere else on this page: each component's uncertainty approximated
-as `|covariate value| × that coefficient's own posterior SD`, treating
-coefficients as independent of each other rather than propagating their
-full joint posterior — a known simplification, not a full solution.
+from that component's own coefficient(s)' posterior SD (combining the
+shared and `× Democratic` terms as
+`sqrt(shared_sd² + (is_dem × delta_sd)²)` where a party-interaction term
+applies), scaled by the covariate's own value where applicable, and
+treating coefficients as independent of each other rather than
+propagating their full joint posterior — a known simplification, not a
+full solution.
 
 ## Turnout
 
@@ -534,9 +564,9 @@ including the exact code that computes everything on this page.
   // Field-by-field data, not a full-object jsonify — same reasoning as
   // every other inline chart on this site (see e.g. chamber.html's
   // seatData): avoids ever embedding a Jekyll Document's other rendered
-  // fields inside a script tag. site.data.war_v2/_fit_sample are plain
-  // Python-written YAML (numbers and short strings only, no Document
-  // risk), so jsonify-ing them directly here is safe.
+  // fields inside a script tag. site.data.war_model/war_fit_sample are
+  // plain Python-written YAML (numbers and short strings only, no
+  // Document risk), so jsonify-ing them directly here is safe.
   const methodologyStyle = getComputedStyle(document.documentElement);
   const methodologyCssVar = (name) => methodologyStyle.getPropertyValue(name).trim();
   const methodologyAxisConfig = {
@@ -550,16 +580,16 @@ including the exact code that computes everything on this page.
     view: { stroke: null }
   };
 
-  {% if site.data.war_v2 %}
+  {% if site.data.war_model %}
   // --- Prior vs. posterior: incumbent_1 term ---------------------------
   (function () {
     function normalPdf(x, mean, sd) {
       return Math.exp(-0.5 * Math.pow((x - mean) / sd, 2)) / (sd * Math.sqrt(2 * Math.PI));
     }
-    const priorMean = {{ site.data.war_v2.coefficients.incumbent_1.prior_mean | jsonify }};
-    const priorSd = {{ site.data.war_v2.coefficients.incumbent_1.prior_sd | jsonify }};
-    const postMean = {{ site.data.war_v2.coefficients.incumbent_1.posterior_mean | jsonify }};
-    const postSd = {{ site.data.war_v2.coefficients.incumbent_1.posterior_sd | jsonify }};
+    const priorMean = {{ site.data.war_model.coefficients.incumbent_1.prior_mean | jsonify }};
+    const priorSd = {{ site.data.war_model.coefficients.incumbent_1.prior_sd | jsonify }};
+    const postMean = {{ site.data.war_model.coefficients.incumbent_1.posterior_mean | jsonify }};
+    const postSd = {{ site.data.war_model.coefficients.incumbent_1.posterior_sd | jsonify }};
     const lo = Math.min(priorMean - 3.5 * priorSd, postMean - 3.5 * postSd);
     const hi = Math.max(priorMean + 3.5 * priorSd, postMean + 3.5 * postSd);
     const steps = 200;
@@ -591,9 +621,12 @@ including the exact code that computes everything on this page.
   })();
 
   // --- Reusable forest plot: posterior mean + 95% CI per coefficient -----
-  // Shared by the WAR v2 core plot and both WAR v3 extension plots below,
-  // so each only has to supply its own coefficients object, [label, key]
-  // term list, target element id, and accent color.
+  // Shared by every forest plot on this page — the core+interaction
+  // plot and the two extension-term plots below — so each only has to
+  // supply its own coefficients object, [label, key] term list, target
+  // element id, and accent color. All read from the one site.data.war_model
+  // fit now — there's no second or third model's coefficients object to
+  // pass in anymore.
   function renderForestChart(elementId, coefs, terms, color, height, standardized) {
     const meanKey = standardized ? "standardized_mean" : "posterior_mean";
     const loKey = standardized ? "standardized_ci_95_low" : "ci_95_low";
@@ -649,57 +682,72 @@ including the exact code that computes everything on this page.
   }
 
   renderForestChart(
-    "war-v2-forest-chart",
-    {{ site.data.war_v2.coefficients | jsonify }},
+    "war-model-forest-chart",
+    {{ site.data.war_model.coefficients | jsonify }},
     [
       ["Intercept", "intercept"],
+      ["Democratic", "is_dem"],
       ["District lean", "own_lean"],
+      ["District lean × Dem.", "own_lean_x_dem"],
       ["Statewide tide", "own_tide"],
+      ["Statewide tide × Dem.", "own_tide_x_dem"],
       ["Incumbent, 1st term", "incumbent_1"],
+      ["Incumbent, 1st term × Dem.", "incumbent_1_x_dem"],
       ["Incumbent, 2nd term", "incumbent_2"],
+      ["Incumbent, 2nd term × Dem.", "incumbent_2_x_dem"],
       ["Incumbent, 3rd+ term", "incumbent_3plus"],
+      ["Incumbent, 3rd+ term × Dem.", "incumbent_3plus_x_dem"],
     ],
-    methodologyCssVar("--war-incumbency")
+    methodologyCssVar("--war-incumbency"),
+    420
   );
 
   // --- Model overview: every fitted effect, one comparable scale ---------
+  // One model now, not three — "model" below labels each row by term
+  // *family* (core fundamentals, their Democratic-interaction deltas,
+  // demographics, campaign finance) purely for chart readability, not
+  // because these are separate fits.
   (function () {
-    const overviewCoreCoefs = {{ site.data.war_v2.coefficients | jsonify }};
+    const coefs = {{ site.data.war_model.coefficients | jsonify }};
     const rows = [
-      { term: "District lean", model: "Core", key: "own_lean" },
-      { term: "Statewide tide", model: "Core", key: "own_tide" },
-      { term: "Incumbency, 1st term", model: "Core", key: "incumbent_1" },
-      { term: "Incumbency, 2nd term", model: "Core", key: "incumbent_2" },
-      { term: "Incumbency, 3rd+ term", model: "Core", key: "incumbent_3plus" },
+      { term: "District lean", family: "Core", key: "own_lean" },
+      { term: "Statewide tide", family: "Core", key: "own_tide" },
+      { term: "Incumbency, 1st term", family: "Core", key: "incumbent_1" },
+      { term: "Incumbency, 2nd term", family: "Core", key: "incumbent_2" },
+      { term: "Incumbency, 3rd+ term", family: "Core", key: "incumbent_3plus" },
+      { term: "Democratic (intercept delta)", family: "Party interaction", key: "is_dem" },
+      { term: "District lean × Dem.", family: "Party interaction", key: "own_lean_x_dem" },
+      { term: "Statewide tide × Dem.", family: "Party interaction", key: "own_tide_x_dem" },
+      { term: "Incumbency, 1st term × Dem.", family: "Party interaction", key: "incumbent_1_x_dem" },
+      { term: "Incumbency, 2nd term × Dem.", family: "Party interaction", key: "incumbent_2_x_dem" },
+      { term: "Incumbency, 3rd+ term × Dem.", family: "Party interaction", key: "incumbent_3plus_x_dem" },
     ].map((r) => {
-      const c = overviewCoreCoefs[r.key];
-      return { term: r.term, model: r.model, mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high };
+      const c = coefs[r.key];
+      return { term: r.term, family: r.family, mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high };
     });
-    {% if site.data.war_v3_demographics.full %}
-    (function () {
-      const demoCoefs = {{ site.data.war_v3_demographics.full.coefficients | jsonify }};
-      [
-        ["Bachelor's degree %", "bachelors_pct"],
-        ["Hispanic or Latino %", "hispanic_pct"],
-        ["Voting-age %", "voting_age_pct"],
-        ["Median household income", "income_10k"],
-      ].forEach(([term, key]) => {
-        const c = demoCoefs[key];
-        rows.push({ term: term, model: "Demographics", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
-      });
-    })();
+    {% if site.data.war_model.coefficients.bachelors_pct %}
+    [
+      ["Bachelor's degree %", "bachelors_pct"],
+      ["Hispanic or Latino %", "hispanic_pct"],
+      ["Voting-age %", "voting_age_pct"],
+      ["Median household income", "income_10k"],
+    ].forEach(([term, key]) => {
+      const c = coefs[key];
+      rows.push({ term: term, family: "Demographics", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
+    });
     {% endif %}
-    {% if site.data.war_v3_finance %}
+    {% if site.data.war_model.coefficients.log_raised %}
     (function () {
-      const c = {{ site.data.war_v3_finance.coefficients | jsonify }}.log_raised;
-      rows.push({ term: "Campaign fundraising (logged)", model: "Campaign finance", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
+      const c = coefs.log_raised;
+      rows.push({ term: "Campaign fundraising (logged)", family: "Campaign finance", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
     })();
     {% endif %}
     const termOrder = rows.map((r) => r.term);
-    const modelColor = {
+    const familyColor = {
       "Core": methodologyCssVar("--war-incumbency"),
+      "Party interaction": methodologyCssVar("--war-tide"),
       "Demographics": methodologyCssVar("--war-extra"),
-      "Campaign finance": methodologyCssVar("--war-residual"),
+      "Campaign finance": methodologyCssVar("--war-fundraising"),
     };
     const spec = {
       "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -719,7 +767,7 @@ including the exact code that computes everything on this page.
             "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
             "x": { "field": "lo", "type": "quantitative" },
             "x2": { "field": "hi" },
-            "color": { "field": "model", "type": "nominal", "title": "Model", "scale": { "domain": Object.keys(modelColor), "range": Object.values(modelColor) } }
+            "color": { "field": "family", "type": "nominal", "title": "Term family", "scale": { "domain": Object.keys(familyColor), "range": Object.values(familyColor) } }
           }
         },
         {
@@ -728,10 +776,10 @@ including the exact code that computes everything on this page.
           "encoding": {
             "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
             "x": { "field": "mean", "type": "quantitative" },
-            "color": { "field": "model", "type": "nominal", "title": "Model", "scale": { "domain": Object.keys(modelColor), "range": Object.values(modelColor) } },
+            "color": { "field": "family", "type": "nominal", "title": "Term family", "scale": { "domain": Object.keys(familyColor), "range": Object.values(familyColor) } },
             "tooltip": [
               { "field": "term", "title": "Term" },
-              { "field": "model", "title": "Model" },
+              { "field": "family", "title": "Term family" },
               { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Standardized effect" },
               { "field": "lo", "type": "quantitative", "format": ".4f", "title": "95% CI low" },
               { "field": "hi", "type": "quantitative", "format": ".4f", "title": "95% CI high" }
@@ -743,79 +791,37 @@ including the exact code that computes everything on this page.
     };
     vegaEmbed("#war-overview-chart", spec, { actions: false }).catch(console.error);
   })();
-  {% endif %}
 
-  {% if site.data.war_v3_demographics.core %}
+  {% if site.data.war_model.coefficients.bachelors_pct %}
   renderForestChart(
-    "war-v3-demographics-forest-chart",
-    {{ site.data.war_v3_demographics.core.coefficients | jsonify }},
-    [["Bachelor's degree %", "bachelors_pct"]],
-    methodologyCssVar("--war-tide"),
-    90
-  );
-  {% endif %}
-  {% if site.data.war_v3_demographics.full %}
-  renderForestChart(
-    "war-v3-demographics-full-forest-chart",
-    {{ site.data.war_v3_demographics.full.coefficients | jsonify }},
+    "war-demographics-forest-chart",
+    {{ site.data.war_model.coefficients | jsonify }},
     [
       ["Bachelor's degree %", "bachelors_pct"],
       ["Hispanic or Latino %", "hispanic_pct"],
       ["Voting-age %", "voting_age_pct"],
       ["Median household income (per $10k)", "income_10k"],
     ],
-    methodologyCssVar("--war-tide"),
+    methodologyCssVar("--war-extra"),
     180
   );
-  renderForestChart(
-    "war-v3-demographics-standardized-chart",
-    {{ site.data.war_v3_demographics.full.coefficients | jsonify }},
-    [
-      ["District lean", "own_lean"],
-      ["Statewide tide", "own_tide"],
-      ["Incumbent, 1st term", "incumbent_1"],
-      ["Incumbent, 2nd term", "incumbent_2"],
-      ["Incumbent, 3rd+ term", "incumbent_3plus"],
-      ["Bachelor's degree %", "bachelors_pct"],
-      ["Hispanic or Latino %", "hispanic_pct"],
-      ["Voting-age %", "voting_age_pct"],
-      ["Median household income (per $10k)", "income_10k"],
-    ],
-    methodologyCssVar("--war-extra"),
-    310,
-    true
-  );
   {% endif %}
 
-  {% if site.data.war_v3_finance %}
+  {% if site.data.war_model.coefficients.log_raised %}
   renderForestChart(
-    "war-v3-finance-forest-chart",
-    {{ site.data.war_v3_finance.coefficients | jsonify }},
+    "war-finance-forest-chart",
+    {{ site.data.war_model.coefficients | jsonify }},
     [["log(total raised + 1)", "log_raised"]],
-    methodologyCssVar("--war-residual"),
+    methodologyCssVar("--war-fundraising"),
     90
   );
-  renderForestChart(
-    "war-v3-finance-standardized-chart",
-    {{ site.data.war_v3_finance.coefficients | jsonify }},
-    [
-      ["District lean", "own_lean"],
-      ["Statewide tide", "own_tide"],
-      ["Incumbent, 1st term", "incumbent_1"],
-      ["Incumbent, 2nd term", "incumbent_2"],
-      ["Incumbent, 3rd+ term", "incumbent_3plus"],
-      ["log(total raised + 1)", "log_raised"],
-    ],
-    methodologyCssVar("--war-extra"),
-    220,
-    true
-  );
+  {% endif %}
   {% endif %}
 
-  {% if site.data.war_v2_fit_sample %}
+  {% if site.data.war_fit_sample %}
   // --- Actual vs. expected share scatter ----------------------------------
   (function () {
-    const fitSample = {{ site.data.war_v2_fit_sample | jsonify }};
+    const fitSample = {{ site.data.war_fit_sample | jsonify }};
     const colorDem = methodologyCssVar("--series-dem");
     const colorRep = methodologyCssVar("--series-rep");
     const spec = {
@@ -837,7 +843,7 @@ including the exact code that computes everything on this page.
           "data": { "values": fitSample },
           "mark": { "type": "circle", "opacity": 0.35, "size": 30 },
           "encoding": {
-            "x": { "field": "expected", "type": "quantitative", "title": "Expected share (core model)", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
+            "x": { "field": "expected", "type": "quantitative", "title": "Expected share (this model)", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
             "y": { "field": "actual", "type": "quantitative", "title": "Actual share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
             "color": {
               "field": "party", "type": "nominal", "title": "Party",
@@ -847,7 +853,7 @@ including the exact code that computes everything on this page.
               { "field": "year", "title": "Year" },
               { "field": "party", "title": "Party" },
               { "field": "actual", "type": "quantitative", "format": ".1%", "title": "Actual" },
-              { "field": "expected", "type": "quantitative", "format": ".1%", "title": "Expected (v2)" }
+              { "field": "expected", "type": "quantitative", "format": ".1%", "title": "Expected" }
             ]
           }
         }
@@ -855,12 +861,12 @@ including the exact code that computes everything on this page.
       "resolve": { "scale": { "x": "shared", "y": "shared" } },
       "config": methodologyAxisConfig
     };
-    vegaEmbed("#war-v2-fit-scatter", spec, { actions: false }).catch(console.error);
+    vegaEmbed("#war-fit-scatter", spec, { actions: false }).catch(console.error);
   })();
 
   // --- Residual histogram, Democratic vs. Republican ----------------------
   (function () {
-    const residuals = {{ site.data.war_v2_fit_sample | jsonify }}.map((r) => ({
+    const residuals = {{ site.data.war_fit_sample | jsonify }}.map((r) => ({
       party: r.party,
       residual: r.actual - r.expected,
     }));
@@ -928,7 +934,7 @@ including the exact code that computes everything on this page.
       ],
       "config": methodologyAxisConfig
     };
-    vegaEmbed("#war-v2-residual-histogram", spec, { actions: false }).catch(console.error);
+    vegaEmbed("#war-residual-histogram", spec, { actions: false }).catch(console.error);
   })();
   {% endif %}
 </script>

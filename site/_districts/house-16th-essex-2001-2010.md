@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.7431
+lean_dem_share_structural: 0.7199
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.1046
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7431
-    own_tide: 0.5355
-    war_v2: 0.2612
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6074
+    lean_component_sd: 0.0409
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3921
-    lean_component_sd: 0.0229
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.7431
-    expected_two_party_share_v2: 0.5865
-    war_resolved: 0.2612
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5865
-    war_model: core
-    war_factors: &id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0066
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.7006
+    war_resolved: 0.1471
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Enrique Matos
     slug: enrique-matos
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: -0.1046
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2569
-    own_tide: 0.4645
-    war_v2: -0.1778
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2046
+    lean_component_sd: 0.0095
+    tide_component: 0.004
+    tide_component_sd: 0.015
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1356
-    lean_component_sd: 0.0079
-    tide_component: -0.0011
-    tide_component_sd: 0.0166
-    expected_two_party_share: 0.2569
-    expected_two_party_share_v2: 0.3301
-    war_resolved: -0.1778
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3301
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0392
+    fundraising_component_sd: 0.003
+    demographics_tier: null
+    expected_share_resolved: 0.2271
+    war_resolved: -0.0748
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Rafael Gadea
     slug: rafael-gadea
     party: Other
@@ -91,24 +93,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: true
 - year: 2008
@@ -128,25 +128,26 @@ results_by_year:
     war: 0.1884
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.8116
-    own_tide: 0.632
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4283
-    lean_component_sd: 0.025
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.8116
-    expected_two_party_share_v2: 0.766
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6074
+    lean_component_sd: 0.0409
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7685
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.766
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7331
@@ -165,25 +166,26 @@ results_by_year:
     war: 0.2669
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.7331
-    own_tide: 0.6116
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3869
-    lean_component_sd: 0.0226
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.7331
-    expected_two_party_share_v2: 0.7272
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6074
+    lean_component_sd: 0.0409
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7969
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7272
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Marcos A. Devers
     slug: marcos-a-devers
     party: Other
@@ -193,24 +195,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2004
@@ -230,24 +230,22 @@ results_by_year:
     war: null
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Jose L. Santiago
     slug: jose-l-santiago
@@ -258,25 +256,26 @@ results_by_year:
     war: 0.2936
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7064
-    own_tide: 0.6274
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6074
+    lean_component_sd: 0.0409
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3728
-    lean_component_sd: 0.0218
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.7064
-    expected_two_party_share_v2: 0.5669
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7074
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5669
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.6051
@@ -295,24 +294,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Jose L. Santiago
     slug: jose-l-santiago
@@ -323,25 +320,26 @@ results_by_year:
     war: 0.3949
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6051
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.6074
+    lean_component_sd: 0.0409
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3193
-    lean_component_sd: 0.0186
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.6051
-    expected_two_party_share_v2: 0.5138
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.707
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5138
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: null
 title: 16th Essex (2001-2010)
 layout: district

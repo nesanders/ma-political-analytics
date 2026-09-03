@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5474
+lean_dem_share_structural: 0.555
 competitiveness: Lean
 competitiveness_label: Lean D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.0277
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5474
-    own_tide: 0.6296
-    war_v2: -0.0645
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2889
-    lean_component_sd: 0.0169
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5473
-    expected_two_party_share_v2: 0.6395
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4683
+    lean_component_sd: 0.0315
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: -0.004
+    demographics_component_sd: 0.0153
+    fundraising_component: 0.0019
+    fundraising_component_sd: 0.0001
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5309
-    lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1187
-    expected_two_party_share_v3_demographics: 0.588
-    war_v3_demographics: -0.013
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.013
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.588
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.6408
+    war_resolved: -0.0658
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Salvatore Perla
     slug: salvatore-perla
     party: Republican
@@ -76,39 +62,29 @@ results_by_year:
     war: -0.0277
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4526
-    own_tide: 0.3704
-    war_v2: -0.0086
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3251
+    lean_component_sd: 0.0151
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2388
-    lean_component_sd: 0.0139
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4527
-    expected_two_party_share_v2: 0.4336
+    demographics_component: -0.004
+    demographics_component_sd: 0.0153
+    fundraising_component: -0.0376
+    fundraising_component_sd: 0.0029
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.439
-    lean_component_v3_demographics_sd: 0.0286
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1187
-    expected_two_party_share_v3_demographics: 0.4626
-    war_v3_demographics: -0.0376
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0376
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4626
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3444
+    war_resolved: 0.0806
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5625
@@ -127,39 +103,29 @@ results_by_year:
     war: 0.4375
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5625
-    own_tide: 0.6484
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4683
+    lean_component_sd: 0.0315
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2968
-    lean_component_sd: 0.0173
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5625
-    expected_two_party_share_v2: 0.4909
+    demographics_component: -0.004
+    demographics_component_sd: 0.0153
+    fundraising_component: 0.0075
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5456
-    lean_component_v3_demographics_sd: 0.0356
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1543
-    demographics_component_sd: 0.1187
-    expected_two_party_share_v3_demographics: 0.5425
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.5718
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5425
-    war_model: demographics_full
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: John M. Dombrowski
     slug: john-m-dombrowski
     party: Other
@@ -169,38 +135,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: null
 demographics:

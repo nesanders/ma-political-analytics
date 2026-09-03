@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.6044
+lean_dem_share_structural: 0.6062
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: -0.039
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6044
-    own_tide: 0.6296
-    war_v2: -0.1042
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3189
-    lean_component_sd: 0.0186
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.6044
-    expected_two_party_share_v2: 0.6696
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5115
+    lean_component_sd: 0.0344
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: -0.0015
+    demographics_component_sd: 0.0158
+    fundraising_component: 0.0098
+    fundraising_component_sd: 0.0008
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5862
-    lean_component_v3_demographics_sd: 0.0383
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1674
-    demographics_component_sd: 0.1295
-    expected_two_party_share_v3_demographics: 0.6302
-    war_v3_demographics: -0.0648
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0648
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.6302
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.6944
+    war_resolved: -0.129
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Gerald Joseph O'Connell
     slug: gerald-joseph-oconnell
     party: Republican
@@ -76,39 +62,28 @@ results_by_year:
     war: 0.039
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3956
-    own_tide: 0.3704
-    war_v2: 0.0311
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2877
+    lean_component_sd: 0.0134
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2088
-    lean_component_sd: 0.0122
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.3956
-    expected_two_party_share_v2: 0.4035
+    demographics_component: -0.0015
+    demographics_component_sd: 0.0158
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3837
-    lean_component_v3_demographics_sd: 0.025
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1674
-    demographics_component_sd: 0.1295
-    expected_two_party_share_v3_demographics: 0.3942
-    war_v3_demographics: 0.0404
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0404
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.3942
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3471
+    war_resolved: 0.0875
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6081
@@ -127,39 +102,29 @@ results_by_year:
     war: -0.0629
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6081
-    own_tide: 0.6484
-    war_v2: 0.0302
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5115
+    lean_component_sd: 0.0344
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3209
-    lean_component_sd: 0.0187
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.6081
-    expected_two_party_share_v2: 0.515
+    demographics_component: -0.0015
+    demographics_component_sd: 0.0158
+    fundraising_component: 0.0239
+    fundraising_component_sd: 0.0018
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5898
-    lean_component_v3_demographics_sd: 0.0385
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1674
-    demographics_component_sd: 0.1295
-    expected_two_party_share_v3_demographics: 0.5736
-    war_v3_demographics: -0.0284
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0284
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5736
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.634
+    war_resolved: -0.0888
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Tracy A. Post
     slug: tracy-a-post
     party: Republican
@@ -169,39 +134,29 @@ results_by_year:
     war: 0.0629
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3919
-    own_tide: 0.3516
-    war_v2: 0.0532
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2877
+    lean_component_sd: 0.0134
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2068
-    lean_component_sd: 0.0121
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.3919
-    expected_two_party_share_v2: 0.4016
+    demographics_component: -0.0015
+    demographics_component_sd: 0.0158
+    fundraising_component: 0.0236
+    fundraising_component_sd: 0.0018
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3801
-    lean_component_v3_demographics_sd: 0.0248
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1674
-    demographics_component_sd: 0.1295
-    expected_two_party_share_v3_demographics: 0.3925
-    war_v3_demographics: 0.0623
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0623
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.3925
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3706
+    war_resolved: 0.0842
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Abraham Kasparian, Jr.
     slug: abraham-kasparian-jr
     party: Other
@@ -211,38 +166,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: null
 demographics:

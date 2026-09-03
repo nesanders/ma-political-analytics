@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.7306
+lean_dem_share_structural: 0.6677
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,24 +33,22 @@ results_by_year:
     war: 0.2694
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7306
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5633
+    lean_component_sd: 0.0379
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3855
-    lean_component_sd: 0.0225
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.7306
-    expected_two_party_share_v2: 0.5796
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.6635
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5796
-    war_model: core
     war_factors:
     - District lean
     - Statewide tide

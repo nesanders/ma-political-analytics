@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5453
+lean_dem_share_structural: 0.5546
 competitiveness: Lean
 competitiveness_label: Lean D
 party_favored: Democratic
@@ -29,43 +30,28 @@ results_by_year:
     war: 0.4547
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5453
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2878
-    lean_component_sd: 0.0168
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5453
-    expected_two_party_share_v2: 0.6384
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4679
+    lean_component_sd: 0.0315
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0083
+    fundraising_component: 0.0308
+    fundraising_component_sd: 0.0024
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.532
-    lean_component_v3_demographics_sd: 0.0322
-    tide_component_v3_demographics: -0.0645
-    tide_component_v3_demographics_sd: 0.0305
-    incumbency_adjustment_v3_demographics: 0.0579
-    incumbency_adjustment_v3_demographics_sd: 0.0138
-    demographics_component: -0.0062
-    demographics_component_sd: 0.0159
-    expected_two_party_share_v3_demographics: 0.5835
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6793
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5835
-    war_model: demographics_core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.564
@@ -84,39 +70,28 @@ results_by_year:
     war: 0.0929
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.564
-    own_tide: 0.6484
-    war_v2: 0.1653
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4679
+    lean_component_sd: 0.0315
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2976
-    lean_component_sd: 0.0174
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5641
-    expected_two_party_share_v2: 0.4917
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0083
+    fundraising_component: 0.0403
+    fundraising_component_sd: 0.0031
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.5503
-    lean_component_v3_demographics_sd: 0.0333
-    tide_component_v3_demographics: -0.0664
-    tide_component_v3_demographics_sd: 0.0314
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0062
-    demographics_component_sd: 0.0159
-    expected_two_party_share_v3_demographics: 0.5419
-    war_v3_demographics: 0.1151
-    war_v3_demographics_sd: 0.0645
-    war_resolved: 0.1151
-    war_resolved_sd: 0.0645
-    expected_share_resolved: 0.5419
-    war_model: demographics_core
-    war_factors: *id001
+    expected_share_resolved: 0.6142
+    war_resolved: 0.0428
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
+    - Campaign fundraising
   - name: Cecilia P. Calabrese
     slug: cecilia-p-calabrese
     party: Republican
@@ -126,39 +101,27 @@ results_by_year:
     war: -0.0929
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.436
-    own_tide: 0.3516
-    war_v2: -0.0819
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3254
+    lean_component_sd: 0.0151
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2301
-    lean_component_sd: 0.0134
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4359
-    expected_two_party_share_v2: 0.4249
+    demographics_component: 0.0059
+    demographics_component_sd: 0.0083
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.4254
-    lean_component_v3_demographics_sd: 0.0258
-    tide_component_v3_demographics: -0.036
-    tide_component_v3_demographics_sd: 0.017
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0062
-    demographics_component_sd: 0.0159
-    expected_two_party_share_v3_demographics: 0.4474
-    war_v3_demographics: -0.1044
-    war_v3_demographics_sd: 0.0645
-    war_resolved: -0.1044
-    war_resolved_sd: 0.0645
-    expected_share_resolved: 0.4474
-    war_model: demographics_core
-    war_factors: *id001
+    expected_share_resolved: 0.392
+    war_resolved: -0.049
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
   is_open_seat: null
 demographics:
   median_household_income: 69361

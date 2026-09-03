@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.4199
+lean_dem_share_structural: 0.4824
 competitiveness: Likely
 competitiveness_label: Likely R
 party_favored: Republican
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0761
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5801
-    own_tide: 0.4645
-    war_v2: 0.0034
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3781
+    lean_component_sd: 0.0176
+    tide_component: 0.004
+    tide_component_sd: 0.015
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3061
-    lean_component_sd: 0.0179
-    tide_component: -0.0011
-    tide_component_sd: 0.0166
-    expected_two_party_share: 0.5802
-    expected_two_party_share_v2: 0.5007
-    war_resolved: 0.0034
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5007
-    war_model: core
-    war_factors: &id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0101
+    fundraising_component_sd: 0.0008
+    demographics_tier: null
+    expected_share_resolved: 0.4297
+    war_resolved: 0.0744
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Rosemary Sandlin
     slug: rosemary-sandlin
     party: Democratic
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0761
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.4199
-    own_tide: 0.5355
-    war_v2: -0.0661
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2216
-    lean_component_sd: 0.0129
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.4198
-    expected_two_party_share_v2: 0.562
-    war_resolved: -0.0661
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.562
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.407
+    lean_component_sd: 0.0274
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0164
+    fundraising_component_sd: 0.0012
+    demographics_tier: null
+    expected_share_resolved: 0.6126
+    war_resolved: -0.1167
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Anthony C. Bonavita
     slug: anthony-c-bonavita
     party: Other
@@ -91,24 +93,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2008
@@ -128,25 +128,27 @@ results_by_year:
     war: 0.4769
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5231
-    own_tide: 0.632
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.276
-    lean_component_sd: 0.0161
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.5231
-    expected_two_party_share_v2: 0.6267
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.407
+    lean_component_sd: 0.0274
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0129
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5945
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6267
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Nicholas A. Boldyga
     slug: nicholas-a-boldyga
     party: Other
@@ -156,24 +158,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2006
@@ -193,25 +193,27 @@ results_by_year:
     war: 0.026
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5293
-    own_tide: 0.6116
-    war_v2: 0.0818
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.407
+    lean_component_sd: 0.0274
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2793
-    lean_component_sd: 0.0163
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.5293
-    expected_two_party_share_v2: 0.4735
-    war_resolved: 0.0818
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4735
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.013
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.52
+    war_resolved: 0.0353
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Robert A. Magovern
     slug: robert-a-magovern
     party: Republican
@@ -221,25 +223,26 @@ results_by_year:
     war: -0.026
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4707
-    own_tide: 0.3884
-    war_v2: 0.0016
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3781
+    lean_component_sd: 0.0176
+    tide_component: 0.0034
+    tide_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2484
-    lean_component_sd: 0.0145
-    tide_component: -0.0009
-    tide_component_sd: 0.0139
-    expected_two_party_share: 0.4707
-    expected_two_party_share_v2: 0.4431
-    war_resolved: 0.0016
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4431
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4392
+    war_resolved: 0.0055
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Joseph F. Schebel
     slug: joseph-f-schebel
     party: Other
@@ -249,24 +252,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Owen Broadhurst
     slug: owen-broadhurst
@@ -277,24 +278,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: true
 - year: 2004
@@ -314,25 +313,27 @@ results_by_year:
     war: 0.1818
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5367
-    own_tide: 0.6274
-    war_v2: 0.0846
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2832
-    lean_component_sd: 0.0165
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5367
-    expected_two_party_share_v2: 0.6339
-    war_resolved: 0.0846
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6339
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.407
+    lean_component_sd: 0.0274
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0132
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5684
+    war_resolved: 0.1501
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Uwe H. Porth
     slug: uwe-h-porth
     party: Republican
@@ -342,25 +343,27 @@ results_by_year:
     war: -0.1818
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4633
-    own_tide: 0.3726
-    war_v2: -0.1577
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3781
+    lean_component_sd: 0.0176
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2445
-    lean_component_sd: 0.0143
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4633
-    expected_two_party_share_v2: 0.4392
-    war_resolved: -0.1577
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4392
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0481
+    fundraising_component_sd: 0.0037
+    demographics_tier: null
+    expected_share_resolved: 0.391
+    war_resolved: -0.1095
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4029
@@ -379,25 +382,27 @@ results_by_year:
     war: 0.5971
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4029
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.407
+    lean_component_sd: 0.0274
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2126
-    lean_component_sd: 0.0124
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.4029
-    expected_two_party_share_v2: 0.4071
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.014
+    fundraising_component_sd: 0.0011
+    demographics_tier: null
+    expected_share_resolved: 0.4926
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4071
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 3rd Hampden (2001-2010)
 layout: district

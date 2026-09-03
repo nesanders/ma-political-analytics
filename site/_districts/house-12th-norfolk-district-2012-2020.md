@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6419
+lean_dem_share_structural: 0.4879
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.3581
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.6419
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3387
-    lean_component_sd: 0.0198
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6419
-    expected_two_party_share_v2: 0.6764
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4116
+    lean_component_sd: 0.0277
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0084
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.5813
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6764
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2654
@@ -72,25 +72,27 @@ results_by_year:
     war: 0.7346
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.2654
-    own_tide: 0.3321
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1401
-    lean_component_sd: 0.0082
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2654
-    expected_two_party_share_v2: 0.4785
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4116
+    lean_component_sd: 0.0277
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0046
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5673
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4785
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5933
@@ -109,25 +111,27 @@ results_by_year:
     war: 0.0667
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.5933
-    own_tide: 0.6465
-    war_v2: 0.0067
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3131
-    lean_component_sd: 0.0183
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.5933
-    expected_two_party_share_v2: 0.6533
-    war_resolved: 0.0067
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6533
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4116
+    lean_component_sd: 0.0277
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.002
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.6033
+    war_resolved: 0.0567
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -137,25 +141,26 @@ results_by_year:
     war: -0.0667
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4067
-    own_tide: 0.3535
-    war_v2: -0.0694
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3741
+    lean_component_sd: 0.0174
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2146
-    lean_component_sd: 0.0125
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.4067
-    expected_two_party_share_v2: 0.4094
-    war_resolved: -0.0694
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4094
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4349
+    war_resolved: -0.0949
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4063
@@ -174,25 +179,27 @@ results_by_year:
     war: 0.1749
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4063
-    own_tide: 0.4902
-    war_v2: 0.0158
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2144
-    lean_component_sd: 0.0125
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4063
-    expected_two_party_share_v2: 0.5654
-    war_resolved: 0.0158
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5654
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4116
+    lean_component_sd: 0.0277
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0028
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.5886
+    war_resolved: -0.0074
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Tim Hempton
     slug: tim-hempton
     party: Republican
@@ -202,25 +209,26 @@ results_by_year:
     war: -0.1749
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5937
-    own_tide: 0.5098
-    war_v2: -0.0889
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3741
+    lean_component_sd: 0.0174
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3133
-    lean_component_sd: 0.0183
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5937
-    expected_two_party_share_v2: 0.5077
-    war_resolved: -0.0889
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5077
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4362
+    war_resolved: -0.0174
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5326
@@ -239,25 +247,27 @@ results_by_year:
     war: 0.0747
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5326
-    own_tide: 0.6179
-    war_v2: 0.132
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4116
+    lean_component_sd: 0.0277
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2811
-    lean_component_sd: 0.0164
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.5325
-    expected_two_party_share_v2: 0.4752
-    war_resolved: 0.132
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4752
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.01
+    fundraising_component_sd: 0.0008
+    demographics_tier: null
+    expected_share_resolved: 0.5216
+    war_resolved: 0.0856
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: James M. Stanton
     slug: james-m-stanton
     party: Republican
@@ -267,25 +277,27 @@ results_by_year:
     war: -0.0747
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4674
-    own_tide: 0.3821
-    war_v2: -0.0486
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3741
+    lean_component_sd: 0.0174
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2466
-    lean_component_sd: 0.0144
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.4675
-    expected_two_party_share_v2: 0.4414
-    war_resolved: -0.0486
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4414
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0118
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.447
+    war_resolved: -0.0542
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 12th Norfolk District (2012-2020)
 layout: district

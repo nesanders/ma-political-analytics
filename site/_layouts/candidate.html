@@ -31,13 +31,15 @@ layout: default
       Same regression as above, broken into its own terms for every year
       {{ page.name }} ran: a baseline, district lean, statewide tide, and
       incumbency, stacked up to WAR's expected share &mdash; plus whatever's
-      left over, WAR itself. For a year with a matched OCPF
-      campaign-finance total, the bar also gets an added Fundraising slice
-      &mdash; not the raw logged dollar amount (which has no natural
+      left over, WAR itself. For a year with a district demographics match
+      and/or a matched OCPF campaign-finance total, the bar also gets an
+      added Demographics and/or Fundraising slice (both can appear at
+      once) &mdash; not the raw predictor value (which has no natural
       zero-effect baseline the way lean and tide's 0&ndash;1 shares do,
       and would make the bar disproportionately large purely from its
-      units), but how {{ page.name }}'s fundraising that year compared to a
-      typical matched candidate's, in real vote-share points. See the
+      units), but how that year's district or {{ page.name }}'s own
+      fundraising compared to a typical matched race's, in real
+      vote-share points. See the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the underlying coefficients. An uncontested year's bar stops at
       the model's expected share instead of the actual result &mdash;
@@ -80,7 +82,7 @@ layout: default
           <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if r.war_resolved %}{{ r.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
           <td>{% if r.expected_share_resolved %}{{ r.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if r.war_factors %}{% if r.war_factors.size > 3 %}Lean, tide, incumbency, fundraising{% else %}Lean, tide, incumbency{% endif %}{% endif %}</small></td>
+          <td><small>{% if r.war_factors %}{{ r.war_factors | join: ", " }}{% endif %}</small></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -238,10 +240,11 @@ layout: default
   };
   vegaEmbed("#war-chart", warSpec, { actions: false }).catch(console.error);
 
-  // Field-by-field, both v2's own components and (when this candidate has
-  // an OCPF-matched total for that year) v3-finance's distinctly-suffixed
-  // ones — see apply_war_v3_finance's own docstring for why they're
-  // separate fields rather than overwriting v2's.
+  // Field-by-field, not `r | jsonify` on the race object directly — one
+  // unified model now (see apply_war's own docstring), so every race here
+  // carries the same field set; a race simply has null
+  // demographics_component/fundraising_component where its own data
+  // doesn't support that term, rather than a whole separate field set.
   const attributionRaces = [
     {% for r in chart_races %}
     {% if r.intercept_component %}
@@ -254,50 +257,40 @@ layout: default
       "lean_component": {{ r.lean_component | jsonify }}, "lean_component_sd": {{ r.lean_component_sd | jsonify }},
       "tide_component": {{ r.tide_component | jsonify }}, "tide_component_sd": {{ r.tide_component_sd | jsonify }},
       "incumbency_adjustment": {{ r.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ r.incumbency_adjustment_sd | jsonify }},
-      "war_v2": {{ r.war_v2 | jsonify }}, "war_v2_sd": {{ r.war_v2_sd | jsonify }},
-      "intercept_component_v3_finance": {{ r.intercept_component_v3_finance | jsonify }}, "intercept_component_v3_finance_sd": {{ r.intercept_component_v3_finance_sd | jsonify }},
-      "lean_component_v3_finance": {{ r.lean_component_v3_finance | jsonify }}, "lean_component_v3_finance_sd": {{ r.lean_component_v3_finance_sd | jsonify }},
-      "tide_component_v3_finance": {{ r.tide_component_v3_finance | jsonify }}, "tide_component_v3_finance_sd": {{ r.tide_component_v3_finance_sd | jsonify }},
-      "incumbency_adjustment_v3_finance": {{ r.incumbency_adjustment_v3_finance | jsonify }}, "incumbency_adjustment_v3_finance_sd": {{ r.incumbency_adjustment_v3_finance_sd | jsonify }},
+      "demographics_component": {{ r.demographics_component | jsonify }}, "demographics_component_sd": {{ r.demographics_component_sd | jsonify }},
       "fundraising_component": {{ r.fundraising_component | jsonify }}, "fundraising_component_sd": {{ r.fundraising_component_sd | jsonify }},
-      "war_v3_finance": {{ r.war_v3_finance | jsonify }}, "war_v3_finance_sd": {{ r.war_v3_finance_sd | jsonify }}
+      "war_resolved": {{ r.war_resolved | jsonify }}, "war_resolved_sd": {{ r.war_resolved_sd | jsonify }}
     },
     {% endif %}
     {% endfor %}
   ];
-  // Canonical component order/colors, shared by both decompositions — a
-  // year without a finance match simply has no "Fundraising" entry in its
-  // field map, so that segment is skipped rather than plotted as zero.
+  // Canonical component order/colors. Demographics and Fundraising are
+  // each independently present or absent per race — both, either, or
+  // neither can apply to the same race at once now that this site fits
+  // one model instead of three, so both always have their own slot here
+  // and are simply skipped below wherever a given race's value is null.
   const CANONICAL_COMPONENTS = [
     ["Baseline", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
     ["Incumbency", "--war-incumbency"],
-    ["Fundraising", "--war-extra"],
+    ["Demographics", "--war-extra"],
+    ["Fundraising", "--war-fundraising"],
     ["WAR (residual)", "--war-residual"],
   ];
-  const V2_FIELDS = {
+  const FIELD_MAP = {
     "Baseline": ["intercept_component", "intercept_component_sd"],
     "Lean": ["lean_component", "lean_component_sd"],
     "Statewide tide": ["tide_component", "tide_component_sd"],
     "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
-    "WAR (residual)": ["war_v2", "war_v2_sd"],
-  };
-  const V3_FIELDS = {
-    "Baseline": ["intercept_component_v3_finance", "intercept_component_v3_finance_sd"],
-    "Lean": ["lean_component_v3_finance", "lean_component_v3_finance_sd"],
-    "Statewide tide": ["tide_component_v3_finance", "tide_component_v3_finance_sd"],
-    "Incumbency": ["incumbency_adjustment_v3_finance", "incumbency_adjustment_v3_finance_sd"],
+    "Demographics": ["demographics_component", "demographics_component_sd"],
     "Fundraising": ["fundraising_component", "fundraising_component_sd"],
-    "WAR (residual)": ["war_v3_finance", "war_v3_finance_sd"],
+    "WAR (residual)": ["war_resolved", "war_resolved_sd"],
   };
   const attributionData = [];
   attributionRaces.forEach((r) => {
-    const useV3 = r.fundraising_component !== null && r.fundraising_component !== undefined;
-    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
     CANONICAL_COMPONENTS.forEach(([label], order) => {
-      const fields = fieldMap[label];
-      if (!fields) return;
+      const fields = FIELD_MAP[label];
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
       attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested, component: label, order, value });
@@ -366,12 +359,9 @@ layout: default
     function renderUncertaintyChart(year) {
       const race = attributionRaces.find((r) => String(r.year) === year);
       if (!race) return;
-      const useV3 = race.fundraising_component !== null && race.fundraising_component !== undefined;
-      const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
       const uncertaintyData = [];
       CANONICAL_COMPONENTS.forEach(([label]) => {
-        const fields = fieldMap[label];
-        if (!fields) return;
+        const fields = FIELD_MAP[label];
         const value = race[fields[0]];
         if (value === null || value === undefined) return;
         const sd = race[fields[1]] || 0;

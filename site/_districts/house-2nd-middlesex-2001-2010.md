@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.4313
+lean_dem_share_structural: 0.4748
 competitiveness: Likely
 competitiveness_label: Likely R
 party_favored: Republican
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.5687
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4313
-    own_tide: 0.5355
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2276
-    lean_component_sd: 0.0133
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.4313
-    expected_two_party_share_v2: 0.5785
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4006
+    lean_component_sd: 0.027
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.008
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.5669
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5785
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5565
@@ -72,25 +72,27 @@ results_by_year:
     war: -0.0247
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5565
-    own_tide: 0.632
-    war_v2: 0.044
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4006
+    lean_component_sd: 0.027
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2937
-    lean_component_sd: 0.0171
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.5565
-    expected_two_party_share_v2: 0.4878
-    war_resolved: 0.044
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4878
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0127
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5134
+    war_resolved: 0.0184
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Paul J. Avella
     slug: paul-j-avella
     party: Republican
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.0247
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4435
-    own_tide: 0.368
-    war_v2: 0.0394
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3837
+    lean_component_sd: 0.0179
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.234
-    lean_component_sd: 0.0137
-    tide_component: -0.0008
-    tide_component_sd: 0.0132
-    expected_two_party_share: 0.4435
-    expected_two_party_share_v2: 0.4288
-    war_resolved: 0.0394
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4288
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0091
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.4537
+    war_resolved: 0.0145
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.4992
@@ -137,25 +141,27 @@ results_by_year:
     war: 0.5008
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.4992
-    own_tide: 0.6116
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2634
-    lean_component_sd: 0.0154
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.4992
-    expected_two_party_share_v2: 0.6037
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4006
+    lean_component_sd: 0.027
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0278
+    fundraising_component_sd: 0.0021
+    demographics_tier: null
+    expected_share_resolved: 0.5623
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6037
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.539
@@ -174,25 +180,27 @@ results_by_year:
     war: 0.0115
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.539
-    own_tide: 0.6274
-    war_v2: -0.0846
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2844
-    lean_component_sd: 0.0166
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.539
-    expected_two_party_share_v2: 0.6351
-    war_resolved: -0.0846
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6351
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4006
+    lean_component_sd: 0.027
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0007
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.5745
+    war_resolved: -0.024
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Dennis J. Galvin
     slug: dennis-j-galvin
     party: Republican
@@ -202,25 +210,26 @@ results_by_year:
     war: -0.0115
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.461
-    own_tide: 0.3726
-    war_v2: 0.0115
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3837
+    lean_component_sd: 0.0179
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2433
-    lean_component_sd: 0.0142
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.461
-    expected_two_party_share_v2: 0.438
-    war_resolved: 0.0115
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.438
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4446
+    war_resolved: 0.0049
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3482
@@ -239,25 +248,27 @@ results_by_year:
     war: 0.6518
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3482
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4006
+    lean_component_sd: 0.027
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1837
-    lean_component_sd: 0.0107
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.3482
-    expected_two_party_share_v2: 0.3783
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0214
+    fundraising_component_sd: 0.0016
+    demographics_tier: null
+    expected_share_resolved: 0.4787
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.3783
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 2nd Middlesex (2001-2010)
 layout: district

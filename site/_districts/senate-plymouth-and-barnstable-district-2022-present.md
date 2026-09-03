@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5536
+lean_dem_share_structural: 0.557
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: -0.0414
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5536
-    own_tide: 0.6296
-    war_v2: 0.0258
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4699
+    lean_component_sd: 0.0316
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2921
-    lean_component_sd: 0.0171
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5535
-    expected_two_party_share_v2: 0.4863
+    demographics_component: -0.0038
+    demographics_component_sd: 0.0105
+    fundraising_component: 0.056
+    fundraising_component_sd: 0.0043
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5369
-    lean_component_v3_demographics_sd: 0.035
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.161
-    demographics_component_sd: 0.1248
-    expected_two_party_share_v3_demographics: 0.529
-    war_v3_demographics: -0.0169
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0169
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.529
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.6222
+    war_resolved: -0.1101
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Mathew J. Muratore
     slug: mathew-j-muratore
     party: Republican
@@ -76,39 +62,29 @@ results_by_year:
     war: 0.0414
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4464
-    own_tide: 0.3704
-    war_v2: 0.0576
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3236
+    lean_component_sd: 0.0151
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2356
-    lean_component_sd: 0.0137
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4465
-    expected_two_party_share_v2: 0.4303
+    demographics_component: -0.0038
+    demographics_component_sd: 0.0105
+    fundraising_component: 0.0415
+    fundraising_component_sd: 0.0032
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.433
-    lean_component_v3_demographics_sd: 0.0283
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.161
-    demographics_component_sd: 0.1248
-    expected_two_party_share_v3_demographics: 0.4499
-    war_v3_demographics: 0.038
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.038
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4499
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.4223
+    war_resolved: 0.0656
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5603
@@ -127,39 +103,28 @@ results_by_year:
     war: 0.0032
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5603
-    own_tide: 0.6484
-    war_v2: 0.0737
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4699
+    lean_component_sd: 0.0316
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2957
-    lean_component_sd: 0.0173
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5603
-    expected_two_party_share_v2: 0.4898
+    demographics_component: -0.0038
+    demographics_component_sd: 0.0105
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5434
-    lean_component_v3_demographics_sd: 0.0355
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.161
-    demographics_component_sd: 0.1248
-    expected_two_party_share_v3_demographics: 0.5337
-    war_v3_demographics: 0.0298
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0298
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5337
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5662
+    war_resolved: -0.0027
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
   - name: Kari Macrae
     slug: kari-macrae
     party: Republican
@@ -169,39 +134,29 @@ results_by_year:
     war: -0.0032
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4397
-    own_tide: 0.3516
-    war_v2: 0.0097
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3236
+    lean_component_sd: 0.0151
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.232
-    lean_component_sd: 0.0135
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4397
-    expected_two_party_share_v2: 0.4268
+    demographics_component: -0.0038
+    demographics_component_sd: 0.0105
+    fundraising_component: 0.0059
+    fundraising_component_sd: 0.0004
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4265
-    lean_component_v3_demographics_sd: 0.0278
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.161
-    demographics_component_sd: 0.1248
-    expected_two_party_share_v3_demographics: 0.4452
-    war_v3_demographics: -0.0087
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.0087
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4452
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3865
+    war_resolved: 0.05
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 166514

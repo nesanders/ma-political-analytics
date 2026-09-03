@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.4756
+lean_dem_share_structural: 0.4821
 competitiveness: Tossup
 competitiveness_label: Tossup R
 party_favored: Republican
@@ -29,43 +30,28 @@ results_by_year:
     war: 0.1342
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5244
-    own_tide: 0.3704
-    war_v2: 0.0307
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2767
-    lean_component_sd: 0.0162
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.5245
-    expected_two_party_share_v2: 0.628
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3783
+    lean_component_sd: 0.0176
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
+    incumbency_adjustment: 0.1354
+    incumbency_adjustment_sd: 0.013
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0059
+    fundraising_component: 0.0283
+    fundraising_component_sd: 0.0022
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.5117
-    lean_component_v3_demographics_sd: 0.031
-    tide_component_v3_demographics: -0.0379
-    tide_component_v3_demographics_sd: 0.0179
-    incumbency_adjustment_v3_demographics: 0.0579
-    incumbency_adjustment_v3_demographics_sd: 0.0138
-    demographics_component: -0.0067
-    demographics_component_sd: 0.0173
-    expected_two_party_share_v3_demographics: 0.5891
-    war_v3_demographics: 0.0696
-    war_v3_demographics_sd: 0.0645
-    war_resolved: 0.0696
-    war_resolved_sd: 0.0645
-    expected_share_resolved: 0.5891
-    war_model: demographics_core
-    war_factors: &id001
+    expected_share_resolved: 0.6072
+    war_resolved: 0.0515
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %)
+    - Campaign fundraising
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -75,39 +61,28 @@ results_by_year:
     war: -0.1342
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4756
-    own_tide: 0.6296
-    war_v2: -0.1038
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4067
+    lean_component_sd: 0.0274
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.251
-    lean_component_sd: 0.0146
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.4755
-    expected_two_party_share_v2: 0.4451
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0059
+    fundraising_component: -0.0412
+    fundraising_component_sd: 0.0031
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.464
-    lean_component_v3_demographics_sd: 0.0281
-    tide_component_v3_demographics: -0.0645
-    tide_component_v3_demographics_sd: 0.0305
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0067
-    demographics_component_sd: 0.0173
-    expected_two_party_share_v3_demographics: 0.457
-    war_v3_demographics: -0.1157
-    war_v3_demographics_sd: 0.0645
-    war_resolved: -0.1157
-    war_resolved_sd: 0.0645
-    expected_share_resolved: 0.457
-    war_model: demographics_core
-    war_factors: *id001
+    expected_share_resolved: 0.4698
+    war_resolved: -0.1285
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -126,39 +101,28 @@ results_by_year:
     war: 0.4886
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5114
-    own_tide: 0.3516
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3783
+    lean_component_sd: 0.0176
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2699
-    lean_component_sd: 0.0158
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.5114
-    expected_two_party_share_v2: 0.4647
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0059
+    fundraising_component: 0.0243
+    fundraising_component_sd: 0.0019
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0642
-    intercept_component_v3_demographics_sd: 0.0294
-    lean_component_v3_demographics: 0.499
-    lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.036
-    tide_component_v3_demographics_sd: 0.017
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0067
-    demographics_component_sd: 0.0173
-    expected_two_party_share_v3_demographics: 0.5204
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.4676
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5204
-    war_model: demographics_core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   median_household_income: 98787

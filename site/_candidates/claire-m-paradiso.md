@@ -13,46 +13,31 @@ races:
   winner: false
   actual_two_party_share: 0.2871
   war: -0.2235
-  own_lean: 0.5106
-  own_tide: 0.632
-  war_v2: -0.1765
-  war_v2_sd: 0.1125
+  intercept_component: 0.0982
+  intercept_component_sd: 0.0341
+  lean_component: 0.3789
+  lean_component_sd: 0.0255
+  tide_component: 0.0018
+  tide_component_sd: 0.0349
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.2694
-  lean_component_sd: 0.0157
-  tide_component: -0.0015
-  tide_component_sd: 0.0226
-  expected_two_party_share: 0.5106
-  expected_two_party_share_v2: 0.4636
-  is_uncontested: false
-  is_incumbent: false
-  incumbent_terms: 0
-  is_redistricting_year: false
-  fundraising_component: -0.0674
-  fundraising_component_sd: 0.0041
-  intercept_component_v3_finance: 0.2391
-  intercept_component_v3_finance_sd: 0.022
-  lean_component_v3_finance: 0.2317
-  lean_component_v3_finance_sd: 0.0153
-  tide_component_v3_finance: -0.001
-  tide_component_v3_finance_sd: 0.0221
-  incumbency_adjustment_v3_finance: 0.0
-  incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.4023
-  war_v3_finance: -0.1152
-  war_v3_finance_sd: 0.1014
-  war_resolved: -0.1152
-  war_resolved_sd: 0.1014
-  expected_share_resolved: 0.4023
-  war_model: finance
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: -0.043
+  fundraising_component_sd: 0.0033
+  demographics_tier: null
+  expected_share_resolved: 0.4359
+  war_resolved: -0.1488
+  war_resolved_sd: 0.081
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
   - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
 ocpf_finance:
   cpf_ids:
   - 14884

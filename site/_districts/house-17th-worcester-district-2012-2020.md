@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.6238
+lean_dem_share_structural: 0.5333
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.3762
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6238
-    own_tide: 0.6712
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3292
-    lean_component_sd: 0.0192
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.6238
-    expected_two_party_share_v2: 0.6797
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4499
+    lean_component_sd: 0.0303
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0092
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.6155
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6797
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3143
@@ -72,25 +72,27 @@ results_by_year:
     war: 0.2793
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3143
-    own_tide: 0.3321
-    war_v2: 0.2328
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4499
+    lean_component_sd: 0.0303
+    tide_component: 0.001
+    tide_component_sd: 0.0183
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1659
-    lean_component_sd: 0.0097
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.3142
-    expected_two_party_share_v2: 0.3607
-    war_resolved: 0.2328
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3607
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.012
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.5611
+    war_resolved: 0.0324
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -100,25 +102,27 @@ results_by_year:
     war: -0.2793
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6857
-    own_tide: 0.6679
-    war_v2: -0.1494
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3409
+    lean_component_sd: 0.0159
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3618
-    lean_component_sd: 0.0211
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.6858
-    expected_two_party_share_v2: 0.5559
-    war_resolved: -0.1494
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5559
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0133
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.3911
+    war_resolved: 0.0154
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2016
   lean_dem_share: 0.6209
@@ -137,25 +141,26 @@ results_by_year:
     war: 0.1666
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.3791
-    own_tide: 0.3535
-    war_v2: -0.0057
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2001
-    lean_component_sd: 0.0117
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.379
-    expected_two_party_share_v2: 0.5513
-    war_resolved: -0.0057
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5513
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3409
+    lean_component_sd: 0.0159
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
+    incumbency_adjustment: 0.1354
+    incumbency_adjustment_sd: 0.013
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.5371
+    war_resolved: 0.0085
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Moses S. Dixon
     slug: moses-s-dixon
     party: Democratic
@@ -165,25 +170,27 @@ results_by_year:
     war: -0.1666
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6209
-    own_tide: 0.6465
-    war_v2: -0.0674
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4499
+    lean_component_sd: 0.0303
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3276
-    lean_component_sd: 0.0191
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.621
-    expected_two_party_share_v2: 0.5218
-    war_resolved: -0.0674
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5218
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0138
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.5638
+    war_resolved: -0.1094
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4767
@@ -202,25 +209,26 @@ results_by_year:
     war: -0.021
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5233
-    own_tide: 0.5098
-    war_v2: 0.0317
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3409
+    lean_component_sd: 0.0159
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2761
-    lean_component_sd: 0.0161
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5233
-    expected_two_party_share_v2: 0.4706
-    war_resolved: 0.0317
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4706
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.4031
+    war_resolved: 0.0992
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Douglas A. Belanger
     slug: douglas-a-belanger
     party: Democratic
@@ -230,25 +238,27 @@ results_by_year:
     war: 0.021
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4767
-    own_tide: 0.4902
-    war_v2: 0.0517
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4499
+    lean_component_sd: 0.0303
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2516
-    lean_component_sd: 0.0147
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4767
-    expected_two_party_share_v2: 0.446
-    war_resolved: 0.0517
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.446
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0117
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.5612
+    war_resolved: -0.0635
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.631
@@ -267,25 +277,27 @@ results_by_year:
     war: 0.1354
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.631
-    own_tide: 0.6179
-    war_v2: 0.2392
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4499
+    lean_component_sd: 0.0303
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.333
-    lean_component_sd: 0.0194
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.631
-    expected_two_party_share_v2: 0.5272
-    war_resolved: 0.2392
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5272
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0122
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.5622
+    war_resolved: 0.2042
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: William G. Lebeau
     slug: william-g-lebeau
     party: Republican
@@ -295,25 +307,27 @@ results_by_year:
     war: -0.1354
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.369
-    own_tide: 0.3821
-    war_v2: -0.1558
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3409
+    lean_component_sd: 0.0159
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1947
-    lean_component_sd: 0.0114
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.369
-    expected_two_party_share_v2: 0.3894
-    war_resolved: -0.1558
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3894
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0427
+    fundraising_component_sd: 0.0033
+    demographics_tier: null
+    expected_share_resolved: 0.3593
+    war_resolved: -0.1257
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 17th Worcester District (2012-2020)
 layout: district

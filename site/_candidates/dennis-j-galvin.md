@@ -13,45 +13,30 @@ races:
   winner: false
   actual_two_party_share: 0.4567
   war: -0.1475
-  own_lean: 0.6041
-  own_tide: 0.5098
-  war_v2: -0.0565
-  war_v2_sd: 0.1125
+  intercept_component: 0.0577
+  intercept_component_sd: 0.0188
+  lean_component: 0.371
+  lean_component_sd: 0.0173
+  tide_component: 0.0044
+  tide_component_sd: 0.0164
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.3188
-  lean_component_sd: 0.0186
-  tide_component: -0.0012
-  tide_component_sd: 0.0183
-  expected_two_party_share: 0.6042
-  expected_two_party_share_v2: 0.5132
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: 0.4332
+  war_resolved: 0.0235
+  war_resolved_sd: 0.081
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0565
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.5132
-  war_model: core
-  war_factors: &id001
-  - District lean
-  - Statewide tide
-  - Incumbency
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -62,42 +47,30 @@ races:
   winner: false
   actual_two_party_share: 0.4495
   war: -0.0115
-  own_lean: 0.461
-  own_tide: 0.3726
-  war_v2: 0.0115
-  war_v2_sd: 0.1125
+  intercept_component: 0.0577
+  intercept_component_sd: 0.0188
+  lean_component: 0.3837
+  lean_component_sd: 0.0179
+  tide_component: 0.0032
+  tide_component_sd: 0.012
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.2433
-  lean_component_sd: 0.0142
-  tide_component: -0.0009
-  tide_component_sd: 0.0133
-  expected_two_party_share: 0.461
-  expected_two_party_share_v2: 0.438
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: 0.4446
+  war_resolved: 0.0049
+  war_resolved_sd: 0.081
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0115
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.438
-  war_model: core
-  war_factors: *id001
 title: Dennis J. Galvin
 layout: candidate
 ---

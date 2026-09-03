@@ -83,7 +83,7 @@ def load_demographics(chamber: str, demographics_dir: Path, district_names: list
             # districts, all Senate seats, have ACS income/education but no
             # PL 94-171 match at all). Lets bachelors_pct still be computed
             # for those districts instead of losing them entirely — see
-            # generate_site_data.fit_war_v3_demographics_core's population
+            # generate_site_data._demographic_covariates' population
             # fallback.
             pop_acs = row["total_population_acs"]
             entry["total_population_acs"] = int(pop_acs) if pd.notna(pop_acs) else None

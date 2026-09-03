@@ -13,42 +13,27 @@ races:
   winner: false
   actual_two_party_share: 0.2356
   war: null
-  own_lean: null
-  own_tide: null
-  war_v2: null
-  war_v2_sd: null
-  incumbency_adjustment: null
-  incumbency_adjustment_sd: null
   intercept_component: null
   intercept_component_sd: null
   lean_component: null
   lean_component_sd: null
   tide_component: null
   tide_component_sd: null
-  expected_two_party_share: null
-  expected_two_party_share_v2: null
+  incumbency_adjustment: null
+  incumbency_adjustment_sd: null
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: null
+  war_resolved: null
+  war_resolved_sd: null
+  war_factors: null
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: null
-  war_resolved_sd: null
-  expected_share_resolved: null
-  war_model: null
-  war_factors: null
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -59,42 +44,27 @@ races:
   winner: false
   actual_two_party_share: 0.068
   war: null
-  own_lean: null
-  own_tide: null
-  war_v2: null
-  war_v2_sd: null
-  incumbency_adjustment: null
-  incumbency_adjustment_sd: null
   intercept_component: null
   intercept_component_sd: null
   lean_component: null
   lean_component_sd: null
   tide_component: null
   tide_component_sd: null
-  expected_two_party_share: null
-  expected_two_party_share_v2: null
+  incumbency_adjustment: null
+  incumbency_adjustment_sd: null
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: null
+  war_resolved: null
+  war_resolved_sd: null
+  war_factors: null
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: null
-  war_resolved_sd: null
-  expected_share_resolved: null
-  war_model: null
-  war_factors: null
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -105,45 +75,30 @@ races:
   winner: false
   actual_two_party_share: 0.2546
   war: -0.2017
-  own_lean: 0.4563
-  own_tide: 0.368
-  war_v2: -0.1809
-  war_v2_sd: 0.1125
+  intercept_component: 0.0577
+  intercept_component_sd: 0.0188
+  lean_component: 0.3565
+  lean_component_sd: 0.0166
+  tide_component: 0.0032
+  tide_component_sd: 0.0119
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.2408
-  lean_component_sd: 0.0141
-  tide_component: -0.0008
-  tide_component_sd: 0.0132
-  expected_two_party_share: 0.4563
-  expected_two_party_share_v2: 0.4355
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: 0.4174
+  war_resolved: -0.1628
+  war_resolved_sd: 0.081
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1809
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4355
-  war_model: core
-  war_factors: &id001
-  - District lean
-  - Statewide tide
-  - Incumbency
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -154,42 +109,30 @@ races:
   winner: false
   actual_two_party_share: 0.2885
   war: -0.1769
-  own_lean: 0.4654
-  own_tide: 0.3884
-  war_v2: -0.1518
-  war_v2_sd: 0.1125
+  intercept_component: 0.0577
+  intercept_component_sd: 0.0188
+  lean_component: 0.3565
+  lean_component_sd: 0.0166
+  tide_component: 0.0034
+  tide_component_sd: 0.0125
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  intercept_component: 0.1956
-  intercept_component_sd: 0.0132
-  lean_component: 0.2456
-  lean_component_sd: 0.0143
-  tide_component: -0.0009
-  tide_component_sd: 0.0139
-  expected_two_party_share: 0.4654
-  expected_two_party_share_v2: 0.4403
+  demographics_component: null
+  demographics_component_sd: null
+  fundraising_component: null
+  fundraising_component_sd: null
+  demographics_tier: null
+  expected_share_resolved: 0.4176
+  war_resolved: -0.1291
+  war_resolved_sd: 0.081
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1518
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4403
-  war_model: core
-  war_factors: *id001
 title: Robert Montgomery Thomas
 layout: candidate
 ---

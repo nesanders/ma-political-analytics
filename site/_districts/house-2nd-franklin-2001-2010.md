@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.6195
+lean_dem_share_structural: 0.6314
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0658
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6195
-    own_tide: 0.5355
-    war_v2: 0.0324
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5327
+    lean_component_sd: 0.0359
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3269
-    lean_component_sd: 0.0191
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.6195
-    expected_two_party_share_v2: 0.5213
-    war_resolved: 0.0324
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5213
-    war_model: core
-    war_factors: &id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0087
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.6412
+    war_resolved: -0.0875
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Steven E. Adam
     slug: steven-e-adam
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0658
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3805
-    own_tide: 0.4645
-    war_v2: 0.051
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2693
+    lean_component_sd: 0.0125
+    tide_component: 0.004
+    tide_component_sd: 0.015
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2008
-    lean_component_sd: 0.0117
-    tide_component: -0.0011
-    tide_component_sd: 0.0166
-    expected_two_party_share: 0.3805
-    expected_two_party_share_v2: 0.3953
-    war_resolved: 0.051
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3953
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0003
+    fundraising_component_sd: 0.0
+    demographics_tier: null
+    expected_share_resolved: 0.3313
+    war_resolved: 0.115
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Genevieve C. Fraser
     slug: genevieve-c-fraser
     party: Other
@@ -91,24 +93,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: true
 - year: 2008
@@ -128,25 +128,26 @@ results_by_year:
     war: 0.1123
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.6786
-    own_tide: 0.632
-    war_v2: 0.0951
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3581
-    lean_component_sd: 0.0209
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.6786
-    expected_two_party_share_v2: 0.6958
-    war_resolved: 0.0951
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6958
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5327
+    lean_component_sd: 0.0359
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.6938
+    war_resolved: 0.0971
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Robert E. Parks
     slug: robert-e-parks
     party: Republican
@@ -156,25 +157,27 @@ results_by_year:
     war: -0.1123
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3214
-    own_tide: 0.368
-    war_v2: -0.1553
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2693
+    lean_component_sd: 0.0125
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1696
-    lean_component_sd: 0.0099
-    tide_component: -0.0008
-    tide_component_sd: 0.0132
-    expected_two_party_share: 0.3214
-    expected_two_party_share_v2: 0.3644
-    war_resolved: -0.1553
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3644
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0754
+    fundraising_component_sd: 0.0057
+    demographics_tier: null
+    expected_share_resolved: 0.2547
+    war_resolved: -0.0456
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7048
@@ -193,25 +196,26 @@ results_by_year:
     war: 0.2952
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.7048
-    own_tide: 0.6116
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3719
-    lean_component_sd: 0.0217
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.7048
-    expected_two_party_share_v2: 0.7122
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5327
+    lean_component_sd: 0.0359
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7222
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7122
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.6321
@@ -230,25 +234,26 @@ results_by_year:
     war: 0.1288
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6321
-    own_tide: 0.6274
-    war_v2: 0.0767
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3336
-    lean_component_sd: 0.0195
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.6321
-    expected_two_party_share_v2: 0.6842
-    war_resolved: 0.0767
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6842
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5327
+    lean_component_sd: 0.0359
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.7073
+    war_resolved: 0.0536
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   - name: Christopher Eugene Richard
     slug: christopher-eugene-richard
     party: Republican
@@ -258,25 +263,27 @@ results_by_year:
     war: -0.1288
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3679
-    own_tide: 0.3726
-    war_v2: -0.1498
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2693
+    lean_component_sd: 0.0125
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1941
-    lean_component_sd: 0.0113
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.3679
-    expected_two_party_share_v2: 0.3889
-    war_resolved: -0.1498
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3889
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.018
+    fundraising_component_sd: 0.0014
+    demographics_tier: null
+    expected_share_resolved: 0.3122
+    war_resolved: -0.0731
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.5218
@@ -295,25 +302,26 @@ results_by_year:
     war: 0.4782
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5218
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5327
+    lean_component_sd: 0.0359
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2754
-    lean_component_sd: 0.0161
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.5218
-    expected_two_party_share_v2: 0.4699
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.6323
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4699
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: null
 title: 2nd Franklin (2001-2010)
 layout: district

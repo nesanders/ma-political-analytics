@@ -1010,3 +1010,164 @@ a glance" summary now shows a real incumbent re-election rate (99%,
 produced — both exactly the shape of result the earlier synthetic-data
 tests for these features predicted, now confirmed against real history
 rather than a manufactured test case.
+
+## WAR unified into one regression: structural lean, party interaction, indicator-free extensions
+
+The three-model WAR design described above — a core fit
+(`fit_war_v2_core`/`apply_war_v2`) plus two diagnostic extensions
+(`fit_war_v3_demographics_core`/`_full`, `fit_war_v3_finance`), resolved
+per-race after the fact by `apply_resolved_war_district`/
+`apply_resolved_war_candidate` — is gone, replaced by one fit
+(`fit_war_model`) and one apply pass (`apply_war`) in
+`generate_site_data.py`. Three changes landed together, asked for
+directly: sanitize lean vs. tide's collinearity by computing lean per
+*district* rather than per *year*; fold the demographics/finance
+extensions into terms that zero out for a race without the data instead
+of two separate models; and add a party interaction, since a prior round
+had found (and only measured, not fixed) a real Democratic-vs-Republican
+residual asymmetry in the pooled core fit.
+
+**Structural lean.** `build_district_records` now also computes
+`lean_dem_share_structural` — the plain average of `lean_dem_share`
+across every year on record for that district within its vintage — right
+alongside the existing per-year field. `fit_war_model`'s `own_lean` is
+built from this structural value; `own_tide`
+(`compute_statewide_tide_by_year`) is unchanged, still per-year and
+statewide. Every other use of `lean_dem_share` on the site (district-page
+headline stat, the lean-over-time trend chart, competitiveness bucketing)
+still uses the plain per-year value — only the regression's own `own_lean`
+input changed. This is the standard Gelman & King "normal vote" split
+this project's own citations already pointed to, and practically, much
+less collinear with tide than two numbers both freshly derived from the
+same year's baseline race used to be.
+
+**One regression, extension terms that zero out instead of two more
+models.** `fit_war_model` builds its training rows across every vintage
+(not just the current one) for the core lean/tide/incumbency terms —
+they're always informed, regardless of whether a given race has
+demographics or finance data — and attaches `bachelors_pct`/
+`hispanic_pct`/`voting_age_pct`/`income_10k` (current-vintage-only) and
+`log_raised` (any vintage/year, via a `finance_by_slug` lookup) wherever a
+race's own data supports them. Each of those five covariates is centered
+on its own mean *among the rows that actually have it*, and a row missing
+it gets that same mean substituted, rather than a raw zero or an explicit
+indicator/dummy column — so its centered contribution to that term is
+exactly 0, and it doesn't move the term's fitted coefficient, while the
+row's lean/tide/incumbency values still fully inform the shared core
+terms. `reference_values` is exported alongside the fit's coefficients so
+`apply_war` can reuse the exact same centering when computing each race's
+own component. The genuinely new capability this unlocks, which the old
+"resolve to exactly one extension per race" design could never
+represent: a single race can now carry both a Demographics and a
+Fundraising contribution to its expected share at once — verified live,
+29 of a 191-race sample had both non-null simultaneously.
+`demographics_tier` (`"full"`/`"core"`/`None`) is still computed the same
+way as before (`_demographic_covariates`, unchanged), just inline within
+`apply_war` now rather than by choosing between two separately-fitted
+tier models.
+
+**Party interaction terms.** Every core term — `intercept`, `own_lean`,
+`own_tide`, and each of the three incumbency buckets — gets an
+additional `is_dem`-scaled delta term (`is_dem`, `own_lean_x_dem`,
+`own_tide_x_dem`, `incumbent_{1,2,3plus}_x_dem`), each with its own
+Gaussian prior in `_COEFFICIENT_PRIORS`, centered at 0 with **half** the
+width of its corresponding shared term's prior — a partial-pooling
+design (assume symmetry by default, let real evidence in the data pull a
+term away from it) chosen over both full pooling (the old design, which
+produced the earlier-measured +5.3/-5.3-point residual asymmetry) and two
+fully separate per-party regressions (which would throw away everything
+the two parties' races have in common and double the number of
+poorly-identified coefficients). On the last full run: `own_lean_x_dem`'s
+95% credible interval excludes zero ([0.025, 0.203]) — a real, found
+asymmetry in how strongly Democratic vs. Republican candidates' share
+tracks district lean — and both `incumbent_1_x_dem` and
+`incumbent_3plus_x_dem` do too, both negative (roughly -0.06), while
+`own_tide_x_dem` and `incumbent_2_x_dem` straddle zero. Real effect on
+the asymmetry these terms exist to address, verified live from the
+refit `war_fit_sample.yml`: Democratic candidates' mean residual dropped
+from +5.3 points (the prior round's pooled-only fit) to **+0.02**,
+Republicans' from -5.3 to **-0.01**. `own_lean`'s own shared coefficient
+also moved, from 0.53 (per-year lean, core-only fit) to 0.73 (structural
+lean, one fit absorbing what three separate narrower fits used to) — R²
+rose from 0.48 to 0.73 over the same change. Each component's SD in
+`apply_war` now combines the shared and `× Democratic` terms as
+`sqrt(shared_sd² + (is_dem × delta_sd)²)`, extending the existing
+delta-method "treat coefficients as independent" simplification to the
+new terms rather than fixing that simplification.
+
+**Feature list** (17 parameters, up from 6): `intercept`, `is_dem`,
+`own_lean`, `own_lean_x_dem`, `own_tide`, `own_tide_x_dem`,
+`incumbent_1`, `incumbent_1_x_dem`, `incumbent_2`, `incumbent_2_x_dem`,
+`incumbent_3plus`, `incumbent_3plus_x_dem`, `bachelors_pct`,
+`hispanic_pct`, `voting_age_pct`, `income_10k`, `log_raised` — all fit
+through the same unchanged `_bayesian_linear_regression` Gibbs sampler.
+`apply_war` sets `war_resolved`/`expected_share_resolved`/`war_factors`
+directly (kept under those names for continuity with the earlier
+resolved-WAR consolidation round) plus bare component fields
+(`intercept_component`, `lean_component`, `tide_component`,
+`incumbency_adjustment`, `demographics_component`,
+`fundraising_component`, each with a `_sd` sibling) — the old
+`_v2`/`_v3_demographics`/`_v3_finance`-suffixed field names and the
+`war_model` field (redundant now that there's only one model) are gone.
+
+**`main()`'s orchestration reordered.** `apply_war` needs
+`finance_by_slug` (to fit and apply the fundraising term to *any* race,
+not just candidate-page ones — a district-page candidate's expected
+share can now be informed by their own OCPF match too), which needs a
+`build_candidate_records()` call to get slug/district/chamber/year
+associations to match against OCPF — so a **preliminary**
+`build_candidate_records()` call now runs before OCPF matching and the
+fit itself, purely for that lookup (its WAR fields are all still `None`
+at that point). `write_district_files`/`write_seat_files`, which
+previously ran before `candidate_records` existed at all (the entire
+reason the old two-phase `apply_resolved_war_district`/
+`apply_resolved_war_candidate` split existed), now run *after*
+`fit_war_model`/`apply_war` instead, once every district record's WAR
+fields are populated. A **second, final** `build_candidate_records()`
+call then rebuilds candidate records from those now-populated district
+records, so each candidate's own `races` list inherits the unified
+fields via the existing copy-from-district-dict pattern (the
+copy list itself was updated to the new bare field names).
+`publish_query_data.py`'s independently-fitting `build_results_table`
+was updated the same way — it fits its own copy of `fit_war_model`
+rather than reading back the written YAML, so it can't go stale relative
+to whatever data a given invocation actually has on disk — and gained a
+`--current-vintage` option plus its own demographics/OCPF matching
+(previously only `generate_site_data.py`'s core v2 fit needed neither).
+
+**Output files renamed**: `war_v2.yml`/`war_v2_fit_sample.yml`/
+`war_v3_demographics.yml`/`war_v3_finance.yml` are replaced by
+`war_model.yml` (the one fit's full coefficient table, `n`,
+`r_squared`, `reference_values`, and diagnostic counts) and
+`war_fit_sample.yml` (unchanged shape — `{actual, expected, party,
+year}` rows — still exists purely for the methodology page's scatter
+and residual-histogram charts).
+
+**Template changes**: all five page templates
+(`chamber.html`/`party.html`/`district.html`/`seat.html`/`candidate.html`)
+had their `V2_FIELDS`/`V3_FIELDS`/`useV3` dual-map branching collapsed
+into one `FIELD_MAP`/`CANONICAL_COMPONENTS` pair, with Demographics and
+Fundraising as two always-available slots (previously Demographics only
+existed on district/seat pages' field map and Fundraising only on
+candidate pages'; both now exist everywhere, since either can now apply
+to any race). A new `--war-fundraising` CSS variable (light `#9725d0` /
+dark `#a73cdd`) covers the newly-independent Fundraising segment —
+picked by running the dataviz skill's own `validate_palette.py` against
+the specific pairs it can land adjacent to in the attribution stack
+(Incumbency, the existing `--war-extra` Demographics slot, and WAR
+residual, in both light and dark mode) until one cleared every gate,
+since the existing 8-hue reference palette was already fully claimed
+elsewhere across these same pages (the other five `--war-*` slots plus
+`series-dem`/`series-rep`) — no free hue existed without going outside
+that validated set.
+
+Verified live: components still sum exactly to `expected_share_resolved`
+and `war_resolved + expected_share_resolved` to `actual_two_party_share`
+across a 191-race sample (zero mismatches); both `generate_site_data.py`
+and `publish_query_data.py` run cleanly end to end against the full
+2002-2024 backfill; a Jekyll build + Playwright sweep of the methodology
+page (all 7 charts render as populated `<canvas>` elements, the
+D-vs-R residual-note spans populate with the now-near-zero figures), a
+district page and a candidate page each showing simultaneous
+Demographics+Fundraising attribution bars, plus chamber/party/seat pages,
+came back with zero JS console errors.

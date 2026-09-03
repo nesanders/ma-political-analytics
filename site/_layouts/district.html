@@ -59,9 +59,9 @@ layout: default
       candidate.
       {% assign factors = latest_contested.candidates | where_exp: "c", "c.war_factors" | first %}
       {% if factors.war_factors.size > 3 %}
-      This district's own Census match adds one more factor here &mdash;
-      {{ factors.war_factors | last }} &mdash; folded into a Demographics
-      slice below.
+      {% assign extra_factors = factors.war_factors | slice: 3, 2 %}
+      This race's own data adds {{ extra_factors | join: " and " | downcase }} here,
+      each folded into its own slice below.
       {% endif %}
       See the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
       for the fitted coefficients, their uncertainty, and what they're
@@ -131,7 +131,7 @@ layout: default
           <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
           <td>{% if c.war_resolved %}{{ c.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
           <td>{% if c.expected_share_resolved %}{{ c.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if c.war_factors %}{% if c.war_factors.size > 3 %}Lean, tide, incumbency, demographics{% else %}Lean, tide, incumbency{% endif %}{% endif %}</small></td>
+          <td><small>{% if c.war_factors %}{{ c.war_factors | join: ", " }}{% endif %}</small></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -246,63 +246,55 @@ layout: default
   vegaEmbed("#trend-chart", trendSpec, { actions: false }).catch(console.error);
 
   {% if latest_contested %}
-  // Field-by-field, both v2's own components and (when this district has
-  // a current-vintage demographics match) v3-demographics' distinctly-
-  // suffixed ones — see apply_war_v3_demographics's own docstring for why
-  // they're separate fields rather than overwriting v2's.
+  // Field-by-field, not `c | jsonify` on the candidate object directly —
+  // one unified model now (see apply_war's own docstring), so every
+  // candidate here carries the same field set; a race simply has null
+  // demographics_component/fundraising_component where its own data
+  // doesn't support that term, rather than a whole separate field set.
   const attributionCandidates = [
     {% for c in latest_contested.candidates %}
-    {% if c.war_v2 %}
+    {% if c.intercept_component %}
     { "name": {{ c.name | jsonify }}, "party": {{ c.party | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
       "intercept_component": {{ c.intercept_component | jsonify }}, "intercept_component_sd": {{ c.intercept_component_sd | jsonify }},
       "lean_component": {{ c.lean_component | jsonify }}, "lean_component_sd": {{ c.lean_component_sd | jsonify }},
       "tide_component": {{ c.tide_component | jsonify }}, "tide_component_sd": {{ c.tide_component_sd | jsonify }},
       "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ c.incumbency_adjustment_sd | jsonify }},
-      "war_v2": {{ c.war_v2 | jsonify }}, "war_v2_sd": {{ c.war_v2_sd | jsonify }},
-      "intercept_component_v3_demographics": {{ c.intercept_component_v3_demographics | jsonify }}, "intercept_component_v3_demographics_sd": {{ c.intercept_component_v3_demographics_sd | jsonify }},
-      "lean_component_v3_demographics": {{ c.lean_component_v3_demographics | jsonify }}, "lean_component_v3_demographics_sd": {{ c.lean_component_v3_demographics_sd | jsonify }},
-      "tide_component_v3_demographics": {{ c.tide_component_v3_demographics | jsonify }}, "tide_component_v3_demographics_sd": {{ c.tide_component_v3_demographics_sd | jsonify }},
-      "incumbency_adjustment_v3_demographics": {{ c.incumbency_adjustment_v3_demographics | jsonify }}, "incumbency_adjustment_v3_demographics_sd": {{ c.incumbency_adjustment_v3_demographics_sd | jsonify }},
       "demographics_component": {{ c.demographics_component | jsonify }}, "demographics_component_sd": {{ c.demographics_component_sd | jsonify }},
       "demographics_tier": {{ c.demographics_tier | jsonify }},
-      "war_v3_demographics": {{ c.war_v3_demographics | jsonify }}, "war_v3_demographics_sd": {{ c.war_v3_demographics_sd | jsonify }} },
+      "fundraising_component": {{ c.fundraising_component | jsonify }}, "fundraising_component_sd": {{ c.fundraising_component_sd | jsonify }},
+      "war_resolved": {{ c.war_resolved | jsonify }}, "war_resolved_sd": {{ c.war_resolved_sd | jsonify }} },
     {% endif %}
     {% endfor %}
   ];
-  // Canonical component order/colors, shared by both decompositions —
-  // v2 candidates simply have no "Demographics" entry in their field map,
-  // so that segment is skipped for them rather than plotted as zero.
+  // Canonical component order/colors. Demographics and Fundraising are
+  // each independently present or absent per race (this district's own
+  // Census match / this candidate's own OCPF match) — both, either, or
+  // neither can apply to the same race at once now that this site fits
+  // one model instead of three, so both always have their own slot here
+  // and are simply skipped below wherever a given race's value is null.
   const CANONICAL_COMPONENTS = [
     ["Baseline", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
     ["Incumbency", "--war-incumbency"],
     ["Demographics", "--war-extra"],
+    ["Fundraising", "--war-fundraising"],
     ["WAR (residual)", "--war-residual"],
   ];
-  const V2_FIELDS = {
+  const FIELD_MAP = {
     "Baseline": ["intercept_component", "intercept_component_sd"],
     "Lean": ["lean_component", "lean_component_sd"],
     "Statewide tide": ["tide_component", "tide_component_sd"],
     "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
-    "WAR (residual)": ["war_v2", "war_v2_sd"],
-  };
-  const V3_FIELDS = {
-    "Baseline": ["intercept_component_v3_demographics", "intercept_component_v3_demographics_sd"],
-    "Lean": ["lean_component_v3_demographics", "lean_component_v3_demographics_sd"],
-    "Statewide tide": ["tide_component_v3_demographics", "tide_component_v3_demographics_sd"],
-    "Incumbency": ["incumbency_adjustment_v3_demographics", "incumbency_adjustment_v3_demographics_sd"],
     "Demographics": ["demographics_component", "demographics_component_sd"],
-    "WAR (residual)": ["war_v3_demographics", "war_v3_demographics_sd"],
+    "Fundraising": ["fundraising_component", "fundraising_component_sd"],
+    "WAR (residual)": ["war_resolved", "war_resolved_sd"],
   };
   const attributionData = [];
   const uncertaintyData = [];
   attributionCandidates.forEach((c) => {
-    const useV3 = c.demographics_component !== null && c.demographics_component !== undefined;
-    const fieldMap = useV3 ? V3_FIELDS : V2_FIELDS;
     CANONICAL_COMPONENTS.forEach(([label], order) => {
-      const fields = fieldMap[label];
-      if (!fields) return;
+      const fields = FIELD_MAP[label];
       const [valueField, sdField] = fields;
       const value = c[valueField];
       if (value === null || value === undefined) return;

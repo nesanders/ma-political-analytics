@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.4218
+lean_dem_share_structural: 0.4963
 competitiveness: Likely
 competitiveness_label: Likely R
 party_favored: Republican
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.2321
     is_incumbent: true
     incumbent_terms: 4
-    own_lean: 0.4218
-    own_tide: 0.5355
-    war_v2: 0.0933
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2226
-    lean_component_sd: 0.013
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.4218
-    expected_two_party_share_v2: 0.5606
-    war_resolved: 0.0933
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5606
-    war_model: core
-    war_factors: &id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4187
+    lean_component_sd: 0.0282
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0171
+    fundraising_component_sd: 0.0013
+    demographics_tier: null
+    expected_share_resolved: 0.5625
+    war_resolved: 0.0914
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Rodney Arvid Josephson
     slug: rodney-arvid-josephson
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: -0.2321
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5782
-    own_tide: 0.4645
-    war_v2: -0.1535
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.368
+    lean_component_sd: 0.0171
+    tide_component: 0.004
+    tide_component_sd: 0.015
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3051
-    lean_component_sd: 0.0178
-    tide_component: -0.0011
-    tide_component_sd: 0.0166
-    expected_two_party_share: 0.5782
-    expected_two_party_share_v2: 0.4996
-    war_resolved: -0.1535
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4996
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0541
+    fundraising_component_sd: 0.0041
+    demographics_tier: null
+    expected_share_resolved: 0.3756
+    war_resolved: -0.0295
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5285
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.1746
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.5285
-    own_tide: 0.632
-    war_v2: 0.0865
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2789
-    lean_component_sd: 0.0163
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.5285
-    expected_two_party_share_v2: 0.6166
-    war_resolved: 0.0865
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6166
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4187
+    lean_component_sd: 0.0282
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0098
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.5701
+    war_resolved: 0.133
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -128,25 +132,27 @@ results_by_year:
     war: -0.1746
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4715
-    own_tide: 0.368
-    war_v2: -0.1467
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.368
+    lean_component_sd: 0.0171
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2488
-    lean_component_sd: 0.0145
-    tide_component: -0.0008
-    tide_component_sd: 0.0132
-    expected_two_party_share: 0.4715
-    expected_two_party_share_v2: 0.4436
-    war_resolved: -0.1467
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4436
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0243
+    fundraising_component_sd: 0.0018
+    demographics_tier: null
+    expected_share_resolved: 0.4046
+    war_resolved: -0.1077
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5808
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.1099
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.5808
-    own_tide: 0.6116
-    war_v2: 0.0438
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3065
-    lean_component_sd: 0.0179
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.5807
-    expected_two_party_share_v2: 0.6468
-    war_resolved: 0.0438
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6468
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4187
+    lean_component_sd: 0.0282
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0132
+    fundraising_component_sd: 0.001
+    demographics_tier: null
+    expected_share_resolved: 0.595
+    war_resolved: 0.0956
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Stephen J. Comtois, II
     slug: stephen-j-comtois-ii
     party: Republican
@@ -193,25 +201,27 @@ results_by_year:
     war: -0.1099
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4192
-    own_tide: 0.3884
-    war_v2: -0.1065
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.368
+    lean_component_sd: 0.0171
+    tide_component: 0.0034
+    tide_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2212
-    lean_component_sd: 0.0129
-    tide_component: -0.0009
-    tide_component_sd: 0.0139
-    expected_two_party_share: 0.4193
-    expected_two_party_share_v2: 0.4159
-    war_resolved: -0.1065
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4159
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0018
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.4272
+    war_resolved: -0.1178
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5343
@@ -230,25 +240,27 @@ results_by_year:
     war: 0.1547
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5343
-    own_tide: 0.6274
-    war_v2: 0.0564
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.282
-    lean_component_sd: 0.0165
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5343
-    expected_two_party_share_v2: 0.6326
-    war_resolved: 0.0564
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6326
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4187
+    lean_component_sd: 0.0282
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0029
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.5905
+    war_resolved: 0.0985
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: A. Larry Hasenfus
     slug: a-larry-hasenfus
     party: Republican
@@ -258,25 +270,27 @@ results_by_year:
     war: -0.1547
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4657
-    own_tide: 0.3726
-    war_v2: -0.1295
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.368
+    lean_component_sd: 0.0171
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2457
-    lean_component_sd: 0.0143
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4657
-    expected_two_party_share_v2: 0.4405
-    war_resolved: -0.1295
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4405
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0089
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.42
+    war_resolved: -0.109
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4161
@@ -295,25 +309,27 @@ results_by_year:
     war: 0.1401
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4161
-    own_tide: 0.4745
-    war_v2: 0.1421
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4187
+    lean_component_sd: 0.0282
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2196
-    lean_component_sd: 0.0128
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.4161
-    expected_two_party_share_v2: 0.4141
-    war_resolved: 0.1421
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4141
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0039
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5144
+    war_resolved: 0.0418
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Ryan J. Witkos
     slug: ryan-j-witkos
     party: Republican
@@ -323,25 +339,27 @@ results_by_year:
     war: -0.1401
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5839
-    own_tide: 0.5255
-    war_v2: -0.0587
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.368
+    lean_component_sd: 0.0171
+    tide_component: 0.0046
+    tide_component_sd: 0.0169
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3081
-    lean_component_sd: 0.018
-    tide_component: -0.0012
-    tide_component_sd: 0.0188
-    expected_two_party_share: 0.5839
-    expected_two_party_share_v2: 0.5025
-    war_resolved: -0.0587
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5025
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0015
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.4287
+    war_resolved: 0.0151
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 5th Worcester (2001-2010)
 layout: district

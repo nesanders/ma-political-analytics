@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.5896
+lean_dem_share_structural: 0.4621
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0043
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.5896
-    own_tide: 0.6712
-    war_v2: -0.066
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3111
-    lean_component_sd: 0.0182
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.5896
-    expected_two_party_share_v2: 0.6513
-    war_resolved: -0.066
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6513
-    war_model: core
-    war_factors: &id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0262
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.002
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.5815
+    war_resolved: 0.0038
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0043
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4104
-    own_tide: 0.3288
-    war_v2: 0.0033
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3929
+    lean_component_sd: 0.0183
+    tide_component: 0.0029
+    tide_component_sd: 0.0106
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2166
-    lean_component_sd: 0.0126
-    tide_component: -0.0008
-    tide_component_sd: 0.0118
-    expected_two_party_share: 0.4104
-    expected_two_party_share_v2: 0.4114
-    war_resolved: 0.0033
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4114
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0041
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.4493
+    war_resolved: -0.0346
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2396
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.3231
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.2396
-    own_tide: 0.3321
-    war_v2: 0.0849
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1264
-    lean_component_sd: 0.0074
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.2396
-    expected_two_party_share_v2: 0.4778
-    war_resolved: 0.0849
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4778
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0262
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0016
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.5653
+    war_resolved: -0.0026
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Richard E. Palmieri
     slug: richard-e-palmieri
     party: Republican
@@ -128,25 +132,27 @@ results_by_year:
     war: -0.3231
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.7604
-    own_tide: 0.6679
-    war_v2: -0.158
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3929
+    lean_component_sd: 0.0183
+    tide_component: 0.0058
+    tide_component_sd: 0.0215
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4013
-    lean_component_sd: 0.0234
-    tide_component: -0.0015
-    tide_component_sd: 0.0239
-    expected_two_party_share: 0.7604
-    expected_two_party_share_v2: 0.5953
-    war_resolved: -0.158
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5953
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0066
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4498
+    war_resolved: -0.0125
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5455
@@ -165,25 +171,27 @@ results_by_year:
     war: 0.0065
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5455
-    own_tide: 0.6465
-    war_v2: 0.07
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0262
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2879
-    lean_component_sd: 0.0168
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.5455
-    expected_two_party_share_v2: 0.482
-    war_resolved: 0.07
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.482
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.008
+    fundraising_component_sd: 0.0006
+    demographics_tier: null
+    expected_share_resolved: 0.498
+    war_resolved: 0.054
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Thomas F. Ardinger
     slug: thomas-f-ardinger
     party: Republican
@@ -193,25 +201,27 @@ results_by_year:
     war: -0.0065
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4545
-    own_tide: 0.3535
-    war_v2: 0.0134
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3929
+    lean_component_sd: 0.0183
+    tide_component: 0.0031
+    tide_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2398
-    lean_component_sd: 0.014
-    tide_component: -0.0008
-    tide_component_sd: 0.0127
-    expected_two_party_share: 0.4545
-    expected_two_party_share_v2: 0.4346
-    war_resolved: 0.0134
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4346
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0019
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.4518
+    war_resolved: -0.0038
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2014
   lean_dem_share: 0.4019
@@ -230,25 +240,27 @@ results_by_year:
     war: 0.1485
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4019
-    own_tide: 0.4902
-    war_v2: -0.0127
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2121
-    lean_component_sd: 0.0124
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4019
-    expected_two_party_share_v2: 0.5631
-    war_resolved: -0.0127
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5631
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0262
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0252
+    fundraising_component_sd: 0.0019
+    demographics_tier: null
+    expected_share_resolved: 0.5389
+    war_resolved: 0.0115
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Jacques A. Perrault
     slug: jacques-a-perrault
     party: Republican
@@ -258,25 +270,27 @@ results_by_year:
     war: -0.1485
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5981
-    own_tide: 0.5098
-    war_v2: -0.0604
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3929
+    lean_component_sd: 0.0183
+    tide_component: 0.0044
+    tide_component_sd: 0.0164
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3156
-    lean_component_sd: 0.0184
-    tide_component: -0.0012
-    tide_component_sd: 0.0183
-    expected_two_party_share: 0.5981
-    expected_two_party_share_v2: 0.51
-    war_resolved: -0.0604
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.51
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0157
+    fundraising_component_sd: 0.0012
+    demographics_tier: null
+    expected_share_resolved: 0.4393
+    war_resolved: 0.0103
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5338
@@ -295,25 +309,27 @@ results_by_year:
     war: 0.0382
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5338
-    own_tide: 0.6179
-    war_v2: 0.096
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0262
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2817
-    lean_component_sd: 0.0164
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.5337
-    expected_two_party_share_v2: 0.4759
-    war_resolved: 0.096
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4759
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0072
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4827
+    war_resolved: 0.0892
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Justin A. Brooks
     slug: justin-a-brooks
     party: Republican
@@ -323,25 +339,27 @@ results_by_year:
     war: -0.0382
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4662
-    own_tide: 0.3821
-    war_v2: -0.0126
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3929
+    lean_component_sd: 0.0183
+    tide_component: 0.0033
+    tide_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.246
-    lean_component_sd: 0.0144
-    tide_component: -0.0009
-    tide_component_sd: 0.0137
-    expected_two_party_share: 0.4663
-    expected_two_party_share_v2: 0.4407
-    war_resolved: -0.0126
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4407
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0061
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4478
+    war_resolved: -0.0197
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 4th Worcester District (2012-2020)
 layout: district

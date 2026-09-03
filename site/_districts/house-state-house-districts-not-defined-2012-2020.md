@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.7181
+lean_dem_share_structural: 0.5668
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic

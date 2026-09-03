@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.5002
+lean_dem_share_structural: 0.537
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.1029
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5002
-    own_tide: 0.5355
-    war_v2: 0.1448
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4531
+    lean_component_sd: 0.0305
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.264
-    lean_component_sd: 0.0154
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.5002
-    expected_two_party_share_v2: 0.4583
-    war_resolved: 0.1448
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4583
-    war_model: core
-    war_factors: &id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0104
+    fundraising_component_sd: 0.0008
+    demographics_tier: null
+    expected_share_resolved: 0.5632
+    war_resolved: 0.0399
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Brett R. Schetzsle
     slug: brett-r-schetzsle
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: -0.1029
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4998
-    own_tide: 0.4645
-    war_v2: -0.0614
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3382
+    lean_component_sd: 0.0157
+    tide_component: 0.004
+    tide_component_sd: 0.015
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2637
-    lean_component_sd: 0.0154
-    tide_component: -0.0011
-    tide_component_sd: 0.0166
-    expected_two_party_share: 0.4998
-    expected_two_party_share_v2: 0.4583
-    war_resolved: -0.0614
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4583
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0072
+    fundraising_component_sd: 0.0005
+    demographics_tier: null
+    expected_share_resolved: 0.4071
+    war_resolved: -0.0102
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2008
   lean_dem_share: 0.613
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.387
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.613
-    own_tide: 0.632
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3235
-    lean_component_sd: 0.0189
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.613
-    expected_two_party_share_v2: 0.6612
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4531
+    lean_component_sd: 0.0305
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0105
+    fundraising_component_sd: 0.0008
+    demographics_tier: null
+    expected_share_resolved: 0.6037
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6612
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5565
@@ -137,25 +141,27 @@ results_by_year:
     war: 0.4435
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.5565
-    own_tide: 0.6116
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2937
-    lean_component_sd: 0.0171
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.5565
-    expected_two_party_share_v2: 0.634
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4531
+    lean_component_sd: 0.0305
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0088
+    fundraising_component_sd: 0.0007
+    demographics_tier: null
+    expected_share_resolved: 0.6337
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.634
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -165,24 +171,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2004
@@ -202,25 +206,27 @@ results_by_year:
     war: 0.1208
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5985
-    own_tide: 0.6274
-    war_v2: 0.0528
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3158
-    lean_component_sd: 0.0184
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5985
-    expected_two_party_share_v2: 0.6665
-    war_resolved: 0.0528
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.6665
-    war_model: core
-    war_factors: *id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4531
+    lean_component_sd: 0.0305
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0015
+    fundraising_component_sd: 0.0001
+    demographics_tier: null
+    expected_share_resolved: 0.6292
+    war_resolved: 0.0901
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -230,25 +236,27 @@ results_by_year:
     war: -0.1208
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4015
-    own_tide: 0.3726
-    war_v2: -0.1259
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3382
+    lean_component_sd: 0.0157
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2119
-    lean_component_sd: 0.0124
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4015
-    expected_two_party_share_v2: 0.4066
-    war_resolved: -0.1259
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4066
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0244
+    fundraising_component_sd: 0.0019
+    demographics_tier: null
+    expected_share_resolved: 0.3748
+    war_resolved: -0.0941
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -258,24 +266,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2002
@@ -295,25 +301,27 @@ results_by_year:
     war: 0.2417
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4169
-    own_tide: 0.4745
-    war_v2: 0.2441
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4531
+    lean_component_sd: 0.0305
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.22
-    lean_component_sd: 0.0128
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.4169
-    expected_two_party_share_v2: 0.4145
-    war_resolved: 0.2441
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4145
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0039
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5565
+    war_resolved: 0.1021
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: John W. Murray
     slug: john-w-murray
     party: Republican
@@ -323,25 +331,27 @@ results_by_year:
     war: -0.2417
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5831
-    own_tide: 0.5255
-    war_v2: -0.1607
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3382
+    lean_component_sd: 0.0157
+    tide_component: 0.0046
+    tide_component_sd: 0.0169
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3077
-    lean_component_sd: 0.018
-    tide_component: -0.0012
-    tide_component_sd: 0.0188
-    expected_two_party_share: 0.5831
-    expected_two_party_share_v2: 0.5021
-    war_resolved: -0.1607
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.5021
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0253
+    fundraising_component_sd: 0.0019
+    demographics_tier: null
+    expected_share_resolved: 0.3752
+    war_resolved: -0.0338
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Donato H. Paglia
     slug: donato-h-paglia
     party: Other
@@ -351,24 +361,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: null
 title: 6th Essex (2001-2010)

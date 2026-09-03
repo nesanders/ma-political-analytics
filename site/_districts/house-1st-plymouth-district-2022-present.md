@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5485
+lean_dem_share_structural: 0.5548
 competitiveness: Lean
 competitiveness_label: Lean D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: -0.0258
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5485
-    own_tide: 0.6296
-    war_v2: 0.0391
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4681
+    lean_component_sd: 0.0315
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2894
-    lean_component_sd: 0.0169
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5485
-    expected_two_party_share_v2: 0.4836
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0097
+    fundraising_component: 0.0133
+    fundraising_component_sd: 0.001
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.532
-    lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.164
-    demographics_component_sd: 0.1251
-    expected_two_party_share_v3_demographics: 0.521
-    war_v3_demographics: 0.0017
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0017
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.521
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.5812
+    war_resolved: -0.0585
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Jesse G. Brown
     slug: jesse-g-brown
     party: Republican
@@ -76,39 +62,29 @@ results_by_year:
     war: 0.0258
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4515
-    own_tide: 0.3704
-    war_v2: 0.0443
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3252
+    lean_component_sd: 0.0151
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2383
-    lean_component_sd: 0.0139
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4515
-    expected_two_party_share_v2: 0.433
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0097
+    fundraising_component: 0.0223
+    fundraising_component_sd: 0.0017
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4379
-    lean_component_v3_demographics_sd: 0.0286
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.164
-    demographics_component_sd: 0.1251
-    expected_two_party_share_v3_demographics: 0.4518
-    war_v3_demographics: 0.0255
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0255
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4518
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.4082
+    war_resolved: 0.0691
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5611
@@ -127,39 +103,29 @@ results_by_year:
     war: 0.1387
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4389
-    own_tide: 0.3516
-    war_v2: 0.1512
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3252
+    lean_component_sd: 0.0151
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2316
-    lean_component_sd: 0.0135
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4389
-    expected_two_party_share_v2: 0.4264
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0097
+    fundraising_component: 0.0029
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4257
-    lean_component_v3_demographics_sd: 0.0278
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.164
-    demographics_component_sd: 0.1251
-    expected_two_party_share_v3_demographics: 0.4414
-    war_v3_demographics: 0.1362
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.1362
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4414
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3887
+    war_resolved: 0.1889
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Stephen Michael Palmer
     slug: stephen-michael-palmer
     party: Democratic
@@ -169,39 +135,29 @@ results_by_year:
     war: -0.1387
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5611
-    own_tide: 0.6484
-    war_v2: -0.0678
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4681
+    lean_component_sd: 0.0315
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2961
-    lean_component_sd: 0.0173
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5611
-    expected_two_party_share_v2: 0.4902
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0097
+    fundraising_component: -0.2104
+    fundraising_component_sd: 0.016
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5442
-    lean_component_v3_demographics_sd: 0.0355
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.164
-    demographics_component_sd: 0.1251
-    expected_two_party_share_v3_demographics: 0.5314
-    war_v3_demographics: -0.109
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.109
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5314
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3576
+    war_resolved: 0.0648
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 45312

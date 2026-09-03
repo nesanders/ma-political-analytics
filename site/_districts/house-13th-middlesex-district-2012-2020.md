@@ -11,6 +11,7 @@ years:
 - 2014
 - 2012
 lean_dem_share: 0.7603
+lean_dem_share_structural: 0.5749
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -32,28 +33,27 @@ results_by_year:
     war: -0.0704
     is_incumbent: true
     incumbent_terms: 3
-    own_lean: 0.7603
-    own_tide: 0.6712
-    war_v2: -0.049
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1436
-    incumbency_adjustment_sd: 0.0115
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.4012
-    lean_component_sd: 0.0234
-    tide_component: -0.0015
-    tide_component_sd: 0.024
-    expected_two_party_share: 0.7603
-    expected_two_party_share_v2: 0.7389
-    war_resolved: -0.049
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.7389
-    war_model: core
-    war_factors: &id001
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.485
+    lean_component_sd: 0.0327
+    tide_component: 0.0019
+    tide_component_sd: 0.0371
+    incumbency_adjustment: 0.0611
+    incumbency_adjustment_sd: 0.0211
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.003
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.6493
+    war_resolved: 0.0406
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   - name: Ingrid I. Centurion
     slug: ingrid-i-centurion
     party: Republican
@@ -63,25 +63,27 @@ results_by_year:
     war: 0.0704
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.2397
-    own_tide: 0.3288
-    war_v2: -0.0112
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3105
+    lean_component_sd: 0.0145
+    tide_component: 0.0029
+    tide_component_sd: 0.0106
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1265
-    lean_component_sd: 0.0074
-    tide_component: -0.0008
-    tide_component_sd: 0.0118
-    expected_two_party_share: 0.2397
-    expected_two_party_share_v2: 0.3213
-    war_resolved: -0.0112
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.3213
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0117
+    fundraising_component_sd: 0.0009
+    demographics_tier: null
+    expected_share_resolved: 0.3828
+    war_resolved: -0.0727
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.3149
@@ -100,25 +102,27 @@ results_by_year:
     war: 0.6851
     is_incumbent: true
     incumbent_terms: 2
-    own_lean: 0.3149
-    own_tide: 0.3321
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1461
-    incumbency_adjustment_sd: 0.0126
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1662
-    lean_component_sd: 0.0097
-    tide_component: -0.0008
-    tide_component_sd: 0.0119
-    expected_two_party_share: 0.3149
-    expected_two_party_share_v2: 0.5071
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.485
+    lean_component_sd: 0.0327
+    tide_component: 0.001
+    tide_component_sd: 0.0183
+    incumbency_adjustment: 0.0895
+    incumbency_adjustment_sd: 0.0223
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0259
+    fundraising_component_sd: 0.002
+    demographics_tier: null
+    expected_share_resolved: 0.6478
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5071
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.7304
@@ -137,25 +141,27 @@ results_by_year:
     war: 0.2696
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.7304
-    own_tide: 0.6465
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3854
-    lean_component_sd: 0.0225
-    tide_component: -0.0015
-    tide_component_sd: 0.0231
-    expected_two_party_share: 0.7304
-    expected_two_party_share_v2: 0.736
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.485
+    lean_component_sd: 0.0327
+    tide_component: 0.0019
+    tide_component_sd: 0.0357
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0227
+    fundraising_component_sd: 0.0017
+    demographics_tier: null
+    expected_share_resolved: 0.6371
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.736
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.4677
@@ -174,25 +180,27 @@ results_by_year:
     war: 0.5323
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4677
-    own_tide: 0.4902
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.485
+    lean_component_sd: 0.0327
+    tide_component: 0.0014
+    tide_component_sd: 0.0271
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2468
-    lean_component_sd: 0.0144
-    tide_component: -0.0011
-    tide_component_sd: 0.0175
-    expected_two_party_share: 0.4677
-    expected_two_party_share_v2: 0.4413
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0044
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5803
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4413
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2012
   lean_dem_share: 0.6012
@@ -211,25 +219,26 @@ results_by_year:
     war: 0.3988
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6012
-    own_tide: 0.6179
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.485
+    lean_component_sd: 0.0327
+    tide_component: 0.0018
+    tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3173
-    lean_component_sd: 0.0185
-    tide_component: -0.0014
-    tide_component_sd: 0.0221
-    expected_two_party_share: 0.6012
-    expected_two_party_share_v2: 0.5114
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: 0.585
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5114
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
   is_open_seat: null
 title: 13th Middlesex District (2012-2020)
 layout: district

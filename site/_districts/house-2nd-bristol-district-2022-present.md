@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5588
+lean_dem_share_structural: 0.5702
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.4412
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5588
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2949
-    lean_component_sd: 0.0172
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5588
-    expected_two_party_share_v2: 0.6455
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4811
+    lean_component_sd: 0.0324
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: 0.002
+    demographics_component_sd: 0.0081
+    fundraising_component: -0.0036
+    fundraising_component_sd: 0.0003
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.542
-    lean_component_v3_demographics_sd: 0.0354
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1551
-    demographics_component_sd: 0.1181
-    expected_two_party_share_v3_demographics: 0.5984
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6541
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5984
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Andrew Nelson
     slug: andrew-nelson
     party: Other
@@ -76,38 +62,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   - name: Patricia Bellfield
     slug: patricia-bellfield
@@ -118,38 +88,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
-    demographics_tier: null
-    intercept_component_v3_demographics: null
-    intercept_component_v3_demographics_sd: null
-    lean_component_v3_demographics: null
-    lean_component_v3_demographics_sd: null
-    tide_component_v3_demographics: null
-    tide_component_v3_demographics_sd: null
-    incumbency_adjustment_v3_demographics: null
-    incumbency_adjustment_v3_demographics_sd: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
     demographics_component: null
     demographics_component_sd: null
-    expected_two_party_share_v3_demographics: null
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2022
@@ -169,39 +123,29 @@ results_by_year:
     war: 0.0239
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5816
-    own_tide: 0.6484
-    war_v2: 0.1045
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4811
+    lean_component_sd: 0.0324
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3069
-    lean_component_sd: 0.0179
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5816
-    expected_two_party_share_v2: 0.501
+    demographics_component: 0.002
+    demographics_component_sd: 0.0081
+    fundraising_component: -0.0149
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5641
-    lean_component_v3_demographics_sd: 0.0368
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1551
-    demographics_component_sd: 0.1181
-    expected_two_party_share_v3_demographics: 0.5603
-    war_v3_demographics: 0.0452
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0452
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5603
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5682
+    war_resolved: 0.0373
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Steven Joseph Escobar
     slug: steven-joseph-escobar
     party: Republican
@@ -211,39 +155,29 @@ results_by_year:
     war: -0.0239
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4184
-    own_tide: 0.3516
-    war_v2: -0.0211
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.314
+    lean_component_sd: 0.0146
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2208
-    lean_component_sd: 0.0129
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4184
-    expected_two_party_share_v2: 0.4156
+    demographics_component: 0.002
+    demographics_component_sd: 0.0081
+    fundraising_component: -0.0162
+    fundraising_component_sd: 0.0012
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4058
-    lean_component_v3_demographics_sd: 0.0265
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1551
-    demographics_component_sd: 0.1181
-    expected_two_party_share_v3_demographics: 0.4305
-    war_v3_demographics: -0.036
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.036
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4305
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3605
+    war_resolved: 0.034
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 42780

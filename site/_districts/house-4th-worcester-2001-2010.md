@@ -11,6 +11,7 @@ years:
 - 2004
 - 2002
 lean_dem_share: 0.433
+lean_dem_share_structural: 0.5162
 competitiveness: Likely
 competitiveness_label: Likely R
 party_favored: Republican
@@ -32,28 +33,27 @@ results_by_year:
     war: 0.567
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.433
-    own_tide: 0.5355
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2285
-    lean_component_sd: 0.0133
-    tide_component: -0.0012
-    tide_component_sd: 0.0192
-    expected_two_party_share: 0.433
-    expected_two_party_share_v2: 0.5794
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4355
+    lean_component_sd: 0.0293
+    tide_component: 0.0016
+    tide_component_sd: 0.0296
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.0302
+    fundraising_component_sd: 0.0023
+    demographics_tier: null
+    expected_share_resolved: 0.5797
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5794
-    war_model: core
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5662
@@ -72,25 +72,27 @@ results_by_year:
     war: 0.4338
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5662
-    own_tide: 0.632
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4355
+    lean_component_sd: 0.0293
+    tide_component: 0.0018
+    tide_component_sd: 0.0349
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2988
-    lean_component_sd: 0.0174
-    tide_component: -0.0015
-    tide_component_sd: 0.0226
-    expected_two_party_share: 0.5662
-    expected_two_party_share_v2: 0.4929
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0039
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.5394
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4929
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -100,24 +102,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: true
 - year: 2006
@@ -137,25 +137,27 @@ results_by_year:
     war: 0.4197
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5803
-    own_tide: 0.6116
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3062
-    lean_component_sd: 0.0179
-    tide_component: -0.0014
-    tide_component_sd: 0.0219
-    expected_two_party_share: 0.5803
-    expected_two_party_share_v2: 0.6569
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4355
+    lean_component_sd: 0.0293
+    tide_component: 0.0018
+    tide_component_sd: 0.0338
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0024
+    fundraising_component_sd: 0.0002
+    demographics_tier: null
+    expected_share_resolved: 0.6125
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6569
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: Claire M. Freda
     slug: claire-m-freda
     party: Other
@@ -165,24 +167,22 @@ results_by_year:
     war: null
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: null
-    own_tide: null
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: null
-    incumbency_adjustment_sd: null
     intercept_component: null
     intercept_component_sd: null
     lean_component: null
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
-    expected_two_party_share: null
-    expected_two_party_share_v2: null
+    incumbency_adjustment: null
+    incumbency_adjustment_sd: null
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: null
+    fundraising_component_sd: null
+    demographics_tier: null
+    expected_share_resolved: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: null
-    war_model: null
     war_factors: null
   is_open_seat: false
 - year: 2004
@@ -202,25 +202,27 @@ results_by_year:
     war: 0.1119
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5785
-    own_tide: 0.6274
-    war_v2: 0.191
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4355
+    lean_component_sd: 0.0293
+    tide_component: 0.0018
+    tide_component_sd: 0.0347
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3053
-    lean_component_sd: 0.0178
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5785
-    expected_two_party_share_v2: 0.4994
-    war_resolved: 0.191
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4994
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0003
+    fundraising_component_sd: 0.0
+    demographics_tier: null
+    expected_share_resolved: 0.5359
+    war_resolved: 0.1545
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   - name: David G. Nault
     slug: david-g-nault
     party: Republican
@@ -230,25 +232,27 @@ results_by_year:
     war: -0.1119
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4215
-    own_tide: 0.3726
-    war_v2: -0.1076
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.3534
+    lean_component_sd: 0.0164
+    tide_component: 0.0032
+    tide_component_sd: 0.012
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2224
-    lean_component_sd: 0.013
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4215
-    expected_two_party_share_v2: 0.4172
-    war_resolved: -0.1076
-    war_resolved_sd: 0.1125
-    expected_share_resolved: 0.4172
-    war_model: core
-    war_factors: *id001
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: 0.0044
+    fundraising_component_sd: 0.0003
+    demographics_tier: null
+    expected_share_resolved: 0.4188
+    war_resolved: -0.1092
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.4231
@@ -267,25 +271,27 @@ results_by_year:
     war: 0.5769
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4231
-    own_tide: 0.4745
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4355
+    lean_component_sd: 0.0293
+    tide_component: 0.0014
+    tide_component_sd: 0.0262
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2233
-    lean_component_sd: 0.013
-    tide_component: -0.0011
-    tide_component_sd: 0.017
-    expected_two_party_share: 0.4231
-    expected_two_party_share_v2: 0.4178
+    demographics_component: null
+    demographics_component_sd: null
+    fundraising_component: -0.2104
+    fundraising_component_sd: 0.016
+    demographics_tier: null
+    expected_share_resolved: 0.3247
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4178
-    war_model: core
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - Campaign fundraising
   is_open_seat: null
 title: 4th Worcester (2001-2010)
 layout: district

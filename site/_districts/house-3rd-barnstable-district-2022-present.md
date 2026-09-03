@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5933
+lean_dem_share_structural: 0.5932
 competitiveness: Likely
 competitiveness_label: Likely D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.1536
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4067
-    own_tide: 0.3704
-    war_v2: -0.0056
-    war_v2_sd: 0.1125
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2146
-    lean_component_sd: 0.0125
-    tide_component: -0.0009
-    tide_component_sd: 0.0133
-    expected_two_party_share: 0.4067
-    expected_two_party_share_v2: 0.5659
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2972
+    lean_component_sd: 0.0138
+    tide_component: 0.0032
+    tide_component_sd: 0.0119
+    incumbency_adjustment: 0.1354
+    incumbency_adjustment_sd: 0.013
+    demographics_component: -0.0013
+    demographics_component_sd: 0.0126
+    fundraising_component: 0.0112
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3945
-    lean_component_v3_demographics_sd: 0.0257
-    tide_component_v3_demographics: -0.0356
-    tide_component_v3_demographics_sd: 0.0191
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1653
-    demographics_component_sd: 0.1276
-    expected_two_party_share_v3_demographics: 0.4656
-    war_v3_demographics: 0.0947
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0947
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4656
-    war_model: demographics_full
-    war_factors: &id001
+    expected_share_resolved: 0.5034
+    war_resolved: 0.0569
+    war_resolved_sd: 0.081
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -76,39 +62,28 @@ results_by_year:
     war: -0.1536
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5933
-    own_tide: 0.6296
-    war_v2: -0.0675
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5005
+    lean_component_sd: 0.0337
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3131
-    lean_component_sd: 0.0183
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5933
-    expected_two_party_share_v2: 0.5072
+    demographics_component: -0.0013
+    demographics_component_sd: 0.0126
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5754
-    lean_component_v3_demographics_sd: 0.0376
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1653
-    demographics_component_sd: 0.1276
-    expected_two_party_share_v3_demographics: 0.5632
-    war_v3_demographics: -0.1235
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.1235
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5632
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5992
+    war_resolved: -0.1595
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5931
@@ -127,39 +102,29 @@ results_by_year:
     war: 0.1473
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4069
-    own_tide: 0.3516
-    war_v2: 0.1447
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2972
+    lean_component_sd: 0.0138
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2147
-    lean_component_sd: 0.0125
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4069
-    expected_two_party_share_v2: 0.4095
+    demographics_component: -0.0013
+    demographics_component_sd: 0.0126
+    fundraising_component: -0.0069
+    fundraising_component_sd: 0.0005
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3947
-    lean_component_v3_demographics_sd: 0.0258
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1653
-    demographics_component_sd: 0.1276
-    expected_two_party_share_v3_demographics: 0.4092
-    war_v3_demographics: 0.145
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.145
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4092
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3497
+    war_resolved: 0.2045
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -169,39 +134,28 @@ results_by_year:
     war: -0.1473
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5931
-    own_tide: 0.6484
-    war_v2: -0.0613
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5005
+    lean_component_sd: 0.0337
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.313
-    lean_component_sd: 0.0183
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5931
-    expected_two_party_share_v2: 0.5071
+    demographics_component: -0.0013
+    demographics_component_sd: 0.0126
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5752
-    lean_component_v3_demographics_sd: 0.0375
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1653
-    demographics_component_sd: 0.1276
-    expected_two_party_share_v3_demographics: 0.5612
-    war_v3_demographics: -0.1154
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.1154
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5612
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5993
+    war_resolved: -0.1535
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
   is_open_seat: null
 demographics:
   total_population: 44408

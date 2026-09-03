@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.6119
+lean_dem_share_structural: 0.6308
 competitiveness: Safe
 competitiveness_label: Safe D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.3881
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.6119
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3229
-    lean_component_sd: 0.0188
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.6119
-    expected_two_party_share_v2: 0.6736
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5322
+    lean_component_sd: 0.0358
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0273
+    fundraising_component: -0.0123
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5935
-    lean_component_v3_demographics_sd: 0.0387
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1544
-    demographics_component_sd: 0.1192
-    expected_two_party_share_v3_demographics: 0.6506
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6943
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6506
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6497
@@ -85,39 +71,29 @@ results_by_year:
     war: -0.0577
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.6497
-    own_tide: 0.6484
-    war_v2: 0.055
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.5322
+    lean_component_sd: 0.0358
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3428
-    lean_component_sd: 0.02
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.6497
-    expected_two_party_share_v2: 0.537
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0273
+    fundraising_component: 0.0011
+    fundraising_component_sd: 0.0001
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.6301
-    lean_component_v3_demographics_sd: 0.0411
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1544
-    demographics_component_sd: 0.1192
-    expected_two_party_share_v3_demographics: 0.627
-    war_v3_demographics: -0.035
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.035
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.627
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.6332
+    war_resolved: -0.0412
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Paul J. Fullen
     slug: paul-j-fullen
     party: Republican
@@ -127,39 +103,29 @@ results_by_year:
     war: 0.0577
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.3503
-    own_tide: 0.3516
-    war_v2: 0.0284
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.2697
+    lean_component_sd: 0.0126
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.1849
-    lean_component_sd: 0.0108
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.3503
-    expected_two_party_share_v2: 0.3796
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0273
+    fundraising_component: -0.0086
+    fundraising_component_sd: 0.0007
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.3398
-    lean_component_v3_demographics_sd: 0.0222
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1544
-    demographics_component_sd: 0.1192
-    expected_two_party_share_v3_demographics: 0.3652
-    war_v3_demographics: 0.0428
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0428
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.3652
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3217
+    war_resolved: 0.0863
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 43466

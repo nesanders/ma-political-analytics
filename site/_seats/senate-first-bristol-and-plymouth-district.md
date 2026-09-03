@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.4647
+lean_dem_share_structural: 0.4921
 competitiveness: Lean
 competitiveness_label: Lean R
 party_favored: Republican
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.5353
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.4647
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2452
-    lean_component_sd: 0.0143
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.4647
-    expected_two_party_share_v2: 0.5959
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4152
+    lean_component_sd: 0.028
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: 0.0051
+    demographics_component_sd: 0.0162
+    fundraising_component: 0.0772
+    fundraising_component_sd: 0.0059
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4507
-    lean_component_v3_demographics_sd: 0.0294
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1534
-    demographics_component_sd: 0.1175
-    expected_two_party_share_v3_demographics: 0.5088
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6721
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5088
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5195
@@ -85,39 +71,29 @@ results_by_year:
     war: 0.0572
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5195
-    own_tide: 0.6484
-    war_v2: 0.1084
-    war_v2_sd: 0.1125
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4152
+    lean_component_sd: 0.028
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2741
-    lean_component_sd: 0.016
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5194
-    expected_two_party_share_v2: 0.4682
+    demographics_component: 0.0051
+    demographics_component_sd: 0.0162
+    fundraising_component: 0.0454
+    fundraising_component_sd: 0.0035
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5039
-    lean_component_v3_demographics_sd: 0.0329
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1534
-    demographics_component_sd: 0.1175
-    expected_two_party_share_v3_demographics: 0.5017
-    war_v3_demographics: 0.0749
-    war_v3_demographics_sd: 0.0631
-    war_resolved: 0.0749
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.5017
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.5657
+    war_resolved: 0.0109
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   - name: Russell T. Protentis
     slug: russell-t-protentis
     party: Republican
@@ -127,39 +103,29 @@ results_by_year:
     war: -0.0572
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.4805
-    own_tide: 0.3516
-    war_v2: -0.025
-    war_v2_sd: 0.1125
+    intercept_component: 0.0577
+    intercept_component_sd: 0.0188
+    lean_component: 0.371
+    lean_component_sd: 0.0173
+    tide_component: 0.0031
+    tide_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2536
-    lean_component_sd: 0.0148
-    tide_component: -0.0008
-    tide_component_sd: 0.0126
-    expected_two_party_share: 0.4806
-    expected_two_party_share_v2: 0.4484
+    demographics_component: 0.0051
+    demographics_component_sd: 0.0162
+    fundraising_component: -0.0595
+    fundraising_component_sd: 0.0045
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.466
-    lean_component_v3_demographics_sd: 0.0304
-    tide_component_v3_demographics: -0.0338
-    tide_component_v3_demographics_sd: 0.0181
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1534
-    demographics_component_sd: 0.1175
-    expected_two_party_share_v3_demographics: 0.4924
-    war_v3_demographics: -0.069
-    war_v3_demographics_sd: 0.0631
-    war_resolved: -0.069
-    war_resolved_sd: 0.0631
-    expected_share_resolved: 0.4924
-    war_model: demographics_full
-    war_factors: *id001
+    expected_share_resolved: 0.3774
+    war_resolved: 0.046
+    war_resolved_sd: 0.081
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 172232

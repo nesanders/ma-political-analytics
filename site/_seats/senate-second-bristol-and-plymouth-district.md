@@ -8,6 +8,7 @@ years:
 - 2024
 - 2022
 lean_dem_share: 0.5153
+lean_dem_share_structural: 0.5426
 competitiveness: Tossup
 competitiveness_label: Tossup D
 party_favored: Democratic
@@ -29,44 +30,29 @@ results_by_year:
     war: 0.4847
     is_incumbent: true
     incumbent_terms: 1
-    own_lean: 0.5153
-    own_tide: 0.6296
-    war_v2: null
-    war_v2_sd: null
-    incumbency_adjustment: 0.1565
-    incumbency_adjustment_sd: 0.0086
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.2719
-    lean_component_sd: 0.0159
-    tide_component: -0.0014
-    tide_component_sd: 0.0225
-    expected_two_party_share: 0.5153
-    expected_two_party_share_v2: 0.6226
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4578
+    lean_component_sd: 0.0308
+    tide_component: 0.0018
+    tide_component_sd: 0.0348
+    incumbency_adjustment: 0.0746
+    incumbency_adjustment_sd: 0.0193
+    demographics_component: 0.002
+    demographics_component_sd: 0.0199
+    fundraising_component: 0.0215
+    fundraising_component_sd: 0.0016
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.4998
-    lean_component_v3_demographics_sd: 0.0326
-    tide_component_v3_demographics: -0.0605
-    tide_component_v3_demographics_sd: 0.0325
-    incumbency_adjustment_v3_demographics: 0.0584
-    incumbency_adjustment_v3_demographics_sd: 0.0149
-    demographics_component: -0.1535
-    demographics_component_sd: 0.1176
-    expected_two_party_share_v3_demographics: 0.5578
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.6559
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5578
-    war_model: demographics_full
-    war_factors: &id001
+    war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      median income)
+      income)
+    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5699
@@ -85,39 +71,29 @@ results_by_year:
     war: 0.4301
     is_incumbent: false
     incumbent_terms: 0
-    own_lean: 0.5699
-    own_tide: 0.6484
-    war_v2: null
-    war_v2_sd: null
+    intercept_component: 0.0982
+    intercept_component_sd: 0.0341
+    lean_component: 0.4578
+    lean_component_sd: 0.0308
+    tide_component: 0.0019
+    tide_component_sd: 0.0358
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    intercept_component: 0.1956
-    intercept_component_sd: 0.0132
-    lean_component: 0.3007
-    lean_component_sd: 0.0176
-    tide_component: -0.0015
-    tide_component_sd: 0.0232
-    expected_two_party_share: 0.5699
-    expected_two_party_share_v2: 0.4948
+    demographics_component: 0.002
+    demographics_component_sd: 0.0199
+    fundraising_component: 0.0036
+    fundraising_component_sd: 0.0003
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2136
-    intercept_component_v3_demographics_sd: 0.1246
-    lean_component_v3_demographics: 0.5527
-    lean_component_v3_demographics_sd: 0.0361
-    tide_component_v3_demographics: -0.0623
-    tide_component_v3_demographics_sd: 0.0335
-    incumbency_adjustment_v3_demographics: 0.0
-    incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1535
-    demographics_component_sd: 0.1176
-    expected_two_party_share_v3_demographics: 0.5505
-    war_v3_demographics: null
-    war_v3_demographics_sd: null
+    expected_share_resolved: 0.5636
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5505
-    war_model: demographics_full
-    war_factors: *id001
+    war_factors:
+    - District lean
+    - Statewide tide
+    - Incumbency
+    - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
+      income)
+    - Campaign fundraising
   is_open_seat: null
 demographics:
   total_population: 167853
