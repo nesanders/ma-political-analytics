@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5467
     expected_two_party_share_v2: 0.6391
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5314
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5302
     lean_component_v3_demographics_sd: 0.0346
-    tide_component_v3_demographics: -0.0573
-    tide_component_v3_demographics_sd: 0.0401
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1646
-    demographics_component_sd: 0.1273
-    expected_two_party_share_v3_demographics: 0.5782
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1626
+    demographics_component_sd: 0.1241
+    expected_two_party_share_v3_demographics: 0.5791
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5782
+    expected_share_resolved: 0.5791
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.5663
     expected_two_party_share_v2: 0.4929
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5505
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5493
     lean_component_v3_demographics_sd: 0.0358
-    tide_component_v3_demographics: -0.059
-    tide_component_v3_demographics_sd: 0.0413
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1648
-    demographics_component_sd: 0.1274
-    expected_two_party_share_v3_demographics: 0.5373
+    demographics_component: -0.1626
+    demographics_component_sd: 0.1241
+    expected_two_party_share_v3_demographics: 0.5379
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5373
+    expected_share_resolved: 0.5379
     war_model: demographics_full
     war_factors: *id001
   - name: Michael D. Bean

@@ -29,20 +29,36 @@ site currently treats those the same.
 
 ## WAR (wins above replacement)
 
-**WAR = actual two-party vote share − expected share from district lean.**
+**WAR = actual two-party vote share − expected share from a fitted
+regression.** Positive means a candidate outperformed what the model
+expected; negative means they underperformed it. It's reported per
+contested race, for Democratic and Republican candidates only — a
+minor-party candidate has no meaningful two-party baseline to compare
+against, and an uncontested race has no meaningful "actual" side (an
+unopposed candidate's near-100% share is mechanically inflated, not
+earned against real competition) — so WAR is null in both cases.
 
-Positive WAR means a candidate did better than the district's partisan
-lean alone would predict; negative means they underperformed it. It's
-reported per-race, and only defined for Democratic and Republican
-candidates — a minor-party candidate has no meaningful "expected share"
-against a two-party baseline.
+The site always shows **one WAR figure per race, computed by the
+richest model that race's own data supports**: a core regression on
+district lean, statewide tide, and incumbency, extended with local
+demographics or a candidate's own campaign fundraising wherever the
+district or candidate has data for it. Every page's own **Factors**
+column says which pieces actually went into that specific number.
+
+Whether or not a race was contested, the model's **expected share** is
+always defined — what a generic candidate of that party would be
+expected to get here, from the same factors, without depending on the
+actual outcome. It's shown in its own column everywhere WAR itself
+would be, and it's the one number on this site that answers "how strong
+should this seat's environment be for this party" even when the race
+gave no real signal.
 
 WAR here is **adapted from, not identical to,** the WAR metric published
 by the election-analytics outlet
-[Split Ticket](https://split-ticket.org/) for federal races (since
-~2022), which is itself the applied descendant of a real academic
-literature on decomposing vote share into a normal-vote (partisan
-baseline) component and a residual attributable to the candidate:
+[Split Ticket](https://split-ticket.org/) for federal races, itself the
+applied descendant of an academic literature on decomposing vote share
+into a normal-vote (partisan baseline) component and a residual
+attributable to the candidate:
 
 - Gelman, A. & King, G. (1990). "Estimating Incumbency Advantage Without
   Bias." *American Journal of Political Science*, 34(4).
@@ -56,49 +72,22 @@ baseline) component and a residual attributable to the candidate:
   Science*, 54(2) — the "candidate valence" framing this residual fits
   into.
 
-**This adaptation differs from Split Ticket's own method in ways worth
-being explicit about, not hidden:**
+Two differences from Split Ticket's own method, worth naming rather than
+hiding: this fits **Massachusetts state legislative races** (House and
+Senate), not federal — smaller electorates, more uncontested races, and
+much thinner public polling/finance data per race than a Congressional
+race has, and this project's own fit throughout, not theirs; and this
+site's lean baseline has to cross **three Massachusetts redistricting
+vintages** (2001-2010, 2012-2020, 2022-present), where Split Ticket's
+federal-district baseline doesn't face that at the same scale.
 
-- *Different population*: Massachusetts state legislative races (House
-  and Senate), not federal — smaller electorates, a higher share of
-  uncontested races, and much thinner public polling/finance data per
-  race than a Congressional or Senate race has.
-- *One number, several models feeding it*: the site shows a single WAR
-  figure per race, always computed by the richest model that specific
-  race's own data supports — a core regression on district lean,
-  statewide tide, and incumbency, extended with local demographics or
-  campaign fundraising wherever a district or candidate has data for it
-  (same spirit as Split Ticket's approach, but this project's own fit,
-  not theirs). See "The core regression model" and "Demographics and
-  campaign finance extensions" below for the formulas and the real
-  coefficients, and each page's own "Factors" column for which pieces
-  went into that specific number.
-- *Different redistricting handling*: this site's lean baseline has to
-  cross three Massachusetts redistricting vintages (2001-2010, 2012-2020,
-  2022-present); Split Ticket's federal-district baseline doesn't face
-  that at the same scale.
+**Every fitted effect below, on one comparable scale** — standardized to
+vote-share points per 1 standard deviation of that predictor (see "Why
+Bayesian, not ordinary least squares" below for why), so a 0-1 lean, a
+0/1 incumbency term, and a log-dollar fundraising total all read side by
+side:
 
-**A known limitation of a lean-only baseline**: an uncontested major-party
-candidate mechanically gets an actual two-party share of 100% (there's no
-opponent to divide the vote against), which would inflate a lean-only
-comparison regardless of how strong a candidate they actually are.
-
-**The regression models below handle this by defining WAR as null (not
-shown) for an uncontested race**, rather than a mechanically-inflated
-number. Holding a seat the environment says should be competitive,
-uncontested, is a real signal — but there's no meaningful "actual vs.
-expected" gap to report when the "actual" side is degenerate. What's
-shown instead, everywhere WAR itself would be, is **expected share**:
-what the fitted model expects a generic candidate of that party to get
-here, from district lean, statewide tide, and incumbency (and, where it
-applies, demographics or fundraising) alone. Unlike WAR, expected share
-never depends on the actual outcome, so it's defined whether or not the
-race was contested — the one number on this site that answers "how
-strong should this seat's environment be for this party" even when the
-race itself gave no real signal. It's the same number that's always been
-computed as the regression's `expected_two_party_share` under the hood
-(see below); it's just now surfaced directly, in its own column, on every
-district, seat, and candidate page.
+<div id="war-overview-chart" role="img" aria-label="Forest plot of every model's standardized coefficients, colored by which model fits it, with 95% credible intervals"></div>
 
 ## The core regression model
 
@@ -232,104 +221,78 @@ change in what the model guarantees.
 ## Demographics and campaign finance extensions
 
 Two further regressions, built the same Bayesian way as the core model
-above, extend it with demographics and campaign finance — the remaining
-fundamentals this project's original design called for (same spirit as
+above, extend it with local demographics and campaign fundraising — the
+remaining fundamentals this project's design calls for (same spirit as
 Split Ticket's approach, this project's own fit, not theirs). **Each
-extension is only folded into a candidate's actual WAR number where that
+extension folds into a candidate's actual WAR number only where that
 specific district or candidate has the data to support it** — both fit
-on real but genuinely thin slices of this site's data, for reasons
-specific to what's been fetched so far, not an oversight; where the data
-falls short, the site falls back to the core model above and the
-Factors column says so:
+on real but genuinely thin slices of this site's data, a coverage limit
+rather than an oversight; where the data falls short, the site falls
+back to the core model above and the Factors column says so.
 
 {% if site.data.war_v3_demographics.core or site.data.war_v3_demographics.full %}
-**Demographics** extends the core model with district-level Census fields
-(2020 PL 94-171 + 2022 ACS 5-year, current 2022-present vintage only). It's
-fit in **two tiers,
-falling back gracefully rather than all-or-nothing**: a district missing
-some Census fields still gets a simpler version of this extension
-instead of being dropped from the demographics model entirely.
+**Demographics** adds district-level Census fields (2020 PL 94-171 +
+2022 ACS 5-year, current 2022-present vintage only), fit in **two
+tiers that fall back gracefully rather than all-or-nothing** — a
+district missing some Census fields still gets a simpler version of
+this extension instead of being dropped entirely:
 
 {% if site.data.war_v3_demographics.core %}
-The **core** tier ({{ site.data.war_v3_demographics.core.n }} candidate-races,
-R² = {{ site.data.war_v3_demographics.core.r_squared }}) needs only
-bachelor's-degree-or-higher share of population — the "diploma divide"
-variable most associated with recent-era partisan realignment — plus its
-interaction with statewide tide. This is the fallback every current-vintage
-district with *any* Census match can use, including the ones a name-matching
-gap has kept out of the full tier below (see "Campaign finance" and this
-site's own pipeline notes — Census's own district-name spelling doesn't
-always match this project's boundary data cleanly, especially for Senate
-seats spanning multiple counties). Census demographics only exist for the
-current vintage, which so far has **{{ site.data.war_v3_demographics.core.n_distinct_years }}
-election years on record (2022 and 2024)** — enough within-year variation
-across districts to estimate the interaction, but nowhere near enough
-cycles to trust it as a stable multi-year trend rather than two elections'
-worth of noise. Its prior is deliberately tighter than its own main
-effect's for exactly that reason.
-
-<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the demographics extension's core tier's two added coefficients with 95% credible intervals"></div>
-
-| Term | Posterior mean | 95% credible interval |
-|---|---|---|
-| Bachelor's degree % | {{ site.data.war_v3_demographics.core.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.core.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.core.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
-| Bachelor's degree % × tide | {{ site.data.war_v3_demographics.core.coefficients.bachelors_pct_x_tide.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.core.coefficients.bachelors_pct_x_tide.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.core.coefficients.bachelors_pct_x_tide.ci_95_high | round: 3 }}] |
+- **Core** ({{ site.data.war_v3_demographics.core.n }} candidate-races,
+  R² = {{ site.data.war_v3_demographics.core.r_squared }}): bachelor's-
+  degree-or-higher share of population alone — the "diploma divide"
+  variable most associated with recent-era partisan realignment. This is
+  the fallback every current-vintage district with *any* Census match
+  can use, including ones a PL 94-171 name-matching gap keeps out of the
+  full tier (Census's own district-name spelling doesn't always match
+  this project's boundary data cleanly, especially for Senate seats
+  spanning multiple counties — see `pipeline/README.md`).
+{% endif %}
+{% if site.data.war_v3_demographics.full %}
+- **Full** ({{ site.data.war_v3_demographics.full.n }} candidate-races,
+  R² = {{ site.data.war_v3_demographics.full.r_squared }}): adds
+  Hispanic-or-Latino population share, voting-age population share, and
+  median household income (per $10,000) — restricted to districts with a
+  real PL 94-171 match, since the two population-share terms need it
+  specifically (a district with only ACS data, like the core tier's
+  fallback districts, can't compute them).
 {% endif %}
 
-{% if site.data.war_v3_demographics.full %}
-The **full** tier ({{ site.data.war_v3_demographics.full.n }} candidate-races,
-R² = {{ site.data.war_v3_demographics.full.r_squared }}) adds three more
-Census fields this project already fetches but had never threaded into any
-regression — Hispanic-or-Latino population share, voting-age population
-share, and median household income (in $10,000 units) — restricted to
-districts with a real 2020 PL 94-171 match (the two population-share terms
-need it specifically; a district with only ACS data, like the core tier's
-fallback districts, can't compute them). Hispanic-or-Latino population and
-income are already shown in each district's own Demographics section
-above — this is the first time either is used *in* a regression rather
-than just displayed.
+Both tiers re-estimate lean, tide, and incumbency on their own
+(current-vintage-only) samples rather than borrowing the core model's
+coefficients:
 
-<div id="war-v3-demographics-full-forest-chart" role="img" aria-label="Forest plot of the demographics extension's full tier's three added coefficients with 95% credible intervals"></div>
+{% if site.data.war_v3_demographics.core %}
+<div id="war-v3-demographics-forest-chart" role="img" aria-label="Forest plot of the demographics extension's core tier's added coefficient with a 95% credible interval"></div>
+{% endif %}
+{% if site.data.war_v3_demographics.full %}
+<div id="war-v3-demographics-full-forest-chart" role="img" aria-label="Forest plot of the demographics extension's full tier's added coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
+| Bachelor's degree % | {{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.bachelors_pct.ci_95_high | round: 3 }}] |
 | Hispanic or Latino % | {{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.hispanic_pct.ci_95_high | round: 3 }}] |
 | Voting-age % | {{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.posterior_mean | round: 3 }} | [{{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.ci_95_low | round: 3 }}, {{ site.data.war_v3_demographics.full.coefficients.voting_age_pct.ci_95_high | round: 3 }}] |
 | Median household income (per $10k) | {{ site.data.war_v3_demographics.full.coefficients.income_10k.posterior_mean | round: 4 }} | [{{ site.data.war_v3_demographics.full.coefficients.income_10k.ci_95_low | round: 4 }}, {{ site.data.war_v3_demographics.full.coefficients.income_10k.ci_95_high | round: 4 }}] |
 
-Both tiers re-estimate lean, tide, and incumbency alongside their own
-added terms, on their own (much smaller, current-vintage-only) samples —
-neither just borrows the core model's coefficients. Every term the full
-tier fits, not just the newest three, on one genuinely comparable scale:
-each posterior draw scaled by that predictor's own standard deviation in
-this fit's sample, so continuous slopes, a 0/1 incumbency dummy, and
-population-share/income terms can all be read as "vote-share points per 1
-SD of this predictor":
+Every term the full tier fits, on the same standardized scale as the
+overview chart above:
 
-<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all ten of the demographics extension's full tier's non-intercept coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
+<div id="war-v3-demographics-standardized-chart" role="img" aria-label="Forest plot of all nine of the demographics extension's full tier's non-intercept coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
 {% endif %}
 
 Neither tier's Demographics slice is chosen per-race — it's chosen per
 **district**: a district with a full Census match uses the full tier's
-combined bachelors/Hispanic/voting-age/income effect everywhere on that
-district's own pages; a district with only a partial match uses the core
-tier's bachelors-only effect instead; a district with no match at all
-still falls back to the core model alone, same as before this tiering existed.
+combined effect everywhere on that district's own pages; a district with
+only a partial match uses the core tier's bachelors-only effect instead;
+a district with no match at all falls back to the core model alone.
 
-**On a district or seat page's own per-race attribution chart, the
-bachelors-degree-rate × tide interaction is split, not credited whole to
-either bar.** The two coefficients above are fit terms in the regression
-itself and don't change; what changed is how a single race's predicted
-share gets divided up for the stacked bar. Handing 100% of the
-interaction's contribution to the Demographics bar (as an earlier version
-of this chart did) is an arbitrary choice — the interaction is literally
-the product of bachelors-degree rate and that year's tide, a joint
-property of both, not purely either one's. The chart now uses the
-two-player Shapley value (the standard game-theoretic way to divide a
-joint effect fairly): each bar gets its own main effect plus exactly half
-of the interaction, and the two halves always sum back to the full
-interaction term, so the race's total predicted share is unchanged —
-only which bar the money shows up in.
+Neither tier fits an interaction with tide (e.g. "does a district's
+education level swing more or less with the national mood than average")
+— an interaction is only as identified as the number of distinct
+election years in the fit, and demographics only covers **{{ site.data.war_v3_demographics.full.n_distinct_years | default: site.data.war_v3_demographics.core.n_distinct_years }}
+election years on record** (the current, 2022-present vintage), nowhere
+near enough to trust one over just two elections' worth of noise.
 {% endif %}
 
 {% if site.data.war_v3_finance %}
@@ -338,18 +301,10 @@ across {{ site.data.war_v3_finance.n_distinct_years }} election years,
 R² = {{ site.data.war_v3_finance.r_squared }}) adds a candidate's own OCPF
 total raised that cycle (log-transformed — fundraising totals are heavily
 right-skewed), restricted to candidates `campaign_finance_match` actually
-matched to an OCPF filer (see "Campaign finance" below). OCPF's bulk
-export now covers the full 2002-2024 range this project backfills
-elsewhere, so statewide tide is back in this fit as a real term — with
-genuine cross-year variation to work with, it's no longer collinear with
-the intercept the way it was when this was fit on a single year's races.
-
-Unlike the demographics extension above, this fit re-estimates lean,
-tide, **and** incumbency too, alongside the new fundraising term — it
-doesn't drop any of the core model's terms, just adds one to them. Just
-the new term charted below, on its own scale — log(dollars) moves in much
-smaller coefficient units than lean/tide do, so plotting it next to them
-would make a clearly-nonzero effect look like it hugs zero:
+matched to an OCPF filer (see "Campaign finance" below). Unlike the
+demographics extension above, this fit re-estimates lean, tide, **and**
+incumbency too, alongside the new fundraising term — it doesn't drop any
+of the core model's terms, just adds one:
 
 <div id="war-v3-finance-forest-chart" role="img" aria-label="Forest plot of the campaign finance extension's fundraising coefficient with a 95% credible interval"></div>
 
@@ -362,62 +317,45 @@ would make a clearly-nonzero effect look like it hugs zero:
 | Incumbent, 3rd+ term | {{ site.data.war_v3_finance.coefficients.incumbent_3plus.posterior_mean | round: 3 }} | [{{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_low | round: 3 }}, {{ site.data.war_v3_finance.coefficients.incumbent_3plus.ci_95_high | round: 3 }}] |
 | log(total raised + 1) | {{ site.data.war_v3_finance.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_v3_finance.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_v3_finance.coefficients.log_raised.ci_95_high | round: 4 }}] |
 
-A positive, clearly-nonzero coefficient on logged fundraising (95% credible
-interval entirely above zero) says money and vote share move together in
-this data even after accounting for lean, tide, and incumbency — the
-expected direction, and one this site can now say with real confidence
-across two decades of races rather than one cycle's snapshot.
-
-All six of this fit's terms, standardized to the same per-1-SD-of-predictor
-scale as the demographics comparison above — this is the fairest way to
-ask "how big is fundraising's effect, really, next to lean or incumbency":
+A positive, clearly-nonzero coefficient on logged fundraising (95%
+credible interval entirely above zero) says money and vote share move
+together in this data even after accounting for lean, tide, and
+incumbency, across two decades of races:
 
 <div id="war-v3-finance-standardized-chart" role="img" aria-label="Forest plot of all six of the campaign finance extension's coefficients, standardized to a common per-1-SD-of-predictor scale, with 95% credible intervals"></div>
 
 **On a candidate page's own per-race attribution chart, the Fundraising
-bar is centered on this fit's own mean log-dollar total, not on $0.** The
-coefficient above (`log(total raised + 1)`) is genuinely small, but its
+bar is centered on this fit's own mean log-dollar total, not on $0.**
+`log(total raised + 1)`'s coefficient above is genuinely small, but its
 predictor lives on a log-dollar scale (typically 7–14 across real
 candidates) rather than the 0–1 fraction lean, tide, and the demographics
 terms use — multiplying that small coefficient by a raw value in the
 7–14 range, rather than by how far it sits from a *typical* matched
-candidate's total, made the bar look disproportionately large purely from
-comparing against an impossible $0-raised baseline. Centering it removes
-that artifact: the bar now reads as "how this candidate's fundraising
-compares to a typical matched candidate's," in real vote-share points,
-with the removed constant folded into the chart's Baseline bar instead —
-the total predicted share for the race is unchanged.
-
-On this standardized scale, a 1-SD swing in a candidate's own district
-lean still moves the needle more than a 1-SD swing in logged fundraising
-does — but fundraising's standardized effect lands in the same
-neighborhood as the incumbency terms', not dwarfed by them the way the
-native-unit table above might suggest at a glance.
+candidate's total, would make the bar disproportionately large purely
+from comparing against an impossible $0-raised baseline. Centering it
+avoids that: the bar reads as "how this candidate's fundraising compares
+to a typical matched candidate's," in real vote-share points, with the
+removed constant folded into the chart's Baseline bar instead — the
+total predicted share for the race is unchanged.
 {% endif %}
 
-Still not folded into any candidate's actual WAR number the way v2 is:
-even with the full finance backfill, only candidates with a confident OCPF
-match get a fundraising term at all, and demographics still only covers
-two current-vintage elections — both real, narrower-than-v2 slices of the
-data, not an oversight. More elections landing in the current
-redistricting vintage over time would directly widen what the
-demographics extension can support.
-
-Both extensions **are** threaded into their respective attribution charts,
-though, wherever they actually apply: a candidate page's "What drives
-replacement level, by year" chart uses the finance extension for any year
-with a matched OCPF total (falling back to v2 for years without one), and
-a district or seat page's chart does the same with the demographics
-extension for districts with a current-vintage match. Each of those pages
-also now has a companion forest-style chart, right below the stacked bar,
-showing the same components with an approximate 95% interval instead of
-just a point estimate — the stacked bar is good at showing what a share
-is made of, not at showing how confidently. Those intervals come from the
-same delta-method shortcut as everywhere else on this page: each
-component's uncertainty approximated as `|covariate value| × that
-coefficient's own posterior SD`, treating coefficients as independent of
-each other rather than propagating their full joint posterior — a known
-simplification, not a full solution.
+Neither extension is folded into every candidate's WAR the way the core
+model is — campaign finance only where `campaign_finance_match` found a
+confident OCPF match, demographics only for the current redistricting
+vintage — but both **are** threaded into their attribution charts
+wherever they apply: a candidate page's "What drives replacement level,
+by year" chart uses the finance extension for any year with a matched
+OCPF total (falling back to the core model otherwise), and a district or
+seat page's chart does the same with the demographics extension for
+districts with a current-vintage match. Each of those pages also has a
+companion forest-style chart, right below the stacked bar, showing the
+same components as a point plus an approximate 95% interval — the
+stacked bar is good at showing what a share is made of, not at showing
+how confidently. Those intervals use the same delta-method shortcut as
+everywhere else on this page: each component's uncertainty approximated
+as `|covariate value| × that coefficient's own posterior SD`, treating
+coefficients as independent of each other rather than propagating their
+full joint posterior — a known simplification, not a full solution.
 
 ## Turnout
 
@@ -691,18 +629,97 @@ including the exact code that computes everything on this page.
     ],
     methodologyCssVar("--war-incumbency")
   );
+
+  // --- Model overview: every fitted effect, one comparable scale ---------
+  (function () {
+    const overviewCoreCoefs = {{ site.data.war_v2.coefficients | jsonify }};
+    const rows = [
+      { term: "District lean", model: "Core", key: "own_lean" },
+      { term: "Statewide tide", model: "Core", key: "own_tide" },
+      { term: "Incumbency, 1st term", model: "Core", key: "incumbent_1" },
+      { term: "Incumbency, 2nd term", model: "Core", key: "incumbent_2" },
+      { term: "Incumbency, 3rd+ term", model: "Core", key: "incumbent_3plus" },
+    ].map((r) => {
+      const c = overviewCoreCoefs[r.key];
+      return { term: r.term, model: r.model, mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high };
+    });
+    {% if site.data.war_v3_demographics.full %}
+    (function () {
+      const demoCoefs = {{ site.data.war_v3_demographics.full.coefficients | jsonify }};
+      [
+        ["Bachelor's degree %", "bachelors_pct"],
+        ["Hispanic or Latino %", "hispanic_pct"],
+        ["Voting-age %", "voting_age_pct"],
+        ["Median household income", "income_10k"],
+      ].forEach(([term, key]) => {
+        const c = demoCoefs[key];
+        rows.push({ term: term, model: "Demographics", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
+      });
+    })();
+    {% endif %}
+    {% if site.data.war_v3_finance %}
+    (function () {
+      const c = {{ site.data.war_v3_finance.coefficients | jsonify }}.log_raised;
+      rows.push({ term: "Campaign fundraising (logged)", model: "Campaign finance", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
+    })();
+    {% endif %}
+    const termOrder = rows.map((r) => r.term);
+    const modelColor = {
+      "Core": methodologyCssVar("--war-incumbency"),
+      "Demographics": methodologyCssVar("--war-extra"),
+      "Campaign finance": methodologyCssVar("--war-residual"),
+    };
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": Math.max(160, rows.length * 34),
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0 }] },
+          "mark": { "type": "rule", "strokeDash": [4, 2] },
+          "encoding": { "x": { "field": "x", "type": "quantitative", "title": "Standardized effect (vote-share points per 1 SD of predictor)" }, "color": { "value": methodologyCssVar("--gridline") } }
+        },
+        {
+          "data": { "values": rows },
+          "mark": { "type": "rule", "size": 2 },
+          "encoding": {
+            "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
+            "x": { "field": "lo", "type": "quantitative" },
+            "x2": { "field": "hi" },
+            "color": { "field": "model", "type": "nominal", "title": "Model", "scale": { "domain": Object.keys(modelColor), "range": Object.values(modelColor) } }
+          }
+        },
+        {
+          "data": { "values": rows },
+          "mark": { "type": "point", "filled": true, "size": 90 },
+          "encoding": {
+            "y": { "field": "term", "type": "nominal", "sort": termOrder, "title": null },
+            "x": { "field": "mean", "type": "quantitative" },
+            "color": { "field": "model", "type": "nominal", "title": "Model", "scale": { "domain": Object.keys(modelColor), "range": Object.values(modelColor) } },
+            "tooltip": [
+              { "field": "term", "title": "Term" },
+              { "field": "model", "title": "Model" },
+              { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Standardized effect" },
+              { "field": "lo", "type": "quantitative", "format": ".4f", "title": "95% CI low" },
+              { "field": "hi", "type": "quantitative", "format": ".4f", "title": "95% CI high" }
+            ]
+          }
+        }
+      ],
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#war-overview-chart", spec, { actions: false }).catch(console.error);
+  })();
   {% endif %}
 
   {% if site.data.war_v3_demographics.core %}
   renderForestChart(
     "war-v3-demographics-forest-chart",
     {{ site.data.war_v3_demographics.core.coefficients | jsonify }},
-    [
-      ["Bachelor's degree %", "bachelors_pct"],
-      ["Bachelor's degree % × tide", "bachelors_pct_x_tide"],
-    ],
+    [["Bachelor's degree %", "bachelors_pct"]],
     methodologyCssVar("--war-tide"),
-    120
+    90
   );
   {% endif %}
   {% if site.data.war_v3_demographics.full %}
@@ -710,12 +727,13 @@ including the exact code that computes everything on this page.
     "war-v3-demographics-full-forest-chart",
     {{ site.data.war_v3_demographics.full.coefficients | jsonify }},
     [
+      ["Bachelor's degree %", "bachelors_pct"],
       ["Hispanic or Latino %", "hispanic_pct"],
       ["Voting-age %", "voting_age_pct"],
       ["Median household income (per $10k)", "income_10k"],
     ],
     methodologyCssVar("--war-tide"),
-    150
+    180
   );
   renderForestChart(
     "war-v3-demographics-standardized-chart",
@@ -727,13 +745,12 @@ including the exact code that computes everything on this page.
       ["Incumbent, 2nd term", "incumbent_2"],
       ["Incumbent, 3rd+ term", "incumbent_3plus"],
       ["Bachelor's degree %", "bachelors_pct"],
-      ["Bachelor's degree % × tide", "bachelors_pct_x_tide"],
       ["Hispanic or Latino %", "hispanic_pct"],
       ["Voting-age %", "voting_age_pct"],
       ["Median household income (per $10k)", "income_10k"],
     ],
     methodologyCssVar("--war-extra"),
-    340,
+    310,
     true
   );
   {% endif %}

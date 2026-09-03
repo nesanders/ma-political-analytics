@@ -227,11 +227,7 @@ def _incumbent_term_dummies(terms: int) -> dict[str, float]:
 # literature methodology.md already cites, not fit from this project's
 # own preliminary numbers) with real shrinkage (sd 0.08) — useful given
 # how unevenly sized the three buckets are (far fewer 3+-term incumbents
-# than 1-term ones). `bachelors_pct_x_tide` gets a deliberately *tighter*
-# prior than its own main effect: it's the interaction term identified by
-# only two distinct tide values (2022, 2024 — see
-# fit_war_v3_demographics_core), so it needs the most regularizing of
-# anything fit here. `log_raised`'s prior is scaled for a variable that
+# than 1-term ones). `log_raised`'s prior is scaled for a variable that
 # itself spans roughly log($1k) to log($1M) (~7-14). `hispanic_pct` and
 # `voting_age_pct` are proportions like `bachelors_pct`, so they share its
 # prior. `income_10k` is median household income in $10,000 units (so a
@@ -241,6 +237,23 @@ def _incumbent_term_dummies(terms: int) -> dict[str, float]:
 # unit than a full 0-to-1 population share, so the same substantive belief
 # ("this shouldn't move vote share by double-digit points on its own")
 # implies a much smaller per-unit coefficient.
+#
+# Deliberately no interaction terms (e.g. a demographic field × tide, to
+# ask "does this district trait change how much it swings with the
+# national mood"): an interaction with tide is only as identified as the
+# number of distinct tide values in the fit, i.e. distinct election
+# years, and every term here still has too few to trust one — demographics
+# only covers the current vintage's 2 elections (2022, 2024); even
+# finance's log_raised, with a real 12 years of backfill, has no specific
+# hypothesis motivating one yet. An earlier version of this project fit
+# `bachelors_pct_x_tide` anyway (on exactly those 2 years), which turned
+# out to be a cherry-picked, thinly-identified special case rather than a
+# principled choice — chosen because "diploma divide" is the term the
+# realignment literature discusses, not because the data supported it
+# better than, say, testing every continuous covariate the same way. If a
+# term earns an interaction in the future, the honest bar is a predictor
+# with enough distinct years to show real variation in the interaction
+# itself (a rule of thumb: 4+), not just "we thought to try it."
 _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "intercept": (0.5, 0.2),
     "own_lean": (1.0, 0.4),
@@ -249,7 +262,6 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "incumbent_2": (0.05, 0.08),
     "incumbent_3plus": (0.05, 0.08),
     "bachelors_pct": (0.0, 0.3),
-    "bachelors_pct_x_tide": (0.0, 0.2),
     "hispanic_pct": (0.0, 0.3),
     "voting_age_pct": (0.0, 0.3),
     "income_10k": (0.0, 0.02),
@@ -646,7 +658,6 @@ def _build_demographics_rows(
                     "own_lean": own_lean,
                     "own_tide": own_tide,
                     "bachelors_pct": covariates["bachelors_pct"],
-                    "bachelors_pct_x_tide": covariates["bachelors_pct"] * own_tide,
                     "year": entry["year"],
                 }
                 if "hispanic_pct" in required_covariates:
@@ -664,22 +675,14 @@ def fit_war_v3_demographics_core(
     current_vintage: str,
 ) -> dict | None:
     """A diagnostic extension of the WAR v2 core model (fit_war_v2_core),
-    adding district demographics and a demographics x tide interaction —
-    "does a district's education level change how much it swings with the
-    statewide tide." Deliberately NOT threaded into every candidate's
-    war_v2 field the way the core model is: demographics (Census PL
-    94-171/ACS, see demographics_match.py) only exist for the current,
-    2022-present redistricting vintage, which as of this backfill has
-    exactly two election years on record (2022, 2024) — so the tide side
-    of the interaction has only two distinct values across the whole fit.
-    That's enough to estimate the interaction (there's real within-year
-    variation in demographics across districts), but nowhere near enough
-    to trust it as a stable multi-cycle trend rather than two elections'
-    worth of noise — which is exactly why its prior (_COEFFICIENT_PRIORS)
-    is deliberately tighter than its own main effect's, and why this is
-    reported as a labeled methodology-page diagnostic, not folded into
-    the site's main per-candidate WAR number (which needs to stay defined
-    and comparable across the full 2002-2024 backfill).
+    adding district demographics. Deliberately NOT threaded into every
+    candidate's war_v2 field the way the core model is: demographics
+    (Census PL 94-171/ACS, see demographics_match.py) only exist for the
+    current, 2022-present redistricting vintage, which as of this backfill
+    has exactly two election years on record (2022, 2024) — not remotely
+    enough to also fit an interaction with tide (see the module-level
+    comment above _COEFFICIENT_PRIORS for why this deliberately doesn't
+    try), so this stays a main-effects-only fit until more cycles land.
 
     This is the "core" tier — bachelor's-degree-or-higher share of
     population alone, the "diploma divide" variable most associated with
@@ -693,26 +696,13 @@ def fit_war_v3_demographics_core(
     if len(rows) < 20:
         return None
     df = pd.DataFrame(rows)
-    feature_names = [
-        "intercept",
-        "own_lean",
-        "own_tide",
-        *INCUMBENT_TERM_BUCKETS,
-        "bachelors_pct",
-        "bachelors_pct_x_tide",
-    ]
+    feature_names = ["intercept", "own_lean", "own_tide", *INCUMBENT_TERM_BUCKETS, "bachelors_pct"]
     x = np.column_stack(
         [np.ones(len(df)), df["own_lean"].to_numpy(), df["own_tide"].to_numpy()]
         + [df[b].to_numpy() for b in INCUMBENT_TERM_BUCKETS]
-        + [df["bachelors_pct"].to_numpy(), df["bachelors_pct_x_tide"].to_numpy()]
+        + [df["bachelors_pct"].to_numpy()]
     )
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
-    # Not own_tide's own nunique: own_tide is flipped per-party (tide vs.
-    # 1 - tide), so it takes up to 2x as many distinct values as there are
-    # actual election years — that reflection isn't independent evidence
-    # about how the tide moves cycle to cycle, so counting years directly
-    # is the honest measure of how thin this interaction's identification
-    # really is (see this function's own docstring).
     fit["n_distinct_years"] = int(df["year"].nunique())
     return fit
 
@@ -745,7 +735,6 @@ def fit_war_v3_demographics_full(
         "own_tide",
         *INCUMBENT_TERM_BUCKETS,
         "bachelors_pct",
-        "bachelors_pct_x_tide",
         "hispanic_pct",
         "voting_age_pct",
         "income_10k",
@@ -755,7 +744,6 @@ def fit_war_v3_demographics_full(
         + [df[b].to_numpy() for b in INCUMBENT_TERM_BUCKETS]
         + [
             df["bachelors_pct"].to_numpy(),
-            df["bachelors_pct_x_tide"].to_numpy(),
             df["hispanic_pct"].to_numpy(),
             df["voting_age_pct"].to_numpy(),
             df["income_10k"].to_numpy(),
@@ -840,31 +828,6 @@ def fit_war_v3_finance(
     # $0 baseline. See apply_war_v3_finance for where this gets used.
     fit["reference_values"] = {"log_raised": float(df["log_raised"].mean())}
     return fit
-
-
-def _shapley_pair_split(
-    beta1: float, x1: float, ref1: float, beta2: float, x2: float, ref2: float, beta_interaction: float
-) -> tuple[float, float]:
-    """Fairly splits a fitted x1*x2 interaction term's contribution to a
-    prediction between its two parent features, using the two-player
-    Shapley value (average of both "add x1 first" / "add x2 first"
-    orderings) rather than dumping the whole interaction onto one
-    feature's bar the way a naive coefficient*value decomposition would.
-    For a linear model this has a closed form:
-
-        phi1 = beta1*(x1-ref1) + (beta_interaction/2)*(x1-ref1)*(x2+ref2)
-        phi2 = beta2*(x2-ref2) + (beta_interaction/2)*(x2-ref2)*(x1+ref1)
-
-    which is exact: phi1 + phi2 always equals the model's full x1,x2
-    contribution relative to the (ref1, ref2) baseline, including the
-    interaction term, with no residual left over. ref1/ref2 are each
-    feature's own attribution-chart reference point (0 for an
-    already-fraction-like predictor such as a population share; a
-    fitted-sample mean for one like log-dollars raised with no natural
-    zero baseline — see apply_war_v3_finance/fit_war_v3_finance)."""
-    phi1 = beta1 * (x1 - ref1) + (beta_interaction / 2) * (x1 - ref1) * (x2 + ref2)
-    phi2 = beta2 * (x2 - ref2) + (beta_interaction / 2) * (x2 - ref2) * (x1 + ref1)
-    return phi1, phi2
 
 
 def apply_war_v3_demographics(
@@ -962,53 +925,29 @@ def apply_war_v3_demographics(
                 dummies = _incumbent_term_dummies(c.get("incumbent_terms", 0))
                 incumbency_component = sum(tc["b_terms"][b] * dummies[b] for b in INCUMBENT_TERM_BUCKETS)
                 lean_component = tc["b_lean"] * own_lean
+                tide_component = tc["b_tide"] * own_tide
+                tide_component_sd = abs(own_tide) * tc["b_tide_sd"]
 
-                # bachelors_pct and bachelors_pct_x_tide are two views of
-                # the same underlying data (the interaction term is
-                # literally their product), so handing the whole
-                # interaction to one bar or the other — as a naive
-                # coefficient*value decomposition would — is an arbitrary
-                # choice, not a principled one. _shapley_pair_split gives
-                # each parent feature its fair (game-theoretic) half of
-                # the joint effect instead: tide_component below now
-                # includes half of it, moved out of demographics_component,
-                # since a bachelors-degree-rate x tide effect is honestly a
-                # joint property of both, not purely either. Both features'
-                # own reference point is 0 (an already-fraction-like
-                # predictor, same as lean above), so this only redistributes
-                # the interaction — it doesn't change the total.
+                # Every term this tier actually fits, combined into one
+                # "demographics_component" plus its delta-method SD summed
+                # in quadrature across all contributing terms (same
+                # independence approximation used elsewhere in this
+                # module). income_10k (full tier only) has no natural
+                # zero-income baseline the way a population share does, so
+                # — same as log_raised in apply_war_v3_finance below —
+                # it's centered on this fit's own mean, with the removed
+                # constant folded into the baseline/intercept instead of
+                # left in the demographics bar.
                 coefs = tc["coefs"]
-                b_bachelors, sd_bachelors = coefs["bachelors_pct"]["posterior_mean"], coefs["bachelors_pct"]["posterior_sd"]
-                b_interaction, sd_interaction = (
-                    coefs["bachelors_pct_x_tide"]["posterior_mean"],
-                    coefs["bachelors_pct_x_tide"]["posterior_sd"],
-                )
-                bachelors_pct = covariates["bachelors_pct"]
-                phi_bachelors, tide_component = _shapley_pair_split(
-                    b_bachelors, bachelors_pct, 0.0, tc["b_tide"], own_tide, 0.0, b_interaction
-                )
-                half_interaction_sd = (bachelors_pct * own_tide / 2) * sd_interaction
-                tide_component_sd = ((own_tide * tc["b_tide_sd"]) ** 2 + half_interaction_sd**2) ** 0.5
-
-                # income_10k (full tier only) has no natural zero-income
-                # baseline the way a population share does, so — same as
-                # log_raised in apply_war_v3_finance below — its
-                # contribution is centered on this fit's own mean, with the
-                # removed constant folded into the baseline/intercept
-                # instead of left in the demographics bar.
-                demo_terms = []
+                demo_terms = [(covariates["bachelors_pct"], 0.0, "bachelors_pct")]
                 if tier == "full":
                     demo_terms.append((covariates["hispanic_pct"], 0.0, "hispanic_pct"))
                     demo_terms.append((covariates["voting_age_pct"], 0.0, "voting_age_pct"))
                     income_ref = tc["reference_values"]["income_10k"]
                     demo_terms.append((covariates["income_10k"], income_ref, "income_10k"))
-                demographics_component = phi_bachelors + sum(
-                    coefs[name]["posterior_mean"] * (value - ref) for value, ref, name in demo_terms
-                )
-                demographics_component_sd = (
-                    (bachelors_pct * sd_bachelors) ** 2
-                    + half_interaction_sd**2
-                    + sum((coefs[name]["posterior_sd"] * (value - ref)) ** 2 for value, ref, name in demo_terms)
+                demographics_component = sum(coefs[name]["posterior_mean"] * (value - ref) for value, ref, name in demo_terms)
+                demographics_component_sd = sum(
+                    (coefs[name]["posterior_sd"] * (value - ref)) ** 2 for value, ref, name in demo_terms
                 ) ** 0.5
 
                 intercept_effective = tc["b0"]
@@ -1707,11 +1646,10 @@ def main(
     war_v3_demographics_full_fit = fit_war_v3_demographics_full(district_records_by_vintage, tide_by_year, current_vintage)
     if war_v3_demographics_core_fit is not None:
         logger.info(
-            "WAR v3 demographics (core) diagnostic: n=%d, R²=%s, bachelors_pct=%+.3f, bachelors_pct_x_tide=%+.3f",
+            "WAR v3 demographics (core) diagnostic: n=%d, R²=%s, bachelors_pct=%+.3f",
             war_v3_demographics_core_fit["n"],
             war_v3_demographics_core_fit["r_squared"],
             war_v3_demographics_core_fit["coefficients"]["bachelors_pct"]["posterior_mean"],
-            war_v3_demographics_core_fit["coefficients"]["bachelors_pct_x_tide"]["posterior_mean"],
         )
     else:
         logger.warning("Not enough current-vintage demographics-matched races to fit the WAR v3 demographics (core) diagnostic")

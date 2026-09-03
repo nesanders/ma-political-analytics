@@ -23,14 +23,14 @@ seats_held:
   url: /seat/house-3rd-barnstable-district/
   winner_name: David T. Vieira
   winner_slug: david-t-vieira
-  war_resolved: 0.0949
+  war_resolved: 0.0947
   war_factors: *id001
 - chamber: senate
   district_name: Worcester and Hampshire District
   url: /seat/senate-worcester-and-hampshire-district/
   winner_name: Peter J. Durant
   winner_slug: peter-j-durant
-  war_resolved: 0.0837
+  war_resolved: 0.084
   war_factors: &id002
   - District lean
   - Statewide tide
@@ -41,35 +41,35 @@ seats_held:
   url: /seat/house-9th-norfolk-district/
   winner_name: Marcus S. Vaughn
   winner_slug: marcus-s-vaughn
-  war_resolved: 0.0754
+  war_resolved: 0.0758
   war_factors: *id001
 - chamber: house
   district_name: 6th Worcester District
   url: /seat/house-6th-worcester-district/
   winner_name: John J. Marsi, Jr
   winner_slug: john-j-marsi-jr
-  war_resolved: 0.0723
+  war_resolved: 0.0725
   war_factors: *id001
 - chamber: senate
   district_name: Worcester and Hampden District
   url: /seat/senate-worcester-and-hampden-district/
   winner_name: Ryan C. Fattman
   winner_slug: ryan-c-fattman
-  war_resolved: 0.0689
+  war_resolved: 0.0696
   war_factors: *id002
 - chamber: house
   district_name: 1st Bristol District
   url: /seat/house-1st-bristol-district/
   winner_name: Michael Chaisson
   winner_slug: michael-chaisson
-  war_resolved: 0.0505
+  war_resolved: 0.0509
   war_factors: *id001
 - chamber: house
   district_name: 6th Plymouth District
   url: /seat/house-6th-plymouth-district/
   winner_name: Kenneth Peter Sweezey
   winner_slug: kenneth-sweezey
-  war_resolved: 0.0426
+  war_resolved: 0.0434
   war_factors: *id001
 - chamber: house
   district_name: 4th Hampden District
@@ -83,14 +83,14 @@ seats_held:
   url: /seat/senate-third-bristol-and-plymouth-district/
   winner_name: Kelly A. Dooner
   winner_slug: kelly-a-dooner
-  war_resolved: -0.0227
+  war_resolved: -0.0223
   war_factors: *id002
 - chamber: house
   district_name: 5th Bristol District
   url: /seat/house-5th-bristol-district/
   winner_name: Justin Thurber
   winner_slug: justin-thurber
-  war_resolved: -0.0317
+  war_resolved: -0.0309
   war_factors: *id001
 - chamber: house
   district_name: 4th Bristol District

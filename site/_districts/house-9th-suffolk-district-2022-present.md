@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.7956
     expected_two_party_share_v2: 0.614
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.7734
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.7717
     lean_component_v3_demographics_sd: 0.0504
-    tide_component_v3_demographics: -0.0563
-    tide_component_v3_demographics_sd: 0.0394
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1767
-    demographics_component_sd: 0.1373
-    expected_two_party_share_v3_demographics: 0.751
-    war_v3_demographics: 0.0736
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0736
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.751
+    demographics_component: -0.1733
+    demographics_component_sd: 0.1346
+    expected_two_party_share_v3_demographics: 0.7514
+    war_v3_demographics: 0.0732
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0732
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.7514
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.2044
     expected_two_party_share_v2: 0.3026
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.1987
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.1982
     lean_component_v3_demographics_sd: 0.0129
-    tide_component_v3_demographics: -0.0332
-    tide_component_v3_demographics_sd: 0.0232
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1746
-    demographics_component_sd: 0.137
-    expected_two_party_share_v3_demographics: 0.2016
-    war_v3_demographics: -0.0262
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0262
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.2016
+    demographics_component: -0.1733
+    demographics_component_sd: 0.1346
+    expected_two_party_share_v3_demographics: 0.2029
+    war_v3_demographics: -0.0275
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0275
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.2029
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: true
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.8238
     expected_two_party_share_v2: 0.6288
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.8008
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.799
     lean_component_v3_demographics_sd: 0.0521
-    tide_component_v3_demographics: -0.058
-    tide_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1769
-    demographics_component_sd: 0.1373
-    expected_two_party_share_v3_demographics: 0.7766
+    demographics_component: -0.1733
+    demographics_component_sd: 0.1346
+    expected_two_party_share_v3_demographics: 0.7769
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7766
+    expected_share_resolved: 0.7769
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

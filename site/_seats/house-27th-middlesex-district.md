@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.8804
     expected_two_party_share_v2: 0.8152
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.8558
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.8539
     lean_component_v3_demographics_sd: 0.0557
-    tide_component_v3_demographics: -0.0591
-    tide_component_v3_demographics_sd: 0.0417
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1823
-    demographics_component_sd: 0.144
-    expected_two_party_share_v3_demographics: 0.883
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1799
+    demographics_component_sd: 0.1397
+    expected_two_party_share_v3_demographics: 0.8854
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.883
+    expected_share_resolved: 0.8854
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.9009
     expected_two_party_share_v2: 0.6695
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.8758
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.8738
     lean_component_v3_demographics_sd: 0.057
-    tide_component_v3_demographics: -0.0609
-    tide_component_v3_demographics_sd: 0.0429
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1825
-    demographics_component_sd: 0.144
-    expected_two_party_share_v3_demographics: 0.843
+    demographics_component: -0.1799
+    demographics_component_sd: 0.1397
+    expected_two_party_share_v3_demographics: 0.8451
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.843
+    expected_share_resolved: 0.8451
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

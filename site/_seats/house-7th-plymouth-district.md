@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5176
     expected_two_party_share_v2: 0.4679
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5032
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.502
     lean_component_v3_demographics_sd: 0.0328
-    tide_component_v3_demographics: -0.0326
-    tide_component_v3_demographics_sd: 0.0228
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1564
-    demographics_component_sd: 0.1194
-    expected_two_party_share_v3_demographics: 0.5248
+    demographics_component: -0.1561
+    demographics_component_sd: 0.1174
+    expected_two_party_share_v3_demographics: 0.5238
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5248
+    expected_share_resolved: 0.5238
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.5118
     expected_two_party_share_v2: 0.4649
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4975
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4964
     lean_component_v3_demographics_sd: 0.0324
-    tide_component_v3_demographics: -0.0309
-    tide_component_v3_demographics_sd: 0.0217
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1563
-    demographics_component_sd: 0.1194
-    expected_two_party_share_v3_demographics: 0.521
+    demographics_component: -0.1561
+    demographics_component_sd: 0.1174
+    expected_two_party_share_v3_demographics: 0.52
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.521
+    expected_share_resolved: 0.52
     war_model: demographics_full
     war_factors: *id001
   - name: Brandon J. Griffin

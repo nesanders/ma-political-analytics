@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5473
     expected_two_party_share_v2: 0.6395
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5321
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5309
     lean_component_v3_demographics_sd: 0.0347
-    tide_component_v3_demographics: -0.0551
-    tide_component_v3_demographics_sd: 0.0387
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1575
-    demographics_component_sd: 0.1208
-    expected_two_party_share_v3_demographics: 0.5882
-    war_v3_demographics: -0.0132
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0132
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5882
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1543
+    demographics_component_sd: 0.1187
+    expected_two_party_share_v3_demographics: 0.588
+    war_v3_demographics: -0.013
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.013
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.588
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.4527
     expected_two_party_share_v2: 0.4336
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.44
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.439
     lean_component_v3_demographics_sd: 0.0286
-    tide_component_v3_demographics: -0.0324
-    tide_component_v3_demographics_sd: 0.0228
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1558
-    demographics_component_sd: 0.1206
-    expected_two_party_share_v3_demographics: 0.4624
-    war_v3_demographics: -0.0374
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0374
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4624
+    demographics_component: -0.1543
+    demographics_component_sd: 0.1187
+    expected_two_party_share_v3_demographics: 0.4626
+    war_v3_demographics: -0.0376
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0376
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4626
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: false
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.5625
     expected_two_party_share_v2: 0.4909
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5468
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5456
     lean_component_v3_demographics_sd: 0.0356
-    tide_component_v3_demographics: -0.0568
-    tide_component_v3_demographics_sd: 0.0399
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1576
-    demographics_component_sd: 0.1208
-    expected_two_party_share_v3_demographics: 0.5431
+    demographics_component: -0.1543
+    demographics_component_sd: 0.1187
+    expected_two_party_share_v3_demographics: 0.5425
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5431
+    expected_share_resolved: 0.5425
     war_model: demographics_full
     war_factors: *id001
   - name: John M. Dombrowski

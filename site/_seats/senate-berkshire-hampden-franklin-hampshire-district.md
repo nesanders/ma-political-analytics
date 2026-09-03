@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.6714
     expected_two_party_share_v2: 0.7049
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.658
-    lean_component_v3_demographics_sd: 0.0403
-    tide_component_v3_demographics: -0.0584
-    tide_component_v3_demographics_sd: 0.0378
-    incumbency_adjustment_v3_demographics: 0.0581
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.6551
+    lean_component_v3_demographics_sd: 0.0397
+    tide_component_v3_demographics: -0.0645
+    tide_component_v3_demographics_sd: 0.0305
+    incumbency_adjustment_v3_demographics: 0.0579
     incumbency_adjustment_v3_demographics_sd: 0.0138
-    demographics_component: -0.0051
-    demographics_component_sd: 0.0235
-    expected_two_party_share_v3_demographics: 0.7071
-    war_v3_demographics: 0.0023
-    war_v3_demographics_sd: 0.0642
-    war_resolved: 0.0023
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.7071
+    demographics_component: -0.0069
+    demographics_component_sd: 0.0178
+    expected_two_party_share_v3_demographics: 0.7058
+    war_v3_demographics: 0.0036
+    war_v3_demographics_sd: 0.0645
+    war_resolved: 0.0036
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.7058
     war_model: demographics_core
     war_factors: &id001
     - District lean
@@ -90,22 +90,22 @@ results_by_year:
     expected_two_party_share: 0.3286
     expected_two_party_share_v2: 0.3682
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.322
-    lean_component_v3_demographics_sd: 0.0197
-    tide_component_v3_demographics: -0.0344
-    tide_component_v3_demographics_sd: 0.0222
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.3206
+    lean_component_v3_demographics_sd: 0.0194
+    tide_component_v3_demographics: -0.0379
+    tide_component_v3_demographics_sd: 0.0179
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0025
-    demographics_component_sd: 0.0223
-    expected_two_party_share_v3_demographics: 0.3397
-    war_v3_demographics: -0.0491
-    war_v3_demographics_sd: 0.0642
-    war_resolved: -0.0491
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.3397
+    demographics_component: -0.0069
+    demographics_component_sd: 0.0178
+    expected_two_party_share_v3_demographics: 0.34
+    war_v3_demographics: -0.0494
+    war_v3_demographics_sd: 0.0645
+    war_resolved: -0.0494
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.34
     war_model: demographics_core
     war_factors: *id001
   is_open_seat: false
@@ -141,22 +141,22 @@ results_by_year:
     expected_two_party_share: 0.6903
     expected_two_party_share_v2: 0.5584
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.6765
-    lean_component_v3_demographics_sd: 0.0414
-    tide_component_v3_demographics: -0.0601
-    tide_component_v3_demographics_sd: 0.0389
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.6735
+    lean_component_v3_demographics_sd: 0.0408
+    tide_component_v3_demographics: -0.0664
+    tide_component_v3_demographics_sd: 0.0314
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0053
-    demographics_component_sd: 0.0236
-    expected_two_party_share_v3_demographics: 0.6656
+    demographics_component: -0.0069
+    demographics_component_sd: 0.0178
+    expected_two_party_share_v3_demographics: 0.6644
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6656
+    expected_share_resolved: 0.6644
     war_model: demographics_core
     war_factors: *id001
   - name: Brendan M. Phair

@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5097
     expected_two_party_share_v2: 0.4631
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4955
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4944
     lean_component_v3_demographics_sd: 0.0323
-    tide_component_v3_demographics: -0.0563
-    tide_component_v3_demographics_sd: 0.0394
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1629
-    demographics_component_sd: 0.1238
-    expected_two_party_share_v3_demographics: 0.4868
-    war_v3_demographics: 0.0883
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0883
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4868
+    demographics_component: -0.161
+    demographics_component_sd: 0.1211
+    expected_two_party_share_v3_demographics: 0.4864
+    war_v3_demographics: 0.0887
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0887
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4864
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.4903
     expected_two_party_share_v2: 0.4535
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4766
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4755
     lean_component_v3_demographics_sd: 0.031
-    tide_component_v3_demographics: -0.0332
-    tide_component_v3_demographics_sd: 0.0232
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1608
-    demographics_component_sd: 0.1234
-    expected_two_party_share_v3_demographics: 0.4933
-    war_v3_demographics: -0.0684
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0684
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4933
+    demographics_component: -0.161
+    demographics_component_sd: 0.1211
+    expected_two_party_share_v3_demographics: 0.4925
+    war_v3_demographics: -0.0676
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0676
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4925
     war_model: demographics_full
     war_factors: *id001
   - name: George Hugh Ferdinand
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.5232
     expected_two_party_share_v2: 0.4702
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5086
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5075
     lean_component_v3_demographics_sd: 0.0331
-    tide_component_v3_demographics: -0.058
-    tide_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1631
-    demographics_component_sd: 0.1238
-    expected_two_party_share_v3_demographics: 0.4981
-    war_v3_demographics: 0.0649
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0649
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4981
+    demographics_component: -0.161
+    demographics_component_sd: 0.1211
+    expected_two_party_share_v3_demographics: 0.4977
+    war_v3_demographics: 0.0653
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0653
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4977
     war_model: demographics_full
     war_factors: *id001
   - name: Paul Sarnowski
@@ -226,22 +226,22 @@ results_by_year:
     expected_two_party_share: 0.4768
     expected_two_party_share_v2: 0.4464
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4635
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4624
     lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.0315
-    tide_component_v3_demographics_sd: 0.022
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1606
-    demographics_component_sd: 0.1234
-    expected_two_party_share_v3_demographics: 0.4821
-    war_v3_demographics: -0.0451
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0451
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4821
+    demographics_component: -0.161
+    demographics_component_sd: 0.1211
+    expected_two_party_share_v3_demographics: 0.4812
+    war_v3_demographics: -0.0442
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0442
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4812
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

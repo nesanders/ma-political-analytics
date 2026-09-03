@@ -86,22 +86,22 @@ results_by_year:
     expected_two_party_share: 0.4311
     expected_two_party_share_v2: 0.4222
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4191
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4181
     lean_component_v3_demographics_sd: 0.0273
-    tide_component_v3_demographics: -0.032
-    tide_component_v3_demographics_sd: 0.0226
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1534
-    demographics_component_sd: 0.1194
-    expected_two_party_share_v3_demographics: 0.4443
+    demographics_component: -0.1522
+    demographics_component_sd: 0.1177
+    expected_two_party_share_v3_demographics: 0.4439
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4443
+    expected_share_resolved: 0.4439
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.3983
     expected_two_party_share_v2: 0.405
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3872
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3863
     lean_component_v3_demographics_sd: 0.0252
-    tide_component_v3_demographics: -0.0304
-    tide_component_v3_demographics_sd: 0.0214
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1533
-    demographics_component_sd: 0.1194
-    expected_two_party_share_v3_demographics: 0.4142
+    demographics_component: -0.1522
+    demographics_component_sd: 0.1177
+    expected_two_party_share_v3_demographics: 0.4139
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4142
+    expected_share_resolved: 0.4139
     war_model: demographics_full
     war_factors: *id001
   - name: Kevin Patrick McKeown (W)

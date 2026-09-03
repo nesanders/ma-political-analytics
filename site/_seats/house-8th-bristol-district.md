@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.462
     expected_two_party_share_v2: 0.4379
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4491
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4481
     lean_component_v3_demographics_sd: 0.0292
-    tide_component_v3_demographics: -0.0546
-    tide_component_v3_demographics_sd: 0.0384
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1613
-    demographics_component_sd: 0.1226
-    expected_two_party_share_v3_demographics: 0.4439
-    war_v3_demographics: 0.065
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.065
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4439
+    demographics_component: -0.1589
+    demographics_component_sd: 0.1207
+    expected_two_party_share_v3_demographics: 0.4423
+    war_v3_demographics: 0.0666
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0666
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4423
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.538
     expected_two_party_share_v2: 0.4787
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.523
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5218
     lean_component_v3_demographics_sd: 0.0341
-    tide_component_v3_demographics: -0.0321
-    tide_component_v3_demographics_sd: 0.0226
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1599
-    demographics_component_sd: 0.1225
-    expected_two_party_share_v3_demographics: 0.5417
-    war_v3_demographics: -0.0506
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0506
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5417
+    demographics_component: -0.1589
+    demographics_component_sd: 0.1207
+    expected_two_party_share_v3_demographics: 0.5409
+    war_v3_demographics: -0.0498
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0498
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5409
     war_model: demographics_full
     war_factors: *id001
   - name: Jesse St. W. Gelais
@@ -268,22 +268,22 @@ results_by_year:
     expected_two_party_share: 0.5228
     expected_two_party_share_v2: 0.47
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5082
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5071
     lean_component_v3_demographics_sd: 0.0331
-    tide_component_v3_demographics: -0.0562
-    tide_component_v3_demographics_sd: 0.0396
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1614
-    demographics_component_sd: 0.1226
-    expected_two_party_share_v3_demographics: 0.5012
-    war_v3_demographics: 0.034
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.034
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5012
+    demographics_component: -0.1589
+    demographics_component_sd: 0.1207
+    expected_two_party_share_v3_demographics: 0.4995
+    war_v3_demographics: 0.0357
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0357
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4995
     war_model: demographics_full
     war_factors: *id001
   - name: Evan Gendreau
@@ -310,22 +310,22 @@ results_by_year:
     expected_two_party_share: 0.4772
     expected_two_party_share_v2: 0.4466
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4639
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4628
     lean_component_v3_demographics_sd: 0.0302
-    tide_component_v3_demographics: -0.0305
-    tide_component_v3_demographics_sd: 0.0215
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1598
-    demographics_component_sd: 0.1225
-    expected_two_party_share_v3_demographics: 0.4843
-    war_v3_demographics: -0.0195
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0195
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4843
+    demographics_component: -0.1589
+    demographics_component_sd: 0.1207
+    expected_two_party_share_v3_demographics: 0.4837
+    war_v3_demographics: -0.0189
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0189
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4837
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

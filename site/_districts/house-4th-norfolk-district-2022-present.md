@@ -44,16 +44,16 @@ results_by_year:
     expected_two_party_share: 0.5659
     expected_two_party_share_v2: 0.6493
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5501
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5489
     lean_component_v3_demographics_sd: 0.0358
-    tide_component_v3_demographics: -0.056
-    tide_component_v3_demographics_sd: 0.0392
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1614
-    demographics_component_sd: 0.1249
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.159
+    demographics_component_sd: 0.1224
     expected_two_party_share_v3_demographics: 0.6014
     war_v3_demographics: null
     war_v3_demographics_sd: null
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.5844
     expected_two_party_share_v2: 0.5025
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5681
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5668
     lean_component_v3_demographics_sd: 0.037
-    tide_component_v3_demographics: -0.0576
-    tide_component_v3_demographics_sd: 0.0403
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1615
-    demographics_component_sd: 0.1249
-    expected_two_party_share_v3_demographics: 0.5596
-    war_v3_demographics: 0.08
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.08
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5596
+    demographics_component: -0.159
+    demographics_component_sd: 0.1224
+    expected_two_party_share_v3_demographics: 0.5591
+    war_v3_demographics: 0.0805
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0805
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5591
     war_model: demographics_full
     war_factors: *id001
   - name: Paul J. Rotondo
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.4156
     expected_two_party_share_v2: 0.4141
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.404
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4031
     lean_component_v3_demographics_sd: 0.0263
-    tide_component_v3_demographics: -0.0313
-    tide_component_v3_demographics_sd: 0.0219
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1592
-    demographics_component_sd: 0.1246
-    expected_two_party_share_v3_demographics: 0.4242
-    war_v3_demographics: -0.0638
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0638
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4242
+    demographics_component: -0.159
+    demographics_component_sd: 0.1224
+    expected_two_party_share_v3_demographics: 0.4239
+    war_v3_demographics: -0.0635
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0635
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4239
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5955
     expected_two_party_share_v2: 0.5084
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5789
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5776
     lean_component_v3_demographics_sd: 0.0377
-    tide_component_v3_demographics: -0.0549
-    tide_component_v3_demographics_sd: 0.0386
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1559
-    demographics_component_sd: 0.1179
-    expected_two_party_share_v3_demographics: 0.5787
+    demographics_component: -0.1526
+    demographics_component_sd: 0.1159
+    expected_two_party_share_v3_demographics: 0.578
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5787
+    expected_share_resolved: 0.578
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.6333
     expected_two_party_share_v2: 0.5283
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6156
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6142
     lean_component_v3_demographics_sd: 0.0401
-    tide_component_v3_demographics: -0.0565
-    tide_component_v3_demographics_sd: 0.0397
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1561
-    demographics_component_sd: 0.1179
-    expected_two_party_share_v3_demographics: 0.6137
+    demographics_component: -0.1526
+    demographics_component_sd: 0.1159
+    expected_two_party_share_v3_demographics: 0.6129
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6137
+    expected_share_resolved: 0.6129
     war_model: demographics_full
     war_factors: *id001
   - name: Annalisa Salustri

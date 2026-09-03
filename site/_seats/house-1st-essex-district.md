@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.6423
     expected_two_party_share_v2: 0.5331
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6244
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.623
     lean_component_v3_demographics_sd: 0.0407
-    tide_component_v3_demographics: -0.0571
-    tide_component_v3_demographics_sd: 0.04
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.163
-    demographics_component_sd: 0.1277
-    expected_two_party_share_v3_demographics: 0.6149
+    demographics_component: -0.1608
+    demographics_component_sd: 0.1245
+    expected_two_party_share_v3_demographics: 0.6153
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6149
+    expected_share_resolved: 0.6153
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.6555
     expected_two_party_share_v2: 0.54
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6372
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6358
     lean_component_v3_demographics_sd: 0.0415
-    tide_component_v3_demographics: -0.0588
-    tide_component_v3_demographics_sd: 0.0412
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1632
-    demographics_component_sd: 0.1277
-    expected_two_party_share_v3_demographics: 0.6258
-    war_v3_demographics: -0.0294
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0294
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.6258
+    demographics_component: -0.1608
+    demographics_component_sd: 0.1245
+    expected_two_party_share_v3_demographics: 0.6263
+    war_v3_demographics: -0.0299
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0299
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.6263
     war_model: demographics_full
     war_factors: *id001
   - name: Cj Fitzwater
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.3445
     expected_two_party_share_v2: 0.3766
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3349
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3341
     lean_component_v3_demographics_sd: 0.0218
-    tide_component_v3_demographics: -0.0319
-    tide_component_v3_demographics_sd: 0.0223
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1603
-    demographics_component_sd: 0.1272
-    expected_two_party_share_v3_demographics: 0.3533
-    war_v3_demographics: 0.0503
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0503
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.3533
+    demographics_component: -0.1608
+    demographics_component_sd: 0.1245
+    expected_two_party_share_v3_demographics: 0.3531
+    war_v3_demographics: 0.0505
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0505
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.3531
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

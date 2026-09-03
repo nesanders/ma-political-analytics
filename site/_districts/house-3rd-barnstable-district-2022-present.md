@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.4067
     expected_two_party_share_v2: 0.5659
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3954
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3945
     lean_component_v3_demographics_sd: 0.0257
-    tide_component_v3_demographics: -0.0332
-    tide_component_v3_demographics_sd: 0.0232
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1655
-    demographics_component_sd: 0.1299
-    expected_two_party_share_v3_demographics: 0.4654
-    war_v3_demographics: 0.0949
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0949
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4654
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1653
+    demographics_component_sd: 0.1276
+    expected_two_party_share_v3_demographics: 0.4656
+    war_v3_demographics: 0.0947
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0947
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4656
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.5933
     expected_two_party_share_v2: 0.5072
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5767
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5754
     lean_component_v3_demographics_sd: 0.0376
-    tide_component_v3_demographics: -0.0563
-    tide_component_v3_demographics_sd: 0.0394
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1677
-    demographics_component_sd: 0.1303
-    expected_two_party_share_v3_demographics: 0.5634
-    war_v3_demographics: -0.1237
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.1237
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5634
+    demographics_component: -0.1653
+    demographics_component_sd: 0.1276
+    expected_two_party_share_v3_demographics: 0.5632
+    war_v3_demographics: -0.1235
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.1235
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5632
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: false
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.4069
     expected_two_party_share_v2: 0.4095
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3955
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3947
     lean_component_v3_demographics_sd: 0.0258
-    tide_component_v3_demographics: -0.0315
-    tide_component_v3_demographics_sd: 0.022
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
     demographics_component: -0.1653
-    demographics_component_sd: 0.1299
-    expected_two_party_share_v3_demographics: 0.4094
-    war_v3_demographics: 0.1448
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.1448
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4094
+    demographics_component_sd: 0.1276
+    expected_two_party_share_v3_demographics: 0.4092
+    war_v3_demographics: 0.145
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.145
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4092
     war_model: demographics_full
     war_factors: *id001
   - name: Kathleen Fox Alfano
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.5931
     expected_two_party_share_v2: 0.5071
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5766
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5752
     lean_component_v3_demographics_sd: 0.0375
-    tide_component_v3_demographics: -0.058
-    tide_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1678
-    demographics_component_sd: 0.1303
-    expected_two_party_share_v3_demographics: 0.5614
-    war_v3_demographics: -0.1156
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.1156
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5614
+    demographics_component: -0.1653
+    demographics_component_sd: 0.1276
+    expected_two_party_share_v3_demographics: 0.5612
+    war_v3_demographics: -0.1154
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.1154
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5612
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

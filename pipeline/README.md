@@ -605,6 +605,57 @@ decomposition); a Jekyll build + Playwright sweep across a full-tier
 district, a core-tier district, a high-fundraising candidate, and the
 methodology page came back with zero JS errors.
 
+**A follow-up review asked whether the `bachelors_pct_x_tide` interaction
+the Shapley split above had just fairly divided was itself principled —
+it wasn't, and it's now removed entirely.** It was the only interaction
+term fit anywhere in this module (finance's `log_raised`, with a real 12
+distinct election years, had never even been tested for one), chosen
+because "diploma divide" is the term the realignment literature
+discusses rather than because the data supported it best, and fit on
+just 2 distinct election years — thin enough that its own docstring
+already flagged the risk. Removed from `_COEFFICIENT_PRIORS`,
+`_build_demographics_rows`, and both `fit_war_v3_demographics_core`/
+`_full`'s feature lists; `apply_war_v3_demographics` reverted to a plain
+per-term decomposition (no more interaction to split between the
+Demographics and Statewide tide bars); the now-uncalled
+`_shapley_pair_split` helper was deleted rather than left as unused
+infrastructure. In its place, a documented policy in the module-level
+comment above `_COEFFICIENT_PRIORS`: no tide interaction for any
+predictor until it has enough distinct election years to actually
+identify one (a rule of thumb, 4+) — so a future contributor sees the
+bar this project didn't clear before adding one back, rather than
+re-discovering the same thin-identification problem from scratch.
+
+**The methodology page's WAR section was also rewritten this round**
+(asked directly, alongside the interaction removal, to replace its
+"historical timeseries" framing with a concise description of the
+current methodology, and to use visualizations more generously): prose
+that read as an incremental build log — "had never threaded into any
+regression until now," "no longer collinear the way it was when this was
+fit on a single year's races," "as an earlier version of this chart
+did" — was rewritten to describe what the models compute today, not how
+they got there (that history belongs in this README and `docs/PLAN.md`,
+not a public methodology page). A new **model-overview forest chart**
+(`war-overview-chart`, in `site/methodology/index.md`) was added right
+after the page's WAR intro, before any per-model detail section: every
+fitted effect from every model — the core model's lean/tide/incumbency,
+the demographics extension's four terms, the finance extension's
+fundraising term — plotted together on one standardized scale, colored
+by which model fits it, so a reader sees the whole comparative picture
+before drilling into any one model's own coefficient table, native-unit
+forest plot, or fit-diagnostic chart. Built from three separate
+`site.data.war_v2`/`war_v3_demographics`/`war_v3_finance` YAML exports,
+each bound to its own local JS `const` once (rather than the same
+`{{ ... | jsonify }}` tag re-embedded per data row, which the first draft
+of this chart did before being cleaned up). Verified live: re-ran the
+full pipeline after the interaction removal and confirmed the same
+sum-invariant holds (0 mismatches across 500 district `v3_demographics`
+rows and 2,325 candidate `v3_finance` rows); a Jekyll build + Playwright
+sweep of the methodology page (including confirming the new chart's
+`<canvas>` element actually renders with non-zero dimensions and zero
+console errors, not just an empty container) and both a full-tier and a
+core-tier district page came back clean.
+
 ## Site chart assets (`site/assets/js/vendor/`)
 
 Vega/Vega-Lite/Vega-Embed, used by `site/_layouts/chamber.html`'s

@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.5031
     expected_two_party_share_v2: 0.6167
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.4891
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.488
     lean_component_v3_demographics_sd: 0.0318
-    tide_component_v3_demographics: -0.0325
-    tide_component_v3_demographics_sd: 0.0228
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1584
-    demographics_component_sd: 0.1213
-    expected_two_party_share_v3_demographics: 0.5668
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1579
+    demographics_component_sd: 0.1193
+    expected_two_party_share_v3_demographics: 0.5664
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.5668
+    expected_share_resolved: 0.5664
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.4814
     expected_two_party_share_v2: 0.4488
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.468
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.4669
     lean_component_v3_demographics_sd: 0.0305
-    tide_component_v3_demographics: -0.0309
-    tide_component_v3_demographics_sd: 0.0217
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1583
-    demographics_component_sd: 0.1213
-    expected_two_party_share_v3_demographics: 0.4895
+    demographics_component: -0.1579
+    demographics_component_sd: 0.1193
+    expected_two_party_share_v3_demographics: 0.4888
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.4895
+    expected_share_resolved: 0.4888
     war_model: demographics_full
     war_factors: *id001
   - name: Terry Burke Dotson

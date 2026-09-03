@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.581
     expected_two_party_share_v2: 0.6572
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5648
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5635
     lean_component_v3_demographics_sd: 0.0368
-    tide_component_v3_demographics: -0.0569
-    tide_component_v3_demographics_sd: 0.0398
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1561
-    demographics_component_sd: 0.1216
-    expected_two_party_share_v3_demographics: 0.6204
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.154
+    demographics_component_sd: 0.1186
+    expected_two_party_share_v3_demographics: 0.621
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6204
+    expected_share_resolved: 0.621
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.6012
     expected_two_party_share_v2: 0.5114
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5845
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5832
     lean_component_v3_demographics_sd: 0.0381
-    tide_component_v3_demographics: -0.0586
-    tide_component_v3_demographics_sd: 0.041
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1563
-    demographics_component_sd: 0.1217
-    expected_two_party_share_v3_demographics: 0.5803
-    war_v3_demographics: 0.0258
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0258
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5803
+    demographics_component: -0.154
+    demographics_component_sd: 0.1186
+    expected_two_party_share_v3_demographics: 0.5804
+    war_v3_demographics: 0.0257
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0257
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5804
     war_model: demographics_full
     war_factors: *id001
   - name: Michael Chaisson
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.3988
     expected_two_party_share_v2: 0.4052
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3876
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3867
     lean_component_v3_demographics_sd: 0.0252
-    tide_component_v3_demographics: -0.0318
-    tide_component_v3_demographics_sd: 0.0222
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1536
-    demographics_component_sd: 0.1212
-    expected_two_party_share_v3_demographics: 0.4129
-    war_v3_demographics: -0.019
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.019
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4129
+    demographics_component: -0.154
+    demographics_component_sd: 0.1186
+    expected_two_party_share_v3_demographics: 0.4124
+    war_v3_demographics: -0.0185
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0185
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4124
     war_model: demographics_full
     war_factors: *id001
   - name: Laura L. Saylor

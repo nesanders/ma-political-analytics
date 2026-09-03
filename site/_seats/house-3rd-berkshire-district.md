@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.7334
     expected_two_party_share_v2: 0.5812
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.7129
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.7113
     lean_component_v3_demographics_sd: 0.0464
-    tide_component_v3_demographics: -0.056
-    tide_component_v3_demographics_sd: 0.0392
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1573
-    demographics_component_sd: 0.1227
-    expected_two_party_share_v3_demographics: 0.7103
+    demographics_component: -0.1546
+    demographics_component_sd: 0.1202
+    expected_two_party_share_v3_demographics: 0.7098
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7103
+    expected_share_resolved: 0.7098
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -142,22 +142,22 @@ results_by_year:
     expected_two_party_share: 0.7472
     expected_two_party_share_v2: 0.5884
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.7264
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.7247
     lean_component_v3_demographics_sd: 0.0473
-    tide_component_v3_demographics: -0.0577
-    tide_component_v3_demographics_sd: 0.0404
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1574
-    demographics_component_sd: 0.1227
-    expected_two_party_share_v3_demographics: 0.7219
+    demographics_component: -0.1546
+    demographics_component_sd: 0.1202
+    expected_two_party_share_v3_demographics: 0.7213
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.7219
+    expected_share_resolved: 0.7213
     war_model: demographics_full
     war_factors: *id001
   - name: Michael Silvio Lavery

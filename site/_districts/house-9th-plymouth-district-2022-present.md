@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.6046
     expected_two_party_share_v2: 0.5132
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5877
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5864
     lean_component_v3_demographics_sd: 0.0383
-    tide_component_v3_demographics: -0.0552
-    tide_component_v3_demographics_sd: 0.0388
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1488
-    demographics_component_sd: 0.1128
-    expected_two_party_share_v3_demographics: 0.5944
-    war_v3_demographics: 0.0492
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0492
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5944
+    demographics_component: -0.1463
+    demographics_component_sd: 0.1106
+    expected_two_party_share_v3_demographics: 0.5932
+    war_v3_demographics: 0.0504
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0504
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5932
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.3954
     expected_two_party_share_v2: 0.4034
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3844
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3835
     lean_component_v3_demographics_sd: 0.025
-    tide_component_v3_demographics: -0.0325
-    tide_component_v3_demographics_sd: 0.0228
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1471
-    demographics_component_sd: 0.1126
-    expected_two_party_share_v3_demographics: 0.4155
-    war_v3_demographics: -0.0591
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0591
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4155
+    demographics_component: -0.1463
+    demographics_component_sd: 0.1106
+    expected_two_party_share_v3_demographics: 0.4152
+    war_v3_demographics: -0.0588
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0588
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4152
     war_model: demographics_full
     war_factors: *id001
   - name: Jonathan Wilshire Gill
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.5986
     expected_two_party_share_v2: 0.5099
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.5818
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.5805
     lean_component_v3_demographics_sd: 0.0379
-    tide_component_v3_demographics: -0.0569
-    tide_component_v3_demographics_sd: 0.0399
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1489
-    demographics_component_sd: 0.1128
-    expected_two_party_share_v3_demographics: 0.5867
-    war_v3_demographics: 0.0198
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0198
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.5867
+    demographics_component: -0.1463
+    demographics_component_sd: 0.1106
+    expected_two_party_share_v3_demographics: 0.5855
+    war_v3_demographics: 0.021
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.021
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.5855
     war_model: demographics_full
     war_factors: *id001
   - name: Lawrence P. Novak
@@ -226,22 +226,22 @@ results_by_year:
     expected_two_party_share: 0.4014
     expected_two_party_share_v2: 0.4067
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3903
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3894
     lean_component_v3_demographics_sd: 0.0254
-    tide_component_v3_demographics: -0.0308
-    tide_component_v3_demographics_sd: 0.0216
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1469
-    demographics_component_sd: 0.1125
-    expected_two_party_share_v3_demographics: 0.4232
-    war_v3_demographics: -0.0297
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0297
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.4232
+    demographics_component: -0.1463
+    demographics_component_sd: 0.1106
+    expected_two_party_share_v3_demographics: 0.4229
+    war_v3_demographics: -0.0294
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0294
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.4229
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null

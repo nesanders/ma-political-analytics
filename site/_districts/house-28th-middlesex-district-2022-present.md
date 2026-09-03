@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.6273
     expected_two_party_share_v2: 0.6817
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6098
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6084
     lean_component_v3_demographics_sd: 0.0397
-    tide_component_v3_demographics: -0.0536
-    tide_component_v3_demographics_sd: 0.0381
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1562
-    demographics_component_sd: 0.1174
-    expected_two_party_share_v3_demographics: 0.6686
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1527
+    demographics_component_sd: 0.1158
+    expected_two_party_share_v3_demographics: 0.6672
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6686
+    expected_share_resolved: 0.6672
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.6884
     expected_two_party_share_v2: 0.5574
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6692
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6677
     lean_component_v3_demographics_sd: 0.0436
-    tide_component_v3_demographics: -0.0552
-    tide_component_v3_demographics_sd: 0.0392
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1563
-    demographics_component_sd: 0.1174
-    expected_two_party_share_v3_demographics: 0.6683
+    demographics_component: -0.1527
+    demographics_component_sd: 0.1158
+    expected_two_party_share_v3_demographics: 0.6662
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6683
+    expected_share_resolved: 0.6662
     war_model: demographics_full
     war_factors: *id001
   - name: Michael K. Marchese

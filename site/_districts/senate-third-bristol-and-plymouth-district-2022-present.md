@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.524
     expected_two_party_share_v2: 0.4713
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.5136
-    lean_component_v3_demographics_sd: 0.0314
-    tide_component_v3_demographics: -0.034
-    tide_component_v3_demographics_sd: 0.0221
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.5114
+    lean_component_v3_demographics_sd: 0.031
+    tide_component_v3_demographics: -0.0379
+    tide_component_v3_demographics_sd: 0.0179
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0201
-    expected_two_party_share_v3_demographics: 0.5318
-    war_v3_demographics: -0.0227
-    war_v3_demographics_sd: 0.0642
-    war_resolved: -0.0227
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.5318
+    demographics_component: -0.0062
+    demographics_component_sd: 0.016
+    expected_two_party_share_v3_demographics: 0.5314
+    war_v3_demographics: -0.0223
+    war_v3_demographics_sd: 0.0645
+    war_resolved: -0.0223
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.5314
     war_model: demographics_core
     war_factors: &id001
     - District lean
@@ -90,22 +90,22 @@ results_by_year:
     expected_two_party_share: 0.476
     expected_two_party_share_v2: 0.4453
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.4664
-    lean_component_v3_demographics_sd: 0.0286
-    tide_component_v3_demographics: -0.0578
-    tide_component_v3_demographics_sd: 0.0376
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.4643
+    lean_component_v3_demographics_sd: 0.0281
+    tide_component_v3_demographics: -0.0645
+    tide_component_v3_demographics_sd: 0.0305
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0046
-    demographics_component_sd: 0.0212
-    expected_two_party_share_v3_demographics: 0.4585
-    war_v3_demographics: 0.0324
-    war_v3_demographics_sd: 0.0642
-    war_resolved: 0.0324
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.4585
+    demographics_component: -0.0062
+    demographics_component_sd: 0.016
+    expected_two_party_share_v3_demographics: 0.4578
+    war_v3_demographics: 0.0331
+    war_v3_demographics_sd: 0.0645
+    war_resolved: 0.0331
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.4578
     war_model: demographics_core
     war_factors: *id001
   - name: James B. Dupont
@@ -183,22 +183,22 @@ results_by_year:
     expected_two_party_share: 0.5047
     expected_two_party_share_v2: 0.4604
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.4946
-    lean_component_v3_demographics_sd: 0.0303
-    tide_component_v3_demographics: -0.0595
-    tide_component_v3_demographics_sd: 0.0387
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.4924
+    lean_component_v3_demographics_sd: 0.0298
+    tide_component_v3_demographics: -0.0664
+    tide_component_v3_demographics_sd: 0.0314
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0048
-    demographics_component_sd: 0.0213
-    expected_two_party_share_v3_demographics: 0.4848
-    war_v3_demographics: 0.0581
-    war_v3_demographics_sd: 0.0642
-    war_resolved: 0.0581
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.4848
+    demographics_component: -0.0062
+    demographics_component_sd: 0.016
+    expected_two_party_share_v3_demographics: 0.484
+    war_v3_demographics: 0.0589
+    war_v3_demographics_sd: 0.0645
+    war_resolved: 0.0589
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.484
     war_model: demographics_core
     war_factors: *id001
   - name: Maria S. Collins
@@ -225,22 +225,22 @@ results_by_year:
     expected_two_party_share: 0.4953
     expected_two_party_share_v2: 0.4562
     demographics_tier: core
-    intercept_component_v3_demographics: 0.0545
-    intercept_component_v3_demographics_sd: 0.0331
-    lean_component_v3_demographics: 0.4854
-    lean_component_v3_demographics_sd: 0.0297
-    tide_component_v3_demographics: -0.0323
-    tide_component_v3_demographics_sd: 0.021
+    intercept_component_v3_demographics: 0.0642
+    intercept_component_v3_demographics_sd: 0.0294
+    lean_component_v3_demographics: 0.4833
+    lean_component_v3_demographics_sd: 0.0293
+    tide_component_v3_demographics: -0.036
+    tide_component_v3_demographics_sd: 0.017
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.0021
-    demographics_component_sd: 0.0201
-    expected_two_party_share_v3_demographics: 0.5055
-    war_v3_demographics: -0.0484
-    war_v3_demographics_sd: 0.0642
-    war_resolved: -0.0484
-    war_resolved_sd: 0.0642
-    expected_share_resolved: 0.5055
+    demographics_component: -0.0062
+    demographics_component_sd: 0.016
+    expected_two_party_share_v3_demographics: 0.5052
+    war_v3_demographics: -0.0481
+    war_v3_demographics_sd: 0.0645
+    war_resolved: -0.0481
+    war_resolved_sd: 0.0645
+    expected_share_resolved: 0.5052
     war_model: demographics_core
     war_factors: *id001
   is_open_seat: null

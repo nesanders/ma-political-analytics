@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.6388
     expected_two_party_share_v2: 0.6877
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.621
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6196
     lean_component_v3_demographics_sd: 0.0404
-    tide_component_v3_demographics: -0.0563
-    tide_component_v3_demographics_sd: 0.0394
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1574
-    demographics_component_sd: 0.1191
-    expected_two_party_share_v3_demographics: 0.6759
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1557
+    demographics_component_sd: 0.1165
+    expected_two_party_share_v3_demographics: 0.6754
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6759
+    expected_share_resolved: 0.6754
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -100,22 +100,22 @@ results_by_year:
     expected_two_party_share: 0.6447
     expected_two_party_share_v2: 0.5343
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6267
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6253
     lean_component_v3_demographics_sd: 0.0408
-    tide_component_v3_demographics: -0.058
-    tide_component_v3_demographics_sd: 0.0406
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1576
-    demographics_component_sd: 0.1192
-    expected_two_party_share_v3_demographics: 0.6218
+    demographics_component: -0.1557
+    demographics_component_sd: 0.1165
+    expected_two_party_share_v3_demographics: 0.6209
     war_v3_demographics: null
     war_v3_demographics_sd: null
     war_resolved: null
     war_resolved_sd: null
-    expected_share_resolved: 0.6218
+    expected_share_resolved: 0.6209
     war_model: demographics_full
     war_factors: *id001
   - name: Theodore Christos Menounos

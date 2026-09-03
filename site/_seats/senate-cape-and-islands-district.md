@@ -44,22 +44,22 @@ results_by_year:
     expected_two_party_share: 0.641
     expected_two_party_share_v2: 0.6889
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6231
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6217
     lean_component_v3_demographics_sd: 0.0406
-    tide_component_v3_demographics: -0.0558
-    tide_component_v3_demographics_sd: 0.0391
-    incumbency_adjustment_v3_demographics: 0.058
-    incumbency_adjustment_v3_demographics_sd: 0.0148
-    demographics_component: -0.1679
-    demographics_component_sd: 0.1294
-    expected_two_party_share_v3_demographics: 0.668
-    war_v3_demographics: -0.0437
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.0437
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.668
+    tide_component_v3_demographics: -0.0605
+    tide_component_v3_demographics_sd: 0.0325
+    incumbency_adjustment_v3_demographics: 0.0584
+    incumbency_adjustment_v3_demographics_sd: 0.0149
+    demographics_component: -0.1654
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.6677
+    war_v3_demographics: -0.0434
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0434
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.6677
     war_model: demographics_full
     war_factors: &id001
     - District lean
@@ -91,22 +91,22 @@ results_by_year:
     expected_two_party_share: 0.359
     expected_two_party_share_v2: 0.3842
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.349
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3482
     lean_component_v3_demographics_sd: 0.0227
-    tide_component_v3_demographics: -0.0328
-    tide_component_v3_demographics_sd: 0.023
+    tide_component_v3_demographics: -0.0356
+    tide_component_v3_demographics_sd: 0.0191
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.166
-    demographics_component_sd: 0.1291
-    expected_two_party_share_v3_demographics: 0.3608
-    war_v3_demographics: 0.0149
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0149
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.3608
+    demographics_component: -0.1654
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.3607
+    war_v3_demographics: 0.015
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.015
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.3607
     war_model: demographics_full
     war_factors: *id001
   - name: Joe Van Nes
@@ -184,22 +184,22 @@ results_by_year:
     expected_two_party_share: 0.6385
     expected_two_party_share_v2: 0.531
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.6207
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.6193
     lean_component_v3_demographics_sd: 0.0404
-    tide_component_v3_demographics: -0.0575
-    tide_component_v3_demographics_sd: 0.0402
+    tide_component_v3_demographics: -0.0623
+    tide_component_v3_demographics_sd: 0.0335
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1681
-    demographics_component_sd: 0.1294
-    expected_two_party_share_v3_demographics: 0.6058
-    war_v3_demographics: 0.0312
-    war_v3_demographics_sd: 0.063
-    war_resolved: 0.0312
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.6058
+    demographics_component: -0.1654
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.6051
+    war_v3_demographics: 0.0319
+    war_v3_demographics_sd: 0.0631
+    war_resolved: 0.0319
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.6051
     war_model: demographics_full
     war_factors: *id001
   - name: Christopher Robert Lauzon
@@ -226,22 +226,22 @@ results_by_year:
     expected_two_party_share: 0.3615
     expected_two_party_share_v2: 0.3856
     demographics_tier: full
-    intercept_component_v3_demographics: 0.2106
-    intercept_component_v3_demographics_sd: 0.1269
-    lean_component_v3_demographics: 0.3514
+    intercept_component_v3_demographics: 0.2136
+    intercept_component_v3_demographics_sd: 0.1246
+    lean_component_v3_demographics: 0.3506
     lean_component_v3_demographics_sd: 0.0229
-    tide_component_v3_demographics: -0.0312
-    tide_component_v3_demographics_sd: 0.0218
+    tide_component_v3_demographics: -0.0338
+    tide_component_v3_demographics_sd: 0.0181
     incumbency_adjustment_v3_demographics: 0.0
     incumbency_adjustment_v3_demographics_sd: 0.0
-    demographics_component: -0.1658
-    demographics_component_sd: 0.1291
-    expected_two_party_share_v3_demographics: 0.365
-    war_v3_demographics: -0.002
-    war_v3_demographics_sd: 0.063
-    war_resolved: -0.002
-    war_resolved_sd: 0.063
-    expected_share_resolved: 0.365
+    demographics_component: -0.1654
+    demographics_component_sd: 0.1269
+    expected_two_party_share_v3_demographics: 0.3649
+    war_v3_demographics: -0.0019
+    war_v3_demographics_sd: 0.0631
+    war_resolved: -0.0019
+    war_resolved_sd: 0.0631
+    expected_share_resolved: 0.3649
     war_model: demographics_full
     war_factors: *id001
   is_open_seat: null
