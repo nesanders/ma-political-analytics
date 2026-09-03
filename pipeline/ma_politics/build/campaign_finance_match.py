@@ -14,14 +14,29 @@ found live checking a known real case (Nicholas A. Boldyga / OCPF's "Nick
 Boldyga", cpf_id 14831).
 
 **Matching strategy, deliberately not exact-name matching**: last name
-(normalized) + district (normalized, "District" suffix stripped) +
-chamber, checked against *every* race a candidate is known to have run
-(not just their most recent one), since OCPF's roster reflects only one
-point-in-time district that might not be the specific year being matched.
-Last name + a specific numbered district is a strong enough constraint on
-its own that first-name variation (nicknames, initials) doesn't need to
-factor in — two different people sharing a last name *and* running for
-the exact same numbered district is a vanishingly unlikely collision.
+(normalized) + district (`util.names.normalize_district_name` — same
+ordinal-aware normalizer `derived_metrics.match_district_names` uses, so
+"1st Essex & Middlesex" and "First Essex and Middlesex District" collide
+the way they should) + chamber, checked against *every* race a candidate
+is known to have run (not just their most recent one), since OCPF's
+roster reflects only one point-in-time district that might not be the
+specific year being matched. Last name + a specific numbered district is
+a strong enough constraint on its own that first-name variation
+(nicknames, initials) doesn't need to factor in — two different people
+sharing a last name *and* running for the exact same numbered district is
+a vanishingly unlikely collision.
+
+A real bug this closed, found live: this module's own district
+normalizer used to just lowercase and strip punctuation, with no ordinal
+handling — so a long-serving senator's real OCPF filer (matching on last
+name, district, and chamber in every other respect) went unmatched across
+all 12 backfilled years purely because OCPF's roster spells the ordinal
+as a numeral ("1st Essex & Middlesex") while this site's own district
+name spells it out ("First Essex and Middlesex District"), and the two
+normalized forms never collided. Not a coverage gap (no data existed) but
+a real matching bug (real data on both sides, never joined) — the kind
+this module's own docstring above says it errs toward (missing over
+wrong), but missing more than it needed to.
 
 **A real, documented limitation this scope accepts**: last-name extraction
 is "the final whitespace-separated token, generational suffixes (Jr./Sr./
@@ -40,17 +55,12 @@ from pathlib import Path
 
 import pandas as pd
 
+from ma_politics.util.names import normalize_district_name
+
 logger = logging.getLogger(__name__)
 
 _OFFICE_TO_CHAMBER = {"House": "house", "Senate": "senate"}
 _SUFFIXES = {"jr", "sr", "ii", "iii", "iv", "v"}
-
-
-def normalize_district(name: str) -> str:
-    name = name.lower().strip()
-    name = re.sub(r"\bdistrict\b", "", name)
-    name = re.sub(r"[^a-z0-9]+", " ", name)
-    return name.strip()
 
 
 def last_name_from_display_name(display_name: str) -> str:
@@ -87,7 +97,7 @@ def build_ocpf_lookup(filers: pd.DataFrame) -> dict[tuple[str, str, str], set[in
             chamber = _OFFICE_TO_CHAMBER.get(row[office_col])
             if chamber is None:
                 continue
-            district = normalize_district(str(row[district_col] or ""))
+            district = normalize_district_name(str(row[district_col] or ""))
             if not district:
                 continue
             lookup.setdefault((last, district, chamber), set()).add(int(row["cpf_id"]))
@@ -114,7 +124,7 @@ def match_candidates_to_ocpf(
             continue
         cpf_ids: set[int] = set()
         for race in candidate["races"]:
-            district = normalize_district(race["district_name"])
+            district = normalize_district_name(race["district_name"])
             cpf_ids |= lookup.get((last, district, race["chamber"]), set())
         if not cpf_ids:
             continue

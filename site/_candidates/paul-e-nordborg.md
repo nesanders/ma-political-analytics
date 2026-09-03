@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1082
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.378
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.3296
+  fundraising_component_sd: 0.02
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1576
+  lean_component_v3_finance_sd: 0.0104
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0136
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.0665
+  war_v3_finance: 0.2033
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.2033
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.0665
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 14583
+  by_year:
+    2006:
+      total_raised: 0.0
+      total_spent: 0.0
 title: Paul E. Nordborg
 layout: candidate
 ---

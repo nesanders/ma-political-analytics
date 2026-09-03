@@ -30,27 +30,29 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0526
+  fundraising_component_sd: 0.0032
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3503
+  lean_component_v3_finance_sd: 0.0232
+  tide_component_v3_finance: -0.0011
+  tide_component_v3_finance_sd: 0.0234
+  incumbency_adjustment_v3_finance: 0.1253
+  incumbency_adjustment_v3_finance_sd: 0.0119
+  expected_two_party_share_v3_finance: 0.7662
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.7476
-  war_model: core
+  expected_share_resolved: 0.7662
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -78,23 +80,24 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0576
+  fundraising_component_sd: 0.0035
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2112
+  lean_component_v3_finance_sd: 0.014
+  tide_component_v3_finance: -0.0005
+  tide_component_v3_finance_sd: 0.0116
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.6426
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5969
-  war_model: core
+  expected_share_resolved: 0.6426
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2016
@@ -123,24 +126,38 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0648
+  fundraising_component_sd: 0.0039
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3472
+  lean_component_v3_finance_sd: 0.023
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.6501
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.598
-  war_model: core
+  expected_share_resolved: 0.6501
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 16321
+  by_year:
+    2016:
+      total_raised: 160776.0
+      total_spent: 233934.17
+    2018:
+      total_raised: 128875.0
+      total_spent: 89432.69
+    2020:
+      total_raised: 110929.15
+      total_spent: 80674.64
 title: Joseph A. Boncore
 layout: candidate
 ---

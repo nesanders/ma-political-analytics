@@ -30,22 +30,23 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.0557
-  fundraising_component_sd: 0.0039
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2385
-  lean_component_v3_finance_sd: 0.0175
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0235
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
-  expected_two_party_share_v3_finance: 0.674
-  war_v3_finance: -0.1605
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.1605
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.674
+  is_redistricting_year: false
+  fundraising_component: 0.0523
+  fundraising_component_sd: 0.0032
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2468
+  lean_component_v3_finance_sd: 0.0163
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.022
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.6726
+  war_v3_finance: -0.1591
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.1591
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.6726
   war_model: finance
   war_factors: &id001
   - District lean
@@ -79,22 +80,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0344
-  fundraising_component_sd: 0.0024
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2405
-  lean_component_v3_finance_sd: 0.0176
-  tide_component_v3_finance: -0.0079
-  tide_component_v3_finance_sd: 0.0242
+  is_redistricting_year: true
+  fundraising_component: 0.0319
+  fundraising_component_sd: 0.0019
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2488
+  lean_component_v3_finance_sd: 0.0165
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.5194
-  war_v3_finance: -0.0192
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0192
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.5194
+  expected_two_party_share_v3_finance: 0.5188
+  war_v3_finance: -0.0186
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0186
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5188
   war_model: finance
   war_factors: *id001
 ocpf_finance:

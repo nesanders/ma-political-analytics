@@ -30,27 +30,29 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0121
+  fundraising_component_sd: 0.0007
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3271
+  lean_component_v3_finance_sd: 0.0216
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.022
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.7127
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.7311
-  war_model: core
+  expected_share_resolved: 0.7127
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -78,23 +80,24 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: true
+  fundraising_component: 0.0125
+  fundraising_component_sd: 0.0008
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3262
+  lean_component_v3_finance_sd: 0.0216
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5767
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5735
-  war_model: core
+  expected_share_resolved: 0.5767
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2020
@@ -123,23 +126,24 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 4
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0018
+  fundraising_component_sd: 0.0001
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3366
+  lean_component_v3_finance_sd: 0.0223
+  tide_component_v3_finance: -0.0011
+  tide_component_v3_finance_sd: 0.0234
+  incumbency_adjustment_v3_finance: 0.1204
+  incumbency_adjustment_v3_finance_sd: 0.0114
+  expected_two_party_share_v3_finance: 0.6967
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.7291
-  war_model: core
+  expected_share_resolved: 0.6967
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2018
@@ -168,23 +172,24 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 3
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: -0.0614
+  fundraising_component_sd: 0.0037
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1534
+  lean_component_v3_finance_sd: 0.0101
+  tide_component_v3_finance: -0.0005
+  tide_component_v3_finance_sd: 0.0116
+  incumbency_adjustment_v3_finance: 0.1204
+  incumbency_adjustment_v3_finance_sd: 0.0114
+  expected_two_party_share_v3_finance: 0.4509
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5168
-  war_model: core
+  expected_share_resolved: 0.4509
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2016
@@ -213,23 +218,24 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
+  is_redistricting_year: false
+  fundraising_component: 0.0038
+  fundraising_component_sd: 0.0002
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3214
+  lean_component_v3_finance_sd: 0.0213
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
+  incumbency_adjustment_v3_finance: 0.1253
+  incumbency_adjustment_v3_finance_sd: 0.0119
+  expected_two_party_share_v3_finance: 0.6885
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.714
-  war_model: core
+  expected_share_resolved: 0.6885
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2014
@@ -258,23 +264,24 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0177
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.6101
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0304
+  fundraising_component_sd: 0.0019
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2228
+  lean_component_v3_finance_sd: 0.0147
+  tide_component_v3_finance: -0.0008
+  tide_component_v3_finance_sd: 0.0171
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.6269
+  war_v3_finance: -0.0345
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0345
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.6269
+  war_model: finance
   war_factors: *id001
 - chamber: senate
   year: 2012
@@ -303,24 +310,50 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0926
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.5134
-  war_model: core
+  is_redistricting_year: true
+  fundraising_component: 0.0615
+  fundraising_component_sd: 0.0037
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2744
+  lean_component_v3_finance_sd: 0.0181
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0216
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.574
+  war_v3_finance: 0.032
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.032
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.574
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 10866
+  by_year:
+    2016:
+      total_raised: 25143.06
+      total_spent: 16548.33
+    2018:
+      total_raised: 3461.98
+      total_spent: 21229.33
+    2020:
+      total_raised: 23651.66
+      total_spent: 25233.02
+    2022:
+      total_raised: 32726.8
+      total_spent: 30473.9
+    2024:
+      total_raised: 32351.23
+      total_spent: 42229.48
+    2012:
+      total_raised: 145265.29
+      total_spent: 146599.46
+    2014:
+      total_raised: 56525.73
+      total_spent: 30127.02
 title: Michael J. Barrett
 layout: candidate
 ---

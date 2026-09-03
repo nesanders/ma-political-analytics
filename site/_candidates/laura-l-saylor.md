@@ -30,6 +30,7 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: false
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -75,6 +76,7 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: true
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -93,6 +95,16 @@ races:
   expected_share_resolved: null
   war_model: null
   war_factors: null
+ocpf_finance:
+  cpf_ids:
+  - 17968
+  by_year:
+    2024:
+      total_raised: 449.85
+      total_spent: 0.0
+    2022:
+      total_raised: 957.32
+      total_spent: 957.32
 title: Laura L. Saylor
 layout: candidate
 ---

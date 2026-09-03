@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0082
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4252
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0187
+  fundraising_component_sd: 0.0011
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1984
+  lean_component_v3_finance_sd: 0.0131
+  tide_component_v3_finance: -0.0008
+  tide_component_v3_finance_sd: 0.0171
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4554
+  war_v3_finance: -0.022
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.022
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4554
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 15734
+  by_year:
+    2014:
+      total_raised: 39605.0
+      total_spent: 29642.03
 title: Patrick T. Leahy
 layout: candidate
 ---

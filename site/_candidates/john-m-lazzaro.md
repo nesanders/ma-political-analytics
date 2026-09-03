@@ -30,6 +30,7 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: false
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -48,6 +49,13 @@ races:
   expected_share_resolved: null
   war_model: null
   war_factors: null
+ocpf_finance:
+  cpf_ids:
+  - 12867
+  by_year:
+    2006:
+      total_raised: 840.0
+      total_spent: 230.13
 title: John M. Lazzaro
 layout: candidate
 ---

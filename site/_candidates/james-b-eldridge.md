@@ -30,22 +30,23 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.0677
-  fundraising_component_sd: 0.0047
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3116
-  lean_component_v3_finance_sd: 0.0228
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0235
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
-  expected_two_party_share_v3_finance: 0.7592
+  is_redistricting_year: false
+  fundraising_component: 0.0639
+  fundraising_component_sd: 0.0039
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3224
+  lean_component_v3_finance_sd: 0.0213
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.022
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.7598
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.7592
+  expected_share_resolved: 0.7598
   war_model: finance
   war_factors: &id001
   - District lean
@@ -79,22 +80,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0671
-  fundraising_component_sd: 0.0047
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3098
-  lean_component_v3_finance_sd: 0.0227
-  tide_component_v3_finance: -0.0079
-  tide_component_v3_finance_sd: 0.0242
+  is_redistricting_year: true
+  fundraising_component: 0.0634
+  fundraising_component_sd: 0.0039
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3205
+  lean_component_v3_finance_sd: 0.0212
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.6215
-  war_v3_finance: 0.0812
-  war_v3_finance_sd: 0.1015
-  war_resolved: 0.0812
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.6215
+  expected_two_party_share_v3_finance: 0.6219
+  war_v3_finance: 0.0808
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0808
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.6219
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -124,22 +126,23 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 4
-  fundraising_component: 0.0564
-  fundraising_component_sd: 0.0039
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3142
-  lean_component_v3_finance_sd: 0.023
-  tide_component_v3_finance: -0.0082
-  tide_component_v3_finance_sd: 0.025
-  incumbency_adjustment_v3_finance: 0.12
-  incumbency_adjustment_v3_finance_sd: 0.0121
-  expected_two_party_share_v3_finance: 0.735
+  is_redistricting_year: false
+  fundraising_component: 0.0531
+  fundraising_component_sd: 0.0032
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3251
+  lean_component_v3_finance_sd: 0.0215
+  tide_component_v3_finance: -0.0011
+  tide_component_v3_finance_sd: 0.0234
+  incumbency_adjustment_v3_finance: 0.1204
+  incumbency_adjustment_v3_finance_sd: 0.0114
+  expected_two_party_share_v3_finance: 0.7366
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.735
+  expected_share_resolved: 0.7366
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -169,22 +172,23 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 3
-  fundraising_component: 0.0687
-  fundraising_component_sd: 0.0048
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.1332
-  lean_component_v3_finance_sd: 0.0097
-  tide_component_v3_finance: -0.0041
-  tide_component_v3_finance_sd: 0.0124
-  incumbency_adjustment_v3_finance: 0.12
-  incumbency_adjustment_v3_finance_sd: 0.0121
-  expected_two_party_share_v3_finance: 0.5703
-  war_v3_finance: 0.0952
-  war_v3_finance_sd: 0.1015
-  war_resolved: 0.0952
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.5703
+  is_redistricting_year: false
+  fundraising_component: 0.0649
+  fundraising_component_sd: 0.0039
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1378
+  lean_component_v3_finance_sd: 0.0091
+  tide_component_v3_finance: -0.0005
+  tide_component_v3_finance_sd: 0.0116
+  incumbency_adjustment_v3_finance: 0.1204
+  incumbency_adjustment_v3_finance_sd: 0.0114
+  expected_two_party_share_v3_finance: 0.5616
+  war_v3_finance: 0.1039
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.1039
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5616
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -214,22 +218,23 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 2
-  fundraising_component: 0.0302
-  fundraising_component_sd: 0.0021
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2952
-  lean_component_v3_finance_sd: 0.0216
-  tide_component_v3_finance: -0.0079
-  tide_component_v3_finance_sd: 0.0241
-  incumbency_adjustment_v3_finance: 0.1235
-  incumbency_adjustment_v3_finance_sd: 0.013
-  expected_two_party_share_v3_finance: 0.6935
-  war_v3_finance: -0.0189
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0189
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.6935
+  is_redistricting_year: false
+  fundraising_component: 0.028
+  fundraising_component_sd: 0.0017
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.3054
+  lean_component_v3_finance_sd: 0.0202
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
+  incumbency_adjustment_v3_finance: 0.1253
+  incumbency_adjustment_v3_finance_sd: 0.0119
+  expected_two_party_share_v3_finance: 0.6967
+  war_v3_finance: -0.0221
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0221
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.6967
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -259,22 +264,23 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: -0.0123
-  fundraising_component_sd: 0.0009
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.1997
-  lean_component_v3_finance_sd: 0.0146
-  tide_component_v3_finance: -0.006
-  tide_component_v3_finance_sd: 0.0183
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
-  expected_two_party_share_v3_finance: 0.5689
+  is_redistricting_year: false
+  fundraising_component: -0.0129
+  fundraising_component_sd: 0.0008
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2066
+  lean_component_v3_finance_sd: 0.0137
+  tide_component_v3_finance: -0.0008
+  tide_component_v3_finance_sd: 0.0171
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.5674
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5689
+  expected_share_resolved: 0.5674
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -304,22 +310,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.05
-  fundraising_component_sd: 0.0035
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2569
-  lean_component_v3_finance_sd: 0.0188
-  tide_component_v3_finance: -0.0075
-  tide_component_v3_finance_sd: 0.023
+  is_redistricting_year: true
+  fundraising_component: 0.0469
+  fundraising_component_sd: 0.0029
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2658
+  lean_component_v3_finance_sd: 0.0176
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0216
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.5519
-  war_v3_finance: 0.0957
-  war_v3_finance_sd: 0.1015
-  war_resolved: 0.0957
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.5519
+  expected_two_party_share_v3_finance: 0.5508
+  war_v3_finance: 0.0968
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0968
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5508
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -349,22 +356,23 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.0619
-  fundraising_component_sd: 0.0043
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2194
-  lean_component_v3_finance_sd: 0.0161
-  tide_component_v3_finance: -0.0065
-  tide_component_v3_finance_sd: 0.02
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
-  expected_two_party_share_v3_finance: 0.6623
-  war_v3_finance: -0.0911
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0911
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.6623
+  is_redistricting_year: false
+  fundraising_component: 0.0584
+  fundraising_component_sd: 0.0035
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.227
+  lean_component_v3_finance_sd: 0.015
+  tide_component_v3_finance: -0.0009
+  tide_component_v3_finance_sd: 0.0187
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.659
+  war_v3_finance: -0.0878
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0878
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.659
   war_model: finance
   war_factors: *id001
 - chamber: senate
@@ -394,22 +402,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0809
-  fundraising_component_sd: 0.0057
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2685
-  lean_component_v3_finance_sd: 0.0197
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0236
+  is_redistricting_year: false
+  fundraising_component: 0.0765
+  fundraising_component_sd: 0.0047
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2778
+  lean_component_v3_finance_sd: 0.0184
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0221
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.5942
-  war_v3_finance: -0.0238
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0238
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.5942
+  expected_two_party_share_v3_finance: 0.5924
+  war_v3_finance: -0.022
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.022
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5924
   war_model: finance
   war_factors: *id001
 - chamber: house
@@ -439,22 +448,23 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 2
-  fundraising_component: 0.0341
-  fundraising_component_sd: 0.0024
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2506
-  lean_component_v3_finance_sd: 0.0183
-  tide_component_v3_finance: -0.0075
-  tide_component_v3_finance_sd: 0.0228
-  incumbency_adjustment_v3_finance: 0.1235
-  incumbency_adjustment_v3_finance_sd: 0.013
-  expected_two_party_share_v3_finance: 0.6533
-  war_v3_finance: -0.0111
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0111
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.6533
+  is_redistricting_year: false
+  fundraising_component: 0.0317
+  fundraising_component_sd: 0.0019
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2593
+  lean_component_v3_finance_sd: 0.0171
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0213
+  incumbency_adjustment_v3_finance: 0.1253
+  incumbency_adjustment_v3_finance_sd: 0.0119
+  expected_two_party_share_v3_finance: 0.6544
+  war_v3_finance: -0.0122
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0122
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.6544
   war_model: finance
   war_factors: *id001
 - chamber: house
@@ -484,21 +494,22 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.035
-  fundraising_component_sd: 0.0024
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.2558
-  lean_component_v3_finance_sd: 0.0187
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0234
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
+  is_redistricting_year: false
+  fundraising_component: 0.0325
+  fundraising_component_sd: 0.002
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2646
+  lean_component_v3_finance_sd: 0.0175
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0219
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
   expected_two_party_share_v3_finance: 0.6706
   war_v3_finance: -0.0357
-  war_v3_finance_sd: 0.1015
+  war_v3_finance_sd: 0.1014
   war_resolved: -0.0357
-  war_resolved_sd: 0.1015
+  war_resolved_sd: 0.1014
   expected_share_resolved: 0.6706
   war_model: finance
   war_factors: *id001
@@ -529,22 +540,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0276
-  fundraising_component_sd: 0.0019
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.1725
-  lean_component_v3_finance_sd: 0.0126
-  tide_component_v3_finance: -0.0058
-  tide_component_v3_finance_sd: 0.0177
+  is_redistricting_year: true
+  fundraising_component: 0.0254
+  fundraising_component_sd: 0.0015
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1784
+  lean_component_v3_finance_sd: 0.0118
+  tide_component_v3_finance: -0.0008
+  tide_component_v3_finance_sd: 0.0166
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.4467
-  war_v3_finance: 0.0741
-  war_v3_finance_sd: 0.1015
-  war_resolved: 0.0741
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.4467
+  expected_two_party_share_v3_finance: 0.4421
+  war_v3_finance: 0.0787
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0787
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4421
   war_model: finance
   war_factors: *id001
 ocpf_finance:

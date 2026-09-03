@@ -30,28 +30,28 @@ races:
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: 0.0354
-  fundraising_component_sd: 0.0025
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3148
-  lean_component_v3_finance_sd: 0.023
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0235
-  incumbency_adjustment_v3_finance: 0.135
-  incumbency_adjustment_v3_finance_sd: 0.0091
-  expected_two_party_share_v3_finance: 0.73
+  is_redistricting_year: false
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.73
-  war_model: finance
+  expected_share_resolved: 0.7294
+  war_model: core
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
-  - Campaign fundraising
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -79,34 +79,25 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0163
-  fundraising_component_sd: 0.0011
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3259
-  lean_component_v3_finance_sd: 0.0239
-  tide_component_v3_finance: -0.0079
-  tide_component_v3_finance_sd: 0.0242
-  incumbency_adjustment_v3_finance: 0.0
-  incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.5869
+  is_redistricting_year: true
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5869
-  war_model: finance
+  expected_share_resolved: 0.5863
+  war_model: core
   war_factors: *id001
-ocpf_finance:
-  cpf_ids:
-  - 17039
-  by_year:
-    2024:
-      total_raised: 60917.21
-      total_spent: 37667.55
-    2022:
-      total_raised: 34951.21
-      total_spent: 30533.85
 title: Jo Comerford
 layout: candidate
 ---

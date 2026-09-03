@@ -49,39 +49,11 @@ from pathlib import Path
 import click
 import pandas as pd
 
-from ma_politics.util.names import normalize_town_name
+from ma_politics.util.names import normalize_district_name, normalize_town_name
 
 logger = logging.getLogger(__name__)
 
 MAJOR_PARTIES = {"Democratic", "Republican"}
-
-
-# PD43+ writes ordinals as numerals ("1st Middlesex District"); the
-# boundary files spell them out ("First Middlesex District"). Found the
-# hard way: without this, naive fuzzy matching on the un-normalized text
-# picked "4th Middlesex District" -> "Third Middlesex District" — wrong
-# (a real "Fourth Middlesex District" exists; "4th"/"Third" just happen to
-# be textually similar strings) — silently corrupting both districts' WAR.
-# Covers through 20th; no MA chamber has more than ~20 same-county-ordinal
-# districts.
-_ORDINAL_WORDS = [
-    "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth",
-    "eleventh", "twelfth", "thirteenth", "fourteenth", "fifteenth", "sixteenth", "seventeenth",
-    "eighteenth", "nineteenth", "twentieth",
-]
-_ORDINAL_WORD_TO_NUMERAL = {word: f"{i + 1}" for i, word in enumerate(_ORDINAL_WORDS)}
-
-
-def _normalize_district_name(name: str) -> str:
-    name = name.lower()
-    name = name.replace("&", " and ")
-    name = re.sub(r"[,\-]", " ", name)
-    name = re.sub(r"\bdistrict\b", "", name)
-    name = re.sub(r"(\d+)(?:st|nd|rd|th)\b", r"\1", name)  # "1st" -> "1"
-    for word, numeral in _ORDINAL_WORD_TO_NUMERAL.items():
-        name = re.sub(rf"\b{word}\b", numeral, name)  # "first" -> "1"
-    name = re.sub(r"\s+", " ", name).strip()
-    return name
 
 
 def match_district_names(raw_names: list[str], boundary_names: list[str]) -> dict[str, str | None]:
@@ -89,10 +61,10 @@ def match_district_names(raw_names: list[str], boundary_names: list[str]) -> dic
     Exact match after normalization first; a close-match fallback (logged as
     such) catches anything with minor wording drift; unresolved names are
     logged with their nearest candidates so they can be fixed by hand."""
-    norm_to_boundary = {_normalize_district_name(b): b for b in boundary_names}
+    norm_to_boundary = {normalize_district_name(b): b for b in boundary_names}
     result: dict[str, str | None] = {}
     for raw in raw_names:
-        norm = _normalize_district_name(raw)
+        norm = normalize_district_name(raw)
         if norm in norm_to_boundary:
             result[raw] = norm_to_boundary[norm]
             continue

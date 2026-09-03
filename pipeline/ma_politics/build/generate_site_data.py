@@ -1357,6 +1357,16 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
     races_by_slug: dict[str, list[dict]] = {}
     latest_info: dict[str, tuple[int, str, str | None]] = {}  # slug -> (year, name, party)
 
+    # Each vintage's own first tracked election year — used to flag
+    # is_redistricting_year below (see the field's own comment). Computed
+    # from this run's actual data, not hardcoded, so it stays correct
+    # however far the backfill's covered range changes.
+    vintage_start_year = {
+        vintage: min(entry["year"] for d in records for entry in d["results_by_year"])
+        for vintage, records in district_records_by_vintage.items()
+        if records
+    }
+
     for vintage, records in district_records_by_vintage.items():
         for d in records:
             for entry in d["results_by_year"]:
@@ -1395,6 +1405,19 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "is_uncontested": entry["is_uncontested"],
                             "is_incumbent": c["is_incumbent"],
                             "incumbent_terms": c.get("incumbent_terms", 0),
+                            # True for a race that's the first election under
+                            # its vintage's maps — the year every candidate's
+                            # incumbent_terms resets to 0 regardless of real-
+                            # world tenure (see apply_war_v2/build_district_
+                            # records' incumbency docstrings and the
+                            # methodology page's "Incumbency and open seats"
+                            # section for why incumbency deliberately isn't
+                            # chased across a redistricting boundary). Surfaced
+                            # so candidate.html's year-spanning charts can mark
+                            # these years, since a single candidate's chart
+                            # can cross a boundary a single district/seat
+                            # page's chart never does.
+                            "is_redistricting_year": entry["year"] == vintage_start_year.get(vintage),
                         }
                     )
                     prev = latest_info.get(c["slug"])

@@ -436,6 +436,43 @@ full.
   names, which the naive last-name extraction was grabbing as the surname
   itself before this was found and excluded.
 
+  **A second real matching bug, found later by asking why a specific real
+  long-serving senator had zero campaign-finance data**: this module's own
+  district-name normalizer just lowercased and stripped punctuation, with
+  no ordinal handling, so OCPF's numeral-ordinal district names ("1st
+  Essex & Middlesex") never collided with this site's own spelled-out
+  ones ("First Essex and Middlesex District") — silently excluding every
+  candidate in a numbered district whose OCPF filer entry used digits
+  where this site spells them out (which is most of them; MA legislative
+  districts are almost all ordinal-numbered). This is the identical
+  failure mode `derived_metrics.match_district_names()` already had a
+  real fix for in a different join (see below) — rather than duplicate a
+  second normalizer with a second, subtly different gap, that ordinal-
+  aware normalizer moved to the shared `util/names.py` (alongside
+  `normalize_town_name`) as `normalize_district_name()`, and both modules
+  now import the one shared implementation. Real, project-wide impact:
+  OCPF match rate jumped from 942/1,343 candidates (70%) to **1,105/1,343
+  (82%)**, and the WAR v3 finance diagnostic's fitting sample grew from
+  1,069 to **1,270 candidate-races** across the same 12 election years —
+  verified live via a full pipeline re-run and the specific senator's own
+  candidate page now showing a real, non-empty finance table for every
+  year 2002-2024.
+
+  **Also stamps `is_redistricting_year`** onto every race in
+  `build_candidate_records`, computed from each vintage's own earliest
+  tracked election year in this run's actual data (not hardcoded, so it
+  can't drift as the backfill's covered range changes): true for the one
+  year a candidate's `incumbent_terms` genuinely does reset to 0 purely
+  because new maps took effect that cycle, not because they weren't a
+  real incumbent (see "Incumbency and open seats" in the methodology
+  page). Only `candidate.html`'s two year-spanning charts need it — a
+  single district/seat page's own chart never crosses a vintage boundary,
+  since a seat is scoped to one vintage — where it renders as a shared
+  dashed vertical rule (a `rule` mark with only `x` encoded, so it spans
+  the full plot height automatically, same idiom the methodology page's
+  forest-chart zero-reference lines already use) behind both the
+  replacement-level line chart and the attribution stacked-bar chart.
+
   Also matches districts to **Census demographics** (`--demographics-dir`,
   default `data/raw/demographics` — skipped, not an error, if missing) via
   `ma_politics.build.demographics_match`: 2020 Census PL 94-171

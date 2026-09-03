@@ -30,6 +30,7 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: true
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -48,6 +49,13 @@ races:
   expected_share_resolved: null
   war_model: null
   war_factors: null
+ocpf_finance:
+  cpf_ids:
+  - 18058
+  by_year:
+    2022:
+      total_raised: 489.01
+      total_spent: 383.49
 title: Annalisa Salustri
 layout: candidate
 ---

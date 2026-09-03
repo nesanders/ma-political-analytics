@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0449
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.6839
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0487
+  fundraising_component_sd: 0.003
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2865
+  lean_component_v3_finance_sd: 0.0189
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0213
+  incumbency_adjustment_v3_finance: 0.1354
+  incumbency_adjustment_v3_finance_sd: 0.0083
+  expected_two_party_share_v3_finance: 0.7087
+  war_v3_finance: 0.0201
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0201
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.7087
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -78,24 +80,35 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.1415
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.5081
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0674
+  fundraising_component_sd: 0.0041
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.27
+  lean_component_v3_finance_sd: 0.0178
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0219
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5754
+  war_v3_finance: 0.0742
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0742
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5754
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 14203
+  by_year:
+    2004:
+      total_raised: 173835.8
+      total_spent: 145440.72
+    2006:
+      total_raised: 98316.68
+      total_spent: 67757.31
 title: Edward M. Augustus, Jr.
 layout: candidate
 ---

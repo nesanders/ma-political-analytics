@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1481
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.3116
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.0443
+  fundraising_component_sd: 0.0027
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1004
+  lean_component_v3_finance_sd: 0.0066
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0128
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.2946
+  war_v3_finance: -0.1311
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.1311
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.2946
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 14784
+  by_year:
+    2008:
+      total_raised: 5819.6
+      total_spent: 5712.68
 title: Keith C. McCormic
 layout: candidate
 ---

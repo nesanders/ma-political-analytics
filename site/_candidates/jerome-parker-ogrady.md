@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0837
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4883
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0141
+  fundraising_component_sd: 0.0009
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2529
+  lean_component_v3_finance_sd: 0.0167
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0226
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5051
+  war_v3_finance: -0.1005
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.1005
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5051
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 16404
+  by_year:
+    2016:
+      total_raised: 34434.76
+      total_spent: 32071.55
 title: Jerome Parker-O'grady
 layout: candidate
 ---

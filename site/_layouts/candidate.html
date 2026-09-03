@@ -15,9 +15,14 @@ layout: default
       (when {{ page.name }} was the incumbent) the incumbency adjustment
       &mdash; plus local demographics or {{ page.name }}'s own campaign
       fundraising, for any year that data supports it. The gap between
-      them is WAR. Click a point to open that race's district page.
+      them is WAR. A vertical marker flags a year new redistricting maps
+      took effect &mdash; incumbency resets to 0 there even for a real
+      long-serving incumbent, since this site doesn't chase incumbency
+      across a map change (see the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>).
+      Click a point to open that race's district page.
     </p>
-    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR's expected share, by year"></div>
+    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR's expected share, by year, with redistricting years marked"></div>
   </section>
 
   <section>
@@ -37,10 +42,12 @@ layout: default
       for the underlying coefficients. An uncontested year's bar stops at
       the model's expected share instead of the actual result &mdash;
       there's no WAR (residual) slice, since WAR itself isn't meaningful
-      against a mechanically near-100% unopposed share. Click a bar to
-      open that race's district page.
+      against a mechanically near-100% unopposed share. A marker again
+      flags a redistricting year, where the Incumbency slice drops to
+      nothing for that reason, not because the effect itself vanished.
+      Click a bar to open that race's district page.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked"></div>
     <p>
       The chart above shows each component's best estimate; it doesn't
       show how uncertain any of them are. This one does &mdash; the same
@@ -137,7 +144,8 @@ layout: default
       "url": {{ r.district_url | relative_url | jsonify }},
       "series": "Actual share",
       "share": {{ r.actual_two_party_share | jsonify }},
-      "war_resolved": {{ r.war_resolved | jsonify }}
+      "war_resolved": {{ r.war_resolved | jsonify }},
+      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }}
     },
     {
       "year": {{ r.year | jsonify }},
@@ -145,7 +153,8 @@ layout: default
       "url": {{ r.district_url | relative_url | jsonify }},
       "series": "Expected share",
       "share": {{ r.expected_share_resolved | jsonify }},
-      "war_resolved": {{ r.war_resolved | jsonify }}
+      "war_resolved": {{ r.war_resolved | jsonify }},
+      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }}
     },
     {% endfor %}
   ].filter((d) => d.share !== null && d.share !== undefined);
@@ -155,37 +164,67 @@ layout: default
   const actualColor = party === "Democratic" ? chartCssVar("--series-dem")
     : party === "Republican" ? chartCssVar("--series-rep")
     : chartCssVar("--text-primary");
+
+  // Redistricting-year marker, shared by both charts below: a full-height
+  // dashed rule at each year new maps took effect, drawn first so it sits
+  // behind the real data. A rule mark with only x encoded (no y/y2) spans
+  // the whole plot area automatically — same idiom the forest-plot zero-
+  // reference line elsewhere on this site already relies on.
+  const redistrictingYears = Array.from(new Set(
+    raceData.filter((d) => d.is_redistricting_year).map((d) => d.year)
+  )).map((year) => ({ year }));
+  function redistrictingLayer(xType) {
+    return {
+      "data": { "values": redistrictingYears },
+      "mark": { "type": "rule", "strokeDash": [2, 2] },
+      "encoding": {
+        "x": { "field": "year", "type": xType },
+        "color": { "value": chartCssVar("--text-secondary") },
+        "opacity": { "value": 0.5 },
+        "tooltip": [
+          { "field": "year", "title": "Year" },
+          { "value": "New redistricting maps take effect here" }
+        ]
+      }
+    };
+  }
+
   const warSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
     "height": 220,
     "background": null,
-    "data": { "values": raceData },
-    "mark": { "type": "line", "point": true, "cursor": "pointer" },
-    "encoding": {
-      "x": { "field": "year", "type": "ordinal", "title": "Year" },
-      "y": {
-        "field": "share", "type": "quantitative",
-        "axis": { "format": "%", "title": "Two-party share" },
-        "scale": { "domain": [0, 1] }
-      },
-      "color": {
-        "field": "series", "type": "nominal", "title": null,
-        "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
-      },
-      "strokeDash": {
-        "field": "series", "type": "nominal", "legend": null,
-        "scale": { "domain": ["Actual share", "Expected share"], "range": [[1, 0], [4, 2]] }
-      },
-      "href": { "field": "url", "type": "nominal" },
-      "tooltip": [
-        { "field": "district_name", "title": "District" },
-        { "field": "year", "title": "Year" },
-        { "field": "series", "title": "Series" },
-        { "field": "share", "type": "quantitative", "format": ".1%" },
-        { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
-      ]
-    },
+    "layer": [
+      redistrictingLayer("ordinal"),
+      {
+        "data": { "values": raceData },
+        "mark": { "type": "line", "point": true, "cursor": "pointer" },
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal", "title": "Year" },
+          "y": {
+            "field": "share", "type": "quantitative",
+            "axis": { "format": "%", "title": "Two-party share" },
+            "scale": { "domain": [0, 1] }
+          },
+          "color": {
+            "field": "series", "type": "nominal", "title": null,
+            "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
+          },
+          "strokeDash": {
+            "field": "series", "type": "nominal", "legend": null,
+            "scale": { "domain": ["Actual share", "Expected share"], "range": [[1, 0], [4, 2]] }
+          },
+          "href": { "field": "url", "type": "nominal" },
+          "tooltip": [
+            { "field": "district_name", "title": "District" },
+            { "field": "year", "title": "Year" },
+            { "field": "series", "title": "Series" },
+            { "field": "share", "type": "quantitative", "format": ".1%" },
+            { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
+          ]
+        }
+      }
+    ],
     "config": {
       "axis": {
         "labelColor": chartCssVar("--text-secondary"),
@@ -269,28 +308,33 @@ layout: default
     "width": "container",
     "height": 240,
     "background": null,
-    "data": { "values": attributionData },
-    "mark": { "type": "bar", "cursor": "pointer" },
-    "encoding": {
-      "x": { "field": "year", "type": "ordinal", "title": "Year" },
-      "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
-      "order": { "field": "order" },
-      "color": {
-        "field": "component", "type": "nominal", "title": "Component",
-        "scale": {
-          "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
-          "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
+    "layer": [
+      redistrictingLayer("ordinal"),
+      {
+        "data": { "values": attributionData },
+        "mark": { "type": "bar", "cursor": "pointer" },
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal", "title": "Year" },
+          "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
+          "order": { "field": "order" },
+          "color": {
+            "field": "component", "type": "nominal", "title": "Component",
+            "scale": {
+              "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+              "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
+            }
+          },
+          "href": { "field": "url", "type": "nominal" },
+          "tooltip": [
+            { "field": "district_name", "title": "District" },
+            { "field": "year", "title": "Year" },
+            { "field": "is_uncontested", "title": "Uncontested?" },
+            { "field": "component", "title": "Component" },
+            { "field": "value", "type": "quantitative", "format": ".1%" }
+          ]
         }
-      },
-      "href": { "field": "url", "type": "nominal" },
-      "tooltip": [
-        { "field": "district_name", "title": "District" },
-        { "field": "year", "title": "Year" },
-        { "field": "is_uncontested", "title": "Uncontested?" },
-        { "field": "component", "title": "Component" },
-        { "field": "value", "type": "quantitative", "format": ".1%" }
-      ]
-    },
+      }
+    ],
     "config": {
       "axis": {
         "labelColor": chartCssVar("--text-secondary"),

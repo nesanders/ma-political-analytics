@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1251
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4133
-  war_model: core
+  is_redistricting_year: true
+  fundraising_component: -0.0702
+  fundraising_component_sd: 0.0043
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.188
+  lean_component_v3_finance_sd: 0.0124
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0133
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.3562
+  war_v3_finance: -0.068
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.068
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.3562
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -78,24 +80,35 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.075
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4745
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.0782
+  fundraising_component_sd: 0.0048
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2407
+  lean_component_v3_finance_sd: 0.0159
+  tide_component_v3_finance: -0.0007
+  tide_component_v3_finance_sd: 0.0162
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4009
+  war_v3_finance: -0.0014
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0014
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4009
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 15169
+  by_year:
+    2010:
+      total_raised: 2082.17
+      total_spent: 1417.55
+    2012:
+      total_raised: 2648.0
+      total_spent: 937.62
 title: James J. Buba
 layout: candidate
 ---

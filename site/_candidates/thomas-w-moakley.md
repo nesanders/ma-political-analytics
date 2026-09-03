@@ -30,35 +30,28 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: 0.0435
-  fundraising_component_sd: 0.003
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.3104
-  lean_component_v3_finance_sd: 0.0227
-  tide_component_v3_finance: -0.0077
-  tide_component_v3_finance_sd: 0.0235
-  incumbency_adjustment_v3_finance: 0.0
-  incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.5988
+  is_redistricting_year: false
+  fundraising_component: null
+  fundraising_component_sd: null
+  intercept_component_v3_finance: null
+  intercept_component_v3_finance_sd: null
+  lean_component_v3_finance: null
+  lean_component_v3_finance_sd: null
+  tide_component_v3_finance: null
+  tide_component_v3_finance_sd: null
+  incumbency_adjustment_v3_finance: null
+  incumbency_adjustment_v3_finance_sd: null
+  expected_two_party_share_v3_finance: null
   war_v3_finance: null
   war_v3_finance_sd: null
   war_resolved: null
   war_resolved_sd: null
-  expected_share_resolved: 0.5988
-  war_model: finance
+  expected_share_resolved: 0.5677
+  war_model: core
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
-  - Campaign fundraising
-ocpf_finance:
-  cpf_ids:
-  - 17401
-  by_year:
-    2024:
-      total_raised: 77212.05
-      total_spent: 84331.87
 title: Thomas W. Moakley
 layout: candidate
 ---

@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.144
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4352
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.0283
+  fundraising_component_sd: 0.0017
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2068
+  lean_component_v3_finance_sd: 0.0137
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.013
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.417
+  war_v3_finance: -0.1258
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.1258
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.417
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -78,24 +80,35 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0266
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.5159
-  war_model: core
+  is_redistricting_year: true
+  fundraising_component: -0.039
+  fundraising_component_sd: 0.0024
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2764
+  lean_component_v3_finance_sd: 0.0183
+  tide_component_v3_finance: -0.0008
+  tide_component_v3_finance_sd: 0.0183
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4756
+  war_v3_finance: 0.0137
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0137
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4756
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 13451
+  by_year:
+    2002:
+      total_raised: 6850.0
+      total_spent: 3935.42
+    2004:
+      total_raised: 9490.0
+      total_spent: 6191.56
 title: Jerzy J. Jachimczyk
 layout: candidate
 ---

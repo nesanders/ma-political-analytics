@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.1495
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4084
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.099
+  fundraising_component_sd: 0.006
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1837
+  lean_component_v3_finance_sd: 0.0121
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0123
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.3232
+  war_v3_finance: -0.0643
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0643
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.3232
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 15601
+  by_year:
+    2016:
+      total_raised: 1105.75
+      total_spent: 884.58
 title: Mesfin H. Beshir
 layout: candidate
 ---

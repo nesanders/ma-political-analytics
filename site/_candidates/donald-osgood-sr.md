@@ -30,6 +30,7 @@ races:
   is_uncontested: true
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: false
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -48,6 +49,13 @@ races:
   expected_share_resolved: null
   war_model: null
   war_factors: null
+ocpf_finance:
+  cpf_ids:
+  - 16638
+  by_year:
+    2018:
+      total_raised: 2113.54
+      total_spent: 983.61
 title: Donald Osgood, Sr
 layout: candidate
 ---

@@ -30,22 +30,23 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: -0.0309
-  fundraising_component_sd: 0.0022
-  intercept_component_v3_finance: 0.2525
-  intercept_component_v3_finance_sd: 0.0258
-  lean_component_v3_finance: 0.226
-  lean_component_v3_finance_sd: 0.0165
-  tide_component_v3_finance: -0.0075
-  tide_component_v3_finance_sd: 0.023
+  is_redistricting_year: true
+  fundraising_component: -0.0307
+  fundraising_component_sd: 0.0019
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2338
+  lean_component_v3_finance_sd: 0.0155
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.0216
   incumbency_adjustment_v3_finance: 0.0
   incumbency_adjustment_v3_finance_sd: 0.0
-  expected_two_party_share_v3_finance: 0.44
-  war_v3_finance: -0.0541
-  war_v3_finance_sd: 0.1015
-  war_resolved: -0.0541
-  war_resolved_sd: 0.1015
-  expected_share_resolved: 0.44
+  expected_two_party_share_v3_finance: 0.4412
+  war_v3_finance: -0.0553
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0553
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4412
   war_model: finance
   war_factors:
   - District lean

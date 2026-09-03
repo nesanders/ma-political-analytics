@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0085
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.3842
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0406
+  fundraising_component_sd: 0.0025
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.1629
+  lean_component_v3_finance_sd: 0.0108
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0129
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.442
+  war_v3_finance: -0.0663
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0663
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.442
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -78,24 +80,35 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0226
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.3856
-  war_model: core
+  is_redistricting_year: true
+  fundraising_component: 0.0059
+  fundraising_component_sd: 0.0004
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.164
+  lean_component_v3_finance_sd: 0.0108
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0123
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4084
+  war_v3_finance: -0.0454
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0454
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4084
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 18053
+  by_year:
+    2024:
+      total_raised: 77074.42
+      total_spent: 92937.11
+    2022:
+      total_raised: 26779.47
+      total_spent: 26143.13
 title: Christopher Robert Lauzon
 layout: candidate
 ---

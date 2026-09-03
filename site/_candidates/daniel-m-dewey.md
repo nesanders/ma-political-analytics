@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.0883
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4709
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.0306
+  fundraising_component_sd: 0.0019
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2376
+  lean_component_v3_finance_sd: 0.0157
+  tide_component_v3_finance: -0.0007
+  tide_component_v3_finance_sd: 0.0162
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4454
+  war_v3_finance: -0.0628
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0628
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4454
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 13665
+  by_year:
+    2010:
+      total_raised: 8836.0
+      total_spent: 4082.67
 title: Daniel M. Dewey
 layout: candidate
 ---

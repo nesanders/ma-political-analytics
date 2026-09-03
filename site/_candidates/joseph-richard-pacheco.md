@@ -30,27 +30,36 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0456
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4453
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: -0.038
+  fundraising_component_sd: 0.0023
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2159
+  lean_component_v3_finance_sd: 0.0143
+  tide_component_v3_finance: -0.001
+  tide_component_v3_finance_sd: 0.022
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.416
+  war_v3_finance: 0.0749
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.0749
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.416
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
+ocpf_finance:
+  cpf_ids:
+  - 11448
+  by_year:
+    2024:
+      total_raised: 7057.73
+      total_spent: 162010.07
 title: Joseph Richard Pacheco
 layout: candidate
 ---

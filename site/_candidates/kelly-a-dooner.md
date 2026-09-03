@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0378
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4713
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.058
+  fundraising_component_sd: 0.0035
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.2378
+  lean_component_v3_finance_sd: 0.0157
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0129
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.5343
+  war_v3_finance: -0.0252
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0252
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.5343
+  war_model: finance
   war_factors: &id001
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -78,24 +80,35 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: 0.0039
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4158
-  war_model: core
+  is_redistricting_year: false
+  fundraising_component: 0.0151
+  fundraising_component_sd: 0.0009
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.19
+  lean_component_v3_finance_sd: 0.0126
+  tide_component_v3_finance: -0.0005
+  tide_component_v3_finance_sd: 0.0115
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.4436
+  war_v3_finance: -0.0239
+  war_v3_finance_sd: 0.1014
+  war_resolved: -0.0239
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.4436
+  war_model: finance
   war_factors: *id001
+ocpf_finance:
+  cpf_ids:
+  - 17425
+  by_year:
+    2024:
+      total_raised: 130747.23
+      total_spent: 161693.5
+    2020:
+      total_raised: 35444.23
+      total_spent: 33843.41
 title: Kelly A. Dooner
 layout: candidate
 ---

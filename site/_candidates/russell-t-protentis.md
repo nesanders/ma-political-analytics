@@ -30,27 +30,29 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
-  fundraising_component: null
-  fundraising_component_sd: null
-  intercept_component_v3_finance: null
-  intercept_component_v3_finance_sd: null
-  lean_component_v3_finance: null
-  lean_component_v3_finance_sd: null
-  tide_component_v3_finance: null
-  tide_component_v3_finance_sd: null
-  incumbency_adjustment_v3_finance: null
-  incumbency_adjustment_v3_finance_sd: null
-  expected_two_party_share_v3_finance: null
-  war_v3_finance: null
-  war_v3_finance_sd: null
-  war_resolved: -0.025
-  war_resolved_sd: 0.1125
-  expected_share_resolved: 0.4484
-  war_model: core
+  is_redistricting_year: true
+  fundraising_component: -0.0931
+  fundraising_component_sd: 0.0057
+  intercept_component_v3_finance: 0.2391
+  intercept_component_v3_finance_sd: 0.022
+  lean_component_v3_finance: 0.218
+  lean_component_v3_finance_sd: 0.0144
+  tide_component_v3_finance: -0.0006
+  tide_component_v3_finance_sd: 0.0123
+  incumbency_adjustment_v3_finance: 0.0
+  incumbency_adjustment_v3_finance_sd: 0.0
+  expected_two_party_share_v3_finance: 0.3634
+  war_v3_finance: 0.06
+  war_v3_finance_sd: 0.1014
+  war_resolved: 0.06
+  war_resolved_sd: 0.1014
+  expected_share_resolved: 0.3634
+  war_model: finance
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -78,6 +80,7 @@ races:
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
+  is_redistricting_year: false
   fundraising_component: null
   fundraising_component_sd: null
   intercept_component_v3_finance: null
@@ -96,6 +99,16 @@ races:
   expected_share_resolved: null
   war_model: null
   war_factors: null
+ocpf_finance:
+  cpf_ids:
+  - 15211
+  by_year:
+    2010:
+      total_raised: 261.67
+      total_spent: 261.67
+    2022:
+      total_raised: 1319.55
+      total_spent: 1319.2
 title: Russell T. Protentis
 layout: candidate
 ---
