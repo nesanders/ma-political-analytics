@@ -194,6 +194,38 @@ race at a time.
 
 <div id="war-v2-fit-scatter" role="img" aria-label="Scatter plot of the core regression's expected two-party share against each candidate's actual share, colored by party"></div>
 
+**Split by party, that scatter hides a real pattern the pooled fit doesn't
+correct for**: Democratic candidates' residuals (actual share minus
+expected) average <span id="dem-residual-note">…</span>; Republican
+candidates' average <span id="rep-residual-note">…</span> — close to
+equal and opposite, so the intercept still zeros out the residual
+*pooled* across every race (that's guaranteed by construction), but not
+the residual *within* each party:
+
+<div id="war-v2-residual-histogram" role="img" aria-label="Histogram of the core regression's residuals (actual minus expected share), separately for Democratic and Republican candidates"></div>
+
+This isn't a failure of the own-party symmetry above — `own_lean`,
+`own_tide`, and `actual_two_party_share` are each already computed from
+that specific candidate's own party's perspective, so the fit literally
+can't tell a Democrat in a D+10 district from a Republican in an R+10
+one. What it *does* assume is that one shared set of coefficients (one
+`own_lean` slope, one `own_tide` slope, one set of incumbency terms)
+describes both parties' relationship between district fundamentals and
+actual performance equally well. In Massachusetts specifically, that
+assumption looks shaky: the legislature's real, well-documented
+Democratic supermajority is larger than the state's own top-of-ticket
+vote share alone would predict, and this backfill's own composition
+reflects it — most Democratic candidates in it are incumbents, while
+most Republicans are non-incumbent challengers running in a chamber their
+party rarely controls. If incumbent and non-incumbent candidates don't
+relate to lean/tide identically between the two parties (a real
+possibility a single pooled model can't represent), a shared coefficient
+set will land closer to whichever pattern is more common in the data —
+and leave same-direction residuals within each party even though the
+overall average comes out to zero. A real, open limitation of pooling
+both parties into one regression rather than fitting party-specific
+slopes or a party interaction term — not yet addressed here.
+
 Every district and seat page has a "What drives replacement level" chart
 breaking a race's most recent contested year into these pieces (intercept,
 lean, tide, incumbency, and the WAR residual) for each candidate, and a
@@ -824,6 +856,79 @@ including the exact code that computes everything on this page.
       "config": methodologyAxisConfig
     };
     vegaEmbed("#war-v2-fit-scatter", spec, { actions: false }).catch(console.error);
+  })();
+
+  // --- Residual histogram, Democratic vs. Republican ----------------------
+  (function () {
+    const residuals = {{ site.data.war_v2_fit_sample | jsonify }}.map((r) => ({
+      party: r.party,
+      residual: r.actual - r.expected,
+    }));
+    const colorDem = methodologyCssVar("--series-dem");
+    const colorRep = methodologyCssVar("--series-rep");
+
+    function meanOf(party) {
+      const vals = residuals.filter((r) => r.party === party).map((r) => r.residual);
+      return vals.reduce((a, b) => a + b, 0) / vals.length;
+    }
+    const demMean = meanOf("Democratic");
+    const repMean = meanOf("Republican");
+    const fmtPts = (x) => (x >= 0 ? "+" : "") + (x * 100).toFixed(1) + " points";
+    document.getElementById("dem-residual-note").textContent = fmtPts(demMean);
+    document.getElementById("rep-residual-note").textContent = fmtPts(repMean);
+
+    const meanLines = [
+      { party: "Democratic", residual: demMean },
+      { party: "Republican", residual: repMean },
+    ];
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 240,
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0 }] },
+          "mark": { "type": "rule", "strokeDash": [4, 2] },
+          "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": methodologyCssVar("--gridline") } }
+        },
+        {
+          "data": { "values": residuals },
+          "transform": [{ "bin": { "step": 0.02 }, "field": "residual", "as": ["bin_lo", "bin_hi"] }],
+          "mark": { "type": "bar", "opacity": 0.55 },
+          "encoding": {
+            "x": { "field": "bin_lo", "bin": "binned", "type": "quantitative", "title": "Residual (actual − expected share)", "axis": { "format": "+.0%" } },
+            "x2": { "field": "bin_hi" },
+            "y": { "aggregate": "count", "type": "quantitative", "title": "Candidate-races", "stack": null },
+            "color": {
+              "field": "party", "type": "nominal", "title": "Party",
+              "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+            },
+            "tooltip": [
+              { "field": "party", "title": "Party" },
+              { "aggregate": "count", "title": "Candidate-races" }
+            ]
+          }
+        },
+        {
+          "data": { "values": meanLines },
+          "mark": { "type": "rule", "size": 2 },
+          "encoding": {
+            "x": { "field": "residual", "type": "quantitative" },
+            "color": {
+              "field": "party", "type": "nominal", "legend": null,
+              "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+            },
+            "tooltip": [
+              { "field": "party", "title": "Party" },
+              { "field": "residual", "type": "quantitative", "format": "+.1%", "title": "Mean residual" }
+            ]
+          }
+        }
+      ],
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#war-v2-residual-histogram", spec, { actions: false }).catch(console.error);
   })();
   {% endif %}
 </script>
