@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0169
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3548
-    lean_component_sd: 0.0168
-    tide_component: 0.0034
+    lean_component: 0.3549
+    lean_component_sd: 0.0167
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0066
+    fundraising_component: 0.0068
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.4262
-    war_resolved: 0.1133
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4267
+    war_resolved: 0.1128
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.0169
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4307
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4305
     lean_component_sd: 0.0292
-    tide_component: 0.0051
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0103
+    fundraising_component: 0.0106
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6123
-    war_resolved: -0.1518
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6126
+    war_resolved: -0.1521
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.4296
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4307
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4305
     lean_component_sd: 0.0292
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0013
+    fundraising_component: 0.0015
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6042
+    expected_share_resolved: 0.6045
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -167,20 +167,20 @@ results_by_year:
     war: 0.4758
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4307
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4305
     lean_component_sd: 0.0292
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0064
+    fundraising_component: -0.0063
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.5963
+    expected_share_resolved: 0.5964
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -206,22 +206,22 @@ results_by_year:
     war: -0.0206
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4307
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4305
     lean_component_sd: 0.0292
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0202
+    fundraising_component: 0.0206
     fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.6231
-    war_resolved: -0.0895
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6236
+    war_resolved: -0.09
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -236,22 +236,22 @@ results_by_year:
     war: 0.0206
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3548
-    lean_component_sd: 0.0168
-    tide_component: 0.0028
+    lean_component: 0.3549
+    lean_component_sd: 0.0167
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0155
+    fundraising_component: 0.0158
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.4344
-    war_resolved: 0.032
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4351
+    war_resolved: 0.0313
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -275,22 +275,22 @@ results_by_year:
     war: 0.0836
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4307
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4305
     lean_component_sd: 0.0292
-    tide_component: 0.0046
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.003
+    fundraising_component: 0.0032
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5318
-    war_resolved: -0.0313
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5322
+    war_resolved: -0.0317
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -305,28 +305,269 @@ results_by_year:
     war: -0.0836
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3548
-    lean_component_sd: 0.0168
-    tide_component: 0.0039
+    lean_component: 0.3549
+    lean_component_sd: 0.0167
+    tide_component: 0.0036
     tide_component_sd: 0.0167
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0077
+    fundraising_component: 0.0079
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.4278
-    war_resolved: 0.0717
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4282
+    war_resolved: 0.0713
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Matthew C. Patrick
+    slug: matthew-c-patrick
+    party: Democratic
+    votes: 3061
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1674
+    primary_incumbency_component_sd: 0.1032
+    primary_fundraising_component: 0.0333
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.1794
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David T. Vieira
+    slug: david-t-vieira
+    party: Republican
+    votes: 3676
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0263
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.0049
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Matthew C. Patrick
+    slug: matthew-c-patrick
+    party: Democratic
+    votes: 2781
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1533
+    primary_incumbency_component_sd: 0.1084
+    primary_fundraising_component: 0.0165
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1484
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Matthew C. Patrick
+    slug: matthew-c-patrick
+    party: Democratic
+    votes: 5169
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1563
+    primary_incumbency_component_sd: 0.1072
+    primary_fundraising_component: 0.002
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.137
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Matthew C. Patrick
+    slug: matthew-c-patrick
+    party: Democratic
+    votes: 1142
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.154
+    primary_incumbency_component_sd: 0.1081
+    primary_fundraising_component: 0.0518
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.1844
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Larry F. Wheatley
+    slug: larry-f-wheatley
+    party: Republican
+    votes: 1094
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.043
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.0216
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Matthew C. Patrick
+    slug: matthew-c-patrick
+    party: Democratic
+    votes: 3215
+    winner: true
+    actual_primary_share: 0.7043
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0196
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.4982
+    primary_war: 0.2061
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: George R. Costa
+    slug: george-r-costa
+    party: Democratic
+    votes: 1350
+    winner: false
+    actual_primary_share: 0.2957
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.1829
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2002
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Larry F. Wheatley
+    slug: larry-f-wheatley
+    party: Republican
+    votes: 2513
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0284
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.007
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Barnstable (2001-2010)
 layout: district
 ---

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4412
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4829
-  lean_component_sd: 0.0328
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4826
+  lean_component_sd: 0.0327
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.0021
   demographics_component_sd: 0.0079
-  fundraising_component: -0.0036
+  fundraising_component: -0.0035
   fundraising_component_sd: 0.0003
   demographics_tier: full
-  expected_share_resolved: 0.6535
+  expected_share_resolved: 0.6537
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2022-present/
+  party: Democratic
+  votes: 2570
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1647
+  primary_incumbency_component_sd: 0.1107
+  primary_fundraising_component: 0.0072
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.1505
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.6055
   war: 0.0239
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4829
-  lean_component_sd: 0.0328
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4826
+  lean_component_sd: 0.0327
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0021
   demographics_component_sd: 0.0079
-  fundraising_component: -0.0149
+  fundraising_component: -0.015
   fundraising_component_sd: 0.0011
   demographics_tier: full
-  expected_share_resolved: 0.5698
-  war_resolved: 0.0357
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.57
+  war_resolved: 0.0355
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2022-present/
+  party: Democratic
+  votes: 2989
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0139
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 0.9647
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4043
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4099
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4097
   lean_component_sd: 0.0278
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.033
+  fundraising_component: -0.0334
   fundraising_component_sd: 0.0025
   demographics_tier: null
-  expected_share_resolved: 0.5494
+  expected_share_resolved: 0.5492
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 5499
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1432
+  primary_incumbency_component_sd: 0.1097
+  primary_fundraising_component: -0.0478
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.074
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.5835
   war: 0.2908
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4099
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4097
   lean_component_sd: 0.0278
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0058
+  fundraising_component: 0.006
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.5124
-  war_resolved: 0.0711
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5128
+  war_resolved: 0.0707
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 1743
+  winner: true
+  actual_primary_share: 0.7452
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0248
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.5034
+  primary_war: 0.2418
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 690
+  winner: true
+  actual_primary_share: 0.5259
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0248
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.3367
+  primary_war: 0.1892
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 16878

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1576
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0159
+    fundraising_component: 0.0162
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.8143
+    expected_share_resolved: 0.8147
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4911
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0256
-    fundraising_component_sd: 0.0019
+    fundraising_component: 0.0261
+    fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.7482
+    expected_share_resolved: 0.7488
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,22 +137,22 @@ results_by_year:
     war: -0.0095
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7983
-    war_resolved: 0.0452
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7982
+    war_resolved: 0.0453
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -166,22 +166,22 @@ results_by_year:
     war: 0.0095
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1884
     lean_component_sd: 0.0089
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.054
+    fundraising_component: -0.0546
     fundraising_component_sd: 0.0041
     demographics_tier: null
-    expected_share_resolved: 0.1983
-    war_resolved: -0.0418
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.198
+    war_resolved: -0.0415
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -205,12 +205,12 @@ results_by_year:
     war: 0.2037
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -218,9 +218,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7241
-    war_resolved: 0.1674
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7243
+    war_resolved: 0.1672
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -234,11 +234,11 @@ results_by_year:
     war: -0.2037
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1884
     lean_component_sd: 0.0089
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -247,9 +247,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2535
-    war_resolved: -0.145
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2537
+    war_resolved: -0.1452
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -272,12 +272,12 @@ results_by_year:
     war: 0.1966
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -285,7 +285,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7254
+    expected_share_resolved: 0.7256
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -319,6 +319,447 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Liz Miranda
+    slug: liz-miranda
+    party: Democratic
+    votes: 5500
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.189
+    primary_incumbency_component_sd: 0.1209
+    primary_fundraising_component: 0.0436
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.2112
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Liz Miranda
+    slug: liz-miranda
+    party: Democratic
+    votes: 2777
+    winner: true
+    actual_primary_share: 0.595
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0619
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.2905
+    primary_war: 0.3045
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Darrin D'Wayne Howell
+    slug: darrin-dwayne-howell
+    party: Democratic
+    votes: 1470
+    winner: false
+    actual_primary_share: 0.315
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0425
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 0.2711
+    primary_war: 0.0439
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 361
+    winner: false
+    actual_primary_share: 0.0774
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.1512
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Brad Howze
+    slug: brad-howze
+    party: Democratic
+    votes: 59
+    winner: false
+    actual_primary_share: 0.0126
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: -0.1511
+    primary_war: 0.1637
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Evandro C. Carvalho
+    slug: evandro-c-carvalho
+    party: Democratic
+    votes: 1255
+    winner: true
+    actual_primary_share: 0.7681
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1926
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.6712
+    primary_war: 0.0969
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+  - name: Melinda Stewart
+    slug: melinda-stewart
+    party: Democratic
+    votes: 379
+    winner: false
+    actual_primary_share: 0.2319
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.0989
+    primary_war: 0.133
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Republican
+    votes: 54
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0871
+    primary_fundraising_component_sd: 0.0051
+    primary_expected_share: 0.8915
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Evandro C. Carvalho
+    slug: evandro-c-carvalho
+    party: Democratic
+    votes: 1637
+    winner: true
+    actual_primary_share: 0.6558
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.1772
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Democratic
+    votes: 859
+    winner: false
+    actual_primary_share: 0.3442
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0772
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 0.4014
+    primary_war: -0.0572
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Claudette N. Joseph
+    slug: claudette-n-joseph
+    party: Republican
+    votes: 87
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: true
+  n_candidates: 6
+  is_contested: true
+  candidates:
+  - name: Evandro C. Carvalho
+    slug: evandro-c-carvalho
+    party: Democratic
+    votes: 961
+    winner: true
+    actual_primary_share: 0.4926
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1453
+    primary_war: 0.3473
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Karen A. Charles-Peterson
+    slug: karen-a-charles-peterson
+    party: Democratic
+    votes: 521
+    winner: false
+    actual_primary_share: 0.267
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0219
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.1672
+    primary_war: 0.0998
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Barry Lawton
+    slug: barry-lawton
+    party: Democratic
+    votes: 190
+    winner: false
+    actual_primary_share: 0.0974
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1453
+    primary_war: -0.0479
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Jennifer Anne Johnson
+    slug: jennifer-anne-johnson
+    party: Democratic
+    votes: 151
+    winner: false
+    actual_primary_share: 0.0774
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1453
+    primary_war: -0.0679
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 89
+    winner: false
+    actual_primary_share: 0.0456
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1453
+    primary_war: -0.0997
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Democratic
+    votes: 39
+    winner: false
+    actual_primary_share: 0.02
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0772
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 0.0681
+    primary_war: -0.0481
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Carlos Tony Henriquez
+    slug: carlos-tony-henriquez
+    party: Democratic
+    votes: 1346
+    winner: true
+    actual_primary_share: 0.9553
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.4767
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Democratic
+    votes: 63
+    winner: false
+    actual_primary_share: 0.0447
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0854
+    primary_fundraising_component_sd: 0.005
+    primary_expected_share: 0.3932
+    primary_war: -0.3485
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 5th Suffolk District (2012-2020)
 layout: district
 ---

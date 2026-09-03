@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1576
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0333
+    fundraising_component: 0.0339
     fundraising_component_sd: 0.0025
     demographics_tier: null
-    expected_share_resolved: 0.8318
+    expected_share_resolved: 0.8323
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4911
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0382
+    fundraising_component: 0.0388
     fundraising_component_sd: 0.0029
     demographics_tier: null
-    expected_share_resolved: 0.8334
+    expected_share_resolved: 0.8339
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.147
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0396
+    fundraising_component: 0.0403
     fundraising_component_sd: 0.003
     demographics_tier: null
-    expected_share_resolved: 0.8379
+    expected_share_resolved: 0.8385
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3122
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0227
+    fundraising_component: 0.0232
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.8195
+    expected_share_resolved: 0.8198
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.1966
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0195
+    fundraising_component: 0.0199
     fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.7449
+    expected_share_resolved: 0.7455
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron M. Michlewitz
+    slug: aaron-m-michlewitz
+    party: Democratic
+    votes: 7683
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.189
+    primary_incumbency_component_sd: 0.1209
+    primary_fundraising_component: 0.0762
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 1.2438
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron M. Michlewitz
+    slug: aaron-m-michlewitz
+    party: Democratic
+    votes: 4159
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2386
+    primary_incumbency_component_sd: 0.1064
+    primary_fundraising_component: 0.0854
+    primary_fundraising_component_sd: 0.005
+    primary_expected_share: 1.3026
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron M. Michlewitz
+    slug: aaron-m-michlewitz
+    party: Democratic
+    votes: 1304
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1926
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: 0.0881
+    primary_fundraising_component_sd: 0.0052
+    primary_expected_share: 1.2593
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron M. Michlewitz
+    slug: aaron-m-michlewitz
+    party: Democratic
+    votes: 2431
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2155
+    primary_incumbency_component_sd: 0.1121
+    primary_fundraising_component: 0.0565
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.2505
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron M. Michlewitz
+    slug: aaron-m-michlewitz
+    party: Democratic
+    votes: 1840
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0505
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0291
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Suffolk District (2012-2020)
 layout: district
 ---

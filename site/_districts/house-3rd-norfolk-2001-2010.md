@@ -33,20 +33,20 @@ results_by_year:
     war: 0.5331
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4411
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4408
     lean_component_sd: 0.0299
-    tide_component: 0.0051
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0162
+    fundraising_component: 0.0166
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6285
+    expected_share_resolved: 0.6289
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,20 +98,20 @@ results_by_year:
     war: 0.4455
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4411
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4408
     lean_component_sd: 0.0299
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0269
-    fundraising_component_sd: 0.002
+    fundraising_component: 0.0274
+    fundraising_component_sd: 0.0021
     demographics_tier: null
-    expected_share_resolved: 0.6401
+    expected_share_resolved: 0.6407
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.4598
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4411
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4408
     lean_component_sd: 0.0299
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0311
+    fundraising_component: 0.0316
     fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.6441
+    expected_share_resolved: 0.6447
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.4071
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4411
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4408
     lean_component_sd: 0.0299
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0144
+    fundraising_component: 0.0147
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.6276
+    expected_share_resolved: 0.628
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,20 +215,20 @@ results_by_year:
     war: 0.5506
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4411
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4408
     lean_component_sd: 0.0299
-    tide_component: 0.0046
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0147
+    fundraising_component: 0.0151
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5538
+    expected_share_resolved: 0.5544
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -237,6 +237,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald Mariano
+    slug: ronald-mariano
+    party: Democratic
+    votes: 3105
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1696
+    primary_incumbency_component_sd: 0.1037
+    primary_fundraising_component: 0.0443
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.1925
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald Mariano
+    slug: ronald-mariano
+    party: Democratic
+    votes: 2215
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1555
+    primary_incumbency_component_sd: 0.1088
+    primary_fundraising_component: 0.0642
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 1.1983
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald Mariano
+    slug: ronald-mariano
+    party: Democratic
+    votes: 4961
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1585
+    primary_incumbency_component_sd: 0.1077
+    primary_fundraising_component: 0.0721
+    primary_fundraising_component_sd: 0.0042
+    primary_expected_share: 1.2092
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald Mariano
+    slug: ronald-mariano
+    party: Democratic
+    votes: 1991
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1562
+    primary_incumbency_component_sd: 0.1086
+    primary_fundraising_component: 0.0409
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.1757
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald Mariano
+    slug: ronald-mariano
+    party: Democratic
+    votes: 4869
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0415
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.0201
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Norfolk (2001-2010)
 layout: district
 ---

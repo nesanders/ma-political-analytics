@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1643
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6267
+    lean_component_sd: 0.0425
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0376
+    fundraising_component: 0.0383
     fundraising_component_sd: 0.0029
     demographics_tier: null
-    expected_share_resolved: 0.8372
+    expected_share_resolved: 0.8379
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4361
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6267
+    lean_component_sd: 0.0425
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0032
+    fundraising_component: -0.0031
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.7932
+    expected_share_resolved: 0.7931
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.1788
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6267
+    lean_component_sd: 0.0425
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0085
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.7909
+    expected_share_resolved: 0.7908
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3007
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6267
+    lean_component_sd: 0.0425
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0215
+    fundraising_component: 0.0219
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.7468
+    expected_share_resolved: 0.7473
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,22 +215,22 @@ results_by_year:
     war: 0.06
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6267
+    lean_component_sd: 0.0425
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0079
+    fundraising_component: 0.0081
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.7344
-    war_resolved: 0.1077
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7348
+    war_resolved: 0.1073
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -245,28 +245,277 @@ results_by_year:
     war: -0.06
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1875
-    lean_component_sd: 0.0089
-    tide_component: 0.0028
+    lean_component_sd: 0.0088
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: null
-    expected_share_resolved: 0.0412
-    war_resolved: 0.1167
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.0386
+    war_resolved: 0.1193
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Christine P. Barber
+    slug: christine-p-barber
+    party: Democratic
+    votes: 6051
+    winner: true
+    actual_primary_share: 0.5807
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1892
+    primary_incumbency_component_sd: 0.121
+    primary_fundraising_component: 0.0844
+    primary_fundraising_component_sd: 0.0049
+    primary_expected_share: 0.7522
+    primary_war: -0.1715
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Anna Callahan
+    slug: anna-callahan
+    party: Democratic
+    votes: 4370
+    winner: false
+    actual_primary_share: 0.4193
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0593
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christine P. Barber
+    slug: christine-p-barber
+    party: Democratic
+    votes: 5322
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2389
+    primary_incumbency_component_sd: 0.1064
+    primary_fundraising_component: 0.008
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.2255
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christine P. Barber
+    slug: christine-p-barber
+    party: Democratic
+    votes: 2792
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1928
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: -0.0019
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1695
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Christine P. Barber
+    slug: christine-p-barber
+    party: Democratic
+    votes: 1956
+    winner: true
+    actual_primary_share: 0.4891
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0542
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.2828
+    primary_war: 0.2063
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Erin A. Dibenedetto
+    slug: erin-a-dibenedetto
+    party: Democratic
+    votes: 1458
+    winner: false
+    actual_primary_share: 0.3646
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0121
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.2407
+    primary_war: 0.1239
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Craig E. Rourke
+    slug: craig-e-rourke
+    party: Democratic
+    votes: 440
+    winner: false
+    actual_primary_share: 0.11
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0128
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.2158
+    primary_war: -0.1058
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Sharon K. Guzik
+    slug: sharon-k-guzik
+    party: Democratic
+    votes: 145
+    winner: false
+    actual_primary_share: 0.0363
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0216
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.207
+    primary_war: -0.1707
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carl M. Sciortino, Jr.
+    slug: carl-m-sciortino-jr
+    party: Democratic
+    votes: 2020
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0287
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0073
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David M. Rajczewski
+    slug: david-m-rajczewski
+    party: Republican
+    votes: 238
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 34th Middlesex District (2012-2020)
 layout: district
 ---

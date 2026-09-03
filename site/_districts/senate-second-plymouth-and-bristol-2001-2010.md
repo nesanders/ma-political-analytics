@@ -33,20 +33,20 @@ results_by_year:
     war: 0.5138
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4539
-    lean_component_sd: 0.0308
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4536
+    lean_component_sd: 0.0307
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0072
-    fundraising_component_sd: 0.0005
+    fundraising_component: 0.0074
+    fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.6323
+    expected_share_resolved: 0.6325
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4057
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4539
-    lean_component_sd: 0.0308
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4536
+    lean_component_sd: 0.0307
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0057
+    fundraising_component: 0.0059
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.5591
+    expected_share_resolved: 0.5596
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.4324
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4539
-    lean_component_sd: 0.0308
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4536
+    lean_component_sd: 0.0307
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6258
+    expected_share_resolved: 0.6259
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -149,22 +149,22 @@ results_by_year:
     war: 0.0954
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4539
-    lean_component_sd: 0.0308
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4536
+    lean_component_sd: 0.0307
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.626
-    war_resolved: 0.051
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6261
+    war_resolved: 0.0509
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -178,22 +178,22 @@ results_by_year:
     war: -0.0954
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3351
+    lean_component: 0.3352
     lean_component_sd: 0.0158
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0336
+    fundraising_component: 0.0342
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.4328
-    war_resolved: -0.1098
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4337
+    war_resolved: -0.1107
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -217,11 +217,11 @@ results_by_year:
     war: 0.5501
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4539
-    lean_component_sd: 0.0308
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4536
+    lean_component_sd: 0.0307
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -230,7 +230,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5519
+    expected_share_resolved: 0.5521
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -238,6 +238,196 @@ results_by_year:
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas P. Kennedy
+    slug: thomas-p-kennedy
+    party: Democratic
+    votes: 7144
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1724
+    primary_incumbency_component_sd: 0.1043
+    primary_fundraising_component: 0.0274
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.1783
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert W. Johnson
+    slug: robert-w-johnson
+    party: Republican
+    votes: 241
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas P. Kennedy
+    slug: thomas-p-kennedy
+    party: Democratic
+    votes: 9755
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0247
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.0033
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert S. Creedon, Jr.
+    slug: robert-s-creedon-jr
+    party: Democratic
+    votes: 13367
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1612
+    primary_incumbency_component_sd: 0.1083
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1398
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert S. Creedon, Jr.
+    slug: robert-s-creedon-jr
+    party: Democratic
+    votes: 4581
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1589
+    primary_incumbency_component_sd: 0.1092
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1375
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Lawrence P. Novak
+    slug: lawrence-p-novak
+    party: Republican
+    votes: 1504
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0769
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 1.0555
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert S. Creedon, Jr.
+    slug: robert-s-creedon-jr
+    party: Democratic
+    votes: 11415
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: Second Plymouth and Bristol (2001-2010)
 layout: district
 ---

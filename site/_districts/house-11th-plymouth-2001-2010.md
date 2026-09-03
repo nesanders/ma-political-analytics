@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0761
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4569
-    lean_component_sd: 0.031
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4566
+    lean_component_sd: 0.0309
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0049
+    fundraising_component: -0.0048
     fundraising_component_sd: 0.0004
     demographics_tier: null
     expected_share_resolved: 0.6233
     war_resolved: -0.0485
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.0761
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3325
+    lean_component: 0.3326
     lean_component_sd: 0.0157
-    tide_component: 0.0034
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0282
-    fundraising_component_sd: 0.0022
+    fundraising_component: -0.0285
+    fundraising_component_sd: 0.0021
     demographics_tier: null
     expected_share_resolved: 0.369
     war_resolved: 0.0562
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.3923
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4569
-    lean_component_sd: 0.031
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4566
+    lean_component_sd: 0.0309
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0081
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.621
+    expected_share_resolved: 0.6211
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.4244
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4569
-    lean_component_sd: 0.031
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4566
+    lean_component_sd: 0.0309
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0063
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6226
+    expected_share_resolved: 0.6227
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,22 +180,22 @@ results_by_year:
     war: 0.1049
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4569
-    lean_component_sd: 0.031
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4566
+    lean_component_sd: 0.0309
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0063
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6227
-    war_resolved: 0.0695
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6228
+    war_resolved: 0.0694
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -210,22 +210,22 @@ results_by_year:
     war: -0.1049
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3325
+    lean_component: 0.3326
     lean_component_sd: 0.0157
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0474
+    fundraising_component: -0.048
     fundraising_component_sd: 0.0036
     demographics_tier: null
-    expected_share_resolved: 0.3492
-    war_resolved: -0.0414
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3489
+    war_resolved: -0.0411
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -249,20 +249,20 @@ results_by_year:
     war: 0.5718
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4569
-    lean_component_sd: 0.031
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4566
+    lean_component_sd: 0.0309
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0086
-    fundraising_component_sd: 0.0007
+    fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.5463
+    expected_share_resolved: 0.5465
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -271,6 +271,200 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geraldine Creedon
+    slug: geraldine-creedon
+    party: Democratic
+    votes: 1295
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.173
+    primary_incumbency_component_sd: 0.1045
+    primary_fundraising_component: 0.0048
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1564
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kristine Abrams
+    slug: kristine-abrams
+    party: Republican
+    votes: 625
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0389
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.9397
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geraldine Creedon
+    slug: geraldine-creedon
+    party: Democratic
+    votes: 1509
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1589
+    primary_incumbency_component_sd: 0.1096
+    primary_fundraising_component: -0.0012
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1363
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geraldine Creedon
+    slug: geraldine-creedon
+    party: Democratic
+    votes: 2933
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1619
+    primary_incumbency_component_sd: 0.1085
+    primary_fundraising_component: 0.0022
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1426
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geraldine Creedon
+    slug: geraldine-creedon
+    party: Democratic
+    votes: 835
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1595
+    primary_incumbency_component_sd: 0.1093
+    primary_fundraising_component: 0.0021
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1403
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marissa E. Lima
+    slug: marissa-e-lima
+    party: Republican
+    votes: 214
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0748
+    primary_fundraising_component_sd: 0.0044
+    primary_expected_share: 0.9038
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geraldine Creedon
+    slug: geraldine-creedon
+    party: Democratic
+    votes: 2328
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0022
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.9764
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 11th Plymouth (2001-2010)
 layout: district
 ---

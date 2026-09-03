@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3442
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4489
-    lean_component_sd: 0.0305
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4487
+    lean_component_sd: 0.0304
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.026
+    fundraising_component: 0.0265
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.6475
+    expected_share_resolved: 0.6481
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.71
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4489
-    lean_component_sd: 0.0305
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4487
+    lean_component_sd: 0.0304
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0216
-    fundraising_component_sd: 0.0016
+    fundraising_component: 0.022
+    fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.5672
+    expected_share_resolved: 0.5678
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3714
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4489
-    lean_component_sd: 0.0305
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4487
+    lean_component_sd: 0.0304
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6212
+    expected_share_resolved: 0.6213
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -149,20 +149,20 @@ results_by_year:
     war: 0.5371
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4489
-    lean_component_sd: 0.0305
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4487
+    lean_component_sd: 0.0304
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6197
+    expected_share_resolved: 0.6198
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -187,12 +187,12 @@ results_by_year:
     war: 0.3868
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4489
-    lean_component_sd: 0.0305
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4487
+    lean_component_sd: 0.0304
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -200,7 +200,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5484
+    expected_share_resolved: 0.5487
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -208,6 +208,222 @@ results_by_year:
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brendan P. Crighton
+    slug: brendan-p-crighton
+    party: Democratic
+    votes: 25226
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1514
+    primary_incumbency_component_sd: 0.1115
+    primary_fundraising_component: 0.0627
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 1.1927
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carlos Armando Hernandez
+    slug: carlos-armando-hernandez
+    party: Republican
+    votes: 174
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brendan P. Crighton
+    slug: brendan-p-crighton
+    party: Democratic
+    votes: 10526
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0544
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 1.033
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: true
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brendan P. Crighton
+    slug: brendan-p-crighton
+    party: Democratic
+    votes: 2149
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0544
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 1.033
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: true
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael C. Walsh
+    slug: michael-c-walsh
+    party: Republican
+    votes: 141
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. McGee
+    slug: thomas-m-mcgee
+    party: Democratic
+    votes: 8008
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1551
+    primary_incumbency_component_sd: 0.11
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1337
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. McGee
+    slug: thomas-m-mcgee
+    party: Democratic
+    votes: 12733
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1779
+    primary_incumbency_component_sd: 0.1019
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1565
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. McGee
+    slug: thomas-m-mcgee
+    party: Democratic
+    votes: 5358
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: Third Essex District (2012-2020)
 layout: district
 ---

@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2857
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6181
-    lean_component_sd: 0.042
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6177
+    lean_component_sd: 0.0419
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0001
     demographics_component_sd: 0.0107
-    fundraising_component: -0.0512
+    fundraising_component: -0.0518
     fundraising_component_sd: 0.0039
     demographics_tier: full
-    expected_share_resolved: 0.7391
+    expected_share_resolved: 0.7385
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.2548
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6181
-    lean_component_sd: 0.042
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6177
+    lean_component_sd: 0.0419
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0001
     demographics_component_sd: 0.0107
-    fundraising_component: 0.0124
+    fundraising_component: 0.0126
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.7302
+    expected_share_resolved: 0.7307
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,104 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Priscila S. Sousa
+    slug: priscila-s-sousa
+    party: Democratic
+    votes: 2219
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1934
+    primary_incumbency_component_sd: 0.1182
+    primary_fundraising_component: -0.0818
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 1.0902
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Priscila S. Sousa
+    slug: priscila-s-sousa
+    party: Democratic
+    votes: 1689
+    winner: true
+    actual_primary_share: 0.5197
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0371
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.349
+    primary_war: 0.1707
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Margareth B. Shepard
+    slug: margareth-b-shepard
+    party: Democratic
+    votes: 1428
+    winner: false
+    actual_primary_share: 0.4394
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0205
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.3324
+    primary_war: 0.107
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Dhruba Prasad Sen
+    slug: dhruba-prasad-sen
+    party: Democratic
+    votes: 133
+    winner: false
+    actual_primary_share: 0.0409
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0537
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 0.2582
+    primary_war: -0.2173
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44228
   voting_age_population: 36043

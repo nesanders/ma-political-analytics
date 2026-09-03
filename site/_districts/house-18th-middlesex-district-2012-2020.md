@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3258
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.497
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4967
     lean_component_sd: 0.0337
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.076
+    fundraising_component: -0.077
     fundraising_component_sd: 0.0058
     demographics_tier: null
-    expected_share_resolved: 0.5935
+    expected_share_resolved: 0.5926
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.6485
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.497
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4967
     lean_component_sd: 0.0337
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0018
+    fundraising_component: -0.0017
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6644
+    expected_share_resolved: 0.6645
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,22 +111,22 @@ results_by_year:
     war: 0.0325
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.497
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4967
     lean_component_sd: 0.0337
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0159
+    fundraising_component: 0.0162
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6851
-    war_resolved: 0.0373
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6855
+    war_resolved: 0.0369
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,11 +141,11 @@ results_by_year:
     war: -0.0325
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2984
-    lean_component_sd: 0.0141
-    tide_component: 0.0026
+    lean_component_sd: 0.014
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -154,9 +154,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3623
-    war_resolved: -0.0847
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3626
+    war_resolved: -0.085
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -179,20 +179,20 @@ results_by_year:
     war: 0.4631
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.497
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4967
     lean_component_sd: 0.0337
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0062
+    fundraising_component: 0.0064
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6013
+    expected_share_resolved: 0.6017
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -244,20 +244,20 @@ results_by_year:
     war: 0.3185
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.497
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4967
     lean_component_sd: 0.0337
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0416
+    fundraising_component: -0.042
     fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.5548
+    expected_share_resolved: 0.5546
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -266,6 +266,339 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Rady Mom
+    slug: rady-mom
+    party: Democratic
+    votes: 3128
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1616
+    primary_incumbency_component_sd: 0.1138
+    primary_fundraising_component: -0.1282
+    primary_fundraising_component_sd: 0.0075
+    primary_expected_share: 1.012
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Rady Mom
+    slug: rady-mom
+    party: Democratic
+    votes: 1315
+    winner: true
+    actual_primary_share: 0.3495
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2113
+    primary_incumbency_component_sd: 0.0982
+    primary_fundraising_component: 0.0106
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.4504
+    primary_war: -0.1009
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Rithy Uong
+    slug: rithy-uong
+    party: Democratic
+    votes: 1077
+    winner: false
+    actual_primary_share: 0.2862
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0148
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.2434
+    primary_war: 0.0428
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: James Jim Leary
+    slug: james-jim-leary
+    party: Democratic
+    votes: 1052
+    winner: false
+    actual_primary_share: 0.2796
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0051
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.2337
+    primary_war: 0.0459
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Sam S. Meas
+    slug: sam-s-meas
+    party: Democratic
+    votes: 319
+    winner: false
+    actual_primary_share: 0.0848
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0016
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.227
+    primary_war: -0.1422
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Rady Mom
+    slug: rady-mom
+    party: Democratic
+    votes: 1074
+    winner: true
+    actual_primary_share: 0.5136
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1652
+    primary_incumbency_component_sd: 0.1124
+    primary_fundraising_component: 0.0436
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.5208
+    primary_war: -0.0072
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: David M. Ouellette
+    slug: david-m-ouellette
+    party: Democratic
+    votes: 615
+    winner: false
+    actual_primary_share: 0.2941
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0233
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 0.2886
+    primary_war: 0.0055
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Cheth Khim
+    slug: cheth-khim
+    party: Democratic
+    votes: 402
+    winner: false
+    actual_primary_share: 0.1923
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0476
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 0.2643
+    primary_war: -0.072
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kamara Kay
+    slug: kamara-kay
+    party: Republican
+    votes: 190
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Rady Mom
+    slug: rady-mom
+    party: Democratic
+    votes: 648
+    winner: true
+    actual_primary_share: 0.2989
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0255
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.2541
+    primary_war: 0.0448
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: James Jim Leary
+    slug: james-jim-leary
+    party: Democratic
+    votes: 595
+    winner: false
+    actual_primary_share: 0.2744
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0154
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.2132
+    primary_war: 0.0612
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Brian J. Donovan
+    slug: brian-j-donovan
+    party: Democratic
+    votes: 577
+    winner: false
+    actual_primary_share: 0.2661
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0053
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.2233
+    primary_war: 0.0428
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: David M. Ouellette
+    slug: david-m-ouellette
+    party: Democratic
+    votes: 348
+    winner: false
+    actual_primary_share: 0.1605
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.032
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 0.1966
+    primary_war: -0.0361
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kevin J. Murphy
+    slug: kevin-j-murphy
+    party: Democratic
+    votes: 482
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0638
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.9148
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 18th Middlesex District (2012-2020)
 layout: district
 ---

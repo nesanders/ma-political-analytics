@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5174
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4431
-  lean_component_sd: 0.0301
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4428
+  lean_component_sd: 0.03
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: 0.0054
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: 0.0055
   demographics_component_sd: 0.0212
-  fundraising_component: 0.0233
+  fundraising_component: 0.0237
   fundraising_component_sd: 0.0018
   demographics_tier: full
-  expected_share_resolved: 0.6439
+  expected_share_resolved: 0.6445
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2022-present/
+  party: Democratic
+  votes: 2670
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1563
+  primary_incumbency_component_sd: 0.1088
+  primary_fundraising_component: 0.0575
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 1.1924
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4362
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4431
-  lean_component_sd: 0.0301
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4428
+  lean_component_sd: 0.03
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: 0.0054
+  demographics_component: 0.0055
   demographics_component_sd: 0.0212
-  fundraising_component: 0.0116
+  fundraising_component: 0.0119
   fundraising_component_sd: 0.0009
   demographics_tier: full
-  expected_share_resolved: 0.5598
+  expected_share_resolved: 0.5604
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2022-present/
+  party: Democratic
+  votes: 2801
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0356
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.0142
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4485
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4719
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4716
   lean_component_sd: 0.032
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0017
+  fundraising_component: 0.0019
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.6462
+  expected_share_resolved: 0.6464
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 4606
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1563
+  primary_incumbency_component_sd: 0.1125
+  primary_fundraising_component: 0.0172
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1521
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.6222
   war: 0.2997
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4719
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4716
   lean_component_sd: 0.032
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0164
-  fundraising_component_sd: 0.0012
+  fundraising_component: 0.0167
+  fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.6576
-  war_resolved: -0.0354
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6579
+  war_resolved: -0.0357
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 1981
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.206
+  primary_incumbency_component_sd: 0.0968
+  primary_fundraising_component: 0.0446
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.2292
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4022
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4719
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4716
   lean_component_sd: 0.032
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0135
+  fundraising_component: 0.0138
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.6577
+  expected_share_resolved: 0.6581
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 860
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1599
+  primary_incumbency_component_sd: 0.1111
+  primary_fundraising_component: 0.0393
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.1778
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,22 +349,22 @@ races:
   winner: true
   actual_two_party_share: 0.5939
   war: 0.0033
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4719
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4716
   lean_component_sd: 0.032
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0194
+  fundraising_component: 0.0198
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.5895
-  war_resolved: 0.0044
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5901
+  war_resolved: 0.0038
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -215,6 +374,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 6th Bristol District
+  district_url: /district/house-6th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 2318
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0502
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.0288
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13597

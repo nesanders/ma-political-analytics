@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5084
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.455
-  lean_component_sd: 0.0309
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4547
+  lean_component_sd: 0.0308
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: 0.0061
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: 0.0062
   demographics_component_sd: 0.0297
-  fundraising_component: 0.0024
+  fundraising_component: 0.0025
   fundraising_component_sd: 0.0002
   demographics_tier: full
-  expected_share_resolved: 0.6356
+  expected_share_resolved: 0.6359
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2022-present/
+  party: Democratic
+  votes: 1550
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1588
+  primary_incumbency_component_sd: 0.1094
+  primary_fundraising_component: 0.0185
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 1.1559
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4172
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.455
-  lean_component_sd: 0.0309
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4547
+  lean_component_sd: 0.0308
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: 0.0061
+  demographics_component: 0.0062
   demographics_component_sd: 0.0297
-  fundraising_component: 0.0158
+  fundraising_component: 0.0162
   fundraising_component_sd: 0.0012
   demographics_tier: full
-  expected_share_resolved: 0.5766
+  expected_share_resolved: 0.5773
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2022-present/
+  party: Democratic
+  votes: 1660
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0436
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.0222
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4374
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4877
-  lean_component_sd: 0.0331
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4874
+  lean_component_sd: 0.033
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0083
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.652
+  expected_share_resolved: 0.6521
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 3108
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1597
+  primary_incumbency_component_sd: 0.1133
+  primary_fundraising_component: -0.0015
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1368
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6619
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4877
-  lean_component_sd: 0.0331
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4874
+  lean_component_sd: 0.033
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0003
+  fundraising_component: 0.0004
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.6573
+  expected_share_resolved: 0.6574
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 1008
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2093
+  primary_incumbency_component_sd: 0.0977
+  primary_fundraising_component: 0.0146
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 1.2025
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3832
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4877
-  lean_component_sd: 0.0331
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4874
+  lean_component_sd: 0.033
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0003
+  fundraising_component: 0.0005
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.6604
+  expected_share_resolved: 0.6606
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 630
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1633
+  primary_incumbency_component_sd: 0.1119
+  primary_fundraising_component: 0.0146
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 1.1565
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3856
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4877
-  lean_component_sd: 0.0331
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4874
+  lean_component_sd: 0.033
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0182
+  fundraising_component: 0.0186
   fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.6768
+  expected_share_resolved: 0.6771
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 1727
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1862
+  primary_incumbency_component_sd: 0.1039
+  primary_fundraising_component: 0.0481
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.2128
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2525
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4877
-  lean_component_sd: 0.0331
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4874
+  lean_component_sd: 0.033
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0027
+  fundraising_component: 0.0029
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.5899
+  expected_share_resolved: 0.5903
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 7th Bristol District
+  district_url: /district/house-7th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 2153
+  winner: true
+  actual_primary_share: 0.503
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0191
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 0.4977
+  primary_war: 0.0053
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 7th Bristol
+  district_url: /district/house-7th-bristol-2001-2010/
+  party: Democratic
+  votes: 1689
+  winner: false
+  actual_primary_share: 0.4617
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0248
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.5034
+  primary_war: -0.0417
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15060
@@ -269,6 +520,9 @@ ocpf_finance:
     2024:
       total_raised: 25112.88
       total_spent: 32294.36
+    2010:
+      total_raised: 29544.0
+      total_spent: 23952.03
     2012:
       total_raised: 25532.13
       total_spent: 52880.76

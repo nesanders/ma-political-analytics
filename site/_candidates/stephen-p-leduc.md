@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4538
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4301
-  lean_component_sd: 0.0292
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4298
+  lean_component_sd: 0.0291
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0042
+  fundraising_component: 0.0044
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.6062
+  expected_share_resolved: 0.6065
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 4th Middlesex
+  district_url: /district/house-4th-middlesex-2001-2010/
+  party: Democratic
+  votes: 4242
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1562
+  primary_incumbency_component_sd: 0.1072
+  primary_fundraising_component: 0.0218
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1566
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.7074
   war: 0.1346
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4301
-  lean_component_sd: 0.0292
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4298
+  lean_component_sd: 0.0291
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0014
+  fundraising_component: 0.0015
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.6035
-  war_resolved: 0.1039
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6038
+  war_resolved: 0.1036
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 4th Middlesex
+  district_url: /district/house-4th-middlesex-2001-2010/
+  party: Democratic
+  votes: 1161
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1538
+  primary_incumbency_component_sd: 0.1081
+  primary_fundraising_component: 0.0165
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.149
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.734
   war: 0.3659
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4301
-  lean_component_sd: 0.0292
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4298
+  lean_component_sd: 0.0291
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0043
+  fundraising_component: -0.0042
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.5238
-  war_resolved: 0.2102
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5241
+  war_resolved: 0.2099
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 4th Middlesex
+  district_url: /district/house-4th-middlesex-2001-2010/
+  party: Democratic
+  votes: 3736
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0059
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 0.9845
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13065

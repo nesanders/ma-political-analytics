@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6157
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2756
   lean_component_sd: 0.013
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: -0.0023
   demographics_component_sd: 0.0115
-  fundraising_component: 0.0256
-  fundraising_component_sd: 0.0019
+  fundraising_component: 0.0261
+  fundraising_component_sd: 0.002
   demographics_tier: full
-  expected_share_resolved: 0.4929
+  expected_share_resolved: 0.4934
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: First Essex and Middlesex District
+  district_url: /district/senate-first-essex-and-middlesex-district-2022-present/
+  party: Republican
+  votes: 7197
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1688
+  primary_incumbency_component_sd: 0.0909
+  primary_fundraising_component: 0.0619
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 1.2093
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6211
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2756
   lean_component_sd: 0.013
-  tide_component: 0.0026
+  tide_component: 0.0024
   tide_component_sd: 0.0112
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0023
   demographics_component_sd: 0.0115
-  fundraising_component: 0.0269
-  fundraising_component_sd: 0.002
+  fundraising_component: 0.0274
+  fundraising_component_sd: 0.0021
   demographics_tier: full
-  expected_share_resolved: 0.3641
+  expected_share_resolved: 0.3649
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: First Essex and Middlesex District
+  district_url: /district/senate-first-essex-and-middlesex-district-2022-present/
+  party: Republican
+  votes: 9498
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0643
+  primary_fundraising_component_sd: 0.0038
+  primary_expected_share: 1.0429
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,18 +148,18 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6227
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.384
+  lean_component: 0.3841
   lean_component_sd: 0.0181
-  tide_component: 0.0024
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0073
-  fundraising_component_sd: 0.0006
+  fundraising_component_sd: 0.0005
   demographics_tier: null
   expected_share_resolved: 0.5705
   war_resolved: null
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  district_url: /district/senate-first-essex-middlesex-district-2012-2020/
+  party: Republican
+  votes: 10126
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2019
+  primary_incumbency_component_sd: 0.0955
+  primary_fundraising_component: 0.0003
+  primary_fundraising_component_sd: 0.0
+  primary_expected_share: 1.1808
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2405
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.384
+  lean_component: 0.3841
   lean_component_sd: 0.0181
-  tide_component: 0.0049
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0106
+  fundraising_component: 0.0108
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5908
+  expected_share_resolved: 0.5909
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  district_url: /district/senate-first-essex-middlesex-district-2012-2020/
+  party: Republican
+  votes: 9548
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1522
+  primary_incumbency_component_sd: 0.1113
+  primary_fundraising_component: 0.0337
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.1646
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5738
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.384
+  lean_component: 0.3841
   lean_component_sd: 0.0181
-  tide_component: 0.0026
+  tide_component: 0.0024
   tide_component_sd: 0.0112
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0171
+  fundraising_component: 0.0175
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.595
+  expected_share_resolved: 0.5954
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  district_url: /district/senate-first-essex-middlesex-district-2012-2020/
+  party: Republican
+  votes: 2597
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1983
+  primary_incumbency_component_sd: 0.0963
+  primary_fundraising_component: 0.046
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.2228
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3922
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.384
+  lean_component: 0.3841
   lean_component_sd: 0.0181
-  tide_component: 0.0038
+  tide_component: 0.0035
   tide_component_sd: 0.0162
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0145
+  fundraising_component: 0.0148
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.5936
+  expected_share_resolved: 0.5939
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  district_url: /district/senate-first-essex-middlesex-district-2012-2020/
+  party: Republican
+  votes: 6295
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1754
+  primary_incumbency_component_sd: 0.1029
+  primary_fundraising_component: 0.0411
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.1951
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5119
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.384
+  lean_component: 0.3841
   lean_component_sd: 0.0181
-  tide_component: 0.0028
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0153
+  fundraising_component: 0.0156
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.4634
+  expected_share_resolved: 0.4641
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  district_url: /district/senate-first-essex-middlesex-district-2012-2020/
+  party: Republican
+  votes: 5213
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0426
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.0212
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4162
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3838
   lean_component_sd: 0.0181
-  tide_component: 0.0034
+  tide_component: 0.0032
   tide_component_sd: 0.0148
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0021
+  fundraising_component: 0.0022
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.5806
+  expected_share_resolved: 0.5807
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  district_url: /district/senate-first-essex-and-middlesex-2001-2010/
+  party: Republican
+  votes: 7582
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.182
+  primary_incumbency_component_sd: 0.1008
+  primary_fundraising_component: 0.0178
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1784
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -295,20 +549,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5378
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3838
   lean_component_sd: 0.0181
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0117
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0097
+  fundraising_component: 0.0099
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.5875
+  expected_share_resolved: 0.5878
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  district_url: /district/senate-first-essex-and-middlesex-2001-2010/
+  party: Republican
+  votes: 2216
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1961
+  primary_incumbency_component_sd: 0.0968
+  primary_fundraising_component: 0.032
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 1.2067
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -330,20 +616,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5047
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3838
   lean_component_sd: 0.0181
-  tide_component: 0.0029
+  tide_component: 0.0026
   tide_component_sd: 0.0124
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0177
+  fundraising_component: -0.0178
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.5603
+  expected_share_resolved: 0.5602
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -355,6 +641,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  district_url: /district/senate-first-essex-and-middlesex-2001-2010/
+  party: Republican
+  votes: 2341
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1931
+  primary_incumbency_component_sd: 0.0976
+  primary_fundraising_component: -0.0191
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 1.1526
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -365,22 +683,22 @@ races:
   winner: true
   actual_two_party_share: 0.6499
   war: 0.1779
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3838
   lean_component_sd: 0.0181
-  tide_component: 0.0028
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0208
+  fundraising_component: 0.0212
   fundraising_component_sd: 0.0016
   demographics_tier: null
-  expected_share_resolved: 0.5986
-  war_resolved: 0.0513
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5991
+  war_resolved: 0.0508
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -390,6 +708,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  district_url: /district/senate-first-essex-and-middlesex-2001-2010/
+  party: Republican
+  votes: 1870
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1954
+  primary_incumbency_component_sd: 0.097
+  primary_fundraising_component: 0.0529
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 1.2269
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -400,22 +750,22 @@ races:
   winner: true
   actual_two_party_share: 0.7186
   war: 0.0744
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3838
   lean_component_sd: 0.0181
-  tide_component: 0.0039
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0229
-  fundraising_component_sd: 0.0017
+  fundraising_component: 0.0234
+  fundraising_component_sd: 0.0018
   demographics_tier: null
-  expected_share_resolved: 0.4719
-  war_resolved: 0.2467
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4726
+  war_resolved: 0.246
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -425,6 +775,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  district_url: /district/senate-first-essex-and-middlesex-2001-2010/
+  party: Republican
+  votes: 9121
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0569
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 1.0355
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 11916

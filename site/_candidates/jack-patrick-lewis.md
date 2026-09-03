@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2957
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6054
-  lean_component_sd: 0.0411
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.605
+  lean_component_sd: 0.041
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0091
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0093
   demographics_component_sd: 0.0158
-  fundraising_component: 0.021
+  fundraising_component: 0.0214
   fundraising_component_sd: 0.0016
   demographics_tier: full
-  expected_share_resolved: 0.7893
+  expected_share_resolved: 0.7896
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 7th Middlesex District
+  district_url: /district/house-7th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 4527
+  winner: true
+  actual_primary_share: 0.8337
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1907
+  primary_incumbency_component_sd: 0.1175
+  primary_fundraising_component: 0.0532
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 0.7225
+  primary_war: 0.1112
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2746
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6054
-  lean_component_sd: 0.0411
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.605
+  lean_component_sd: 0.041
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0091
+  demographics_component: -0.0093
   demographics_component_sd: 0.0158
-  fundraising_component: 0.0126
+  fundraising_component: 0.0129
   fundraising_component_sd: 0.001
   demographics_tier: full
-  expected_share_resolved: 0.7086
+  expected_share_resolved: 0.7089
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 7th Middlesex District
+  district_url: /district/house-7th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 4947
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0376
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.0162
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2735
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.482
-  lean_component_sd: 0.0327
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4817
+  lean_component_sd: 0.0326
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0
+  fundraising_component: 0.0001
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.6545
+  expected_share_resolved: 0.6547
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 7th Middlesex District
+  district_url: /district/house-7th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 6024
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1585
+  primary_incumbency_component_sd: 0.113
+  primary_fundraising_component: 0.014
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1511
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6876
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.482
-  lean_component_sd: 0.0327
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4817
+  lean_component_sd: 0.0326
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0122
+  fundraising_component: -0.0123
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.639
+  expected_share_resolved: 0.6389
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 7th Middlesex District
+  district_url: /district/house-7th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2215
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2081
+  primary_incumbency_component_sd: 0.0973
+  primary_fundraising_component: -0.0089
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.1778
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,22 +282,22 @@ races:
   winner: true
   actual_two_party_share: 0.6508
   war: -0.0458
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.482
-  lean_component_sd: 0.0327
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4817
+  lean_component_sd: 0.0326
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0105
+  fundraising_component: 0.0108
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5922
-  war_resolved: 0.0586
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5927
+  war_resolved: 0.0581
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -180,6 +307,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 7th Middlesex District
+  district_url: /district/house-7th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 825
+  winner: true
+  actual_primary_share: 0.3703
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0336
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 0.3456
+  primary_war: 0.0247
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16324

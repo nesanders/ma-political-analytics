@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4374
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4877
-    lean_component_sd: 0.0331
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4874
+    lean_component_sd: 0.033
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0083
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.652
+    expected_share_resolved: 0.6521
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.6619
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4877
-    lean_component_sd: 0.0331
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4874
+    lean_component_sd: 0.033
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0003
+    fundraising_component: 0.0004
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.6573
+    expected_share_resolved: 0.6574
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3832
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4877
-    lean_component_sd: 0.0331
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4874
+    lean_component_sd: 0.033
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0003
+    fundraising_component: 0.0005
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.6604
+    expected_share_resolved: 0.6606
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3856
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4877
-    lean_component_sd: 0.0331
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4874
+    lean_component_sd: 0.033
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0182
+    fundraising_component: 0.0186
     fundraising_component_sd: 0.0014
     demographics_tier: null
-    expected_share_resolved: 0.6768
+    expected_share_resolved: 0.6771
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.2525
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4877
-    lean_component_sd: 0.0331
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4874
+    lean_component_sd: 0.033
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0027
+    fundraising_component: 0.0029
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5899
+    expected_share_resolved: 0.5903
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,166 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alan Silvia
+    slug: alan-silvia
+    party: Democratic
+    votes: 3108
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1597
+    primary_incumbency_component_sd: 0.1133
+    primary_fundraising_component: -0.0015
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1368
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alan Silvia
+    slug: alan-silvia
+    party: Democratic
+    votes: 1008
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2093
+    primary_incumbency_component_sd: 0.0977
+    primary_fundraising_component: 0.0146
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.2025
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alan Silvia
+    slug: alan-silvia
+    party: Democratic
+    votes: 630
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1633
+    primary_incumbency_component_sd: 0.1119
+    primary_fundraising_component: 0.0146
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.1565
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alan Silvia
+    slug: alan-silvia
+    party: Democratic
+    votes: 1727
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1862
+    primary_incumbency_component_sd: 0.1039
+    primary_fundraising_component: 0.0481
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 1.2128
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Alan Silvia
+    slug: alan-silvia
+    party: Democratic
+    votes: 2153
+    winner: true
+    actual_primary_share: 0.503
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0191
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.4977
+    primary_war: 0.0053
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Kevin Aguiar
+    slug: kevin-aguiar
+    party: Democratic
+    votes: 2127
+    winner: false
+    actual_primary_share: 0.497
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.0184
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
 title: 7th Bristol District (2012-2020)
 layout: district
 ---

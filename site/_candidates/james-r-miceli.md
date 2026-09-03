@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5123
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3522
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.352
   lean_component_sd: 0.0239
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.005
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.5195
+  expected_share_resolved: 0.5197
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 19th Middlesex District
+  district_url: /district/house-19th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1010
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1345
+  primary_incumbency_component_sd: 0.1059
+  primary_fundraising_component: 0.0046
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1177
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.7031
   war: 0.3377
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3522
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.352
   lean_component_sd: 0.0239
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0065
+  fundraising_component: -0.0064
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.5166
-  war_resolved: 0.1865
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5167
+  war_resolved: 0.1864
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 19th Middlesex District
+  district_url: /district/house-19th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2776
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1574
+  primary_incumbency_component_sd: 0.0974
+  primary_fundraising_component: 0.0019
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1379
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.7352
   war: 0.2585
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3522
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.352
   lean_component_sd: 0.0239
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0004
+  fundraising_component: 0.0006
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.4521
-  war_resolved: 0.2831
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4525
+  war_resolved: 0.2827
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 19th Middlesex District
+  district_url: /district/house-19th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1238
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0148
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 0.9934
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -118,22 +213,22 @@ races:
   winner: true
   actual_two_party_share: 0.6363
   war: 0.263
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3818
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3816
   lean_component_sd: 0.0259
-  tide_component: 0.0051
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0196
+  fundraising_component: -0.0198
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.5334
-  war_resolved: 0.1029
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5333
+  war_resolved: 0.103
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 19th Middlesex
+  district_url: /district/house-19th-middlesex-2001-2010/
+  party: Democratic
+  votes: 2101
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1571
+  primary_incumbency_component_sd: 0.101
+  primary_fundraising_component: -0.0228
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1129
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -153,17 +280,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5032
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3818
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3816
   lean_component_sd: 0.0259
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0212
+  fundraising_component: -0.0214
   fundraising_component_sd: 0.0016
   demographics_tier: null
   expected_share_resolved: 0.5327
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 19th Middlesex
+  district_url: /district/house-19th-middlesex-2001-2010/
+  party: Democratic
+  votes: 2526
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1429
+  primary_incumbency_component_sd: 0.1062
+  primary_fundraising_component: -0.0258
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.0958
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -188,20 +347,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5134
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3818
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3816
   lean_component_sd: 0.0259
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0265
+  fundraising_component: -0.0268
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.5273
+  expected_share_resolved: 0.5271
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 19th Middlesex
+  district_url: /district/house-19th-middlesex-2001-2010/
+  party: Democratic
+  votes: 4681
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1459
+  primary_incumbency_component_sd: 0.1051
+  primary_fundraising_component: -0.0356
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.0889
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -223,20 +414,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4736
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3818
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3816
   lean_component_sd: 0.0259
-  tide_component: 0.006
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0062
+  fundraising_component: -0.0061
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.5477
+  expected_share_resolved: 0.5479
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 19th Middlesex
+  district_url: /district/house-19th-middlesex-2001-2010/
+  party: Democratic
+  votes: 1429
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1436
+  primary_incumbency_component_sd: 0.106
+  primary_fundraising_component: 0.0024
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1246
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -258,11 +481,11 @@ races:
   winner: true
   actual_two_party_share: 0.6953
   war: 0.3245
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3818
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3816
   lean_component_sd: 0.0259
-  tide_component: 0.0046
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -271,9 +494,9 @@ races:
   fundraising_component: -0.0121
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.4678
-  war_resolved: 0.2275
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.468
+  war_resolved: 0.2273
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -283,6 +506,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 19th Middlesex
+  district_url: /district/house-19th-middlesex-2001-2010/
+  party: Democratic
+  votes: 3917
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0086
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 0.97
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 10312

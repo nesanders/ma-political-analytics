@@ -220,7 +220,18 @@ def compute_war(
     """results/races: from fetch.pd43 for one chamber/year (general-stage
     races only — WAR needs a clean D-vs-R two-party contest, not a primary).
     lean: from compute_lean, keyed by district_name. name_match: PD43+
-    district_raw -> boundary district_name (from match_district_names)."""
+    district_raw -> boundary district_name (from match_district_names).
+
+    Special elections (mid-cycle vacancy fills) stay excluded here, same as
+    before — a real, live complication found while adding primary support:
+    30+ district-years have *two* general races in the same calendar year
+    (a special filling a vacancy plus that year's regular cycle election),
+    which this module's one-entry-per-(district, year) data model can't
+    represent without risking the incumbency-chain logic several other
+    pieces of this pipeline depend on. compute_primary_results below does
+    include special primaries — no such same-year collision exists there
+    (a district's own primary field is inherently one race at a time per
+    party), so this asymmetry is deliberate, not an oversight."""
     r = results.merge(races[["election_id", "district_raw", "stage", "is_special"]], on="election_id")
     r = r[(r["stage"] == "general") & (~r["is_special"])].copy()
     r["district_name"] = r["district_raw"].map(name_match)
@@ -270,6 +281,58 @@ def compute_war(
     return r
 
 
+def compute_primary_results(
+    results: pd.DataFrame,
+    races: pd.DataFrame,
+    name_match: dict[str, str | None],
+) -> pd.DataFrame:
+    """results/races: from fetch.pd43 for one chamber/year (primary-stage
+    races only). Unlike compute_war, this needs no statewide baseline race
+    at all — a primary's own vote totals are the only input — so it can run
+    for a year before that year's Governor/President baseline has even been
+    fetched, a real, live gap: this project's 2026 primary data currently
+    predates that year's own baseline (see generate_site_data.py's own
+    docstring for how the two-stage main() ordering that makes this
+    possible works). Special-election primaries are included, same
+    rationale as compute_war's own docstring.
+
+    A primary race is intra-party (`races["party"]`, from the PD43+ page
+    title, is never null for a primary and is the same for every candidate
+    in it — unlike the per-candidate `party` field this shares a name with,
+    which is occasionally null or, for ~20 rows across 3,381 primary races
+    checked live, disagrees on a minor-party candidate's exact spelling;
+    the race-level value is authoritative here), so there's no two-party
+    share the way a general has. `actual_primary_share` is instead each
+    candidate's share of votes cast *for named candidates in that specific
+    race* (write-ins/blanks excluded, same "which votes count" convention
+    compute_war already uses for two-party share); `fair_share` (1 /
+    n_candidates) is the no-information baseline a primary's own field size
+    implies — a 2-way primary's fair share is 50%, a 3-way's is ~33%, the
+    same role lean_dem_share plays for a general. See fit_primary_war_model
+    for how these feed the fitted expected share."""
+    r = results.merge(
+        races[["election_id", "district_raw", "stage", "party", "is_special"]],
+        on="election_id",
+        suffixes=("", "_race"),
+    )
+    r = r[(r["stage"] == "primary") & r["votes"].notna()].copy()
+    r["district_name"] = r["district_raw"].map(name_match)
+    # Race-level party (from the PD43+ title, e.g. "Democratic Primary"),
+    # not the per-candidate one from results — see this function's own
+    # docstring for why.
+    r["party"] = r["party_race"]
+    r = r.drop(columns=["party_race"])
+
+    field_totals = r.groupby("election_id")["votes"].transform("sum")
+    field_size = r.groupby("election_id")["candidate_slug"].transform("count")
+    r["n_candidates"] = field_size
+    r["is_contested"] = field_size > 1
+    r["actual_primary_share"] = r["votes"] / field_totals
+    r["fair_share"] = 1.0 / field_size
+
+    return r
+
+
 @click.command()
 @click.option("--chamber", type=click.Choice(["house", "senate"]), required=True)
 @click.option("--year", type=int, required=True)
@@ -284,6 +347,44 @@ def main(chamber, year, vintage, pd43_dir, baseline_dir, baseline_office, crossw
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    overlap = pd.read_parquet(crosswalks_dir / "town_district_overlap.parquet")
+    overlap = overlap[(overlap["chamber"] == chamber) & (overlap["vintage"] == vintage)]
+
+    races = pd.read_parquet(pd43_dir / f"{chamber}_races.parquet")
+    results = pd.read_parquet(pd43_dir / f"{chamber}_results.parquet")
+    races_year = races[races["year"] == year]
+    # A separate match against the crosswalk's own district roster (not the
+    # war-fit's own name_match below, computed from that year's lean rows)
+    # — needed so primary results can match districts and write their own
+    # output *before* (and independent of) the baseline-race lookup a few
+    # lines down, which primaries don't need at all (see
+    # compute_primary_results' own docstring) and which can legitimately be
+    # missing for a year whose primary has already happened but whose
+    # Governor/President baseline hasn't been fetched yet — this project's
+    # own 2026 data, right now. Kept distinct from compute_war's own
+    # name_match rather than shared, even though the two district rosters
+    # are usually identical in practice: found live, matching against
+    # overlap's roster instead of lean's changed compute_war's own sample
+    # size (1,494 -> 1,534 contested races) and R² (0.73 -> 0.69) when
+    # first tried as one shared match — an unintended, unreviewed change to
+    # the already-shipped general model this primary feature has no reason
+    # to touch.
+    name_match_overlap = match_district_names(races_year["district_raw"].unique().tolist(), overlap["district_name"].unique().tolist())
+
+    primary = compute_primary_results(results, races_year, name_match_overlap)
+    if len(primary):
+        primary_path = out_dir / f"{chamber}_{year}_primary.parquet"
+        primary.to_parquet(primary_path, index=False)
+        logger.info(
+            "Wrote %d primary rows to %s (%d races, %d contested)",
+            len(primary),
+            primary_path,
+            primary["election_id"].nunique(),
+            primary[primary["is_contested"]]["election_id"].nunique(),
+        )
+    else:
+        logger.info("%s %s: no primary races on file, nothing to write for primary results.", chamber, year)
+
     baseline_races = pd.read_parquet(baseline_dir / f"{baseline_office}_races.parquet")
     baseline_town = pd.read_parquet(baseline_dir / f"{baseline_office}_town_results.parquet")
     baseline_general = baseline_races[
@@ -293,9 +394,6 @@ def main(chamber, year, vintage, pd43_dir, baseline_dir, baseline_office, crossw
         raise ValueError(f"Expected exactly one {baseline_office} general race for {year}, got {len(baseline_general)}")
     election_id = baseline_general.iloc[0]["election_id"]
     town = baseline_town[baseline_town["election_id"] == election_id]
-
-    overlap = pd.read_parquet(crosswalks_dir / "town_district_overlap.parquet")
-    overlap = overlap[(overlap["chamber"] == chamber) & (overlap["vintage"] == vintage)]
 
     baseline_results = pd.read_parquet(baseline_dir / f"{baseline_office}_results.parquet")
     baseline_results = baseline_results[baseline_results["election_id"] == election_id]
@@ -325,11 +423,10 @@ def main(chamber, year, vintage, pd43_dir, baseline_dir, baseline_office, crossw
         lean["competitiveness_label"].value_counts().to_dict(),
     )
 
-    races = pd.read_parquet(pd43_dir / f"{chamber}_races.parquet")
-    results = pd.read_parquet(pd43_dir / f"{chamber}_results.parquet")
-    races_year = races[races["year"] == year]
+    # Restored to its pre-primary-feature form exactly: matched against
+    # lean's own district roster, not name_match_overlap above — see that
+    # variable's own comment for why the two are kept separate.
     name_match = match_district_names(races_year["district_raw"].unique().tolist(), lean["district_name"].tolist())
-
     war = compute_war(results, races_year, lean, name_match)
     war_path = out_dir / f"{chamber}_{year}_war.parquet"
     war.to_parquet(war_path, index=False)

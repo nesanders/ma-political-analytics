@@ -30,22 +30,22 @@ results_by_year:
     war: -0.0674
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5136
-    lean_component_sd: 0.0349
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5133
+    lean_component_sd: 0.0348
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0022
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0023
     demographics_component_sd: 0.0144
-    fundraising_component: 0.0207
+    fundraising_component: 0.0211
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.7041
-    war_resolved: -0.1619
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7046
+    war_resolved: -0.1624
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: 0.0674
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2842
+    lean_component: 0.2843
     lean_component_sd: 0.0134
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0022
+    demographics_component: -0.0023
     demographics_component_sd: 0.0144
-    fundraising_component: 0.0109
+    fundraising_component: 0.0111
     fundraising_component_sd: 0.0008
     demographics_tier: full
-    expected_share_resolved: 0.3569
-    war_resolved: 0.1009
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3574
+    war_resolved: 0.1004
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: -0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5136
-    lean_component_sd: 0.0349
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5133
+    lean_component_sd: 0.0348
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0022
+    demographics_component: -0.0023
     demographics_component_sd: 0.0144
-    fundraising_component: 0.0168
+    fundraising_component: 0.0171
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.6278
-    war_resolved: -0.1278
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6284
+    war_resolved: -0.1284
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -135,22 +135,22 @@ results_by_year:
     war: 0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2842
+    lean_component: 0.2843
     lean_component_sd: 0.0134
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0022
+    demographics_component: -0.0023
     demographics_component_sd: 0.0144
-    fundraising_component: 0.0117
+    fundraising_component: 0.012
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.3576
-    war_resolved: 0.1424
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3582
+    war_resolved: 0.1418
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -159,6 +159,116 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kristin E. Kassner
+    slug: kristin-e-kassner
+    party: Democratic
+    votes: 4156
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1712
+    primary_incumbency_component_sd: 0.1123
+    primary_fundraising_component: 0.0526
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 1.2025
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Mark T. Tashjian
+    slug: mark-t-tashjian
+    party: Republican
+    votes: 394
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0343
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.0129
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kristin E. Kassner
+    slug: kristin-e-kassner
+    party: Democratic
+    votes: 5048
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0454
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.024
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Leonard Mirra
+    slug: leonard-mirra
+    party: Republican
+    votes: 2656
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0359
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.0145
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44809
   voting_age_population: 35707

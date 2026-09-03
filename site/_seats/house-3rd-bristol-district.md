@@ -30,11 +30,11 @@ results_by_year:
     war: 0.4681
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4631
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4628
     lean_component_sd: 0.0314
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -43,7 +43,7 @@ results_by_year:
     fundraising_component: -0.0053
     fundraising_component_sd: 0.0004
     demographics_tier: full
-    expected_share_resolved: 0.5612
+    expected_share_resolved: 0.5616
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: 0.0087
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4631
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4628
     lean_component_sd: 0.0314
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0039
     demographics_component_sd: 0.0117
-    fundraising_component: 0.0205
+    fundraising_component: 0.0209
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.5872
-    war_resolved: -0.0169
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5879
+    war_resolved: -0.0176
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: -0.0087
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3273
-    lean_component_sd: 0.0155
-    tide_component: 0.0026
+    lean_component_sd: 0.0154
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0039
     demographics_component_sd: 0.0117
-    fundraising_component: 0.0298
+    fundraising_component: 0.0303
     fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.4248
-    war_resolved: 0.0049
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4257
+    war_resolved: 0.004
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -127,6 +127,88 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carol Ann Doherty
+    slug: carol-ann-doherty
+    party: Democratic
+    votes: 3099
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.004
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9826
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carol A. Doherty
+    slug: carol-a-doherty
+    party: Democratic
+    votes: 2996
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0523
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 1.0309
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christopher P. Coute
+    slug: christopher-p-coute
+    party: Republican
+    votes: 1361
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0697
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 1.0483
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44751
   voting_age_population: 35896

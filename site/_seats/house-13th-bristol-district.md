@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4584
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.492
-    lean_component_sd: 0.0334
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4918
+    lean_component_sd: 0.0333
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0011
     demographics_component_sd: 0.0285
-    fundraising_component: 0.0063
+    fundraising_component: 0.0065
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.6716
+    expected_share_resolved: 0.6719
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3796
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.492
-    lean_component_sd: 0.0334
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4918
+    lean_component_sd: 0.0333
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0011
     demographics_component_sd: 0.0285
-    fundraising_component: 0.008
+    fundraising_component: 0.0083
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.6009
+    expected_share_resolved: 0.6014
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio d. F. Cabral
+    slug: antonio-d-f-cabral
+    party: Democratic
+    votes: 2118
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1667
+    primary_incumbency_component_sd: 0.1112
+    primary_fundraising_component: 0.0258
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1711
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio d. F. Cabral
+    slug: antonio-d-f-cabral
+    party: Democratic
+    votes: 2663
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.029
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0076
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43904
   voting_age_population: 34150

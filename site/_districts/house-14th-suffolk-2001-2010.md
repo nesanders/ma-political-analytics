@@ -33,14 +33,14 @@ results_by_year:
     war: 0.2469
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6381
-    lean_component_sd: 0.0433
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6378
+    lean_component_sd: 0.0432
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0056
@@ -72,14 +72,14 @@ results_by_year:
     war: 0.197
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6381
-    lean_component_sd: 0.0433
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6378
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0041
@@ -111,17 +111,17 @@ results_by_year:
     war: 0.2254
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6381
-    lean_component_sd: 0.0433
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6378
+    lean_component_sd: 0.0432
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0043
+    fundraising_component: -0.0042
     fundraising_component_sd: 0.0003
     demographics_tier: null
     expected_share_resolved: 0.8058
@@ -150,22 +150,22 @@ results_by_year:
     war: 0.0636
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6381
-    lean_component_sd: 0.0433
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6378
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0119
+    fundraising_component: -0.012
     fundraising_component_sd: 0.0009
     demographics_tier: null
     expected_share_resolved: 0.7983
     war_resolved: 0.0483
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,22 +180,22 @@ results_by_year:
     war: -0.0636
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.178
     lean_component_sd: 0.0084
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0388
-    fundraising_component_sd: 0.003
+    fundraising_component: -0.0392
+    fundraising_component_sd: 0.0029
     demographics_tier: null
-    expected_share_resolved: 0.2033
-    war_resolved: -0.0499
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2031
+    war_resolved: -0.0497
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -245,20 +245,20 @@ results_by_year:
     war: 0.3461
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6381
-    lean_component_sd: 0.0433
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6378
+    lean_component_sd: 0.0432
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0012
+    fundraising_component: -0.0011
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.735
+    expected_share_resolved: 0.7352
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,6 +267,198 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo M. Scaccia
+    slug: angelo-m-scaccia
+    party: Democratic
+    votes: 2702
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2114
+    primary_incumbency_component_sd: 0.1149
+    primary_fundraising_component: 0.0035
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 1.1935
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo M. Scaccia
+    slug: angelo-m-scaccia
+    party: Democratic
+    votes: 2285
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1973
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: 0.0063
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 1.1822
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo M. Scaccia
+    slug: angelo-m-scaccia
+    party: Democratic
+    votes: 4727
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2003
+    primary_incumbency_component_sd: 0.1185
+    primary_fundraising_component: 0.0059
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1848
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo M. Scaccia
+    slug: angelo-m-scaccia
+    party: Democratic
+    votes: 2792
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.198
+    primary_incumbency_component_sd: 0.1193
+    primary_fundraising_component: -0.0083
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1682
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Libertarian
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Douglas L. Krick
+    slug: douglas-l-krick
+    party: Libertarian
+    votes: 2
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: null
+    primary_baseline_component: null
+    primary_baseline_component_sd: null
+    primary_incumbency_component: null
+    primary_incumbency_component_sd: null
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: null
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors: null
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Camillo Giangrande, III
+    slug: camillo-giangrande-iii
+    party: Republican
+    votes: 129
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0586
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 0.92
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo M. Scaccia
+    slug: angelo-m-scaccia
+    party: Democratic
+    votes: 3834
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0118
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9904
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 14th Suffolk (2001-2010)
 layout: district
 ---

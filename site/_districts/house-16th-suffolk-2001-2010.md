@@ -33,20 +33,20 @@ results_by_year:
     war: 0.49
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4848
-    lean_component_sd: 0.0329
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4845
+    lean_component_sd: 0.0328
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0137
-    fundraising_component_sd: 0.001
+    fundraising_component: 0.014
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.6697
+    expected_share_resolved: 0.67
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.3879
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4848
-    lean_component_sd: 0.0329
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4845
+    lean_component_sd: 0.0328
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0033
+    fundraising_component: 0.0034
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.6602
+    expected_share_resolved: 0.6604
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.418
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4848
-    lean_component_sd: 0.0329
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4845
+    lean_component_sd: 0.0328
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0018
+    fundraising_component: 0.002
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6586
+    expected_share_resolved: 0.6588
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3424
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4848
-    lean_component_sd: 0.0329
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4845
+    lean_component_sd: 0.0328
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0034
-    fundraising_component_sd: 0.0003
+    fundraising_component: -0.0033
+    fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6535
+    expected_share_resolved: 0.6537
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,11 +189,11 @@ results_by_year:
     war: 0.4998
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4848
-    lean_component_sd: 0.0329
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4845
+    lean_component_sd: 0.0328
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -202,7 +202,7 @@ results_by_year:
     fundraising_component: -0.0092
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.5737
+    expected_share_resolved: 0.5739
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathi-Anne Reinstein
+    slug: kathi-anne-reinstein
+    party: Democratic
+    votes: 2171
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1789
+    primary_incumbency_component_sd: 0.1059
+    primary_fundraising_component: 0.0396
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 1.1971
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathi-Anne Reinstein
+    slug: kathi-anne-reinstein
+    party: Democratic
+    votes: 2228
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1648
+    primary_incumbency_component_sd: 0.111
+    primary_fundraising_component: 0.0201
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.1635
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathi-Anne Reinstein
+    slug: kathi-anne-reinstein
+    party: Democratic
+    votes: 4321
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1678
+    primary_incumbency_component_sd: 0.1098
+    primary_fundraising_component: 0.0174
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1637
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathi-Anne Reinstein
+    slug: kathi-anne-reinstein
+    party: Democratic
+    votes: 2249
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1654
+    primary_incumbency_component_sd: 0.1107
+    primary_fundraising_component: 0.0077
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 1.1517
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathi-Anne Reinstein
+    slug: kathi-anne-reinstein
+    party: Democratic
+    votes: 5246
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0032
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9754
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 16th Suffolk (2001-2010)
 layout: district
 ---

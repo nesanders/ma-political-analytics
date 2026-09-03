@@ -13,11 +13,11 @@ races:
   winner: false
   actual_two_party_share: 0.1473
   war: -0.0768
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2086
-  lean_component_sd: 0.0099
-  tide_component: 0.0027
+  lean_component_sd: 0.0098
+  tide_component: 0.0025
   tide_component_sd: 0.0117
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.2726
-  war_resolved: -0.1253
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.2729
+  war_resolved: -0.1256
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -37,6 +37,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 10th Hampden
+  district_url: /district/house-10th-hampden-2001-2010/
+  party: Republican
+  votes: 50
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -47,22 +77,22 @@ races:
   winner: false
   actual_two_party_share: 0.1591
   war: -0.101
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2086
-  lean_component_sd: 0.0099
-  tide_component: 0.0029
+  lean_component_sd: 0.0098
+  tide_component: 0.0026
   tide_component_sd: 0.0124
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.2104
+  fundraising_component: -0.2132
   fundraising_component_sd: 0.016
   demographics_tier: null
-  expected_share_resolved: 0.0624
-  war_resolved: 0.0967
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.0598
+  war_resolved: 0.0993
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -72,6 +102,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 10th Hampden
+  district_url: /district/house-10th-hampden-2001-2010/
+  party: Republican
+  votes: 75
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.3797
+  primary_fundraising_component_sd: 0.0222
+  primary_expected_share: 0.5989
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -82,22 +143,22 @@ races:
   winner: false
   actual_two_party_share: 0.2836
   war: 0.0032
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2086
-  lean_component_sd: 0.0099
-  tide_component: 0.0028
+  lean_component_sd: 0.0098
+  tide_component: 0.0025
   tide_component_sd: 0.0118
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0431
+  fundraising_component: -0.0436
   fundraising_component_sd: 0.0033
   demographics_tier: null
-  expected_share_resolved: 0.2296
-  war_resolved: 0.054
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.2294
+  war_resolved: 0.0542
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -107,6 +168,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 10th Hampden
+  district_url: /district/house-10th-hampden-2001-2010/
+  party: Republican
+  votes: 63
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0667
+  primary_fundraising_component_sd: 0.0039
+  primary_expected_share: 0.9119
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14325

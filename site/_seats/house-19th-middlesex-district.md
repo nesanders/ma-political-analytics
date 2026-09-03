@@ -30,11 +30,11 @@ results_by_year:
     war: 0.0654
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4374
-    lean_component_sd: 0.0297
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4372
+    lean_component_sd: 0.0296
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -43,9 +43,9 @@ results_by_year:
     fundraising_component: -0.0042
     fundraising_component_sd: 0.0003
     demographics_tier: full
-    expected_share_resolved: 0.5354
-    war_resolved: 0.0397
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5358
+    war_resolved: 0.0393
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0654
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3491
-    lean_component_sd: 0.0165
-    tide_component: 0.0027
+    lean_component: 0.3492
+    lean_component_sd: 0.0164
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0027
     demographics_component_sd: 0.0093
-    fundraising_component: -0.1184
+    fundraising_component: -0.12
     fundraising_component_sd: 0.009
     demographics_tier: full
-    expected_share_resolved: 0.2975
-    war_resolved: 0.1274
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2962
+    war_resolved: 0.1287
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -129,22 +129,22 @@ results_by_year:
     war: 0.0398
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4374
-    lean_component_sd: 0.0297
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4372
+    lean_component_sd: 0.0296
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0027
     demographics_component_sd: 0.0093
-    fundraising_component: -0.0483
+    fundraising_component: -0.0489
     fundraising_component_sd: 0.0037
     demographics_tier: full
-    expected_share_resolved: 0.4915
-    war_resolved: 0.0715
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4913
+    war_resolved: 0.0717
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -161,22 +161,22 @@ results_by_year:
     war: -0.0398
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3491
-    lean_component_sd: 0.0165
-    tide_component: 0.0026
+    lean_component: 0.3492
+    lean_component_sd: 0.0164
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0027
     demographics_component_sd: 0.0093
-    fundraising_component: -0.0466
-    fundraising_component_sd: 0.0036
+    fundraising_component: -0.0472
+    fundraising_component_sd: 0.0035
     demographics_tier: full
-    expected_share_resolved: 0.3691
-    war_resolved: 0.0679
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3689
+    war_resolved: 0.0681
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -185,6 +185,115 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David Allen Robertson
+    slug: david-allen-robertson
+    party: Democratic
+    votes: 2955
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.006
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.9846
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul Sarnowski
+    slug: paul-sarnowski
+    party: Republican
+    votes: 1591
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.2076
+    primary_fundraising_component_sd: 0.0122
+    primary_expected_share: 0.771
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David A. Robertson
+    slug: david-a-robertson
+    party: Democratic
+    votes: 3690
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0765
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 0.9021
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul Sarnowski
+    slug: paul-sarnowski
+    party: Republican
+    votes: 2159
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0733
+    primary_fundraising_component_sd: 0.0043
+    primary_expected_share: 0.9053
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42164
   voting_age_population: 34062

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3437
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5667
-  lean_component_sd: 0.0385
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5664
+  lean_component_sd: 0.0384
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0035
-  demographics_component_sd: 0.0098
-  fundraising_component: 0.0043
+  demographics_component_sd: 0.0097
+  fundraising_component: 0.0045
   fundraising_component_sd: 0.0003
   demographics_tier: full
-  expected_share_resolved: 0.7397
+  expected_share_resolved: 0.7399
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2022-present/
+  party: Democratic
+  votes: 3683
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1825
+  primary_incumbency_component_sd: 0.1152
+  primary_fundraising_component: 0.022
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1832
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.318
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5667
-  lean_component_sd: 0.0385
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5664
+  lean_component_sd: 0.0384
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0035
-  demographics_component_sd: 0.0098
-  fundraising_component: 0.0137
-  fundraising_component_sd: 0.001
+  demographics_component_sd: 0.0097
+  fundraising_component: 0.014
+  fundraising_component_sd: 0.0011
   demographics_tier: full
-  expected_share_resolved: 0.6767
+  expected_share_resolved: 0.6773
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2022-present/
+  party: Democratic
+  votes: 3378
+  winner: true
+  actual_primary_share: 0.7847
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0397
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 0.5183
+  primary_war: 0.2664
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2945
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4955
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4952
   lean_component_sd: 0.0336
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0226
+  fundraising_component: -0.0228
   fundraising_component_sd: 0.0017
   demographics_tier: null
-  expected_share_resolved: 0.6455
+  expected_share_resolved: 0.6454
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 7750
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1613
+  primary_incumbency_component_sd: 0.1137
+  primary_fundraising_component: -0.0283
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.1117
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,17 +215,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6356
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4955
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4952
   lean_component_sd: 0.0336
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0051
+  fundraising_component: -0.005
   fundraising_component_sd: 0.0004
   demographics_tier: null
   expected_share_resolved: 0.6597
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 3498
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.211
+  primary_incumbency_component_sd: 0.0981
+  primary_fundraising_component: 0.0045
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.194
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3146
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4955
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4952
   lean_component_sd: 0.0336
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0008
+  fundraising_component: 0.0009
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.6686
+  expected_share_resolved: 0.6688
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 1519
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1649
+  primary_incumbency_component_sd: 0.1123
+  primary_fundraising_component: 0.0154
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 1.159
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4861
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4955
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4952
   lean_component_sd: 0.0336
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.002
+  fundraising_component: 0.0021
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.6683
+  expected_share_resolved: 0.6685
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 2794
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1878
+  primary_incumbency_component_sd: 0.1044
+  primary_fundraising_component: 0.0177
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1841
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3439
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4955
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4952
   lean_component_sd: 0.0336
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0531
+  fundraising_component: -0.0537
   fundraising_component_sd: 0.004
   demographics_tier: null
-  expected_share_resolved: 0.5419
+  expected_share_resolved: 0.5415
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 1st Norfolk District
+  district_url: /district/house-1st-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 1552
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0854
+  primary_fundraising_component_sd: 0.005
+  primary_expected_share: 0.8932
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4258
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.504
-  lean_component_sd: 0.0342
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5037
+  lean_component_sd: 0.0341
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0762
+  fundraising_component: -0.0772
   fundraising_component_sd: 0.0058
   demographics_tier: null
-  expected_share_resolved: 0.599
+  expected_share_resolved: 0.598
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 1st Norfolk
+  district_url: /district/house-1st-norfolk-2001-2010/
+  party: Democratic
+  votes: 4031
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.183
+  primary_incumbency_component_sd: 0.107
+  primary_fundraising_component: -0.1287
+  primary_fundraising_component_sd: 0.0075
+  primary_expected_share: 1.0329
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,20 +549,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3767
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.504
-  lean_component_sd: 0.0342
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5037
+  lean_component_sd: 0.0341
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0002
+  fundraising_component: 0.0003
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.6763
+  expected_share_resolved: 0.6765
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 1st Norfolk
+  district_url: /district/house-1st-norfolk-2001-2010/
+  party: Democratic
+  votes: 2479
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1689
+  primary_incumbency_component_sd: 0.1119
+  primary_fundraising_component: 0.0143
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1618
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -330,20 +616,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3916
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.504
-  lean_component_sd: 0.0342
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5037
+  lean_component_sd: 0.0341
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0044
+  fundraising_component: -0.0043
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.6716
+  expected_share_resolved: 0.6717
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -355,6 +641,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 1st Norfolk
+  district_url: /district/house-1st-norfolk-2001-2010/
+  party: Democratic
+  votes: 5266
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1718
+  primary_incumbency_component_sd: 0.1108
+  primary_fundraising_component: 0.0058
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1563
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -365,22 +683,22 @@ races:
   winner: true
   actual_two_party_share: 0.7761
   war: 0.1174
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.504
-  lean_component_sd: 0.0342
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5037
+  lean_component_sd: 0.0341
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0102
+  fundraising_component: 0.0104
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.6863
-  war_resolved: 0.0898
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6866
+  war_resolved: 0.0895
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -390,6 +708,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 1st Norfolk
+  district_url: /district/house-1st-norfolk-2001-2010/
+  party: Democratic
+  votes: 3228
+  winner: true
+  actual_primary_share: 0.7635
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1695
+  primary_incumbency_component_sd: 0.1117
+  primary_fundraising_component: 0.033
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 0.6811
+  primary_war: 0.0824
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -400,11 +750,11 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4893
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.504
-  lean_component_sd: 0.0342
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5037
+  lean_component_sd: 0.0341
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -413,7 +763,7 @@ races:
   fundraising_component: -0.0128
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.5893
+  expected_share_resolved: 0.5894
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -425,6 +775,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 1st Norfolk
+  district_url: /district/house-1st-norfolk-2001-2010/
+  party: Democratic
+  votes: 5434
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0099
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.9687
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13284

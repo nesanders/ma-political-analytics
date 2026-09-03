@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6547
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3761
-  lean_component_sd: 0.0178
-  tide_component: 0.0024
+  lean_component: 0.3762
+  lean_component_sd: 0.0177
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.2104
+  fundraising_component: -0.2132
   fundraising_component_sd: 0.016
   demographics_tier: null
-  expected_share_resolved: 0.3595
+  expected_share_resolved: 0.3567
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 4th Essex District
+  district_url: /district/house-4th-essex-district-2012-2020/
+  party: Republican
+  votes: 2616
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1999
+  primary_incumbency_component_sd: 0.095
+  primary_fundraising_component: -0.3797
+  primary_fundraising_component_sd: 0.0222
+  primary_expected_share: 0.7988
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.5634
   war: -0.185
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3761
-  lean_component_sd: 0.0178
-  tide_component: 0.0049
+  lean_component: 0.3762
+  lean_component_sd: 0.0177
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0138
-  fundraising_component_sd: 0.001
+  fundraising_component: 0.0141
+  fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.5862
-  war_resolved: -0.0228
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5863
+  war_resolved: -0.0229
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 4th Essex District
+  district_url: /district/house-4th-essex-district-2012-2020/
+  party: Republican
+  votes: 3010
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1503
+  primary_incumbency_component_sd: 0.1109
+  primary_fundraising_component: 0.0397
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.1686
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6094
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3761
-  lean_component_sd: 0.0178
-  tide_component: 0.0026
+  lean_component: 0.3762
+  lean_component_sd: 0.0177
+  tide_component: 0.0024
   tide_component_sd: 0.0112
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0056
+  fundraising_component: -0.0055
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.5645
+  expected_share_resolved: 0.5646
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 4th Essex District
+  district_url: /district/house-4th-essex-district-2012-2020/
+  party: Republican
+  votes: 849
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1963
+  primary_incumbency_component_sd: 0.0958
+  primary_fundraising_component: 0.0036
+  primary_fundraising_component_sd: 0.0002
+  primary_expected_share: 1.1785
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -118,20 +214,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3773
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3761
-  lean_component_sd: 0.0178
-  tide_component: 0.0038
+  lean_component: 0.3762
+  lean_component_sd: 0.0177
+  tide_component: 0.0035
   tide_component_sd: 0.0162
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0087
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.5625
+  expected_share_resolved: 0.5624
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 4th Essex District
+  district_url: /district/house-4th-essex-district-2012-2020/
+  party: Republican
+  votes: 1785
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1734
+  primary_incumbency_component_sd: 0.1024
+  primary_fundraising_component: -0.0024
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1497
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -153,20 +281,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5025
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3761
-  lean_component_sd: 0.0178
-  tide_component: 0.0028
+  lean_component: 0.3762
+  lean_component_sd: 0.0177
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0
+  fundraising_component: 0.0002
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.4403
+  expected_share_resolved: 0.4407
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +306,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 4th Essex District
+  district_url: /district/house-4th-essex-district-2012-2020/
+  party: Republican
+  votes: 1231
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.014
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 0.9926
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -188,18 +347,18 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4114
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3945
   lean_component_sd: 0.0186
-  tide_component: 0.0034
+  tide_component: 0.0032
   tide_component_sd: 0.0148
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0046
-  fundraising_component_sd: 0.0004
+  fundraising_component_sd: 0.0003
   demographics_tier: null
   expected_share_resolved: 0.5846
   war_resolved: null
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Republican
+  votes: 2033
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1846
+  primary_incumbency_component_sd: 0.1014
+  primary_fundraising_component: 0.0053
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1685
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -223,22 +414,22 @@ races:
   winner: true
   actual_two_party_share: 0.7118
   war: 0.2481
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3945
   lean_component_sd: 0.0186
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0117
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0067
+  fundraising_component: 0.0069
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.5952
-  war_resolved: 0.1166
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5955
+  war_resolved: 0.1163
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Republican
+  votes: 684
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1987
+  primary_incumbency_component_sd: 0.0975
+  primary_fundraising_component: 0.0265
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.2039
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -258,20 +481,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4939
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3945
   lean_component_sd: 0.0186
-  tide_component: 0.0029
+  tide_component: 0.0026
   tide_component_sd: 0.0124
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0051
+  fundraising_component: -0.005
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.5836
+  expected_share_resolved: 0.5837
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -283,6 +506,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Republican
+  votes: 681
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1958
+  primary_incumbency_component_sd: 0.0983
+  primary_fundraising_component: 0.0045
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1788
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -293,22 +548,22 @@ races:
   winner: true
   actual_two_party_share: 0.6239
   war: 0.1288
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3945
   lean_component_sd: 0.0186
-  tide_component: 0.0028
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0108
+  fundraising_component: 0.0111
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5994
-  war_resolved: 0.0245
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5997
+  war_resolved: 0.0242
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -318,6 +573,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Republican
+  votes: 711
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1981
+  primary_incumbency_component_sd: 0.0977
+  primary_fundraising_component: 0.0342
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.2109
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -328,20 +615,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3222
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3945
   lean_component_sd: 0.0186
-  tide_component: 0.0039
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0165
+  fundraising_component: -0.0166
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.4431
+  expected_share_resolved: 0.4433
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -353,6 +640,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Republican
+  votes: 2933
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.017
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 0.9616
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12623

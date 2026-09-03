@@ -30,22 +30,22 @@ results_by_year:
     war: -0.0258
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4699
-    lean_component_sd: 0.0319
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4696
+    lean_component_sd: 0.0318
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
+    demographics_component: -0.0001
     demographics_component_sd: 0.0096
-    fundraising_component: 0.0133
+    fundraising_component: 0.0136
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.5825
-    war_resolved: -0.0598
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5831
+    war_resolved: -0.0604
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: 0.0258
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3215
-    lean_component_sd: 0.0152
-    tide_component: 0.0027
+    lean_component_sd: 0.0151
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
+    demographics_component: -0.0001
     demographics_component_sd: 0.0096
-    fundraising_component: 0.0223
+    fundraising_component: 0.0227
     fundraising_component_sd: 0.0017
     demographics_tier: full
-    expected_share_resolved: 0.4076
-    war_resolved: 0.0697
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4084
+    war_resolved: 0.0689
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.1387
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3215
-    lean_component_sd: 0.0152
-    tide_component: 0.0026
+    lean_component_sd: 0.0151
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
+    demographics_component: -0.0001
     demographics_component_sd: 0.0096
-    fundraising_component: 0.0029
+    fundraising_component: 0.0031
     fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.3882
-    war_resolved: 0.1894
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3887
+    war_resolved: 0.1889
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -135,22 +135,22 @@ results_by_year:
     war: -0.1387
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4699
-    lean_component_sd: 0.0319
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4696
+    lean_component_sd: 0.0318
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
+    demographics_component: -0.0001
     demographics_component_sd: 0.0096
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: full
-    expected_share_resolved: 0.3591
-    war_resolved: 0.0633
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3565
+    war_resolved: 0.0659
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -159,6 +159,219 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Michelle L. Badger
+    slug: michelle-l-badger
+    party: Democratic
+    votes: 2621
+    winner: true
+    actual_primary_share: 0.4208
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0388
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.2674
+    primary_war: 0.1534
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Arthur Thomas Desloges
+    slug: arthur-thomas-desloges
+    party: Democratic
+    votes: 2111
+    winner: false
+    actual_primary_share: 0.339
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0607
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.2893
+    primary_war: 0.0497
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Stephen Michael Palmer
+    slug: stephen-michael-palmer
+    party: Democratic
+    votes: 951
+    winner: false
+    actual_primary_share: 0.1527
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0265
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.2021
+    primary_war: -0.0494
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Scott Francis Hokanson, Sr
+    slug: scott-francis-hokanson-sr
+    party: Democratic
+    votes: 545
+    winner: false
+    actual_primary_share: 0.0875
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0095
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.2381
+    primary_war: -0.1506
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jesse G. Brown
+    slug: jesse-g-brown
+    party: Republican
+    votes: 2241
+    winner: true
+    actual_primary_share: 0.5251
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0556
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 0.5342
+    primary_war: -0.0091
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Dee Wallace Spencer
+    slug: dee-wallace-spencer
+    party: Republican
+    votes: 2027
+    winner: false
+    actual_primary_share: 0.4749
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0037
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Stephen Michael Palmer
+    slug: stephen-michael-palmer
+    party: Democratic
+    votes: 2687
+    winner: true
+    actual_primary_share: 0.5413
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.0989
+    primary_war: 0.4424
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Arthur Thomas Desloges
+    slug: arthur-thomas-desloges
+    party: Democratic
+    votes: 2277
+    winner: false
+    actual_primary_share: 0.4587
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0218
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.5004
+    primary_war: -0.0417
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Mathew J. Muratore
+    slug: mathew-j-muratore
+    party: Republican
+    votes: 3088
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0195
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.9981
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 45312
   voting_age_population: 37792

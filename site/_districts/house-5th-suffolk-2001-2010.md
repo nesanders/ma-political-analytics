@@ -33,11 +33,11 @@ results_by_year:
     war: 0.2466
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6384
-    lean_component_sd: 0.0433
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.638
+    lean_component_sd: 0.0432
+    tide_component: 0.0054
     tide_component_sd: 0.0291
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -46,7 +46,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.737
+    expected_share_resolved: 0.7372
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,20 +97,20 @@ results_by_year:
     war: 0.1967
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6384
-    lean_component_sd: 0.0433
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.638
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8106
+    expected_share_resolved: 0.8105
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -135,22 +135,22 @@ results_by_year:
     war: 0.0616
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6384
-    lean_component_sd: 0.0433
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.638
+    lean_component_sd: 0.0432
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8104
-    war_resolved: 0.0261
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.8103
+    war_resolved: 0.0262
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -164,22 +164,22 @@ results_by_year:
     war: -0.0616
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1778
     lean_component_sd: 0.0084
-    tide_component: 0.0029
+    tide_component: 0.0026
     tide_component_sd: 0.0124
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: null
-    expected_share_resolved: 0.0316
-    war_resolved: 0.1319
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.029
+    war_resolved: 0.1345
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -203,14 +203,14 @@ results_by_year:
     war: 0.2167
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6384
-    lean_component_sd: 0.0433
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.638
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -241,11 +241,11 @@ results_by_year:
     war: 0.3458
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6384
-    lean_component_sd: 0.0433
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.638
+    lean_component_sd: 0.0432
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -254,7 +254,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7364
+    expected_share_resolved: 0.7366
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -288,6 +288,309 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Carlos Tony Henriquez
+    slug: carlos-tony-henriquez
+    party: Democratic
+    votes: 719
+    winner: true
+    actual_primary_share: 0.3554
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: 0.1268
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Barry Lawton
+    slug: barry-lawton
+    party: Democratic
+    votes: 678
+    winner: false
+    actual_primary_share: 0.3351
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0062
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.2224
+    primary_war: 0.1127
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Democratic
+    votes: 400
+    winner: false
+    actual_primary_share: 0.1977
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.0309
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 226
+    winner: false
+    actual_primary_share: 0.1117
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.1169
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Marie St. Fleur
+    slug: marie-st-fleur
+    party: Democratic
+    votes: 1443
+    winner: true
+    actual_primary_share: 0.6699
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1974
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.676
+    primary_war: -0.0061
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 711
+    winner: false
+    actual_primary_share: 0.3301
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.1485
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Marie St. Fleur
+    slug: marie-st-fleur
+    party: Democratic
+    votes: 1918
+    winner: true
+    actual_primary_share: 0.5631
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2003
+    primary_incumbency_component_sd: 0.1186
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.5123
+    primary_war: 0.0508
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 900
+    winner: false
+    actual_primary_share: 0.2642
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.0477
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Severiano Cruz
+    slug: severiano-cruz
+    party: Democratic
+    votes: 588
+    winner: false
+    actual_primary_share: 0.1726
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: -0.0678
+    primary_war: 0.2404
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Republican
+    votes: 65
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Marie St. Fleur
+    slug: marie-st-fleur
+    party: Democratic
+    votes: 1696
+    winner: true
+    actual_primary_share: 0.9838
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.198
+    primary_incumbency_component_sd: 0.1194
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.6766
+    primary_war: 0.3072
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+  - name: Roy A. Owens
+    slug: roy-a-owens
+    party: Democratic
+    votes: 28
+    winner: false
+    actual_primary_share: 0.0162
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.4624
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marie St. Fleur
+    slug: marie-st-fleur
+    party: Democratic
+    votes: 1487
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: 5th Suffolk (2001-2010)
 layout: district
 ---

@@ -13,12 +13,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4911
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -38,6 +38,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14571

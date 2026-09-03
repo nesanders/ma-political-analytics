@@ -33,20 +33,20 @@ results_by_year:
     war: 0.245
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6425
-    lean_component_sd: 0.0436
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6421
+    lean_component_sd: 0.0435
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.009
+    fundraising_component: 0.0092
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.8227
+    expected_share_resolved: 0.8229
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.1898
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6425
-    lean_component_sd: 0.0436
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6421
+    lean_component_sd: 0.0435
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0293
+    fundraising_component: -0.0296
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.7853
+    expected_share_resolved: 0.785
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2182
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6425
-    lean_component_sd: 0.0436
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6421
+    lean_component_sd: 0.0435
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0081
+    fundraising_component: 0.0083
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.8225
+    expected_share_resolved: 0.8227
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,18 +150,18 @@ results_by_year:
     war: 0.21
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6425
-    lean_component_sd: 0.0436
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6421
+    lean_component_sd: 0.0435
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0046
-    fundraising_component_sd: 0.0004
+    fundraising_component_sd: 0.0003
     demographics_tier: null
     expected_share_resolved: 0.81
     war_resolved: null
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.3438
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6425
-    lean_component_sd: 0.0436
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6421
+    lean_component_sd: 0.0435
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0028
+    fundraising_component: 0.003
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.7433
+    expected_share_resolved: 0.7436
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -263,6 +263,250 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jeffrey Sanchez
+    slug: jeffrey-sanchez
+    party: Democratic
+    votes: 3204
+    winner: true
+    actual_primary_share: 0.8113
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2123
+    primary_incumbency_component_sd: 0.1152
+    primary_fundraising_component: 0.0308
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.7217
+    primary_war: 0.0896
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Jeffrey A. Herman
+    slug: jeffrey-a-herman
+    party: Democratic
+    votes: 745
+    winner: false
+    actual_primary_share: 0.1887
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0693
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 0.4093
+    primary_war: -0.2206
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey Sanchez
+    slug: jeffrey-sanchez
+    party: Democratic
+    votes: 3829
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1982
+    primary_incumbency_component_sd: 0.1198
+    primary_fundraising_component: -0.0409
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.136
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey Sanchez
+    slug: jeffrey-sanchez
+    party: Democratic
+    votes: 5064
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2012
+    primary_incumbency_component_sd: 0.1188
+    primary_fundraising_component: 0.0291
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.2089
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey Sanchez
+    slug: jeffrey-sanchez
+    party: Democratic
+    votes: 3042
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1989
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: 0.0053
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1828
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 5
+  is_contested: true
+  candidates:
+  - name: Jeffrey Sanchez
+    slug: jeffrey-sanchez
+    party: Democratic
+    votes: 1885
+    winner: true
+    actual_primary_share: 0.3209
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0192
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.1978
+    primary_war: 0.1231
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: William F. Allan
+    slug: william-f-allan
+    party: Democratic
+    votes: 1592
+    winner: false
+    actual_primary_share: 0.271
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0136
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.1922
+    primary_war: 0.0788
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Richard J. Giordano
+    slug: richard-j-giordano
+    party: Democratic
+    votes: 1246
+    winner: false
+    actual_primary_share: 0.2121
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1786
+    primary_war: 0.0335
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Juan Lopez
+    slug: juan-lopez
+    party: Democratic
+    votes: 752
+    winner: false
+    actual_primary_share: 0.128
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0013
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.1773
+    primary_war: -0.0493
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Kathryn J. Brookins
+    slug: kathryn-j-brookins
+    party: Democratic
+    votes: 399
+    winner: false
+    actual_primary_share: 0.0679
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0044
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.183
+    primary_war: -0.1151
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 15th Suffolk (2001-2010)
 layout: district
 ---

@@ -30,11 +30,11 @@ results_by_year:
     war: 0.3926
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5174
-    lean_component_sd: 0.0351
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5171
+    lean_component_sd: 0.035
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -43,7 +43,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6178
+    expected_share_resolved: 0.6181
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -69,12 +69,12 @@ results_by_year:
     war: 0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5174
-    lean_component_sd: 0.0351
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5171
+    lean_component_sd: 0.035
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0009
@@ -82,9 +82,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.618
-    war_resolved: 0.0433
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6182
+    war_resolved: 0.0431
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -99,11 +99,11 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.281
-    lean_component_sd: 0.0133
-    tide_component: 0.0026
+    lean_component_sd: 0.0132
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -112,15 +112,180 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3458
-    war_resolved: -0.0071
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3461
+    war_resolved: -0.0074
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: William J. Driscoll, Jr
+    slug: william-j-driscoll-jr
+    party: Democratic
+    votes: 7425
+    winner: true
+    actual_primary_share: 0.4524
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: 0.1405
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Erin G. Bradley
+    slug: erin-g-bradley
+    party: Democratic
+    votes: 5333
+    winner: false
+    actual_primary_share: 0.3249
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: 0.013
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Kathleen Crogan-Camara
+    slug: kathleen-crogan-camara
+    party: Democratic
+    votes: 3654
+    winner: false
+    actual_primary_share: 0.2226
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.0893
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Steven David Fruzzetti
+    slug: steven-david-fruzzetti
+    party: Republican
+    votes: 101
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Walter F. Timilty, Jr.
+    slug: walter-f-timilty-jr
+    party: Democratic
+    votes: 10732
+    winner: true
+    actual_primary_share: 0.6052
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.1266
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Kathleen Crogan-Camara
+    slug: kathleen-crogan-camara
+    party: Democratic
+    votes: 7002
+    winner: false
+    actual_primary_share: 0.3948
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0838
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brian R. Muello
+    slug: brian-r-muello
+    party: Republican
+    votes: 5313
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   median_household_income: 116202
   bachelors_degree_count: 30185

@@ -4,6 +4,36 @@ name: Benjamin Swan
 party: Democratic
 races:
 - chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 11th Hampden District
+  district_url: /district/house-11th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 1164
+  winner: false
+  actual_primary_share: 0.3563
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1826
+  primary_incumbency_component_sd: 0.1168
+  primary_fundraising_component: 0.0335
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 0.4447
+  primary_war: -0.0884
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
   year: 2014
   vintage: 2012-2020
   district_name: 11th Hampden District
@@ -13,20 +43,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3469
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5789
-  lean_component_sd: 0.0393
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5785
+  lean_component_sd: 0.0392
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0267
+  fundraising_component: -0.027
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.723
+  expected_share_resolved: 0.7226
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +68,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 11th Hampden District
+  district_url: /district/house-11th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 1477
+  winner: true
+  actual_primary_share: 0.596
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2055
+  primary_incumbency_component_sd: 0.1092
+  primary_fundraising_component: -0.036
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 0.6481
+  primary_war: -0.0521
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -48,17 +110,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1933
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5789
-  lean_component_sd: 0.0393
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5785
+  lean_component_sd: 0.0392
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0226
+  fundraising_component: -0.0228
   fundraising_component_sd: 0.0017
   demographics_tier: null
   expected_share_resolved: 0.6557
@@ -73,6 +135,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 11th Hampden District
+  district_url: /district/house-11th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 2461
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0283
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 0.9503
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -83,20 +176,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2836
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6032
-  lean_component_sd: 0.041
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6029
+  lean_component_sd: 0.0409
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0538
+  fundraising_component: -0.0544
   fundraising_component_sd: 0.0041
   demographics_tier: null
-  expected_share_resolved: 0.7207
+  expected_share_resolved: 0.72
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +201,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 1108
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.204
+  primary_incumbency_component_sd: 0.1127
+  primary_fundraising_component: -0.0867
+  primary_fundraising_component_sd: 0.0051
+  primary_expected_share: 1.096
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -118,20 +243,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2228
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6032
-  lean_component_sd: 0.041
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6029
+  lean_component_sd: 0.0409
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0014
+  fundraising_component: 0.0016
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.7769
+  expected_share_resolved: 0.777
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +268,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 1221
+  winner: true
+  actual_primary_share: 0.5456
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1899
+  primary_incumbency_component_sd: 0.1175
+  primary_fundraising_component: 0.0167
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 0.5185
+  primary_war: 0.0271
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -153,14 +310,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2589
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6032
-  lean_component_sd: 0.041
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6029
+  lean_component_sd: 0.0409
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0108
@@ -178,6 +335,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 1962
+  winner: true
+  actual_primary_share: 0.5453
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1929
+  primary_incumbency_component_sd: 0.1164
+  primary_fundraising_component: -0.0062
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 0.4986
+  primary_war: 0.0467
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -188,22 +377,22 @@ races:
   winner: true
   actual_two_party_share: 0.7865
   war: 0.066
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6032
-  lean_component_sd: 0.041
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6029
+  lean_component_sd: 0.0409
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0146
+  fundraising_component: -0.0147
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.7608
-  war_resolved: 0.0257
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7607
+  war_resolved: 0.0258
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -213,6 +402,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 893
+  winner: true
+  actual_primary_share: 0.7672
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1906
+  primary_incumbency_component_sd: 0.1172
+  primary_fundraising_component: -0.0133
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 0.6559
+  primary_war: 0.1113
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -223,20 +444,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3935
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6032
-  lean_component_sd: 0.041
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6029
+  lean_component_sd: 0.0409
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0066
+  fundraising_component: 0.0069
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.708
+  expected_share_resolved: 0.7083
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -248,11 +469,45 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 2100
+  winner: true
+  actual_primary_share: 0.6393
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0264
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.3383
+  primary_war: 0.301
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12626
   - 16454
   by_year:
+    2016:
+      total_raised: 36850.38
+      total_spent: 28216.09
     2002:
       total_raised: 30750.0
       total_spent: 32172.66

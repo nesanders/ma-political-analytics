@@ -33,20 +33,20 @@ results_by_year:
     war: 0.283
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4669
+    lean_component_sd: 0.0316
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.049
+    fundraising_component: 0.0498
     fundraising_component_sd: 0.0037
     demographics_tier: null
-    expected_share_resolved: 0.6887
+    expected_share_resolved: 0.6896
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.701
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4669
+    lean_component_sd: 0.0316
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0503
+    fundraising_component: 0.0512
     fundraising_component_sd: 0.0038
     demographics_tier: null
-    expected_share_resolved: 0.6868
+    expected_share_resolved: 0.6875
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3161
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4669
+    lean_component_sd: 0.0316
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0411
+    fundraising_component: 0.0418
     fundraising_component_sd: 0.0031
     demographics_tier: null
-    expected_share_resolved: 0.6805
+    expected_share_resolved: 0.6813
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.5367
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4669
+    lean_component_sd: 0.0316
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0026
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6353
+    expected_share_resolved: 0.6354
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.4054
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4669
+    lean_component_sd: 0.0316
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0148
+    fundraising_component: 0.0152
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5814
+    expected_share_resolved: 0.582
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,172 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karen E. Spilka
+    slug: karen-e-spilka
+    party: Democratic
+    votes: 32510
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1553
+    primary_incumbency_component_sd: 0.1123
+    primary_fundraising_component: 0.1056
+    primary_fundraising_component_sd: 0.0062
+    primary_expected_share: 1.2395
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karen E. Spilka
+    slug: karen-e-spilka
+    party: Democratic
+    votes: 13328
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2049
+    primary_incumbency_component_sd: 0.0965
+    primary_fundraising_component: 0.1081
+    primary_fundraising_component_sd: 0.0063
+    primary_expected_share: 1.2917
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karen E. Spilka
+    slug: karen-e-spilka
+    party: Democratic
+    votes: 4075
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1589
+    primary_incumbency_component_sd: 0.1109
+    primary_fundraising_component: 0.0908
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 1.2284
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jacob Steven Binnall
+    slug: jacob-steven-binnall
+    party: Republican
+    votes: 84
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karen E. Spilka
+    slug: karen-e-spilka
+    party: Democratic
+    votes: 9224
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1818
+    primary_incumbency_component_sd: 0.1028
+    primary_fundraising_component: 0.009
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1694
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karen E. Spilka
+    slug: karen-e-spilka
+    party: Democratic
+    votes: 6031
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0417
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.0203
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: Second Middlesex & Norfolk District (2012-2020)
 layout: district
 ---

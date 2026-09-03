@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3281
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5854
-    lean_component_sd: 0.0397
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.585
+    lean_component_sd: 0.0396
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0155
-    demographics_component_sd: 0.0655
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0157
+    demographics_component_sd: 0.0654
     fundraising_component: -0.0118
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.7303
+    expected_share_resolved: 0.73
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.2896
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5854
-    lean_component_sd: 0.0397
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.585
+    lean_component_sd: 0.0396
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0155
-    demographics_component_sd: 0.0655
-    fundraising_component: 0.0025
+    demographics_component: -0.0157
+    demographics_component_sd: 0.0654
+    fundraising_component: 0.0027
     fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.6722
+    expected_share_resolved: 0.6723
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carlos Gonzalez
+    slug: carlos-gonzalez
+    party: Democratic
+    votes: 1829
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1865
+    primary_incumbency_component_sd: 0.1163
+    primary_fundraising_component: -0.0081
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.157
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carlos Gonzalez
+    slug: carlos-gonzalez
+    party: Democratic
+    votes: 1757
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0187
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.9973
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42569
   voting_age_population: 30618

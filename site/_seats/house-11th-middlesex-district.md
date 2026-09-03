@@ -30,22 +30,22 @@ results_by_year:
     war: 0.0054
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6871
-    lean_component_sd: 0.0467
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6867
+    lean_component_sd: 0.0465
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0063
     demographics_component_sd: 0.0195
-    fundraising_component: 0.0174
+    fundraising_component: 0.0178
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.8103
-    war_resolved: 0.0024
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.8108
+    war_resolved: 0.0019
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0054
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1363
     lean_component_sd: 0.0064
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0063
     demographics_component_sd: 0.0195
-    fundraising_component: -0.0313
+    fundraising_component: -0.0316
     fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.1753
-    war_resolved: 0.012
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.1752
+    war_resolved: 0.0121
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,20 +103,20 @@ results_by_year:
     war: 0.1848
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6871
-    lean_component_sd: 0.0467
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6867
+    lean_component_sd: 0.0465
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0063
     demographics_component_sd: 0.0195
-    fundraising_component: -0.0582
+    fundraising_component: -0.0589
     fundraising_component_sd: 0.0044
     demographics_tier: full
-    expected_share_resolved: 0.7349
+    expected_share_resolved: 0.7343
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -127,6 +127,109 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Amy Mah Sangiolo
+    slug: amy-mah-sangiolo
+    party: Democratic
+    votes: 5181
+    winner: true
+    actual_primary_share: 0.8296
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0466
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.5252
+    primary_war: 0.3044
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Alexander Jablon
+    slug: alexander-jablon
+    party: Democratic
+    votes: 1064
+    winner: false
+    actual_primary_share: 0.1704
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0109
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.4895
+    primary_war: -0.3191
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vladislav S. Yanovsky
+    slug: vladislav-s-yanovsky
+    party: Republican
+    votes: 450
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0446
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.934
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kay S. Khan
+    slug: kay-s-khan
+    party: Democratic
+    votes: 5638
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.095
+    primary_fundraising_component_sd: 0.0056
+    primary_expected_share: 0.8836
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41476
   voting_age_population: 32650

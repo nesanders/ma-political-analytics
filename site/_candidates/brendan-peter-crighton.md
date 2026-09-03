@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4045
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5203
-  lean_component_sd: 0.0353
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.52
+  lean_component_sd: 0.0352
+  tide_component: 0.0063
   tide_component_sd: 0.0342
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0058
+  demographics_component: -0.0059
   demographics_component_sd: 0.021
-  fundraising_component: 0.013
+  fundraising_component: 0.0133
   fundraising_component_sd: 0.001
   demographics_tier: full
-  expected_share_resolved: 0.6271
+  expected_share_resolved: 0.6275
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Third Essex District
+  district_url: /district/senate-third-essex-district-2022-present/
+  party: Democratic
+  votes: 11524
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0384
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.017
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15782

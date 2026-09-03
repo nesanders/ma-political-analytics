@@ -33,17 +33,17 @@ results_by_year:
     war: 0.3267
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4264
-    lean_component_sd: 0.029
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4262
+    lean_component_sd: 0.0289
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0148
+    fundraising_component: -0.0149
     fundraising_component_sd: 0.0011
     demographics_tier: null
     expected_share_resolved: 0.5842
@@ -72,22 +72,22 @@ results_by_year:
     war: 0.3923
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4264
-    lean_component_sd: 0.029
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4262
+    lean_component_sd: 0.0289
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0167
+    fundraising_component: 0.0171
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.6124
-    war_resolved: 0.0581
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6128
+    war_resolved: 0.0577
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,22 +102,22 @@ results_by_year:
     war: -0.3923
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3585
+    lean_component: 0.3586
     lean_component_sd: 0.0169
-    tide_component: 0.0049
+    tide_component: 0.0045
     tide_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0096
+    fundraising_component: -0.0097
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.4151
-    war_resolved: -0.0856
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4153
+    war_resolved: -0.0858
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.3739
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4264
-    lean_component_sd: 0.029
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4262
+    lean_component_sd: 0.0289
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0018
+    fundraising_component: 0.0019
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6005
+    expected_share_resolved: 0.6007
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,20 +180,20 @@ results_by_year:
     war: 0.5925
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4264
-    lean_component_sd: 0.029
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4262
+    lean_component_sd: 0.0289
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.003
+    fundraising_component: -0.0029
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5942
+    expected_share_resolved: 0.5944
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -219,20 +219,20 @@ results_by_year:
     war: 0.4676
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4264
-    lean_component_sd: 0.029
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4262
+    lean_component_sd: 0.0289
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0134
+    fundraising_component: -0.0135
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.5125
+    expected_share_resolved: 0.5127
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,6 +241,200 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 9341
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1467
+    primary_incumbency_component_sd: 0.1104
+    primary_fundraising_component: -0.0137
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 1.1116
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Randall B. Gleason
+    slug: randall-b-gleason
+    party: Republican
+    votes: 155
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1532
+    primary_fundraising_component_sd: 0.009
+    primary_expected_share: 0.8254
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 3732
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1963
+    primary_incumbency_component_sd: 0.0943
+    primary_fundraising_component: 0.0453
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.2202
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John G. Mcdonald
+    slug: john-g-mcdonald
+    party: Republican
+    votes: 1567
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0041
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9745
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 1162
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1503
+    primary_incumbency_component_sd: 0.109
+    primary_fundraising_component: 0.0172
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1461
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 2928
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1732
+    primary_incumbency_component_sd: 0.1008
+    primary_fundraising_component: 0.0084
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1602
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul McMurtry
+    slug: paul-mcmurtry
+    party: Democratic
+    votes: 1700
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0111
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9675
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 11th Norfolk District (2012-2020)
 layout: district
 ---

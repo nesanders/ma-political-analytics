@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1697
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6143
-    lean_component_sd: 0.0417
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.614
+    lean_component_sd: 0.0416
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0066
+    fundraising_component: 0.0068
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.7935
+    expected_share_resolved: 0.7937
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5031
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6143
-    lean_component_sd: 0.0417
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.614
+    lean_component_sd: 0.0416
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0033
+    fundraising_component: 0.0035
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7869
+    expected_share_resolved: 0.787
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.161
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6143
-    lean_component_sd: 0.0417
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.614
+    lean_component_sd: 0.0416
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0075
+    fundraising_component: 0.0077
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.7941
+    expected_share_resolved: 0.7944
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.329
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6143
-    lean_component_sd: 0.0417
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.614
+    lean_component_sd: 0.0416
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0361
+    fundraising_component: 0.0367
     fundraising_component_sd: 0.0028
     demographics_tier: null
-    expected_share_resolved: 0.7487
+    expected_share_resolved: 0.7494
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,12 +189,12 @@ results_by_year:
     war: 0.2101
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6143
-    lean_component_sd: 0.0417
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.614
+    lean_component_sd: 0.0416
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -202,7 +202,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7138
+    expected_share_resolved: 0.714
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -210,6 +210,255 @@ results_by_year:
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 6846
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1865
+    primary_incumbency_component_sd: 0.1202
+    primary_fundraising_component: 0.0263
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1914
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 4452
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2362
+    primary_incumbency_component_sd: 0.1056
+    primary_fundraising_component: 0.0202
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.2349
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 2041
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1901
+    primary_incumbency_component_sd: 0.1189
+    primary_fundraising_component: 0.028
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.1967
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 3504
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0815
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 1.0601
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: true
+  n_candidates: 5
+  is_contested: true
+  candidates:
+  - name: Daniel J. Hunt
+    slug: daniel-j-hunt
+    party: Democratic
+    votes: 2338
+    winner: true
+    actual_primary_share: 0.4989
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0815
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 0.2601
+    primary_war: 0.2388
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: John K. O'Toole
+    slug: john-k-otoole
+    party: Democratic
+    votes: 1082
+    winner: false
+    actual_primary_share: 0.2309
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0363
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 0.2149
+    primary_war: 0.016
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Liam P. Curran
+    slug: liam-p-curran
+    party: Democratic
+    votes: 892
+    winner: false
+    actual_primary_share: 0.1904
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0309
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.2095
+    primary_war: -0.0191
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Paul L. McCann, Jr
+    slug: paul-l-mccann-jr
+    party: Democratic
+    votes: 233
+    winner: false
+    actual_primary_share: 0.0497
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0101
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.1887
+    primary_war: -0.139
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Gene I. Gorman
+    slug: gene-i-gorman
+    party: Democratic
+    votes: 141
+    winner: false
+    actual_primary_share: 0.0301
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.017
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.1616
+    primary_war: -0.1315
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Martin J. Walsh
+    slug: martin-j-walsh
+    party: Democratic
+    votes: 2058
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: 13th Suffolk District (2012-2020)
 layout: district
 ---

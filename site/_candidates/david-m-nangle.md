@@ -4,6 +4,36 @@ name: David M. Nangle
 party: Democratic
 races:
 - chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1986
+  winner: false
+  actual_primary_share: 0.3201
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1573
+  primary_incumbency_component_sd: 0.1128
+  primary_fundraising_component: 0.0316
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 0.5008
+  primary_war: -0.1807
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
   year: 2018
   vintage: 2012-2020
   district_name: 17th Middlesex District
@@ -13,20 +43,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.673
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4766
-  lean_component_sd: 0.0324
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4764
+  lean_component_sd: 0.0323
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0224
+  fundraising_component: 0.0228
   fundraising_component_sd: 0.0017
   demographics_tier: null
-  expected_share_resolved: 0.6683
+  expected_share_resolved: 0.6687
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +68,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 3559
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.207
+  primary_incumbency_component_sd: 0.097
+  primary_fundraising_component: 0.0559
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 1.2414
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -48,20 +110,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3299
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4766
-  lean_component_sd: 0.0324
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4764
+  lean_component_sd: 0.0323
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.015
-  fundraising_component_sd: 0.0011
+  fundraising_component: 0.0154
+  fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.664
+  expected_share_resolved: 0.6644
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +135,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1102
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1609
+  primary_incumbency_component_sd: 0.1114
+  primary_fundraising_component: 0.0421
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.1816
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -83,20 +177,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4971
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4766
-  lean_component_sd: 0.0324
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4764
+  lean_component_sd: 0.0323
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0266
+  fundraising_component: 0.0271
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.6741
+  expected_share_resolved: 0.6746
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +202,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1869
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1838
+  primary_incumbency_component_sd: 0.1033
+  primary_fundraising_component: 0.0638
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 1.2262
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -118,22 +244,22 @@ races:
   winner: true
   actual_two_party_share: 0.768
   war: 0.1216
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4766
-  lean_component_sd: 0.0324
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4764
+  lean_component_sd: 0.0323
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0164
+  fundraising_component: 0.0168
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.5925
-  war_resolved: 0.1755
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5931
+  war_resolved: 0.1749
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +269,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 17th Middlesex District
+  district_url: /district/house-17th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 815
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0447
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.0233
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -153,20 +310,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4831
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4788
-  lean_component_sd: 0.0325
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4786
+  lean_component_sd: 0.0324
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0048
+  fundraising_component: 0.005
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.6549
+  expected_share_resolved: 0.6551
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +335,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 17th Middlesex
+  district_url: /district/house-17th-middlesex-2001-2010/
+  party: Democratic
+  votes: 2464
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1777
+  primary_incumbency_component_sd: 0.1056
+  primary_fundraising_component: 0.0229
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1792
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -188,20 +377,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.36
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4788
-  lean_component_sd: 0.0325
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4786
+  lean_component_sd: 0.0324
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0124
-  fundraising_component_sd: 0.0009
+  fundraising_component: 0.0127
+  fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.6634
+  expected_share_resolved: 0.6638
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +402,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 17th Middlesex
+  district_url: /district/house-17th-middlesex-2001-2010/
+  party: Democratic
+  votes: 1763
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1635
+  primary_incumbency_component_sd: 0.1107
+  primary_fundraising_component: 0.0372
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.1793
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -223,20 +444,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4112
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4788
-  lean_component_sd: 0.0325
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4786
+  lean_component_sd: 0.0324
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0059
-  fundraising_component_sd: 0.0004
+  fundraising_component: 0.0061
+  fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.6567
+  expected_share_resolved: 0.657
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -248,6 +469,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 17th Middlesex
+  district_url: /district/house-17th-middlesex-2001-2010/
+  party: Democratic
+  votes: 3393
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1665
+  primary_incumbency_component_sd: 0.1095
+  primary_fundraising_component: 0.025
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.1701
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -258,22 +511,22 @@ races:
   winner: true
   actual_two_party_share: 0.7789
   war: 0.167
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4788
-  lean_component_sd: 0.0325
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4786
+  lean_component_sd: 0.0324
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0145
+  fundraising_component: 0.0148
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.6654
-  war_resolved: 0.1135
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6658
+  war_resolved: 0.1131
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -283,6 +536,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 17th Middlesex
+  district_url: /district/house-17th-middlesex-2001-2010/
+  party: Democratic
+  votes: 1667
+  winner: true
+  actual_primary_share: 0.7492
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1642
+  primary_incumbency_component_sd: 0.1104
+  primary_fundraising_component: 0.041
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 0.6838
+  primary_war: 0.0654
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -293,22 +578,22 @@ races:
   winner: true
   actual_two_party_share: 0.7729
   war: 0.3035
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4788
-  lean_component_sd: 0.0325
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4786
+  lean_component_sd: 0.0324
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.008
+  fundraising_component: 0.0082
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.5849
-  war_resolved: 0.188
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5853
+  war_resolved: 0.1876
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -318,6 +603,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 17th Middlesex
+  district_url: /district/house-17th-middlesex-2001-2010/
+  party: Democratic
+  votes: 2989
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0289
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.0075
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13338
@@ -328,6 +644,9 @@ ocpf_finance:
     2018:
       total_raised: 65055.18
       total_spent: 44069.98
+    2020:
+      total_raised: 35062.31
+      total_spent: 59311.65
     2002:
       total_raised: 32795.0
       total_spent: 19449.38

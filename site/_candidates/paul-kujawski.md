@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.4278
   war: 0.0525
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.398
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3977
   lean_component_sd: 0.027
-  tide_component: 0.0051
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0101
+  fundraising_component: 0.0104
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5793
-  war_resolved: -0.1515
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5797
+  war_resolved: -0.1519
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 8th Worcester
+  district_url: /district/house-8th-worcester-2001-2010/
+  party: Democratic
+  votes: 950
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1605
+  primary_incumbency_component_sd: 0.1017
+  primary_fundraising_component: 0.0329
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 1.172
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.5334
   war: 0.0239
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.398
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3977
   lean_component_sd: 0.027
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0201
+  fundraising_component: 0.0205
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.5902
-  war_resolved: -0.0568
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5908
+  war_resolved: -0.0574
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 8th Worcester
+  district_url: /district/house-8th-worcester-2001-2010/
+  party: Democratic
+  votes: 1646
+  winner: true
+  actual_primary_share: 0.6532
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1464
+  primary_incumbency_component_sd: 0.1069
+  primary_fundraising_component: 0.0516
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 0.6766
+  primary_war: -0.0234
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4497
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.398
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3977
   lean_component_sd: 0.027
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0139
+  fundraising_component: 0.0142
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.5838
+  expected_share_resolved: 0.5842
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 8th Worcester
+  district_url: /district/house-8th-worcester-2001-2010/
+  party: Democratic
+  votes: 2819
+  winner: true
+  actual_primary_share: 0.6213
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1494
+  primary_incumbency_component_sd: 0.1058
+  primary_fundraising_component: 0.0399
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 0.6679
+  primary_war: -0.0466
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -118,22 +214,22 @@ races:
   winner: true
   actual_two_party_share: 0.592
   war: 0.0588
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.398
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3977
   lean_component_sd: 0.027
-  tide_component: 0.006
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0129
+  fundraising_component: 0.0132
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.583
-  war_resolved: 0.009
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5834
+  war_resolved: 0.0086
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 8th Worcester
+  district_url: /district/house-8th-worcester-2001-2010/
+  party: Democratic
+  votes: 2738
+  winner: true
+  actual_primary_share: 0.7553
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.147
+  primary_incumbency_component_sd: 0.1067
+  primary_fundraising_component: 0.0381
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 0.6638
+  primary_war: 0.0915
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -153,20 +281,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.619
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.398
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3977
   lean_component_sd: 0.027
-  tide_component: 0.0046
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0174
+  fundraising_component: 0.0178
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.5135
+  expected_share_resolved: 0.5141
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +306,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 8th Worcester
+  district_url: /district/house-8th-worcester-2001-2010/
+  party: Democratic
+  votes: 2095
+  winner: true
+  actual_primary_share: 0.6651
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0466
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 0.5252
+  primary_war: 0.1399
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12592

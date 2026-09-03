@@ -33,17 +33,17 @@ results_by_year:
     war: 0.3086
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4772
-    lean_component_sd: 0.0324
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4769
+    lean_component_sd: 0.0323
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0136
+    fundraising_component: -0.0137
     fundraising_component_sd: 0.001
     demographics_tier: null
     expected_share_resolved: 0.6361
@@ -98,20 +98,20 @@ results_by_year:
     war: 0.6461
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4772
-    lean_component_sd: 0.0324
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4769
+    lean_component_sd: 0.0323
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0095
+    fundraising_component: 0.0098
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.5834
+    expected_share_resolved: 0.5838
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.3478
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4772
-    lean_component_sd: 0.0324
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4769
+    lean_component_sd: 0.0323
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0138
-    fundraising_component_sd: 0.001
+    fundraising_component: 0.0141
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.6633
+    expected_share_resolved: 0.6637
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,17 +176,17 @@ results_by_year:
     war: 0.4875
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4772
-    lean_component_sd: 0.0324
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4769
+    lean_component_sd: 0.0323
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.012
+    fundraising_component: -0.0121
     fundraising_component_sd: 0.0009
     demographics_tier: null
     expected_share_resolved: 0.636
@@ -215,22 +215,22 @@ results_by_year:
     war: 0.0742
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4772
-    lean_component_sd: 0.0324
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4769
+    lean_component_sd: 0.0323
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0161
+    fundraising_component: 0.0164
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.5927
-    war_resolved: 0.0889
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5933
+    war_resolved: 0.0883
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -245,11 +245,11 @@ results_by_year:
     war: -0.0742
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3152
-    lean_component_sd: 0.0149
-    tide_component: 0.0028
+    lean_component_sd: 0.0148
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -258,15 +258,181 @@ results_by_year:
     fundraising_component: -0.0074
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.3719
-    war_resolved: -0.0535
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3722
+    war_resolved: -0.0538
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Cindy F. Friedman
+    slug: cindy-f-friedman
+    party: Democratic
+    votes: 37189
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1574
+    primary_incumbency_component_sd: 0.1128
+    primary_fundraising_component: -0.0116
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 1.1245
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Cindy F. Friedman
+    slug: cindy-f-friedman
+    party: Democratic
+    votes: 19479
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0318
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.0104
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth J. Donnelly
+    slug: kenneth-j-donnelly
+    party: Democratic
+    votes: 6071
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1611
+    primary_incumbency_component_sd: 0.1114
+    primary_fundraising_component: 0.0397
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 1.1794
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth J. Donnelly
+    slug: kenneth-j-donnelly
+    party: Democratic
+    votes: 13078
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1839
+    primary_incumbency_component_sd: 0.1034
+    primary_fundraising_component: -0.0086
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.154
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth J. Donnelly
+    slug: kenneth-j-donnelly
+    party: Democratic
+    votes: 7977
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.044
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.0226
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gerry Dembrowski
+    slug: gerry-dembrowski
+    party: Republican
+    votes: 2899
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: Fourth Middlesex District (2012-2020)
 layout: district
 ---

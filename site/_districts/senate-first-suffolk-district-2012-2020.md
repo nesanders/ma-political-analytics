@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1577
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0503
+    fundraising_component: 0.0512
     fundraising_component_sd: 0.0038
     demographics_tier: null
-    expected_share_resolved: 0.7762
+    expected_share_resolved: 0.7772
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4912
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0541
+    fundraising_component: 0.055
     fundraising_component_sd: 0.0041
     demographics_tier: null
-    expected_share_resolved: 0.7767
+    expected_share_resolved: 0.7777
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.147
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0299
+    fundraising_component: 0.0304
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.8281
+    expected_share_resolved: 0.8287
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.3122
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.03
+    fundraising_component: 0.0306
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.7542
+    expected_share_resolved: 0.7548
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,20 +241,20 @@ results_by_year:
     war: 0.1966
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0278
+    fundraising_component: 0.0283
     fundraising_component_sd: 0.0021
     demographics_tier: null
-    expected_share_resolved: 0.7532
+    expected_share_resolved: 0.7539
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -263,6 +263,231 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Nicholas P. Collins
+    slug: nicholas-p-collins
+    party: Democratic
+    votes: 23615
+    winner: true
+    actual_primary_share: 0.7418
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.1081
+    primary_fundraising_component_sd: 0.0063
+    primary_expected_share: 0.5867
+    primary_war: 0.1551
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Samuel H. Pierce
+    slug: samuel-h-pierce
+    party: Democratic
+    votes: 8219
+    winner: false
+    actual_primary_share: 0.2582
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.2204
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Nick Collins
+    slug: nick-collins
+    party: Democratic
+    votes: 17576
+    winner: true
+    actual_primary_share: 0.9887
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.1152
+    primary_fundraising_component_sd: 0.0067
+    primary_expected_share: 0.4272
+    primary_war: 0.5615
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Duckens Petit Maitre
+    slug: duckens-petit-maitre
+    party: Democratic
+    votes: 167
+    winner: false
+    actual_primary_share: 0.0094
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.3025
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Donald Osgood, Sr
+    slug: donald-osgood-sr
+    party: Democratic
+    votes: 34
+    winner: false
+    actual_primary_share: 0.0019
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0788
+    primary_fundraising_component_sd: 0.0046
+    primary_expected_share: 0.2331
+    primary_war: -0.2312
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: true
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Nick Collins
+    slug: nick-collins
+    party: Democratic
+    votes: 3722
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.1152
+    primary_fundraising_component_sd: 0.0067
+    primary_expected_share: 1.0938
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Linda Dorcena Forry
+    slug: linda-dorcena-forry
+    party: Democratic
+    votes: 8486
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1926
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: 0.0699
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 1.2411
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Linda Dorcena Forry
+    slug: linda-dorcena-forry
+    party: Democratic
+    votes: 12365
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0701
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 1.0487
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jack Hart
+    slug: jack-hart
+    party: Democratic
+    votes: 7758
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.066
+    primary_fundraising_component_sd: 0.0039
+    primary_expected_share: 1.0446
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: First Suffolk District (2012-2020)
 layout: district
 ---

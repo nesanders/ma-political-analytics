@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0111
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5916
-    lean_component_sd: 0.0402
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5912
+    lean_component_sd: 0.0401
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0103
+    fundraising_component: -0.0104
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.7525
-    war_resolved: -0.0861
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7524
+    war_resolved: -0.086
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.0111
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2177
     lean_component_sd: 0.0103
-    tide_component: 0.0034
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0299
+    fundraising_component: -0.0302
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.2526
-    war_resolved: 0.081
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2525
+    war_resolved: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,14 +102,14 @@ results_by_year:
     war: 0.3161
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5916
-    lean_component_sd: 0.0402
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5912
+    lean_component_sd: 0.0401
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0115
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.2738
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5916
-    lean_component_sd: 0.0402
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5912
+    lean_component_sd: 0.0401
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0001
+    fundraising_component: 0.0003
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.7637
+    expected_share_resolved: 0.7638
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -206,20 +206,20 @@ results_by_year:
     war: 0.2637
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5916
-    lean_component_sd: 0.0402
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5912
+    lean_component_sd: 0.0401
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0044
+    fundraising_component: -0.0043
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7593
+    expected_share_resolved: 0.7594
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -245,20 +245,20 @@ results_by_year:
     war: 0.3094
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5916
-    lean_component_sd: 0.0402
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5912
+    lean_component_sd: 0.0401
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0303
+    fundraising_component: -0.0307
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.6593
+    expected_share_resolved: 0.6591
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,6 +267,194 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Robert M. Koczera
+    slug: robert-m-koczera
+    party: Democratic
+    votes: 1924
+    winner: true
+    actual_primary_share: 0.7684
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2016
+    primary_incumbency_component_sd: 0.112
+    primary_fundraising_component: -0.0053
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.6748
+    primary_war: 0.0936
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Sean J. Burke
+    slug: sean-j-burke
+    party: Democratic
+    votes: 580
+    winner: false
+    actual_primary_share: 0.2316
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1197
+    primary_fundraising_component_sd: 0.007
+    primary_expected_share: 0.3589
+    primary_war: -0.1273
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ivo M. Almeida
+    slug: ivo-m-almeida
+    party: Republican
+    votes: 668
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.042
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 0.9366
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert M. Koczera
+    slug: robert-m-koczera
+    party: Democratic
+    votes: 2510
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1874
+    primary_incumbency_component_sd: 0.1168
+    primary_fundraising_component: -0.0075
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 1.1585
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert M. Koczera
+    slug: robert-m-koczera
+    party: Democratic
+    votes: 4524
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1904
+    primary_incumbency_component_sd: 0.1157
+    primary_fundraising_component: 0.0142
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 1.1833
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert M. Koczera
+    slug: robert-m-koczera
+    party: Democratic
+    votes: 2039
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1881
+    primary_incumbency_component_sd: 0.1165
+    primary_fundraising_component: 0.0058
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1725
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert M. Koczera
+    slug: robert-m-koczera
+    party: Democratic
+    votes: 3788
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0428
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 0.9358
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 11th Bristol (2001-2010)
 layout: district
 ---

@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.6236
   war: -0.1336
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5169
-  lean_component_sd: 0.0351
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5166
+  lean_component_sd: 0.035
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0159
+  fundraising_component: 0.0162
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.7051
-  war_resolved: -0.0815
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7055
+  war_resolved: -0.0819
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 14th Middlesex District
+  district_url: /district/house-14th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1144
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1695
+  primary_incumbency_component_sd: 0.1134
+  primary_fundraising_component: 0.0437
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.1917
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -48,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4793
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5169
-  lean_component_sd: 0.0351
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5166
+  lean_component_sd: 0.035
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0008
+  fundraising_component: 0.0009
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.6885
+  expected_share_resolved: 0.6887
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 14th Middlesex District
+  district_url: /district/house-14th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 3578
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1924
+  primary_incumbency_component_sd: 0.1055
+  primary_fundraising_component: 0.0154
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 1.1864
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -83,12 +147,12 @@ races:
   winner: true
   actual_two_party_share: 0.654
   war: 0.021
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5169
-  lean_component_sd: 0.0351
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5166
+  lean_component_sd: 0.035
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -96,9 +160,9 @@ races:
   fundraising_component: -0.0083
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.6081
-  war_resolved: 0.0459
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6084
+  war_resolved: 0.0456
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 14th Middlesex District
+  district_url: /district/house-14th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 3829
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0015
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.9771
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4215
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5026
-  lean_component_sd: 0.0341
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5023
+  lean_component_sd: 0.034
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0147
+  fundraising_component: 0.0151
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.6885
+  expected_share_resolved: 0.6889
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 14th Middlesex
+  district_url: /district/house-14th-middlesex-2001-2010/
+  party: Democratic
+  votes: 2418
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1827
+  primary_incumbency_component_sd: 0.1069
+  primary_fundraising_component: 0.0415
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.2028
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -153,20 +280,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3252
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5026
-  lean_component_sd: 0.0341
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5023
+  lean_component_sd: 0.034
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0107
+  fundraising_component: 0.011
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.6855
+  expected_share_resolved: 0.6858
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 14th Middlesex
+  district_url: /district/house-14th-middlesex-2001-2010/
+  party: Democratic
+  votes: 3118
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1686
+  primary_incumbency_component_sd: 0.1119
+  primary_fundraising_component: 0.0341
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.1812
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -188,17 +347,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3751
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5026
-  lean_component_sd: 0.0341
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5023
+  lean_component_sd: 0.034
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0131
+  fundraising_component: -0.0132
   fundraising_component_sd: 0.001
   demographics_tier: null
   expected_share_resolved: 0.6614
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 14th Middlesex
+  district_url: /district/house-14th-middlesex-2001-2010/
+  party: Democratic
+  votes: 5621
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1715
+  primary_incumbency_component_sd: 0.1108
+  primary_fundraising_component: -0.0106
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 1.1395
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -223,22 +414,22 @@ races:
   winner: true
   actual_two_party_share: 0.6014
   war: -0.0446
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5026
-  lean_component_sd: 0.0341
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5023
+  lean_component_sd: 0.034
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0329
+  fundraising_component: 0.0335
   fundraising_component_sd: 0.0025
   demographics_tier: null
-  expected_share_resolved: 0.7076
-  war_resolved: -0.1062
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7082
+  war_resolved: -0.1068
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 14th Middlesex
+  district_url: /district/house-14th-middlesex-2001-2010/
+  party: Democratic
+  votes: 1489
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1692
+  primary_incumbency_component_sd: 0.1116
+  primary_fundraising_component: 0.0756
+  primary_fundraising_component_sd: 0.0044
+  primary_expected_share: 1.2234
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -258,22 +481,22 @@ races:
   winner: true
   actual_two_party_share: 0.5922
   war: 0.1493
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5026
-  lean_component_sd: 0.0341
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5023
+  lean_component_sd: 0.034
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0041
+  fundraising_component: 0.0042
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.6047
-  war_resolved: -0.0125
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.605
+  war_resolved: -0.0128
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -283,6 +506,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 14th Middlesex
+  district_url: /district/house-14th-middlesex-2001-2010/
+  party: Democratic
+  votes: 4142
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0216
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.0002
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13484

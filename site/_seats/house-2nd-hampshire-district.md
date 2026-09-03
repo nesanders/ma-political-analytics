@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3207
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5805
-    lean_component_sd: 0.0394
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5801
+    lean_component_sd: 0.0393
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0013
     demographics_component_sd: 0.0109
-    fundraising_component: -0.0209
+    fundraising_component: -0.0211
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.6577
+    expected_share_resolved: 0.6578
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3085
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5805
-    lean_component_sd: 0.0394
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5801
+    lean_component_sd: 0.0393
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0013
     demographics_component_sd: 0.0109
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6788
+    expected_share_resolved: 0.6791
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -94,6 +94,60 @@ results_by_year:
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Homar Gomez
+    slug: homar-gomez
+    party: Democratic
+    votes: 4878
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0251
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.9535
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel R. Carey
+    slug: daniel-r-carey
+    party: Democratic
+    votes: 6001
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   total_population: 42573
   voting_age_population: 36012

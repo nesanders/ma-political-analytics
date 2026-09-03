@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2528
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.627
-  lean_component_sd: 0.0426
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6266
+  lean_component_sd: 0.0425
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0031
   demographics_component_sd: 0.0081
-  fundraising_component: 0.0141
+  fundraising_component: 0.0144
   fundraising_component_sd: 0.0011
   demographics_tier: full
-  expected_share_resolved: 0.7377
+  expected_share_resolved: 0.7382
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 3rd Berkshire District
+  district_url: /district/house-3rd-berkshire-district-2022-present/
+  party: Democratic
+  votes: 7971
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0403
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.0189
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -49,17 +80,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2635
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5662
-  lean_component_sd: 0.0384
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5658
+  lean_component_sd: 0.0383
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.014
+  fundraising_component: -0.0141
   fundraising_component_sd: 0.0011
   demographics_tier: null
   expected_share_resolved: 0.7247
@@ -74,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Democratic
+  votes: 10026
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1763
+  primary_incumbency_component_sd: 0.1174
+  primary_fundraising_component: -0.0122
+  primary_fundraising_component_sd: 0.0007
+  primary_expected_share: 1.1427
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -84,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5218
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5662
-  lean_component_sd: 0.0384
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5658
+  lean_component_sd: 0.0383
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.007
+  fundraising_component: 0.0072
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.7424
+  expected_share_resolved: 0.7425
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -109,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Democratic
+  votes: 6566
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2259
+  primary_incumbency_component_sd: 0.1024
+  primary_fundraising_component: 0.027
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.2316
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -119,20 +214,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2841
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5662
-  lean_component_sd: 0.0384
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5658
+  lean_component_sd: 0.0383
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0098
-  fundraising_component_sd: 0.0007
+  fundraising_component: 0.0101
+  fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.7483
+  expected_share_resolved: 0.7485
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -144,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Democratic
+  votes: 3635
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1799
+  primary_incumbency_component_sd: 0.1161
+  primary_fundraising_component: 0.0323
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 1.1908
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -154,20 +281,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3312
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5662
-  lean_component_sd: 0.0384
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5658
+  lean_component_sd: 0.0383
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0109
+  fundraising_component: 0.0112
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.7479
+  expected_share_resolved: 0.7481
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -179,6 +306,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Democratic
+  votes: 2835
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2028
+  primary_incumbency_component_sd: 0.1084
+  primary_fundraising_component: 0.0345
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.2159
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -189,20 +348,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2569
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5662
-  lean_component_sd: 0.0384
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5658
+  lean_component_sd: 0.0383
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.009
+  fundraising_component: 0.0093
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.6746
+  expected_share_resolved: 0.6751
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -214,6 +373,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Democratic
+  votes: 4815
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0309
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 1.0095
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -224,20 +414,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2524
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6148
-  lean_component_sd: 0.0417
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6145
+  lean_component_sd: 0.0416
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0134
+  fundraising_component: 0.0137
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.7995
+  expected_share_resolved: 0.7998
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -249,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 4th Berkshire
+  district_url: /district/house-4th-berkshire-2001-2010/
+  party: Democratic
+  votes: 3429
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2065
+  primary_incumbency_component_sd: 0.1134
+  primary_fundraising_component: 0.039
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.2241
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -259,20 +481,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.241
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6148
-  lean_component_sd: 0.0417
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6145
+  lean_component_sd: 0.0416
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0177
-  fundraising_component_sd: 0.0013
+  fundraising_component: 0.0181
+  fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.8047
+  expected_share_resolved: 0.8051
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -284,6 +506,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 4th Berkshire
+  district_url: /district/house-4th-berkshire-2001-2010/
+  party: Democratic
+  votes: 2374
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1924
+  primary_incumbency_component_sd: 0.1182
+  primary_fundraising_component: 0.0471
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.2181
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -294,20 +548,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2268
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6148
-  lean_component_sd: 0.0417
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6145
+  lean_component_sd: 0.0416
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0064
+  fundraising_component: 0.0066
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.7933
+  expected_share_resolved: 0.7934
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -319,6 +573,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 4th Berkshire
+  district_url: /district/house-4th-berkshire-2001-2010/
+  party: Democratic
+  votes: 5918
+  winner: true
+  actual_primary_share: 0.8796
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1954
+  primary_incumbency_component_sd: 0.1171
+  primary_fundraising_component: 0.026
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.7
+  primary_war: 0.1796
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -329,22 +615,22 @@ races:
   winner: true
   actual_two_party_share: 0.7316
   war: 0.0107
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6148
-  lean_component_sd: 0.0417
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6145
+  lean_component_sd: 0.0416
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0073
+  fundraising_component: 0.0076
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.7943
-  war_resolved: -0.0627
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7945
+  war_resolved: -0.0629
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -354,6 +640,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 4th Berkshire
+  district_url: /district/house-4th-berkshire-2001-2010/
+  party: Democratic
+  votes: 2494
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.193
+  primary_incumbency_component_sd: 0.1179
+  primary_fundraising_component: 0.0277
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.1993
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -364,22 +682,22 @@ races:
   winner: true
   actual_two_party_share: 0.7224
   war: 0.093
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6148
-  lean_component_sd: 0.0417
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6145
+  lean_component_sd: 0.0416
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0018
+  fundraising_component: -0.0017
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.7111
-  war_resolved: 0.0113
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7113
+  war_resolved: 0.0111
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -389,6 +707,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 4th Berkshire
+  district_url: /district/house-4th-berkshire-2001-2010/
+  party: Democratic
+  votes: 2591
+  winner: true
+  actual_primary_share: 0.5104
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0106
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.4892
+  primary_war: 0.0212
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12730

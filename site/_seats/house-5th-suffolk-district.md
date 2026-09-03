@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2044
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6857
-    lean_component_sd: 0.0466
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6853
+    lean_component_sd: 0.0464
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0027
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0028
     demographics_component_sd: 0.032
-    fundraising_component: 0.0341
+    fundraising_component: 0.0347
     fundraising_component_sd: 0.0026
     demographics_tier: full
-    expected_share_resolved: 0.8893
+    expected_share_resolved: 0.8898
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.1762
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6857
-    lean_component_sd: 0.0466
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6853
+    lean_component_sd: 0.0464
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0027
+    demographics_component: -0.0028
     demographics_component_sd: 0.032
-    fundraising_component: 0.0235
+    fundraising_component: 0.024
     fundraising_component_sd: 0.0018
     demographics_tier: full
-    expected_share_resolved: 0.8063
+    expected_share_resolved: 0.8068
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -147,6 +147,104 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christopher J. Worrell
+    slug: christopher-j-worrell
+    party: Democratic
+    votes: 2292
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2078
+    primary_incumbency_component_sd: 0.1224
+    primary_fundraising_component: 0.0778
+    primary_fundraising_component_sd: 0.0046
+    primary_expected_share: 1.2642
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Christopher J. Worrell
+    slug: christopher-j-worrell
+    party: Democratic
+    votes: 1667
+    winner: true
+    actual_primary_share: 0.437
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.058
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 0.3699
+    primary_war: 0.0671
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Danielson Tavares
+    slug: danielson-tavares
+    party: Democratic
+    votes: 1274
+    winner: false
+    actual_primary_share: 0.3339
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0388
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.3507
+    primary_war: -0.0168
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Althea Garrison
+    slug: althea-garrison
+    party: Democratic
+    votes: 874
+    winner: false
+    actual_primary_share: 0.2291
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0392
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.2727
+    primary_war: -0.0436
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42761
   voting_age_population: 32057

@@ -4,6 +4,34 @@ name: Barry Lawton
 party: Other
 races:
 - chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 190
+  winner: false
+  actual_primary_share: 0.0974
+  fair_share: 0.1667
+  n_candidates: 6
+  primary_baseline_component: 0.1453
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.1453
+  primary_war: -0.0479
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
+- chamber: house
   year: 2010
   vintage: 2001-2010
   district_name: 5th Suffolk
@@ -34,6 +62,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Democratic
+  votes: 678
+  winner: false
+  actual_primary_share: 0.3351
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0062
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 0.2224
+  primary_war: 0.1127
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13448

@@ -13,11 +13,11 @@ races:
   winner: false
   actual_two_party_share: 0.3217
   war: -0.0936
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3524
   lean_component_sd: 0.0166
-  tide_component: 0.0028
+  tide_component: 0.0025
   tide_component_sd: 0.0118
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -26,9 +26,9 @@ races:
   fundraising_component: -0.0047
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.4117
-  war_resolved: -0.09
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4121
+  war_resolved: -0.0904
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14143

@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0027
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6376
-    lean_component_sd: 0.0433
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6373
+    lean_component_sd: 0.0432
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0271
+    fundraising_component: 0.0276
     fundraising_component_sd: 0.0021
     demographics_tier: null
-    expected_share_resolved: 0.836
-    war_resolved: -0.085
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.8364
+    war_resolved: -0.0854
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,11 +63,11 @@ results_by_year:
     war: -0.0027
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.1784
+    lean_component: 0.1785
     lean_component_sd: 0.0084
-    tide_component: 0.0034
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -76,9 +76,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2432
-    war_resolved: 0.0058
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2434
+    war_resolved: 0.0056
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,20 +101,20 @@ results_by_year:
     war: 0.2001
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6376
-    lean_component_sd: 0.0433
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6373
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0259
+    fundraising_component: 0.0264
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.7631
+    expected_share_resolved: 0.7638
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -140,20 +140,20 @@ results_by_year:
     war: 0.2293
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6376
-    lean_component_sd: 0.0433
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6373
+    lean_component_sd: 0.0432
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0553
+    fundraising_component: 0.0562
     fundraising_component_sd: 0.0042
     demographics_tier: null
-    expected_share_resolved: 0.8649
+    expected_share_resolved: 0.8658
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -179,22 +179,22 @@ results_by_year:
     war: 0.008
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6376
-    lean_component_sd: 0.0433
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6373
+    lean_component_sd: 0.0432
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0497
+    fundraising_component: 0.0506
     fundraising_component_sd: 0.0038
     demographics_tier: null
-    expected_share_resolved: 0.8595
-    war_resolved: -0.061
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.8603
+    war_resolved: -0.0618
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -209,22 +209,22 @@ results_by_year:
     war: -0.008
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.1784
+    lean_component: 0.1785
     lean_component_sd: 0.0084
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0109
+    fundraising_component: 0.0112
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.2534
-    war_resolved: -0.0519
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.254
+    war_resolved: -0.0525
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -248,22 +248,22 @@ results_by_year:
     war: 0.1201
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6376
-    lean_component_sd: 0.0433
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6373
+    lean_component_sd: 0.0432
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0413
-    fundraising_component_sd: 0.0031
+    fundraising_component: 0.042
+    fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.777
-    war_resolved: -0.0015
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7778
+    war_resolved: -0.0023
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -278,28 +278,247 @@ results_by_year:
     war: -0.1201
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.1784
+    lean_component: 0.1785
     lean_component_sd: 0.0084
-    tide_component: 0.0039
+    tide_component: 0.0036
     tide_component_sd: 0.0167
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0558
-    fundraising_component_sd: 0.0043
+    fundraising_component: -0.0565
+    fundraising_component_sd: 0.0042
     demographics_tier: null
-    expected_share_resolved: 0.1878
-    war_resolved: 0.0367
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.1873
+    war_resolved: 0.0372
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anthony W. Petruccelli
+    slug: anthony-w-petruccelli
+    party: Democratic
+    votes: 6289
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2113
+    primary_incumbency_component_sd: 0.1149
+    primary_fundraising_component: 0.0647
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 1.2546
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Frank John Addivinola, Jr.
+    slug: frank-john-addivinola-jr
+    party: Republican
+    votes: 1621
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anthony W. Petruccelli
+    slug: anthony-w-petruccelli
+    party: Democratic
+    votes: 7287
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0624
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 1.041
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert E. Travaglini
+    slug: robert-e-travaglini
+    party: Democratic
+    votes: 15130
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2002
+    primary_incumbency_component_sd: 0.1185
+    primary_fundraising_component: 0.1175
+    primary_fundraising_component_sd: 0.0069
+    primary_expected_share: 1.2963
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert E. Travaglini
+    slug: robert-e-travaglini
+    party: Democratic
+    votes: 9170
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1979
+    primary_incumbency_component_sd: 0.1193
+    primary_fundraising_component: 0.1071
+    primary_fundraising_component_sd: 0.0063
+    primary_expected_share: 1.2835
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gilbert R. Lavoie
+    slug: gilbert-r-lavoie
+    party: Republican
+    votes: 685
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0344
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.013
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert E. Travaglini
+    slug: robert-e-travaglini
+    party: Democratic
+    votes: 14262
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0913
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 1.0699
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vincent J. Manganello
+    slug: vincent-j-manganello
+    party: Republican
+    votes: 1939
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0905
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 0.8881
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: First Suffolk and Middlesex (2001-2010)
 layout: district
 ---

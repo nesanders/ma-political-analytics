@@ -13,14 +13,14 @@ races:
   winner: true
   actual_two_party_share: 0.589
   war: -0.0311
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5262
-  lean_component_sd: 0.0357
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5259
+  lean_component_sd: 0.0356
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0025
   demographics_component_sd: 0.0034
   fundraising_component: null
@@ -28,7 +28,7 @@ races:
   demographics_tier: core
   expected_share_resolved: 0.6958
   war_resolved: -0.1068
-  war_resolved_sd: 0.0811
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Norfolk-Worcester-Middlesex District
+  district_url: /district/senate-norfolk-worcester-middlesex-district-2022-present/
+  party: Democratic
+  votes: 15391
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1739
+  primary_incumbency_component_sd: 0.113
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1525
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -48,12 +79,12 @@ races:
   winner: true
   actual_two_party_share: 0.5487
   war: -0.0737
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5262
-  lean_component_sd: 0.0357
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5259
+  lean_component_sd: 0.0356
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0025
@@ -61,9 +92,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: core
-  expected_share_resolved: 0.6234
-  war_resolved: -0.0747
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6236
+  war_resolved: -0.0749
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Norfolk-Worcester-Middlesex District
+  district_url: /district/senate-norfolk-worcester-middlesex-district-2022-present/
+  party: Democratic
+  votes: 16584
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -83,22 +144,22 @@ races:
   winner: true
   actual_two_party_share: 0.5975
   war: -0.0741
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4261
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4258
   lean_component_sd: 0.0289
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.5986
-  war_resolved: -0.0011
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5987
+  war_resolved: -0.0012
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -107,6 +168,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Norfolk, Bristol & Middlesex District
+  district_url: /district/senate-norfolk-bristol-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 29997
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1466
+  primary_incumbency_component_sd: 0.1104
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1252
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -117,12 +209,12 @@ races:
   winner: true
   actual_two_party_share: 0.5134
   war: 0.2397
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4261
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4258
   lean_component_sd: 0.0289
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -130,9 +222,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.5228
-  war_resolved: -0.0094
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5229
+  war_resolved: -0.0095
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -141,6 +233,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Norfolk, Bristol & Middlesex District
+  district_url: /district/senate-norfolk-bristol-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 6817
+  winner: true
+  actual_primary_share: 0.5312
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.3119
+  primary_war: 0.2193
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 title: Rebecca L. Rausch
 layout: candidate
 ---

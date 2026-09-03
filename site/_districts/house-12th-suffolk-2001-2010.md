@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2884
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6024
-    lean_component_sd: 0.0409
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.602
+    lean_component_sd: 0.0408
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.032
+    fundraising_component: -0.0323
     fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.7417
+    expected_share_resolved: 0.7413
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.24
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6024
-    lean_component_sd: 0.0409
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.602
+    lean_component_sd: 0.0408
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0105
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.7641
+    expected_share_resolved: 0.764
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2641
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6024
-    lean_component_sd: 0.0409
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.602
+    lean_component_sd: 0.0408
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0033
-    fundraising_component_sd: 0.0002
+    fundraising_component: 0.0034
+    fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.705
+    expected_share_resolved: 0.7054
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.2562
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6024
-    lean_component_sd: 0.0409
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.602
+    lean_component_sd: 0.0408
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0553
+    fundraising_component: 0.0562
     fundraising_component_sd: 0.0042
     demographics_tier: null
-    expected_share_resolved: 0.8298
+    expected_share_resolved: 0.8307
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.395
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6024
-    lean_component_sd: 0.0409
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.602
+    lean_component_sd: 0.0408
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0534
+    fundraising_component: 0.0543
     fundraising_component_sd: 0.0041
     demographics_tier: null
-    expected_share_resolved: 0.7539
+    expected_share_resolved: 0.7549
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,145 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Linda Dorcena Forry
+    slug: linda-dorcena-forry
+    party: Democratic
+    votes: 2866
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2039
+    primary_incumbency_component_sd: 0.1127
+    primary_fundraising_component: -0.0458
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.1366
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Linda Dorcena Forry
+    slug: linda-dorcena-forry
+    party: Democratic
+    votes: 2849
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1897
+    primary_incumbency_component_sd: 0.1174
+    primary_fundraising_component: -0.0057
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1627
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Linda Dorcena Forry
+    slug: linda-dorcena-forry
+    party: Democratic
+    votes: 5008
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0201
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.9987
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Finneran
+    slug: thomas-m-finneran
+    party: Democratic
+    votes: 2739
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1904
+    primary_incumbency_component_sd: 0.1172
+    primary_fundraising_component: 0.1175
+    primary_fundraising_component_sd: 0.0069
+    primary_expected_share: 1.2865
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Finneran
+    slug: thomas-m-finneran
+    party: Democratic
+    votes: 3945
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.114
+    primary_fundraising_component_sd: 0.0067
+    primary_expected_share: 1.0926
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 12th Suffolk (2001-2010)
 layout: district
 ---

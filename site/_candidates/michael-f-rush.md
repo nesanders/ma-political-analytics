@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3163
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.584
-  lean_component_sd: 0.0397
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5837
+  lean_component_sd: 0.0396
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.007
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0071
   demographics_component_sd: 0.0112
-  fundraising_component: 0.014
+  fundraising_component: 0.0143
   fundraising_component_sd: 0.0011
   demographics_tier: full
-  expected_share_resolved: 0.7632
+  expected_share_resolved: 0.7634
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Norfolk and Suffolk District
+  district_url: /district/senate-norfolk-and-suffolk-district-2022-present/
+  party: Democratic
+  votes: 17070
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1862
+  primary_incumbency_component_sd: 0.1162
+  primary_fundraising_component: 0.0401
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.2049
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3044
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.584
-  lean_component_sd: 0.0397
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5837
+  lean_component_sd: 0.0396
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.007
+  demographics_component: -0.0071
   demographics_component_sd: 0.0112
-  fundraising_component: 0.0057
+  fundraising_component: 0.0059
   fundraising_component_sd: 0.0004
   demographics_tier: full
-  expected_share_resolved: 0.6825
+  expected_share_resolved: 0.6828
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Norfolk and Suffolk District
+  district_url: /district/senate-norfolk-and-suffolk-district-2022-present/
+  party: Democratic
+  votes: 20323
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0246
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.0032
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2523
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0052
+  fundraising_component: 0.0054
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.6845
+  expected_share_resolved: 0.6848
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  district_url: /district/senate-norfolk-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 33952
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1637
+  primary_incumbency_component_sd: 0.1143
+  primary_fundraising_component: 0.0237
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.166
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6321
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.005
+  fundraising_component: 0.0051
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.681
+  expected_share_resolved: 0.6812
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  district_url: /district/senate-norfolk-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 18199
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2134
+  primary_incumbency_component_sd: 0.0988
+  primary_fundraising_component: 0.0232
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.2152
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2747
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0117
+  fundraising_component: 0.012
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.6908
+  expected_share_resolved: 0.6911
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  district_url: /district/senate-norfolk-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 6490
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1673
+  primary_incumbency_component_sd: 0.1129
+  primary_fundraising_component: 0.0359
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.1818
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4901
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0037
+  fundraising_component: 0.0038
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.6813
+  expected_share_resolved: 0.6814
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  district_url: /district/senate-norfolk-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 12664
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1902
+  primary_incumbency_component_sd: 0.105
+  primary_fundraising_component: 0.0208
+  primary_fundraising_component_sd: 0.0012
+  primary_expected_share: 1.1896
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3586
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0109
+  fundraising_component: 0.0112
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.6171
+  expected_share_resolved: 0.6176
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  district_url: /district/senate-norfolk-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 8337
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0343
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.0129
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -260,22 +482,22 @@ races:
   winner: true
   actual_two_party_share: 0.6772
   war: 0.0819
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5245
-  lean_component_sd: 0.0356
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5242
+  lean_component_sd: 0.0355
+  tide_component: 0.0054
   tide_component_sd: 0.0291
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0328
+  fundraising_component: 0.0333
   fundraising_component_sd: 0.0025
   demographics_tier: null
-  expected_share_resolved: 0.6559
-  war_resolved: 0.0213
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6567
+  war_resolved: 0.0205
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -285,6 +507,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Suffolk and Norfolk
+  district_url: /district/senate-suffolk-and-norfolk-2001-2010/
+  party: Democratic
+  votes: 10056
+  winner: true
+  actual_primary_share: 0.5644
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0753
+  primary_fundraising_component_sd: 0.0044
+  primary_expected_share: 0.5539
+  primary_war: 0.0105
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,20 +548,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1875
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6438
-  lean_component_sd: 0.0437
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6434
+  lean_component_sd: 0.0436
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.015
-  fundraising_component_sd: 0.0011
+  fundraising_component: 0.0153
+  fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.831
+  expected_share_resolved: 0.8313
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +573,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 10th Suffolk
+  district_url: /district/house-10th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3375
+  winner: true
+  actual_primary_share: 0.7358
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1985
+  primary_incumbency_component_sd: 0.1199
+  primary_fundraising_component: 0.0421
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 0.7192
+  primary_war: 0.0166
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -330,17 +615,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.216
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6438
-  lean_component_sd: 0.0437
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6434
+  lean_component_sd: 0.0436
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.004
+  fundraising_component: -0.0039
   fundraising_component_sd: 0.0003
   demographics_tier: null
   expected_share_resolved: 0.8118
@@ -355,6 +640,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 10th Suffolk
+  district_url: /district/house-10th-suffolk-2001-2010/
+  party: Democratic
+  votes: 6499
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2015
+  primary_incumbency_component_sd: 0.1189
+  primary_fundraising_component: 0.0065
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.1866
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -365,22 +682,22 @@ races:
   winner: true
   actual_two_party_share: 0.81
   war: 0.0177
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6438
-  lean_component_sd: 0.0437
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6434
+  lean_component_sd: 0.0436
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0067
+  fundraising_component: 0.007
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.8227
-  war_resolved: -0.0127
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8229
+  war_resolved: -0.0129
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -390,6 +707,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 10th Suffolk
+  district_url: /district/house-10th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3792
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1992
+  primary_incumbency_component_sd: 0.1197
+  primary_fundraising_component: 0.0266
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.2044
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -400,22 +749,22 @@ races:
   winner: true
   actual_two_party_share: 0.7933
   war: 0.1367
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6438
-  lean_component_sd: 0.0437
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6434
+  lean_component_sd: 0.0436
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0172
+  fundraising_component: 0.0176
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.7591
-  war_resolved: 0.0342
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7596
+  war_resolved: 0.0337
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -425,6 +774,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 10th Suffolk
+  district_url: /district/house-10th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3634
+  winner: true
+  actual_primary_share: 0.3723
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0462
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 0.2748
+  primary_war: 0.0975
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13946

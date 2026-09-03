@@ -33,20 +33,20 @@ results_by_year:
     war: 0.294
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5683
-    lean_component_sd: 0.0386
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5679
+    lean_component_sd: 0.0385
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0326
+    fundraising_component: -0.0329
     fundraising_component_sd: 0.0025
     demographics_tier: null
-    expected_share_resolved: 0.7082
+    expected_share_resolved: 0.7079
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5359
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5683
-    lean_component_sd: 0.0386
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5679
+    lean_component_sd: 0.0385
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0207
+    fundraising_component: -0.0208
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.6443
+    expected_share_resolved: 0.6442
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3085
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5683
-    lean_component_sd: 0.0386
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5679
+    lean_component_sd: 0.0385
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0642
+    fundraising_component: -0.065
     fundraising_component_sd: 0.0049
     demographics_tier: null
-    expected_share_resolved: 0.6763
+    expected_share_resolved: 0.6756
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.2823
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5683
-    lean_component_sd: 0.0386
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5679
+    lean_component_sd: 0.0385
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0706
+    fundraising_component: -0.0715
     fundraising_component_sd: 0.0054
     demographics_tier: null
-    expected_share_resolved: 0.6685
+    expected_share_resolved: 0.6676
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.2243
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5683
-    lean_component_sd: 0.0386
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5679
+    lean_component_sd: 0.0385
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0796
+    fundraising_component: -0.0806
     fundraising_component_sd: 0.0061
     demographics_tier: null
-    expected_share_resolved: 0.5881
+    expected_share_resolved: 0.5873
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,145 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John P. Barrett, III
+    slug: john-p-barrett-iii
+    party: Democratic
+    votes: 6635
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1768
+    primary_incumbency_component_sd: 0.1176
+    primary_fundraising_component: -0.047
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.1084
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John P. Barrett, III
+    slug: john-p-barrett-iii
+    party: Democratic
+    votes: 3997
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0247
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 0.9539
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gailanne M. Cariddi
+    slug: gailanne-m-cariddi
+    party: Democratic
+    votes: 2415
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1804
+    primary_incumbency_component_sd: 0.1162
+    primary_fundraising_component: -0.1062
+    primary_fundraising_component_sd: 0.0062
+    primary_expected_share: 1.0527
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gailanne M. Cariddi
+    slug: gailanne-m-cariddi
+    party: Democratic
+    votes: 2245
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2032
+    primary_incumbency_component_sd: 0.1085
+    primary_fundraising_component: -0.1181
+    primary_fundraising_component_sd: 0.0069
+    primary_expected_share: 1.0637
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gailanne M. Cariddi
+    slug: gailanne-m-cariddi
+    party: Democratic
+    votes: 2787
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1349
+    primary_fundraising_component_sd: 0.0079
+    primary_expected_share: 0.8437
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 1st Berkshire District (2012-2020)
 layout: district
 ---

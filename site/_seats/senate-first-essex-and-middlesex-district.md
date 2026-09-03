@@ -30,20 +30,20 @@ results_by_year:
     war: 0.6157
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2756
     lean_component_sd: 0.013
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: -0.0023
     demographics_component_sd: 0.0115
-    fundraising_component: 0.0256
-    fundraising_component_sd: 0.0019
+    fundraising_component: 0.0261
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.4929
+    expected_share_resolved: 0.4934
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.6211
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2756
     lean_component_sd: 0.013
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0023
     demographics_component_sd: 0.0115
-    fundraising_component: 0.0269
-    fundraising_component_sd: 0.002
+    fundraising_component: 0.0274
+    fundraising_component_sd: 0.0021
     demographics_tier: full
-    expected_share_resolved: 0.3641
+    expected_share_resolved: 0.3649
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,62 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 7197
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1688
+    primary_incumbency_component_sd: 0.0909
+    primary_fundraising_component: 0.0619
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 1.2093
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 9498
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0643
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 1.0429
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 177189
   voting_age_population: 141927

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3118
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5895
-  lean_component_sd: 0.04
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5892
+  lean_component_sd: 0.0399
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0062
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0063
   demographics_component_sd: 0.0117
-  fundraising_component: 0.004
+  fundraising_component: 0.0042
   fundraising_component_sd: 0.0003
   demographics_tier: full
-  expected_share_resolved: 0.7595
+  expected_share_resolved: 0.7596
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 8th Essex District
+  district_url: /district/house-8th-essex-district-2022-present/
+  party: Democratic
+  votes: 4212
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1874
+  primary_incumbency_component_sd: 0.1165
+  primary_fundraising_component: 0.0215
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1875
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.296
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5895
-  lean_component_sd: 0.04
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5892
+  lean_component_sd: 0.0399
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0062
+  demographics_component: -0.0063
   demographics_component_sd: 0.0117
-  fundraising_component: 0.025
+  fundraising_component: 0.0255
   fundraising_component_sd: 0.0019
   demographics_tier: full
-  expected_share_resolved: 0.7081
+  expected_share_resolved: 0.7087
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 8th Essex District
+  district_url: /district/house-8th-essex-district-2022-present/
+  party: Democratic
+  votes: 2316
+  winner: true
+  actual_primary_share: 0.2763
+  fair_share: 0.1667
+  n_candidates: 6
+  primary_baseline_component: 0.1453
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0607
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 0.206
+  primary_war: 0.0703
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 17981

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3478
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4772
-  lean_component_sd: 0.0324
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4769
+  lean_component_sd: 0.0323
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0138
-  fundraising_component_sd: 0.001
+  fundraising_component: 0.0141
+  fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.6633
+  expected_share_resolved: 0.6637
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Fourth Middlesex District
+  district_url: /district/senate-fourth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 6071
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1611
+  primary_incumbency_component_sd: 0.1114
+  primary_fundraising_component: 0.0397
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.1794
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -48,17 +80,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4875
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4772
-  lean_component_sd: 0.0324
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4769
+  lean_component_sd: 0.0323
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.012
+  fundraising_component: -0.0121
   fundraising_component_sd: 0.0009
   demographics_tier: null
   expected_share_resolved: 0.636
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Fourth Middlesex District
+  district_url: /district/senate-fourth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 13078
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1839
+  primary_incumbency_component_sd: 0.1034
+  primary_fundraising_component: -0.0086
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.154
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.6816
   war: 0.0742
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4772
-  lean_component_sd: 0.0324
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4769
+  lean_component_sd: 0.0323
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0161
+  fundraising_component: 0.0164
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.5927
-  war_resolved: 0.0889
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5933
+  war_resolved: 0.0883
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Fourth Middlesex District
+  district_url: /district/senate-fourth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 7977
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.044
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.0226
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4613
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.483
-  lean_component_sd: 0.0328
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4827
+  lean_component_sd: 0.0327
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0083
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.6459
+  expected_share_resolved: 0.646
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Fourth Middlesex
+  district_url: /district/senate-fourth-middlesex-2001-2010/
+  party: Democratic
+  votes: 8184
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1785
+  primary_incumbency_component_sd: 0.1058
+  primary_fundraising_component: -0.0015
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1556
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -153,22 +280,22 @@ races:
   winner: true
   actual_two_party_share: 0.6661
   war: 0.0465
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.483
-  lean_component_sd: 0.0328
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4827
+  lean_component_sd: 0.0327
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0403
+  fundraising_component: 0.041
   fundraising_component_sd: 0.0031
   demographics_tier: null
-  expected_share_resolved: 0.6229
-  war_resolved: 0.0432
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6238
+  war_resolved: 0.0423
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +305,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Fourth Middlesex
+  district_url: /district/senate-fourth-middlesex-2001-2010/
+  party: Democratic
+  votes: 11982
+  winner: true
+  actual_primary_share: 0.5447
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0894
+  primary_fundraising_component_sd: 0.0052
+  primary_expected_share: 0.4013
+  primary_war: 0.1434
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14734

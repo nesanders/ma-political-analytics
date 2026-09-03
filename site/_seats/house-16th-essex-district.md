@@ -30,18 +30,18 @@ results_by_year:
     war: 0.4274
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5319
-    lean_component_sd: 0.0361
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5315
+    lean_component_sd: 0.036
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0257
-    demographics_component_sd: 0.0742
-    fundraising_component: 0.015
-    fundraising_component_sd: 0.0011
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0261
+    demographics_component_sd: 0.074
+    fundraising_component: 0.0154
+    fundraising_component_sd: 0.0012
     demographics_tier: full
     expected_share_resolved: 0.6933
     war_resolved: null
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3165
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5319
-    lean_component_sd: 0.0361
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5315
+    lean_component_sd: 0.036
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0257
-    demographics_component_sd: 0.0742
-    fundraising_component: 0.0198
+    demographics_component: -0.0261
+    demographics_component_sd: 0.074
+    fundraising_component: 0.0202
     fundraising_component_sd: 0.0015
     demographics_tier: full
-    expected_share_resolved: 0.6256
+    expected_share_resolved: 0.6259
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,104 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Francisco E. Paulino
+    slug: francisco-e-paulino
+    party: Democratic
+    votes: 1581
+    winner: true
+    actual_primary_share: 0.5937
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1751
+    primary_incumbency_component_sd: 0.1133
+    primary_fundraising_component: 0.0421
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 0.6958
+    primary_war: -0.1021
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Marcos A. Devers
+    slug: marcos-a-devers
+    party: Democratic
+    votes: 1082
+    winner: false
+    actual_primary_share: 0.4063
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.022
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.5006
+    primary_war: -0.0943
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Francisco E. Paulino
+    slug: francisco-e-paulino
+    party: Democratic
+    votes: 1511
+    winner: true
+    actual_primary_share: 0.5281
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.051
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 0.5296
+    primary_war: -0.0015
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Marcos A. Devers
+    slug: marcos-a-devers
+    party: Democratic
+    votes: 1350
+    winner: false
+    actual_primary_share: 0.4719
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0488
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 0.5274
+    primary_war: -0.0555
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 48116
   voting_age_population: 35307

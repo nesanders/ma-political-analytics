@@ -1,0 +1,44 @@
+---
+slug: peter-a-ruggeri
+name: Peter A. Ruggeri
+party: Democratic
+races:
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 2nd Franklin
+  district_url: /district/house-2nd-franklin-2001-2010/
+  party: Democratic
+  votes: 1990
+  winner: false
+  actual_primary_share: 0.3405
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0035
+  primary_fundraising_component_sd: 0.0002
+  primary_expected_share: 0.4751
+  primary_war: -0.1346
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+ocpf_finance:
+  cpf_ids:
+  - 13857
+  by_year:
+    2002:
+      total_raised: 14355.0
+      total_spent: 22829.63
+title: Peter A. Ruggeri
+layout: candidate
+---

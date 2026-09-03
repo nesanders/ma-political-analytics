@@ -417,6 +417,115 @@ treating coefficients as independent of each other rather than
 propagating their full joint posterior — a known simplification, not a
 full solution.
 
+## Primary elections
+
+Massachusetts's 2026 state primary happened days before this section was
+written, and PD43+ has always carried primary results alongside the
+general — fetched every year of this site's backfill, just not modeled or
+shown until now. This site now gives every primary its own full
+attribution: **primary-only candidates get a full candidate page**, even
+one who never appears in a general, and every district/seat page gets its
+own "Primary results" section alongside "Election results."
+
+A primary isn't a two-party race, so it needs its own model rather than
+reusing the general regression above: a two-candidate primary's "fair"
+share is 50%, a four-candidate primary's is 25%, and there's no
+Democratic-vs-Republican axis to split by (a Democratic primary is scored
+against other Democrats, a Republican primary against other Republicans).
+**Primary WAR = actual share of that primary's vote − this separate
+fitted regression's expected share**, where the regression is:
+
+> *excess share ~ intercept + incumbency + incumbency × statewide tide +
+> incumbency × district lean + campaign fundraising*
+
+**Excess share** is a candidate's actual primary share minus that
+primary's own **fair share** (`1 ÷ number of candidates`) — the same role
+`lean_dem_share` plays as a "no-information" baseline for the general
+model, but derived from the field's own size rather than a separate
+baseline race, since a primary field can be 2-way, 3-way, or larger from
+year to year. **Incumbency** only ever appears here interacted with tide
+and lean, never as its own bare main effect — there's no reason a
+non-incumbent's own primary share should track that year's statewide mood
+or the district's general-election partisanship the way an incumbent
+defending a seat plausibly might, so those two interaction terms are
+strictly narrower claims than the general model's own tide/lean main
+effects, not their primary-model equivalents.
+
+Fit on {{ site.data.primary_war_model.n }} contested major-party primary
+candidate-races (R² = {{ site.data.primary_war_model.r_squared }}),
+{{ site.data.primary_war_model.n_incumbent }} of them an incumbent
+defending their own seat and {{ site.data.primary_war_model.n_finance }}
+with a matched OCPF total:
+
+<div id="primary-war-forest-chart" role="img" aria-label="Forest plot of the primary regression's coefficients with 95% credible intervals"></div>
+
+| Term | Posterior mean | 95% credible interval |
+|---|---|---|
+| Intercept | {{ site.data.primary_war_model.coefficients.primary_intercept.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.primary_war_model.coefficients.primary_intercept.ci_95_low | times: 100 | round: 1 }}, {{ site.data.primary_war_model.coefficients.primary_intercept.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent | +{{ site.data.primary_war_model.coefficients.primary_incumbent.posterior_mean | times: 100 | round: 1 }} pts | [{{ site.data.primary_war_model.coefficients.primary_incumbent.ci_95_low | times: 100 | round: 1 }}, {{ site.data.primary_war_model.coefficients.primary_incumbent.ci_95_high | times: 100 | round: 1 }}] |
+| Incumbent × statewide tide | {{ site.data.primary_war_model.coefficients.primary_incumbent_x_tide.posterior_mean | round: 3 }} | [{{ site.data.primary_war_model.coefficients.primary_incumbent_x_tide.ci_95_low | round: 3 }}, {{ site.data.primary_war_model.coefficients.primary_incumbent_x_tide.ci_95_high | round: 3 }}] |
+| Incumbent × district lean | {{ site.data.primary_war_model.coefficients.primary_incumbent_x_lean.posterior_mean | round: 3 }} | [{{ site.data.primary_war_model.coefficients.primary_incumbent_x_lean.ci_95_low | round: 3 }}, {{ site.data.primary_war_model.coefficients.primary_incumbent_x_lean.ci_95_high | round: 3 }}] |
+| log(total raised + 1) | {{ site.data.primary_war_model.coefficients.primary_log_raised.posterior_mean | round: 4 }} | [{{ site.data.primary_war_model.coefficients.primary_log_raised.ci_95_low | round: 4 }}, {{ site.data.primary_war_model.coefficients.primary_log_raised.ci_95_high | round: 4 }}] |
+
+An incumbent's edge in their own primary
+(+{{ site.data.primary_war_model.coefficients.primary_incumbent.posterior_mean | times: 100 | round: 1 }}
+points over an even split, before the tide/lean interactions) comes in
+larger than the general model's own incumbency term — a real, plausible
+difference: a primary electorate skews toward a party's most engaged
+voters, among whom a sitting legislator's name recognition and local
+relationships plausibly matter even more than with a general audience.
+The tide and lean interaction terms pull in different directions — a
+positive `incumbent × lean` (an incumbent does better in their own
+primary the more the district structurally favors their party) alongside
+a negative `incumbent × tide` (an incumbent does worse in their own
+primary the more that year's statewide mood favors their party) — read
+together, that's consistent with an incumbent's primary strength coming
+more from durable local support than from a favorable statewide year,
+though with this sample's size
+({{ site.data.primary_war_model.n_incumbent }} incumbent rows) neither
+term should be read as a precise estimate on its own.
+
+<div id="primary-war-fit-scatter" role="img" aria-label="Scatter plot of the primary regression's expected share against each candidate's actual share, colored by party"></div>
+
+On a candidate, district, or seat page's attribution chart, a primary's
+**Baseline** bar combines its equal fair share and this fitted intercept
+into one slice (rather than two, the way the general model keeps Baseline
+and Lean separate), since a primary has no separate lean term to isolate;
+**Incumbency** already carries both interaction terms combined;
+**Fundraising** and **WAR (residual)** work the same way as the general
+model's own bars, centered the same mean-log-dollar way described above.
+A primary has no Lean, Statewide tide, or Demographics slice of its own —
+a primary bar sits beside that year's general bar at reduced opacity, and
+a special-election primary's bar gets a dashed outline (see a candidate
+page's own chart legend).
+
+**Special elections are included here; generals are not, yet.** PD43+
+posts a special election's own primary and general separately, same as a
+regular cycle's, and this site's backfill loop discovers every primary
+year independent of whether that year's baseline Governor/President race
+exists yet — needed for 2026, whose regular-cycle primary and general
+aren't posted as of this writing, but whose special-election primaries
+already are. Generals keep their pre-existing scope, excluding specials:
+a special general shares a calendar year with that same district's own
+regular-cycle general in 30-plus district-years across this site's
+2002-2024 backfill, which the current one-row-per-(district, year)
+incumbency-chain logic isn't built to represent safely. A primary carries
+no such collision risk (each is keyed to its own PD43+ `election_id`, so a
+regular and a special primary in the same district/party/year each get
+their own row), so extending special elections there was the unambiguous
+first step; extending the general model to handle two same-year generals
+per district remains a real gap this site hasn't closed.
+
+**A known, accepted limitation**: because excess share has no natural
+0-100% bound the way a two-party share does, an uncontested incumbent's
+`primary_expected_share` can come out **above 100%** (the fitted
+intercept and incumbency terms simply add on top of an already-100%
+uncontested fair share) — visible directly on a candidate page's Races
+table. This is the same category of simplification as the general
+model's own uncontested-race WAR inflation (see "WAR (wins above
+replacement)" above): documented here rather than artificially capped,
+since capping it would hide, not fix, the real reason it happens.
+
 ## Turnout
 
 **Turnout ratio = this race's two-party vote total ÷ the district's
@@ -806,6 +915,74 @@ including the exact code that computes everything on this page.
     90
   );
   {% endif %}
+  {% endif %}
+
+  {% if site.data.primary_war_model %}
+  renderForestChart(
+    "primary-war-forest-chart",
+    {{ site.data.primary_war_model.coefficients | jsonify }},
+    [
+      ["Intercept", "primary_intercept"],
+      ["Incumbent", "primary_incumbent"],
+      ["Incumbent × tide", "primary_incumbent_x_tide"],
+      ["Incumbent × lean", "primary_incumbent_x_lean"],
+      ["log(total raised + 1)", "primary_log_raised"],
+    ],
+    methodologyCssVar("--war-incumbency"),
+    220
+  );
+  {% endif %}
+
+  {% if site.data.primary_war_fit_sample %}
+  // --- Primary: actual vs. expected share scatter -------------------------
+  (function () {
+    const fitSample = {{ site.data.primary_war_fit_sample | jsonify }};
+    const colorDem = methodologyCssVar("--series-dem");
+    const colorRep = methodologyCssVar("--series-rep");
+    const spec = {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "width": "container",
+      "height": 320,
+      "background": null,
+      "layer": [
+        {
+          "data": { "values": [{ "x": 0, "y": 0 }, { "x": 1, "y": 1 }] },
+          "mark": { "type": "line", "strokeDash": [4, 2] },
+          "encoding": {
+            "x": { "field": "x", "type": "quantitative" },
+            "y": { "field": "y", "type": "quantitative" },
+            "color": { "value": methodologyCssVar("--text-secondary") }
+          }
+        },
+        {
+          "data": { "values": fitSample },
+          "mark": { "type": "point", "filled": true, "opacity": 0.4, "size": 40 },
+          "encoding": {
+            "x": { "field": "expected", "type": "quantitative", "title": "Expected share (primary model)", "axis": { "format": "%" } },
+            "y": { "field": "actual", "type": "quantitative", "title": "Actual share", "axis": { "format": "%" }, "scale": { "domain": [0, 1] } },
+            "shape": {
+              "field": "is_special", "type": "nominal", "title": "Special election?",
+              "scale": { "domain": [false, true], "range": ["circle", "triangle-up"] }
+            },
+            "color": {
+              "field": "party", "type": "nominal", "title": "Party",
+              "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+            },
+            "tooltip": [
+              { "field": "year", "title": "Year" },
+              { "field": "party", "title": "Party" },
+              { "field": "is_special", "title": "Special election?" },
+              { "field": "actual", "type": "quantitative", "format": ".1%", "title": "Actual" },
+              { "field": "expected", "type": "quantitative", "format": ".1%", "title": "Expected" }
+            ]
+          }
+        }
+      ],
+      "resolve": { "scale": { "x": "shared", "y": "shared" } },
+      "config": methodologyAxisConfig
+    };
+    vegaEmbed("#primary-war-fit-scatter", spec, { actions: false }).catch(console.error);
+  })();
   {% endif %}
 
   {% if site.data.war_fit_sample %}

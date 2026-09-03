@@ -30,22 +30,22 @@ results_by_year:
     war: 0.02
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4152
-    lean_component_sd: 0.0282
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4149
+    lean_component_sd: 0.0281
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0045
     demographics_component_sd: 0.0052
-    fundraising_component: 0.0088
+    fundraising_component: 0.0091
     fundraising_component_sd: 0.0007
     demographics_tier: full
-    expected_share_resolved: 0.528
-    war_resolved: -0.0229
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5286
+    war_resolved: -0.0235
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,11 +62,11 @@ results_by_year:
     war: -0.02
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3681
-    lean_component_sd: 0.0174
-    tide_component: 0.0027
+    lean_component: 0.3682
+    lean_component_sd: 0.0173
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -75,9 +75,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4366
-    war_resolved: 0.0583
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.437
+    war_resolved: 0.0579
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,22 +102,22 @@ results_by_year:
     war: 0.0953
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3681
-    lean_component_sd: 0.0174
-    tide_component: 0.0026
+    lean_component: 0.3682
+    lean_component_sd: 0.0173
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0045
     demographics_component_sd: 0.0052
-    fundraising_component: -0.0521
+    fundraising_component: -0.0528
     fundraising_component_sd: 0.004
     demographics_tier: full
-    expected_share_resolved: 0.3844
-    war_resolved: 0.2156
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3841
+    war_resolved: 0.2159
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -134,22 +134,22 @@ results_by_year:
     war: -0.0953
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4152
-    lean_component_sd: 0.0282
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4149
+    lean_component_sd: 0.0281
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0045
     demographics_component_sd: 0.0052
-    fundraising_component: -0.0119
+    fundraising_component: -0.012
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.5074
-    war_resolved: -0.1074
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5077
+    war_resolved: -0.1077
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -158,6 +158,114 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Dennis C. Gallagher
+    slug: dennis-c-gallagher
+    party: Democratic
+    votes: 2631
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0305
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 1.0091
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sandra M. Wright
+    slug: sandra-m-wright
+    party: Republican
+    votes: 1516
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Eric J. Haikola
+    slug: eric-j-haikola
+    party: Democratic
+    votes: 2585
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0083
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 0.9703
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Angelo L. D'Emilia
+    slug: angelo-l-demilia
+    party: Republican
+    votes: 2001
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0836
+    primary_fundraising_component_sd: 0.0049
+    primary_expected_share: 0.895
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43775
   voting_age_population: 35594

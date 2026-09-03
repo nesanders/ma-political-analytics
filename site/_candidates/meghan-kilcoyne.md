@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.425
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4847
-  lean_component_sd: 0.0329
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4844
+  lean_component_sd: 0.0328
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0047
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0048
   demographics_component_sd: 0.0059
-  fundraising_component: 0.0123
+  fundraising_component: 0.0126
   fundraising_component_sd: 0.0009
   demographics_tier: full
-  expected_share_resolved: 0.6644
+  expected_share_resolved: 0.6647
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 12th Worcester District
+  district_url: /district/house-12th-worcester-district-2022-present/
+  party: Democratic
+  votes: 3144
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1651
+  primary_incumbency_component_sd: 0.1108
+  primary_fundraising_component: 0.0369
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.1807
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.6038
   war: 0.0342
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4847
-  lean_component_sd: 0.0329
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4844
+  lean_component_sd: 0.0328
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0047
+  demographics_component: -0.0048
   demographics_component_sd: 0.0059
-  fundraising_component: 0.018
+  fundraising_component: 0.0184
   fundraising_component_sd: 0.0014
   demographics_tier: full
-  expected_share_resolved: 0.5977
-  war_resolved: 0.0061
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5983
+  war_resolved: 0.0055
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 12th Worcester District
+  district_url: /district/house-12th-worcester-district-2022-present/
+  party: Democratic
+  votes: 3993
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0476
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.0262
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,22 +148,22 @@ races:
   winner: true
   actual_two_party_share: 0.5873
   war: -0.0287
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3974
-  lean_component_sd: 0.027
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3971
+  lean_component_sd: 0.0269
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0266
+  fundraising_component: 0.0271
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.5239
-  war_resolved: 0.0634
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5247
+  war_resolved: 0.0626
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -110,6 +173,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 12th Worcester District
+  district_url: /district/house-12th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 4412
+  winner: true
+  actual_primary_share: 0.5136
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0637
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 0.3757
+  primary_war: 0.1379
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 17488

@@ -13,17 +13,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1846
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6939
-  lean_component_sd: 0.0471
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6935
+  lean_component_sd: 0.047
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.0003
   demographics_component_sd: 0.0099
-  fundraising_component: -0.0041
+  fundraising_component: -0.004
   fundraising_component_sd: 0.0003
   demographics_tier: full
   expected_share_resolved: 0.8622
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2022-present/
+  party: Democratic
+  votes: 6298
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2095
+  primary_incumbency_component_sd: 0.123
+  primary_fundraising_component: 0.0063
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.1944
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1768
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6939
-  lean_component_sd: 0.0471
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6935
+  lean_component_sd: 0.047
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0003
   demographics_component_sd: 0.0099
-  fundraising_component: -0.0428
-  fundraising_component_sd: 0.0033
+  fundraising_component: -0.0433
+  fundraising_component_sd: 0.0032
   demographics_tier: full
-  expected_share_resolved: 0.7511
+  expected_share_resolved: 0.7508
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2022-present/
+  party: Democratic
+  votes: 7227
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0661
+  primary_fundraising_component_sd: 0.0039
+  primary_expected_share: 0.9125
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1762
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5933
-  lean_component_sd: 0.0403
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5929
+  lean_component_sd: 0.0402
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0548
+  fundraising_component: -0.0554
   fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.711
+  expected_share_resolved: 0.7104
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 13619
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1821
+  primary_incumbency_component_sd: 0.119
+  primary_fundraising_component: -0.0885
+  primary_fundraising_component_sd: 0.0052
+  primary_expected_share: 1.0721
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5014
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5933
-  lean_component_sd: 0.0403
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5929
+  lean_component_sd: 0.0402
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0028
+  fundraising_component: 0.0029
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.7653
+  expected_share_resolved: 0.7654
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 6840
+  winner: true
+  actual_primary_share: 0.726
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2317
+  primary_incumbency_component_sd: 0.1042
+  primary_fundraising_component: 0.0192
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 0.7295
+  primary_war: -0.0035
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2045
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5933
-  lean_component_sd: 0.0403
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5929
+  lean_component_sd: 0.0402
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0276
+  fundraising_component: -0.0279
   fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.738
+  expected_share_resolved: 0.7377
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 3083
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1857
+  primary_incumbency_component_sd: 0.1176
+  primary_fundraising_component: -0.0376
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.1266
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,22 +349,22 @@ races:
   winner: true
   actual_two_party_share: 0.7762
   war: 0.1198
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5933
-  lean_component_sd: 0.0403
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5929
+  lean_component_sd: 0.0402
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0107
+  fundraising_component: -0.0108
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.7533
-  war_resolved: 0.0229
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7532
+  war_resolved: 0.023
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 5426
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2085
+  primary_incumbency_component_sd: 0.1101
+  primary_fundraising_component: -0.0061
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.181
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,22 +416,22 @@ races:
   winner: true
   actual_two_party_share: 0.8135
   war: 0.0854
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5933
-  lean_component_sd: 0.0403
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5929
+  lean_component_sd: 0.0402
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.012
+  fundraising_component: -0.0121
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.6806
-  war_resolved: 0.1329
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6808
+  war_resolved: 0.1327
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 23rd Middlesex District
+  district_url: /district/house-23rd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2891
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0086
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 0.97
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.32
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5744
-  lean_component_sd: 0.039
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.574
+  lean_component_sd: 0.0389
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0138
-  fundraising_component_sd: 0.0011
+  fundraising_component: -0.0139
+  fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.7318
+  expected_share_resolved: 0.7317
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 23rd Middlesex
+  district_url: /district/house-23rd-middlesex-2001-2010/
+  party: Democratic
+  votes: 3139
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1979
+  primary_incumbency_component_sd: 0.111
+  primary_fundraising_component: -0.0119
+  primary_fundraising_component_sd: 0.0007
+  primary_expected_share: 1.1646
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,20 +549,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2738
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5744
-  lean_component_sd: 0.039
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.574
+  lean_component_sd: 0.0389
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0094
+  fundraising_component: 0.0097
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.6834
+  expected_share_resolved: 0.6838
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 23rd Middlesex
+  district_url: /district/house-23rd-middlesex-2001-2010/
+  party: Democratic
+  votes: 6212
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0316
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 1.0102
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 23rd Middlesex
+  district_url: /district/house-23rd-middlesex-2001-2010/
+  party: Democratic
+  votes: 5741
+  winner: true
+  actual_primary_share: 0.464
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0316
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 0.3436
+  primary_war: 0.1204
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 14763

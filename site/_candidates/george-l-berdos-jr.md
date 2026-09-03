@@ -34,6 +34,35 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 8th Plymouth
+  district_url: /district/house-8th-plymouth-2001-2010/
+  party: Libertarian
+  votes: 9
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: null
+  n_candidates: 1
+  primary_baseline_component: null
+  primary_baseline_component_sd: null
+  primary_incumbency_component: null
+  primary_incumbency_component_sd: null
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: null
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors: null
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 title: George L. Berdos, Jr.
 layout: candidate
 ---

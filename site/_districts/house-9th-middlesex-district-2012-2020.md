@@ -33,20 +33,20 @@ results_by_year:
     war: 0.257
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5166
-    lean_component_sd: 0.0351
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5163
+    lean_component_sd: 0.035
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0115
+    fundraising_component: 0.0118
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.7007
+    expected_share_resolved: 0.701
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,20 +98,20 @@ results_by_year:
     war: 0.6091
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5166
-    lean_component_sd: 0.0351
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5163
+    lean_component_sd: 0.035
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0021
+    fundraising_component: 0.0023
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.688
+    expected_share_resolved: 0.6881
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.2824
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5166
-    lean_component_sd: 0.0351
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5163
+    lean_component_sd: 0.035
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.004
+    fundraising_component: 0.0042
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.6929
+    expected_share_resolved: 0.6932
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -202,20 +202,20 @@ results_by_year:
     war: 0.4551
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5166
-    lean_component_sd: 0.0351
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5163
+    lean_component_sd: 0.035
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.008
+    fundraising_component: 0.0082
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.6954
+    expected_share_resolved: 0.6956
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,20 +267,20 @@ results_by_year:
     war: 0.3464
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5166
-    lean_component_sd: 0.0351
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5163
+    lean_component_sd: 0.035
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0015
+    fundraising_component: -0.0014
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6145
+    expected_share_resolved: 0.6149
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -289,6 +289,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 8478
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1658
+    primary_incumbency_component_sd: 0.1148
+    primary_fundraising_component: 0.0355
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.1799
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 3478
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2154
+    primary_incumbency_component_sd: 0.0994
+    primary_fundraising_component: 0.0179
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.212
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 1144
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1694
+    primary_incumbency_component_sd: 0.1134
+    primary_fundraising_component: 0.0215
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 1.1695
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 2879
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1923
+    primary_incumbency_component_sd: 0.1055
+    primary_fundraising_component: 0.0289
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1998
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas M. Stanley
+    slug: thomas-m-stanley
+    party: Democratic
+    votes: 2757
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0111
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9897
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 9th Middlesex District (2012-2020)
 layout: district
 ---

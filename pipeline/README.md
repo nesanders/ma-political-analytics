@@ -1214,3 +1214,170 @@ Jekyll build + Playwright sweep of the methodology page (forest and
 prior-posterior charts render against the new single-term coefficient
 set) and a district page (one Incumbency segment in the attribution
 chart, not three) came back with zero JS errors.
+
+## Primary elections modeled
+
+Massachusetts's 2026 state primary happened the week this round of work
+started, prompting a direct ask: model primaries with a real regression
+(not just display them), give primary-only candidates full pages, keep
+special elections, and give the attribution charts shaded colors/special
+symbols for primaries and specials.
+
+`fetch.pd43` already fetched primary-stage results every year of this
+site's backfill (`STAGE_PRIMARIES` alongside `STAGE_GENERAL`) — that part
+was pre-existing infrastructure, just never modeled or shown. The new
+work starts in `derived_metrics.compute_primary_results`: results are
+merged against `races` and filtered to `stage == "primary"`, then grouped
+by `election_id` rather than `(district, year, party)` — a district can
+have two primaries for the same party in the same calendar year (a
+regular cycle primary and a special filling a vacancy), each with its
+own `election_id`, which grouping by the coarser key would silently
+merge together. Each candidate's `actual_primary_share` is votes divided
+by that race's total; `fair_share` is `1 / n_candidates` — the field-size-
+derived "no-information" baseline a primary needs in place of
+`lean_dem_share`, since a primary field varies in size year to year in a
+way a two-party general never does.
+
+`generate_site_data.py` gained a second, separate Bayesian fit for this:
+`fit_primary_war_model`/`apply_primary_war`, using the same
+`_bayesian_linear_regression` Gibbs sampler as the general model, on a
+new response variable (`excess_share = actual_primary_share - fair_share`)
+and five new `primary_*` priors in `_COEFFICIENT_PRIORS`:
+
+```
+excess_share ~ primary_intercept
+             + primary_incumbent
+             + primary_incumbent_x_tide
+             + primary_incumbent_x_lean
+             + primary_log_raised
+```
+
+Incumbency only ever appears interacted with tide and lean here, never as
+its own bare main effect — there's no basis for claiming a non-incumbent's
+own primary share tracks that year's statewide mood or the district's
+general-election partisanship, so those two interaction terms are
+deliberately narrower claims than the general model's own tide/lean main
+effects. Fit on the full 2002-2024 backfill plus 2026's special-election
+primaries: 1,463 contested major-party primary candidate-races, R² =
+0.27, 171 of them an incumbent defending their own seat, 1,168 with a
+matched OCPF total. The incumbency coefficient alone (+15.5 points) comes
+in meaningfully larger than the general model's own incumbent term — a
+primary electorate skews toward a party's most engaged voters, among whom
+a sitting legislator's name recognition plausibly matters even more.
+
+**A real bug, caught before shipping**: getting "how many terms has this
+incumbent completed as of this primary" right isn't the same question the
+general model's existing `incumbent_terms` field answers ("terms served
+*before* this specific general race"). The first implementation reused
+that field directly and undercounted every incumbent's primary by exactly
+one term — caught live on Ann-Margaret Ferrante's 2024 primary, which
+showed `incumbent_terms: 0` despite her being a genuine 1-term incumbent
+by then. Fixed by extending `build_district_records`'s existing
+terms-served backward-walk loop to also record `winner_terms_after_year`
+(the post-race winner/term-count immediately after each general year is
+processed), then looking up the most recent general year strictly before
+the primary's own year for that primary's incumbency state.
+
+**Special elections are included for primaries; generals keep their
+existing exclusion.** This is a narrower scope than "keep special
+elections" alone might suggest, and was reasoned through and flagged to
+the user rather than assumed. `compute_war`'s pre-existing `~is_special`
+filter (which excludes special generals) is unchanged, because extending
+it surfaced a real complication: at least 30 district-years across the
+2002-2024 backfill already have *two* general races in the same calendar
+year (a special filling a vacancy plus that district's own regular-cycle
+election that same year), which the current one-row-per-(district, year)
+incumbency-chain logic isn't built to represent safely without risking
+the existing, already-shipped general-election logic. Primaries carry no
+such collision risk — each is keyed to its own PD43+ `election_id`, so a
+regular and a special primary in the same district/party/year simply
+become two separate rows — so extending special-election coverage there
+was the unambiguous first step.
+
+**Primary-only candidates now get full candidate pages.**
+`build_candidate_records` gained a second loop, appending one race entry
+per primary candidacy (`stage: "primary"`) alongside the pre-existing
+general-race entries, using distinctly-named fields
+(`actual_primary_share`, `primary_expected_share`, `primary_war`,
+`primary_war_factors`, ...) rather than overloading the general model's
+field names, since the two aren't on the same scale — a primary's
+expected share is relative to its own N-candidate field, a general's to
+a two-party baseline. `latest_info` (a candidate's display name/party for
+the page) is only ever set from a primary row as a fallback
+(`if slug not in latest_info`), never overriding a general-sourced entry.
+Real effect: candidate pages jumped from 1,343 to 2,045.
+
+Templates:
+
+- **`district.html`/`seat.html`** gained a new "Primary results" section,
+  parallel to "Election results," rendering `page.primaries` (one
+  sub-table per race, votes/share/primary WAR/expected share/factors per
+  candidate, special-election races marked). Seat pages inherited this
+  for free — `build_seat_records` already spreads the full district
+  record dict, `primaries` included.
+- **`candidate.html`**'s two year-spanning charts were unified across
+  stages, per the explicit ask for "shaded colors and special symbols."
+  The WAR-vs-replacement-level chart gained a second, unconnected point
+  layer for primary races: a constant `xOffset` nudges them beside that
+  year's general point, and a `shape` encoding (diamond for a primary,
+  triangle for a special-election primary, with a real Vega-Lite shape
+  legend) distinguishes them from the general layer's circles — kept as
+  a separate layer rather than folded into the existing connected line,
+  since offsetting points that a "line" mark also connects across years
+  would produce a misleading zig-zag. The attribution bar chart now
+  field-maps a primary race's `primary_baseline_component`/
+  `primary_incumbency_component`/`primary_fundraising_component`/
+  `primary_war` onto the same canonical Baseline/Incumbency/Fundraising/
+  WAR-residual slots the general model already fills (done via Liquid's
+  `default` filter at the point each race's JS row is built, so the JS
+  itself never needs to know which stage a row came from) — a primary has
+  no Lean/Tide/Demographics slice of its own, so those three stay null
+  and are skipped the same way an unmatched general race's Demographics/
+  Fundraising already were. Primary and general bars for the same year
+  are dodged apart with a field-based `xOffset` on `stage`, a primary bar
+  renders at reduced opacity, and a special-election primary's bar
+  additionally gets a dashed stroke outline — no new CSS colors needed,
+  since every primary component reuses an existing `--war-*` variable.
+  The Races table gained a Stage column and the same `default`-filter
+  unification for its Share/WAR/Expected share/Factors columns. The
+  attribution-uncertainty chart's year selector is now keyed by
+  `year + "|" + stage` rather than year alone, since a candidate can have
+  both a primary and a general in the same year (the ordinary case) and
+  year alone can't tell those apart in the dropdown.
+
+The methodology page gained a new "Primary elections" section: the
+formula, the excess-share/fair-share framing, a coefficient table plus a
+forest plot and an actual-vs-expected scatter (shaped by special-election
+status) built from two new `site/_data/primary_war_model.yml`/
+`primary_war_fit_sample.yml` exports, the special-election-scope reasoning
+above, and one documented, accepted limitation: because excess share has
+no natural 0-100% bound the way a two-party share does, an uncontested
+incumbent's `primary_expected_share` can come out above 100% (the fitted
+intercept and incumbency terms simply add on top of an already-100%
+uncontested fair share) — visible directly on that candidate's own Races
+table, documented rather than artificially capped, since capping it would
+hide, not fix, the real reason it happens. This mirrors the general
+model's own already-documented uncontested-race WAR inflation.
+
+`derived_metrics.py`'s `main()` was restructured so primary computation
+runs and is written to disk *before* the block that requires that year's
+baseline Governor/President race — needed for 2026 specifically, whose
+regular-cycle primary/general aren't posted on PD43+ yet but whose two
+special-election primaries (5th Essex District house, First Middlesex
+District senate) already are; `discover_primary_years` (new) finds
+primary years independent of `discover_years` (which requires a same-year
+lean file), so 2026's primary data can exist on its own even without that
+year's baseline race. Verified live: `fetch.pd43 --year-from 2026
+--year-to 2026` pulled the real, currently-posted 2026 special-election
+primaries; re-running `derived_metrics.py` for 2026 writes the primary
+parquet successfully, then raises (as designed, non-fatal to the
+already-written primary data) on the missing baseline lookup. Sum-
+invariant checks (component sums equal `primary_expected_share`;
+`actual - expected == primary_war`) passed with zero mismatches across
+394 sampled candidate-races. A Jekyll build + Playwright sweep covered a
+district page with a real 2026 special primary (5th Essex District, both
+parties), a candidate with both a primary and a general in the same year
+(Ann-Margaret Ferrante), a candidate with a 2026 special-election primary
+specifically (Ashley Sullivan), and the methodology page's two new
+charts — all came back with zero JS errors and the expected offset/
+shape/opacity/dash rendering in each case.

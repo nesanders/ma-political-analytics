@@ -13,11 +13,11 @@ races:
   winner: false
   actual_two_party_share: 0.399
   war: -0.1859
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3468
-  lean_component_sd: 0.0164
-  tide_component: 0.0039
+  lean_component_sd: 0.0163
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4119
-  war_resolved: -0.0129
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4122
+  war_resolved: -0.0132
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -37,6 +37,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: Cape and Islands
+  district_url: /district/senate-cape-and-islands-2001-2010/
+  party: Republican
+  votes: 9523
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 title: Mark C. Boardman
 layout: candidate
 ---

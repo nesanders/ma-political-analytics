@@ -30,22 +30,22 @@ results_by_year:
     war: -0.0167
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5418
-    lean_component_sd: 0.0368
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5415
+    lean_component_sd: 0.0367
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: 0.0004
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: 0.0005
     demographics_component_sd: 0.0121
-    fundraising_component: 0.0475
+    fundraising_component: 0.0483
     fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.7619
-    war_resolved: -0.1376
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7628
+    war_resolved: -0.1385
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: 0.0167
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2601
-    lean_component_sd: 0.0123
-    tide_component: 0.0027
+    lean_component_sd: 0.0122
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0004
+    demographics_component: 0.0005
     demographics_component_sd: 0.0121
-    fundraising_component: 0.0259
+    fundraising_component: 0.0264
     fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.3505
-    war_resolved: 0.0252
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3514
+    war_resolved: 0.0243
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -129,22 +129,22 @@ results_by_year:
     war: -0.0015
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5418
-    lean_component_sd: 0.0368
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5415
+    lean_component_sd: 0.0367
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0004
+    demographics_component: 0.0005
     demographics_component_sd: 0.0121
-    fundraising_component: 0.0436
+    fundraising_component: 0.0444
     fundraising_component_sd: 0.0033
     demographics_tier: full
-    expected_share_resolved: 0.6856
-    war_resolved: -0.0486
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6867
+    war_resolved: -0.0497
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -161,22 +161,22 @@ results_by_year:
     war: 0.0015
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2601
-    lean_component_sd: 0.0123
-    tide_component: 0.0026
+    lean_component_sd: 0.0122
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0004
+    demographics_component: 0.0005
     demographics_component_sd: 0.0121
-    fundraising_component: 0.0037
+    fundraising_component: 0.0039
     fundraising_component_sd: 0.0003
     demographics_tier: full
-    expected_share_resolved: 0.3282
-    war_resolved: 0.0348
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3288
+    war_resolved: 0.0342
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -185,6 +185,137 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Julian Andre Cyr
+    slug: julian-andre-cyr
+    party: Democratic
+    votes: 20168
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1772
+    primary_incumbency_component_sd: 0.1138
+    primary_fundraising_component: 0.1029
+    primary_fundraising_component_sd: 0.006
+    primary_expected_share: 1.2587
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christopher Robert Lauzon
+    slug: christopher-robert-lauzon
+    party: Republican
+    votes: 8405
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0625
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 1.0411
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Julian Andre Cyr
+    slug: julian-andre-cyr
+    party: Democratic
+    votes: 24454
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0956
+    primary_fundraising_component_sd: 0.0056
+    primary_expected_share: 1.0742
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Christopher Robert Lauzon
+    slug: christopher-robert-lauzon
+    party: Republican
+    votes: 7344
+    winner: true
+    actual_primary_share: 0.5973
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.021
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.4996
+    primary_war: 0.0977
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Daralyn Andrea Heywood
+    slug: daralyn-andrea-heywood
+    party: Republican
+    votes: 4951
+    winner: false
+    actual_primary_share: 0.4027
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0141
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.4927
+    primary_war: -0.09
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 190623
   voting_age_population: 163106

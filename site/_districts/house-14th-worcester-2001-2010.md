@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4023
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5263
-    lean_component_sd: 0.0357
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.526
+    lean_component_sd: 0.0356
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.022
+    fundraising_component: -0.0222
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.6755
+    expected_share_resolved: 0.6753
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.3474
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5263
-    lean_component_sd: 0.0357
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.526
+    lean_component_sd: 0.0356
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0129
+    fundraising_component: -0.013
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.6129
+    expected_share_resolved: 0.6131
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,22 +111,22 @@ results_by_year:
     war: 0.0412
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5263
-    lean_component_sd: 0.0357
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.526
+    lean_component_sd: 0.0356
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.001
+    fundraising_component: 0.0011
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6992
-    war_resolved: 0.0439
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6994
+    war_resolved: 0.0437
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,22 +141,22 @@ results_by_year:
     war: -0.0412
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2734
     lean_component_sd: 0.0129
-    tide_component: 0.0029
+    tide_component: 0.0026
     tide_component_sd: 0.0124
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0314
+    fundraising_component: -0.0317
     fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.3062
-    war_resolved: -0.0493
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3061
+    war_resolved: -0.0492
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,20 +180,20 @@ results_by_year:
     war: 0.3525
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5263
-    lean_component_sd: 0.0357
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.526
+    lean_component_sd: 0.0356
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0095
+    fundraising_component: 0.0098
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.7079
+    expected_share_resolved: 0.7082
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -219,20 +219,20 @@ results_by_year:
     war: 0.4924
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5263
-    lean_component_sd: 0.0357
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.526
+    lean_component_sd: 0.0356
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0031
+    fundraising_component: -0.003
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6213
+    expected_share_resolved: 0.6215
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,6 +241,198 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James J. O'Day
+    slug: james-j-oday
+    party: Democratic
+    votes: 2161
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1877
+    primary_incumbency_component_sd: 0.1082
+    primary_fundraising_component: -0.0273
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.139
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ronald A. Motta
+    slug: ronald-a-motta
+    party: Republican
+    votes: 71
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James J. O'Day
+    slug: james-j-oday
+    party: Democratic
+    votes: 2229
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0102
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9684
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James B. Leary
+    slug: james-b-leary
+    party: Democratic
+    votes: 4574
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1766
+    primary_incumbency_component_sd: 0.112
+    primary_fundraising_component: 0.0158
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.171
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph D. Rice
+    slug: joseph-d-rice
+    party: Republican
+    votes: 287
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0448
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.9338
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James B. Leary
+    slug: james-b-leary
+    party: Democratic
+    votes: 3451
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1742
+    primary_incumbency_component_sd: 0.1129
+    primary_fundraising_component: 0.0318
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.1847
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James B. Leary
+    slug: james-b-leary
+    party: Democratic
+    votes: 2907
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0082
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 0.9868
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 14th Worcester (2001-2010)
 layout: district
 ---

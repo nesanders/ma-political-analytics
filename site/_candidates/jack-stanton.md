@@ -4,6 +4,35 @@ name: Jack Stanton
 party: Democratic
 races:
 - chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 4th Barnstable District
+  district_url: /district/house-4th-barnstable-district-2022-present/
+  party: Democratic
+  votes: 1029
+  winner: false
+  actual_primary_share: 0.1139
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.025
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.5036
+  primary_war: -0.3897
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: house
   year: 2018
   vintage: 2012-2020
   district_name: 5th Barnstable District
@@ -13,30 +42,72 @@ races:
   winner: false
   actual_two_party_share: 0.428
   war: 0.1987
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3689
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3687
   lean_component_sd: 0.025
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: null
-  fundraising_component_sd: null
+  fundraising_component: 0.0008
+  fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.4656
-  war_resolved: -0.0376
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4666
+  war_resolved: -0.0386
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
   - Incumbency
+  - Campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 5th Barnstable District
+  district_url: /district/house-5th-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 2552
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0152
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 0.9938
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+ocpf_finance:
+  cpf_ids:
+  - 16897
+  by_year:
+    2018:
+      total_raised: 23092.22
+      total_spent: 22921.46
+    2022:
+      total_raised: 29694.32
+      total_spent: 40298.36
 title: Jack Stanton
 layout: candidate
 ---

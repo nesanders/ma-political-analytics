@@ -30,20 +30,20 @@ results_by_year:
     war: 0.1955
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6953
-    lean_component_sd: 0.0472
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6949
+    lean_component_sd: 0.0471
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0197
-    demographics_component_sd: 0.0355
-    fundraising_component: 0.0254
+    demographics_component: -0.0199
+    demographics_component_sd: 0.0354
+    fundraising_component: 0.0259
     fundraising_component_sd: 0.0019
     demographics_tier: full
-    expected_share_resolved: 0.8006
+    expected_share_resolved: 0.801
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.1626
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6953
-    lean_component_sd: 0.0472
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6949
+    lean_component_sd: 0.0471
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0197
-    demographics_component_sd: 0.0355
-    fundraising_component: 0.0288
+    demographics_component: -0.0199
+    demographics_component_sd: 0.0354
+    fundraising_component: 0.0294
     fundraising_component_sd: 0.0022
     demographics_tier: full
-    expected_share_resolved: 0.8042
+    expected_share_resolved: 0.8047
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,61 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel J. Ryan
+    slug: daniel-j-ryan
+    party: Democratic
+    votes: 2447
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0615
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 1.0401
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel Joseph Ryan
+    slug: daniel-joseph-ryan
+    party: Democratic
+    votes: 3052
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0679
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 1.0465
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 49376
   voting_age_population: 38618

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2512
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6241
-  lean_component_sd: 0.0424
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6237
+  lean_component_sd: 0.0423
+  tide_component: 0.0063
   tide_component_sd: 0.0342
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: 0.0094
+  demographics_component: 0.0093
   demographics_component_sd: 0.0349
-  fundraising_component: 0.0253
+  fundraising_component: 0.0257
   fundraising_component_sd: 0.0019
   demographics_tier: full
-  expected_share_resolved: 0.7583
+  expected_share_resolved: 0.7588
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 13th Norfolk District
+  district_url: /district/house-13th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 2742
+  winner: true
+  actual_primary_share: 0.4998
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0612
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 0.2898
+  primary_war: 0.21
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 18824

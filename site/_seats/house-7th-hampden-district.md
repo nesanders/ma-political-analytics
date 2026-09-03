@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4358
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4841
-    lean_component_sd: 0.0329
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4838
+    lean_component_sd: 0.0328
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0002
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0039
+    fundraising_component: 0.004
     fundraising_component_sd: 0.0003
     demographics_tier: full
-    expected_share_resolved: 0.6599
+    expected_share_resolved: 0.6602
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: -0.0515
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4841
-    lean_component_sd: 0.0329
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4838
+    lean_component_sd: 0.0328
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0002
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0185
+    fundraising_component: 0.0189
     fundraising_component_sd: 0.0014
     demographics_tier: full
-    expected_share_resolved: 0.6021
-    war_resolved: -0.0744
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6028
+    war_resolved: -0.0751
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.0515
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3093
+    lean_component: 0.3094
     lean_component_sd: 0.0146
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0002
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0084
+    fundraising_component: 0.0086
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.3814
-    war_resolved: 0.0909
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.382
+    war_resolved: 0.0903
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -127,6 +127,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron L. Saunders
+    slug: aaron-l-saunders
+    party: Democratic
+    votes: 3647
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.165
+    primary_incumbency_component_sd: 0.1108
+    primary_fundraising_component: 0.0212
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.1648
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron L. Saunders
+    slug: aaron-l-saunders
+    party: Democratic
+    votes: 4895
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0486
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 1.0272
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Chip Harrington
+    slug: james-chip-harrington
+    party: Republican
+    votes: 1741
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0296
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0082
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43448
   voting_age_population: 35296

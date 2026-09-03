@@ -34,6 +34,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 11th Hampden
+  district_url: /district/house-11th-hampden-2001-2010/
+  party: Democratic
+  votes: 1073
+  winner: false
+  actual_primary_share: 0.2982
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0502
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 0.2618
+  primary_war: 0.0364
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14413
@@ -41,6 +72,9 @@ ocpf_finance:
     2012:
       total_raised: 1202.17
       total_spent: 1082.17
+    2006:
+      total_raised: 4380.18
+      total_spent: 3981.87
 title: Norman W. Oliver
 layout: candidate
 ---

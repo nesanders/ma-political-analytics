@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1576
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0237
+    fundraising_component: -0.0239
     fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.7748
+    expected_share_resolved: 0.7746
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4911
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0083
+    fundraising_component: 0.0086
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.8036
+    expected_share_resolved: 0.8037
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.147
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0034
+    fundraising_component: -0.0033
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7948
+    expected_share_resolved: 0.7949
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.3122
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0212
+    fundraising_component: -0.0214
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.7756
+    expected_share_resolved: 0.7753
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,17 +215,17 @@ results_by_year:
     war: 0.1966
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6259
-    lean_component_sd: 0.0425
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6256
+    lean_component_sd: 0.0424
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0218
+    fundraising_component: -0.022
     fundraising_component_sd: 0.0017
     demographics_tier: null
     expected_share_resolved: 0.7036
@@ -237,6 +237,207 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Elizabeth A. Malia
+    slug: elizabeth-a-malia
+    party: Democratic
+    votes: 9869
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.189
+    primary_incumbency_component_sd: 0.1209
+    primary_fundraising_component: -0.0304
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 1.1372
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Elizabeth A. Malia
+    slug: elizabeth-a-malia
+    party: Democratic
+    votes: 5166
+    winner: true
+    actual_primary_share: 0.6608
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2386
+    primary_incumbency_component_sd: 0.1064
+    primary_fundraising_component: 0.0296
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 0.5801
+    primary_war: 0.0807
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Ture R. Turnbull
+    slug: ture-r-turnbull
+    party: Democratic
+    votes: 1383
+    winner: false
+    actual_primary_share: 0.1769
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0381
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.35
+    primary_war: -0.1731
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Charles Clemons Muhammad
+    slug: charles-clemons-muhammad
+    party: Democratic
+    votes: 1269
+    winner: false
+    actual_primary_share: 0.1623
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.1496
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Elizabeth A. Malia
+    slug: elizabeth-a-malia
+    party: Democratic
+    votes: 2186
+    winner: true
+    actual_primary_share: 0.7102
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1926
+    primary_incumbency_component_sd: 0.1196
+    primary_fundraising_component: 0.0076
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.6788
+    primary_war: 0.0314
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Charles L. Clemons, Jr
+    slug: charles-l-clemons-jr
+    party: Democratic
+    votes: 892
+    winner: false
+    actual_primary_share: 0.2898
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.1888
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Elizabeth A. Malia
+    slug: elizabeth-a-malia
+    party: Democratic
+    votes: 3316
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2155
+    primary_incumbency_component_sd: 0.1121
+    primary_fundraising_component: -0.0257
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1684
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Elizabeth A. Malia
+    slug: elizabeth-a-malia
+    party: Democratic
+    votes: 2409
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0268
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.9518
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 11th Suffolk District (2012-2020)
 layout: district
 ---

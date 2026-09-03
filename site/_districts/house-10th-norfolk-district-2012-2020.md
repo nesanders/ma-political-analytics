@@ -33,20 +33,20 @@ results_by_year:
     war: 0.37
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3901
-    lean_component_sd: 0.0265
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0264
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0066
+    fundraising_component: 0.0068
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.5692
+    expected_share_resolved: 0.5696
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,22 +98,22 @@ results_by_year:
     war: 0.3593
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3901
-    lean_component_sd: 0.0265
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0264
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.017
+    fundraising_component: 0.0173
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.5763
-    war_resolved: 0.009
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5767
+    war_resolved: 0.0086
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -128,22 +128,22 @@ results_by_year:
     war: -0.3593
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3895
-    lean_component_sd: 0.0184
-    tide_component: 0.0049
+    lean_component: 0.3896
+    lean_component_sd: 0.0183
+    tide_component: 0.0045
     tide_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0044
+    fundraising_component: 0.0046
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.4601
-    war_resolved: -0.0454
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4605
+    war_resolved: -0.0458
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -167,20 +167,20 @@ results_by_year:
     war: 0.4235
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3901
-    lean_component_sd: 0.0265
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0264
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0046
-    fundraising_component_sd: 0.0004
+    fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5578
+    expected_share_resolved: 0.558
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -206,20 +206,20 @@ results_by_year:
     war: 0.6321
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3901
-    lean_component_sd: 0.0265
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0264
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0213
+    fundraising_component: -0.0215
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.5396
+    expected_share_resolved: 0.5395
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -245,22 +245,22 @@ results_by_year:
     war: 0.0402
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3901
-    lean_component_sd: 0.0265
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3899
+    lean_component_sd: 0.0264
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0125
+    fundraising_component: 0.0128
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.502
-    war_resolved: 0.0409
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5026
+    war_resolved: 0.0403
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -275,28 +275,312 @@ results_by_year:
     war: -0.0402
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3895
-    lean_component_sd: 0.0184
-    tide_component: 0.0028
+    lean_component: 0.3896
+    lean_component_sd: 0.0183
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0134
+    fundraising_component: 0.0137
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.467
-    war_resolved: -0.0099
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4676
+    war_resolved: -0.0105
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey N. Roy
+    slug: jeffrey-n-roy
+    party: Democratic
+    votes: 7905
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.139
+    primary_incumbency_component_sd: 0.1089
+    primary_fundraising_component: 0.0264
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1439
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Andrew M. Bissanti
+    slug: andrew-m-bissanti
+    party: Republican
+    votes: 285
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0885
+    primary_fundraising_component_sd: 0.0052
+    primary_expected_share: 0.8901
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey N. Roy
+    slug: jeffrey-n-roy
+    party: Democratic
+    votes: 2858
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1886
+    primary_incumbency_component_sd: 0.0925
+    primary_fundraising_component: 0.0457
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.2129
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Patrick R. Casey
+    slug: patrick-r-casey
+    party: Republican
+    votes: 1591
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0222
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 1.0008
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey N. Roy
+    slug: jeffrey-n-roy
+    party: Democratic
+    votes: 646
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1426
+    primary_incumbency_component_sd: 0.1074
+    primary_fundraising_component: 0.0053
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1265
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey N. Roy
+    slug: jeffrey-n-roy
+    party: Democratic
+    votes: 1782
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1655
+    primary_incumbency_component_sd: 0.0991
+    primary_fundraising_component: -0.0259
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1182
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jeffrey N. Roy
+    slug: jeffrey-n-roy
+    party: Democratic
+    votes: 1935
+    winner: true
+    actual_primary_share: 0.5695
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0374
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.516
+    primary_war: 0.0535
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Peter E. Padula
+    slug: peter-e-padula
+    party: Democratic
+    votes: 1463
+    winner: false
+    actual_primary_share: 0.4305
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0273
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.5059
+    primary_war: -0.0754
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Richard A. Eustis
+    slug: richard-a-eustis
+    party: Republican
+    votes: 1260
+    winner: true
+    actual_primary_share: 0.4963
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.039
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.3509
+    primary_war: 0.1454
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: C. Stolle Singleton
+    slug: c-stolle-singleton
+    party: Republican
+    votes: 776
+    winner: false
+    actual_primary_share: 0.3056
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0075
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.3044
+    primary_war: 0.0012
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: John S. Jewell
+    slug: john-s-jewell
+    party: Republican
+    votes: 503
+    winner: false
+    actual_primary_share: 0.1981
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0254
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.2865
+    primary_war: -0.0884
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 10th Norfolk District (2012-2020)
 layout: district
 ---

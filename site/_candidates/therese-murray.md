@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.5816
   war: 0.0721
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3827
-  lean_component_sd: 0.026
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3825
+  lean_component_sd: 0.0259
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0628
+  fundraising_component: 0.0638
   fundraising_component_sd: 0.0048
   demographics_tier: null
-  expected_share_resolved: 0.5449
-  war_resolved: 0.0367
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5463
+  war_resolved: 0.0353
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  district_url: /district/senate-plymouth-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 9176
+  winner: true
+  actual_primary_share: 0.8676
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.1315
+  primary_fundraising_component_sd: 0.0077
+  primary_expected_share: 0.6101
+  primary_war: 0.2575
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -48,22 +79,22 @@ races:
   winner: true
   actual_two_party_share: 0.5244
   war: 0.0853
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4096
-  lean_component_sd: 0.0278
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4094
+  lean_component_sd: 0.0277
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0553
+  fundraising_component: 0.0562
   fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.6362
-  war_resolved: -0.1118
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6372
+  war_resolved: -0.1128
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  district_url: /district/senate-plymouth-and-barnstable-2001-2010/
+  party: Democratic
+  votes: 10353
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.163
+  primary_incumbency_component_sd: 0.1022
+  primary_fundraising_component: 0.1174
+  primary_fundraising_component_sd: 0.0069
+  primary_expected_share: 1.259
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -83,20 +146,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4626
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4096
-  lean_component_sd: 0.0278
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4094
+  lean_component_sd: 0.0277
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0553
+  fundraising_component: 0.0562
   fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.6371
+  expected_share_resolved: 0.6381
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +171,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  district_url: /district/senate-plymouth-and-barnstable-2001-2010/
+  party: Democratic
+  votes: 10406
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1489
+  primary_incumbency_component_sd: 0.1074
+  primary_fundraising_component: 0.1174
+  primary_fundraising_component_sd: 0.0069
+  primary_expected_share: 1.2448
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4861
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4096
-  lean_component_sd: 0.0278
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4094
+  lean_component_sd: 0.0277
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0447
+  fundraising_component: 0.0454
   fundraising_component_sd: 0.0034
   demographics_tier: null
-  expected_share_resolved: 0.6263
+  expected_share_resolved: 0.6271
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  district_url: /district/senate-plymouth-and-barnstable-2001-2010/
+  party: Democratic
+  votes: 22107
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1518
+  primary_incumbency_component_sd: 0.1063
+  primary_fundraising_component: 0.0975
+  primary_fundraising_component_sd: 0.0057
+  primary_expected_share: 1.228
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -153,22 +280,22 @@ races:
   winner: true
   actual_two_party_share: 0.5769
   war: 0.0415
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4096
-  lean_component_sd: 0.0278
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4094
+  lean_component_sd: 0.0277
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0544
-  fundraising_component_sd: 0.0041
+  fundraising_component: 0.0553
+  fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.6361
-  war_resolved: -0.0592
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6371
+  war_resolved: -0.0602
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  district_url: /district/senate-plymouth-and-barnstable-2001-2010/
+  party: Democratic
+  votes: 5421
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1495
+  primary_incumbency_component_sd: 0.1072
+  primary_fundraising_component: 0.1157
+  primary_fundraising_component_sd: 0.0068
+  primary_expected_share: 1.2438
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -188,22 +347,22 @@ races:
   winner: true
   actual_two_party_share: 0.5799
   war: 0.1872
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4096
-  lean_component_sd: 0.0278
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4094
+  lean_component_sd: 0.0277
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0209
+  fundraising_component: 0.0213
   fundraising_component_sd: 0.0016
   demographics_tier: null
-  expected_share_resolved: 0.5286
-  war_resolved: 0.0513
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5293
+  war_resolved: 0.0506
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -213,6 +372,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  district_url: /district/senate-plymouth-and-barnstable-2001-2010/
+  party: Democratic
+  votes: 13886
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0531
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 1.0317
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12229

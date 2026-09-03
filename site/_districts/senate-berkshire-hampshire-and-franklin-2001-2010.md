@@ -33,14 +33,14 @@ results_by_year:
     war: 0.2491
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6223
-    lean_component_sd: 0.0423
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6219
+    lean_component_sd: 0.0421
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -71,14 +71,14 @@ results_by_year:
     war: 0.2398
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6223
-    lean_component_sd: 0.0423
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6219
+    lean_component_sd: 0.0421
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -109,12 +109,12 @@ results_by_year:
     war: -0.0457
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6223
-    lean_component_sd: 0.0423
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6219
+    lean_component_sd: 0.0421
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -122,9 +122,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7217
-    war_resolved: 0.0136
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7219
+    war_resolved: 0.0134
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -138,22 +138,22 @@ results_by_year:
     war: 0.0457
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1915
     lean_component_sd: 0.009
-    tide_component: 0.0029
+    tide_component: 0.0026
     tide_component_sd: 0.0124
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0248
+    fundraising_component: 0.0253
     fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.2805
-    war_resolved: -0.0158
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2813
+    war_resolved: -0.0166
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -203,14 +203,14 @@ results_by_year:
     war: 0.0476
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6223
-    lean_component_sd: 0.0423
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6219
+    lean_component_sd: 0.0421
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -218,7 +218,7 @@ results_by_year:
     demographics_tier: null
     expected_share_resolved: 0.7944
     war_resolved: -0.0182
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -232,11 +232,11 @@ results_by_year:
     war: -0.0476
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1915
     lean_component_sd: 0.009
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -245,9 +245,9 @@ results_by_year:
     fundraising_component: -0.0148
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.2408
-    war_resolved: -0.017
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.241
+    war_resolved: -0.0172
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -271,11 +271,11 @@ results_by_year:
     war: 0.3467
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6223
-    lean_component_sd: 0.0423
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6219
+    lean_component_sd: 0.0421
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -284,7 +284,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7204
+    expected_share_resolved: 0.7205
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -318,6 +318,277 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Benjamin Brackett Downing
+    slug: benjamin-brackett-downing
+    party: Democratic
+    votes: 18747
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2081
+    primary_incumbency_component_sd: 0.1139
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1867
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Benjamin Brackett Downing
+    slug: benjamin-brackett-downing
+    party: Democratic
+    votes: 8721
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1939
+    primary_incumbency_component_sd: 0.1186
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1725
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 5
+  is_contested: true
+  candidates:
+  - name: Benjamin Brackett Downing
+    slug: benjamin-brackett-downing
+    party: Democratic
+    votes: 7577
+    winner: true
+    actual_primary_share: 0.3206
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1786
+    primary_war: 0.142
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Christopher J. Hodgkins
+    slug: christopher-j-hodgkins
+    party: Democratic
+    votes: 7334
+    winner: false
+    actual_primary_share: 0.3103
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0538
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 0.2324
+    primary_war: 0.0779
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Margaret Johnson Ware
+    slug: margaret-johnson-ware
+    party: Democratic
+    votes: 5221
+    winner: false
+    actual_primary_share: 0.2209
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0454
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.224
+    primary_war: -0.0031
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Helen Sharron
+    slug: helen-sharron
+    party: Democratic
+    votes: 3111
+    winner: false
+    actual_primary_share: 0.1316
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.075
+    primary_fundraising_component_sd: 0.0044
+    primary_expected_share: 0.2536
+    primary_war: -0.122
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: John T. Zelazo
+    slug: john-t-zelazo
+    party: Democratic
+    votes: 394
+    winner: false
+    actual_primary_share: 0.0167
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.2
+    primary_baseline_component: 0.1786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1786
+    primary_war: -0.1619
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Matthew W. Kinnaman
+    slug: matthew-w-kinnaman
+    party: Republican
+    votes: 1275
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0604
+    primary_fundraising_component_sd: 0.0035
+    primary_expected_share: 1.039
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Andrea F. Nuciforo, Jr.
+    slug: andrea-f-nuciforo-jr
+    party: Democratic
+    votes: 13526
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1946
+    primary_incumbency_component_sd: 0.1184
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1732
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Dawn Taylor Thompson
+    slug: dawn-taylor-thompson
+    party: Republican
+    votes: 961
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0136
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.965
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Andrea F. Nuciforo, Jr.
+    slug: andrea-f-nuciforo-jr
+    party: Democratic
+    votes: 11089
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: Berkshire, Hampshire, and Franklin (2001-2010)
 layout: district
 ---

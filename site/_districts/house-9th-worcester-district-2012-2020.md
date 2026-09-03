@@ -33,20 +33,20 @@ results_by_year:
     war: 0.5948
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4079
-    lean_component_sd: 0.0193
-    tide_component: 0.0024
+    lean_component: 0.408
+    lean_component_sd: 0.0192
+    tide_component: 0.0022
     tide_component_sd: 0.0105
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0059
-    fundraising_component_sd: 0.0005
+    fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.5957
+    expected_share_resolved: 0.5958
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.2112
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4079
-    lean_component_sd: 0.0193
-    tide_component: 0.0049
+    lean_component: 0.408
+    lean_component_sd: 0.0192
+    tide_component: 0.0045
     tide_component_sd: 0.0212
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0098
+    fundraising_component: 0.0101
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.614
+    expected_share_resolved: 0.6141
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.5341
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4079
-    lean_component_sd: 0.0193
-    tide_component: 0.0026
+    lean_component: 0.408
+    lean_component_sd: 0.0192
+    tide_component: 0.0024
     tide_component_sd: 0.0112
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.011
+    fundraising_component: 0.0113
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6128
+    expected_share_resolved: 0.6132
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,22 +150,22 @@ results_by_year:
     war: -0.0319
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4079
-    lean_component_sd: 0.0193
-    tide_component: 0.0038
+    lean_component: 0.408
+    lean_component_sd: 0.0192
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0179
+    fundraising_component: 0.0182
     fundraising_component_sd: 0.0014
     demographics_tier: null
-    expected_share_resolved: 0.4908
-    war_resolved: 0.1331
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4915
+    war_resolved: 0.1324
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,22 +180,22 @@ results_by_year:
     war: 0.0319
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3685
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3683
     lean_component_sd: 0.025
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0072
-    fundraising_component_sd: 0.0005
+    fundraising_component: 0.0074
+    fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.4739
-    war_resolved: -0.0978
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4743
+    war_resolved: -0.0982
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -219,20 +219,20 @@ results_by_year:
     war: 0.4912
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4079
-    lean_component_sd: 0.0193
-    tide_component: 0.0028
+    lean_component: 0.408
+    lean_component_sd: 0.0192
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0045
+    fundraising_component: 0.0046
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.4765
+    expected_share_resolved: 0.477
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,6 +241,192 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David K. Muradian, Jr
+    slug: david-k-muradian-jr
+    party: Republican
+    votes: 2130
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2078
+    primary_incumbency_component_sd: 0.097
+    primary_fundraising_component: 0.0029
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 1.1893
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David K. Muradian, Jr
+    slug: david-k-muradian-jr
+    party: Republican
+    votes: 2047
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1582
+    primary_incumbency_component_sd: 0.1127
+    primary_fundraising_component: 0.0324
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.1692
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David K. Muradian, Jr
+    slug: david-k-muradian-jr
+    party: Republican
+    votes: 351
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2042
+    primary_incumbency_component_sd: 0.0979
+    primary_fundraising_component: 0.0346
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.2174
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Martin Green
+    slug: martin-green
+    party: Democratic
+    votes: 1257
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0274
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.006
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: David K. Muradian, Jr
+    slug: david-k-muradian-jr
+    party: Republican
+    votes: 1297
+    winner: true
+    actual_primary_share: 0.5752
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0474
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 0.526
+    primary_war: 0.0492
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Shawn Craig
+    slug: shawn-craig
+    party: Republican
+    votes: 958
+    winner: false
+    actual_primary_share: 0.4248
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0538
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George N. Peterson, Jr.
+    slug: george-n-peterson-jr
+    party: Republican
+    votes: 447
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0223
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 1.0009
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 9th Worcester District (2012-2020)
 layout: district
 ---

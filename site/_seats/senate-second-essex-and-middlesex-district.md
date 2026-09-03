@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4258
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4915
-    lean_component_sd: 0.0334
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4913
+    lean_component_sd: 0.0333
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0154
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0156
     demographics_component_sd: 0.0322
-    fundraising_component: 0.0376
+    fundraising_component: 0.0382
     fundraising_component_sd: 0.0029
     demographics_tier: full
-    expected_share_resolved: 0.6858
+    expected_share_resolved: 0.6863
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: -0.0131
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4915
-    lean_component_sd: 0.0334
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4913
+    lean_component_sd: 0.0333
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0154
+    demographics_component: -0.0156
     demographics_component_sd: 0.0322
-    fundraising_component: 0.0578
+    fundraising_component: 0.0587
     fundraising_component_sd: 0.0044
     demographics_tier: full
-    expected_share_resolved: 0.6336
-    war_resolved: -0.0601
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6346
+    war_resolved: -0.0611
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.0131
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.303
     lean_component_sd: 0.0143
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0154
+    demographics_component: -0.0156
     demographics_component_sd: 0.0322
-    fundraising_component: 0.036
-    fundraising_component_sd: 0.0027
+    fundraising_component: 0.0367
+    fundraising_component_sd: 0.0028
     demographics_tier: full
-    expected_share_resolved: 0.3875
-    war_resolved: 0.039
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3883
+    war_resolved: 0.0382
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -127,6 +127,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Barry R. Finegold
+    slug: barry-r-finegold
+    party: Democratic
+    votes: 13416
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1666
+    primary_incumbency_component_sd: 0.1112
+    primary_fundraising_component: 0.0843
+    primary_fundraising_component_sd: 0.0049
+    primary_expected_share: 1.2294
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Barry R. Finegold
+    slug: barry-r-finegold
+    party: Democratic
+    votes: 16641
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.1221
+    primary_fundraising_component_sd: 0.0071
+    primary_expected_share: 1.1007
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: SalvatorE Paul Defranco
+    slug: salvatore-paul-defranco
+    party: Republican
+    votes: 8090
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0814
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 1.06
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 189671
   voting_age_population: 145511

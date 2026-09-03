@@ -33,11 +33,11 @@ results_by_year:
     war: 0.0073
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3041
-    lean_component_sd: 0.0144
-    tide_component: 0.0034
+    lean_component: 0.3042
+    lean_component_sd: 0.0143
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -46,9 +46,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3689
-    war_resolved: 0.1325
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3691
+    war_resolved: 0.1323
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0073
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4902
-    lean_component_sd: 0.0333
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4899
+    lean_component_sd: 0.0332
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0121
+    fundraising_component: 0.0124
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.6735
-    war_resolved: -0.1749
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6738
+    war_resolved: -0.1752
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,20 +101,20 @@ results_by_year:
     war: 0.3963
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4902
-    lean_component_sd: 0.0333
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4899
+    lean_component_sd: 0.0332
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0079
+    fundraising_component: 0.0082
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.6703
+    expected_share_resolved: 0.6706
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -140,20 +140,20 @@ results_by_year:
     war: 0.3693
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4902
-    lean_component_sd: 0.0333
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4899
+    lean_component_sd: 0.0332
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.011
+    fundraising_component: 0.0113
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6732
+    expected_share_resolved: 0.6735
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -179,20 +179,20 @@ results_by_year:
     war: 0.3719
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4902
-    lean_component_sd: 0.0333
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4899
+    lean_component_sd: 0.0332
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0084
+    fundraising_component: 0.0086
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.6707
+    expected_share_resolved: 0.671
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -218,20 +218,20 @@ results_by_year:
     war: 0.4742
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4902
-    lean_component_sd: 0.0333
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4899
+    lean_component_sd: 0.0332
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0066
+    fundraising_component: -0.0065
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.5817
+    expected_share_resolved: 0.5819
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -240,6 +240,172 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James H. Fagan
+    slug: james-h-fagan
+    party: Democratic
+    votes: 1249
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1801
+    primary_incumbency_component_sd: 0.1062
+    primary_fundraising_component: 0.0366
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.1953
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Shaunna L. O'Connell
+    slug: shaunna-l-oconnell
+    party: Republican
+    votes: 911
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James H. Fagan
+    slug: james-h-fagan
+    party: Democratic
+    votes: 1405
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1659
+    primary_incumbency_component_sd: 0.1112
+    primary_fundraising_component: 0.0288
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1734
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James H. Fagan
+    slug: james-h-fagan
+    party: Democratic
+    votes: 3347
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1689
+    primary_incumbency_component_sd: 0.1101
+    primary_fundraising_component: 0.0346
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1821
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James H. Fagan
+    slug: james-h-fagan
+    party: Democratic
+    votes: 919
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1666
+    primary_incumbency_component_sd: 0.111
+    primary_fundraising_component: 0.0297
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1749
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James H. Fagan
+    slug: james-h-fagan
+    party: Democratic
+    votes: 2694
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0017
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.9803
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Bristol (2001-2010)
 layout: district
 ---

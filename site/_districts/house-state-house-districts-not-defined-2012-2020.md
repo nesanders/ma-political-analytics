@@ -61,6 +61,7 @@ results_by_year:
   turnout_ratio: null
   candidates: []
   is_open_seat: null
+primaries: []
 title: State House Districts not defined (2012-2020)
 layout: district
 ---

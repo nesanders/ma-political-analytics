@@ -101,6 +101,40 @@ def discover_years(chamber: str, vintage: str, derived_dir: Path) -> list[int]:
     return sorted(years)
 
 
+def _vintage_year_range(vintage: str) -> tuple[int, int | None]:
+    """Parses "2001-2010" -> (2001, 2010), "2022-present" -> (2022, None)
+    (open-ended). Used to find which primary years belong to a vintage
+    directly from the vintage label already on hand, rather than needing a
+    year->vintage lookup table — see discover_primary_years' own docstring
+    for why primary years can't be discovered the same way discover_years
+    finds general-election ones."""
+    start_s, end_s = vintage.split("-")
+    return int(start_s), None if end_s == "present" else int(end_s)
+
+
+def discover_primary_years(chamber: str, vintage: str, derived_dir: Path) -> list[int]:
+    """Which years have {chamber}_{year}_primary.parquet on disk and fall
+    within this vintage's own year range. Unlike discover_years, this
+    doesn't require a same-year lean file to exist first — a real, live
+    situation this project hit directly: primary results for a given year
+    can be fetched and matched to districts well before that year's
+    Governor/President baseline race is (own_tide needs the baseline;
+    a primary's own vote totals don't), so gating primary discovery on
+    the lean file's existence would silently hide primary data that's
+    already sitting on disk."""
+    start, end = _vintage_year_range(vintage)
+    pattern = re.compile(rf"^{re.escape(chamber)}_(\d{{4}})_primary\.parquet$")
+    years = []
+    for p in derived_dir.glob(f"{chamber}_*_primary.parquet"):
+        m = pattern.match(p.name)
+        if not m:
+            continue
+        y = int(m.group(1))
+        if start <= y and (end is None or y <= end):
+            years.append(y)
+    return sorted(years)
+
+
 def _candidate_list(district_war: pd.DataFrame) -> list[dict]:
     return [
         {
@@ -120,6 +154,27 @@ def _candidate_list(district_war: pd.DataFrame) -> list[dict]:
             # on the dict this function returns.
         }
         for _, row in district_war.sort_values("votes", ascending=False).iterrows()
+    ]
+
+
+def _primary_candidate_list(primary_race: pd.DataFrame) -> list[dict]:
+    """primary_race: every row of one primary election_id (build_district_
+    records groups by that before calling this, since a district/party/year
+    can have two — a regular primary and a special one, see derived_metrics'
+    own compute_primary_results docstring). is_incumbent/incumbent_terms are
+    added afterward, once the district's own general-election winner
+    history is available; primary_war/primary_expected_share once
+    fit_primary_war_model's fit is."""
+    return [
+        {
+            "name": row["candidate_name"],
+            "slug": candidate_slug(row["candidate_slug"]),
+            "party": _clean_str(row["party"]),
+            "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
+            "winner": bool(row["winner"]),
+            "actual_primary_share": round(float(row["actual_primary_share"]), 4) if pd.notna(row["actual_primary_share"]) else None,
+        }
+        for _, row in primary_race.sort_values("votes", ascending=False).iterrows()
     ]
 
 
@@ -280,6 +335,23 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "voting_age_pct": (0.0, 0.3),
     "income_10k": (0.0, 0.02),
     "log_raised": (0.0, 0.02),
+    # fit_primary_war_model's own, much smaller model — prefixed rather
+    # than reusing "incumbent"/"log_raised" outright, since a primary's
+    # incumbency effect and fundraising effect are fit on a genuinely
+    # different electorate (intra-party, not two-party) and aren't
+    # expected to share a magnitude with the general model's own terms;
+    # see that function's own docstring for the full formula and why.
+    # `primary_incumbent`'s prior mean is deliberately much larger than
+    # the general model's own "incumbent" (0.05) — incumbents winning
+    # primaries by wide margins (60-40, 70-30) is a well-known pattern in
+    # the incumbency-advantage literature this project's methodology page
+    # already cites, not a project-specific guess — with a wide sd since
+    # this project hasn't fit that magnitude itself before now.
+    "primary_intercept": (0.0, 0.1),
+    "primary_incumbent": (0.15, 0.15),
+    "primary_incumbent_x_tide": (0.0, 0.2),
+    "primary_incumbent_x_lean": (0.0, 0.2),
+    "primary_log_raised": (0.0, 0.02),
 }
 
 
@@ -742,6 +814,279 @@ def build_war_fit_sample(district_records_by_vintage: dict[str, list[dict]]) -> 
     return rows
 
 
+def fit_primary_war_model(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    finance_by_slug: dict,
+) -> dict:
+    """A second, much smaller regression alongside fit_war_model — a
+    primary needs its own model, not more rows in the general one, because
+    a primary is a genuinely different contest: intra-party (2+ candidates
+    of the *same* party, no two-party split) rather than inter-party, so
+    there's no district lean/statewide tide baseline the way a general has
+    on its own. Fit across every contested major-party primary this site
+    has (2002-2026, specials included — unlike a general's district
+    records, which never carry special-election rows at all, per
+    derived_metrics.compute_war's own docstring, this one is being built
+    from scratch with specials in scope from the start):
+
+        excess_share ~ primary_intercept
+                        + primary_incumbent
+                        + primary_incumbent_x_tide
+                        + primary_incumbent_x_lean
+                        + primary_log_raised
+
+    `excess_share` is actual_primary_share minus fair_share (1 /
+    n_candidates) — a primary's own field size sets its "no-information"
+    baseline the way 50% does for a two-candidate general, so the response
+    here is the deviation *from* that baseline rather than raw share
+    directly, which would otherwise need a separate intercept per field
+    size to mean the same thing. `primary_incumbent` is a single dummy
+    (the district's own sitting officeholder as of that primary — see
+    build_district_records' own primaries-block docstring for exactly how
+    "as of" is resolved), not further split by term count the way an
+    earlier version of fit_war_model's own incumbency term briefly was,
+    for the same reason: this project doesn't have enough contested-
+    primary rows to support that many parameters. `own_tide`/`own_lean`
+    reuse fit_war_model's own-party sign-flip convention (own_lean =
+    lean_dem_share_structural for a Democratic primary, 1 - it for a
+    Republican one; same for tide) so one pooled fit covers both parties'
+    primaries — but neither appears as its own main effect here, only
+    interacted with incumbency: there's no a priori reason a *non*-
+    incumbent's share of their own party's primary electorate should track
+    the district's general-election partisanship, but a real question
+    worth asking is whether an incumbent's primary strength scales with
+    how safe their seat is (own_lean) or with the political mood their
+    own party is riding that cycle (own_tide) — that's what those two
+    interaction terms exist to test, not to assert.
+
+    A primary race with no tide value for its year (this project's 2026
+    data right now — see discover_primary_years) is skipped entirely: the
+    fit needs own_tide for every row, not just the ones with an incumbent,
+    since dropping it would silently shrink the sample by exactly however
+    many non-incumbent rows happen to fall in an undated year, which is a
+    real bias risk for a sample already this size-constrained rather than
+    a defensible simplification."""
+    rows = []
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for p in d["primaries"]:
+                if not p["is_contested"] or p["party"] not in ("Democratic", "Republican"):
+                    continue
+                tide = tide_by_year.get(p["year"])
+                if tide is None:
+                    continue
+                is_dem = p["party"] == "Democratic"
+                own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
+                own_tide = tide if is_dem else 1 - tide
+                fair_share = 1.0 / p["n_candidates"]
+                for c in p["candidates"]:
+                    inc = 1.0 if c["is_incumbent"] else 0.0
+                    finance = finance_by_slug.get(c["slug"], {}).get("by_year", {}).get(p["year"])
+                    raised = finance["total_raised"] if finance else None
+                    rows.append(
+                        {
+                            "excess_share": c["actual_primary_share"] - fair_share,
+                            "primary_incumbent": inc,
+                            "primary_incumbent_x_tide": inc * own_tide,
+                            "primary_incumbent_x_lean": inc * own_lean,
+                            "primary_log_raised": float(np.log1p(raised)) if raised is not None else None,
+                        }
+                    )
+
+    df = pd.DataFrame(rows)
+
+    # Same mean-centering/mean-fill convention as fit_war_model's own
+    # extension covariates — see that function's own docstring for why.
+    reference_values = {}
+    real = df["primary_log_raised"].dropna()
+    reference_values["log_raised"] = float(real.mean()) if len(real) else 0.0
+    n_finance = int(real.count())
+    # .astype(float) guards against the all-None edge case (no OCPF data at
+    # all, e.g. a partial local run) — a column with zero real values
+    # infers as pandas object dtype even after fillna, which np.linalg.
+    # lstsq below can't cast; a column with at least one real value never
+    # hits this, since pandas infers float64 from the start.
+    df["primary_log_raised"] = (
+        df["primary_log_raised"].fillna(reference_values["log_raised"]).astype(float) - reference_values["log_raised"]
+    )
+
+    feature_names = [
+        "primary_intercept",
+        "primary_incumbent",
+        "primary_incumbent_x_tide",
+        "primary_incumbent_x_lean",
+        "primary_log_raised",
+    ]
+    x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in feature_names[1:]])
+    fit = _bayesian_linear_regression(x, df["excess_share"].to_numpy(), feature_names)
+    fit["reference_values"] = reference_values
+    fit["n_incumbent"] = int(df["primary_incumbent"].sum())
+    fit["n_non_incumbent"] = int(len(df) - df["primary_incumbent"].sum())
+    fit["n_finance"] = n_finance
+    return fit
+
+
+def apply_primary_war(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    finance_by_slug: dict,
+    fit: dict,
+) -> None:
+    """Applies fit_primary_war_model's posterior-mean coefficients to every
+    primary candidate across every vintage, mutating d["primaries"] in
+    place — must run after fit_primary_war_model, and before
+    build_candidate_records (which copies these fields onto each
+    candidate's own race entries).
+
+    Sets primary_war/primary_expected_share (the primary-specific
+    counterparts to apply_war's war_resolved/expected_share_resolved,
+    kept as distinct field names since the two aren't on the same scale —
+    a primary's "expected share" is relative to an N-candidate field, a
+    general's to a two-party baseline) plus a decomposed
+    primary_baseline_component (fair_share + the fitted intercept, shown
+    as one combined bar rather than two on the attribution chart — see
+    the candidate-page template for why), primary_incumbency_component,
+    and, wherever a matched OCPF total supports it,
+    primary_fundraising_component."""
+    coefs = fit["coefficients"]
+    ref = fit["reference_values"]
+    b0, b0_sd = coefs["primary_intercept"]["posterior_mean"], coefs["primary_intercept"]["posterior_sd"]
+    b_inc, b_inc_sd = coefs["primary_incumbent"]["posterior_mean"], coefs["primary_incumbent"]["posterior_sd"]
+    b_inc_tide, b_inc_tide_sd = (
+        coefs["primary_incumbent_x_tide"]["posterior_mean"],
+        coefs["primary_incumbent_x_tide"]["posterior_sd"],
+    )
+    b_inc_lean, b_inc_lean_sd = (
+        coefs["primary_incumbent_x_lean"]["posterior_mean"],
+        coefs["primary_incumbent_x_lean"]["posterior_sd"],
+    )
+    b_fin, b_fin_sd = coefs["primary_log_raised"]["posterior_mean"], coefs["primary_log_raised"]["posterior_sd"]
+    sigma = fit["posterior_sigma_mean"]
+
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for p in d["primaries"]:
+                if p["party"] not in ("Democratic", "Republican"):
+                    for c in p["candidates"]:
+                        c.update(
+                            fair_share=None,
+                            primary_baseline_component=None,
+                            primary_baseline_component_sd=None,
+                            primary_incumbency_component=None,
+                            primary_incumbency_component_sd=None,
+                            primary_fundraising_component=None,
+                            primary_fundraising_component_sd=None,
+                            primary_expected_share=None,
+                            primary_war=None,
+                            primary_war_sd=None,
+                            primary_war_factors=None,
+                        )
+                    continue
+
+                is_dem = p["party"] == "Democratic"
+                own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
+                tide = tide_by_year.get(p["year"])
+                own_tide = tide if (tide is None or is_dem) else 1 - tide
+                fair_share = 1.0 / p["n_candidates"]
+                baseline_component = fair_share + b0
+
+                for c in p["candidates"]:
+                    inc = 1.0 if c["is_incumbent"] else 0.0
+                    if c["is_incumbent"] and own_tide is None:
+                        # Can't compute this specific incumbent's own
+                        # tide-interacted contribution — see this
+                        # function's own docstring / fit_primary_war_
+                        # model's for why a missing tide isn't worked
+                        # around rather than left null.
+                        c.update(
+                            fair_share=round(fair_share, 4),
+                            primary_baseline_component=None,
+                            primary_baseline_component_sd=None,
+                            primary_incumbency_component=None,
+                            primary_incumbency_component_sd=None,
+                            primary_fundraising_component=None,
+                            primary_fundraising_component_sd=None,
+                            primary_expected_share=None,
+                            primary_war=None,
+                            primary_war_sd=None,
+                            primary_war_factors=None,
+                        )
+                        continue
+
+                    own_tide_for_calc = own_tide if own_tide is not None else 0.0
+                    incumbency_component = (b_inc + b_inc_tide * own_tide_for_calc + b_inc_lean * own_lean) * inc
+                    incumbency_component_sd = (
+                        (b_inc_sd**2 + (own_tide_for_calc * b_inc_tide_sd) ** 2 + (own_lean * b_inc_lean_sd) ** 2) ** 0.5
+                        if inc
+                        else 0.0
+                    )
+
+                    finance = finance_by_slug.get(c["slug"], {}).get("by_year", {}).get(p["year"])
+                    raised = finance["total_raised"] if finance else None
+                    if raised is not None:
+                        log_raised = float(np.log1p(raised))
+                        fundraising_component = b_fin * (log_raised - ref["log_raised"])
+                        fundraising_component_sd = abs(log_raised - ref["log_raised"]) * b_fin_sd
+                    else:
+                        fundraising_component = None
+                        fundraising_component_sd = None
+
+                    expected = baseline_component + incumbency_component + (fundraising_component or 0.0)
+
+                    factors = ["Equal share among candidates"]
+                    if inc:
+                        factors.append("Incumbency (interacted with statewide tide and district lean)")
+                    if fundraising_component is not None:
+                        factors.append("Campaign fundraising")
+
+                    c.update(
+                        fair_share=round(fair_share, 4),
+                        primary_baseline_component=round(baseline_component, 4),
+                        primary_baseline_component_sd=round(b0_sd, 4),
+                        primary_incumbency_component=round(incumbency_component, 4),
+                        primary_incumbency_component_sd=round(incumbency_component_sd, 4),
+                        primary_fundraising_component=(
+                            round(fundraising_component, 4) if fundraising_component is not None else None
+                        ),
+                        primary_fundraising_component_sd=(
+                            round(fundraising_component_sd, 4) if fundraising_component_sd is not None else None
+                        ),
+                        primary_expected_share=round(expected, 4),
+                        primary_war=(
+                            None if not p["is_contested"] else round(c["actual_primary_share"] - expected, 4)
+                        ),
+                        primary_war_sd=None if not p["is_contested"] else round(sigma, 4),
+                        primary_war_factors=factors,
+                    )
+
+
+def build_primary_war_fit_sample(district_records_by_vintage: dict[str, list[dict]]) -> list[dict]:
+    """Every contested major-party primary candidate's actual vs. this
+    site's fitted primary model's expected share, for the methodology
+    page's own diagnostic chart — same role build_war_fit_sample plays for
+    the general model."""
+    rows = []
+    for records in district_records_by_vintage.values():
+        for d in records:
+            for p in d["primaries"]:
+                if not p["is_contested"] or p["party"] not in ("Democratic", "Republican"):
+                    continue
+                for c in p["candidates"]:
+                    if c.get("primary_expected_share") is None:
+                        continue
+                    rows.append(
+                        {
+                            "actual": c["actual_primary_share"],
+                            "expected": c["primary_expected_share"],
+                            "party": c["party"],
+                            "year": p["year"],
+                            "is_special": p["is_special"],
+                        }
+                    )
+    return rows
+
+
 _DEMOGRAPHICS_CORE_COVARIATES = ("bachelors_pct",)
 _DEMOGRAPHICS_FULL_COVARIATES = ("bachelors_pct", "hispanic_pct", "voting_age_pct", "income_10k")
 
@@ -785,6 +1130,11 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
 
     lean_by_year = {y: pd.read_parquet(derived_dir / f"{chamber}_{vintage}_{y}_lean.parquet") for y in years}
     war_by_year = {y: pd.read_parquet(derived_dir / f"{chamber}_{y}_war.parquet") for y in years}
+    # Discovered independently of `years` above — see discover_primary_years'
+    # own docstring for why a primary year doesn't need a same-year lean
+    # file to exist first.
+    primary_years = discover_primary_years(chamber, vintage, derived_dir)
+    primary_by_year = {y: pd.read_parquet(derived_dir / f"{chamber}_{y}_primary.parquet") for y in primary_years}
 
     # Union across years, not just the latest: a district still belongs on
     # this vintage's roster even if only an earlier year has been backfilled
@@ -856,8 +1206,16 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
         # slug wins accumulates naturally; resets whenever the winner
         # changes, or a year has no recorded winner at all (treated as an
         # unknown break in the chain rather than guessed through).
+        # winner_terms_after_year[Y] = (winner slug, consecutive terms
+        # completed) immediately after year Y's own race — i.e. counting
+        # the term they just won, unlike the pre-race incumbent_terms
+        # above. Feeds the primary incumbency lookup below: a primary
+        # happens before that same year's general, so what matters there
+        # is how many terms the *most recent prior* general's winner has
+        # completed as of now, not how many they'd served walking in.
         terms_served = 0
         current_winner_slug = None
+        winner_terms_after_year: dict[int, tuple[str, int] | None] = {}
         for entry in reversed(results_by_year):
             for c in entry["candidates"]:
                 c["incumbent_terms"] = terms_served if c["is_incumbent"] else 0
@@ -870,6 +1228,53 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
             else:
                 current_winner_slug = None
                 terms_served = 0
+            winner_terms_after_year[entry["year"]] = (
+                (current_winner_slug, terms_served) if current_winner_slug is not None else None
+            )
+
+        # Primary results — a separate list, not folded into results_by_year
+        # above, since a primary year doesn't always line up 1:1 with a
+        # general year (this project's own 2026 data has primaries with no
+        # same-year general yet — see discover_primary_years) and a single
+        # (year, party) can itself hold two races, a regular primary and a
+        # special one (grouped by election_id below, not just year+party,
+        # for exactly that reason — see derived_metrics.compute_primary_
+        # results' own docstring). is_incumbent for a primary candidate
+        # looks up the most recent *general*-election winner strictly
+        # before that primary's own year (a primary happens before that
+        # same year's general, so that year's own general result — even if
+        # one exists — isn't known yet at primary time), and how many terms
+        # they've completed as of now (winner_terms_after_year, not the
+        # pre-race incumbent_terms above — a candidate who just won their
+        # first general has completed 1 term by the time the next primary
+        # rolls around, not 0).
+        primaries = []
+        for y in primary_years:
+            district_primary = primary_by_year[y][primary_by_year[y]["district_name"] == district_name]
+            if district_primary.empty:
+                continue
+            prior_general_year = max((gy for gy in winner_terms_after_year if gy < y), default=None)
+            incumbent_slug, incumbent_terms_at_primary = (
+                winner_terms_after_year.get(prior_general_year) or (None, 0)
+                if prior_general_year is not None
+                else (None, 0)
+            )
+            for election_id, race in district_primary.groupby("election_id", sort=False):
+                candidates = _primary_candidate_list(race)
+                for c in candidates:
+                    c["is_incumbent"] = incumbent_slug is not None and c["slug"] == incumbent_slug
+                    c["incumbent_terms"] = incumbent_terms_at_primary if c["is_incumbent"] else 0
+                primaries.append(
+                    {
+                        "year": y,
+                        "party": race["party"].iloc[0],
+                        "is_special": bool(race["is_special"].iloc[0]),
+                        "n_candidates": int(race["n_candidates"].iloc[0]),
+                        "is_contested": bool(race["is_contested"].iloc[0]),
+                        "candidates": candidates,
+                    }
+                )
+        primaries.sort(key=lambda p: (-p["year"], p["is_special"], p["party"]))
 
         latest = results_by_year[0]
         # This district's *structural* lean — the plain average of
@@ -911,6 +1316,7 @@ def build_district_records(chamber: str, vintage: str, derived_dir: Path) -> lis
                 "competitiveness_label": latest["competitiveness_label"],
                 "party_favored": latest["party_favored"],
                 "results_by_year": results_by_year,
+                "primaries": primaries,
             }
         )
     return records
@@ -1066,15 +1472,73 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             # can cross a boundary a single district/seat
                             # page's chart never does.
                             "is_redistricting_year": entry["year"] == vintage_start_year.get(vintage),
+                            "stage": "general",
+                            "is_special": False,  # generals never carry this — see derived_metrics.compute_war
                         }
                     )
                     prev = latest_info.get(c["slug"])
                     if prev is None or entry["year"] > prev[0]:
                         latest_info[c["slug"]] = (entry["year"], c["name"], c["party"])
 
+            # Primary races — same candidate-race dict shape where the two
+            # stages share a concept (chamber/year/district/party/votes/
+            # winner/is_redistricting_year), primary-specific fields
+            # (actual_primary_share, primary_war, ...) named distinctly
+            # from their general counterparts rather than overloaded onto
+            # the same keys, since they're not on the same scale (a
+            # primary's expected share is relative to its own field size,
+            # a general's to a two-party baseline) — see apply_primary_
+            # war's own docstring. `latest_info` (this candidate's current
+            # display name/party) intentionally isn't updated from primary
+            # rows: a candidate's most recent GENERAL appearance is judged
+            # the more representative "latest," and a primary-only
+            # candidate's name/party still comes from here regardless,
+            # via the fallback below.
+            for p in d["primaries"]:
+                for c in p["candidates"]:
+                    races_by_slug.setdefault(c["slug"], []).append(
+                        {
+                            "chamber": d["chamber"],
+                            "year": p["year"],
+                            "vintage": vintage,
+                            "district_name": d["district_name"],
+                            "district_url": district_url(d["chamber"], d["district_name"], vintage),
+                            "party": c["party"],
+                            "votes": c["votes"],
+                            "winner": c["winner"],
+                            "actual_primary_share": c.get("actual_primary_share"),
+                            "fair_share": c.get("fair_share"),
+                            "n_candidates": p["n_candidates"],
+                            "primary_baseline_component": c.get("primary_baseline_component"),
+                            "primary_baseline_component_sd": c.get("primary_baseline_component_sd"),
+                            "primary_incumbency_component": c.get("primary_incumbency_component"),
+                            "primary_incumbency_component_sd": c.get("primary_incumbency_component_sd"),
+                            "primary_fundraising_component": c.get("primary_fundraising_component"),
+                            "primary_fundraising_component_sd": c.get("primary_fundraising_component_sd"),
+                            "primary_expected_share": c.get("primary_expected_share"),
+                            "primary_war": c.get("primary_war"),
+                            "primary_war_sd": c.get("primary_war_sd"),
+                            "primary_war_factors": c.get("primary_war_factors"),
+                            "is_uncontested": not p["is_contested"],
+                            "is_incumbent": c["is_incumbent"],
+                            "incumbent_terms": c.get("incumbent_terms", 0),
+                            "is_redistricting_year": p["year"] == vintage_start_year.get(vintage),
+                            "stage": "primary",
+                            "is_special": p["is_special"],
+                        }
+                    )
+                    if c["slug"] not in latest_info:
+                        latest_info[c["slug"]] = (p["year"], c["name"], c["party"])
+
     records = []
     for slug, races in races_by_slug.items():
-        races_sorted = sorted(races, key=lambda r: (r["year"], r["chamber"]), reverse=True)
+        # Newest year first; within a tied year, general before primary
+        # (chronologically correct — a primary always precedes that same
+        # year's general) rather than relying on insertion order, which
+        # happened to already match but isn't a contract worth depending on.
+        races_sorted = sorted(
+            races, key=lambda r: (-r["year"], r["chamber"], 0 if r["stage"] == "general" else 1)
+        )
         _, name, party = latest_info[slug]
         records.append({"slug": slug, "name": name, "party": party, "races": races_sorted})
     return records
@@ -1319,6 +1783,26 @@ def main(
     fit_sample = build_war_fit_sample(district_records_by_vintage)
     (site_data_dir / "war_fit_sample.yml").write_text(yaml.safe_dump(fit_sample, sort_keys=False))
     logger.info("Wrote %d rows to %s", len(fit_sample), site_data_dir / "war_fit_sample.yml")
+
+    primary_war_fit = fit_primary_war_model(district_records_by_vintage, tide_by_year, finance_by_slug)
+    logger.info(
+        "Primary WAR model fit: n=%d, R²=%s, incumbent=%+.3f, incumbent_x_tide=%+.3f, incumbent_x_lean=%+.3f, "
+        "n_incumbent=%d, n_finance=%d",
+        primary_war_fit["n"],
+        primary_war_fit["r_squared"],
+        primary_war_fit["coefficients"]["primary_incumbent"]["posterior_mean"],
+        primary_war_fit["coefficients"]["primary_incumbent_x_tide"]["posterior_mean"],
+        primary_war_fit["coefficients"]["primary_incumbent_x_lean"]["posterior_mean"],
+        primary_war_fit["n_incumbent"],
+        primary_war_fit["n_finance"],
+    )
+    (site_data_dir / "primary_war_model.yml").write_text(yaml.safe_dump(primary_war_fit, sort_keys=False))
+
+    apply_primary_war(district_records_by_vintage, tide_by_year, finance_by_slug, primary_war_fit)
+
+    primary_fit_sample = build_primary_war_fit_sample(district_records_by_vintage)
+    (site_data_dir / "primary_war_fit_sample.yml").write_text(yaml.safe_dump(primary_fit_sample, sort_keys=False))
+    logger.info("Wrote %d rows to %s", len(primary_fit_sample), site_data_dir / "primary_war_fit_sample.yml")
 
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)

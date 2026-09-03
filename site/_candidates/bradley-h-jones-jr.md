@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5453
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3254
-  lean_component_sd: 0.0154
-  tide_component: 0.0027
+  lean_component_sd: 0.0153
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: 0.0023
   demographics_component_sd: 0.0185
-  fundraising_component: 0.0194
+  fundraising_component: 0.0198
   fundraising_component_sd: 0.0015
   demographics_tier: full
-  expected_share_resolved: 0.5411
+  expected_share_resolved: 0.5415
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2022-present/
+  party: Republican
+  votes: 2019
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1812
+  primary_incumbency_component_sd: 0.0935
+  primary_fundraising_component: 0.0503
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.2101
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5535
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3254
-  lean_component_sd: 0.0154
-  tide_component: 0.0026
+  lean_component_sd: 0.0153
+  tide_component: 0.0024
   tide_component_sd: 0.0112
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0023
   demographics_component_sd: 0.0185
-  fundraising_component: 0.023
+  fundraising_component: 0.0235
   fundraising_component_sd: 0.0018
   demographics_tier: full
-  expected_share_resolved: 0.4146
+  expected_share_resolved: 0.4154
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2022-present/
+  party: Republican
+  votes: 2445
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0571
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 1.0357
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,22 +148,22 @@ races:
   winner: true
   actual_two_party_share: 0.6395
   war: 0.2264
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.413
-  lean_component_sd: 0.0195
-  tide_component: 0.0024
+  lean_component_sd: 0.0194
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0289
+  fundraising_component: 0.0295
   fundraising_component_sd: 0.0022
   demographics_tier: null
-  expected_share_resolved: 0.6356
-  war_resolved: 0.0039
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6362
+  war_resolved: 0.0033
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 3069
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2091
+  primary_incumbency_component_sd: 0.0974
+  primary_fundraising_component: 0.0681
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 1.2558
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2111
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.413
-  lean_component_sd: 0.0195
-  tide_component: 0.0049
+  lean_component_sd: 0.0194
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0175
+  fundraising_component: 0.0178
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.6267
+  expected_share_resolved: 0.6269
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 2346
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1594
+  primary_incumbency_component_sd: 0.113
+  primary_fundraising_component: 0.0467
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.1847
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5342
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.413
-  lean_component_sd: 0.0195
-  tide_component: 0.0026
+  lean_component_sd: 0.0194
+  tide_component: 0.0024
   tide_component_sd: 0.0112
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0202
+  fundraising_component: 0.0206
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.627
+  expected_share_resolved: 0.6275
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 524
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2055
+  primary_incumbency_component_sd: 0.0982
+  primary_fundraising_component: 0.0517
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.2358
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3454
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.413
-  lean_component_sd: 0.0195
-  tide_component: 0.0038
+  lean_component_sd: 0.0194
+  tide_component: 0.0035
   tide_component_sd: 0.0162
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0161
+  fundraising_component: 0.0164
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.6241
+  expected_share_resolved: 0.6244
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 1327
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1826
+  primary_incumbency_component_sd: 0.1047
+  primary_fundraising_component: 0.044
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.2052
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4629
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.413
-  lean_component_sd: 0.0195
-  tide_component: 0.0028
+  lean_component_sd: 0.0194
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0177
-  fundraising_component_sd: 0.0013
+  fundraising_component: 0.0181
+  fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.4948
+  expected_share_resolved: 0.4955
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 20th Middlesex District
+  district_url: /district/house-20th-middlesex-district-2012-2020/
+  party: Republican
+  votes: 1298
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0471
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.0257
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3862
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3978
-  lean_component_sd: 0.0188
-  tide_component: 0.0034
+  lean_component: 0.3979
+  lean_component_sd: 0.0187
+  tide_component: 0.0032
   tide_component_sd: 0.0148
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0147
+  fundraising_component: 0.015
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.6073
+  expected_share_resolved: 0.6076
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 20th Middlesex
+  district_url: /district/house-20th-middlesex-2001-2010/
+  party: Republican
+  votes: 2078
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1854
+  primary_incumbency_component_sd: 0.1016
+  primary_fundraising_component: 0.0415
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.2056
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,22 +549,22 @@ races:
   winner: true
   actual_two_party_share: 0.7129
   war: 0.2235
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3978
-  lean_component_sd: 0.0188
-  tide_component: 0.0027
+  lean_component: 0.3979
+  lean_component_sd: 0.0187
+  tide_component: 0.0025
   tide_component_sd: 0.0117
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.02
+  fundraising_component: 0.0204
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.6118
-  war_resolved: 0.1011
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6122
+  war_resolved: 0.1007
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 20th Middlesex
+  district_url: /district/house-20th-middlesex-2001-2010/
+  party: Republican
+  votes: 747
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1996
+  primary_incumbency_component_sd: 0.0977
+  primary_fundraising_component: 0.0514
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.2295
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -330,20 +616,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4759
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3978
-  lean_component_sd: 0.0188
-  tide_component: 0.0029
+  lean_component: 0.3979
+  lean_component_sd: 0.0187
+  tide_component: 0.0026
   tide_component_sd: 0.0124
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.022
+  fundraising_component: 0.0225
   fundraising_component_sd: 0.0017
   demographics_tier: null
-  expected_share_resolved: 0.614
+  expected_share_resolved: 0.6145
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -355,6 +641,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 20th Middlesex
+  district_url: /district/house-20th-middlesex-2001-2010/
+  party: Republican
+  votes: 807
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1966
+  primary_incumbency_component_sd: 0.0985
+  primary_fundraising_component: 0.0552
+  primary_fundraising_component_sd: 0.0032
+  primary_expected_share: 1.2304
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -365,22 +683,22 @@ races:
   winner: true
   actual_two_party_share: 0.6599
   war: 0.1858
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3978
-  lean_component_sd: 0.0188
-  tide_component: 0.0028
+  lean_component: 0.3979
+  lean_component_sd: 0.0187
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.029
+  fundraising_component: 0.0295
   fundraising_component_sd: 0.0022
   demographics_tier: null
-  expected_share_resolved: 0.6209
-  war_resolved: 0.039
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6214
+  war_resolved: 0.0385
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -390,6 +708,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 20th Middlesex
+  district_url: /district/house-20th-middlesex-2001-2010/
+  party: Republican
+  votes: 807
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1989
+  primary_incumbency_component_sd: 0.0979
+  primary_fundraising_component: 0.0682
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 1.2457
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -400,20 +750,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3468
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3978
-  lean_component_sd: 0.0188
-  tide_component: 0.0039
+  lean_component: 0.3979
+  lean_component_sd: 0.0187
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0071
+  fundraising_component: 0.0073
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.4701
+  expected_share_resolved: 0.4705
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -425,6 +775,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 20th Middlesex
+  district_url: /district/house-20th-middlesex-2001-2010/
+  party: Republican
+  votes: 2646
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0272
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.0058
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12534

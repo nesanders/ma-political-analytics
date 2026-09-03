@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2486
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6431
-  lean_component_sd: 0.0437
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6427
+  lean_component_sd: 0.0436
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0059
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.006
   demographics_component_sd: 0.013
-  fundraising_component: 0.0322
+  fundraising_component: 0.0328
   fundraising_component_sd: 0.0025
   demographics_tier: full
-  expected_share_resolved: 0.8415
+  expected_share_resolved: 0.842
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 2966
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1987
+  primary_incumbency_component_sd: 0.1197
+  primary_fundraising_component: 0.0742
+  primary_fundraising_component_sd: 0.0043
+  primary_expected_share: 1.2515
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2327
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6431
-  lean_component_sd: 0.0437
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6427
+  lean_component_sd: 0.0436
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0059
+  demographics_component: -0.006
   demographics_component_sd: 0.013
-  fundraising_component: 0.0237
+  fundraising_component: 0.0242
   fundraising_component_sd: 0.0018
   demographics_tier: full
-  expected_share_resolved: 0.7606
+  expected_share_resolved: 0.7612
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 3321
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0584
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 1.037
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2387
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5376
-  lean_component_sd: 0.0365
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5373
+  lean_component_sd: 0.0364
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0256
-  fundraising_component_sd: 0.0019
+  fundraising_component: 0.0261
+  fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.7357
+  expected_share_resolved: 0.7363
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 4133
+  winner: true
+  actual_primary_share: 0.5275
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1703
+  primary_incumbency_component_sd: 0.1159
+  primary_fundraising_component: 0.0618
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 0.7107
+  primary_war: -0.1832
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5763
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5376
-  lean_component_sd: 0.0365
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5373
+  lean_component_sd: 0.0364
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0106
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.6963
+  expected_share_resolved: 0.6962
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2772
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2199
+  primary_incumbency_component_sd: 0.1006
+  primary_fundraising_component: -0.0058
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1927
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,14 +282,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2635
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5376
-  lean_component_sd: 0.0365
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5373
+  lean_component_sd: 0.0364
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0094
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 948
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1739
+  primary_incumbency_component_sd: 0.1145
+  primary_fundraising_component: -0.0036
+  primary_fundraising_component_sd: 0.0002
+  primary_expected_share: 1.1489
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4271
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5376
-  lean_component_sd: 0.0365
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5373
+  lean_component_sd: 0.0364
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0183
+  fundraising_component: -0.0185
   fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.6901
+  expected_share_resolved: 0.6899
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2203
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1967
+  primary_incumbency_component_sd: 0.1067
+  primary_fundraising_component: -0.0203
+  primary_fundraising_component_sd: 0.0012
+  primary_expected_share: 1.1551
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,22 +416,22 @@ races:
   winner: true
   actual_two_party_share: 0.76
   war: 0.0804
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5376
-  lean_component_sd: 0.0365
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5373
+  lean_component_sd: 0.0364
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0054
+  fundraising_component: 0.0056
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.6424
-  war_resolved: 0.1176
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6428
+  war_resolved: 0.1172
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 10th Middlesex District
+  district_url: /district/house-10th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 1618
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.024
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.0026
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15297

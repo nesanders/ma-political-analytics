@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.455
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.388
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3878
   lean_component_sd: 0.0263
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0151
+  fundraising_component: 0.0154
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.5755
+  expected_share_resolved: 0.5759
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Worcester & Middlesex District
+  district_url: /district/senate-worcester-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 5171
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1421
+  primary_incumbency_component_sd: 0.1073
+  primary_fundraising_component: 0.0422
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.163
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.6043
   war: 0.2067
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.388
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3878
   lean_component_sd: 0.0263
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0262
+  fundraising_component: 0.0267
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.5851
-  war_resolved: 0.0192
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5856
+  war_resolved: 0.0187
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Worcester & Middlesex District
+  district_url: /district/senate-worcester-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2481
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.165
+  primary_incumbency_component_sd: 0.099
+  primary_fundraising_component: 0.063
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 1.2066
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4715
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.388
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3878
   lean_component_sd: 0.0263
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0152
+  fundraising_component: 0.0155
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.5027
+  expected_share_resolved: 0.5033
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Worcester & Middlesex District
+  district_url: /district/senate-worcester-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2586
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0424
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.021
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -118,22 +213,22 @@ races:
   winner: true
   actual_two_party_share: 0.5892
   war: 0.1569
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4284
-  lean_component_sd: 0.0291
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4281
+  lean_component_sd: 0.029
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0173
+  fundraising_component: 0.0176
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.6169
-  war_resolved: -0.0277
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6173
+  war_resolved: -0.0281
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Worcester and Middlesex
+  district_url: /district/senate-worcester-and-middlesex-2001-2010/
+  party: Democratic
+  votes: 5286
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1669
+  primary_incumbency_component_sd: 0.1031
+  primary_fundraising_component: 0.0463
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.1918
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -153,20 +280,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4433
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4284
-  lean_component_sd: 0.0291
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4281
+  lean_component_sd: 0.029
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.033
+  fundraising_component: 0.0336
   fundraising_component_sd: 0.0025
   demographics_tier: null
-  expected_share_resolved: 0.5609
+  expected_share_resolved: 0.5618
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +305,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Worcester and Middlesex
+  district_url: /district/senate-worcester-and-middlesex-2001-2010/
+  party: Democratic
+  votes: 10565
+  winner: true
+  actual_primary_share: 0.6057
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0757
+  primary_fundraising_component_sd: 0.0044
+  primary_expected_share: 0.5543
+  primary_war: 0.0514
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -188,20 +346,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4197
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4372
-  lean_component_sd: 0.0297
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4369
+  lean_component_sd: 0.0296
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0024
+  fundraising_component: 0.0026
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.6116
+  expected_share_resolved: 0.6118
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +371,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 4th Worcester
+  district_url: /district/house-4th-worcester-2001-2010/
+  party: Democratic
+  votes: 3780
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1577
+  primary_incumbency_component_sd: 0.1075
+  primary_fundraising_component: 0.0185
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 1.1548
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -223,22 +413,22 @@ races:
   winner: true
   actual_two_party_share: 0.6904
   war: 0.1119
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4372
-  lean_component_sd: 0.0297
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4369
+  lean_component_sd: 0.0296
+  tide_component: 0.0063
   tide_component_sd: 0.0341
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0003
+  fundraising_component: 0.0004
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.537
-  war_resolved: 0.1534
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5374
+  war_resolved: 0.153
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -248,6 +438,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 4th Worcester
+  district_url: /district/house-4th-worcester-2001-2010/
+  party: Democratic
+  votes: 2714
+  winner: true
+  actual_primary_share: 0.4489
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0146
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 0.2432
+  primary_war: 0.2057
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14196

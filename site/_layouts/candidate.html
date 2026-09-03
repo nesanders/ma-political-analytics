@@ -2,11 +2,14 @@
 layout: default
 ---
 {% assign chart_races = page.races | where_exp: "r", "r.actual_two_party_share" | sort: "year" %}
+{% assign primary_chart_races = page.races | where_exp: "r", "r.actual_primary_share" | sort: "year" %}
+{% assign any_chart_races = chart_races | concat: primary_chart_races %}
+{% assign attribution_races = page.races | where_exp: "r", "r.intercept_component or r.primary_baseline_component" | sort: "year" %}
 <article>
   <h1>{{ page.name }}</h1>
   <p>{{ page.party }}</p>
 
-  {% if chart_races.size > 0 %}
+  {% if any_chart_races.size > 0 %}
   <section>
     <h2>WAR vs. replacement level over time</h2>
     <p>
@@ -20,9 +23,14 @@ layout: default
       long-serving incumbent, since this site doesn't chase incumbency
       across a map change (see the
       <a href="{{ '/methodology/' | relative_url }}">methodology page</a>).
-      Click a point to open that race's district page.
+      Primary races are plotted too, nudged slightly to the right of that
+      year's general and drawn as a different shape (a diamond for a
+      primary, a triangle for a special-election primary) since a
+      primary's share is relative to its own field size, not a two-party
+      baseline &mdash; see the shape legend. Click a point to open that
+      race's district page.
     </p>
-    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR's expected share, by year, with redistricting years marked"></div>
+    <div id="war-chart" role="img" aria-label="Line chart of {{ page.name }}'s actual two-party share vs. WAR's expected share, by year, with redistricting years marked, plus primary races as offset diamond/triangle markers"></div>
   </section>
 
   <section>
@@ -47,7 +55,13 @@ layout: default
       against a mechanically near-100% unopposed share. A marker again
       flags a redistricting year, where the Incumbency slice drops to
       nothing for that reason, not because the effect itself vanished.
-      Click a bar to open that race's district page.
+      A primary's own bar sits beside that year's general bar, shaded at
+      reduced opacity and combining its equal-share baseline and
+      incumbency (already interacted with tide and lean) into just those
+      two slices plus fundraising and WAR &mdash; it has no separate lean,
+      tide, or demographics term of its own. A special-election primary's
+      bar additionally gets a dashed outline. Click a bar to open that
+      race's district page.
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked"></div>
     <p>
@@ -69,20 +83,25 @@ layout: default
     <h2>Races</h2>
     <table>
       <thead>
-        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Result</th><th>Votes</th><th>Two-party share</th><th>WAR</th><th>Expected share</th><th>Factors</th></tr>
+        <tr><th>Year</th><th>Chamber</th><th>District</th><th>Stage</th><th>Result</th><th>Votes</th><th>Share</th><th>WAR</th><th>Expected share</th><th>Factors</th></tr>
       </thead>
       <tbody>
         {% for r in page.races %}
+        {% assign share = r.actual_two_party_share | default: r.actual_primary_share %}
+        {% assign war = r.war_resolved | default: r.primary_war %}
+        {% assign expected = r.expected_share_resolved | default: r.primary_expected_share %}
+        {% assign factors = r.war_factors | default: r.primary_war_factors %}
         <tr>
           <td>{{ r.year }}</td>
           <td>{{ r.chamber | capitalize }}</td>
           <td><a href="{{ r.district_url | relative_url }}">{{ r.district_name }}</a></td>
+          <td>{% if r.stage == "primary" %}Primary{% if r.is_special %} <em>(special)</em>{% endif %}{% else %}General{% endif %}</td>
           <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}{% if r.is_incumbent %} (incumbent){% endif %}</td>
           <td>{{ r.votes }}</td>
-          <td>{% if r.actual_two_party_share %}{{ r.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if r.war_resolved %}{{ r.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if r.expected_share_resolved %}{{ r.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if r.war_factors %}{{ r.war_factors | join: ", " }}{% endif %}</small></td>
+          <td>{% if share %}{{ share | times: 100 | round: 1 }}%{% endif %}</td>
+          <td>{% if war %}{{ war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if expected %}{{ expected | times: 100 | round: 1 }}%{% endif %}</td>
+          <td><small>{% if factors %}{{ factors | join: ", " }}{% endif %}</small></td>
         </tr>
         {% endfor %}
       </tbody>
@@ -100,7 +119,11 @@ layout: default
       unopposed candidate's mechanically-inflated share isn't a meaningful
       gap from expectation. Adapted from Split Ticket's published
       methodology — see the <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
-      for the full definition, citations, and the fitted coefficients.
+      for the full definition, citations, and the fitted coefficients. A
+      <strong>Primary</strong> row's share is relative to that year's
+      candidate field rather than a two-party baseline, and its WAR comes
+      from this site's separate primary model — see the methodology page's
+      primary section.
     </small></p>
   </section>
 
@@ -133,7 +156,7 @@ layout: default
   {% endif %}
 </article>
 
-{% if chart_races.size > 0 %}
+{% if any_chart_races.size > 0 %}
 <script>
   // Field-by-field, not `r | jsonify` on the race object directly — same
   // reasoning as chamber.html's seatData: avoid ever embedding a full
@@ -160,6 +183,36 @@ layout: default
     },
     {% endfor %}
   ].filter((d) => d.share !== null && d.share !== undefined);
+
+  // Primary races plot on the same 0-1 share axis (a primary's own share
+  // is always relative to its own field, but that's still a 0-1 quantity)
+  // as a separate, unconnected point layer — see the WAR-chart paragraph
+  // above for why these aren't joined into raceData's own line.
+  const primaryRaceData = [
+    {% for r in primary_chart_races %}
+    {
+      "year": {{ r.year | jsonify }},
+      "district_name": {{ r.district_name | jsonify }},
+      "url": {{ r.district_url | relative_url | jsonify }},
+      "party": {{ r.party | jsonify }},
+      "series": "Actual share",
+      "share": {{ r.actual_primary_share | jsonify }},
+      "war_resolved": {{ r.primary_war | jsonify }},
+      "is_special": {{ r.is_special | jsonify }}
+    },
+    {
+      "year": {{ r.year | jsonify }},
+      "district_name": {{ r.district_name | jsonify }},
+      "url": {{ r.district_url | relative_url | jsonify }},
+      "party": {{ r.party | jsonify }},
+      "series": "Expected share",
+      "share": {{ r.primary_expected_share | jsonify }},
+      "war_resolved": {{ r.primary_war | jsonify }},
+      "is_special": {{ r.is_special | jsonify }}
+    },
+    {% endfor %}
+  ].filter((d) => d.share !== null && d.share !== undefined);
+  primaryRaceData.forEach((d) => { d.shape = d.is_special ? "Special-election primary" : "Primary"; });
   const chartStyle = getComputedStyle(document.documentElement);
   const chartCssVar = (name) => chartStyle.getPropertyValue(name).trim();
   const party = {{ page.party | jsonify }};
@@ -225,6 +278,32 @@ layout: default
             { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
           ]
         }
+      },
+      {
+        "data": { "values": primaryRaceData },
+        "mark": { "type": "point", "filled": true, "size": 110, "cursor": "pointer", "xOffset": 9 },
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal" },
+          "y": { "field": "share", "type": "quantitative" },
+          "shape": {
+            "field": "shape", "type": "nominal", "title": "Stage",
+            "scale": { "domain": ["Primary", "Special-election primary"], "range": ["diamond", "triangle-up"] }
+          },
+          "color": {
+            "field": "series", "type": "nominal", "legend": null,
+            "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
+          },
+          "href": { "field": "url", "type": "nominal" },
+          "tooltip": [
+            { "field": "district_name", "title": "District" },
+            { "field": "year", "title": "Year" },
+            { "field": "party", "title": "Party" },
+            { "field": "series", "title": "Series" },
+            { "field": "share", "type": "quantitative", "format": ".1%" },
+            { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "Primary WAR" },
+            { "field": "is_special", "title": "Special election?" }
+          ]
+        }
       }
     ],
     "config": {
@@ -245,23 +324,38 @@ layout: default
   // carries the same field set; a race simply has null
   // demographics_component/fundraising_component where its own data
   // doesn't support that term, rather than a whole separate field set.
+  // A primary race is folded onto these same canonical field names too
+  // (primary_baseline_component -> intercept_component, etc. — see
+  // apply_primary_war's docstring for why a primary has no separate lean/
+  // tide/demographics term of its own, only a combined baseline and an
+  // incumbency term already interacted with both), via `default` at the
+  // Liquid level since a general race's dict never has the primary_*
+  // keys at all.
   const attributionRaces = [
-    {% for r in chart_races %}
-    {% if r.intercept_component %}
+    {% for r in attribution_races %}
+    {% assign intercept = r.intercept_component | default: r.primary_baseline_component %}
+    {% assign intercept_sd = r.intercept_component_sd | default: r.primary_baseline_component_sd %}
+    {% assign incumbency = r.incumbency_adjustment | default: r.primary_incumbency_component %}
+    {% assign incumbency_sd = r.incumbency_adjustment_sd | default: r.primary_incumbency_component_sd %}
+    {% assign fundraising = r.fundraising_component | default: r.primary_fundraising_component %}
+    {% assign fundraising_sd = r.fundraising_component_sd | default: r.primary_fundraising_component_sd %}
+    {% assign war = r.war_resolved | default: r.primary_war %}
+    {% assign war_sd = r.war_resolved_sd | default: r.primary_war_sd %}
     {
       "year": {{ r.year | jsonify }},
       "district_name": {{ r.district_name | jsonify }},
       "url": {{ r.district_url | relative_url | jsonify }},
       "is_uncontested": {{ r.is_uncontested | jsonify }},
-      "intercept_component": {{ r.intercept_component | jsonify }}, "intercept_component_sd": {{ r.intercept_component_sd | jsonify }},
+      "stage": {{ r.stage | jsonify }},
+      "is_special": {{ r.is_special | jsonify }},
+      "intercept_component": {{ intercept | jsonify }}, "intercept_component_sd": {{ intercept_sd | jsonify }},
       "lean_component": {{ r.lean_component | jsonify }}, "lean_component_sd": {{ r.lean_component_sd | jsonify }},
       "tide_component": {{ r.tide_component | jsonify }}, "tide_component_sd": {{ r.tide_component_sd | jsonify }},
-      "incumbency_adjustment": {{ r.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ r.incumbency_adjustment_sd | jsonify }},
+      "incumbency_adjustment": {{ incumbency | jsonify }}, "incumbency_adjustment_sd": {{ incumbency_sd | jsonify }},
       "demographics_component": {{ r.demographics_component | jsonify }}, "demographics_component_sd": {{ r.demographics_component_sd | jsonify }},
-      "fundraising_component": {{ r.fundraising_component | jsonify }}, "fundraising_component_sd": {{ r.fundraising_component_sd | jsonify }},
-      "war_resolved": {{ r.war_resolved | jsonify }}, "war_resolved_sd": {{ r.war_resolved_sd | jsonify }}
+      "fundraising_component": {{ fundraising | jsonify }}, "fundraising_component_sd": {{ fundraising_sd | jsonify }},
+      "war_resolved": {{ war | jsonify }}, "war_resolved_sd": {{ war_sd | jsonify }}
     },
-    {% endif %}
     {% endfor %}
   ];
   // Canonical component order/colors. Demographics and Fundraising are
@@ -293,7 +387,10 @@ layout: default
       const fields = FIELD_MAP[label];
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
-      attributionData.push({ year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested, component: label, order, value });
+      attributionData.push({
+        year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested,
+        stage: r.stage, is_special: r.is_special, component: label, order, value,
+      });
     });
   });
   const attributionSpec = {
@@ -305,11 +402,24 @@ layout: default
       redistrictingLayer("ordinal"),
       {
         "data": { "values": attributionData },
-        "mark": { "type": "bar", "cursor": "pointer" },
+        // Primary bars sit beside that year's general bar (xOffset,
+        // dodged within the year's ordinal band), shaded at reduced
+        // opacity, and a special-election primary additionally gets a
+        // dashed outline — see this chart's own intro paragraph.
+        "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
         "encoding": {
           "x": { "field": "year", "type": "ordinal", "title": "Year" },
+          "xOffset": { "field": "stage", "type": "nominal", "sort": ["general", "primary"] },
           "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
           "order": { "field": "order" },
+          "opacity": {
+            "field": "stage", "type": "nominal", "legend": null,
+            "scale": { "domain": ["general", "primary"], "range": [1, 0.55] }
+          },
+          "strokeDash": {
+            "condition": { "test": "datum.is_special", "value": [3, 2] },
+            "value": [1, 0]
+          },
           "color": {
             "field": "component", "type": "nominal", "title": "Component",
             "scale": {
@@ -321,6 +431,8 @@ layout: default
           "tooltip": [
             { "field": "district_name", "title": "District" },
             { "field": "year", "title": "Year" },
+            { "field": "stage", "title": "Stage" },
+            { "field": "is_special", "title": "Special election?" },
             { "field": "is_uncontested", "title": "Uncontested?" },
             { "field": "component", "title": "Component" },
             { "field": "value", "type": "quantitative", "format": ".1%" }
@@ -345,19 +457,25 @@ layout: default
   // per component per year, too dense to read as a forest plot, so this
   // shows one race at a time, picked via the year selector below it.
   if (attributionRaces.length > 0) {
+    // Keyed by year+stage, not year alone — a candidate can have both a
+    // primary and a general in the same year (the ordinary case, since a
+    // primary always precedes that year's general), which year alone
+    // can't disambiguate in this dropdown.
+    const raceKey = (r) => r.year + "|" + r.stage;
     const yearSelect = document.getElementById("attribution-uncertainty-year");
     attributionRaces.forEach((r) => {
       const opt = document.createElement("option");
-      opt.value = String(r.year);
-      opt.textContent = r.year + " — " + r.district_name + (r.is_uncontested ? " (uncontested)" : "");
+      opt.value = raceKey(r);
+      const stageLabel = r.stage === "primary" ? (r.is_special ? "Special primary" : "Primary") : "General";
+      opt.textContent = r.year + " " + stageLabel + " — " + r.district_name + (r.is_uncontested ? " (uncontested)" : "");
       yearSelect.appendChild(opt);
     });
     // Default to the most recent race (attributionRaces is sorted
     // ascending by year, so the last entry is it).
-    yearSelect.value = String(attributionRaces[attributionRaces.length - 1].year);
+    yearSelect.value = raceKey(attributionRaces[attributionRaces.length - 1]);
 
-    function renderUncertaintyChart(year) {
-      const race = attributionRaces.find((r) => String(r.year) === year);
+    function renderUncertaintyChart(key) {
+      const race = attributionRaces.find((r) => raceKey(r) === key);
       if (!race) return;
       const uncertaintyData = [];
       CANONICAL_COMPONENTS.forEach(([label]) => {

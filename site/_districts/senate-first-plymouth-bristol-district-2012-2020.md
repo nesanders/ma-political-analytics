@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4697
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3714
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3711
     lean_component_sd: 0.0252
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0139
+    fundraising_component: 0.0142
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5578
+    expected_share_resolved: 0.5583
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.7629
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3714
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3711
     lean_component_sd: 0.0252
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0035
+    fundraising_component: 0.0037
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5442
+    expected_share_resolved: 0.5443
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,22 +111,22 @@ results_by_year:
     war: 0.16
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3714
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3711
     lean_component_sd: 0.0252
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0275
+    fundraising_component: 0.028
     fundraising_component_sd: 0.0021
     demographics_tier: null
-    expected_share_resolved: 0.5712
-    war_resolved: 0.0823
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5719
+    war_resolved: 0.0816
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,11 +141,11 @@ results_by_year:
     war: -0.16
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4055
     lean_component_sd: 0.0191
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -154,9 +154,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4694
-    war_resolved: -0.1229
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4697
+    war_resolved: -0.1232
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -179,22 +179,22 @@ results_by_year:
     war: 0.2065
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3714
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3711
     lean_component_sd: 0.0252
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0301
+    fundraising_component: 0.0306
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.5723
-    war_resolved: 0.0376
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5729
+    war_resolved: 0.037
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -209,11 +209,11 @@ results_by_year:
     war: -0.2065
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4055
     lean_component_sd: 0.0191
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -222,9 +222,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4705
-    war_resolved: -0.0804
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4708
+    war_resolved: -0.0807
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -247,20 +247,20 @@ results_by_year:
     war: 0.4716
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3714
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3711
     lean_component_sd: 0.0252
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.014
+    fundraising_component: 0.0143
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.4848
+    expected_share_resolved: 0.4855
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -269,6 +269,198 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc R. Pacheco
+    slug: marc-r-pacheco
+    party: Democratic
+    votes: 21471
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.135
+    primary_incumbency_component_sd: 0.1081
+    primary_fundraising_component: 0.04
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 1.1536
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc R. Pacheco
+    slug: marc-r-pacheco
+    party: Democratic
+    votes: 7279
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1846
+    primary_incumbency_component_sd: 0.0916
+    primary_fundraising_component: 0.0205
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.1837
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc R. Pacheco
+    slug: marc-r-pacheco
+    party: Democratic
+    votes: 2759
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1386
+    primary_incumbency_component_sd: 0.1067
+    primary_fundraising_component: 0.0655
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 1.1827
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sandra M. Wright
+    slug: sandra-m-wright
+    party: Republican
+    votes: 1630
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc R. Pacheco
+    slug: marc-r-pacheco
+    party: Democratic
+    votes: 6379
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1615
+    primary_incumbency_component_sd: 0.0982
+    primary_fundraising_component: 0.0703
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 1.2104
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David A. Rosa
+    slug: david-a-rosa
+    party: Republican
+    votes: 3427
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc R. Pacheco
+    slug: marc-r-pacheco
+    party: Democratic
+    votes: 5435
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0402
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.0188
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: First Plymouth & Bristol District (2012-2020)
 layout: district
 ---

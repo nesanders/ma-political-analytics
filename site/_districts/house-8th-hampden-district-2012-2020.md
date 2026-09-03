@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4231
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4185
-    lean_component_sd: 0.0284
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4182
+    lean_component_sd: 0.0283
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0131
+    fundraising_component: 0.0135
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.6041
+    expected_share_resolved: 0.6046
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.7363
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4185
-    lean_component_sd: 0.0284
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4182
+    lean_component_sd: 0.0283
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0286
+    fundraising_component: 0.0292
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.6164
+    expected_share_resolved: 0.6169
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.4437
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4185
-    lean_component_sd: 0.0284
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4182
+    lean_component_sd: 0.0283
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0098
-    fundraising_component_sd: 0.0007
+    fundraising_component: 0.01
+    fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6005
+    expected_share_resolved: 0.6009
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.561
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4185
-    lean_component_sd: 0.0284
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4182
+    lean_component_sd: 0.0283
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0174
+    fundraising_component: 0.0178
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.6067
+    expected_share_resolved: 0.6071
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.3656
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4185
-    lean_component_sd: 0.0284
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4182
+    lean_component_sd: 0.0283
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0177
-    fundraising_component_sd: 0.0013
+    fundraising_component: 0.0181
+    fundraising_component_sd: 0.0014
     demographics_tier: null
-    expected_share_resolved: 0.5356
+    expected_share_resolved: 0.5363
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,166 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph F. Wagner
+    slug: joseph-f-wagner
+    party: Democratic
+    votes: 6287
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.145
+    primary_incumbency_component_sd: 0.1101
+    primary_fundraising_component: 0.0386
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 1.1622
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph F. Wagner
+    slug: joseph-f-wagner
+    party: Democratic
+    votes: 2690
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1946
+    primary_incumbency_component_sd: 0.0939
+    primary_fundraising_component: 0.0676
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 1.2408
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph F. Wagner
+    slug: joseph-f-wagner
+    party: Democratic
+    votes: 2605
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1486
+    primary_incumbency_component_sd: 0.1086
+    primary_fundraising_component: 0.0322
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.1594
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Joseph F. Wagner
+    slug: joseph-f-wagner
+    party: Democratic
+    votes: 2458
+    winner: true
+    actual_primary_share: 0.8038
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1715
+    primary_incumbency_component_sd: 0.1004
+    primary_fundraising_component: 0.0466
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.6967
+    primary_war: 0.1071
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: William C. Courchesne
+    slug: william-c-courchesne
+    party: Democratic
+    votes: 600
+    winner: false
+    actual_primary_share: 0.1962
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.2824
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph F. Wagner
+    slug: joseph-f-wagner
+    party: Democratic
+    votes: 2845
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0471
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 1.0257
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 8th Hampden District (2012-2020)
 layout: district
 ---

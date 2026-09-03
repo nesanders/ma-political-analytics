@@ -33,14 +33,14 @@ results_by_year:
     war: 0.1313
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6697
-    lean_component_sd: 0.0455
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6693
+    lean_component_sd: 0.0454
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0107
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.3806
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6697
-    lean_component_sd: 0.0455
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6693
+    lean_component_sd: 0.0454
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0122
+    fundraising_component: 0.0125
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.7786
+    expected_share_resolved: 0.7789
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.1376
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6697
-    lean_component_sd: 0.0455
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6693
+    lean_component_sd: 0.0454
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0029
+    fundraising_component: 0.0031
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.7723
+    expected_share_resolved: 0.7727
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.2316
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6697
-    lean_component_sd: 0.0455
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6693
+    lean_component_sd: 0.0454
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0079
+    fundraising_component: -0.0078
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.8327
+    expected_share_resolved: 0.8326
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,20 +241,20 @@ results_by_year:
     war: 0.1648
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6697
-    lean_component_sd: 0.0455
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6693
+    lean_component_sd: 0.0454
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0088
+    fundraising_component: -0.0089
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.7603
+    expected_share_resolved: 0.7605
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -263,6 +263,269 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Mindy Domb
+    slug: mindy-domb
+    party: Democratic
+    votes: 7348
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1983
+    primary_incumbency_component_sd: 0.1236
+    primary_fundraising_component: -0.006
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1709
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Mindy Domb
+    slug: mindy-domb
+    party: Democratic
+    votes: 3759
+    winner: true
+    actual_primary_share: 0.6251
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0368
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.5154
+    primary_war: 0.1097
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Eric T. Nakajima
+    slug: eric-t-nakajima
+    party: Democratic
+    votes: 2254
+    winner: false
+    actual_primary_share: 0.3749
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.017
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.4956
+    primary_war: -0.1207
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 6
+  is_contested: true
+  candidates:
+  - name: Solomon Israel Goldstein-Rose
+    slug: solomon-israel-goldstein-rose
+    party: Democratic
+    votes: 1788
+    winner: true
+    actual_primary_share: 0.3421
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0194
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.1647
+    primary_war: 0.1774
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Eric T. Nakajima
+    slug: eric-t-nakajima
+    party: Democratic
+    votes: 1209
+    winner: false
+    actual_primary_share: 0.2313
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0131
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.1321
+    primary_war: 0.0992
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Sarah C. Lacour
+    slug: sarah-c-lacour
+    party: Democratic
+    votes: 973
+    winner: false
+    actual_primary_share: 0.1862
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0017
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.1436
+    primary_war: 0.0426
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Viraphanh Douangmany Cage
+    slug: viraphanh-douangmany-cage
+    party: Democratic
+    votes: 693
+    winner: false
+    actual_primary_share: 0.1326
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1453
+    primary_war: -0.0127
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Bonnie Maccracken
+    slug: bonnie-maccracken
+    party: Democratic
+    votes: 371
+    winner: false
+    actual_primary_share: 0.071
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0097
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.1356
+    primary_war: -0.0646
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Lawrence E. O'Brien
+    slug: lawrence-e-obrien
+    party: Democratic
+    votes: 192
+    winner: false
+    actual_primary_share: 0.0367
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1667
+    primary_baseline_component: 0.1453
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0544
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.0909
+    primary_war: -0.0542
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ellen S. Story
+    slug: ellen-s-story
+    party: Democratic
+    votes: 3002
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2248
+    primary_incumbency_component_sd: 0.115
+    primary_fundraising_component: -0.0007
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 1.2026
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ellen S. Story
+    slug: ellen-s-story
+    party: Democratic
+    votes: 2083
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0026
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.976
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Hampshire District (2012-2020)
 layout: district
 ---

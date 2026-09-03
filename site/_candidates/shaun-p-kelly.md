@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6198
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.2111
-  lean_component_sd: 0.01
-  tide_component: 0.0039
+  lean_component: 0.2112
+  lean_component_sd: 0.0099
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0509
+  fundraising_component: -0.0515
   fundraising_component_sd: 0.0039
   demographics_tier: null
-  expected_share_resolved: 0.2254
+  expected_share_resolved: 0.225
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 2nd Berkshire
+  district_url: /district/house-2nd-berkshire-2001-2010/
+  party: Republican
+  votes: 885
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0813
+  primary_fundraising_component_sd: 0.0048
+  primary_expected_share: 0.8973
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 11842

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2342
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5881
-    lean_component_sd: 0.0399
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5877
+    lean_component_sd: 0.0398
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0199
+    fundraising_component: -0.02
     fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.7408
+    expected_share_resolved: 0.7406
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.538
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5881
-    lean_component_sd: 0.0399
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5877
+    lean_component_sd: 0.0398
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0417
+    fundraising_component: -0.0422
     fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.7157
+    expected_share_resolved: 0.7151
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2554
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5881
-    lean_component_sd: 0.0399
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5877
+    lean_component_sd: 0.0398
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0129
+    fundraising_component: 0.0132
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.7733
+    expected_share_resolved: 0.7736
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.2945
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5881
-    lean_component_sd: 0.0399
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5877
+    lean_component_sd: 0.0398
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0117
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.7472
+    expected_share_resolved: 0.7471
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,20 +215,20 @@ results_by_year:
     war: 0.2059
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5881
-    lean_component_sd: 0.0399
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5877
+    lean_component_sd: 0.0398
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0285
+    fundraising_component: -0.0288
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.6591
+    expected_share_resolved: 0.659
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -237,6 +237,187 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tricia Farley-Bouvier
+    slug: tricia-farley-bouvier
+    party: Democratic
+    votes: 7467
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.181
+    primary_incumbency_component_sd: 0.1187
+    primary_fundraising_component: -0.0232
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.1364
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Tricia Farley-Bouvier
+    slug: tricia-farley-bouvier
+    party: Democratic
+    votes: 4569
+    winner: true
+    actual_primary_share: 0.9941
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2306
+    primary_incumbency_component_sd: 0.1039
+    primary_fundraising_component: -0.0641
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.6451
+    primary_war: 0.349
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Steven E. Como
+    slug: steven-e-como
+    party: Democratic
+    votes: 27
+    winner: false
+    actual_primary_share: 0.0059
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.4727
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Tricia Farley-Bouvier
+    slug: tricia-farley-bouvier
+    party: Democratic
+    votes: 2692
+    winner: true
+    actual_primary_share: 0.5383
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1846
+    primary_incumbency_component_sd: 0.1173
+    primary_fundraising_component: 0.0381
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.7013
+    primary_war: -0.163
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Michael E. Bloomberg
+    slug: michael-e-bloomberg
+    party: Democratic
+    votes: 2309
+    winner: false
+    actual_primary_share: 0.4617
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0133
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.4919
+    primary_war: -0.0302
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tricia Farley-Bouvier
+    slug: tricia-farley-bouvier
+    party: Democratic
+    votes: 1878
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2074
+    primary_incumbency_component_sd: 0.1098
+    primary_fundraising_component: -0.0079
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1781
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tricia Farley-Bouvier
+    slug: tricia-farley-bouvier
+    party: Democratic
+    votes: 4514
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0393
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.9393
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 3rd Berkshire District (2012-2020)
 layout: district
 ---

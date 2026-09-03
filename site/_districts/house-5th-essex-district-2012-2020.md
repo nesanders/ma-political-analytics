@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3107
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.467
+    lean_component_sd: 0.0316
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0229
+    fundraising_component: 0.0233
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.6626
+    expected_share_resolved: 0.6632
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.7077
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.467
+    lean_component_sd: 0.0316
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.002
-    fundraising_component_sd: 0.0001
+    fundraising_component: 0.0021
+    fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6385
+    expected_share_resolved: 0.6386
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.3507
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.467
+    lean_component_sd: 0.0316
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0123
+    fundraising_component: 0.0126
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.6519
+    expected_share_resolved: 0.6522
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,22 +176,22 @@ results_by_year:
     war: 0.0913
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.467
+    lean_component_sd: 0.0316
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0162
+    fundraising_component: 0.0166
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6543
-    war_resolved: -0.0641
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6546
+    war_resolved: -0.0644
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -206,22 +206,22 @@ results_by_year:
     war: -0.0913
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3237
-    lean_component_sd: 0.0153
-    tide_component: 0.0038
+    lean_component: 0.3238
+    lean_component_sd: 0.0152
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0016
+    fundraising_component: -0.0015
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.3872
-    war_resolved: 0.0226
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3875
+    war_resolved: 0.0223
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -245,20 +245,20 @@ results_by_year:
     war: 0.3713
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4672
-    lean_component_sd: 0.0317
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.467
+    lean_component_sd: 0.0316
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0053
+    fundraising_component: 0.0055
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.572
+    expected_share_resolved: 0.5725
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,6 +267,194 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 8890
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1553
+    primary_incumbency_component_sd: 0.1123
+    primary_fundraising_component: 0.0567
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.1907
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 3564
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.205
+    primary_incumbency_component_sd: 0.0965
+    primary_fundraising_component: 0.0176
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.2012
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 2117
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1589
+    primary_incumbency_component_sd: 0.1109
+    primary_fundraising_component: 0.037
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.1746
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 3617
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1818
+    primary_incumbency_component_sd: 0.1028
+    primary_fundraising_component: 0.0443
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.2048
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Michael B. Boucher
+    slug: michael-b-boucher
+    party: Republican
+    votes: 1111
+    winner: true
+    actual_primary_share: 0.562
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.011
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.4896
+    primary_war: 0.0724
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Robert V. Whynott
+    slug: robert-v-whynott
+    party: Republican
+    votes: 866
+    winner: false
+    actual_primary_share: 0.438
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0132
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.4654
+    primary_war: -0.0274
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 1062
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0239
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.0025
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 5th Essex District (2012-2020)
 layout: district
 ---

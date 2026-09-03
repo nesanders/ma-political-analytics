@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2399
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.628
-    lean_component_sd: 0.0426
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6276
+    lean_component_sd: 0.0425
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0155
     demographics_component_sd: 0.044
-    fundraising_component: 0.0265
+    fundraising_component: 0.027
     fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.8421
+    expected_share_resolved: 0.8425
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,12 +71,12 @@ results_by_year:
     war: 0.2771
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.628
-    lean_component_sd: 0.0426
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6276
+    lean_component_sd: 0.0425
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0155
@@ -84,7 +84,7 @@ results_by_year:
     fundraising_component: -0.0131
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.7301
+    expected_share_resolved: 0.7302
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,62 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 3917
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1955
+    primary_incumbency_component_sd: 0.1188
+    primary_fundraising_component: 0.0636
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 1.2377
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 4635
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0105
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9681
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 45081
   voting_age_population: 34312

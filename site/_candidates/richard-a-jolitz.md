@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.2925
   war: -0.1184
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3464
-  lean_component_sd: 0.0164
-  tide_component: 0.0028
+  lean_component_sd: 0.0163
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.2104
+  fundraising_component: -0.2132
   fundraising_component_sd: 0.016
   demographics_tier: null
-  expected_share_resolved: 0.2002
-  war_resolved: 0.0923
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.1976
+  war_resolved: 0.0949
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Second Essex District
+  district_url: /district/senate-second-essex-district-2012-2020/
+  party: Republican
+  votes: 2724
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.3797
+  primary_fundraising_component_sd: 0.0222
+  primary_expected_share: 0.5989
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -48,22 +79,22 @@ races:
   winner: false
   actual_two_party_share: 0.3385
   war: -0.1936
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3423
-  lean_component_sd: 0.0162
-  tide_component: 0.0034
+  lean_component: 0.3424
+  lean_component_sd: 0.0161
+  tide_component: 0.0032
   tide_component_sd: 0.0148
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0361
+  fundraising_component: -0.0365
   fundraising_component_sd: 0.0027
   demographics_tier: null
-  expected_share_resolved: 0.371
-  war_resolved: -0.0325
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3709
+  war_resolved: -0.0324
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Second Essex
+  district_url: /district/senate-second-essex-2001-2010/
+  party: Republican
+  votes: 4584
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0535
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 0.9251
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15161

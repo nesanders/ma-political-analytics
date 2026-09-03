@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4282
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4473
-  lean_component_sd: 0.0304
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4471
+  lean_component_sd: 0.0303
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0302
+  fundraising_component: -0.0305
   fundraising_component_sd: 0.0023
   demographics_tier: null
-  expected_share_resolved: 0.5893
+  expected_share_resolved: 0.5891
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 2nd Worcester
+  district_url: /district/house-2nd-worcester-2001-2010/
+  party: Democratic
+  votes: 3157
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1568
+  primary_incumbency_component_sd: 0.1091
+  primary_fundraising_component: -0.0425
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.0929
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -48,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3918
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4473
-  lean_component_sd: 0.0304
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4471
+  lean_component_sd: 0.0303
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0061
+  fundraising_component: 0.0063
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.5528
+  expected_share_resolved: 0.5533
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +105,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 2nd Worcester
+  district_url: /district/house-2nd-worcester-2001-2010/
+  party: Democratic
+  votes: 3443
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0253
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.0039
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 2nd Worcester
+  district_url: /district/house-2nd-worcester-2001-2010/
+  party: Democratic
+  votes: 1433
+  winner: true
+  actual_primary_share: 0.4464
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0253
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.3373
+  primary_war: 0.1091
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 14451

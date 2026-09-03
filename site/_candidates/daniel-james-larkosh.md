@@ -13,20 +13,20 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.3306
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5068
-  lean_component_sd: 0.0344
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5065
+  lean_component_sd: 0.0343
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0075
+  fundraising_component: 0.0077
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.6139
+  expected_share_resolved: 0.6143
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: Barnstable, Dukes and Nantucket
+  district_url: /district/house-barnstable-dukes-and-nantucket-2001-2010/
+  party: Democratic
+  votes: 1740
+  winner: true
+  actual_primary_share: 0.259
+  fair_share: 0.1667
+  n_candidates: 6
+  primary_baseline_component: 0.1453
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.028
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 0.1733
+  primary_war: 0.0857
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14630

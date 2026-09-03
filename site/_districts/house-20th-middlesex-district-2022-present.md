@@ -30,20 +30,20 @@ results_by_year:
     war: 0.5453
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3254
-    lean_component_sd: 0.0154
-    tide_component: 0.0027
+    lean_component_sd: 0.0153
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: 0.0023
     demographics_component_sd: 0.0185
-    fundraising_component: 0.0194
+    fundraising_component: 0.0198
     fundraising_component_sd: 0.0015
     demographics_tier: full
-    expected_share_resolved: 0.5411
+    expected_share_resolved: 0.5415
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.5535
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3254
-    lean_component_sd: 0.0154
-    tide_component: 0.0026
+    lean_component_sd: 0.0153
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0023
     demographics_component_sd: 0.0185
-    fundraising_component: 0.023
+    fundraising_component: 0.0235
     fundraising_component_sd: 0.0018
     demographics_tier: full
-    expected_share_resolved: 0.4146
+    expected_share_resolved: 0.4154
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bradley H. Jones, Jr
+    slug: bradley-h-jones-jr
+    party: Republican
+    votes: 2019
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1812
+    primary_incumbency_component_sd: 0.0935
+    primary_fundraising_component: 0.0503
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 1.2101
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bradley H. Jones, Jr
+    slug: bradley-h-jones-jr
+    party: Republican
+    votes: 2445
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0571
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.0357
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44915
   voting_age_population: 34536

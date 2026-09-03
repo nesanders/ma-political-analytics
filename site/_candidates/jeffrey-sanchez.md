@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1409
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6292
-  lean_component_sd: 0.0427
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6288
+  lean_component_sd: 0.0426
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0081
+  fundraising_component: 0.0083
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.8096
+  expected_share_resolved: 0.8098
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 15th Suffolk District
+  district_url: /district/house-15th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2007
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1933
+  primary_incumbency_component_sd: 0.1198
+  primary_fundraising_component: 0.0291
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.201
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -48,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3114
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6292
-  lean_component_sd: 0.0427
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6288
+  lean_component_sd: 0.0426
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0059
+  fundraising_component: 0.0061
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.8059
+  expected_share_resolved: 0.806
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 15th Suffolk District
+  district_url: /district/house-15th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 3488
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2162
+  primary_incumbency_component_sd: 0.1123
+  primary_fundraising_component: 0.025
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.2198
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.199
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6292
-  lean_component_sd: 0.0427
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6288
+  lean_component_sd: 0.0426
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0023
+  fundraising_component: -0.0022
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.7263
+  expected_share_resolved: 0.7265
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 15th Suffolk District
+  district_url: /district/house-15th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2467
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0096
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.9882
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.245
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6425
-  lean_component_sd: 0.0436
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6421
+  lean_component_sd: 0.0435
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.009
+  fundraising_component: 0.0092
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.8227
+  expected_share_resolved: 0.8229
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 15th Suffolk
+  district_url: /district/house-15th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3204
+  winner: true
+  actual_primary_share: 0.8113
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2123
+  primary_incumbency_component_sd: 0.1152
+  primary_fundraising_component: 0.0308
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 0.7217
+  primary_war: 0.0896
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -153,20 +280,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1898
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6425
-  lean_component_sd: 0.0436
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6421
+  lean_component_sd: 0.0435
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0293
+  fundraising_component: -0.0296
   fundraising_component_sd: 0.0022
   demographics_tier: null
-  expected_share_resolved: 0.7853
+  expected_share_resolved: 0.785
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 15th Suffolk
+  district_url: /district/house-15th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3829
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1982
+  primary_incumbency_component_sd: 0.1198
+  primary_fundraising_component: -0.0409
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.136
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -188,20 +347,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2182
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6425
-  lean_component_sd: 0.0436
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6421
+  lean_component_sd: 0.0435
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0081
+  fundraising_component: 0.0083
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.8225
+  expected_share_resolved: 0.8227
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 15th Suffolk
+  district_url: /district/house-15th-suffolk-2001-2010/
+  party: Democratic
+  votes: 5064
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2012
+  primary_incumbency_component_sd: 0.1188
+  primary_fundraising_component: 0.0291
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.2089
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -223,18 +414,18 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.21
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6425
-  lean_component_sd: 0.0436
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6421
+  lean_component_sd: 0.0435
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0046
-  fundraising_component_sd: 0.0004
+  fundraising_component_sd: 0.0003
   demographics_tier: null
   expected_share_resolved: 0.81
   war_resolved: null
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 15th Suffolk
+  district_url: /district/house-15th-suffolk-2001-2010/
+  party: Democratic
+  votes: 3042
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1989
+  primary_incumbency_component_sd: 0.1196
+  primary_fundraising_component: 0.0053
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1828
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -258,20 +481,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3438
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6425
-  lean_component_sd: 0.0436
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6421
+  lean_component_sd: 0.0435
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0028
+  fundraising_component: 0.003
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.7433
+  expected_share_resolved: 0.7436
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -283,6 +506,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 15th Suffolk
+  district_url: /district/house-15th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1885
+  winner: true
+  actual_primary_share: 0.3209
+  fair_share: 0.2
+  n_candidates: 5
+  primary_baseline_component: 0.1786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0192
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 0.1978
+  primary_war: 0.1231
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13954

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3304
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4334
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4332
     lean_component_sd: 0.0294
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.025
+    fundraising_component: 0.0255
     fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.631
+    expected_share_resolved: 0.6316
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,22 +98,22 @@ results_by_year:
     war: 0.3357
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4334
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4332
     lean_component_sd: 0.0294
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0247
+    fundraising_component: 0.0252
     fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.6274
-    war_resolved: -0.014
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6279
+    war_resolved: -0.0145
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -128,22 +128,22 @@ results_by_year:
     war: -0.3357
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3525
+    lean_component: 0.3526
     lean_component_sd: 0.0166
-    tide_component: 0.0049
+    tide_component: 0.0045
     tide_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0127
+    fundraising_component: 0.013
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.4315
-    war_resolved: -0.0449
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4319
+    war_resolved: -0.0453
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -193,22 +193,22 @@ results_by_year:
     war: -0.0385
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4334
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4332
     lean_component_sd: 0.0294
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0325
+    fundraising_component: 0.0331
     fundraising_component_sd: 0.0025
     demographics_tier: null
-    expected_share_resolved: 0.6382
-    war_resolved: -0.0498
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6389
+    war_resolved: -0.0505
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -223,22 +223,22 @@ results_by_year:
     war: 0.0385
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3525
+    lean_component: 0.3526
     lean_component_sd: 0.0166
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0237
+    fundraising_component: 0.0242
     fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.4402
-    war_resolved: -0.0286
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4409
+    war_resolved: -0.0293
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -262,22 +262,22 @@ results_by_year:
     war: 0.0808
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4334
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4332
     lean_component_sd: 0.0294
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0345
+    fundraising_component: 0.0351
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.5662
-    war_resolved: -0.052
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.567
+    war_resolved: -0.0528
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -292,22 +292,22 @@ results_by_year:
     war: -0.0808
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3525
+    lean_component: 0.3526
     lean_component_sd: 0.0166
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0068
+    fundraising_component: 0.0071
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.4244
-    war_resolved: 0.0614
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4249
+    war_resolved: 0.0609
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -331,22 +331,22 @@ results_by_year:
     war: 0.0473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4334
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4332
     lean_component_sd: 0.0294
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0174
+    fundraising_component: 0.0178
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.5503
-    war_resolved: 0.0481
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.551
+    war_resolved: 0.0474
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -361,28 +361,316 @@ results_by_year:
     war: -0.0473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3525
+    lean_component: 0.3526
     lean_component_sd: 0.0166
-    tide_component: 0.0028
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0016
+    fundraising_component: -0.0015
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.4151
-    war_resolved: -0.0135
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4155
+    war_resolved: -0.0139
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael Seamus Day
+    slug: michael-seamus-day
+    party: Democratic
+    votes: 9307
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1482
+    primary_incumbency_component_sd: 0.1107
+    primary_fundraising_component: 0.0607
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 1.1875
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael Seamus Day
+    slug: michael-seamus-day
+    party: Democratic
+    votes: 4272
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1978
+    primary_incumbency_component_sd: 0.0947
+    primary_fundraising_component: 0.0602
+    primary_fundraising_component_sd: 0.0035
+    primary_expected_share: 1.2366
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Caroline Colarusso
+    slug: caroline-colarusso
+    party: Republican
+    votes: 2161
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0377
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.0163
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael Seamus Day
+    slug: michael-seamus-day
+    party: Democratic
+    votes: 2157
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1518
+    primary_incumbency_component_sd: 0.1093
+    primary_fundraising_component: 0.0748
+    primary_fundraising_component_sd: 0.0044
+    primary_expected_share: 1.2051
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Caroline Colarusso
+    slug: caroline-colarusso
+    party: Republican
+    votes: 897
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0583
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 1.0369
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Michael Seamus Day
+    slug: michael-seamus-day
+    party: Democratic
+    votes: 2941
+    winner: true
+    actual_primary_share: 0.5692
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0786
+    primary_fundraising_component_sd: 0.0046
+    primary_expected_share: 0.5572
+    primary_war: 0.012
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Michael Bettencourt
+    slug: michael-bettencourt
+    party: Democratic
+    votes: 2226
+    winner: false
+    actual_primary_share: 0.4308
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0478
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Caroline Colarusso
+    slug: caroline-colarusso
+    party: Republican
+    votes: 1296
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0268
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.0054
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jason M. Lewis
+    slug: jason-m-lewis
+    party: Democratic
+    votes: 2856
+    winner: true
+    actual_primary_share: 0.7119
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0466
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.5252
+    primary_war: 0.1867
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: John F. Depinto
+    slug: john-f-depinto
+    party: Democratic
+    votes: 1156
+    winner: false
+    actual_primary_share: 0.2881
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0266
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.5052
+    primary_war: -0.2171
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George Georgountzos
+    slug: george-georgountzos
+    party: Republican
+    votes: 1097
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.011
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9896
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 31st Middlesex District (2012-2020)
 layout: district
 ---

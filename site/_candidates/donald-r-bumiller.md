@@ -13,12 +13,12 @@ races:
   winner: false
   actual_two_party_share: 0.2882
   war: -0.2481
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3842
-  lean_component_sd: 0.0261
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.384
+  lean_component_sd: 0.026
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4838
-  war_resolved: -0.1956
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4841
+  war_resolved: -0.1959
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -37,6 +37,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 4th Essex
+  district_url: /district/house-4th-essex-2001-2010/
+  party: Democratic
+  votes: 1397
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 title: Donald R. Bumiller
 layout: candidate
 ---

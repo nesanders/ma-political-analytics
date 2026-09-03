@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3727
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5572
-    lean_component_sd: 0.0378
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5568
+    lean_component_sd: 0.0377
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0011
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0012
     demographics_component_sd: 0.0271
-    fundraising_component: 0.0181
+    fundraising_component: 0.0184
     fundraising_component_sd: 0.0014
     demographics_tier: full
-    expected_share_resolved: 0.7463
+    expected_share_resolved: 0.7466
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3116
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5572
-    lean_component_sd: 0.0378
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5568
+    lean_component_sd: 0.0377
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0011
+    demographics_component: -0.0012
     demographics_component_sd: 0.0271
-    fundraising_component: 0.0218
+    fundraising_component: 0.0222
     fundraising_component_sd: 0.0017
     demographics_tier: full
-    expected_share_resolved: 0.6775
+    expected_share_resolved: 0.6782
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,104 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Joseph W. Mcgonagle, Jr
+    slug: joseph-w-mcgonagle-jr
+    party: Democratic
+    votes: 1493
+    winner: true
+    actual_primary_share: 0.675
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1805
+    primary_incumbency_component_sd: 0.1147
+    primary_fundraising_component: 0.0478
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 0.7069
+    primary_war: -0.0319
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Michael K. Marchese
+    slug: michael-k-marchese
+    party: Democratic
+    votes: 719
+    winner: false
+    actual_primary_share: 0.325
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.045
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.4336
+    primary_war: -0.1086
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Joseph W. Mcgonagle, Jr
+    slug: joseph-w-mcgonagle-jr
+    party: Democratic
+    votes: 1661
+    winner: true
+    actual_primary_share: 0.6177
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0547
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.5333
+    primary_war: 0.0844
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Guerline Alcy
+    slug: guerline-alcy
+    party: Democratic
+    votes: 1028
+    winner: false
+    actual_primary_share: 0.3823
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0487
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 0.4299
+    primary_war: -0.0476
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 49075
   voting_age_population: 38278

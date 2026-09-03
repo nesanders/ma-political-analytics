@@ -30,22 +30,22 @@ results_by_year:
     war: 0.1536
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2938
-    lean_component_sd: 0.0139
-    tide_component: 0.0027
+    lean_component_sd: 0.0138
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
-    demographics_component: -0.0011
+    demographics_component: -0.001
     demographics_component_sd: 0.0125
-    fundraising_component: 0.0112
+    fundraising_component: 0.0115
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.4979
-    war_resolved: 0.0624
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4983
+    war_resolved: 0.062
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.1536
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5024
-    lean_component_sd: 0.0341
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5021
+    lean_component_sd: 0.034
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0011
+    demographics_component: -0.001
     demographics_component_sd: 0.0125
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6008
-    war_resolved: -0.1611
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6011
+    war_resolved: -0.1614
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,22 +102,22 @@ results_by_year:
     war: 0.1473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2938
-    lean_component_sd: 0.0139
-    tide_component: 0.0026
+    lean_component_sd: 0.0138
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0011
+    demographics_component: -0.001
     demographics_component_sd: 0.0125
     fundraising_component: -0.0069
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.3496
-    war_resolved: 0.2046
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3501
+    war_resolved: 0.2041
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -134,22 +134,22 @@ results_by_year:
     war: -0.1473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5024
-    lean_component_sd: 0.0341
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5021
+    lean_component_sd: 0.034
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0011
+    demographics_component: -0.001
     demographics_component_sd: 0.0125
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.601
-    war_resolved: -0.1552
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6013
+    war_resolved: -0.1555
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -157,6 +157,114 @@ results_by_year:
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathleen Fox Alfano
+    slug: kathleen-fox-alfano
+    party: Democratic
+    votes: 4970
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David T. Vieira
+    slug: david-t-vieira
+    party: Republican
+    votes: 2672
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1733
+    primary_incumbency_component_sd: 0.0918
+    primary_fundraising_component: 0.035
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1869
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kathleen Fox Alfano
+    slug: kathleen-fox-alfano
+    party: Democratic
+    votes: 283
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David T. Vieira
+    slug: david-t-vieira
+    party: Republican
+    votes: 3420
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0011
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.9797
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44408
   voting_age_population: 37975

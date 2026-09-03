@@ -30,22 +30,22 @@ results_by_year:
     war: 0.0287
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4787
-    lean_component_sd: 0.0325
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4784
+    lean_component_sd: 0.0324
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: 0.0015
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: 0.0016
     demographics_component_sd: 0.011
-    fundraising_component: 0.0224
+    fundraising_component: 0.0228
     fundraising_component_sd: 0.0017
     demographics_tier: full
-    expected_share_resolved: 0.6747
-    war_resolved: -0.0811
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6752
+    war_resolved: -0.0816
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0287
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.314
     lean_component_sd: 0.0148
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0015
+    demographics_component: 0.0016
     demographics_component_sd: 0.011
-    fundraising_component: 0.011
+    fundraising_component: 0.0113
     fundraising_component_sd: 0.0008
     demographics_tier: full
-    expected_share_resolved: 0.3905
-    war_resolved: 0.0159
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3912
+    war_resolved: 0.0152
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.0562
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4787
-    lean_component_sd: 0.0325
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4784
+    lean_component_sd: 0.0324
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0015
+    demographics_component: 0.0016
     demographics_component_sd: 0.011
-    fundraising_component: 0.0072
+    fundraising_component: 0.0074
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.5871
-    war_resolved: 0.0346
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5877
+    war_resolved: 0.034
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -135,22 +135,22 @@ results_by_year:
     war: -0.0562
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.314
     lean_component_sd: 0.0148
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0015
+    demographics_component: 0.0016
     demographics_component_sd: 0.011
     fundraising_component: -0.0076
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.3718
-    war_resolved: 0.0065
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3722
+    war_resolved: 0.0061
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -159,6 +159,136 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kip A. Diggs
+    slug: kip-a-diggs
+    party: Democratic
+    votes: 3619
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1638
+    primary_incumbency_component_sd: 0.1105
+    primary_fundraising_component: 0.0558
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.1983
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Susanne H. Conley
+    slug: susanne-h-conley
+    party: Republican
+    votes: 2148
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0345
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 0.5131
+    primary_war: 0.4869
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Gerald Joseph O'Connell
+    slug: gerald-joseph-oconnell
+    party: Republican
+    votes: 0
+    winner: false
+    actual_primary_share: 0.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.4786
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kip A. Diggs
+    slug: kip-a-diggs
+    party: Democratic
+    votes: 4754
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0275
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.0061
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William Buffington Peters
+    slug: william-buffington-peters
+    party: Republican
+    votes: 309
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0003
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 0.9783
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44617
   voting_age_population: 37302

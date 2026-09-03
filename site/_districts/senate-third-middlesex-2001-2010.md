@@ -33,22 +33,22 @@ results_by_year:
     war: 0.031
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4793
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.479
     lean_component_sd: 0.0325
-    tide_component: 0.0051
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0144
+    fundraising_component: 0.0147
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.6649
-    war_resolved: -0.0948
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6652
+    war_resolved: -0.0951
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.031
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3135
     lean_component_sd: 0.0148
-    tide_component: 0.0034
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0196
+    fundraising_component: 0.02
     fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.3978
-    war_resolved: 0.0321
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3984
+    war_resolved: 0.0315
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,22 +102,22 @@ results_by_year:
     war: -0.016
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4793
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.479
     lean_component_sd: 0.0325
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.012
+    fundraising_component: 0.0123
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.6634
-    war_resolved: -0.0381
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6638
+    war_resolved: -0.0385
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -132,22 +132,22 @@ results_by_year:
     war: 0.016
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3135
     lean_component_sd: 0.0148
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0117
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0195
+    fundraising_component: 0.0199
     fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.397
-    war_resolved: -0.0223
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3977
+    war_resolved: -0.023
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -171,22 +171,22 @@ results_by_year:
     war: 0.0474
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4793
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.479
     lean_component_sd: 0.0325
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0122
+    fundraising_component: 0.0125
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.6634
-    war_resolved: -0.0241
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6638
+    war_resolved: -0.0245
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -201,22 +201,22 @@ results_by_year:
     war: -0.0474
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3135
     lean_component_sd: 0.0148
-    tide_component: 0.0029
+    tide_component: 0.0026
     tide_component_sd: 0.0124
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.011
+    fundraising_component: 0.0112
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.3886
-    war_resolved: -0.0279
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3892
+    war_resolved: -0.0285
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -240,22 +240,22 @@ results_by_year:
     war: -0.0271
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4793
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.479
     lean_component_sd: 0.0325
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0334
-    fundraising_component_sd: 0.0025
+    fundraising_component: 0.034
+    fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.6848
-    war_resolved: -0.0874
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6855
+    war_resolved: -0.0881
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -270,22 +270,22 @@ results_by_year:
     war: 0.0271
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3135
     lean_component_sd: 0.0148
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0509
+    fundraising_component: 0.0518
     fundraising_component_sd: 0.0039
     demographics_tier: null
-    expected_share_resolved: 0.4285
-    war_resolved: -0.0259
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4296
+    war_resolved: -0.027
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -309,20 +309,20 @@ results_by_year:
     war: 0.5672
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4793
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.479
     lean_component_sd: 0.0325
-    tide_component: 0.0046
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0039
+    fundraising_component: -0.0038
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5734
+    expected_share_resolved: 0.5737
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -331,6 +331,275 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Susan C. Fargo
+    slug: susan-c-fargo
+    party: Democratic
+    votes: 7045
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1777
+    primary_incumbency_component_sd: 0.1056
+    primary_fundraising_component: 0.0409
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.1972
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Sandra B. Martinez
+    slug: sandra-b-martinez
+    party: Republican
+    votes: 4546
+    winner: true
+    actual_primary_share: 0.5828
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0506
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 0.5292
+    primary_war: 0.0536
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Eric Richard Dahlberg
+    slug: eric-richard-dahlberg
+    party: Republican
+    votes: 3254
+    winner: false
+    actual_primary_share: 0.4172
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0631
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.5417
+    primary_war: -0.1245
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Susan C. Fargo
+    slug: susan-c-fargo
+    party: Democratic
+    votes: 9523
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1636
+    primary_incumbency_component_sd: 0.1107
+    primary_fundraising_component: 0.0364
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.1786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sandra B. Martinez
+    slug: sandra-b-martinez
+    party: Republican
+    votes: 1549
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0505
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0291
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Susan C. Fargo
+    slug: susan-c-fargo
+    party: Democratic
+    votes: 18275
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1666
+    primary_incumbency_component_sd: 0.1096
+    primary_fundraising_component: 0.0368
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.182
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sandra B. Martinez
+    slug: sandra-b-martinez
+    party: Republican
+    votes: 1319
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0345
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.0131
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Susan C. Fargo
+    slug: susan-c-fargo
+    party: Democratic
+    votes: 7210
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1643
+    primary_incumbency_component_sd: 0.1104
+    primary_fundraising_component: 0.0766
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 1.2194
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John C. Thibault
+    slug: john-c-thibault
+    party: Republican
+    votes: 1760
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.1093
+    primary_fundraising_component_sd: 0.0064
+    primary_expected_share: 1.0879
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Susan C. Fargo
+    slug: susan-c-fargo
+    party: Democratic
+    votes: 14957
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0067
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.9853
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: Third Middlesex (2001-2010)
 layout: district
 ---

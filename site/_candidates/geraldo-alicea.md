@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.5
   war: 0.0875
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4169
-  lean_component_sd: 0.0283
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4167
+  lean_component_sd: 0.0282
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.004
+  fundraising_component: 0.0042
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.5922
-  war_resolved: -0.0922
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5925
+  war_resolved: -0.0925
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 6th Worcester
+  district_url: /district/house-6th-worcester-2001-2010/
+  party: Democratic
+  votes: 1114
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1645
+  primary_incumbency_component_sd: 0.1025
+  primary_fundraising_component: 0.0215
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1647
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.6047
   war: 0.0637
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4169
-  lean_component_sd: 0.0283
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4167
+  lean_component_sd: 0.0282
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0134
+  fundraising_component: 0.0137
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.6025
-  war_resolved: 0.0022
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6029
+  war_resolved: 0.0018
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 6th Worcester
+  district_url: /district/house-6th-worcester-2001-2010/
+  party: Democratic
+  votes: 1406
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1504
+  primary_incumbency_component_sd: 0.1077
+  primary_fundraising_component: 0.0391
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.1681
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.5483
   war: -0.0338
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4169
-  lean_component_sd: 0.0283
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4167
+  lean_component_sd: 0.0282
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0043
+  fundraising_component: 0.0045
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.5206
-  war_resolved: 0.0277
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5211
+  war_resolved: 0.0272
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 6th Worcester
+  district_url: /district/house-6th-worcester-2001-2010/
+  party: Democratic
+  votes: 1935
+  winner: true
+  actual_primary_share: 0.3106
+  fair_share: 0.2
+  n_candidates: 5
+  primary_baseline_component: 0.1786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.022
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 0.2006
+  primary_war: 0.11
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14566

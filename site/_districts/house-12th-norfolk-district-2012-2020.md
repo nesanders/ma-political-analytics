@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3581
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4132
-    lean_component_sd: 0.0281
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.413
+    lean_component_sd: 0.028
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0084
-    fundraising_component_sd: 0.0006
+    fundraising_component: 0.0087
+    fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.5942
+    expected_share_resolved: 0.5945
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,17 +72,17 @@ results_by_year:
     war: 0.7346
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4132
-    lean_component_sd: 0.0281
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.413
+    lean_component_sd: 0.028
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0046
+    fundraising_component: -0.0045
     fundraising_component_sd: 0.0003
     demographics_tier: null
     expected_share_resolved: 0.5779
@@ -111,22 +111,22 @@ results_by_year:
     war: 0.0667
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4132
-    lean_component_sd: 0.0281
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.413
+    lean_component_sd: 0.028
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.002
+    fundraising_component: 0.0022
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5875
-    war_resolved: 0.0725
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5878
+    war_resolved: 0.0722
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,11 +141,11 @@ results_by_year:
     war: -0.0667
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3698
-    lean_component_sd: 0.0175
-    tide_component: 0.0026
+    lean_component_sd: 0.0174
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -154,9 +154,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4337
-    war_resolved: -0.0937
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.434
+    war_resolved: -0.094
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -179,22 +179,22 @@ results_by_year:
     war: 0.1749
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4132
-    lean_component_sd: 0.0281
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.413
+    lean_component_sd: 0.028
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0028
+    fundraising_component: 0.0029
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5868
-    war_resolved: -0.0056
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.587
+    war_resolved: -0.0058
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -209,11 +209,11 @@ results_by_year:
     war: -0.1749
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3698
-    lean_component_sd: 0.0175
-    tide_component: 0.0038
+    lean_component_sd: 0.0174
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -222,9 +222,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4349
-    war_resolved: -0.0161
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4351
+    war_resolved: -0.0163
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -247,22 +247,22 @@ results_by_year:
     war: 0.0747
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4132
-    lean_component_sd: 0.0281
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.413
+    lean_component_sd: 0.028
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.01
+    fundraising_component: 0.0102
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.5226
-    war_resolved: 0.0846
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5232
+    war_resolved: 0.084
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -277,28 +277,268 @@ results_by_year:
     war: -0.0747
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3698
-    lean_component_sd: 0.0175
-    tide_component: 0.0028
+    lean_component_sd: 0.0174
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0118
+    fundraising_component: 0.0121
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.4458
-    war_resolved: -0.053
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4464
+    war_resolved: -0.0536
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: John H. Rogers
+    slug: john-h-rogers
+    party: Democratic
+    votes: 6587
+    winner: true
+    actual_primary_share: 0.6834
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1439
+    primary_incumbency_component_sd: 0.1099
+    primary_fundraising_component: 0.0297
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 0.6522
+    primary_war: 0.0312
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Michael Eugene Dooley
+    slug: michael-eugene-dooley
+    party: Democratic
+    votes: 3052
+    winner: false
+    actual_primary_share: 0.3166
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0118
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.4668
+    primary_war: -0.1502
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John H. Rogers
+    slug: john-h-rogers
+    party: Democratic
+    votes: 3002
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1935
+    primary_incumbency_component_sd: 0.0936
+    primary_fundraising_component: 0.0054
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1775
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John H. Rogers
+    slug: john-h-rogers
+    party: Democratic
+    votes: 778
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1475
+    primary_incumbency_component_sd: 0.1084
+    primary_fundraising_component: 0.0178
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1439
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tim Hempton
+    slug: tim-hempton
+    party: Republican
+    votes: 316
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John H. Rogers
+    slug: john-h-rogers
+    party: Democratic
+    votes: 2482
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1704
+    primary_incumbency_component_sd: 0.1001
+    primary_fundraising_component: 0.0192
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 1.1681
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tim Hempton
+    slug: tim-hempton
+    party: Republican
+    votes: 888
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John H. Rogers
+    slug: john-h-rogers
+    party: Democratic
+    votes: 1745
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0326
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.0112
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James M. Stanton
+    slug: james-m-stanton
+    party: Republican
+    votes: 1007
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0361
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.0147
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 12th Norfolk District (2012-2020)
 layout: district
 ---

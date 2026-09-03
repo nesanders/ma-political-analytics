@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4547
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4697
-  lean_component_sd: 0.0319
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4694
+  lean_component_sd: 0.0318
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.006
-  demographics_component_sd: 0.0082
-  fundraising_component: 0.0308
+  demographics_component_sd: 0.0081
+  fundraising_component: 0.0314
   fundraising_component_sd: 0.0024
   demographics_tier: core
-  expected_share_resolved: 0.6786
+  expected_share_resolved: 0.6793
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Hampden and Hampshire District
+  district_url: /district/senate-hampden-and-hampshire-district-2022-present/
+  party: Democratic
+  votes: 11129
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1619
+  primary_incumbency_component_sd: 0.1101
+  primary_fundraising_component: 0.0717
+  primary_fundraising_component_sd: 0.0042
+  primary_expected_share: 1.2122
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.657
   war: 0.0929
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4697
-  lean_component_sd: 0.0319
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4694
+  lean_component_sd: 0.0318
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.006
-  demographics_component_sd: 0.0082
-  fundraising_component: 0.0403
+  demographics_component_sd: 0.0081
+  fundraising_component: 0.041
   fundraising_component_sd: 0.0031
   demographics_tier: core
-  expected_share_resolved: 0.6157
-  war_resolved: 0.0413
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6167
+  war_resolved: 0.0403
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Hampden and Hampshire District
+  district_url: /district/senate-hampden-and-hampshire-district-2022-present/
+  party: Democratic
+  votes: 14304
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0894
+  primary_fundraising_component_sd: 0.0052
+  primary_expected_share: 1.068
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,22 +148,22 @@ races:
   winner: true
   actual_two_party_share: 0.6408
   war: 0.0683
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4155
-  lean_component_sd: 0.0282
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4152
+  lean_component_sd: 0.0281
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0337
+  fundraising_component: 0.0343
   fundraising_component_sd: 0.0026
   demographics_tier: null
-  expected_share_resolved: 0.5492
-  war_resolved: 0.0916
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5501
+  war_resolved: 0.0907
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -110,6 +173,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Second Hampden & Hampshire District
+  district_url: /district/senate-second-hampden-hampshire-district-2012-2020/
+  party: Democratic
+  votes: 26196
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0771
+  primary_fundraising_component_sd: 0.0045
+  primary_expected_share: 1.0557
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Second Hampden & Hampshire District
+  district_url: /district/senate-second-hampden-hampshire-district-2012-2020/
+  party: Democratic
+  votes: 20848
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0771
+  primary_fundraising_component_sd: 0.0045
+  primary_expected_share: 1.0557
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,14 +243,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7847
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3556
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3554
   lean_component_sd: 0.0241
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0111
@@ -145,6 +268,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 4th Hampden District
+  district_url: /district/house-4th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 1881
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1813
+  primary_incumbency_component_sd: 0.0909
+  primary_fundraising_component: -0.0068
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.1531
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +310,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5231
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3556
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3554
   lean_component_sd: 0.0241
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0082
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.5197
+  expected_share_resolved: 0.5199
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +335,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 4th Hampden District
+  district_url: /district/house-4th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 1964
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1353
+  primary_incumbency_component_sd: 0.106
+  primary_fundraising_component: -0.0013
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1125
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,22 +377,22 @@ races:
   winner: true
   actual_two_party_share: 0.5891
   war: 0.2209
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3556
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3554
   lean_component_sd: 0.0241
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0141
+  fundraising_component: 0.0145
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.468
-  war_resolved: 0.1211
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4686
+  war_resolved: 0.1205
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -215,6 +402,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 4th Hampden District
+  district_url: /district/house-4th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 1983
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0404
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.019
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 4th Hampden District
+  district_url: /district/house-4th-hampden-district-2012-2020/
+  party: Democratic
+  votes: 393
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0404
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.019
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 15709

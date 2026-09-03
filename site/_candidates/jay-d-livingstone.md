@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2044
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6857
-  lean_component_sd: 0.0466
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6853
+  lean_component_sd: 0.0464
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0069
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0068
   demographics_component_sd: 0.0266
-  fundraising_component: 0.0197
+  fundraising_component: 0.0201
   fundraising_component_sd: 0.0015
   demographics_tier: full
-  expected_share_resolved: 0.8707
+  expected_share_resolved: 0.8711
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 2532
+  winner: true
+  actual_primary_share: 0.8266
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2078
+  primary_incumbency_component_sd: 0.1224
+  primary_fundraising_component: 0.0508
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 0.5705
+  primary_war: 0.2561
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1762
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6857
-  lean_component_sd: 0.0466
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6853
+  lean_component_sd: 0.0464
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0069
+  demographics_component: -0.0068
   demographics_component_sd: 0.0266
-  fundraising_component: 0.0055
+  fundraising_component: 0.0057
   fundraising_component_sd: 0.0004
   demographics_tier: full
-  expected_share_resolved: 0.7841
+  expected_share_resolved: 0.7845
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 3534
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0243
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.0029
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0926
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6918
-  lean_component_sd: 0.047
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6914
+  lean_component_sd: 0.0469
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0144
+  fundraising_component: -0.0145
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.85
+  expected_share_resolved: 0.8498
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 7868
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.203
+  primary_incumbency_component_sd: 0.125
+  primary_fundraising_component: -0.013
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1685
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,17 +215,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3812
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6918
-  lean_component_sd: 0.047
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6914
+  lean_component_sd: 0.0469
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.005
+  fundraising_component: 0.0052
   fundraising_component_sd: 0.0004
   demographics_tier: null
   expected_share_resolved: 0.8661
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 4746
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2526
+  primary_incumbency_component_sd: 0.111
+  primary_fundraising_component: 0.0233
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.2545
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0897
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6918
-  lean_component_sd: 0.047
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6914
+  lean_component_sd: 0.0469
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0425
+  fundraising_component: 0.0432
   fundraising_component_sd: 0.0032
   demographics_tier: null
-  expected_share_resolved: 0.9066
+  expected_share_resolved: 0.9073
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,67 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1534
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2066
+  primary_incumbency_component_sd: 0.1237
+  primary_fundraising_component: 0.0934
+  primary_fundraising_component_sd: 0.0055
+  primary_expected_share: 1.2786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: First Suffolk & Middlesex District
+  district_url: /district/senate-first-suffolk-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2813
+  winner: false
+  actual_primary_share: 0.1803
+  fair_share: 0.1429
+  n_candidates: 7
+  primary_baseline_component: 0.1215
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0934
+  primary_fundraising_component_sd: 0.0055
+  primary_expected_share: 0.2149
+  primary_war: -0.0346
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +378,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2162
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6918
-  lean_component_sd: 0.047
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6914
+  lean_component_sd: 0.0469
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.006
+  fundraising_component: 0.0062
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.7961
+  expected_share_resolved: 0.7964
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +403,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 8th Suffolk District
+  district_url: /district/house-8th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2486
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0253
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.0039
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15581

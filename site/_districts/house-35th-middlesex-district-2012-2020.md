@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2426
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5513
-    lean_component_sd: 0.0374
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.551
+    lean_component_sd: 0.0373
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0267
+    fundraising_component: 0.0272
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.7506
+    expected_share_resolved: 0.7511
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5533
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5513
-    lean_component_sd: 0.0374
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.551
+    lean_component_sd: 0.0373
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0216
-    fundraising_component_sd: 0.0016
+    fundraising_component: 0.0221
+    fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.7423
+    expected_share_resolved: 0.7426
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2676
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5513
-    lean_component_sd: 0.0374
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.551
+    lean_component_sd: 0.0373
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0211
+    fundraising_component: 0.0216
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.7448
+    expected_share_resolved: 0.7452
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3826
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5513
-    lean_component_sd: 0.0374
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.551
+    lean_component_sd: 0.0373
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.018
+    fundraising_component: 0.0184
     fundraising_component_sd: 0.0014
     demographics_tier: null
-    expected_share_resolved: 0.7401
+    expected_share_resolved: 0.7405
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.2991
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5513
-    lean_component_sd: 0.0374
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.551
+    lean_component_sd: 0.0373
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0173
+    fundraising_component: 0.0177
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.6681
+    expected_share_resolved: 0.6687
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,167 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 5250
+    winner: true
+    actual_primary_share: 0.5563
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1732
+    primary_incumbency_component_sd: 0.1166
+    primary_fundraising_component: 0.0639
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.7157
+    primary_war: -0.1594
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Nichole Dawn Mossalam
+    slug: nichole-dawn-mossalam
+    party: Democratic
+    votes: 4188
+    winner: false
+    actual_primary_share: 0.4437
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0578
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 0.5364
+    primary_war: -0.0927
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 3447
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2228
+    primary_incumbency_component_sd: 0.1015
+    primary_fundraising_component: 0.0545
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 1.2559
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 1911
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1768
+    primary_incumbency_component_sd: 0.1153
+    primary_fundraising_component: 0.0535
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 1.2089
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 2826
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1997
+    primary_incumbency_component_sd: 0.1075
+    primary_fundraising_component: 0.0476
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 1.2259
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 1427
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0463
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.0249
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 35th Middlesex District (2012-2020)
 layout: district
 ---

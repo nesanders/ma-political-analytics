@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3535
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5612
-  lean_component_sd: 0.0381
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5609
+  lean_component_sd: 0.038
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0084
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0086
   demographics_component_sd: 0.0452
-  fundraising_component: 0.0259
+  fundraising_component: 0.0264
   fundraising_component_sd: 0.002
   demographics_tier: full
-  expected_share_resolved: 0.7508
+  expected_share_resolved: 0.7512
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Hampden District
+  district_url: /district/senate-hampden-district-2022-present/
+  party: Democratic
+  votes: 7236
+  winner: true
+  actual_primary_share: 0.7062
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1814
+  primary_incumbency_component_sd: 0.1149
+  primary_fundraising_component: 0.0624
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 0.7224
+  primary_war: -0.0162
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.321
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5612
-  lean_component_sd: 0.0381
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5609
+  lean_component_sd: 0.038
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0084
+  demographics_component: -0.0086
   demographics_component_sd: 0.0452
-  fundraising_component: -0.0011
+  fundraising_component: -0.001
   fundraising_component_sd: 0.0001
   demographics_tier: full
-  expected_share_resolved: 0.6515
+  expected_share_resolved: 0.6516
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Hampden District
+  district_url: /district/senate-hampden-district-2022-present/
+  party: Democratic
+  votes: 8980
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0119
+  primary_fundraising_component_sd: 0.0007
+  primary_expected_share: 0.9905
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3368
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5037
-  lean_component_sd: 0.0342
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5034
+  lean_component_sd: 0.0341
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0107
+  fundraising_component: 0.0109
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.6144
+  expected_share_resolved: 0.6149
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Hampden District
+  district_url: /district/senate-hampden-district-2012-2020/
+  party: Democratic
+  votes: 11522
+  winner: true
+  actual_primary_share: 0.5257
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0339
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 0.5125
+  primary_war: 0.0132
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16166

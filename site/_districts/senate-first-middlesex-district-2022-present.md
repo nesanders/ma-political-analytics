@@ -30,14 +30,14 @@ results_by_year:
     war: 0.0791
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4837
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4835
     lean_component_sd: 0.0328
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.001
     demographics_component_sd: 0.0144
     fundraising_component: -0.0093
@@ -45,7 +45,7 @@ results_by_year:
     demographics_tier: full
     expected_share_resolved: 0.6476
     war_resolved: -0.0118
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,11 +62,11 @@ results_by_year:
     war: -0.0791
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3096
+    lean_component: 0.3097
     lean_component_sd: 0.0146
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -75,9 +75,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3747
-    war_resolved: -0.0105
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.375
+    war_resolved: -0.0108
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.4143
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4837
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4835
     lean_component_sd: 0.0328
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.001
     demographics_component_sd: 0.0144
-    fundraising_component: 0.0016
+    fundraising_component: 0.0017
     fundraising_component_sd: 0.0001
     demographics_tier: full
-    expected_share_resolved: 0.5861
+    expected_share_resolved: 0.5865
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -126,6 +126,160 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2026
+  party: Democratic
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Vanna Howard
+    slug: vanna-howard
+    party: Democratic
+    votes: 3339
+    winner: true
+    actual_primary_share: 0.5844
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.1058
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Rodney Michael Elliott
+    slug: rodney-michael-elliott
+    party: Democratic
+    votes: 2375
+    winner: false
+    actual_primary_share: 0.4156
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.063
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2026
+  party: Republican
+  is_special: true
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sam S. Meas
+    slug: sam-s-meas
+    party: Republican
+    votes: 372
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Edward J. Kennedy, Jr
+    slug: edward-j-kennedy
+    party: Democratic
+    votes: 10222
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1649
+    primary_incumbency_component_sd: 0.1108
+    primary_fundraising_component: -0.0035
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 1.1401
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Karla J. Miller
+    slug: karla-j-miller
+    party: Republican
+    votes: 3827
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Edward J. Kennedy, Jr
+    slug: edward-j-kennedy
+    party: Democratic
+    votes: 10538
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0169
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.9955
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 178854
   voting_age_population: 139212

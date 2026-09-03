@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0278
+  fundraising_component: 0.0283
   fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.7532
+  expected_share_resolved: 0.7539
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: First Suffolk District
+  district_url: /district/senate-first-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 7758
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.066
+  primary_fundraising_component_sd: 0.0039
+  primary_expected_share: 1.0446
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -48,20 +79,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2467
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6383
-  lean_component_sd: 0.0433
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6379
+  lean_component_sd: 0.0432
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0249
+  fundraising_component: 0.0254
   fundraising_component_sd: 0.0019
   demographics_tier: null
-  expected_share_resolved: 0.8344
+  expected_share_resolved: 0.8348
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +104,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 11387
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2115
+  primary_incumbency_component_sd: 0.1149
+  primary_fundraising_component: 0.0605
+  primary_fundraising_component_sd: 0.0035
+  primary_expected_share: 1.2506
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -83,20 +146,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1968
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6383
-  lean_component_sd: 0.0433
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6379
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0305
+  fundraising_component: 0.0311
   fundraising_component_sd: 0.0023
   demographics_tier: null
-  expected_share_resolved: 0.841
+  expected_share_resolved: 0.8415
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +171,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 9355
+  winner: true
+  actual_primary_share: 0.9975
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1973
+  primary_incumbency_component_sd: 0.1196
+  primary_fundraising_component: 0.0711
+  primary_fundraising_component_sd: 0.0042
+  primary_expected_share: 0.7471
+  primary_war: 0.2504
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2252
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6383
-  lean_component_sd: 0.0433
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6379
+  lean_component_sd: 0.0432
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0357
+  fundraising_component: 0.0364
   fundraising_component_sd: 0.0027
   demographics_tier: null
-  expected_share_resolved: 0.846
+  expected_share_resolved: 0.8466
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 16052
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2003
+  primary_incumbency_component_sd: 0.1185
+  primary_fundraising_component: 0.0809
+  primary_fundraising_component_sd: 0.0047
+  primary_expected_share: 1.2598
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -153,20 +280,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2168
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6383
-  lean_component_sd: 0.0433
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6379
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.037
+  fundraising_component: 0.0377
   fundraising_component_sd: 0.0028
   demographics_tier: null
-  expected_share_resolved: 0.8475
+  expected_share_resolved: 0.8481
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 11126
+  winner: true
+  actual_primary_share: 0.9976
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.198
+  primary_incumbency_component_sd: 0.1193
+  primary_fundraising_component: 0.0833
+  primary_fundraising_component_sd: 0.0049
+  primary_expected_share: 0.7599
+  primary_war: 0.2377
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -188,22 +347,22 @@ races:
   winner: true
   actual_two_party_share: 0.8569
   war: 0.2027
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6383
-  lean_component_sd: 0.0433
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6379
+  lean_component_sd: 0.0432
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0225
+  fundraising_component: 0.0229
   fundraising_component_sd: 0.0017
   demographics_tier: null
-  expected_share_resolved: 0.7588
-  war_resolved: 0.0981
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7594
+  war_resolved: 0.0975
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -213,6 +372,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 13295
+  winner: true
+  actual_primary_share: 0.8099
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.056
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 0.5346
+  primary_war: 0.2753
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: First Suffolk
+  district_url: /district/senate-first-suffolk-2001-2010/
+  party: Democratic
+  votes: 5271
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.056
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 1.0346
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 13037

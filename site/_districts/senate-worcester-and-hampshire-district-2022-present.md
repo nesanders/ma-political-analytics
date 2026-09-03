@@ -30,22 +30,22 @@ results_by_year:
     war: 0.0918
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3501
     lean_component_sd: 0.0165
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0049
     demographics_component_sd: 0.0067
-    fundraising_component: 0.0243
+    fundraising_component: 0.0248
     fundraising_component_sd: 0.0019
     demographics_tier: core
-    expected_share_resolved: 0.4433
-    war_resolved: 0.1409
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4441
+    war_resolved: 0.1401
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -61,22 +61,22 @@ results_by_year:
     war: -0.0918
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4363
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4361
     lean_component_sd: 0.0296
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0049
     demographics_component_sd: 0.0067
-    fundraising_component: 0.0153
+    fundraising_component: 0.0156
     fundraising_component_sd: 0.0012
     demographics_tier: core
-    expected_share_resolved: 0.5561
-    war_resolved: -0.1403
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5567
+    war_resolved: -0.1409
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,22 +101,22 @@ results_by_year:
     war: 0.0207
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4363
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4361
     lean_component_sd: 0.0296
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0049
     demographics_component_sd: 0.0067
-    fundraising_component: -0.0013
+    fundraising_component: -0.0012
     fundraising_component_sd: 0.0001
     demographics_tier: core
-    expected_share_resolved: 0.5396
-    war_resolved: 0.004
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5401
+    war_resolved: 0.0035
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -132,22 +132,22 @@ results_by_year:
     war: -0.0207
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3501
     lean_component_sd: 0.0165
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0049
     demographics_component_sd: 0.0067
-    fundraising_component: 0.0198
+    fundraising_component: 0.0202
     fundraising_component_sd: 0.0015
     demographics_tier: core
-    expected_share_resolved: 0.4387
-    war_resolved: 0.0177
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4394
+    war_resolved: 0.017
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -155,6 +155,115 @@ results_by_year:
     - District demographics (bachelor's degree %)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sheila H. Dibb
+    slug: sheila-h-dibb
+    party: Democratic
+    votes: 1003
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0426
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.0212
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Peter J. Durant
+    slug: peter-j-durant
+    party: Republican
+    votes: 7488
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0594
+    primary_fundraising_component_sd: 0.0035
+    primary_expected_share: 1.038
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anne M. Gobi
+    slug: anne-m-gobi
+    party: Democratic
+    votes: 13044
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0116
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9902
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Anthony Amorello
+    slug: james-anthony-amorello
+    party: Republican
+    votes: 8149
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.051
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0296
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   median_household_income: 89393
   bachelors_degree_count: 24838

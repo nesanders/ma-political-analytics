@@ -11,7 +11,7 @@ seats_held:
   url: /seat/house-19th-middlesex-district/
   winner_name: David Allen Robertson
   winner_slug: david-allen-robertson
-  war_resolved: 0.0397
+  war_resolved: 0.0393
   war_factors:
   - District lean
   - Statewide tide
@@ -23,7 +23,7 @@ seats_held:
   url: /seat/house-9th-suffolk-district/
   winner_name: John Francis Moran
   winner_slug: john-francis-moran
-  war_resolved: 0.0226
+  war_resolved: 0.0219
   war_factors:
   - District lean
   - Statewide tide
@@ -35,7 +35,7 @@ seats_held:
   url: /seat/house-9th-plymouth-district/
   winner_name: Bridget M. Plouffe
   winner_slug: bridget-m-plouffe
-  war_resolved: 0.0203
+  war_resolved: 0.0198
   war_factors:
   - District lean
   - Statewide tide
@@ -47,7 +47,7 @@ seats_held:
   url: /seat/house-6th-essex-district/
   winner_name: Jerald A. Parisella
   winner_slug: jerald-a-parisella
-  war_resolved: 0.0062
+  war_resolved: 0.0061
   war_factors:
   - District lean
   - Statewide tide
@@ -59,7 +59,7 @@ seats_held:
   url: /seat/house-11th-middlesex-district/
   winner_name: Amy Mah Sangiolo
   winner_slug: amy-mah-sangiolo
-  war_resolved: 0.0024
+  war_resolved: 0.0019
   war_factors:
   - District lean
   - Statewide tide
@@ -71,7 +71,7 @@ seats_held:
   url: /seat/house-8th-bristol-district/
   winner_name: Steven J. Ouellette
   winner_slug: steven-j-ouellette
-  war_resolved: -0.0023
+  war_resolved: -0.0027
   war_factors:
   - District lean
   - Statewide tide
@@ -83,7 +83,7 @@ seats_held:
   url: /seat/house-9th-middlesex-district/
   winner_name: Thomas M. Stanley
   winner_slug: thomas-m-stanley
-  war_resolved: -0.0102
+  war_resolved: -0.0107
   war_factors:
   - District lean
   - Statewide tide
@@ -107,7 +107,7 @@ seats_held:
   url: /seat/house-8th-plymouth-district/
   winner_name: Dennis C. Gallagher
   winner_slug: dennis-c-gallagher
-  war_resolved: -0.0229
+  war_resolved: -0.0235
   war_factors:
   - District lean
   - Statewide tide
@@ -119,7 +119,7 @@ seats_held:
   url: /seat/house-2nd-norfolk-district/
   winner_name: Tackey Chan
   winner_slug: tackey-chan
-  war_resolved: -0.0418
+  war_resolved: -0.0423
   war_factors:
   - District lean
   - Statewide tide
@@ -137,12 +137,24 @@ seats_held:
   - Statewide tide
   - Incumbency
   - District demographics (bachelor's degree %)
+- chamber: house
+  district_name: 13th Middlesex District
+  url: /seat/house-13th-middlesex-district/
+  winner_name: Carmine Lawrence Gentile
+  winner_slug: carmine-lawrence-gentile
+  war_resolved: -0.0553
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
+  - Campaign fundraising
 - chamber: senate
   district_name: Second Essex District
   url: /seat/senate-second-essex-district/
   winner_name: Joan B. Lovely
   winner_slug: joan-b-lovely
-  war_resolved: -0.055
+  war_resolved: -0.0555
   war_factors:
   - District lean
   - Statewide tide
@@ -154,19 +166,7 @@ seats_held:
   url: /seat/house-10th-bristol-district/
   winner_name: Mark David Sylvia
   winner_slug: mark-david-sylvia
-  war_resolved: -0.0551
-  war_factors:
-  - District lean
-  - Statewide tide
-  - Incumbency
-  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
-  - Campaign fundraising
-- chamber: house
-  district_name: 13th Middlesex District
-  url: /seat/house-13th-middlesex-district/
-  winner_name: Carmine Lawrence Gentile
-  winner_slug: carmine-lawrence-gentile
-  war_resolved: -0.0558
+  war_resolved: -0.056
   war_factors:
   - District lean
   - Statewide tide
@@ -178,7 +178,7 @@ seats_held:
   url: /seat/house-1st-plymouth-district/
   winner_name: Michelle L. Badger
   winner_slug: michelle-l-badger
-  war_resolved: -0.0598
+  war_resolved: -0.0604
   war_factors:
   - District lean
   - Statewide tide
@@ -190,7 +190,7 @@ seats_held:
   url: /seat/house-4th-worcester-district/
   winner_name: Natalie Higgins
   winner_slug: natalie-higgins
-  war_resolved: -0.0648
+  war_resolved: -0.065
   war_factors:
   - District lean
   - Statewide tide
@@ -202,7 +202,7 @@ seats_held:
   url: /seat/house-12th-plymouth-district/
   winner_name: Kathleen R. Lanatra
   winner_slug: kathleen-r-lanatra
-  war_resolved: -0.0755
+  war_resolved: -0.076
   war_factors:
   - District lean
   - Statewide tide
@@ -214,7 +214,7 @@ seats_held:
   url: /seat/house-2nd-worcester-district/
   winner_name: Jonathan D. Zlotnik
   winner_slug: jonathan-d-zlotnik
-  war_resolved: -0.078
+  war_resolved: -0.0782
   war_factors:
   - District lean
   - Statewide tide
@@ -226,7 +226,7 @@ seats_held:
   url: /seat/house-2nd-barnstable-district/
   winner_name: Kip A. Diggs
   winner_slug: kip-a-diggs
-  war_resolved: -0.0811
+  war_resolved: -0.0816
   war_factors:
   - District lean
   - Statewide tide
@@ -238,7 +238,7 @@ seats_held:
   url: /seat/house-14th-bristol-district/
   winner_name: Adam J. Scanlon
   winner_slug: adam-j-scanlon
-  war_resolved: -0.0941
+  war_resolved: -0.0944
   war_factors:
   - District lean
   - Statewide tide
@@ -250,7 +250,7 @@ seats_held:
   url: /seat/senate-third-suffolk-district/
   winner_name: Lydia Marie Edwards
   winner_slug: lydia-marie-edwards
-  war_resolved: -0.0962
+  war_resolved: -0.0968
   war_factors:
   - District lean
   - Statewide tide
@@ -262,7 +262,7 @@ seats_held:
   url: /seat/house-10th-norfolk-district/
   winner_name: Jeffrey N. Roy
   winner_slug: jeffrey-n-roy
-  war_resolved: -0.0993
+  war_resolved: -0.0999
   war_factors:
   - District lean
   - Statewide tide
@@ -285,7 +285,7 @@ seats_held:
   url: /seat/senate-plymouth-and-barnstable-district/
   winner_name: Dylan A. Fernandes
   winner_slug: dylan-a-fernandes
-  war_resolved: -0.1116
+  war_resolved: -0.1128
   war_factors:
   - District lean
   - Statewide tide
@@ -297,7 +297,7 @@ seats_held:
   url: /seat/senate-worcester-and-middlesex-district/
   winner_name: John J. Cronin
   winner_slug: john-j-cronin
-  war_resolved: -0.1129
+  war_resolved: -0.1137
   war_factors:
   - District lean
   - Statewide tide
@@ -309,7 +309,7 @@ seats_held:
   url: /seat/house-1st-barnstable-district/
   winner_name: Christopher Richard Flanagan
   winner_slug: christopher-richard-flanagan
-  war_resolved: -0.1287
+  war_resolved: -0.1291
   war_factors:
   - District lean
   - Statewide tide
@@ -321,7 +321,7 @@ seats_held:
   url: /seat/senate-cape-and-islands-district/
   winner_name: Julian Andre Cyr
   winner_slug: julian-andre-cyr
-  war_resolved: -0.1376
+  war_resolved: -0.1385
   war_factors:
   - District lean
   - Statewide tide
@@ -333,7 +333,7 @@ seats_held:
   url: /seat/house-1st-middlesex-district/
   winner_name: Margaret R. Scarsdale
   winner_slug: margaret-r-scarsdale
-  war_resolved: -0.1568
+  war_resolved: -0.1575
   war_factors:
   - District lean
   - Statewide tide
@@ -345,7 +345,7 @@ seats_held:
   url: /seat/house-2nd-essex-district/
   winner_name: Kristin E. Kassner
   winner_slug: kristin-e-kassner
-  war_resolved: -0.1619
+  war_resolved: -0.1624
   war_factors:
   - District lean
   - Statewide tide
@@ -986,6 +986,7 @@ seats_held:
   - Statewide tide
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
+  - Campaign fundraising
 - chamber: house
   district_name: 18th Middlesex District
   url: /seat/house-18th-middlesex-district/

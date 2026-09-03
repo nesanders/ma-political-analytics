@@ -30,20 +30,20 @@ results_by_year:
     war: 0.5078
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3452
+    lean_component: 0.3453
     lean_component_sd: 0.0163
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: 0.0042
     demographics_component_sd: 0.0093
-    fundraising_component: 0.0066
+    fundraising_component: 0.0068
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.5501
+    expected_share_resolved: 0.5503
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,22 +97,22 @@ results_by_year:
     war: 0.0794
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3452
+    lean_component: 0.3453
     lean_component_sd: 0.0163
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0042
     demographics_component_sd: 0.0093
-    fundraising_component: 0.0125
+    fundraising_component: 0.0128
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.4259
-    war_resolved: 0.1176
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4265
+    war_resolved: 0.117
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -129,22 +129,22 @@ results_by_year:
     war: -0.0794
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.442
-    lean_component_sd: 0.03
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4417
+    lean_component_sd: 0.0299
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0042
     demographics_component_sd: 0.0093
-    fundraising_component: 0.0036
+    fundraising_component: 0.0038
     fundraising_component_sd: 0.0003
     demographics_tier: full
-    expected_share_resolved: 0.5495
-    war_resolved: -0.093
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.55
+    war_resolved: -0.0935
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -153,6 +153,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc T. Lombardo
+    slug: marc-t-lombardo
+    party: Republican
+    votes: 1657
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1861
+    primary_incumbency_component_sd: 0.0946
+    primary_fundraising_component: 0.0264
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1911
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Teresa Nicole English
+    slug: teresa-nicole-english
+    party: Democratic
+    votes: 3428
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0208
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.9994
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Marc T. Lombardo
+    slug: marc-t-lombardo
+    party: Republican
+    votes: 2295
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0375
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.0161
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42119
   voting_age_population: 34364

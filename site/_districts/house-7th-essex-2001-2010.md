@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4153
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5332
-    lean_component_sd: 0.0362
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5329
+    lean_component_sd: 0.0361
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0163
-    fundraising_component_sd: 0.0012
+    fundraising_component: 0.0167
+    fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.7208
+    expected_share_resolved: 0.7211
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.3004
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5332
-    lean_component_sd: 0.0362
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5329
+    lean_component_sd: 0.0361
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0108
+    fundraising_component: 0.0111
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.7162
+    expected_share_resolved: 0.7165
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3432
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5332
-    lean_component_sd: 0.0362
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5329
+    lean_component_sd: 0.0361
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0086
+    fundraising_component: 0.0089
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.7138
+    expected_share_resolved: 0.7141
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,22 +150,22 @@ results_by_year:
     war: 0.127
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5332
-    lean_component_sd: 0.0362
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5329
+    lean_component_sd: 0.0361
+    tide_component: 0.0063
     tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0243
-    fundraising_component_sd: 0.0018
+    fundraising_component: 0.0247
+    fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.657
-    war_resolved: 0.158
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6577
+    war_resolved: 0.1573
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,22 +180,22 @@ results_by_year:
     war: -0.127
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2675
     lean_component_sd: 0.0126
-    tide_component: 0.0028
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0406
+    fundraising_component: -0.0411
     fundraising_component_sd: 0.0031
     demographics_tier: null
-    expected_share_resolved: 0.2909
-    war_resolved: -0.1059
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2908
+    war_resolved: -0.1058
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -245,11 +245,11 @@ results_by_year:
     war: 0.4812
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5332
-    lean_component_sd: 0.0362
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5329
+    lean_component_sd: 0.0361
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -258,7 +258,7 @@ results_by_year:
     fundraising_component: -0.0124
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.6189
+    expected_share_resolved: 0.619
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,6 +267,260 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John D. Keenan
+    slug: john-d-keenan-jr
+    party: Democratic
+    votes: 1320
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1892
+    primary_incumbency_component_sd: 0.1086
+    primary_fundraising_component: 0.0445
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.2123
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John D. Keenan
+    slug: john-d-keenan-jr
+    party: Democratic
+    votes: 2096
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1751
+    primary_incumbency_component_sd: 0.1135
+    primary_fundraising_component: 0.0342
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1879
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John D. Keenan
+    slug: john-d-keenan-jr
+    party: Democratic
+    votes: 4865
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.178
+    primary_incumbency_component_sd: 0.1124
+    primary_fundraising_component: 0.0301
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 1.1867
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: John D. Keenan
+    slug: john-d-keenan-jr
+    party: Democratic
+    votes: 3683
+    winner: true
+    actual_primary_share: 0.6041
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0594
+    primary_fundraising_component_sd: 0.0035
+    primary_expected_share: 0.3713
+    primary_war: 0.2328
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Joan B. Lovely
+    slug: joan-b-lovely
+    party: Democratic
+    votes: 2369
+    winner: false
+    actual_primary_share: 0.3886
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0439
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.3559
+    primary_war: 0.0327
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Michael P. Blatty
+    slug: michael-p-blatty
+    party: Democratic
+    votes: 45
+    winner: false
+    actual_primary_share: 0.0074
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: -0.0678
+    primary_war: 0.0752
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Green-Rainbow
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Richard H. Grabowski
+    slug: richard-h-grabowski
+    party: Green-Rainbow
+    votes: 2
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: null
+    primary_baseline_component: null
+    primary_baseline_component_sd: null
+    primary_incumbency_component: null
+    primary_incumbency_component_sd: null
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: null
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors: null
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David B. Summer
+    slug: david-b-summer
+    party: Republican
+    votes: 259
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.062
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.9166
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: J. Michael Ruane
+    slug: j-michael-ruane
+    party: Democratic
+    votes: 4005
+    winner: true
+    actual_primary_share: 0.5862
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0092
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 0.4694
+    primary_war: 0.1168
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Heather B. Pickard
+    slug: heather-b-pickard
+    party: Democratic
+    votes: 2827
+    winner: false
+    actual_primary_share: 0.4138
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0275
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.5061
+    primary_war: -0.0923
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 7th Essex (2001-2010)
 layout: district
 ---

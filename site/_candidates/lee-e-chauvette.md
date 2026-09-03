@@ -1,0 +1,44 @@
+---
+slug: lee-e-chauvette
+name: Lee E. Chauvette
+party: Democratic
+races:
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 2nd Franklin
+  district_url: /district/house-2nd-franklin-2001-2010/
+  party: Democratic
+  votes: 705
+  winner: false
+  actual_primary_share: 0.1742
+  fair_share: 0.2
+  n_candidates: 5
+  primary_baseline_component: 0.1786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0263
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 0.1523
+  primary_war: 0.0219
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+ocpf_finance:
+  cpf_ids:
+  - 14983
+  by_year:
+    2010:
+      total_raised: 8035.0
+      total_spent: 7382.87
+title: Lee E. Chauvette
+layout: candidate
+---

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.5645
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4167
-    lean_component_sd: 0.0197
-    tide_component: 0.0024
+    lean_component: 0.4168
+    lean_component_sd: 0.0196
+    tide_component: 0.0022
     tide_component_sd: 0.0105
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0541
+    fundraising_component: -0.0548
     fundraising_component_sd: 0.0041
     demographics_tier: null
-    expected_share_resolved: 0.5563
+    expected_share_resolved: 0.5557
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.2145
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4167
-    lean_component_sd: 0.0197
-    tide_component: 0.0049
+    lean_component: 0.4168
+    lean_component_sd: 0.0196
+    tide_component: 0.0045
     tide_component_sd: 0.0212
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0344
+    fundraising_component: -0.0348
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.5786
+    expected_share_resolved: 0.578
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,18 +137,18 @@ results_by_year:
     war: 0.5165
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4167
-    lean_component_sd: 0.0197
-    tide_component: 0.0026
+    lean_component: 0.4168
+    lean_component_sd: 0.0196
+    tide_component: 0.0024
     tide_component_sd: 0.0112
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0138
-    fundraising_component_sd: 0.0011
+    fundraising_component: -0.0139
+    fundraising_component_sd: 0.001
     demographics_tier: null
     expected_share_resolved: 0.5968
     war_resolved: null
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.3447
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4167
-    lean_component_sd: 0.0197
-    tide_component: 0.0038
+    lean_component: 0.4168
+    lean_component_sd: 0.0196
+    tide_component: 0.0035
     tide_component_sd: 0.0162
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0339
+    fundraising_component: -0.0343
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.5779
+    expected_share_resolved: 0.5774
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,20 +215,20 @@ results_by_year:
     war: 0.4741
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4167
-    lean_component_sd: 0.0197
-    tide_component: 0.0028
+    lean_component: 0.4168
+    lean_component_sd: 0.0196
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0662
+    fundraising_component: -0.0671
     fundraising_component_sd: 0.005
     demographics_tier: null
-    expected_share_resolved: 0.4146
+    expected_share_resolved: 0.4141
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -237,6 +237,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 2761
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.21
+    primary_incumbency_component_sd: 0.0976
+    primary_fundraising_component: -0.0874
+    primary_fundraising_component_sd: 0.0051
+    primary_expected_share: 1.1013
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 2620
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1604
+    primary_incumbency_component_sd: 0.1132
+    primary_fundraising_component: -0.0504
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0885
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 1118
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2064
+    primary_incumbency_component_sd: 0.0985
+    primary_fundraising_component: -0.0119
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 1.1731
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 1819
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1835
+    primary_incumbency_component_sd: 0.1049
+    primary_fundraising_component: -0.0495
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 1.1126
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 1063
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.11
+    primary_fundraising_component_sd: 0.0064
+    primary_expected_share: 0.8686
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 1st Worcester District (2012-2020)
 layout: district
 ---

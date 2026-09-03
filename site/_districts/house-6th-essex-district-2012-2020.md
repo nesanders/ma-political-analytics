@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3014
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.458
-    lean_component_sd: 0.0311
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4577
+    lean_component_sd: 0.031
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0103
+    fundraising_component: 0.0106
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6409
+    expected_share_resolved: 0.6412
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,20 +98,20 @@ results_by_year:
     war: 0.7033
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.458
-    lean_component_sd: 0.0311
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4577
+    lean_component_sd: 0.031
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0052
+    fundraising_component: 0.0054
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.6325
+    expected_share_resolved: 0.6327
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -163,20 +163,20 @@ results_by_year:
     war: 0.3437
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.458
-    lean_component_sd: 0.0311
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4577
+    lean_component_sd: 0.031
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0069
+    fundraising_component: 0.0071
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6372
+    expected_share_resolved: 0.6375
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -228,17 +228,17 @@ results_by_year:
     war: 0.5411
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.458
-    lean_component_sd: 0.0311
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4577
+    lean_component_sd: 0.031
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0072
+    fundraising_component: -0.0071
     fundraising_component_sd: 0.0005
     demographics_tier: null
     expected_share_resolved: 0.6217
@@ -293,20 +293,20 @@ results_by_year:
     war: 0.4065
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.458
-    lean_component_sd: 0.0311
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4577
+    lean_component_sd: 0.031
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0147
+    fundraising_component: -0.0148
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5427
+    expected_share_resolved: 0.5429
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -315,6 +315,213 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 7201
+    winner: true
+    actual_primary_share: 0.7731
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1534
+    primary_incumbency_component_sd: 0.1119
+    primary_fundraising_component: 0.0333
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 0.6652
+    primary_war: 0.1079
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Richard Canavan-Wagner
+    slug: richard-canavan-wagner
+    party: Democratic
+    votes: 2114
+    winner: false
+    actual_primary_share: 0.2269
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0467
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.4319
+    primary_war: -0.205
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 3193
+    winner: true
+    actual_primary_share: 0.8452
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.203
+    primary_incumbency_component_sd: 0.096
+    primary_fundraising_component: 0.0238
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 0.7054
+    primary_war: 0.1398
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Euplio R. Marciano
+    slug: euplio-r-marciano
+    party: Democratic
+    votes: 585
+    winner: false
+    actual_primary_share: 0.1548
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.0989
+    primary_war: 0.0559
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 1484
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.157
+    primary_incumbency_component_sd: 0.1105
+    primary_fundraising_component: 0.0269
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.1625
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: United Independent Party
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Daniel Fishman
+    slug: daniel-fishman
+    party: United Independent Party
+    votes: 6
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: null
+    primary_baseline_component: null
+    primary_baseline_component_sd: null
+    primary_incumbency_component: null
+    primary_incumbency_component_sd: null
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: null
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors: null
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 2969
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1799
+    primary_incumbency_component_sd: 0.1024
+    primary_fundraising_component: 0.0006
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 1.159
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jerald A. Parisella
+    slug: jerald-a-parisella
+    party: Democratic
+    votes: 2494
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0136
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.965
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 6th Essex District (2012-2020)
 layout: district
 ---

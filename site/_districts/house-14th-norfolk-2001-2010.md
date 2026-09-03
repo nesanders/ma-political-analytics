@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0983
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4651
-    lean_component_sd: 0.0316
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4648
+    lean_component_sd: 0.0315
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0082
+    fundraising_component: 0.0084
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.6446
-    war_resolved: -0.0324
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6448
+    war_resolved: -0.0326
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,11 +63,11 @@ results_by_year:
     war: -0.0983
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3255
-    lean_component_sd: 0.0154
-    tide_component: 0.0034
+    lean_component: 0.3256
+    lean_component_sd: 0.0153
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -76,9 +76,9 @@ results_by_year:
     fundraising_component: -0.0078
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.3824
-    war_resolved: 0.0054
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3827
+    war_resolved: 0.0051
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.3553
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4651
-    lean_component_sd: 0.0316
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4648
+    lean_component_sd: 0.0315
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0207
+    fundraising_component: 0.0211
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.658
+    expected_share_resolved: 0.6585
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.4163
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4651
-    lean_component_sd: 0.0316
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4648
+    lean_component_sd: 0.0315
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0315
+    fundraising_component: -0.0318
     fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.6056
+    expected_share_resolved: 0.6053
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,22 +180,22 @@ results_by_year:
     war: -0.0016
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4651
-    lean_component_sd: 0.0316
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4648
+    lean_component_sd: 0.0315
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0337
+    fundraising_component: 0.0343
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.671
-    war_resolved: -0.0548
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6716
+    war_resolved: -0.0554
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -210,22 +210,22 @@ results_by_year:
     war: 0.0016
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3255
-    lean_component_sd: 0.0154
-    tide_component: 0.0028
+    lean_component: 0.3256
+    lean_component_sd: 0.0153
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0227
+    fundraising_component: 0.0231
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.4122
-    war_resolved: -0.0284
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.413
+    war_resolved: -0.0292
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -249,22 +249,22 @@ results_by_year:
     war: 0.1739
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4651
-    lean_component_sd: 0.0316
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4648
+    lean_component_sd: 0.0315
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0204
+    fundraising_component: 0.0208
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.5836
-    war_resolved: -0.0236
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5842
+    war_resolved: -0.0242
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -279,28 +279,317 @@ results_by_year:
     war: -0.1739
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3255
-    lean_component_sd: 0.0154
-    tide_component: 0.0039
+    lean_component: 0.3256
+    lean_component_sd: 0.0153
+    tide_component: 0.0036
     tide_component_sd: 0.0167
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0083
+    fundraising_component: 0.0086
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.399
-    war_resolved: 0.041
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3995
+    war_resolved: 0.0405
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 2270
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1747
+    primary_incumbency_component_sd: 0.1049
+    primary_fundraising_component: 0.0293
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1827
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Royall H. Switzler
+    slug: royall-h-switzler
+    party: Republican
+    votes: 387
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0007
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 0.9779
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 3291
+    winner: true
+    actual_primary_share: 0.812
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1606
+    primary_incumbency_component_sd: 0.11
+    primary_fundraising_component: 0.0527
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 0.6919
+    primary_war: 0.1201
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Lawrence R. Kaplan
+    slug: lawrence-r-kaplan
+    party: Democratic
+    votes: 762
+    winner: false
+    actual_primary_share: 0.188
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0177
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.4609
+    primary_war: -0.2729
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Royall H. Switzler
+    slug: royall-h-switzler
+    party: Republican
+    votes: 98
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 5397
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1636
+    primary_incumbency_component_sd: 0.1089
+    primary_fundraising_component: -0.045
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.0972
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 1494
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1613
+    primary_incumbency_component_sd: 0.1097
+    primary_fundraising_component: 0.0771
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 1.217
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George P. Field
+    slug: george-p-field
+    party: Republican
+    votes: 361
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0564
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.035
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Alice Hanlon Peisch
+    slug: alice-hanlon-peisch
+    party: Democratic
+    votes: 3390
+    winner: true
+    actual_primary_share: 0.6048
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0521
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 0.5307
+    primary_war: 0.0741
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Lawrence R. Kaplan
+    slug: lawrence-r-kaplan
+    party: Democratic
+    votes: 2215
+    winner: false
+    actual_primary_share: 0.3952
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0211
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.4997
+    primary_war: -0.1045
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George P. Field
+    slug: george-p-field
+    party: Republican
+    votes: 2117
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0295
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0081
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 14th Norfolk (2001-2010)
 layout: district
 ---

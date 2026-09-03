@@ -13,17 +13,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3464
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.489
-  lean_component_sd: 0.0332
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4887
+  lean_component_sd: 0.0331
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0259
+  fundraising_component: -0.0262
   fundraising_component_sd: 0.002
   demographics_tier: null
   expected_share_resolved: 0.5625
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 10th Plymouth District
+  district_url: /district/house-10th-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 1073
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0345
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 0.9441
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -48,14 +79,14 @@ races:
   winner: true
   actual_two_party_share: 0.5615
   war: 0.0375
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.476
-  lean_component_sd: 0.0323
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4757
+  lean_component_sd: 0.0322
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0066
@@ -63,7 +94,7 @@ races:
   demographics_tier: null
   expected_share_resolved: 0.6406
   war_resolved: -0.0791
-  war_resolved_sd: 0.0811
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 10th Plymouth
+  district_url: /district/house-10th-plymouth-2001-2010/
+  party: Democratic
+  votes: 1477
+  winner: true
+  actual_primary_share: 0.5243
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.177
+  primary_incumbency_component_sd: 0.1055
+  primary_fundraising_component: 0.0016
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.6572
+  primary_war: -0.1329
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -83,20 +146,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3701
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.476
-  lean_component_sd: 0.0323
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4757
+  lean_component_sd: 0.0322
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0318
+  fundraising_component: -0.0321
   fundraising_component_sd: 0.0024
   demographics_tier: null
-  expected_share_resolved: 0.6164
+  expected_share_resolved: 0.6161
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +171,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 10th Plymouth
+  district_url: /district/house-10th-plymouth-2001-2010/
+  party: Democratic
+  votes: 1898
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1629
+  primary_incumbency_component_sd: 0.1105
+  primary_fundraising_component: -0.0455
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.096
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4016
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.476
-  lean_component_sd: 0.0323
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4757
+  lean_component_sd: 0.0322
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0194
+  fundraising_component: -0.0195
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.6285
+  expected_share_resolved: 0.6284
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 10th Plymouth
+  district_url: /district/house-10th-plymouth-2001-2010/
+  party: Democratic
+  votes: 3525
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1659
+  primary_incumbency_component_sd: 0.1094
+  primary_fundraising_component: -0.0223
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1222
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -153,14 +280,14 @@ races:
   winner: true
   actual_two_party_share: 0.7061
   war: 0.102
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.476
-  lean_component_sd: 0.0323
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4757
+  lean_component_sd: 0.0322
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0079
@@ -168,7 +295,7 @@ races:
   demographics_tier: null
   expected_share_resolved: 0.6402
   war_resolved: 0.0659
-  war_resolved_sd: 0.0811
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 10th Plymouth
+  district_url: /district/house-10th-plymouth-2001-2010/
+  party: Democratic
+  votes: 1259
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1636
+  primary_incumbency_component_sd: 0.1103
+  primary_fundraising_component: -0.0009
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.1413
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -188,20 +347,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5463
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.476
-  lean_component_sd: 0.0323
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4757
+  lean_component_sd: 0.0322
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0313
+  fundraising_component: -0.0316
   fundraising_component_sd: 0.0024
   demographics_tier: null
-  expected_share_resolved: 0.5427
+  expected_share_resolved: 0.5426
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +372,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 10th Plymouth
+  district_url: /district/house-10th-plymouth-2001-2010/
+  party: Democratic
+  votes: 3119
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0446
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 0.934
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12189

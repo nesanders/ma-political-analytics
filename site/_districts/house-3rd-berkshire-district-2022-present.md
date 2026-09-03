@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2666
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6266
+    lean_component_sd: 0.0425
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0031
     demographics_component_sd: 0.0081
-    fundraising_component: 0.0301
+    fundraising_component: 0.0307
     fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.7535
+    expected_share_resolved: 0.7542
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,20 +97,20 @@ results_by_year:
     war: 0.2528
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.627
-    lean_component_sd: 0.0426
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6266
+    lean_component_sd: 0.0425
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0031
     demographics_component_sd: 0.0081
-    fundraising_component: 0.0141
+    fundraising_component: 0.0144
     fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.7377
+    expected_share_resolved: 0.7382
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -147,6 +147,103 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Leigh Susan Davis
+    slug: leigh-susan-davis
+    party: Democratic
+    votes: 4048
+    winner: true
+    actual_primary_share: 0.5595
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0703
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 0.3823
+    primary_war: 0.1772
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Patrick Thomas White
+    slug: patrick-thomas-white
+    party: Democratic
+    votes: 2713
+    winner: false
+    actual_primary_share: 0.375
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0503
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 0.3622
+    primary_war: 0.0128
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Jamie M. Minacci
+    slug: jamie-m-minacci
+    party: Democratic
+    votes: 474
+    winner: false
+    actual_primary_share: 0.0655
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0539
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.258
+    primary_war: -0.1925
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William "Smitty" Pignatelli
+    slug: william-pignatelli
+    party: Democratic
+    votes: 7971
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0403
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.0189
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 40989
   voting_age_population: 32953

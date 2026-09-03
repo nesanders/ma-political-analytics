@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.8175
   war: 0.0528
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5932
-  lean_component_sd: 0.0403
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5928
+  lean_component_sd: 0.0402
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0596
-  fundraising_component_sd: 0.0045
+  fundraising_component: 0.0606
+  fundraising_component_sd: 0.0046
   demographics_tier: null
-  expected_share_resolved: 0.8251
-  war_resolved: -0.0076
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8261
+  war_resolved: -0.0086
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Hampshire, Franklin & Worcester District
+  district_url: /district/senate-hampshire-franklin-worcester-district-2012-2020/
+  party: Democratic
+  votes: 11429
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1856
+  primary_incumbency_component_sd: 0.1176
+  primary_fundraising_component: 0.1256
+  primary_fundraising_component_sd: 0.0073
+  primary_expected_share: 1.2898
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -48,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3256
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5932
-  lean_component_sd: 0.0403
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5928
+  lean_component_sd: 0.0402
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0421
+  fundraising_component: 0.0428
   fundraising_component_sd: 0.0032
   demographics_tier: null
-  expected_share_resolved: 0.806
+  expected_share_resolved: 0.8067
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Hampshire, Franklin & Worcester District
+  district_url: /district/senate-hampshire-franklin-worcester-district-2012-2020/
+  party: Democratic
+  votes: 13138
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2085
+  primary_incumbency_component_sd: 0.1101
+  primary_fundraising_component: 0.0927
+  primary_fundraising_component_sd: 0.0054
+  primary_expected_share: 1.2798
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2267
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5932
-  lean_component_sd: 0.0403
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5928
+  lean_component_sd: 0.0402
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0171
+  fundraising_component: 0.0175
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.7097
+  expected_share_resolved: 0.7103
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Hampshire, Franklin & Worcester District
+  district_url: /district/senate-hampshire-franklin-worcester-district-2012-2020/
+  party: Democratic
+  votes: 14168
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.046
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.0246
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2557
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6271
-  lean_component_sd: 0.0426
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6268
+  lean_component_sd: 0.0425
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0133
+  fundraising_component: 0.0136
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.8117
+  expected_share_resolved: 0.812
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  district_url: /district/senate-hampshire-and-franklin-2001-2010/
+  party: Democratic
+  votes: 15086
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2091
+  primary_incumbency_component_sd: 0.1142
+  primary_fundraising_component: 0.0389
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.2266
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -153,22 +280,22 @@ races:
   winner: true
   actual_two_party_share: 0.8365
   war: 0.0578
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6271
-  lean_component_sd: 0.0426
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6268
+  lean_component_sd: 0.0425
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0268
-  fundraising_component_sd: 0.002
+  fundraising_component: 0.0273
+  fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.8261
-  war_resolved: 0.0104
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8266
+  war_resolved: 0.0099
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  district_url: /district/senate-hampshire-and-franklin-2001-2010/
+  party: Democratic
+  votes: 10150
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.195
+  primary_incumbency_component_sd: 0.1189
+  primary_fundraising_component: 0.0641
+  primary_fundraising_component_sd: 0.0038
+  primary_expected_share: 1.2377
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -188,22 +347,22 @@ races:
   winner: true
   actual_two_party_share: 0.8461
   war: 0.0689
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6271
-  lean_component_sd: 0.0426
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6268
+  lean_component_sd: 0.0425
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0191
+  fundraising_component: 0.0194
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.8182
-  war_resolved: 0.0279
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8185
+  war_resolved: 0.0276
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  district_url: /district/senate-hampshire-and-franklin-2001-2010/
+  party: Democratic
+  votes: 19931
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.198
+  primary_incumbency_component_sd: 0.1179
+  primary_fundraising_component: 0.0496
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.2262
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -223,22 +414,22 @@ races:
   winner: true
   actual_two_party_share: 0.8355
   war: 0.0909
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6271
-  lean_component_sd: 0.0426
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6268
+  lean_component_sd: 0.0425
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0281
+  fundraising_component: 0.0286
   fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.8273
-  war_resolved: 0.0082
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8278
+  war_resolved: 0.0077
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  district_url: /district/senate-hampshire-and-franklin-2001-2010/
+  party: Democratic
+  votes: 7358
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1956
+  primary_incumbency_component_sd: 0.1187
+  primary_fundraising_component: 0.0665
+  primary_fundraising_component_sd: 0.0039
+  primary_expected_share: 1.2407
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -258,20 +481,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3421
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6271
-  lean_component_sd: 0.0426
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6268
+  lean_component_sd: 0.0425
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0137
-  fundraising_component_sd: 0.001
+  fundraising_component: 0.014
+  fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.7389
+  expected_share_resolved: 0.7393
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -283,6 +506,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  district_url: /district/senate-hampshire-and-franklin-2001-2010/
+  party: Democratic
+  votes: 20357
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0396
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.0182
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 11155

@@ -33,17 +33,17 @@ results_by_year:
     war: 0.1995
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6066
-    lean_component_sd: 0.0412
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6063
+    lean_component_sd: 0.0411
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0026
+    fundraising_component: -0.0025
     fundraising_component_sd: 0.0002
     demographics_tier: null
     expected_share_resolved: 0.7766
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4571
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6066
-    lean_component_sd: 0.0412
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6063
+    lean_component_sd: 0.0411
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0109
+    fundraising_component: 0.0112
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.7143
+    expected_share_resolved: 0.7146
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2209
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6066
-    lean_component_sd: 0.0412
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6063
+    lean_component_sd: 0.0411
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0003
+    fundraising_component: 0.0005
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.7793
+    expected_share_resolved: 0.7794
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,17 +150,17 @@ results_by_year:
     war: 0.3146
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6066
-    lean_component_sd: 0.0412
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6063
+    lean_component_sd: 0.0411
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0014
+    fundraising_component: 0.0016
     fundraising_component_sd: 0.0001
     demographics_tier: null
     expected_share_resolved: 0.7789
@@ -189,12 +189,12 @@ results_by_year:
     war: 0.2263
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6066
-    lean_component_sd: 0.0412
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6063
+    lean_component_sd: 0.0411
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -202,7 +202,7 @@ results_by_year:
     fundraising_component: -0.0035
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7025
+    expected_share_resolved: 0.7028
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,166 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Lindsay N. Sabadosa
+    slug: lindsay-n-sabadosa
+    party: Democratic
+    votes: 12585
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1849
+    primary_incumbency_component_sd: 0.1198
+    primary_fundraising_component: 0.0091
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1726
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Lindsay N. Sabadosa
+    slug: lindsay-n-sabadosa
+    party: Democratic
+    votes: 6488
+    winner: true
+    actual_primary_share: 0.5899
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0344
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 0.513
+    primary_war: 0.0769
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Diana M. Szynal
+    slug: diana-m-szynal
+    party: Democratic
+    votes: 4510
+    winner: false
+    actual_primary_share: 0.4101
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0333
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 0.5119
+    primary_war: -0.1018
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Peter V. Kocot
+    slug: peter-v-kocot
+    party: Democratic
+    votes: 3689
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1885
+    primary_incumbency_component_sd: 0.1184
+    primary_fundraising_component: 0.0146
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.1817
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Peter V. Kocot
+    slug: peter-v-kocot
+    party: Democratic
+    votes: 4328
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2114
+    primary_incumbency_component_sd: 0.1109
+    primary_fundraising_component: 0.0166
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.2066
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Peter V. Kocot
+    slug: peter-v-kocot
+    party: Democratic
+    votes: 3851
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0074
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.986
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 1st Hampshire District (2012-2020)
 layout: district
 ---

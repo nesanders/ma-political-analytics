@@ -33,20 +33,20 @@ results_by_year:
     war: 0.27
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5711
-    lean_component_sd: 0.0388
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5707
+    lean_component_sd: 0.0387
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0064
+    fundraising_component: 0.0066
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6774
+    expected_share_resolved: 0.6779
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,14 +98,14 @@ results_by_year:
     war: 0.5717
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5711
-    lean_component_sd: 0.0388
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5707
+    lean_component_sd: 0.0387
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0068
@@ -137,14 +137,14 @@ results_by_year:
     war: 0.2283
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5711
-    lean_component_sd: 0.0388
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5707
+    lean_component_sd: 0.0387
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0045
@@ -202,12 +202,12 @@ results_by_year:
     war: 0.3574
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5711
-    lean_component_sd: 0.0388
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5707
+    lean_component_sd: 0.0387
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -215,7 +215,7 @@ results_by_year:
     fundraising_component: -0.0056
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.6636
+    expected_share_resolved: 0.6638
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,12 +267,12 @@ results_by_year:
     war: 0.2011
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5711
-    lean_component_sd: 0.0388
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5707
+    lean_component_sd: 0.0387
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -280,7 +280,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6705
+    expected_share_resolved: 0.6707
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -314,6 +314,268 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Orlando Ramos
+    slug: orlando-ramos
+    party: Democratic
+    votes: 3300
+    winner: true
+    actual_primary_share: 0.47
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.026
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.3379
+    primary_war: 0.1321
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Denise Marie Hurst
+    slug: denise-marie-hurst
+    party: Democratic
+    votes: 2742
+    winner: false
+    actual_primary_share: 0.3905
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0241
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 0.336
+    primary_war: 0.0545
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Sean Mullan
+    slug: sean-mullan
+    party: Democratic
+    votes: 980
+    winner: false
+    actual_primary_share: 0.1396
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0152
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.3271
+    primary_war: -0.1875
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jose F. Tosado
+    slug: jose-f-tosado
+    party: Democratic
+    votes: 2628
+    winner: true
+    actual_primary_share: 0.8156
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.227
+    primary_incumbency_component_sd: 0.1027
+    primary_fundraising_component: 0.0012
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.7068
+    primary_war: 0.1088
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Mark A. Kenyon
+    slug: mark-a-kenyon
+    party: Democratic
+    votes: 594
+    winner: false
+    actual_primary_share: 0.1844
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1313
+    primary_fundraising_component_sd: 0.0077
+    primary_expected_share: 0.3473
+    primary_war: -0.1629
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jose F. Tosado
+    slug: jose-f-tosado
+    party: Democratic
+    votes: 2788
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.181
+    primary_incumbency_component_sd: 0.1164
+    primary_fundraising_component: 0.0055
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1651
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Jose F. Tosado
+    slug: jose-f-tosado
+    party: Democratic
+    votes: 1386
+    winner: true
+    actual_primary_share: 0.4185
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0034
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.3154
+    primary_war: 0.1031
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Peter Murphy
+    slug: peter-murphy
+    party: Democratic
+    votes: 1053
+    winner: false
+    actual_primary_share: 0.3179
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0159
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.3278
+    primary_war: -0.0099
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Edward W. Collins, Jr.
+    slug: edward-w-collins-jr
+    party: Democratic
+    votes: 873
+    winner: false
+    actual_primary_share: 0.2636
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.0483
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Sean Curran
+    slug: sean-curran
+    party: Democratic
+    votes: 2500
+    winner: true
+    actual_primary_share: 0.7423
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.2637
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Joseph R. Fountain
+    slug: joseph-r-fountain
+    party: Democratic
+    votes: 868
+    winner: false
+    actual_primary_share: 0.2577
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1554
+    primary_fundraising_component_sd: 0.0091
+    primary_expected_share: 0.3232
+    primary_war: -0.0655
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 9th Hampden District (2012-2020)
 layout: district
 ---

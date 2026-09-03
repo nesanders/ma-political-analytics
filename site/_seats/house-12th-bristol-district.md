@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4509
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3896
-    lean_component_sd: 0.0184
-    tide_component: 0.0027
+    lean_component_sd: 0.0183
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0046
-    demographics_component_sd: 0.007
-    fundraising_component: -0.0623
+    demographics_component: 0.0047
+    demographics_component_sd: 0.0069
+    fundraising_component: -0.0631
     fundraising_component_sd: 0.0047
     demographics_tier: full
-    expected_share_resolved: 0.5259
+    expected_share_resolved: 0.5252
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.4701
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3896
-    lean_component_sd: 0.0184
-    tide_component: 0.0026
+    lean_component_sd: 0.0183
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0046
-    demographics_component_sd: 0.007
-    fundraising_component: -0.0798
+    demographics_component: 0.0047
+    demographics_component_sd: 0.0069
+    fundraising_component: -0.0808
     fundraising_component_sd: 0.0061
     demographics_tier: full
-    expected_share_resolved: 0.3783
+    expected_share_resolved: 0.3777
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Norman J. Orrall
+    slug: norman-j-orrall
+    party: Republican
+    votes: 1685
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1972
+    primary_incumbency_component_sd: 0.0973
+    primary_fundraising_component: -0.1027
+    primary_fundraising_component_sd: 0.006
+    primary_expected_share: 1.0731
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David A. French, III
+    slug: david-a-french-iii
+    party: Democratic
+    votes: 75
+    winner: false
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Norman J. Orrall
+    slug: norman-j-orrall
+    party: Republican
+    votes: 2009
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1354
+    primary_fundraising_component_sd: 0.0079
+    primary_expected_share: 0.8432
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41599
   voting_age_population: 32885

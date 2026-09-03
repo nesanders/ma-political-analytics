@@ -30,22 +30,22 @@ results_by_year:
     war: 0.068
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5466
-    lean_component_sd: 0.0371
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5463
+    lean_component_sd: 0.037
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.004
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0228
+    fundraising_component: 0.0233
     fundraising_component_sd: 0.0017
     demographics_tier: full
-    expected_share_resolved: 0.7375
-    war_resolved: -0.0418
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.738
+    war_resolved: -0.0423
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.068
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2561
     lean_component_sd: 0.0121
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.004
     demographics_component_sd: 0.0102
-    fundraising_component: -0.0534
+    fundraising_component: -0.0541
     fundraising_component_sd: 0.0041
     demographics_tier: full
-    expected_share_resolved: 0.2627
-    war_resolved: 0.0416
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2623
+    war_resolved: 0.042
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.0431
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5466
-    lean_component_sd: 0.0371
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5463
+    lean_component_sd: 0.037
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.004
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0289
+    fundraising_component: 0.0294
     fundraising_component_sd: 0.0022
     demographics_tier: full
-    expected_share_resolved: 0.6712
-    war_resolved: 0.0347
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.672
+    war_resolved: 0.0339
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -135,22 +135,22 @@ results_by_year:
     war: -0.0431
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2561
     lean_component_sd: 0.0121
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.004
     demographics_component_sd: 0.0102
-    fundraising_component: -0.0468
+    fundraising_component: -0.0474
     fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.2691
-    war_resolved: 0.025
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2689
+    war_resolved: 0.0252
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -159,6 +159,116 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tackey Chan
+    slug: tackey-chan
+    party: Democratic
+    votes: 3824
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1782
+    primary_incumbency_component_sd: 0.1141
+    primary_fundraising_component: 0.0567
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.2135
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sharon Marie Cintolo
+    slug: sharon-marie-cintolo
+    party: Republican
+    votes: 1030
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.086
+    primary_fundraising_component_sd: 0.005
+    primary_expected_share: 0.8926
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tackey Chan
+    slug: tackey-chan
+    party: Democratic
+    votes: 3956
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0681
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 1.0467
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sharon Marie Cintolo
+    slug: sharon-marie-cintolo
+    party: Republican
+    votes: 1006
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0737
+    primary_fundraising_component_sd: 0.0043
+    primary_expected_share: 0.9049
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43173
   voting_age_population: 36230

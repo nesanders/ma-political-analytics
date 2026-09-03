@@ -34,6 +34,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -65,6 +67,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 title: Carolyn A. Kamuda
 layout: candidate
 ---

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3787
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5343
-    lean_component_sd: 0.0363
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.534
+    lean_component_sd: 0.0362
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0374
-    fundraising_component_sd: 0.0029
+    fundraising_component: -0.0379
+    fundraising_component_sd: 0.0028
     demographics_tier: null
-    expected_share_resolved: 0.6694
+    expected_share_resolved: 0.6691
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5674
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5343
-    lean_component_sd: 0.0363
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.534
+    lean_component_sd: 0.0362
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0082
+    fundraising_component: 0.0084
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.7118
+    expected_share_resolved: 0.7119
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.3316
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5343
-    lean_component_sd: 0.0363
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.534
+    lean_component_sd: 0.0362
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0039
+    fundraising_component: 0.004
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7105
+    expected_share_resolved: 0.7107
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.3376
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5343
-    lean_component_sd: 0.0363
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.534
+    lean_component_sd: 0.0362
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0083
+    fundraising_component: 0.0085
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.7134
+    expected_share_resolved: 0.7136
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,20 +215,20 @@ results_by_year:
     war: 0.2302
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5343
-    lean_component_sd: 0.0363
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.534
+    lean_component_sd: 0.0362
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.002
-    fundraising_component_sd: 0.0002
+    fundraising_component: -0.0019
+    fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6317
+    expected_share_resolved: 0.632
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -237,6 +237,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio F.D. Cabral
+    slug: antonio-fd-cabral
+    party: Democratic
+    votes: 4796
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1696
+    primary_incumbency_component_sd: 0.1157
+    primary_fundraising_component: -0.0561
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.0921
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio F.D. Cabral
+    slug: antonio-fd-cabral
+    party: Democratic
+    votes: 1890
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2192
+    primary_incumbency_component_sd: 0.1004
+    primary_fundraising_component: 0.0293
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.2271
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio F.D. Cabral
+    slug: antonio-fd-cabral
+    party: Democratic
+    votes: 691
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1732
+    primary_incumbency_component_sd: 0.1143
+    primary_fundraising_component: 0.0212
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.1729
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio F.D. Cabral
+    slug: antonio-fd-cabral
+    party: Democratic
+    votes: 1993
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.196
+    primary_incumbency_component_sd: 0.1065
+    primary_fundraising_component: 0.0295
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.2041
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Antonio F.D. Cabral
+    slug: antonio-fd-cabral
+    party: Democratic
+    votes: 2777
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0102
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9888
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 13th Bristol District (2012-2020)
 layout: district
 ---

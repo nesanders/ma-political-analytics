@@ -13,12 +13,12 @@ races:
   winner: true
   actual_two_party_share: 0.5635
   war: 0.0032
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4717
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4714
   lean_component_sd: 0.032
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0036
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: full
-  expected_share_resolved: 0.5678
-  war_resolved: -0.0043
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5681
+  war_resolved: -0.0046
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Plymouth and Barnstable District
+  district_url: /district/senate-plymouth-and-barnstable-district-2022-present/
+  party: Democratic
+  votes: 20356
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -48,12 +78,12 @@ races:
   winner: true
   actual_two_party_share: 0.5631
   war: -0.0216
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3827
-  lean_component_sd: 0.026
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3825
+  lean_component_sd: 0.0259
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -61,9 +91,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4827
-  war_resolved: 0.0804
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.483
+  war_resolved: 0.0801
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -72,6 +102,64 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  district_url: /district/senate-plymouth-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 28989
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  district_url: /district/senate-plymouth-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 8894
+  winner: true
+  actual_primary_share: 0.2697
+  fair_share: 0.2
+  n_candidates: 5
+  primary_baseline_component: 0.1786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.1786
+  primary_war: 0.0911
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 title: Susan Lynn Moran
 layout: candidate
 ---

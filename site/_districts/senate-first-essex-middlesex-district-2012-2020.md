@@ -33,18 +33,18 @@ results_by_year:
     war: 0.6227
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.384
+    lean_component: 0.3841
     lean_component_sd: 0.0181
-    tide_component: 0.0024
+    tide_component: 0.0022
     tide_component_sd: 0.0105
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0073
-    fundraising_component_sd: 0.0006
+    fundraising_component_sd: 0.0005
     demographics_tier: null
     expected_share_resolved: 0.5705
     war_resolved: null
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.2405
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.384
+    lean_component: 0.3841
     lean_component_sd: 0.0181
-    tide_component: 0.0049
+    tide_component: 0.0045
     tide_component_sd: 0.0212
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0106
+    fundraising_component: 0.0108
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.5908
+    expected_share_resolved: 0.5909
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.5738
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.384
+    lean_component: 0.3841
     lean_component_sd: 0.0181
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0171
+    fundraising_component: 0.0175
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.595
+    expected_share_resolved: 0.5954
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3922
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.384
+    lean_component: 0.3841
     lean_component_sd: 0.0181
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0145
+    fundraising_component: 0.0148
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5936
+    expected_share_resolved: 0.5939
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.5119
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.384
+    lean_component: 0.3841
     lean_component_sd: 0.0181
-    tide_component: 0.0028
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0153
+    fundraising_component: 0.0156
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.4634
+    expected_share_resolved: 0.4641
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 10126
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2019
+    primary_incumbency_component_sd: 0.0955
+    primary_fundraising_component: 0.0003
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 1.1808
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 9548
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1522
+    primary_incumbency_component_sd: 0.1113
+    primary_fundraising_component: 0.0337
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1646
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 2597
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1983
+    primary_incumbency_component_sd: 0.0963
+    primary_fundraising_component: 0.046
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.2228
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 6295
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1754
+    primary_incumbency_component_sd: 0.1029
+    primary_fundraising_component: 0.0411
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.1951
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce E. Tarr
+    slug: bruce-e-tarr
+    party: Republican
+    votes: 5213
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0426
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.0212
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: First Essex & Middlesex District (2012-2020)
 layout: district
 ---

@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.4571
   war: 0.051
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3899
   lean_component_sd: 0.0184
-  tide_component: 0.0024
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0244
+  fundraising_component: 0.0249
   fundraising_component_sd: 0.0019
   demographics_tier: null
-  expected_share_resolved: 0.608
-  war_resolved: -0.1509
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6085
+  war_resolved: -0.1514
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 2nd Barnstable District
+  district_url: /district/house-2nd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2671
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2033
+  primary_incumbency_component_sd: 0.0959
+  primary_fundraising_component: 0.0597
+  primary_fundraising_component_sd: 0.0035
+  primary_expected_share: 1.2416
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.5204
   war: -0.2411
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3899
   lean_component_sd: 0.0184
-  tide_component: 0.0049
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.025
+  fundraising_component: 0.0255
   fundraising_component_sd: 0.0019
   demographics_tier: null
-  expected_share_resolved: 0.6111
-  war_resolved: -0.0907
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6114
+  war_resolved: -0.091
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 2nd Barnstable District
+  district_url: /district/house-2nd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2697
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1537
+  primary_incumbency_component_sd: 0.1117
+  primary_fundraising_component: 0.0607
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 1.193
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.548
   war: 0.0899
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3899
   lean_component_sd: 0.0184
-  tide_component: 0.0026
+  tide_component: 0.0024
   tide_component_sd: 0.0112
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0277
+  fundraising_component: 0.0282
   fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.4815
-  war_resolved: 0.0665
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4823
+  war_resolved: 0.0657
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 2nd Barnstable District
+  district_url: /district/house-2nd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2015
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0658
+  primary_fundraising_component_sd: 0.0039
+  primary_expected_share: 1.0444
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -118,22 +213,22 @@ races:
   winner: false
   actual_two_party_share: 0.4404
   war: -0.0915
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.378
-  lean_component_sd: 0.0179
-  tide_component: 0.0029
+  lean_component: 0.3781
+  lean_component_sd: 0.0178
+  tide_component: 0.0026
   tide_component_sd: 0.0124
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.013
+  fundraising_component: 0.0133
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.4552
-  war_resolved: -0.0148
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4558
+  war_resolved: -0.0154
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +238,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 2nd Barnstable
+  district_url: /district/house-2nd-barnstable-2001-2010/
+  party: Republican
+  votes: 1300
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0383
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.0169
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14535

@@ -30,20 +30,20 @@ results_by_year:
     war: 0.403
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5048
-    lean_component_sd: 0.0343
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5045
+    lean_component_sd: 0.0342
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.012
-    demographics_component_sd: 0.0225
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0122
+    demographics_component_sd: 0.0224
     fundraising_component: -0.0063
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.6586
+    expected_share_resolved: 0.6585
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: -0.0521
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5048
-    lean_component_sd: 0.0343
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5045
+    lean_component_sd: 0.0342
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.012
-    demographics_component_sd: 0.0225
-    fundraising_component: 0.0176
+    demographics_component: -0.0122
+    demographics_component_sd: 0.0224
+    fundraising_component: 0.018
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.6101
-    war_resolved: -0.0672
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6105
+    war_resolved: -0.0676
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: 0.0521
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2917
-    lean_component_sd: 0.0138
-    tide_component: 0.0026
+    lean_component: 0.2918
+    lean_component_sd: 0.0137
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.012
-    demographics_component_sd: 0.0225
-    fundraising_component: 0.0157
+    demographics_component: -0.0122
+    demographics_component_sd: 0.0224
+    fundraising_component: 0.0161
     fundraising_component_sd: 0.0012
     demographics_tier: full
-    expected_share_resolved: 0.3593
-    war_resolved: 0.0978
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3599
+    war_resolved: 0.0972
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -127,6 +127,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Adrianne Pusateri Ramos
+    slug: adrianne-pusateri-ramos
+    party: Democratic
+    votes: 3402
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1694
+    primary_incumbency_component_sd: 0.1119
+    primary_fundraising_component: 0.0022
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1502
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Adrianne Ramos
+    slug: adrianne-pusateri-ramos
+    party: Democratic
+    votes: 4565
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0469
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.0255
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph G. Finn
+    slug: joseph-g-finn
+    party: Republican
+    votes: 2298
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0434
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.022
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 47705
   voting_age_population: 37574

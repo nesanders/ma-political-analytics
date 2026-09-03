@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3419
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4262
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4259
     lean_component_sd: 0.0289
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0122
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.5865
+    expected_share_resolved: 0.5866
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,17 +72,17 @@ results_by_year:
     war: 0.7294
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4262
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4259
     lean_component_sd: 0.0289
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0063
+    fundraising_component: -0.0062
     fundraising_component_sd: 0.0005
     demographics_tier: null
     expected_share_resolved: 0.5892
@@ -111,22 +111,22 @@ results_by_year:
     war: -0.0239
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4262
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4259
     lean_component_sd: 0.0289
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0106
+    fundraising_component: 0.0109
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6091
-    war_resolved: -0.0232
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6095
+    war_resolved: -0.0236
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,22 +141,22 @@ results_by_year:
     war: 0.0239
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3587
+    lean_component: 0.3588
     lean_component_sd: 0.0169
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0002
+    fundraising_component: -0.0001
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.4225
-    war_resolved: -0.0084
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4229
+    war_resolved: -0.0088
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,22 +180,22 @@ results_by_year:
     war: 0.0895
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4262
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4259
     lean_component_sd: 0.0289
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0091
+    fundraising_component: 0.0094
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.6061
-    war_resolved: -0.0834
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6064
+    war_resolved: -0.0837
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -210,22 +210,22 @@ results_by_year:
     war: -0.0895
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3587
+    lean_component: 0.3588
     lean_component_sd: 0.0169
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0037
+    fundraising_component: -0.0036
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.4201
-    war_resolved: 0.0572
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4204
+    war_resolved: 0.0569
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -249,22 +249,22 @@ results_by_year:
     war: 0.0086
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4262
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4259
     lean_component_sd: 0.0289
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0041
+    fundraising_component: -0.004
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5215
-    war_resolved: 0.0313
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5219
+    war_resolved: 0.0309
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -279,11 +279,11 @@ results_by_year:
     war: -0.0086
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3587
+    lean_component: 0.3588
     lean_component_sd: 0.0169
-    tide_component: 0.0028
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -292,15 +292,278 @@ results_by_year:
     fundraising_component: -0.0089
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.414
-    war_resolved: 0.0332
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4143
+    war_resolved: 0.0329
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 8601
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1466
+    primary_incumbency_component_sd: 0.1104
+    primary_fundraising_component: -0.0088
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1164
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 3120
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1963
+    primary_incumbency_component_sd: 0.0943
+    primary_fundraising_component: 0.0022
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1771
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 1049
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1502
+    primary_incumbency_component_sd: 0.109
+    primary_fundraising_component: 0.0338
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1627
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul Girouard, Jr
+    slug: paul-girouard-jr
+    party: Republican
+    votes: 377
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0136
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.9922
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 2732
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1731
+    primary_incumbency_component_sd: 0.1008
+    primary_fundraising_component: 0.031
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 1.1828
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul Girouard, Jr
+    slug: paul-girouard-jr
+    party: Republican
+    votes: 737
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0071
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.9857
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Kenneth I. Gordon
+    slug: kenneth-i-gordon
+    party: Democratic
+    votes: 919
+    winner: true
+    actual_primary_share: 0.4112
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0063
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.3183
+    primary_war: 0.0929
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Charles A. Murphy
+    slug: charles-a-murphy
+    party: Democratic
+    votes: 724
+    winner: false
+    actual_primary_share: 0.3239
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0062
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.3182
+    primary_war: 0.0057
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Dave Fionda
+    slug: dave-fionda
+    party: Democratic
+    votes: 592
+    winner: false
+    actual_primary_share: 0.2649
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0052
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.3172
+    primary_war: -0.0523
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Walter Zenkin
+    slug: walter-zenkin
+    party: Republican
+    votes: 652
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0027
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9759
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 21st Middlesex District (2012-2020)
 layout: district
 ---

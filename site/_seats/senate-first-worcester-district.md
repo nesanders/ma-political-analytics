@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3597
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.551
-    lean_component_sd: 0.0374
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5507
+    lean_component_sd: 0.0373
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0017
     demographics_component_sd: 0.0182
-    fundraising_component: 0.0227
+    fundraising_component: 0.0231
     fundraising_component_sd: 0.0017
     demographics_tier: full
-    expected_share_resolved: 0.7441
+    expected_share_resolved: 0.7446
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.339
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.551
-    lean_component_sd: 0.0374
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5507
+    lean_component_sd: 0.0373
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0017
     demographics_component_sd: 0.0182
-    fundraising_component: 0.0408
+    fundraising_component: 0.0415
     fundraising_component_sd: 0.0031
     demographics_tier: full
-    expected_share_resolved: 0.6898
+    expected_share_resolved: 0.6907
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,82 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robyn K. Kennedy
+    slug: robyn-k-kennedy
+    party: Democratic
+    votes: 9078
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1792
+    primary_incumbency_component_sd: 0.1143
+    primary_fundraising_component: 0.0564
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.2142
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Robyn K. Kennedy
+    slug: robyn-k-kennedy
+    party: Democratic
+    votes: 8082
+    winner: true
+    actual_primary_share: 0.5568
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0903
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 0.5689
+    primary_war: -0.0121
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Joseph M. Petty
+    slug: joseph-m-petty
+    party: Democratic
+    votes: 6434
+    winner: false
+    actual_primary_share: 0.4432
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0354
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   total_population: 189806
   voting_age_population: 152170

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2397
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.556
-    lean_component_sd: 0.0378
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5557
+    lean_component_sd: 0.0377
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0057
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.7228
+    expected_share_resolved: 0.7229
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,17 +72,17 @@ results_by_year:
     war: 0.5502
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.556
-    lean_component_sd: 0.0378
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5557
+    lean_component_sd: 0.0377
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0065
+    fundraising_component: -0.0064
     fundraising_component_sd: 0.0005
     demographics_tier: null
     expected_share_resolved: 0.7188
@@ -111,14 +111,14 @@ results_by_year:
     war: 0.259
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.556
-    lean_component_sd: 0.0378
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5557
+    lean_component_sd: 0.0377
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.005
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3922
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.556
-    lean_component_sd: 0.0378
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5557
+    lean_component_sd: 0.0377
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0276
+    fundraising_component: 0.0281
     fundraising_component_sd: 0.0021
     demographics_tier: null
-    expected_share_resolved: 0.6817
+    expected_share_resolved: 0.6824
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -215,27 +215,187 @@ results_by_year:
     war: 0.2763
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.556
-    lean_component_sd: 0.0378
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5557
+    lean_component_sd: 0.0377
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: null
-    fundraising_component_sd: null
+    fundraising_component: -0.0034
+    fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.6554
+    expected_share_resolved: 0.6522
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Steven Ultrino
+    slug: steven-ultrino
+    party: Democratic
+    votes: 6072
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1742
+    primary_incumbency_component_sd: 0.1169
+    primary_fundraising_component: 0.0033
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 1.156
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Steven Ultrino
+    slug: steven-ultrino
+    party: Democratic
+    votes: 2520
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2238
+    primary_incumbency_component_sd: 0.1018
+    primary_fundraising_component: 0.0019
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.2043
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Steven Ultrino
+    slug: steven-ultrino
+    party: Democratic
+    votes: 980
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1778
+    primary_incumbency_component_sd: 0.1155
+    primary_fundraising_component: 0.0045
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1609
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Steven Ultrino
+    slug: steven-ultrino
+    party: Democratic
+    votes: 2254
+    winner: true
+    actual_primary_share: 0.6087
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0655
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 0.5441
+    primary_war: 0.0646
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Neil C. Kinnon
+    slug: neil-c-kinnon
+    party: Democratic
+    votes: 1449
+    winner: false
+    actual_primary_share: 0.3913
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0873
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Christopher G. Fallon
+    slug: christopher-g-fallon
+    party: Democratic
+    votes: 1095
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0074
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.986
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 33rd Middlesex District (2012-2020)
 layout: district
 ---

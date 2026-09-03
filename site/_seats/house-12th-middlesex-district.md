@@ -30,20 +30,20 @@ results_by_year:
     war: 0.168
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.7072
-    lean_component_sd: 0.048
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.7067
+    lean_component_sd: 0.0479
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0046
     demographics_component_sd: 0.0257
-    fundraising_component: 0.032
+    fundraising_component: 0.0326
     fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.8433
+    expected_share_resolved: 0.844
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.162
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.7072
-    lean_component_sd: 0.048
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.7067
+    lean_component_sd: 0.0479
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0046
     demographics_component_sd: 0.0257
     fundraising_component: -0.0059
-    fundraising_component_sd: 0.0005
+    fundraising_component_sd: 0.0004
     demographics_tier: full
-    expected_share_resolved: 0.8056
+    expected_share_resolved: 0.8057
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,103 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Greg Schwartz
+    slug: greg-schwartz
+    party: Democratic
+    votes: 3424
+    winner: true
+    actual_primary_share: 0.3993
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0738
+    primary_fundraising_component_sd: 0.0043
+    primary_expected_share: 0.3858
+    primary_war: 0.0135
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Bill Humphrey
+    slug: bill-humphrey
+    party: Democratic
+    votes: 2609
+    winner: false
+    actual_primary_share: 0.3042
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.039
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 0.351
+    primary_war: -0.0468
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Rick Lipof
+    slug: rick-lipof
+    party: Democratic
+    votes: 2543
+    winner: false
+    actual_primary_share: 0.2965
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0633
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.3752
+    primary_war: -0.0787
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ruth B. Balser
+    slug: ruth-b-balser
+    party: Democratic
+    votes: 6265
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0029
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9815
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41632
   voting_age_population: 32889

@@ -13,11 +13,11 @@ races:
   winner: false
   actual_two_party_share: 0.1754
   war: -0.029
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.1374
   lean_component_sd: 0.0065
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0118
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: full
-  expected_share_resolved: 0.1909
-  war_resolved: -0.0155
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.1913
+  war_resolved: -0.0159
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 9th Suffolk District
+  district_url: /district/house-9th-suffolk-district-2022-present/
+  party: Republican
+  votes: 179
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -69,6 +99,260 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 361
+  winner: false
+  actual_primary_share: 0.0774
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.2286
+  primary_war: -0.1512
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Second Suffolk District
+  district_url: /district/senate-second-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1859
+  winner: false
+  actual_primary_share: 0.2013
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: -0.2773
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 5th Suffolk District
+  district_url: /district/house-5th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 89
+  winner: false
+  actual_primary_share: 0.0456
+  fair_share: 0.1667
+  n_candidates: 6
+  primary_baseline_component: 0.1453
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.1453
+  primary_war: -0.0997
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Second Suffolk District
+  district_url: /district/senate-second-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2584
+  winner: false
+  actual_primary_share: 0.1916
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: -0.287
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Second Suffolk District
+  district_url: /district/senate-second-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1773
+  winner: false
+  actual_primary_share: 0.1661
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: -0.3125
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Democratic
+  votes: 226
+  winner: false
+  actual_primary_share: 0.1117
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.2286
+  primary_war: -0.1169
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Democratic
+  votes: 711
+  winner: false
+  actual_primary_share: 0.3301
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: -0.1485
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Democratic
+  votes: 900
+  winner: false
+  actual_primary_share: 0.2642
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.3119
+  primary_war: -0.0477
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 5th Suffolk
+  district_url: /district/house-5th-suffolk-2001-2010/
+  party: Democratic
+  votes: 28
+  winner: false
+  actual_primary_share: 0.0162
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: -0.4624
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 title: Roy A. Owens
 layout: candidate
 ---

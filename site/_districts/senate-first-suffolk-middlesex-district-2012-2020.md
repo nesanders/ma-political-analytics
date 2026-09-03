@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2279
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5721
-    lean_component_sd: 0.0388
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5717
+    lean_component_sd: 0.0387
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0336
+    fundraising_component: 0.0342
     fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.7782
+    expected_share_resolved: 0.7788
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5346
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5721
-    lean_component_sd: 0.0388
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5717
+    lean_component_sd: 0.0387
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0367
+    fundraising_component: 0.0374
     fundraising_component_sd: 0.0028
     demographics_tier: null
-    expected_share_resolved: 0.7781
+    expected_share_resolved: 0.7786
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.2347
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5721
-    lean_component_sd: 0.0388
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5717
+    lean_component_sd: 0.0387
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0414
+    fundraising_component: 0.0421
     fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.7132
+    expected_share_resolved: 0.7141
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.3742
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5721
-    lean_component_sd: 0.0388
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5717
+    lean_component_sd: 0.0387
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0292
+    fundraising_component: 0.0297
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.7721
+    expected_share_resolved: 0.7726
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,22 +189,22 @@ results_by_year:
     war: 0.067
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5721
-    lean_component_sd: 0.0388
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5717
+    lean_component_sd: 0.0387
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0309
+    fundraising_component: 0.0315
     fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.7024
-    war_resolved: 0.1136
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7032
+    war_resolved: 0.1128
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -219,11 +219,11 @@ results_by_year:
     war: -0.067
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2343
-    lean_component_sd: 0.0111
-    tide_component: 0.0028
+    lean_component: 0.2344
+    lean_component_sd: 0.011
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -232,14 +232,350 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2984
-    war_resolved: -0.1144
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2988
+    war_resolved: -0.1148
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph A. Boncore
+    slug: joseph-a-boncore
+    party: Democratic
+    votes: 24370
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1776
+    primary_incumbency_component_sd: 0.1178
+    primary_fundraising_component: 0.0768
+    primary_fundraising_component_sd: 0.0045
+    primary_expected_share: 1.233
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Joseph A. Boncore
+    slug: joseph-a-boncore
+    party: Democratic
+    votes: 12447
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2272
+    primary_incumbency_component_sd: 0.1028
+    primary_fundraising_component: 0.0827
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 1.2885
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Joseph A. Boncore
+    slug: joseph-a-boncore
+    party: Democratic
+    votes: 5042
+    winner: true
+    actual_primary_share: 0.9913
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0914
+    primary_fundraising_component_sd: 0.0054
+    primary_expected_share: 0.57
+    primary_war: 0.4213
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Claudia P. Sierra
+    slug: claudia-p-sierra
+    party: Democratic
+    votes: 44
+    winner: false
+    actual_primary_share: 0.0087
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.4699
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2016
+  party: Democratic
+  is_special: true
+  n_candidates: 7
+  is_contested: true
+  candidates:
+  - name: Joseph A. Boncore
+    slug: joseph-a-boncore
+    party: Democratic
+    votes: 4013
+    winner: true
+    actual_primary_share: 0.2572
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0914
+    primary_fundraising_component_sd: 0.0054
+    primary_expected_share: 0.2129
+    primary_war: 0.0443
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Daniel Rizzo
+    slug: daniel-rizzo
+    party: Democratic
+    votes: 3628
+    winner: false
+    actual_primary_share: 0.2325
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1215
+    primary_war: 0.111
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Jay D. Livingstone
+    slug: jay-d-livingstone
+    party: Democratic
+    votes: 2813
+    winner: false
+    actual_primary_share: 0.1803
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0934
+    primary_fundraising_component_sd: 0.0055
+    primary_expected_share: 0.2149
+    primary_war: -0.0346
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Lydia Marie Edwards
+    slug: lydia-marie-edwards
+    party: Democratic
+    votes: 2280
+    winner: false
+    actual_primary_share: 0.1461
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0694
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 0.1909
+    primary_war: -0.0448
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Diana Hwang
+    slug: diana-hwang
+    party: Democratic
+    votes: 2085
+    winner: false
+    actual_primary_share: 0.1336
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0901
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 0.2116
+    primary_war: -0.078
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Steven Morabito
+    slug: steven-morabito
+    party: Democratic
+    votes: 607
+    winner: false
+    actual_primary_share: 0.0389
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.1215
+    primary_war: -0.0826
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Paul A. Rogers
+    slug: paul-a-rogers
+    party: Democratic
+    votes: 175
+    winner: false
+    actual_primary_share: 0.0112
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.1429
+    primary_baseline_component: 0.1215
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0542
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.0672
+    primary_war: -0.056
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anthony W. Petruccelli
+    slug: anthony-w-petruccelli
+    party: Democratic
+    votes: 8853
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2041
+    primary_incumbency_component_sd: 0.1088
+    primary_fundraising_component: 0.0686
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 1.2513
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anthony W. Petruccelli
+    slug: anthony-w-petruccelli
+    party: Democratic
+    votes: 6836
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0718
+    primary_fundraising_component_sd: 0.0042
+    primary_expected_share: 1.0504
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Thomas J. Dooley, III
+    slug: thomas-j-dooley-iii
+    party: Republican
+    votes: 937
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: First Suffolk & Middlesex District (2012-2020)
 layout: district
 ---

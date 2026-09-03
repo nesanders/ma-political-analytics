@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3281
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5854
-    lean_component_sd: 0.0397
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.585
+    lean_component_sd: 0.0396
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0089
-    demographics_component_sd: 0.0437
-    fundraising_component: 0.0091
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.009
+    demographics_component_sd: 0.0436
+    fundraising_component: 0.0093
     fundraising_component_sd: 0.0007
     demographics_tier: full
-    expected_share_resolved: 0.7578
+    expected_share_resolved: 0.7579
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.2896
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5854
-    lean_component_sd: 0.0397
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.585
+    lean_component_sd: 0.0396
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0089
-    demographics_component_sd: 0.0437
-    fundraising_component: 0.0026
+    demographics_component: -0.009
+    demographics_component_sd: 0.0436
+    fundraising_component: 0.0027
     fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.6788
+    expected_share_resolved: 0.679
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,104 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 1768
+    winner: true
+    actual_primary_share: 0.5372
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1865
+    primary_incumbency_component_sd: 0.1163
+    primary_fundraising_component: 0.031
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.6961
+    primary_war: -0.1589
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Johnnie Rs McKnight
+    slug: johnnie-rs-mcknight
+    party: Democratic
+    votes: 1523
+    winner: false
+    actual_primary_share: 0.4628
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0108
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.4894
+    primary_war: -0.0266
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 1798
+    winner: true
+    actual_primary_share: 0.6392
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0188
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 0.4974
+    primary_war: 0.1418
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Jynai McDonald
+    slug: jynai-mcdonald
+    party: Democratic
+    votes: 1015
+    winner: false
+    actual_primary_share: 0.3608
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0471
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 0.4315
+    primary_war: -0.0707
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41667
   voting_age_population: 31671

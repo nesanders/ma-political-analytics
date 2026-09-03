@@ -30,20 +30,20 @@ results_by_year:
     war: 0.1963
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6917
-    lean_component_sd: 0.047
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6913
+    lean_component_sd: 0.0468
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0044
+    demographics_component: -0.0045
     demographics_component_sd: 0.0163
-    fundraising_component: 0.0203
-    fundraising_component_sd: 0.0015
+    fundraising_component: 0.0207
+    fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.8071
+    expected_share_resolved: 0.8076
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.1702
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6917
-    lean_component_sd: 0.047
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6913
+    lean_component_sd: 0.0468
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0044
+    demographics_component: -0.0045
     demographics_component_sd: 0.0163
-    fundraising_component: 0.0173
+    fundraising_component: 0.0176
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.8042
+    expected_share_resolved: 0.8047
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,61 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William Macgregor
+    slug: william-macgregor
+    party: Democratic
+    votes: 5266
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.052
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0306
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Edward Francis Coppinger
+    slug: edward-francis-coppinger
+    party: Democratic
+    votes: 7235
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0463
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.0249
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41210
   voting_age_population: 33209

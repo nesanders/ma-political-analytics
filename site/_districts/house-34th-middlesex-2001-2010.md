@@ -33,20 +33,20 @@ results_by_year:
     war: 0.304
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5973
-    lean_component_sd: 0.0406
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.597
+    lean_component_sd: 0.0405
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0094
+    fundraising_component: 0.0096
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.7779
+    expected_share_resolved: 0.7782
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -98,20 +98,20 @@ results_by_year:
     war: 0.2449
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5973
-    lean_component_sd: 0.0406
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.597
+    lean_component_sd: 0.0405
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0329
+    fundraising_component: 0.0335
     fundraising_component_sd: 0.0025
     demographics_tier: null
-    expected_share_resolved: 0.8024
+    expected_share_resolved: 0.803
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.2812
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5973
-    lean_component_sd: 0.0406
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.597
+    lean_component_sd: 0.0405
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0286
+    fundraising_component: -0.0288
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.7407
+    expected_share_resolved: 0.7404
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -176,20 +176,20 @@ results_by_year:
     war: 0.2435
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5973
-    lean_component_sd: 0.0406
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.597
+    lean_component_sd: 0.0405
+    tide_component: 0.0063
     tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0209
+    fundraising_component: 0.0213
     fundraising_component_sd: 0.0016
     demographics_tier: null
-    expected_share_resolved: 0.7177
+    expected_share_resolved: 0.7183
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,11 +241,11 @@ results_by_year:
     war: 0.4001
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5973
-    lean_component_sd: 0.0406
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.597
+    lean_component_sd: 0.0405
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -254,7 +254,7 @@ results_by_year:
     fundraising_component: -0.0064
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.689
+    expected_share_resolved: 0.6891
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -263,6 +263,188 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carl M. Sciortino, Jr.
+    slug: carl-m-sciortino-jr
+    party: Democratic
+    votes: 1714
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2028
+    primary_incumbency_component_sd: 0.1124
+    primary_fundraising_component: 0.0315
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 1.2129
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Carl M. Sciortino, Jr.
+    slug: carl-m-sciortino-jr
+    party: Democratic
+    votes: 2678
+    winner: true
+    actual_primary_share: 0.547
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1887
+    primary_incumbency_component_sd: 0.1171
+    primary_fundraising_component: 0.0756
+    primary_fundraising_component_sd: 0.0044
+    primary_expected_share: 0.7429
+    primary_war: -0.1959
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Robert C. Trane
+    slug: robert-c-trane
+    party: Democratic
+    votes: 2218
+    winner: false
+    actual_primary_share: 0.453
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0442
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.5228
+    primary_war: -0.0698
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carl M. Sciortino, Jr.
+    slug: carl-m-sciortino-jr
+    party: Democratic
+    votes: 4052
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1916
+    primary_incumbency_component_sd: 0.1161
+    primary_fundraising_component: -0.0395
+    primary_fundraising_component_sd: 0.0023
+    primary_expected_share: 1.1308
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Carl M. Sciortino, Jr.
+    slug: carl-m-sciortino-jr
+    party: Democratic
+    votes: 2311
+    winner: true
+    actual_primary_share: 0.5103
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.053
+    primary_fundraising_component_sd: 0.0031
+    primary_expected_share: 0.5316
+    primary_war: -0.0213
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Vincent Paul Ciampa
+    slug: vincent-paul-ciampa
+    party: Democratic
+    votes: 2218
+    winner: false
+    actual_primary_share: 0.4897
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1893
+    primary_incumbency_component_sd: 0.1169
+    primary_fundraising_component: 0.0167
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.6846
+    primary_war: -0.1949
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vincent Paul Ciampa
+    slug: vincent-paul-ciampa
+    party: Democratic
+    votes: 3669
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.002
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.9806
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 34th Middlesex (2001-2010)
 layout: district
 ---

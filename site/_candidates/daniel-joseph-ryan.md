@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1626
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6953
-  lean_component_sd: 0.0472
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6949
+  lean_component_sd: 0.0471
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0197
-  demographics_component_sd: 0.0355
-  fundraising_component: 0.0288
+  demographics_component: -0.0199
+  demographics_component_sd: 0.0354
+  fundraising_component: 0.0294
   fundraising_component_sd: 0.0022
   demographics_tier: full
-  expected_share_resolved: 0.8042
+  expected_share_resolved: 0.8047
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2022-present/
+  party: Democratic
+  votes: 3052
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0679
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 1.0465
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -49,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1905
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6201
-  lean_component_sd: 0.0421
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6197
+  lean_component_sd: 0.042
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0374
-  fundraising_component_sd: 0.0028
+  fundraising_component: 0.038
+  fundraising_component_sd: 0.0029
   demographics_tier: null
-  expected_share_resolved: 0.83
+  expected_share_resolved: 0.8307
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -74,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 4397
+  winner: true
+  actual_primary_share: 0.5753
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1877
+  primary_incumbency_component_sd: 0.1205
+  primary_fundraising_component: 0.0839
+  primary_fundraising_component_sd: 0.0049
+  primary_expected_share: 0.7503
+  primary_war: -0.175
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -84,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4857
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6201
-  lean_component_sd: 0.0421
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6197
+  lean_component_sd: 0.042
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0142
+  fundraising_component: 0.0145
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.8036
+  expected_share_resolved: 0.8037
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -109,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 3398
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2374
+  primary_incumbency_component_sd: 0.106
+  primary_fundraising_component: 0.0405
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.2565
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -119,20 +214,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1631
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6201
-  lean_component_sd: 0.0421
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6197
+  lean_component_sd: 0.042
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0072
-  fundraising_component_sd: 0.0005
+  fundraising_component: 0.0074
+  fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.7996
+  expected_share_resolved: 0.7998
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -144,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1207
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1914
+  primary_incumbency_component_sd: 0.1192
+  primary_fundraising_component: 0.0274
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.1973
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -154,20 +281,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3115
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6201
-  lean_component_sd: 0.0421
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6197
+  lean_component_sd: 0.042
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0375
+  fundraising_component: 0.0382
   fundraising_component_sd: 0.0029
   demographics_tier: null
-  expected_share_resolved: 0.7558
+  expected_share_resolved: 0.7566
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -179,6 +306,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2549
+  winner: true
+  actual_primary_share: 0.6666
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0842
+  primary_fundraising_component_sd: 0.0049
+  primary_expected_share: 0.5628
+  primary_war: 0.1038
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 2nd Suffolk District
+  district_url: /district/house-2nd-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2291
+  winner: true
+  actual_primary_share: 0.5889
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0842
+  primary_fundraising_component_sd: 0.0049
+  primary_expected_share: 0.3961
+  primary_war: 0.1928
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 15544

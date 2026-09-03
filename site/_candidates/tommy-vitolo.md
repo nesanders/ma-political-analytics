@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1285
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7394
-  lean_component_sd: 0.0502
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.739
+  lean_component_sd: 0.0501
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.0016
   demographics_component_sd: 0.0054
-  fundraising_component: 0.0236
+  fundraising_component: 0.024
   fundraising_component_sd: 0.0018
   demographics_tier: full
-  expected_share_resolved: 0.9367
+  expected_share_resolved: 0.9371
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 15th Norfolk District
+  district_url: /district/house-15th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 4297
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2191
+  primary_incumbency_component_sd: 0.126
+  primary_fundraising_component: 0.0581
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 1.2559
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1253
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7394
-  lean_component_sd: 0.0502
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.739
+  lean_component_sd: 0.0501
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0016
   demographics_component_sd: 0.0054
-  fundraising_component: 0.0366
+  fundraising_component: 0.0373
   fundraising_component_sd: 0.0028
   demographics_tier: full
-  expected_share_resolved: 0.8774
+  expected_share_resolved: 0.8782
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 15th Norfolk District
+  district_url: /district/house-15th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 4796
+  winner: true
+  actual_primary_share: 0.6273
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0825
+  primary_fundraising_component_sd: 0.0048
+  primary_expected_share: 0.5611
+  primary_war: 0.0662
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1119
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6431
-  lean_component_sd: 0.0437
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6427
+  lean_component_sd: 0.0436
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0073
+  fundraising_component: 0.0075
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.8229
+  expected_share_resolved: 0.8231
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 15th Norfolk District
+  district_url: /district/house-15th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 9353
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1926
+  primary_incumbency_component_sd: 0.1219
+  primary_fundraising_component: 0.0276
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.1989
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4599
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6431
-  lean_component_sd: 0.0437
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6427
+  lean_component_sd: 0.0436
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0211
+  fundraising_component: 0.0216
   fundraising_component_sd: 0.0016
   demographics_tier: null
-  expected_share_resolved: 0.7609
+  expected_share_resolved: 0.7614
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 15th Norfolk District
+  district_url: /district/house-15th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 3898
+  winner: true
+  actual_primary_share: 0.557
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0535
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 0.5321
+  primary_war: 0.0249
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16893

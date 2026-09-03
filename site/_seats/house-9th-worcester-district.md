@@ -30,20 +30,20 @@ results_by_year:
     war: 0.5637
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.313
-    lean_component_sd: 0.0148
-    tide_component: 0.0027
+    lean_component_sd: 0.0147
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0018
     demographics_component_sd: 0.0067
-    fundraising_component: -0.0364
+    fundraising_component: -0.0368
     fundraising_component_sd: 0.0028
     demographics_tier: full
-    expected_share_resolved: 0.3423
+    expected_share_resolved: 0.3422
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.5695
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.313
-    lean_component_sd: 0.0148
-    tide_component: 0.0026
+    lean_component_sd: 0.0147
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0018
     demographics_component_sd: 0.0067
-    fundraising_component: -0.0215
+    fundraising_component: -0.0217
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.3571
+    expected_share_resolved: 0.3573
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,61 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David Kent Muradian, Jr
+    slug: david-kent-muradian-jr
+    party: Republican
+    votes: 1597
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0542
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.9244
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David K. Muradian, Jr
+    slug: david-k-muradian-jr
+    party: Republican
+    votes: 1955
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0263
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.9523
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43999
   voting_age_population: 34350

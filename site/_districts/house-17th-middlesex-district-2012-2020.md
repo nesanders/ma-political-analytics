@@ -33,26 +33,27 @@ results_by_year:
     war: 0.3325
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4766
-    lean_component_sd: 0.0324
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4764
+    lean_component_sd: 0.0323
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: null
-    fundraising_component_sd: null
+    fundraising_component: 0.009
+    fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.5766
+    expected_share_resolved: 0.5859
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
+    - Campaign fundraising
   is_open_seat: true
 - year: 2018
   lean_dem_share: 0.327
@@ -71,20 +72,20 @@ results_by_year:
     war: 0.673
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4766
-    lean_component_sd: 0.0324
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4764
+    lean_component_sd: 0.0323
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0224
+    fundraising_component: 0.0228
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.6683
+    expected_share_resolved: 0.6687
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -110,20 +111,20 @@ results_by_year:
     war: 0.3299
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4766
-    lean_component_sd: 0.0324
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4764
+    lean_component_sd: 0.0323
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.015
-    fundraising_component_sd: 0.0011
+    fundraising_component: 0.0154
+    fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.664
+    expected_share_resolved: 0.6644
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -149,20 +150,20 @@ results_by_year:
     war: 0.4971
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4766
-    lean_component_sd: 0.0324
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4764
+    lean_component_sd: 0.0323
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0266
+    fundraising_component: 0.0271
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.6741
+    expected_share_resolved: 0.6746
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -188,22 +189,22 @@ results_by_year:
     war: 0.1216
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4766
-    lean_component_sd: 0.0324
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4764
+    lean_component_sd: 0.0323
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0164
+    fundraising_component: 0.0168
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.5925
-    war_resolved: 0.1755
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5931
+    war_resolved: 0.1749
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -218,28 +219,237 @@ results_by_year:
     war: -0.1216
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3157
     lean_component_sd: 0.0149
-    tide_component: 0.0028
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0448
+    fundraising_component: -0.0453
     fundraising_component_sd: 0.0034
     demographics_tier: null
-    expected_share_resolved: 0.3351
-    war_resolved: -0.1031
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3348
+    war_resolved: -0.1028
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Vanna Howard
+    slug: vanna-howard
+    party: Democratic
+    votes: 2724
+    winner: true
+    actual_primary_share: 0.439
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0304
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.3423
+    primary_war: 0.0967
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: David M. Nangle
+    slug: david-m-nangle
+    party: Democratic
+    votes: 1986
+    winner: false
+    actual_primary_share: 0.3201
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1573
+    primary_incumbency_component_sd: 0.1128
+    primary_fundraising_component: 0.0316
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.5008
+    primary_war: -0.1807
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Lisa K. Arnold
+    slug: lisa-k-arnold
+    party: Democratic
+    votes: 1495
+    winner: false
+    actual_primary_share: 0.2409
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0403
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 0.3522
+    primary_war: -0.1113
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David M. Nangle
+    slug: david-m-nangle
+    party: Democratic
+    votes: 3559
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.207
+    primary_incumbency_component_sd: 0.097
+    primary_fundraising_component: 0.0559
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.2414
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David M. Nangle
+    slug: david-m-nangle
+    party: Democratic
+    votes: 1102
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1609
+    primary_incumbency_component_sd: 0.1114
+    primary_fundraising_component: 0.0421
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.1816
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David M. Nangle
+    slug: david-m-nangle
+    party: Democratic
+    votes: 1869
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1838
+    primary_incumbency_component_sd: 0.1033
+    primary_fundraising_component: 0.0638
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 1.2262
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David M. Nangle
+    slug: david-m-nangle
+    party: Democratic
+    votes: 815
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0447
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 1.0233
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Martin D. Burke
+    slug: martin-d-burke
+    party: Republican
+    votes: 399
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0698
+    primary_fundraising_component_sd: 0.0041
+    primary_expected_share: 0.9088
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 17th Middlesex District (2012-2020)
 layout: district
 ---

@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0639
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4102
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4099
     lean_component_sd: 0.0278
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0234
+    fundraising_component: 0.0238
     fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.6061
-    war_resolved: 0.0747
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6067
+    war_resolved: 0.0741
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.0639
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3724
-    lean_component_sd: 0.0176
-    tide_component: 0.0024
+    lean_component_sd: 0.0175
+    tide_component: 0.0022
     tide_component_sd: 0.0105
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.014
+    fundraising_component: -0.0141
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.4221
-    war_resolved: -0.1029
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4224
+    war_resolved: -0.1032
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -128,20 +128,20 @@ results_by_year:
     war: 0.7285
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4102
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4099
     lean_component_sd: 0.0278
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0138
+    fundraising_component: -0.0139
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.5657
+    expected_share_resolved: 0.5656
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -167,20 +167,20 @@ results_by_year:
     war: 0.4321
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4102
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4099
     lean_component_sd: 0.0278
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0047
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.5777
+    expected_share_resolved: 0.5779
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -206,22 +206,22 @@ results_by_year:
     war: 0.1656
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4102
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4099
     lean_component_sd: 0.0278
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.004
+    fundraising_component: 0.0041
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5849
-    war_resolved: -0.0
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5852
+    war_resolved: -0.0003
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -236,11 +236,11 @@ results_by_year:
     war: -0.1656
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3724
-    lean_component_sd: 0.0176
-    tide_component: 0.0038
+    lean_component_sd: 0.0175
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -249,9 +249,9 @@ results_by_year:
     fundraising_component: -0.005
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.4324
-    war_resolved: -0.0173
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4327
+    war_resolved: -0.0176
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -275,12 +275,12 @@ results_by_year:
     war: 0.4541
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4102
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4099
     lean_component_sd: 0.0278
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -288,7 +288,7 @@ results_by_year:
     fundraising_component: -0.0022
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5073
+    expected_share_resolved: 0.5077
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -323,6 +323,221 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: James Michael Murphy
+    slug: james-michael-murphy
+    party: Democratic
+    votes: 6401
+    winner: true
+    actual_primary_share: 0.675
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1432
+    primary_incumbency_component_sd: 0.1097
+    primary_fundraising_component: 0.0577
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 0.6796
+    primary_war: -0.0046
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Melissa B. Smith
+    slug: melissa-b-smith
+    party: Democratic
+    votes: 3082
+    winner: false
+    actual_primary_share: 0.325
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0419
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 0.4367
+    primary_war: -0.1117
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Rotondo
+    slug: paul-j-rotondo
+    party: Republican
+    votes: 2049
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0123
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9663
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Michael Murphy
+    slug: james-michael-murphy
+    party: Democratic
+    votes: 3174
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1929
+    primary_incumbency_component_sd: 0.0935
+    primary_fundraising_component: -0.0118
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 1.1596
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Michael Murphy
+    slug: james-michael-murphy
+    party: Democratic
+    votes: 1017
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1468
+    primary_incumbency_component_sd: 0.1083
+    primary_fundraising_component: 0.0051
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1305
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Michael Murphy
+    slug: james-michael-murphy
+    party: Democratic
+    votes: 2537
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1697
+    primary_incumbency_component_sd: 0.1
+    primary_fundraising_component: 0.0214
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 1.1697
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Andrea E. Farretta
+    slug: andrea-e-farretta
+    party: Republican
+    votes: 945
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0046
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.9832
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: James Michael Murphy
+    slug: james-michael-murphy
+    party: Democratic
+    votes: 1001
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0098
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9884
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 4th Norfolk District (2012-2020)
 layout: district
 ---

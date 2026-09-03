@@ -13,11 +13,11 @@ races:
   winner: false
   actual_two_party_share: 0.2906
   war: -0.038
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2305
   lean_component_sd: 0.0109
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0118
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: core
-  expected_share_resolved: 0.2983
-  war_resolved: -0.0077
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.2986
+  war_resolved: -0.008
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Berkshire-Hampden-Franklin-Hampshire District
+  district_url: /district/senate-berkshire-hampden-franklin-hampshire-district-2022-present/
+  party: Republican
+  votes: 3095
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -48,11 +78,11 @@ races:
   winner: false
   actual_two_party_share: 0.3901
   war: -0.2065
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.4055
   lean_component_sd: 0.0191
-  tide_component: 0.0038
+  tide_component: 0.0035
   tide_component_sd: 0.0162
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -61,9 +91,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4705
-  war_resolved: -0.0804
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4708
+  war_resolved: -0.0807
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -72,6 +102,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: First Plymouth & Bristol District
+  district_url: /district/senate-first-plymouth-bristol-district-2012-2020/
+  party: Republican
+  votes: 3427
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 title: David A. Rosa
 layout: candidate
 ---

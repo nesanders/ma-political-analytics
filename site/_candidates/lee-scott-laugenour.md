@@ -34,6 +34,35 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 4th Berkshire District
+  district_url: /district/house-4th-berkshire-district-2012-2020/
+  party: Green-Rainbow
+  votes: 23
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: null
+  n_candidates: 1
+  primary_baseline_component: null
+  primary_baseline_component_sd: null
+  primary_incumbency_component: null
+  primary_incumbency_component_sd: null
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: null
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors: null
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -65,6 +94,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15068

@@ -1,0 +1,69 @@
+n: 1463
+r_squared: 0.2745
+posterior_sigma_mean: 0.1641
+coefficients:
+  primary_intercept:
+    prior_mean: 0.0
+    prior_sd: 0.1
+    posterior_mean: -0.0214
+    posterior_sd: 0.0046
+    ci_95_low: -0.0304
+    ci_95_high: -0.0121
+    predictor_sd: 0.0
+    standardized_mean: 0.0
+    standardized_sd: 0.0
+    standardized_ci_95_low: -0.0
+    standardized_ci_95_high: 0.0
+  primary_incumbent:
+    prior_mean: 0.15
+    prior_sd: 0.15
+    posterior_mean: 0.1545
+    posterior_sd: 0.0757
+    ci_95_low: 0.0086
+    ci_95_high: 0.3034
+    predictor_sd: 0.3213
+    standardized_mean: 0.0496
+    standardized_sd: 0.0243
+    standardized_ci_95_low: 0.0028
+    standardized_ci_95_high: 0.0975
+  primary_incumbent_x_tide:
+    prior_mean: 0.0
+    prior_sd: 0.2
+    posterior_mean: -0.1464
+    posterior_sd: 0.0985
+    ci_95_low: -0.3398
+    ci_95_high: 0.0455
+    predictor_sd: 0.19
+    standardized_mean: -0.0278
+    standardized_sd: 0.0187
+    standardized_ci_95_low: -0.0646
+    standardized_ci_95_high: 0.0086
+  primary_incumbent_x_lean:
+    prior_mean: 0.0
+    prior_sd: 0.2
+    posterior_mean: 0.1796
+    posterior_sd: 0.0909
+    ci_95_low: 0.0003
+    ci_95_high: 0.3587
+    predictor_sd: 0.2072
+    standardized_mean: 0.0372
+    standardized_sd: 0.0188
+    standardized_ci_95_low: 0.0001
+    standardized_ci_95_high: 0.0743
+  primary_log_raised:
+    prior_mean: 0.0
+    prior_sd: 0.02
+    posterior_mean: 0.0393
+    posterior_sd: 0.0023
+    ci_95_low: 0.0348
+    ci_95_high: 0.0438
+    predictor_sd: 1.8312
+    standardized_mean: 0.072
+    standardized_sd: 0.0042
+    standardized_ci_95_low: 0.0637
+    standardized_ci_95_high: 0.0802
+reference_values:
+  log_raised: 9.661666055472828
+n_incumbent: 171
+n_non_incumbent: 1292
+n_finance: 1168

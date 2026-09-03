@@ -33,13 +33,13 @@ results_by_year:
     war: 0.5297
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4206
-    lean_component_sd: 0.0199
-    tide_component: 0.0024
+    lean_component_sd: 0.0198
+    tide_component: 0.0022
     tide_component_sd: 0.0105
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
@@ -71,11 +71,11 @@ results_by_year:
     war: -0.2169
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4206
-    lean_component_sd: 0.0199
-    tide_component: 0.0049
+    lean_component_sd: 0.0198
+    tide_component: 0.0045
     tide_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -84,9 +84,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4868
-    war_resolved: 0.0712
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.487
+    war_resolved: 0.071
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -100,12 +100,12 @@ results_by_year:
     war: 0.2169
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3537
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3535
     lean_component_sd: 0.024
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -113,9 +113,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4504
-    war_resolved: -0.0084
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4506
+    war_resolved: -0.0086
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -138,13 +138,13 @@ results_by_year:
     war: 0.4757
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4206
-    lean_component_sd: 0.0199
-    tide_component: 0.0026
+    lean_component_sd: 0.0198
+    tide_component: 0.0024
     tide_component_sd: 0.0112
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
@@ -176,13 +176,13 @@ results_by_year:
     war: 0.3652
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4206
-    lean_component_sd: 0.0199
-    tide_component: 0.0038
+    lean_component_sd: 0.0198
+    tide_component: 0.0035
     tide_component_sd: 0.0162
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
@@ -214,11 +214,11 @@ results_by_year:
     war: 0.0348
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.4206
-    lean_component_sd: 0.0199
-    tide_component: 0.0028
+    lean_component_sd: 0.0198
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -227,9 +227,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4847
-    war_resolved: 0.0577
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.485
+    war_resolved: 0.0574
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -243,12 +243,12 @@ results_by_year:
     war: -0.0348
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3537
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3535
     lean_component_sd: 0.024
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -256,15 +256,244 @@ results_by_year:
     fundraising_component: -0.0067
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.4464
-    war_resolved: 0.0112
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4468
+    war_resolved: 0.0108
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alyson M. Sullivan
+    slug: alyson-m-sullivan
+    party: Republican
+    votes: 2224
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.211
+    primary_incumbency_component_sd: 0.0979
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1896
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Alex A. Bezanson
+    slug: alex-a-bezanson
+    party: Democratic
+    votes: 1705
+    winner: true
+    actual_primary_share: 0.562
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.0834
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Kevin Higgins
+    slug: kevin-higgins
+    party: Democratic
+    votes: 1329
+    winner: false
+    actual_primary_share: 0.438
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0254
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.4532
+    primary_war: -0.0152
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Alyson M. Sullivan
+    slug: alyson-m-sullivan
+    party: Republican
+    votes: 2465
+    winner: true
+    actual_primary_share: 0.7001
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.2215
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Gregory A. Eaton
+    slug: gregory-a-eaton
+    party: Republican
+    votes: 1056
+    winner: false
+    actual_primary_share: 0.2999
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0222
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.4564
+    primary_war: -0.1565
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geoff Diehl
+    slug: geoff-diehl
+    party: Republican
+    votes: 318
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2073
+    primary_incumbency_component_sd: 0.0987
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1859
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geoff Diehl
+    slug: geoff-diehl
+    party: Republican
+    votes: 1301
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1845
+    primary_incumbency_component_sd: 0.1051
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1631
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert L. Toomey, Jr.
+    slug: robert-l-toomey-jr
+    party: Democratic
+    votes: 952
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0014
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.98
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Geoff Diehl
+    slug: geoff-diehl
+    party: Republican
+    votes: 899
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: 7th Plymouth District (2012-2020)
 layout: district
 ---

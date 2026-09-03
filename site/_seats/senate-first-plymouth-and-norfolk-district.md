@@ -30,20 +30,20 @@ results_by_year:
     war: 0.5949
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2933
-    lean_component_sd: 0.0139
-    tide_component: 0.0027
+    lean_component: 0.2934
+    lean_component_sd: 0.0138
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0075
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0276
+    fundraising_component: 0.0282
     fundraising_component_sd: 0.0021
     demographics_tier: core
-    expected_share_resolved: 0.3775
+    expected_share_resolved: 0.3783
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -70,22 +70,22 @@ results_by_year:
     war: 0.199
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2933
-    lean_component_sd: 0.0139
-    tide_component: 0.0026
+    lean_component: 0.2934
+    lean_component_sd: 0.0138
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0075
     demographics_component_sd: 0.0102
-    fundraising_component: 0.0414
+    fundraising_component: 0.0421
     fundraising_component_sd: 0.0032
     demographics_tier: core
-    expected_share_resolved: 0.3911
-    war_resolved: 0.2152
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3921
+    war_resolved: 0.2142
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,22 +101,22 @@ results_by_year:
     war: -0.199
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5029
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5026
     lean_component_sd: 0.0341
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0075
     demographics_component_sd: 0.0102
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: core
-    expected_share_resolved: 0.3848
-    war_resolved: 0.0089
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3821
+    war_resolved: 0.0116
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -124,6 +124,109 @@ results_by_year:
     - District demographics (bachelor's degree %)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Patrick A. O'Connor
+    slug: patrick-a-oconnor
+    party: Republican
+    votes: 8061
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0657
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 1.0443
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert William Stephens, Jr
+    slug: robert-william-stephens-jr
+    party: Democratic
+    votes: 16510
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Patrick Michael O'Connor
+    slug: patrick-michael-oconnor
+    party: Republican
+    votes: 10126
+    winner: true
+    actual_primary_share: 0.8123
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0914
+    primary_fundraising_component_sd: 0.0053
+    primary_expected_share: 0.57
+    primary_war: 0.2423
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Ronald J. Patuto
+    slug: ronald-j-patuto
+    party: Republican
+    votes: 2340
+    winner: false
+    actual_primary_share: 0.1877
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0138
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.4648
+    primary_war: -0.2771
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   median_household_income: 121100
   bachelors_degree_count: 41637

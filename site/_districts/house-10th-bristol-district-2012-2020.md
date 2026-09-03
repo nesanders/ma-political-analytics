@@ -33,20 +33,20 @@ results_by_year:
     war: 0.437
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4047
-    lean_component_sd: 0.0275
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4045
+    lean_component_sd: 0.0274
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0026
+    fundraising_component: -0.0025
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5747
+    expected_share_resolved: 0.5749
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.7382
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4047
-    lean_component_sd: 0.0275
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4045
+    lean_component_sd: 0.0274
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0098
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.5643
+    expected_share_resolved: 0.5642
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.4629
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4047
-    lean_component_sd: 0.0275
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4045
+    lean_component_sd: 0.0274
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0033
-    fundraising_component_sd: 0.0003
+    fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5737
+    expected_share_resolved: 0.5739
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,22 +150,22 @@ results_by_year:
     war: 0.1968
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4047
-    lean_component_sd: 0.0275
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4045
+    lean_component_sd: 0.0274
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0013
+    fundraising_component: 0.0015
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.5769
-    war_resolved: 0.0785
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.577
+    war_resolved: 0.0784
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,22 +180,22 @@ results_by_year:
     war: -0.1968
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.377
+    lean_component: 0.3771
     lean_component_sd: 0.0178
-    tide_component: 0.0038
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0728
+    fundraising_component: -0.0737
     fundraising_component_sd: 0.0055
     demographics_tier: null
-    expected_share_resolved: 0.3693
-    war_resolved: -0.0247
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3686
+    war_resolved: -0.024
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -219,20 +219,20 @@ results_by_year:
     war: 0.4311
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4047
-    lean_component_sd: 0.0275
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4045
+    lean_component_sd: 0.0274
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.013
+    fundraising_component: 0.0133
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.5172
+    expected_share_resolved: 0.5178
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -241,6 +241,194 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William M. Straus
+    slug: william-m-straus
+    party: Democratic
+    votes: 6514
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1421
+    primary_incumbency_component_sd: 0.1095
+    primary_fundraising_component: 0.0091
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.1298
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William M. Straus
+    slug: william-m-straus
+    party: Democratic
+    votes: 2609
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1917
+    primary_incumbency_component_sd: 0.0932
+    primary_fundraising_component: -0.0043
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.166
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William M. Straus
+    slug: william-m-straus
+    party: Democratic
+    votes: 612
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1457
+    primary_incumbency_component_sd: 0.108
+    primary_fundraising_component: 0.0077
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 1.132
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William M. Straus
+    slug: william-m-straus
+    party: Democratic
+    votes: 2208
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1686
+    primary_incumbency_component_sd: 0.0997
+    primary_fundraising_component: 0.0164
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1636
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Abilio Bill Soares
+    slug: abilio-bill-soares
+    party: Republican
+    votes: 934
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1222
+    primary_fundraising_component_sd: 0.0072
+    primary_expected_share: 0.8564
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: William M. Straus
+    slug: william-m-straus
+    party: Democratic
+    votes: 2918
+    winner: true
+    actual_primary_share: 0.7867
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0383
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.5169
+    primary_war: 0.2698
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Abilio Bill Soares
+    slug: abilio-bill-soares
+    party: Democratic
+    votes: 791
+    winner: false
+    actual_primary_share: 0.2133
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0575
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 0.4211
+    primary_war: -0.2078
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 10th Bristol District (2012-2020)
 layout: district
 ---

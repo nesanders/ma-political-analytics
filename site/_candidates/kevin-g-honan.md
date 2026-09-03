@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1832
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7013
-  lean_component_sd: 0.0476
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7009
+  lean_component_sd: 0.0475
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0155
-  demographics_component_sd: 0.0295
-  fundraising_component: 0.0193
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0154
+  demographics_component_sd: 0.0294
+  fundraising_component: 0.0197
   fundraising_component_sd: 0.0015
   demographics_tier: full
-  expected_share_resolved: 0.8773
+  expected_share_resolved: 0.8777
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 2765
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2111
+  primary_incumbency_component_sd: 0.1235
+  primary_fundraising_component: 0.0501
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.2398
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1606
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7013
-  lean_component_sd: 0.0476
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7009
+  lean_component_sd: 0.0475
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0155
-  demographics_component_sd: 0.0295
-  fundraising_component: 0.019
-  fundraising_component_sd: 0.0014
+  demographics_component: -0.0154
+  demographics_component_sd: 0.0294
+  fundraising_component: 0.0194
+  fundraising_component_sd: 0.0015
   demographics_tier: full
-  expected_share_resolved: 0.8046
+  expected_share_resolved: 0.8051
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 3397
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0495
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.0281
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1576
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0387
-  fundraising_component_sd: 0.0029
+  fundraising_component: 0.0394
+  fundraising_component_sd: 0.003
   demographics_tier: null
-  expected_share_resolved: 0.8372
+  expected_share_resolved: 0.8379
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 4409
+  winner: true
+  actual_primary_share: 0.5401
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.189
+  primary_incumbency_component_sd: 0.1209
+  primary_fundraising_component: 0.0864
+  primary_fundraising_component_sd: 0.0051
+  primary_expected_share: 0.754
+  primary_war: -0.2139
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4911
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0165
+  fundraising_component: 0.0169
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.8118
+  expected_share_resolved: 0.812
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 3679
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2386
+  primary_incumbency_component_sd: 0.1064
+  primary_fundraising_component: 0.0449
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.2621
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1469
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0158
+  fundraising_component: 0.0161
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.814
+  expected_share_resolved: 0.8143
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 891
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1926
+  primary_incumbency_component_sd: 0.1196
+  primary_fundraising_component: 0.0434
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.2146
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3122
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0117
+  fundraising_component: 0.012
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.8085
+  expected_share_resolved: 0.8087
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1472
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2155
+  primary_incumbency_component_sd: 0.1121
+  primary_fundraising_component: 0.0359
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.23
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1966
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6259
-  lean_component_sd: 0.0425
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6256
+  lean_component_sd: 0.0424
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0089
+  fundraising_component: 0.0091
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.7342
+  expected_share_resolved: 0.7347
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 17th Suffolk District
+  district_url: /district/house-17th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 812
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0306
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 1.0092
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2466
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0096
+  fundraising_component: 0.0098
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.8192
+  expected_share_resolved: 0.8194
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 17th Suffolk
+  district_url: /district/house-17th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1445
+  winner: true
+  actual_primary_share: 0.9959
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2115
+  primary_incumbency_component_sd: 0.1149
+  primary_fundraising_component: 0.0319
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 0.722
+  primary_war: 0.2739
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,20 +549,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1967
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0157
+  fundraising_component: 0.016
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.8262
+  expected_share_resolved: 0.8265
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 17th Suffolk
+  district_url: /district/house-17th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1041
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1974
+  primary_incumbency_component_sd: 0.1196
+  primary_fundraising_component: 0.0433
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.2192
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -330,20 +616,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2251
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.011
+  fundraising_component: 0.0112
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.8213
+  expected_share_resolved: 0.8216
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -355,6 +641,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 17th Suffolk
+  district_url: /district/house-17th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2174
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2003
+  primary_incumbency_component_sd: 0.1186
+  primary_fundraising_component: 0.0345
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.2134
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -365,20 +683,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2167
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0069
+  fundraising_component: 0.0071
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.8174
+  expected_share_resolved: 0.8176
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -390,6 +708,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 17th Suffolk
+  district_url: /district/house-17th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1111
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.198
+  primary_incumbency_component_sd: 0.1194
+  primary_fundraising_component: 0.0268
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.2034
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -400,11 +750,11 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3457
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -413,7 +763,7 @@ races:
   fundraising_component: -0.0035
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.7329
+  expected_share_resolved: 0.7331
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -425,6 +775,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 17th Suffolk
+  district_url: /district/house-17th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2218
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0074
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 0.986
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 10595

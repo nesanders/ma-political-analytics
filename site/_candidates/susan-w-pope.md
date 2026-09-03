@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.4112
   war: 0.091
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2952
   lean_component_sd: 0.0139
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0117
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0097
+  fundraising_component: 0.01
   fundraising_component_sd: 0.0007
   demographics_tier: null
-  expected_share_resolved: 0.3689
-  war_resolved: 0.0423
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3695
+  war_resolved: 0.0417
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 13th Middlesex
+  district_url: /district/house-13th-middlesex-2001-2010/
+  party: Republican
+  votes: 519
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0321
+  primary_fundraising_component_sd: 0.0019
+  primary_expected_share: 1.0107
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -48,22 +79,22 @@ races:
   winner: false
   actual_two_party_share: 0.4807
   war: 0.1055
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2952
   lean_component_sd: 0.0139
-  tide_component: 0.0029
+  tide_component: 0.0026
   tide_component_sd: 0.0124
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0029
+  fundraising_component: -0.0028
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.4865
-  war_resolved: -0.0058
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4866
+  war_resolved: -0.0059
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 13th Middlesex
+  district_url: /district/house-13th-middlesex-2001-2010/
+  party: Republican
+  votes: 415
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1711
+  primary_incumbency_component_sd: 0.0926
+  primary_fundraising_component: 0.0086
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.1583
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -83,22 +146,22 @@ races:
   winner: true
   actual_two_party_share: 0.5172
   war: 0.1753
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2952
   lean_component_sd: 0.0139
-  tide_component: 0.0028
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0042
+  fundraising_component: 0.0044
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.4934
-  war_resolved: 0.0238
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4936
+  war_resolved: 0.0236
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +171,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 13th Middlesex
+  district_url: /district/house-13th-middlesex-2001-2010/
+  party: Republican
+  votes: 640
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1734
+  primary_incumbency_component_sd: 0.092
+  primary_fundraising_component: 0.0218
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1738
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4294
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2952
   lean_component_sd: 0.0139
-  tide_component: 0.0039
+  tide_component: 0.0036
   tide_component_sd: 0.0167
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0056
+  fundraising_component: -0.0055
   fundraising_component_sd: 0.0004
   demographics_tier: null
-  expected_share_resolved: 0.3548
+  expected_share_resolved: 0.3551
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 13th Middlesex
+  district_url: /district/house-13th-middlesex-2001-2010/
+  party: Republican
+  votes: 1986
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0036
+  primary_fundraising_component_sd: 0.0002
+  primary_expected_share: 0.9822
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13033

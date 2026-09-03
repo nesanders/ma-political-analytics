@@ -30,20 +30,20 @@ results_by_year:
     war: 0.3281
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5778
-    lean_component_sd: 0.0392
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5775
+    lean_component_sd: 0.0391
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0066
     demographics_component_sd: 0.013
-    fundraising_component: 0.0238
+    fundraising_component: 0.0243
     fundraising_component_sd: 0.0018
     demographics_tier: full
-    expected_share_resolved: 0.7672
+    expected_share_resolved: 0.7677
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,22 +97,22 @@ results_by_year:
     war: -0.0013
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5778
-    lean_component_sd: 0.0392
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5775
+    lean_component_sd: 0.0391
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0066
     demographics_component_sd: 0.013
-    fundraising_component: 0.0275
+    fundraising_component: 0.028
     fundraising_component_sd: 0.0021
     demographics_tier: full
-    expected_share_resolved: 0.6985
-    war_resolved: -0.0071
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6992
+    war_resolved: -0.0078
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -129,22 +129,22 @@ results_by_year:
     war: 0.0013
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2294
     lean_component_sd: 0.0108
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0066
     demographics_component_sd: 0.013
-    fundraising_component: -0.0262
+    fundraising_component: -0.0265
     fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.2605
-    war_resolved: 0.0481
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2606
+    war_resolved: 0.048
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -153,6 +153,202 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2026
+  party: Democratic
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Andrew Francis Robert Tarr
+    slug: andrew-francis-robert-tarr
+    party: Democratic
+    votes: 2194
+    winner: true
+    actual_primary_share: 0.714
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.2354
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Sarah Jane Wilkinson
+    slug: sarah-jane-wilkinson
+    party: Democratic
+    votes: 879
+    winner: false
+    actual_primary_share: 0.286
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.1926
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2026
+  party: Republican
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Christina Delisio
+    slug: christina-delisio
+    party: Republican
+    votes: 568
+    winner: true
+    actual_primary_share: 0.6147
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.1361
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Ashley Sullivan
+    slug: ashley-sullivan
+    party: Republican
+    votes: 356
+    winner: false
+    actual_primary_share: 0.3853
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0933
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 4447
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1849
+    primary_incumbency_component_sd: 0.1159
+    primary_fundraising_component: 0.0585
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 1.222
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Ann-Margaret Ferrante
+    slug: ann-margaret-ferrante
+    party: Democratic
+    votes: 5258
+    winner: true
+    actual_primary_share: 0.725
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0654
+    primary_fundraising_component_sd: 0.0038
+    primary_expected_share: 0.544
+    primary_war: 0.181
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: D. Nathaniel Mulcahy
+    slug: d-nathaniel-mulcahy
+    party: Democratic
+    votes: 1994
+    winner: false
+    actual_primary_share: 0.275
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.031
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.4476
+    primary_war: -0.1726
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ashley Sullivan
+    slug: ashley-sullivan
+    party: Republican
+    votes: 185
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0351
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 0.9435
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 40396
   voting_age_population: 33889

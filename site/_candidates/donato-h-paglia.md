@@ -34,6 +34,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -65,6 +67,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -96,6 +100,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -127,6 +133,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13975

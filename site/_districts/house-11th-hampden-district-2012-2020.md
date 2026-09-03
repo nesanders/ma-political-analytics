@@ -33,22 +33,22 @@ results_by_year:
     war: 0.0989
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5789
-    lean_component_sd: 0.0393
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5785
+    lean_component_sd: 0.0392
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0042
+    fundraising_component: 0.0044
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.7556
-    war_resolved: 0.0815
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.7558
+    war_resolved: 0.0813
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.0989
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.2285
+    lean_component: 0.2286
     lean_component_sd: 0.0108
-    tide_component: 0.0024
+    tide_component: 0.0022
     tide_component_sd: 0.0105
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0618
+    fundraising_component: -0.0626
     fundraising_component_sd: 0.0047
     demographics_tier: null
-    expected_share_resolved: 0.2305
-    war_resolved: -0.0676
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.23
+    war_resolved: -0.0671
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,17 +102,17 @@ results_by_year:
     war: 0.5627
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5789
-    lean_component_sd: 0.0393
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5785
+    lean_component_sd: 0.0392
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.005
+    fundraising_component: 0.0052
     fundraising_component_sd: 0.0004
     demographics_tier: null
     expected_share_resolved: 0.7532
@@ -141,12 +141,12 @@ results_by_year:
     war: 0.2178
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5789
-    lean_component_sd: 0.0393
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5785
+    lean_component_sd: 0.0392
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -154,7 +154,7 @@ results_by_year:
     fundraising_component: -0.0066
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6719
+    expected_share_resolved: 0.6722
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,20 +180,20 @@ results_by_year:
     war: 0.3469
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5789
-    lean_component_sd: 0.0393
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5785
+    lean_component_sd: 0.0392
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0267
+    fundraising_component: -0.027
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.723
+    expected_share_resolved: 0.7226
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -219,17 +219,17 @@ results_by_year:
     war: 0.1933
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5789
-    lean_component_sd: 0.0393
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5785
+    lean_component_sd: 0.0392
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0226
+    fundraising_component: -0.0228
     fundraising_component_sd: 0.0017
     demographics_tier: null
     expected_share_resolved: 0.6557
@@ -267,6 +267,254 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 5717
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.179
+    primary_incumbency_component_sd: 0.1182
+    primary_fundraising_component: 0.0218
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 1.1794
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Prince Golphin, Jr
+    slug: prince-golphin-jr
+    party: Republican
+    votes: 281
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1017
+    primary_fundraising_component_sd: 0.006
+    primary_expected_share: 0.8769
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 2628
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2286
+    primary_incumbency_component_sd: 0.1033
+    primary_fundraising_component: 0.0234
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.2306
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Bud L. Williams
+    slug: bud-l-williams
+    party: Democratic
+    votes: 1580
+    winner: true
+    actual_primary_share: 0.4836
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0015
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.2301
+    primary_war: 0.2535
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Benjamin Swan, Jr
+    slug: benjamin-swan-sr
+    party: Democratic
+    votes: 1164
+    winner: false
+    actual_primary_share: 0.3563
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1826
+    primary_incumbency_component_sd: 0.1168
+    primary_fundraising_component: 0.0335
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 0.4447
+    primary_war: -0.0884
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Ken Barnett
+    slug: ken-barnett
+    party: Democratic
+    votes: 286
+    winner: false
+    actual_primary_share: 0.0875
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.1411
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Larry Lawson
+    slug: larry-lawson
+    party: Democratic
+    votes: 237
+    winner: false
+    actual_primary_share: 0.0725
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.1561
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Benjamin Swan
+    slug: benjamin-swan-sr
+    party: Democratic
+    votes: 1477
+    winner: true
+    actual_primary_share: 0.596
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2055
+    primary_incumbency_component_sd: 0.1092
+    primary_fundraising_component: -0.036
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 0.6481
+    primary_war: -0.0521
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Larry Lawson
+    slug: larry-lawson
+    party: Democratic
+    votes: 1001
+    winner: false
+    actual_primary_share: 0.404
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.0746
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Benjamin Swan
+    slug: benjamin-swan-sr
+    party: Democratic
+    votes: 2461
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0283
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 0.9503
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 11th Hampden District (2012-2020)
 layout: district
 ---

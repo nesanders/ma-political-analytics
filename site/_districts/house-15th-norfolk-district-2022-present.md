@@ -30,20 +30,20 @@ results_by_year:
     war: 0.1285
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.7394
-    lean_component_sd: 0.0502
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.739
+    lean_component_sd: 0.0501
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0016
     demographics_component_sd: 0.0054
-    fundraising_component: 0.0236
+    fundraising_component: 0.024
     fundraising_component_sd: 0.0018
     demographics_tier: full
-    expected_share_resolved: 0.9367
+    expected_share_resolved: 0.9371
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.1253
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.7394
-    lean_component_sd: 0.0502
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.739
+    lean_component_sd: 0.0501
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0016
     demographics_component_sd: 0.0054
-    fundraising_component: 0.0366
+    fundraising_component: 0.0373
     fundraising_component_sd: 0.0028
     demographics_tier: full
-    expected_share_resolved: 0.8774
+    expected_share_resolved: 0.8782
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,83 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Tommy Vitolo
+    slug: tommy-vitolo
+    party: Democratic
+    votes: 4297
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2191
+    primary_incumbency_component_sd: 0.126
+    primary_fundraising_component: 0.0581
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 1.2559
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Tommy Vitolo
+    slug: tommy-vitolo
+    party: Democratic
+    votes: 4796
+    winner: true
+    actual_primary_share: 0.6273
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0825
+    primary_fundraising_component_sd: 0.0048
+    primary_expected_share: 0.5611
+    primary_war: 0.0662
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Raul Fernandez
+    slug: raul-fernandez
+    party: Democratic
+    votes: 2850
+    winner: false
+    actual_primary_share: 0.3727
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0801
+    primary_fundraising_component_sd: 0.0047
+    primary_expected_share: 0.5587
+    primary_war: -0.186
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43342
   voting_age_population: 35581

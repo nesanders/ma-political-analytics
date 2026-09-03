@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1845
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7018
-  lean_component_sd: 0.0477
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7014
+  lean_component_sd: 0.0475
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0072
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0071
   demographics_component_sd: 0.025
-  fundraising_component: 0.0433
+  fundraising_component: 0.044
   fundraising_component_sd: 0.0033
   demographics_tier: full
-  expected_share_resolved: 0.9101
+  expected_share_resolved: 0.9108
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 1853
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2112
+  primary_incumbency_component_sd: 0.1235
+  primary_fundraising_component: 0.0949
+  primary_fundraising_component_sd: 0.0056
+  primary_expected_share: 1.2847
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1581
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7018
-  lean_component_sd: 0.0477
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7014
+  lean_component_sd: 0.0475
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0072
+  demographics_component: -0.0071
   demographics_component_sd: 0.025
-  fundraising_component: 0.0307
+  fundraising_component: 0.0313
   fundraising_component_sd: 0.0023
   demographics_tier: full
-  expected_share_resolved: 0.8251
+  expected_share_resolved: 0.8259
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2022-present/
+  party: Democratic
+  votes: 2109
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0714
+  primary_fundraising_component_sd: 0.0042
+  primary_expected_share: 1.05
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1511
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6294
-  lean_component_sd: 0.0427
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.629
+  lean_component_sd: 0.0426
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0231
+  fundraising_component: 0.0236
   fundraising_component_sd: 0.0018
   demographics_tier: null
-  expected_share_resolved: 0.8251
+  expected_share_resolved: 0.8255
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 5474
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1897
+  primary_incumbency_component_sd: 0.1211
+  primary_fundraising_component: 0.0573
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 1.2256
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4847
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6294
-  lean_component_sd: 0.0427
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.629
+  lean_component_sd: 0.0426
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0271
+  fundraising_component: 0.0276
   fundraising_component_sd: 0.0021
   demographics_tier: null
-  expected_share_resolved: 0.8258
+  expected_share_resolved: 0.8262
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 3011
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2394
+  primary_incumbency_component_sd: 0.1066
+  primary_fundraising_component: 0.0647
+  primary_fundraising_component_sd: 0.0038
+  primary_expected_share: 1.2827
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1421
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6294
-  lean_component_sd: 0.0427
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.629
+  lean_component_sd: 0.0426
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0231
+  fundraising_component: 0.0235
   fundraising_component_sd: 0.0018
   demographics_tier: null
-  expected_share_resolved: 0.8248
+  expected_share_resolved: 0.8252
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 920
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1933
+  primary_incumbency_component_sd: 0.1198
+  primary_fundraising_component: 0.0571
+  primary_fundraising_component_sd: 0.0033
+  primary_expected_share: 1.2291
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3095
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6294
-  lean_component_sd: 0.0427
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.629
+  lean_component_sd: 0.0426
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0114
+  fundraising_component: 0.0117
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.8117
+  expected_share_resolved: 0.8119
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1569
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2162
+  primary_incumbency_component_sd: 0.1124
+  primary_fundraising_component: 0.0354
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.2302
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1968
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6294
-  lean_component_sd: 0.0427
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.629
+  lean_component_sd: 0.0426
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0182
+  fundraising_component: 0.0186
   fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.7471
+  expected_share_resolved: 0.7477
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 18th Suffolk District
+  district_url: /district/house-18th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1006
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0481
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.0267
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,20 +482,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2449
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6408
-  lean_component_sd: 0.0435
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6405
+  lean_component_sd: 0.0434
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0082
+  fundraising_component: 0.0084
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.8202
+  expected_share_resolved: 0.8204
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 18th Suffolk
+  district_url: /district/house-18th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1463
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.212
+  primary_incumbency_component_sd: 0.1151
+  primary_fundraising_component: 0.0292
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.2198
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,20 +549,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.1931
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6408
-  lean_component_sd: 0.0435
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6405
+  lean_component_sd: 0.0434
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.004
+  fundraising_component: 0.0042
   fundraising_component_sd: 0.0003
   demographics_tier: null
-  expected_share_resolved: 0.817
+  expected_share_resolved: 0.8172
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 18th Suffolk
+  district_url: /district/house-18th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1143
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1979
+  primary_incumbency_component_sd: 0.1197
+  primary_fundraising_component: 0.0214
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 1.1979
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -330,22 +616,22 @@ races:
   winner: true
   actual_two_party_share: 0.8104
   war: 0.0318
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6408
-  lean_component_sd: 0.0435
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6405
+  lean_component_sd: 0.0434
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0007
+  fundraising_component: 0.0008
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.7409
-  war_resolved: 0.0695
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7412
+  war_resolved: 0.0692
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -355,6 +641,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 18th Suffolk
+  district_url: /district/house-18th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2663
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0152
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 0.9938
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12650

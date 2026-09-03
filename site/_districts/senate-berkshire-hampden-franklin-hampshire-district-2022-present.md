@@ -30,14 +30,14 @@ results_by_year:
     war: 0.038
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5766
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5762
     lean_component_sd: 0.0391
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0038
     demographics_component_sd: 0.0051
     fundraising_component: null
@@ -45,7 +45,7 @@ results_by_year:
     demographics_tier: core
     expected_share_resolved: 0.7525
     war_resolved: -0.0431
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -60,11 +60,11 @@ results_by_year:
     war: -0.038
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2305
     lean_component_sd: 0.0109
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -73,9 +73,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.2983
-    war_resolved: -0.0077
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2986
+    war_resolved: -0.008
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -99,12 +99,12 @@ results_by_year:
     war: 0.3097
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5766
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5762
     lean_component_sd: 0.0391
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0038
@@ -112,7 +112,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6801
+    expected_share_resolved: 0.6803
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -147,6 +147,106 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul W. Mark
+    slug: paul-w-mark
+    party: Democratic
+    votes: 17058
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1846
+    primary_incumbency_component_sd: 0.1158
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1632
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David A. Rosa
+    slug: david-a-rosa
+    party: Republican
+    votes: 3095
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Paul W. Mark
+    slug: paul-w-mark
+    party: Democratic
+    votes: 22797
+    winner: true
+    actual_primary_share: 0.8564
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.3778
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Huff Tyler Templeton, III
+    slug: huff-tyler-templeton-iii
+    party: Democratic
+    votes: 3824
+    winner: false
+    actual_primary_share: 0.1436
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.335
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   median_household_income: 74551
   bachelors_degree_count: 26194

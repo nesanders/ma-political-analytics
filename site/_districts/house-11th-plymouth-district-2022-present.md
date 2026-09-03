@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2796
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6098
-    lean_component_sd: 0.0414
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6094
+    lean_component_sd: 0.0413
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: 0.0103
-    demographics_component_sd: 0.0232
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: 0.0104
+    demographics_component_sd: 0.0231
     fundraising_component: -0.0062
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.7861
+    expected_share_resolved: 0.7862
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.2805
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6098
-    lean_component_sd: 0.0414
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6094
+    lean_component_sd: 0.0413
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0103
-    demographics_component_sd: 0.0232
-    fundraising_component: 0.0118
+    demographics_component: 0.0104
+    demographics_component_sd: 0.0231
+    fundraising_component: 0.0121
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.7317
+    expected_share_resolved: 0.7322
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,124 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Rita A. Mendes
+    slug: rita-a-mendes
+    party: Democratic
+    votes: 1709
+    winner: true
+    actual_primary_share: 0.7879
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1916
+    primary_incumbency_component_sd: 0.1177
+    primary_fundraising_component: 0.0024
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.6726
+    primary_war: 0.1153
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Fred Fontaine
+    slug: fred-fontaine
+    party: Democratic
+    votes: 460
+    winner: false
+    actual_primary_share: 0.2121
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0216
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.457
+    primary_war: -0.2449
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Rita A. Mendes
+    slug: rita-a-mendes
+    party: Democratic
+    votes: 1733
+    winner: true
+    actual_primary_share: 0.6791
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0361
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 0.348
+    primary_war: 0.3311
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Shirley Rita Asack
+    slug: shirley-rita-asack
+    party: Democratic
+    votes: 695
+    winner: false
+    actual_primary_share: 0.2723
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.0396
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Fred Fontaine
+    slug: fred-fontaine
+    party: Democratic
+    votes: 124
+    winner: false
+    actual_primary_share: 0.0486
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0047
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.3166
+    primary_war: -0.268
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 47084
   voting_age_population: 37383

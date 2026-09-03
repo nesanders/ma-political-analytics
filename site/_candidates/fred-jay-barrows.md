@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.5757
   war: 0.1468
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3147
-  lean_component_sd: 0.0149
-  tide_component: 0.0026
+  lean_component_sd: 0.0148
+  tide_component: 0.0024
   tide_component_sd: 0.0112
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0019
   demographics_component_sd: 0.0065
-  fundraising_component: -0.0025
+  fundraising_component: -0.0024
   fundraising_component_sd: 0.0002
   demographics_tier: full
-  expected_share_resolved: 0.3742
-  war_resolved: 0.2015
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3746
+  war_resolved: 0.2011
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -39,6 +39,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2022-present/
+  party: Republican
+  votes: 1873
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0093
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 0.9879
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -49,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.5604
   war: 0.1647
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3956
-  lean_component_sd: 0.0187
-  tide_component: 0.0024
+  lean_component_sd: 0.0186
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0149
+  fundraising_component: -0.015
   fundraising_component_sd: 0.0011
   demographics_tier: null
   expected_share_resolved: 0.5744
   war_resolved: -0.014
-  war_resolved_sd: 0.0811
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -74,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2012-2020/
+  party: Republican
+  votes: 1918
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2047
+  primary_incumbency_component_sd: 0.0962
+  primary_fundraising_component: -0.0139
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1695
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -84,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2389
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3956
-  lean_component_sd: 0.0187
-  tide_component: 0.0049
+  lean_component_sd: 0.0186
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0479
+  fundraising_component: -0.0485
   fundraising_component_sd: 0.0036
   demographics_tier: null
-  expected_share_resolved: 0.5439
+  expected_share_resolved: 0.5432
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -109,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2012-2020/
+  party: Republican
+  votes: 1773
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1551
+  primary_incumbency_component_sd: 0.112
+  primary_fundraising_component: -0.0756
+  primary_fundraising_component_sd: 0.0044
+  primary_expected_share: 1.0581
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -119,22 +214,22 @@ races:
   winner: true
   actual_two_party_share: 0.6004
   war: 0.1492
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3956
-  lean_component_sd: 0.0187
-  tide_component: 0.0026
+  lean_component_sd: 0.0186
+  tide_component: 0.0024
   tide_component_sd: 0.0112
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0005
+  fundraising_component: 0.0006
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.59
-  war_resolved: 0.0104
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5902
+  war_resolved: 0.0102
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -144,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2012-2020/
+  party: Republican
+  votes: 390
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2011
+  primary_incumbency_component_sd: 0.0971
+  primary_fundraising_component: 0.0149
+  primary_fundraising_component_sd: 0.0009
+  primary_expected_share: 1.1947
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -154,20 +281,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3689
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3956
-  lean_component_sd: 0.0187
-  tide_component: 0.0038
+  lean_component_sd: 0.0186
+  tide_component: 0.0035
   tide_component_sd: 0.0162
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0887
+  fundraising_component: -0.0899
   fundraising_component_sd: 0.0068
   demographics_tier: null
-  expected_share_resolved: 0.5019
+  expected_share_resolved: 0.5007
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -179,6 +306,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2012-2020/
+  party: Republican
+  votes: 957
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1782
+  primary_incumbency_component_sd: 0.1036
+  primary_fundraising_component: -0.1521
+  primary_fundraising_component_sd: 0.0089
+  primary_expected_share: 1.0048
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -189,20 +348,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5003
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3956
-  lean_component_sd: 0.0187
-  tide_component: 0.0028
+  lean_component_sd: 0.0186
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0129
+  fundraising_component: -0.013
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.4467
+  expected_share_resolved: 0.447
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -214,6 +373,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 1st Bristol District
+  district_url: /district/house-1st-bristol-district-2012-2020/
+  party: Republican
+  votes: 1333
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0103
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.9683
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -224,20 +414,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3908
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3866
-  lean_component_sd: 0.0183
-  tide_component: 0.0034
+  lean_component: 0.3867
+  lean_component_sd: 0.0182
+  tide_component: 0.0032
   tide_component_sd: 0.0148
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0108
+  fundraising_component: -0.0109
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5705
+  expected_share_resolved: 0.5704
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -249,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 1st Bristol
+  district_url: /district/house-1st-bristol-2001-2010/
+  party: Republican
+  votes: 1480
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1827
+  primary_incumbency_component_sd: 0.101
+  primary_fundraising_component: -0.0063
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.1549
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -259,22 +481,22 @@ races:
   winner: true
   actual_two_party_share: 0.6125
   war: 0.1423
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3866
-  lean_component_sd: 0.0183
-  tide_component: 0.0027
+  lean_component: 0.3867
+  lean_component_sd: 0.0182
+  tide_component: 0.0025
   tide_component_sd: 0.0117
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.003
+  fundraising_component: 0.0032
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.5836
-  war_resolved: 0.0289
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5838
+  war_resolved: 0.0287
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -284,6 +506,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 1st Bristol
+  district_url: /district/house-1st-bristol-2001-2010/
+  party: Republican
+  votes: 404
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1968
+  primary_incumbency_component_sd: 0.097
+  primary_fundraising_component: 0.0196
+  primary_fundraising_component_sd: 0.0011
+  primary_expected_share: 1.195
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -294,22 +548,22 @@ races:
   winner: true
   actual_two_party_share: 0.5114
   war: 0.0209
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3866
-  lean_component_sd: 0.0183
-  tide_component: 0.0029
+  lean_component: 0.3867
+  lean_component_sd: 0.0182
+  tide_component: 0.0026
   tide_component_sd: 0.0124
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0149
+  fundraising_component: 0.0152
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.4657
-  war_resolved: 0.0457
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4663
+  war_resolved: 0.0451
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -319,6 +573,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 1st Bristol
+  district_url: /district/house-1st-bristol-2001-2010/
+  party: Republican
+  votes: 700
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0418
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.0204
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14561

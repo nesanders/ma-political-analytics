@@ -30,22 +30,22 @@ results_by_year:
     war: 0.0799
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3818
     lean_component_sd: 0.018
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0015
-    demographics_component_sd: 0.0203
-    fundraising_component: 0.017
+    demographics_component_sd: 0.0202
+    fundraising_component: 0.0174
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.4643
-    war_resolved: 0.155
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.465
+    war_resolved: 0.1543
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0799
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.3991
-    lean_component_sd: 0.0271
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3989
+    lean_component_sd: 0.027
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0015
-    demographics_component_sd: 0.0203
-    fundraising_component: -0.0055
+    demographics_component_sd: 0.0202
+    fundraising_component: -0.0054
     fundraising_component_sd: 0.0004
     demographics_tier: full
-    expected_share_resolved: 0.4947
-    war_resolved: -0.114
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4951
+    war_resolved: -0.1144
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,20 +103,20 @@ results_by_year:
     war: 0.4821
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3818
     lean_component_sd: 0.018
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0015
-    demographics_component_sd: 0.0203
-    fundraising_component: -0.0798
+    demographics_component_sd: 0.0202
+    fundraising_component: -0.0808
     fundraising_component_sd: 0.0061
     demographics_tier: full
-    expected_share_resolved: 0.3673
+    expected_share_resolved: 0.3667
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -127,6 +127,136 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeanne Renaud Costello
+    slug: jeanne-renaud-costello
+    party: Democratic
+    votes: 2080
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0038
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9824
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Marsi, Jr
+    slug: john-j-marsi-jr
+    party: Republican
+    votes: 1711
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0458
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.0244
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: John J. Marsi, Jr
+    slug: john-j-marsi-jr
+    party: Republican
+    votes: 1189
+    winner: true
+    actual_primary_share: 0.5325
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0458
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.5244
+    primary_war: 0.0081
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: David S. Adams
+    slug: david-s-adams
+    party: Republican
+    votes: 1044
+    winner: false
+    actual_primary_share: 0.4675
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0463
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 0.4323
+    primary_war: 0.0352
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Peter J. Durant
+    slug: peter-j-durant
+    party: Republican
+    votes: 2000
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1354
+    primary_fundraising_component_sd: 0.0079
+    primary_expected_share: 0.8432
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42768
   voting_age_population: 33966

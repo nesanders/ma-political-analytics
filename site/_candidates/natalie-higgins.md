@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.575
   war: 0.0277
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.47
-  lean_component_sd: 0.0319
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4698
+  lean_component_sd: 0.0318
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0043
   demographics_component_sd: 0.0151
-  fundraising_component: 0.0019
-  fundraising_component_sd: 0.0001
+  fundraising_component: 0.0021
+  fundraising_component_sd: 0.0002
   demographics_tier: full
-  expected_share_resolved: 0.6398
-  war_resolved: -0.0648
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.64
+  war_resolved: -0.065
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 4th Worcester District
+  district_url: /district/house-4th-worcester-district-2022-present/
+  party: Democratic
+  votes: 2360
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.162
+  primary_incumbency_component_sd: 0.1101
+  primary_fundraising_component: 0.0175
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1582
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4375
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.47
-  lean_component_sd: 0.0319
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4698
+  lean_component_sd: 0.0318
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0043
   demographics_component_sd: 0.0151
-  fundraising_component: 0.0075
+  fundraising_component: 0.0077
   fundraising_component_sd: 0.0006
   demographics_tier: full
-  expected_share_resolved: 0.573
+  expected_share_resolved: 0.5734
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 4th Worcester District
+  district_url: /district/house-4th-worcester-district-2022-present/
+  party: Democratic
+  votes: 2480
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0279
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.0065
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,22 +148,22 @@ races:
   winner: true
   actual_two_party_share: 0.5853
   war: -0.0043
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3914
-  lean_component_sd: 0.0266
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3911
+  lean_component_sd: 0.0265
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.002
-  fundraising_component_sd: 0.0001
+  fundraising_component: 0.0021
+  fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.5659
-  war_resolved: 0.0194
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5661
+  war_resolved: 0.0192
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 4th Worcester District
+  district_url: /district/house-4th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 5218
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1392
+  primary_incumbency_component_sd: 0.1089
+  primary_fundraising_component: 0.0176
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1355
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.5627
   war: 0.3231
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3914
-  lean_component_sd: 0.0266
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3911
+  lean_component_sd: 0.0265
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0016
+  fundraising_component: 0.0018
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.5623
-  war_resolved: 0.0004
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5624
+  war_resolved: 0.0003
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 4th Worcester District
+  district_url: /district/house-4th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 2347
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1889
+  primary_incumbency_component_sd: 0.0925
+  primary_fundraising_component: 0.017
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1845
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,22 +282,22 @@ races:
   winner: true
   actual_two_party_share: 0.552
   war: 0.0065
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3914
-  lean_component_sd: 0.0266
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3911
+  lean_component_sd: 0.0265
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.008
+  fundraising_component: 0.0082
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.4991
-  war_resolved: 0.0529
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4996
+  war_resolved: 0.0524
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -180,6 +307,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 4th Worcester District
+  district_url: /district/house-4th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 1475
+  winner: true
+  actual_primary_share: 0.5064
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.029
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 0.5076
+  primary_war: -0.0012
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16366

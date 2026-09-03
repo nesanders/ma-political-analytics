@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3659
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4446
-  lean_component_sd: 0.0302
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4444
+  lean_component_sd: 0.0301
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0318
+  fundraising_component: 0.0324
   fundraising_component_sd: 0.0024
   demographics_tier: null
-  expected_share_resolved: 0.649
+  expected_share_resolved: 0.6497
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 5642
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1505
+  primary_incumbency_component_sd: 0.1113
+  primary_fundraising_component: 0.0735
+  primary_fundraising_component_sd: 0.0043
+  primary_expected_share: 1.2027
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -48,20 +80,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7001
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4446
-  lean_component_sd: 0.0302
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4444
+  lean_component_sd: 0.0301
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0625
+  fundraising_component: 0.0635
   fundraising_component_sd: 0.0048
   demographics_tier: null
-  expected_share_resolved: 0.6764
+  expected_share_resolved: 0.6774
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2622
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2002
+  primary_incumbency_component_sd: 0.0953
+  primary_fundraising_component: 0.131
+  primary_fundraising_component_sd: 0.0077
+  primary_expected_share: 1.3097
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -83,20 +147,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4039
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4446
-  lean_component_sd: 0.0302
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4444
+  lean_component_sd: 0.0301
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0646
+  fundraising_component: 0.0656
   fundraising_component_sd: 0.0049
   demographics_tier: null
-  expected_share_resolved: 0.6815
+  expected_share_resolved: 0.6826
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +172,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1467
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1541
+  primary_incumbency_component_sd: 0.1098
+  primary_fundraising_component: 0.1348
+  primary_fundraising_component_sd: 0.0079
+  primary_expected_share: 1.2675
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -118,22 +214,22 @@ races:
   winner: true
   actual_two_party_share: 0.7176
   war: 0.2415
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4446
-  lean_component_sd: 0.0302
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4444
+  lean_component_sd: 0.0301
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0598
+  fundraising_component: 0.0608
   fundraising_component_sd: 0.0046
   demographics_tier: null
-  expected_share_resolved: 0.6752
-  war_resolved: 0.0424
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6762
+  war_resolved: 0.0414
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +239,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 2343
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.177
+  primary_incumbency_component_sd: 0.1017
+  primary_fundraising_component: 0.1259
+  primary_fundraising_component_sd: 0.0074
+  primary_expected_share: 1.2815
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -153,22 +281,22 @@ races:
   winner: true
   actual_two_party_share: 0.7763
   war: 0.1576
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4446
-  lean_component_sd: 0.0302
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4444
+  lean_component_sd: 0.0301
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0545
+  fundraising_component: 0.0554
   fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.5986
-  war_resolved: 0.1777
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5998
+  war_resolved: 0.1765
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +306,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 19th Suffolk District
+  district_url: /district/house-19th-suffolk-district-2012-2020/
+  party: Democratic
+  votes: 1851
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.116
+  primary_fundraising_component_sd: 0.0068
+  primary_expected_share: 1.0946
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -188,20 +347,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4938
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.481
-  lean_component_sd: 0.0327
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4808
+  lean_component_sd: 0.0326
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0621
+  fundraising_component: 0.0631
   fundraising_component_sd: 0.0047
   demographics_tier: null
-  expected_share_resolved: 0.7144
+  expected_share_resolved: 0.7154
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +372,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 19th Suffolk
+  district_url: /district/house-19th-suffolk-2001-2010/
+  party: Democratic
+  votes: 1507
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1781
+  primary_incumbency_component_sd: 0.1057
+  primary_fundraising_component: 0.1301
+  primary_fundraising_component_sd: 0.0076
+  primary_expected_share: 1.2868
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -223,20 +414,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3916
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.481
-  lean_component_sd: 0.0327
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4808
+  lean_component_sd: 0.0326
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0511
+  fundraising_component: 0.0519
   fundraising_component_sd: 0.0039
   demographics_tier: null
-  expected_share_resolved: 0.7043
+  expected_share_resolved: 0.7052
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -248,6 +439,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 19th Suffolk
+  district_url: /district/house-19th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2034
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.164
+  primary_incumbency_component_sd: 0.1108
+  primary_fundraising_component: 0.1096
+  primary_fundraising_component_sd: 0.0064
+  primary_expected_share: 1.2522
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -258,20 +481,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4266
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.481
-  lean_component_sd: 0.0327
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4808
+  lean_component_sd: 0.0326
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0435
+  fundraising_component: 0.0442
   fundraising_component_sd: 0.0033
   demographics_tier: null
-  expected_share_resolved: 0.6965
+  expected_share_resolved: 0.6973
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -283,6 +506,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 19th Suffolk
+  district_url: /district/house-19th-suffolk-2001-2010/
+  party: Democratic
+  votes: 4176
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.167
+  primary_incumbency_component_sd: 0.1097
+  primary_fundraising_component: 0.0953
+  primary_fundraising_component_sd: 0.0056
+  primary_expected_share: 1.2409
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -293,22 +548,22 @@ races:
   winner: true
   actual_two_party_share: 0.7833
   war: 0.1258
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.481
-  lean_component_sd: 0.0327
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4808
+  lean_component_sd: 0.0326
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0077
+  fundraising_component: 0.0079
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.6609
-  war_resolved: 0.1224
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6611
+  war_resolved: 0.1222
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -318,6 +573,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 19th Suffolk
+  district_url: /district/house-19th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2226
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1647
+  primary_incumbency_component_sd: 0.1105
+  primary_fundraising_component: 0.0284
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.1716
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -328,22 +615,22 @@ races:
   winner: true
   actual_two_party_share: 0.7491
   war: 0.2546
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.481
-  lean_component_sd: 0.0327
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4808
+  lean_component_sd: 0.0326
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0106
+  fundraising_component: 0.0109
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5897
-  war_resolved: 0.1594
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5902
+  war_resolved: 0.1589
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -353,6 +640,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 19th Suffolk
+  district_url: /district/house-19th-suffolk-2001-2010/
+  party: Democratic
+  votes: 4214
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0338
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.0124
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 11413

@@ -13,15 +13,15 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3376
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5673
-  lean_component_sd: 0.0385
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.567
+  lean_component_sd: 0.0384
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0024
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0025
   demographics_component_sd: 0.0058
   fundraising_component: -0.0081
   fundraising_component_sd: 0.0006
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2022-present/
+  party: Democratic
+  votes: 14762
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1826
+  primary_incumbency_component_sd: 0.1153
+  primary_fundraising_component: -0.0012
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 1.16
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.6361
   war: -0.0413
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5673
-  lean_component_sd: 0.0385
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.567
+  lean_component_sd: 0.0384
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0024
+  demographics_component: -0.0025
   demographics_component_sd: 0.0058
-  fundraising_component: 0.021
+  fundraising_component: 0.0214
   fundraising_component_sd: 0.0016
   demographics_tier: full
-  expected_share_resolved: 0.6856
-  war_resolved: -0.0495
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6862
+  war_resolved: -0.0501
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2022-present/
+  party: Democratic
+  votes: 17817
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0532
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 1.0318
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3045
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4657
-  lean_component_sd: 0.0316
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4654
+  lean_component_sd: 0.0315
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0195
+  fundraising_component: 0.0199
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.6578
+  expected_share_resolved: 0.6583
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 34865
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.155
+  primary_incumbency_component_sd: 0.1122
+  primary_fundraising_component: 0.0505
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.1841
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.6703
   war: 0.3471
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4657
-  lean_component_sd: 0.0316
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4654
+  lean_component_sd: 0.0315
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0293
+  fundraising_component: 0.0298
   fundraising_component_sd: 0.0022
   demographics_tier: null
-  expected_share_resolved: 0.6643
-  war_resolved: 0.006
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6648
+  war_resolved: 0.0055
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 9647
+  winner: true
+  actual_primary_share: 0.555
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2046
+  primary_incumbency_component_sd: 0.0964
+  primary_fundraising_component: 0.0687
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 0.752
+  primary_war: -0.197
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -155,22 +282,22 @@ races:
   winner: true
   actual_two_party_share: 0.6915
   war: 0.0376
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4657
-  lean_component_sd: 0.0316
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4654
+  lean_component_sd: 0.0315
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0169
+  fundraising_component: 0.0173
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.6549
-  war_resolved: 0.0366
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6554
+  war_resolved: 0.0361
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 5047
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1586
+  primary_incumbency_component_sd: 0.1108
+  primary_fundraising_component: 0.0456
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.1828
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -190,22 +349,22 @@ races:
   winner: true
   actual_two_party_share: 0.5684
   war: 0.0884
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4657
-  lean_component_sd: 0.0316
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4654
+  lean_component_sd: 0.0315
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0443
+  fundraising_component: 0.045
   fundraising_component_sd: 0.0034
   demographics_tier: null
-  expected_share_resolved: 0.6082
-  war_resolved: -0.0398
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6092
+  war_resolved: -0.0408
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -215,6 +374,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 12171
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0968
+  primary_fundraising_component_sd: 0.0057
+  primary_expected_share: 1.0754
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  district_url: /district/senate-fifth-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 4439
+  winner: true
+  actual_primary_share: 0.4311
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0968
+  primary_fundraising_component_sd: 0.0057
+  primary_expected_share: 0.4087
+  primary_war: 0.0224
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,22 +444,22 @@ races:
   winner: true
   actual_two_party_share: 0.5984
   war: 0.0473
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4334
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4332
   lean_component_sd: 0.0294
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0174
+  fundraising_component: 0.0178
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.5503
-  war_resolved: 0.0481
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.551
+  war_resolved: 0.0474
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -250,6 +469,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 31st Middlesex District
+  district_url: /district/house-31st-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2856
+  winner: true
+  actual_primary_share: 0.7119
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0466
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 0.5252
+  primary_war: 0.1867
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,22 +510,22 @@ races:
   winner: true
   actual_two_party_share: 0.5971
   war: 0.1295
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4405
-  lean_component_sd: 0.0299
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4402
+  lean_component_sd: 0.0298
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0136
+  fundraising_component: 0.0139
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.6253
-  war_resolved: -0.0282
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6257
+  war_resolved: -0.0286
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -285,6 +535,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 31st Middlesex
+  district_url: /district/house-31st-middlesex-2001-2010/
+  party: Democratic
+  votes: 2491
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1695
+  primary_incumbency_component_sd: 0.1037
+  primary_fundraising_component: 0.0394
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.1876
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,22 +577,22 @@ races:
   winner: true
   actual_two_party_share: 0.6784
   war: 0.0955
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4405
-  lean_component_sd: 0.0299
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4402
+  lean_component_sd: 0.0298
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0264
+  fundraising_component: 0.0269
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.5665
-  war_resolved: 0.1119
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5672
+  war_resolved: 0.1112
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -320,6 +602,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 31st Middlesex
+  district_url: /district/house-31st-middlesex-2001-2010/
+  party: Democratic
+  votes: 4113
+  winner: true
+  actual_primary_share: 0.6642
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0634
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 0.542
+  primary_war: 0.1222
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14713

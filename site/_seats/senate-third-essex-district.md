@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4045
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5203
-    lean_component_sd: 0.0353
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.52
+    lean_component_sd: 0.0352
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0058
+    demographics_component: -0.0059
     demographics_component_sd: 0.021
-    fundraising_component: 0.013
+    fundraising_component: 0.0133
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.6271
+    expected_share_resolved: 0.6275
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3667
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5203
-    lean_component_sd: 0.0353
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.52
+    lean_component_sd: 0.0352
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0058
+    demographics_component: -0.0059
     demographics_component_sd: 0.021
-    fundraising_component: 0.0204
+    fundraising_component: 0.0208
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.6346
+    expected_share_resolved: 0.6352
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,61 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brendan Peter Crighton
+    slug: brendan-peter-crighton
+    party: Democratic
+    votes: 11524
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0384
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.017
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Brendan P. Crighton
+    slug: brendan-p-crighton
+    party: Democratic
+    votes: 15269
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0521
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 1.0307
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 181758
   voting_age_population: 140592

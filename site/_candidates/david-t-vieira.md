@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.5603
   war: 0.1536
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2938
-  lean_component_sd: 0.0139
-  tide_component: 0.0027
+  lean_component_sd: 0.0138
+  tide_component: 0.0025
   tide_component_sd: 0.0118
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
-  demographics_component: -0.0011
+  demographics_component: -0.001
   demographics_component_sd: 0.0125
-  fundraising_component: 0.0112
+  fundraising_component: 0.0115
   fundraising_component_sd: 0.0009
   demographics_tier: full
-  expected_share_resolved: 0.4979
-  war_resolved: 0.0624
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4983
+  war_resolved: 0.062
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2022-present/
+  party: Republican
+  votes: 2672
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1733
+  primary_incumbency_component_sd: 0.0918
+  primary_fundraising_component: 0.035
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.1869
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.5542
   war: 0.1473
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.2938
-  lean_component_sd: 0.0139
-  tide_component: 0.0026
+  lean_component_sd: 0.0138
+  tide_component: 0.0024
   tide_component_sd: 0.0112
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0011
+  demographics_component: -0.001
   demographics_component_sd: 0.0125
   fundraising_component: -0.0069
   fundraising_component_sd: 0.0005
   demographics_tier: full
-  expected_share_resolved: 0.3496
-  war_resolved: 0.2046
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3501
+  war_resolved: 0.2041
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2022-present/
+  party: Republican
+  votes: 3420
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0011
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.9797
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.6074
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3817
+  lean_component: 0.3818
   lean_component_sd: 0.018
-  tide_component: 0.0024
+  tide_component: 0.0022
   tide_component_sd: 0.0105
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0185
+  fundraising_component: -0.0186
   fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.557
+  expected_share_resolved: 0.5569
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 3064
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2013
+  primary_incumbency_component_sd: 0.0953
+  primary_fundraising_component: -0.0206
+  primary_fundraising_component_sd: 0.0012
+  primary_expected_share: 1.1593
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2456
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3817
+  lean_component: 0.3818
   lean_component_sd: 0.018
-  tide_component: 0.0049
+  tide_component: 0.0045
   tide_component_sd: 0.0212
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.044
-  fundraising_component_sd: 0.0034
+  fundraising_component: -0.0446
+  fundraising_component_sd: 0.0033
   demographics_tier: null
-  expected_share_resolved: 0.5339
+  expected_share_resolved: 0.5332
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2957
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1517
+  primary_incumbency_component_sd: 0.1112
+  primary_fundraising_component: -0.0685
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 1.0618
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,22 +282,22 @@ races:
   winner: true
   actual_two_party_share: 0.5296
   war: 0.0836
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3817
+  lean_component: 0.3818
   lean_component_sd: 0.018
-  tide_component: 0.0026
+  tide_component: 0.0024
   tide_component_sd: 0.0112
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0124
-  fundraising_component_sd: 0.0009
+  fundraising_component: 0.0127
+  fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.588
-  war_resolved: -0.0584
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5883
+  war_resolved: -0.0587
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2303
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1977
+  primary_incumbency_component_sd: 0.0962
+  primary_fundraising_component: 0.0371
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.2134
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.424
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3817
+  lean_component: 0.3818
   lean_component_sd: 0.018
-  tide_component: 0.0038
+  tide_component: 0.0035
   tide_component_sd: 0.0162
-  incumbency_adjustment: 0.13
+  incumbency_adjustment: 0.1297
   incumbency_adjustment_sd: 0.0088
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.01
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5668
+  expected_share_resolved: 0.5667
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 2127
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1748
+  primary_incumbency_component_sd: 0.1028
+  primary_fundraising_component: -0.0047
+  primary_fundraising_component_sd: 0.0003
+  primary_expected_share: 1.1487
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,17 +416,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5259
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3817
+  lean_component: 0.3818
   lean_component_sd: 0.018
-  tide_component: 0.0028
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0298
+  fundraising_component: -0.0301
   fundraising_component_sd: 0.0023
   demographics_tier: null
   expected_share_resolved: 0.4161
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 3rd Barnstable District
+  district_url: /district/house-3rd-barnstable-district-2012-2020/
+  party: Republican
+  votes: 1616
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0417
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 0.9369
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,22 +482,22 @@ races:
   winner: true
   actual_two_party_share: 0.5395
   war: 0.0169
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
-  lean_component: 0.3548
-  lean_component_sd: 0.0168
-  tide_component: 0.0034
+  lean_component: 0.3549
+  lean_component_sd: 0.0167
+  tide_component: 0.0032
   tide_component_sd: 0.0148
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0066
+  fundraising_component: 0.0068
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.4262
-  war_resolved: 0.1133
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4267
+  war_resolved: 0.1128
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -285,6 +507,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 3rd Barnstable
+  district_url: /district/house-3rd-barnstable-2001-2010/
+  party: Republican
+  votes: 3676
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0263
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.0049
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15025

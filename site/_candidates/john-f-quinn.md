@@ -13,14 +13,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3715
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5227
-  lean_component_sd: 0.0355
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5224
+  lean_component_sd: 0.0354
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -37,6 +37,37 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 9th Bristol
+  district_url: /district/house-9th-bristol-2001-2010/
+  party: Democratic
+  votes: 2510
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1728
+  primary_incumbency_component_sd: 0.1129
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1514
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -47,14 +78,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.348
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5227
-  lean_component_sd: 0.0355
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5224
+  lean_component_sd: 0.0354
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -71,6 +102,37 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 9th Bristol
+  district_url: /district/house-9th-bristol-2001-2010/
+  party: Democratic
+  votes: 5081
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1758
+  primary_incumbency_component_sd: 0.1118
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1544
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -81,20 +143,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3383
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5227
-  lean_component_sd: 0.0355
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5224
+  lean_component_sd: 0.0354
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6948
+  expected_share_resolved: 0.6949
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -105,6 +167,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 9th Bristol
+  district_url: /district/house-9th-bristol-2001-2010/
+  party: Democratic
+  votes: 1184
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1735
+  primary_incumbency_component_sd: 0.1127
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1521
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -115,11 +208,11 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4309
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5227
-  lean_component_sd: 0.0355
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5224
+  lean_component_sd: 0.0354
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -128,7 +221,7 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6208
+  expected_share_resolved: 0.6209
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -139,6 +232,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 9th Bristol
+  district_url: /district/house-9th-bristol-2001-2010/
+  party: Democratic
+  votes: 3085
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 title: John F. Quinn
 layout: candidate
 ---

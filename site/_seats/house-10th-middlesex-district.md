@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2486
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6431
-    lean_component_sd: 0.0437
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6427
+    lean_component_sd: 0.0436
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0059
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.006
     demographics_component_sd: 0.013
-    fundraising_component: 0.0322
+    fundraising_component: 0.0328
     fundraising_component_sd: 0.0025
     demographics_tier: full
-    expected_share_resolved: 0.8415
+    expected_share_resolved: 0.842
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.2327
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6431
-    lean_component_sd: 0.0437
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6427
+    lean_component_sd: 0.0436
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0059
+    demographics_component: -0.006
     demographics_component_sd: 0.013
-    fundraising_component: 0.0237
+    fundraising_component: 0.0242
     fundraising_component_sd: 0.0018
     demographics_tier: full
-    expected_share_resolved: 0.7606
+    expected_share_resolved: 0.7612
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 2966
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1987
+    primary_incumbency_component_sd: 0.1197
+    primary_fundraising_component: 0.0742
+    primary_fundraising_component_sd: 0.0043
+    primary_expected_share: 1.2515
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 3321
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0584
+    primary_fundraising_component_sd: 0.0034
+    primary_expected_share: 1.037
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 44139
   voting_age_population: 37552

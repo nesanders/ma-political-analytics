@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4391
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.482
-    lean_component_sd: 0.0327
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4817
+    lean_component_sd: 0.0326
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
-    demographics_component: -0.0041
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
+    demographics_component: -0.0042
     demographics_component_sd: 0.0267
-    fundraising_component: 0.0072
-    fundraising_component_sd: 0.0005
+    fundraising_component: 0.0074
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.6572
+    expected_share_resolved: 0.6574
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: 0.0499
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.482
-    lean_component_sd: 0.0327
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4817
+    lean_component_sd: 0.0326
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0041
+    demographics_component: -0.0042
     demographics_component_sd: 0.0267
-    fundraising_component: 0.0145
+    fundraising_component: 0.0149
     fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.5921
-    war_resolved: 0.035
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5927
+    war_resolved: 0.0344
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: -0.0499
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3112
     lean_component_sd: 0.0147
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0041
+    demographics_component: -0.0042
     demographics_component_sd: 0.0267
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3709
-    war_resolved: 0.002
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3712
+    war_resolved: 0.0017
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -126,6 +126,88 @@ results_by_year:
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael P. Kushmerek
+    slug: michael-p-kushmerek
+    party: Democratic
+    votes: 2182
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1645
+    primary_incumbency_component_sd: 0.1107
+    primary_fundraising_component: 0.0274
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.1706
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael P. Kushmerek
+    slug: michael-p-kushmerek
+    party: Democratic
+    votes: 2490
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0412
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.0198
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Aaron L. Packard
+    slug: aaron-l-packard
+    party: Republican
+    votes: 1180
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   total_population: 44935
   voting_age_population: 35047

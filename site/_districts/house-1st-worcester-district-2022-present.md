@@ -30,20 +30,20 @@ results_by_year:
     war: 0.5353
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3329
     lean_component_sd: 0.0157
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: 0.0026
     demographics_component_sd: 0.0103
-    fundraising_component: -0.0213
+    fundraising_component: -0.0215
     fundraising_component_sd: 0.0016
     demographics_tier: full
-    expected_share_resolved: 0.5083
+    expected_share_resolved: 0.5081
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,20 +97,20 @@ results_by_year:
     war: 0.5427
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3329
     lean_component_sd: 0.0157
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0026
     demographics_component_sd: 0.0103
-    fundraising_component: -0.013
+    fundraising_component: -0.0131
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.3864
+    expected_share_resolved: 0.3867
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -121,6 +121,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 2278
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1831
+    primary_incumbency_component_sd: 0.0939
+    primary_fundraising_component: -0.0259
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.1357
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kimberly N. Ferguson
+    slug: kimberly-n-ferguson
+    party: Republican
+    votes: 2649
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0104
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9682
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 45365
   voting_age_population: 35164

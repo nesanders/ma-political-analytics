@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2293
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6376
-  lean_component_sd: 0.0433
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6373
+  lean_component_sd: 0.0432
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0553
+  fundraising_component: 0.0562
   fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.8649
+  expected_share_resolved: 0.8658
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -38,6 +38,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: First Suffolk and Middlesex
+  district_url: /district/senate-first-suffolk-and-middlesex-2001-2010/
+  party: Democratic
+  votes: 15130
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2002
+  primary_incumbency_component_sd: 0.1185
+  primary_fundraising_component: 0.1175
+  primary_fundraising_component_sd: 0.0069
+  primary_expected_share: 1.2963
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -48,22 +80,22 @@ races:
   winner: true
   actual_two_party_share: 0.7985
   war: 0.008
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6376
-  lean_component_sd: 0.0433
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6373
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0497
+  fundraising_component: 0.0506
   fundraising_component_sd: 0.0038
   demographics_tier: null
-  expected_share_resolved: 0.8595
-  war_resolved: -0.061
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8603
+  war_resolved: -0.0618
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +105,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: First Suffolk and Middlesex
+  district_url: /district/senate-first-suffolk-and-middlesex-2001-2010/
+  party: Democratic
+  votes: 9170
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1979
+  primary_incumbency_component_sd: 0.1193
+  primary_fundraising_component: 0.1071
+  primary_fundraising_component_sd: 0.0063
+  primary_expected_share: 1.2835
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -83,22 +147,22 @@ races:
   winner: true
   actual_two_party_share: 0.7755
   war: 0.1201
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6376
-  lean_component_sd: 0.0433
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6373
+  lean_component_sd: 0.0432
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0413
-  fundraising_component_sd: 0.0031
+  fundraising_component: 0.042
+  fundraising_component_sd: 0.0032
   demographics_tier: null
-  expected_share_resolved: 0.777
-  war_resolved: -0.0015
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.7778
+  war_resolved: -0.0023
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +172,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: First Suffolk and Middlesex
+  district_url: /district/senate-first-suffolk-and-middlesex-2001-2010/
+  party: Democratic
+  votes: 14262
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0913
+  primary_fundraising_component_sd: 0.0053
+  primary_expected_share: 1.0699
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 11470

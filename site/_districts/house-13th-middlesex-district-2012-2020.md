@@ -33,22 +33,22 @@ results_by_year:
     war: -0.0704
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4869
-    lean_component_sd: 0.0331
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4866
+    lean_component_sd: 0.033
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.003
+    fundraising_component: 0.0031
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6624
-    war_resolved: 0.0275
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6627
+    war_resolved: 0.0272
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: 0.0704
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.307
     lean_component_sd: 0.0145
-    tide_component: 0.0024
+    tide_component: 0.0022
     tide_component_sd: 0.0105
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0117
+    fundraising_component: 0.012
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.3824
-    war_resolved: -0.0723
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.383
+    war_resolved: -0.0729
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.6851
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4869
-    lean_component_sd: 0.0331
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4866
+    lean_component_sd: 0.033
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0259
+    fundraising_component: -0.0262
     fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.6303
+    expected_share_resolved: 0.63
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.2696
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4869
-    lean_component_sd: 0.0331
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4866
+    lean_component_sd: 0.033
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0227
+    fundraising_component: -0.0229
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.6365
+    expected_share_resolved: 0.6364
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,12 +180,12 @@ results_by_year:
     war: 0.5323
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4869
-    lean_component_sd: 0.0331
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4866
+    lean_component_sd: 0.033
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -193,7 +193,7 @@ results_by_year:
     fundraising_component: -0.0044
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5807
+    expected_share_resolved: 0.5809
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -219,12 +219,12 @@ results_by_year:
     war: 0.3988
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4869
-    lean_component_sd: 0.0331
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4866
+    lean_component_sd: 0.033
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -232,7 +232,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5863
+    expected_share_resolved: 0.5866
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -240,6 +240,213 @@ results_by_year:
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carmine Lawrence Gentile
+    slug: carmine-lawrence-gentile
+    party: Democratic
+    votes: 8928
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1595
+    primary_incumbency_component_sd: 0.1133
+    primary_fundraising_component: 0.0196
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 1.1577
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ingrid I. Centurion
+    slug: ingrid-i-centurion
+    party: Republican
+    votes: 1334
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0358
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.0144
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carmine Lawrence Gentile
+    slug: carmine-lawrence-gentile
+    party: Democratic
+    votes: 3732
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2091
+    primary_incumbency_component_sd: 0.0976
+    primary_fundraising_component: -0.0345
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.1532
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Carmine Lawrence Gentile
+    slug: carmine-lawrence-gentile
+    party: Democratic
+    votes: 918
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1631
+    primary_incumbency_component_sd: 0.1119
+    primary_fundraising_component: -0.0284
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1133
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Carmine Lawrence Gentile
+    slug: carmine-lawrence-gentile
+    party: Democratic
+    votes: 2339
+    winner: true
+    actual_primary_share: 0.5958
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0057
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.4843
+    primary_war: 0.1115
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Brian J. Lefort
+    slug: brian-j-lefort
+    party: Democratic
+    votes: 1587
+    winner: false
+    actual_primary_share: 0.4042
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0274
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.4512
+    primary_war: -0.047
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Thomas P. Conroy
+    slug: thomas-p-conroy
+    party: Democratic
+    votes: 1951
+    winner: true
+    actual_primary_share: 0.8876
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.409
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Steven Hakar
+    slug: steven-hakar
+    party: Democratic
+    votes: 247
+    winner: false
+    actual_primary_share: 0.1124
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1294
+    primary_fundraising_component_sd: 0.0076
+    primary_expected_share: 0.3492
+    primary_war: -0.2368
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 13th Middlesex District (2012-2020)
 layout: district
 ---

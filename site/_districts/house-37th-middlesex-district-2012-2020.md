@@ -33,22 +33,22 @@ results_by_year:
     war: -0.0509
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4554
-    lean_component_sd: 0.0309
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4551
+    lean_component_sd: 0.0308
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.019
-    fundraising_component_sd: 0.0014
+    fundraising_component: 0.0194
+    fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.5743
-    war_resolved: 0.0712
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.575
+    war_resolved: 0.0705
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: 0.0509
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3338
-    lean_component_sd: 0.0158
-    tide_component: 0.0024
+    lean_component: 0.3339
+    lean_component_sd: 0.0157
+    tide_component: 0.0022
     tide_component_sd: 0.0105
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0055
+    fundraising_component: -0.0054
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.3921
-    war_resolved: -0.0376
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3925
+    war_resolved: -0.038
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.6875
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4554
-    lean_component_sd: 0.0309
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4551
+    lean_component_sd: 0.0308
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0066
+    fundraising_component: 0.0068
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.6312
+    expected_share_resolved: 0.6314
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.3485
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4554
-    lean_component_sd: 0.0309
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4551
+    lean_component_sd: 0.0308
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0051
+    fundraising_component: 0.0052
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.6327
+    expected_share_resolved: 0.633
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,20 +180,20 @@ results_by_year:
     war: 0.5469
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4554
-    lean_component_sd: 0.0309
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4551
+    lean_component_sd: 0.0308
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.016
+    fundraising_component: -0.0161
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6102
+    expected_share_resolved: 0.6101
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -219,17 +219,17 @@ results_by_year:
     war: 0.4251
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4554
-    lean_component_sd: 0.0309
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4551
+    lean_component_sd: 0.0308
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0279
+    fundraising_component: -0.0282
     fundraising_component_sd: 0.0021
     demographics_tier: null
     expected_share_resolved: 0.5269
@@ -241,6 +241,268 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Danillo A. Sena
+    slug: danillo-a-sena
+    party: Democratic
+    votes: 9291
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0495
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 1.0281
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Catherine J. Clark
+    slug: catherine-j-clark
+    party: Republican
+    votes: 1684
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0037
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.9823
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2020
+  party: Democratic
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Danillo A. Sena
+    slug: danillo-a-sena
+    party: Democratic
+    votes: 5484
+    winner: true
+    actual_primary_share: 0.5733
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0495
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 0.5281
+    primary_war: 0.0452
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Dina M. Samfield
+    slug: dina-m-samfield
+    party: Democratic
+    votes: 4081
+    winner: false
+    actual_primary_share: 0.4267
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0151
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.4635
+    primary_war: -0.0368
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Catherine J. Clark
+    slug: catherine-j-clark
+    party: Republican
+    votes: 1368
+    winner: true
+    actual_primary_share: 0.5579
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0037
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.4823
+    primary_war: 0.0756
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Malena Chastain
+    slug: malena-chastain
+    party: Republican
+    votes: 1084
+    winner: false
+    actual_primary_share: 0.4421
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0343
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 0.4443
+    primary_war: -0.0022
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer E. Benson
+    slug: jennifer-e-benson
+    party: Democratic
+    votes: 5081
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2025
+    primary_incumbency_component_sd: 0.0959
+    primary_fundraising_component: 0.0262
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.2073
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer E. Benson
+    slug: jennifer-e-benson
+    party: Democratic
+    votes: 842
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1564
+    primary_incumbency_component_sd: 0.1103
+    primary_fundraising_component: 0.0234
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.1584
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer E. Benson
+    slug: jennifer-e-benson
+    party: Democratic
+    votes: 2702
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1793
+    primary_incumbency_component_sd: 0.1022
+    primary_fundraising_component: -0.0159
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.142
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer E. Benson
+    slug: jennifer-e-benson
+    party: Democratic
+    votes: 1109
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0383
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 0.9403
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 37th Middlesex District (2012-2020)
 layout: district
 ---

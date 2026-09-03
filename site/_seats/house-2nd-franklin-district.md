@@ -56,20 +56,20 @@ results_by_year:
     war: 0.5689
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2995
     lean_component_sd: 0.0141
-    tide_component: 0.0027
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0055
+    demographics_component: 0.0056
     demographics_component_sd: 0.0156
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: full
-    expected_share_resolved: 0.1587
+    expected_share_resolved: 0.1562
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -123,17 +123,17 @@ results_by_year:
     war: 0.6017
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2995
     lean_component_sd: 0.0141
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0055
+    demographics_component: 0.0056
     demographics_component_sd: 0.0156
-    fundraising_component: -0.0345
+    fundraising_component: -0.0349
     fundraising_component_sd: 0.0026
     demographics_tier: full
     expected_share_resolved: 0.3344
@@ -173,6 +173,61 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey L. Raymond
+    slug: jeffrey-l-raymond
+    party: Republican
+    votes: 1180
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jeffrey L. Raymond
+    slug: jeffrey-l-raymond
+    party: Republican
+    votes: 1522
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0506
+    primary_fundraising_component_sd: 0.003
+    primary_expected_share: 0.928
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 41668
   voting_age_population: 33342

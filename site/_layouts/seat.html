@@ -152,6 +152,46 @@ layout: default
     </small></p>
   </section>
 
+  {% if page.primaries.size > 0 %}
+  <section>
+    <h2>Primary results</h2>
+    <p>
+      Primaries are scored the same way as the general model above, but
+      relative to an even split of that year's field rather than a
+      two-party baseline: each candidate's share above or below
+      1&nbsp;&divide;&nbsp;(number of candidates), decomposed into a
+      baseline, incumbency (interacted with statewide tide and district
+      lean), and campaign fundraising where a candidate's own OCPF match
+      supports it. Special-election primaries are included and marked
+      below; special-election generals are not yet part of this site's
+      backfill. See the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page</a>
+      for the fitted coefficients.
+    </p>
+    {% for p in page.primaries %}
+    <h3>{{ p.year }} {{ p.party }} Primary{% if p.is_special %} <em>(special election)</em>{% endif %}</h3>
+    {% unless p.is_contested %}<p><em>Uncontested.</em></p>{% endunless %}
+    <table>
+      <thead>
+        <tr><th>Candidate</th><th>Votes</th><th>Share</th><th>Primary WAR</th><th>Expected share</th><th>Factors</th></tr>
+      </thead>
+      <tbody>
+        {% for c in p.candidates %}
+        <tr{% if c.winner %} class="winner"{% endif %}>
+          <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}{% if c.is_incumbent %} <em>(incumbent)</em>{% endif %}</td>
+          <td>{{ c.votes }}</td>
+          <td>{% if c.actual_primary_share %}{{ c.actual_primary_share | times: 100 | round: 1 }}%{% endif %}</td>
+          <td>{% if c.primary_war %}{{ c.primary_war | times: 100 | round: 1 }}{% endif %}</td>
+          <td>{% if c.primary_expected_share %}{{ c.primary_expected_share | times: 100 | round: 1 }}%{% endif %}</td>
+          <td><small>{% if c.primary_war_factors %}{{ c.primary_war_factors | join: ", " }}{% endif %}</small></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   {% if page.history.size > 0 %}
   <section>
     <h2>Before redistricting</h2>

@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4883
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3638
-    lean_component_sd: 0.0172
-    tide_component: 0.0027
+    lean_component_sd: 0.0171
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: 0.0043
     demographics_component_sd: 0.0052
-    fundraising_component: 0.0112
+    fundraising_component: 0.0115
     fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.5733
+    expected_share_resolved: 0.5737
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.5042
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3638
-    lean_component_sd: 0.0172
-    tide_component: 0.0026
+    lean_component_sd: 0.0171
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0043
     demographics_component_sd: 0.0052
-    fundraising_component: 0.0287
+    fundraising_component: 0.0293
     fundraising_component_sd: 0.0022
     demographics_tier: full
-    expected_share_resolved: 0.4607
+    expected_share_resolved: 0.4616
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,62 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael J. Soter
+    slug: michael-j-soter
+    party: Republican
+    votes: 1765
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1907
+    primary_incumbency_component_sd: 0.0957
+    primary_fundraising_component: 0.0349
+    primary_fundraising_component_sd: 0.002
+    primary_expected_share: 1.2043
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Michael J. Soter
+    slug: michael-j-soter
+    party: Republican
+    votes: 2182
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0678
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 1.0464
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43489
   voting_age_population: 34818

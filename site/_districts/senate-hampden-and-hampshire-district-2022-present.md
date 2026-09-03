@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4547
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4697
-    lean_component_sd: 0.0319
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4694
+    lean_component_sd: 0.0318
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.006
-    demographics_component_sd: 0.0082
-    fundraising_component: 0.0308
+    demographics_component_sd: 0.0081
+    fundraising_component: 0.0314
     fundraising_component_sd: 0.0024
     demographics_tier: core
-    expected_share_resolved: 0.6786
+    expected_share_resolved: 0.6793
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -70,22 +70,22 @@ results_by_year:
     war: 0.0929
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4697
-    lean_component_sd: 0.0319
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4694
+    lean_component_sd: 0.0318
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.006
-    demographics_component_sd: 0.0082
-    fundraising_component: 0.0403
+    demographics_component_sd: 0.0081
+    fundraising_component: 0.041
     fundraising_component_sd: 0.0031
     demographics_tier: core
-    expected_share_resolved: 0.6157
-    war_resolved: 0.0413
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6167
+    war_resolved: 0.0403
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,28 +101,110 @@ results_by_year:
     war: -0.0929
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3216
-    lean_component_sd: 0.0152
-    tide_component: 0.0026
+    lean_component: 0.3217
+    lean_component_sd: 0.0151
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.006
-    demographics_component_sd: 0.0082
+    demographics_component_sd: 0.0081
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3915
-    war_resolved: -0.0485
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3919
+    war_resolved: -0.0489
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John C. Velis
+    slug: john-c-velis
+    party: Democratic
+    votes: 11129
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1619
+    primary_incumbency_component_sd: 0.1101
+    primary_fundraising_component: 0.0717
+    primary_fundraising_component_sd: 0.0042
+    primary_expected_share: 1.2122
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John C. Velis
+    slug: john-c-velis
+    party: Democratic
+    votes: 14304
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0894
+    primary_fundraising_component_sd: 0.0052
+    primary_expected_share: 1.068
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Cecilia P. Calabrese
+    slug: cecilia-p-calabrese
+    party: Republican
+    votes: 5449
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   median_household_income: 69361
   bachelors_degree_count: 23412

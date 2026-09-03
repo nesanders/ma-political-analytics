@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4506
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4694
-    lean_component_sd: 0.0319
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4691
+    lean_component_sd: 0.0318
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0031
     demographics_component_sd: 0.0042
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6446
+    expected_share_resolved: 0.6447
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -69,12 +69,12 @@ results_by_year:
     war: 0.0041
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4694
-    lean_component_sd: 0.0319
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4691
+    lean_component_sd: 0.0318
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0031
@@ -82,9 +82,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.5721
-    war_resolved: -0.009
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5724
+    war_resolved: -0.0093
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -99,11 +99,11 @@ results_by_year:
     war: -0.0041
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3219
+    lean_component: 0.322
     lean_component_sd: 0.0152
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -112,15 +112,115 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3889
-    war_resolved: 0.048
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3892
+    war_resolved: 0.0477
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jacob R. Oliveira
+    slug: jacob-r-oliveira
+    party: Democratic
+    votes: 13107
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1619
+    primary_incumbency_component_sd: 0.1101
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1405
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jacob R. Oliveira
+    slug: jacob-r-oliveira
+    party: Democratic
+    votes: 12932
+    winner: true
+    actual_primary_share: 0.6497
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: 0.1711
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Sydney R. Levin-Epstein
+    slug: sydney-r-levin-epstein
+    party: Democratic
+    votes: 6974
+    winner: false
+    actual_primary_share: 0.3503
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.1283
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: William E. Johnson
+    slug: william-e-johnson
+    party: Republican
+    votes: 6327
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   median_household_income: 88672
   bachelors_degree_count: 26951

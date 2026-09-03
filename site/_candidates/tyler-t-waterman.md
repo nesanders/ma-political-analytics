@@ -1,0 +1,44 @@
+---
+slug: tyler-t-waterman
+name: Tyler T. Waterman
+party: Democratic
+races:
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 2nd Bristol District
+  district_url: /district/house-2nd-bristol-district-2012-2020/
+  party: Democratic
+  votes: 403
+  winner: false
+  actual_primary_share: 0.3072
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0383
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 0.2736
+  primary_war: 0.0336
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
+ocpf_finance:
+  cpf_ids:
+  - 16874
+  by_year:
+    2018:
+      total_raised: 5920.0
+      total_spent: 6659.86
+title: Tyler T. Waterman
+layout: candidate
+---

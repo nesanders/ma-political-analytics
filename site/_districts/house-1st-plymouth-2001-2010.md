@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4352
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3701
-    lean_component_sd: 0.0175
-    tide_component: 0.0034
+    lean_component_sd: 0.0174
+    tide_component: 0.0032
     tide_component_sd: 0.0148
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0138
-    fundraising_component_sd: 0.0011
+    fundraising_component: -0.0139
+    fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.551
+    expected_share_resolved: 0.5509
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,13 +72,13 @@ results_by_year:
     war: 0.211
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3701
-    lean_component_sd: 0.0175
-    tide_component: 0.0027
+    lean_component_sd: 0.0174
+    tide_component: 0.0025
     tide_component_sd: 0.0117
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
@@ -87,7 +87,7 @@ results_by_year:
     demographics_tier: null
     expected_share_resolved: 0.5577
     war_resolved: 0.1172
-    war_resolved_sd: 0.0811
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,22 +102,22 @@ results_by_year:
     war: -0.211
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4129
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4126
     lean_component_sd: 0.028
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0407
+    fundraising_component: -0.0412
     fundraising_component_sd: 0.0031
     demographics_tier: null
-    expected_share_resolved: 0.4717
-    war_resolved: -0.1466
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4715
+    war_resolved: -0.1464
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.5371
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3701
-    lean_component_sd: 0.0175
-    tide_component: 0.0029
+    lean_component_sd: 0.0174
+    tide_component: 0.0026
     tide_component_sd: 0.0124
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0126
+    fundraising_component: -0.0127
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.5517
+    expected_share_resolved: 0.5516
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,22 +180,22 @@ results_by_year:
     war: 0.1653
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3701
-    lean_component_sd: 0.0175
-    tide_component: 0.0028
+    lean_component_sd: 0.0174
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0146
+    fundraising_component: 0.015
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5788
-    war_resolved: 0.0423
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5791
+    war_resolved: 0.042
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -210,22 +210,22 @@ results_by_year:
     war: -0.1653
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4129
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4126
     lean_component_sd: 0.028
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0007
+    fundraising_component: 0.0009
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.5131
-    war_resolved: -0.1342
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5136
+    war_resolved: -0.1347
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -249,22 +249,22 @@ results_by_year:
     war: 0.0568
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3701
-    lean_component_sd: 0.0175
-    tide_component: 0.0039
+    lean_component_sd: 0.0174
+    tide_component: 0.0036
     tide_component_sd: 0.0167
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0096
+    fundraising_component: 0.0098
     fundraising_component_sd: 0.0007
     demographics_tier: null
-    expected_share_resolved: 0.4448
-    war_resolved: 0.227
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4453
+    war_resolved: 0.2265
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -279,28 +279,249 @@ results_by_year:
     war: -0.0568
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4129
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4126
     lean_component_sd: 0.028
-    tide_component: 0.0046
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0008
+    fundraising_component: 0.001
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.5117
-    war_resolved: -0.1835
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5121
+    war_resolved: -0.1839
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vinny M. deMacedo
+    slug: vinny-m-demacedo
+    party: Republican
+    votes: 2847
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1785
+    primary_incumbency_component_sd: 0.1
+    primary_fundraising_component: -0.0119
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 1.1453
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jay D. Ferguson
+    slug: jay-d-ferguson
+    party: Democratic
+    votes: 150
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0623
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.9163
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vinny M. deMacedo
+    slug: vinny-m-demacedo
+    party: Republican
+    votes: 330
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1927
+    primary_incumbency_component_sd: 0.096
+    primary_fundraising_component: 0.0019
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 1.1732
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vinny M. deMacedo
+    slug: vinny-m-demacedo
+    party: Republican
+    votes: 2744
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1897
+    primary_incumbency_component_sd: 0.0968
+    primary_fundraising_component: -0.0096
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 1.1587
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Loring Tripp, III
+    slug: loring-tripp-iii
+    party: Democratic
+    votes: 1397
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0154
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.994
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vinny M. deMacedo
+    slug: vinny-m-demacedo
+    party: Republican
+    votes: 914
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.192
+    primary_incumbency_component_sd: 0.0962
+    primary_fundraising_component: 0.0413
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.2119
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Loring Tripp, III
+    slug: loring-tripp-iii
+    party: Democratic
+    votes: 2417
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0155
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.9941
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Vinny M. deMacedo
+    slug: vinny-m-demacedo
+    party: Republican
+    votes: 1959
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0319
+    primary_fundraising_component_sd: 0.0019
+    primary_expected_share: 1.0105
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 1st Plymouth (2001-2010)
 layout: district
 ---

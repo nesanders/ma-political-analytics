@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3905
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5145
-  lean_component_sd: 0.0349
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5142
+  lean_component_sd: 0.0348
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.002
   demographics_component_sd: 0.0218
-  fundraising_component: 0.0195
+  fundraising_component: 0.0199
   fundraising_component_sd: 0.0015
   demographics_tier: full
-  expected_share_resolved: 0.7082
+  expected_share_resolved: 0.7086
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 18th Essex District
+  district_url: /district/house-18th-essex-district-2022-present/
+  party: Democratic
+  votes: 3523
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1714
+  primary_incumbency_component_sd: 0.1124
+  primary_fundraising_component: 0.0506
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.2006
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.6042
   war: -0.0012
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5145
-  lean_component_sd: 0.0349
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5142
+  lean_component_sd: 0.0348
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.002
   demographics_component_sd: 0.0218
-  fundraising_component: 0.0289
+  fundraising_component: 0.0294
   fundraising_component_sd: 0.0022
   demographics_tier: full
-  expected_share_resolved: 0.6451
-  war_resolved: -0.0409
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6459
+  war_resolved: -0.0417
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 18th Essex District
+  district_url: /district/house-18th-essex-district-2022-present/
+  party: Democratic
+  votes: 4324
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.068
+  primary_fundraising_component_sd: 0.004
+  primary_expected_share: 1.0466
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,22 +148,22 @@ races:
   winner: true
   actual_two_party_share: 0.6237
   war: -0.0085
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3885
-  lean_component_sd: 0.0264
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3882
+  lean_component_sd: 0.0263
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0397
+  fundraising_component: 0.0404
   fundraising_component_sd: 0.003
   demographics_tier: null
-  expected_share_resolved: 0.6007
-  war_resolved: 0.023
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6015
+  war_resolved: 0.0222
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 18th Essex District
+  district_url: /district/house-18th-essex-district-2012-2020/
+  party: Democratic
+  votes: 8262
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1386
+  primary_incumbency_component_sd: 0.1088
+  primary_fundraising_component: 0.0882
+  primary_fundraising_component_sd: 0.0052
+  primary_expected_share: 1.2054
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.5488
   war: 0.3121
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.3885
-  lean_component_sd: 0.0264
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.3882
+  lean_component_sd: 0.0263
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0422
+  fundraising_component: 0.0429
   fundraising_component_sd: 0.0032
   demographics_tier: null
-  expected_share_resolved: 0.5274
-  war_resolved: 0.0214
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5283
+  war_resolved: 0.0205
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 18th Essex District
+  district_url: /district/house-18th-essex-district-2012-2020/
+  party: Democratic
+  votes: 4219
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.093
+  primary_fundraising_component_sd: 0.0054
+  primary_expected_share: 1.0716
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16891

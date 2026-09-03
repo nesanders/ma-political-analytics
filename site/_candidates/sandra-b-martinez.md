@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.4076
   war: -0.1013
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3056
   lean_component_sd: 0.0144
-  tide_component: 0.0038
+  tide_component: 0.0035
   tide_component_sd: 0.0162
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0019
+  fundraising_component: -0.0018
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.3687
-  war_resolved: 0.0389
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3691
+  war_resolved: 0.0385
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Third Middlesex District
+  district_url: /district/senate-third-middlesex-district-2012-2020/
+  party: Republican
+  votes: 2955
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0104
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.989
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -48,22 +79,22 @@ races:
   winner: false
   actual_two_party_share: 0.394
   war: -0.0011
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3056
   lean_component_sd: 0.0144
-  tide_component: 0.0028
+  tide_component: 0.0026
   tide_component_sd: 0.0122
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0213
+  fundraising_component: 0.0217
   fundraising_component_sd: 0.0016
   demographics_tier: null
-  expected_share_resolved: 0.391
-  war_resolved: 0.003
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3917
+  war_resolved: 0.0023
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -73,6 +104,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Third Middlesex District
+  district_url: /district/senate-third-middlesex-district-2012-2020/
+  party: Republican
+  votes: 3301
+  winner: true
+  actual_primary_share: 0.5889
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0538
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 0.5324
+  primary_war: 0.0565
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -83,22 +145,22 @@ races:
   winner: false
   actual_two_party_share: 0.4299
   war: -0.031
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3135
   lean_component_sd: 0.0148
-  tide_component: 0.0034
+  tide_component: 0.0032
   tide_component_sd: 0.0148
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0196
+  fundraising_component: 0.02
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.3978
-  war_resolved: 0.0321
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3984
+  war_resolved: 0.0315
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -108,6 +170,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Third Middlesex
+  district_url: /district/senate-third-middlesex-2001-2010/
+  party: Republican
+  votes: 4546
+  winner: true
+  actual_primary_share: 0.5828
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0506
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 0.5292
+  primary_war: 0.0536
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -118,22 +211,22 @@ races:
   winner: false
   actual_two_party_share: 0.3747
   war: 0.016
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3135
   lean_component_sd: 0.0148
-  tide_component: 0.0027
+  tide_component: 0.0025
   tide_component_sd: 0.0117
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0195
+  fundraising_component: 0.0199
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.397
-  war_resolved: -0.0223
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3977
+  war_resolved: -0.023
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -143,6 +236,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Third Middlesex
+  district_url: /district/senate-third-middlesex-2001-2010/
+  party: Republican
+  votes: 1549
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0505
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.0291
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -153,22 +277,22 @@ races:
   winner: false
   actual_two_party_share: 0.3607
   war: -0.0474
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3135
   lean_component_sd: 0.0148
-  tide_component: 0.0029
+  tide_component: 0.0026
   tide_component_sd: 0.0124
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.011
+  fundraising_component: 0.0112
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.3886
-  war_resolved: -0.0279
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3892
+  war_resolved: -0.0285
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -178,6 +302,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: Third Middlesex
+  district_url: /district/senate-third-middlesex-2001-2010/
+  party: Republican
+  votes: 1319
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0345
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.0131
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14559

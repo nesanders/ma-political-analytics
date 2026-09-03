@@ -33,20 +33,20 @@ results_by_year:
     war: 0.567
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4372
-    lean_component_sd: 0.0297
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4369
+    lean_component_sd: 0.0296
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0302
+    fundraising_component: -0.0305
     fundraising_component_sd: 0.0023
     demographics_tier: null
-    expected_share_resolved: 0.5782
+    expected_share_resolved: 0.578
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.4338
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4372
-    lean_component_sd: 0.0297
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4369
+    lean_component_sd: 0.0296
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0039
+    fundraising_component: 0.004
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.5406
+    expected_share_resolved: 0.5411
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -137,20 +137,20 @@ results_by_year:
     war: 0.4197
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4372
-    lean_component_sd: 0.0297
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4369
+    lean_component_sd: 0.0296
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0024
+    fundraising_component: 0.0026
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6116
+    expected_share_resolved: 0.6118
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -202,22 +202,22 @@ results_by_year:
     war: 0.1119
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4372
-    lean_component_sd: 0.0297
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4369
+    lean_component_sd: 0.0296
+    tide_component: 0.0063
     tide_component_sd: 0.0341
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0003
+    fundraising_component: 0.0004
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.537
-    war_resolved: 0.1534
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5374
+    war_resolved: 0.153
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -232,22 +232,22 @@ results_by_year:
     war: -0.1119
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3494
-    lean_component_sd: 0.0165
-    tide_component: 0.0028
+    lean_component_sd: 0.0164
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0044
+    fundraising_component: 0.0046
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.4178
-    war_resolved: -0.1082
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4183
+    war_resolved: -0.1087
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -271,20 +271,20 @@ results_by_year:
     war: 0.5769
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4372
-    lean_component_sd: 0.0297
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4369
+    lean_component_sd: 0.0296
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: null
-    expected_share_resolved: 0.3249
+    expected_share_resolved: 0.3222
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -293,6 +293,273 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Dennis A. Rosa
+    slug: dennis-a-rosa
+    party: Democratic
+    votes: 1208
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1688
+    primary_incumbency_component_sd: 0.1035
+    primary_fundraising_component: -0.0425
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.1049
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Dennis A. Rosa
+    slug: dennis-a-rosa
+    party: Democratic
+    votes: 3114
+    winner: true
+    actual_primary_share: 0.5464
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0212
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 0.4998
+    primary_war: 0.0466
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Susan A. Chalifoux Zephir
+    slug: susan-a-chalifoux-zephir
+    party: Democratic
+    votes: 2585
+    winner: false
+    actual_primary_share: 0.4536
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.4786
+    primary_war: -0.025
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer L. Flanagan
+    slug: jennifer-l-flanagan
+    party: Democratic
+    votes: 3780
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1577
+    primary_incumbency_component_sd: 0.1075
+    primary_fundraising_component: 0.0185
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 1.1548
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 4
+  is_contested: true
+  candidates:
+  - name: Jennifer L. Flanagan
+    slug: jennifer-l-flanagan
+    party: Democratic
+    votes: 2714
+    winner: true
+    actual_primary_share: 0.4489
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0146
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.2432
+    primary_war: 0.2057
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Claire M. Freda
+    slug: claire-m-freda
+    party: Democratic
+    votes: 1879
+    winner: false
+    actual_primary_share: 0.3108
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: 0.0822
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Kathleen Reynolds Daigneault
+    slug: kathleen-reynolds-daigneault
+    party: Democratic
+    votes: 911
+    winner: false
+    actual_primary_share: 0.1507
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.2286
+    primary_war: -0.0779
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Kathleen T. Perla
+    slug: kathleen-t-perla
+    party: Democratic
+    votes: 542
+    winner: false
+    actual_primary_share: 0.0896
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.25
+    primary_baseline_component: 0.2286
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0061
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.2347
+    primary_war: -0.1451
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: David G. Nault
+    slug: david-g-nault
+    party: Republican
+    votes: 569
+    winner: true
+    actual_primary_share: 0.5053
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0222
+    primary_fundraising_component_sd: 0.0013
+    primary_expected_share: 0.5008
+    primary_war: 0.0045
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: John J. Souza
+    slug: john-j-souza
+    party: Republican
+    votes: 557
+    winner: false
+    actual_primary_share: 0.4947
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0085
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 0.4701
+    primary_war: 0.0246
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Mary Jane Simmons
+    slug: mary-jane-simmons
+    party: Democratic
+    votes: 2533
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.5989
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 4th Worcester (2001-2010)
 layout: district
 ---

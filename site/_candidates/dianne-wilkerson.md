@@ -4,6 +4,35 @@ name: Dianne Wilkerson
 party: Other
 races:
 - chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Second Suffolk District
+  district_url: /district/senate-second-suffolk-district-2022-present/
+  party: Democratic
+  votes: 4388
+  winner: false
+  actual_primary_share: 0.2141
+  fair_share: 0.2
+  n_candidates: 5
+  primary_baseline_component: 0.1786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0434
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 0.222
+  primary_war: -0.0079
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: senate
   year: 2008
   vintage: 2001-2010
   district_name: Second Suffolk
@@ -34,6 +63,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Second Suffolk
+  district_url: /district/senate-second-suffolk-2001-2010/
+  party: Democratic
+  votes: 8858
+  winner: false
+  actual_primary_share: 0.4941
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1974
+  primary_incumbency_component_sd: 0.1196
+  primary_fundraising_component: 0.0996
+  primary_fundraising_component_sd: 0.0058
+  primary_expected_share: 0.7756
+  primary_war: -0.2815
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -44,22 +105,22 @@ races:
   winner: true
   actual_two_party_share: 0.7223
   war: -0.0526
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0358
+  fundraising_component: 0.0364
   fundraising_component_sd: 0.0027
   demographics_tier: null
-  expected_share_resolved: 0.8462
-  war_resolved: -0.1239
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.8467
+  war_resolved: -0.1244
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -69,6 +130,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: Second Suffolk
+  district_url: /district/senate-second-suffolk-2001-2010/
+  party: Democratic
+  votes: 6478
+  winner: true
+  actual_primary_share: 0.505
+  fair_share: 0.25
+  n_candidates: 4
+  primary_baseline_component: 0.2286
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2003
+  primary_incumbency_component_sd: 0.1186
+  primary_fundraising_component: 0.0809
+  primary_fundraising_component_sd: 0.0047
+  primary_expected_share: 0.5099
+  primary_war: -0.0049
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -79,20 +172,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2167
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0255
-  fundraising_component_sd: 0.0019
+  fundraising_component: 0.026
+  fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.8361
+  expected_share_resolved: 0.8365
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -104,6 +197,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: Second Suffolk
+  district_url: /district/senate-second-suffolk-2001-2010/
+  party: Democratic
+  votes: 9716
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.198
+  primary_incumbency_component_sd: 0.1194
+  primary_fundraising_component: 0.0618
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 1.2384
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2002
   vintage: 2001-2010
@@ -114,20 +239,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3457
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6384
-  lean_component_sd: 0.0433
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.638
+  lean_component_sd: 0.0432
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0244
+  fundraising_component: 0.0249
   fundraising_component_sd: 0.0019
   demographics_tier: null
-  expected_share_resolved: 0.7609
+  expected_share_resolved: 0.7614
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -139,13 +264,44 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2002
+  vintage: 2001-2010
+  district_name: Second Suffolk
+  district_url: /district/senate-second-suffolk-2001-2010/
+  party: Democratic
+  votes: 11892
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0597
+  primary_fundraising_component_sd: 0.0035
+  primary_expected_share: 1.0383
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 12237
   by_year:
-    2008:
-      total_raised: 198180.0
-      total_spent: 215287.94
+    2022:
+      total_raised: 47412.1
+      total_spent: 47412.1
     2002:
       total_raised: 71655.0
       total_spent: 73899.1
@@ -155,6 +311,9 @@ ocpf_finance:
     2006:
       total_raised: 123156.0
       total_spent: 148973.08
+    2008:
+      total_raised: 198180.0
+      total_spent: 215287.94
 title: Dianne Wilkerson
 layout: candidate
 ---

@@ -33,20 +33,20 @@ results_by_year:
     war: 0.4987
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4211
-    lean_component_sd: 0.0199
-    tide_component: 0.0024
+    lean_component: 0.4212
+    lean_component_sd: 0.0198
+    tide_component: 0.0022
     tide_component_sd: 0.0105
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0156
+    fundraising_component: -0.0157
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.5993
+    expected_share_resolved: 0.5992
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,22 +72,22 @@ results_by_year:
     war: -0.2504
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4211
-    lean_component_sd: 0.0199
-    tide_component: 0.0049
+    lean_component: 0.4212
+    lean_component_sd: 0.0198
+    tide_component: 0.0045
     tide_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0015
+    fundraising_component: -0.0014
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.4859
-    war_resolved: 0.0352
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4862
+    war_resolved: 0.0349
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,12 +102,12 @@ results_by_year:
     war: 0.2504
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.353
-    lean_component_sd: 0.024
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3528
+    lean_component_sd: 0.0239
+    tide_component: 0.0033
+    tide_component_sd: 0.018
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -115,9 +115,9 @@ results_by_year:
     fundraising_component: -0.0114
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.4383
-    war_resolved: 0.0406
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4385
+    war_resolved: 0.0404
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.469
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4211
-    lean_component_sd: 0.0199
-    tide_component: 0.0026
+    lean_component: 0.4212
+    lean_component_sd: 0.0198
+    tide_component: 0.0024
     tide_component_sd: 0.0112
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.615
+    expected_share_resolved: 0.6151
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -179,13 +179,13 @@ results_by_year:
     war: 0.3839
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4211
-    lean_component_sd: 0.0199
-    tide_component: 0.0038
+    lean_component: 0.4212
+    lean_component_sd: 0.0198
+    tide_component: 0.0035
     tide_component_sd: 0.0162
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
@@ -217,11 +217,11 @@ results_by_year:
     war: 0.0806
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.4211
-    lean_component_sd: 0.0199
-    tide_component: 0.0028
+    lean_component: 0.4212
+    lean_component_sd: 0.0198
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -230,9 +230,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4853
-    war_resolved: 0.0911
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4856
+    war_resolved: 0.0908
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -246,28 +246,287 @@ results_by_year:
     war: -0.0806
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.353
-    lean_component_sd: 0.024
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.3528
+    lean_component_sd: 0.0239
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0015
+    fundraising_component: 0.0017
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.454
-    war_resolved: -0.0304
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4544
+    war_resolved: -0.0308
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: David A. French, III
+    slug: david-a-french-iii
+    party: Democratic
+    votes: 184
+    winner: true
+    actual_primary_share: 0.5055
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.2252
+    primary_fundraising_component_sd: 0.0132
+    primary_expected_share: 0.2534
+    primary_war: 0.2521
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Allin John Frawley
+    slug: allin-john-frawley
+    party: Democratic
+    votes: 180
+    winner: false
+    actual_primary_share: 0.4945
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.0989
+    primary_war: 0.3956
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2020
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Norman J. Orrall
+    slug: norman-j-orrall
+    party: Republican
+    votes: 1993
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2111
+    primary_incumbency_component_sd: 0.0979
+    primary_fundraising_component: -0.0152
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.1745
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Allin John Frawley
+    slug: allin-john-frawley
+    party: Democratic
+    votes: 1451
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0073
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.9713
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Norman J. Orrall
+    slug: norman-j-orrall
+    party: Republican
+    votes: 1800
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0112
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9898
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2016
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Keiko M. Orrall
+    slug: keiko-m-orrall
+    party: Republican
+    votes: 402
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2075
+    primary_incumbency_component_sd: 0.0988
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1861
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Keiko M. Orrall
+    slug: keiko-m-orrall
+    party: Republican
+    votes: 1026
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1846
+    primary_incumbency_component_sd: 0.1052
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.1632
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Roger P. Brunelle, Jr.
+    slug: roger-p-brunelle-jr
+    party: Democratic
+    votes: 818
+    winner: true
+    actual_primary_share: 0.5037
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0169
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.4955
+    primary_war: 0.0082
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Adam M. Bond
+    slug: adam-m-bond
+    party: Democratic
+    votes: 806
+    winner: false
+    actual_primary_share: 0.4963
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0274
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 0.4512
+    primary_war: 0.0451
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Keiko M. Orrall
+    slug: keiko-m-orrall
+    party: Republican
+    votes: 1177
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: 12th Bristol District (2012-2020)
 layout: district
 ---

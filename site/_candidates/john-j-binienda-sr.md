@@ -13,22 +13,22 @@ races:
   winner: true
   actual_two_party_share: 0.7664
   war: 0.1354
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4517
-  lean_component_sd: 0.0307
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4514
+  lean_component_sd: 0.0306
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0122
+  fundraising_component: 0.0125
   fundraising_component_sd: 0.0009
   demographics_tier: null
-  expected_share_resolved: 0.5633
-  war_resolved: 0.2031
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5639
+  war_resolved: 0.2025
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 17th Worcester District
+  district_url: /district/house-17th-worcester-district-2012-2020/
+  party: Democratic
+  votes: 827
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0368
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.0154
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -48,20 +79,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4368
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5123
-  lean_component_sd: 0.0348
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.512
+  lean_component_sd: 0.0347
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0134
+  fundraising_component: 0.0137
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.697
+  expected_share_resolved: 0.6973
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -73,6 +104,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 17th Worcester
+  district_url: /district/house-17th-worcester-2001-2010/
+  party: Democratic
+  votes: 1903
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1847
+  primary_incumbency_component_sd: 0.1074
+  primary_fundraising_component: 0.0391
+  primary_fundraising_component_sd: 0.0023
+  primary_expected_share: 1.2024
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -83,20 +146,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3669
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5123
-  lean_component_sd: 0.0348
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.512
+  lean_component_sd: 0.0347
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0154
+  fundraising_component: 0.0157
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.6999
+  expected_share_resolved: 0.7003
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -108,6 +171,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 17th Worcester
+  district_url: /district/house-17th-worcester-2001-2010/
+  party: Democratic
+  votes: 3287
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1706
+  primary_incumbency_component_sd: 0.1124
+  primary_fundraising_component: 0.0428
+  primary_fundraising_component_sd: 0.0025
+  primary_expected_share: 1.192
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -118,20 +213,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3067
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5123
-  lean_component_sd: 0.0348
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.512
+  lean_component_sd: 0.0347
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0186
+  fundraising_component: 0.0189
   fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.7028
+  expected_share_resolved: 0.7032
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -143,6 +238,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 17th Worcester
+  district_url: /district/house-17th-worcester-2001-2010/
+  party: Democratic
+  votes: 3744
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1736
+  primary_incumbency_component_sd: 0.1113
+  primary_fundraising_component: 0.0487
+  primary_fundraising_component_sd: 0.0028
+  primary_expected_share: 1.2009
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -153,20 +280,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3665
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5123
-  lean_component_sd: 0.0348
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.512
+  lean_component_sd: 0.0347
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0163
-  fundraising_component_sd: 0.0012
+  fundraising_component: 0.0167
+  fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.7007
+  expected_share_resolved: 0.7011
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -178,6 +305,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 17th Worcester
+  district_url: /district/house-17th-worcester-2001-2010/
+  party: Democratic
+  votes: 3261
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1713
+  primary_incumbency_component_sd: 0.1121
+  primary_fundraising_component: 0.0445
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.1944
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -188,20 +347,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4985
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5123
-  lean_component_sd: 0.0348
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.512
+  lean_component_sd: 0.0347
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0147
+  fundraising_component: 0.015
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.6251
+  expected_share_resolved: 0.6256
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -213,6 +372,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 17th Worcester
+  district_url: /district/house-17th-worcester-2001-2010/
+  party: Democratic
+  votes: 2519
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0415
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.0201
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 10030

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3086
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.59
-  lean_component_sd: 0.0401
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5897
+  lean_component_sd: 0.04
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0037
   demographics_component_sd: 0.0116
-  fundraising_component: 0.0067
+  fundraising_component: 0.0069
   fundraising_component_sd: 0.0005
   demographics_tier: full
-  expected_share_resolved: 0.7652
+  expected_share_resolved: 0.7654
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 32nd Middlesex District
+  district_url: /district/house-32nd-middlesex-district-2022-present/
+  party: Democratic
+  votes: 4568
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1875
+  primary_incumbency_component_sd: 0.1166
+  primary_fundraising_component: 0.0265
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.1926
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2979
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.59
-  lean_component_sd: 0.0401
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5897
+  lean_component_sd: 0.04
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0037
   demographics_component_sd: 0.0116
-  fundraising_component: 0.0091
+  fundraising_component: 0.0093
   fundraising_component_sd: 0.0007
   demographics_tier: full
-  expected_share_resolved: 0.6952
+  expected_share_resolved: 0.6956
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 32nd Middlesex District
+  district_url: /district/house-32nd-middlesex-district-2022-present/
+  party: Democratic
+  votes: 5879
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.031
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 1.0096
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2864
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4738
-  lean_component_sd: 0.0322
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4736
+  lean_component_sd: 0.0321
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0106
+  fundraising_component: 0.0109
   fundraising_component_sd: 0.0008
   demographics_tier: null
-  expected_share_resolved: 0.5844
+  expected_share_resolved: 0.585
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 32nd Middlesex District
+  district_url: /district/house-32nd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 11096
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0338
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.0124
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 32nd Middlesex District
+  district_url: /district/house-32nd-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2580
+  winner: true
+  actual_primary_share: 0.6809
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0338
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 0.3458
+  primary_war: 0.3351
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: true
 ocpf_finance:
   cpf_ids:
   - 17408

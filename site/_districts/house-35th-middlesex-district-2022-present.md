@@ -30,20 +30,20 @@ results_by_year:
     war: 0.2764
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6261
-    lean_component_sd: 0.0425
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6257
+    lean_component_sd: 0.0424
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0045
     demographics_component_sd: 0.0085
-    fundraising_component: 0.0306
+    fundraising_component: 0.0312
     fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.8244
+    expected_share_resolved: 0.8249
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.245
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6261
-    lean_component_sd: 0.0425
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6257
+    lean_component_sd: 0.0424
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0045
     demographics_component_sd: 0.0085
-    fundraising_component: 0.0419
+    fundraising_component: 0.0426
     fundraising_component_sd: 0.0032
     demographics_tier: full
-    expected_share_resolved: 0.7632
+    expected_share_resolved: 0.7642
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,125 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 3278
+    winner: true
+    actual_primary_share: 0.5465
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1951
+    primary_incumbency_component_sd: 0.1187
+    primary_fundraising_component: 0.0713
+    primary_fundraising_component_sd: 0.0042
+    primary_expected_share: 0.5783
+    primary_war: -0.0318
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Nichole Dawn Mossalam
+    slug: nichole-dawn-mossalam
+    party: Democratic
+    votes: 2137
+    winner: false
+    actual_primary_share: 0.3563
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0552
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.3671
+    primary_war: -0.0108
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Zayda Ortiz
+    slug: zayda-ortiz
+    party: Democratic
+    votes: 583
+    winner: false
+    actual_primary_share: 0.0972
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.026
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 0.3379
+    primary_war: -0.2407
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Paul J. Donato, Sr.
+    slug: paul-j-donato-sr
+    party: Democratic
+    votes: 3036
+    winner: true
+    actual_primary_share: 0.5042
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0924
+    primary_fundraising_component_sd: 0.0054
+    primary_expected_share: 0.571
+    primary_war: -0.0668
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Nichole Dawn Mossalam
+    slug: nichole-dawn-mossalam
+    party: Democratic
+    votes: 2986
+    winner: false
+    actual_primary_share: 0.4958
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.055
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.5336
+    primary_war: -0.0378
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 43365
   voting_age_population: 36285

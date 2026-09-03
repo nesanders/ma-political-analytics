@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4297
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4932
-  lean_component_sd: 0.0335
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4929
+  lean_component_sd: 0.0334
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0017
   demographics_component_sd: 0.0066
-  fundraising_component: -0.027
-  fundraising_component_sd: 0.0021
+  fundraising_component: -0.0273
+  fundraising_component_sd: 0.002
   demographics_tier: full
-  expected_share_resolved: 0.6367
+  expected_share_resolved: 0.6365
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Norfolk and Plymouth District
+  district_url: /district/senate-norfolk-and-plymouth-district-2022-present/
+  party: Democratic
+  votes: 12827
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1669
+  primary_incumbency_component_sd: 0.1113
+  primary_fundraising_component: -0.0366
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 1.109
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,22 +81,22 @@ races:
   winner: true
   actual_two_party_share: 0.6366
   war: 0.0422
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4932
-  lean_component_sd: 0.0335
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4929
+  lean_component_sd: 0.0334
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0017
   demographics_component_sd: 0.0066
-  fundraising_component: 0.0128
+  fundraising_component: 0.0131
   fundraising_component_sd: 0.001
   demographics_tier: full
-  expected_share_resolved: 0.6041
-  war_resolved: 0.0325
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6047
+  war_resolved: 0.0319
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Norfolk and Plymouth District
+  district_url: /district/senate-norfolk-and-plymouth-district-2022-present/
+  party: Democratic
+  votes: 13755
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0379
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 1.0165
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.368
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4319
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4317
   lean_component_sd: 0.0293
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.026
+  fundraising_component: -0.0262
   fundraising_component_sd: 0.002
   demographics_tier: null
-  expected_share_resolved: 0.5785
+  expected_share_resolved: 0.5783
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  district_url: /district/senate-norfolk-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 27139
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1478
+  primary_incumbency_component_sd: 0.1107
+  primary_fundraising_component: -0.0347
+  primary_fundraising_component_sd: 0.002
+  primary_expected_share: 1.0918
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.7034
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4319
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4317
   lean_component_sd: 0.0293
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0409
+  fundraising_component: -0.0413
   fundraising_component_sd: 0.0031
   demographics_tier: null
-  expected_share_resolved: 0.5603
+  expected_share_resolved: 0.5599
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  district_url: /district/senate-norfolk-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 11712
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1975
+  primary_incumbency_component_sd: 0.0946
+  primary_fundraising_component: -0.0625
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 1.1136
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4021
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4319
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4317
   lean_component_sd: 0.0293
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0059
+  fundraising_component: 0.0061
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.6102
+  expected_share_resolved: 0.6105
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  district_url: /district/senate-norfolk-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 3957
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1514
+  primary_incumbency_component_sd: 0.1092
+  primary_fundraising_component: 0.0251
+  primary_fundraising_component_sd: 0.0015
+  primary_expected_share: 1.1551
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -190,22 +349,22 @@ races:
   winner: true
   actual_two_party_share: 0.6606
   war: 0.2174
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4319
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4317
   lean_component_sd: 0.0293
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0173
+  fundraising_component: 0.0176
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.62
-  war_resolved: 0.0406
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6204
+  war_resolved: 0.0402
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  district_url: /district/senate-norfolk-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 10021
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1743
+  primary_incumbency_component_sd: 0.101
+  primary_fundraising_component: 0.0463
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 1.1992
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -225,12 +416,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4197
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4319
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4317
   lean_component_sd: 0.0293
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -238,7 +429,7 @@ races:
   fundraising_component: -0.0081
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.5233
+  expected_share_resolved: 0.5236
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  district_url: /district/senate-norfolk-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 5309
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0011
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.9775
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -260,22 +482,22 @@ races:
   winner: true
   actual_two_party_share: 0.6174
   war: 0.1412
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4449
-  lean_component_sd: 0.0302
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4446
+  lean_component_sd: 0.0301
+  tide_component: 0.0054
   tide_component_sd: 0.0291
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0246
+  fundraising_component: 0.0251
   fundraising_component_sd: 0.0019
   demographics_tier: null
-  expected_share_resolved: 0.5682
-  war_resolved: 0.0492
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5689
+  war_resolved: 0.0485
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -285,6 +507,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Norfolk and Plymouth
+  district_url: /district/senate-norfolk-and-plymouth-2001-2010/
+  party: Democratic
+  votes: 9539
+  winner: true
+  actual_primary_share: 0.5394
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0601
+  primary_fundraising_component_sd: 0.0035
+  primary_expected_share: 0.5387
+  primary_war: 0.0007
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 15021

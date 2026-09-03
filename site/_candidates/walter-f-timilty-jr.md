@@ -13,12 +13,12 @@ races:
   winner: true
   actual_two_party_share: 0.6613
   war: 0.0469
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5174
-  lean_component_sd: 0.0351
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5171
+  lean_component_sd: 0.035
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0009
@@ -26,9 +26,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: core
-  expected_share_resolved: 0.618
-  war_resolved: 0.0433
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6182
+  war_resolved: 0.0431
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Norfolk-Plymouth-Bristol District
+  district_url: /district/senate-norfolk-plymouth-bristol-district-2022-present/
+  party: Democratic
+  votes: 10732
+  winner: true
+  actual_primary_share: 0.6052
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: 0.1266
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -48,20 +78,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3205
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.455
-  lean_component_sd: 0.0309
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4548
+  lean_component_sd: 0.0308
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6276
+  expected_share_resolved: 0.6277
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -72,6 +102,37 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Norfolk, Bristol & Plymouth District
+  district_url: /district/senate-norfolk-bristol-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 25222
+  winner: true
+  actual_primary_share: 0.6809
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1527
+  primary_incumbency_component_sd: 0.1117
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.6313
+  primary_war: 0.0496
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -82,14 +143,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.69
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.455
-  lean_component_sd: 0.0309
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4548
+  lean_component_sd: 0.0308
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -106,6 +167,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Norfolk, Bristol & Plymouth District
+  district_url: /district/senate-norfolk-bristol-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 12785
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2024
+  primary_incumbency_component_sd: 0.0958
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.181
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -116,12 +208,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3557
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.455
-  lean_component_sd: 0.0309
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4548
+  lean_component_sd: 0.0308
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -129,7 +221,7 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.5547
+  expected_share_resolved: 0.555
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -140,6 +232,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Norfolk, Bristol & Plymouth District
+  district_url: /district/senate-norfolk-bristol-plymouth-district-2012-2020/
+  party: Democratic
+  votes: 8045
+  winner: true
+  actual_primary_share: 0.5581
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: 0.0795
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -150,14 +272,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4517
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5249
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5246
   lean_component_sd: 0.0356
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -174,6 +296,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 7th Norfolk District
+  district_url: /district/house-7th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 3176
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1941
+  primary_incumbency_component_sd: 0.106
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1727
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -184,12 +337,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3324
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5249
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5246
   lean_component_sd: 0.0356
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -197,7 +350,7 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6243
+  expected_share_resolved: 0.6246
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -208,6 +361,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 7th Norfolk District
+  district_url: /district/house-7th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 2111
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.9786
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -218,14 +401,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3768
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5296
-  lean_component_sd: 0.036
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5293
+  lean_component_sd: 0.0359
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -242,6 +425,37 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 7th Norfolk
+  district_url: /district/house-7th-norfolk-2001-2010/
+  party: Democratic
+  votes: 3609
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1884
+  primary_incumbency_component_sd: 0.1084
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.167
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -252,20 +466,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3333
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5296
-  lean_component_sd: 0.036
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5293
+  lean_component_sd: 0.0359
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.7017
+  expected_share_resolved: 0.7018
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -276,6 +490,37 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 7th Norfolk
+  district_url: /district/house-7th-norfolk-2001-2010/
+  party: Democratic
+  votes: 3098
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1743
+  primary_incumbency_component_sd: 0.1133
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1529
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2006
   vintage: 2001-2010
@@ -286,20 +531,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3381
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5296
-  lean_component_sd: 0.036
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5293
+  lean_component_sd: 0.0359
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.7015
+  expected_share_resolved: 0.7016
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -310,6 +555,37 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2006
+  vintage: 2001-2010
+  district_name: 7th Norfolk
+  district_url: /district/house-7th-norfolk-2001-2010/
+  party: Democratic
+  votes: 6896
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1773
+  primary_incumbency_component_sd: 0.1122
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1559
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2004
   vintage: 2001-2010
@@ -320,14 +596,14 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3358
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5296
-  lean_component_sd: 0.036
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5293
+  lean_component_sd: 0.0359
+  tide_component: 0.0063
   tide_component_sd: 0.0341
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
@@ -344,6 +620,37 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2004
+  vintage: 2001-2010
+  district_name: 7th Norfolk
+  district_url: /district/house-7th-norfolk-2001-2010/
+  party: Democratic
+  votes: 2686
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1749
+  primary_incumbency_component_sd: 0.1131
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 1.1535
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -354,11 +661,11 @@ races:
   winner: true
   actual_two_party_share: 0.8393
   war: 0.3287
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5296
-  lean_component_sd: 0.036
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5293
+  lean_component_sd: 0.0359
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
@@ -367,9 +674,9 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6276
-  war_resolved: 0.2117
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6278
+  war_resolved: 0.2115
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -378,6 +685,36 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 7th Norfolk
+  district_url: /district/house-7th-norfolk-2001-2010/
+  party: Democratic
+  votes: 5120
+  winner: true
+  actual_primary_share: 0.6288
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.4786
+  primary_war: 0.1502
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 title: Walter F. Timilty, Jr.
 layout: candidate
 ---

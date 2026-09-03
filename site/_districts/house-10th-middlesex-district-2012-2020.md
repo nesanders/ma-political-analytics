@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2387
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5376
-    lean_component_sd: 0.0365
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5373
+    lean_component_sd: 0.0364
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0256
-    fundraising_component_sd: 0.0019
+    fundraising_component: 0.0261
+    fundraising_component_sd: 0.002
     demographics_tier: null
-    expected_share_resolved: 0.7357
+    expected_share_resolved: 0.7363
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.5763
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5376
-    lean_component_sd: 0.0365
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5373
+    lean_component_sd: 0.0364
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0106
     fundraising_component_sd: 0.0008
     demographics_tier: null
-    expected_share_resolved: 0.6963
+    expected_share_resolved: 0.6962
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,14 +111,14 @@ results_by_year:
     war: 0.2635
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5376
-    lean_component_sd: 0.0365
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5373
+    lean_component_sd: 0.0364
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0094
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.4271
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5376
-    lean_component_sd: 0.0365
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5373
+    lean_component_sd: 0.0364
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0183
+    fundraising_component: -0.0185
     fundraising_component_sd: 0.0014
     demographics_tier: null
-    expected_share_resolved: 0.6901
+    expected_share_resolved: 0.6899
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,22 +189,22 @@ results_by_year:
     war: 0.0804
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.5376
-    lean_component_sd: 0.0365
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.5373
+    lean_component_sd: 0.0364
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0054
+    fundraising_component: 0.0056
     fundraising_component_sd: 0.0004
     demographics_tier: null
-    expected_share_resolved: 0.6424
-    war_resolved: 0.1176
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6428
+    war_resolved: 0.1172
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -219,11 +219,11 @@ results_by_year:
     war: -0.0804
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.2637
-    lean_component_sd: 0.0125
-    tide_component: 0.0028
+    lean_component_sd: 0.0124
+    tide_component: 0.0026
     tide_component_sd: 0.0122
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -232,14 +232,201 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3278
-    war_resolved: -0.0878
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3281
+    war_resolved: -0.0881
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
     - Incumbency
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 4133
+    winner: true
+    actual_primary_share: 0.5275
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1703
+    primary_incumbency_component_sd: 0.1159
+    primary_fundraising_component: 0.0618
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.7107
+    primary_war: -0.1832
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Alison Leary
+    slug: alison-leary
+    party: Democratic
+    votes: 3702
+    winner: false
+    actual_primary_share: 0.4725
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0056
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 0.473
+    primary_war: -0.0005
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 2772
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2199
+    primary_incumbency_component_sd: 0.1006
+    primary_fundraising_component: -0.0058
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1927
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 948
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1739
+    primary_incumbency_component_sd: 0.1145
+    primary_fundraising_component: -0.0036
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 1.1489
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 2203
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1967
+    primary_incumbency_component_sd: 0.1067
+    primary_fundraising_component: -0.0203
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.1551
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John J. Lawn, Jr.
+    slug: john-j-lawn-jr
+    party: Democratic
+    votes: 1618
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.024
+    primary_fundraising_component_sd: 0.0014
+    primary_expected_share: 1.0026
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2012
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Francis Xavier Stanton, III
+    slug: francis-xavier-stanton-iii
+    party: Republican
+    votes: 438
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 title: 10th Middlesex District (2012-2020)
 layout: district
 ---

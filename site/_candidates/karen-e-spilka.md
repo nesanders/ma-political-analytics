@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2945
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6007
-  lean_component_sd: 0.0408
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6004
+  lean_component_sd: 0.0407
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: -0.0058
   demographics_component_sd: 0.0079
-  fundraising_component: 0.0562
+  fundraising_component: 0.0571
   fundraising_component_sd: 0.0043
   demographics_tier: core
-  expected_share_resolved: 0.8233
+  expected_share_resolved: 0.8241
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2024
+  vintage: 2022-present
+  district_name: Middlesex and Norfolk District
+  district_url: /district/senate-middlesex-and-norfolk-district-2022-present/
+  party: Democratic
+  votes: 17526
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1897
+  primary_incumbency_component_sd: 0.1172
+  primary_fundraising_component: 0.1192
+  primary_fundraising_component_sd: 0.007
+  primary_expected_share: 1.2875
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.2868
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.6007
-  lean_component_sd: 0.0408
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.6004
+  lean_component_sd: 0.0407
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: -0.0058
   demographics_component_sd: 0.0079
-  fundraising_component: 0.0491
-  fundraising_component_sd: 0.0037
+  fundraising_component: 0.05
+  fundraising_component_sd: 0.0038
   demographics_tier: core
-  expected_share_resolved: 0.7438
+  expected_share_resolved: 0.7448
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2022
+  vintage: 2022-present
+  district_name: Middlesex and Norfolk District
+  district_url: /district/senate-middlesex-and-norfolk-district-2022-present/
+  party: Democratic
+  votes: 18538
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.1059
+  primary_fundraising_component_sd: 0.0062
+  primary_expected_share: 1.0845
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.283
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4672
-  lean_component_sd: 0.0317
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4669
+  lean_component_sd: 0.0316
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.049
+  fundraising_component: 0.0498
   fundraising_component_sd: 0.0037
   demographics_tier: null
-  expected_share_resolved: 0.6887
+  expected_share_resolved: 0.6896
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2020
+  vintage: 2012-2020
+  district_name: Second Middlesex & Norfolk District
+  district_url: /district/senate-second-middlesex-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 32510
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1553
+  primary_incumbency_component_sd: 0.1123
+  primary_fundraising_component: 0.1056
+  primary_fundraising_component_sd: 0.0062
+  primary_expected_share: 1.2395
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.701
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4672
-  lean_component_sd: 0.0317
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4669
+  lean_component_sd: 0.0316
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0503
+  fundraising_component: 0.0512
   fundraising_component_sd: 0.0038
   demographics_tier: null
-  expected_share_resolved: 0.6868
+  expected_share_resolved: 0.6875
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2018
+  vintage: 2012-2020
+  district_name: Second Middlesex & Norfolk District
+  district_url: /district/senate-second-middlesex-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 13328
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2049
+  primary_incumbency_component_sd: 0.0965
+  primary_fundraising_component: 0.1081
+  primary_fundraising_component_sd: 0.0063
+  primary_expected_share: 1.2917
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3161
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4672
-  lean_component_sd: 0.0317
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4669
+  lean_component_sd: 0.0316
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0411
+  fundraising_component: 0.0418
   fundraising_component_sd: 0.0031
   demographics_tier: null
-  expected_share_resolved: 0.6805
+  expected_share_resolved: 0.6813
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2016
+  vintage: 2012-2020
+  district_name: Second Middlesex & Norfolk District
+  district_url: /district/senate-second-middlesex-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 4075
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1589
+  primary_incumbency_component_sd: 0.1109
+  primary_fundraising_component: 0.0908
+  primary_fundraising_component_sd: 0.0053
+  primary_expected_share: 1.2284
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5367
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4672
-  lean_component_sd: 0.0317
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4669
+  lean_component_sd: 0.0316
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0026
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.6353
+  expected_share_resolved: 0.6354
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2014
+  vintage: 2012-2020
+  district_name: Second Middlesex & Norfolk District
+  district_url: /district/senate-second-middlesex-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 9224
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1818
+  primary_incumbency_component_sd: 0.1028
+  primary_fundraising_component: 0.009
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.1694
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4054
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4672
-  lean_component_sd: 0.0317
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4669
+  lean_component_sd: 0.0316
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0148
+  fundraising_component: 0.0152
   fundraising_component_sd: 0.0011
   demographics_tier: null
-  expected_share_resolved: 0.5814
+  expected_share_resolved: 0.582
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2012
+  vintage: 2012-2020
+  district_name: Second Middlesex & Norfolk District
+  district_url: /district/senate-second-middlesex-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 6031
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0417
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 1.0203
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2010
   vintage: 2001-2010
@@ -260,22 +482,22 @@ races:
   winner: true
   actual_two_party_share: 0.5927
   war: 0.0992
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4562
-  lean_component_sd: 0.031
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.456
+  lean_component_sd: 0.0309
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0306
+  fundraising_component: 0.0311
   fundraising_component_sd: 0.0023
   demographics_tier: null
-  expected_share_resolved: 0.6581
-  war_resolved: -0.0654
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6587
+  war_resolved: -0.066
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Second Middlesex and Norfolk
+  district_url: /district/senate-second-middlesex-and-norfolk-2001-2010/
+  party: Democratic
+  votes: 6782
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1729
+  primary_incumbency_component_sd: 0.1045
+  primary_fundraising_component: 0.0712
+  primary_fundraising_component_sd: 0.0042
+  primary_expected_share: 1.2227
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2008
   vintage: 2001-2010
@@ -295,17 +549,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3847
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4562
-  lean_component_sd: 0.031
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.456
+  lean_component_sd: 0.0309
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.015
+  fundraising_component: -0.0151
   fundraising_component_sd: 0.0011
   demographics_tier: null
   expected_share_resolved: 0.6134
@@ -320,6 +574,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2008
+  vintage: 2001-2010
+  district_name: Second Middlesex and Norfolk
+  district_url: /district/senate-second-middlesex-and-norfolk-2001-2010/
+  party: Democratic
+  votes: 9805
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1587
+  primary_incumbency_component_sd: 0.1096
+  primary_fundraising_component: -0.0141
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1232
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2006
   vintage: 2001-2010
@@ -330,20 +616,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4264
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4562
-  lean_component_sd: 0.031
-  tide_component: 0.0059
-  tide_component_sd: 0.0333
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.456
+  lean_component_sd: 0.0309
+  tide_component: 0.0061
+  tide_component_sd: 0.0332
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0077
+  fundraising_component: 0.0079
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.6359
+  expected_share_resolved: 0.6362
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -355,6 +641,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2006
+  vintage: 2001-2010
+  district_name: Second Middlesex and Norfolk
+  district_url: /district/senate-second-middlesex-and-norfolk-2001-2010/
+  party: Democratic
+  votes: 15781
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1617
+  primary_incumbency_component_sd: 0.1084
+  primary_fundraising_component: 0.0283
+  primary_fundraising_component_sd: 0.0017
+  primary_expected_share: 1.1686
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: senate
   year: 2004
   vintage: 2001-2010
@@ -365,22 +683,22 @@ races:
   winner: true
   actual_two_party_share: 0.5729
   war: -0.0366
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4562
-  lean_component_sd: 0.031
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.456
+  lean_component_sd: 0.0309
+  tide_component: 0.0063
   tide_component_sd: 0.0341
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0345
+  fundraising_component: 0.0351
   fundraising_component_sd: 0.0026
   demographics_tier: null
-  expected_share_resolved: 0.5903
-  war_resolved: -0.0174
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.5912
+  war_resolved: -0.0183
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -390,6 +708,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2004
+  vintage: 2001-2010
+  district_name: Second Middlesex and Norfolk
+  district_url: /district/senate-second-middlesex-and-norfolk-2001-2010/
+  party: Democratic
+  votes: 6808
+  winner: true
+  actual_primary_share: 0.5356
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0786
+  primary_fundraising_component_sd: 0.0046
+  primary_expected_share: 0.3905
+  primary_war: 0.1451
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2002
   vintage: 2001-2010
@@ -400,18 +749,18 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5797
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.48
-  lean_component_sd: 0.0326
-  tide_component: 0.0046
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4797
+  lean_component_sd: 0.0325
+  tide_component: 0.0047
   tide_component_sd: 0.0258
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.027
-  fundraising_component_sd: 0.0021
+  fundraising_component: -0.0272
+  fundraising_component_sd: 0.002
   demographics_tier: null
   expected_share_resolved: 0.5511
   war_resolved: null
@@ -425,6 +774,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 7th Middlesex
+  district_url: /district/house-7th-middlesex-2001-2010/
+  party: Democratic
+  votes: 3075
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0365
+  primary_fundraising_component_sd: 0.0021
+  primary_expected_share: 0.9421
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13758

@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3615
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5435
-  lean_component_sd: 0.0369
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5432
+  lean_component_sd: 0.0368
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0006
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0007
   demographics_component_sd: 0.0148
-  fundraising_component: 0.0188
+  fundraising_component: 0.0192
   fundraising_component_sd: 0.0014
   demographics_tier: full
-  expected_share_resolved: 0.7339
+  expected_share_resolved: 0.7342
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 4103
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1776
+  primary_incumbency_component_sd: 0.1139
+  primary_fundraising_component: 0.0492
+  primary_fundraising_component_sd: 0.0029
+  primary_expected_share: 1.2054
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.355
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.5435
-  lean_component_sd: 0.0369
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.5432
+  lean_component_sd: 0.0368
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0006
+  demographics_component: -0.0007
   demographics_component_sd: 0.0148
-  fundraising_component: -0.0128
+  fundraising_component: -0.0129
   fundraising_component_sd: 0.001
   demographics_tier: full
-  expected_share_resolved: 0.6298
+  expected_share_resolved: 0.6299
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2022-present/
+  party: Democratic
+  votes: 4576
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0101
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.9685
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,17 +148,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3267
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4264
-  lean_component_sd: 0.029
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4262
+  lean_component_sd: 0.0289
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0148
+  fundraising_component: -0.0149
   fundraising_component_sd: 0.0011
   demographics_tier: null
   expected_share_resolved: 0.5842
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 9341
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1467
+  primary_incumbency_component_sd: 0.1104
+  primary_fundraising_component: -0.0137
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 1.1116
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,22 +215,22 @@ races:
   winner: true
   actual_two_party_share: 0.6705
   war: 0.3923
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4264
-  lean_component_sd: 0.029
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4262
+  lean_component_sd: 0.0289
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0167
+  fundraising_component: 0.0171
   fundraising_component_sd: 0.0013
   demographics_tier: null
-  expected_share_resolved: 0.6124
-  war_resolved: 0.0581
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.6128
+  war_resolved: 0.0577
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 3732
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1963
+  primary_incumbency_component_sd: 0.0943
+  primary_fundraising_component: 0.0453
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.2202
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3739
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4264
-  lean_component_sd: 0.029
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4262
+  lean_component_sd: 0.0289
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0018
+  fundraising_component: 0.0019
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.6005
+  expected_share_resolved: 0.6007
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 1162
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1503
+  primary_incumbency_component_sd: 0.109
+  primary_fundraising_component: 0.0172
+  primary_fundraising_component_sd: 0.001
+  primary_expected_share: 1.1461
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5925
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4264
-  lean_component_sd: 0.029
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4262
+  lean_component_sd: 0.0289
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.003
+  fundraising_component: -0.0029
   fundraising_component_sd: 0.0002
   demographics_tier: null
-  expected_share_resolved: 0.5942
+  expected_share_resolved: 0.5944
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 2928
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1732
+  primary_incumbency_component_sd: 0.1008
+  primary_fundraising_component: 0.0084
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.1602
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4676
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4264
-  lean_component_sd: 0.029
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4262
+  lean_component_sd: 0.0289
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0134
+  fundraising_component: -0.0135
   fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.5125
+  expected_share_resolved: 0.5127
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 11th Norfolk District
+  district_url: /district/house-11th-norfolk-district-2012-2020/
+  party: Democratic
+  votes: 1700
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0111
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.9675
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2010
   vintage: 2001-2010
@@ -260,17 +482,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5428
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4213
-  lean_component_sd: 0.0286
-  tide_component: 0.0051
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4211
+  lean_component_sd: 0.0285
+  tide_component: 0.0054
   tide_component_sd: 0.0291
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0121
+  fundraising_component: -0.0122
   fundraising_component_sd: 0.0009
   demographics_tier: null
   expected_share_resolved: 0.5805
@@ -285,6 +507,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2010
+  vintage: 2001-2010
+  district_name: 11th Norfolk
+  district_url: /district/house-11th-norfolk-2001-2010/
+  party: Democratic
+  votes: 3561
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1655
+  primary_incumbency_component_sd: 0.1028
+  primary_fundraising_component: -0.0087
+  primary_fundraising_component_sd: 0.0005
+  primary_expected_share: 1.1354
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2008
   vintage: 2001-2010
@@ -295,12 +549,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4506
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4213
-  lean_component_sd: 0.0286
-  tide_component: 0.0061
-  tide_component_sd: 0.0344
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4211
+  lean_component_sd: 0.0285
+  tide_component: 0.0063
+  tide_component_sd: 0.0343
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -308,7 +562,7 @@ races:
   fundraising_component: -0.0082
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.5127
+  expected_share_resolved: 0.513
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -320,6 +574,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2008
+  vintage: 2001-2010
+  district_name: 11th Norfolk
+  district_url: /district/house-11th-norfolk-2001-2010/
+  party: Democratic
+  votes: 2890
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0014
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.9772
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 14680

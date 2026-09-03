@@ -30,22 +30,22 @@ results_by_year:
     war: 0.0093
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4746
-    lean_component_sd: 0.0322
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4743
+    lean_component_sd: 0.0321
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0014
     demographics_component_sd: 0.0064
-    fundraising_component: 0.0082
+    fundraising_component: 0.0085
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.6536
-    war_resolved: -0.0941
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6539
+    war_resolved: -0.0944
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -62,22 +62,22 @@ results_by_year:
     war: -0.0093
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3174
-    lean_component_sd: 0.015
-    tide_component: 0.0027
+    lean_component: 0.3175
+    lean_component_sd: 0.0149
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0014
     demographics_component_sd: 0.0064
-    fundraising_component: -0.0001
+    fundraising_component: -0.0
     fundraising_component_sd: 0.0
     demographics_tier: full
-    expected_share_resolved: 0.3799
-    war_resolved: 0.0606
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3803
+    war_resolved: 0.0602
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,12 +103,12 @@ results_by_year:
     war: 0.4295
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4746
-    lean_component_sd: 0.0322
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4743
+    lean_component_sd: 0.0321
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0014
@@ -116,7 +116,7 @@ results_by_year:
     fundraising_component: -0.0072
     fundraising_component_sd: 0.0005
     demographics_tier: full
-    expected_share_resolved: 0.5657
+    expected_share_resolved: 0.566
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -127,6 +127,137 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Adam J. Scanlon
+    slug: adam-j-scanlon
+    party: Democratic
+    votes: 2828
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.163
+    primary_incumbency_component_sd: 0.1103
+    primary_fundraising_component: 0.0294
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1709
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David Cannata, Jr
+    slug: david-b-cannata
+    party: Republican
+    votes: 1229
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0137
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.9923
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Adam J. Scanlon
+    slug: adam-j-scanlon
+    party: Democratic
+    votes: 3013
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0005
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 0.9791
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: William Edward Ross Hymon
+    slug: william-edward-ross-hymon
+    party: Republican
+    votes: 110
+    winner: false
+    actual_primary_share: 0.7801
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1146
+    primary_fundraising_component_sd: 0.0067
+    primary_expected_share: 0.364
+    primary_war: 0.4161
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Patrick Westaway McCue
+    slug: patrick-westaway-mccue
+    party: Republican
+    votes: 31
+    winner: false
+    actual_primary_share: 0.2199
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1983
+    primary_fundraising_component_sd: 0.0116
+    primary_expected_share: 0.2803
+    primary_war: -0.0604
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 42242
   voting_age_population: 33258

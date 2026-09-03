@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2945
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4955
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4952
     lean_component_sd: 0.0336
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0226
+    fundraising_component: -0.0228
     fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.6455
+    expected_share_resolved: 0.6454
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,17 +72,17 @@ results_by_year:
     war: 0.6356
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4955
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4952
     lean_component_sd: 0.0336
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0051
+    fundraising_component: -0.005
     fundraising_component_sd: 0.0004
     demographics_tier: null
     expected_share_resolved: 0.6597
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3146
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4955
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4952
     lean_component_sd: 0.0336
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0008
+    fundraising_component: 0.0009
     fundraising_component_sd: 0.0001
     demographics_tier: null
-    expected_share_resolved: 0.6686
+    expected_share_resolved: 0.6688
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,20 +150,20 @@ results_by_year:
     war: 0.4861
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4955
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4952
     lean_component_sd: 0.0336
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.002
+    fundraising_component: 0.0021
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.6683
+    expected_share_resolved: 0.6685
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -189,20 +189,20 @@ results_by_year:
     war: 0.3439
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4955
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4952
     lean_component_sd: 0.0336
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0531
+    fundraising_component: -0.0537
     fundraising_component_sd: 0.004
     demographics_tier: null
-    expected_share_resolved: 0.5419
+    expected_share_resolved: 0.5415
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -211,6 +211,146 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce J. Ayers
+    slug: bruce-j-ayers
+    party: Democratic
+    votes: 7750
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1613
+    primary_incumbency_component_sd: 0.1137
+    primary_fundraising_component: -0.0283
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.1117
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce J. Ayers
+    slug: bruce-j-ayers
+    party: Democratic
+    votes: 3498
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.211
+    primary_incumbency_component_sd: 0.0981
+    primary_fundraising_component: 0.0045
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.194
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce J. Ayers
+    slug: bruce-j-ayers
+    party: Democratic
+    votes: 1519
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1649
+    primary_incumbency_component_sd: 0.1123
+    primary_fundraising_component: 0.0154
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.159
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce J. Ayers
+    slug: bruce-j-ayers
+    party: Democratic
+    votes: 2794
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1878
+    primary_incumbency_component_sd: 0.1044
+    primary_fundraising_component: 0.0177
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 1.1841
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bruce J. Ayers
+    slug: bruce-j-ayers
+    party: Democratic
+    votes: 1552
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0854
+    primary_fundraising_component_sd: 0.005
+    primary_expected_share: 0.8932
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 1st Norfolk District (2012-2020)
 layout: district
 ---

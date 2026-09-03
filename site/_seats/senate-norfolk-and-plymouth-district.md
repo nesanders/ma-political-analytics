@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4297
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4932
-    lean_component_sd: 0.0335
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4929
+    lean_component_sd: 0.0334
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: -0.0017
     demographics_component_sd: 0.0066
-    fundraising_component: -0.027
-    fundraising_component_sd: 0.0021
+    fundraising_component: -0.0273
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.6367
+    expected_share_resolved: 0.6365
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,22 +71,22 @@ results_by_year:
     war: 0.0422
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4932
-    lean_component_sd: 0.0335
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4929
+    lean_component_sd: 0.0334
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0017
     demographics_component_sd: 0.0066
-    fundraising_component: 0.0128
+    fundraising_component: 0.0131
     fundraising_component_sd: 0.001
     demographics_tier: full
-    expected_share_resolved: 0.6041
-    war_resolved: 0.0325
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6047
+    war_resolved: 0.0319
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -103,22 +103,22 @@ results_by_year:
     war: -0.0422
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3015
+    lean_component: 0.3016
     lean_component_sd: 0.0142
-    tide_component: 0.0026
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0017
     demographics_component_sd: 0.0066
-    fundraising_component: -0.0017
+    fundraising_component: -0.0016
     fundraising_component_sd: 0.0001
     demographics_tier: full
-    expected_share_resolved: 0.3621
-    war_resolved: 0.0013
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3625
+    war_resolved: 0.0009
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -127,6 +127,89 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John F. Keenan
+    slug: john-f-keenan
+    party: Democratic
+    votes: 12827
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1669
+    primary_incumbency_component_sd: 0.1113
+    primary_fundraising_component: -0.0366
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.109
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John F. Keenan
+    slug: john-f-keenan
+    party: Democratic
+    votes: 13755
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0379
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.0165
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Gary M. Innes
+    slug: gary-m-innes
+    party: Republican
+    votes: 5842
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0108
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.9894
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 173985
   voting_age_population: 143916

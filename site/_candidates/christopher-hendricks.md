@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4584
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.492
-  lean_component_sd: 0.0334
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4918
+  lean_component_sd: 0.0333
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: 0.0044
   demographics_component_sd: 0.0331
-  fundraising_component: -0.0411
+  fundraising_component: -0.0416
   fundraising_component_sd: 0.0031
   demographics_tier: full
-  expected_share_resolved: 0.6275
+  expected_share_resolved: 0.6271
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 11th Bristol District
+  district_url: /district/house-11th-bristol-district-2022-present/
+  party: Democratic
+  votes: 1391
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1667
+  primary_incumbency_component_sd: 0.1112
+  primary_fundraising_component: -0.063
+  primary_fundraising_component_sd: 0.0037
+  primary_expected_share: 1.0823
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,17 +81,17 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3796
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.492
-  lean_component_sd: 0.0334
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4918
+  lean_component_sd: 0.0333
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: 0.0044
   demographics_component_sd: 0.0331
-  fundraising_component: -0.0222
+  fundraising_component: -0.0224
   fundraising_component_sd: 0.0017
   demographics_tier: full
   expected_share_resolved: 0.574
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 11th Bristol District
+  district_url: /district/house-11th-bristol-district-2022-present/
+  party: Democratic
+  votes: 1565
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0276
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 0.951
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.4699
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4508
-  lean_component_sd: 0.0306
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4505
+  lean_component_sd: 0.0305
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0349
-  fundraising_component_sd: 0.0027
+  fundraising_component: -0.0352
+  fundraising_component_sd: 0.0026
   demographics_tier: null
-  expected_share_resolved: 0.5885
+  expected_share_resolved: 0.5882
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 11th Bristol District
+  district_url: /district/house-11th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 3613
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.1518
+  primary_incumbency_component_sd: 0.1115
+  primary_fundraising_component: -0.0513
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 1.0792
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,12 +215,12 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.67
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4508
-  lean_component_sd: 0.0306
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4505
+  lean_component_sd: 0.0305
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -133,7 +228,7 @@ races:
   fundraising_component: -0.0081
   fundraising_component_sd: 0.0006
   demographics_tier: null
-  expected_share_resolved: 0.5394
+  expected_share_resolved: 0.5396
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 11th Bristol District
+  district_url: /district/house-11th-bristol-district-2012-2020/
+  party: Democratic
+  votes: 1046
+  winner: true
+  actual_primary_share: 0.5058
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0012
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.4774
+  primary_war: 0.0284
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16836

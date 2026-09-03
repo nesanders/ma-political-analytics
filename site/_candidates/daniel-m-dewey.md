@@ -13,22 +13,22 @@ races:
   winner: false
   actual_two_party_share: 0.3826
   war: -0.1412
-  intercept_component: 0.0613
+  intercept_component: 0.0618
   intercept_component_sd: 0.0188
   lean_component: 0.3428
-  lean_component_sd: 0.0162
-  tide_component: 0.0034
+  lean_component_sd: 0.0161
+  tide_component: 0.0032
   tide_component_sd: 0.0148
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0195
+  fundraising_component: -0.0197
   fundraising_component_sd: 0.0015
   demographics_tier: null
-  expected_share_resolved: 0.388
-  war_resolved: -0.0054
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.3881
+  war_resolved: -0.0055
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: senate
+  year: 2010
+  vintage: 2001-2010
+  district_name: Norfolk and Plymouth
+  district_url: /district/senate-norfolk-and-plymouth-2001-2010/
+  party: Republican
+  votes: 4577
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: -0.0226
+  primary_fundraising_component_sd: 0.0013
+  primary_expected_share: 0.956
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13665

@@ -33,22 +33,22 @@ results_by_year:
     war: -0.056
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3657
-    lean_component_sd: 0.0173
-    tide_component: 0.0034
+    lean_component: 0.3658
+    lean_component_sd: 0.0172
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0068
+    fundraising_component: -0.0067
     fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.4237
-    war_resolved: 0.0997
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.424
+    war_resolved: 0.0994
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: 0.056
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4179
-    lean_component_sd: 0.0284
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4177
+    lean_component_sd: 0.0283
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0001
+    fundraising_component: 0.0002
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.5893
-    war_resolved: -0.1127
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5895
+    war_resolved: -0.1129
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -128,22 +128,22 @@ results_by_year:
     war: -0.0268
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4179
-    lean_component_sd: 0.0284
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4177
+    lean_component_sd: 0.0283
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0001
+    fundraising_component: 0.0
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.5174
-    war_resolved: 0.0229
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5178
+    war_resolved: 0.0225
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -158,22 +158,22 @@ results_by_year:
     war: 0.0268
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3657
-    lean_component_sd: 0.0173
-    tide_component: 0.0027
+    lean_component: 0.3658
+    lean_component_sd: 0.0172
+    tide_component: 0.0025
     tide_component_sd: 0.0117
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0005
+    fundraising_component: 0.0007
     fundraising_component_sd: 0.0
     demographics_tier: null
-    expected_share_resolved: 0.4303
-    war_resolved: 0.0294
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4308
+    war_resolved: 0.0289
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -197,22 +197,22 @@ results_by_year:
     war: 0.0784
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3657
-    lean_component_sd: 0.0173
-    tide_component: 0.0029
+    lean_component: 0.3658
+    lean_component_sd: 0.0172
+    tide_component: 0.0026
     tide_component_sd: 0.0124
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0116
+    fundraising_component: 0.0119
     fundraising_component_sd: 0.0009
     demographics_tier: null
-    expected_share_resolved: 0.5716
-    war_resolved: -0.0281
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5719
+    war_resolved: -0.0284
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -227,22 +227,22 @@ results_by_year:
     war: -0.0784
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4179
-    lean_component_sd: 0.0284
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4177
+    lean_component_sd: 0.0283
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0151
+    fundraising_component: -0.0152
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5023
-    war_resolved: -0.0458
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.5025
+    war_resolved: -0.046
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -266,20 +266,20 @@ results_by_year:
     war: 0.5602
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3657
-    lean_component_sd: 0.0173
-    tide_component: 0.0028
+    lean_component: 0.3658
+    lean_component_sd: 0.0172
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.2104
+    fundraising_component: -0.2132
     fundraising_component_sd: 0.016
     demographics_tier: null
-    expected_share_resolved: 0.3494
+    expected_share_resolved: 0.3466
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -305,17 +305,17 @@ results_by_year:
     war: 0.3849
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
-    lean_component: 0.3657
-    lean_component_sd: 0.0173
-    tide_component: 0.0039
+    lean_component: 0.3658
+    lean_component_sd: 0.0172
+    tide_component: 0.0036
     tide_component_sd: 0.0167
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0238
+    fundraising_component: -0.0241
     fundraising_component_sd: 0.0018
     demographics_tier: null
     expected_share_resolved: 0.4071
@@ -327,6 +327,247 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Bill Bowles
+    slug: bill-bowles
+    party: Democratic
+    votes: 865
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1647
+    primary_incumbency_component_sd: 0.1026
+    primary_fundraising_component: 0.0142
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 1.1575
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George T. Ross
+    slug: george-t-ross
+    party: Republican
+    votes: 984
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0013
+    primary_fundraising_component_sd: 0.0001
+    primary_expected_share: 0.9799
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Bill Bowles
+    slug: bill-bowles
+    party: Democratic
+    votes: 1239
+    winner: true
+    actual_primary_share: 0.5055
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0138
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.4924
+    primary_war: 0.0131
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Kate M. Jackson
+    slug: kate-m-jackson
+    party: Democratic
+    votes: 1212
+    winner: false
+    actual_primary_share: 0.4945
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0091
+    primary_fundraising_component_sd: 0.0005
+    primary_expected_share: 0.4877
+    primary_war: 0.0068
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: George T. Ross
+    slug: george-t-ross
+    party: Republican
+    votes: 321
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.015
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 0.9936
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Kate M. Jackson
+    slug: kate-m-jackson
+    party: Democratic
+    votes: 2043
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0142
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.9644
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John A. Lepper
+    slug: john-a-lepper
+    party: Republican
+    votes: 555
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1886
+    primary_incumbency_component_sd: 0.0965
+    primary_fundraising_component: 0.0357
+    primary_fundraising_component_sd: 0.0021
+    primary_expected_share: 1.2029
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John A. Lepper
+    slug: john-a-lepper
+    party: Republican
+    votes: 494
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1909
+    primary_incumbency_component_sd: 0.0959
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: 0.7898
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: John A. Lepper
+    slug: john-a-lepper
+    party: Republican
+    votes: 847
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0306
+    primary_fundraising_component_sd: 0.0018
+    primary_expected_share: 0.948
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 2nd Bristol (2001-2010)
 layout: district
 ---

@@ -34,6 +34,8 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
 title: Lisa K. Mair
 layout: candidate
 ---

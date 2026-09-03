@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4548
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4901
-    lean_component_sd: 0.0333
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4898
+    lean_component_sd: 0.0332
+    tide_component: 0.0063
     tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: 0.0044
-    demographics_component_sd: 0.0248
+    demographics_component_sd: 0.0247
     fundraising_component: -0.0104
     fundraising_component_sd: 0.0008
     demographics_tier: full
-    expected_share_resolved: 0.6562
+    expected_share_resolved: 0.6563
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,20 +71,20 @@ results_by_year:
     war: 0.3877
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4901
-    lean_component_sd: 0.0333
-    tide_component: 0.0062
-    tide_component_sd: 0.0353
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4898
+    lean_component_sd: 0.0332
+    tide_component: 0.0065
+    tide_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0044
-    demographics_component_sd: 0.0248
-    fundraising_component: 0.0313
+    demographics_component_sd: 0.0247
+    fundraising_component: 0.0318
     fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.6255
+    expected_share_resolved: 0.6263
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -95,6 +95,102 @@ results_by_year:
       income)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Pavel M. Payano
+    slug: pavel-m-payano
+    party: Democratic
+    votes: 7115
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1663
+    primary_incumbency_component_sd: 0.1111
+    primary_fundraising_component: -0.0054
+    primary_fundraising_component_sd: 0.0003
+    primary_expected_share: 1.1395
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Pavel M. Payano
+    slug: pavel-m-payano
+    party: Democratic
+    votes: 5685
+    winner: true
+    actual_primary_share: 0.5129
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0725
+    primary_fundraising_component_sd: 0.0042
+    primary_expected_share: 0.3844
+    primary_war: 0.1285
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Eunice Delice Zeigler
+    slug: eunice-delice-zeigler
+    party: Democratic
+    votes: 4445
+    winner: false
+    actual_primary_share: 0.401
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: 0.0891
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Doris V. Rodriguez
+    slug: doris-v-rodriguez
+    party: Democratic
+    votes: 955
+    winner: false
+    actual_primary_share: 0.0862
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.3119
+    primary_war: -0.2257
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   total_population: 187786
   voting_age_population: 149896

@@ -30,11 +30,11 @@ results_by_year:
     war: 0.4824
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3717
-    lean_component_sd: 0.0176
-    tide_component: 0.0027
+    lean_component_sd: 0.0175
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -43,7 +43,7 @@ results_by_year:
     fundraising_component: -0.0077
     fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.4339
+    expected_share_resolved: 0.4343
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -71,11 +71,11 @@ results_by_year:
     war: 0.4882
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3717
-    lean_component_sd: 0.0176
-    tide_component: 0.0026
+    lean_component_sd: 0.0175
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -84,7 +84,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4415
+    expected_share_resolved: 0.4419
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -120,6 +120,60 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alyson M. Sullivan-Almeida
+    slug: alyson-m-sullivan-almeida
+    party: Republican
+    votes: 1829
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0005
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 0.9781
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Alyson M. Sullivan
+    slug: alyson-m-sullivan
+    party: Republican
+    votes: 2748
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 demographics:
   total_population: 42864
   voting_age_population: 34014

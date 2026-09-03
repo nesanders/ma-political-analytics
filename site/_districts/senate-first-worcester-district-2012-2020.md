@@ -33,20 +33,20 @@ results_by_year:
     war: 0.3383
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4601
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4598
     lean_component_sd: 0.0312
-    tide_component: 0.0064
-    tide_component_sd: 0.0365
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0067
+    tide_component_sd: 0.0364
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0456
+    fundraising_component: 0.0463
     fundraising_component_sd: 0.0035
     demographics_tier: null
-    expected_share_resolved: 0.6782
+    expected_share_resolved: 0.6791
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.6839
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4601
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4598
     lean_component_sd: 0.0312
-    tide_component: 0.0032
-    tide_component_sd: 0.0181
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0033
+    tide_component_sd: 0.018
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0286
+    fundraising_component: 0.0291
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.658
+    expected_share_resolved: 0.6585
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,20 +111,20 @@ results_by_year:
     war: 0.3511
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4601
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4598
     lean_component_sd: 0.0312
-    tide_component: 0.0062
-    tide_component_sd: 0.0352
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0065
+    tide_component_sd: 0.0351
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0148
+    fundraising_component: 0.0151
     fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.6472
+    expected_share_resolved: 0.6476
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -150,22 +150,22 @@ results_by_year:
     war: 0.1317
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4601
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4598
     lean_component_sd: 0.0312
-    tide_component: 0.0047
-    tide_component_sd: 0.0267
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    tide_component: 0.0049
+    tide_component_sd: 0.0266
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.025
+    fundraising_component: 0.0255
     fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.656
-    war_resolved: -0.0533
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6564
+    war_resolved: -0.0537
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -180,11 +180,11 @@ results_by_year:
     war: -0.1317
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3298
-    lean_component_sd: 0.0156
-    tide_component: 0.0038
+    lean_component_sd: 0.0155
+    tide_component: 0.0035
     tide_component_sd: 0.0162
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -193,9 +193,9 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3949
-    war_resolved: 0.0024
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.3951
+    war_resolved: 0.0022
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -218,20 +218,20 @@ results_by_year:
     war: 0.3813
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4601
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4598
     lean_component_sd: 0.0312
-    tide_component: 0.0059
-    tide_component_sd: 0.0336
+    tide_component: 0.0062
+    tide_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0127
+    fundraising_component: 0.013
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.5723
+    expected_share_resolved: 0.5729
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -240,6 +240,214 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2020
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Harriette L. Chandler
+    slug: harriette-l-chandler
+    party: Democratic
+    votes: 26351
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 4
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1538
+    primary_incumbency_component_sd: 0.112
+    primary_fundraising_component: 0.0993
+    primary_fundraising_component_sd: 0.0058
+    primary_expected_share: 1.2317
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2018
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Harriette L. Chandler
+    slug: harriette-l-chandler
+    party: Democratic
+    votes: 9822
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 3
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2035
+    primary_incumbency_component_sd: 0.0961
+    primary_fundraising_component: 0.0675
+    primary_fundraising_component_sd: 0.0039
+    primary_expected_share: 1.2495
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2016
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Harriette L. Chandler
+    slug: harriette-l-chandler
+    party: Democratic
+    votes: 2913
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1574
+    primary_incumbency_component_sd: 0.1106
+    primary_fundraising_component: 0.0417
+    primary_fundraising_component_sd: 0.0024
+    primary_expected_share: 1.1777
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2014
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Harriette L. Chandler
+    slug: harriette-l-chandler
+    party: Democratic
+    votes: 8366
+    winner: true
+    actual_primary_share: 0.7507
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1803
+    primary_incumbency_component_sd: 0.1025
+    primary_fundraising_component: 0.0608
+    primary_fundraising_component_sd: 0.0036
+    primary_expected_share: 0.553
+    primary_war: 0.1977
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Sean M. Maher
+    slug: sean-m-maher
+    party: Democratic
+    votes: 2351
+    winner: false
+    actual_primary_share: 0.211
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0142
+    primary_fundraising_component_sd: 0.0008
+    primary_expected_share: 0.3262
+    primary_war: -0.1152
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: William B. Feegbeh
+    slug: william-b-feegbeh
+    party: Democratic
+    votes: 427
+    winner: false
+    actual_primary_share: 0.0383
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.3797
+    primary_fundraising_component_sd: 0.0222
+    primary_expected_share: -0.0678
+    primary_war: 0.1061
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2014
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul J. Franco
+    slug: paul-j-franco
+    party: Republican
+    votes: 2864
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2012
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Harriette L. Chandler
+    slug: harriette-l-chandler
+    party: Democratic
+    votes: 4883
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0378
+    primary_fundraising_component_sd: 0.0022
+    primary_expected_share: 1.0164
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: First Worcester District (2012-2020)
 layout: district
 ---

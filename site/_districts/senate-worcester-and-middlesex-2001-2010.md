@@ -33,22 +33,22 @@ results_by_year:
     war: 0.1569
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4284
-    lean_component_sd: 0.0291
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4281
+    lean_component_sd: 0.029
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0173
+    fundraising_component: 0.0176
     fundraising_component_sd: 0.0013
     demographics_tier: null
-    expected_share_resolved: 0.6169
-    war_resolved: -0.0277
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6173
+    war_resolved: -0.0281
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -63,22 +63,22 @@ results_by_year:
     war: -0.1569
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3569
-    lean_component_sd: 0.0169
-    tide_component: 0.0034
+    lean_component_sd: 0.0168
+    tide_component: 0.0032
     tide_component_sd: 0.0148
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0162
+    fundraising_component: -0.0163
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.4054
-    war_resolved: 0.0054
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4055
+    war_resolved: 0.0053
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -102,20 +102,20 @@ results_by_year:
     war: 0.4433
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4284
-    lean_component_sd: 0.0291
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4281
+    lean_component_sd: 0.029
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.033
+    fundraising_component: 0.0336
     fundraising_component_sd: 0.0025
     demographics_tier: null
-    expected_share_resolved: 0.5609
+    expected_share_resolved: 0.5618
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -141,20 +141,20 @@ results_by_year:
     war: 0.4337
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4284
-    lean_component_sd: 0.0291
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4281
+    lean_component_sd: 0.029
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0158
+    fundraising_component: 0.0161
     fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6161
+    expected_share_resolved: 0.6165
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -180,22 +180,22 @@ results_by_year:
     war: 0.0738
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4284
-    lean_component_sd: 0.0291
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4281
+    lean_component_sd: 0.029
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.023
+    fundraising_component: 0.0235
     fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.6235
-    war_resolved: 0.0162
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6241
+    war_resolved: 0.0156
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -210,22 +210,22 @@ results_by_year:
     war: -0.0738
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3569
-    lean_component_sd: 0.0169
-    tide_component: 0.0028
+    lean_component_sd: 0.0168
+    tide_component: 0.0025
     tide_component_sd: 0.0118
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0216
-    fundraising_component_sd: 0.0016
+    fundraising_component: 0.0221
+    fundraising_component_sd: 0.0017
     demographics_tier: null
-    expected_share_resolved: 0.4426
-    war_resolved: -0.0823
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4433
+    war_resolved: -0.083
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -275,20 +275,20 @@ results_by_year:
     war: 0.5921
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4284
-    lean_component_sd: 0.0291
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.4281
+    lean_component_sd: 0.029
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0075
+    fundraising_component: 0.0077
     fundraising_component_sd: 0.0006
     demographics_tier: null
-    expected_share_resolved: 0.5339
+    expected_share_resolved: 0.5343
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -297,6 +297,245 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jennifer L. Flanagan
+    slug: jennifer-l-flanagan
+    party: Democratic
+    votes: 5286
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1669
+    primary_incumbency_component_sd: 0.1031
+    primary_fundraising_component: 0.0463
+    primary_fundraising_component_sd: 0.0027
+    primary_expected_share: 1.1918
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2010
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Neal Andrew Heeren
+    slug: neal-andrew-heeren
+    party: Republican
+    votes: 4385
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0164
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.9622
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Jennifer L. Flanagan
+    slug: jennifer-l-flanagan
+    party: Democratic
+    votes: 10565
+    winner: true
+    actual_primary_share: 0.6057
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0757
+    primary_fundraising_component_sd: 0.0044
+    primary_expected_share: 0.5543
+    primary_war: 0.0514
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Brian Knuuttila
+    slug: brian-knuuttila
+    party: Democratic
+    votes: 6879
+    winner: false
+    actual_primary_share: 0.3943
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0548
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 0.5334
+    primary_war: -0.1391
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert A. Antonioni
+    slug: robert-a-antonioni
+    party: Democratic
+    votes: 14629
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1558
+    primary_incumbency_component_sd: 0.1071
+    primary_fundraising_component: 0.0435
+    primary_fundraising_component_sd: 0.0025
+    primary_expected_share: 1.1779
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert A. Antonioni
+    slug: robert-a-antonioni
+    party: Democratic
+    votes: 12047
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1535
+    primary_incumbency_component_sd: 0.108
+    primary_fundraising_component: 0.0571
+    primary_fundraising_component_sd: 0.0033
+    primary_expected_share: 1.1891
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2004
+  party: Green-Rainbow
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Richard R. Zitola
+    slug: richard-r-zitola
+    party: Green-Rainbow
+    votes: 18
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: null
+    primary_baseline_component: null
+    primary_baseline_component_sd: null
+    primary_incumbency_component: null
+    primary_incumbency_component_sd: null
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: null
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors: null
+- year: 2004
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: David Shnaider
+    slug: david-shnaider
+    party: Republican
+    votes: 2090
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0545
+    primary_fundraising_component_sd: 0.0032
+    primary_expected_share: 1.0331
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Robert A. Antonioni
+    slug: robert-a-antonioni
+    party: Democratic
+    votes: 10021
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0279
+    primary_fundraising_component_sd: 0.0016
+    primary_expected_share: 1.0065
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: Worcester and Middlesex (2001-2010)
 layout: district
 ---

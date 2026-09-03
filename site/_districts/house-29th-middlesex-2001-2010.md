@@ -33,20 +33,20 @@ results_by_year:
     war: 0.2515
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6353
-    lean_component_sd: 0.0431
-    tide_component: 0.0051
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6349
+    lean_component_sd: 0.043
+    tide_component: 0.0054
     tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0034
+    fundraising_component: 0.0035
     fundraising_component_sd: 0.0003
     demographics_tier: null
-    expected_share_resolved: 0.8099
+    expected_share_resolved: 0.81
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,20 +72,20 @@ results_by_year:
     war: 0.1948
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6353
-    lean_component_sd: 0.0431
-    tide_component: 0.0061
-    tide_component_sd: 0.0344
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6349
+    lean_component_sd: 0.043
+    tide_component: 0.0063
+    tide_component_sd: 0.0343
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0293
+    fundraising_component: 0.0299
     fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.7642
+    expected_share_resolved: 0.7649
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -111,22 +111,22 @@ results_by_year:
     war: -0.0299
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6353
-    lean_component_sd: 0.0431
-    tide_component: 0.0059
-    tide_component_sd: 0.0333
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6349
+    lean_component_sd: 0.043
+    tide_component: 0.0061
+    tide_component_sd: 0.0332
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0059
-    fundraising_component_sd: 0.0004
+    fundraising_component: 0.0061
+    fundraising_component_sd: 0.0005
     demographics_tier: null
-    expected_share_resolved: 0.8131
-    war_resolved: -0.0749
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.8133
+    war_resolved: -0.0751
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -141,11 +141,11 @@ results_by_year:
     war: 0.0299
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.1805
     lean_component_sd: 0.0085
-    tide_component: 0.0029
+    tide_component: 0.0026
     tide_component_sd: 0.0124
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
@@ -154,9 +154,9 @@ results_by_year:
     fundraising_component: -0.0136
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.2311
-    war_resolved: 0.0307
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.2313
+    war_resolved: 0.0305
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -206,14 +206,14 @@ results_by_year:
     war: 0.2128
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6353
-    lean_component_sd: 0.0431
-    tide_component: 0.006
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6349
+    lean_component_sd: 0.043
+    tide_component: 0.0063
     tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0726
-    incumbency_adjustment_sd: 0.0137
+    incumbency_adjustment: 0.0724
+    incumbency_adjustment_sd: 0.0136
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: -0.0077
@@ -245,20 +245,20 @@ results_by_year:
     war: 0.3587
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.6353
-    lean_component_sd: 0.0431
-    tide_component: 0.0046
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.6349
+    lean_component_sd: 0.043
+    tide_component: 0.0047
     tide_component_sd: 0.0258
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0126
+    fundraising_component: -0.0127
     fundraising_component_sd: 0.001
     demographics_tier: null
-    expected_share_resolved: 0.7207
+    expected_share_resolved: 0.7208
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -267,6 +267,214 @@ results_by_year:
     - Incumbency
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2010
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Jonathan Hecht
+    slug: jonathan-hecht
+    party: Democratic
+    votes: 2975
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.2108
+    primary_incumbency_component_sd: 0.1147
+    primary_fundraising_component: 0.0202
+    primary_fundraising_component_sd: 0.0012
+    primary_expected_share: 1.2097
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2008
+  party: Democratic
+  is_special: false
+  n_candidates: 3
+  is_contested: true
+  candidates:
+  - name: Jonathan Hecht
+    slug: jonathan-hecht
+    party: Democratic
+    votes: 3008
+    winner: true
+    actual_primary_share: 0.5525
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0689
+    primary_fundraising_component_sd: 0.004
+    primary_expected_share: 0.3808
+    primary_war: 0.1717
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Julia Fahey
+    slug: julia-fahey
+    party: Democratic
+    votes: 2118
+    winner: false
+    actual_primary_share: 0.3891
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0501
+    primary_fundraising_component_sd: 0.0029
+    primary_expected_share: 0.3621
+    primary_war: 0.027
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+  - name: Stephen Corbett
+    slug: stephen-corbett
+    party: Democratic
+    votes: 318
+    winner: false
+    actual_primary_share: 0.0584
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.3333
+    primary_baseline_component: 0.3119
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0039
+    primary_fundraising_component_sd: 0.0002
+    primary_expected_share: 0.3081
+    primary_war: -0.2497
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2006
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Rachel Kaprielian
+    slug: rachel-kaprielian
+    party: Democratic
+    votes: 5783
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 2
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1997
+    primary_incumbency_component_sd: 0.1184
+    primary_fundraising_component: 0.0249
+    primary_fundraising_component_sd: 0.0015
+    primary_expected_share: 1.2032
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2006
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Keith Allan Mercurio
+    slug: keith-allan-mercurio
+    party: Republican
+    votes: 236
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0114
+    primary_fundraising_component_sd: 0.0007
+    primary_expected_share: 0.9672
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2004
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Rachel Kaprielian
+    slug: rachel-kaprielian
+    party: Democratic
+    votes: 1305
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1974
+    primary_incumbency_component_sd: 0.1192
+    primary_fundraising_component: -0.0004
+    primary_fundraising_component_sd: 0.0
+    primary_expected_share: 1.1755
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2002
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Rachel Kaprielian
+    slug: rachel-kaprielian
+    party: Democratic
+    votes: 6327
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0096
+    primary_fundraising_component_sd: 0.0006
+    primary_expected_share: 0.969
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 title: 29th Middlesex (2001-2010)
 layout: district
 ---

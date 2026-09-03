@@ -30,22 +30,22 @@ results_by_year:
     war: 0.1342
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.374
-    lean_component_sd: 0.0177
-    tide_component: 0.0027
+    lean_component_sd: 0.0176
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
     demographics_component: 0.0043
     demographics_component_sd: 0.0058
-    fundraising_component: 0.0283
+    fundraising_component: 0.0288
     fundraising_component_sd: 0.0022
     demographics_tier: core
-    expected_share_resolved: 0.6006
-    war_resolved: 0.0581
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.6011
+    war_resolved: 0.0576
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -61,22 +61,22 @@ results_by_year:
     war: -0.1342
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0935
-    intercept_component_sd: 0.0342
-    lean_component: 0.4083
+    intercept_component: 0.0938
+    intercept_component_sd: 0.0341
+    lean_component: 0.408
     lean_component_sd: 0.0277
-    tide_component: 0.006
+    tide_component: 0.0063
     tide_component_sd: 0.0342
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0043
     demographics_component_sd: 0.0058
-    fundraising_component: -0.0412
+    fundraising_component: -0.0416
     fundraising_component_sd: 0.0031
     demographics_tier: core
-    expected_share_resolved: 0.4709
-    war_resolved: -0.1296
-    war_resolved_sd: 0.0811
+    expected_share_resolved: 0.4708
+    war_resolved: -0.1295
+    war_resolved_sd: 0.0809
     war_factors:
     - District lean
     - Statewide tide
@@ -101,20 +101,20 @@ results_by_year:
     war: 0.4886
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.374
-    lean_component_sd: 0.0177
-    tide_component: 0.0026
+    lean_component_sd: 0.0176
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0043
     demographics_component_sd: 0.0058
-    fundraising_component: 0.0243
+    fundraising_component: 0.0248
     fundraising_component_sd: 0.0019
     demographics_tier: core
-    expected_share_resolved: 0.4665
+    expected_share_resolved: 0.4673
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -124,6 +124,89 @@ results_by_year:
     - District demographics (bachelor's degree %)
     - Campaign fundraising
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Anthony Jm Allard
+    slug: anthony-jm-allard
+    party: Democratic
+    votes: 9677
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.0631
+    primary_fundraising_component_sd: 0.0037
+    primary_expected_share: 0.9155
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ryan C. Fattman
+    slug: ryan-c-fattman
+    party: Republican
+    votes: 8099
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1933
+    primary_incumbency_component_sd: 0.0963
+    primary_fundraising_component: 0.0669
+    primary_fundraising_component_sd: 0.0039
+    primary_expected_share: 1.2388
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Ryan C. Fattman
+    slug: ryan-c-fattman
+    party: Republican
+    votes: 8902
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0595
+    primary_fundraising_component_sd: 0.0035
+    primary_expected_share: 1.0381
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   median_household_income: 98787
   bachelors_degree_count: 27800

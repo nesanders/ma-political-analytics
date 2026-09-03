@@ -13,20 +13,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0869
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7776
-  lean_component_sd: 0.0528
-  tide_component: 0.006
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7772
+  lean_component_sd: 0.0527
+  tide_component: 0.0063
   tide_component_sd: 0.0342
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
-  demographics_component: -0.0011
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
+  demographics_component: -0.0009
   demographics_component_sd: 0.0227
-  fundraising_component: 0.043
+  fundraising_component: 0.0438
   fundraising_component_sd: 0.0033
   demographics_tier: full
-  expected_share_resolved: 0.9918
+  expected_share_resolved: 0.9925
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -39,6 +39,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2024
+  vintage: 2022-present
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 3471
+  winner: true
+  actual_primary_share: 0.503
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2272
+  primary_incumbency_component_sd: 0.1286
+  primary_fundraising_component: 0.0945
+  primary_fundraising_component_sd: 0.0055
+  primary_expected_share: 0.8004
+  primary_war: -0.2974
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2022
   vintage: 2022-present
@@ -49,20 +81,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0767
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7776
-  lean_component_sd: 0.0528
-  tide_component: 0.0062
-  tide_component_sd: 0.0353
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7772
+  lean_component_sd: 0.0527
+  tide_component: 0.0065
+  tide_component_sd: 0.0352
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0011
+  demographics_component: -0.0009
   demographics_component_sd: 0.0227
-  fundraising_component: 0.0161
+  fundraising_component: 0.0164
   fundraising_component_sd: 0.0012
   demographics_tier: full
-  expected_share_resolved: 0.8924
+  expected_share_resolved: 0.8929
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -75,6 +107,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2022
+  vintage: 2022-present
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2022-present/
+  party: Democratic
+  votes: 4687
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0441
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.0227
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2020
   vintage: 2012-2020
@@ -85,20 +148,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0658
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7173
-  lean_component_sd: 0.0487
-  tide_component: 0.0064
-  tide_component_sd: 0.0365
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7169
+  lean_component_sd: 0.0486
+  tide_component: 0.0067
+  tide_component_sd: 0.0364
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0214
+  fundraising_component: 0.0219
   fundraising_component_sd: 0.0016
   demographics_tier: null
-  expected_share_resolved: 0.9113
+  expected_share_resolved: 0.9117
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -110,6 +173,38 @@ races:
   is_incumbent: true
   incumbent_terms: 4
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2020
+  vintage: 2012-2020
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 9641
+  winner: true
+  actual_primary_share: 1.0
+  fair_share: 1.0
+  n_candidates: 1
+  primary_baseline_component: 0.9786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2084
+  primary_incumbency_component_sd: 0.1266
+  primary_fundraising_component: 0.0541
+  primary_fundraising_component_sd: 0.0032
+  primary_expected_share: 1.241
+  primary_war: null
+  primary_war_sd: null
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: true
+  is_incumbent: true
+  incumbent_terms: 4
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -120,20 +215,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3402
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7173
-  lean_component_sd: 0.0487
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7169
+  lean_component_sd: 0.0486
+  tide_component: 0.0033
+  tide_component_sd: 0.018
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0176
-  fundraising_component_sd: 0.0013
+  fundraising_component: 0.018
+  fundraising_component_sd: 0.0014
   demographics_tier: null
-  expected_share_resolved: 0.9043
+  expected_share_resolved: 0.9044
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -145,6 +240,38 @@ races:
   is_incumbent: true
   incumbent_terms: 3
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 5735
+  winner: true
+  actual_primary_share: 0.8524
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.258
+  primary_incumbency_component_sd: 0.1128
+  primary_fundraising_component: 0.047
+  primary_fundraising_component_sd: 0.0027
+  primary_expected_share: 0.7836
+  primary_war: 0.0688
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 3
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2016
   vintage: 2012-2020
@@ -155,20 +282,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.0669
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7173
-  lean_component_sd: 0.0487
-  tide_component: 0.0062
-  tide_component_sd: 0.0352
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7169
+  lean_component_sd: 0.0486
+  tide_component: 0.0065
+  tide_component_sd: 0.0351
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0003
+  fundraising_component: -0.0002
   fundraising_component_sd: 0.0
   demographics_tier: null
-  expected_share_resolved: 0.8893
+  expected_share_resolved: 0.8894
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -180,6 +307,38 @@ races:
   is_incumbent: true
   incumbent_terms: 2
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2016
+  vintage: 2012-2020
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2797
+  winner: true
+  actual_primary_share: 0.8504
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.212
+  primary_incumbency_component_sd: 0.1254
+  primary_fundraising_component: 0.0134
+  primary_fundraising_component_sd: 0.0008
+  primary_expected_share: 0.7039
+  primary_war: 0.1465
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 2
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2014
   vintage: 2012-2020
@@ -190,20 +349,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.18
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7173
-  lean_component_sd: 0.0487
-  tide_component: 0.0047
-  tide_component_sd: 0.0267
-  incumbency_adjustment: 0.0726
-  incumbency_adjustment_sd: 0.0137
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7169
+  lean_component_sd: 0.0486
+  tide_component: 0.0049
+  tide_component_sd: 0.0266
+  incumbency_adjustment: 0.0724
+  incumbency_adjustment_sd: 0.0136
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.016
+  fundraising_component: 0.0164
   fundraising_component_sd: 0.0012
   demographics_tier: null
-  expected_share_resolved: 0.9041
+  expected_share_resolved: 0.9044
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -215,6 +374,38 @@ races:
   is_incumbent: true
   incumbent_terms: 1
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2014
+  vintage: 2012-2020
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 3546
+  winner: true
+  actual_primary_share: 0.8334
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.2349
+  primary_incumbency_component_sd: 0.1183
+  primary_fundraising_component: 0.0439
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 0.7574
+  primary_war: 0.076
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Incumbency (interacted with statewide tide and district lean)
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: true
+  incumbent_terms: 1
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 - chamber: house
   year: 2012
   vintage: 2012-2020
@@ -225,20 +416,20 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.112
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.7173
-  lean_component_sd: 0.0487
-  tide_component: 0.0059
-  tide_component_sd: 0.0336
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.7169
+  lean_component_sd: 0.0486
+  tide_component: 0.0062
+  tide_component_sd: 0.0335
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0329
+  fundraising_component: 0.0335
   fundraising_component_sd: 0.0025
   demographics_tier: null
-  expected_share_resolved: 0.8497
+  expected_share_resolved: 0.8504
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -250,6 +441,66 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: true
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2012
+  vintage: 2012-2020
+  district_name: 25th Middlesex District
+  district_url: /district/house-25th-middlesex-district-2012-2020/
+  party: Democratic
+  votes: 2762
+  winner: true
+  actual_primary_share: 0.8431
+  fair_share: 0.3333
+  n_candidates: 3
+  primary_baseline_component: 0.3119
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0756
+  primary_fundraising_component_sd: 0.0044
+  primary_expected_share: 0.3875
+  primary_war: 0.4556
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
+- chamber: house
+  year: 2002
+  vintage: 2001-2010
+  district_name: 8th Suffolk
+  district_url: /district/house-8th-suffolk-2001-2010/
+  party: Democratic
+  votes: 2031
+  winner: false
+  actual_primary_share: 0.3999
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0736
+  primary_fundraising_component_sd: 0.0043
+  primary_expected_share: 0.5522
+  primary_war: -0.1523
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: true
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 13736
@@ -269,6 +520,9 @@ ocpf_finance:
     2024:
       total_raised: 173952.74
       total_spent: 280392.27
+    2002:
+      total_raised: 102053.77
+      total_spent: 96766.68
     2012:
       total_raised: 107373.82
       total_spent: 71823.03

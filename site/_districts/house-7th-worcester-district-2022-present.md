@@ -30,20 +30,20 @@ results_by_year:
     war: 0.4969
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3555
-    lean_component_sd: 0.0168
-    tide_component: 0.0027
+    lean_component_sd: 0.0167
+    tide_component: 0.0025
     tide_component_sd: 0.0118
-    incumbency_adjustment: 0.13
+    incumbency_adjustment: 0.1297
     incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0046
+    demographics_component: 0.0047
     demographics_component_sd: 0.0055
-    fundraising_component: 0.0166
+    fundraising_component: 0.017
     fundraising_component_sd: 0.0013
     demographics_tier: full
-    expected_share_resolved: 0.5708
+    expected_share_resolved: 0.5712
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -97,20 +97,20 @@ results_by_year:
     war: 0.5186
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0613
+    intercept_component: 0.0618
     intercept_component_sd: 0.0188
     lean_component: 0.3555
-    lean_component_sd: 0.0168
-    tide_component: 0.0026
+    lean_component_sd: 0.0167
+    tide_component: 0.0024
     tide_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0046
+    demographics_component: 0.0047
     demographics_component_sd: 0.0055
-    fundraising_component: -0.0037
+    fundraising_component: -0.0036
     fundraising_component_sd: 0.0003
     demographics_tier: full
-    expected_share_resolved: 0.4203
+    expected_share_resolved: 0.4208
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -147,6 +147,109 @@ results_by_year:
     war_resolved_sd: null
     war_factors: null
   is_open_seat: null
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Doreen M. Goodrich
+    slug: doreen-m-goodrich
+    party: Democratic
+    votes: 0
+    winner: false
+    actual_primary_share: null
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.9786
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2024
+  party: Republican
+  is_special: false
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Paul K. Frost
+    slug: paul-k-frost
+    party: Republican
+    votes: 2107
+    winner: true
+    actual_primary_share: 0.8157
+    is_incumbent: true
+    incumbent_terms: 1
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.1887
+    primary_incumbency_component_sd: 0.0952
+    primary_fundraising_component: 0.0451
+    primary_fundraising_component_sd: 0.0026
+    primary_expected_share: 0.7123
+    primary_war: 0.1034
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Incumbency (interacted with statewide tide and district lean)
+    - Campaign fundraising
+  - name: Michelle L. Frigon
+    slug: michelle-l-frigon
+    party: Republican
+    votes: 476
+    winner: false
+    actual_primary_share: 0.1843
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.4786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: -0.1621
+    primary_fundraising_component_sd: 0.0095
+    primary_expected_share: 0.3165
+    primary_war: -0.1322
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
+- year: 2022
+  party: Republican
+  is_special: false
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Paul K. Frost
+    slug: paul-k-frost
+    party: Republican
+    votes: 2091
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 0.9786
+    primary_baseline_component_sd: 0.0046
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: 0.0071
+    primary_fundraising_component_sd: 0.0004
+    primary_expected_share: 0.9857
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
+    - Campaign fundraising
 demographics:
   total_population: 40620
   voting_age_population: 32804

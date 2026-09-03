@@ -13,12 +13,12 @@ races:
   winner: false
   actual_two_party_share: 0.4148
   war: 0.1749
-  intercept_component: 0.0935
-  intercept_component_sd: 0.0342
-  lean_component: 0.4045
-  lean_component_sd: 0.0275
-  tide_component: 0.0032
-  tide_component_sd: 0.0181
+  intercept_component: 0.0938
+  intercept_component_sd: 0.0341
+  lean_component: 0.4042
+  lean_component_sd: 0.0274
+  tide_component: 0.0033
+  tide_component_sd: 0.018
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -26,9 +26,9 @@ races:
   fundraising_component: -0.0063
   fundraising_component_sd: 0.0005
   demographics_tier: null
-  expected_share_resolved: 0.4949
-  war_resolved: -0.0801
-  war_resolved_sd: 0.0811
+  expected_share_resolved: 0.4951
+  war_resolved: -0.0803
+  war_resolved_sd: 0.0809
   war_factors:
   - District lean
   - Statewide tide
@@ -38,6 +38,37 @@ races:
   is_incumbent: false
   incumbent_terms: 0
   is_redistricting_year: false
+  stage: general
+  is_special: false
+- chamber: house
+  year: 2018
+  vintage: 2012-2020
+  district_name: 1st Barnstable District
+  district_url: /district/house-1st-barnstable-district-2012-2020/
+  party: Democratic
+  votes: 2517
+  winner: true
+  actual_primary_share: 0.5593
+  fair_share: 0.5
+  n_candidates: 2
+  primary_baseline_component: 0.4786
+  primary_baseline_component_sd: 0.0046
+  primary_incumbency_component: 0.0
+  primary_incumbency_component_sd: 0.0
+  primary_fundraising_component: 0.0022
+  primary_fundraising_component_sd: 0.0001
+  primary_expected_share: 0.4808
+  primary_war: 0.0785
+  primary_war_sd: 0.1641
+  primary_war_factors:
+  - Equal share among candidates
+  - Campaign fundraising
+  is_uncontested: false
+  is_incumbent: false
+  incumbent_terms: 0
+  is_redistricting_year: false
+  stage: primary
+  is_special: false
 ocpf_finance:
   cpf_ids:
   - 16946
