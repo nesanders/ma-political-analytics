@@ -282,12 +282,20 @@ layout: default
             "axis": { "format": "%", "title": "Two-party share" },
             "scale": { "domain": [0, 1] }
           },
+          // color and strokeDash both key off "series" with the SAME
+          // title ("Series") so Vega-Lite merges them into one legend —
+          // each entry's swatch shows both the color and the dash
+          // pattern together, rather than two separate (or, as an
+          // earlier version of this spec had it, one suppressed) legends.
+          // See the primary-points layer below, whose own "color" must
+          // share this exact scale/title to merge into the same legend
+          // rather than conflict with it.
           "color": {
-            "field": "series", "type": "nominal", "title": null,
+            "field": "series", "type": "nominal", "title": "Series",
             "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
           },
           "strokeDash": {
-            "field": "series", "type": "nominal", "legend": null,
+            "field": "series", "type": "nominal", "title": "Series",
             "scale": { "domain": ["Actual share", "Expected share"], "range": [[1, 0], [4, 2]] }
           },
           "href": { "field": "url", "type": "nominal" },
@@ -315,7 +323,7 @@ layout: default
             "scale": { "domain": ["Primary", "Special-election primary"], "range": ["diamond", "triangle-up"] }
           },
           "color": {
-            "field": "series", "type": "nominal", "legend": null,
+            "field": "series", "type": "nominal", "title": "Series",
             "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
           },
           "href": { "field": "url", "type": "nominal" },
