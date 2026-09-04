@@ -754,8 +754,8 @@ including the exact code that computes everything on this page.
       "layer": [
         {
           "data": { "values": [{ "x": 0 }] },
-          "mark": { "type": "rule", "strokeDash": [4, 2] },
-          "encoding": { "x": { "field": "x", "type": "quantitative", "title": xTitle }, "color": { "value": methodologyCssVar("--gridline") } }
+          "mark": { "type": "rule", "strokeDash": [6, 3], "strokeWidth": 1.5 },
+          "encoding": { "x": { "field": "x", "type": "quantitative", "title": xTitle }, "color": { "value": methodologyCssVar("--text-secondary") } }
         },
         {
           "data": { "values": data },
@@ -856,8 +856,8 @@ including the exact code that computes everything on this page.
       "layer": [
         {
           "data": { "values": [{ "x": 0 }] },
-          "mark": { "type": "rule", "strokeDash": [4, 2] },
-          "encoding": { "x": { "field": "x", "type": "quantitative", "title": "Standardized effect (vote-share points per 1 SD of predictor)" }, "color": { "value": methodologyCssVar("--gridline") } }
+          "mark": { "type": "rule", "strokeDash": [6, 3], "strokeWidth": 1.5 },
+          "encoding": { "x": { "field": "x", "type": "quantitative", "title": "Standardized effect (vote-share points per 1 SD of predictor)" }, "color": { "value": methodologyCssVar("--text-secondary") } }
         },
         {
           "data": { "values": rows },
@@ -1062,8 +1062,8 @@ including the exact code that computes everything on this page.
       "layer": [
         {
           "data": { "values": [{ "x": 0 }] },
-          "mark": { "type": "rule", "strokeDash": [4, 2] },
-          "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": methodologyCssVar("--gridline") } }
+          "mark": { "type": "rule", "strokeDash": [6, 3], "strokeWidth": 1.5 },
+          "encoding": { "x": { "field": "x", "type": "quantitative" }, "color": { "value": methodologyCssVar("--text-secondary") } }
         },
         {
           "data": { "values": residuals },
