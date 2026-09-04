@@ -55,15 +55,15 @@ layout: default
       against a mechanically near-100% unopposed share. A marker again
       flags a redistricting year, where the Incumbency slice drops to
       nothing for that reason, not because the effect itself vanished.
-      A primary's own bar sits beside that year's general bar, outlined
-      (see the Race legend) and combining its equal-share baseline and
+      A primary's own bar sits beside that year's general bar, labeled
+      directly above it ("General," "Primary," or "Special" for a special-
+      election primary), and combines its equal-share baseline and
       incumbency (already interacted with tide and lean) into just those
       two slices plus fundraising and WAR &mdash; it has no separate lean,
-      tide, or demographics term of its own. A special-election primary's
-      bar additionally gets a dashed outline (see the Special election
-      legend). Click a bar to open that race's district page.
+      tide, or demographics term of its own. Click a bar to open that
+      race's district page.
     </p>
-    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked"></div>
+    <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked and each bar labeled General, Primary, or Special"></div>
     <p>
       The chart above shows each component's best estimate; it doesn't
       show how uncertain any of them are. This one does &mdash; the same
@@ -407,22 +407,22 @@ layout: default
     "Fundraising": ["fundraising_component", "fundraising_component_sd"],
     "WAR (residual)": ["war_resolved", "war_resolved_sd"],
   };
-  // race_label is a human-readable "kind of race" (for the opacity legend
-  // below); race_index is the real xOffset/dodge key, and the two are
-  // deliberately different fields. A fixed 2- or 3-way bucket on stage/
-  // is_special alone isn't a safe dodge key: a district can have BOTH a
-  // regular and a special primary in the same calendar year, and — found
-  // live — even two *special* primaries in one year for one candidate
-  // (Denise Provost, 27th Middlesex, 2006, picked up a handful of write-in
-  // votes on the Republican line of that year's special primary alongside
-  // her own Democratic one). Two bars sharing one xOffset bucket get
-  // folded into a single Vega-Lite stack, which visibly summed two
-  // separate races' components into one bar reading well over 100% — a
-  // real rendering bug, not just a legend-clarity gap. race_index (a
-  // simple per-year occurrence count, computed just below) has no such
-  // fixed ceiling: it dodges apart however many races one candidate has
-  // in the same year, whatever kind they are.
-  const RACE_LABELS = ["General", "Primary", "Special-election primary"];
+  // race_label is a human-readable "kind of race" (used in the tooltip and
+  // as the text-label layer's own short caption, see below); race_index is
+  // the real xOffset/dodge key, and the two are deliberately different
+  // fields. A fixed 2- or 3-way bucket on stage/is_special alone isn't a
+  // safe dodge key: a district can have BOTH a regular and a special
+  // primary in the same calendar year, and — found live — even two
+  // *special* primaries in one year for one candidate (Denise Provost,
+  // 27th Middlesex, 2006, picked up a handful of write-in votes on the
+  // Republican line of that year's special primary alongside her own
+  // Democratic one). Two bars sharing one xOffset bucket get folded into a
+  // single Vega-Lite stack, which visibly summed two separate races'
+  // components into one bar reading well over 100% — a real rendering bug,
+  // not just a legend-clarity gap. race_index (a simple per-year
+  // occurrence count, computed just below) has no such fixed ceiling: it
+  // dodges apart however many races one candidate has in the same year,
+  // whatever kind they are.
   (function () {
     const yearCounts = {};
     attributionRaces.forEach((r) => {
@@ -431,17 +431,37 @@ layout: default
     });
   })();
   const attributionData = [];
+  // One row per race (not per component) labeling that race directly on
+  // the chart, positioned at its own bar's top — text right at the data,
+  // not a legend to decode. Tried two legend-based approaches first
+  // (opacity, then stroke/strokeDash) and both had real Vega-Lite
+  // rendering gaps: opacity swatches don't read as distinct at legend
+  // scale, and a strokeDash legend on a bar mark previews as a plain
+  // filled square regardless of the dash pattern (dash only previews on
+  // line-shaped legend symbols) — this sidesteps needing a legend at all.
+  // stack_top is computed here, not read off Vega-Lite's own stack
+  // transform (not exposed back to the data): with mixed-sign values,
+  // Vega-Lite's "stack: zero" puts every positive segment above 0 and
+  // every negative one below, so a bar's visual top is just the sum of
+  // its own positive components.
+  const raceLabelData = [];
   attributionRaces.forEach((r) => {
     const raceLabel = r.stage === "primary" ? (r.is_special ? "Special-election primary" : "Primary") : "General";
+    const raceLabelShort = r.stage === "primary" ? (r.is_special ? "Special" : "Primary") : "General";
+    let stackTop = 0;
     CANONICAL_COMPONENTS.forEach(([label], order) => {
       const fields = FIELD_MAP[label];
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
+      if (value > 0) stackTop += value;
       attributionData.push({
         year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested,
         party: r.party, race_label: raceLabel, race_index: r.race_index, is_special: r.is_special,
         component: label, order, value,
       });
+    });
+    raceLabelData.push({
+      year: r.year, url: r.url, race_index: r.race_index, race_label: raceLabelShort, stack_top: stackTop,
     });
   });
   const attributionSpec = {
@@ -454,33 +474,17 @@ layout: default
       {
         "data": { "values": attributionData },
         // A primary's bar sits beside that year's general bar (xOffset,
-        // dodged within the year's ordinal band). Race and specialness are
-        // both carried by the *border* (stroke color for General vs.
-        // Primary, strokeDash for a special election), not shading — an
-        // opacity-only legend renders as a barely-different gray swatch at
-        // legend scale (fair complaint, and Vega-Lite has no native
-        // hatch/pattern fill to reach for instead; that would need
-        // hand-authored SVG pattern defs manually wired into the rendered
-        // chart, too fragile for what a bordered bar already solves
-        // cleanly with two ordinary, clearly-rendered legends below). Only
-        // ONE channel (stroke, not also strokeWidth) is tied to race_label
-        // — two channels sharing one field triggers Vega-Lite's legend-
-        // merge logic, which silently dropped the legend entirely in an
-        // earlier version of this spec.
-        "mark": { "type": "bar", "cursor": "pointer", "strokeWidth": 2 },
+        // dodged within the year's ordinal band). What kind of race each
+        // bar is gets a text label directly above it (the layer below),
+        // not a legend — two legend-based approaches tried first (opacity,
+        // then stroke/strokeDash) each hit a real Vega-Lite rendering
+        // limitation at legend scale; see that layer's own comment.
+        "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
         "encoding": {
           "x": { "field": "year", "type": "ordinal", "title": "Year" },
           "xOffset": { "field": "race_index", "type": "ordinal", "legend": null },
           "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
           "order": { "field": "order" },
-          "stroke": {
-            "field": "race_label", "type": "nominal", "title": "Race",
-            "scale": { "domain": RACE_LABELS, "range": [chartCssVar("--gridline"), chartCssVar("--text-primary"), chartCssVar("--text-primary")] }
-          },
-          "strokeDash": {
-            "field": "is_special", "type": "nominal", "title": "Special election?",
-            "scale": { "domain": [false, true], "range": [[1, 0], [4, 2]] }
-          },
           "color": {
             "field": "component", "type": "nominal", "title": "Component",
             "scale": {
@@ -498,6 +502,26 @@ layout: default
             { "field": "component", "title": "Component" },
             { "field": "value", "type": "quantitative", "format": ".1%" }
           ]
+        }
+      },
+      {
+        "data": { "values": raceLabelData },
+        // Rotated so "General"/"Primary"/"Special" (deliberately the same
+        // length, so they line up) fit above even a narrow dodged bar —
+        // up to 4 real same-year bars for one candidate (Denise Provost,
+        // 27th Middlesex, 2006). Text mark, not a legend: reads directly
+        // off the bar it labels, no decoding required.
+        "mark": {
+          "type": "text", "angle": 270, "align": "left", "baseline": "middle",
+          "dx": 4, "dy": 2, "fontSize": 9, "fontWeight": "bold", "cursor": "pointer"
+        },
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal" },
+          "xOffset": { "field": "race_index", "type": "ordinal" },
+          "y": { "field": "stack_top", "type": "quantitative" },
+          "text": { "field": "race_label" },
+          "color": { "value": chartCssVar("--text-primary") },
+          "href": { "field": "url", "type": "nominal" }
         }
       }
     ],
