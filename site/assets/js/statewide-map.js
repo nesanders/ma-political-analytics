@@ -1,7 +1,8 @@
 // Renders the statewide "all districts at once" overview map — site/map/,
 // one map per chamber, colored by a viewer-selectable district-level
-// variable (party lean by default, or any inferred WAR-component/turnout
-// variable — see METRICS below) and clickable through to that district's
+// variable (party lean by default, or the winner's own WAR, any of the
+// regression components feeding that winner's *expected* vote share, or
+// turnout — see METRICS below) and clickable through to that district's
 // own page. Also offers a vintage selector (2001-2010/2012-2020/
 // 2022-present), reloading that chamber's combined GeoJSON for the chosen
 // vintage. See district-map.js for the single-district map used on seat/
@@ -47,8 +48,9 @@
   //                  opacity by competitiveness. Not a plain magnitude, so it
   //                  keeps its own bespoke styling rather than the diverging
   //                  ramp below.
-  //   "diverging" — a numeric field centered at `center` (0 for a WAR
-  //                  component, 1.0 for turnout ratio — "no effect"/"exactly
+  //   "diverging" — a numeric field centered at `center` (0 for WAR itself
+  //                  or for one of the components feeding *expected* vote
+  //                  share, 1.0 for turnout ratio — "no effect"/"exactly
   //                  baseline"), colored on a two-hue-plus-neutral-midpoint
   //                  ramp (--map-diverging-neg/-pos, --gridline) scaled to
   //                  this specific vintage's own actual data range — see
@@ -56,7 +58,13 @@
   //                  choice (validated via the dataviz skill, deliberately
   //                  not dem/rep blue-red, which would misread a non-
   //                  partisan magnitude like "fundraising's contribution" as
-  //                  a partisan signal).
+  //                  a partisan signal). Note these components are NOT
+  //                  "contributions to WAR" — they sum to expected_share_
+  //                  resolved (the model's prediction), and WAR is defined
+  //                  as actual_two_party_share minus that whole sum, i.e.
+  //                  the part these components leave unexplained, not a
+  //                  quantity they add up to. See generate_site_data.py's
+  //                  apply_war for the exact arithmetic.
   // A metric only appears in a given map's own selector if at least one
   // loaded feature actually has a non-null value for it — e.g. U.S. House
   // has no fundraising_component (no FEC data fetched) and no demographics
@@ -73,35 +81,35 @@
     },
     {
       key: "winner_lean_component",
-      label: "District lean's contribution to WAR",
+      label: "District lean's contribution to expected vote share",
       kind: "diverging",
       center: 0,
       format: pctSigned,
     },
     {
       key: "winner_tide_component",
-      label: "Statewide tide's contribution to WAR",
+      label: "Statewide tide's contribution to expected vote share",
       kind: "diverging",
       center: 0,
       format: pctSigned,
     },
     {
       key: "winner_incumbency_adjustment",
-      label: "Incumbency's contribution to WAR",
+      label: "Incumbency's contribution to expected vote share",
       kind: "diverging",
       center: 0,
       format: pctSigned,
     },
     {
       key: "winner_demographics_component",
-      label: "District demographics' contribution to WAR",
+      label: "District demographics' contribution to expected vote share",
       kind: "diverging",
       center: 0,
       format: pctSigned,
     },
     {
       key: "winner_fundraising_component",
-      label: "Campaign fundraising's contribution to WAR",
+      label: "Campaign fundraising's contribution to expected vote share",
       kind: "diverging",
       center: 0,
       format: pctSigned,
@@ -323,7 +331,7 @@
       var note = document.createElement("div");
       note.className = "statewide-map-legend-note";
       note.textContent =
-        "Most recent winner's own " + metric.label.toLowerCase() + ", most recent election year. Gray: no data for this district.";
+        "From each district's most recent election year, for that race's winner. Gray: no data for this district.";
       legend.innerHTML = "<strong>" + metric.label + ".</strong>";
       legend.appendChild(gradient);
       legend.appendChild(labels);

@@ -14,9 +14,11 @@ permalink: /map/
 Every district at once. Use **Redistricting vintage** below each map to
 switch boundaries, and **Color districts by** to recolor from the default
 partisan lean to any district-level inferred variable this site
-computes — the most recent race's turnout, or how much of that race's
-winner's over/underperformance (WAR) is attributed to district lean,
-statewide tide, incumbency, demographics, or campaign fundraising (see the
+computes — the most recent race's turnout, its winner's own
+over/underperformance (WAR), or how much district lean, statewide tide,
+incumbency, demographics, or campaign fundraising each contributed to
+that winner's *expected* vote share (the model's prediction — WAR itself
+is the leftover, unexplained by any of these, not a sum of them; see the
 [methodology page]({{ '/methodology/' | relative_url }}) for how each is
 computed). Click a district to open its page.
 
