@@ -352,6 +352,25 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "primary_incumbent_x_tide": (0.0, 0.2),
     "primary_incumbent_x_lean": (0.0, 0.2),
     "primary_log_raised": (0.0, 0.02),
+    # fit_us_house_war_model's own, separate fit for MA's U.S. House
+    # delegation (9-10 large districts, not 160 small ones) — prefixed
+    # "ush_" rather than sharing the general model's own "own_lean"/
+    # "own_tide"/"incumbent" keys, since the two are deliberately never
+    # pooled (a real, direct user choice: a separate fit for U.S. House,
+    # not folded into the state legislative model) even though they're
+    # the same *kind* of quantity, so the priors are set identically to
+    # the general model's own core terms (no demographics/finance
+    # extensions here — no congressional-district demographics crosswalk
+    # and no FEC data fetched this round, both documented gaps on the
+    # methodology page rather than silently absent).
+    "ush_intercept": (0.5, 0.2),
+    "ush_is_dem": (0.0, 0.1),
+    "ush_own_lean": (1.0, 0.4),
+    "ush_own_lean_x_dem": (0.0, 0.2),
+    "ush_own_tide": (0.0, 0.4),
+    "ush_own_tide_x_dem": (0.0, 0.2),
+    "ush_incumbent": (0.05, 0.08),
+    "ush_incumbent_x_dem": (0.0, 0.04),
 }
 
 
@@ -780,6 +799,187 @@ def apply_war(
                         ),
                         war_resolved_sd=None if entry["is_uncontested"] else round(sigma, 4),
                         war_factors=factors,
+                    )
+
+
+def fit_us_house_war_model(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+) -> dict:
+    """MA's U.S. House delegation gets its own, separate regression from
+    the state House/Senate model above — a direct user choice, not a
+    default: 9-10 large congressional districts covering the whole state
+    is a genuinely different population from 160+40 small state-
+    legislative ones (different district sizes, different candidate pool,
+    different fundraising scale), and pooling the two into one fit would
+    let 1,500+ state-legislative rows dominate a coefficient meant to
+    describe a completely different kind of race. `district_records_by_
+    vintage` here must contain ONLY chamber="us-house" records — callers
+    keep this fit's input strictly separate from the state model's own
+    (never merge the two before both fits have run; see main()'s own
+    ordering) — otherwise a district lean/tide computed for a
+    congressional district would leak into the state fit's own training
+    sample and vice versa.
+
+        own_share ~ ush_intercept + ush_is_dem
+                     + ush_own_lean    + ush_own_lean_x_dem
+                     + ush_own_tide    + ush_own_tide_x_dem
+                     + ush_incumbent   + ush_incumbent_x_dem
+
+    Same core-term shape and own-party sign-flip convention as
+    fit_war_model (see its own docstring for what "own_*" means and why
+    the `_x_dem` terms exist) with no demographics or fundraising
+    extension — MA's congressional districts have no demographics
+    crosswalk built (Census PL 94-171/ACS matching here would need its
+    own new district roster, not done this round) and campaign finance
+    for federal candidates lives at the FEC, not OCPF (this site's only
+    campaign-finance source, which covers state filers only) — both real,
+    documented gaps (see methodology.md), not silent omissions."""
+    rows = []
+    for records in district_records_by_vintage.values():
+        for d in records:
+            if d["chamber"] != "us-house":
+                continue
+            for entry in d["results_by_year"]:
+                if entry["is_uncontested"]:
+                    continue
+                tide = tide_by_year.get(entry["year"])
+                if tide is None:
+                    continue
+                for c in entry["candidates"]:
+                    if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
+                        continue
+                    is_dem = c["party"] == "Democratic"
+                    dem_flag = 1.0 if is_dem else 0.0
+                    own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
+                    own_tide = tide if is_dem else 1 - tide
+                    is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
+                    rows.append(
+                        {
+                            "own_share": c["actual_two_party_share"],
+                            "is_dem": dem_flag,
+                            "own_lean": own_lean,
+                            "own_lean_x_dem": own_lean * dem_flag,
+                            "own_tide": own_tide,
+                            "own_tide_x_dem": own_tide * dem_flag,
+                            "incumbent": is_incumbent,
+                            "incumbent_x_dem": is_incumbent * dem_flag,
+                        }
+                    )
+
+    df = pd.DataFrame(rows)
+    feature_names = [
+        "ush_intercept",
+        "ush_is_dem",
+        "ush_own_lean",
+        "ush_own_lean_x_dem",
+        "ush_own_tide",
+        "ush_own_tide_x_dem",
+        "ush_incumbent",
+        "ush_incumbent_x_dem",
+    ]
+    raw_cols = ["is_dem", "own_lean", "own_lean_x_dem", "own_tide", "own_tide_x_dem", "incumbent", "incumbent_x_dem"]
+    x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in raw_cols])
+    fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
+    fit["n_incumbent"] = int(df["incumbent"].sum())
+    fit["n_non_incumbent"] = int(len(df) - df["incumbent"].sum())
+    return fit
+
+
+def apply_us_house_war(
+    district_records_by_vintage: dict[str, list[dict]],
+    tide_by_year: dict[int, float],
+    fit: dict,
+) -> None:
+    """apply_war's counterpart for fit_us_house_war_model — same
+    intercept/lean/tide/incumbency decomposition, no demographics/
+    fundraising branches (see fit_us_house_war_model's own docstring for
+    why). Sets the same war_resolved/expected_share_resolved/war_factors
+    field names as apply_war, not a distinctly-prefixed set, since a
+    congressional district/seat/candidate page reuses the exact same
+    district/seat/candidate.html templates as a state one and those
+    templates read those field names directly — only ever called on
+    records already filtered to chamber="us-house" (see this function's
+    own caller in main())."""
+    coefs = fit["coefficients"]
+    b0, b0_sd = coefs["ush_intercept"]["posterior_mean"], coefs["ush_intercept"]["posterior_sd"]
+    b_dem, b_dem_sd = coefs["ush_is_dem"]["posterior_mean"], coefs["ush_is_dem"]["posterior_sd"]
+    b_lean, b_lean_sd = coefs["ush_own_lean"]["posterior_mean"], coefs["ush_own_lean"]["posterior_sd"]
+    b_lean_dem, b_lean_dem_sd = coefs["ush_own_lean_x_dem"]["posterior_mean"], coefs["ush_own_lean_x_dem"]["posterior_sd"]
+    b_tide, b_tide_sd = coefs["ush_own_tide"]["posterior_mean"], coefs["ush_own_tide"]["posterior_sd"]
+    b_tide_dem, b_tide_dem_sd = coefs["ush_own_tide_x_dem"]["posterior_mean"], coefs["ush_own_tide_x_dem"]["posterior_sd"]
+    b_inc, b_inc_sd = coefs["ush_incumbent"]["posterior_mean"], coefs["ush_incumbent"]["posterior_sd"]
+    b_inc_dem, b_inc_dem_sd = coefs["ush_incumbent_x_dem"]["posterior_mean"], coefs["ush_incumbent_x_dem"]["posterior_sd"]
+    sigma = fit["posterior_sigma_mean"]
+
+    for records in district_records_by_vintage.values():
+        for d in records:
+            if d["chamber"] != "us-house":
+                continue
+            for entry in d["results_by_year"]:
+                tide = tide_by_year.get(entry["year"])
+                for c in entry["candidates"]:
+                    if c["war"] is None or tide is None or c["party"] not in ("Democratic", "Republican"):
+                        c.update(
+                            intercept_component=None,
+                            intercept_component_sd=None,
+                            lean_component=None,
+                            lean_component_sd=None,
+                            tide_component=None,
+                            tide_component_sd=None,
+                            incumbency_adjustment=None,
+                            incumbency_adjustment_sd=None,
+                            demographics_component=None,
+                            demographics_component_sd=None,
+                            fundraising_component=None,
+                            fundraising_component_sd=None,
+                            demographics_tier=None,
+                            expected_share_resolved=None,
+                            war_resolved=None,
+                            war_resolved_sd=None,
+                            war_factors=None,
+                        )
+                        continue
+
+                    is_dem = c["party"] == "Democratic"
+                    dem_flag = 1.0 if is_dem else 0.0
+                    own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
+                    own_tide = tide if is_dem else 1 - tide
+                    is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
+
+                    intercept_component = b0 + b_dem * dem_flag
+                    intercept_component_sd = (b0_sd**2 + (dem_flag * b_dem_sd) ** 2) ** 0.5
+                    lean_component = (b_lean + b_lean_dem * dem_flag) * own_lean
+                    lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
+                    tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
+                    tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
+                    incumbency_component_sd = (
+                        (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
+                    )
+
+                    expected = intercept_component + lean_component + tide_component + incumbency_component
+
+                    c.update(
+                        intercept_component=round(intercept_component, 4),
+                        intercept_component_sd=round(intercept_component_sd, 4),
+                        lean_component=round(lean_component, 4),
+                        lean_component_sd=round(lean_component_sd, 4),
+                        tide_component=round(tide_component, 4),
+                        tide_component_sd=round(tide_component_sd, 4),
+                        incumbency_adjustment=round(incumbency_component, 4),
+                        incumbency_adjustment_sd=round(incumbency_component_sd, 4),
+                        demographics_component=None,
+                        demographics_component_sd=None,
+                        fundraising_component=None,
+                        fundraising_component_sd=None,
+                        demographics_tier=None,
+                        expected_share_resolved=round(expected, 4),
+                        war_resolved=(
+                            None if entry["is_uncontested"] else round(c["actual_two_party_share"] - expected, 4)
+                        ),
+                        war_resolved_sd=None if entry["is_uncontested"] else round(sigma, 4),
+                        war_factors=["District lean", "Statewide tide", "Incumbency"],
                     )
 
 
@@ -1817,8 +2017,106 @@ def write_party_files(records: list[dict], out_dir: Path) -> None:
     logger.info("Wrote %d party pages to %s", len(records), out_dir)
 
 
+def _statewide_candidate_list(race_results: pd.DataFrame, share_col: str) -> list[dict]:
+    """race_results: every fetch.pd43 result row for one election_id. Shares
+    are each candidate's fraction of votes among *named* candidates only
+    (excludes write-ins/blanks, same "which votes count" convention
+    compute_war/compute_primary_results already use elsewhere), not a
+    two-party share — a Senate general can carry a real third-party
+    candidate on the ballot (e.g. a Libertarian in 2002/2020), unlike this
+    site's two-party-only House/Senate WAR framing."""
+    total = float(race_results["votes"].fillna(0).sum())
+    return [
+        {
+            "name": row["candidate_name"],
+            "slug": candidate_slug(row["candidate_slug"]),
+            "party": _clean_str(row["party"]),
+            "votes": int(row["votes"]) if pd.notna(row["votes"]) else None,
+            "winner": bool(row["winner"]),
+            share_col: round(float(row["votes"]) / total, 4) if pd.notna(row["votes"]) and total else None,
+        }
+        for _, row in race_results.sort_values("votes", ascending=False, na_position="last").iterrows()
+    ]
+
+
+def build_us_senate_records(pd43_dir: Path) -> dict | None:
+    """MA's U.S. Senate election history — deliberately NOT run through the
+    district/seat/WAR machinery every other chamber on this site uses: a
+    statewide, single-seat, staggered-6-year-term office has no meaningful
+    "replacement level" the way a multi-seat chamber does (there's no
+    second Massachusetts to compare a Senate result against, and "WAR
+    relative to what this seat 'should' produce" collapses to "how did
+    this specific race's winner do in this specific race," which isn't a
+    real baseline) — a direct, explicit user choice: a simpler results-
+    over-time page instead of forcing this office through the district/
+    seat/candidate template trio. No campaign-finance section either, same
+    reason as fit_us_house_war_model's own docstring (OCPF doesn't cover
+    federal filers; an FEC fetcher is a real, documented future addition,
+    not attempted this round).
+
+    Returns None (nothing to write) if fetch.pd43 was never run for
+    us-senate at all — same "skip gracefully, don't crash" convention the
+    rest of this module uses for genuinely optional inputs."""
+    races_path = pd43_dir / "us-senate_races.parquet"
+    results_path = pd43_dir / "us-senate_results.parquet"
+    if not (races_path.exists() and results_path.exists()):
+        return None
+    races = pd.read_parquet(races_path)
+    results = pd.read_parquet(results_path)
+    if not len(races):
+        return None
+
+    generals = []
+    for _, race in races[races["stage"] == "general"].sort_values("year", ascending=False).iterrows():
+        race_results = results[results["election_id"] == race["election_id"]]
+        generals.append(
+            {
+                "year": int(race["year"]),
+                "is_special": bool(race["is_special"]),
+                "candidates": _statewide_candidate_list(race_results, "vote_share"),
+            }
+        )
+
+    primaries = []
+    for _, race in races[races["stage"] == "primary"].sort_values(
+        ["year", "party"], ascending=[False, True]
+    ).iterrows():
+        race_results = results[results["election_id"] == race["election_id"]]
+        primaries.append(
+            {
+                "year": int(race["year"]),
+                "party": race["party"],
+                "is_special": bool(race["is_special"]),
+                "candidates": _statewide_candidate_list(race_results, "primary_vote_share"),
+            }
+        )
+
+    return {"generals": generals, "primaries": primaries}
+
+
 @click.command()
 @click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
+@click.option(
+    "--us-house/--no-us-house",
+    default=True,
+    help="Also build U.S. House district/seat/candidate pages, fit via their own separate model (fit_us_house_war_model) — see its own docstring for why it's never pooled with the state chamber(s) above.",
+)
+@click.option(
+    "--us-senate/--no-us-senate",
+    default=True,
+    help="Also build a simple U.S. Senate results-over-time page (no districts, no WAR model — see build_us_senate_records' own docstring).",
+)
+@click.option(
+    "--pd43-dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/raw/pd43"),
+    help="Raw fetch.pd43 output, for build_us_senate_records (which reads us-senate_races/results directly, not via derived_metrics/crosswalks — there's no district to apportion into).",
+)
+@click.option(
+    "--us-senate-data-out",
+    type=click.Path(path_type=Path),
+    default=Path("site/_data/us_senate.yml"),
+)
 @click.option("--current-vintage", default="2022-present", help="Vintage whose districts become /seat/ pages")
 @click.option(
     "--vintages",
@@ -1859,6 +2157,10 @@ def write_party_files(records: list[dict], out_dir: Path) -> None:
 @click.option("-v", "--verbose", is_flag=True)
 def main(
     chamber: str,
+    us_house: bool,
+    us_senate: bool,
+    pd43_dir: Path,
+    us_senate_data_out: Path,
     current_vintage: str,
     vintages: str,
     derived_dir: Path,
@@ -1884,6 +2186,19 @@ def main(
         for c in chambers:
             recs.extend(build_district_records(c, vintage, derived_dir))
         district_records_by_vintage[vintage] = recs
+
+    # Kept in a fully separate dict from district_records_by_vintage above
+    # until after both the state and U.S. House models have been fit and
+    # applied (see fit_us_house_war_model's own docstring for why the two
+    # are never pooled) — merged into the same dict only afterward, so
+    # every downstream consumer that doesn't care about the model split
+    # (write_district_files, build_seat_records, build_candidate_records,
+    # town/party records) sees one combined roster without needing its own
+    # chamber-specific logic.
+    ush_district_records_by_vintage: dict[str, list[dict]] = {}
+    if us_house:
+        for vintage in vintage_list:
+            ush_district_records_by_vintage[vintage] = build_district_records("us-house", vintage, derived_dir)
 
     # Census demographics (PL 94-171 + ACS) only exist for the current
     # vintage — see demographics_match.py's docstring — so only those
@@ -1959,6 +2274,42 @@ def main(
     (site_data_dir / "primary_war_fit_sample.yml").write_text(yaml.safe_dump(primary_fit_sample, sort_keys=False))
     logger.info("Wrote %d rows to %s", len(primary_fit_sample), site_data_dir / "primary_war_fit_sample.yml")
 
+    # U.S. House's own separate fit — see fit_us_house_war_model's own
+    # docstring for why this never touches district_records_by_vintage
+    # (the state model's own training data) above. No primary model for
+    # U.S. House this round (a documented gap, methodology.md) — primary
+    # candidates on a congressional district page still show their raw
+    # actual_primary_share/fair_share, just no fitted primary_war overlay.
+    if us_house and any(ush_district_records_by_vintage.values()):
+        us_house_war_fit = fit_us_house_war_model(ush_district_records_by_vintage, tide_by_year)
+        logger.info(
+            "U.S. House WAR model fit: n=%d, R²=%s, own_lean=%+.3f (x_dem %+.3f), own_tide=%+.3f (x_dem %+.3f), "
+            "incumbent=%+.3f (x_dem %+.3f)",
+            us_house_war_fit["n"],
+            us_house_war_fit["r_squared"],
+            us_house_war_fit["coefficients"]["ush_own_lean"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_own_lean_x_dem"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_own_tide"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_own_tide_x_dem"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_incumbent"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_incumbent_x_dem"]["posterior_mean"],
+        )
+        (site_data_dir / "us_house_war_model.yml").write_text(yaml.safe_dump(us_house_war_fit, sort_keys=False))
+
+        apply_us_house_war(ush_district_records_by_vintage, tide_by_year, us_house_war_fit)
+
+        us_house_fit_sample = build_war_fit_sample(ush_district_records_by_vintage)
+        (site_data_dir / "us_house_war_fit_sample.yml").write_text(yaml.safe_dump(us_house_fit_sample, sort_keys=False))
+        logger.info("Wrote %d rows to %s", len(us_house_fit_sample), site_data_dir / "us_house_war_fit_sample.yml")
+
+        # Merged in only now that both models are done fitting/applying —
+        # every downstream step from here on (lineage/vintage chains,
+        # district/seat/candidate files, town/party rollups) treats
+        # U.S. House exactly like any other chamber.
+        for vintage, recs in ush_district_records_by_vintage.items():
+            district_records_by_vintage.setdefault(vintage, []).extend(recs)
+        chambers = [*chambers, "us-house"]
+
     lineage = pd.read_parquet(crosswalks_dir / "seat_lineage.parquet")
     vintage_chain_index = build_vintage_chain_index(district_records_by_vintage, lineage, current_vintage)
     for recs in district_records_by_vintage.values():
@@ -1985,6 +2336,20 @@ def main(
 
     party_records = build_party_records(seat_records)
     write_party_files(party_records, parties_out_dir)
+
+    if us_senate:
+        us_senate_records = build_us_senate_records(pd43_dir)
+        if us_senate_records is None:
+            logger.warning("No U.S. Senate data at %s — skipping /us-senate/ page data", pd43_dir)
+        else:
+            us_senate_data_out.parent.mkdir(parents=True, exist_ok=True)
+            us_senate_data_out.write_text(yaml.safe_dump(us_senate_records, sort_keys=False))
+            logger.info(
+                "Wrote %d U.S. Senate general(s) + %d primary race(s) to %s",
+                len(us_senate_records["generals"]),
+                len(us_senate_records["primaries"]),
+                us_senate_data_out,
+            )
 
 
 if __name__ == "__main__":

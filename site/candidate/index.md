@@ -18,7 +18,7 @@ description: Every candidate who has run for MA House or Senate in the years thi
       <td><a href="{{ c.url | relative_url }}">{{ c.name }}</a></td>
       <td>{{ c.party }}</td>
       <td>{{ c.races.size }}</td>
-      <td>{{ latest.year }} {{ latest.chamber | capitalize }}, {{ latest.district_name }}</td>
+      <td>{{ latest.year }} {{ site.data.chamber_labels[latest.chamber] | default: latest.chamber }}, {{ latest.district_name }}</td>
     </tr>
     {% endfor %}
   </tbody>

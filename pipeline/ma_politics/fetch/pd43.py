@@ -46,8 +46,16 @@ BASE_URL = "https://electionstats.state.ma.us"
 # "house"/"senate" are the primary target (district-level MA legislative
 # races); "governor"/"president" are statewide top-of-ticket races pulled
 # for the partisan-lean baseline (docs/PLAN.md §4), not standalone output.
-OFFICE_IDS = {"house": 8, "senate": 9, "governor": 3, "president": 1}
-STATEWIDE_OFFICES = {"governor", "president"}
+# "us-house"/"us-senate" are MA's federal delegation (asked for directly) —
+# office_ids 5/6, confirmed live against PD43+'s own search-form <select>
+# (electionstats.state.ma.us/elections/search/). us-house is district-based
+# like house/senate (9 congressional districts, current vintage); us-senate
+# is statewide like governor/president, but on a staggered 6-year term, not
+# every cycle — most even years have zero results for it, which the normal
+# fetch loop below already handles (an empty search result just skips that
+# year), not a special case.
+OFFICE_IDS = {"house": 8, "senate": 9, "governor": 3, "president": 1, "us-house": 5, "us-senate": 6}
+STATEWIDE_OFFICES = {"governor", "president", "us-senate"}
 
 # PD43+'s own stage vocabulary (see the "SearchOfficeId"/"stageListForOffice*"
 # <select> options on /elections/search/).
@@ -64,7 +72,7 @@ STAGE_PRIMARIES = "Primaries"  # all parties' primaries in one query
 # district_raw is set to "Massachusetts" for those after the match.
 TITLE_RE = re.compile(
     r"^PD43\+\s*»\s*(?P<year>\d{4})\s+"
-    r"(?P<office>State (?:Senate|Representative)|Governor|President)\s+"
+    r"(?P<office>State (?:Senate|Representative)|Governor|President|U\.S\. (?:House|Senate))\s+"
     r"(?P<special>Special\s+)?(?:(?P<party>.+?)\s+Primary|General Election)"
     r"(?:\s+(?P<district>.+))?$"
 )
@@ -82,7 +90,7 @@ class Candidate:
 class Race:
     election_id: str
     year: int
-    chamber: str  # "house" | "senate"
+    chamber: str  # "house" | "senate" | "us-house" | "us-senate"
     stage: str  # "general" | "primary"
     party: str | None  # set for primaries, None for generals
     is_special: bool  # special election (mid-cycle vacancy), not a regular cycle
@@ -304,7 +312,11 @@ def fetch_years(
 
 
 @click.command()
-@click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
+@click.option(
+    "--chamber",
+    type=click.Choice(["house", "senate", "us-house", "us-senate", "both"]),
+    default="both",
+)
 @click.option("--year-from", type=int, default=2002)
 @click.option("--year-to", type=int, default=2024)
 @click.option(
@@ -315,7 +327,8 @@ def fetch_years(
 @click.option("--min-interval-s", type=float, default=0.5, help="Minimum seconds between requests.")
 @click.option("-v", "--verbose", is_flag=True)
 def main(chamber: str, year_from: int, year_to: int, out_dir: Path, min_interval_s: float, verbose: bool):
-    """Fetch PD43+ election results for MA state House/Senate races.
+    """Fetch PD43+ election results for MA state House/Senate races, and
+    (via --chamber us-house/us-senate) MA's U.S. House and U.S. Senate races.
 
     Idempotent: election_ids already present in <out_dir>/<chamber>_races.parquet
     are skipped, so re-running after a future election only fetches new rows.

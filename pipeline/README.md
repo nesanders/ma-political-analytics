@@ -52,6 +52,50 @@ skipped, so re-running after a future election only pulls new rows.
   (readable, correct year coverage) before being committed to the cache
   branch, so the migration itself didn't lose anything already fetched.
 
+- `python -m ma_politics.fetch.pd43 --chamber us-house --year-from 2002 --year-to 2024` /
+  `--chamber us-senate --year-from 2002 --year-to 2024`
+  MA's federal delegation, from the same PD43+ source and the same
+  `fetch_years()` machinery as House/Senate above — `--chamber` now also
+  accepts `us-house` (office_id 5, district-based, 9-10 districts
+  depending on vintage) and `us-senate` (office_id 6, statewide like
+  Governor/President, but on a staggered 6-year term — most even years
+  return zero results for it, already handled gracefully by the existing
+  per-year empty-search-skips-the-year loop, no special-casing needed).
+  Both confirmed live against PD43+'s own search-form `<select
+  name="office_id">` before use. `--chamber both` is unchanged (still
+  means House+Senate only, not all four chambers) — federal chambers need
+  an explicit `--chamber us-house`/`--chamber us-senate` invocation.
+  Verified live: 300 U.S. House races and 31 U.S. Senate races fetched
+  2002-2024 with zero warnings, including real special elections (a 2007
+  and a 2013 U.S. House special in the 5th Congressional District; the
+  2009/2010 Kennedy-vacancy and 2013 Kerry-to-Secretary-of-State U.S.
+  Senate specials).
+
+- `python -m ma_politics.fetch.congressional_boundaries --vintage all`
+  MA's three congressional-district vintages (10 districts 2001-2010, 9
+  2012-2020, 9 2022-present), all from TIGER directly — no MIT GeoData
+  Repository fallback needed here, unlike the state legislative 2001
+  vintage. The 2001 vintage isn't in TIGER's regular per-year directories
+  (those are empty for congressional districts before ~2011) but *is*
+  available under a per-Congress path,
+  `TIGER2010/CD/108/tl_2010_25_cd108.zip` (108th Congress); the 2012-2020
+  vintage is only ever published by TIGER as a whole-US file (filtered to
+  MA's FIPS code after loading); 2022-present is back to a normal
+  per-state file. Reformats each vintage's own native column
+  (`CD108FP`/`CD113FP`/`CD118FP`, `NAMELSAD00`/`NAMELSAD`) into this
+  site's common `(district_id, district_name)` shape — and, unlike the
+  state legislative fetcher, additionally rewrites TIGER's own "Congressional
+  District 9" name into "9th Congressional District" (PD43+'s own word
+  order) at fetch time: a real matching bug found live, since this site's
+  existing ordinal-aware district-name normalizer (`util.names.
+  normalize_district_name`) strips ordinal suffixes and the word
+  "district" but never reorders tokens, so a same-number reordering like
+  this doesn't collide even after normalization — every one of the 9-10
+  districts failed to match until this was fixed. Writes
+  `us-house_<vintage>.geoparquet` to `--out-dir` (default
+  `data/raw/boundaries`), same schema as `fetch.district_boundaries`'s own
+  output.
+
 - `python -m ma_politics.fetch.district_boundaries --chamber both --vintage all`
   District boundaries — 2012-2020 and 2022-present from Census TIGER/Line,
   2001-2010 from MIT Libraries' GeoData Repository (see the module
@@ -112,8 +156,23 @@ full.
   every district's town-overlap shares sum to ~1.0 (min 0.998) for all three
   vintages/both chambers, and seat lineage produces sensible continuity
   (e.g. 2001's 1st Barnstable maps 83% into 2012's 1st Barnstable District).
+  Now also runs a third chamber, `us-house` (unchanged machinery — the
+  same area-overlay functions, just given `fetch.congressional_boundaries`'
+  output instead of `fetch.district_boundaries`'), producing its own
+  town↔district overlap and cross-vintage lineage rows in the same two
+  output files. Verified live: 559/518/382 overlap rows and 39/36 lineage
+  rows across the three vintages, same sensible-continuity spot-check
+  pattern as House/Senate.
 
 - `python -m ma_politics.build.derived_metrics --chamber house --year 2022 --vintage 2022-present`
+  (`--chamber` now also accepts `us-house` — fully chamber-agnostic
+  already, no code change needed beyond widening the CLI's `Choice` list;
+  reuses the same Governor/President statewide baseline as House/Senate,
+  apportioned via `us-house`'s own town↔district crosswalk. Run once per
+  even year, matching the same even-year-only convention House/Senate
+  already follow — see `pipeline/ma_politics/build/derived_metrics.py`'s
+  `--year`/`--vintage`/`--baseline-office` combinations for all three
+  vintages in the git history for the exact 12-invocation loop used.)
   District partisan lean, competitiveness, and WAR (see module docstring
   for the full pipeline and a documented limitation around uncontested
   races). Needs a statewide baseline race already fetched via
@@ -692,6 +751,34 @@ sweep of the methodology page (including confirming the new chart's
 `<canvas>` element actually renders with non-zero dimensions and zero
 console errors, not just an empty container) and both a full-tier and a
 core-tier district page came back clean.
+
+**Federal election data (U.S. House + U.S. Senate)** — see
+`docs/PLAN.md`'s Phase 7 roadmap entry for the full writeup (fetch/build
+provenance, the separate-model reasoning, and live verification numbers);
+summarized here. `generate_site_data.main()` gained `--us-house/--no-us-house`
+(default on) and `--us-senate/--no-us-senate` (default on). U.S. House
+runs through the same `build_district_records`/`build_seat_records`/
+`build_candidate_records`/`write_*_files` functions every other chamber
+uses (all already fully chamber-agnostic — no changes needed there), but
+through its own separate Bayesian fit (`fit_us_house_war_model`/
+`apply_us_house_war`, new `site/_data/us_house_war_model.yml`/
+`us_house_war_fit_sample.yml` exports) — kept in its own
+`ush_district_records_by_vintage` dict, entirely apart from the state
+model's own training data, until *after* both models have fit and
+applied; merged into the shared dict only then, so district/seat/
+candidate file-writing and the town/party rollups see one combined roster
+without their own chamber-specific branching. U.S. Senate skips the
+district/seat/candidate machinery entirely (`build_us_senate_records`,
+reading `fetch.pd43`'s `us-senate_races`/`results` directly — no
+crosswalk, no apportionment, since there's no district to apportion a
+single statewide seat into) and writes a flat `site/_data/us_senate.yml`
+for a new, simple `/us-senate/` results-and-history page. New nav links,
+a `site/_data/chamber_labels.yml` lookup (replacing five `capitalize`-based
+chamber labels that would otherwise have rendered "Us-house"), a new
+`/chamber/us-house/` page (the existing `chamber.html` layout, unchanged),
+and `publish_district_geo.py --chamber us-house` for the U.S. House
+district-map GeoJSON (plus a third map section on `/map/`) round out the
+site side.
 
 ## Site chart assets (`site/assets/js/vendor/`)
 

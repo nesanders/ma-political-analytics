@@ -417,6 +417,54 @@ treating coefficients as independent of each other rather than
 propagating their full joint posterior — a known simplification, not a
 full solution.
 
+## U.S. House and U.S. Senate
+
+This site also covers MA's federal delegation — nine U.S. House seats and
+one U.S. Senate seat — from the same PD43+ source as the state House and
+Senate, back to 2002.
+
+**U.S. House gets the same district/seat/candidate treatment as the state
+chambers, including its own WAR model** — but a genuinely *separate* fit
+from the state House/Senate regression above, not pooled into it. MA's nine
+congressional districts are a different kind of race from 160 state House
+or 40 state Senate seats: much larger, statewide-spanning geographies,
+fewer, and dominated by long-serving incumbents in safe seats, so folding
+a few hundred congressional candidate-races into a fit trained on 1,500+
+state-legislative ones would let the far larger sample determine a
+coefficient meant to describe a different electorate. The U.S. House model
+is otherwise the same shape as the state model's core terms (own-party
+lean, tide, and incumbency, with the same `× Democratic` interaction
+convention) — just without the demographics and campaign-fundraising
+extensions, for a real, separate reason each:
+
+- **No demographics extension.** This site's Census matching
+  (`demographics_match.py`) is built against the state House/Senate
+  district rosters; extending it to nine congressional districts would
+  need its own crosswalk, not attempted this round.
+- **No campaign-finance extension.** OCPF, this site's only
+  campaign-finance source, covers state-filed candidates — federal
+  candidates file with the FEC instead, a separate data source this site
+  doesn't fetch yet. A candidate page for a U.S. House member accordingly
+  has no "Campaign finance" section.
+
+On the last full run: n=116 contested major-party candidate-races
+(2002-2024), R²=0.89, own-district-lean coefficient +0.50, own-statewide-
+tide −0.01, incumbency +0.04 — see `site/_data/us_house_war_model.yml`
+for the live figures. No primary model for U.S. House either, for the same
+reason as the demographics/finance gaps above (a separate fit is real work,
+not attempted this round): a congressional primary candidate's page still
+shows their raw vote share and field size, just no fitted "expected share"
+overlay the way a state legislative primary candidate's does.
+
+**U.S. Senate has no district/seat/WAR treatment at all** — a deliberate
+choice, not an oversight. MA elects only one U.S. Senator at a time, on a
+staggered six-year term, so there's no second Massachusetts to compare a
+Senate result against and no meaningful "replacement level" the way a
+multi-seat chamber has one. Instead, the [U.S. Senate
+page]({{ '/us-senate/' | relative_url }}) is a straightforward results-and-
+candidate-history table, built directly from PD43+'s statewide U.S. Senate
+results with no apportionment, crosswalk, or regression involved.
+
 ## Primary elections
 
 Massachusetts's 2026 state primary happened days before this section was

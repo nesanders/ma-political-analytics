@@ -30,3 +30,11 @@ means more competitive. Click a district to open its page.
   data-geojson-url="{{ '/assets/data/geo/senate-2022-present-all.geojson' | relative_url }}"
   style="height: 500px;"
 ></div>
+
+## U.S. House
+
+<div
+  data-statewide-map
+  data-geojson-url="{{ '/assets/data/geo/us-house-2022-present-all.geojson' | relative_url }}"
+  style="height: 500px;"
+></div>

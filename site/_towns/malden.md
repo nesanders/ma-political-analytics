@@ -2,6 +2,14 @@
 name: Malden
 slug: malden
 districts:
+- chamber: us-house
+  district_name: 5th Congressional District
+  url: /seat/us-house-5th-congressional-district/
+  pct_of_town: 0.9998
+  lean_dem_share: 0.7319
+  competitiveness_label: Safe D
+  current_rep: Katherine M. Clark
+  current_rep_party: Democratic
 - chamber: senate
   district_name: Fifth Middlesex District
   url: /seat/senate-fifth-middlesex-district/
@@ -49,6 +57,14 @@ districts:
   lean_dem_share: 0.7915
   competitiveness_label: Safe D
   current_rep: Sal N. DiDomenico
+  current_rep_party: Democratic
+- chamber: us-house
+  district_name: 7th Congressional District
+  url: /seat/us-house-7th-congressional-district/
+  pct_of_town: 0.0002
+  lean_dem_share: 0.8046
+  competitiveness_label: Safe D
+  current_rep: Ayanna S. Pressley
   current_rep_party: Democratic
 title: Malden
 layout: town

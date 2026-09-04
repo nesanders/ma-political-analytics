@@ -8,7 +8,7 @@ layout: default
 {% assign latest_contested = page.results_by_year | where: "is_uncontested", false | first %}
 <article>
   <p><a href="{{ '/chamber/' | append: page.chamber | append: '/' | relative_url }}">
-    {{ page.chamber | capitalize }}
+    {{ site.data.chamber_labels[page.chamber] | default: page.chamber }}
   </a></p>
   <h1>{{ page.district_name }}</h1>
   <p>{{ page.vintage }} vintage</p>

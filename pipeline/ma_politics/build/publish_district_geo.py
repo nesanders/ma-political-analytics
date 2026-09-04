@@ -105,7 +105,7 @@ def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_d
 
 
 @click.command()
-@click.option("--chamber", type=click.Choice(["house", "senate", "both"]), default="both")
+@click.option("--chamber", type=click.Choice(["house", "senate", "us-house", "both"]), default="both")
 @click.option(
     "--vintages",
     default="2001-2010,2012-2020,2022-present",

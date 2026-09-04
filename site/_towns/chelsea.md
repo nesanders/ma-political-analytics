@@ -18,6 +18,14 @@ districts:
   competitiveness_label: Safe D
   current_rep: Sal N. DiDomenico
   current_rep_party: Democratic
+- chamber: us-house
+  district_name: 7th Congressional District
+  url: /seat/us-house-7th-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.8046
+  competitiveness_label: Safe D
+  current_rep: Ayanna S. Pressley
+  current_rep_party: Democratic
 title: Chelsea
 layout: town
 ---

@@ -1,0 +1,488 @@
+generals:
+- year: 2024
+  is_special: false
+  candidates:
+  - name: Elizabeth Ann Warren
+    slug: elizabeth-ann-warren
+    party: Democratic
+    votes: 2041668
+    winner: true
+    vote_share: 0.5992
+  - name: John Deaton
+    slug: john-deaton
+    party: Republican
+    votes: 1365440
+    winner: false
+    vote_share: 0.4008
+- year: 2020
+  is_special: false
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 2357809
+    winner: true
+    vote_share: 0.6629
+  - name: Kevin J. O'Connor
+    slug: kevin-j-oconnor
+    party: Republican
+    votes: 1177765
+    winner: false
+    vote_share: 0.3311
+  - name: Shiva Ayyadurai
+    slug: shiva-ayyadurai
+    party: Other
+    votes: 21134
+    winner: false
+    vote_share: 0.0059
+- year: 2018
+  is_special: false
+  candidates:
+  - name: Elizabeth A. Warren
+    slug: elizabeth-a-warren
+    party: Democratic
+    votes: 1633371
+    winner: true
+    vote_share: 0.604
+  - name: Geoff Diehl
+    slug: geoff-diehl
+    party: Republican
+    votes: 979210
+    winner: false
+    vote_share: 0.3621
+  - name: Shiva Ayyadurai
+    slug: shiva-ayyadurai
+    party: Other
+    votes: 91710
+    winner: false
+    vote_share: 0.0339
+- year: 2014
+  is_special: false
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 1289944
+    winner: true
+    vote_share: 0.6196
+  - name: Brian J. Herr
+    slug: brian-j-herr
+    party: Republican
+    votes: 791950
+    winner: false
+    vote_share: 0.3804
+  - name: Brian R. Muello
+    slug: brian-r-muello
+    party: Other
+    votes: 6
+    winner: false
+    vote_share: 0.0
+- year: 2013
+  is_special: true
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 645429
+    winner: true
+    vote_share: 0.5492
+  - name: Gabriel E. Gomez
+    slug: gabriel-e-gomez
+    party: Republican
+    votes: 525307
+    winner: false
+    vote_share: 0.447
+  - name: Richard A. Heos
+    slug: richard-a-heos
+    party: Other
+    votes: 4550
+    winner: false
+    vote_share: 0.0039
+- year: 2012
+  is_special: false
+  candidates:
+  - name: Elizabeth A. Warren
+    slug: elizabeth-a-warren
+    party: Democratic
+    votes: 1696346
+    winner: true
+    vote_share: 0.5378
+  - name: Scott P. Brown
+    slug: scott-p-brown
+    party: Republican
+    votes: 1458048
+    winner: false
+    vote_share: 0.4622
+- year: 2010
+  is_special: true
+  candidates:
+  - name: Scott P. Brown
+    slug: scott-p-brown
+    party: Republican
+    votes: 1168178
+    winner: true
+    vote_share: 0.5189
+  - name: Martha Coakley
+    slug: martha-coakley
+    party: Democratic
+    votes: 1060861
+    winner: false
+    vote_share: 0.4712
+  - name: Joseph L. Kennedy
+    slug: joseph-l-kennedy
+    party: Other
+    votes: 22388
+    winner: false
+    vote_share: 0.0099
+- year: 2008
+  is_special: false
+  candidates:
+  - name: John F. Kerry
+    slug: john-f-kerry
+    party: Democratic
+    votes: 1971974
+    winner: true
+    vote_share: 0.6591
+  - name: Jeffrey K. Beatty
+    slug: jeffrey-k-beatty
+    party: Republican
+    votes: 926044
+    winner: false
+    vote_share: 0.3095
+  - name: Robert J. Underwood
+    slug: robert-j-underwood
+    party: Libertarian
+    votes: 93713
+    winner: false
+    vote_share: 0.0313
+- year: 2006
+  is_special: false
+  candidates:
+  - name: Edward M. Kennedy
+    slug: edward-m-kennedy
+    party: Democratic
+    votes: 1500738
+    winner: true
+    vote_share: 0.6941
+  - name: Kenneth G. Chase
+    slug: kenneth-g-chase
+    party: Republican
+    votes: 661532
+    winner: false
+    vote_share: 0.3059
+- year: 2002
+  is_special: false
+  candidates:
+  - name: John F. Kerry
+    slug: john-f-kerry
+    party: Democratic
+    votes: 1605976
+    winner: true
+    vote_share: 0.8027
+  - name: Michael E. Cloud
+    slug: michael-e-cloud
+    party: Libertarian
+    votes: 369807
+    winner: false
+    vote_share: 0.1848
+  - name: Randall Forsberg
+    slug: randall-forsberg
+    party: Other
+    votes: 24898
+    winner: false
+    vote_share: 0.0124
+primaries:
+- year: 2024
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Elizabeth Ann Warren
+    slug: elizabeth-ann-warren
+    party: Democratic
+    votes: 562709
+    winner: true
+    primary_vote_share: 1.0
+- year: 2024
+  party: Republican
+  is_special: false
+  candidates:
+  - name: John Deaton
+    slug: john-deaton
+    party: Republican
+    votes: 136773
+    winner: true
+    primary_vote_share: 0.6479
+  - name: Robert J. Antonellis
+    slug: robert-j-antonellis
+    party: Republican
+    votes: 54940
+    winner: false
+    primary_vote_share: 0.2603
+  - name: Ian Cain
+    slug: ian-cain
+    party: Republican
+    votes: 19374
+    winner: false
+    primary_vote_share: 0.0918
+- year: 2020
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 782694
+    winner: true
+    primary_vote_share: 0.5543
+  - name: Joseph P. Kennedy, III
+    slug: joseph-p-kennedy-iii
+    party: Democratic
+    votes: 629359
+    winner: false
+    primary_vote_share: 0.4457
+- year: 2020
+  party: Libertarian
+  is_special: false
+  candidates:
+  - name: Vermin Love Supreme
+    slug: vermin-love-supreme
+    party: Libertarian
+    votes: 27
+    winner: false
+    primary_vote_share: 1.0
+- year: 2018
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Elizabeth A. Warren
+    slug: elizabeth-a-warren
+    party: Democratic
+    votes: 590835
+    winner: true
+    primary_vote_share: 1.0
+- year: 2018
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Geoff Diehl
+    slug: geoff-diehl
+    party: Republican
+    votes: 144043
+    winner: true
+    primary_vote_share: 0.5532
+  - name: John Kingston
+    slug: john-kingston
+    party: Republican
+    votes: 69636
+    winner: false
+    primary_vote_share: 0.2674
+  - name: Beth Joyce Lindstrom
+    slug: beth-joyce-lindstrom
+    party: Republican
+    votes: 46693
+    winner: false
+    primary_vote_share: 0.1793
+- year: 2014
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 402433
+    winner: true
+    primary_vote_share: 1.0
+- year: 2014
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Brian J. Herr
+    slug: brian-j-herr
+    party: Republican
+    votes: 117216
+    winner: true
+    primary_vote_share: 1.0
+- year: 2013
+  party: Democratic
+  is_special: true
+  candidates:
+  - name: Edward J. Markey
+    slug: edward-j-markey
+    party: Democratic
+    votes: 311219
+    winner: true
+    primary_vote_share: 0.5747
+  - name: Stephen F. Lynch
+    slug: stephen-f-lynch
+    party: Democratic
+    votes: 230335
+    winner: false
+    primary_vote_share: 0.4253
+- year: 2013
+  party: Republican
+  is_special: true
+  candidates:
+  - name: Gabriel E. Gomez
+    slug: gabriel-e-gomez
+    party: Republican
+    votes: 96057
+    winner: true
+    primary_vote_share: 0.5091
+  - name: Michael J. Sullivan
+    slug: michael-j-sullivan
+    party: Republican
+    votes: 67946
+    winner: false
+    primary_vote_share: 0.3601
+  - name: Daniel B. Winslow
+    slug: daniel-b-winslow
+    party: Republican
+    votes: 24662
+    winner: false
+    primary_vote_share: 0.1307
+- year: 2012
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Elizabeth A. Warren
+    slug: elizabeth-a-warren
+    party: Democratic
+    votes: 308979
+    winner: true
+    primary_vote_share: 1.0
+- year: 2012
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Scott P. Brown
+    slug: scott-p-brown
+    party: Republican
+    votes: 133860
+    winner: true
+    primary_vote_share: 1.0
+- year: 2009
+  party: Democratic
+  is_special: true
+  candidates:
+  - name: Martha Coakley
+    slug: martha-coakley
+    party: Democratic
+    votes: 311548
+    winner: true
+    primary_vote_share: 0.4676
+  - name: Michael E. Capuano
+    slug: michael-e-capuano
+    party: Democratic
+    votes: 185157
+    winner: false
+    primary_vote_share: 0.2779
+  - name: Alan A. Khazei
+    slug: alan-a-khazei
+    party: Democratic
+    votes: 89294
+    winner: false
+    primary_vote_share: 0.134
+  - name: Stephen G. Pagliuca
+    slug: stephen-g-pagliuca
+    party: Democratic
+    votes: 80217
+    winner: false
+    primary_vote_share: 0.1204
+- year: 2009
+  party: Republican
+  is_special: true
+  candidates:
+  - name: Scott P. Brown
+    slug: scott-p-brown
+    party: Republican
+    votes: 146057
+    winner: true
+    primary_vote_share: 0.8939
+  - name: Jack E. Robinson, III
+    slug: jack-e-robinson-iii
+    party: Republican
+    votes: 17344
+    winner: false
+    primary_vote_share: 0.1061
+- year: 2008
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: John F. Kerry
+    slug: john-f-kerry
+    party: Democratic
+    votes: 342446
+    winner: true
+    primary_vote_share: 0.6892
+  - name: Edward J. O'Reilly
+    slug: edward-j-oreilly
+    party: Democratic
+    votes: 154395
+    winner: false
+    primary_vote_share: 0.3108
+- year: 2008
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Jeffrey K. Beatty
+    slug: jeffrey-k-beatty
+    party: Republican
+    votes: 51788
+    winner: true
+    primary_vote_share: 1.0
+- year: 2006
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: Edward M. Kennedy
+    slug: edward-m-kennedy
+    party: Democratic
+    votes: 729137
+    winner: true
+    primary_vote_share: 1.0
+- year: 2006
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Kenneth G. Chase
+    slug: kenneth-g-chase
+    party: Republican
+    votes: 35595
+    winner: true
+    primary_vote_share: 0.5095
+  - name: Kevin P. Scott
+    slug: kevin-p-scott
+    party: Republican
+    votes: 34262
+    winner: false
+    primary_vote_share: 0.4905
+- year: 2002
+  party: Democratic
+  is_special: false
+  candidates:
+  - name: John F. Kerry
+    slug: john-f-kerry
+    party: Democratic
+    votes: 615517
+    winner: true
+    primary_vote_share: 1.0
+- year: 2002
+  party: Libertarian
+  is_special: false
+  candidates:
+  - name: Michael E. Cloud
+    slug: michael-e-cloud
+    party: Libertarian
+    votes: 1427
+    winner: true
+    primary_vote_share: 1.0
+- year: 2002
+  party: Republican
+  is_special: false
+  candidates:
+  - name: Jack E. Robinson, III
+    slug: jack-e-robinson-iii
+    party: Republican
+    votes: 1441
+    winner: false
+    primary_vote_share: 1.0

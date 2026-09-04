@@ -14,6 +14,7 @@ description: Every party currently holding at least one MA House or Senate seat.
     <dl>
       <dt>House seats</dt><dd>{{ p.seat_count_by_chamber.house | default: 0 }}</dd>
       <dt>Senate seats</dt><dd>{{ p.seat_count_by_chamber.senate | default: 0 }}</dd>
+      <dt>U.S. House seats</dt><dd>{{ p.seat_count_by_chamber["us-house"] | default: 0 }}</dd>
       <dt>Total</dt><dd>{{ p.seat_count }}</dd>
     </dl>
   </li>

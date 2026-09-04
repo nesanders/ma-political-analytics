@@ -10,6 +10,14 @@ districts:
   competitiveness_label: Safe D
   current_rep: Patricia D. Jehlen
   current_rep_party: Democratic
+- chamber: us-house
+  district_name: 7th Congressional District
+  url: /seat/us-house-7th-congressional-district/
+  pct_of_town: 0.9998
+  lean_dem_share: 0.8046
+  competitiveness_label: Safe D
+  current_rep: Ayanna S. Pressley
+  current_rep_party: Democratic
 - chamber: house
   district_name: 27th Middlesex District
   url: /seat/house-27th-middlesex-district/
@@ -33,6 +41,14 @@ districts:
   lean_dem_share: 0.817
   competitiveness_label: Safe D
   current_rep: Christine P. Barber
+  current_rep_party: Democratic
+- chamber: us-house
+  district_name: 5th Congressional District
+  url: /seat/us-house-5th-congressional-district/
+  pct_of_town: 0.0002
+  lean_dem_share: 0.7319
+  competitiveness_label: Safe D
+  current_rep: Katherine M. Clark
   current_rep_party: Democratic
 title: Somerville
 layout: town

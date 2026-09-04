@@ -18,6 +18,14 @@ districts:
   competitiveness_label: Tossup R
   current_rep: Ryan C. Fattman
   current_rep_party: Republican
+- chamber: us-house
+  district_name: 4th Congressional District
+  url: /seat/us-house-4th-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.601
+  competitiveness_label: Safe D
+  current_rep: Jake Auchincloss
+  current_rep_party: Democratic
 title: Hopedale
 layout: town
 ---

@@ -2,6 +2,14 @@
 name: Boston
 slug: boston
 districts:
+- chamber: us-house
+  district_name: 8th Congressional District
+  url: /seat/us-house-8th-congressional-district/
+  pct_of_town: 0.5977
+  lean_dem_share: 0.6714
+  competitiveness_label: Safe D
+  current_rep: Stephen F. Lynch
+  current_rep_party: Democratic
 - chamber: senate
   district_name: First Suffolk District
   url: /seat/senate-first-suffolk-district/
@@ -17,6 +25,14 @@ districts:
   lean_dem_share: 0.7956
   competitiveness_label: Safe D
   current_rep: David Biele
+  current_rep_party: Democratic
+- chamber: us-house
+  district_name: 7th Congressional District
+  url: /seat/us-house-7th-congressional-district/
+  pct_of_town: 0.4023
+  lean_dem_share: 0.8046
+  competitiveness_label: Safe D
+  current_rep: Ayanna S. Pressley
   current_rep_party: Democratic
 - chamber: senate
   district_name: Norfolk and Suffolk District

@@ -1,10 +1,11 @@
 ---
 name: Democratic
 slug: democratic
-seat_count: 169
+seat_count: 178
 seat_count_by_chamber:
   house: 134
   senate: 35
+  us-house: 9
 seats_held:
 - chamber: house
   district_name: 19th Middlesex District
@@ -137,6 +138,16 @@ seats_held:
   - Statewide tide
   - Incumbency
   - District demographics (bachelor's degree %)
+- chamber: us-house
+  district_name: 8th Congressional District
+  url: /seat/us-house-8th-congressional-district/
+  winner_name: Stephen F. Lynch
+  winner_slug: stephen-f-lynch
+  war_resolved: -0.0501
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   district_name: 13th Middlesex District
   url: /seat/house-13th-middlesex-district/
@@ -304,6 +315,16 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
   - Campaign fundraising
+- chamber: us-house
+  district_name: 9th Congressional District
+  url: /seat/us-house-9th-congressional-district/
+  winner_name: Bill Keating
+  winner_slug: william-r-keating
+  war_resolved: -0.118
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 - chamber: house
   district_name: 1st Barnstable District
   url: /seat/house-1st-barnstable-district/
@@ -2026,6 +2047,76 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
   - Campaign fundraising
+- chamber: us-house
+  district_name: 1st Congressional District
+  url: /seat/us-house-1st-congressional-district/
+  winner_name: Richard E. Neal
+  winner_slug: richard-e-neal
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 2nd Congressional District
+  url: /seat/us-house-2nd-congressional-district/
+  winner_name: James P. McGovern
+  winner_slug: james-p-mcgovern
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 3rd Congressional District
+  url: /seat/us-house-3rd-congressional-district/
+  winner_name: Lori Loureiro Trahan
+  winner_slug: lori-loureiro-trahan
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 4th Congressional District
+  url: /seat/us-house-4th-congressional-district/
+  winner_name: Jake Auchincloss
+  winner_slug: jake-auchincloss
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 5th Congressional District
+  url: /seat/us-house-5th-congressional-district/
+  winner_name: Katherine M. Clark
+  winner_slug: katherine-m-clark
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 6th Congressional District
+  url: /seat/us-house-6th-congressional-district/
+  winner_name: Seth W. Moulton
+  winner_slug: seth-w-moulton
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
+- chamber: us-house
+  district_name: 7th Congressional District
+  url: /seat/us-house-7th-congressional-district/
+  winner_name: Ayanna S. Pressley
+  winner_slug: ayanna-s-pressley
+  war_resolved: null
+  war_factors:
+  - District lean
+  - Statewide tide
+  - Incumbency
 title: Democratic
 layout: party
 ---

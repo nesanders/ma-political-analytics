@@ -10,6 +10,14 @@ districts:
   competitiveness_label: Safe D
   current_rep: Michael D. Brady
   current_rep_party: Democratic
+- chamber: us-house
+  district_name: 8th Congressional District
+  url: /seat/us-house-8th-congressional-district/
+  pct_of_town: 0.9996
+  lean_dem_share: 0.6714
+  competitiveness_label: Safe D
+  current_rep: Stephen F. Lynch
+  current_rep_party: Democratic
 - chamber: house
   district_name: 7th Plymouth District
   url: /seat/house-7th-plymouth-district/
@@ -25,6 +33,14 @@ districts:
   lean_dem_share: 0.6046
   competitiveness_label: Safe D
   current_rep: Bridget M. Plouffe
+  current_rep_party: Democratic
+- chamber: us-house
+  district_name: 9th Congressional District
+  url: /seat/us-house-9th-congressional-district/
+  pct_of_town: 0.0004
+  lean_dem_share: 0.5548
+  competitiveness_label: Likely D
+  current_rep: Bill Keating
   current_rep_party: Democratic
 - chamber: house
   district_name: 8th Plymouth District

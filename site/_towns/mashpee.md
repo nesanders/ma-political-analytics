@@ -2,14 +2,14 @@
 name: Mashpee
 slug: mashpee
 districts:
-- chamber: house
-  district_name: 3rd Barnstable District
-  url: /seat/house-3rd-barnstable-district/
-  pct_of_town: 0.9999
-  lean_dem_share: 0.5933
+- chamber: us-house
+  district_name: 9th Congressional District
+  url: /seat/us-house-9th-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5548
   competitiveness_label: Likely D
-  current_rep: David T. Vieira
-  current_rep_party: Republican
+  current_rep: Bill Keating
+  current_rep_party: Democratic
 - chamber: senate
   district_name: Plymouth and Barnstable District
   url: /seat/senate-plymouth-and-barnstable-district/
@@ -18,6 +18,14 @@ districts:
   competitiveness_label: Likely D
   current_rep: Dylan A. Fernandes
   current_rep_party: Democratic
+- chamber: house
+  district_name: 3rd Barnstable District
+  url: /seat/house-3rd-barnstable-district/
+  pct_of_town: 0.9999
+  lean_dem_share: 0.5933
+  competitiveness_label: Likely D
+  current_rep: David T. Vieira
+  current_rep_party: Republican
 - chamber: house
   district_name: 2nd Barnstable District
   url: /seat/house-2nd-barnstable-district/

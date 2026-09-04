@@ -17,7 +17,7 @@ layout: default
       <tbody>
         {% for d in page.districts %}
         <tr>
-          <td>{{ d.chamber | capitalize }}</td>
+          <td>{{ site.data.chamber_labels[d.chamber] | default: d.chamber }}</td>
           <td><a href="{{ d.url | relative_url }}">{{ d.district_name }}</a></td>
           <td>{{ d.pct_of_town | times: 100 | round: 1 }}%</td>
           <td>{% if d.lean_dem_share %}{{ d.competitiveness_label }}{% endif %}</td>

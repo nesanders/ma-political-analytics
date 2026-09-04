@@ -93,7 +93,7 @@ layout: default
         {% assign factors = r.war_factors | default: r.primary_war_factors %}
         <tr>
           <td>{{ r.year }}</td>
-          <td>{{ r.chamber | capitalize }}</td>
+          <td>{{ site.data.chamber_labels[r.chamber] | default: r.chamber }}</td>
           <td><a href="{{ r.district_url | relative_url }}">{{ r.district_name }}</a></td>
           <td>{% if r.stage == "primary" %}Primary{% if r.is_special %} <em>(special)</em>{% endif %}{% else %}General{% endif %}</td>
           <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}{% if r.is_incumbent %} (incumbent){% endif %}</td>

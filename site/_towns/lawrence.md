@@ -2,6 +2,14 @@
 name: Lawrence
 slug: lawrence
 districts:
+- chamber: us-house
+  district_name: 3rd Congressional District
+  url: /seat/us-house-3rd-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5957
+  competitiveness_label: Likely D
+  current_rep: Lori Loureiro Trahan
+  current_rep_party: Democratic
 - chamber: senate
   district_name: First Essex District
   url: /seat/senate-first-essex-district/
@@ -49,6 +57,14 @@ districts:
   lean_dem_share: 0.5742
   competitiveness_label: Likely D
   current_rep: Barry R. Finegold
+  current_rep_party: Democratic
+- chamber: us-house
+  district_name: 6th Congressional District
+  url: /seat/us-house-6th-congressional-district/
+  pct_of_town: 0.0
+  lean_dem_share: 0.6067
+  competitiveness_label: Safe D
+  current_rep: Seth W. Moulton
   current_rep_party: Democratic
 title: Lawrence
 layout: town

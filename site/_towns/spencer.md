@@ -2,6 +2,14 @@
 name: Spencer
 slug: spencer
 districts:
+- chamber: us-house
+  district_name: 1st Congressional District
+  url: /seat/us-house-1st-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5699
+  competitiveness_label: Likely D
+  current_rep: Richard E. Neal
+  current_rep_party: Democratic
 - chamber: senate
   district_name: Worcester and Hampshire District
   url: /seat/senate-worcester-and-hampshire-district/

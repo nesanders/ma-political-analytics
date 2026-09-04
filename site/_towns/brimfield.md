@@ -18,6 +18,14 @@ districts:
   competitiveness_label: Tossup R
   current_rep: Ryan C. Fattman
   current_rep_party: Republican
+- chamber: us-house
+  district_name: 1st Congressional District
+  url: /seat/us-house-1st-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5699
+  competitiveness_label: Likely D
+  current_rep: Richard E. Neal
+  current_rep_party: Democratic
 title: Brimfield
 layout: town
 ---

@@ -2,6 +2,14 @@
 name: Marshfield
 slug: marshfield
 districts:
+- chamber: us-house
+  district_name: 9th Congressional District
+  url: /seat/us-house-9th-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.5548
+  competitiveness_label: Likely D
+  current_rep: Bill Keating
+  current_rep_party: Democratic
 - chamber: senate
   district_name: First Plymouth and Norfolk District
   url: /seat/senate-first-plymouth-and-norfolk-district/

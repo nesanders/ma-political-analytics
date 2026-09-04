@@ -2,6 +2,14 @@
 name: Petersham
 slug: petersham
 districts:
+- chamber: us-house
+  district_name: 2nd Congressional District
+  url: /seat/us-house-2nd-congressional-district/
+  pct_of_town: 1.0
+  lean_dem_share: 0.6207
+  competitiveness_label: Safe D
+  current_rep: James P. McGovern
+  current_rep_party: Democratic
 - chamber: house
   district_name: 7th Hampden District
   url: /seat/house-7th-hampden-district/

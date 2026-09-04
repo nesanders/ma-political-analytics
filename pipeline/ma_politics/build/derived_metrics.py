@@ -334,7 +334,7 @@ def compute_primary_results(
 
 
 @click.command()
-@click.option("--chamber", type=click.Choice(["house", "senate"]), required=True)
+@click.option("--chamber", type=click.Choice(["house", "senate", "us-house"]), required=True)
 @click.option("--year", type=int, required=True)
 @click.option("--vintage", required=True, help="e.g. 2022-present")
 @click.option("--pd43-dir", type=click.Path(path_type=Path), default=Path("data/raw/pd43"))

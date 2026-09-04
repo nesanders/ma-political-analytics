@@ -46,6 +46,11 @@ VINTAGES = ["2001-2010", "2012-2020", "2022-present"]
 # (chamber, vintage) -> (district_id_col, district_name_col) in the raw
 # fetched files — three different source schemas (MIT 2001-vintage shapefile
 # vs. TIGER 2012/2022) normalized to a common (district_id, district_name).
+# us-house's fetcher (congressional_boundaries.py) already normalizes to
+# district_id/district_name itself (its three vintages have three different
+# native column names of their own — CD108FP/CD113FP/CD118FP — normalized at
+# fetch time instead of here since none of them are shared with house/senate's
+# own schemas anyway), so its mapping here is just the identity.
 _DISTRICT_COLS = {
     ("house", "2001-2010"): ("REPDISTNUM", "REP_DIST"),
     ("senate", "2001-2010"): ("SENDISTNUM", "SEN_DIST"),
@@ -53,6 +58,9 @@ _DISTRICT_COLS = {
     ("senate", "2012-2020"): ("SLDUST", "NAMELSAD"),
     ("house", "2022-present"): ("SLDLST", "NAMELSAD"),
     ("senate", "2022-present"): ("SLDUST", "NAMELSAD"),
+    ("us-house", "2001-2010"): ("district_id", "district_name"),
+    ("us-house", "2012-2020"): ("district_id", "district_name"),
+    ("us-house", "2022-present"): ("district_id", "district_name"),
 }
 
 
@@ -125,7 +133,7 @@ def build_all(boundaries_dir: Path, out_dir: Path) -> None:
     towns = load_towns(boundaries_dir)
 
     town_overlap_frames = []
-    for chamber in ("house", "senate"):
+    for chamber in ("house", "senate", "us-house"):
         for vintage in VINTAGES:
             districts = load_district_vintage(boundaries_dir, chamber, vintage)
             overlap = town_district_overlap(towns, districts)
@@ -140,7 +148,7 @@ def build_all(boundaries_dir: Path, out_dir: Path) -> None:
     logger.info("Wrote %d rows to %s", len(town_district), town_district_path)
 
     lineage_frames = []
-    for chamber in ("house", "senate"):
+    for chamber in ("house", "senate", "us-house"):
         for old_vintage, new_vintage in zip(VINTAGES, VINTAGES[1:]):
             old_d = load_district_vintage(boundaries_dir, chamber, old_vintage)
             new_d = load_district_vintage(boundaries_dir, chamber, new_vintage)
