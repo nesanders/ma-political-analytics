@@ -15,21 +15,35 @@
   <header>
     <div class="header-inner">
       <nav>
-        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <a href="{{ '/chamber/house/' | relative_url }}">House</a>
-        <a href="{{ '/chamber/senate/' | relative_url }}">Senate</a>
-        <a href="{{ '/chamber/us-house/' | relative_url }}">U.S. House</a>
-        <a href="{{ '/us-senate/' | relative_url }}">U.S. Senate</a>
-        <a href="{{ '/map/' | relative_url }}">Map</a>
-        <a href="{{ '/district/' | relative_url }}">Districts</a>
-        <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
-        <a href="{{ '/town/' | relative_url }}">Towns</a>
-        <a href="{{ '/party/' | relative_url }}">Parties</a>
+        <a href="{{ '/' | relative_url }}" class="brand">{{ site.title }}</a>
+
+        <div class="nav-group">
+          <button type="button" class="nav-group-toggle" aria-expanded="false">Chambers</button>
+          <div class="nav-group-menu">
+            <a href="{{ '/chamber/house/' | relative_url }}">State House</a>
+            <a href="{{ '/chamber/senate/' | relative_url }}">State Senate</a>
+            <a href="{{ '/chamber/us-house/' | relative_url }}">U.S. House</a>
+            <a href="{{ '/us-senate/' | relative_url }}">U.S. Senate</a>
+          </div>
+        </div>
+
+        <div class="nav-group">
+          <button type="button" class="nav-group-toggle" aria-expanded="false">Browse</button>
+          <div class="nav-group-menu">
+            <a href="{{ '/map/' | relative_url }}">Statewide map</a>
+            <a href="{{ '/district/' | relative_url }}">Districts</a>
+            <a href="{{ '/candidate/' | relative_url }}">Candidates</a>
+            <a href="{{ '/town/' | relative_url }}">Towns</a>
+            <a href="{{ '/party/' | relative_url }}">Parties</a>
+          </div>
+        </div>
+
         <a href="{{ '/search/' | relative_url }}">Search &amp; Compare</a>
         <a href="{{ '/methodology/' | relative_url }}">Methodology</a>
       </nav>
       <div id="header-search">
-        <input type="search" id="header-search-input" placeholder="Quick search&hellip;" autocomplete="off" aria-label="Search seats, candidates, towns, parties">
+        <label for="header-search-input" class="header-search-label">Site search &mdash; seats, candidates, towns &amp; parties</label>
+        <input type="search" id="header-search-input" placeholder="e.g. &ldquo;4th Middlesex&rdquo; or a candidate name" autocomplete="off" aria-label="Search seats, candidates, towns, parties">
         <div id="header-search-dropdown" hidden></div>
       </div>
     </div>
@@ -43,6 +57,7 @@
     </div>
   </footer>
   <script src="{{ '/assets/js/sortable-tables.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   <div id="askai-root"></div>
   <script type="module" src="{{ '/assets/js/askai.bundle.js' | relative_url }}"></script>

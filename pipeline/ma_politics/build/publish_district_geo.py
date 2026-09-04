@@ -61,26 +61,41 @@ def publish_vintage(chamber: str, vintage: str, boundaries_dir: Path, out_dir: P
     return count
 
 
-def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_dir: Path, out_dir: Path) -> int:
-    """One FeatureCollection per (chamber, vintage) — every district's
-    geometry plus its lean/competitiveness/URL, for the statewide overview
-    map (site/map/), which needs to color and click through ~160-200
-    districts at once without a fetch per district. Districts with no
-    results data yet (derived_metrics.py hasn't been run for any year in
-    this vintage) are skipped — geometry alone can't be colored by
-    anything meaningful, and a colorless district would just be visual
-    noise on an otherwise-informative map."""
+def _combined_features(chamber: str, vintage: str, boundaries_dir: Path, records: list[dict]) -> list[dict]:
+    """The shared feature-building logic behind both publish_combined
+    (below, a standalone CLI reproducer that derives `records` itself via
+    build_district_records — see that function's own caveat) and
+    generate_site_data.py's own end-of-run call (which passes its already
+    fully-resolved, post-apply_war records instead) — factored out so the
+    two callers can't drift on what properties a combined-map feature
+    carries.
+
+    Beyond lean/competitiveness (the map's default coloring), each feature
+    also carries its most recent year's winner's own WAR and WAR-component
+    values (lean/tide/incumbency, plus demographics/fundraising wherever
+    that specific race has them — see apply_war's own docstring for why
+    those two are sometimes null) and that year's turnout ratio — the
+    statewide map's own variable selector (site/assets/js/statewide-map.js)
+    lets a viewer recolor by any of these instead of just lean, e.g. "how
+    much did fundraising contribute to this district's most recent race."
+    Deliberately the *winner's* own component values, not an average across
+    every candidate in the race — "how did the person who actually won
+    perform on this factor" is the more legible statewide-map question, and
+    matches what a district/candidate page's own attribution chart already
+    shows for that same race's winner."""
     gdf = load_district_vintage(boundaries_dir, chamber, vintage)
     gdf = gdf.to_crs(4326)
     gdf["geometry"] = gdf.geometry.simplify(SIMPLIFY_TOLERANCE_DEG, preserve_topology=True)
 
-    by_name = {d["district_name"]: d for d in build_district_records(chamber, vintage, derived_dir)}
+    by_name = {d["district_name"]: d for d in records}
 
     features = []
     for _, row in gdf.iterrows():
         d = by_name.get(row["district_name"])
         if d is None:
             continue
+        latest = d["results_by_year"][0] if d["results_by_year"] else None
+        winner = next((c for c in latest["candidates"] if c["winner"]), None) if latest else None
         features.append(
             {
                 "type": "Feature",
@@ -93,15 +108,54 @@ def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_d
                     "competitiveness_label": d["competitiveness_label"],
                     "party_favored": d["party_favored"],
                     "url": district_url(chamber, d["district_name"], vintage),
+                    "latest_year": latest["year"] if latest else None,
+                    "is_uncontested": latest["is_uncontested"] if latest else None,
+                    "turnout_ratio": latest["turnout_ratio"] if latest else None,
+                    "winner_name": winner["name"] if winner else None,
+                    "winner_party": winner["party"] if winner else None,
+                    "winner_war": winner.get("war_resolved") if winner else None,
+                    "winner_lean_component": winner.get("lean_component") if winner else None,
+                    "winner_tide_component": winner.get("tide_component") if winner else None,
+                    "winner_incumbency_adjustment": winner.get("incumbency_adjustment") if winner else None,
+                    "winner_demographics_component": winner.get("demographics_component") if winner else None,
+                    "winner_fundraising_component": winner.get("fundraising_component") if winner else None,
                 },
                 "geometry": row.geometry.__geo_interface__,
             }
         )
+    return features
 
+
+def write_combined_from_records(chamber: str, vintage: str, boundaries_dir: Path, records: list[dict], out_dir: Path) -> int:
+    """Writes the combined statewide-map FeatureCollection from records the
+    caller already built (and, crucially, may already have run apply_war/
+    apply_us_house_war over) — see generate_site_data.py's own main(),
+    which calls this right after its WAR fits are applied so the map's
+    winner_war/winner_*_component fields are the real fitted values, not
+    null. publish_combined below is the CLI-only alternative that derives
+    `records` itself instead of accepting them."""
+    features = _combined_features(chamber, vintage, boundaries_dir, records)
     out_dir.mkdir(parents=True, exist_ok=True)
     path = out_dir / f"{chamber}-{vintage}-all.geojson"
     path.write_text(json.dumps({"type": "FeatureCollection", "features": features}))
     return len(features)
+
+
+def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_dir: Path, out_dir: Path) -> int:
+    """Standalone CLI reproducer for the combined statewide-map file: builds
+    district records itself via build_district_records, the same function
+    generate_site_data.py's own main() uses — but, unlike that pipeline
+    stage, this entry point never calls apply_war/apply_us_house_war
+    (fitting the WAR model needs statewide tide, OCPF finance matching, and
+    demographics data this script has no reason to also wire up), so every
+    winner_war/winner_*_component field it writes is null. Fine for
+    reproducing the map's lean/competitiveness coloring standalone; for the
+    real, WAR-enriched combined file, generate_site_data.py's main() calls
+    write_combined_from_records directly with its own already-resolved
+    records instead of going through this function — see that call site's
+    own comment."""
+    records = build_district_records(chamber, vintage, derived_dir)
+    return write_combined_from_records(chamber, vintage, boundaries_dir, records, out_dir)
 
 
 @click.command()

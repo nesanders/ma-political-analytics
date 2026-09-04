@@ -44,6 +44,22 @@
      one cleared every gate — see pipeline/README.md's entry for this
      round for the exact search. */
   --war-fundraising: #9725d0;
+  /* Diverging pair for the statewide map's variable selector (site/map/,
+     statewide-map.js) — a district-level numeric field centered at some
+     "no effect" value (0 for a WAR component, 1.0 for turnout ratio), so
+     it needs its own two-hue-plus-neutral-midpoint scale, not the
+     dem/rep pair (would misread as partisan for a non-partisan magnitude
+     like "fundraising's contribution") and not any single war-* hue
+     (those are fixed categorical slots for the attribution *bar* chart,
+     not a continuous ramp). Teal/orange poles chosen and validated via
+     the dataviz skill's validate_palette.js (CVD ΔE 12.6 protan / 24.4
+     normal between the two poles — comfortably over the ≥8 floor); the
+     neutral midpoint reuses --gridline rather than a third dedicated
+     color, since "no effect" should read as the same visual weight as
+     this page's own gridlines, not a distinct hue.
+  */
+  --map-diverging-neg: #0f7a7a;
+  --map-diverging-pos: #c9660a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,6 +83,8 @@
     --war-residual: #008300;
     --war-extra: #9085e9;
     --war-fundraising: #a73cdd;
+    --map-diverging-neg: #28a3a3;
+    --map-diverging-pos: #e08a3a;
   }
 }
 
@@ -90,6 +108,8 @@
   --war-residual: #008300;
   --war-extra: #9085e9;
   --war-fundraising: #a73cdd;
+  --map-diverging-neg: #28a3a3;
+  --map-diverging-pos: #e08a3a;
 }
 
 /* Fixed institutional masthead — deliberately does not flip with the
@@ -157,11 +177,11 @@ header nav a {
   font-size: 0.92rem;
 }
 
-header nav a:first-child {
+header nav a.brand {
   color: var(--masthead-text);
   font-weight: 700;
   font-size: 1.05rem;
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 }
 
 header nav a:hover,
@@ -170,10 +190,77 @@ header nav a:focus {
   text-decoration: underline;
 }
 
+/* Grouped dropdown menus ("Chambers", "Browse") — click-toggled via
+   nav.js, not CSS :hover (see that file's own comment for why). */
+.nav-group {
+  position: relative;
+}
+
+.nav-group-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--masthead-text-muted);
+  font-size: 0.92rem;
+  font-family: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+
+.nav-group-toggle::after {
+  content: "\25BE"; /* small down-triangle */
+  font-size: 0.75em;
+}
+
+.nav-group-toggle:hover,
+.nav-group-toggle:focus,
+.nav-group.open .nav-group-toggle {
+  color: var(--masthead-text);
+}
+
+.nav-group-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.6rem;
+  background: var(--masthead-bg);
+  border: 1px solid var(--masthead-border);
+  border-radius: 4px;
+  padding: 0.35rem 0;
+  min-width: 11rem;
+  z-index: 20;
+  flex-direction: column;
+}
+
+.nav-group.open .nav-group-menu {
+  display: flex;
+}
+
+.nav-group-menu a {
+  padding: 0.4rem 0.85rem;
+  white-space: nowrap;
+}
+
+.nav-group-menu a:hover,
+.nav-group-menu a:focus {
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
 #header-search {
   position: relative;
-  width: 15rem;
+  width: 17rem;
   max-width: 100%;
+}
+
+.header-search-label {
+  display: block;
+  color: var(--masthead-text-muted);
+  font-size: 0.72rem;
+  margin-bottom: 0.2rem;
 }
 
 #header-search-input {
@@ -429,6 +516,60 @@ th.sortable-col.sorted-desc::after {
 
 .quicklink:hover {
   border-color: var(--text-secondary);
+}
+
+.statewide-map-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1rem 1.5rem;
+  margin: 0.75rem 0;
+}
+
+.statewide-map-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+}
+
+.statewide-map-field label {
+  color: var(--text-muted);
+}
+
+.statewide-map-field select {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border-hairline);
+  border-radius: 4px;
+  background: var(--surface-card);
+  color: var(--text-primary);
+  min-width: 16rem;
+  max-width: 100%;
+}
+
+.statewide-map-legend {
+  margin: 0.6rem 0 1.25rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.statewide-map-legend-gradient {
+  height: 0.85rem;
+  border-radius: 3px;
+  border: 1px solid var(--border-hairline);
+  margin-bottom: 0.3rem;
+}
+
+.statewide-map-legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-variant-numeric: tabular-nums;
+}
+
+.statewide-map-legend-note {
+  margin-top: 0.25rem;
+  color: var(--text-muted);
 }
 
 .quicklink .quicklink-desc {

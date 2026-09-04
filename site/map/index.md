@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Statewide Map
-description: Every MA House and Senate district at once, colored by partisan lean.
+description: Every MA legislative and congressional district at once, colored by partisan lean or any inferred variable.
 permalink: /map/
 ---
 
@@ -11,23 +11,34 @@ permalink: /map/
 
 # Statewide Map
 
-Every district, current (2022-present) boundaries. Color shows which party
-the district's lean favors; darker means safer for that party, lighter
-means more competitive. Click a district to open its page.
+Every district at once. Use **Redistricting vintage** below each map to
+switch boundaries, and **Color districts by** to recolor from the default
+partisan lean to any district-level inferred variable this site
+computes — the most recent race's turnout, or how much of that race's
+winner's over/underperformance (WAR) is attributed to district lean,
+statewide tide, incumbency, demographics, or campaign fundraising (see the
+[methodology page]({{ '/methodology/' | relative_url }}) for how each is
+computed). Click a district to open its page.
 
-## House
+## State House
 
 <div
   data-statewide-map
-  data-geojson-url="{{ '/assets/data/geo/house-2022-present-all.geojson' | relative_url }}"
+  data-chamber="house"
+  data-geo-base="{{ '/assets/data/geo/' | relative_url }}"
+  data-vintages="2001-2010,2012-2020,2022-present"
+  data-default-vintage="2022-present"
   style="height: 500px;"
 ></div>
 
-## Senate
+## State Senate
 
 <div
   data-statewide-map
-  data-geojson-url="{{ '/assets/data/geo/senate-2022-present-all.geojson' | relative_url }}"
+  data-chamber="senate"
+  data-geo-base="{{ '/assets/data/geo/' | relative_url }}"
+  data-vintages="2001-2010,2012-2020,2022-present"
+  data-default-vintage="2022-present"
   style="height: 500px;"
 ></div>
 
@@ -35,6 +46,9 @@ means more competitive. Click a district to open its page.
 
 <div
   data-statewide-map
-  data-geojson-url="{{ '/assets/data/geo/us-house-2022-present-all.geojson' | relative_url }}"
+  data-chamber="us-house"
+  data-geo-base="{{ '/assets/data/geo/' | relative_url }}"
+  data-vintages="2001-2010,2012-2020,2022-present"
+  data-default-vintage="2022-present"
   style="height: 500px;"
 ></div>

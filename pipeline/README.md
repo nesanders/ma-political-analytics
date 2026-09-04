@@ -1468,3 +1468,111 @@ parties), a candidate with both a primary and a general in the same year
 specifically (Ashley Sullivan), and the methodology page's two new
 charts — all came back with zero JS errors and the expected offset/
 shape/opacity/dash rendering in each case.
+
+## Statewide map: variable/vintage selectors, WAR-enriched combined GeoJSON
+
+`/map/`'s three chamber maps (asked directly: "add a selector to the maps
+so you can visualize any district-level inferred variable, such as
+importance of finance... also allow for vintage selection") each gained a
+vintage `<select>` (2001-2010/2012-2020/2022-present — the combined
+per-vintage GeoJSON already existed for all three chambers/vintages, just
+was never wired to a control) and a metric `<select>` recoloring the map
+from the default partisan lean to any of: the most recent race's winner's
+own resolved WAR, its lean/tide/incumbency/demographics/fundraising
+components, or turnout ratio vs. baseline. Both live in `statewide-map.js`
+(rewritten, not just extended) alongside a live legend (gradient bar +
+min/center/max labels + a plain-language note) inserted as a DOM sibling
+of the map container, not a child of it (MapLibre appends its own canvas
+as a child, so pre-existing children would sit oddly underneath it).
+
+Building this surfaced a real, previously-latent data gap:
+`publish_district_geo.py`'s `publish_combined` built its FeatureCollection
+by calling `generate_site_data.build_district_records` directly — which
+returns *raw* candidate dicts (name/slug/party/votes/winner/
+actual_two_party_share/plain `war`), never the `war_resolved`/
+`lean_component`/`tide_component`/`incumbency_adjustment`/
+`demographics_component`/`fundraising_component` fields, since those are
+only ever set by `apply_war`/`apply_us_house_war`, which run *only* inside
+`generate_site_data.py`'s own `main()` (fitting the model needs
+statewide tide, OCPF finance matching, and demographics data this
+narrowly-scoped geometry-publishing script has no reason to also wire
+up). Confirmed live before assuming it: a first pass at the new map
+properties came back with `winner_war`/`winner_fundraising_component`
+null for all 160 current-vintage House districts — every one of them,
+not a handful, which is what gave away that this was a real wiring gap
+and not just a lot of uncontested races.
+
+Fixed by splitting `publish_combined` into a pure `_combined_features`
+(feature-list builder, takes an already-built `records: list[dict]`) and
+`write_combined_from_records` (writes the FeatureCollection from those
+records), and having `generate_site_data.py`'s own `main()` call
+`write_combined_from_records` directly, once per (chamber, vintage) it
+actually processed, right after both the state and U.S. House WAR fits
+are applied and merged — so the combined map's WAR fields are always the
+same already-resolved values every other page on the site shows, with no
+second, independently-maintained computation that could drift from them.
+This does mean `publish_district_geo.py` now imports nothing new but
+`generate_site_data.py` needs to import *from* `publish_district_geo.py`
+too (for `write_combined_from_records`) — a real circular import, since
+`publish_district_geo.py` already imports `build_district_records`/
+`district_slug`/`district_url` from `generate_site_data.py` at its own
+top level. Resolved with a deferred, function-body import inside
+`main()` rather than restructuring the shared code into a third module:
+by the time `main()` actually runs, both modules are already fully
+loaded, so the late import works fine and is the smaller diff.
+`publish_district_geo.py`'s own CLI (`publish_combined`) still works
+standalone — useful for reproducing the map's lean/competitiveness
+coloring without the rest of the pipeline — just with every WAR field
+null, which its own docstring now says explicitly rather than leaving a
+future reader to rediscover the same gap.
+
+New per-feature GeoJSON properties (all from that district's most recent
+tracked year's *winner*, not an average across the whole race — "how did
+the person who actually won perform on this factor" is the more legible
+statewide-map question, and matches what that same race's own attribution
+chart on the district/candidate page already shows for the winner):
+`latest_year`, `is_uncontested`, `turnout_ratio`, `winner_name`,
+`winner_party`, `winner_war`, `winner_lean_component`,
+`winner_tide_component`, `winner_incumbency_adjustment`,
+`winner_demographics_component`, `winner_fundraising_component`. A metric
+only appears in a given map's own dropdown if at least one loaded feature
+actually has a non-null value for it (computed client-side from the
+loaded FeatureCollection, not hardcoded per chamber) — so U.S. House's
+map never offers "Campaign fundraising" (no FEC data fetched this
+project) or "District demographics" outside the current vintage (Census
+matching only ever covers the current vintage — see the demographics
+section above), rather than showing an option that silently does
+nothing.
+
+The diverging color ramp (teal `#0f7a7a`/orange `#c9660a`, light mode;
+`#28a3a3`/`#e08a3a`, dark — neutral gray midpoint at each metric's own
+"no effect" value, 0 for a WAR component or 1.0 for turnout ratio) was
+chosen and validated via the dataviz skill's `validate_palette.js`
+(`--pairs all` against the two poles: CVD ΔE 12.6 protan / 24.4 normal,
+comfortably clear of the ≥8 floor) specifically to avoid the existing
+dem/rep blue-red pair, which would misread a non-partisan magnitude like
+"fundraising's contribution to WAR" as a partisan signal — the same
+reasoning the pre-existing `--war-*` attribution-chart colors are already
+built on. New `--map-diverging-neg`/`--map-diverging-pos` CSS custom
+properties (light + dark), reusing the existing `--gridline` token as the
+neutral midpoint rather than adding a third dedicated color, since "no
+measurable effect" should carry the same visual weight as this page's own
+gridlines, not a distinct hue.
+
+Verified live: a full `generate_site_data` run wrote all 9 combined
+GeoJSON files (3 chambers × 3 vintages) with real, non-null
+`winner_war`/`winner_fundraising_component` values wherever the
+underlying race actually supports them — 29/160 current-vintage House
+districts have a non-null winner WAR (the rest are uncontested,
+correctly null, not a bug); a Playwright sweep of `/map/` confirmed all
+three maps render with working toolbars, switching the metric selector
+recolors the fill and legend correctly (House's fundraising map showed a
+believable ±6.8-point range for the 2022-present vintage), switching the
+vintage selector reloads that chamber's older boundaries and correctly
+recomputes the metric domain/legend from the newly-loaded data alone
+(2001-2010's own fundraising range came back as a different, real ±8.1
+points, not a stale copy of the prior vintage's range) while preserving
+the current metric selection whenever it's still available in the new
+vintage's data — zero non-tile-related console errors throughout (the
+sandbox's pre-existing basemap-tile network restriction, unrelated to
+this feature, aside).

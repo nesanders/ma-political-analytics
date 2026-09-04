@@ -2154,6 +2154,18 @@ def build_us_senate_records(pd43_dir: Path) -> dict | None:
 @click.option("--candidates-out-dir", type=click.Path(path_type=Path), default=Path("site/_candidates"))
 @click.option("--towns-out-dir", type=click.Path(path_type=Path), default=Path("site/_towns"))
 @click.option("--parties-out-dir", type=click.Path(path_type=Path), default=Path("site/_parties"))
+@click.option(
+    "--boundaries-dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/raw/boundaries"),
+    help="District boundary geometry (fetch.district_boundaries/fetch.congressional_boundaries output), for the combined statewide-map GeoJSON below.",
+)
+@click.option(
+    "--geo-out-dir",
+    type=click.Path(path_type=Path),
+    default=Path("site/assets/data/geo"),
+    help="Where to (re)write the combined <chamber>-<vintage>-all.geojson files site/map/ reads — written here, after apply_war/apply_us_house_war, so they carry real fitted winner_war/winner_*_component values; see publish_district_geo.write_combined_from_records' own docstring.",
+)
 @click.option("-v", "--verbose", is_flag=True)
 def main(
     chamber: str,
@@ -2174,6 +2186,8 @@ def main(
     candidates_out_dir: Path,
     towns_out_dir: Path,
     parties_out_dir: Path,
+    boundaries_dir: Path,
+    geo_out_dir: Path,
     verbose: bool,
 ):
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
@@ -2336,6 +2350,28 @@ def main(
 
     party_records = build_party_records(seat_records)
     write_party_files(party_records, parties_out_dir)
+
+    # Combined statewide-map GeoJSON (site/map/), written from these same
+    # already-resolved records rather than by a separate publish_district_
+    # geo.py CLI invocation, specifically so its winner_war/winner_*_
+    # component fields reflect the real fitted WAR model(s) above instead
+    # of the nulls a standalone rebuild (which has no reason to also wire
+    # up tide/OCPF/demographics itself) would produce — see
+    # write_combined_from_records' own docstring. Deferred (function-body)
+    # import: publish_district_geo imports build_district_records/
+    # district_slug/district_url from this module at its own top level, so
+    # importing it back at this module's top level would be a circular
+    # import; by the time main() actually runs, both modules are already
+    # fully loaded, so this works fine.
+    from ma_politics.build.publish_district_geo import write_combined_from_records
+
+    records_by_chamber_vintage: dict[tuple[str, str], list[dict]] = {}
+    for vintage, recs in district_records_by_vintage.items():
+        for r in recs:
+            records_by_chamber_vintage.setdefault((r["chamber"], vintage), []).append(r)
+    for (c, vintage), recs in records_by_chamber_vintage.items():
+        n = write_combined_from_records(c, vintage, boundaries_dir, recs, geo_out_dir)
+        logger.info("Wrote combined map (%d districts) for %s %s to %s", n, c, vintage, geo_out_dir)
 
     if us_senate:
         us_senate_records = build_us_senate_records(pd43_dir)
