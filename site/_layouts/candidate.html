@@ -55,13 +55,13 @@ layout: default
       against a mechanically near-100% unopposed share. A marker again
       flags a redistricting year, where the Incumbency slice drops to
       nothing for that reason, not because the effect itself vanished.
-      A primary's own bar sits beside that year's general bar, shaded at
-      reduced opacity and combining its equal-share baseline and
+      A primary's own bar sits beside that year's general bar, outlined
+      (see the Race legend) and combining its equal-share baseline and
       incumbency (already interacted with tide and lean) into just those
       two slices plus fundraising and WAR &mdash; it has no separate lean,
       tide, or demographics term of its own. A special-election primary's
-      bar additionally gets a dashed outline. Click a bar to open that
-      race's district page.
+      bar additionally gets a dashed outline (see the Special election
+      legend). Click a bar to open that race's district page.
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked"></div>
     <p>
@@ -454,23 +454,32 @@ layout: default
       {
         "data": { "values": attributionData },
         // A primary's bar sits beside that year's general bar (xOffset,
-        // dodged within the year's ordinal band, real legend below),
-        // shaded at reduced opacity, and a special-election primary's bar
-        // additionally gets a dashed outline — see this chart's own intro
-        // paragraph.
-        "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
+        // dodged within the year's ordinal band). Race and specialness are
+        // both carried by the *border* (stroke color for General vs.
+        // Primary, strokeDash for a special election), not shading — an
+        // opacity-only legend renders as a barely-different gray swatch at
+        // legend scale (fair complaint, and Vega-Lite has no native
+        // hatch/pattern fill to reach for instead; that would need
+        // hand-authored SVG pattern defs manually wired into the rendered
+        // chart, too fragile for what a bordered bar already solves
+        // cleanly with two ordinary, clearly-rendered legends below). Only
+        // ONE channel (stroke, not also strokeWidth) is tied to race_label
+        // — two channels sharing one field triggers Vega-Lite's legend-
+        // merge logic, which silently dropped the legend entirely in an
+        // earlier version of this spec.
+        "mark": { "type": "bar", "cursor": "pointer", "strokeWidth": 2 },
         "encoding": {
           "x": { "field": "year", "type": "ordinal", "title": "Year" },
           "xOffset": { "field": "race_index", "type": "ordinal", "legend": null },
           "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
           "order": { "field": "order" },
-          "opacity": {
+          "stroke": {
             "field": "race_label", "type": "nominal", "title": "Race",
-            "scale": { "domain": RACE_LABELS, "range": [1, 0.6, 0.6] }
+            "scale": { "domain": RACE_LABELS, "range": [chartCssVar("--gridline"), chartCssVar("--text-primary"), chartCssVar("--text-primary")] }
           },
           "strokeDash": {
-            "condition": { "test": "datum.is_special", "value": [3, 2] },
-            "value": [1, 0]
+            "field": "is_special", "type": "nominal", "title": "Special election?",
+            "scale": { "domain": [false, true], "range": [[1, 0], [4, 2]] }
           },
           "color": {
             "field": "component", "type": "nominal", "title": "Component",
