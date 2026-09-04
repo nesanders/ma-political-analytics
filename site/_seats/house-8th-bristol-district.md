@@ -354,6 +354,16 @@ demographics:
   bachelors_degree_count: 5475
   total_population_acs: 42327
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Bristol
+  url: /district/house-11th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Bristol District
+  url: /district/house-11th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Bristol District
+  url: /seat/house-8th-bristol-district/
 history:
 - vintage: 2012-2020
   district_name: 8th Bristol District

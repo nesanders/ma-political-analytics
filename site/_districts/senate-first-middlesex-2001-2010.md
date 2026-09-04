@@ -625,6 +625,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Middlesex
+  url: /district/senate-first-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: First Middlesex District
+  url: /district/senate-first-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: First Middlesex District
+  url: /seat/senate-first-middlesex-district/
 title: First Middlesex (2001-2010)
 layout: district
 ---

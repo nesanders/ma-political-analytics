@@ -180,6 +180,16 @@ demographics:
   bachelors_degree_count: 39870
   total_population_acs: 180555
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Suffolk
+  url: /district/senate-first-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: First Suffolk District
+  url: /district/senate-first-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: First Suffolk District
+  url: /seat/senate-first-suffolk-district/
 history:
 - vintage: 2012-2020
   district_name: First Suffolk District

@@ -201,6 +201,16 @@ demographics:
   bachelors_degree_count: 3187
   total_population_acs: 42689
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Hampden
+  url: /district/house-11th-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Hampden District
+  url: /district/house-11th-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 11th Hampden District
+  url: /seat/house-11th-hampden-district/
 history:
 - vintage: 2012-2020
   district_name: 11th Hampden District

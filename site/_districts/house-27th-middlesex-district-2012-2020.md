@@ -443,6 +443,16 @@ primaries:
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 27th Middlesex
+  url: /district/house-27th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 27th Middlesex District
+  url: /district/house-27th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 27th Middlesex District
+  url: /seat/house-27th-middlesex-district/
 title: 27th Middlesex District (2012-2020)
 layout: district
 ---

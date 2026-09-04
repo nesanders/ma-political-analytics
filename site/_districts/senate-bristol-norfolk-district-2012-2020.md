@@ -481,6 +481,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: Bristol and Norfolk
+  url: /district/senate-bristol-and-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: Bristol & Norfolk District
+  url: /district/senate-bristol-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Bristol and Norfolk District
+  url: /seat/senate-bristol-and-norfolk-district/
 title: Bristol & Norfolk District (2012-2020)
 layout: district
 ---

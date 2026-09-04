@@ -277,6 +277,16 @@ demographics:
   bachelors_degree_count: 5053
   total_population_acs: 42690
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Worcester
+  url: /district/house-2nd-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Worcester District
+  url: /district/house-2nd-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Worcester District
+  url: /seat/house-2nd-worcester-district/
 history:
 - vintage: 2012-2020
   district_name: 2nd Worcester District

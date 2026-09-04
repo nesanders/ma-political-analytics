@@ -693,6 +693,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 1st Middlesex
+  url: /district/house-1st-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Middlesex District
+  url: /district/house-1st-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Middlesex District
+  url: /seat/house-1st-middlesex-district/
 title: 1st Middlesex (2001-2010)
 layout: district
 ---

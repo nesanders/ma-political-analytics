@@ -471,6 +471,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Second Essex
+  url: /district/senate-second-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: Second Essex District
+  url: /district/senate-second-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Second Essex District
+  url: /seat/senate-second-essex-district/
 title: Second Essex District (2012-2020)
 layout: district
 ---

@@ -351,6 +351,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Middlesex, Suffolk, and Essex
+  url: /district/senate-middlesex-suffolk-and-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: Middlesex & Suffolk District
+  url: /district/senate-middlesex-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Middlesex and Suffolk District
+  url: /seat/senate-middlesex-and-suffolk-district/
 title: Middlesex & Suffolk District (2012-2020)
 layout: district
 ---

@@ -222,6 +222,16 @@ demographics:
   bachelors_degree_count: 9281
   total_population_acs: 43578
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 35th Middlesex
+  url: /district/house-35th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 35th Middlesex District
+  url: /district/house-35th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 35th Middlesex District
+  url: /seat/house-35th-middlesex-district/
 title: 35th Middlesex District (2022-present)
 layout: district
 ---

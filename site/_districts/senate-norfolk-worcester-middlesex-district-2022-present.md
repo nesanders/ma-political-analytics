@@ -262,6 +262,16 @@ demographics:
   bachelors_degree_count: 36208
   total_population_acs: 177174
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Norfolk, Bristol, and Middlesex
+  url: /district/senate-norfolk-bristol-and-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: Norfolk, Bristol & Middlesex District
+  url: /district/senate-norfolk-bristol-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Norfolk-Worcester-Middlesex District
+  url: /seat/senate-norfolk-worcester-middlesex-district/
 title: Norfolk-Worcester-Middlesex District (2022-present)
 layout: district
 ---

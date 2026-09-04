@@ -562,6 +562,16 @@ primaries:
     primary_war: null
     primary_war_sd: null
     primary_war_factors: null
+vintage_options:
+- vintage: 2001-2010
+  district_name: 12th Worcester
+  url: /district/house-12th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 12th Worcester District
+  url: /district/house-12th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 12th Worcester District
+  url: /seat/house-12th-worcester-district/
 title: 12th Worcester (2001-2010)
 layout: district
 ---

@@ -216,6 +216,16 @@ demographics:
   bachelors_degree_count: 6139
   total_population_acs: 42978
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Hampden
+  url: /district/house-4th-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Hampden District
+  url: /district/house-4th-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Hampden District
+  url: /seat/house-4th-hampden-district/
 history:
 - vintage: 2012-2020
   district_name: 4th Hampden District

@@ -218,6 +218,16 @@ demographics:
   bachelors_degree_count: 9424
   total_population_acs: 42547
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Middlesex
+  url: /district/house-2nd-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Middlesex District
+  url: /district/house-2nd-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Middlesex District
+  url: /seat/house-2nd-middlesex-district/
 history:
 - vintage: 2012-2020
   district_name: 2nd Middlesex District

@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 3087
   total_population_acs: 36160
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Hampshire
+  url: /district/house-3rd-hampshire-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Hampshire District
+  url: /district/house-3rd-hampshire-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Hampshire District
+  url: /seat/house-3rd-hampshire-district/
 title: 3rd Hampshire District (2022-present)
 layout: district
 ---

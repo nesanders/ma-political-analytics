@@ -217,6 +217,16 @@ demographics:
   bachelors_degree_count: 6124
   total_population_acs: 46205
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Bristol
+  url: /district/house-3rd-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Bristol District
+  url: /district/house-3rd-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Bristol District
+  url: /seat/house-3rd-bristol-district/
 history:
 - vintage: 2012-2020
   district_name: 3rd Bristol District

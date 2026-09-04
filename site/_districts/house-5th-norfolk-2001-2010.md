@@ -490,6 +490,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 5th Norfolk
+  url: /district/house-5th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 5th Norfolk District
+  url: /district/house-5th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 5th Norfolk District
+  url: /seat/house-5th-norfolk-district/
 title: 5th Norfolk (2001-2010)
 layout: district
 ---

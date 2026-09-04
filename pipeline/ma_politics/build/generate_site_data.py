@@ -1390,6 +1390,107 @@ def write_district_files(records: list[dict], out_dir: Path) -> None:
     logger.info("Wrote %d district pages to %s", len(records), out_dir)
 
 
+def build_vintage_chain_index(
+    district_records_by_vintage: dict[str, list[dict]],
+    lineage: pd.DataFrame,
+    current_vintage: str,
+) -> dict[tuple[str, str, str], list[dict]]:
+    """For every (chamber, vintage, district_name) across every vintage,
+    the full lineage chain that node belongs to, oldest vintage first —
+    a vintage-picker dropdown's own data source, on both district and seat
+    pages (asked for directly, after noticing a district/seat page had no
+    way to jump straight to another era of the same area without going
+    through a seat page's "Before redistricting" list first).
+
+    Built by walking seat_lineage both backward (predecessor: same best-
+    area-overlap rule build_seat_records' own `history` list already uses
+    — the old district that contributed the most area to this one) and
+    forward (successor: the same rule mirrored — of this district's own
+    area, which single later district absorbed the most of it, reusing
+    `pct_of_old_area` rather than a new column, since it's already exactly
+    "share of the OLD district's own area" from either direction) from
+    that node. Chain identity doesn't depend on which node you start
+    from, so every member of one lineage family gets the identical list.
+
+    Each entry's `url` points at the seat page for the current vintage
+    (this site's canonical current-vintage URL) or the district page for
+    any other vintage — and is None if that specific (chamber, vintage,
+    district_name) never actually got built this run (a lineage row can
+    exist for a district/chamber combination this run didn't backfill)."""
+    exists = {
+        (r["chamber"], vintage, r["district_name"])
+        for vintage, recs in district_records_by_vintage.items()
+        for r in recs
+    }
+
+    def predecessor(chamber: str, vintage: str, name: str) -> tuple[str, str] | None:
+        rows = lineage[
+            (lineage["chamber"] == chamber)
+            & (lineage["new_vintage"] == vintage)
+            & (lineage["new_district_name"] == name)
+        ]
+        if rows.empty:
+            return None
+        best = rows.sort_values("pct_of_old_area", ascending=False).iloc[0]
+        return (best["old_vintage"], best["old_district_name"])
+
+    def successor(chamber: str, vintage: str, name: str) -> tuple[str, str] | None:
+        rows = lineage[
+            (lineage["chamber"] == chamber)
+            & (lineage["old_vintage"] == vintage)
+            & (lineage["old_district_name"] == name)
+        ]
+        if rows.empty:
+            return None
+        best = rows.sort_values("pct_of_old_area", ascending=False).iloc[0]
+        return (best["new_vintage"], best["new_district_name"])
+
+    index: dict[tuple[str, str, str], list[dict]] = {}
+    for vintage, recs in district_records_by_vintage.items():
+        for r in recs:
+            chamber, name = r["chamber"], r["district_name"]
+            key = (chamber, vintage, name)
+            if key in index:
+                continue
+
+            chain = [(vintage, name)]
+            seen_vintages = {vintage}
+            cur_v, cur_n = vintage, name
+            while True:
+                prev = predecessor(chamber, cur_v, cur_n)
+                if prev is None or prev[0] in seen_vintages:
+                    break
+                chain.insert(0, prev)
+                seen_vintages.add(prev[0])
+                cur_v, cur_n = prev
+
+            cur_v, cur_n = vintage, name
+            while True:
+                nxt = successor(chamber, cur_v, cur_n)
+                if nxt is None or nxt[0] in seen_vintages:
+                    break
+                chain.append(nxt)
+                seen_vintages.add(nxt[0])
+                cur_v, cur_n = nxt
+
+            options = [
+                {
+                    "vintage": v,
+                    "district_name": n,
+                    "url": (
+                        (seat_url(chamber, n) if v == current_vintage else district_url(chamber, n, v))
+                        if (chamber, v, n) in exists
+                        else None
+                    ),
+                }
+                for v, n in chain
+            ]
+            for v, n in chain:
+                index[(chamber, v, n)] = options
+
+    return index
+
+
 def build_seat_records(
     district_records_by_vintage: dict[str, list[dict]],
     current_vintage: str,
@@ -1858,10 +1959,15 @@ def main(
     (site_data_dir / "primary_war_fit_sample.yml").write_text(yaml.safe_dump(primary_fit_sample, sort_keys=False))
     logger.info("Wrote %d rows to %s", len(primary_fit_sample), site_data_dir / "primary_war_fit_sample.yml")
 
+    lineage = pd.read_parquet(crosswalks_dir / "seat_lineage.parquet")
+    vintage_chain_index = build_vintage_chain_index(district_records_by_vintage, lineage, current_vintage)
+    for recs in district_records_by_vintage.values():
+        for r in recs:
+            r["vintage_options"] = vintage_chain_index.get((r["chamber"], r["vintage"], r["district_name"]), [])
+
     all_district_records = [r for recs in district_records_by_vintage.values() for r in recs]
     write_district_files(all_district_records, districts_out_dir)
 
-    lineage = pd.read_parquet(crosswalks_dir / "seat_lineage.parquet")
     seat_records = build_seat_records(district_records_by_vintage, current_vintage, lineage)
     write_seat_files(seat_records, seats_out_dir)
 

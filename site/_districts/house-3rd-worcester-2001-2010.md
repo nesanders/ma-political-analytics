@@ -504,6 +504,16 @@ primaries:
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Worcester
+  url: /district/house-3rd-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Worcester District
+  url: /district/house-3rd-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Worcester District
+  url: /seat/house-3rd-worcester-district/
 title: 3rd Worcester (2001-2010)
 layout: district
 ---

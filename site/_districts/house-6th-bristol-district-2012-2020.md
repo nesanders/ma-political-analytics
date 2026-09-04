@@ -464,6 +464,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 6th Bristol
+  url: /district/house-6th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 6th Bristol District
+  url: /district/house-6th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 6th Bristol District
+  url: /seat/house-6th-bristol-district/
 title: 6th Bristol District (2012-2020)
 layout: district
 ---

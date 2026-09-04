@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 14986
   total_population_acs: 41896
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Suffolk
+  url: /district/house-4th-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Suffolk District
+  url: /district/house-4th-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Suffolk District
+  url: /seat/house-4th-suffolk-district/
 title: 4th Suffolk District (2022-present)
 layout: district
 ---

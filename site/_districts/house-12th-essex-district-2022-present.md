@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7121
   total_population_acs: 45354
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 12th Essex
+  url: /district/house-12th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 12th Essex District
+  url: /district/house-12th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 12th Essex District
+  url: /seat/house-12th-essex-district/
 title: 12th Essex District (2022-present)
 layout: district
 ---

@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 6532
   total_population_acs: 43039
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 19th Suffolk
+  url: /district/house-19th-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 19th Suffolk District
+  url: /district/house-19th-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 19th Suffolk District
+  url: /seat/house-19th-suffolk-district/
 history:
 - vintage: 2012-2020
   district_name: 19th Suffolk District

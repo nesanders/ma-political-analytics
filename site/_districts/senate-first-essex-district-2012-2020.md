@@ -663,6 +663,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Essex
+  url: /district/senate-first-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: First Essex District
+  url: /district/senate-first-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: First Essex District
+  url: /seat/senate-first-essex-district/
 title: First Essex District (2012-2020)
 layout: district
 ---

@@ -554,6 +554,16 @@ primaries:
     primary_war: null
     primary_war_sd: null
     primary_war_factors: null
+vintage_options:
+- vintage: 2001-2010
+  district_name: 27th Middlesex
+  url: /district/house-27th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 27th Middlesex District
+  url: /district/house-27th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 27th Middlesex District
+  url: /seat/house-27th-middlesex-district/
 title: 27th Middlesex (2001-2010)
 layout: district
 ---

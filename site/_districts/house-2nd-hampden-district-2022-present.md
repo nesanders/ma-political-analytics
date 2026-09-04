@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7952
   total_population_acs: 43245
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Hampden
+  url: /district/house-2nd-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Hampden District
+  url: /district/house-2nd-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Hampden District
+  url: /seat/house-2nd-hampden-district/
 title: 2nd Hampden District (2022-present)
 layout: district
 ---

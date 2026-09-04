@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 39508
   total_population_acs: 181676
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Suffolk and Norfolk
+  url: /district/senate-suffolk-and-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: Norfolk & Suffolk District
+  url: /district/senate-norfolk-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Norfolk and Suffolk District
+  url: /seat/senate-norfolk-and-suffolk-district/
 title: Norfolk and Suffolk District (2022-present)
 layout: district
 ---

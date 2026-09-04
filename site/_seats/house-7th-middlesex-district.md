@@ -179,6 +179,16 @@ demographics:
   bachelors_degree_count: 9889
   total_population_acs: 41347
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 7th Middlesex
+  url: /district/house-7th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 7th Middlesex District
+  url: /district/house-7th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 7th Middlesex District
+  url: /seat/house-7th-middlesex-district/
 history:
 - vintage: 2012-2020
   district_name: 7th Middlesex District

@@ -377,6 +377,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Norfolk
+  url: /district/house-3rd-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Norfolk District
+  url: /district/house-3rd-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Norfolk District
+  url: /seat/house-3rd-norfolk-district/
 title: 3rd Norfolk (2001-2010)
 layout: district
 ---

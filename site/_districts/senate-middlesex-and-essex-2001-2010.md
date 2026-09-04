@@ -475,6 +475,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: Middlesex and Essex
+  url: /district/senate-middlesex-and-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: Fifth Middlesex District
+  url: /district/senate-fifth-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Fifth Middlesex District
+  url: /seat/senate-fifth-middlesex-district/
 title: Middlesex and Essex (2001-2010)
 layout: district
 ---

@@ -357,6 +357,16 @@ demographics:
   bachelors_degree_count: 9685
   total_population_acs: 45863
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 5th Essex
+  url: /district/house-5th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 5th Essex District
+  url: /district/house-5th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 5th Essex District
+  url: /seat/house-5th-essex-district/
 history:
 - vintage: 2012-2020
   district_name: 5th Essex District

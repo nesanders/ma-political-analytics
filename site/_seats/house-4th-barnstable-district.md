@@ -179,6 +179,16 @@ demographics:
   bachelors_degree_count: 9314
   total_population_acs: 41702
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Barnstable
+  url: /district/house-4th-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Barnstable District
+  url: /district/house-4th-barnstable-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Barnstable District
+  url: /seat/house-4th-barnstable-district/
 history:
 - vintage: 2012-2020
   district_name: 4th Barnstable District

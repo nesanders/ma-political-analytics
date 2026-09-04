@@ -522,6 +522,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 1st Plymouth
+  url: /district/house-1st-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Plymouth District
+  url: /district/house-1st-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Plymouth District
+  url: /seat/house-1st-plymouth-district/
 title: 1st Plymouth (2001-2010)
 layout: district
 ---

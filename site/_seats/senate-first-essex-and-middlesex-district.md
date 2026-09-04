@@ -185,6 +185,16 @@ demographics:
   bachelors_degree_count: 41462
   total_population_acs: 178873
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Essex and Middlesex
+  url: /district/senate-first-essex-and-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: First Essex & Middlesex District
+  url: /district/senate-first-essex-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: First Essex and Middlesex District
+  url: /seat/senate-first-essex-and-middlesex-district/
 history:
 - vintage: 2012-2020
   district_name: First Essex & Middlesex District

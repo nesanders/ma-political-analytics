@@ -218,6 +218,16 @@ demographics:
   bachelors_degree_count: 8665
   total_population_acs: 41298
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Norfolk
+  url: /district/house-4th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Norfolk District
+  url: /district/house-4th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Norfolk District
+  url: /seat/house-4th-norfolk-district/
 title: 4th Norfolk District (2022-present)
 layout: district
 ---

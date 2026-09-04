@@ -476,6 +476,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 26th Middlesex
+  url: /district/house-26th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 26th Middlesex District
+  url: /district/house-26th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 26th Middlesex District
+  url: /seat/house-26th-middlesex-district/
 title: 26th Middlesex District (2012-2020)
 layout: district
 ---

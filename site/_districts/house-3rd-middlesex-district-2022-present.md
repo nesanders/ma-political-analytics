@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 9441
   total_population_acs: 43382
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Middlesex
+  url: /district/house-3rd-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Middlesex District
+  url: /district/house-3rd-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Middlesex District
+  url: /seat/house-3rd-middlesex-district/
 title: 3rd Middlesex District (2022-present)
 layout: district
 ---

@@ -298,6 +298,16 @@ demographics:
   bachelors_degree_count: 11043
   total_population_acs: 46727
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 9th Norfolk
+  url: /district/house-9th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 9th Norfolk District
+  url: /district/house-9th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Norfolk District
+  url: /seat/house-9th-norfolk-district/
 title: 9th Norfolk District (2022-present)
 layout: district
 ---

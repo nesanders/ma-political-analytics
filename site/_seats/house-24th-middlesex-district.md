@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 9742
   total_population_acs: 45745
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 24th Middlesex
+  url: /district/house-24th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 24th Middlesex District
+  url: /district/house-24th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 24th Middlesex District
+  url: /seat/house-24th-middlesex-district/
 history:
 - vintage: 2012-2020
   district_name: 24th Middlesex District

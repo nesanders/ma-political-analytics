@@ -280,6 +280,16 @@ demographics:
   bachelors_degree_count: 10342
   total_population_acs: 45748
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 1st Essex
+  url: /district/house-1st-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Essex District
+  url: /district/house-1st-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Essex District
+  url: /seat/house-1st-essex-district/
 history:
 - vintage: 2012-2020
   district_name: 1st Essex District

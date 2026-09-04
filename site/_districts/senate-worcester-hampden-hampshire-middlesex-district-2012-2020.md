@@ -599,6 +599,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Worcester, Hampden, Hampshire, and Franklin
+  url: /district/senate-worcester-hampden-hampshire-and-franklin-2001-2010/
+- vintage: 2012-2020
+  district_name: Worcester, Hampden, Hampshire & Middlesex District
+  url: /district/senate-worcester-hampden-hampshire-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Worcester and Hampshire District
+  url: /seat/senate-worcester-and-hampshire-district/
 title: Worcester, Hampden, Hampshire & Middlesex District (2012-2020)
 layout: district
 ---

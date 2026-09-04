@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7431
   total_population_acs: 48828
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 14th Suffolk
+  url: /district/house-14th-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 14th Suffolk District
+  url: /district/house-14th-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 14th Suffolk District
+  url: /seat/house-14th-suffolk-district/
 history:
 - vintage: 2012-2020
   district_name: 14th Suffolk District

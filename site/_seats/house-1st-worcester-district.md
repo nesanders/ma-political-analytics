@@ -185,6 +185,16 @@ demographics:
   bachelors_degree_count: 8926
   total_population_acs: 45615
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 13th Worcester
+  url: /district/house-13th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Worcester District
+  url: /district/house-1st-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Worcester District
+  url: /seat/house-1st-worcester-district/
 history:
 - vintage: 2012-2020
   district_name: 1st Worcester District

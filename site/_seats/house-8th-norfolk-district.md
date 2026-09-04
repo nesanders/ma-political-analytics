@@ -216,6 +216,16 @@ demographics:
   bachelors_degree_count: 9112
   total_population_acs: 41845
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 8th Norfolk
+  url: /district/house-8th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 8th Norfolk District
+  url: /district/house-8th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Norfolk District
+  url: /seat/house-8th-norfolk-district/
 history:
 - vintage: 2012-2020
   district_name: 8th Norfolk District

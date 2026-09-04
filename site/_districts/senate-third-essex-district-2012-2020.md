@@ -424,6 +424,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: Third Essex and Middlesex
+  url: /district/senate-third-essex-and-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: Third Essex District
+  url: /district/senate-third-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Third Essex District
+  url: /seat/senate-third-essex-district/
 title: Third Essex District (2012-2020)
 layout: district
 ---

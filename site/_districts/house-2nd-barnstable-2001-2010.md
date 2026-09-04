@@ -656,6 +656,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Barnstable
+  url: /district/house-2nd-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Barnstable District
+  url: /district/house-2nd-barnstable-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Barnstable District
+  url: /seat/house-2nd-barnstable-district/
 title: 2nd Barnstable (2001-2010)
 layout: district
 ---

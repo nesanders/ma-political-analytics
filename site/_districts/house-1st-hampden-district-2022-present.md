@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 6150
   total_population_acs: 42032
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 1st Hampden
+  url: /district/house-1st-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Hampden District
+  url: /district/house-1st-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Hampden District
+  url: /seat/house-1st-hampden-district/
 title: 1st Hampden District (2022-present)
 layout: district
 ---

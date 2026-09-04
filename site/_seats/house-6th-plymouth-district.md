@@ -297,6 +297,16 @@ demographics:
   bachelors_degree_count: 10238
   total_population_acs: 46753
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 6th Plymouth
+  url: /district/house-6th-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 6th Plymouth District
+  url: /district/house-6th-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 6th Plymouth District
+  url: /seat/house-6th-plymouth-district/
 history:
 - vintage: 2012-2020
   district_name: 6th Plymouth District

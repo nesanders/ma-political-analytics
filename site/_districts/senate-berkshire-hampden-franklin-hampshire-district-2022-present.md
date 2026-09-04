@@ -252,6 +252,16 @@ demographics:
   bachelors_degree_count: 26194
   total_population_acs: 167161
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Berkshire, Hampshire, and Franklin
+  url: /district/senate-berkshire-hampshire-and-franklin-2001-2010/
+- vintage: 2012-2020
+  district_name: Berkshire, Hampshire, Franklin & Hampden District
+  url: /district/senate-berkshire-hampshire-franklin-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: Berkshire-Hampden-Franklin-Hampshire District
+  url: /seat/senate-berkshire-hampden-franklin-hampshire-district/
 title: Berkshire-Hampden-Franklin-Hampshire District (2022-present)
 layout: district
 ---

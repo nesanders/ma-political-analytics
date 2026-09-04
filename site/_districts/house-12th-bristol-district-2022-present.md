@@ -186,6 +186,16 @@ demographics:
   bachelors_degree_count: 6738
   total_population_acs: 45946
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 12th Bristol
+  url: /district/house-12th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 12th Bristol District
+  url: /district/house-12th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 12th Bristol District
+  url: /seat/house-12th-bristol-district/
 title: 12th Bristol District (2022-present)
 layout: district
 ---

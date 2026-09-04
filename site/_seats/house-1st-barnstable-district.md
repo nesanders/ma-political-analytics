@@ -301,6 +301,16 @@ demographics:
   bachelors_degree_count: 8538
   total_population_acs: 43152
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 1st Barnstable
+  url: /district/house-1st-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: 1st Barnstable District
+  url: /district/house-1st-barnstable-district-2012-2020/
+- vintage: 2022-present
+  district_name: 1st Barnstable District
+  url: /seat/house-1st-barnstable-district/
 history:
 - vintage: 2012-2020
   district_name: 1st Barnstable District

@@ -158,6 +158,16 @@ demographics:
   bachelors_degree_count: 8443
   total_population_acs: 43990
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 9th Worcester
+  url: /district/house-9th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 9th Worcester District
+  url: /district/house-9th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Worcester District
+  url: /seat/house-9th-worcester-district/
 title: 9th Worcester District (2022-present)
 layout: district
 ---

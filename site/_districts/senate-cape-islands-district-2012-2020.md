@@ -654,6 +654,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Cape and Islands
+  url: /district/senate-cape-and-islands-2001-2010/
+- vintage: 2012-2020
+  district_name: Cape & Islands District
+  url: /district/senate-cape-islands-district-2012-2020/
+- vintage: 2022-present
+  district_name: Cape and Islands District
+  url: /seat/senate-cape-and-islands-district/
 title: Cape & Islands District (2012-2020)
 layout: district
 ---

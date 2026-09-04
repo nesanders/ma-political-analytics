@@ -434,6 +434,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 8th Norfolk
+  url: /district/house-8th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 8th Norfolk District
+  url: /district/house-8th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Norfolk District
+  url: /seat/house-8th-norfolk-district/
 title: 8th Norfolk (2001-2010)
 layout: district
 ---

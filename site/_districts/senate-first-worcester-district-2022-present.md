@@ -205,6 +205,16 @@ demographics:
   bachelors_degree_count: 24560
   total_population_acs: 165603
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Worcester
+  url: /district/senate-first-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: First Worcester District
+  url: /district/senate-first-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: First Worcester District
+  url: /seat/senate-first-worcester-district/
 title: First Worcester District (2022-present)
 layout: district
 ---

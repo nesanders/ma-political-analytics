@@ -155,6 +155,16 @@ demographics:
   bachelors_degree_count: 23278
   total_population_acs: 160609
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Hampshire and Franklin
+  url: /district/senate-hampshire-and-franklin-2001-2010/
+- vintage: 2012-2020
+  district_name: Hampshire, Franklin & Worcester District
+  url: /district/senate-hampshire-franklin-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: Hampshire-Franklin-Worcester District
+  url: /seat/senate-hampshire-franklin-worcester-district/
 title: Hampshire-Franklin-Worcester District (2022-present)
 layout: district
 ---

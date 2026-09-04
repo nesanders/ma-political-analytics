@@ -434,6 +434,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 14th Worcester
+  url: /district/house-14th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 14th Worcester District
+  url: /district/house-14th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 14th Worcester District
+  url: /seat/house-14th-worcester-district/
 title: 14th Worcester District (2012-2020)
 layout: district
 ---

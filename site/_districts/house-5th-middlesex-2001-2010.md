@@ -547,6 +547,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 5th Middlesex
+  url: /district/house-5th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 5th Middlesex District
+  url: /district/house-5th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 5th Middlesex District
+  url: /seat/house-5th-middlesex-district/
 title: 5th Middlesex (2001-2010)
 layout: district
 ---

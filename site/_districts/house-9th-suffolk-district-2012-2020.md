@@ -393,6 +393,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 9th Suffolk
+  url: /district/house-9th-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 9th Suffolk District
+  url: /district/house-9th-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Suffolk District
+  url: /seat/house-9th-suffolk-district/
 title: 9th Suffolk District (2012-2020)
 layout: district
 ---

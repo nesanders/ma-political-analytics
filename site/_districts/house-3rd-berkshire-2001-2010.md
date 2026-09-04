@@ -396,6 +396,16 @@ primaries:
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Berkshire
+  url: /district/house-3rd-berkshire-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Berkshire District
+  url: /district/house-3rd-berkshire-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Berkshire District
+  url: /seat/house-2nd-berkshire-district/
 title: 3rd Berkshire (2001-2010)
 layout: district
 ---

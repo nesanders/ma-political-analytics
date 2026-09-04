@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 8114
   total_population_acs: 42728
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Bristol
+  url: /district/house-4th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Bristol District
+  url: /district/house-4th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Bristol District
+  url: /seat/house-4th-bristol-district/
 title: 4th Bristol District (2022-present)
 layout: district
 ---

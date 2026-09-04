@@ -630,6 +630,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 12th Hampden
+  url: /district/house-12th-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 12th Hampden District
+  url: /district/house-12th-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 12th Hampden District
+  url: /seat/house-12th-hampden-district/
 title: 12th Hampden (2001-2010)
 layout: district
 ---

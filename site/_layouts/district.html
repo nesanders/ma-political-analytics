@@ -13,6 +13,20 @@ layout: default
   </p>
   <h1>{{ page.district_name }}</h1>
   <p>{{ page.vintage }} redistricting vintage</p>
+  {% if page.vintage_options.size > 1 %}
+  <p>
+    <label for="vintage-select">Redistricting vintage: </label>
+    <select id="vintage-select" onchange="if (this.value) window.location.href = this.value;">
+      {% for v in page.vintage_options %}
+      <option
+        value="{{ v.url | relative_url }}"
+        {% if v.vintage == page.vintage %}selected{% endif %}
+        {% unless v.url %}disabled{% endunless %}
+      >{{ v.vintage }} &mdash; {{ v.district_name }}{% unless v.url %} (not yet on this site){% endunless %}</option>
+      {% endfor %}
+    </select>
+  </p>
+  {% endif %}
 
   <section>
     <h2>Map</h2>

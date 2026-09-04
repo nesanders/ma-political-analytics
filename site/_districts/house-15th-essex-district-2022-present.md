@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7149
   total_population_acs: 45454
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 15th Essex
+  url: /district/house-15th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 15th Essex District
+  url: /district/house-15th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 15th Essex District
+  url: /seat/house-15th-essex-district/
 title: 15th Essex District (2022-present)
 layout: district
 ---

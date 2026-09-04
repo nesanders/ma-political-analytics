@@ -520,6 +520,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  url: /district/senate-plymouth-and-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  url: /district/senate-plymouth-barnstable-district-2012-2020/
+- vintage: 2022-present
+  district_name: Plymouth and Barnstable District
+  url: /seat/senate-plymouth-and-barnstable-district/
 title: Plymouth and Barnstable (2001-2010)
 layout: district
 ---

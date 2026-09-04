@@ -587,6 +587,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 13th Worcester
+  url: /district/house-13th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 13th Worcester District
+  url: /district/house-13th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 13th Worcester District
+  url: /seat/house-13th-worcester-district/
 title: 13th Worcester (2001-2010)
 layout: district
 ---

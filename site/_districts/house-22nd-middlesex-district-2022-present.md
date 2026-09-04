@@ -244,6 +244,16 @@ demographics:
   bachelors_degree_count: 7900
   total_population_acs: 41708
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 22nd Middlesex
+  url: /district/house-22nd-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 22nd Middlesex District
+  url: /district/house-22nd-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 22nd Middlesex District
+  url: /seat/house-22nd-middlesex-district/
 title: 22nd Middlesex District (2022-present)
 layout: district
 ---

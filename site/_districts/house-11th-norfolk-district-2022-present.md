@@ -185,6 +185,16 @@ demographics:
   bachelors_degree_count: 10218
   total_population_acs: 44744
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Norfolk
+  url: /district/house-11th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Norfolk District
+  url: /district/house-11th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 11th Norfolk District
+  url: /seat/house-11th-norfolk-district/
 title: 11th Norfolk District (2022-present)
 layout: district
 ---

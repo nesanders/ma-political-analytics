@@ -505,6 +505,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 8th Middlesex
+  url: /district/house-8th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 8th Middlesex District
+  url: /district/house-8th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Middlesex District
+  url: /seat/house-8th-middlesex-district/
 title: 8th Middlesex (2001-2010)
 layout: district
 ---

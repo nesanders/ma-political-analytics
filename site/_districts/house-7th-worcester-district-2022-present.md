@@ -258,6 +258,16 @@ demographics:
   bachelors_degree_count: 6443
   total_population_acs: 43806
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 7th Worcester
+  url: /district/house-7th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 7th Worcester District
+  url: /district/house-7th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 7th Worcester District
+  url: /seat/house-7th-worcester-district/
 title: 7th Worcester District (2022-present)
 layout: district
 ---

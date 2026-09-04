@@ -439,6 +439,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Plymouth
+  url: /district/house-4th-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Plymouth District
+  url: /district/house-4th-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Plymouth District
+  url: /seat/house-4th-plymouth-district/
 title: 4th Plymouth (2001-2010)
 layout: district
 ---

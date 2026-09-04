@@ -667,6 +667,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: Barnstable, Dukes and Nantucket
+  url: /district/house-barnstable-dukes-and-nantucket-2001-2010/
+- vintage: 2012-2020
+  district_name: Barnstable, Dukes & Nantucket District
+  url: /district/house-barnstable-dukes-nantucket-district-2012-2020/
+- vintage: 2022-present
+  district_name: Barnstable-Dukes-Nantucket District
+  url: /seat/house-barnstable-dukes-nantucket-district/
 title: Barnstable, Dukes and Nantucket (2001-2010)
 layout: district
 ---

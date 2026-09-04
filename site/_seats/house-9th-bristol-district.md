@@ -180,6 +180,16 @@ demographics:
   bachelors_degree_count: 6014
   total_population_acs: 40830
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 9th Bristol
+  url: /district/house-9th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 9th Bristol District
+  url: /district/house-9th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Bristol District
+  url: /seat/house-9th-bristol-district/
 history:
 - vintage: 2012-2020
   district_name: 9th Bristol District

@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7617
   total_population_acs: 43608
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 18th Worcester
+  url: /district/house-18th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 8th Worcester District
+  url: /district/house-8th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Worcester District
+  url: /seat/house-8th-worcester-district/
 history:
 - vintage: 2012-2020
   district_name: 8th Worcester District

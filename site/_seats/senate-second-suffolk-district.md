@@ -241,6 +241,16 @@ demographics:
   bachelors_degree_count: 23410
   total_population_acs: 186255
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Second Suffolk
+  url: /district/senate-second-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: Second Suffolk District
+  url: /district/senate-second-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Second Suffolk District
+  url: /seat/senate-second-suffolk-district/
 history:
 - vintage: 2012-2020
   district_name: Second Suffolk District

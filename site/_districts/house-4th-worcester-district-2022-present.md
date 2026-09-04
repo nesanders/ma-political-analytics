@@ -244,6 +244,16 @@ demographics:
   bachelors_degree_count: 6737
   total_population_acs: 43620
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Worcester
+  url: /district/house-4th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Worcester District
+  url: /district/house-4th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Worcester District
+  url: /seat/house-4th-worcester-district/
 title: 4th Worcester District (2022-present)
 layout: district
 ---

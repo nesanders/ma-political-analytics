@@ -201,6 +201,16 @@ demographics:
   bachelors_degree_count: 3085
   total_population_acs: 40051
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 16th Essex
+  url: /district/house-16th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 16th Essex District
+  url: /district/house-16th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 4th Essex District
+  url: /seat/house-4th-essex-district/
 title: 4th Essex District (2022-present)
 layout: district
 ---

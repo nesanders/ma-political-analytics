@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 6606
   total_population_acs: 45302
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 6th Hampden
+  url: /district/house-6th-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 6th Hampden District
+  url: /district/house-6th-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 6th Hampden District
+  url: /seat/house-6th-hampden-district/
 title: 6th Hampden District (2022-present)
 layout: district
 ---

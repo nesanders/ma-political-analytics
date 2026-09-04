@@ -302,6 +302,16 @@ demographics:
   bachelors_degree_count: 7304
   total_population_acs: 45005
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Plymouth
+  url: /district/house-11th-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Plymouth District
+  url: /district/house-11th-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Plymouth District
+  url: /seat/house-9th-plymouth-district/
 title: 9th Plymouth District (2022-present)
 layout: district
 ---

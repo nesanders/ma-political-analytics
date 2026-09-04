@@ -515,6 +515,16 @@ primaries:
     primary_war: null
     primary_war_sd: null
     primary_war_factors: null
+vintage_options:
+- vintage: 2001-2010
+  district_name: 8th Plymouth
+  url: /district/house-8th-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 8th Plymouth District
+  url: /district/house-8th-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 8th Plymouth District
+  url: /seat/house-8th-plymouth-district/
 title: 8th Plymouth (2001-2010)
 layout: district
 ---

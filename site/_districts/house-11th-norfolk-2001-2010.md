@@ -447,6 +447,16 @@ primaries:
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Norfolk
+  url: /district/house-11th-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Norfolk District
+  url: /district/house-11th-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: 11th Norfolk District
+  url: /seat/house-11th-norfolk-district/
 title: 11th Norfolk (2001-2010)
 layout: district
 ---

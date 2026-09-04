@@ -216,6 +216,16 @@ demographics:
   bachelors_degree_count: 6858
   total_population_acs: 43204
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 3rd Hampden
+  url: /district/house-3rd-hampden-2001-2010/
+- vintage: 2012-2020
+  district_name: 3rd Hampden District
+  url: /district/house-3rd-hampden-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Hampden District
+  url: /seat/house-3rd-hampden-district/
 history:
 - vintage: 2012-2020
   district_name: 3rd Hampden District

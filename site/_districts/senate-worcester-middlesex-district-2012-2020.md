@@ -519,6 +519,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Worcester and Middlesex
+  url: /district/senate-worcester-and-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: Worcester & Middlesex District
+  url: /district/senate-worcester-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Worcester and Middlesex District
+  url: /seat/senate-worcester-and-middlesex-district/
 title: Worcester & Middlesex District (2012-2020)
 layout: district
 ---

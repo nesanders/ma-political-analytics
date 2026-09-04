@@ -315,6 +315,16 @@ demographics:
   bachelors_degree_count: 25732
   total_population_acs: 181906
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Plymouth and Bristol
+  url: /district/senate-first-plymouth-and-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: First Plymouth & Bristol District
+  url: /district/senate-first-plymouth-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: Third Bristol and Plymouth District
+  url: /seat/senate-third-bristol-and-plymouth-district/
 title: Third Bristol and Plymouth District (2022-present)
 layout: district
 ---

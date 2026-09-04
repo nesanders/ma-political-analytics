@@ -559,6 +559,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Berkshire
+  url: /district/house-4th-berkshire-2001-2010/
+- vintage: 2012-2020
+  district_name: 4th Berkshire District
+  url: /district/house-4th-berkshire-district-2012-2020/
+- vintage: 2022-present
+  district_name: 3rd Berkshire District
+  url: /seat/house-3rd-berkshire-district/
 title: 4th Berkshire (2001-2010)
 layout: district
 ---

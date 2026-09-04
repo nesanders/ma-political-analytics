@@ -446,6 +446,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: Norfolk and Plymouth
+  url: /district/senate-norfolk-and-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: Norfolk & Plymouth District
+  url: /district/senate-norfolk-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: Norfolk and Plymouth District
+  url: /seat/senate-norfolk-and-plymouth-district/
 title: Norfolk and Plymouth (2001-2010)
 layout: district
 ---

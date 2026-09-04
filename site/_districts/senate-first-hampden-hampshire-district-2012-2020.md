@@ -562,6 +562,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Hampden and Hampshire
+  url: /district/senate-first-hampden-and-hampshire-2001-2010/
+- vintage: 2012-2020
+  district_name: First Hampden & Hampshire District
+  url: /district/senate-first-hampden-hampshire-district-2012-2020/
+- vintage: 2022-present
+  district_name: Hampden-Hampshire-Worcester District
+  url: /seat/senate-hampden-hampshire-worcester-district/
 title: First Hampden & Hampshire District (2012-2020)
 layout: district
 ---

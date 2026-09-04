@@ -438,6 +438,16 @@ primaries:
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 12th Bristol
+  url: /district/house-12th-bristol-2001-2010/
+- vintage: 2012-2020
+  district_name: 12th Bristol District
+  url: /district/house-12th-bristol-district-2012-2020/
+- vintage: 2022-present
+  district_name: 12th Bristol District
+  url: /seat/house-12th-bristol-district/
 title: 12th Bristol (2001-2010)
 layout: district
 ---

@@ -180,6 +180,16 @@ demographics:
   bachelors_degree_count: 33998
   total_population_acs: 181013
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: First Middlesex and Norfolk
+  url: /district/senate-first-middlesex-and-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: First Middlesex & Norfolk District
+  url: /district/senate-first-middlesex-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Norfolk and Middlesex District
+  url: /seat/senate-norfolk-and-middlesex-district/
 title: Norfolk and Middlesex District (2022-present)
 layout: district
 ---

@@ -427,6 +427,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 10th Middlesex
+  url: /district/house-10th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 10th Middlesex District
+  url: /district/house-10th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 10th Middlesex District
+  url: /seat/house-10th-middlesex-district/
 title: 10th Middlesex District (2012-2020)
 layout: district
 ---

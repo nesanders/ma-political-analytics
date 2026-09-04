@@ -227,6 +227,16 @@ demographics:
   bachelors_degree_count: 4696
   total_population_acs: 43290
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 28th Middlesex
+  url: /district/house-28th-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 28th Middlesex District
+  url: /district/house-28th-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 28th Middlesex District
+  url: /seat/house-28th-middlesex-district/
 history:
 - vintage: 2012-2020
   district_name: 28th Middlesex District

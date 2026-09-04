@@ -62,6 +62,16 @@ results_by_year:
   candidates: []
   is_open_seat: null
 primaries: []
+vintage_options:
+- vintage: 2001-2010
+  district_name: 4th Barnstable
+  url: /district/house-4th-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: State House Districts not defined
+  url: /district/house-state-house-districts-not-defined-2012-2020/
+- vintage: 2022-present
+  district_name: State House Districts not defined
+  url: null
 title: State House Districts not defined (2012-2020)
 layout: district
 ---

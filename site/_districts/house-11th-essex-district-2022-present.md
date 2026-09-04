@@ -178,6 +178,16 @@ demographics:
   bachelors_degree_count: 4812
   total_population_acs: 44875
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 11th Essex
+  url: /district/house-11th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 11th Essex District
+  url: /district/house-11th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 11th Essex District
+  url: /seat/house-11th-essex-district/
 title: 11th Essex District (2022-present)
 layout: district
 ---

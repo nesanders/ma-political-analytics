@@ -180,6 +180,16 @@ demographics:
   bachelors_degree_count: 18470
   total_population_acs: 165956
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Second Bristol and Plymouth
+  url: /district/senate-second-bristol-and-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: Second Bristol & Plymouth District
+  url: /district/senate-second-bristol-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: Second Bristol and Plymouth District
+  url: /seat/senate-second-bristol-and-plymouth-district/
 history:
 - vintage: 2012-2020
   district_name: Second Bristol & Plymouth District

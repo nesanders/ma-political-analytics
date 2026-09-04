@@ -537,6 +537,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 21st Middlesex
+  url: /district/house-21st-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 21st Middlesex District
+  url: /district/house-21st-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 21st Middlesex District
+  url: /seat/house-21st-middlesex-district/
 title: 21st Middlesex (2001-2010)
 layout: district
 ---

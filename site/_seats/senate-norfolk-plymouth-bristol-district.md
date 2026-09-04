@@ -291,6 +291,16 @@ demographics:
   bachelors_degree_count: 30185
   total_population_acs: 169011
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Norfolk, Bristol, and Plymouth
+  url: /district/senate-norfolk-bristol-and-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: Norfolk, Bristol & Plymouth District
+  url: /district/senate-norfolk-bristol-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: Norfolk-Plymouth-Bristol District
+  url: /seat/senate-norfolk-plymouth-bristol-district/
 history:
 - vintage: 2012-2020
   district_name: Norfolk, Bristol & Plymouth District

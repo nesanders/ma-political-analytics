@@ -295,6 +295,16 @@ demographics:
   bachelors_degree_count: 38337
   total_population_acs: 185295
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Plymouth and Barnstable
+  url: /district/senate-plymouth-and-barnstable-2001-2010/
+- vintage: 2012-2020
+  district_name: Plymouth & Barnstable District
+  url: /district/senate-plymouth-barnstable-district-2012-2020/
+- vintage: 2022-present
+  district_name: Plymouth and Barnstable District
+  url: /seat/senate-plymouth-and-barnstable-district/
 history:
 - vintage: 2012-2020
   district_name: Plymouth & Barnstable District

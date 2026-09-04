@@ -203,6 +203,16 @@ demographics:
   bachelors_degree_count: 5235
   total_population_acs: 42753
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Plymouth
+  url: /district/house-2nd-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Plymouth District
+  url: /district/house-2nd-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Plymouth District
+  url: /seat/house-2nd-plymouth-district/
 history:
 - vintage: 2012-2020
   district_name: 2nd Plymouth District

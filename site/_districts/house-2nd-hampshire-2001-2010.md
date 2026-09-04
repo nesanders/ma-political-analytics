@@ -517,6 +517,16 @@ primaries:
     primary_war: null
     primary_war_sd: null
     primary_war_factors: null
+vintage_options:
+- vintage: 2001-2010
+  district_name: 2nd Hampshire
+  url: /district/house-2nd-hampshire-2001-2010/
+- vintage: 2012-2020
+  district_name: 2nd Hampshire District
+  url: /district/house-2nd-hampshire-district-2012-2020/
+- vintage: 2022-present
+  district_name: 2nd Hampshire District
+  url: /seat/house-2nd-hampshire-district/
 title: 2nd Hampshire (2001-2010)
 layout: district
 ---

@@ -522,6 +522,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Worcester and Norfolk
+  url: /district/senate-worcester-and-norfolk-2001-2010/
+- vintage: 2012-2020
+  district_name: Worcester & Norfolk District
+  url: /district/senate-worcester-norfolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Worcester and Hampden District
+  url: /seat/senate-worcester-and-hampden-district/
 title: Worcester & Norfolk District (2012-2020)
 layout: district
 ---

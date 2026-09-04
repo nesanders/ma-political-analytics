@@ -672,6 +672,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 5th Plymouth
+  url: /district/house-5th-plymouth-2001-2010/
+- vintage: 2012-2020
+  district_name: 5th Plymouth District
+  url: /district/house-5th-plymouth-district-2012-2020/
+- vintage: 2022-present
+  district_name: 5th Plymouth District
+  url: /seat/house-5th-plymouth-district/
 title: 5th Plymouth District (2012-2020)
 layout: district
 ---

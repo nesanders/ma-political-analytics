@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 36907
   total_population_acs: 178193
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: Fourth Middlesex
+  url: /district/senate-fourth-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: Fourth Middlesex District
+  url: /district/senate-fourth-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: Fourth Middlesex District
+  url: /seat/senate-fourth-middlesex-district/
 title: Fourth Middlesex District (2022-present)
 layout: district
 ---

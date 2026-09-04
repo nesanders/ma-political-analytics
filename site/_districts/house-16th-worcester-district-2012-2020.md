@@ -420,6 +420,16 @@ primaries:
     primary_war_sd: null
     primary_war_factors:
     - Equal share among candidates
+vintage_options:
+- vintage: 2001-2010
+  district_name: 16th Worcester
+  url: /district/house-16th-worcester-2001-2010/
+- vintage: 2012-2020
+  district_name: 16th Worcester District
+  url: /district/house-16th-worcester-district-2012-2020/
+- vintage: 2022-present
+  district_name: 16th Worcester District
+  url: /seat/house-16th-worcester-district/
 title: 16th Worcester District (2012-2020)
 layout: district
 ---

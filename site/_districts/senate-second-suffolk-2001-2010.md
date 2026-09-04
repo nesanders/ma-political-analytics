@@ -558,6 +558,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: Second Suffolk
+  url: /district/senate-second-suffolk-2001-2010/
+- vintage: 2012-2020
+  district_name: Second Suffolk District
+  url: /district/senate-second-suffolk-district-2012-2020/
+- vintage: 2022-present
+  district_name: Second Suffolk District
+  url: /seat/senate-second-suffolk-district/
 title: Second Suffolk (2001-2010)
 layout: district
 ---

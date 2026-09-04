@@ -594,6 +594,16 @@ primaries:
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
+vintage_options:
+- vintage: 2001-2010
+  district_name: 31st Middlesex
+  url: /district/house-31st-middlesex-2001-2010/
+- vintage: 2012-2020
+  district_name: 31st Middlesex District
+  url: /district/house-31st-middlesex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 31st Middlesex District
+  url: /seat/house-31st-middlesex-district/
 title: 31st Middlesex (2001-2010)
 layout: district
 ---

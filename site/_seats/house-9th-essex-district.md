@@ -159,6 +159,16 @@ demographics:
   bachelors_degree_count: 7439
   total_population_acs: 44121
   acs_year: 2022
+vintage_options:
+- vintage: 2001-2010
+  district_name: 9th Essex
+  url: /district/house-9th-essex-2001-2010/
+- vintage: 2012-2020
+  district_name: 9th Essex District
+  url: /district/house-9th-essex-district-2012-2020/
+- vintage: 2022-present
+  district_name: 9th Essex District
+  url: /seat/house-9th-essex-district/
 history:
 - vintage: 2012-2020
   district_name: 9th Essex District
