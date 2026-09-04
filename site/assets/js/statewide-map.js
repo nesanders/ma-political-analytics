@@ -5,8 +5,16 @@
 // turnout — see METRICS below) and clickable through to that district's
 // own page. Also offers a vintage selector (2001-2010/2012-2020/
 // 2022-present), reloading that chamber's combined GeoJSON for the chosen
-// vintage. See district-map.js for the single-district map used on seat/
-// district pages; this is deliberately a separate, simpler script rather
+// vintage, and an election-year selector *dependent on that vintage*
+// (each vintage covers a different set of general-election years — five
+// for 2001-2010/2012-2020, two so far for 2022-present) that recolors the
+// same geometry from that specific year's own race, without a separate
+// fetch — every vintage's combined GeoJSON already carries a `years` list
+// per district (one entry per election year, from publish_district_geo.py's
+// own `_combined_features`), and `flattenForYear` below just re-projects
+// the currently-selected year's entry onto each feature's top-level
+// properties client-side. See district-map.js for the single-district map
+// used on seat/district pages; this is deliberately a separate, simpler script rather
 // than a shared one, since it renders a whole FeatureCollection with
 // data-driven styling instead of one polygon in a fixed color.
 // Basemap: OpenStreetMap's standard raster tiles — see district-map.js's
@@ -74,7 +82,7 @@
     { key: "lean_dem_share", label: "Partisan lean", kind: "lean" },
     {
       key: "winner_war",
-      label: "Most recent winner's over/underperformance (WAR)",
+      label: "Winner's over/underperformance (WAR)",
       kind: "diverging",
       center: 0,
       format: pctSigned,
@@ -137,6 +145,46 @@
     });
   }
 
+  function collectYears(raw) {
+    var years = {};
+    raw.features.forEach(function (f) {
+      (f.properties.years || []).forEach(function (y) {
+        years[y.year] = true;
+      });
+    });
+    return Object.keys(years)
+      .map(Number)
+      .sort(function (a, b) {
+        return b - a; // most recent first
+      });
+  }
+
+  // Re-projects one election year's own entry from each feature's `years`
+  // list onto that feature's top-level properties, producing a fresh
+  // FeatureCollection for that year alone — the map source's own data, and
+  // what availableMetrics/the color-domain calculations below read. A
+  // district missing an entry for this specific year (shouldn't normally
+  // happen within one vintage, general elections being biennial and
+  // regular, but not asserted here) keeps its identity fields and gets
+  // nulls for everything else, which the existing null-handling (gray
+  // fill, "no data" legend note) already covers.
+  function flattenForYear(raw, year) {
+    var features = raw.features.map(function (f) {
+      var yearEntry = (f.properties.years || []).find(function (y) {
+        return y.year === year;
+      });
+      var base = {
+        district_name: f.properties.district_name,
+        chamber: f.properties.chamber,
+        vintage: f.properties.vintage,
+        url: f.properties.url,
+      };
+      var props = yearEntry ? Object.assign({}, base, yearEntry) : base;
+      return { type: "Feature", properties: props, geometry: f.geometry };
+    });
+    return { type: "FeatureCollection", features: features };
+  }
+
   function collectBounds(collection) {
     var lons = [];
     var lats = [];
@@ -195,6 +243,15 @@
     vintageField.appendChild(vintageSelect);
     if (vintages.length > 1) toolbar.appendChild(vintageField);
 
+    var yearField = document.createElement("div");
+    yearField.className = "statewide-map-field";
+    var yearLabelId = "map-year-" + Math.random().toString(36).slice(2);
+    yearField.innerHTML = '<label id="' + yearLabelId + '">Election year</label>';
+    var yearSelect = document.createElement("select");
+    yearSelect.setAttribute("aria-labelledby", yearLabelId);
+    yearField.appendChild(yearSelect);
+    toolbar.appendChild(yearField);
+
     var metricField = document.createElement("div");
     metricField.className = "statewide-map-field";
     var metricLabelId = "map-metric-" + Math.random().toString(36).slice(2);
@@ -234,7 +291,9 @@
 
     var popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
     var layersAdded = false;
-    var currentCollection = null;
+    var rawCollection = null; // this vintage's fetched data, `years` arrays intact
+    var displayCollection = null; // flattenForYear(rawCollection, currentYear) — what's on the map
+    var currentYear = null;
     var currentMetricKey = "lean_dem_share";
 
     function diverging(min, center, max) {
@@ -291,7 +350,7 @@
         return;
       }
 
-      var values = currentCollection.features
+      var values = displayCollection.features
         .map(function (f) {
           return f.properties[metricKey];
         })
@@ -331,7 +390,7 @@
       var note = document.createElement("div");
       note.className = "statewide-map-legend-note";
       note.textContent =
-        "From each district's most recent election year, for that race's winner. Gray: no data for this district.";
+        "From the selected election year (" + currentYear + "), for that race's winner. Gray: no data for this district.";
       legend.innerHTML = "<strong>" + metric.label + ".</strong>";
       legend.appendChild(gradient);
       legend.appendChild(labels);
@@ -352,7 +411,7 @@
     }
 
     function addLayers() {
-      map.addSource("districts", { type: "geojson", data: currentCollection });
+      map.addSource("districts", { type: "geojson", data: displayCollection });
       map.addLayer({
         id: "districts-fill",
         type: "fill",
@@ -384,7 +443,7 @@
 
     function refreshMetricOptions() {
       var previous = currentMetricKey;
-      var available = availableMetrics(currentCollection);
+      var available = availableMetrics(displayCollection);
       metricSelect.innerHTML = "";
       available.forEach(function (m) {
         var opt = document.createElement("option");
@@ -399,14 +458,47 @@
       applyMetric(metricSelect.value);
     }
 
+    // Rebuilds the "Election year" dropdown from whatever years this
+    // vintage's own data actually covers (different vintages span
+    // different year ranges), keeping the previously-selected year if
+    // it's still valid — e.g. switching "Color districts by" doesn't
+    // touch the year — and otherwise defaulting to the most recent one.
+    function refreshYearOptions() {
+      var years = collectYears(rawCollection);
+      var previous = currentYear;
+      yearSelect.innerHTML = "";
+      years.forEach(function (y) {
+        var opt = document.createElement("option");
+        opt.value = String(y);
+        opt.textContent = String(y);
+        yearSelect.appendChild(opt);
+      });
+      currentYear = years.indexOf(previous) !== -1 ? previous : years[0];
+      yearSelect.value = String(currentYear);
+    }
+
+    // Applies `currentYear` to the map: re-flattens rawCollection for that
+    // year and pushes it to the already-added source (or seeds the
+    // initial displayCollection before layers exist yet). Geometry never
+    // changes on a year switch within the same vintage, so — unlike
+    // loadVintage — this never refits bounds.
+    function selectYear(year) {
+      currentYear = year;
+      displayCollection = flattenForYear(rawCollection, year);
+      if (layersAdded) map.getSource("districts").setData(displayCollection);
+      refreshMetricOptions();
+    }
+
     function loadVintage(vintage) {
       fetch(geoBase + chamber + "-" + vintage + "-all.geojson")
         .then(function (r) {
           if (!r.ok) throw new Error("HTTP " + r.status);
           return r.json();
         })
-        .then(function (collection) {
-          currentCollection = collection;
+        .then(function (raw) {
+          rawCollection = raw;
+          refreshYearOptions();
+          displayCollection = flattenForYear(rawCollection, currentYear);
           if (!layersAdded) {
             var tryAddLayers = (function () {
               var added = false;
@@ -434,10 +526,10 @@
             else map.once("style.load", tryAddLayers);
             setTimeout(tryAddLayers, 3000);
           } else {
-            map.getSource("districts").setData(collection);
+            map.getSource("districts").setData(displayCollection);
             refreshMetricOptions();
           }
-          var bounds = collectBounds(collection);
+          var bounds = collectBounds(rawCollection);
           if (bounds) map.fitBounds(bounds, { padding: 16, animate: false });
         })
         .catch(function (e) {
@@ -448,6 +540,9 @@
 
     vintageSelect.addEventListener("change", function () {
       loadVintage(vintageSelect.value);
+    });
+    yearSelect.addEventListener("change", function () {
+      selectYear(Number(yearSelect.value));
     });
     metricSelect.addEventListener("change", function () {
       applyMetric(metricSelect.value);

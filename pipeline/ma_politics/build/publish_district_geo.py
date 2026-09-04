@@ -71,31 +71,58 @@ def _combined_features(chamber: str, vintage: str, boundaries_dir: Path, records
     carries.
 
     Beyond lean/competitiveness (the map's default coloring), each feature
-    also carries its most recent year's winner's own WAR and WAR-component
+    also carries a `years` list — one entry per election year this vintage
+    has on record for that district, each with that year's own lean/
+    competitiveness and that year's winner's own WAR and WAR-component
     values (lean/tide/incumbency, plus demographics/fundraising wherever
     that specific race has them — see apply_war's own docstring for why
-    those two are sometimes null) and that year's turnout ratio — the
-    statewide map's own variable selector (site/assets/js/statewide-map.js)
-    lets a viewer recolor by any of these instead of just lean, e.g. "how
-    much did fundraising contribute to this district's most recent race."
-    Deliberately the *winner's* own component values, not an average across
-    every candidate in the race — "how did the person who actually won
-    perform on this factor" is the more legible statewide-map question, and
-    matches what a district/candidate page's own attribution chart already
-    shows for that same race's winner."""
+    those two are sometimes null) and turnout ratio — the statewide map's
+    own variable selector (site/assets/js/statewide-map.js) lets a viewer
+    recolor by any of these instead of just lean, and its election-year
+    selector (dependent on which vintage is loaded, since different
+    vintages cover different year ranges) switches which year's `years`
+    entry is actually displayed. The top-level (non-`years`) fields mirror
+    the most recent year's own entry, so a consumer that doesn't care about
+    the year selector (or a fresh page load, before any year is chosen)
+    still gets sensible defaults without needing to index into `years`
+    itself. Deliberately the *winner's* own component values, not an
+    average across every candidate in the race — "how did the person who
+    actually won perform on this factor" is the more legible statewide-map
+    question, and matches what a district/candidate page's own attribution
+    chart already shows for that same race's winner."""
     gdf = load_district_vintage(boundaries_dir, chamber, vintage)
     gdf = gdf.to_crs(4326)
     gdf["geometry"] = gdf.geometry.simplify(SIMPLIFY_TOLERANCE_DEG, preserve_topology=True)
 
     by_name = {d["district_name"]: d for d in records}
 
+    def _year_props(entry: dict) -> dict:
+        winner = next((c for c in entry["candidates"] if c["winner"]), None)
+        return {
+            "year": entry["year"],
+            "lean_dem_share": entry["lean_dem_share"],
+            "competitiveness": entry["competitiveness"],
+            "competitiveness_label": entry["competitiveness_label"],
+            "party_favored": entry["party_favored"],
+            "is_uncontested": entry["is_uncontested"],
+            "turnout_ratio": entry["turnout_ratio"],
+            "winner_name": winner["name"] if winner else None,
+            "winner_party": winner["party"] if winner else None,
+            "winner_war": winner.get("war_resolved") if winner else None,
+            "winner_lean_component": winner.get("lean_component") if winner else None,
+            "winner_tide_component": winner.get("tide_component") if winner else None,
+            "winner_incumbency_adjustment": winner.get("incumbency_adjustment") if winner else None,
+            "winner_demographics_component": winner.get("demographics_component") if winner else None,
+            "winner_fundraising_component": winner.get("fundraising_component") if winner else None,
+        }
+
     features = []
     for _, row in gdf.iterrows():
         d = by_name.get(row["district_name"])
         if d is None:
             continue
-        latest = d["results_by_year"][0] if d["results_by_year"] else None
-        winner = next((c for c in latest["candidates"] if c["winner"]), None) if latest else None
+        years = [_year_props(entry) for entry in d["results_by_year"]]
+        latest = years[0] if years else {}
         features.append(
             {
                 "type": "Feature",
@@ -103,22 +130,10 @@ def _combined_features(chamber: str, vintage: str, boundaries_dir: Path, records
                     "district_name": d["district_name"],
                     "chamber": chamber,
                     "vintage": vintage,
-                    "lean_dem_share": d["lean_dem_share"],
-                    "competitiveness": d["competitiveness"],
-                    "competitiveness_label": d["competitiveness_label"],
-                    "party_favored": d["party_favored"],
                     "url": district_url(chamber, d["district_name"], vintage),
-                    "latest_year": latest["year"] if latest else None,
-                    "is_uncontested": latest["is_uncontested"] if latest else None,
-                    "turnout_ratio": latest["turnout_ratio"] if latest else None,
-                    "winner_name": winner["name"] if winner else None,
-                    "winner_party": winner["party"] if winner else None,
-                    "winner_war": winner.get("war_resolved") if winner else None,
-                    "winner_lean_component": winner.get("lean_component") if winner else None,
-                    "winner_tide_component": winner.get("tide_component") if winner else None,
-                    "winner_incumbency_adjustment": winner.get("incumbency_adjustment") if winner else None,
-                    "winner_demographics_component": winner.get("demographics_component") if winner else None,
-                    "winner_fundraising_component": winner.get("fundraising_component") if winner else None,
+                    "latest_year": latest.get("year"),
+                    "years": years,
+                    **{k: v for k, v in latest.items() if k != "year"},
                 },
                 "geometry": row.geometry.__geo_interface__,
             }

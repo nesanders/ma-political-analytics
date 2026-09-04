@@ -12,13 +12,16 @@ permalink: /map/
 # Statewide Map
 
 Every district at once. Use **Redistricting vintage** below each map to
-switch boundaries, and **Color districts by** to recolor from the default
-partisan lean to any district-level inferred variable this site
-computes — the most recent race's turnout, its winner's own
-over/underperformance (WAR), or how much district lean, statewide tide,
-incumbency, demographics, or campaign fundraising each contributed to
-that winner's *expected* vote share (the model's prediction — WAR itself
-is the leftover, unexplained by any of these, not a sum of them; see the
+switch boundaries, **Election year** (its own options depend on which
+vintage is selected, since each vintage covers a different span of
+general elections) to pick which specific race each district is shown
+for, and **Color districts by** to recolor from the default partisan lean
+to any district-level inferred variable this site computes for that
+race — turnout, the winner's own over/underperformance (WAR), or how much
+district lean, statewide tide, incumbency, demographics, or campaign
+fundraising each contributed to that winner's *expected* vote share (the
+model's prediction — WAR itself is the leftover, unexplained by any of
+these, not a sum of them; see the
 [methodology page]({{ '/methodology/' | relative_url }}) for how each is
 computed). Click a district to open its page.
 

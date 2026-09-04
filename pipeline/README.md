@@ -1576,3 +1576,52 @@ the current metric selection whenever it's still available in the new
 vintage's data — zero non-tile-related console errors throughout (the
 sandbox's pre-existing basemap-tile network restriction, unrelated to
 this feature, aside).
+
+**Follow-up fix — component labels were backwards.** Asked directly: "you
+labeled it 'Campaign fundraising's contribution to WAR,' but isn't WAR
+the residual? Aren't these coefficients the contribution to the vote
+share, which is separate from WAR?" Yes — confirmed against `apply_war`'s
+own arithmetic (`expected_share_resolved = intercept + lean_component +
+tide_component + incumbency_component + demographics_component +
+fundraising_component`, then `war_resolved = actual_two_party_share -
+expected_share_resolved`), the five component metrics had been mislabeled
+"X's contribution to WAR" when they're actually components of *expected*
+share, and WAR is defined as exactly what those components leave
+unexplained, not a quantity they sum to. Relabeled all five to "X's
+contribution to expected vote share," matching how `district.html`'s own
+attribution chart already frames these same components (as "Lean"/
+"Tide"/"Incumbency"/"Demographics"/"Fundraising," listed distinctly from
+"WAR (residual)") — the map's new labels had drifted from that existing,
+correct convention rather than reusing it. Fixed the same misstatement in
+the map page's own prose and in `statewide-map.js`'s inline comments.
+
+**Follow-up feature — an election-year selector, dependent on the vintage
+selector.** Asked directly: "You only added district vintage dropdown.
+Can we also add a race dropdown, dependent on vintage selection?" Each
+combined GeoJSON only ever carried its district's *most recent* year's
+data — switching **Election year** to look at an earlier race within the
+same vintage had no data to show. Fixed at the source: `_combined_
+features` now emits a `years` list per district (one entry per election
+year on record for that vintage — 5 for 2001-2010/2012-2020, 2 so far for
+2022-present — each with that year's own lean/competitiveness/turnout/
+winner-WAR-component values), keeping the existing top-level fields as a
+mirror of the latest year so any consumer that doesn't care about year
+selection still gets sensible defaults without indexing into `years`
+itself. `statewide-map.js` gained `flattenForYear(rawCollection, year)`,
+which re-projects one year's own `years` entry onto each feature's
+top-level properties client-side, producing the FeatureCollection that's
+actually pushed to the map's `districts` source — switching Election year
+just re-flattens and calls `setData()` (no new fetch, no bounds refit,
+since geometry never changes within one vintage); switching Redistricting
+vintage re-fetches as before, then repopulates the year dropdown from the
+new vintage's own `years` union (`collectYears`), keeping the previously-
+selected year only if it's still valid for the new range and otherwise
+defaulting to the most recent one. Verified live: switching Election year
+on a House map recolors districts to that specific year's own lean (a
+real, visible shift between 2024 and 2022 for districts whose result
+differed); switching Redistricting vintage from "2022-present" to
+"2001-2010" correctly reset the year options from `[2024, 2022]` to
+`[2010, 2008, 2006, 2004, 2002]` and re-rendered the older boundaries with
+2010's real, more Republican-favoring statewide pattern (matching that
+year's actual midterm result, not a stale copy of a different year) —
+zero console errors throughout.
