@@ -138,8 +138,30 @@
             if (url) window.location.href = withBaseUrl(url);
           });
         }
-        if (map.loaded()) addLayers();
-        else map.on("load", addLayers);
+        // Gated on the *style* being ready (sources/layers parsed), not
+        // the full "load" event (first visually-complete render, which
+        // waits on the basemap's own raster tiles finishing). Found
+        // live, real bug: this page renders two maps at once, both
+        // requesting tiles from the same three openstreetmap.org
+        // subdomains — with both maps competing for the browser's
+        // limited per-host connection pool, the second map's tile
+        // requests can stall indefinitely, and since "load" never fires
+        // without them, the district layer (which doesn't itself depend
+        // on the basemap) never got added at all: no zoom, no districts,
+        // nothing on screen. style.load has no such dependency. The
+        // timeout is defense-in-depth in case that assumption doesn't
+        // hold on some browser/version — either way, the district layer
+        // (the actual content) no longer depends on three tile servers
+        // answering fast enough across two competing map instances.
+        var addedLayers = false;
+        function tryAddLayers() {
+          if (addedLayers) return;
+          addedLayers = true;
+          addLayers();
+        }
+        if (map.isStyleLoaded()) tryAddLayers();
+        else map.once("style.load", tryAddLayers);
+        setTimeout(tryAddLayers, 3000);
       })
       .catch(function (e) {
         console.error("Statewide map: failed to load geometry", e);
