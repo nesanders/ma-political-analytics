@@ -52,13 +52,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 1.0267
+  primary_baseline_component_sd: 0.0048
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0254
-  primary_fundraising_component_sd: 0.0015
-  primary_expected_share: 0.9532
+  primary_fundraising_component: -0.0267
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -118,13 +118,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1653
-  primary_incumbency_component_sd: 0.1147
-  primary_fundraising_component: -0.081
-  primary_fundraising_component_sd: 0.0047
-  primary_expected_share: 1.063
+  primary_baseline_component: 0.9206
+  primary_baseline_component_sd: 0.0043
+  primary_incumbency_component: 0.1555
+  primary_incumbency_component_sd: 0.1079
+  primary_fundraising_component: -0.0762
+  primary_fundraising_component_sd: 0.0045
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -185,14 +185,14 @@ races:
   actual_primary_share: 0.4787
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.298
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0617
-  primary_fundraising_component_sd: 0.0036
-  primary_expected_share: 0.3736
-  primary_war: 0.1051
+  primary_fundraising_component: 0.0589
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 0.3569
+  primary_war: 0.1218
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

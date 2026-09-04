@@ -948,7 +948,32 @@ def apply_primary_war(
     as one combined bar rather than two on the attribution chart — see
     the candidate-page template for why), primary_incumbency_component,
     and, wherever a matched OCPF total supports it,
-    primary_fundraising_component."""
+    primary_fundraising_component.
+
+    Each candidate's raw prediction (fair_share + intercept + their own
+    incumbency/fundraising terms) is computed first, then every candidate
+    in that race is rescaled by one shared factor so the race's own
+    expected shares sum to exactly 1 — asked for directly, after an
+    uncontested incumbent's raw prediction was found live to read as high
+    as 132% (e.g. William N. Brownsberger, whose 132%-in-2018 case is what
+    prompted this), which is right but easy to misread as a data error: a
+    single candidate's own "expected share of this specific race's vote"
+    should top out at 100% by definition, whatever the raw model implies
+    about how strong an incumbent they are. Rescaling (not clamping) keeps
+    the relative signal intact — a candidate the raw model favors more
+    still ends up with a higher normalized share than one it favors less
+    — and the same shared factor is applied to every component
+    (baseline/incumbency/fundraising, and their SDs), so they still sum
+    exactly to the normalized expected share. The underlying regression
+    itself (fit_primary_war_model, and every coefficient shown on the
+    methodology page) is unchanged — only this application step, turning
+    those coefficients into one race's own predicted split, changed.
+
+    Skipped (falls back to the unnormalized raw values, same as before
+    this rescaling existed) only when some candidate in the race has no
+    raw prediction at all — an incumbent running in a year with no tide
+    data yet (2026, currently) — since a race missing one participant's
+    prediction has nothing valid to rescale against."""
     coefs = fit["coefficients"]
     ref = fit["reference_values"]
     b0, b0_sd = coefs["primary_intercept"]["posterior_mean"], coefs["primary_intercept"]["posterior_sd"]
@@ -991,6 +1016,8 @@ def apply_primary_war(
                 fair_share = 1.0 / p["n_candidates"]
                 baseline_component = fair_share + b0
 
+                # Pass 1: each candidate's own raw (unrescaled) prediction.
+                raw_by_slug: dict[str, dict | None] = {}
                 for c in p["candidates"]:
                     inc = 1.0 if c["is_incumbent"] else 0.0
                     if c["is_incumbent"] and own_tide is None:
@@ -999,19 +1026,7 @@ def apply_primary_war(
                         # function's own docstring / fit_primary_war_
                         # model's for why a missing tide isn't worked
                         # around rather than left null.
-                        c.update(
-                            fair_share=round(fair_share, 4),
-                            primary_baseline_component=None,
-                            primary_baseline_component_sd=None,
-                            primary_incumbency_component=None,
-                            primary_incumbency_component_sd=None,
-                            primary_fundraising_component=None,
-                            primary_fundraising_component_sd=None,
-                            primary_expected_share=None,
-                            primary_war=None,
-                            primary_war_sd=None,
-                            primary_war_factors=None,
-                        )
+                        raw_by_slug[c["slug"]] = None
                         continue
 
                     own_tide_for_calc = own_tide if own_tide is not None else 0.0
@@ -1033,19 +1048,58 @@ def apply_primary_war(
                         fundraising_component_sd = None
 
                     expected = baseline_component + incumbency_component + (fundraising_component or 0.0)
+                    raw_by_slug[c["slug"]] = dict(
+                        baseline=baseline_component,
+                        incumbency=incumbency_component,
+                        incumbency_sd=incumbency_component_sd,
+                        fundraising=fundraising_component,
+                        fundraising_sd=fundraising_component_sd,
+                        expected=expected,
+                        inc=inc,
+                    )
+
+                # Pass 2: one shared rescale factor per race — see this
+                # function's own docstring for why (and when skipped).
+                any_missing = any(v is None for v in raw_by_slug.values())
+                total_raw = None if any_missing else sum(v["expected"] for v in raw_by_slug.values())
+                factor = 1.0 if (any_missing or not total_raw) else 1.0 / total_raw
+
+                for c in p["candidates"]:
+                    r = raw_by_slug[c["slug"]]
+                    if r is None:
+                        c.update(
+                            fair_share=round(fair_share, 4),
+                            primary_baseline_component=None,
+                            primary_baseline_component_sd=None,
+                            primary_incumbency_component=None,
+                            primary_incumbency_component_sd=None,
+                            primary_fundraising_component=None,
+                            primary_fundraising_component_sd=None,
+                            primary_expected_share=None,
+                            primary_war=None,
+                            primary_war_sd=None,
+                            primary_war_factors=None,
+                        )
+                        continue
+
+                    fundraising_component = r["fundraising"] * factor if r["fundraising"] is not None else None
+                    fundraising_component_sd = (
+                        r["fundraising_sd"] * factor if r["fundraising_sd"] is not None else None
+                    )
+                    expected = r["expected"] * factor
 
                     factors = ["Equal share among candidates"]
-                    if inc:
+                    if r["inc"]:
                         factors.append("Incumbency (interacted with statewide tide and district lean)")
                     if fundraising_component is not None:
                         factors.append("Campaign fundraising")
 
                     c.update(
                         fair_share=round(fair_share, 4),
-                        primary_baseline_component=round(baseline_component, 4),
-                        primary_baseline_component_sd=round(b0_sd, 4),
-                        primary_incumbency_component=round(incumbency_component, 4),
-                        primary_incumbency_component_sd=round(incumbency_component_sd, 4),
+                        primary_baseline_component=round(r["baseline"] * factor, 4),
+                        primary_baseline_component_sd=round(b0_sd * factor, 4),
+                        primary_incumbency_component=round(r["incumbency"] * factor, 4),
+                        primary_incumbency_component_sd=round(r["incumbency_sd"] * factor, 4),
                         primary_fundraising_component=(
                             round(fundraising_component, 4) if fundraising_component is not None else None
                         ),

@@ -14,14 +14,14 @@ races:
   actual_primary_share: 0.0752
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3085
+  primary_baseline_component_sd: 0.0045
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0296
+  primary_fundraising_component: -0.0293
   primary_fundraising_component_sd: 0.0017
-  primary_expected_share: 0.2823
-  primary_war: -0.2071
+  primary_expected_share: 0.2792
+  primary_war: -0.204
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -80,13 +80,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1654
-  primary_incumbency_component_sd: 0.0991
-  primary_fundraising_component: 0.0365
-  primary_fundraising_component_sd: 0.0021
-  primary_expected_share: 1.1804
+  primary_baseline_component: 0.829
+  primary_baseline_component_sd: 0.0039
+  primary_incumbency_component: 0.1401
+  primary_incumbency_component_sd: 0.0839
+  primary_fundraising_component: 0.0309
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -147,14 +147,14 @@ races:
   actual_primary_share: 0.5589
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.5094
+  primary_baseline_component_sd: 0.0049
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0218
-  primary_fundraising_component_sd: 0.0013
-  primary_expected_share: 0.4568
-  primary_war: 0.1021
+  primary_fundraising_component: -0.0232
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 0.4862
+  primary_war: 0.0727
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

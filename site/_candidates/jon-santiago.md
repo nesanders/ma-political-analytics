@@ -52,13 +52,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.9266
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0775
-  primary_fundraising_component_sd: 0.0045
-  primary_expected_share: 1.0561
+  primary_fundraising_component: 0.0734
+  primary_fundraising_component_sd: 0.0043
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -118,13 +118,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.189
-  primary_incumbency_component_sd: 0.1209
-  primary_fundraising_component: 0.09
-  primary_fundraising_component_sd: 0.0053
-  primary_expected_share: 1.2576
+  primary_baseline_component: 0.7782
+  primary_baseline_component_sd: 0.0037
+  primary_incumbency_component: 0.1503
+  primary_incumbency_component_sd: 0.0961
+  primary_fundraising_component: 0.0716
+  primary_fundraising_component_sd: 0.0042
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -185,14 +185,14 @@ races:
   actual_primary_share: 0.4803
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.2597
+  primary_baseline_component_sd: 0.0038
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0494
-  primary_fundraising_component_sd: 0.0029
-  primary_expected_share: 0.3613
-  primary_war: 0.119
+  primary_fundraising_component: 0.0411
+  primary_fundraising_component_sd: 0.0024
+  primary_expected_share: 0.3008
+  primary_war: 0.1795
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

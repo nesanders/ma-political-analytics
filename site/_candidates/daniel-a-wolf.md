@@ -51,13 +51,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1762
-  primary_incumbency_component_sd: 0.1015
-  primary_fundraising_component: 0.0705
-  primary_fundraising_component_sd: 0.0041
-  primary_expected_share: 1.2253
+  primary_baseline_component: 0.7987
+  primary_baseline_component_sd: 0.0038
+  primary_incumbency_component: 0.1438
+  primary_incumbency_component_sd: 0.0828
+  primary_fundraising_component: 0.0575
+  primary_fundraising_component_sd: 0.0034
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -118,13 +118,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.9403
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0622
-  primary_fundraising_component_sd: 0.0036
-  primary_expected_share: 1.0408
+  primary_fundraising_component: 0.0597
+  primary_fundraising_component_sd: 0.0035
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -184,14 +184,14 @@ races:
   actual_primary_share: 0.6536
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.4428
+  primary_baseline_component_sd: 0.0043
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.1236
-  primary_fundraising_component_sd: 0.0072
-  primary_expected_share: 0.6022
-  primary_war: 0.0514
+  primary_fundraising_component: 0.1143
+  primary_fundraising_component_sd: 0.0067
+  primary_expected_share: 0.5572
+  primary_war: 0.0964
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

@@ -14,14 +14,14 @@ races:
   actual_primary_share: 0.3391
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.5326
+  primary_baseline_component_sd: 0.0051
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0916
-  primary_fundraising_component_sd: 0.0054
-  primary_expected_share: 0.387
-  primary_war: -0.0479
+  primary_fundraising_component: -0.1019
+  primary_fundraising_component_sd: 0.006
+  primary_expected_share: 0.4306
+  primary_war: -0.0915
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -80,13 +80,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1983
-  primary_incumbency_component_sd: 0.1111
-  primary_fundraising_component: -0.0083
-  primary_fundraising_component_sd: 0.0005
-  primary_expected_share: 1.1685
+  primary_baseline_component: 0.8375
+  primary_baseline_component_sd: 0.0039
+  primary_incumbency_component: 0.1697
+  primary_incumbency_component_sd: 0.095
+  primary_fundraising_component: -0.0071
+  primary_fundraising_component_sd: 0.0004
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -147,13 +147,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1841
-  primary_incumbency_component_sd: 0.1159
-  primary_fundraising_component: -0.0051
+  primary_baseline_component: 0.8454
+  primary_baseline_component_sd: 0.004
+  primary_incumbency_component: 0.1591
+  primary_incumbency_component_sd: 0.1001
+  primary_fundraising_component: -0.0044
   primary_fundraising_component_sd: 0.0003
-  primary_expected_share: 1.1576
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -214,13 +214,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1871
-  primary_incumbency_component_sd: 0.1148
-  primary_fundraising_component: 0.0294
-  primary_fundraising_component_sd: 0.0017
-  primary_expected_share: 1.1951
+  primary_baseline_component: 0.8189
+  primary_baseline_component_sd: 0.0038
+  primary_incumbency_component: 0.1566
+  primary_incumbency_component_sd: 0.0961
+  primary_fundraising_component: 0.0246
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -281,13 +281,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1848
-  primary_incumbency_component_sd: 0.1156
-  primary_fundraising_component: 0.0151
-  primary_fundraising_component_sd: 0.0009
-  primary_expected_share: 1.1785
+  primary_baseline_component: 0.8304
+  primary_baseline_component_sd: 0.0039
+  primary_incumbency_component: 0.1568
+  primary_incumbency_component_sd: 0.0981
+  primary_fundraising_component: 0.0128
+  primary_fundraising_component_sd: 0.0007
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -348,13 +348,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
+  primary_baseline_component: 0.9843
   primary_baseline_component_sd: 0.0046
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0156
+  primary_fundraising_component: 0.0157
   primary_fundraising_component_sd: 0.0009
-  primary_expected_share: 0.9942
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:

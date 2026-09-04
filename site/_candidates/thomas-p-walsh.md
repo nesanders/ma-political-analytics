@@ -52,13 +52,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1588
-  primary_incumbency_component_sd: 0.1094
-  primary_fundraising_component: -0.0054
+  primary_baseline_component: 0.8645
+  primary_baseline_component_sd: 0.0041
+  primary_incumbency_component: 0.1403
+  primary_incumbency_component_sd: 0.0966
+  primary_fundraising_component: -0.0048
   primary_fundraising_component_sd: 0.0003
-  primary_expected_share: 1.132
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -120,13 +120,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 1.1027
+  primary_baseline_component_sd: 0.0052
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0912
-  primary_fundraising_component_sd: 0.0053
-  primary_expected_share: 0.8874
+  primary_fundraising_component: -0.1027
+  primary_fundraising_component_sd: 0.006
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -186,13 +186,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1401
-  primary_incumbency_component_sd: 0.1091
-  primary_fundraising_component: 0.0362
-  primary_fundraising_component_sd: 0.0021
-  primary_expected_share: 1.1549
+  primary_baseline_component: 0.8473
+  primary_baseline_component_sd: 0.004
+  primary_incumbency_component: 0.1213
+  primary_incumbency_component_sd: 0.0945
+  primary_fundraising_component: 0.0313
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -253,13 +253,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1898
-  primary_incumbency_component_sd: 0.0928
-  primary_fundraising_component: -0.0271
-  primary_fundraising_component_sd: 0.0016
-  primary_expected_share: 1.1413
+  primary_baseline_component: 0.8575
+  primary_baseline_component_sd: 0.004
+  primary_incumbency_component: 0.1663
+  primary_incumbency_component_sd: 0.0813
+  primary_fundraising_component: -0.0237
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -320,13 +320,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.9552
+  primary_baseline_component_sd: 0.0045
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0459
-  primary_fundraising_component_sd: 0.0027
-  primary_expected_share: 1.0245
+  primary_fundraising_component: 0.0448
+  primary_fundraising_component_sd: 0.0026
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -349,14 +349,14 @@ races:
   actual_primary_share: 0.6267
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3493
+  primary_baseline_component_sd: 0.0052
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0459
-  primary_fundraising_component_sd: 0.0027
-  primary_expected_share: 0.3578
-  primary_war: 0.2689
+  primary_fundraising_component: 0.0514
+  primary_fundraising_component_sd: 0.003
+  primary_expected_share: 0.4007
+  primary_war: 0.226
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

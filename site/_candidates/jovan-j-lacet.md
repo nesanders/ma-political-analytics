@@ -14,14 +14,14 @@ races:
   actual_primary_share: 0.3052
   fair_share: 0.25
   n_candidates: 4
-  primary_baseline_component: 0.2286
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.2367
+  primary_baseline_component_sd: 0.0048
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0259
-  primary_fundraising_component_sd: 0.0015
-  primary_expected_share: 0.2545
-  primary_war: 0.0507
+  primary_fundraising_component: 0.0269
+  primary_fundraising_component_sd: 0.0016
+  primary_expected_share: 0.2636
+  primary_war: 0.0416
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -43,14 +43,14 @@ races:
   actual_primary_share: 0.4696
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3846
+  primary_baseline_component_sd: 0.0037
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0137
-  primary_fundraising_component_sd: 0.0008
-  primary_expected_share: 0.4649
-  primary_war: 0.0047
+  primary_fundraising_component: -0.011
+  primary_fundraising_component_sd: 0.0006
+  primary_expected_share: 0.3736
+  primary_war: 0.096
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -72,14 +72,14 @@ races:
   actual_primary_share: 0.3495
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3014
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0141
+  primary_fundraising_component: -0.0136
   primary_fundraising_component_sd: 0.0008
-  primary_expected_share: 0.2978
-  primary_war: 0.0517
+  primary_expected_share: 0.2878
+  primary_war: 0.0617
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

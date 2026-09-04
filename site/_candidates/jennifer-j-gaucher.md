@@ -14,14 +14,14 @@ races:
   actual_primary_share: 0.2195
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3837
+  primary_baseline_component_sd: 0.0057
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0437
-  primary_fundraising_component_sd: 0.0026
-  primary_expected_share: 0.2682
-  primary_war: -0.0487
+  primary_fundraising_component: -0.0538
+  primary_fundraising_component_sd: 0.0031
+  primary_expected_share: 0.3299
+  primary_war: -0.1104
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -80,13 +80,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 1.1888
+  primary_baseline_component_sd: 0.0056
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.1554
-  primary_fundraising_component_sd: 0.0091
-  primary_expected_share: 0.8232
+  primary_fundraising_component: -0.1888
+  primary_fundraising_component_sd: 0.011
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:

@@ -136,14 +136,14 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 0.4087
+    primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0204
-    primary_fundraising_component_sd: 0.0012
-    primary_expected_share: 0.499
-    primary_war: 0.0911
+    primary_fundraising_component: 0.0174
+    primary_fundraising_component_sd: 0.001
+    primary_expected_share: 0.4261
+    primary_war: 0.164
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
@@ -157,14 +157,14 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 0.5
-    primary_baseline_component: 0.4786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.1936
-    primary_incumbency_component_sd: 0.0964
+    primary_baseline_component: 0.4087
+    primary_baseline_component_sd: 0.0039
+    primary_incumbency_component: 0.1653
+    primary_incumbency_component_sd: 0.0823
     primary_fundraising_component: null
     primary_fundraising_component_sd: null
-    primary_expected_share: 0.6722
-    primary_war: -0.2623
+    primary_expected_share: 0.5739
+    primary_war: -0.164
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
@@ -184,13 +184,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 1.0
+    primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
     primary_fundraising_component: null
     primary_fundraising_component_sd: null
-    primary_expected_share: 0.9786
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:

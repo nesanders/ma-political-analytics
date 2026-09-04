@@ -487,17 +487,38 @@ term should be read as a precise estimate on its own.
 
 <div id="primary-war-fit-scatter" role="img" aria-label="Scatter plot of the primary regression's expected share against each candidate's actual share, colored by party"></div>
 
+**Every candidate's raw prediction above is rescaled by one shared,
+race-level factor so that race's own candidates' expected shares sum to
+exactly 1** — a real second step, not just how the numbers happen to come
+out. Fit directly, an uncontested incumbent's raw prediction (fair share
+already at 100%, plus a real positive incumbency effect on top) can read
+well above 100%, which is right in what it's measuring but easy to misread
+as a data error for a single candidate's own "share of this race's vote."
+Rescaling every candidate in the race by the same factor — `1 ÷ (sum of
+their raw predictions)` — fixes that without discarding the signal: a
+candidate the raw model favors more still ends up with a higher normalized
+share than one it favors less, and for a genuinely uncontested race (one
+candidate, nothing to rescale against but themselves) it always lands
+exactly at 100%, matching the only possible actual result. The regression
+itself, and every coefficient shown above, is unchanged — only this last
+step, turning those coefficients into one specific race's predicted split,
+is new.
+
 On a candidate, district, or seat page's attribution chart, a primary's
-**Baseline** bar combines its equal fair share and this fitted intercept
-into one slice (rather than two, the way the general model keeps Baseline
-and Lean separate), since a primary has no separate lean term to isolate;
-**Incumbency** already carries both interaction terms combined;
-**Fundraising** and **WAR (residual)** work the same way as the general
-model's own bars, centered the same mean-log-dollar way described above.
-A primary has no Lean, Statewide tide, or Demographics slice of its own —
-a primary bar sits beside that year's general bar at reduced opacity, and
-a special-election primary's bar gets a dashed outline (see a candidate
-page's own chart legend).
+**Baseline** bar combines its (rescaled) equal fair share and fitted
+intercept into one slice (rather than two, the way the general model
+keeps Baseline and Lean separate), since a primary has no separate lean
+term to isolate; **Incumbency** already carries both interaction terms
+combined; **Fundraising** and **WAR (residual)** work the same way as the
+general model's own bars, centered the same mean-log-dollar way described
+above, with the same rescale factor applied to every component so they
+still sum exactly to the (rescaled) expected share. A primary has no
+Lean, Statewide tide, or Demographics slice of its own — a primary's bar
+sits beside that year's general bar, labeled directly above it ("General,"
+"Primary," or "Special" for a special-election primary) rather than via a
+legend, since two legend-based approaches tried first (shading, then a
+bordered outline) each turned out to have a real rendering gap at legend
+scale.
 
 **Special elections are included here; generals are not, yet.** PD43+
 posts a special election's own primary and general separately, same as a
@@ -516,15 +537,15 @@ their own row), so extending special elections there was the unambiguous
 first step; extending the general model to handle two same-year generals
 per district remains a real gap this site hasn't closed.
 
-**A known, accepted limitation**: because excess share has no natural
-0-100% bound the way a two-party share does, an uncontested incumbent's
-`primary_expected_share` can come out **above 100%** (the fitted
-intercept and incumbency terms simply add on top of an already-100%
-uncontested fair share) — visible directly on a candidate page's Races
-table. This is the same category of simplification as the general
-model's own uncontested-race WAR inflation (see "WAR (wins above
-replacement)" above): documented here rather than artificially capped,
-since capping it would hide, not fix, the real reason it happens.
+**One consequence of rescaling, worth naming**: a candidate's own
+`primary_expected_share` is now specific to who else was in that
+particular race, not a portable, standalone quantity — the same raw
+prediction for a given incumbent rescales differently depending on how
+many opponents they had and how the model favored each of them. That's
+the intended behavior (a "share of this race's vote" only means anything
+relative to that race's own field), but it's a real change from the
+general model's `expected_share_resolved`, which is computed the same way
+regardless of the specific opponent a candidate happened to face.
 
 ## Turnout
 

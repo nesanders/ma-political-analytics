@@ -51,13 +51,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.2002
-  primary_incumbency_component_sd: 0.1185
-  primary_fundraising_component: 0.1175
-  primary_fundraising_component_sd: 0.0069
-  primary_expected_share: 1.2963
+  primary_baseline_component: 0.7549
+  primary_baseline_component_sd: 0.0035
+  primary_incumbency_component: 0.1544
+  primary_incumbency_component_sd: 0.0914
+  primary_fundraising_component: 0.0906
+  primary_fundraising_component_sd: 0.0053
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -118,13 +118,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1979
-  primary_incumbency_component_sd: 0.1193
-  primary_fundraising_component: 0.1071
-  primary_fundraising_component_sd: 0.0063
-  primary_expected_share: 1.2835
+  primary_baseline_component: 0.7624
+  primary_baseline_component_sd: 0.0036
+  primary_incumbency_component: 0.1542
+  primary_incumbency_component_sd: 0.093
+  primary_fundraising_component: 0.0834
+  primary_fundraising_component_sd: 0.0049
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -185,13 +185,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.9147
+  primary_baseline_component_sd: 0.0043
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0913
-  primary_fundraising_component_sd: 0.0053
-  primary_expected_share: 1.0699
+  primary_fundraising_component: 0.0853
+  primary_fundraising_component_sd: 0.005
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:

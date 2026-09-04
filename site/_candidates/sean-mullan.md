@@ -14,14 +14,14 @@ races:
   actual_primary_share: 0.1396
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
+  primary_baseline_component: 0.3116
   primary_baseline_component_sd: 0.0046
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0152
+  primary_fundraising_component: 0.0151
   primary_fundraising_component_sd: 0.0009
-  primary_expected_share: 0.3271
-  primary_war: -0.1875
+  primary_expected_share: 0.3268
+  primary_war: -0.1872
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

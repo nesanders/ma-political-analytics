@@ -52,13 +52,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1771
-  primary_incumbency_component_sd: 0.1138
-  primary_fundraising_component: -0.0011
+  primary_baseline_component: 0.8475
+  primary_baseline_component_sd: 0.004
+  primary_incumbency_component: 0.1534
+  primary_incumbency_component_sd: 0.0986
+  primary_fundraising_component: -0.0009
   primary_fundraising_component_sd: 0.0001
-  primary_expected_share: 1.1546
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -120,14 +120,14 @@ races:
   actual_primary_share: 0.5135
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.4611
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0392
-  primary_fundraising_component_sd: 0.0023
-  primary_expected_share: 0.5178
-  primary_war: -0.0043
+  primary_fundraising_component: 0.0377
+  primary_fundraising_component_sd: 0.0022
+  primary_expected_share: 0.4988
+  primary_war: 0.0147
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -149,14 +149,14 @@ races:
   actual_primary_share: 0.2021
   fair_share: 0.2
   n_candidates: 5
-  primary_baseline_component: 0.1786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.1694
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.025
-  primary_fundraising_component_sd: 0.0015
-  primary_expected_share: 0.2036
-  primary_war: -0.0015
+  primary_fundraising_component: 0.0237
+  primary_fundraising_component_sd: 0.0014
+  primary_expected_share: 0.1931
+  primary_war: 0.009
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

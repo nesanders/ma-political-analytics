@@ -51,14 +51,14 @@ races:
   actual_primary_share: 0.4446
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.3119
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.3685
+  primary_baseline_component_sd: 0.0054
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0051
+  primary_fundraising_component: 0.006
   primary_fundraising_component_sd: 0.0003
-  primary_expected_share: 0.317
-  primary_war: 0.1276
+  primary_expected_share: 0.3744
+  primary_war: 0.0702
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -80,14 +80,14 @@ races:
   actual_primary_share: 0.3787
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.4434
+  primary_baseline_component_sd: 0.0043
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0671
-  primary_fundraising_component_sd: 0.0039
-  primary_expected_share: 0.4115
-  primary_war: -0.0328
+  primary_fundraising_component: -0.0621
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 0.3813
+  primary_war: -0.0026
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
@@ -109,14 +109,14 @@ races:
   actual_primary_share: 0.2447
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.4315
+  primary_baseline_component_sd: 0.0041
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0333
-  primary_fundraising_component_sd: 0.0019
-  primary_expected_share: 0.4453
-  primary_war: -0.2006
+  primary_fundraising_component: -0.03
+  primary_fundraising_component_sd: 0.0018
+  primary_expected_share: 0.4015
+  primary_war: -0.1568
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

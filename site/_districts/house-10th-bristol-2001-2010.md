@@ -317,13 +317,13 @@ primaries:
     is_incumbent: true
     incumbent_terms: 4
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.1725
-    primary_incumbency_component_sd: 0.1044
-    primary_fundraising_component: 0.0222
-    primary_fundraising_component_sd: 0.0013
-    primary_expected_share: 1.1733
+    primary_baseline_component: 0.8341
+    primary_baseline_component_sd: 0.0039
+    primary_incumbency_component: 0.147
+    primary_incumbency_component_sd: 0.0889
+    primary_fundraising_component: 0.019
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -345,13 +345,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 1.015
+    primary_baseline_component_sd: 0.0048
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0145
-    primary_fundraising_component_sd: 0.0008
-    primary_expected_share: 0.9641
+    primary_fundraising_component: -0.015
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -372,13 +372,13 @@ primaries:
     is_incumbent: true
     incumbent_terms: 3
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.1583
-    primary_incumbency_component_sd: 0.1095
-    primary_fundraising_component: 0.0015
+    primary_baseline_component: 0.8596
+    primary_baseline_component_sd: 0.004
+    primary_incumbency_component: 0.1391
+    primary_incumbency_component_sd: 0.0962
+    primary_fundraising_component: 0.0013
     primary_fundraising_component_sd: 0.0001
-    primary_expected_share: 1.1385
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -400,13 +400,13 @@ primaries:
     is_incumbent: true
     incumbent_terms: 2
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.1613
-    primary_incumbency_component_sd: 0.1083
-    primary_fundraising_component: 0.0174
-    primary_fundraising_component_sd: 0.001
-    primary_expected_share: 1.1573
+    primary_baseline_component: 0.8456
+    primary_baseline_component_sd: 0.004
+    primary_incumbency_component: 0.1394
+    primary_incumbency_component_sd: 0.0936
+    primary_fundraising_component: 0.015
+    primary_fundraising_component_sd: 0.0009
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -428,13 +428,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 1.0285
+    primary_baseline_component_sd: 0.0048
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0271
-    primary_fundraising_component_sd: 0.0016
-    primary_expected_share: 0.9515
+    primary_fundraising_component: -0.0285
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -455,13 +455,13 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.159
-    primary_incumbency_component_sd: 0.1092
-    primary_fundraising_component: 0.034
-    primary_fundraising_component_sd: 0.002
-    primary_expected_share: 1.1716
+    primary_baseline_component: 0.8353
+    primary_baseline_component_sd: 0.0039
+    primary_incumbency_component: 0.1357
+    primary_incumbency_component_sd: 0.0932
+    primary_fundraising_component: 0.029
+    primary_fundraising_component_sd: 0.0017
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -483,14 +483,14 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 0.4924
+    primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0204
+    primary_fundraising_component: 0.021
     primary_fundraising_component_sd: 0.0012
-    primary_expected_share: 0.499
-    primary_war: 0.0128
+    primary_expected_share: 0.5135
+    primary_war: -0.0017
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
@@ -504,14 +504,14 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 0.4924
+    primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0058
+    primary_fundraising_component: -0.0059
     primary_fundraising_component_sd: 0.0003
-    primary_expected_share: 0.4728
-    primary_war: 0.0154
+    primary_expected_share: 0.4865
+    primary_war: 0.0017
     primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
@@ -531,13 +531,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 1.0186
+    primary_baseline_component_sd: 0.0048
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0178
-    primary_fundraising_component_sd: 0.001
-    primary_expected_share: 0.9608
+    primary_fundraising_component: -0.0186
+    primary_fundraising_component_sd: 0.0011
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:

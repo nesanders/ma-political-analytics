@@ -52,13 +52,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
-  primary_incumbency_component: 0.1884
-  primary_incumbency_component_sd: 0.1168
-  primary_fundraising_component: 0.0754
-  primary_fundraising_component_sd: 0.0044
-  primary_expected_share: 1.2424
+  primary_baseline_component: 0.7876
+  primary_baseline_component_sd: 0.0037
+  primary_incumbency_component: 0.1517
+  primary_incumbency_component_sd: 0.094
+  primary_fundraising_component: 0.0607
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -120,13 +120,13 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9786
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.9346
+  primary_baseline_component_sd: 0.0044
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0685
-  primary_fundraising_component_sd: 0.004
-  primary_expected_share: 1.0471
+  primary_fundraising_component: 0.0654
+  primary_fundraising_component_sd: 0.0038
+  primary_expected_share: 1.0
   primary_war: null
   primary_war_sd: null
   primary_war_factors:
@@ -149,14 +149,14 @@ races:
   actual_primary_share: 0.1461
   fair_share: 0.1429
   n_candidates: 7
-  primary_baseline_component: 0.1215
-  primary_baseline_component_sd: 0.0046
+  primary_baseline_component: 0.1065
+  primary_baseline_component_sd: 0.004
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0694
-  primary_fundraising_component_sd: 0.0041
-  primary_expected_share: 0.1909
-  primary_war: -0.0448
+  primary_fundraising_component: 0.0609
+  primary_fundraising_component_sd: 0.0036
+  primary_expected_share: 0.1674
+  primary_war: -0.0213
   primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates

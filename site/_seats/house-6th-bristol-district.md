@@ -111,13 +111,13 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
-    primary_incumbency_component: 0.1563
-    primary_incumbency_component_sd: 0.1088
-    primary_fundraising_component: 0.0575
-    primary_fundraising_component_sd: 0.0034
-    primary_expected_share: 1.1924
+    primary_baseline_component: 0.8207
+    primary_baseline_component_sd: 0.0039
+    primary_incumbency_component: 0.1311
+    primary_incumbency_component_sd: 0.0912
+    primary_fundraising_component: 0.0482
+    primary_fundraising_component_sd: 0.0028
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -139,13 +139,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 0.9649
+    primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0356
+    primary_fundraising_component: 0.0351
     primary_fundraising_component_sd: 0.0021
-    primary_expected_share: 1.0142
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
@@ -166,13 +166,13 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9786
-    primary_baseline_component_sd: 0.0046
+    primary_baseline_component: 1.3619
+    primary_baseline_component_sd: 0.0064
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.2601
-    primary_fundraising_component_sd: 0.0152
-    primary_expected_share: 0.7185
+    primary_fundraising_component: -0.3619
+    primary_fundraising_component_sd: 0.0212
+    primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
     primary_war_factors:
