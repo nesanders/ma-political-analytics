@@ -33,27 +33,30 @@ results_by_year:
     war: -0.0618
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3896
-    lean_component_sd: 0.0183
-    tide_component: 0.0032
-    tide_component_sd: 0.0148
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3827
+    lean_component_sd: 0.0164
+    tide_component: -0.0093
+    tide_component_sd: 0.0131
+    approval_component: 0.1081
+    approval_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0106
-    fundraising_component_sd: 0.0008
+    fundraising_component: -0.0223
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.4652
-    war_resolved: 0.0675
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4391
+    war_resolved: 0.0936
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Barbara A. L'Italien
     slug: barbara-a-litalien
     party: Democratic
@@ -63,27 +66,30 @@ results_by_year:
     war: 0.0618
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3898
-    lean_component_sd: 0.0264
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3658
+    lean_component_sd: 0.0241
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0207
-    fundraising_component_sd: 0.0016
+    fundraising_component: 0.0223
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.582
-    war_resolved: -0.1147
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5573
+    war_resolved: -0.09
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5436
@@ -102,27 +108,30 @@ results_by_year:
     war: 0.0479
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3898
-    lean_component_sd: 0.0264
-    tide_component: 0.0063
-    tide_component_sd: 0.0343
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3658
+    lean_component_sd: 0.0241
+    tide_component: 0.0003
+    tide_component_sd: 0.0306
+    approval_component: 0.1474
+    approval_component_sd: 0.0154
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0154
-    fundraising_component_sd: 0.0012
+    fundraising_component: 0.0359
+    fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.5776
-    war_resolved: 0.0139
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.63
+    war_resolved: -0.0385
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -132,27 +141,30 @@ results_by_year:
     war: -0.0479
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3896
-    lean_component_sd: 0.0183
-    tide_component: 0.0025
-    tide_component_sd: 0.0117
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3827
+    lean_component_sd: 0.0164
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.0491
+    approval_component_sd: 0.0051
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0014
-    fundraising_component_sd: 0.0001
+    fundraising_component: -0.0359
+    fundraising_component_sd: 0.0018
     demographics_tier: null
-    expected_share_resolved: 0.4525
-    war_resolved: -0.044
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3685
+    war_resolved: 0.04
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.497
@@ -171,27 +183,30 @@ results_by_year:
     war: 0.095
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3898
-    lean_component_sd: 0.0264
-    tide_component: 0.0061
-    tide_component_sd: 0.0332
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3658
+    lean_component_sd: 0.0241
+    tide_component: 0.0002
+    tide_component_sd: 0.0296
+    approval_component: 0.1219
+    approval_component_sd: 0.0127
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0131
-    fundraising_component_sd: 0.001
+    fundraising_component: 0.0432
+    fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.5752
-    war_resolved: 0.0169
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6116
+    war_resolved: -0.0195
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Lawrence Brennan
     slug: lawrence-brennan
     party: Republican
@@ -201,27 +216,30 @@ results_by_year:
     war: -0.095
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3896
-    lean_component_sd: 0.0183
-    tide_component: 0.0026
-    tide_component_sd: 0.0124
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3827
+    lean_component_sd: 0.0164
+    tide_component: -0.0078
+    tide_component_sd: 0.011
+    approval_component: 0.0747
+    approval_component_sd: 0.0078
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0075
-    fundraising_component_sd: 0.0006
+    fundraising_component: -0.0432
+    fundraising_component_sd: 0.0022
     demographics_tier: null
-    expected_share_resolved: 0.4465
-    war_resolved: -0.0386
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3864
+    war_resolved: 0.0215
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5181
@@ -240,27 +258,30 @@ results_by_year:
     war: 0.0637
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3898
-    lean_component_sd: 0.0264
-    tide_component: 0.0063
-    tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3658
+    lean_component_sd: 0.0241
+    tide_component: 0.0003
+    tide_component_sd: 0.0303
+    approval_component: 0.1022
+    approval_component_sd: 0.0107
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0237
-    fundraising_component_sd: 0.0018
+    fundraising_component: 0.0372
+    fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.5859
-    war_resolved: -0.0042
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.586
+    war_resolved: -0.0043
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Maria Marasco
     slug: maria-marasco
     party: Republican
@@ -270,27 +291,30 @@ results_by_year:
     war: -0.0637
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3896
-    lean_component_sd: 0.0183
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3827
+    lean_component_sd: 0.0164
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.0944
+    approval_component_sd: 0.0098
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0063
-    fundraising_component_sd: 0.0005
+    fundraising_component: -0.0372
+    fundraising_component_sd: 0.0019
     demographics_tier: null
-    expected_share_resolved: 0.4603
-    war_resolved: -0.042
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4124
+    war_resolved: 0.0059
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3385
@@ -309,27 +333,30 @@ results_by_year:
     war: 0.1959
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3898
-    lean_component_sd: 0.0264
-    tide_component: 0.0047
-    tide_component_sd: 0.0258
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.3658
+    lean_component_sd: 0.0241
+    tide_component: 0.0002
+    tide_component_sd: 0.023
+    approval_component: 0.0727
+    approval_component_sd: 0.0076
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0153
-    fundraising_component_sd: 0.0011
+    fundraising_component: 0.0477
+    fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.5036
-    war_resolved: 0.0308
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5021
+    war_resolved: 0.0323
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Kathleen R. Sachs
     slug: kathleen-r-sachs
     party: Republican
@@ -339,27 +366,30 @@ results_by_year:
     war: -0.1959
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3896
-    lean_component_sd: 0.0183
-    tide_component: 0.0036
-    tide_component_sd: 0.0167
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3827
+    lean_component_sd: 0.0164
+    tide_component: -0.0106
+    tide_component_sd: 0.0148
+    approval_component: 0.1239
+    approval_component_sd: 0.0129
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0079
-    fundraising_component_sd: 0.0006
+    fundraising_component: -0.0477
+    fundraising_component_sd: 0.0024
     demographics_tier: null
-    expected_share_resolved: 0.4471
-    war_resolved: 0.0185
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.44
+    war_resolved: 0.0256
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Alfred J. Depietro
     slug: alfred-j-depietro
     party: Other
@@ -375,6 +405,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -439,7 +471,7 @@ primaries:
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 0.5287
     primary_war: 0.2046
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -456,11 +488,11 @@ primaries:
     primary_baseline_component_sd: 0.0048
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.023
+    primary_fundraising_component: -0.0229
     primary_fundraising_component_sd: 0.0013
     primary_expected_share: 0.4713
     primary_war: -0.2046
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -538,7 +570,7 @@ primaries:
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1268
     primary_incumbency_component_sd: 0.0905
-    primary_fundraising_component: 0.0325
+    primary_fundraising_component: 0.0326
     primary_fundraising_component_sd: 0.0019
     primary_expected_share: 1.0
     primary_war: null
@@ -652,7 +684,7 @@ primaries:
     primary_fundraising_component_sd: 0.0024
     primary_expected_share: 0.5109
     primary_war: 0.1542
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -673,7 +705,7 @@ primaries:
     primary_fundraising_component_sd: 0.0011
     primary_expected_share: 0.4891
     primary_war: -0.1542
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

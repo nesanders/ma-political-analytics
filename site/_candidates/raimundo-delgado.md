@@ -22,7 +22,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.4099
   primary_war: -0.2373
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -47,6 +47,8 @@ races:
   lean_component_sd: null
   tide_component: null
   tide_component_sd: null
+  approval_component: null
+  approval_component_sd: null
   incumbency_adjustment: null
   incumbency_adjustment_sd: null
   demographics_component: null

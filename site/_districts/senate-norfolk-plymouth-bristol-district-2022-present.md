@@ -30,25 +30,28 @@ results_by_year:
     war: 0.3926
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5171
-    lean_component_sd: 0.035
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.4853
+    lean_component_sd: 0.032
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
+    demographics_component: -0.0
     demographics_component_sd: 0.0012
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6181
+    expected_share_resolved: 0.6151
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: true
@@ -69,25 +72,28 @@ results_by_year:
     war: 0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5171
-    lean_component_sd: 0.035
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4853
+    lean_component_sd: 0.032
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
+    demographics_component: -0.0
     demographics_component_sd: 0.0012
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6182
-    war_resolved: 0.0431
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5799
+    war_resolved: 0.0814
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   - name: Brian R. Muello
@@ -99,25 +105,28 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.281
-    lean_component_sd: 0.0132
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.276
+    lean_component_sd: 0.0118
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
+    demographics_component: -0.0
     demographics_component_sd: 0.0012
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3461
-    war_resolved: -0.0074
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3786
+    war_resolved: -0.0399
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: null
@@ -145,7 +154,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3333
     primary_war: 0.1191
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Erin G. Bradley
@@ -165,7 +174,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3333
     primary_war: -0.0084
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Kathleen Crogan-Camara
@@ -185,7 +194,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3333
     primary_war: -0.1107
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
 - year: 2024
@@ -237,7 +246,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: 0.1052
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Kathleen Crogan-Camara
@@ -257,7 +266,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: -0.1052
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
 - year: 2022
@@ -289,6 +298,11 @@ primaries:
 demographics:
   median_household_income: 116202
   bachelors_degree_count: 30185
+  median_age: 41.1
+  occupied_housing_units: 59599
+  owner_occupied_housing_units: 45867
+  total_population_race: 169011
+  white_alone_not_hispanic_population: 115794
   total_population_acs: 169011
   acs_year: 2022
 vintage_options:

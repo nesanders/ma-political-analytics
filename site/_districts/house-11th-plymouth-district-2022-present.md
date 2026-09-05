@@ -30,29 +30,31 @@ results_by_year:
     war: 0.2796
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6094
-    lean_component_sd: 0.0413
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0104
-    demographics_component_sd: 0.0231
-    fundraising_component: -0.0062
-    fundraising_component_sd: 0.0005
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.572
+    lean_component_sd: 0.0377
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0102
+    demographics_component_sd: 0.0619
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7862
+    expected_share_resolved: 0.7436
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7195
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.2805
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6094
-    lean_component_sd: 0.0413
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.572
+    lean_component_sd: 0.0377
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0104
-    demographics_component_sd: 0.0231
-    fundraising_component: 0.0121
-    fundraising_component_sd: 0.0009
+    demographics_component: 0.0102
+    demographics_component_sd: 0.0619
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7322
+    expected_share_resolved: 0.6768
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Fred Fontaine
     slug: fred-fontaine
     party: Other
@@ -109,6 +113,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -145,7 +151,7 @@ primaries:
     primary_fundraising_component_sd: 0.0001
     primary_expected_share: 0.5955
     primary_war: 0.1924
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -163,11 +169,11 @@ primaries:
     primary_baseline_component_sd: 0.0041
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0192
+    primary_fundraising_component: -0.0191
     primary_fundraising_component_sd: 0.0011
     primary_expected_share: 0.4045
     primary_war: -0.1924
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -194,7 +200,7 @@ primaries:
     primary_fundraising_component_sd: 0.0022
     primary_expected_share: 0.3564
     primary_war: 0.3227
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -215,7 +221,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3194
     primary_war: -0.0471
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Fred Fontaine
@@ -235,7 +241,7 @@ primaries:
     primary_fundraising_component_sd: 0.0003
     primary_expected_share: 0.3242
     primary_war: -0.2756
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -245,6 +251,11 @@ demographics:
   hispanic_or_latino_population: 3438
   median_household_income: 65587
   bachelors_degree_count: 3635
+  median_age: 33.3
+  occupied_housing_units: 13920
+  owner_occupied_housing_units: 6210
+  total_population_race: 42378
+  white_alone_not_hispanic_population: 7271
   total_population_acs: 42378
   acs_year: 2022
 vintage_options:

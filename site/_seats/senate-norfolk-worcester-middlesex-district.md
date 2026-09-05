@@ -30,25 +30,28 @@ results_by_year:
     war: -0.0311
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5259
-    lean_component_sd: 0.0356
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0025
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4936
+    lean_component_sd: 0.0326
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0
     demographics_component_sd: 0.0034
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6958
-    war_resolved: -0.1068
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.655
+    war_resolved: -0.066
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   - name: Dashe M. Videira
@@ -60,25 +63,28 @@ results_by_year:
     war: 0.0311
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2735
-    lean_component_sd: 0.0129
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2686
+    lean_component_sd: 0.0115
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0025
+    demographics_component: 0.0
     demographics_component_sd: 0.0034
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3353
-    war_resolved: 0.0757
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3572
+    war_resolved: 0.0538
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: false
@@ -99,25 +105,28 @@ results_by_year:
     war: -0.0737
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5259
-    lean_component_sd: 0.0356
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4936
+    lean_component_sd: 0.0326
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0025
+    demographics_component: 0.0
     demographics_component_sd: 0.0034
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6236
-    war_resolved: -0.0749
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5882
+    war_resolved: -0.0395
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   - name: Shawn C. Dooley
@@ -129,25 +138,28 @@ results_by_year:
     war: 0.0737
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2735
-    lean_component_sd: 0.0129
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2686
+    lean_component_sd: 0.0115
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0025
+    demographics_component: 0.0
     demographics_component_sd: 0.0034
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3352
-    war_resolved: 0.1161
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3712
+    war_resolved: 0.0801
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
   is_open_seat: null
@@ -260,6 +272,11 @@ primaries:
 demographics:
   median_household_income: 138132
   bachelors_degree_count: 36208
+  median_age: 41.9
+  occupied_housing_units: 64140
+  owner_occupied_housing_units: 51818
+  total_population_race: 177174
+  white_alone_not_hispanic_population: 145575
   total_population_acs: 177174
   acs_year: 2022
 vintage_options:

@@ -30,29 +30,32 @@ results_by_year:
     war: 0.068
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5463
-    lean_component_sd: 0.037
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.004
-    demographics_component_sd: 0.0102
-    fundraising_component: 0.0233
-    fundraising_component_sd: 0.0017
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5127
+    lean_component_sd: 0.0338
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0049
+    demographics_component_sd: 0.032
+    fundraising_component: 0.0911
+    fundraising_component_sd: 0.0046
     demographics_tier: full
-    expected_share_resolved: 0.738
-    war_resolved: -0.0423
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7603
+    war_resolved: -0.0646
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.068
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2561
-    lean_component_sd: 0.0121
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2515
+    lean_component_sd: 0.0108
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.004
-    demographics_component_sd: 0.0102
-    fundraising_component: -0.0541
-    fundraising_component_sd: 0.0041
+    demographics_component: -0.0049
+    demographics_component_sd: 0.032
+    fundraising_component: -0.0911
+    fundraising_component_sd: 0.0046
     demographics_tier: full
-    expected_share_resolved: 0.2623
-    war_resolved: 0.042
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2441
+    war_resolved: 0.0602
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6629
@@ -103,29 +109,32 @@ results_by_year:
     war: 0.0431
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5463
-    lean_component_sd: 0.037
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5127
+    lean_component_sd: 0.0338
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.004
-    demographics_component_sd: 0.0102
-    fundraising_component: 0.0294
-    fundraising_component_sd: 0.0022
+    demographics_component: -0.0049
+    demographics_component_sd: 0.032
+    fundraising_component: 0.091
+    fundraising_component_sd: 0.0046
     demographics_tier: full
-    expected_share_resolved: 0.672
-    war_resolved: 0.0339
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6935
+    war_resolved: 0.0124
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Sharon Marie Cintolo
     slug: sharon-marie-cintolo
     party: Republican
@@ -135,29 +144,32 @@ results_by_year:
     war: -0.0431
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2561
-    lean_component_sd: 0.0121
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2515
+    lean_component_sd: 0.0108
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.004
-    demographics_component_sd: 0.0102
-    fundraising_component: -0.0474
-    fundraising_component_sd: 0.0036
+    demographics_component: -0.0049
+    demographics_component_sd: 0.032
+    fundraising_component: -0.091
+    fundraising_component_sd: 0.0046
     demographics_tier: full
-    expected_share_resolved: 0.2689
-    war_resolved: 0.0252
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2582
+    war_resolved: 0.0359
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -275,6 +287,11 @@ demographics:
   hispanic_or_latino_population: 2251
   median_household_income: 90460
   bachelors_degree_count: 9160
+  median_age: 38.6
+  occupied_housing_units: 19599
+  owner_occupied_housing_units: 9243
+  total_population_race: 44943
+  white_alone_not_hispanic_population: 26266
   total_population_acs: 44943
   acs_year: 2022
 vintage_options:

@@ -22,7 +22,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.2019
   primary_war: -0.1294
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -50,7 +50,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.4248
   primary_war: -0.0208
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -78,7 +78,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.2909
   primary_war: -0.1344
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -106,7 +106,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.4219
   primary_war: -0.1891
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -134,7 +134,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.3267
   primary_war: -0.2807
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false

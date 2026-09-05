@@ -30,28 +30,31 @@ results_by_year:
     war: 0.2921
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6004
-    lean_component_sd: 0.0407
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.5635
+    lean_component_sd: 0.0372
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0015
-    demographics_component_sd: 0.0087
+    demographics_component: -0.0021
+    demographics_component_sd: 0.0124
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.699
+    expected_share_resolved: 0.6913
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.711
@@ -70,29 +73,31 @@ results_by_year:
     war: 0.289
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6004
-    lean_component_sd: 0.0407
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5635
+    lean_component_sd: 0.0372
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0015
-    demographics_component_sd: 0.0087
-    fundraising_component: -0.0062
-    fundraising_component_sd: 0.0005
+    demographics_component: -0.0021
+    demographics_component_sd: 0.0124
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6931
+    expected_share_resolved: 0.656
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -118,7 +123,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: 0.0626
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Arielle Reid Faria
@@ -138,7 +143,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: -0.0626
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
 - year: 2024
@@ -182,11 +187,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9976
+    primary_baseline_component: 0.9975
     primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0024
+    primary_fundraising_component: 0.0025
     primary_fundraising_component_sd: 0.0001
     primary_expected_share: 1.0
     primary_war: null
@@ -200,6 +205,11 @@ demographics:
   hispanic_or_latino_population: 3188
   median_household_income: 97047
   bachelors_degree_count: 9585
+  median_age: 48.6
+  occupied_housing_units: 16608
+  owner_occupied_housing_units: 12174
+  total_population_race: 45149
+  white_alone_not_hispanic_population: 35646
   total_population_acs: 45149
   acs_year: 2022
 vintage_options:

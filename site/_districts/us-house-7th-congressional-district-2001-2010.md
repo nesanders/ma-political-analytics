@@ -33,25 +33,28 @@ results_by_year:
     war: 0.0931
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3758
-    lean_component_sd: 0.0948
-    tide_component: 0.0345
-    tide_component_sd: 0.0673
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4179
+    lean_component_sd: 0.0895
+    tide_component: 0.0314
+    tide_component_sd: 0.0634
+    approval_component: 0.1238
+    approval_component_sd: 0.0252
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7017
-    war_resolved: -0.0369
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6809
+    war_resolved: -0.0161
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Gerry Dembrowski
     slug: gerry-dembrowski
@@ -62,12 +65,14 @@ results_by_year:
     war: -0.0931
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1982
-    lean_component_sd: 0.0417
-    tide_component: -0.0031
-    tide_component_sd: 0.0362
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2241
+    lean_component_sd: 0.0394
+    tide_component: -0.0154
+    tide_component_sd: 0.0336
+    approval_component: 0.1513
+    approval_component_sd: 0.0307
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -75,12 +80,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3162
-    war_resolved: 0.019
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3244
+    war_resolved: 0.0108
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2008
@@ -100,25 +106,28 @@ results_by_year:
     war: 0.0964
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3758
-    lean_component_sd: 0.0948
-    tide_component: 0.0407
-    tide_component_sd: 0.0795
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4179
+    lean_component_sd: 0.0895
+    tide_component: 0.037
+    tide_component_sd: 0.0748
+    approval_component: 0.2063
+    approval_component_sd: 0.0419
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.708
-    war_resolved: 0.0495
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.7691
+    war_resolved: -0.0116
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: John Cunningham
     slug: john-cunningham
@@ -129,12 +138,14 @@ results_by_year:
     war: -0.0964
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1982
-    lean_component_sd: 0.0417
-    tide_component: -0.0024
-    tide_component_sd: 0.0287
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2241
+    lean_component_sd: 0.0394
+    tide_component: -0.0122
+    tide_component_sd: 0.0266
+    approval_component: 0.0688
+    approval_component_sd: 0.014
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -142,12 +153,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3169
-    war_resolved: -0.0744
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.245
+    war_resolved: -0.0025
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2006
@@ -167,25 +179,28 @@ results_by_year:
     war: 0.3796
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3758
-    lean_component_sd: 0.0948
-    tide_component: 0.0394
-    tide_component_sd: 0.0769
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4179
+    lean_component_sd: 0.0895
+    tide_component: 0.0358
+    tide_component_sd: 0.0724
+    approval_component: 0.1706
+    approval_component_sd: 0.0347
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7066
+    expected_share_resolved: 0.7322
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2004
@@ -205,25 +220,28 @@ results_by_year:
     war: 0.1043
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3758
-    lean_component_sd: 0.0948
-    tide_component: 0.0404
-    tide_component_sd: 0.0789
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4179
+    lean_component_sd: 0.0895
+    tide_component: 0.0368
+    tide_component_sd: 0.0742
+    approval_component: 0.1431
+    approval_component_sd: 0.0291
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7077
-    war_resolved: 0.0627
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.7056
+    war_resolved: 0.0648
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Kenneth G. Chase
     slug: kenneth-g-chase
@@ -234,12 +252,14 @@ results_by_year:
     war: -0.1043
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1982
-    lean_component_sd: 0.0417
-    tide_component: -0.0025
-    tide_component_sd: 0.0291
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2241
+    lean_component_sd: 0.0394
+    tide_component: -0.0123
+    tide_component_sd: 0.027
+    approval_component: 0.132
+    approval_component_sd: 0.0268
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -247,12 +267,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3168
-    war_resolved: -0.0872
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3082
+    war_resolved: -0.0786
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: James O. Hall
     slug: james-o-hall
@@ -269,6 +290,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -298,12 +321,14 @@ results_by_year:
     war: 0.5123
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3758
-    lean_component_sd: 0.0948
-    tide_component: 0.0306
-    tide_component_sd: 0.0597
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.4179
+    lean_component_sd: 0.0895
+    tide_component: 0.0278
+    tide_component_sd: 0.0561
+    approval_component: 0.1018
+    approval_component_sd: 0.0207
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -311,12 +336,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6628
+    expected_share_resolved: 0.64
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Daniel Melnechuk
     slug: daniel-melnechuk
@@ -333,6 +359,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null

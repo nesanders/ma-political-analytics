@@ -30,29 +30,32 @@ results_by_year:
     war: 0.0654
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4372
-    lean_component_sd: 0.0296
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.4103
+    lean_component_sd: 0.0271
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0093
-    fundraising_component: -0.0042
-    fundraising_component_sd: 0.0003
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0173
+    fundraising_component: 0.0953
+    fundraising_component_sd: 0.0048
     demographics_tier: full
-    expected_share_resolved: 0.5358
-    war_resolved: 0.0393
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6361
+    war_resolved: -0.061
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.0654
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3492
-    lean_component_sd: 0.0164
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.3429
+    lean_component_sd: 0.0147
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0093
-    fundraising_component: -0.12
-    fundraising_component_sd: 0.009
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0173
+    fundraising_component: -0.0953
+    fundraising_component_sd: 0.0048
     demographics_tier: full
-    expected_share_resolved: 0.2962
-    war_resolved: 0.1287
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3819
+    war_resolved: 0.043
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: George Hugh Ferdinand
     slug: george-hugh-ferdinand
     party: Other
@@ -100,6 +106,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -129,29 +137,32 @@ results_by_year:
     war: 0.0398
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4372
-    lean_component_sd: 0.0296
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4103
+    lean_component_sd: 0.0271
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0093
-    fundraising_component: -0.0489
-    fundraising_component_sd: 0.0037
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0173
+    fundraising_component: -0.0039
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.4913
-    war_resolved: 0.0717
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5016
+    war_resolved: 0.0614
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Paul Sarnowski
     slug: paul-sarnowski
     party: Republican
@@ -161,29 +172,32 @@ results_by_year:
     war: -0.0398
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3492
-    lean_component_sd: 0.0164
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3429
+    lean_component_sd: 0.0147
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0093
-    fundraising_component: -0.0472
-    fundraising_component_sd: 0.0035
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0173
+    fundraising_component: 0.0039
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.3689
-    war_resolved: 0.0681
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4501
+    war_resolved: -0.0131
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -201,11 +215,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9939
+    primary_baseline_component: 0.9938
     primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0061
+    primary_fundraising_component: 0.0062
     primary_fundraising_component_sd: 0.0004
     primary_expected_share: 1.0
     primary_war: null
@@ -228,11 +242,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.2693
+    primary_baseline_component: 1.2692
     primary_baseline_component_sd: 0.006
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.2693
+    primary_fundraising_component: -0.2692
     primary_fundraising_component_sd: 0.0158
     primary_expected_share: 1.0
     primary_war: null
@@ -300,6 +314,11 @@ demographics:
   hispanic_or_latino_population: 1481
   median_household_income: 133313
   bachelors_degree_count: 8442
+  median_age: 43.8
+  occupied_housing_units: 14912
+  owner_occupied_housing_units: 12947
+  total_population_race: 41287
+  white_alone_not_hispanic_population: 35853
   total_population_acs: 41287
   acs_year: 2022
 vintage_options:

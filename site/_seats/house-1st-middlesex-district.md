@@ -30,29 +30,32 @@ results_by_year:
     war: -0.0305
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4623
-    lean_component_sd: 0.0313
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0022
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.034
-    fundraising_component_sd: 0.0026
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4339
+    lean_component_sd: 0.0286
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0019
+    demographics_component_sd: 0.0156
+    fundraising_component: 0.0178
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.671
-    war_resolved: -0.1575
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.615
+    war_resolved: -0.1015
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: 0.0305
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3277
-    lean_component_sd: 0.0154
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3219
+    lean_component_sd: 0.0138
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0022
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.026
-    fundraising_component_sd: 0.002
+    demographics_component: 0.0019
+    demographics_component_sd: 0.0156
+    fundraising_component: -0.0178
+    fundraising_component_sd: 0.0009
     demographics_tier: full
-    expected_share_resolved: 0.4203
-    war_resolved: 0.0662
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3946
+    war_resolved: 0.0919
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -103,29 +109,32 @@ results_by_year:
     war: -0.0482
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4623
-    lean_component_sd: 0.0313
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4339
+    lean_component_sd: 0.0286
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0022
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.0208
-    fundraising_component_sd: 0.0016
+    demographics_component: 0.0019
+    demographics_component_sd: 0.0156
+    fundraising_component: -0.0034
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.5856
-    war_resolved: -0.0854
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5271
+    war_resolved: -0.0269
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -135,29 +144,32 @@ results_by_year:
     war: 0.0482
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3277
-    lean_component_sd: 0.0154
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3219
+    lean_component_sd: 0.0138
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0022
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.0223
-    fundraising_component_sd: 0.0017
+    demographics_component: 0.0019
+    demographics_component_sd: 0.0156
+    fundraising_component: 0.0034
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.4164
-    war_resolved: 0.0834
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4298
+    war_resolved: 0.07
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -173,6 +185,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -256,11 +270,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9495
+    primary_baseline_component: 0.9494
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0505
+    primary_fundraising_component: 0.0506
     primary_fundraising_component_sd: 0.003
     primary_expected_share: 1.0
     primary_war: null
@@ -283,7 +297,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4623
+    primary_baseline_component: 0.4622
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -291,7 +305,7 @@ primaries:
     primary_fundraising_component_sd: 0.0031
     primary_expected_share: 0.5152
     primary_war: -0.0063
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -304,7 +318,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4623
+    primary_baseline_component: 0.4622
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -312,7 +326,7 @@ primaries:
     primary_fundraising_component_sd: 0.0013
     primary_expected_share: 0.4848
     primary_war: 0.0063
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -322,6 +336,11 @@ demographics:
   hispanic_or_latino_population: 1723
   median_household_income: 121970
   bachelors_degree_count: 8252
+  median_age: 44.6
+  occupied_housing_units: 15760
+  owner_occupied_housing_units: 13537
+  total_population_race: 42245
+  white_alone_not_hispanic_population: 37276
   total_population_acs: 42245
   acs_year: 2022
 vintage_options:

@@ -30,29 +30,32 @@ results_by_year:
     war: -0.0167
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5415
-    lean_component_sd: 0.0367
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0005
-    demographics_component_sd: 0.0121
-    fundraising_component: 0.0483
-    fundraising_component_sd: 0.0036
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5083
+    lean_component_sd: 0.0335
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0018
+    demographics_component_sd: 0.021
+    fundraising_component: 0.0454
+    fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.7628
-    war_resolved: -0.1385
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7133
+    war_resolved: -0.089
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: 0.0167
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2601
-    lean_component_sd: 0.0122
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2555
+    lean_component_sd: 0.011
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0005
-    demographics_component_sd: 0.0121
-    fundraising_component: 0.0264
-    fundraising_component_sd: 0.002
+    demographics_component: -0.0018
+    demographics_component_sd: 0.021
+    fundraising_component: -0.0454
+    fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.3514
-    war_resolved: 0.0243
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2968
+    war_resolved: 0.0789
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Joe Van Nes
     slug: joe-van-nes
     party: Other
@@ -100,6 +106,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -129,29 +137,32 @@ results_by_year:
     war: -0.0015
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5415
-    lean_component_sd: 0.0367
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5083
+    lean_component_sd: 0.0335
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0005
-    demographics_component_sd: 0.0121
-    fundraising_component: 0.0444
-    fundraising_component_sd: 0.0033
+    demographics_component: -0.0018
+    demographics_component_sd: 0.021
+    fundraising_component: 0.0711
+    fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.6867
-    war_resolved: -0.0497
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6721
+    war_resolved: -0.0351
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Christopher Robert Lauzon
     slug: christopher-robert-lauzon
     party: Republican
@@ -161,29 +172,32 @@ results_by_year:
     war: 0.0015
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2601
-    lean_component_sd: 0.0122
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2555
+    lean_component_sd: 0.011
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0005
-    demographics_component_sd: 0.0121
-    fundraising_component: 0.0039
-    fundraising_component_sd: 0.0003
+    demographics_component: -0.0018
+    demographics_component_sd: 0.021
+    fundraising_component: -0.0711
+    fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.3288
-    war_resolved: 0.0342
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2853
+    war_resolved: 0.0777
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -201,11 +215,11 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.7775
+    primary_baseline_component: 0.7774
     primary_baseline_component_sd: 0.0037
     primary_incumbency_component: 0.1408
     primary_incumbency_component_sd: 0.0904
-    primary_fundraising_component: 0.0817
+    primary_fundraising_component: 0.0818
     primary_fundraising_component_sd: 0.0048
     primary_expected_share: 1.0
     primary_war: null
@@ -287,11 +301,11 @@ primaries:
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0211
+    primary_fundraising_component: 0.0212
     primary_fundraising_component_sd: 0.0012
     primary_expected_share: 0.5035
     primary_war: 0.0938
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -312,7 +326,7 @@ primaries:
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 0.4965
     primary_war: -0.0938
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -322,6 +336,11 @@ demographics:
   hispanic_or_latino_population: 8943
   median_household_income: 90260
   bachelors_degree_count: 34298
+  median_age: 52.8
+  occupied_housing_units: 73830
+  owner_occupied_housing_units: 58644
+  total_population_race: 175332
+  white_alone_not_hispanic_population: 146162
   total_population_acs: 175332
   acs_year: 2022
 vintage_options:

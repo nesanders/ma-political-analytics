@@ -30,29 +30,31 @@ results_by_year:
     war: 0.4412
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4826
-    lean_component_sd: 0.0327
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0021
-    demographics_component_sd: 0.0079
-    fundraising_component: -0.0035
-    fundraising_component_sd: 0.0003
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.453
+    lean_component_sd: 0.0299
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0008
+    demographics_component_sd: 0.0131
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6537
+    expected_share_resolved: 0.6135
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Andrew Nelson
     slug: andrew-nelson
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -94,6 +98,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -123,29 +129,32 @@ results_by_year:
     war: 0.0239
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4826
-    lean_component_sd: 0.0327
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.453
+    lean_component_sd: 0.0299
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0021
-    demographics_component_sd: 0.0079
-    fundraising_component: -0.015
-    fundraising_component_sd: 0.0011
+    demographics_component: -0.0008
+    demographics_component_sd: 0.0131
+    fundraising_component: 0.003
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.57
-    war_resolved: 0.0355
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5497
+    war_resolved: 0.0558
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Steven Joseph Escobar
     slug: steven-joseph-escobar
     party: Republican
@@ -155,29 +164,32 @@ results_by_year:
     war: -0.0239
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3104
-    lean_component_sd: 0.0146
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3049
+    lean_component_sd: 0.0131
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0021
-    demographics_component_sd: 0.0079
-    fundraising_component: -0.0163
-    fundraising_component_sd: 0.0012
+    demographics_component: -0.0008
+    demographics_component_sd: 0.0131
+    fundraising_component: -0.003
+    fundraising_component_sd: 0.0002
     demographics_tier: full
-    expected_share_resolved: 0.3604
-    war_resolved: 0.0341
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4036
+    war_resolved: -0.0091
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -195,7 +207,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.8506
+    primary_baseline_component: 0.8505
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1432
     primary_incumbency_component_sd: 0.0962
@@ -268,6 +280,11 @@ demographics:
   hispanic_or_latino_population: 3885
   median_household_income: 90582
   bachelors_degree_count: 6513
+  median_age: 39.5
+  occupied_housing_units: 16586
+  owner_occupied_housing_units: 10781
+  total_population_race: 42924
+  white_alone_not_hispanic_population: 34651
   total_population_acs: 42924
   acs_year: 2022
 vintage_options:

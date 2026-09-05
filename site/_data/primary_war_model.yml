@@ -1,6 +1,6 @@
 n: 1463
-r_squared: 0.2745
-posterior_sigma_mean: 0.1641
+r_squared: 0.2744
+posterior_sigma_mean: 0.1642
 coefficients:
   primary_intercept:
     prior_mean: 0.0
@@ -57,13 +57,13 @@ coefficients:
     posterior_sd: 0.0023
     ci_95_low: 0.0348
     ci_95_high: 0.0438
-    predictor_sd: 1.8312
-    standardized_mean: 0.072
+    predictor_sd: 1.8311
+    standardized_mean: 0.0719
     standardized_sd: 0.0042
     standardized_ci_95_low: 0.0637
-    standardized_ci_95_high: 0.0802
+    standardized_ci_95_high: 0.0801
 reference_values:
-  log_raised: 9.661666055472828
+  log_raised: 9.661174047149837
 n_incumbent: 171
 n_non_incumbent: 1292
-n_finance: 1168
+n_finance: 1165

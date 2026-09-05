@@ -30,29 +30,32 @@ results_by_year:
     war: 0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4168
-    lean_component_sd: 0.0282
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.3912
+    lean_component_sd: 0.0258
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0063
-    demographics_component_sd: 0.0117
-    fundraising_component: -0.0116
-    fundraising_component_sd: 0.0009
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0142
+    fundraising_component: -0.0471
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.5116
-    war_resolved: -0.0027
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4725
+    war_resolved: 0.0364
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Christopher Thrasher
     slug: christopher-thrasher
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.0469
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3666
-    lean_component_sd: 0.0173
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.36
+    lean_component_sd: 0.0154
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0063
-    demographics_component_sd: 0.0117
-    fundraising_component: 0.0112
-    fundraising_component_sd: 0.0008
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0142
+    fundraising_component: 0.0471
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.4484
-    war_resolved: 0.0427
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5392
+    war_resolved: -0.0481
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Jesse St. W. Gelais
     slug: jesse-w-st-gelais
     party: Other
@@ -100,6 +106,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -126,6 +134,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -152,6 +162,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -181,29 +193,32 @@ results_by_year:
     war: 0.0124
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4168
-    lean_component_sd: 0.0282
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.3912
+    lean_component_sd: 0.0258
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0063
-    demographics_component_sd: 0.0117
-    fundraising_component: 0.0126
-    fundraising_component_sd: 0.0009
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0142
+    fundraising_component: 0.0422
+    fundraising_component_sd: 0.0021
     demographics_tier: full
-    expected_share_resolved: 0.536
-    war_resolved: -0.0008
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5265
+    war_resolved: 0.0087
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Evan Gendreau
     slug: evan-gendreau
     party: Republican
@@ -213,29 +228,32 @@ results_by_year:
     war: -0.0124
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3666
-    lean_component_sd: 0.0173
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.36
+    lean_component_sd: 0.0154
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0063
-    demographics_component_sd: 0.0117
-    fundraising_component: -0.0074
-    fundraising_component_sd: 0.0006
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0142
+    fundraising_component: -0.0422
+    fundraising_component_sd: 0.0021
     demographics_tier: full
-    expected_share_resolved: 0.4296
-    war_resolved: 0.0352
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.419
+    war_resolved: 0.0458
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -352,6 +370,11 @@ demographics:
   hispanic_or_latino_population: 2128
   median_household_income: 88646
   bachelors_degree_count: 5475
+  median_age: 45.5
+  occupied_housing_units: 16765
+  owner_occupied_housing_units: 12487
+  total_population_race: 42327
+  white_alone_not_hispanic_population: 37291
   total_population_acs: 42327
   acs_year: 2022
 vintage_options:

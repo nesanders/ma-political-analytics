@@ -30,29 +30,31 @@ results_by_year:
     war: 0.0187
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5094
-    lean_component_sd: 0.0345
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0006
-    demographics_component_sd: 0.0135
-    fundraising_component: 0.0351
-    fundraising_component_sd: 0.0026
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4781
+    lean_component_sd: 0.0315
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0171
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7176
-    war_resolved: -0.0999
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6395
+    war_resolved: -0.0218
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -62,28 +64,31 @@ results_by_year:
     war: -0.0187
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2876
-    lean_component_sd: 0.0135
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2824
+    lean_component_sd: 0.0121
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0006
-    demographics_component_sd: 0.0135
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0171
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3525
-    war_resolved: 0.0298
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3711
+    war_resolved: 0.0112
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6047
@@ -102,29 +107,31 @@ results_by_year:
     war: 0.0327
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5094
-    lean_component_sd: 0.0345
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4781
+    lean_component_sd: 0.0315
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0006
-    demographics_component_sd: 0.0135
-    fundraising_component: 0.0331
-    fundraising_component_sd: 0.0025
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0171
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6433
-    war_resolved: -0.0059
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5727
+    war_resolved: 0.0647
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Charles F. Bailey, III
     slug: charles-f-bailey-iii
     party: Republican
@@ -134,28 +141,31 @@ results_by_year:
     war: -0.0327
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2876
-    lean_component_sd: 0.0135
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2824
+    lean_component_sd: 0.0121
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0006
-    demographics_component_sd: 0.0135
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0171
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3524
-    war_resolved: 0.0102
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3851
+    war_resolved: -0.0225
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -271,6 +281,11 @@ demographics:
   hispanic_or_latino_population: 1554
   median_household_income: 139379
   bachelors_degree_count: 9548
+  median_age: 40.8
+  occupied_housing_units: 15582
+  owner_occupied_housing_units: 12489
+  total_population_race: 42543
+  white_alone_not_hispanic_population: 36351
   total_population_acs: 42543
   acs_year: 2022
 vintage_options:

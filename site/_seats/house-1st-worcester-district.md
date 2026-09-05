@@ -30,29 +30,31 @@ results_by_year:
     war: 0.5353
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3329
-    lean_component_sd: 0.0157
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0026
-    demographics_component_sd: 0.0103
-    fundraising_component: -0.0215
-    fundraising_component_sd: 0.0016
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.327
+    lean_component_sd: 0.014
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: 0.0021
+    demographics_component_sd: 0.0188
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5081
+    expected_share_resolved: 0.5511
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Anthony L. Ferrante
     slug: anthony-l-ferrante
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,29 +101,31 @@ results_by_year:
     war: 0.5427
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3329
-    lean_component_sd: 0.0157
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.327
+    lean_component_sd: 0.014
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0026
-    demographics_component_sd: 0.0103
-    fundraising_component: -0.0131
-    fundraising_component_sd: 0.001
+    demographics_component: 0.0021
+    demographics_component_sd: 0.0188
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3867
+    expected_share_resolved: 0.4317
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -183,6 +189,11 @@ demographics:
   hispanic_or_latino_population: 1941
   median_household_income: 131272
   bachelors_degree_count: 8926
+  median_age: 42.6
+  occupied_housing_units: 16351
+  owner_occupied_housing_units: 14169
+  total_population_race: 45615
+  white_alone_not_hispanic_population: 41177
   total_population_acs: 45615
   acs_year: 2022
 vintage_options:

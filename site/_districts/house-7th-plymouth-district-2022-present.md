@@ -30,29 +30,31 @@ results_by_year:
     war: 0.4824
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3717
-    lean_component_sd: 0.0175
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.3651
+    lean_component_sd: 0.0156
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.006
-    demographics_component_sd: 0.0067
-    fundraising_component: -0.0077
-    fundraising_component_sd: 0.0006
+    demographics_component: -0.0008
+    demographics_component_sd: 0.0109
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4343
+    expected_share_resolved: 0.4978
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.4882
@@ -71,28 +73,31 @@ results_by_year:
     war: 0.4882
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3717
-    lean_component_sd: 0.0175
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3651
+    lean_component_sd: 0.0156
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.006
-    demographics_component_sd: 0.0067
+    demographics_component: -0.0008
+    demographics_component_sd: 0.0109
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4419
+    expected_share_resolved: 0.4669
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   - name: Brandon J. Griffin
     slug: brandon-j-griffin
     party: Other
@@ -108,6 +113,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -180,6 +187,11 @@ demographics:
   hispanic_or_latino_population: 1466
   median_household_income: 115065
   bachelors_degree_count: 6943
+  median_age: 41.0
+  occupied_housing_units: 15710
+  owner_occupied_housing_units: 12024
+  total_population_race: 42957
+  white_alone_not_hispanic_population: 37916
   total_population_acs: 42957
   acs_year: 2022
 vintage_options:

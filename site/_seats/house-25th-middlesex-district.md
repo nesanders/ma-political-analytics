@@ -30,29 +30,31 @@ results_by_year:
     war: 0.0869
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.7772
-    lean_component_sd: 0.0527
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0009
-    demographics_component_sd: 0.0227
-    fundraising_component: 0.0438
-    fundraising_component_sd: 0.0033
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.7294
+    lean_component_sd: 0.0481
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0152
+    demographics_component_sd: 0.0512
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.9925
+    expected_share_resolved: 0.8756
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Evan Mackay
     slug: evan-mackay
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,29 +101,31 @@ results_by_year:
     war: 0.0767
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.7772
-    lean_component_sd: 0.0527
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.7294
+    lean_component_sd: 0.0481
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0009
-    demographics_component_sd: 0.0227
-    fundraising_component: 0.0164
-    fundraising_component_sd: 0.0012
+    demographics_component: -0.0152
+    demographics_component_sd: 0.0512
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.8929
+    expected_share_resolved: 0.8088
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -145,7 +151,7 @@ primaries:
     primary_fundraising_component_sd: 0.0041
     primary_expected_share: 0.5971
     primary_war: -0.0941
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -167,7 +173,7 @@ primaries:
     primary_fundraising_component_sd: 0.0027
     primary_expected_share: 0.4029
     primary_war: 0.0941
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -204,6 +210,11 @@ demographics:
   hispanic_or_latino_population: 3511
   median_household_income: 114694
   bachelors_degree_count: 8431
+  median_age: 29.0
+  occupied_housing_units: 17322
+  owner_occupied_housing_units: 5942
+  total_population_race: 43264
+  white_alone_not_hispanic_population: 26461
   total_population_acs: 43264
   acs_year: 2022
 vintage_options:

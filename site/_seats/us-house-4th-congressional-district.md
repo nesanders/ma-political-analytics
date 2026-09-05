@@ -30,25 +30,28 @@ results_by_year:
     war: 0.399
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3843
-    lean_component_sd: 0.097
-    tide_component: 0.0405
-    tide_component_sd: 0.0791
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4274
+    lean_component_sd: 0.0915
+    tide_component: 0.0369
+    tide_component_sd: 0.0745
+    approval_component: 0.1128
+    approval_component_sd: 0.0229
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7164
+    expected_share_resolved: 0.685
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Sana A. Fadel
     slug: sana-a-fadel
@@ -65,6 +68,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -94,12 +99,14 @@ results_by_year:
     war: 0.3708
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3843
-    lean_component_sd: 0.097
-    tide_component: 0.0418
-    tide_component_sd: 0.0815
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.4274
+    lean_component_sd: 0.0915
+    tide_component: 0.038
+    tide_component_sd: 0.0767
+    approval_component: 0.11
+    approval_component_sd: 0.0224
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -107,12 +114,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6826
+    expected_share_resolved: 0.668
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:

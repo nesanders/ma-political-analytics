@@ -30,29 +30,31 @@ results_by_year:
     war: 0.4883
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3638
-    lean_component_sd: 0.0171
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0043
-    demographics_component_sd: 0.0052
-    fundraising_component: 0.0115
-    fundraising_component_sd: 0.0009
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3573
+    lean_component_sd: 0.0153
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0116
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5737
+    expected_share_resolved: 0.58
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5042
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.5042
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3638
-    lean_component_sd: 0.0171
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3573
+    lean_component_sd: 0.0153
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0043
-    demographics_component_sd: 0.0052
-    fundraising_component: 0.0293
-    fundraising_component_sd: 0.0022
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0116
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4616
+    expected_share_resolved: 0.4606
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -157,6 +161,11 @@ demographics:
   hispanic_or_latino_population: 1662
   median_household_income: 117463
   bachelors_degree_count: 7617
+  median_age: 41.3
+  occupied_housing_units: 16513
+  owner_occupied_housing_units: 13374
+  total_population_race: 43608
+  white_alone_not_hispanic_population: 38078
   total_population_acs: 43608
   acs_year: 2022
 vintage_options:

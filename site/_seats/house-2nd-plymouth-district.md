@@ -30,29 +30,31 @@ results_by_year:
     war: 0.467
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3751
-    lean_component_sd: 0.0177
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.3684
+    lean_component_sd: 0.0158
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.008
-    demographics_component_sd: 0.0151
-    fundraising_component: 0.0036
-    fundraising_component_sd: 0.0003
+    demographics_component: 0.0022
+    demographics_component_sd: 0.0209
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.451
+    expected_share_resolved: 0.5042
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Sarah G. Hewins
     slug: sarah-g-hewins
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,28 +101,31 @@ results_by_year:
     war: 0.4941
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3751
-    lean_component_sd: 0.0177
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3684
+    lean_component_sd: 0.0158
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.008
-    demographics_component_sd: 0.0151
+    demographics_component: 0.0022
+    demographics_component_sd: 0.0209
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4473
+    expected_share_resolved: 0.4732
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -144,7 +151,7 @@ primaries:
     primary_fundraising_component_sd: 0.001
     primary_expected_share: 0.4261
     primary_war: 0.164
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -165,7 +172,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5739
     primary_war: -0.164
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -201,6 +208,11 @@ demographics:
   hispanic_or_latino_population: 1124
   median_household_income: 79336
   bachelors_degree_count: 5235
+  median_age: 49.2
+  occupied_housing_units: 18029
+  owner_occupied_housing_units: 14794
+  total_population_race: 42753
+  white_alone_not_hispanic_population: 36793
   total_population_acs: 42753
   acs_year: 2022
 vintage_options:

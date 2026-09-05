@@ -33,27 +33,30 @@ results_by_year:
     war: 0.0991
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4019
-    lean_component_sd: 0.0272
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3772
+    lean_component_sd: 0.0249
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0006
-    fundraising_component_sd: 0.0
+    fundraising_component: 0.0717
+    fundraising_component_sd: 0.0036
     demographics_tier: null
-    expected_share_resolved: 0.574
-    war_resolved: -0.0556
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6181
+    war_resolved: -0.0997
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -63,27 +66,30 @@ results_by_year:
     war: -0.0991
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3793
-    lean_component_sd: 0.0179
-    tide_component: 0.0032
-    tide_component_sd: 0.0148
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3725
+    lean_component_sd: 0.016
+    tide_component: -0.0093
+    tide_component_sd: 0.0131
+    approval_component: 0.1081
+    approval_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0405
-    fundraising_component_sd: 0.003
+    fundraising_component: -0.0717
+    fundraising_component_sd: 0.0036
     demographics_tier: null
-    expected_share_resolved: 0.4037
-    war_resolved: 0.0779
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3796
+    war_resolved: 0.102
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5428
@@ -102,27 +108,29 @@ results_by_year:
     war: 0.4572
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4019
-    lean_component_sd: 0.0272
-    tide_component: 0.0063
-    tide_component_sd: 0.0343
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3772
+    lean_component_sd: 0.0249
+    tide_component: 0.0003
+    tide_component_sd: 0.0306
+    approval_component: 0.1474
+    approval_component_sd: 0.0154
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0173
-    fundraising_component_sd: 0.0013
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5571
+    expected_share_resolved: 0.6054
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.52
@@ -141,27 +149,30 @@ results_by_year:
     war: 0.1
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4019
-    lean_component_sd: 0.0272
-    tide_component: 0.0061
-    tide_component_sd: 0.0332
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3772
+    lean_component_sd: 0.0249
+    tide_component: 0.0002
+    tide_component_sd: 0.0296
+    approval_component: 0.1219
+    approval_component_sd: 0.0127
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0028
+    fundraising_component: 0.0036
     fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.5714
-    war_resolved: 0.0486
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5834
+    war_resolved: 0.0366
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Evan James O'Reilly
     slug: evan-james-oreilly
     party: Republican
@@ -171,27 +182,30 @@ results_by_year:
     war: -0.1
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3793
-    lean_component_sd: 0.0179
-    tide_component: 0.0026
-    tide_component_sd: 0.0124
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3725
+    lean_component_sd: 0.016
+    tide_component: -0.0078
+    tide_component_sd: 0.011
+    approval_component: 0.0747
+    approval_component_sd: 0.0078
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0044
-    fundraising_component_sd: 0.0003
+    fundraising_component: -0.0036
+    fundraising_component_sd: 0.0002
     demographics_tier: null
-    expected_share_resolved: 0.4393
-    war_resolved: -0.0593
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4158
+    war_resolved: -0.0358
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5273
@@ -210,27 +224,30 @@ results_by_year:
     war: 0.1058
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4019
-    lean_component_sd: 0.0272
-    tide_component: 0.0063
-    tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3772
+    lean_component_sd: 0.0249
+    tide_component: 0.0003
+    tide_component_sd: 0.0303
+    approval_component: 0.1022
+    approval_component_sd: 0.0107
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0012
-    fundraising_component_sd: 0.0001
+    fundraising_component: 0.0225
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.5755
-    war_resolved: 0.0576
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5827
+    war_resolved: 0.0504
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -240,27 +257,30 @@ results_by_year:
     war: -0.1058
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3793
-    lean_component_sd: 0.0179
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3725
+    lean_component_sd: 0.016
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.0944
+    approval_component_sd: 0.0098
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.009
-    fundraising_component_sd: 0.0007
+    fundraising_component: -0.0225
+    fundraising_component_sd: 0.0011
     demographics_tier: null
-    expected_share_resolved: 0.4347
-    war_resolved: -0.0678
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4169
+    war_resolved: -0.05
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3645
@@ -279,27 +299,29 @@ results_by_year:
     war: 0.236
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4019
-    lean_component_sd: 0.0272
-    tide_component: 0.0047
-    tide_component_sd: 0.0258
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.3772
+    lean_component_sd: 0.0249
+    tide_component: 0.0002
+    tide_component_sd: 0.023
+    approval_component: 0.0727
+    approval_component_sd: 0.0076
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0043
-    fundraising_component_sd: 0.0003
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5047
-    war_resolved: 0.0958
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4658
+    war_resolved: 0.1347
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Robert V. Finneran
     slug: robert-v-finneran
     party: Republican
@@ -309,12 +331,14 @@ results_by_year:
     war: -0.236
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3793
-    lean_component_sd: 0.0179
-    tide_component: 0.0036
-    tide_component_sd: 0.0167
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3725
+    lean_component_sd: 0.016
+    tide_component: -0.0106
+    tide_component_sd: 0.0148
+    approval_component: 0.1239
+    approval_component_sd: 0.0129
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -322,12 +346,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4447
-    war_resolved: -0.0452
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4775
+    war_resolved: -0.078
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:
@@ -350,7 +375,7 @@ primaries:
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1397
     primary_incumbency_component_sd: 0.0882
-    primary_fundraising_component: 0.0128
+    primary_fundraising_component: 0.0129
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 1.0
     primary_war: null
@@ -405,7 +430,7 @@ primaries:
     primary_baseline_component_sd: 0.0042
     primary_incumbency_component: 0.1329
     primary_incumbency_component_sd: 0.0967
-    primary_fundraising_component: -0.0164
+    primary_fundraising_component: -0.0163
     primary_fundraising_component_sd: 0.001
     primary_expected_share: 1.0
     primary_war: null
@@ -488,7 +513,7 @@ primaries:
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1295
     primary_incumbency_component_sd: 0.0935
-    primary_fundraising_component: 0.0139
+    primary_fundraising_component: 0.014
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 1.0
     primary_war: null
@@ -574,7 +599,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.8287
     primary_war: -0.2384
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: James E. Cassidy
@@ -590,11 +615,11 @@ primaries:
     primary_baseline_component_sd: 0.008
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.6575
+    primary_fundraising_component: -0.6574
     primary_fundraising_component_sd: 0.0385
     primary_expected_share: 0.1713
     primary_war: 0.2384
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

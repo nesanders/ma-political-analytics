@@ -30,29 +30,32 @@ results_by_year:
     war: 0.0277
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4698
-    lean_component_sd: 0.0318
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0043
-    demographics_component_sd: 0.0151
-    fundraising_component: 0.0021
-    fundraising_component_sd: 0.0002
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4409
+    lean_component_sd: 0.0291
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0034
+    demographics_component_sd: 0.0185
+    fundraising_component: 0.0707
+    fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.64
-    war_resolved: -0.065
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6763
+    war_resolved: -0.1013
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Salvatore Perla
     slug: salvatore-perla
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.0277
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3214
-    lean_component_sd: 0.0151
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3156
+    lean_component_sd: 0.0135
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0043
-    demographics_component_sd: 0.0151
-    fundraising_component: -0.038
-    fundraising_component_sd: 0.0029
+    demographics_component: 0.0034
+    demographics_component_sd: 0.0185
+    fundraising_component: -0.0707
+    fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.3434
-    war_resolved: 0.0816
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3369
+    war_resolved: 0.0881
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5625
@@ -103,29 +109,31 @@ results_by_year:
     war: 0.4375
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4698
-    lean_component_sd: 0.0318
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4409
+    lean_component_sd: 0.0291
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0043
-    demographics_component_sd: 0.0151
-    fundraising_component: 0.0077
-    fundraising_component_sd: 0.0006
+    demographics_component: 0.0034
+    demographics_component_sd: 0.0185
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5734
+    expected_share_resolved: 0.5389
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: John M. Dombrowski
     slug: john-m-dombrowski
     party: Other
@@ -141,6 +149,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -169,7 +179,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.845
+    primary_baseline_component: 0.8449
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1399
     primary_incumbency_component_sd: 0.0951
@@ -242,6 +252,11 @@ demographics:
   hispanic_or_latino_population: 8268
   median_household_income: 75620
   bachelors_degree_count: 6737
+  median_age: 43.0
+  occupied_housing_units: 18474
+  owner_occupied_housing_units: 12109
+  total_population_race: 43620
+  white_alone_not_hispanic_population: 30873
   total_population_acs: 43620
   acs_year: 2022
 vintage_options:

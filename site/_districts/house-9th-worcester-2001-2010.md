@@ -33,27 +33,30 @@ results_by_year:
     war: 0.0672
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3867
-    lean_component_sd: 0.0182
-    tide_component: 0.0032
-    tide_component_sd: 0.0148
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3798
+    lean_component_sd: 0.0163
+    tide_component: -0.0093
+    tide_component_sd: 0.0131
+    approval_component: 0.1081
+    approval_component_sd: 0.0113
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0196
-    fundraising_component_sd: 0.0015
+    fundraising_component: 0.0626
+    fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.6009
-    war_resolved: 0.0733
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6547
+    war_resolved: 0.0195
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Timothy A. Dodd
     slug: timothy-a-dodd
     party: Democratic
@@ -63,27 +66,30 @@ results_by_year:
     war: -0.0672
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3932
-    lean_component_sd: 0.0267
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3691
+    lean_component_sd: 0.0244
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0135
-    fundraising_component_sd: 0.001
+    fundraising_component: -0.0626
+    fundraising_component_sd: 0.0032
     demographics_tier: null
-    expected_share_resolved: 0.4789
-    war_resolved: -0.1531
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3992
+    war_resolved: -0.0734
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.5272
@@ -102,27 +108,29 @@ results_by_year:
     war: 0.5272
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3867
-    lean_component_sd: 0.0182
-    tide_component: 0.0025
-    tide_component_sd: 0.0117
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3798
+    lean_component_sd: 0.0163
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.0491
+    approval_component_sd: 0.0051
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0018
-    fundraising_component_sd: 0.0001
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5824
+    expected_share_resolved: 0.535
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.5251
@@ -141,27 +149,29 @@ results_by_year:
     war: 0.5251
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3867
-    lean_component_sd: 0.0182
-    tide_component: 0.0026
-    tide_component_sd: 0.0124
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3798
+    lean_component_sd: 0.0163
+    tide_component: -0.0078
+    tide_component_sd: 0.011
+    approval_component: 0.0747
+    approval_component_sd: 0.0078
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0028
-    fundraising_component_sd: 0.0002
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5836
+    expected_share_resolved: 0.5602
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5281
@@ -180,27 +190,30 @@ results_by_year:
     war: 0.1777
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3867
-    lean_component_sd: 0.0182
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3798
+    lean_component_sd: 0.0163
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.0944
+    approval_component_sd: 0.0098
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0171
-    fundraising_component_sd: 0.0013
+    fundraising_component: 0.0649
+    fundraising_component_sd: 0.0033
     demographics_tier: null
-    expected_share_resolved: 0.5978
-    war_resolved: 0.0518
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6451
+    war_resolved: 0.0045
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Andrew J. Myers
     slug: andrew-j-myers
     party: Democratic
@@ -210,27 +223,30 @@ results_by_year:
     war: -0.1777
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3932
-    lean_component_sd: 0.0267
-    tide_component: 0.0063
-    tide_component_sd: 0.0341
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.3691
+    lean_component_sd: 0.0244
+    tide_component: 0.0003
+    tide_component_sd: 0.0303
+    approval_component: 0.1022
+    approval_component_sd: 0.0107
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0179
-    fundraising_component_sd: 0.0013
+    fundraising_component: -0.0649
+    fundraising_component_sd: 0.0033
     demographics_tier: null
-    expected_share_resolved: 0.4754
-    war_resolved: -0.125
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4107
+    war_resolved: -0.0603
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.3497
@@ -249,27 +265,29 @@ results_by_year:
     war: 0.3497
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3867
-    lean_component_sd: 0.0182
-    tide_component: 0.0036
-    tide_component_sd: 0.0167
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3798
+    lean_component_sd: 0.0163
+    tide_component: -0.0106
+    tide_component_sd: 0.0148
+    approval_component: 0.1239
+    approval_component_sd: 0.0129
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.002
-    fundraising_component_sd: 0.0002
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4541
+    expected_share_resolved: 0.4848
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2010
@@ -374,7 +392,7 @@ primaries:
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1627
     primary_incumbency_component_sd: 0.0821
-    primary_fundraising_component: 0.0158
+    primary_fundraising_component: 0.0159
     primary_fundraising_component_sd: 0.0009
     primary_expected_share: 1.0
     primary_war: null
@@ -453,11 +471,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9825
+    primary_baseline_component: 0.9824
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0175
+    primary_fundraising_component: 0.0176
     primary_fundraising_component_sd: 0.001
     primary_expected_share: 1.0
     primary_war: null

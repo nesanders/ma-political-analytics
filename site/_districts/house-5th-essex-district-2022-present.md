@@ -30,29 +30,31 @@ results_by_year:
     war: 0.3281
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5775
-    lean_component_sd: 0.0391
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0066
-    demographics_component_sd: 0.013
-    fundraising_component: 0.0243
-    fundraising_component_sd: 0.0018
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.542
+    lean_component_sd: 0.0358
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0086
+    demographics_component_sd: 0.0215
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7677
+    expected_share_resolved: 0.6948
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Steven G. Leblanc, Jr
     slug: steven-g-leblanc-jr
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,29 +101,32 @@ results_by_year:
     war: -0.0013
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5775
-    lean_component_sd: 0.0391
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.542
+    lean_component_sd: 0.0358
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0066
-    demographics_component_sd: 0.013
-    fundraising_component: 0.028
-    fundraising_component_sd: 0.0021
+    demographics_component: -0.0086
+    demographics_component_sd: 0.0215
+    fundraising_component: 0.0823
+    fundraising_component_sd: 0.0042
     demographics_tier: full
-    expected_share_resolved: 0.6992
-    war_resolved: -0.0078
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7103
+    war_resolved: -0.0189
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Ashley Sullivan
     slug: ashley-sullivan
     party: Republican
@@ -129,123 +136,34 @@ results_by_year:
     war: 0.0013
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2294
-    lean_component_sd: 0.0108
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2253
+    lean_component_sd: 0.0097
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0066
-    demographics_component_sd: 0.013
-    fundraising_component: -0.0265
-    fundraising_component_sd: 0.002
+    demographics_component: -0.0086
+    demographics_component_sd: 0.0215
+    fundraising_component: -0.0823
+    fundraising_component_sd: 0.0042
     demographics_tier: full
-    expected_share_resolved: 0.2606
-    war_resolved: 0.048
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2371
+    war_resolved: 0.0715
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
-- year: 2026
-  party: Democratic
-  is_special: true
-  n_candidates: 2
-  is_contested: true
-  candidates:
-  - name: Andrew Francis Robert Tarr
-    slug: andrew-francis-robert-tarr
-    party: Democratic
-    votes: 2194
-    winner: true
-    actual_primary_share: 0.714
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: 0.214
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
-  - name: Sarah Jane Wilkinson
-    slug: sarah-jane-wilkinson
-    party: Democratic
-    votes: 879
-    winner: false
-    actual_primary_share: 0.286
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: -0.214
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
-- year: 2026
-  party: Republican
-  is_special: true
-  n_candidates: 2
-  is_contested: true
-  candidates:
-  - name: Christina Delisio
-    slug: christina-delisio
-    party: Republican
-    votes: 568
-    winner: true
-    actual_primary_share: 0.6147
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: 0.1147
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
-  - name: Ashley Sullivan
-    slug: ashley-sullivan
-    party: Republican
-    votes: 356
-    winner: false
-    actual_primary_share: 0.3853
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: -0.1147
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
 - year: 2024
   party: Democratic
   is_special: false
@@ -289,7 +207,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4827
+    primary_baseline_component: 0.4826
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -297,7 +215,7 @@ primaries:
     primary_fundraising_component_sd: 0.0039
     primary_expected_share: 0.5486
     primary_war: 0.1764
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -310,7 +228,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4827
+    primary_baseline_component: 0.4826
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -318,7 +236,7 @@ primaries:
     primary_fundraising_component_sd: 0.0018
     primary_expected_share: 0.4514
     primary_war: -0.1764
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -355,6 +273,11 @@ demographics:
   hispanic_or_latino_population: 1659
   median_household_income: 95854
   bachelors_degree_count: 9685
+  median_age: 51.0
+  occupied_housing_units: 20020
+  owner_occupied_housing_units: 13142
+  total_population_race: 45863
+  white_alone_not_hispanic_population: 41982
   total_population_acs: 45863
   acs_year: 2022
 vintage_options:

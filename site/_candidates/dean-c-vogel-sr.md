@@ -22,7 +22,7 @@ races:
   primary_fundraising_component_sd: 0.0024
   primary_expected_share: 0.4791
   primary_war: -0.0468
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising
@@ -42,27 +42,30 @@ races:
   winner: false
   actual_two_party_share: 0.3588
   war: -0.051
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3342
-  lean_component_sd: 0.0157
-  tide_component: 0.0025
-  tide_component_sd: 0.0118
+  intercept_component: 0.025
+  intercept_component_sd: 0.0202
+  lean_component: 0.3282
+  lean_component_sd: 0.0141
+  tide_component: -0.0075
+  tide_component_sd: 0.0105
+  approval_component: 0.0944
+  approval_component_sd: 0.0098
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0155
-  fundraising_component_sd: 0.0012
+  fundraising_component: -0.0429
+  fundraising_component_sd: 0.0022
   demographics_tier: null
-  expected_share_resolved: 0.383
-  war_resolved: -0.0242
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.3971
+  war_resolved: -0.0383
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
+  - Relative campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -80,15 +83,15 @@ races:
   actual_primary_share: 0.5285
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.5296
+  primary_baseline_component: 0.5295
   primary_baseline_component_sd: 0.0051
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0164
+  primary_fundraising_component: -0.0163
   primary_fundraising_component_sd: 0.001
   primary_expected_share: 0.5132
   primary_war: 0.0153
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

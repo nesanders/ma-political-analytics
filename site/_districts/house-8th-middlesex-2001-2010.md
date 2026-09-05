@@ -33,27 +33,29 @@ results_by_year:
     war: 0.5625
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4134
-    lean_component_sd: 0.028
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.388
+    lean_component_sd: 0.0256
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0171
-    fundraising_component_sd: 0.0013
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5678
+    expected_share_resolved: 0.5572
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Jonathan A. Loya
     slug: jonathan-a-loya
     party: Other
@@ -69,6 +71,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -98,27 +102,30 @@ results_by_year:
     war: -0.0499
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4134
-    lean_component_sd: 0.028
-    tide_component: 0.0063
-    tide_component_sd: 0.0343
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.388
+    lean_component_sd: 0.0256
+    tide_component: 0.0003
+    tide_component_sd: 0.0306
+    approval_component: 0.1474
+    approval_component_sd: 0.0154
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.004
-    fundraising_component_sd: 0.0003
+    fundraising_component: -0.0644
+    fundraising_component_sd: 0.0033
     demographics_tier: null
-    expected_share_resolved: 0.5095
-    war_resolved: 0.0127
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5203
+    war_resolved: 0.0019
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Dan Haley
     slug: dan-haley
     party: Republican
@@ -128,27 +135,30 @@ results_by_year:
     war: 0.0499
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3695
-    lean_component_sd: 0.0174
-    tide_component: 0.0025
-    tide_component_sd: 0.0117
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.3629
+    lean_component_sd: 0.0156
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.0491
+    approval_component_sd: 0.0051
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0306
-    fundraising_component_sd: 0.0023
+    fundraising_component: 0.0644
+    fundraising_component_sd: 0.0033
     demographics_tier: null
-    expected_share_resolved: 0.4644
-    war_resolved: 0.0134
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4941
+    war_resolved: -0.0163
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.5317
@@ -167,25 +177,28 @@ results_by_year:
     war: 0.5317
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3695
-    lean_component_sd: 0.0174
-    tide_component: 0.0026
-    tide_component_sd: 0.0124
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3629
+    lean_component_sd: 0.0156
+    tide_component: -0.0078
+    tide_component_sd: 0.011
+    approval_component: 0.0747
+    approval_component_sd: 0.0078
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5636
+    expected_share_resolved: 0.5433
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2004
@@ -205,25 +218,28 @@ results_by_year:
     war: 0.558
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3695
-    lean_component_sd: 0.0174
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3629
+    lean_component_sd: 0.0156
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.0944
+    approval_component_sd: 0.0098
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5635
+    expected_share_resolved: 0.5633
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2002
@@ -243,12 +259,14 @@ results_by_year:
     war: 0.0426
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3695
-    lean_component_sd: 0.0174
-    tide_component: 0.0036
-    tide_component_sd: 0.0167
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3629
+    lean_component_sd: 0.0156
+    tide_component: -0.0106
+    tide_component_sd: 0.0148
+    approval_component: 0.1239
+    approval_component_sd: 0.0129
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -256,12 +274,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4349
-    war_resolved: 0.2649
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4679
+    war_resolved: 0.2319
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: James P. Carboneau
     slug: james-p-carboneau
@@ -272,27 +291,29 @@ results_by_year:
     war: -0.0426
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4134
-    lean_component_sd: 0.028
-    tide_component: 0.0047
-    tide_component_sd: 0.0258
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.388
+    lean_component_sd: 0.0256
+    tide_component: 0.0002
+    tide_component_sd: 0.023
+    approval_component: 0.0727
+    approval_component_sd: 0.0076
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0437
-    fundraising_component_sd: 0.0033
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4682
-    war_resolved: -0.168
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4766
+    war_resolved: -0.1764
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2010
@@ -313,7 +334,7 @@ primaries:
     primary_baseline_component: 0.8702
     primary_baseline_component_sd: 0.0041
     primary_incumbency_component: 0.1457
-    primary_incumbency_component_sd: 0.0911
+    primary_incumbency_component_sd: 0.091
     primary_fundraising_component: -0.0159
     primary_fundraising_component_sd: 0.0009
     primary_expected_share: 1.0
@@ -346,7 +367,7 @@ primaries:
     primary_fundraising_component_sd: 0.0004
     primary_expected_share: 0.4864
     primary_war: 0.2253
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -367,7 +388,7 @@ primaries:
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 0.5136
     primary_war: -0.2253
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

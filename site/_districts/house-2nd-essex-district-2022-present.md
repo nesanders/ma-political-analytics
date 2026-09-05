@@ -30,29 +30,32 @@ results_by_year:
     war: -0.0674
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5133
-    lean_component_sd: 0.0348
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0144
-    fundraising_component: 0.0211
-    fundraising_component_sd: 0.0016
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4817
+    lean_component_sd: 0.0318
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0034
+    demographics_component_sd: 0.0197
+    fundraising_component: 0.022
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.7046
-    war_resolved: -0.1624
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6617
+    war_resolved: -0.1195
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Mark T. Tashjian
     slug: mark-t-tashjian
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: 0.0674
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2843
-    lean_component_sd: 0.0134
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2792
+    lean_component_sd: 0.012
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0144
-    fundraising_component: 0.0111
-    fundraising_component_sd: 0.0008
+    demographics_component: -0.0034
+    demographics_component_sd: 0.0197
+    fundraising_component: -0.022
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.3574
-    war_resolved: 0.1004
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3423
+    war_resolved: 0.1155
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6033
@@ -103,29 +109,32 @@ results_by_year:
     war: -0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5133
-    lean_component_sd: 0.0348
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4817
+    lean_component_sd: 0.0318
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0144
-    fundraising_component: 0.0171
-    fundraising_component_sd: 0.0013
+    demographics_component: -0.0034
+    demographics_component_sd: 0.0197
+    fundraising_component: 0.0115
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.6284
-    war_resolved: -0.1284
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5844
+    war_resolved: -0.0844
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Leonard Mirra
     slug: leonard-mirra
     party: Republican
@@ -135,29 +144,32 @@ results_by_year:
     war: 0.1033
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2843
-    lean_component_sd: 0.0134
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2792
+    lean_component_sd: 0.012
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0144
-    fundraising_component: 0.012
-    fundraising_component_sd: 0.0009
+    demographics_component: -0.0034
+    demographics_component_sd: 0.0197
+    fundraising_component: -0.0115
+    fundraising_component_sd: 0.0006
     demographics_tier: full
-    expected_share_resolved: 0.3582
-    war_resolved: 0.1418
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3669
+    war_resolved: 0.1331
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -203,11 +215,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9662
+    primary_baseline_component: 0.9661
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0338
+    primary_fundraising_component: 0.0339
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 1.0
     primary_war: null
@@ -275,6 +287,11 @@ demographics:
   hispanic_or_latino_population: 1556
   median_household_income: 137904
   bachelors_degree_count: 10824
+  median_age: 46.5
+  occupied_housing_units: 17426
+  owner_occupied_housing_units: 14025
+  total_population_race: 46133
+  white_alone_not_hispanic_population: 42191
   total_population_acs: 46133
   acs_year: 2022
 vintage_options:

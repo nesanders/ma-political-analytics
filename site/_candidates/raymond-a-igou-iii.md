@@ -20,9 +20,9 @@ races:
   primary_incumbency_component_sd: 0.0
   primary_fundraising_component: -0.1188
   primary_fundraising_component_sd: 0.007
-  primary_expected_share: 0.415
-  primary_war: -0.2292
-  primary_war_sd: 0.1641
+  primary_expected_share: 0.4151
+  primary_war: -0.2293
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

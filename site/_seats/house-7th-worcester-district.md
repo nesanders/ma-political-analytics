@@ -30,29 +30,31 @@ results_by_year:
     war: 0.4969
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3555
-    lean_component_sd: 0.0167
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0047
-    demographics_component_sd: 0.0055
-    fundraising_component: 0.017
-    fundraising_component_sd: 0.0013
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3492
+    lean_component_sd: 0.015
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: 0.0007
+    demographics_component_sd: 0.0117
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5712
+    expected_share_resolved: 0.5719
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,29 +101,31 @@ results_by_year:
     war: 0.5186
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3555
-    lean_component_sd: 0.0167
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3492
+    lean_component_sd: 0.015
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0047
-    demographics_component_sd: 0.0055
-    fundraising_component: -0.0036
-    fundraising_component_sd: 0.0003
+    demographics_component: 0.0007
+    demographics_component_sd: 0.0117
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4208
+    expected_share_resolved: 0.4525
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Other
@@ -135,6 +141,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -197,7 +205,7 @@ primaries:
     primary_fundraising_component_sd: 0.0026
     primary_expected_share: 0.6924
     primary_war: 0.1233
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -219,7 +227,7 @@ primaries:
     primary_fundraising_component_sd: 0.0092
     primary_expected_share: 0.3076
     primary_war: -0.1233
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -256,6 +264,11 @@ demographics:
   hispanic_or_latino_population: 2014
   median_household_income: 104728
   bachelors_degree_count: 6443
+  median_age: 43.5
+  occupied_housing_units: 16798
+  owner_occupied_housing_units: 13590
+  total_population_race: 43806
+  white_alone_not_hispanic_population: 38914
   total_population_acs: 43806
   acs_year: 2022
 vintage_options:

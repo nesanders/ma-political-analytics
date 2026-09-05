@@ -13,12 +13,14 @@ races:
   winner: false
   actual_two_party_share: 0.2776
   war: -0.0325
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.2984
-  lean_component_sd: 0.014
-  tide_component: 0.0024
-  tide_component_sd: 0.0112
+  intercept_component: -0.02
+  intercept_component_sd: 0.0199
+  lean_component: 0.2931
+  lean_component_sd: 0.0126
+  tide_component: -0.0071
+  tide_component_sd: 0.01
+  approval_component: 0.0924
+  approval_component_sd: 0.0096
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -26,12 +28,13 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.3626
-  war_resolved: -0.085
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.3584
+  war_resolved: -0.0808
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
   is_uncontested: false
   is_incumbent: false

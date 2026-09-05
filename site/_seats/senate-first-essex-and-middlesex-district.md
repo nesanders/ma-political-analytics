@@ -30,29 +30,31 @@ results_by_year:
     war: 0.6157
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2756
-    lean_component_sd: 0.013
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0115
-    fundraising_component: 0.0261
-    fundraising_component_sd: 0.002
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2707
+    lean_component_sd: 0.0116
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: -0.0035
+    demographics_component_sd: 0.0165
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4934
+    expected_share_resolved: 0.4892
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6211
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.6211
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2756
-    lean_component_sd: 0.013
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2707
+    lean_component_sd: 0.0116
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0023
-    demographics_component_sd: 0.0115
-    fundraising_component: 0.0274
-    fundraising_component_sd: 0.0021
+    demographics_component: -0.0035
+    demographics_component_sd: 0.0165
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3649
+    expected_share_resolved: 0.3697
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Terence William Cudney
     slug: terence-william-cudney
     party: Other
@@ -109,6 +113,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -137,7 +143,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.8093
+    primary_baseline_component: 0.8092
     primary_baseline_component_sd: 0.0038
     primary_incumbency_component: 0.1396
     primary_incumbency_component_sd: 0.0752
@@ -183,6 +189,11 @@ demographics:
   hispanic_or_latino_population: 6514
   median_household_income: 128469
   bachelors_degree_count: 41462
+  median_age: 47.1
+  occupied_housing_units: 70086
+  owner_occupied_housing_units: 54717
+  total_population_race: 178873
+  white_alone_not_hispanic_population: 161367
   total_population_acs: 178873
   acs_year: 2022
 vintage_options:

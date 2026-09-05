@@ -30,29 +30,31 @@ results_by_year:
     war: 0.0791
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4835
-    lean_component_sd: 0.0328
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.001
-    demographics_component_sd: 0.0144
-    fundraising_component: -0.0093
-    fundraising_component_sd: 0.0007
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4538
+    lean_component_sd: 0.0299
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0039
+    demographics_component_sd: 0.029
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6476
-    war_resolved: -0.0118
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6191
+    war_resolved: 0.0167
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Karla J. Miller
     slug: karla-j-miller
     party: Republican
@@ -62,28 +64,31 @@ results_by_year:
     war: -0.0791
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3097
-    lean_component_sd: 0.0146
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3041
+    lean_component_sd: 0.013
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.001
-    demographics_component_sd: 0.0144
+    demographics_component: 0.0039
+    demographics_component_sd: 0.029
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.375
-    war_resolved: -0.0108
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3966
+    war_resolved: -0.0324
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5857
@@ -102,103 +107,33 @@ results_by_year:
     war: 0.4143
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4835
-    lean_component_sd: 0.0328
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4538
+    lean_component_sd: 0.0299
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.001
-    demographics_component_sd: 0.0144
-    fundraising_component: 0.0017
-    fundraising_component_sd: 0.0001
+    demographics_component: 0.0039
+    demographics_component_sd: 0.029
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5865
+    expected_share_resolved: 0.5523
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
-- year: 2026
-  party: Democratic
-  is_special: true
-  n_candidates: 2
-  is_contested: true
-  candidates:
-  - name: Vanna Howard
-    slug: vanna-howard
-    party: Democratic
-    votes: 3339
-    winner: true
-    actual_primary_share: 0.5844
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: 0.0844
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
-  - name: Rodney Michael Elliott
-    slug: rodney-michael-elliott
-    party: Democratic
-    votes: 2375
-    winner: false
-    actual_primary_share: 0.4156
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 0.5
-    primary_baseline_component: 0.5
-    primary_baseline_component_sd: 0.0048
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 0.5
-    primary_war: -0.0844
-    primary_war_sd: 0.1641
-    primary_war_factors:
-    - Equal share among candidates
-- year: 2026
-  party: Republican
-  is_special: true
-  n_candidates: 1
-  is_contested: false
-  candidates:
-  - name: Sam S. Meas
-    slug: sam-s-meas
-    party: Republican
-    votes: 372
-    winner: true
-    actual_primary_share: 1.0
-    is_incumbent: false
-    incumbent_terms: 0
-    fair_share: 1.0
-    primary_baseline_component: 1.0
-    primary_baseline_component_sd: 0.0047
-    primary_incumbency_component: 0.0
-    primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: null
-    primary_fundraising_component_sd: null
-    primary_expected_share: 1.0
-    primary_war: null
-    primary_war_sd: null
-    primary_war_factors:
-    - Equal share among candidates
 - year: 2024
   party: Democratic
   is_special: false
@@ -286,6 +221,11 @@ demographics:
   hispanic_or_latino_population: 27157
   median_household_income: 84166
   bachelors_degree_count: 23919
+  median_age: 36.5
+  occupied_housing_units: 64050
+  owner_occupied_housing_units: 36307
+  total_population_race: 174383
+  white_alone_not_hispanic_population: 102413
   total_population_acs: 174383
   acs_year: 2022
 vintage_options:

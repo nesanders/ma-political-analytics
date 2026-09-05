@@ -30,28 +30,31 @@ results_by_year:
     war: 0.0918
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3501
-    lean_component_sd: 0.0165
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.3439
+    lean_component_sd: 0.0147
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0049
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.0248
-    fundraising_component_sd: 0.0019
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0066
+    fundraising_component: 0.0203
+    fundraising_component_sd: 0.001
     demographics_tier: core
-    expected_share_resolved: 0.4441
-    war_resolved: 0.1401
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4976
+    war_resolved: 0.0866
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Sheila H. Dibb
     slug: sheila-h-dibb
     party: Democratic
@@ -61,28 +64,31 @@ results_by_year:
     war: -0.0918
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4361
-    lean_component_sd: 0.0296
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.4093
+    lean_component_sd: 0.027
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0049
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.0156
-    fundraising_component_sd: 0.0012
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0066
+    fundraising_component: -0.0203
+    fundraising_component_sd: 0.001
     demographics_tier: core
-    expected_share_resolved: 0.5567
-    war_resolved: -0.1409
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5188
+    war_resolved: -0.103
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5229
@@ -101,28 +107,31 @@ results_by_year:
     war: 0.0207
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4361
-    lean_component_sd: 0.0296
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4093
+    lean_component_sd: 0.027
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0049
-    demographics_component_sd: 0.0067
-    fundraising_component: -0.0012
-    fundraising_component_sd: 0.0001
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0066
+    fundraising_component: -0.0446
+    fundraising_component_sd: 0.0022
     demographics_tier: core
-    expected_share_resolved: 0.5401
-    war_resolved: 0.0035
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4592
+    war_resolved: 0.0844
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: James Anthony Amorello
     slug: james-anthony-amorello
     party: Republican
@@ -132,28 +141,31 @@ results_by_year:
     war: -0.0207
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3501
-    lean_component_sd: 0.0165
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3439
+    lean_component_sd: 0.0147
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0049
-    demographics_component_sd: 0.0067
-    fundraising_component: 0.0202
-    fundraising_component_sd: 0.0015
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0066
+    fundraising_component: 0.0446
+    fundraising_component_sd: 0.0022
     demographics_tier: core
-    expected_share_resolved: 0.4394
-    war_resolved: 0.017
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.491
+    war_resolved: -0.0346
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -198,11 +210,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9428
+    primary_baseline_component: 0.9427
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0572
+    primary_fundraising_component: 0.0573
     primary_fundraising_component_sd: 0.0034
     primary_expected_share: 1.0
     primary_war: null
@@ -267,6 +279,11 @@ primaries:
 demographics:
   median_household_income: 89393
   bachelors_degree_count: 24838
+  median_age: 43.7
+  occupied_housing_units: 65053
+  owner_occupied_housing_units: 49618
+  total_population_race: 167658
+  white_alone_not_hispanic_population: 144293
   total_population_acs: 167658
   acs_year: 2022
 vintage_options:

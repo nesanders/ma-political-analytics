@@ -13,28 +13,32 @@ races:
   winner: true
   actual_two_party_share: 0.6193
   war: 0.0799
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3818
-  lean_component_sd: 0.018
-  tide_component: 0.0025
-  tide_component_sd: 0.0118
+  intercept_component: 0.025
+  intercept_component_sd: 0.0202
+  lean_component: 0.375
+  lean_component_sd: 0.0161
+  tide_component: -0.0074
+  tide_component_sd: 0.0104
+  approval_component: 0.116
+  approval_component_sd: 0.0121
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: 0.0015
-  demographics_component_sd: 0.0202
-  fundraising_component: 0.0174
-  fundraising_component_sd: 0.0013
+  demographics_component: 0.0003
+  demographics_component_sd: 0.0245
+  fundraising_component: 0.047
+  fundraising_component_sd: 0.0024
   demographics_tier: full
-  expected_share_resolved: 0.465
-  war_resolved: 0.1543
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.5559
+  war_resolved: 0.0634
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
-  - Campaign fundraising
+  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
+    median age, homeownership %, white %)
+  - Relative campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -81,7 +85,7 @@ races:
   actual_primary_share: 0.5325
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.5003
+  primary_baseline_component: 0.5002
   primary_baseline_component_sd: 0.0048
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
@@ -89,7 +93,7 @@ races:
   primary_fundraising_component_sd: 0.0028
   primary_expected_share: 0.5481
   primary_war: -0.0156
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

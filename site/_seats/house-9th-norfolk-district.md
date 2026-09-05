@@ -30,29 +30,32 @@ results_by_year:
     war: 0.1415
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3144
-    lean_component_sd: 0.0148
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: -0.0012
-    demographics_component_sd: 0.017
-    fundraising_component: 0.017
-    fundraising_component_sd: 0.0013
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3088
+    lean_component_sd: 0.0132
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0215
+    fundraising_component: 0.0218
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.5243
-    war_resolved: 0.0498
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5529
+    war_resolved: 0.0212
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.1415
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4779
-    lean_component_sd: 0.0324
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4485
+    lean_component_sd: 0.0296
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0012
-    demographics_component_sd: 0.017
-    fundraising_component: 0.0072
-    fundraising_component_sd: 0.0005
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0215
+    fundraising_component: -0.0218
+    fundraising_component_sd: 0.0011
     demographics_tier: full
-    expected_share_resolved: 0.584
-    war_resolved: -0.1581
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5118
+    war_resolved: -0.0859
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5618
@@ -103,29 +109,32 @@ results_by_year:
     war: 0.0705
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3144
-    lean_component_sd: 0.0148
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3088
+    lean_component_sd: 0.0132
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0012
-    demographics_component_sd: 0.017
-    fundraising_component: 0.0221
-    fundraising_component_sd: 0.0017
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0215
+    fundraising_component: 0.0405
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.3995
-    war_resolved: 0.1092
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4521
+    war_resolved: 0.0566
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Kevin Kalkut
     slug: kevin-kalkut
     party: Democratic
@@ -135,29 +144,32 @@ results_by_year:
     war: -0.0705
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4779
-    lean_component_sd: 0.0324
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4485
+    lean_component_sd: 0.0296
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0012
-    demographics_component_sd: 0.017
-    fundraising_component: 0.003
-    fundraising_component_sd: 0.0002
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0215
+    fundraising_component: -0.0405
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.5799
-    war_resolved: -0.0886
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5028
+    war_resolved: -0.0115
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -230,7 +242,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4788
+    primary_baseline_component: 0.4787
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -238,7 +250,7 @@ primaries:
     primary_fundraising_component_sd: 0.0011
     primary_expected_share: 0.498
     primary_war: 0.015
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -251,7 +263,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4788
+    primary_baseline_component: 0.4787
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -259,7 +271,7 @@ primaries:
     primary_fundraising_component_sd: 0.0014
     primary_expected_share: 0.502
     primary_war: -0.015
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -296,6 +308,11 @@ demographics:
   hispanic_or_latino_population: 1887
   median_household_income: 148904
   bachelors_degree_count: 11043
+  median_age: 42.8
+  occupied_housing_units: 16223
+  owner_occupied_housing_units: 13629
+  total_population_race: 46727
+  white_alone_not_hispanic_population: 39824
   total_population_acs: 46727
   acs_year: 2022
 vintage_options:

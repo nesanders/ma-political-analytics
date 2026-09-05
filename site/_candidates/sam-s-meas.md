@@ -3,34 +3,6 @@ slug: sam-s-meas
 name: Sam S. Meas
 party: Republican
 races:
-- chamber: senate
-  year: 2026
-  vintage: 2022-present
-  district_name: First Middlesex District
-  district_url: /district/senate-first-middlesex-district-2022-present/
-  party: Republican
-  votes: 372
-  winner: true
-  actual_primary_share: 1.0
-  fair_share: 1.0
-  n_candidates: 1
-  primary_baseline_component: 1.0
-  primary_baseline_component_sd: 0.0047
-  primary_incumbency_component: 0.0
-  primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: null
-  primary_fundraising_component_sd: null
-  primary_expected_share: 1.0
-  primary_war: null
-  primary_war_sd: null
-  primary_war_factors:
-  - Equal share among candidates
-  is_uncontested: true
-  is_incumbent: false
-  incumbent_terms: 0
-  is_redistricting_year: false
-  stage: primary
-  is_special: true
 - chamber: house
   year: 2018
   vintage: 2012-2020
@@ -42,18 +14,17 @@ races:
   actual_primary_share: 0.0848
   fair_share: 0.25
   n_candidates: 4
-  primary_baseline_component: 0.198
+  primary_baseline_component: 0.1977
   primary_baseline_component_sd: 0.004
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0013
-  primary_fundraising_component_sd: 0.0001
-  primary_expected_share: 0.1966
-  primary_war: -0.1118
-  primary_war_sd: 0.1641
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.1977
+  primary_war: -0.1129
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
-  - Campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -71,18 +42,17 @@ races:
   actual_primary_share: 0.331
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.5033
+  primary_baseline_component: 0.5
   primary_baseline_component_sd: 0.0048
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0066
-  primary_fundraising_component_sd: 0.0004
-  primary_expected_share: 0.4967
-  primary_war: -0.1657
-  primary_war_sd: 0.1641
+  primary_fundraising_component: null
+  primary_fundraising_component_sd: null
+  primary_expected_share: 0.5
+  primary_war: -0.169
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
-  - Campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -116,16 +86,6 @@ races:
   is_redistricting_year: false
   stage: primary
   is_special: false
-ocpf_finance:
-  cpf_ids:
-  - 15519
-  by_year:
-    2012:
-      total_raised: 13378.11
-      total_spent: 13158.0
-    2018:
-      total_raised: 15094.0
-      total_spent: 14911.21
 title: Sam S. Meas
 layout: candidate
 ---

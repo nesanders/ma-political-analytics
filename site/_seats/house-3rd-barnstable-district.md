@@ -30,29 +30,31 @@ results_by_year:
     war: 0.1536
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2938
-    lean_component_sd: 0.0138
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: -0.001
-    demographics_component_sd: 0.0125
-    fundraising_component: 0.0115
-    fundraising_component_sd: 0.0009
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2885
+    lean_component_sd: 0.0124
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0268
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4983
-    war_resolved: 0.062
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5092
+    war_resolved: 0.0511
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -62,28 +64,31 @@ results_by_year:
     war: -0.1536
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5021
-    lean_component_sd: 0.034
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4712
+    lean_component_sd: 0.0311
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.001
-    demographics_component_sd: 0.0125
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0268
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6011
-    war_resolved: -0.1614
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5547
+    war_resolved: -0.115
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5931
@@ -102,29 +107,31 @@ results_by_year:
     war: 0.1473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2938
-    lean_component_sd: 0.0138
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2885
+    lean_component_sd: 0.0124
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.001
-    demographics_component_sd: 0.0125
-    fundraising_component: -0.0069
-    fundraising_component_sd: 0.0005
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0268
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3501
-    war_resolved: 0.2041
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3898
+    war_resolved: 0.1644
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Kathleen Fox Alfano
     slug: kathleen-fox-alfano
     party: Democratic
@@ -134,28 +141,31 @@ results_by_year:
     war: -0.1473
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5021
-    lean_component_sd: 0.034
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4712
+    lean_component_sd: 0.0311
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.001
-    demographics_component_sd: 0.0125
+    demographics_component: -0.0014
+    demographics_component_sd: 0.0268
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6013
-    war_resolved: -0.1555
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5645
+    war_resolved: -0.1187
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -271,6 +281,11 @@ demographics:
   hispanic_or_latino_population: 1245
   median_household_income: 92257
   bachelors_degree_count: 8881
+  median_age: 55.1
+  occupied_housing_units: 19583
+  owner_occupied_housing_units: 16705
+  total_population_race: 45376
+  white_alone_not_hispanic_population: 40176
   total_population_acs: 45376
   acs_year: 2022
 vintage_options:

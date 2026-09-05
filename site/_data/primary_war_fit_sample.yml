@@ -274,7 +274,7 @@
   year: 2008
   is_special: false
 - actual: 0.3866
-  expected: 0.3212
+  expected: 0.3211
   party: Democratic
   year: 2008
   is_special: false
@@ -374,7 +374,7 @@
   year: 2010
   is_special: false
 - actual: 0.3351
-  expected: 0.2448
+  expected: 0.2449
   party: Democratic
   year: 2010
   is_special: false
@@ -574,7 +574,7 @@
   year: 2002
   is_special: false
 - actual: 0.1162
-  expected: 0.3358
+  expected: 0.3357
   party: Democratic
   year: 2002
   is_special: false
@@ -609,7 +609,7 @@
   year: 2002
   is_special: false
 - actual: 0.2121
-  expected: 0.1923
+  expected: 0.1922
   party: Democratic
   year: 2002
   is_special: false
@@ -689,12 +689,12 @@
   year: 2002
   is_special: false
 - actual: 0.7116
-  expected: 0.5384
+  expected: 0.5383
   party: Democratic
   year: 2006
   is_special: false
 - actual: 0.2884
-  expected: 0.4616
+  expected: 0.4617
   party: Democratic
   year: 2006
   is_special: false
@@ -769,27 +769,27 @@
   year: 2004
   is_special: false
 - actual: 0.0517
-  expected: 0.2213
+  expected: 0.2214
   party: Democratic
   year: 2004
   is_special: false
 - actual: 0.8116
-  expected: 0.477
+  expected: 0.4771
   party: Democratic
   year: 2002
   is_special: false
 - actual: 0.1884
-  expected: 0.523
+  expected: 0.5229
   party: Democratic
   year: 2002
   is_special: false
 - actual: 0.5464
-  expected: 0.5108
+  expected: 0.5109
   party: Democratic
   year: 2008
   is_special: false
 - actual: 0.4536
-  expected: 0.4892
+  expected: 0.4891
   party: Democratic
   year: 2008
   is_special: false
@@ -889,12 +889,12 @@
   year: 2008
   is_special: false
 - actual: 0.6532
-  expected: 0.6166
+  expected: 0.6165
   party: Democratic
   year: 2008
   is_special: false
 - actual: 0.3468
-  expected: 0.3834
+  expected: 0.3835
   party: Democratic
   year: 2008
   is_special: false
@@ -1279,7 +1279,7 @@
   year: 2002
   is_special: false
 - actual: 0.0528
-  expected: 0.2578
+  expected: 0.2577
   party: Democratic
   year: 2002
   is_special: false
@@ -1289,12 +1289,12 @@
   year: 2004
   is_special: false
 - actual: 0.3886
-  expected: 0.5397
+  expected: 0.5396
   party: Democratic
   year: 2004
   is_special: false
 - actual: 0.0074
-  expected: -0.1028
+  expected: -0.1027
   party: Democratic
   year: 2004
   is_special: false
@@ -1359,12 +1359,12 @@
   year: 2010
   is_special: false
 - actual: 0.8142
-  expected: 0.585
+  expected: 0.5849
   party: Republican
   year: 2010
   is_special: false
 - actual: 0.1858
-  expected: 0.415
+  expected: 0.4151
   party: Republican
   year: 2010
   is_special: false
@@ -1539,12 +1539,12 @@
   year: 2006
   is_special: false
 - actual: 0.2372
-  expected: 0.3166
+  expected: 0.3165
   party: Democratic
   year: 2006
   is_special: false
 - actual: 0.2089
-  expected: 0.3166
+  expected: 0.3165
   party: Democratic
   year: 2006
   is_special: false
@@ -1639,12 +1639,12 @@
   year: 2010
   is_special: false
 - actual: 0.7547
-  expected: 0.5149
+  expected: 0.515
   party: Democratic
   year: 2002
   is_special: false
 - actual: 0.2453
-  expected: 0.4851
+  expected: 0.485
   party: Democratic
   year: 2002
   is_special: false
@@ -1954,7 +1954,7 @@
   year: 2008
   is_special: false
 - actual: 0.1225
-  expected: 0.1566
+  expected: 0.1567
   party: Democratic
   year: 2008
   is_special: false
@@ -1979,7 +1979,7 @@
   year: 2010
   is_special: false
 - actual: 0.2148
-  expected: 0.2207
+  expected: 0.2208
   party: Democratic
   year: 2010
   is_special: false
@@ -2059,7 +2059,7 @@
   year: 2008
   is_special: false
 - actual: 0.2723
-  expected: 0.2856
+  expected: 0.2857
   party: Democratic
   year: 2008
   is_special: false
@@ -2399,17 +2399,17 @@
   year: 2004
   is_special: false
 - actual: 0.1148
-  expected: -0.2735
+  expected: -0.2734
   party: Democratic
   year: 2004
   is_special: false
 - actual: 0.8451
-  expected: 0.5184
+  expected: 0.5185
   party: Democratic
   year: 2002
   is_special: false
 - actual: 0.1549
-  expected: 0.4816
+  expected: 0.4815
   party: Democratic
   year: 2002
   is_special: false
@@ -2624,7 +2624,7 @@
   year: 2006
   is_special: false
 - actual: 0.3645
-  expected: 0.3449
+  expected: 0.345
   party: Democratic
   year: 2006
   is_special: false
@@ -2829,7 +2829,7 @@
   year: 2004
   is_special: false
 - actual: 0.4901
-  expected: 0.387
+  expected: 0.3869
   party: Democratic
   year: 2004
   is_special: true
@@ -2844,7 +2844,7 @@
   year: 2004
   is_special: true
 - actual: 0.1321
-  expected: 0.2803
+  expected: 0.2802
   party: Democratic
   year: 2004
   is_special: true
@@ -2854,7 +2854,7 @@
   year: 2004
   is_special: true
 - actual: 0.0154
-  expected: -0.3562
+  expected: -0.3561
   party: Democratic
   year: 2004
   is_special: true
@@ -2969,12 +2969,12 @@
   year: 2006
   is_special: false
 - actual: 0.5067
-  expected: 0.5481
+  expected: 0.5482
   party: Democratic
   year: 2010
   is_special: false
 - actual: 0.4933
-  expected: 0.4519
+  expected: 0.4518
   party: Democratic
   year: 2010
   is_special: false
@@ -3324,12 +3324,12 @@
   year: 2014
   is_special: false
 - actual: 0.7794
-  expected: 0.5254
+  expected: 0.5253
   party: Democratic
   year: 2012
   is_special: false
 - actual: 0.2206
-  expected: 0.4746
+  expected: 0.4747
   party: Democratic
   year: 2012
   is_special: false
@@ -3559,12 +3559,12 @@
   year: 2016
   is_special: true
 - actual: 0.5882
-  expected: 0.5187
+  expected: 0.5186
   party: Democratic
   year: 2014
   is_special: false
 - actual: 0.4118
-  expected: 0.4813
+  expected: 0.4814
   party: Democratic
   year: 2014
   is_special: false
@@ -3679,22 +3679,22 @@
   year: 2020
   is_special: false
 - actual: 0.4039
-  expected: 0.3658
+  expected: 0.3657
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.1627
-  expected: 0.2651
+  expected: 0.265
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.1468
-  expected: 0.2469
+  expected: 0.2468
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.1236
-  expected: 0.258
+  expected: 0.2579
   party: Democratic
   year: 2018
   is_special: false
@@ -3709,7 +3709,7 @@
   year: 2018
   is_special: false
 - actual: 0.0219
-  expected: -0.6763
+  expected: -0.676
   party: Democratic
   year: 2018
   is_special: false
@@ -3939,7 +3939,7 @@
   year: 2018
   is_special: false
 - actual: 0.4533
-  expected: 0.3384
+  expected: 0.3383
   party: Democratic
   year: 2018
   is_special: false
@@ -3979,7 +3979,7 @@
   year: 2016
   is_special: false
 - actual: 0.1326
-  expected: 0.1789
+  expected: 0.1788
   party: Democratic
   year: 2016
   is_special: false
@@ -4114,7 +4114,7 @@
   year: 2018
   is_special: false
 - actual: 0.5603
-  expected: 0.2375
+  expected: 0.2374
   party: Democratic
   year: 2018
   is_special: false
@@ -4139,37 +4139,37 @@
   year: 2018
   is_special: false
 - actual: 0.439
-  expected: 0.2864
+  expected: 0.2677
   party: Democratic
   year: 2020
   is_special: false
 - actual: 0.3201
-  expected: 0.419
+  expected: 0.4299
   party: Democratic
   year: 2020
   is_special: false
 - actual: 0.2409
-  expected: 0.2947
+  expected: 0.3024
   party: Democratic
   year: 2020
   is_special: false
 - actual: 0.3495
-  expected: 0.3901
+  expected: 0.3896
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.2862
-  expected: 0.2108
+  expected: 0.2105
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.2796
-  expected: 0.2024
+  expected: 0.2022
   party: Democratic
   year: 2018
   is_special: false
 - actual: 0.0848
-  expected: 0.1966
+  expected: 0.1977
   party: Democratic
   year: 2018
   is_special: false
@@ -4334,12 +4334,12 @@
   year: 2014
   is_special: false
 - actual: 0.8431
-  expected: 0.4248
+  expected: 0.4247
   party: Democratic
   year: 2012
   is_special: false
 - actual: 0.091
-  expected: 0.2815
+  expected: 0.2816
   party: Democratic
   year: 2012
   is_special: false
@@ -4514,12 +4514,12 @@
   year: 2014
   is_special: false
 - actual: 0.5807
-  expected: 0.6111
+  expected: 0.6112
   party: Democratic
   year: 2020
   is_special: false
 - actual: 0.4193
-  expected: 0.3889
+  expected: 0.3888
   party: Democratic
   year: 2020
   is_special: false
@@ -4634,12 +4634,12 @@
   year: 2020
   is_special: false
 - actual: 0.7936
-  expected: 0.5763
+  expected: 0.5764
   party: Republican
   year: 2018
   is_special: false
 - actual: 0.2064
-  expected: 0.4237
+  expected: 0.4236
   party: Republican
   year: 2018
   is_special: false
@@ -4704,7 +4704,7 @@
   year: 2016
   is_special: false
 - actual: 0.0806
-  expected: 0.1209
+  expected: 0.121
   party: Democratic
   year: 2016
   is_special: false
@@ -4719,12 +4719,12 @@
   year: 2020
   is_special: false
 - actual: 0.5899
-  expected: 0.4662
+  expected: 0.4663
   party: Democratic
   year: 2020
   is_special: false
 - actual: 0.4101
-  expected: 0.5338
+  expected: 0.5337
   party: Democratic
   year: 2020
   is_special: false
@@ -5009,7 +5009,7 @@
   year: 2016
   is_special: false
 - actual: 0.0983
-  expected: 0.2029
+  expected: 0.203
   party: Republican
   year: 2016
   is_special: false
@@ -5024,7 +5024,7 @@
   year: 2014
   is_special: false
 - actual: 0.2662
-  expected: 0.1456
+  expected: 0.1457
   party: Republican
   year: 2014
   is_special: false
@@ -5089,7 +5089,7 @@
   year: 2018
   is_special: false
 - actual: 0.0126
-  expected: -0.2365
+  expected: -0.2364
   party: Democratic
   year: 2018
   is_special: false
@@ -5279,7 +5279,7 @@
   year: 2016
   is_special: false
 - actual: 0.1085
-  expected: 0.1833
+  expected: 0.1834
   party: Democratic
   year: 2016
   is_special: false
@@ -5449,12 +5449,12 @@
   year: 2020
   is_special: false
 - actual: 0.6771
-  expected: 0.506
+  expected: 0.5061
   party: Republican
   year: 2012
   is_special: false
 - actual: 0.3229
-  expected: 0.494
+  expected: 0.4939
   party: Republican
   year: 2012
   is_special: false
@@ -5469,27 +5469,27 @@
   year: 2016
   is_special: false
 - actual: 0.6169
-  expected: 1.1124
+  expected: 1.112
   party: Democratic
   year: 2016
   is_special: true
 - actual: 0.1787
-  expected: -1.0307
+  expected: -1.0301
   party: Democratic
   year: 2016
   is_special: true
 - actual: 0.1712
-  expected: 0.901
+  expected: 0.9007
   party: Democratic
   year: 2016
   is_special: true
 - actual: 0.0332
-  expected: 1.048
+  expected: 1.0476
   party: Democratic
   year: 2016
   is_special: true
 - actual: 0.0
-  expected: -1.0307
+  expected: -1.0301
   party: Democratic
   year: 2016
   is_special: true
@@ -5614,12 +5614,12 @@
   year: 2012
   is_special: false
 - actual: 0.3004
-  expected: 0.3579
+  expected: 0.3578
   party: Democratic
   year: 2012
   is_special: false
 - actual: 0.2312
-  expected: 0.3251
+  expected: 0.325
   party: Democratic
   year: 2012
   is_special: false
@@ -5629,7 +5629,7 @@
   year: 2012
   is_special: false
 - actual: 0.031
-  expected: -0.366
+  expected: -0.3659
   party: Democratic
   year: 2012
   is_special: false
@@ -5774,7 +5774,7 @@
   year: 2018
   is_special: false
 - actual: 0.3649
-  expected: 0.4858
+  expected: 0.4857
   party: Democratic
   year: 2018
   is_special: false
@@ -5834,7 +5834,7 @@
   year: 2014
   is_special: false
 - actual: 0.0259
-  expected: 0.1328
+  expected: 0.1329
   party: Democratic
   year: 2014
   is_special: false
@@ -5849,12 +5849,12 @@
   year: 2014
   is_special: false
 - actual: 0.7507
-  expected: 0.6816
+  expected: 0.6815
   party: Democratic
   year: 2014
   is_special: false
 - actual: 0.211
-  expected: 0.402
+  expected: 0.4019
   party: Democratic
   year: 2014
   is_special: false
@@ -5934,7 +5934,7 @@
   year: 2018
   is_special: false
 - actual: 0.1017
-  expected: -0.1404
+  expected: -0.1403
   party: Democratic
   year: 2018
   is_special: false
@@ -6009,7 +6009,7 @@
   year: 2014
   is_special: false
 - actual: 0.383
-  expected: 0.3066
+  expected: 0.3065
   party: Democratic
   year: 2012
   is_special: false
@@ -6024,17 +6024,17 @@
   year: 2012
   is_special: false
 - actual: 0.669
-  expected: 0.5033
+  expected: 0.5
   party: Republican
   year: 2012
   is_special: false
 - actual: 0.331
-  expected: 0.4967
+  expected: 0.5
   party: Republican
   year: 2012
   is_special: false
 - actual: 0.5035
-  expected: 0.4417
+  expected: 0.4416
   party: Democratic
   year: 2012
   is_special: false
@@ -6049,7 +6049,7 @@
   year: 2012
   is_special: false
 - actual: 0.021
-  expected: -0.2116
+  expected: -0.2115
   party: Democratic
   year: 2012
   is_special: false
@@ -6324,12 +6324,12 @@
   year: 2016
   is_special: false
 - actual: 0.5651
-  expected: 0.5177
+  expected: 0.5176
   party: Republican
   year: 2014
   is_special: false
 - actual: 0.4349
-  expected: 0.4823
+  expected: 0.4824
   party: Republican
   year: 2014
   is_special: false
@@ -6503,26 +6503,6 @@
   party: Democratic
   year: 2022
   is_special: false
-- actual: 0.714
-  expected: 0.5
-  party: Democratic
-  year: 2026
-  is_special: true
-- actual: 0.286
-  expected: 0.5
-  party: Democratic
-  year: 2026
-  is_special: true
-- actual: 0.6147
-  expected: 0.5
-  party: Republican
-  year: 2026
-  is_special: true
-- actual: 0.3853
-  expected: 0.5
-  party: Republican
-  year: 2026
-  is_special: true
 - actual: 0.725
   expected: 0.5486
   party: Democratic
@@ -6564,7 +6544,7 @@
   year: 2022
   is_special: false
 - actual: 0.116
-  expected: 0.1675
+  expected: 0.1676
   party: Democratic
   year: 2022
   is_special: false
@@ -6889,12 +6869,12 @@
   year: 2022
   is_special: false
 - actual: 0.6196
-  expected: 0.5079
+  expected: 0.508
   party: Democratic
   year: 2022
   is_special: false
 - actual: 0.3804
-  expected: 0.4921
+  expected: 0.492
   party: Democratic
   year: 2022
   is_special: false
@@ -6909,7 +6889,7 @@
   year: 2024
   is_special: false
 - actual: 0.3179
-  expected: 0.3148
+  expected: 0.3147
   party: Democratic
   year: 2024
   is_special: false
@@ -6984,12 +6964,12 @@
   year: 2024
   is_special: false
 - actual: 0.5413
-  expected: 0.165
+  expected: 0.1651
   party: Democratic
   year: 2022
   is_special: false
 - actual: 0.4587
-  expected: 0.835
+  expected: 0.8349
   party: Democratic
   year: 2022
   is_special: false
@@ -7059,7 +7039,7 @@
   year: 2024
   is_special: false
 - actual: 0.2099
-  expected: 0.2876
+  expected: 0.2877
   party: Democratic
   year: 2024
   is_special: false
@@ -7188,16 +7168,6 @@
   party: Democratic
   year: 2022
   is_special: false
-- actual: 0.5844
-  expected: 0.5
-  party: Democratic
-  year: 2026
-  is_special: true
-- actual: 0.4156
-  expected: 0.5
-  party: Democratic
-  year: 2026
-  is_special: true
 - actual: 0.5129
   expected: 0.3813
   party: Democratic

@@ -30,28 +30,31 @@ results_by_year:
     war: 0.1342
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.374
-    lean_component_sd: 0.0176
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0043
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3673
+    lean_component_sd: 0.0157
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: -0.0001
     demographics_component_sd: 0.0058
-    fundraising_component: 0.0288
-    fundraising_component_sd: 0.0022
+    fundraising_component: 0.0893
+    fundraising_component_sd: 0.0045
     demographics_tier: core
-    expected_share_resolved: 0.6011
-    war_resolved: 0.0576
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6786
+    war_resolved: -0.0199
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -61,28 +64,31 @@ results_by_year:
     war: -0.1342
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.408
-    lean_component_sd: 0.0277
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.383
+    lean_component_sd: 0.0253
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0043
+    demographics_component: -0.0001
     demographics_component_sd: 0.0058
-    fundraising_component: -0.0416
-    fundraising_component_sd: 0.0031
+    fundraising_component: -0.0893
+    fundraising_component_sd: 0.0045
     demographics_tier: core
-    expected_share_resolved: 0.4708
-    war_resolved: -0.1295
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3785
+    war_resolved: -0.0372
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -101,28 +107,30 @@ results_by_year:
     war: 0.4886
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.374
-    lean_component_sd: 0.0176
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3673
+    lean_component_sd: 0.0157
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0043
+    demographics_component: -0.0001
     demographics_component_sd: 0.0058
-    fundraising_component: 0.0248
-    fundraising_component_sd: 0.0019
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.4673
+    expected_share_resolved: 0.4699
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -210,6 +218,11 @@ primaries:
 demographics:
   median_household_income: 98787
   bachelors_degree_count: 27800
+  median_age: 42.7
+  occupied_housing_units: 69521
+  owner_occupied_housing_units: 51966
+  total_population_race: 181753
+  white_alone_not_hispanic_population: 154605
   total_population_acs: 181753
   acs_year: 2022
 vintage_options:

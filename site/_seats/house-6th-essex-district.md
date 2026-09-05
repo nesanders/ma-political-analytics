@@ -30,29 +30,32 @@ results_by_year:
     war: 0.072
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5796
-    lean_component_sd: 0.0393
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0057
-    demographics_component_sd: 0.009
-    fundraising_component: -0.003
-    fundraising_component_sd: 0.0002
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.544
+    lean_component_sd: 0.0359
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.006
+    demographics_component_sd: 0.0168
+    fundraising_component: 0.059
+    fundraising_component_sd: 0.003
     demographics_tier: full
-    expected_share_resolved: 0.7434
-    war_resolved: 0.0061
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7584
+    war_resolved: -0.0089
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Ty Vitale
     slug: ty-vitale
     party: Republican
@@ -62,29 +65,32 @@ results_by_year:
     war: -0.072
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2276
-    lean_component_sd: 0.0107
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2236
+    lean_component_sd: 0.0096
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0057
-    demographics_component_sd: 0.009
-    fundraising_component: -0.0335
-    fundraising_component_sd: 0.0025
+    demographics_component: -0.006
+    demographics_component_sd: 0.0168
+    fundraising_component: -0.059
+    fundraising_component_sd: 0.003
     demographics_tier: full
-    expected_share_resolved: 0.2527
-    war_resolved: -0.0022
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2471
+    war_resolved: 0.0034
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Euplio R. Marciano
     slug: euplio-r-marciano
     party: Other
@@ -100,6 +106,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -129,29 +137,31 @@ results_by_year:
     war: 0.3078
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5796
-    lean_component_sd: 0.0393
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.544
+    lean_component_sd: 0.0359
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0057
-    demographics_component_sd: 0.009
-    fundraising_component: 0.0051
-    fundraising_component_sd: 0.0004
+    demographics_component: -0.006
+    demographics_component_sd: 0.0168
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6793
+    expected_share_resolved: 0.6326
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -197,11 +207,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.0517
+    primary_baseline_component: 1.0516
     primary_baseline_component_sd: 0.0049
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0517
+    primary_fundraising_component: -0.0516
     primary_fundraising_component_sd: 0.003
     primary_expected_share: 1.0
     primary_war: null
@@ -269,6 +279,11 @@ demographics:
   hispanic_or_latino_population: 2697
   median_household_income: 101552
   bachelors_degree_count: 9800
+  median_age: 39.3
+  occupied_housing_units: 17427
+  owner_occupied_housing_units: 10590
+  total_population_race: 44930
+  white_alone_not_hispanic_population: 38176
   total_population_acs: 44930
   acs_year: 2022
 vintage_options:

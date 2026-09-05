@@ -13,12 +13,14 @@ races:
   winner: false
   actual_two_party_share: 0.3721
   war: -0.0376
-  intercept_component: 0.1211
-  intercept_component_sd: 0.0495
-  lean_component: 0.2559
-  lean_component_sd: 0.0538
-  tide_component: -0.0022
-  tide_component_sd: 0.0256
+  intercept_component: -0.0356
+  intercept_component_sd: 0.0569
+  lean_component: 0.2894
+  lean_component_sd: 0.0509
+  tide_component: -0.0109
+  tide_component_sd: 0.0238
+  approval_component: 0.1265
+  approval_component_sd: 0.0257
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -26,12 +28,13 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.3748
-  war_resolved: -0.0027
-  war_resolved_sd: 0.063
+  expected_share_resolved: 0.3694
+  war_resolved: 0.0027
+  war_resolved_sd: 0.0565
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
   is_uncontested: false
   is_incumbent: false
@@ -76,12 +79,14 @@ races:
   winner: false
   actual_two_party_share: 0.3764
   war: 0.1336
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.2814
-  lean_component_sd: 0.0132
-  tide_component: 0.0024
-  tide_component_sd: 0.0112
+  intercept_component: -0.02
+  intercept_component_sd: 0.0199
+  lean_component: 0.2763
+  lean_component_sd: 0.0118
+  tide_component: -0.0071
+  tide_component_sd: 0.01
+  approval_component: 0.0924
+  approval_component_sd: 0.0096
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -89,12 +94,13 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.3456
-  war_resolved: 0.0308
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.3416
+  war_resolved: 0.0348
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
   is_uncontested: false
   is_incumbent: false

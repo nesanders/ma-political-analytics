@@ -13,28 +13,32 @@ races:
   winner: false
   actual_two_party_share: 0.4723
   war: 0.0515
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3094
-  lean_component_sd: 0.0146
-  tide_component: 0.0024
-  tide_component_sd: 0.0112
+  intercept_component: -0.0083
+  intercept_component_sd: 0.0198
+  lean_component: 0.3039
+  lean_component_sd: 0.013
+  tide_component: -0.0071
+  tide_component_sd: 0.0099
+  approval_component: 0.118
+  approval_component_sd: 0.0123
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.0002
-  demographics_component_sd: 0.0102
-  fundraising_component: 0.0086
-  fundraising_component_sd: 0.0006
+  demographics_component: 0.0026
+  demographics_component_sd: 0.0138
+  fundraising_component: -0.0228
+  fundraising_component_sd: 0.0011
   demographics_tier: full
-  expected_share_resolved: 0.382
-  war_resolved: 0.0903
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.3862
+  war_resolved: 0.0861
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)
-  - Campaign fundraising
+  - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
+    median age, homeownership %, white %)
+  - Relative campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -80,27 +84,29 @@ races:
   winner: false
   actual_two_party_share: 0.4962
   war: 0.0724
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3612
-  lean_component_sd: 0.017
-  tide_component: 0.0022
-  tide_component_sd: 0.0105
+  intercept_component: 0.025
+  intercept_component_sd: 0.0202
+  lean_component: 0.3547
+  lean_component_sd: 0.0152
+  tide_component: -0.0066
+  tide_component_sd: 0.0093
+  approval_component: 0.0904
+  approval_component_sd: 0.0094
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0085
-  fundraising_component_sd: 0.0006
+  fundraising_component: null
+  fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4337
-  war_resolved: 0.0625
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.4636
+  war_resolved: 0.0326
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -146,27 +152,29 @@ races:
   winner: false
   actual_two_party_share: 0.441
   war: 0.0379
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3507
-  lean_component_sd: 0.0165
-  tide_component: 0.0024
-  tide_component_sd: 0.0112
+  intercept_component: -0.02
+  intercept_component_sd: 0.0199
+  lean_component: 0.3444
+  lean_component_sd: 0.0148
+  tide_component: -0.0071
+  tide_component_sd: 0.01
+  approval_component: 0.0924
+  approval_component_sd: 0.0096
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0178
-  fundraising_component_sd: 0.0013
+  fundraising_component: null
+  fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4327
-  war_resolved: 0.0083
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.4097
+  war_resolved: 0.0313
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -221,7 +229,7 @@ races:
   primary_fundraising_component_sd: 0.0027
   primary_expected_share: 0.2399
   primary_war: 0.0127
-  primary_war_sd: 0.1641
+  primary_war_sd: 0.1642
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

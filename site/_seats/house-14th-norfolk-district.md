@@ -30,29 +30,31 @@ results_by_year:
     war: 0.2399
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6276
-    lean_component_sd: 0.0425
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0155
-    demographics_component_sd: 0.044
-    fundraising_component: 0.027
-    fundraising_component_sd: 0.002
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.589
+    lean_component_sd: 0.0389
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0058
+    demographics_component_sd: 0.051
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.8425
+    expected_share_resolved: 0.7446
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.7229
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.2771
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6276
-    lean_component_sd: 0.0425
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.589
+    lean_component_sd: 0.0389
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0155
-    demographics_component_sd: 0.044
-    fundraising_component: -0.0131
-    fundraising_component_sd: 0.001
+    demographics_component: -0.0058
+    demographics_component_sd: 0.051
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7302
+    expected_share_resolved: 0.6779
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: David Rolde
     slug: david-rolde
     party: null
@@ -109,6 +113,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -141,7 +147,7 @@ primaries:
     primary_baseline_component_sd: 0.0037
     primary_incumbency_component: 0.158
     primary_incumbency_component_sd: 0.096
-    primary_fundraising_component: 0.0513
+    primary_fundraising_component: 0.0514
     primary_fundraising_component_sd: 0.003
     primary_expected_share: 1.0
     primary_war: null
@@ -183,6 +189,11 @@ demographics:
   hispanic_or_latino_population: 2141
   median_household_income: 250001
   bachelors_degree_count: 8468
+  median_age: 39.5
+  occupied_housing_units: 13774
+  owner_occupied_housing_units: 11364
+  total_population_race: 44792
+  white_alone_not_hispanic_population: 32689
   total_population_acs: 44792
   acs_year: 2022
 vintage_options:

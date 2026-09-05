@@ -33,12 +33,14 @@ results_by_year:
     war: -0.047
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.328
-    lean_component_sd: 0.0827
-    tide_component: 0.0432
-    tide_component_sd: 0.0844
+    intercept_component: 0.1064
+    intercept_component_sd: 0.0854
+    lean_component: 0.3648
+    lean_component_sd: 0.0781
+    tide_component: 0.0393
+    tide_component_sd: 0.0794
+    approval_component: 0.1486
+    approval_component_sd: 0.0302
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -46,12 +48,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6277
-    war_resolved: -0.0176
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.659
+    war_resolved: -0.0489
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Julie A. Hall
     slug: julie-a-hall
@@ -62,12 +65,14 @@ results_by_year:
     war: 0.047
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2362
-    lean_component_sd: 0.0496
-    tide_component: -0.0022
-    tide_component_sd: 0.0256
+    intercept_component: -0.0193
+    intercept_component_sd: 0.0592
+    lean_component: 0.2671
+    lean_component_sd: 0.047
+    tide_component: -0.0109
+    tide_component_sd: 0.0238
+    approval_component: 0.1265
+    approval_component_sd: 0.0257
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -75,12 +80,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3551
-    war_resolved: 0.0348
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3634
+    war_resolved: 0.0265
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: true
 - year: 2018
@@ -100,25 +106,28 @@ results_by_year:
     war: 0.6951
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.328
-    lean_component_sd: 0.0827
-    tide_component: 0.0214
-    tide_component_sd: 0.0418
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3648
+    lean_component_sd: 0.0781
+    tide_component: 0.0195
+    tide_component_sd: 0.0393
+    approval_component: 0.1651
+    approval_component_sd: 0.0335
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6408
+    expected_share_resolved: 0.6571
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2016
@@ -138,25 +147,28 @@ results_by_year:
     war: 0.0736
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.328
-    lean_component_sd: 0.0827
-    tide_component: 0.0416
-    tide_component_sd: 0.0813
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3648
+    lean_component_sd: 0.0781
+    tide_component: 0.0379
+    tide_component_sd: 0.0765
+    approval_component: 0.1458
+    approval_component_sd: 0.0296
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6611
-    war_resolved: 0.0405
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6563
+    war_resolved: 0.0453
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: David A. Rosa
     slug: david-a-rosa
@@ -167,12 +179,14 @@ results_by_year:
     war: -0.0736
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2362
-    lean_component_sd: 0.0496
-    tide_component: -0.0023
-    tide_component_sd: 0.0276
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2671
+    lean_component_sd: 0.047
+    tide_component: -0.0117
+    tide_component_sd: 0.0256
+    approval_component: 0.1293
+    approval_component_sd: 0.0263
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -180,12 +194,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.355
-    war_resolved: -0.0566
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3491
+    war_resolved: -0.0507
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2014
@@ -205,25 +220,28 @@ results_by_year:
     war: 0.5449
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.328
-    lean_component_sd: 0.0827
-    tide_component: 0.0316
-    tide_component_sd: 0.0616
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3648
+    lean_component_sd: 0.0781
+    tide_component: 0.0287
+    tide_component_sd: 0.058
+    approval_component: 0.1155
+    approval_component_sd: 0.0235
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.651
+    expected_share_resolved: 0.6169
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2012
@@ -243,12 +261,14 @@ results_by_year:
     war: 0.0508
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.328
-    lean_component_sd: 0.0827
-    tide_component: 0.0398
-    tide_component_sd: 0.0777
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.3648
+    lean_component_sd: 0.0781
+    tide_component: 0.0362
+    tide_component_sd: 0.0731
+    approval_component: 0.1431
+    approval_component_sd: 0.0291
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -256,12 +276,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6242
-    war_resolved: 0.0059
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6365
+    war_resolved: -0.0064
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Sean Bielat
     slug: sean-bielat
@@ -272,12 +293,14 @@ results_by_year:
     war: -0.0508
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2362
-    lean_component_sd: 0.0496
-    tide_component: -0.0025
-    tide_component_sd: 0.0298
+    intercept_component: -0.0332
+    intercept_component_sd: 0.0568
+    lean_component: 0.2671
+    lean_component_sd: 0.047
+    tide_component: -0.0126
+    tide_component_sd: 0.0277
+    approval_component: 0.132
+    approval_component_sd: 0.0268
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -285,12 +308,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3548
-    war_resolved: 0.0151
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3533
+    war_resolved: 0.0166
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: David A. Rosa
     slug: david-a-rosa
@@ -307,6 +331,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null

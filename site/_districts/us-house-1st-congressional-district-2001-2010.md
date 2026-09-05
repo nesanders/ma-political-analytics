@@ -33,25 +33,28 @@ results_by_year:
     war: 0.0519
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3846
-    lean_component_sd: 0.097
-    tide_component: 0.0345
-    tide_component_sd: 0.0673
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4277
+    lean_component_sd: 0.0916
+    tide_component: 0.0314
+    tide_component_sd: 0.0634
+    approval_component: 0.1238
+    approval_component_sd: 0.0252
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7105
-    war_resolved: -0.0781
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6907
+    war_resolved: -0.0583
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: William L. Gunn, Jr.
     slug: william-l-gunn-jr
@@ -62,12 +65,14 @@ results_by_year:
     war: -0.0519
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1912
-    lean_component_sd: 0.0402
-    tide_component: -0.0031
-    tide_component_sd: 0.0362
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2162
+    lean_component_sd: 0.038
+    tide_component: -0.0154
+    tide_component_sd: 0.0336
+    approval_component: 0.1513
+    approval_component_sd: 0.0307
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -75,12 +80,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3092
-    war_resolved: 0.0584
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3165
+    war_resolved: 0.0511
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Michael Engel
     slug: michael-engel
@@ -97,6 +103,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -126,25 +134,28 @@ results_by_year:
     war: 0.0723
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3846
-    lean_component_sd: 0.097
-    tide_component: 0.0407
-    tide_component_sd: 0.0795
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4277
+    lean_component_sd: 0.0916
+    tide_component: 0.037
+    tide_component_sd: 0.0748
+    approval_component: 0.2063
+    approval_component_sd: 0.0419
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7168
-    war_resolved: 0.0125
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.7789
+    war_resolved: -0.0496
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Nathan A. Bech
     slug: nathan-a-bech
@@ -155,12 +166,14 @@ results_by_year:
     war: -0.0723
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1912
-    lean_component_sd: 0.0402
-    tide_component: -0.0024
-    tide_component_sd: 0.0287
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2162
+    lean_component_sd: 0.038
+    tide_component: -0.0122
+    tide_component_sd: 0.0266
+    approval_component: 0.0688
+    approval_component_sd: 0.014
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -168,12 +181,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3098
-    war_resolved: -0.0391
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.2371
+    war_resolved: 0.0336
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2006
@@ -193,25 +207,28 @@ results_by_year:
     war: 0.3306
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3846
-    lean_component_sd: 0.097
-    tide_component: 0.0394
-    tide_component_sd: 0.0769
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4277
+    lean_component_sd: 0.0916
+    tide_component: 0.0358
+    tide_component_sd: 0.0724
+    approval_component: 0.1706
+    approval_component_sd: 0.0347
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7155
+    expected_share_resolved: 0.742
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: William H. Szych
     slug: william-h-szych
@@ -228,6 +245,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -257,25 +276,28 @@ results_by_year:
     war: 0.3594
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3846
-    lean_component_sd: 0.097
-    tide_component: 0.0404
-    tide_component_sd: 0.0789
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.4277
+    lean_component_sd: 0.0916
+    tide_component: 0.0368
+    tide_component_sd: 0.0742
+    approval_component: 0.1431
+    approval_component_sd: 0.0291
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7165
+    expected_share_resolved: 0.7154
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2002
@@ -295,12 +317,14 @@ results_by_year:
     war: 0.1461
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3846
-    lean_component_sd: 0.097
-    tide_component: 0.0306
-    tide_component_sd: 0.0597
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.4277
+    lean_component_sd: 0.0916
+    tide_component: 0.0278
+    tide_component_sd: 0.0561
+    approval_component: 0.1018
+    approval_component_sd: 0.0207
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -308,12 +332,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6716
-    war_resolved: 0.0044
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6498
+    war_resolved: 0.0262
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Matthew W. Kinnaman
     slug: matthew-w-kinnaman
@@ -324,12 +349,14 @@ results_by_year:
     war: -0.1461
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.1912
-    lean_component_sd: 0.0402
-    tide_component: -0.0035
-    tide_component_sd: 0.041
+    intercept_component: -0.0332
+    intercept_component_sd: 0.0568
+    lean_component: 0.2162
+    lean_component_sd: 0.038
+    tide_component: -0.0174
+    tide_component_sd: 0.038
+    approval_component: 0.1733
+    approval_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -337,12 +364,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3088
-    war_resolved: 0.0152
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3389
+    war_resolved: -0.0149
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:

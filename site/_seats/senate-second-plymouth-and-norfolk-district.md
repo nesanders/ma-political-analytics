@@ -30,28 +30,30 @@ results_by_year:
     war: 0.3892
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5129
-    lean_component_sd: 0.0348
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0095
-    demographics_component_sd: 0.0129
-    fundraising_component: 0.0054
-    fundraising_component_sd: 0.0004
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4814
+    lean_component_sd: 0.0318
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0128
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.7003
+    expected_share_resolved: 0.6426
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6013
@@ -70,28 +72,31 @@ results_by_year:
     war: 0.0357
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5129
-    lean_component_sd: 0.0348
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4814
+    lean_component_sd: 0.0318
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0095
-    demographics_component_sd: 0.0129
-    fundraising_component: 0.0258
-    fundraising_component_sd: 0.0019
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0128
+    fundraising_component: 0.0676
+    fundraising_component_sd: 0.0034
     demographics_tier: core
-    expected_share_resolved: 0.6484
-    war_resolved: -0.0114
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6435
+    war_resolved: -0.0065
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Jim Gordon
     slug: jim-gordon
     party: Republican
@@ -101,28 +106,31 @@ results_by_year:
     war: -0.0357
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2845
-    lean_component_sd: 0.0134
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2795
+    lean_component_sd: 0.012
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0095
-    demographics_component_sd: 0.0129
-    fundraising_component: -0.0115
-    fundraising_component_sd: 0.0009
+    demographics_component: -0.0002
+    demographics_component_sd: 0.0128
+    fundraising_component: -0.0676
+    fundraising_component_sd: 0.0034
     demographics_tier: core
-    expected_share_resolved: 0.3467
-    war_resolved: 0.0163
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3143
+    war_resolved: 0.0487
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -144,7 +152,7 @@ primaries:
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1459
     primary_incumbency_component_sd: 0.0957
-    primary_fundraising_component: 0.0201
+    primary_fundraising_component: 0.0202
     primary_fundraising_component_sd: 0.0012
     primary_expected_share: 1.0
     primary_war: null
@@ -168,15 +176,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4635
+    primary_baseline_component: 0.4634
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0593
+    primary_fundraising_component: 0.0594
     primary_fundraising_component_sd: 0.0035
     primary_expected_share: 0.5228
     primary_war: 0.1729
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -189,7 +197,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4635
+    primary_baseline_component: 0.4634
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -197,7 +205,7 @@ primaries:
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 0.4772
     primary_war: -0.1729
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -231,6 +239,11 @@ primaries:
 demographics:
   median_household_income: 84460
   bachelors_degree_count: 19413
+  median_age: 38.1
+  occupied_housing_units: 59650
+  owner_occupied_housing_units: 39088
+  total_population_race: 170794
+  white_alone_not_hispanic_population: 80385
   total_population_acs: 170794
   acs_year: 2022
 vintage_options:

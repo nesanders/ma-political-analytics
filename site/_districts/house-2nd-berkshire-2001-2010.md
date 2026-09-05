@@ -33,12 +33,14 @@ results_by_year:
     war: -0.1119
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5989
-    lean_component_sd: 0.0406
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.5621
+    lean_component_sd: 0.0371
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -46,12 +48,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6981
-    war_resolved: -0.0855
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6998
+    war_resolved: -0.0872
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Michael F. Case
     slug: michael-f-case
@@ -62,12 +65,14 @@ results_by_year:
     war: 0.1119
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2112
-    lean_component_sd: 0.0099
-    tide_component: 0.0032
-    tide_component_sd: 0.0148
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.2074
+    lean_component_sd: 0.0089
+    tide_component: -0.0093
+    tide_component_sd: 0.0131
+    approval_component: 0.1081
+    approval_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -75,12 +80,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2761
-    war_resolved: 0.1113
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3312
+    war_resolved: 0.0562
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Stefan G. Racz
     slug: stefan-g-racz
@@ -97,6 +103,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -126,27 +134,29 @@ results_by_year:
     war: 0.2627
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5989
-    lean_component_sd: 0.0406
-    tide_component: 0.0063
-    tide_component_sd: 0.0343
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5621
+    lean_component_sd: 0.0371
+    tide_component: 0.0003
+    tide_component_sd: 0.0306
+    approval_component: 0.1474
+    approval_component_sd: 0.0154
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0089
-    fundraising_component_sd: 0.0007
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7625
+    expected_share_resolved: 0.7903
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: false
 - year: 2006
   lean_dem_share: 0.7596
@@ -165,27 +175,29 @@ results_by_year:
     war: 0.2404
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5989
-    lean_component_sd: 0.0406
-    tide_component: 0.0061
-    tide_component_sd: 0.0332
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5621
+    lean_component_sd: 0.0371
+    tide_component: 0.0002
+    tide_component_sd: 0.0296
+    approval_component: 0.1219
+    approval_component_sd: 0.0127
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0147
-    fundraising_component_sd: 0.0011
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7565
+    expected_share_resolved: 0.7648
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Stefan G. Racz
     slug: stefan-g-racz
     party: Other
@@ -201,6 +213,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -230,27 +244,30 @@ results_by_year:
     war: 0.0011
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5989
-    lean_component_sd: 0.0406
-    tide_component: 0.0063
-    tide_component_sd: 0.0341
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.5621
+    lean_component_sd: 0.0371
+    tide_component: 0.0003
+    tide_component_sd: 0.0303
+    approval_component: 0.1022
+    approval_component_sd: 0.0107
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0002
-    fundraising_component_sd: 0.0
+    fundraising_component: 0.0242
+    fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.6992
-    war_resolved: -0.0014
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7378
+    war_resolved: -0.04
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Richard S. Stockwell
     slug: richard-s-stockwell
     party: Republican
@@ -260,27 +277,30 @@ results_by_year:
     war: -0.0011
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2112
-    lean_component_sd: 0.0099
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.2074
+    lean_component_sd: 0.0089
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.0944
+    approval_component_sd: 0.0098
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0108
-    fundraising_component_sd: 0.0008
+    fundraising_component: -0.0242
+    fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.2647
-    war_resolved: 0.0375
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2951
+    war_resolved: 0.0071
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: true
 - year: 2002
   lean_dem_share: 0.6198
@@ -299,27 +319,29 @@ results_by_year:
     war: 0.6198
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2112
-    lean_component_sd: 0.0099
-    tide_component: 0.0036
-    tide_component_sd: 0.0167
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2074
+    lean_component_sd: 0.0089
+    tide_component: -0.0106
+    tide_component_sd: 0.0148
+    approval_component: 0.1239
+    approval_component_sd: 0.0129
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0515
-    fundraising_component_sd: 0.0039
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.225
+    expected_share_resolved: 0.3124
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Matthew E. Goddard
     slug: matthew-e-goddard
     party: Other
@@ -335,6 +357,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -371,7 +395,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3208
     primary_war: 0.1191
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Thomas S. Szczepaniak
@@ -391,7 +415,7 @@ primaries:
     primary_fundraising_component_sd: 0.0021
     primary_expected_share: 0.3559
     primary_war: 0.0076
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -412,7 +436,7 @@ primaries:
     primary_fundraising_component_sd: 0.0002
     primary_expected_share: 0.3234
     primary_war: -0.1268
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -439,7 +463,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.519
     primary_war: 0.2491
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Rosanne M. Frieri
@@ -455,11 +479,11 @@ primaries:
     primary_baseline_component_sd: 0.005
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0381
+    primary_fundraising_component: -0.038
     primary_fundraising_component_sd: 0.0022
     primary_expected_share: 0.481
     primary_war: -0.2491
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -482,7 +506,7 @@ primaries:
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1623
     primary_incumbency_component_sd: 0.1006
-    primary_fundraising_component: -0.0024
+    primary_fundraising_component: -0.0023
     primary_fundraising_component_sd: 0.0001
     primary_expected_share: 1.0
     primary_war: null
@@ -588,11 +612,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.0907
+    primary_baseline_component: 1.0906
     primary_baseline_component_sd: 0.0051
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0907
+    primary_fundraising_component: -0.0906
     primary_fundraising_component_sd: 0.0053
     primary_expected_share: 1.0
     primary_war: null

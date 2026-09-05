@@ -30,29 +30,31 @@ results_by_year:
     war: 0.435
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.4066
-    lean_component_sd: 0.0191
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0008
-    demographics_component_sd: 0.0071
-    fundraising_component: -0.0125
-    fundraising_component_sd: 0.0009
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3993
+    lean_component_sd: 0.0171
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: 0.0006
+    demographics_component_sd: 0.015
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5889
+    expected_share_resolved: 0.622
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.439
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.039
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.4066
-    lean_component_sd: 0.0191
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3993
+    lean_component_sd: 0.0171
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0008
-    demographics_component_sd: 0.0071
-    fundraising_component: 0.015
-    fundraising_component_sd: 0.0011
+    demographics_component: 0.0006
+    demographics_component_sd: 0.015
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4865
-    war_resolved: 0.1134
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.5025
+    war_resolved: 0.0974
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Anthony J. Russo
     slug: anthony-j-russo
     party: Democratic
@@ -103,28 +107,31 @@ results_by_year:
     war: -0.039
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.3699
-    lean_component_sd: 0.0251
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.3472
+    lean_component_sd: 0.0229
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0008
-    demographics_component_sd: 0.0071
+    demographics_component: 0.0006
+    demographics_component_sd: 0.015
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4709
-    war_resolved: -0.0708
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.4424
+    war_resolved: -0.0423
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -214,6 +221,11 @@ demographics:
   hispanic_or_latino_population: 2194
   median_household_income: 88755
   bachelors_degree_count: 6858
+  median_age: 47.3
+  occupied_housing_units: 17500
+  owner_occupied_housing_units: 14223
+  total_population_race: 43204
+  white_alone_not_hispanic_population: 38892
   total_population_acs: 43204
   acs_year: 2022
 vintage_options:

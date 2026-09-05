@@ -33,25 +33,28 @@ results_by_year:
     war: 0.0764
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6146
-    lean_component_sd: 0.0417
-    tide_component: 0.0054
-    tide_component_sd: 0.0291
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5768
+    lean_component_sd: 0.0381
+    tide_component: 0.0002
+    tide_component_sd: 0.0259
+    approval_component: 0.0885
+    approval_component_sd: 0.0092
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7861
-    war_resolved: -0.0336
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.746
+    war_resolved: 0.0065
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: C.J. Ferry
     slug: cj-ferry
@@ -62,27 +65,29 @@ results_by_year:
     war: -0.0764
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.1978
-    lean_component_sd: 0.0093
-    tide_component: 0.0032
-    tide_component_sd: 0.0148
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.1943
+    lean_component_sd: 0.0083
+    tide_component: -0.0093
+    tide_component_sd: 0.0131
+    approval_component: 0.1081
+    approval_component_sd: 0.0113
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0356
-    fundraising_component_sd: 0.0027
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2271
-    war_resolved: 0.0204
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2731
+    war_resolved: -0.0256
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: false
 - year: 2008
   lean_dem_share: 0.7401
@@ -101,12 +106,14 @@ results_by_year:
     war: 0.0668
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6146
-    lean_component_sd: 0.0417
-    tide_component: 0.0063
-    tide_component_sd: 0.0343
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.5768
+    lean_component_sd: 0.0381
+    tide_component: 0.0003
+    tide_component_sd: 0.0306
+    approval_component: 0.1474
+    approval_component_sd: 0.0154
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -114,12 +121,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7147
-    war_resolved: 0.0922
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7735
+    war_resolved: 0.0334
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: C.J. Ferry
     slug: cj-ferry
@@ -130,27 +138,29 @@ results_by_year:
     war: -0.0668
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.1978
-    lean_component_sd: 0.0093
-    tide_component: 0.0025
-    tide_component_sd: 0.0117
+    intercept_component: 0.025
+    intercept_component_sd: 0.0202
+    lean_component: 0.1943
+    lean_component_sd: 0.0083
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.0491
+    approval_component_sd: 0.0051
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0148
-    fundraising_component_sd: 0.0011
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.2474
-    war_resolved: -0.0543
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.261
+    war_resolved: -0.0679
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   is_open_seat: true
 - year: 2006
   lean_dem_share: 0.7531
@@ -169,27 +179,29 @@ results_by_year:
     war: 0.2469
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6146
-    lean_component_sd: 0.0417
-    tide_component: 0.0061
-    tide_component_sd: 0.0332
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5768
+    lean_component_sd: 0.0381
+    tide_component: 0.0002
+    tide_component_sd: 0.0296
+    approval_component: 0.1219
+    approval_component_sd: 0.0127
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0199
-    fundraising_component_sd: 0.0015
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8067
+    expected_share_resolved: 0.7795
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -205,6 +217,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -234,27 +248,29 @@ results_by_year:
     war: 0.236
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6146
-    lean_component_sd: 0.0417
-    tide_component: 0.0063
-    tide_component_sd: 0.0341
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5768
+    lean_component_sd: 0.0381
+    tide_component: 0.0003
+    tide_component_sd: 0.0303
+    approval_component: 0.1022
+    approval_component_sd: 0.0107
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0159
-    fundraising_component_sd: 0.0012
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8029
+    expected_share_resolved: 0.7598
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -270,6 +286,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -299,27 +317,29 @@ results_by_year:
     war: 0.303
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6146
-    lean_component_sd: 0.0417
-    tide_component: 0.0047
-    tide_component_sd: 0.0258
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5768
+    lean_component_sd: 0.0381
+    tide_component: 0.0002
+    tide_component_sd: 0.023
+    approval_component: 0.0727
+    approval_component_sd: 0.0076
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0151
-    fundraising_component_sd: 0.0011
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7283
+    expected_share_resolved: 0.6654
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
-    - Campaign fundraising
   - name: Raymond P. Leary, Jr.
     slug: raymond-p-leary-jr
     party: Libertarian
@@ -335,6 +355,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -365,13 +387,13 @@ primaries:
     fair_share: 0.5
     primary_baseline_component: 0.4027
     primary_baseline_component_sd: 0.0039
-    primary_incumbency_component: 0.1738
+    primary_incumbency_component: 0.1737
     primary_incumbency_component_sd: 0.0954
     primary_fundraising_component: null
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5764
     primary_war: -0.0381
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -392,7 +414,7 @@ primaries:
     primary_fundraising_component_sd: 0.0012
     primary_expected_share: 0.4236
     primary_war: 0.0381
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -446,7 +468,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5161
     primary_war: 0.2418
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: John J. Rodrigues
@@ -466,7 +488,7 @@ primaries:
     primary_fundraising_component_sd: 0.0019
     primary_expected_share: 0.4839
     primary_war: -0.2418
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -485,11 +507,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.014
+    primary_baseline_component: 1.0139
     primary_baseline_component_sd: 0.0048
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.014
+    primary_fundraising_component: -0.0139
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 1.0
     primary_war: null
@@ -520,7 +542,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2904
     primary_war: 0.0891
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Leo O. Pelletier
@@ -540,7 +562,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2904
     primary_war: -0.0009
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: John J. Rodrigues
@@ -560,7 +582,7 @@ primaries:
     primary_fundraising_component_sd: 0.0022
     primary_expected_share: 0.2525
     primary_war: -0.0492
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -577,11 +599,11 @@ primaries:
     primary_baseline_component_sd: 0.0058
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.1236
+    primary_fundraising_component: -0.1235
     primary_fundraising_component_sd: 0.0072
     primary_expected_share: 0.1668
     primary_war: -0.0391
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -629,12 +651,12 @@ primaries:
     primary_baseline_component: 0.271
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1697
-    primary_incumbency_component_sd: 0.1018
+    primary_incumbency_component_sd: 0.1017
     primary_fundraising_component: 0.0438
     primary_fundraising_component_sd: 0.0026
     primary_expected_share: 0.4846
     primary_war: 0.2082
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -656,7 +678,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.271
     primary_war: -0.0573
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: John J. Rodrigues
@@ -676,7 +698,7 @@ primaries:
     primary_fundraising_component_sd: 0.0016
     primary_expected_share: 0.2444
     primary_war: -0.1508
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -748,11 +770,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9592
+    primary_baseline_component: 0.9591
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0408
+    primary_fundraising_component: 0.0409
     primary_fundraising_component_sd: 0.0024
     primary_expected_share: 1.0
     primary_war: null

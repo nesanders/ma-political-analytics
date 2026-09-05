@@ -30,28 +30,30 @@ results_by_year:
     war: 0.183
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6948
-    lean_component_sd: 0.0471
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0061
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.6521
+    lean_component_sd: 0.043
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0001
     demographics_component_sd: 0.0082
-    fundraising_component: 0.0065
-    fundraising_component_sd: 0.0005
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.8677
+    expected_share_resolved: 0.8136
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.8248
@@ -70,28 +72,30 @@ results_by_year:
     war: 0.1752
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6948
-    lean_component_sd: 0.0471
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.6521
+    lean_component_sd: 0.043
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0061
+    demographics_component: 0.0001
     demographics_component_sd: 0.0082
-    fundraising_component: 0.0014
-    fundraising_component_sd: 0.0001
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.7904
+    expected_share_resolved: 0.7468
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -152,6 +156,11 @@ primaries:
 demographics:
   median_household_income: 101830
   bachelors_degree_count: 40160
+  median_age: 30.3
+  occupied_housing_units: 71205
+  owner_occupied_housing_units: 24632
+  total_population_race: 173720
+  white_alone_not_hispanic_population: 110972
   total_population_acs: 173720
   acs_year: 2022
 vintage_options:

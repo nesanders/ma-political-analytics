@@ -30,29 +30,31 @@ results_by_year:
     war: 0.4548
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4898
-    lean_component_sd: 0.0332
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: 0.0044
-    demographics_component_sd: 0.0247
-    fundraising_component: -0.0104
-    fundraising_component_sd: 0.0008
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4597
+    lean_component_sd: 0.0303
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0068
+    demographics_component_sd: 0.0538
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6563
+    expected_share_resolved: 0.6279
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6123
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.3877
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4898
-    lean_component_sd: 0.0332
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4597
+    lean_component_sd: 0.0303
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0044
-    demographics_component_sd: 0.0247
-    fundraising_component: 0.0318
-    fundraising_component_sd: 0.0024
+    demographics_component: 0.0068
+    demographics_component_sd: 0.0538
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6263
+    expected_share_resolved: 0.5611
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -147,7 +151,7 @@ primaries:
     primary_fundraising_component_sd: 0.0042
     primary_expected_share: 0.3813
     primary_war: 0.1316
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -168,7 +172,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3094
     primary_war: 0.0916
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
   - name: Doris V. Rodriguez
@@ -188,7 +192,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.3094
     primary_war: -0.2232
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
 demographics:
@@ -197,6 +201,11 @@ demographics:
   hispanic_or_latino_population: 34715
   median_household_income: 64258
   bachelors_degree_count: 15243
+  median_age: 34.6
+  occupied_housing_units: 58719
+  owner_occupied_housing_units: 26064
+  total_population_race: 163974
+  white_alone_not_hispanic_population: 52806
   total_population_acs: 163974
   acs_year: 2022
 vintage_options:

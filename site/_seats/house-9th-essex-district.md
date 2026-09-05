@@ -30,29 +30,31 @@ results_by_year:
     war: 0.5381
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3208
-    lean_component_sd: 0.0151
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
-    incumbency_adjustment: 0.1297
-    incumbency_adjustment_sd: 0.0088
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0045
-    fundraising_component: -0.0122
-    fundraising_component_sd: 0.0009
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.3151
+    lean_component_sd: 0.0135
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1335
+    incumbency_adjustment_sd: 0.0082
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0063
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5052
+    expected_share_resolved: 0.537
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5736
@@ -71,29 +73,31 @@ results_by_year:
     war: 0.5736
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3208
-    lean_component_sd: 0.0151
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.3151
+    lean_component_sd: 0.0135
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0027
-    demographics_component_sd: 0.0045
-    fundraising_component: -0.0582
-    fundraising_component_sd: 0.0044
+    demographics_component: -0.0001
+    demographics_component_sd: 0.0063
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3295
+    expected_share_resolved: 0.4176
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -116,7 +120,7 @@ primaries:
     primary_incumbency_component: 0.1566
     primary_incumbency_component_sd: 0.0811
     primary_fundraising_component: -0.0077
-    primary_fundraising_component_sd: 0.0005
+    primary_fundraising_component_sd: 0.0004
     primary_expected_share: 1.0
     primary_war: null
     primary_war_sd: null
@@ -139,11 +143,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.1058
+    primary_baseline_component: 1.1057
     primary_baseline_component_sd: 0.0052
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.1058
+    primary_fundraising_component: -0.1057
     primary_fundraising_component_sd: 0.0062
     primary_expected_share: 1.0
     primary_war: null
@@ -157,6 +161,11 @@ demographics:
   hispanic_or_latino_population: 3214
   median_household_income: 104494
   bachelors_degree_count: 7439
+  median_age: 44.8
+  occupied_housing_units: 17011
+  owner_occupied_housing_units: 13023
+  total_population_race: 44121
+  white_alone_not_hispanic_population: 36186
   total_population_acs: 44121
   acs_year: 2022
 vintage_options:

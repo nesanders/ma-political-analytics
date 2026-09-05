@@ -33,25 +33,28 @@ results_by_year:
     war: 0.3761
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3397
-    lean_component_sd: 0.0857
-    tide_component: 0.0432
-    tide_component_sd: 0.0844
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3778
+    lean_component_sd: 0.0809
+    tide_component: 0.0393
+    tide_component_sd: 0.0794
+    approval_component: 0.1486
+    approval_component_sd: 0.0302
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6744
+    expected_share_resolved: 0.6736
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Alex B. Morse
     slug: alex-b-morse
@@ -68,6 +71,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,25 +102,28 @@ results_by_year:
     war: 0.6723
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3397
-    lean_component_sd: 0.0857
-    tide_component: 0.0214
-    tide_component_sd: 0.0418
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3778
+    lean_component_sd: 0.0809
+    tide_component: 0.0195
+    tide_component_sd: 0.0393
+    approval_component: 0.1651
+    approval_component_sd: 0.0335
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6526
+    expected_share_resolved: 0.6702
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2016
@@ -135,25 +143,28 @@ results_by_year:
     war: 0.3897
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3397
-    lean_component_sd: 0.0857
-    tide_component: 0.0416
-    tide_component_sd: 0.0813
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3778
+    lean_component_sd: 0.0809
+    tide_component: 0.0379
+    tide_component_sd: 0.0765
+    approval_component: 0.1458
+    approval_component_sd: 0.0296
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6728
+    expected_share_resolved: 0.6694
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Frederick O. Mayock
     slug: frederick-o-mayock
@@ -170,6 +181,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -196,6 +209,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -225,25 +240,28 @@ results_by_year:
     war: 0.4944
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3397
-    lean_component_sd: 0.0857
-    tide_component: 0.0316
-    tide_component_sd: 0.0616
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3778
+    lean_component_sd: 0.0809
+    tide_component: 0.0287
+    tide_component_sd: 0.058
+    approval_component: 0.1155
+    approval_component_sd: 0.0235
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6628
+    expected_share_resolved: 0.6299
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2012
@@ -263,12 +281,14 @@ results_by_year:
     war: 0.3488
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3397
-    lean_component_sd: 0.0857
-    tide_component: 0.0398
-    tide_component_sd: 0.0777
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.3778
+    lean_component_sd: 0.0809
+    tide_component: 0.0362
+    tide_component_sd: 0.0731
+    approval_component: 0.1431
+    approval_component_sd: 0.0291
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -276,12 +296,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.636
+    expected_share_resolved: 0.6496
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:

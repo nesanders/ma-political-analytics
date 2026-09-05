@@ -1826,4 +1826,32 @@ siblings), and `statewide-map.js`'s `METRICS` list gained a matching
 option, positioned between tide and incumbency to match every other list
 of these components on this site.
 
-Verified live: {{PENDING_VERIFICATION}}
+Verified live against a full pipeline re-run (all fetchers plus
+`crosswalks`/`derived_metrics`/`generate_site_data`/`publish_query_data`/
+`publish_district_geo`, 2002-2024): no exceptions in any of
+`fit_war_model`/`apply_war`/`fit_us_house_war_model`/`apply_us_house_war`/
+`compute_national_approval_by_year`. `fetch.presidential_approval` fetched
+exactly 12 rows (2002-2024 even years, `approving` 25.0-63.0), one benign
+logged repair (Biden's page's truncated-year typo, exactly the bug this
+module's own docstring already documents). The general WAR model
+(`site/_data/war_model.yml`) refit on n=1,494 contested major-party
+candidate-races (R²=0.787): `national_approval` +0.197 [0.157, 0.238],
+`open_seat` +0.045 [0.034, 0.056] — both clearly nonzero, the same
+direction this project's own priors expected. `median_age_10` -0.002
+[-0.035, 0.031], `homeownership_pct` +0.041 [-0.143, 0.228], and
+`white_pct` -0.025 [-0.177, 0.124] all straddle zero — genuinely
+inconclusive on this sample, not a bug, and reported as such rather than
+oversold. `fundraising_share` +0.192 [0.173, 0.211], a clearly nonzero,
+intuitively-signed coefficient on its new 0-1 scale (n_finance=1,112, both
+candidates matched). n_open_seat=1,116, n_demographics=200,
+n_incumbent=413. The U.S. House model (`site/_data/us_house_war_model.yml`,
+n=116, R²=0.918): `ush_national_approval` +0.275 [0.165, 0.385], clearly
+nonzero; `ush_open_seat` +0.016 [-0.022, 0.055], straddling zero — a real,
+plausible finding given this model's much smaller sample (n_open_seat=80),
+not a bug. `generate_site_data` wrote 629 district pages, 209 seat pages,
+2,179 candidate pages, all three chambers' combined GeoJSON maps, and
+matched 1,644/2,036 candidates to OCPF finance data; `publish_query_data`
+wrote 2,405 seat rows/3,447 result rows/3,647 finance rows plus the
+updated schema card; `publish_district_geo` wrote all 602 per-district
+geometry files plus the combined maps, each now carrying a real, non-null
+`winner_approval_component` wherever the underlying race supports it.

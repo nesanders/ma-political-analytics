@@ -30,29 +30,31 @@ results_by_year:
     war: 0.2636
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6235
-    lean_component_sd: 0.0423
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
+    intercept_component: 0.049
+    intercept_component_sd: 0.0331
+    lean_component: 0.5852
+    lean_component_sd: 0.0386
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0036
-    demographics_component_sd: 0.0072
-    fundraising_component: 0.0214
-    fundraising_component_sd: 0.0016
+    demographics_component: 0.0091
+    demographics_component_sd: 0.0241
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7486
+    expected_share_resolved: 0.7242
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Clinton Graham
     slug: clinton-graham
     party: Other
@@ -68,6 +70,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -97,28 +101,31 @@ results_by_year:
     war: 0.263
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.6235
-    lean_component_sd: 0.0423
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5852
+    lean_component_sd: 0.0386
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0036
-    demographics_component_sd: 0.0072
+    demographics_component: 0.0091
+    demographics_component_sd: 0.0241
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7274
+    expected_share_resolved: 0.6889
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -136,7 +143,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3148
+    primary_baseline_component: 0.3147
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -144,7 +151,7 @@ primaries:
     primary_fundraising_component_sd: 0.0031
     primary_expected_share: 0.3685
     primary_war: -0.0079
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -157,7 +164,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3148
+    primary_baseline_component: 0.3147
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -165,7 +172,7 @@ primaries:
     primary_fundraising_component_sd: 0.0001
     primary_expected_share: 0.3168
     primary_war: 0.0047
-    primary_war_sd: 0.1641
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -178,15 +185,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3148
+    primary_baseline_component: 0.3147
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
     primary_fundraising_component: null
     primary_fundraising_component_sd: null
-    primary_expected_share: 0.3148
-    primary_war: 0.0031
-    primary_war_sd: 0.1641
+    primary_expected_share: 0.3147
+    primary_war: 0.0032
+    primary_war_sd: 0.1642
     primary_war_factors:
     - Equal share among candidates
 - year: 2022
@@ -221,6 +228,11 @@ demographics:
   hispanic_or_latino_population: 3171
   median_household_income: 124742
   bachelors_degree_count: 7469
+  median_age: 41.1
+  occupied_housing_units: 14745
+  owner_occupied_housing_units: 11573
+  total_population_race: 43558
+  white_alone_not_hispanic_population: 22103
   total_population_acs: 43558
   acs_year: 2022
 vintage_options:

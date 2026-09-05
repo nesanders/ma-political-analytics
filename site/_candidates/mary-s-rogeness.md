@@ -13,27 +13,29 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5498
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3482
-  lean_component_sd: 0.0164
-  tide_component: 0.0026
-  tide_component_sd: 0.0124
-  incumbency_adjustment: 0.1297
-  incumbency_adjustment_sd: 0.0088
+  intercept_component: -0.02
+  intercept_component_sd: 0.0199
+  lean_component: 0.342
+  lean_component_sd: 0.0147
+  tide_component: -0.0078
+  tide_component_sd: 0.011
+  approval_component: 0.0747
+  approval_component_sd: 0.0078
+  incumbency_adjustment: 0.1335
+  incumbency_adjustment_sd: 0.0082
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0506
-  fundraising_component_sd: 0.0038
+  fundraising_component: null
+  fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4918
+  expected_share_resolved: 0.5224
   war_resolved: null
   war_resolved_sd: null
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 2
@@ -80,27 +82,29 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.5675
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3482
-  lean_component_sd: 0.0164
-  tide_component: 0.0025
-  tide_component_sd: 0.0118
-  incumbency_adjustment: 0.1297
-  incumbency_adjustment_sd: 0.0088
+  intercept_component: -0.02
+  intercept_component_sd: 0.0199
+  lean_component: 0.342
+  lean_component_sd: 0.0147
+  tide_component: -0.0075
+  tide_component_sd: 0.0105
+  approval_component: 0.0944
+  approval_component_sd: 0.0098
+  incumbency_adjustment: 0.1335
+  incumbency_adjustment_sd: 0.0082
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: -0.0001
-  fundraising_component_sd: 0.0
+  fundraising_component: null
+  fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.5422
+  expected_share_resolved: 0.5424
   war_resolved: null
   war_resolved_sd: null
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
   is_uncontested: true
   is_incumbent: true
   incumbent_terms: 1
@@ -118,7 +122,7 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.8302
+  primary_baseline_component: 0.8301
   primary_baseline_component_sd: 0.0039
   primary_incumbency_component: 0.1583
   primary_incumbency_component_sd: 0.0805
@@ -147,27 +151,30 @@ races:
   winner: true
   actual_two_party_share: 0.5958
   war: 0.0102
-  intercept_component: 0.0618
-  intercept_component_sd: 0.0188
-  lean_component: 0.3482
-  lean_component_sd: 0.0164
-  tide_component: 0.0036
-  tide_component_sd: 0.0167
+  intercept_component: -0.0083
+  intercept_component_sd: 0.0198
+  lean_component: 0.342
+  lean_component_sd: 0.0147
+  tide_component: -0.0106
+  tide_component_sd: 0.0148
+  approval_component: 0.1239
+  approval_component_sd: 0.0129
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.001
+  fundraising_component: -0.0017
   fundraising_component_sd: 0.0001
   demographics_tier: null
-  expected_share_resolved: 0.4146
-  war_resolved: 0.1812
-  war_resolved_sd: 0.0809
+  expected_share_resolved: 0.4454
+  war_resolved: 0.1504
+  war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
+  - National presidential approval
   - Incumbency
-  - Campaign fundraising
+  - Relative campaign fundraising
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -185,11 +192,11 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.9844
+  primary_baseline_component: 0.9843
   primary_baseline_component_sd: 0.0046
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0156
+  primary_fundraising_component: 0.0157
   primary_fundraising_component_sd: 0.0009
   primary_expected_share: 1.0
   primary_war: null

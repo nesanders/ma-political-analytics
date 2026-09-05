@@ -30,25 +30,28 @@ results_by_year:
     war: 0.1954
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.5115
-    lean_component_sd: 0.129
-    tide_component: 0.0405
-    tide_component_sd: 0.0791
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.5688
+    lean_component_sd: 0.1218
+    tide_component: 0.0369
+    tide_component_sd: 0.0745
+    approval_component: 0.1128
+    approval_component_sd: 0.0229
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8435
+    expected_share_resolved: 0.8264
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2022
@@ -68,12 +71,14 @@ results_by_year:
     war: 0.0157
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.5115
-    lean_component_sd: 0.129
-    tide_component: 0.0418
-    tide_component_sd: 0.0815
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.5688
+    lean_component_sd: 0.1218
+    tide_component: 0.038
+    tide_component_sd: 0.0767
+    approval_component: 0.11
+    approval_component_sd: 0.0224
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -81,12 +86,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.8097
-    war_resolved: 0.0387
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.8094
+    war_resolved: 0.039
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Donnie Dionicio Palmer, Jr
     slug: donnie-dionicio-palmer-jr
@@ -97,12 +103,14 @@ results_by_year:
     war: -0.0157
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.0902
-    lean_component_sd: 0.019
-    tide_component: -0.0023
-    tide_component_sd: 0.0274
+    intercept_component: -0.0332
+    intercept_component_sd: 0.0568
+    lean_component: 0.102
+    lean_component_sd: 0.0179
+    tide_component: -0.0116
+    tide_component_sd: 0.0255
+    approval_component: 0.1651
+    approval_component_sd: 0.0335
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -110,12 +118,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.209
-    war_resolved: -0.0574
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.2222
+    war_resolved: -0.0706
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:

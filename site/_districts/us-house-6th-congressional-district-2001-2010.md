@@ -33,25 +33,28 @@ results_by_year:
     war: 0.1087
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3239
-    lean_component_sd: 0.0817
-    tide_component: 0.0345
-    tide_component_sd: 0.0673
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3602
+    lean_component_sd: 0.0771
+    tide_component: 0.0314
+    tide_component_sd: 0.0634
+    approval_component: 0.1238
+    approval_component_sd: 0.0252
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6499
-    war_resolved: -0.0805
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6233
+    war_resolved: -0.0539
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Bill Hudak
     slug: bill-hudak
@@ -62,12 +65,14 @@ results_by_year:
     war: -0.1087
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2395
-    lean_component_sd: 0.0503
-    tide_component: -0.0031
-    tide_component_sd: 0.0362
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2708
+    lean_component_sd: 0.0476
+    tide_component: -0.0154
+    tide_component_sd: 0.0336
+    approval_component: 0.1513
+    approval_component_sd: 0.0307
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -75,12 +80,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3575
-    war_resolved: 0.0731
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.371
+    war_resolved: 0.0596
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2008
@@ -100,25 +106,28 @@ results_by_year:
     war: 0.118
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3239
-    lean_component_sd: 0.0817
-    tide_component: 0.0407
-    tide_component_sd: 0.0795
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3602
+    lean_component_sd: 0.0771
+    tide_component: 0.037
+    tide_component_sd: 0.0748
+    approval_component: 0.2063
+    approval_component_sd: 0.0419
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6561
-    war_resolved: 0.0485
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.7114
+    war_resolved: -0.0068
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Richard A. Baker, Jr.
     slug: richard-a-baker-jr
@@ -129,12 +138,14 @@ results_by_year:
     war: -0.118
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2395
-    lean_component_sd: 0.0503
-    tide_component: -0.0024
-    tide_component_sd: 0.0287
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2708
+    lean_component_sd: 0.0476
+    tide_component: -0.0122
+    tide_component_sd: 0.0266
+    approval_component: 0.0688
+    approval_component_sd: 0.014
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -142,12 +153,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3581
-    war_resolved: -0.0627
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.2917
+    war_resolved: 0.0037
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2006
@@ -167,25 +179,28 @@ results_by_year:
     war: 0.1459
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3239
-    lean_component_sd: 0.0817
-    tide_component: 0.0394
-    tide_component_sd: 0.0769
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3602
+    lean_component_sd: 0.0771
+    tide_component: 0.0358
+    tide_component_sd: 0.0724
+    approval_component: 0.1706
+    approval_component_sd: 0.0347
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6548
-    war_resolved: 0.0424
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6745
+    war_resolved: 0.0227
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Richard W. Barton
     slug: richard-w-barton
@@ -196,12 +211,14 @@ results_by_year:
     war: -0.1459
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2395
-    lean_component_sd: 0.0503
-    tide_component: -0.0026
-    tide_component_sd: 0.0303
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2708
+    lean_component_sd: 0.0476
+    tide_component: -0.0129
+    tide_component_sd: 0.0281
+    approval_component: 0.1045
+    approval_component_sd: 0.0212
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -209,12 +226,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.358
-    war_resolved: -0.0552
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3268
+    war_resolved: -0.024
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2004
@@ -234,25 +252,28 @@ results_by_year:
     war: 0.1137
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3239
-    lean_component_sd: 0.0817
-    tide_component: 0.0404
-    tide_component_sd: 0.0789
-    incumbency_adjustment: 0.035
-    incumbency_adjustment_sd: 0.0522
+    intercept_component: 0.0901
+    intercept_component_sd: 0.0838
+    lean_component: 0.3602
+    lean_component_sd: 0.0771
+    tide_component: 0.0368
+    tide_component_sd: 0.0742
+    approval_component: 0.1431
+    approval_component_sd: 0.0291
+    incumbency_adjustment: 0.0178
+    incumbency_adjustment_sd: 0.0531
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6558
-    war_resolved: 0.0439
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.6479
+    war_resolved: 0.0518
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Stephen P. O'Malley, Jr.
     slug: stephen-p-omalley-jr
@@ -263,12 +284,14 @@ results_by_year:
     war: -0.1137
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2395
-    lean_component_sd: 0.0503
-    tide_component: -0.0025
-    tide_component_sd: 0.0291
+    intercept_component: -0.0356
+    intercept_component_sd: 0.0569
+    lean_component: 0.2708
+    lean_component_sd: 0.0476
+    tide_component: -0.0123
+    tide_component_sd: 0.027
+    approval_component: 0.132
+    approval_component_sd: 0.0268
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -276,12 +299,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3581
-    war_resolved: -0.0578
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3548
+    war_resolved: -0.0545
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: false
 - year: 2002
@@ -301,12 +325,14 @@ results_by_year:
     war: 0.2759
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.2565
-    intercept_component_sd: 0.0798
-    lean_component: 0.3239
-    lean_component_sd: 0.0817
-    tide_component: 0.0306
-    tide_component_sd: 0.0597
+    intercept_component: 0.0925
+    intercept_component_sd: 0.0837
+    lean_component: 0.3602
+    lean_component_sd: 0.0771
+    tide_component: 0.0278
+    tide_component_sd: 0.0561
+    approval_component: 0.1018
+    approval_component_sd: 0.0207
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -314,12 +340,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.611
-    war_resolved: 0.0724
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.5823
+    war_resolved: 0.1011
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   - name: Mark C. Smith
     slug: mark-c-smith
@@ -330,12 +357,14 @@ results_by_year:
     war: -0.2759
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.1211
-    intercept_component_sd: 0.0495
-    lean_component: 0.2395
-    lean_component_sd: 0.0503
-    tide_component: -0.0035
-    tide_component_sd: 0.041
+    intercept_component: -0.0332
+    intercept_component_sd: 0.0568
+    lean_component: 0.2708
+    lean_component_sd: 0.0476
+    tide_component: -0.0174
+    tide_component_sd: 0.038
+    approval_component: 0.1733
+    approval_component_sd: 0.0352
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -343,12 +372,13 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3571
-    war_resolved: -0.0405
-    war_resolved_sd: 0.063
+    expected_share_resolved: 0.3935
+    war_resolved: -0.0769
+    war_resolved_sd: 0.0565
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
   is_open_seat: null
 primaries:

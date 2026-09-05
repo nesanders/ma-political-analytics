@@ -30,28 +30,30 @@ results_by_year:
     war: 0.3083
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5805
-    lean_component_sd: 0.0393
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0058
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.5448
+    lean_component_sd: 0.0359
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0001
     demographics_component_sd: 0.0079
-    fundraising_component: 0.0176
-    fundraising_component_sd: 0.0013
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.7648
+    expected_share_resolved: 0.7063
     war_resolved: null
     war_resolved_sd: null
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
   - name: Boyd Stewart Conklin
     slug: boyd-stewart-conklin
     party: Other
@@ -67,6 +69,8 @@ results_by_year:
     lean_component_sd: null
     tide_component: null
     tide_component_sd: null
+    approval_component: null
+    approval_component_sd: null
     incumbency_adjustment: null
     incumbency_adjustment_sd: null
     demographics_component: null
@@ -96,28 +100,31 @@ results_by_year:
     war: -0.0046
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.5805
-    lean_component_sd: 0.0393
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.5448
+    lean_component_sd: 0.0359
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0058
+    demographics_component: 0.0001
     demographics_component_sd: 0.0079
-    fundraising_component: 0.0378
-    fundraising_component_sd: 0.0028
+    fundraising_component: 0.0834
+    fundraising_component_sd: 0.0042
     demographics_tier: core
-    expected_share_resolved: 0.7127
-    war_resolved: -0.0375
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.7229
+    war_resolved: -0.0477
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   - name: Jonathan I. Hostage
     slug: jonathan-i-hostage
     party: Republican
@@ -127,28 +134,31 @@ results_by_year:
     war: 0.0046
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.2269
-    lean_component_sd: 0.0107
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2229
+    lean_component_sd: 0.0096
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0058
+    demographics_component: 0.0001
     demographics_component_sd: 0.0079
-    fundraising_component: -0.0186
-    fundraising_component_sd: 0.0014
+    fundraising_component: -0.0834
+    fundraising_component_sd: 0.0042
     demographics_tier: core
-    expected_share_resolved: 0.2666
-    war_resolved: 0.0582
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.2421
+    war_resolved: 0.0827
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Campaign fundraising
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -236,6 +246,11 @@ primaries:
 demographics:
   median_household_income: 145137
   bachelors_degree_count: 9395
+  median_age: 41.6
+  occupied_housing_units: 15086
+  owner_occupied_housing_units: 11126
+  total_population_race: 40961
+  white_alone_not_hispanic_population: 28995
   total_population_acs: 40961
   acs_year: 2022
 vintage_options:

@@ -30,29 +30,31 @@ results_by_year:
     war: 0.0122
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4924
-    lean_component_sd: 0.0334
-    tide_component: 0.0063
-    tide_component_sd: 0.0342
-    incumbency_adjustment: 0.0724
-    incumbency_adjustment_sd: 0.0136
-    demographics_component: -0.0041
-    demographics_component_sd: 0.0093
-    fundraising_component: 0.0439
-    fundraising_component_sd: 0.0033
+    intercept_component: 0.004
+    intercept_component_sd: 0.0329
+    lean_component: 0.4621
+    lean_component_sd: 0.0305
+    tide_component: 0.0003
+    tide_component_sd: 0.0305
+    approval_component: 0.0806
+    approval_component_sd: 0.0084
+    incumbency_adjustment: 0.0765
+    incumbency_adjustment_sd: 0.0125
+    demographics_component: 0.0033
+    demographics_component_sd: 0.0117
+    fundraising_component: null
+    fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7047
-    war_resolved: -0.1137
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6268
+    war_resolved: -0.0358
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
   - name: Nicholas A. Pirro, III
     slug: nicholas-a-pirro-iii
     party: Republican
@@ -62,28 +64,31 @@ results_by_year:
     war: -0.0122
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3021
-    lean_component_sd: 0.0142
-    tide_component: 0.0025
-    tide_component_sd: 0.0118
+    intercept_component: -0.02
+    intercept_component_sd: 0.0199
+    lean_component: 0.2967
+    lean_component_sd: 0.0127
+    tide_component: -0.0074
+    tide_component_sd: 0.0104
+    approval_component: 0.116
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0041
-    demographics_component_sd: 0.0093
+    demographics_component: 0.0033
+    demographics_component_sd: 0.0117
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3624
-    war_resolved: 0.0466
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3886
+    war_resolved: 0.0204
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
+      income, median age, homeownership %, white %)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5845
@@ -102,29 +107,32 @@ results_by_year:
     war: 0.0183
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0938
-    intercept_component_sd: 0.0341
-    lean_component: 0.4924
-    lean_component_sd: 0.0334
-    tide_component: 0.0065
-    tide_component_sd: 0.0352
+    intercept_component: 0.0157
+    intercept_component_sd: 0.0328
+    lean_component: 0.4621
+    lean_component_sd: 0.0305
+    tide_component: 0.0003
+    tide_component_sd: 0.0314
+    approval_component: 0.0786
+    approval_component_sd: 0.0082
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0041
-    demographics_component_sd: 0.0093
-    fundraising_component: 0.0214
-    fundraising_component_sd: 0.0016
+    demographics_component: 0.0033
+    demographics_component_sd: 0.0117
+    fundraising_component: 0.078
+    fundraising_component_sd: 0.0039
     demographics_tier: full
-    expected_share_resolved: 0.61
-    war_resolved: -0.0072
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.6381
+    war_resolved: -0.0353
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   - name: Kenneth B. Hoyt
     slug: kenneth-b-hoyt
     party: Republican
@@ -134,29 +142,32 @@ results_by_year:
     war: -0.0183
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0618
-    intercept_component_sd: 0.0188
-    lean_component: 0.3021
-    lean_component_sd: 0.0142
-    tide_component: 0.0024
-    tide_component_sd: 0.0112
+    intercept_component: -0.0083
+    intercept_component_sd: 0.0198
+    lean_component: 0.2967
+    lean_component_sd: 0.0127
+    tide_component: -0.0071
+    tide_component_sd: 0.0099
+    approval_component: 0.118
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0041
-    demographics_component_sd: 0.0093
-    fundraising_component: -0.0268
-    fundraising_component_sd: 0.002
+    demographics_component: 0.0033
+    demographics_component_sd: 0.0117
+    fundraising_component: -0.078
+    fundraising_component_sd: 0.0039
     demographics_tier: full
-    expected_share_resolved: 0.3354
-    war_resolved: 0.0618
-    war_resolved_sd: 0.0809
+    expected_share_resolved: 0.3246
+    war_resolved: 0.0726
+    war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
+    - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
-      income)
-    - Campaign fundraising
+      income, median age, homeownership %, white %)
+    - Relative campaign fundraising
   is_open_seat: null
 primaries:
 - year: 2024
@@ -273,6 +284,11 @@ demographics:
   hispanic_or_latino_population: 27395
   median_household_income: 92466
   bachelors_degree_count: 29554
+  median_age: 41.4
+  occupied_housing_units: 68952
+  owner_occupied_housing_units: 48211
+  total_population_race: 175845
+  white_alone_not_hispanic_population: 128083
   total_population_acs: 175845
   acs_year: 2022
 vintage_options:
