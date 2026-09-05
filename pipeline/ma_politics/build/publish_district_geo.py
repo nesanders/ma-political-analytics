@@ -158,18 +158,31 @@ def write_combined_from_records(chamber: str, vintage: str, boundaries_dir: Path
 
 
 def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_dir: Path, out_dir: Path) -> int:
-    """Standalone CLI reproducer for the combined statewide-map file: builds
+    """Standalone reproducer for the combined statewide-map file: builds
     district records itself via build_district_records, the same function
     generate_site_data.py's own main() uses — but, unlike that pipeline
-    stage, this entry point never calls apply_war/apply_us_house_war
-    (fitting the WAR model needs statewide tide, OCPF finance matching, and
-    demographics data this script has no reason to also wire up), so every
-    winner_war/winner_*_component field it writes is null. Fine for
-    reproducing the map's lean/competitiveness coloring standalone; for the
-    real, WAR-enriched combined file, generate_site_data.py's main() calls
-    write_combined_from_records directly with its own already-resolved
-    records instead of going through this function — see that call site's
-    own comment."""
+    stage, this never calls apply_war/apply_us_house_war (fitting the WAR
+    model needs statewide tide, OCPF finance matching, and demographics
+    data this script has no reason to also wire up), so every
+    winner_war/winner_*_component field it writes is null.
+
+    NOT called from this module's own CLI `main()` below — a real, live
+    bug this project shipped once already: `main()` used to call this
+    unconditionally after `publish_vintage`, silently overwriting the
+    real, WAR-enriched combined file generate_site_data.py's own main()
+    had just written (via write_combined_from_records, with its own
+    already-`apply_war`'d records) with this null-component version,
+    since both write to the same `<chamber>-<vintage>-all.geojson` path.
+    Caught only by noticing every `winner_*` field on the live statewide
+    map had gone null after a routine pipeline re-run — not by any error,
+    since writing valid (if unenriched) GeoJSON isn't wrong on its own,
+    only wrong as a *silent downstream overwrite* of a better file.
+    Call this directly (not via the CLI) only when you specifically want
+    to regenerate the lean/competitiveness-only combined file with no WAR
+    data at all — for the real pipeline, generate_site_data.py's own
+    main() is the only thing that should ever write the combined files,
+    and always run *after* this module's CLI, never before it, so its
+    good writes land last."""
     records = build_district_records(chamber, vintage, derived_dir)
     return write_combined_from_records(chamber, vintage, boundaries_dir, records, out_dir)
 
@@ -182,10 +195,19 @@ def publish_combined(chamber: str, vintage: str, boundaries_dir: Path, derived_d
     help="Comma-separated list of vintages to publish district geometry for",
 )
 @click.option("--boundaries-dir", type=click.Path(path_type=Path), default=Path("data/raw/boundaries"))
-@click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data/geo"))
 @click.option("-v", "--verbose", is_flag=True)
-def main(chamber: str, vintages: str, boundaries_dir: Path, derived_dir: Path, out_dir: Path, verbose: bool):
+def main(chamber: str, vintages: str, boundaries_dir: Path, out_dir: Path, verbose: bool):
+    """Writes only the per-(chamber, district, vintage) individual
+    geometry files (`publish_vintage`) — pure boundary geometry, no WAR
+    data, used by district.html's own per-district map. Deliberately does
+    NOT also write the combined `<chamber>-<vintage>-all.geojson` files
+    the statewide map reads (so takes no `--derived-dir`, unlike an
+    earlier version of this CLI): those need real fitted WAR components,
+    which only generate_site_data.py's own main() has (see
+    publish_combined's own docstring for the real, shipped bug this
+    fixes) — run this module before generate_site_data.py in the real
+    pipeline, never after."""
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
@@ -196,9 +218,6 @@ def main(chamber: str, vintages: str, boundaries_dir: Path, derived_dir: Path, o
             n = publish_vintage(c, vintage, boundaries_dir, out_dir)
             logger.info("Wrote %d district geometries for %s %s to %s", n, c, vintage, out_dir)
             total += n
-
-            n_combined = publish_combined(c, vintage, boundaries_dir, derived_dir, out_dir)
-            logger.info("Wrote combined map (%d districts) for %s %s to %s", n_combined, c, vintage, out_dir)
     logger.info("Wrote %d district geometry files total to %s", total, out_dir)
 
 

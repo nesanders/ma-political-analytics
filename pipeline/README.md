@@ -852,7 +852,22 @@ district's real 2022 lean.
   figure exactly (Jeffrey L. Raymond's 2022 House WAR of 0.6017).
 
 - `python -m ma_politics.build.publish_district_geo --chamber both --vintages 2001-2010,2012-2020,2022-present`
-  Publishes one small GeoJSON file per (chamber, district_name, vintage) to
+  **Run this BEFORE `generate_site_data.py` in the real pipeline, never
+  after** — a real, shipped bug found live: this CLI used to also
+  regenerate the combined `<chamber>-<vintage>-all.geojson` files the
+  statewide map reads (via `publish_combined`, which builds its own
+  district records with no `apply_war`/`apply_us_house_war` call), and
+  running it after `generate_site_data.py` silently overwrote that
+  script's real, WAR-enriched combined files with null-`winner_*`
+  versions — caught only by noticing every `winner_*` field on the live
+  statewide map had gone null after a routine re-run, not by any error.
+  Fixed by dropping the combined-file write from this CLI's own `main()`
+  entirely (`publish_combined` is still there as an importable function,
+  for a standalone lean/competitiveness-only reproduction, just no longer
+  wired into `main()`) — only `generate_site_data.py`'s own main() writes
+  the combined files now, via `write_combined_from_records` with its own
+  already-`apply_war`'d records, so there's only one writer left to get
+  this right. Publishes one small GeoJSON file per (chamber, district_name, vintage) to
   `site/assets/data/geo/` for the district map (`site/_layouts/district.html`
   and `seat.html`, via `site/assets/js/district-map.js`) — see docs/PLAN.md
   §6. Reuses `build.crosswalks`' `load_district_vintage()` for the
@@ -1900,3 +1915,108 @@ both," not a null result to paper over — the methodology page reports it
 as such (a forest plot showing the share's interval entirely above zero
 right next to the absolute term's interval straddling it, side by side)
 rather than only showing the term that "worked."
+
+## Attribution-chart Lean/Tide/Approval bars are now signed, zero-centered effects
+
+Asked directly why the Approval bar showed nearly equal, both-positive
+values for opposing candidates in a near-50/50 approval year, expecting a
+signed effect instead (one candidate up, the other down). Walked through
+why: `own_lean`/`own_tide`/`own_approval` are each one number split
+between the two parties (`own_X` + the opponent's `own_X` = 1), so
+`coefficient × own_X` alone is always positive for both candidates —
+whichever party a factor favors just gets the *larger* positive share,
+not the only positive one. Asked directly to change that to a signed,
+zero-centered convention instead.
+
+**The fix, in `apply_war` and `apply_us_house_war`**: each of these three
+terms is now displayed as `coefficient × (own_X − 0.5)` rather than
+`coefficient × own_X` — centered on an even 50/50 split rather than 0, so
+the bar reads as a genuinely signed effect (positive for whichever party
+the factor favors, negative for the other, zero at 50/50). The constant
+this recentering removes (`coefficient × 0.5`, using each term's own
+party-specific effective coefficient — the shared term plus its
+`× Democratic` delta where one exists) is folded into
+`intercept_component`, the same "recenter a term, park the removed
+constant in Baseline" trick already used here for `open_seat` and for the
+demographics/fundraising extension terms. This is purely a redisplay of
+the *same* fitted total into different bars — `expected_share_resolved`
+and `war_resolved` are algebraically unchanged (verified directly: summing
+a race's own components before and after this change reproduces the
+identical `expected_share_resolved` to the rounding precision already in
+use), so no re-fit was needed, just a recompute of `apply_war`/
+`apply_us_house_war`'s own output.
+
+**A real nuance surfaced while implementing this, worth documenting rather
+than glossing over**: for `national_approval` (no `× Democratic`
+interaction term), the two candidates' recentered bars come out as *exact*
+negatives of each other. For `own_lean`/`own_tide` (which do carry a
+`× Democratic` delta), they don't — the two parties' *effective*
+coefficients genuinely differ once that delta is included, so a
+Democrat's and Republican's Lean bars in the same race are signed and
+centered the same way but aren't perfect mirrors of magnitude. That's the
+correct, intended behavior (the party-interaction terms exist precisely
+to let lean/tide's relationship to vote share differ by party), not a
+bug — caught by a direct numeric check before it could ship as an
+inaccurate doc comment claiming universal exact-mirror symmetry.
+
+Verified live: rebuilt the full site and confirmed via a direct parquet-
+level check that every race's own components still sum exactly to its
+`expected_share_resolved`; a Playwright screenshot of a real contested
+district's attribution chart shows Lean sitting visibly below zero for
+the disadvantaged candidate and above zero for the favored one, in
+place of the old "both positive, different heights" picture.
+
+## Found and fixed: the statewide map's WAR components had been silently null in production since this session's first deploy
+
+While re-running the pipeline for the recentering change above, checked
+the combined statewide-map GeoJSON files this session had deployed
+earlier the same day and found every `winner_war`/`winner_*_component`
+field null for every state House/Senate district — not a new bug from
+today's changes, but one shipped in the very first "regenerate site data"
+commit of this session and live across all four deploys since.
+
+**Root cause**: `publish_district_geo.py`'s CLI `main()` did two things
+per (chamber, vintage) — write the per-district individual geometry
+files (`publish_vintage`, real geometry, no WAR data needed), then *also*
+rewrite the combined `<chamber>-<vintage>-all.geojson` file the statewide
+map actually reads (`publish_combined`, which builds its own district
+records with no `apply_war`/`apply_us_house_war` call, so every
+`winner_*` field it writes is null by construction). `generate_site_data.
+py`'s own `main()` *also* writes that same combined file, correctly
+enriched, via `write_combined_from_records` with its own already-fitted
+records. Whichever of the two ran *second* won — and this session's own
+documented pipeline order (and the order this README's own step list
+still showed) ran `publish_district_geo.py` last, so its null-component
+write clobbered `generate_site_data.py`'s good one, every single time,
+starting with this session's very first full pipeline run.
+
+Not caught by any exception — writing valid (if unenriched) GeoJSON to
+its own documented output path isn't wrong in isolation, only wrong as an
+undetected downstream overwrite of a better file the *same* pipeline run
+had just produced. Caught by directly inspecting a live district's
+feature properties and noticing every `winner_*` field read `null`,
+which `statewide-map.js`'s own `availableMetrics()` filter (checks
+`collection.features.some(f => f.properties[m.key] != null)`) would have
+silently hidden from the metric dropdown entirely rather than erroring —
+the WAR/Lean's/Tide's/Approval's/Incumbency's/Demographics'/Fundraising's
+contribution options simply wouldn't have appeared for state House/Senate
+maps, with no console error or broken-looking UI to notice.
+
+**Fixed at the root, not just by re-running things in the right order
+this once**: `publish_district_geo.py`'s `main()` no longer calls
+`publish_combined` at all — it only ever writes the per-district
+individual files now. `publish_combined`/`write_combined_from_records`
+remain as importable functions (the latter still exactly what
+`generate_site_data.py`'s own `main()` calls with its real, fitted
+records), so there is now exactly one code path that ever writes the
+combined statewide-map files, and it's always the enriched one. Updated
+this README's own step description and both functions' docstrings to
+document the ordering requirement (`publish_district_geo.py` before
+`generate_site_data.py`) directly at the point of the fix, not just here.
+
+Verified live: re-ran `generate_site_data.py` alone (no
+`publish_district_geo.py` afterward) and confirmed a real contested
+district's combined-map feature now carries real values — matching the
+already-documented, previously-verified 29/160 current-vintage House
+districts with a non-null `winner_war` (the rest correctly null,
+uncontested) exactly, not a coincidence.

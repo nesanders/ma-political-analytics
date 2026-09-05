@@ -868,6 +868,33 @@ def apply_war(
     supports them) demographics and/or fundraising, which can both apply
     to the same race at once.
 
+    **Lean/tide/approval are displayed as signed deviations from 0.5, not
+    raw shares.** own_lean/own_tide/own_approval are each one number split
+    between the two candidates (own_X + the opponent's own_X = 1 — see
+    fit_war_model's own docstring), so `coefficient × own_X` alone is
+    always positive for both candidates: whichever party a factor favors
+    gets the *larger* share, not the only positive one. That reads as
+    "both bars pushed up" rather than the more intuitive "this factor
+    helps one candidate and hurts the other" — so each of these three
+    terms is centered on 0.5 before display (`coefficient × (own_X −
+    0.5)`), making both bars signed and zero at an even 50/50 split:
+    positive for whichever party the factor favors, negative for the
+    other. For `approval` specifically (no `_x_dem` term) the two
+    candidates' bars land as *exact* negatives of each other, since the
+    same coefficient multiplies both sides' recentered value; for `lean`/
+    `tide` (which do carry a `_x_dem` delta) they're signed and centered
+    the same way but not exact mirrors of each other, since the two
+    parties' effective coefficients genuinely differ — a real, intended
+    consequence of the party-interaction terms, not an approximation
+    error. The constant this removes (`coefficient × 0.5`, one per term,
+    using each term's own party-specific effective coefficient) is added
+    back into `intercept_component` — the same "recenter a term, park the
+    removed constant in Baseline" trick already used for open_seat above
+    and for the demographics/fundraising extension covariates below — so
+    `expected_share_resolved` and `war_resolved` are completely unaffected
+    by this: it changes how the *same* fitted total is split into
+    attribution-chart bars, not the total itself, and needs no re-fit.
+
     Mutates candidate dicts inside district_records_by_vintage in place;
     must run after fit_war_model, and before write_district_files/
     write_seat_files/build_candidate_records (build_candidate_records
@@ -938,16 +965,34 @@ def apply_war(
                     own_approval = approval if is_dem else 1 - approval
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
 
-                    intercept_component = b0 + b_dem * dem_flag + open_seat_component
+                    # Each of these three is centered on 0.5 for display —
+                    # see this function's own docstring for why (signed,
+                    # zero-centered bars instead of two-positive-shares) —
+                    # with the removed 0.5×coefficient constant folded into
+                    # intercept_component just below.
+                    lean_component = (b_lean + b_lean_dem * dem_flag) * (own_lean - 0.5)
+                    lean_component_sd = abs(own_lean - 0.5) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
+                    tide_component = (b_tide + b_tide_dem * dem_flag) * (own_tide - 0.5)
+                    tide_component_sd = abs(own_tide - 0.5) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_component = b_approval * (own_approval - 0.5)
+                    approval_component_sd = abs(own_approval - 0.5) * b_approval_sd
+
+                    intercept_component = (
+                        b0
+                        + b_dem * dem_flag
+                        + open_seat_component
+                        + (b_lean + b_lean_dem * dem_flag) * 0.5
+                        + (b_tide + b_tide_dem * dem_flag) * 0.5
+                        + b_approval * 0.5
+                    )
                     intercept_component_sd = (
-                        b0_sd**2 + (dem_flag * b_dem_sd) ** 2 + open_seat_component_sd**2
+                        b0_sd**2
+                        + (dem_flag * b_dem_sd) ** 2
+                        + open_seat_component_sd**2
+                        + 0.25 * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2)
+                        + 0.25 * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2)
+                        + 0.25 * b_approval_sd**2
                     ) ** 0.5
-                    lean_component = (b_lean + b_lean_dem * dem_flag) * own_lean
-                    lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
-                    tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
-                    tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
-                    approval_component = b_approval * own_approval
-                    approval_component_sd = abs(own_approval) * b_approval_sd
                     incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
                     incumbency_component_sd = (
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
@@ -1243,16 +1288,33 @@ def apply_us_house_war(
                     own_approval = approval if is_dem else 1 - approval
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
 
-                    intercept_component = b0 + b_dem * dem_flag + open_seat_component
+                    # Same signed, zero-centered recentering as apply_war
+                    # (see its own docstring): each of these three is
+                    # centered on 0.5, with the removed 0.5×coefficient
+                    # constant folded into intercept_component below.
+                    lean_component = (b_lean + b_lean_dem * dem_flag) * (own_lean - 0.5)
+                    lean_component_sd = abs(own_lean - 0.5) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
+                    tide_component = (b_tide + b_tide_dem * dem_flag) * (own_tide - 0.5)
+                    tide_component_sd = abs(own_tide - 0.5) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_component = b_approval * (own_approval - 0.5)
+                    approval_component_sd = abs(own_approval - 0.5) * b_approval_sd
+
+                    intercept_component = (
+                        b0
+                        + b_dem * dem_flag
+                        + open_seat_component
+                        + (b_lean + b_lean_dem * dem_flag) * 0.5
+                        + (b_tide + b_tide_dem * dem_flag) * 0.5
+                        + b_approval * 0.5
+                    )
                     intercept_component_sd = (
-                        b0_sd**2 + (dem_flag * b_dem_sd) ** 2 + open_seat_component_sd**2
+                        b0_sd**2
+                        + (dem_flag * b_dem_sd) ** 2
+                        + open_seat_component_sd**2
+                        + 0.25 * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2)
+                        + 0.25 * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2)
+                        + 0.25 * b_approval_sd**2
                     ) ** 0.5
-                    lean_component = (b_lean + b_lean_dem * dem_flag) * own_lean
-                    lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
-                    tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
-                    tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
-                    approval_component = b_approval * own_approval
-                    approval_component_sd = abs(own_approval) * b_approval_sd
                     incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
                     incumbency_component_sd = (
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0

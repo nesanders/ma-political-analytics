@@ -13,14 +13,14 @@ races:
   winner: false
   actual_two_party_share: 0.3028
   war: -0.1459
-  intercept_component: -0.0356
-  intercept_component_sd: 0.0569
-  lean_component: 0.2708
-  lean_component_sd: 0.0476
-  tide_component: -0.0129
-  tide_component_sd: 0.0281
-  approval_component: 0.1045
-  approval_component_sd: 0.0212
+  intercept_component: 0.3665
+  intercept_component_sd: 0.0882
+  lean_component: -0.0103
+  lean_component_sd: 0.0018
+  tide_component: 0.0037
+  tide_component_sd: 0.0081
+  approval_component: -0.033
+  approval_component_sd: 0.0067
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null

@@ -152,7 +152,11 @@ national-fundamentals logic Split Ticket's own federal WAR model applies
 at the Congressional level. Re-expressed on each candidate's own party's
 side the same way lean and tide are (`own_approval = approval` for the
 president's own party, `1 − approval` for the opposition), the two
-candidates in a race are exact mirrors here too, same as lean and tide.
+candidates' own_approval values are exact complements here too, same as
+lean and tide (`own_approval` + the opponent's `own_approval` = 1) — see
+"What that fit actually looks like" below for how that turns into a
+signed, zero-centered bar on the attribution chart rather than two raw
+shares.
 
 **Open-seat status** — whether the prior winner of this district isn't
 among this year's candidates at all (see "Incumbency and open seats"
@@ -332,16 +336,36 @@ this model's expected share, and the same decomposition, across every year
 they ran — the gap between the two lines on the first chart *is* WAR, made
 visible.
 
-**A related, worth-naming property**: in `own_lean`/`own_tide`/
-`own_approval`'s own terms, the two candidates in a race are exact mirrors
-(`own_lean` + the other candidate's `own_lean` = 1, always, same for
-`own_tide` and `own_approval`, since a district's structural lean, a
-year's statewide tide, and a year's national approval are each still one
-number split between the two parties' perspectives) — the "Lean,"
-"Statewide tide," and "National presidential approval" bars for both
-candidates in the attribution chart are all genuinely positive because
-each splits into two positive shares, not because the
-model favors both sides at once. The **intercept** (plus its `is_dem`
+**A related, worth-naming property**: `own_lean`/`own_tide`/
+`own_approval` are each one number split between the two parties'
+perspectives (`own_lean` + the other candidate's `own_lean` = 1, always,
+same for `own_tide` and `own_approval`) — multiplying that raw share by
+its coefficient alone would make both candidates' bars positive, since
+whichever party a factor favors just gets the *larger* positive share,
+not the only positive one. The "Lean," "Statewide tide," and "National
+presidential approval" bars on the attribution chart don't work that
+way: each is **centered on 0.5 before display**
+(`coefficient × (own_X − 0.5)`), so the bar reads as a signed effect —
+positive for whichever party the factor favors, negative for the other,
+zero at an even 50/50 split — matching the intuitive "this factor helps
+one candidate and hurts the other" rather than "both candidates get a
+positive share of the same baseline." For **national approval**
+specifically (no `× Democratic` interaction term) the two candidates'
+bars land as *exact* negatives of each other; for **lean** and
+**tide** (which do carry a `× Democratic` delta) they're signed and
+centered the same way but aren't perfect mirrors of each other, since the
+two parties' effective coefficients genuinely differ once that delta is
+included — an intended consequence of the party-interaction terms
+(see "Party interaction terms" above), not an approximation. The constant
+this recentering removes from each term folds into the **Baseline**
+bar instead, using the same "recenter a term, park the removed constant
+in Baseline" approach already applied to `open_seat` and to the
+demographics/fundraising extension terms below — `expected_share_
+resolved` and WAR itself are completely unaffected by any of this: it's
+purely how the same fitted total is split into bars for display, not a
+change to the model or its predictions.
+
+The **intercept** (plus its `is_dem`
 delta and the race's open-seat contribution, if any), though, is a single
 fitted value applied identically to every race of that party — not split
 between the two opposing candidates in one race, and, for the open-seat

@@ -33,14 +33,14 @@ results_by_year:
     war: 0.5948
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: -0.02
-    intercept_component_sd: 0.0198
-    lean_component: 0.4006
-    lean_component_sd: 0.0172
-    tide_component: -0.0066
-    tide_component_sd: 0.0093
-    approval_component: 0.0906
-    approval_component_sd: 0.0096
+    intercept_component: 0.423
+    intercept_component_sd: 0.0305
+    lean_component: 0.046
+    lean_component_sd: 0.002
+    tide_component: 0.0035
+    tide_component_sd: 0.0049
+    approval_component: -0.0079
+    approval_component_sd: 0.0008
     incumbency_adjustment: 0.1337
     incumbency_adjustment_sd: 0.0085
     demographics_component: null
@@ -74,14 +74,14 @@ results_by_year:
     war: 0.2112
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: -0.02
-    intercept_component_sd: 0.0198
-    lean_component: 0.4006
-    lean_component_sd: 0.0172
-    tide_component: -0.0135
-    tide_component_sd: 0.019
-    approval_component: 0.0788
-    approval_component_sd: 0.0083
+    intercept_component: 0.423
+    intercept_component_sd: 0.0305
+    lean_component: 0.046
+    lean_component_sd: 0.002
+    tide_component: -0.0034
+    tide_component_sd: 0.0048
+    approval_component: -0.0197
+    approval_component_sd: 0.0021
     incumbency_adjustment: 0.1337
     incumbency_adjustment_sd: 0.0085
     demographics_component: null
@@ -115,14 +115,14 @@ results_by_year:
     war: 0.5341
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: -0.02
-    intercept_component_sd: 0.0198
-    lean_component: 0.4006
-    lean_component_sd: 0.0172
-    tide_component: -0.0071
-    tide_component_sd: 0.01
-    approval_component: 0.0925
-    approval_component_sd: 0.0098
+    intercept_component: 0.423
+    intercept_component_sd: 0.0305
+    lean_component: 0.046
+    lean_component_sd: 0.002
+    tide_component: 0.003
+    tide_component_sd: 0.0042
+    approval_component: -0.0059
+    approval_component_sd: 0.0006
     incumbency_adjustment: 0.1337
     incumbency_adjustment_sd: 0.0085
     demographics_component: null
@@ -156,14 +156,14 @@ results_by_year:
     war: -0.0319
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0249
-    intercept_component_sd: 0.0201
-    lean_component: 0.4006
-    lean_component_sd: 0.0172
-    tide_component: -0.0103
-    tide_component_sd: 0.0145
-    approval_component: 0.1142
-    approval_component_sd: 0.0121
+    intercept_component: 0.4679
+    intercept_component_sd: 0.0308
+    lean_component: 0.046
+    lean_component_sd: 0.002
+    tide_component: -0.0002
+    tide_component_sd: 0.0003
+    approval_component: 0.0158
+    approval_component_sd: 0.0017
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -189,14 +189,14 @@ results_by_year:
     war: 0.0319
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0486
-    intercept_component_sd: 0.0326
-    lean_component: 0.3454
-    lean_component_sd: 0.0228
-    tide_component: 0.0005
-    tide_component_sd: 0.024
-    approval_component: 0.0827
-    approval_component_sd: 0.0087
+    intercept_component: 0.5445
+    intercept_component_sd: 0.0496
+    lean_component: -0.0515
+    lean_component_sd: 0.0034
+    tide_component: -0.0
+    tide_component_sd: 0.0005
+    approval_component: -0.0158
+    approval_component_sd: 0.0017
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -231,14 +231,14 @@ results_by_year:
     war: 0.4912
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: -0.0083
-    intercept_component_sd: 0.0197
-    lean_component: 0.4006
-    lean_component_sd: 0.0172
-    tide_component: -0.0077
-    tide_component_sd: 0.0109
-    approval_component: 0.0945
-    approval_component_sd: 0.01
+    intercept_component: 0.4347
+    intercept_component_sd: 0.0305
+    lean_component: 0.046
+    lean_component_sd: 0.002
+    tide_component: 0.0024
+    tide_component_sd: 0.0033
+    approval_component: -0.0039
+    approval_component_sd: 0.0004
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
