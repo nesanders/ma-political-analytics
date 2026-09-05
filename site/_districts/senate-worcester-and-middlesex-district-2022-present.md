@@ -30,23 +30,23 @@ results_by_year:
     war: 0.0122
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4621
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4618
     lean_component_sd: 0.0305
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: 0.0033
-    demographics_component_sd: 0.0117
+    demographics_component_sd: 0.0119
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6268
-    war_resolved: -0.0358
+    expected_share_resolved: 0.6266
+    war_resolved: -0.0356
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -65,22 +65,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.2967
-    lean_component_sd: 0.0127
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0128
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0033
-    demographics_component_sd: 0.0117
+    demographics_component_sd: 0.0119
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3886
-    war_resolved: 0.0204
+    expected_share_resolved: 0.3887
+    war_resolved: 0.0203
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -107,23 +107,23 @@ results_by_year:
     war: 0.0183
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4621
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4618
     lean_component_sd: 0.0305
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0033
-    demographics_component_sd: 0.0117
-    fundraising_component: 0.078
-    fundraising_component_sd: 0.0039
+    demographics_component_sd: 0.0119
+    fundraising_component: 0.0779
+    fundraising_component_sd: 0.0053
     demographics_tier: full
-    expected_share_resolved: 0.6381
-    war_resolved: -0.0353
+    expected_share_resolved: 0.6378
+    war_resolved: -0.035
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -132,7 +132,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Kenneth B. Hoyt
     slug: kenneth-b-hoyt
     party: Republican
@@ -143,22 +143,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2967
-    lean_component_sd: 0.0127
+    lean_component_sd: 0.0128
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0033
-    demographics_component_sd: 0.0117
+    demographics_component_sd: 0.0119
     fundraising_component: -0.078
-    fundraising_component_sd: 0.0039
+    fundraising_component_sd: 0.0055
     demographics_tier: full
-    expected_share_resolved: 0.3246
-    war_resolved: 0.0726
+    expected_share_resolved: 0.3247
+    war_resolved: 0.0725
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -167,7 +167,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024

@@ -1855,3 +1855,48 @@ wrote 2,405 seat rows/3,447 result rows/3,647 finance rows plus the
 updated schema card; `publish_district_geo` wrote all 602 per-district
 geometry files plus the combined maps, each now carrying a real, non-null
 `winner_approval_component` wherever the underlying race supports it.
+
+## Campaign fundraising: both a relative and an absolute term, not one in place of the other
+
+Asked directly why the general model's fundraising term was relative-share-
+only (`fundraising_share`) rather than also carrying the original absolute
+term (`log_raised`, a candidate's own logged OCPF total) it replaced —
+the honest answer at the time was that the swap had been a straight
+substitution based on interpretability reasoning, never actually tested
+against fitting both together. Restored `log_raised` as a *second*,
+independent fundraising term (not a diagnostic, folded into the same fit
+as `fundraising_share`), on the reasoning that a candidate's absolute war
+chest and their share of the race's two-party total aren't fully
+redundant: a large absolute total can still be a small share against an
+even bigger-spending opponent, and a modest total can still be a large
+share against a weak-fundraising one.
+
+**Both terms are gated on the same condition** — both major-party
+candidates in the race have a matched OCPF total, not just this one — via
+a new shared helper, `_both_matched_finance` (refactored out of
+`_fundraising_share`'s own former gate, which `_own_log_raised` now also
+calls). Deliberately not `log_raised`'s original, looser gate (which only
+ever needed this candidate's own match): keeping both on one shared gate
+means a race either carries both fundraising terms or neither, never one
+without the other, matching how every other extension covariate on this
+site behaves. `_GENERAL_EXTENSION_COVARIATES`, `_COEFFICIENT_PRIORS`
+(`log_raised`'s own prior, same log-dollar scale as the primary model's
+`primary_log_raised`), `fit_war_model`'s row-building and `feature_names`,
+and `apply_war`'s component computation were all extended accordingly —
+`fundraising_component`/`fundraising_component_sd` now sum *both* terms'
+contributions into one number, the same way `demographics_component`
+already sums multiple demographic fields into a single attribution-chart
+bar, rather than adding a second "Fundraising" bar/color.
+
+**Verified live against a full pipeline re-run**: `fundraising_share`
+stays clearly nonzero (+0.191 [0.167, 0.214], n=1,112 both-matched
+candidate-races) — essentially unchanged from before `log_raised` was
+added back. `log_raised` itself comes back statistically indistinguishable
+from zero (+0.0002 [-0.0038, 0.0042]) — a real, honestly-reported finding,
+not a bug: once a candidate's fundraising *share* of their specific race
+is already in the model, their absolute logged total adds essentially
+nothing further on top of it. That's a legitimate answer to "why not
+both," not a null result to paper over — the methodology page reports it
+as such (a forest plot showing the share's interval entirely above zero
+right next to the absolute term's interval straddling it, side by side)
+rather than only showing the term that "worked."

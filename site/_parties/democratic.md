@@ -12,7 +12,7 @@ seats_held:
   url: /seat/house-9th-suffolk-district/
   winner_name: John Francis Moran
   winner_slug: john-francis-moran
-  war_resolved: 0.0604
+  war_resolved: 0.0609
   war_factors:
   - District lean
   - Statewide tide
@@ -25,7 +25,7 @@ seats_held:
   url: /seat/house-8th-bristol-district/
   winner_name: Steven J. Ouellette
   winner_slug: steven-j-ouellette
-  war_resolved: 0.0364
+  war_resolved: 0.036
   war_factors:
   - District lean
   - Statewide tide
@@ -33,13 +33,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: First Middlesex District
   url: /seat/senate-first-middlesex-district/
   winner_name: Edward J. Kennedy, Jr
   winner_slug: edward-j-kennedy
-  war_resolved: 0.0167
+  war_resolved: 0.0166
   war_factors:
   - District lean
   - Statewide tide
@@ -60,7 +60,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Berkshire-Hampden-Franklin-Hampshire District
   url: /seat/senate-berkshire-hampden-franklin-hampshire-district/
@@ -78,7 +78,7 @@ seats_held:
   url: /seat/house-6th-essex-district/
   winner_name: Jerald A. Parisella
   winner_slug: jerald-a-parisella
-  war_resolved: -0.0089
+  war_resolved: -0.0081
   war_factors:
   - District lean
   - Statewide tide
@@ -86,13 +86,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 13th Middlesex District
   url: /seat/house-13th-middlesex-district/
   winner_name: Carmine Lawrence Gentile
   winner_slug: carmine-lawrence-gentile
-  war_resolved: -0.0092
+  war_resolved: -0.0084
   war_factors:
   - District lean
   - Statewide tide
@@ -100,7 +100,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 8th Plymouth District
   url: /seat/house-8th-plymouth-district/
@@ -119,7 +119,7 @@ seats_held:
   url: /seat/senate-third-suffolk-district/
   winner_name: Lydia Marie Edwards
   winner_slug: lydia-marie-edwards
-  war_resolved: -0.017
+  war_resolved: -0.0167
   war_factors:
   - District lean
   - Statewide tide
@@ -131,7 +131,7 @@ seats_held:
   url: /seat/house-10th-norfolk-district/
   winner_name: Jeffrey N. Roy
   winner_slug: jeffrey-n-roy
-  war_resolved: -0.0218
+  war_resolved: -0.0214
   war_factors:
   - District lean
   - Statewide tide
@@ -155,7 +155,7 @@ seats_held:
   url: /seat/house-1st-plymouth-district/
   winner_name: Michelle L. Badger
   winner_slug: michelle-l-badger
-  war_resolved: -0.027
+  war_resolved: -0.0269
   war_factors:
   - District lean
   - Statewide tide
@@ -163,13 +163,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 9th Middlesex District
   url: /seat/house-9th-middlesex-district/
   winner_name: Thomas M. Stanley
   winner_slug: thomas-m-stanley
-  war_resolved: -0.0331
+  war_resolved: -0.0325
   war_factors:
   - District lean
   - Statewide tide
@@ -177,13 +177,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 11th Middlesex District
   url: /seat/house-11th-middlesex-district/
   winner_name: Amy Mah Sangiolo
   winner_slug: amy-mah-sangiolo
-  war_resolved: -0.0345
+  war_resolved: -0.034
   war_factors:
   - District lean
   - Statewide tide
@@ -191,13 +191,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Worcester and Middlesex District
   url: /seat/senate-worcester-and-middlesex-district/
   winner_name: John J. Cronin
   winner_slug: john-j-cronin
-  war_resolved: -0.0358
+  war_resolved: -0.0356
   war_factors:
   - District lean
   - Statewide tide
@@ -210,7 +210,7 @@ seats_held:
   url: /seat/house-2nd-barnstable-district/
   winner_name: Kip A. Diggs
   winner_slug: kip-a-diggs
-  war_resolved: -0.0432
+  war_resolved: -0.0433
   war_factors:
   - District lean
   - Statewide tide
@@ -218,13 +218,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 19th Middlesex District
   url: /seat/house-19th-middlesex-district/
   winner_name: David Allen Robertson
   winner_slug: david-allen-robertson
-  war_resolved: -0.061
+  war_resolved: -0.0603
   war_factors:
   - District lean
   - Statewide tide
@@ -232,13 +232,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 2nd Norfolk District
   url: /seat/house-2nd-norfolk-district/
   winner_name: Tackey Chan
   winner_slug: tackey-chan
-  war_resolved: -0.0646
+  war_resolved: -0.0641
   war_factors:
   - District lean
   - Statewide tide
@@ -246,13 +246,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 14th Bristol District
   url: /seat/house-14th-bristol-district/
   winner_name: Adam J. Scanlon
   winner_slug: adam-j-scanlon
-  war_resolved: -0.0647
+  war_resolved: -0.0645
   war_factors:
   - District lean
   - Statewide tide
@@ -260,13 +260,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Norfolk-Worcester-Middlesex District
   url: /seat/senate-norfolk-worcester-middlesex-district/
   winner_name: Rebecca L. Rausch
   winner_slug: rebecca-l-rausch
-  war_resolved: -0.066
+  war_resolved: -0.0656
   war_factors:
   - District lean
   - Statewide tide
@@ -278,7 +278,7 @@ seats_held:
   url: /seat/senate-second-essex-district/
   winner_name: Joan B. Lovely
   winner_slug: joan-b-lovely
-  war_resolved: -0.0686
+  war_resolved: -0.0683
   war_factors:
   - District lean
   - Statewide tide
@@ -286,7 +286,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 1st Barnstable District
   url: /seat/house-1st-barnstable-district/
@@ -305,7 +305,7 @@ seats_held:
   url: /seat/house-10th-bristol-district/
   winner_name: Mark David Sylvia
   winner_slug: mark-david-sylvia
-  war_resolved: -0.0766
+  war_resolved: -0.0767
   war_factors:
   - District lean
   - Statewide tide
@@ -313,7 +313,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: us-house
   district_name: 9th Congressional District
   url: /seat/us-house-9th-congressional-district/
@@ -330,7 +330,7 @@ seats_held:
   url: /seat/house-12th-plymouth-district/
   winner_name: Kathleen R. Lanatra
   winner_slug: kathleen-r-lanatra
-  war_resolved: -0.0884
+  war_resolved: -0.0882
   war_factors:
   - District lean
   - Statewide tide
@@ -338,13 +338,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Cape and Islands District
   url: /seat/senate-cape-and-islands-district/
   winner_name: Julian Andre Cyr
   winner_slug: julian-andre-cyr
-  war_resolved: -0.089
+  war_resolved: -0.0892
   war_factors:
   - District lean
   - Statewide tide
@@ -352,13 +352,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Plymouth and Barnstable District
   url: /seat/senate-plymouth-and-barnstable-district/
   winner_name: Dylan A. Fernandes
   winner_slug: dylan-a-fernandes
-  war_resolved: -0.0908
+  war_resolved: -0.0909
   war_factors:
   - District lean
   - Statewide tide
@@ -366,13 +366,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 4th Worcester District
   url: /seat/house-4th-worcester-district/
   winner_name: Natalie Higgins
   winner_slug: natalie-higgins
-  war_resolved: -0.1013
+  war_resolved: -0.101
   war_factors:
   - District lean
   - Statewide tide
@@ -380,7 +380,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 1st Middlesex District
   url: /seat/house-1st-middlesex-district/
@@ -394,13 +394,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 2nd Worcester District
   url: /seat/house-2nd-worcester-district/
   winner_name: Jonathan D. Zlotnik
   winner_slug: jonathan-d-zlotnik
-  war_resolved: -0.1099
+  war_resolved: -0.11
   war_factors:
   - District lean
   - Statewide tide
@@ -408,13 +408,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 2nd Essex District
   url: /seat/house-2nd-essex-district/
   winner_name: Kristin E. Kassner
   winner_slug: kristin-e-kassner
-  war_resolved: -0.1195
+  war_resolved: -0.1192
   war_factors:
   - District lean
   - Statewide tide
@@ -422,7 +422,7 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 4th Barnstable District
   url: /seat/house-4th-barnstable-district/

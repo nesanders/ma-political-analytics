@@ -30,22 +30,22 @@ results_by_year:
     war: 0.2893
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5629
-    lean_component_sd: 0.0371
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0014
-    demographics_component_sd: 0.0114
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5625
+    lean_component_sd: 0.0372
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0013
+    demographics_component_sd: 0.0116
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7257
+    expected_share_resolved: 0.7253
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -73,23 +73,23 @@ results_by_year:
     war: -0.0038
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.5629
-    lean_component_sd: 0.0371
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.5625
+    lean_component_sd: 0.0372
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0014
-    demographics_component_sd: 0.0114
-    fundraising_component: 0.0808
-    fundraising_component_sd: 0.0041
+    demographics_component: 0.0013
+    demographics_component_sd: 0.0116
+    fundraising_component: 0.0809
+    fundraising_component_sd: 0.0064
     demographics_tier: full
-    expected_share_resolved: 0.7398
-    war_resolved: -0.0371
+    expected_share_resolved: 0.7395
+    war_resolved: -0.0368
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -98,7 +98,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Anthony Christakis
     slug: anthony-christakis
     party: Republican
@@ -109,22 +109,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2067
     lean_component_sd: 0.0089
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0014
-    demographics_component_sd: 0.0114
-    fundraising_component: -0.0808
-    fundraising_component_sd: 0.0041
+    demographics_component: 0.0013
+    demographics_component_sd: 0.0116
+    fundraising_component: -0.0806
+    fundraising_component_sd: 0.0051
     demographics_tier: full
-    expected_share_resolved: 0.2299
-    war_resolved: 0.0674
+    expected_share_resolved: 0.2301
+    war_resolved: 0.0672
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -133,7 +133,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -155,7 +155,7 @@ primaries:
     primary_baseline_component_sd: 0.0037
     primary_incumbency_component: 0.1507
     primary_incumbency_component_sd: 0.0931
-    primary_fundraising_component: 0.0718
+    primary_fundraising_component: 0.0717
     primary_fundraising_component_sd: 0.0042
     primary_expected_share: 1.0
     primary_war: null
@@ -206,11 +206,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.0067
+    primary_baseline_component: 1.0068
     primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0067
+    primary_fundraising_component: -0.0068
     primary_fundraising_component_sd: 0.0004
     primary_expected_share: 1.0
     primary_war: null

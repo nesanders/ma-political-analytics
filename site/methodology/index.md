@@ -53,8 +53,9 @@ earned against real competition) — so WAR is null in both cases.
 The site fits **one regression** — district lean, statewide tide, national
 presidential approval, and incumbency (lean, tide, and incumbency each with
 their own Democratic-vs-Republican interaction term), plus open-seat status,
-district demographics, and relative campaign fundraising wherever a race's
-own data supports them — and shows every race's WAR from that single model.
+district demographics, and campaign fundraising (a relative share and an
+absolute total, fit together) wherever a race's own data supports them —
+and shows every race's WAR from that single model.
 A race's expected share automatically includes whichever of the
 demographics/fundraising terms its own data supports (both, either, or
 neither); every page's own **Factors** column says which pieces actually
@@ -113,7 +114,8 @@ expected share**, where the regression is:
 > lean × Democratic + statewide tide + statewide tide × Democratic +
 > national presidential approval +
 > incumbency + incumbency × Democratic + open-seat status +
-> district demographics + relative campaign fundraising*
+> district demographics + relative campaign fundraising + absolute
+> campaign fundraising*
 
 "Own-party" means lean, tide, presidential approval, and the actual share
 are all already flipped to the candidate's own party's perspective (a
@@ -418,45 +420,64 @@ one over just a couple of elections' worth of noise.
 {% endif %}
 
 {% if site.data.war_model.coefficients.fundraising_share %}
-**Relative campaign fundraising** adds a candidate's own share of the
-two-party OCPF-matched total raised in their specific race
-(`own raised ÷ (own raised + opponent raised)`) — not a raw dollar total,
-and not just the candidate's own campaign finance match: this term only
-applies where **both** major-party candidates in a race have a matched
-OCPF total (see "Campaign finance" below for how the match itself works),
-since a fundraising total only means anything relative to what the
-opponent raised in the same race:
+**Campaign fundraising** adds two terms, not one — a relative share and
+an absolute total — both requiring **both** major-party candidates in a
+race to have a matched OCPF total (see "Campaign finance" below for how
+the match itself works), rather than just this candidate's own:
 
-<div id="war-finance-forest-chart" role="img" aria-label="Forest plot of the campaign fundraising term's coefficient with a 95% credible interval"></div>
+- **Fundraising share** — this candidate's own share of the two-party
+  OCPF-matched total raised in their specific race
+  (`own raised ÷ (own raised + opponent raised)`).
+- **log(total raised + 1)** — this candidate's own logged absolute total
+  (log-transformed since fundraising totals are heavily right-skewed).
+
+Both are fit together, not one in place of the other: a candidate's
+absolute war chest and their share of the race's total aren't fully
+redundant — a large absolute total can still be a small share against an
+even bigger-spending opponent, and a modest total can still be a large
+share against a weak-fundraising one — so each carries genuinely
+independent information about the race. Both are gated on the same
+condition (both sides matched) precisely so a race never carries one of
+these terms without the other:
+
+<div id="war-finance-forest-chart" role="img" aria-label="Forest plot of the campaign fundraising terms' coefficients with 95% credible intervals"></div>
 
 | Term | Posterior mean | 95% credible interval |
 |---|---|---|
 | Fundraising share | {{ site.data.war_model.coefficients.fundraising_share.posterior_mean | round: 3 }} | [{{ site.data.war_model.coefficients.fundraising_share.ci_95_low | round: 3 }}, {{ site.data.war_model.coefficients.fundraising_share.ci_95_high | round: 3 }}] |
+| log(total raised + 1) | {{ site.data.war_model.coefficients.log_raised.posterior_mean | round: 4 }} | [{{ site.data.war_model.coefficients.log_raised.ci_95_low | round: 4 }}, {{ site.data.war_model.coefficients.log_raised.ci_95_high | round: 4 }}] |
 
 Fit on {{ site.data.war_model.n_finance }} candidate-races with both
 candidates' OCPF totals matched, across the full 2002-2024 backfill. A
-positive, clearly-nonzero coefficient (95% credible interval entirely
-above zero) says a candidate who raised a larger share of their race's
-two-party fundraising total also tends to outperform their race's other
-fundamentals, even after accounting for lean, tide, approval, incumbency,
-and their party-interaction terms — the intuitive direction, and a more
-directly interpretable predictor than a raw or log-transformed dollar
-total, since it's already scaled to the specific race a candidate ran in
-rather than to the fundraising environment overall.
+positive, clearly-nonzero fundraising-share coefficient (95% credible
+interval entirely above zero) says a candidate who raised a larger share
+of their race's two-party fundraising total also tends to outperform
+their race's other fundamentals, even after accounting for lean, tide,
+approval, incumbency, and their party-interaction terms — the intuitive
+direction. Whether the absolute total's own coefficient is *also*
+clearly nonzero once the relative share is already in the model is worth
+reading directly off the table/forest plot above rather than assumed: a
+zero-crossing interval there would say the relative share already
+captures what matters, with the absolute total adding nothing further on
+top of it.
 
-**On a per-race attribution chart, the Fundraising bar is centered on
-this fit's own mean fundraising share
-({{ site.data.war_model.reference_values.fundraising_share | times: 100 | round: 1 }}%),
-not on 0%.** A typical matched race isn't a 0%-vs-100% blowout, so
-multiplying the coefficient above by a candidate's raw share rather than
-by how far it sits from a *typical* matched candidate's share would make
-the bar disproportionately large purely from comparing against an
-unrealistic zero-fundraising baseline. Centering it avoids that: the bar
-reads as "how this candidate's fundraising compares to a typical matched
-candidate's," in real vote-share points, with the removed constant folded
-into the chart's Baseline bar instead — the total predicted share for the
-race is unchanged. The same centering-not-zero convention applies to the
-Demographics bar above.
+**On a per-race attribution chart, the Fundraising bar combines both
+terms' contributions into one number**, the same way the Demographics bar
+sums multiple demographic fields — each centered on its own mean among
+matched candidates (fundraising share on
+{{ site.data.war_model.reference_values.fundraising_share | times: 100 | round: 1 }}%,
+log(total raised + 1) on
+{{ site.data.war_model.reference_values.log_raised | round: 2 }}),
+not on 0%/log($0). A typical matched race isn't a 0%-vs-100% blowout or a
+$0-vs-something contest, so multiplying either coefficient by a
+candidate's raw value rather than by how far it sits from a *typical*
+matched candidate's value would make the bar disproportionately large
+purely from comparing against an unrealistic baseline. Centering both
+avoids that: the bar reads as "how this candidate's fundraising compares
+to a typical matched candidate's," in real vote-share points, with the
+removed constants folded into the chart's Baseline bar instead — the
+total predicted share for the race is unchanged. The same
+centering-not-zero convention applies to the Demographics bar above.
 {% endif %}
 
 Every fitted effect on this page, including these two extension terms,
@@ -990,10 +1011,13 @@ including the exact code that computes everything on this page.
     });
     {% endif %}
     {% if site.data.war_model.coefficients.fundraising_share %}
-    (function () {
-      const c = coefs.fundraising_share;
-      rows.push({ term: "Relative campaign fundraising", family: "Campaign finance", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
-    })();
+    [
+      ["Fundraising share", "fundraising_share"],
+      ["log(total raised + 1)", "log_raised"],
+    ].forEach(([term, key]) => {
+      const c = coefs[key];
+      rows.push({ term: term, family: "Campaign finance", mean: c.standardized_mean, lo: c.standardized_ci_95_low, hi: c.standardized_ci_95_high });
+    });
     {% endif %}
     const termOrder = rows.map((r) => r.term);
     const familyColor = {
@@ -1067,9 +1091,12 @@ including the exact code that computes everything on this page.
   renderForestChart(
     "war-finance-forest-chart",
     {{ site.data.war_model.coefficients | jsonify }},
-    [["Fundraising share", "fundraising_share"]],
+    [
+      ["Fundraising share", "fundraising_share"],
+      ["log(total raised + 1)", "log_raised"],
+    ],
     methodologyCssVar("--war-fundraising"),
-    90
+    150
   );
   {% endif %}
   {% endif %}

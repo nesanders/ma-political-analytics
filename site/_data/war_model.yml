@@ -6,9 +6,9 @@ coefficients:
     prior_mean: 0.5
     prior_sd: 0.2
     posterior_mean: -0.0083
-    posterior_sd: 0.0198
-    ci_95_low: -0.0473
-    ci_95_high: 0.0304
+    posterior_sd: 0.0197
+    ci_95_low: -0.0475
+    ci_95_high: 0.0305
     predictor_sd: null
     standardized_mean: null
     standardized_sd: null
@@ -17,207 +17,219 @@ coefficients:
   is_dem:
     prior_mean: 0.0
     prior_sd: 0.1
-    posterior_mean: 0.024
-    posterior_sd: 0.0262
-    ci_95_low: -0.0264
-    ci_95_high: 0.0759
+    posterior_mean: 0.0237
+    posterior_sd: 0.0257
+    ci_95_low: -0.0276
+    ci_95_high: 0.0752
     predictor_sd: 0.5
-    standardized_mean: 0.012
-    standardized_sd: 0.0131
-    standardized_ci_95_low: -0.0132
-    standardized_ci_95_high: 0.0379
+    standardized_mean: 0.0119
+    standardized_sd: 0.0128
+    standardized_ci_95_low: -0.0138
+    standardized_ci_95_high: 0.0376
   own_lean:
     prior_mean: 1.0
     prior_sd: 0.4
-    posterior_mean: 0.7093
-    posterior_sd: 0.0304
+    posterior_mean: 0.7092
+    posterior_sd: 0.0305
     ci_95_low: 0.6493
-    ci_95_high: 0.7694
+    ci_95_high: 0.7687
     predictor_sd: 0.0967
     standardized_mean: 0.0686
     standardized_sd: 0.0029
     standardized_ci_95_low: 0.0628
-    standardized_ci_95_high: 0.0744
+    standardized_ci_95_high: 0.0743
   own_lean_x_dem:
     prior_mean: 0.0
     prior_sd: 0.2
-    posterior_mean: 0.0851
+    posterior_mean: 0.0846
     posterior_sd: 0.0427
-    ci_95_low: 0.0002
-    ci_95_high: 0.1671
+    ci_95_low: -0.0001
+    ci_95_high: 0.166
     predictor_sd: 0.274
-    standardized_mean: 0.0233
+    standardized_mean: 0.0232
     standardized_sd: 0.0117
-    standardized_ci_95_low: 0.0
-    standardized_ci_95_high: 0.0458
+    standardized_ci_95_low: -0.0
+    standardized_ci_95_high: 0.0455
   own_tide:
     prior_mean: 0.0
     prior_sd: 0.4
-    posterior_mean: -0.0201
-    posterior_sd: 0.0282
-    ci_95_low: -0.0754
-    ci_95_high: 0.0351
+    posterior_mean: -0.0202
+    posterior_sd: 0.0284
+    ci_95_low: -0.0752
+    ci_95_high: 0.0345
     predictor_sd: 0.1158
     standardized_mean: -0.0023
     standardized_sd: 0.0033
     standardized_ci_95_low: -0.0087
-    standardized_ci_95_high: 0.0041
+    standardized_ci_95_high: 0.004
   own_tide_x_dem:
     prior_mean: 0.0
     prior_sd: 0.2
-    posterior_mean: 0.0205
-    posterior_sd: 0.0393
-    ci_95_low: -0.0549
-    ci_95_high: 0.0974
+    posterior_mean: 0.0213
+    posterior_sd: 0.04
+    ci_95_low: -0.058
+    ci_95_high: 0.0996
     predictor_sd: 0.2918
-    standardized_mean: 0.006
-    standardized_sd: 0.0115
-    standardized_ci_95_low: -0.016
-    standardized_ci_95_high: 0.0284
+    standardized_mean: 0.0062
+    standardized_sd: 0.0117
+    standardized_ci_95_low: -0.0169
+    standardized_ci_95_high: 0.0291
   national_approval:
     prior_mean: 0.0
     prior_sd: 0.4
-    posterior_mean: 0.1966
-    posterior_sd: 0.0205
-    ci_95_low: 0.1569
-    ci_95_high: 0.2376
+    posterior_mean: 0.1969
+    posterior_sd: 0.0208
+    ci_95_low: 0.1553
+    ci_95_high: 0.2371
     predictor_sd: 0.0935
     standardized_mean: 0.0184
     standardized_sd: 0.0019
-    standardized_ci_95_low: 0.0147
+    standardized_ci_95_low: 0.0145
     standardized_ci_95_high: 0.0222
   incumbent:
     prior_mean: 0.05
     prior_sd: 0.08
-    posterior_mean: 0.1335
-    posterior_sd: 0.0082
-    ci_95_low: 0.1173
-    ci_95_high: 0.1492
+    posterior_mean: 0.1337
+    posterior_sd: 0.0085
+    ci_95_low: 0.1171
+    ci_95_high: 0.1502
     predictor_sd: 0.4472
-    standardized_mean: 0.0597
-    standardized_sd: 0.0037
-    standardized_ci_95_low: 0.0525
-    standardized_ci_95_high: 0.0667
+    standardized_mean: 0.0598
+    standardized_sd: 0.0038
+    standardized_ci_95_low: 0.0524
+    standardized_ci_95_high: 0.0672
   incumbent_x_dem:
     prior_mean: 0.0
     prior_sd: 0.04
-    posterior_mean: -0.057
-    posterior_sd: 0.0095
-    ci_95_low: -0.0758
-    ci_95_high: -0.0388
+    posterior_mean: -0.0573
+    posterior_sd: 0.0097
+    ci_95_low: -0.0763
+    ci_95_high: -0.0383
     predictor_sd: 0.407
-    standardized_mean: -0.0232
+    standardized_mean: -0.0233
     standardized_sd: 0.0039
-    standardized_ci_95_low: -0.0309
-    standardized_ci_95_high: -0.0158
+    standardized_ci_95_low: -0.031
+    standardized_ci_95_high: -0.0156
   open_seat:
     prior_mean: 0.0
     prior_sd: 0.1
-    posterior_mean: 0.045
+    posterior_mean: 0.0449
     posterior_sd: 0.0056
     ci_95_low: 0.0341
-    ci_95_high: 0.056
+    ci_95_high: 0.0562
     predictor_sd: 0.379
-    standardized_mean: 0.0171
+    standardized_mean: 0.017
     standardized_sd: 0.0021
     standardized_ci_95_low: 0.0129
-    standardized_ci_95_high: 0.0212
+    standardized_ci_95_high: 0.0213
   bachelors_pct:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: 0.0021
-    posterior_sd: 0.1789
-    ci_95_low: -0.3517
-    ci_95_high: 0.3585
+    posterior_mean: -0.0049
+    posterior_sd: 0.1828
+    ci_95_low: -0.3604
+    ci_95_high: 0.3524
     predictor_sd: 0.0137
-    standardized_mean: 0.0
-    standardized_sd: 0.0024
-    standardized_ci_95_low: -0.0048
-    standardized_ci_95_high: 0.0049
+    standardized_mean: -0.0001
+    standardized_sd: 0.0025
+    standardized_ci_95_low: -0.0049
+    standardized_ci_95_high: 0.0048
   hispanic_pct:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: 0.0066
-    posterior_sd: 0.0911
-    ci_95_low: -0.1707
-    ci_95_high: 0.1846
+    posterior_mean: 0.0057
+    posterior_sd: 0.0928
+    ci_95_low: -0.1741
+    ci_95_high: 0.1831
     predictor_sd: 0.0244
-    standardized_mean: 0.0002
-    standardized_sd: 0.0022
-    standardized_ci_95_low: -0.0042
+    standardized_mean: 0.0001
+    standardized_sd: 0.0023
+    standardized_ci_95_low: -0.0043
     standardized_ci_95_high: 0.0045
   voting_age_pct:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: -0.0563
-    posterior_sd: 0.2091
-    ci_95_low: -0.4716
-    ci_95_high: 0.3574
+    posterior_mean: -0.058
+    posterior_sd: 0.2103
+    ci_95_low: -0.4764
+    ci_95_high: 0.3389
     predictor_sd: 0.0098
     standardized_mean: -0.0006
     standardized_sd: 0.0021
-    standardized_ci_95_low: -0.0046
-    standardized_ci_95_high: 0.0035
+    standardized_ci_95_low: -0.0047
+    standardized_ci_95_high: 0.0033
   income_10k:
     prior_mean: 0.0
     prior_sd: 0.02
     posterior_mean: -0.001
-    posterior_sd: 0.0034
-    ci_95_low: -0.0076
+    posterior_sd: 0.0035
+    ci_95_low: -0.0077
     ci_95_high: 0.0057
     predictor_sd: 0.9949
     standardized_mean: -0.001
     standardized_sd: 0.0034
     standardized_ci_95_low: -0.0076
-    standardized_ci_95_high: 0.0057
+    standardized_ci_95_high: 0.0056
   median_age_10:
     prior_mean: 0.0
     prior_sd: 0.03
-    posterior_mean: -0.0021
-    posterior_sd: 0.0167
-    ci_95_low: -0.035
-    ci_95_high: 0.0308
+    posterior_mean: -0.0019
+    posterior_sd: 0.0166
+    ci_95_low: -0.0348
+    ci_95_high: 0.0302
     predictor_sd: 0.1667
     standardized_mean: -0.0003
     standardized_sd: 0.0028
     standardized_ci_95_low: -0.0058
-    standardized_ci_95_high: 0.0051
+    standardized_ci_95_high: 0.005
   homeownership_pct:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: 0.041
-    posterior_sd: 0.0936
-    ci_95_low: -0.1432
-    ci_95_high: 0.2284
+    posterior_mean: 0.0397
+    posterior_sd: 0.0932
+    ci_95_low: -0.1371
+    ci_95_high: 0.2295
     predictor_sd: 0.0447
     standardized_mean: 0.0018
     standardized_sd: 0.0042
-    standardized_ci_95_low: -0.0064
-    standardized_ci_95_high: 0.0102
+    standardized_ci_95_low: -0.0061
+    standardized_ci_95_high: 0.0103
   white_pct:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: -0.0246
-    posterior_sd: 0.0764
-    ci_95_low: -0.1769
-    ci_95_high: 0.1235
+    posterior_mean: -0.0239
+    posterior_sd: 0.077
+    ci_95_low: -0.1736
+    ci_95_high: 0.1268
     predictor_sd: 0.0446
     standardized_mean: -0.0011
     standardized_sd: 0.0034
-    standardized_ci_95_low: -0.0079
-    standardized_ci_95_high: 0.0055
+    standardized_ci_95_low: -0.0077
+    standardized_ci_95_high: 0.0057
   fundraising_share:
     prior_mean: 0.0
     prior_sd: 0.3
-    posterior_mean: 0.1922
-    posterior_sd: 0.0097
-    ci_95_low: 0.173
-    ci_95_high: 0.2112
+    posterior_mean: 0.1914
+    posterior_sd: 0.012
+    ci_95_low: 0.1671
+    ci_95_high: 0.2143
     predictor_sd: 0.2306
-    standardized_mean: 0.0443
-    standardized_sd: 0.0022
-    standardized_ci_95_low: 0.0399
-    standardized_ci_95_high: 0.0487
+    standardized_mean: 0.0441
+    standardized_sd: 0.0028
+    standardized_ci_95_low: 0.0385
+    standardized_ci_95_high: 0.0494
+  log_raised:
+    prior_mean: 0.0
+    prior_sd: 0.02
+    posterior_mean: 0.0002
+    posterior_sd: 0.002
+    ci_95_low: -0.0038
+    ci_95_high: 0.0042
+    predictor_sd: 1.2437
+    standardized_mean: 0.0003
+    standardized_sd: 0.0025
+    standardized_ci_95_low: -0.0047
+    standardized_ci_95_high: 0.0053
 reference_values:
   bachelors_pct: 0.18531502641926934
   hispanic_pct: 0.07787495517878548
@@ -227,6 +239,7 @@ reference_values:
   homeownership_pct: 0.731074471345075
   white_pct: 0.7938045209426073
   fundraising_share: 0.5
+  log_raised: 10.002422672335122
   open_seat: 0.25985663082437277
 n_incumbent: 413
 n_non_incumbent: 1081

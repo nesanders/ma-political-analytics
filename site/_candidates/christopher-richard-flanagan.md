@@ -13,17 +13,17 @@ races:
   winner: true
   actual_two_party_share: 0.5654
   war: -0.039
-  intercept_component: 0.004
-  intercept_component_sd: 0.0329
-  lean_component: 0.4816
+  intercept_component: 0.0037
+  intercept_component_sd: 0.0324
+  lean_component: 0.4812
   lean_component_sd: 0.0318
-  tide_component: 0.0003
-  tide_component_sd: 0.0305
-  approval_component: 0.0806
-  approval_component_sd: 0.0084
-  incumbency_adjustment: 0.0765
-  incumbency_adjustment_sd: 0.0125
-  demographics_component: -0.004
+  tide_component: 0.0007
+  tide_component_sd: 0.0309
+  approval_component: 0.0807
+  approval_component_sd: 0.0085
+  incumbency_adjustment: 0.0764
+  incumbency_adjustment_sd: 0.0129
+  demographics_component: -0.0039
   demographics_component_sd: 0.0301
   fundraising_component: null
   fundraising_component_sd: null
@@ -84,23 +84,23 @@ races:
   winner: true
   actual_two_party_share: 0.5452
   war: -0.0629
-  intercept_component: 0.0157
-  intercept_component_sd: 0.0328
-  lean_component: 0.4816
+  intercept_component: 0.0154
+  intercept_component_sd: 0.0324
+  lean_component: 0.4812
   lean_component_sd: 0.0318
-  tide_component: 0.0003
-  tide_component_sd: 0.0314
-  approval_component: 0.0786
-  approval_component_sd: 0.0082
+  tide_component: 0.0007
+  tide_component_sd: 0.0318
+  approval_component: 0.0788
+  approval_component_sd: 0.0083
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: -0.004
+  demographics_component: -0.0039
   demographics_component_sd: 0.0301
-  fundraising_component: 0.0008
-  fundraising_component_sd: 0.0
+  fundraising_component: 0.001
+  fundraising_component_sd: 0.0023
   demographics_tier: full
-  expected_share_resolved: 0.5729
-  war_resolved: -0.0277
+  expected_share_resolved: 0.5732
+  war_resolved: -0.028
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
@@ -109,7 +109,7 @@ races:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0

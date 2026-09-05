@@ -31,22 +31,22 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 1
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3673
-    lean_component_sd: 0.0157
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0058
-    fundraising_component: 0.0893
-    fundraising_component_sd: 0.0045
+    lean_component_sd: 0.0158
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0059
+    fundraising_component: 0.0892
+    fundraising_component_sd: 0.0062
     demographics_tier: core
-    expected_share_resolved: 0.6786
-    war_resolved: -0.0199
+    expected_share_resolved: 0.6791
+    war_resolved: -0.0204
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -54,7 +54,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Anthony Jm Allard
     slug: anthony-jm-allard
     party: Democratic
@@ -64,23 +64,23 @@ results_by_year:
     war: -0.1342
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.383
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3827
     lean_component_sd: 0.0253
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0058
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0059
     fundraising_component: -0.0893
-    fundraising_component_sd: 0.0045
+    fundraising_component_sd: 0.0068
     demographics_tier: core
-    expected_share_resolved: 0.3785
-    war_resolved: -0.0372
+    expected_share_resolved: 0.3787
+    war_resolved: -0.0374
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -88,7 +88,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.4886
@@ -108,21 +108,21 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3673
-    lean_component_sd: 0.0157
+    lean_component_sd: 0.0158
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0058
+    demographics_component: 0.0002
+    demographics_component_sd: 0.0059
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.4699
+    expected_share_resolved: 0.4702
     war_resolved: null
     war_resolved_sd: null
     war_factors:

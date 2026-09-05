@@ -48,14 +48,14 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.2936
-  intercept_component: 0.004
-  intercept_component_sd: 0.0329
-  lean_component: 0.5719
-  lean_component_sd: 0.0377
-  tide_component: 0.0003
-  tide_component_sd: 0.0303
-  approval_component: 0.1022
-  approval_component_sd: 0.0107
+  intercept_component: 0.0037
+  intercept_component_sd: 0.0324
+  lean_component: 0.5715
+  lean_component_sd: 0.0378
+  tide_component: 0.0007
+  tide_component_sd: 0.0308
+  approval_component: 0.1024
+  approval_component_sd: 0.0108
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -63,7 +63,7 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6784
+  expected_share_resolved: 0.6783
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -115,14 +115,14 @@ races:
   winner: false
   actual_two_party_share: 1.0
   war: 0.3949
-  intercept_component: 0.0157
-  intercept_component_sd: 0.0328
-  lean_component: 0.5719
-  lean_component_sd: 0.0377
-  tide_component: 0.0002
-  tide_component_sd: 0.023
-  approval_component: 0.0727
-  approval_component_sd: 0.0076
+  intercept_component: 0.0154
+  intercept_component_sd: 0.0324
+  lean_component: 0.5715
+  lean_component_sd: 0.0378
+  tide_component: 0.0005
+  tide_component_sd: 0.0233
+  approval_component: 0.0729
+  approval_component_sd: 0.0077
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -130,7 +130,7 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.6605
+  expected_share_resolved: 0.6602
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -163,7 +163,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.3492
   primary_war: 0.0734
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false

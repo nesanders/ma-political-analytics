@@ -14,7 +14,7 @@ races:
   actual_primary_share: 0.4708
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4213
+  primary_baseline_component: 0.4214
   primary_baseline_component_sd: 0.004
   primary_incumbency_component: 0.1621
   primary_incumbency_component_sd: 0.0944
@@ -22,7 +22,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.5834
   primary_war: -0.1126
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   - Incumbency (interacted with statewide tide and district lean)
@@ -42,22 +42,22 @@ races:
   winner: true
   actual_two_party_share: 1.0
   war: 0.3218
-  intercept_component: 0.004
-  intercept_component_sd: 0.0329
-  lean_component: 0.4776
+  intercept_component: 0.0037
+  intercept_component_sd: 0.0324
+  lean_component: 0.4772
   lean_component_sd: 0.0315
-  tide_component: 0.0003
-  tide_component_sd: 0.0306
-  approval_component: 0.1474
-  approval_component_sd: 0.0154
-  incumbency_adjustment: 0.0765
-  incumbency_adjustment_sd: 0.0125
+  tide_component: 0.0007
+  tide_component_sd: 0.031
+  approval_component: 0.1477
+  approval_component_sd: 0.0156
+  incumbency_adjustment: 0.0764
+  incumbency_adjustment_sd: 0.0129
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.7058
+  expected_share_resolved: 0.7057
   war_resolved: null
   war_resolved_sd: null
   war_factors:
@@ -82,7 +82,7 @@ races:
   actual_primary_share: 0.3785
   fair_share: 0.3333
   n_candidates: 3
-  primary_baseline_component: 0.2734
+  primary_baseline_component: 0.2735
   primary_baseline_component_sd: 0.004
   primary_incumbency_component: 0.149
   primary_incumbency_component_sd: 0.0984
@@ -90,7 +90,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.4224
   primary_war: -0.0439
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   - Incumbency (interacted with statewide tide and district lean)

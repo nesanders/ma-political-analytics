@@ -30,22 +30,22 @@ results_by_year:
     war: 0.4583
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4565
-    lean_component_sd: 0.0301
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0061
-    demographics_component_sd: 0.0592
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4562
+    lean_component_sd: 0.0302
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0069
+    demographics_component_sd: 0.0597
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.624
+    expected_share_resolved: 0.6247
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -73,22 +73,22 @@ results_by_year:
     war: 0.3922
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4565
-    lean_component_sd: 0.0301
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4562
+    lean_component_sd: 0.0302
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0061
-    demographics_component_sd: 0.0592
+    demographics_component: 0.0069
+    demographics_component_sd: 0.0597
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5573
+    expected_share_resolved: 0.558
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -143,15 +143,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3513
+    primary_baseline_component: 0.3514
     primary_baseline_component_sd: 0.0052
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
     primary_fundraising_component: 0.0504
-    primary_fundraising_component_sd: 0.003
+    primary_fundraising_component_sd: 0.0029
     primary_expected_share: 0.4017
     primary_war: 0.1078
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -164,7 +164,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3513
+    primary_baseline_component: 0.3514
     primary_baseline_component_sd: 0.0052
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -172,7 +172,7 @@ primaries:
     primary_fundraising_component_sd: 0.001
     primary_expected_share: 0.3688
     primary_war: 0.0113
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -185,15 +185,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.3333
-    primary_baseline_component: 0.3513
+    primary_baseline_component: 0.3514
     primary_baseline_component_sd: 0.0052
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.1218
+    primary_fundraising_component: -0.1219
     primary_fundraising_component_sd: 0.0071
     primary_expected_share: 0.2295
     primary_war: -0.1191
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

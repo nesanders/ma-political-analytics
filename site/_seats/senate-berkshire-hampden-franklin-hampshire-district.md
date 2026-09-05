@@ -30,18 +30,18 @@ results_by_year:
     war: 0.038
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5408
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5404
     lean_component_sd: 0.0357
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0051
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0052
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
@@ -64,22 +64,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.2264
     lean_component_sd: 0.0097
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0051
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0052
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.3149
-    war_resolved: -0.0243
+    expected_share_resolved: 0.3152
+    war_resolved: -0.0246
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -105,18 +105,18 @@ results_by_year:
     war: 0.3097
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.5408
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.5404
     lean_component_sd: 0.0357
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0051
+    demographics_component: 0.0001
+    demographics_component_sd: 0.0052
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
@@ -235,7 +235,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: 0.3564
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Huff Tyler Templeton, III
@@ -255,7 +255,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5
     primary_war: -0.3564
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
 demographics:

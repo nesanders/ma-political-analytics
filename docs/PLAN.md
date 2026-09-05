@@ -120,12 +120,16 @@ payloads small.
     since it's a race-level fact true for both candidates, not either
     candidate's own advantage; **expanded ACS demographics** (median age,
     homeownership share, non-Hispanic white share, alongside the existing
-    bachelor's-degree/Hispanic/voting-age/income fields); and **relative
-    campaign fundraising** (a candidate's own share of the race's two-party
-    OCPF-matched total, replacing the old raw/logged total — needs both
-    candidates matched, not just one, a real tradeoff for a real gain in
-    interpretability). See the methodology page for the full current
-    model and `pipeline/README.md` for the implementation changelog.
+    bachelor's-degree/Hispanic/voting-age/income fields); and **campaign
+    fundraising**, fit as two terms together rather than one replacing the
+    other — a relative share (own share of the race's two-party
+    OCPF-matched total) and an absolute logged total, both gated on the
+    same both-candidates-matched condition. Verified live: the relative
+    share is clearly nonzero; the absolute total comes back
+    indistinguishable from zero once the share is already in the model —
+    a real, honestly-reported finding, not a bug. See the methodology page
+    for the full current model and `pipeline/README.md` for the
+    implementation changelog.
   - *Different redistricting handling*: our lean baseline has to cross three
     MA redistricting vintages; Split Ticket's federal-district baseline
     doesn't face this problem at the same scale.

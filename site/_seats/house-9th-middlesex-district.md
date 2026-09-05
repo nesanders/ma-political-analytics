@@ -30,23 +30,23 @@ results_by_year:
     war: 0.081
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5607
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5603
     lean_component_sd: 0.037
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: -0.0046
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: -0.0048
     demographics_component_sd: 0.0235
-    fundraising_component: 0.0943
-    fundraising_component_sd: 0.0048
+    fundraising_component: 0.0941
+    fundraising_component_sd: 0.0063
     demographics_tier: full
-    expected_share_resolved: 0.8117
-    war_resolved: -0.0331
+    expected_share_resolved: 0.8111
+    war_resolved: -0.0325
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Carly Marie Downs
     slug: carly-marie-downs
     party: Republican
@@ -66,22 +66,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.2087
-    lean_component_sd: 0.0089
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    intercept_component_sd: 0.0198
+    lean_component: 0.2086
+    lean_component_sd: 0.009
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0046
+    demographics_component: -0.0048
     demographics_component_sd: 0.0235
-    fundraising_component: -0.0943
-    fundraising_component_sd: 0.0048
+    fundraising_component: -0.0946
+    fundraising_component_sd: 0.0092
     demographics_tier: full
-    expected_share_resolved: 0.1984
-    war_resolved: 0.023
+    expected_share_resolved: 0.198
+    war_resolved: 0.0234
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Sean Diamond
     slug: sean-diamond
     party: Other
@@ -137,22 +137,22 @@ results_by_year:
     war: 0.2859
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.5607
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.5603
     lean_component_sd: 0.037
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0046
+    demographics_component: -0.0048
     demographics_component_sd: 0.0235
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6507
+    expected_share_resolved: 0.6503
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -179,7 +179,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 0.5
-    primary_baseline_component: 0.3893
+    primary_baseline_component: 0.3894
     primary_baseline_component_sd: 0.0037
     primary_incumbency_component: 0.1538
     primary_incumbency_component_sd: 0.0952
@@ -187,7 +187,7 @@ primaries:
     primary_fundraising_component_sd: 0.0027
     primary_expected_share: 0.59
     primary_war: -0.0158
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Incumbency (interacted with statewide tide and district lean)
@@ -201,7 +201,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.3893
+    primary_baseline_component: 0.3894
     primary_baseline_component_sd: 0.0037
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -209,7 +209,7 @@ primaries:
     primary_fundraising_component_sd: 0.0012
     primary_expected_share: 0.41
     primary_war: 0.0158
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -259,11 +259,11 @@ primaries:
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0411
+    primary_fundraising_component: 0.041
     primary_fundraising_component_sd: 0.0024
     primary_expected_share: 0.5034
     primary_war: 0.0267
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -284,7 +284,7 @@ primaries:
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 0.4966
     primary_war: -0.0267
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

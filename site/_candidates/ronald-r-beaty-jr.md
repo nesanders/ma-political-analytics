@@ -14,15 +14,15 @@ races:
   actual_primary_share: 0.2064
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.4236
+  primary_baseline_component: 0.4237
   primary_baseline_component_sd: 0.0041
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
   primary_fundraising_component: null
   primary_fundraising_component_sd: null
-  primary_expected_share: 0.4236
-  primary_war: -0.2172
-  primary_war_sd: 0.1642
+  primary_expected_share: 0.4237
+  primary_war: -0.2173
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -42,13 +42,13 @@ races:
   actual_two_party_share: 0.3727
   war: -0.1541
   intercept_component: -0.02
-  intercept_component_sd: 0.0199
+  intercept_component_sd: 0.0198
   lean_component: 0.3403
   lean_component_sd: 0.0146
-  tide_component: -0.0102
-  tide_component_sd: 0.0144
-  approval_component: 0.114
-  approval_component_sd: 0.0119
+  tide_component: -0.0103
+  tide_component_sd: 0.0145
+  approval_component: 0.1142
+  approval_component_sd: 0.0121
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -56,8 +56,8 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.4241
-  war_resolved: -0.0514
+  expected_share_resolved: 0.4242
+  war_resolved: -0.0515
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
@@ -81,15 +81,15 @@ races:
   actual_primary_share: 0.5651
   fair_share: 0.5
   n_candidates: 2
-  primary_baseline_component: 0.5176
+  primary_baseline_component: 0.5177
   primary_baseline_component_sd: 0.005
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
   primary_fundraising_component: null
   primary_fundraising_component_sd: null
-  primary_expected_share: 0.5176
-  primary_war: 0.0475
-  primary_war_sd: 0.1642
+  primary_expected_share: 0.5177
+  primary_war: 0.0474
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false

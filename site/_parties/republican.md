@@ -11,7 +11,7 @@ seats_held:
   url: /seat/house-5th-bristol-district/
   winner_name: Justin Thurber
   winner_slug: justin-thurber
-  war_resolved: 0.1077
+  war_resolved: 0.1071
   war_factors:
   - District lean
   - Statewide tide
@@ -19,13 +19,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 6th Plymouth District
   url: /seat/house-6th-plymouth-district/
   winner_name: Kenneth Peter Sweezey
   winner_slug: kenneth-sweezey
-  war_resolved: 0.0922
+  war_resolved: 0.0923
   war_factors:
   - District lean
   - Statewide tide
@@ -33,26 +33,26 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Worcester and Hampshire District
   url: /seat/senate-worcester-and-hampshire-district/
   winner_name: Peter J. Durant
   winner_slug: peter-j-durant
-  war_resolved: 0.0866
+  war_resolved: 0.0862
   war_factors:
   - District lean
   - Statewide tide
   - National presidential approval
   - Incumbency
   - District demographics (bachelor's degree %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 1st Bristol District
   url: /seat/house-1st-bristol-district/
   winner_name: Michael Chaisson
   winner_slug: michael-chaisson
-  war_resolved: 0.0646
+  war_resolved: 0.0647
   war_factors:
   - District lean
   - Statewide tide
@@ -60,13 +60,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 6th Worcester District
   url: /seat/house-6th-worcester-district/
   winner_name: John J. Marsi, Jr
   winner_slug: john-j-marsi-jr
-  war_resolved: 0.0634
+  war_resolved: 0.0629
   war_factors:
   - District lean
   - Statewide tide
@@ -74,13 +74,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 5th Barnstable District
   url: /seat/house-5th-barnstable-district/
   winner_name: Steven G. Xiarhos
   winner_slug: steven-g-xiarhos
-  war_resolved: 0.0521
+  war_resolved: 0.0518
   war_factors:
   - District lean
   - Statewide tide
@@ -88,13 +88,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 3rd Barnstable District
   url: /seat/house-3rd-barnstable-district/
   winner_name: David T. Vieira
   winner_slug: david-t-vieira
-  war_resolved: 0.0511
+  war_resolved: 0.0508
   war_factors:
   - District lean
   - Statewide tide
@@ -107,7 +107,7 @@ seats_held:
   url: /seat/house-9th-norfolk-district/
   winner_name: Marcus S. Vaughn
   winner_slug: marcus-s-vaughn
-  war_resolved: 0.0212
+  war_resolved: 0.0213
   war_factors:
   - District lean
   - Statewide tide
@@ -115,13 +115,13 @@ seats_held:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 4th Hampden District
   url: /seat/house-4th-hampden-district/
   winner_name: Kelly W. Pease
   winner_slug: kelly-w-pease
-  war_resolved: 0.0073
+  war_resolved: 0.0068
   war_factors:
   - District lean
   - Statewide tide
@@ -134,27 +134,27 @@ seats_held:
   url: /seat/senate-worcester-and-hampden-district/
   winner_name: Ryan C. Fattman
   winner_slug: ryan-c-fattman
-  war_resolved: -0.0199
+  war_resolved: -0.0204
   war_factors:
   - District lean
   - Statewide tide
   - National presidential approval
   - Incumbency
   - District demographics (bachelor's degree %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: senate
   district_name: Third Bristol and Plymouth District
   url: /seat/senate-third-bristol-and-plymouth-district/
   winner_name: Kelly A. Dooner
   winner_slug: kelly-a-dooner
-  war_resolved: -0.0721
+  war_resolved: -0.0725
   war_factors:
   - District lean
   - Statewide tide
   - National presidential approval
   - Incumbency
   - District demographics (bachelor's degree %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
 - chamber: house
   district_name: 4th Bristol District
   url: /seat/house-4th-bristol-district/

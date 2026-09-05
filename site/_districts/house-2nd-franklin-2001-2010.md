@@ -33,30 +33,30 @@ results_by_year:
     war: -0.0658
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.5016
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.5012
     lean_component_sd: 0.0331
-    tide_component: 0.0002
-    tide_component_sd: 0.0259
-    approval_component: 0.0885
-    approval_component_sd: 0.0092
+    tide_component: 0.0006
+    tide_component_sd: 0.0263
+    approval_component: 0.0886
+    approval_component_sd: 0.0094
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: 0.0191
-    fundraising_component_sd: 0.001
+    fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.6584
-    war_resolved: -0.1047
+    expected_share_resolved: 0.6581
+    war_resolved: -0.1044
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Steven E. Adam
     slug: steven-e-adam
     party: Republican
@@ -66,30 +66,30 @@ results_by_year:
     war: 0.0658
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
     lean_component: 0.2614
     lean_component_sd: 0.0112
-    tide_component: -0.0093
-    tide_component_sd: 0.0131
-    approval_component: 0.1081
-    approval_component_sd: 0.0113
+    tide_component: -0.0094
+    tide_component_sd: 0.0132
+    approval_component: 0.1083
+    approval_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0191
-    fundraising_component_sd: 0.001
+    fundraising_component: -0.019
+    fundraising_component_sd: 0.0012
     demographics_tier: null
-    expected_share_resolved: 0.3662
-    war_resolved: 0.0801
+    expected_share_resolved: 0.3663
+    war_resolved: 0.08
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Genevieve C. Fraser
     slug: genevieve-c-fraser
     party: Other
@@ -136,23 +136,23 @@ results_by_year:
     war: 0.1123
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5016
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5012
     lean_component_sd: 0.0331
-    tide_component: 0.0003
-    tide_component_sd: 0.0306
-    approval_component: 0.1474
-    approval_component_sd: 0.0154
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.031
+    approval_component: 0.1477
+    approval_component_sd: 0.0156
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7298
-    war_resolved: 0.0611
+    expected_share_resolved: 0.7297
+    war_resolved: 0.0612
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -169,13 +169,13 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.2614
     lean_component_sd: 0.0112
     tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.0491
-    approval_component_sd: 0.0051
+    tide_component_sd: 0.0105
+    approval_component: 0.0492
+    approval_component_sd: 0.0052
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -209,22 +209,22 @@ results_by_year:
     war: 0.2952
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5016
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5012
     lean_component_sd: 0.0331
-    tide_component: 0.0002
-    tide_component_sd: 0.0296
-    approval_component: 0.1219
-    approval_component_sd: 0.0127
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.03
+    approval_component: 0.1221
+    approval_component_sd: 0.0129
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.7042
+    expected_share_resolved: 0.7041
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -250,23 +250,23 @@ results_by_year:
     war: 0.1288
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5016
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5012
     lean_component_sd: 0.0331
-    tide_component: 0.0003
-    tide_component_sd: 0.0303
-    approval_component: 0.1022
-    approval_component_sd: 0.0107
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.0308
+    approval_component: 0.1024
+    approval_component_sd: 0.0108
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6846
-    war_resolved: 0.0763
+    expected_share_resolved: 0.6844
+    war_resolved: 0.0765
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -283,13 +283,13 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.2614
     lean_component_sd: 0.0112
     tide_component: -0.0075
-    tide_component_sd: 0.0105
-    approval_component: 0.0944
-    approval_component_sd: 0.0098
+    tide_component_sd: 0.0106
+    approval_component: 0.0945
+    approval_component_sd: 0.01
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -297,8 +297,8 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.3283
-    war_resolved: -0.0892
+    expected_share_resolved: 0.3284
+    war_resolved: -0.0893
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -323,14 +323,14 @@ results_by_year:
     war: 0.4782
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.5016
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.5012
     lean_component_sd: 0.0331
-    tide_component: 0.0002
-    tide_component_sd: 0.023
-    approval_component: 0.0727
-    approval_component_sd: 0.0076
+    tide_component: 0.0005
+    tide_component_sd: 0.0233
+    approval_component: 0.0729
+    approval_component_sd: 0.0077
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -338,7 +338,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5902
+    expected_share_resolved: 0.59
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -371,7 +371,7 @@ primaries:
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 0.2405
     primary_war: 0.1279
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -392,7 +392,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2056
     primary_war: 0.0343
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Roxann D. Wedegartner
@@ -412,7 +412,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2056
     primary_war: -0.0213
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Lee E. Chauvette
@@ -432,7 +432,7 @@ primaries:
     primary_fundraising_component_sd: 0.0018
     primary_expected_share: 0.1753
     primary_war: -0.0011
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -453,7 +453,7 @@ primaries:
     primary_fundraising_component_sd: 0.0019
     primary_expected_share: 0.1729
     primary_war: -0.1398
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -642,7 +642,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.5018
     primary_war: 0.1577
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Peter A. Ruggeri
@@ -662,7 +662,7 @@ primaries:
     primary_fundraising_component_sd: 0.0002
     primary_expected_share: 0.4982
     primary_war: -0.1577
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

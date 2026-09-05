@@ -33,30 +33,30 @@ results_by_year:
     war: 0.131
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.413
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.4127
     lean_component_sd: 0.0273
-    tide_component: 0.0002
-    tide_component_sd: 0.0259
-    approval_component: 0.0885
-    approval_component_sd: 0.0092
+    tide_component: 0.0006
+    tide_component_sd: 0.0263
+    approval_component: 0.0886
+    approval_component_sd: 0.0094
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: 0.0934
-    fundraising_component_sd: 0.0047
+    fundraising_component_sd: 0.0069
     demographics_tier: null
-    expected_share_resolved: 0.6441
-    war_resolved: -0.0436
+    expected_share_resolved: 0.6439
+    war_resolved: -0.0434
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: James J. Buba
     slug: james-j-buba
     party: Republican
@@ -66,30 +66,30 @@ results_by_year:
     war: -0.131
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
     lean_component: 0.3405
     lean_component_sd: 0.0146
-    tide_component: -0.0093
-    tide_component_sd: 0.0131
-    approval_component: 0.1081
-    approval_component_sd: 0.0113
+    tide_component: -0.0094
+    tide_component_sd: 0.0132
+    approval_component: 0.1083
+    approval_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0934
-    fundraising_component_sd: 0.0047
+    fundraising_component: -0.0935
+    fundraising_component_sd: 0.0075
     demographics_tier: null
-    expected_share_resolved: 0.371
-    war_resolved: 0.0285
+    expected_share_resolved: 0.3709
+    war_resolved: 0.0286
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Patrick A. O'Connor
     slug: patrick-a-oconnor
     party: Other
@@ -136,16 +136,16 @@ results_by_year:
     war: 0.4024
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.413
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4127
     lean_component_sd: 0.0273
-    tide_component: 0.0003
-    tide_component_sd: 0.0306
-    approval_component: 0.1474
-    approval_component_sd: 0.0154
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.031
+    approval_component: 0.1477
+    approval_component_sd: 0.0156
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -177,30 +177,30 @@ results_by_year:
     war: 0.2134
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.413
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4127
     lean_component_sd: 0.0273
-    tide_component: 0.0002
-    tide_component_sd: 0.0296
-    approval_component: 0.1219
-    approval_component_sd: 0.0127
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.03
+    approval_component: 0.1221
+    approval_component_sd: 0.0129
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0909
-    fundraising_component_sd: 0.0046
+    fundraising_component: 0.0908
+    fundraising_component_sd: 0.0061
     demographics_tier: null
-    expected_share_resolved: 0.7066
-    war_resolved: 0.052
+    expected_share_resolved: 0.7063
+    war_resolved: 0.0523
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -211,19 +211,19 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3405
     lean_component_sd: 0.0146
     tide_component: -0.0078
     tide_component_sd: 0.011
-    approval_component: 0.0747
-    approval_component_sd: 0.0078
+    approval_component: 0.0748
+    approval_component_sd: 0.0079
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0909
-    fundraising_component_sd: 0.0046
+    fundraising_component: -0.091
+    fundraising_component_sd: 0.0075
     demographics_tier: null
     expected_share_resolved: 0.2965
     war_resolved: -0.0551
@@ -233,7 +233,7 @@ results_by_year:
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2004
   lean_dem_share: 0.5736
@@ -252,30 +252,30 @@ results_by_year:
     war: 0.1847
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.413
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4127
     lean_component_sd: 0.0273
-    tide_component: 0.0003
-    tide_component_sd: 0.0303
-    approval_component: 0.1022
-    approval_component_sd: 0.0107
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.0308
+    approval_component: 0.1024
+    approval_component_sd: 0.0108
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0933
-    fundraising_component_sd: 0.0047
+    fundraising_component: 0.0932
+    fundraising_component_sd: 0.0064
     demographics_tier: null
-    expected_share_resolved: 0.6893
-    war_resolved: 0.0689
+    expected_share_resolved: 0.6891
+    war_resolved: 0.0691
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -286,29 +286,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3405
     lean_component_sd: 0.0146
     tide_component: -0.0075
-    tide_component_sd: 0.0105
-    approval_component: 0.0944
-    approval_component_sd: 0.0098
+    tide_component_sd: 0.0106
+    approval_component: 0.0945
+    approval_component_sd: 0.01
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0933
-    fundraising_component_sd: 0.0047
+    fundraising_component: -0.0935
+    fundraising_component_sd: 0.0082
     demographics_tier: null
-    expected_share_resolved: 0.3141
-    war_resolved: -0.0723
+    expected_share_resolved: 0.314
+    war_resolved: -0.0722
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2002
   lean_dem_share: 0.4134
@@ -327,30 +327,30 @@ results_by_year:
     war: 0.3077
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.413
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4127
     lean_component_sd: 0.0273
-    tide_component: 0.0002
-    tide_component_sd: 0.023
-    approval_component: 0.0727
-    approval_component_sd: 0.0076
+    tide_component: 0.0005
+    tide_component_sd: 0.0233
+    approval_component: 0.0729
+    approval_component_sd: 0.0077
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0904
-    fundraising_component_sd: 0.0046
+    fundraising_component: 0.0902
+    fundraising_component_sd: 0.0058
     demographics_tier: null
-    expected_share_resolved: 0.5921
-    war_resolved: 0.1291
+    expected_share_resolved: 0.5917
+    war_resolved: 0.1295
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Brooks T. Lyman
     slug: brooks-t-lyman
     party: Republican
@@ -361,29 +361,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3405
     lean_component_sd: 0.0146
     tide_component: -0.0106
-    tide_component_sd: 0.0148
-    approval_component: 0.1239
-    approval_component_sd: 0.0129
+    tide_component_sd: 0.0149
+    approval_component: 0.124
+    approval_component_sd: 0.0131
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0904
-    fundraising_component_sd: 0.0046
+    fundraising_component: -0.0906
+    fundraising_component_sd: 0.0081
     demographics_tier: null
-    expected_share_resolved: 0.3551
-    war_resolved: -0.0763
+    expected_share_resolved: 0.355
+    war_resolved: -0.0762
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2010
@@ -409,7 +409,7 @@ primaries:
     primary_fundraising_component_sd: 0.0045
     primary_expected_share: 0.4967
     primary_war: 0.1199
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -426,11 +426,11 @@ primaries:
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0833
+    primary_fundraising_component: 0.0832
     primary_fundraising_component_sd: 0.0049
     primary_expected_share: 0.5033
     primary_war: -0.1199
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -532,11 +532,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.0918
+    primary_baseline_component: 1.0919
     primary_baseline_component_sd: 0.0051
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.0918
+    primary_fundraising_component: -0.0919
     primary_fundraising_component_sd: 0.0054
     primary_expected_share: 1.0
     primary_war: null

@@ -33,30 +33,30 @@ results_by_year:
     war: 0.0591
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3976
-    lean_component_sd: 0.0262
-    tide_component: 0.0003
-    tide_component_sd: 0.0325
-    approval_component: 0.1062
-    approval_component_sd: 0.0111
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3973
+    lean_component_sd: 0.0263
+    tide_component: 0.0007
+    tide_component_sd: 0.0329
+    approval_component: 0.1063
+    approval_component_sd: 0.0112
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0952
-    fundraising_component_sd: 0.0048
+    fundraising_component: 0.0951
+    fundraising_component_sd: 0.0066
     demographics_tier: null
-    expected_share_resolved: 0.6797
-    war_resolved: 0.0048
+    expected_share_resolved: 0.6796
+    war_resolved: 0.0049
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Stephen F. Tougas
     slug: stephen-f-tougas
     party: Republican
@@ -67,29 +67,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3543
+    intercept_component_sd: 0.0198
+    lean_component: 0.3542
     lean_component_sd: 0.0152
     tide_component: -0.0066
     tide_component_sd: 0.0093
-    approval_component: 0.0904
-    approval_component_sd: 0.0094
+    approval_component: 0.0906
+    approval_component_sd: 0.0096
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0952
-    fundraising_component_sd: 0.0048
+    fundraising_component: -0.0956
+    fundraising_component_sd: 0.0099
     demographics_tier: null
-    expected_share_resolved: 0.3229
-    war_resolved: -0.0074
+    expected_share_resolved: 0.3226
+    war_resolved: -0.0071
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2018
   lean_dem_share: 0.2879
@@ -108,30 +108,30 @@ results_by_year:
     war: 0.4004
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3976
-    lean_component_sd: 0.0262
-    tide_component: 0.0001
-    tide_component_sd: 0.0161
-    approval_component: 0.118
-    approval_component_sd: 0.0123
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3973
+    lean_component_sd: 0.0263
+    tide_component: 0.0004
+    tide_component_sd: 0.0163
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0789
-    fundraising_component_sd: 0.004
+    fundraising_component: 0.079
+    fundraising_component_sd: 0.0064
     demographics_tier: null
-    expected_share_resolved: 0.6751
-    war_resolved: 0.0132
+    expected_share_resolved: 0.675
+    war_resolved: 0.0133
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Stephen F. Tougas
     slug: stephen-f-tougas
     party: Republican
@@ -142,29 +142,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3543
+    intercept_component_sd: 0.0198
+    lean_component: 0.3542
     lean_component_sd: 0.0152
-    tide_component: -0.0134
-    tide_component_sd: 0.0188
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: -0.0135
+    tide_component_sd: 0.019
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0789
-    fundraising_component_sd: 0.004
+    fundraising_component: -0.0787
+    fundraising_component_sd: 0.005
     demographics_tier: null
-    expected_share_resolved: 0.3206
-    war_resolved: -0.0089
+    expected_share_resolved: 0.3209
+    war_resolved: -0.0092
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5791
@@ -183,22 +183,22 @@ results_by_year:
     war: 0.4209
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3976
-    lean_component_sd: 0.0262
-    tide_component: 0.0003
-    tide_component_sd: 0.0313
-    approval_component: 0.1042
-    approval_component_sd: 0.0109
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3973
+    lean_component_sd: 0.0263
+    tide_component: 0.0007
+    tide_component_sd: 0.0317
+    approval_component: 0.1044
+    approval_component_sd: 0.011
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5826
+    expected_share_resolved: 0.5825
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -224,30 +224,30 @@ results_by_year:
     war: 0.2201
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3976
-    lean_component_sd: 0.0262
-    tide_component: 0.0002
-    tide_component_sd: 0.0237
-    approval_component: 0.0826
-    approval_component_sd: 0.0086
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3973
+    lean_component_sd: 0.0263
+    tide_component: 0.0005
+    tide_component_sd: 0.024
+    approval_component: 0.0827
+    approval_component_sd: 0.0087
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0922
-    fundraising_component_sd: 0.0047
+    fundraising_component: 0.092
+    fundraising_component_sd: 0.0063
     demographics_tier: null
-    expected_share_resolved: 0.653
-    war_resolved: 0.008
+    expected_share_resolved: 0.6527
+    war_resolved: 0.0083
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Patricia Kriegel
     slug: patricia-kriegel
     party: Republican
@@ -258,19 +258,19 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3543
+    intercept_component_sd: 0.0198
+    lean_component: 0.3542
     lean_component_sd: 0.0152
-    tide_component: -0.0102
-    tide_component_sd: 0.0144
-    approval_component: 0.114
-    approval_component_sd: 0.0119
+    tide_component: -0.0103
+    tide_component_sd: 0.0145
+    approval_component: 0.1142
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0922
-    fundraising_component_sd: 0.0047
+    fundraising_component: -0.0923
+    fundraising_component_sd: 0.0078
     demographics_tier: null
     expected_share_resolved: 0.3459
     war_resolved: -0.0069
@@ -280,7 +280,7 @@ results_by_year:
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5689
@@ -299,14 +299,14 @@ results_by_year:
     war: 0.4311
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.3976
-    lean_component_sd: 0.0262
-    tide_component: 0.0002
-    tide_component_sd: 0.0299
-    approval_component: 0.1022
-    approval_component_sd: 0.0107
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.3973
+    lean_component_sd: 0.0263
+    tide_component: 0.0007
+    tide_component_sd: 0.0303
+    approval_component: 0.1024
+    approval_component_sd: 0.0108
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -339,11 +339,11 @@ primaries:
     is_incumbent: true
     incumbent_terms: 4
     fair_share: 1.0
-    primary_baseline_component: 0.8196
+    primary_baseline_component: 0.8197
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1224
     primary_incumbency_component_sd: 0.0924
-    primary_fundraising_component: 0.058
+    primary_fundraising_component: 0.0579
     primary_fundraising_component_sd: 0.0034
     primary_expected_share: 1.0
     primary_war: null
@@ -453,7 +453,7 @@ primaries:
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1261
     primary_incumbency_component_sd: 0.0917
-    primary_fundraising_component: 0.0502
+    primary_fundraising_component: 0.0501
     primary_fundraising_component_sd: 0.0029
     primary_expected_share: 1.0
     primary_war: null
@@ -505,11 +505,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 1.1006
+    primary_baseline_component: 1.1007
     primary_baseline_component_sd: 0.0052
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.1006
+    primary_fundraising_component: -0.1007
     primary_fundraising_component_sd: 0.0059
     primary_expected_share: 1.0
     primary_war: null

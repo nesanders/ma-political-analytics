@@ -14,13 +14,13 @@ races:
   actual_two_party_share: 0.1473
   war: -0.0768
   intercept_component: -0.02
-  intercept_component_sd: 0.0199
+  intercept_component_sd: 0.0198
   lean_component: 0.2049
   lean_component_sd: 0.0088
   tide_component: -0.0074
-  tide_component_sd: 0.0104
-  approval_component: 0.0491
-  approval_component_sd: 0.0051
+  tide_component_sd: 0.0105
+  approval_component: 0.0492
+  approval_component_sd: 0.0052
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -81,13 +81,13 @@ races:
   actual_two_party_share: 0.1591
   war: -0.101
   intercept_component: -0.02
-  intercept_component_sd: 0.0199
+  intercept_component_sd: 0.0198
   lean_component: 0.2049
   lean_component_sd: 0.0088
   tide_component: -0.0078
   tide_component_sd: 0.011
-  approval_component: 0.0747
-  approval_component_sd: 0.0078
+  approval_component: 0.0748
+  approval_component_sd: 0.0079
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -95,8 +95,8 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.2518
-  war_resolved: -0.0927
+  expected_share_resolved: 0.2519
+  war_resolved: -0.0928
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
@@ -149,13 +149,13 @@ races:
   actual_two_party_share: 0.2836
   war: 0.0032
   intercept_component: -0.02
-  intercept_component_sd: 0.0199
+  intercept_component_sd: 0.0198
   lean_component: 0.2049
   lean_component_sd: 0.0088
   tide_component: -0.0075
-  tide_component_sd: 0.0105
-  approval_component: 0.0944
-  approval_component_sd: 0.0098
+  tide_component_sd: 0.0106
+  approval_component: 0.0945
+  approval_component_sd: 0.01
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -163,8 +163,8 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.2718
-  war_resolved: 0.0118
+  expected_share_resolved: 0.2719
+  war_resolved: 0.0117
   war_resolved_sd: 0.0725
   war_factors:
   - District lean

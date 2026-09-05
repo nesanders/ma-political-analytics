@@ -30,23 +30,23 @@ results_by_year:
     war: -0.0149
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
     lean_component: 0.3615
     lean_component_sd: 0.0155
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0078
+    demographics_component: 0.0002
+    demographics_component_sd: 0.008
     fundraising_component: 0.0863
-    fundraising_component_sd: 0.0044
+    fundraising_component_sd: 0.0065
     demographics_tier: core
-    expected_share_resolved: 0.5812
-    war_resolved: -0.0721
+    expected_share_resolved: 0.5816
+    war_resolved: -0.0725
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -54,7 +54,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Joseph Richard Pacheco
     slug: joseph-richard-pacheco
     party: Democratic
@@ -64,23 +64,23 @@ results_by_year:
     war: 0.0149
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.3895
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.3892
     lean_component_sd: 0.0257
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0078
-    fundraising_component: -0.0863
-    fundraising_component_sd: 0.0044
+    demographics_component: 0.0002
+    demographics_component_sd: 0.008
+    fundraising_component: -0.0861
+    fundraising_component_sd: 0.0058
     demographics_tier: core
-    expected_share_resolved: 0.433
-    war_resolved: 0.0579
+    expected_share_resolved: 0.4333
+    war_resolved: 0.0576
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -88,7 +88,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: James B. Dupont
     slug: james-b-dupont
     party: Other
@@ -135,20 +135,20 @@ results_by_year:
     war: 0.0382
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.3895
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.3892
     lean_component_sd: 0.0257
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0078
-    fundraising_component: 0.0943
-    fundraising_component_sd: 0.0048
+    demographics_component: 0.0002
+    demographics_component_sd: 0.008
+    fundraising_component: 0.094
+    fundraising_component_sd: 0.0061
     demographics_tier: core
     expected_share_resolved: 0.5783
     war_resolved: -0.0354
@@ -159,7 +159,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Maria S. Collins
     slug: maria-s-collins
     party: Republican
@@ -170,19 +170,19 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3615
     lean_component_sd: 0.0155
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0001
-    demographics_component_sd: 0.0078
-    fundraising_component: -0.0943
-    fundraising_component_sd: 0.0048
+    demographics_component: 0.0002
+    demographics_component_sd: 0.008
+    fundraising_component: -0.0946
+    fundraising_component_sd: 0.0097
     demographics_tier: core
     expected_share_resolved: 0.3698
     war_resolved: 0.0873
@@ -193,7 +193,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -219,7 +219,7 @@ primaries:
     primary_fundraising_component_sd: 0.002
     primary_expected_share: 0.483
     primary_war: 0.1289
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -240,7 +240,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.517
     primary_war: -0.1289
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
 - year: 2024
@@ -258,11 +258,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9215
+    primary_baseline_component: 0.9216
     primary_baseline_component_sd: 0.0043
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0785
+    primary_fundraising_component: 0.0784
     primary_fundraising_component_sd: 0.0046
     primary_expected_share: 1.0
     primary_war: null

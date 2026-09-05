@@ -33,20 +33,20 @@ results_by_year:
     war: 0.1723
     is_incumbent: true
     incumbent_terms: 4
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3766
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3763
     lean_component_sd: 0.0249
-    tide_component: 0.0002
-    tide_component_sd: 0.0259
-    approval_component: 0.0885
-    approval_component_sd: 0.0092
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0006
+    tide_component_sd: 0.0263
+    approval_component: 0.0886
+    approval_component_sd: 0.0094
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0404
-    fundraising_component_sd: 0.002
+    fundraising_component: 0.0405
+    fundraising_component_sd: 0.0035
     demographics_tier: null
     expected_share_resolved: 0.5862
     war_resolved: 0.0347
@@ -56,7 +56,7 @@ results_by_year:
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Timothy F. Finnerty
     slug: timothy-f-finnerty
     party: Republican
@@ -67,29 +67,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.373
     lean_component_sd: 0.016
-    tide_component: -0.0093
-    tide_component_sd: 0.0131
-    approval_component: 0.1081
-    approval_component_sd: 0.0113
+    tide_component: -0.0094
+    tide_component_sd: 0.0132
+    approval_component: 0.1083
+    approval_component_sd: 0.0114
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0404
-    fundraising_component_sd: 0.002
+    fundraising_component: -0.0402
+    fundraising_component_sd: 0.0026
     demographics_tier: null
-    expected_share_resolved: 0.4114
-    war_resolved: -0.0323
+    expected_share_resolved: 0.4117
+    war_resolved: -0.0326
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Carlton A. Chambers
     slug: carlton-a-chambers
     party: Other
@@ -136,16 +136,16 @@ results_by_year:
     war: 0.46
     is_incumbent: true
     incumbent_terms: 3
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3766
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3763
     lean_component_sd: 0.0249
-    tide_component: 0.0003
-    tide_component_sd: 0.0306
-    approval_component: 0.1474
-    approval_component_sd: 0.0154
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.031
+    approval_component: 0.1477
+    approval_component_sd: 0.0156
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -177,22 +177,22 @@ results_by_year:
     war: 0.49
     is_incumbent: true
     incumbent_terms: 2
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3766
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3763
     lean_component_sd: 0.0249
-    tide_component: 0.0002
-    tide_component_sd: 0.0296
-    approval_component: 0.1219
-    approval_component_sd: 0.0127
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.03
+    approval_component: 0.1221
+    approval_component_sd: 0.0129
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5793
+    expected_share_resolved: 0.5792
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -218,16 +218,16 @@ results_by_year:
     war: 0.4695
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3766
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3763
     lean_component_sd: 0.0249
-    tide_component: 0.0003
-    tide_component_sd: 0.0303
-    approval_component: 0.1022
-    approval_component_sd: 0.0107
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    tide_component: 0.0007
+    tide_component_sd: 0.0308
+    approval_component: 0.1024
+    approval_component_sd: 0.0108
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
@@ -287,20 +287,20 @@ results_by_year:
     war: 0.3353
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.3766
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.3763
     lean_component_sd: 0.0249
-    tide_component: 0.0002
-    tide_component_sd: 0.023
-    approval_component: 0.0727
-    approval_component_sd: 0.0076
+    tide_component: 0.0005
+    tide_component_sd: 0.0233
+    approval_component: 0.0729
+    approval_component_sd: 0.0077
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0194
-    fundraising_component_sd: 0.001
+    fundraising_component: 0.0195
+    fundraising_component_sd: 0.0021
     demographics_tier: null
     expected_share_resolved: 0.4846
     war_resolved: 0.1919
@@ -310,7 +310,7 @@ results_by_year:
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Nathaniel G. Palmer
     slug: nathaniel-g-palmer
     party: Republican
@@ -321,29 +321,29 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.373
     lean_component_sd: 0.016
     tide_component: -0.0106
-    tide_component_sd: 0.0148
-    approval_component: 0.1239
-    approval_component_sd: 0.0129
+    tide_component_sd: 0.0149
+    approval_component: 0.124
+    approval_component_sd: 0.0131
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0194
-    fundraising_component_sd: 0.001
+    fundraising_component: -0.0192
+    fundraising_component_sd: 0.0015
     demographics_tier: null
-    expected_share_resolved: 0.4586
-    war_resolved: -0.1351
+    expected_share_resolved: 0.4589
+    war_resolved: -0.1354
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2010

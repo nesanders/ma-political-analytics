@@ -284,8 +284,9 @@ SCHEMA_CARD = {
                     "(unapportioned) tide, the sitting president's national approval rating near that "
                     "year's Election Day, a single incumbent/non-incumbent term, and open-seat status "
                     "(lean/tide/incumbency each with their own Democratic-vs-Republican interaction term), "
-                    "plus district demographics and/or relative campaign fundraising wherever this race's "
-                    "own data supports them. Fit across every contested major-party race in the backfill. "
+                    "plus district demographics and/or campaign fundraising (both a relative share and an "
+                    "absolute logged total) wherever this race's own data supports them. Fit across every "
+                    "contested major-party race in the backfill. "
                     "See the methodology page for the current posterior coefficients and their uncertainty. "
                     "Same null cases as war."
                 ),
@@ -311,11 +312,14 @@ SCHEMA_CARD = {
                     "demographic data (current vintage only) — null otherwise."
                 ),
                 "fundraising_component": (
-                    "The fitted campaign-finance term's contribution to war_resolved's expected share, based "
-                    "on this candidate's own share of the two-party OCPF-matched total raised in this "
-                    "specific race (not a raw dollar total) — null unless *both* this candidate and their "
-                    "major-party opponent have OCPF-matched fundraising data for this year. Can be non-null "
-                    "on the same row as demographics_component; the two are independent."
+                    "The fitted campaign-finance terms' combined contribution to war_resolved's expected "
+                    "share — a relative term (this candidate's own share of the two-party OCPF-matched "
+                    "total raised in this specific race) plus an absolute term (this candidate's own "
+                    "logged total raised), summed together the same way demographics_component sums "
+                    "multiple demographic fields into one number. Null unless *both* this candidate and "
+                    "their major-party opponent have OCPF-matched fundraising data for this year — both "
+                    "terms share that same gate, so this is never null for one but not the other. Can be "
+                    "non-null on the same row as demographics_component; the two are independent."
                 ),
             },
         },

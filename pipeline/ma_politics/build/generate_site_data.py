@@ -388,15 +388,23 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     # bachelors_pct/hispanic_pct/voting_age_pct, so they share that prior.
     "homeownership_pct": (0.0, 0.3),
     "white_pct": (0.0, 0.3),
-    # Replaces log_raised: own_raised / (own_raised + opponent_raised),
-    # this candidate's own share of the two-party OCPF-matched total for
-    # that specific race (not just their own raw dollar total, which
-    # couldn't tell a $50k candidate facing a $20k opponent apart from one
-    # facing a $500k opponent). A 0-1 share like the population-style
-    # covariates above, so it shares their prior rather than log_raised's
-    # much narrower one (that one was scaled for a variable spanning
-    # roughly log($1k) to log($1M), a unit this share doesn't have).
+    # own_raised / (own_raised + opponent_raised) — this candidate's own
+    # share of the two-party OCPF-matched total for that specific race, a
+    # *relative* fundraising term alongside log_raised's absolute one
+    # below (both fit together, gated on the same both-sides-matched
+    # condition — see _both_matched_finance's own docstring for why
+    # neither is treated as a strict replacement for the other). A 0-1
+    # share like the population-style covariates above, so it shares
+    # their prior rather than log_raised's much narrower one.
     "fundraising_share": (0.0, 0.3),
+    # This candidate's own logged OCPF total (log1p(raised)) — the
+    # *absolute* fundraising term. Narrow prior, same scale as the primary
+    # model's own `primary_log_raised` below: this predictor lives on a
+    # log-dollar scale (roughly 7-14 across real candidates), not the 0-1
+    # fraction most other terms use, so a coefficient here needs to be
+    # much smaller to represent the same real-world "shouldn't move vote
+    # share by double digits on its own" belief.
+    "log_raised": (0.0, 0.02),
     # fit_primary_war_model's own, much smaller model — prefixed rather
     # than reusing "incumbent"/"log_raised" outright, since a primary's
     # incumbency effect and fundraising effect are fit on a genuinely
@@ -569,34 +577,39 @@ _GENERAL_EXTENSION_COVARIATES = (
     "homeownership_pct",
     "white_pct",
     "fundraising_share",
+    "log_raised",
     "open_seat",
 )
 
 
 def _opponent(entry: dict, slug: str) -> dict | None:
     """The other major-party candidate in this same year's race, if any —
-    used both for fundraising_share below (needs both sides' OCPF totals)
-    and anywhere else a race needs to reason about "the candidate this one
-    is actually running against." Every contested entry fit_war_model/
-    apply_war process has exactly one Democrat and one Republican (that's
-    what "contested" means here — see compute_war's own is_uncontested
-    definition), so this never has to disambiguate among multiple
-    same-party opponents."""
+    used both for _both_matched_finance below (needs both sides' OCPF
+    totals) and anywhere else a race needs to reason about "the candidate
+    this one is actually running against." Every contested entry
+    fit_war_model/apply_war process has exactly one Democrat and one
+    Republican (that's what "contested" means here — see compute_war's own
+    is_uncontested definition), so this never has to disambiguate among
+    multiple same-party opponents."""
     return next(
         (o for o in entry["candidates"] if o["party"] in ("Democratic", "Republican") and o["slug"] != slug),
         None,
     )
 
 
-def _fundraising_share(finance_by_slug: dict, entry: dict, c: dict) -> float | None:
-    """This candidate's own share of the two-party OCPF-matched total for
-    this specific race — own_raised / (own_raised + opponent_raised) —
-    rather than log_raised's own raw dollar total, which couldn't tell a
-    $50k candidate facing a $20k opponent apart from one facing a $500k
-    opponent even though those are very different competitive positions.
-    None whenever either side's OCPF match is missing (a real, structural
-    tradeoff versus log_raised, which only ever needed *this* candidate's
-    own match): a share needs both numbers, not just one."""
+def _both_matched_finance(finance_by_slug: dict, entry: dict, c: dict) -> tuple[float, float] | None:
+    """(own_raised, opponent_raised) for this candidate's specific race,
+    or None unless **both** major-party candidates have a matched OCPF
+    total for this year. Shared by both fundraising terms below
+    (fundraising_share and log_raised) so they're gated identically —
+    asked directly for both a relative and an absolute fundraising term,
+    but governed by the same "both sides matched" condition rather than
+    log_raised's own original, looser gate (which only ever needed this
+    candidate's own match): keeping them on one shared gate means a race
+    either has both terms or neither, not one silently present without
+    the other, which would otherwise make the two terms' own missing-data
+    patterns diverge in a way nothing else on this site's extension
+    covariates does."""
     opponent = _opponent(entry, c["slug"])
     if opponent is None:
         return None
@@ -604,9 +617,44 @@ def _fundraising_share(finance_by_slug: dict, entry: dict, c: dict) -> float | N
     opp_finance = finance_by_slug.get(opponent["slug"], {}).get("by_year", {}).get(entry["year"])
     own_raised = own_finance["total_raised"] if own_finance else None
     opp_raised = opp_finance["total_raised"] if opp_finance else None
-    if own_raised is None or opp_raised is None or (own_raised + opp_raised) <= 0:
+    if own_raised is None or opp_raised is None:
+        return None
+    return own_raised, opp_raised
+
+
+def _fundraising_share(finance_by_slug: dict, entry: dict, c: dict) -> float | None:
+    """This candidate's own share of the two-party OCPF-matched total for
+    this specific race — own_raised / (own_raised + opponent_raised) —
+    the *relative* fundraising term: distinguishes a $50k candidate facing
+    a $20k opponent from one facing a $500k opponent, which log_raised's
+    own raw dollar total below can't."""
+    both = _both_matched_finance(finance_by_slug, entry, c)
+    if both is None:
+        return None
+    own_raised, opp_raised = both
+    if (own_raised + opp_raised) <= 0:
         return None
     return own_raised / (own_raised + opp_raised)
+
+
+def _own_log_raised(finance_by_slug: dict, entry: dict, c: dict) -> float | None:
+    """This candidate's own OCPF total raised that cycle, log-transformed
+    (fundraising totals are heavily right-skewed) — the *absolute*
+    fundraising term, alongside fundraising_share's relative one. Gated on
+    the same "both sides matched" condition as fundraising_share (via
+    _both_matched_finance), even though only this candidate's own total is
+    actually used here: a candidate's absolute war chest and their share of
+    the race's total aren't fully redundant (a big absolute total can still
+    be a small share against an even bigger-spending opponent, and vice
+    versa) — real, independent signal each, not one term standing in for
+    the other — so both are fit together rather than treating the
+    relative-share swap as a strict replacement the way an earlier version
+    of this model did."""
+    both = _both_matched_finance(finance_by_slug, entry, c)
+    if both is None:
+        return None
+    own_raised, _ = both
+    return float(np.log1p(own_raised))
 
 
 def fit_war_model(
@@ -627,7 +675,7 @@ def fit_war_model(
                      + open_seat
                      + bachelors_pct + hispanic_pct + voting_age_pct + income_10k
                      + median_age_10 + homeownership_pct + white_pct
-                     + fundraising_share
+                     + fundraising_share + log_raised
 
     `incumbent` is a single dummy (any candidate who won their district's
     immediately preceding election, whatever their consecutive-term
@@ -682,17 +730,26 @@ def fit_war_model(
 
     Demographics (bachelors_pct/hispanic_pct/voting_age_pct/income_10k/
     median_age_10/homeownership_pct/white_pct) and campaign finance
-    (fundraising_share) are folded into this same fit as ordinary terms,
-    not separate models. Each is centered on its own mean *among the rows
+    (fundraising_share/log_raised) are folded into this same fit as
+    ordinary terms, not separate models. Each is centered on its own mean
+    *among the rows
     that actually have it*, and a row missing it gets the mean itself (so
     its centered value is exactly 0) rather than a raw zero or a separate
     indicator dummy — for a linear fit, a row contributing 0 to a term's
     own deviation-from-mean genuinely carries no information about that
     term's coefficient, while its lean/tide/incumbency values still fully
-    inform the shared core terms. `fundraising_share` is this candidate's
-    own share of the two-party OCPF-matched total for that specific race
-    (own_raised / (own_raised + opponent_raised)) — see _fundraising_share's
-    own docstring for why this needs both sides matched, not just one.
+    inform the shared core terms. Campaign finance gets *two* terms, not
+    one: `fundraising_share` (this candidate's own share of the two-party
+    OCPF-matched total, own_raised / (own_raised + opponent_raised)) and
+    `log_raised` (this candidate's own logged absolute total) — asked
+    directly for both rather than treating the relative share as a strict
+    replacement for the absolute total, since the two carry genuinely
+    different information (a large war chest against an even larger-
+    spending opponent is a small share but a real absolute resource, and
+    vice versa). Both are gated on the *same* condition — both major-party
+    candidates in the race have a matched OCPF total, not just this one —
+    via _both_matched_finance, so a race either has both fundraising terms
+    or neither; see _fundraising_share/_own_log_raised's own docstrings.
 
     Fit via _bayesian_linear_regression (Gibbs sampling, weakly informative
     priors — see its docstring and _COEFFICIENT_PRIORS'), pooled across
@@ -738,6 +795,7 @@ def fit_war_model(
                         "homeownership_pct": covariates.get("homeownership_pct"),
                         "white_pct": covariates.get("white_pct"),
                         "fundraising_share": _fundraising_share(finance_by_slug, entry, c),
+                        "log_raised": _own_log_raised(finance_by_slug, entry, c),
                     }
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
                     row["incumbent"] = is_incumbent
@@ -779,6 +837,7 @@ def fit_war_model(
         "homeownership_pct",
         "white_pct",
         "fundraising_share",
+        "log_raised",
     ]
     x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in feature_names[1:]])
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
@@ -827,6 +886,7 @@ def apply_war(
     b_inc_dem, b_inc_dem_sd = coefs["incumbent_x_dem"]["posterior_mean"], coefs["incumbent_x_dem"]["posterior_sd"]
     b_open, b_open_sd = coefs["open_seat"]["posterior_mean"], coefs["open_seat"]["posterior_sd"]
     b_fund, b_fund_sd = coefs["fundraising_share"]["posterior_mean"], coefs["fundraising_share"]["posterior_sd"]
+    b_lograised, b_lograised_sd = coefs["log_raised"]["posterior_mean"], coefs["log_raised"]["posterior_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for vintage, records in district_records_by_vintage.items():
@@ -915,10 +975,23 @@ def apply_war(
                         demographics_component = None
                         demographics_component_sd = None
 
+                    # Both fundraising terms are gated on the same
+                    # both-sides-matched condition (_both_matched_finance),
+                    # so fundraising_share and own_log_raised are always
+                    # either both present or both None for a given race —
+                    # summed into one combined component/sd, the same way
+                    # demographics_component above sums multiple covariates
+                    # into a single attribution-chart bar.
                     fundraising_share = _fundraising_share(finance_by_slug, entry, c)
-                    if fundraising_share is not None:
-                        fundraising_component = b_fund * (fundraising_share - ref["fundraising_share"])
-                        fundraising_component_sd = abs(fundraising_share - ref["fundraising_share"]) * b_fund_sd
+                    own_log_raised = _own_log_raised(finance_by_slug, entry, c)
+                    if fundraising_share is not None and own_log_raised is not None:
+                        fundraising_component = b_fund * (fundraising_share - ref["fundraising_share"]) + b_lograised * (
+                            own_log_raised - ref["log_raised"]
+                        )
+                        fundraising_component_sd = (
+                            (b_fund_sd * (fundraising_share - ref["fundraising_share"])) ** 2
+                            + (b_lograised_sd * (own_log_raised - ref["log_raised"])) ** 2
+                        ) ** 0.5
                     else:
                         fundraising_component = None
                         fundraising_component_sd = None
@@ -942,7 +1015,7 @@ def apply_war(
                             else "District demographics (bachelor's degree %)"
                         )
                     if fundraising_component is not None:
-                        factors.append("Relative campaign fundraising")
+                        factors.append("Campaign fundraising (relative share and absolute total)")
 
                     c.update(
                         intercept_component=round(intercept_component, 4),

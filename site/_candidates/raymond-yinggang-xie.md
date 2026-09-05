@@ -14,19 +14,19 @@ races:
   actual_two_party_share: 0.3514
   war: 0.0008
   intercept_component: -0.0083
-  intercept_component_sd: 0.0198
+  intercept_component_sd: 0.0197
   lean_component: 0.2439
   lean_component_sd: 0.0105
   tide_component: -0.0071
-  tide_component_sd: 0.0099
-  approval_component: 0.118
-  approval_component_sd: 0.0123
+  tide_component_sd: 0.01
+  approval_component: 0.1181
+  approval_component_sd: 0.0125
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
-  demographics_component: 0.0033
-  demographics_component_sd: 0.0275
-  fundraising_component: 0.0001
-  fundraising_component_sd: 0.0
+  demographics_component: 0.0031
+  demographics_component_sd: 0.0279
+  fundraising_component: 0.0003
+  fundraising_component_sd: 0.0015
   demographics_tier: full
   expected_share_resolved: 0.35
   war_resolved: 0.0014
@@ -38,7 +38,7 @@ races:
   - Incumbency
   - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income,
     median age, homeownership %, white %)
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0

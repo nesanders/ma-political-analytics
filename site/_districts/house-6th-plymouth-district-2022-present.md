@@ -30,23 +30,23 @@ results_by_year:
     war: 0.0528
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
     lean_component: 0.3385
-    lean_component_sd: 0.0145
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0146
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
-    demographics_component_sd: 0.0209
-    fundraising_component: -0.0355
-    fundraising_component_sd: 0.0018
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0211
+    fundraising_component: -0.0352
+    fundraising_component_sd: 0.0027
     demographics_tier: full
-    expected_share_resolved: 0.4375
-    war_resolved: 0.0922
+    expected_share_resolved: 0.4374
+    war_resolved: 0.0923
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Rebecca W. Coletta
     slug: rebecca-w-coletta
     party: Democratic
@@ -65,23 +65,23 @@ results_by_year:
     war: -0.0528
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.4152
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.4149
     lean_component_sd: 0.0274
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
-    demographics_component_sd: 0.0209
-    fundraising_component: 0.0355
-    fundraising_component_sd: 0.0018
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0211
+    fundraising_component: 0.0357
+    fundraising_component_sd: 0.0038
     demographics_tier: full
-    expected_share_resolved: 0.5815
-    war_resolved: -0.1112
+    expected_share_resolved: 0.5812
+    war_resolved: -0.1109
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5223
@@ -109,23 +109,23 @@ results_by_year:
     war: 0.0391
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4152
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4149
     lean_component_sd: 0.0274
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
-    demographics_component_sd: 0.0209
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0211
     fundraising_component: 0.0376
-    fundraising_component_sd: 0.0019
+    fundraising_component_sd: 0.003
     demographics_tier: full
-    expected_share_resolved: 0.5483
-    war_resolved: 0.0131
+    expected_share_resolved: 0.548
+    war_resolved: 0.0134
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -134,7 +134,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Kenneth Sweezey
     slug: kenneth-sweezey
     party: Republican
@@ -145,22 +145,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3385
-    lean_component_sd: 0.0145
+    lean_component_sd: 0.0146
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0009
-    demographics_component_sd: 0.0209
-    fundraising_component: -0.0376
-    fundraising_component_sd: 0.0019
+    demographics_component: 0.0006
+    demographics_component_sd: 0.0211
+    fundraising_component: -0.0374
+    fundraising_component_sd: 0.0024
     demographics_tier: full
-    expected_share_resolved: 0.4045
-    war_resolved: 0.0341
+    expected_share_resolved: 0.4044
+    war_resolved: 0.0342
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -169,7 +169,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -222,7 +222,7 @@ primaries:
     primary_fundraising_component_sd: 0.0025
     primary_expected_share: 0.5171
     primary_war: 0.0063
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -243,7 +243,7 @@ primaries:
     primary_fundraising_component_sd: 0.0005
     primary_expected_share: 0.4829
     primary_war: -0.0063
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

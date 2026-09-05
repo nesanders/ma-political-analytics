@@ -30,23 +30,23 @@ results_by_year:
     war: -0.0414
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.4425
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.4421
     lean_component_sd: 0.0292
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0016
     demographics_component_sd: 0.0196
-    fundraising_component: 0.032
-    fundraising_component_sd: 0.0016
+    fundraising_component: 0.0324
+    fundraising_component_sd: 0.0057
     demographics_tier: full
-    expected_share_resolved: 0.6029
-    war_resolved: -0.0908
+    expected_share_resolved: 0.603
+    war_resolved: -0.0909
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Mathew J. Muratore
     slug: mathew-j-muratore
     party: Republican
@@ -65,23 +65,23 @@ results_by_year:
     war: 0.0414
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
     lean_component: 0.3142
     lean_component_sd: 0.0135
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0016
     demographics_component_sd: 0.0196
-    fundraising_component: -0.032
-    fundraising_component_sd: 0.0016
+    fundraising_component: -0.0314
+    fundraising_component_sd: 0.0045
     demographics_tier: full
-    expected_share_resolved: 0.4144
-    war_resolved: 0.0735
+    expected_share_resolved: 0.4148
+    war_resolved: 0.0731
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: true
 - year: 2022
   lean_dem_share: 0.5603
@@ -109,23 +109,23 @@ results_by_year:
     war: 0.0032
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4425
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4421
     lean_component_sd: 0.0292
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0016
     demographics_component_sd: 0.0196
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5357
-    war_resolved: 0.0278
+    expected_share_resolved: 0.5354
+    war_resolved: 0.0281
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -144,22 +144,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3142
     lean_component_sd: 0.0135
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0014
+    demographics_component: -0.0016
     demographics_component_sd: 0.0196
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4154
-    war_resolved: 0.0211
+    expected_share_resolved: 0.4153
+    war_resolved: 0.0212
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -212,15 +212,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4456
+    primary_baseline_component: 0.4457
     primary_baseline_component_sd: 0.0043
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0854
+    primary_fundraising_component: 0.0853
     primary_fundraising_component_sd: 0.005
     primary_expected_share: 0.531
     primary_war: -0.0296
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -233,7 +233,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4456
+    primary_baseline_component: 0.4457
     primary_baseline_component_sd: 0.0043
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -241,7 +241,7 @@ primaries:
     primary_fundraising_component_sd: 0.0014
     primary_expected_share: 0.469
     primary_war: 0.0296
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

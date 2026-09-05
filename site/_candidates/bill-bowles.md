@@ -13,30 +13,30 @@ races:
   winner: false
   actual_two_party_share: 0.4766
   war: 0.056
-  intercept_component: 0.004
-  intercept_component_sd: 0.0329
-  lean_component: 0.392
+  intercept_component: 0.0037
+  intercept_component_sd: 0.0324
+  lean_component: 0.3917
   lean_component_sd: 0.0259
-  tide_component: 0.0002
-  tide_component_sd: 0.0259
-  approval_component: 0.0885
-  approval_component_sd: 0.0092
-  incumbency_adjustment: 0.0765
-  incumbency_adjustment_sd: 0.0125
+  tide_component: 0.0006
+  tide_component_sd: 0.0263
+  approval_component: 0.0886
+  approval_component_sd: 0.0094
+  incumbency_adjustment: 0.0764
+  incumbency_adjustment_sd: 0.0129
   demographics_component: null
   demographics_component_sd: null
-  fundraising_component: 0.0156
-  fundraising_component_sd: 0.0008
+  fundraising_component: 0.0155
+  fundraising_component_sd: 0.001
   demographics_tier: null
-  expected_share_resolved: 0.5768
-  war_resolved: -0.1002
+  expected_share_resolved: 0.5766
+  war_resolved: -0.1
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
   - National presidential approval
   - Incumbency
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: true
   incumbent_terms: 1
@@ -83,14 +83,14 @@ races:
   winner: true
   actual_two_party_share: 0.5403
   war: -0.0268
-  intercept_component: 0.049
-  intercept_component_sd: 0.0331
-  lean_component: 0.392
+  intercept_component: 0.0486
+  intercept_component_sd: 0.0326
+  lean_component: 0.3917
   lean_component_sd: 0.0259
-  tide_component: 0.0003
-  tide_component_sd: 0.0306
-  approval_component: 0.1474
-  approval_component_sd: 0.0154
+  tide_component: 0.0007
+  tide_component_sd: 0.031
+  approval_component: 0.1477
+  approval_component_sd: 0.0156
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -106,7 +106,7 @@ races:
   - Statewide tide
   - National presidential approval
   - Incumbency
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -132,7 +132,7 @@ races:
   primary_fundraising_component_sd: 0.0008
   primary_expected_share: 0.5024
   primary_war: 0.0031
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

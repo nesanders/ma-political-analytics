@@ -53,11 +53,11 @@ races:
   primary_baseline_component_sd: 0.0055
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.111
+  primary_fundraising_component: -0.1111
   primary_fundraising_component_sd: 0.0065
   primary_expected_share: 0.4643
   primary_war: -0.3576
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising
@@ -77,30 +77,30 @@ races:
   winner: false
   actual_two_party_share: 0.408
   war: -0.0867
-  intercept_component: 0.004
-  intercept_component_sd: 0.0329
-  lean_component: 0.3433
-  lean_component_sd: 0.0226
-  tide_component: 0.0003
-  tide_component_sd: 0.0313
-  approval_component: 0.1042
-  approval_component_sd: 0.0109
+  intercept_component: 0.0037
+  intercept_component_sd: 0.0324
+  lean_component: 0.343
+  lean_component_sd: 0.0227
+  tide_component: 0.0007
+  tide_component_sd: 0.0317
+  approval_component: 0.1044
+  approval_component_sd: 0.011
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: -0.0564
-  fundraising_component_sd: 0.0028
+  fundraising_component_sd: 0.0042
   demographics_tier: null
-  expected_share_resolved: 0.3953
-  war_resolved: 0.0127
+  expected_share_resolved: 0.3954
+  war_resolved: 0.0126
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
   - Statewide tide
   - National presidential approval
   - Incumbency
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -118,11 +118,11 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 1.0315
+  primary_baseline_component: 1.0316
   primary_baseline_component_sd: 0.0048
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: -0.0315
+  primary_fundraising_component: -0.0316
   primary_fundraising_component_sd: 0.0018
   primary_expected_share: 1.0
   primary_war: null

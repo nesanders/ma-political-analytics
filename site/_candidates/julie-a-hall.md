@@ -79,20 +79,20 @@ races:
   winner: false
   actual_two_party_share: 0.4165
   war: -0.2908
-  intercept_component: 0.025
-  intercept_component_sd: 0.0202
-  lean_component: 0.366
+  intercept_component: 0.0249
+  intercept_component_sd: 0.0201
+  lean_component: 0.3659
   lean_component_sd: 0.0157
-  tide_component: -0.0134
-  tide_component_sd: 0.0188
-  approval_component: 0.0786
-  approval_component_sd: 0.0082
+  tide_component: -0.0135
+  tide_component_sd: 0.019
+  approval_component: 0.0788
+  approval_component_sd: 0.0083
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
   demographics_component_sd: null
   fundraising_component: 0.0117
-  fundraising_component_sd: 0.0006
+  fundraising_component_sd: 0.0013
   demographics_tier: null
   expected_share_resolved: 0.4679
   war_resolved: -0.0514
@@ -102,7 +102,7 @@ races:
   - Statewide tide
   - National presidential approval
   - Incumbency
-  - Relative campaign fundraising
+  - Campaign fundraising (relative share and absolute total)
   is_uncontested: false
   is_incumbent: false
   incumbent_terms: 0
@@ -120,11 +120,11 @@ races:
   actual_primary_share: 1.0
   fair_share: 1.0
   n_candidates: 1
-  primary_baseline_component: 0.966
+  primary_baseline_component: 0.9661
   primary_baseline_component_sd: 0.0045
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.034
+  primary_fundraising_component: 0.0339
   primary_fundraising_component_sd: 0.002
   primary_expected_share: 1.0
   primary_war: null
@@ -153,11 +153,11 @@ races:
   primary_baseline_component_sd: 0.0046
   primary_incumbency_component: 0.0
   primary_incumbency_component_sd: 0.0
-  primary_fundraising_component: 0.0345
+  primary_fundraising_component: 0.0344
   primary_fundraising_component_sd: 0.002
   primary_expected_share: 0.5139
   primary_war: -0.007
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   - Campaign fundraising

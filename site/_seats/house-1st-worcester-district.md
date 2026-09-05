@@ -31,21 +31,21 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 1
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.327
-    lean_component_sd: 0.014
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
-    demographics_component: 0.0021
-    demographics_component_sd: 0.0188
+    intercept_component_sd: 0.0198
+    lean_component: 0.3269
+    lean_component_sd: 0.0141
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
+    demographics_component: 0.002
+    demographics_component_sd: 0.0189
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5511
+    expected_share_resolved: 0.5513
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -102,21 +102,21 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
-    lean_component: 0.327
-    lean_component_sd: 0.014
+    intercept_component_sd: 0.0197
+    lean_component: 0.3269
+    lean_component_sd: 0.0141
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0021
-    demographics_component_sd: 0.0188
+    demographics_component: 0.002
+    demographics_component_sd: 0.0189
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.4317
+    expected_share_resolved: 0.4316
     war_resolved: null
     war_resolved_sd: null
     war_factors:

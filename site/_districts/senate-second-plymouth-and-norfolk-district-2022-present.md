@@ -30,22 +30,22 @@ results_by_year:
     war: 0.3892
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4814
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.481
     lean_component_sd: 0.0318
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: -0.0002
-    demographics_component_sd: 0.0128
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0131
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: core
-    expected_share_resolved: 0.6426
+    expected_share_resolved: 0.6429
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -72,23 +72,23 @@ results_by_year:
     war: 0.0357
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4814
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.481
     lean_component_sd: 0.0318
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
-    demographics_component_sd: 0.0128
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0131
     fundraising_component: 0.0676
-    fundraising_component_sd: 0.0034
+    fundraising_component_sd: 0.0049
     demographics_tier: core
-    expected_share_resolved: 0.6435
-    war_resolved: -0.0065
+    expected_share_resolved: 0.6439
+    war_resolved: -0.0069
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -96,7 +96,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Jim Gordon
     slug: jim-gordon
     party: Republican
@@ -107,22 +107,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
-    lean_component: 0.2795
+    intercept_component_sd: 0.0197
+    lean_component: 0.2794
     lean_component_sd: 0.012
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0002
-    demographics_component_sd: 0.0128
-    fundraising_component: -0.0676
-    fundraising_component_sd: 0.0034
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0131
+    fundraising_component: -0.0675
+    fundraising_component_sd: 0.0044
     demographics_tier: core
-    expected_share_resolved: 0.3143
-    war_resolved: 0.0487
+    expected_share_resolved: 0.3151
+    war_resolved: 0.0479
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -130,7 +130,7 @@ results_by_year:
     - National presidential approval
     - Incumbency
     - District demographics (bachelor's degree %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -152,7 +152,7 @@ primaries:
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.1459
     primary_incumbency_component_sd: 0.0957
-    primary_fundraising_component: 0.0202
+    primary_fundraising_component: 0.0201
     primary_fundraising_component_sd: 0.0012
     primary_expected_share: 1.0
     primary_war: null
@@ -176,15 +176,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4634
+    primary_baseline_component: 0.4635
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0594
+    primary_fundraising_component: 0.0593
     primary_fundraising_component_sd: 0.0035
     primary_expected_share: 0.5228
     primary_war: 0.1729
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -197,7 +197,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4634
+    primary_baseline_component: 0.4635
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -205,7 +205,7 @@ primaries:
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 0.4772
     primary_war: -0.1729
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

@@ -30,23 +30,23 @@ results_by_year:
     war: 0.0277
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4409
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4406
     lean_component_sd: 0.0291
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0034
-    demographics_component_sd: 0.0185
-    fundraising_component: 0.0707
-    fundraising_component_sd: 0.0036
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0035
+    demographics_component_sd: 0.0189
+    fundraising_component: 0.0704
+    fundraising_component_sd: 0.0044
     demographics_tier: full
-    expected_share_resolved: 0.6763
-    war_resolved: -0.1013
+    expected_share_resolved: 0.676
+    war_resolved: -0.101
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Salvatore Perla
     slug: salvatore-perla
     party: Republican
@@ -66,22 +66,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3156
-    lean_component_sd: 0.0135
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0136
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0034
-    demographics_component_sd: 0.0185
+    demographics_component: 0.0035
+    demographics_component_sd: 0.0189
     fundraising_component: -0.0707
-    fundraising_component_sd: 0.0036
+    fundraising_component_sd: 0.0057
     demographics_tier: full
-    expected_share_resolved: 0.3369
-    war_resolved: 0.0881
+    expected_share_resolved: 0.3371
+    war_resolved: 0.0879
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5625
@@ -109,22 +109,22 @@ results_by_year:
     war: 0.4375
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4409
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4406
     lean_component_sd: 0.0291
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0034
-    demographics_component_sd: 0.0185
+    demographics_component: 0.0035
+    demographics_component_sd: 0.0189
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5389
+    expected_share_resolved: 0.539
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -179,7 +179,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.8449
+    primary_baseline_component: 0.845
     primary_baseline_component_sd: 0.004
     primary_incumbency_component: 0.1399
     primary_incumbency_component_sd: 0.0951

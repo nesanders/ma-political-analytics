@@ -30,22 +30,22 @@ results_by_year:
     war: 0.3905
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4826
-    lean_component_sd: 0.0318
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0008
-    demographics_component_sd: 0.026
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4822
+    lean_component_sd: 0.0319
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0266
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6448
+    expected_share_resolved: 0.6442
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -73,23 +73,23 @@ results_by_year:
     war: -0.0012
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4826
-    lean_component_sd: 0.0318
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4822
+    lean_component_sd: 0.0319
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0008
-    demographics_component_sd: 0.026
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0266
     fundraising_component: 0.0659
-    fundraising_component_sd: 0.0033
+    fundraising_component_sd: 0.005
     demographics_tier: full
-    expected_share_resolved: 0.6439
-    war_resolved: -0.0397
+    expected_share_resolved: 0.6434
+    war_resolved: -0.0392
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -98,7 +98,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Jeffrey Peter Dufour
     slug: jeffrey-peter-dufour
     party: Republican
@@ -109,19 +109,19 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2784
-    lean_component_sd: 0.0119
+    lean_component_sd: 0.012
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0008
-    demographics_component_sd: 0.026
-    fundraising_component: -0.0659
-    fundraising_component_sd: 0.0033
+    demographics_component: 0.0004
+    demographics_component_sd: 0.0266
+    fundraising_component: -0.0657
+    fundraising_component_sd: 0.0042
     demographics_tier: full
     expected_share_resolved: 0.3159
     war_resolved: 0.0799
@@ -133,7 +133,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024

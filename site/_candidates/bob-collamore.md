@@ -22,7 +22,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.5
   primary_war: -0.171
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false
@@ -42,13 +42,13 @@ races:
   actual_two_party_share: 0.3688
   war: -0.03
   intercept_component: -0.02
-  intercept_component_sd: 0.0199
-  lean_component: 0.31
+  intercept_component_sd: 0.0198
+  lean_component: 0.3099
   lean_component_sd: 0.0133
   tide_component: -0.0075
-  tide_component_sd: 0.0105
-  approval_component: 0.0944
-  approval_component_sd: 0.0098
+  tide_component_sd: 0.0106
+  approval_component: 0.0945
+  approval_component_sd: 0.01
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -56,8 +56,8 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.3768
-  war_resolved: -0.008
+  expected_share_resolved: 0.3769
+  war_resolved: -0.0081
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
@@ -109,13 +109,13 @@ races:
   actual_two_party_share: 0.4008
   war: -0.14
   intercept_component: -0.0083
-  intercept_component_sd: 0.0198
-  lean_component: 0.31
+  intercept_component_sd: 0.0197
+  lean_component: 0.3099
   lean_component_sd: 0.0133
   tide_component: -0.0106
-  tide_component_sd: 0.0148
-  approval_component: 0.1239
-  approval_component_sd: 0.0129
+  tide_component_sd: 0.0149
+  approval_component: 0.124
+  approval_component_sd: 0.0131
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
   demographics_component: null
@@ -123,8 +123,8 @@ races:
   fundraising_component: null
   fundraising_component_sd: null
   demographics_tier: null
-  expected_share_resolved: 0.415
-  war_resolved: -0.0142
+  expected_share_resolved: 0.4151
+  war_resolved: -0.0143
   war_resolved_sd: 0.0725
   war_factors:
   - District lean
@@ -156,7 +156,7 @@ races:
   primary_fundraising_component_sd: null
   primary_expected_share: 0.5482
   primary_war: -0.0332
-  primary_war_sd: 0.1642
+  primary_war_sd: 0.1641
   primary_war_factors:
   - Equal share among candidates
   is_uncontested: false

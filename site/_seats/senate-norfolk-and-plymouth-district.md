@@ -30,22 +30,22 @@ results_by_year:
     war: 0.4297
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4627
-    lean_component_sd: 0.0305
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: -0.0033
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4623
+    lean_component_sd: 0.0306
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: -0.0034
     demographics_component_sd: 0.0199
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6207
+    expected_share_resolved: 0.6205
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -73,23 +73,23 @@ results_by_year:
     war: 0.0422
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4627
-    lean_component_sd: 0.0305
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4623
+    lean_component_sd: 0.0306
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0033
+    demographics_component: -0.0034
     demographics_component_sd: 0.0199
     fundraising_component: 0.0319
-    fundraising_component_sd: 0.0016
+    fundraising_component_sd: 0.0023
     demographics_tier: full
-    expected_share_resolved: 0.5858
-    war_resolved: 0.0508
+    expected_share_resolved: 0.5857
+    war_resolved: 0.0509
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -98,7 +98,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Gary M. Innes
     slug: gary-m-innes
     party: Republican
@@ -109,22 +109,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2962
     lean_component_sd: 0.0127
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: -0.0033
+    demographics_component: -0.0034
     demographics_component_sd: 0.0199
-    fundraising_component: -0.0319
-    fundraising_component_sd: 0.0016
+    fundraising_component: -0.0318
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.3636
-    war_resolved: -0.0002
+    expected_share_resolved: 0.3638
+    war_resolved: -0.0004
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -133,7 +133,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -151,7 +151,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.8824
+    primary_baseline_component: 0.8825
     primary_baseline_component_sd: 0.0041
     primary_incumbency_component: 0.1505
     primary_incumbency_component_sd: 0.1003
@@ -206,11 +206,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.989
+    primary_baseline_component: 0.9891
     primary_baseline_component_sd: 0.0046
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.011
+    primary_fundraising_component: 0.0109
     primary_fundraising_component_sd: 0.0006
     primary_expected_share: 1.0
     primary_war: null

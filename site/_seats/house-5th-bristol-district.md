@@ -31,22 +31,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3644
-    lean_component_sd: 0.0156
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0157
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.001
-    demographics_component_sd: 0.0128
-    fundraising_component: -0.0422
-    fundraising_component_sd: 0.0021
+    demographics_component: 0.0013
+    demographics_component_sd: 0.013
+    fundraising_component: -0.0421
+    fundraising_component_sd: 0.0027
     demographics_tier: full
-    expected_share_resolved: 0.4117
-    war_resolved: 0.1077
+    expected_share_resolved: 0.4123
+    war_resolved: 0.1071
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Patricia A. Haddad
     slug: patricia-a-haddad
     party: Democratic
@@ -65,23 +65,23 @@ results_by_year:
     war: 0.0232
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3862
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3859
     lean_component_sd: 0.0255
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.001
-    demographics_component_sd: 0.0128
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0013
+    demographics_component_sd: 0.013
     fundraising_component: 0.0422
-    fundraising_component_sd: 0.0021
+    fundraising_component_sd: 0.003
     demographics_tier: full
-    expected_share_resolved: 0.5908
-    war_resolved: -0.1102
+    expected_share_resolved: 0.591
+    war_resolved: -0.1104
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5151
@@ -109,23 +109,23 @@ results_by_year:
     war: 0.0285
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.3862
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.3859
     lean_component_sd: 0.0255
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.001
-    demographics_component_sd: 0.0128
-    fundraising_component: -0.0255
-    fundraising_component_sd: 0.0013
+    demographics_component: 0.0013
+    demographics_component_sd: 0.013
+    fundraising_component: -0.0257
+    fundraising_component_sd: 0.0036
     demographics_tier: full
-    expected_share_resolved: 0.4563
-    war_resolved: 0.0873
+    expected_share_resolved: 0.4564
+    war_resolved: 0.0872
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -134,7 +134,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Justin Thurber
     slug: justin-thurber
     party: Republican
@@ -145,22 +145,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.3644
-    lean_component_sd: 0.0156
+    lean_component_sd: 0.0157
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.001
-    demographics_component_sd: 0.0128
-    fundraising_component: 0.0255
-    fundraising_component_sd: 0.0013
+    demographics_component: 0.0013
+    demographics_component_sd: 0.013
+    fundraising_component: 0.0252
+    fundraising_component_sd: 0.0027
     demographics_tier: full
-    expected_share_resolved: 0.4935
-    war_resolved: -0.0371
+    expected_share_resolved: 0.4936
+    war_resolved: -0.0372
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -169,7 +169,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -215,11 +215,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9973
+    primary_baseline_component: 0.9974
     primary_baseline_component_sd: 0.0047
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0027
+    primary_fundraising_component: 0.0026
     primary_fundraising_component_sd: 0.0002
     primary_expected_share: 1.0
     primary_war: null

@@ -30,20 +30,20 @@ results_by_year:
     war: -0.0305
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4339
-    lean_component_sd: 0.0286
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4336
+    lean_component_sd: 0.0287
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: 0.0019
     demographics_component_sd: 0.0156
-    fundraising_component: 0.0178
-    fundraising_component_sd: 0.0009
+    fundraising_component: 0.018
+    fundraising_component_sd: 0.0034
     demographics_tier: full
     expected_share_resolved: 0.615
     war_resolved: -0.1015
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Lynne E. Archambault
     slug: lynne-e-archambault
     party: Republican
@@ -66,22 +66,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3219
+    intercept_component_sd: 0.0198
+    lean_component: 0.3218
     lean_component_sd: 0.0138
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0019
     demographics_component_sd: 0.0156
-    fundraising_component: -0.0178
-    fundraising_component_sd: 0.0009
+    fundraising_component: -0.0174
+    fundraising_component_sd: 0.0027
     demographics_tier: full
-    expected_share_resolved: 0.3946
-    war_resolved: 0.0919
+    expected_share_resolved: 0.395
+    war_resolved: 0.0915
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.5484
@@ -109,23 +109,23 @@ results_by_year:
     war: -0.0482
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4339
-    lean_component_sd: 0.0286
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4336
+    lean_component_sd: 0.0287
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0019
     demographics_component_sd: 0.0156
-    fundraising_component: -0.0034
-    fundraising_component_sd: 0.0002
+    fundraising_component: -0.0032
+    fundraising_component_sd: 0.002
     demographics_tier: full
-    expected_share_resolved: 0.5271
-    war_resolved: -0.0269
+    expected_share_resolved: 0.5272
+    war_resolved: -0.027
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -134,7 +134,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Andrew James Shepherd
     slug: andrew-james-shepherd
     party: Republican
@@ -145,22 +145,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
-    lean_component: 0.3219
+    intercept_component_sd: 0.0197
+    lean_component: 0.3218
     lean_component_sd: 0.0138
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: 0.0019
     demographics_component_sd: 0.0156
-    fundraising_component: 0.0034
-    fundraising_component_sd: 0.0002
+    fundraising_component: 0.0036
+    fundraising_component_sd: 0.0021
     demographics_tier: full
-    expected_share_resolved: 0.4298
-    war_resolved: 0.07
+    expected_share_resolved: 0.43
+    war_resolved: 0.0698
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -169,7 +169,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Catherine Lundeen
     slug: catherine-lundeen
     party: Other
@@ -270,11 +270,11 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 1.0
-    primary_baseline_component: 0.9494
+    primary_baseline_component: 0.9495
     primary_baseline_component_sd: 0.0045
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.0506
+    primary_fundraising_component: 0.0505
     primary_fundraising_component_sd: 0.003
     primary_expected_share: 1.0
     primary_war: null
@@ -297,7 +297,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4622
+    primary_baseline_component: 0.4623
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -305,7 +305,7 @@ primaries:
     primary_fundraising_component_sd: 0.0031
     primary_expected_share: 0.5152
     primary_war: -0.0063
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -318,7 +318,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.4622
+    primary_baseline_component: 0.4623
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -326,7 +326,7 @@ primaries:
     primary_fundraising_component_sd: 0.0013
     primary_expected_share: 0.4848
     primary_war: 0.0063
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

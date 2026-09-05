@@ -30,23 +30,23 @@ results_by_year:
     war: 0.0504
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.5034
-    lean_component_sd: 0.0332
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.503
+    lean_component_sd: 0.0333
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
     demographics_component: -0.0044
     demographics_component_sd: 0.0135
-    fundraising_component: 0.0767
-    fundraising_component_sd: 0.0039
+    fundraising_component: 0.0766
+    fundraising_component_sd: 0.0051
     demographics_tier: full
-    expected_share_resolved: 0.7371
-    war_resolved: -0.0686
+    expected_share_resolved: 0.7368
+    war_resolved: -0.0683
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -55,7 +55,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Damian Mitchell Anketell
     slug: damian-mitchell-anketell
     party: Republican
@@ -66,22 +66,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.2598
-    lean_component_sd: 0.0111
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0112
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0044
     demographics_component_sd: 0.0135
     fundraising_component: -0.0767
-    fundraising_component_sd: 0.0039
+    fundraising_component_sd: 0.0054
     demographics_tier: full
-    expected_share_resolved: 0.2673
-    war_resolved: 0.0642
+    expected_share_resolved: 0.2675
+    war_resolved: 0.064
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -90,7 +90,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2022
   lean_dem_share: 0.6493
@@ -109,23 +109,23 @@ results_by_year:
     war: 0.0279
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.5034
-    lean_component_sd: 0.0332
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.503
+    lean_component_sd: 0.0333
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0044
     demographics_component_sd: 0.0135
-    fundraising_component: 0.0807
-    fundraising_component_sd: 0.0041
+    fundraising_component: 0.0806
+    fundraising_component_sd: 0.0055
     demographics_tier: full
-    expected_share_resolved: 0.6743
-    war_resolved: 0.0029
+    expected_share_resolved: 0.6741
+    war_resolved: 0.0031
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -134,7 +134,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Damian M. Anketell
     slug: damian-m-anketell
     party: Republican
@@ -145,22 +145,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2598
-    lean_component_sd: 0.0111
+    lean_component_sd: 0.0112
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: -0.0044
     demographics_component_sd: 0.0135
-    fundraising_component: -0.0807
-    fundraising_component_sd: 0.0041
+    fundraising_component: -0.0806
+    fundraising_component_sd: 0.0056
     demographics_tier: full
-    expected_share_resolved: 0.2773
-    war_resolved: 0.0455
+    expected_share_resolved: 0.2775
+    war_resolved: 0.0453
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -169,7 +169,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -250,7 +250,7 @@ primaries:
     primary_fundraising_component_sd: 0.0033
     primary_expected_share: 0.5079
     primary_war: 0.2405
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -271,7 +271,7 @@ primaries:
     primary_fundraising_component_sd: 0.0023
     primary_expected_share: 0.4921
     primary_war: -0.2405
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

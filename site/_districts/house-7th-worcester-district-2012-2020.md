@@ -34,21 +34,21 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 4
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.4142
+    intercept_component_sd: 0.0198
+    lean_component: 0.4141
     lean_component_sd: 0.0178
     tide_component: -0.0066
     tide_component_sd: 0.0093
-    approval_component: 0.0904
-    approval_component_sd: 0.0094
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    approval_component: 0.0906
+    approval_component_sd: 0.0096
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.6115
+    expected_share_resolved: 0.6118
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -103,29 +103,29 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 3
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.4142
+    intercept_component_sd: 0.0198
+    lean_component: 0.4141
     lean_component_sd: 0.0178
-    tide_component: -0.0134
-    tide_component_sd: 0.0188
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    tide_component: -0.0135
+    tide_component_sd: 0.019
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0961
-    fundraising_component_sd: 0.0049
+    fundraising_component: 0.0955
+    fundraising_component_sd: 0.0064
     demographics_tier: null
-    expected_share_resolved: 0.689
-    war_resolved: -0.0345
+    expected_share_resolved: 0.6886
+    war_resolved: -0.0341
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -135,30 +135,30 @@ results_by_year:
     war: 0.1513
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3305
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3303
     lean_component_sd: 0.0218
-    tide_component: 0.0001
-    tide_component_sd: 0.0161
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component: 0.0004
+    tide_component_sd: 0.0163
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0961
-    fundraising_component_sd: 0.0049
+    fundraising_component: -0.0977
+    fundraising_component_sd: 0.0209
     demographics_tier: null
-    expected_share_resolved: 0.3565
-    war_resolved: -0.011
+    expected_share_resolved: 0.3548
+    war_resolved: -0.0093
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.4874
@@ -178,29 +178,29 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 2
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.4142
+    intercept_component_sd: 0.0198
+    lean_component: 0.4141
     lean_component_sd: 0.0178
     tide_component: -0.0071
     tide_component_sd: 0.01
-    approval_component: 0.0924
-    approval_component_sd: 0.0096
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    approval_component: 0.0925
+    approval_component_sd: 0.0098
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0961
-    fundraising_component_sd: 0.0049
+    fundraising_component: 0.0957
+    fundraising_component_sd: 0.006
     demographics_tier: null
-    expected_share_resolved: 0.7091
-    war_resolved: -0.0458
+    expected_share_resolved: 0.709
+    war_resolved: -0.0457
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -210,30 +210,30 @@ results_by_year:
     war: -0.1507
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3305
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3303
     lean_component_sd: 0.0218
-    tide_component: 0.0003
-    tide_component_sd: 0.0313
-    approval_component: 0.1042
-    approval_component_sd: 0.0109
+    tide_component: 0.0007
+    tide_component_sd: 0.0317
+    approval_component: 0.1044
+    approval_component_sd: 0.011
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0961
-    fundraising_component_sd: 0.0049
+    fundraising_component: -0.0977
+    fundraising_component_sd: 0.0209
     demographics_tier: null
-    expected_share_resolved: 0.3429
-    war_resolved: -0.0062
+    expected_share_resolved: 0.3414
+    war_resolved: -0.0047
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2014
   lean_dem_share: 0.3577
@@ -253,29 +253,29 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 1
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.4142
+    intercept_component_sd: 0.0198
+    lean_component: 0.4141
     lean_component_sd: 0.0178
-    tide_component: -0.0102
-    tide_component_sd: 0.0144
-    approval_component: 0.114
-    approval_component_sd: 0.0119
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    tide_component: -0.0103
+    tide_component_sd: 0.0145
+    approval_component: 0.1142
+    approval_component_sd: 0.0121
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0639
-    fundraising_component_sd: 0.0032
+    fundraising_component: 0.0634
+    fundraising_component_sd: 0.0044
     demographics_tier: null
-    expected_share_resolved: 0.6953
-    war_resolved: 0.0417
+    expected_share_resolved: 0.6952
+    war_resolved: 0.0418
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Terry Burke Dotson
     slug: terry-burke-dotson
     party: Democratic
@@ -285,30 +285,30 @@ results_by_year:
     war: -0.0947
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.3305
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3303
     lean_component_sd: 0.0218
-    tide_component: 0.0002
-    tide_component_sd: 0.0237
-    approval_component: 0.0826
-    approval_component_sd: 0.0086
+    tide_component: 0.0005
+    tide_component_sd: 0.024
+    approval_component: 0.0827
+    approval_component_sd: 0.0087
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0639
-    fundraising_component_sd: 0.0032
+    fundraising_component: -0.0641
+    fundraising_component_sd: 0.0064
     demographics_tier: null
-    expected_share_resolved: 0.3534
-    war_resolved: -0.0904
+    expected_share_resolved: 0.3531
+    war_resolved: -0.0901
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2012
   lean_dem_share: 0.5078
@@ -328,13 +328,13 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
-    lean_component: 0.4142
+    intercept_component_sd: 0.0197
+    lean_component: 0.4141
     lean_component_sd: 0.0178
     tide_component: -0.0077
-    tide_component_sd: 0.0108
-    approval_component: 0.0944
-    approval_component_sd: 0.0098
+    tide_component_sd: 0.0109
+    approval_component: 0.0945
+    approval_component_sd: 0.01
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -342,7 +342,7 @@ results_by_year:
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.4925
+    expected_share_resolved: 0.4926
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -422,11 +422,11 @@ primaries:
     is_incumbent: true
     incumbent_terms: 3
     fair_share: 1.0
-    primary_baseline_component: 0.88
+    primary_baseline_component: 0.8801
     primary_baseline_component_sd: 0.0041
     primary_incumbency_component: 0.1453
     primary_incumbency_component_sd: 0.102
-    primary_fundraising_component: -0.0253
+    primary_fundraising_component: -0.0254
     primary_fundraising_component_sd: 0.0015
     primary_expected_share: 1.0
     primary_war: null
@@ -481,7 +481,7 @@ primaries:
     primary_baseline_component_sd: 0.0038
     primary_incumbency_component: 0.1727
     primary_incumbency_component_sd: 0.0822
-    primary_fundraising_component: 0.0136
+    primary_fundraising_component: 0.0135
     primary_fundraising_component_sd: 0.0008
     primary_expected_share: 1.0
     primary_war: null

@@ -33,14 +33,14 @@ results_by_year:
     war: -0.0216
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.359
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.3587
     lean_component_sd: 0.0237
-    tide_component: 0.0003
-    tide_component_sd: 0.0325
-    approval_component: 0.1062
-    approval_component_sd: 0.0111
+    tide_component: 0.0007
+    tide_component_sd: 0.0329
+    approval_component: 0.1063
+    approval_component_sd: 0.0112
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -65,14 +65,14 @@ results_by_year:
     war: 0.0216
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
-    lean_component: 0.3888
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
+    lean_component: 0.3887
     lean_component_sd: 0.0167
     tide_component: -0.0066
     tide_component_sd: 0.0093
-    approval_component: 0.0904
-    approval_component_sd: 0.0094
+    approval_component: 0.0906
+    approval_component_sd: 0.0096
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -107,29 +107,29 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 2
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3888
+    intercept_component_sd: 0.0198
+    lean_component: 0.3887
     lean_component_sd: 0.0167
-    tide_component: -0.0134
-    tide_component_sd: 0.0188
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    tide_component: -0.0135
+    tide_component_sd: 0.019
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: 0.0502
-    fundraising_component_sd: 0.0025
+    fundraising_component_sd: 0.004
     demographics_tier: null
-    expected_share_resolved: 0.6176
-    war_resolved: -0.0294
+    expected_share_resolved: 0.6179
+    war_resolved: -0.0297
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Deborah A. Rudolf
     slug: deborah-a-rudolf
     party: Democratic
@@ -139,30 +139,30 @@ results_by_year:
     war: 0.1758
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.359
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.3587
     lean_component_sd: 0.0237
-    tide_component: 0.0001
-    tide_component_sd: 0.0161
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component: 0.0004
+    tide_component_sd: 0.0163
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0502
-    fundraising_component_sd: 0.0025
+    fundraising_component: -0.0499
+    fundraising_component_sd: 0.0031
     demographics_tier: null
-    expected_share_resolved: 0.4309
-    war_resolved: -0.0191
+    expected_share_resolved: 0.431
+    war_resolved: -0.0192
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: false
 - year: 2016
   lean_dem_share: 0.5292
@@ -182,21 +182,21 @@ results_by_year:
     is_incumbent: true
     incumbent_terms: 1
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
-    lean_component: 0.3888
+    intercept_component_sd: 0.0198
+    lean_component: 0.3887
     lean_component_sd: 0.0167
     tide_component: -0.0071
     tide_component_sd: 0.01
-    approval_component: 0.0924
-    approval_component_sd: 0.0096
-    incumbency_adjustment: 0.1335
-    incumbency_adjustment_sd: 0.0082
+    approval_component: 0.0925
+    approval_component_sd: 0.0098
+    incumbency_adjustment: 0.1337
+    incumbency_adjustment_sd: 0.0085
     demographics_component: null
     demographics_component_sd: null
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: null
-    expected_share_resolved: 0.5876
+    expected_share_resolved: 0.5878
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -222,30 +222,30 @@ results_by_year:
     war: 0.0343
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.025
-    intercept_component_sd: 0.0202
-    lean_component: 0.3888
+    intercept_component: 0.0249
+    intercept_component_sd: 0.0201
+    lean_component: 0.3887
     lean_component_sd: 0.0167
-    tide_component: -0.0102
-    tide_component_sd: 0.0144
-    approval_component: 0.114
-    approval_component_sd: 0.0119
+    tide_component: -0.0103
+    tide_component_sd: 0.0145
+    approval_component: 0.1142
+    approval_component_sd: 0.0121
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: 0.0399
-    fundraising_component_sd: 0.002
+    fundraising_component: 0.0402
+    fundraising_component_sd: 0.0047
     demographics_tier: null
-    expected_share_resolved: 0.5575
-    war_resolved: 0.0768
+    expected_share_resolved: 0.5577
+    war_resolved: 0.0766
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Matthew C. Patrick
     slug: matthew-c-patrick
     party: Democratic
@@ -255,30 +255,30 @@ results_by_year:
     war: -0.0343
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.049
-    intercept_component_sd: 0.0331
-    lean_component: 0.359
+    intercept_component: 0.0486
+    intercept_component_sd: 0.0326
+    lean_component: 0.3587
     lean_component_sd: 0.0237
-    tide_component: 0.0002
-    tide_component_sd: 0.0237
-    approval_component: 0.0826
-    approval_component_sd: 0.0086
+    tide_component: 0.0005
+    tide_component_sd: 0.024
+    approval_component: 0.0827
+    approval_component_sd: 0.0087
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
     demographics_component_sd: null
-    fundraising_component: -0.0399
-    fundraising_component_sd: 0.002
+    fundraising_component: -0.0395
+    fundraising_component_sd: 0.0033
     demographics_tier: null
-    expected_share_resolved: 0.4508
-    war_resolved: -0.0851
+    expected_share_resolved: 0.451
+    war_resolved: -0.0853
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
     - Statewide tide
     - National presidential approval
     - Incumbency
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Heather M. Mullins
     slug: heather-m-mullins
     party: Libertarian
@@ -325,14 +325,14 @@ results_by_year:
     war: 0.0721
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.359
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.3587
     lean_component_sd: 0.0237
-    tide_component: 0.0002
-    tide_component_sd: 0.0299
-    approval_component: 0.1022
-    approval_component_sd: 0.0107
+    tide_component: 0.0007
+    tide_component_sd: 0.0303
+    approval_component: 0.1024
+    approval_component_sd: 0.0108
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -358,13 +358,13 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
-    lean_component: 0.3888
+    intercept_component_sd: 0.0197
+    lean_component: 0.3887
     lean_component_sd: 0.0167
     tide_component: -0.0077
-    tide_component_sd: 0.0108
-    approval_component: 0.0944
-    approval_component_sd: 0.0098
+    tide_component_sd: 0.0109
+    approval_component: 0.0945
+    approval_component_sd: 0.01
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
     demographics_component: null
@@ -457,7 +457,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2143
     primary_war: 0.0554
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: John T. Mahoney, Jr
@@ -477,7 +477,7 @@ primaries:
     primary_fundraising_component_sd: 0.0032
     primary_expected_share: 0.2694
     primary_war: -0.0075
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -498,7 +498,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.2143
     primary_war: -0.0079
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Rebecca W. Coletta
@@ -518,7 +518,7 @@ primaries:
     primary_fundraising_component_sd: 0.0046
     primary_expected_share: 0.2933
     primary_war: -0.0901
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -539,7 +539,7 @@ primaries:
     primary_fundraising_component_sd: 0.012
     primary_expected_share: 0.0088
     primary_war: 0.0499
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -566,7 +566,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.4748
     primary_war: 0.0858
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
   - name: Jesse G. Brown
@@ -586,7 +586,7 @@ primaries:
     primary_fundraising_component_sd: 0.0029
     primary_expected_share: 0.5252
     primary_war: -0.0858
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -605,7 +605,7 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.804
+    primary_baseline_component: 0.8041
     primary_baseline_component_sd: 0.0077
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
@@ -613,7 +613,7 @@ primaries:
     primary_fundraising_component_sd: 0.0017
     primary_expected_share: 0.8338
     primary_war: -0.258
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -626,15 +626,15 @@ primaries:
     is_incumbent: false
     incumbent_terms: 0
     fair_share: 0.5
-    primary_baseline_component: 0.804
+    primary_baseline_component: 0.8041
     primary_baseline_component_sd: 0.0077
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: -0.6378
+    primary_fundraising_component: -0.6379
     primary_fundraising_component_sd: 0.0373
     primary_expected_share: 0.1662
     primary_war: 0.258
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -653,7 +653,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 2
     fair_share: 1.0
-    primary_baseline_component: 0.8175
+    primary_baseline_component: 0.8176
     primary_baseline_component_sd: 0.0038
     primary_incumbency_component: 0.1296
     primary_incumbency_component_sd: 0.0936
@@ -681,7 +681,7 @@ primaries:
     is_incumbent: true
     incumbent_terms: 1
     fair_share: 1.0
-    primary_baseline_component: 0.8368
+    primary_baseline_component: 0.8369
     primary_baseline_component_sd: 0.0039
     primary_incumbency_component: 0.172
     primary_incumbency_component_sd: 0.083
@@ -767,11 +767,11 @@ primaries:
     primary_baseline_component_sd: 0.0044
     primary_incumbency_component: 0.0
     primary_incumbency_component_sd: 0.0
-    primary_fundraising_component: 0.1265
+    primary_fundraising_component: 0.1264
     primary_fundraising_component_sd: 0.0074
     primary_expected_share: 0.5868
     primary_war: 0.2808
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -792,7 +792,7 @@ primaries:
     primary_fundraising_component_sd: 0.0028
     primary_expected_share: 0.4132
     primary_war: -0.2808
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising

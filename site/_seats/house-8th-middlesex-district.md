@@ -30,22 +30,22 @@ results_by_year:
     war: 0.3097
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.543
-    lean_component_sd: 0.0358
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0026
-    demographics_component_sd: 0.0301
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.5426
+    lean_component_sd: 0.0359
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0023
+    demographics_component_sd: 0.0306
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.7069
+    expected_share_resolved: 0.7064
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -73,23 +73,23 @@ results_by_year:
     war: -0.0264
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.543
-    lean_component_sd: 0.0358
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.5426
+    lean_component_sd: 0.0359
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0026
-    demographics_component_sd: 0.0301
+    demographics_component: 0.0023
+    demographics_component_sd: 0.0306
     fundraising_component: 0.0597
-    fundraising_component_sd: 0.003
+    fundraising_component_sd: 0.0044
     demographics_tier: full
-    expected_share_resolved: 0.6998
-    war_resolved: -0.0495
+    expected_share_resolved: 0.6994
+    war_resolved: -0.0491
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -98,7 +98,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   - name: Loring Barnes
     slug: loring-barnes
     party: Republican
@@ -109,19 +109,19 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.0083
-    intercept_component_sd: 0.0198
+    intercept_component_sd: 0.0197
     lean_component: 0.2245
-    lean_component_sd: 0.0096
+    lean_component_sd: 0.0097
     tide_component: -0.0071
-    tide_component_sd: 0.0099
-    approval_component: 0.118
-    approval_component_sd: 0.0123
+    tide_component_sd: 0.01
+    approval_component: 0.1181
+    approval_component_sd: 0.0125
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0026
-    demographics_component_sd: 0.0301
-    fundraising_component: -0.0597
-    fundraising_component_sd: 0.003
+    demographics_component: 0.0023
+    demographics_component_sd: 0.0306
+    fundraising_component: -0.0595
+    fundraising_component_sd: 0.0038
     demographics_tier: full
     expected_share_resolved: 0.27
     war_resolved: 0.0797
@@ -133,7 +133,7 @@ results_by_year:
     - Incumbency
     - District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %,
       income, median age, homeownership %, white %)
-    - Relative campaign fundraising
+    - Campaign fundraising (relative share and absolute total)
   is_open_seat: null
 primaries:
 - year: 2024
@@ -187,7 +187,7 @@ primaries:
     primary_fundraising_component_sd: 0.0034
     primary_expected_share: 0.5291
     primary_war: 0.0419
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
     - Campaign fundraising
@@ -208,7 +208,7 @@ primaries:
     primary_fundraising_component_sd: null
     primary_expected_share: 0.4709
     primary_war: -0.0419
-    primary_war_sd: 0.1642
+    primary_war_sd: 0.1641
     primary_war_factors:
     - Equal share among candidates
 - year: 2022

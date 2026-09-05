@@ -30,23 +30,23 @@ results_by_year:
     war: 0.0791
     is_incumbent: true
     incumbent_terms: 1
-    intercept_component: 0.004
-    intercept_component_sd: 0.0329
-    lean_component: 0.4538
-    lean_component_sd: 0.0299
-    tide_component: 0.0003
-    tide_component_sd: 0.0305
-    approval_component: 0.0806
-    approval_component_sd: 0.0084
-    incumbency_adjustment: 0.0765
-    incumbency_adjustment_sd: 0.0125
-    demographics_component: 0.0039
-    demographics_component_sd: 0.029
+    intercept_component: 0.0037
+    intercept_component_sd: 0.0324
+    lean_component: 0.4534
+    lean_component_sd: 0.03
+    tide_component: 0.0007
+    tide_component_sd: 0.0309
+    approval_component: 0.0807
+    approval_component_sd: 0.0085
+    incumbency_adjustment: 0.0764
+    incumbency_adjustment_sd: 0.0129
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0292
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.6191
-    war_resolved: 0.0167
+    expected_share_resolved: 0.6192
+    war_resolved: 0.0166
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -65,22 +65,22 @@ results_by_year:
     is_incumbent: false
     incumbent_terms: 0
     intercept_component: -0.02
-    intercept_component_sd: 0.0199
+    intercept_component_sd: 0.0198
     lean_component: 0.3041
-    lean_component_sd: 0.013
-    tide_component: -0.0074
-    tide_component_sd: 0.0104
-    approval_component: 0.116
-    approval_component_sd: 0.0121
+    lean_component_sd: 0.0131
+    tide_component: -0.0075
+    tide_component_sd: 0.0105
+    approval_component: 0.1162
+    approval_component_sd: 0.0123
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0039
-    demographics_component_sd: 0.029
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0292
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.3966
-    war_resolved: -0.0324
+    expected_share_resolved: 0.397
+    war_resolved: -0.0328
     war_resolved_sd: 0.0725
     war_factors:
     - District lean
@@ -107,22 +107,22 @@ results_by_year:
     war: 0.4143
     is_incumbent: false
     incumbent_terms: 0
-    intercept_component: 0.0157
-    intercept_component_sd: 0.0328
-    lean_component: 0.4538
-    lean_component_sd: 0.0299
-    tide_component: 0.0003
-    tide_component_sd: 0.0314
-    approval_component: 0.0786
-    approval_component_sd: 0.0082
+    intercept_component: 0.0154
+    intercept_component_sd: 0.0324
+    lean_component: 0.4534
+    lean_component_sd: 0.03
+    tide_component: 0.0007
+    tide_component_sd: 0.0318
+    approval_component: 0.0788
+    approval_component_sd: 0.0083
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
-    demographics_component: 0.0039
-    demographics_component_sd: 0.029
+    demographics_component: 0.0042
+    demographics_component_sd: 0.0292
     fundraising_component: null
     fundraising_component_sd: null
     demographics_tier: full
-    expected_share_resolved: 0.5523
+    expected_share_resolved: 0.5525
     war_resolved: null
     war_resolved_sd: null
     war_factors:
@@ -134,6 +134,78 @@ results_by_year:
       income, median age, homeownership %, white %)
   is_open_seat: null
 primaries:
+- year: 2026
+  party: Democratic
+  is_special: true
+  n_candidates: 2
+  is_contested: true
+  candidates:
+  - name: Vanna Howard
+    slug: vanna-howard
+    party: Democratic
+    votes: 3339
+    winner: true
+    actual_primary_share: 0.5844
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.5
+    primary_baseline_component_sd: 0.0048
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.5
+    primary_war: 0.0844
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+  - name: Rodney Michael Elliott
+    slug: rodney-michael-elliott
+    party: Democratic
+    votes: 2375
+    winner: false
+    actual_primary_share: 0.4156
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 0.5
+    primary_baseline_component: 0.5
+    primary_baseline_component_sd: 0.0048
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 0.5
+    primary_war: -0.0844
+    primary_war_sd: 0.1641
+    primary_war_factors:
+    - Equal share among candidates
+- year: 2026
+  party: Republican
+  is_special: true
+  n_candidates: 1
+  is_contested: false
+  candidates:
+  - name: Sam S. Meas
+    slug: sam-s-meas
+    party: Republican
+    votes: 372
+    winner: true
+    actual_primary_share: 1.0
+    is_incumbent: false
+    incumbent_terms: 0
+    fair_share: 1.0
+    primary_baseline_component: 1.0
+    primary_baseline_component_sd: 0.0047
+    primary_incumbency_component: 0.0
+    primary_incumbency_component_sd: 0.0
+    primary_fundraising_component: null
+    primary_fundraising_component_sd: null
+    primary_expected_share: 1.0
+    primary_war: null
+    primary_war_sd: null
+    primary_war_factors:
+    - Equal share among candidates
 - year: 2024
   party: Democratic
   is_special: false
