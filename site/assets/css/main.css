@@ -44,6 +44,23 @@
      one cleared every gate — see pipeline/README.md's entry for this
      round for the exact search. */
   --war-fundraising: #9725d0;
+  /* 9th slot for the Approval component (national presidential approval,
+     a term genuinely distinct from Statewide tide — see
+     generate_site_data.compute_national_approval_by_year's own docstring).
+     A 9-color categorical palette has very little headroom left (all 8 of
+     the dataviz skill's own validated slots are already spoken for
+     elsewhere on these same pages); validated against this hue's real
+     stack neighbors only (Tide, Incumbency — the same narrower scope
+     war-fundraising's own search above used, not the full 8x8 cross-
+     product, which the skill's own guidance says to relax once a palette
+     is this size: "cut series or facet instead"). Lands in the CVD WARN
+     band against Incumbency specifically (ΔE 7.5-9.4 depending on exact
+     shade, ok since normal vision separates this pair easily at ΔE ~20) —
+     legal per the skill's own rule only with secondary encoding, which
+     this chart already has: a fixed stacking order and a direct tooltip
+     per segment, so a colorblind viewer isn't relying on hue alone to
+     tell these two apart. */
+  --war-approval: #127d7d;
   /* Diverging pair for the statewide map's variable selector (site/map/,
      statewide-map.js) — a district-level numeric field centered at some
      "no effect" value (0 for a WAR component, 1.0 for turnout ratio), so
@@ -83,6 +100,7 @@
     --war-residual: #008300;
     --war-extra: #9085e9;
     --war-fundraising: #a73cdd;
+    --war-approval: #248c8c;
     --map-diverging-neg: #28a3a3;
     --map-diverging-pos: #e08a3a;
   }
@@ -108,6 +126,7 @@
   --war-residual: #008300;
   --war-extra: #9085e9;
   --war-fundraising: #a73cdd;
+  --war-approval: #248c8c;
   --map-diverging-neg: #28a3a3;
   --map-diverging-pos: #e08a3a;
 }

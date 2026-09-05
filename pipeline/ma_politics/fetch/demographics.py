@@ -54,12 +54,27 @@ PL94_171_VARS = {
     "P2_002N": "hispanic_or_latino_population",
 }
 
-# A small illustrative ACS 5-year set — see
-# https://api.census.gov/data/2022/acs/acs5/variables.html for the full list.
+# See https://api.census.gov/data/2022/acs/acs5/variables.html for the full
+# list. B01002/B25003/B03002 confirmed live (2026-09) at this same "state
+# legislative district" geography before adding: median age needs no
+# separate denominator (it's already a computed statistic), and homeownership
+# (B25003_002E/_001E) and race (B03002_003E/_001E, "White alone, not
+# Hispanic or Latino" over total population) both come from ACS tables
+# entirely on their own, unlike hispanic_pct/voting_age_pct below (which
+# need PL 94-171's own population figure specifically) — so these three
+# don't add a second core/full-tier split of their own in
+# generate_site_data._demographic_covariates, they just ride along with
+# bachelors_pct/median_household_income on whichever tier a district's ACS
+# match already supports.
 ACS_VARS = {
     "B01003_001E": "total_population_acs",
     "B19013_001E": "median_household_income",
     "B15003_022E": "bachelors_degree_count",
+    "B01002_001E": "median_age",
+    "B25003_001E": "occupied_housing_units",
+    "B25003_002E": "owner_occupied_housing_units",
+    "B03002_001E": "total_population_race",
+    "B03002_003E": "white_alone_not_hispanic_population",
 }
 
 

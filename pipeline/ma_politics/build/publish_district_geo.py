@@ -111,6 +111,7 @@ def _combined_features(chamber: str, vintage: str, boundaries_dir: Path, records
             "winner_war": winner.get("war_resolved") if winner else None,
             "winner_lean_component": winner.get("lean_component") if winner else None,
             "winner_tide_component": winner.get("tide_component") if winner else None,
+            "winner_approval_component": winner.get("approval_component") if winner else None,
             "winner_incumbency_adjustment": winner.get("incumbency_adjustment") if winner else None,
             "winner_demographics_component": winner.get("demographics_component") if winner else None,
             "winner_fundraising_component": winner.get("fundraising_component") if winner else None,

@@ -25,6 +25,7 @@ from ma_politics.build.generate_site_data import (
     apply_war,
     build_candidate_records,
     build_district_records,
+    compute_national_approval_by_year,
     compute_statewide_tide_by_year,
     fit_war_model,
 )
@@ -83,6 +84,7 @@ def build_results_table(
     current_vintage: str,
     derived_dir: Path,
     baseline_dir: Path,
+    approval_dir: Path,
     demographics_dir: Path,
     ocpf_dir: Path,
 ) -> pd.DataFrame:
@@ -116,14 +118,15 @@ def build_results_table(
                     d["demographics"] = demographics_by_name[d["district_name"]]
 
     tide_by_year = compute_statewide_tide_by_year(baseline_dir)
+    approval_by_year = compute_national_approval_by_year(approval_dir)
 
     finance_by_slug: dict = {}
     if (ocpf_dir / "filers.parquet").exists():
         preliminary_candidate_records = build_candidate_records(district_records_by_vintage)
         finance_by_slug = campaign_finance_match.load_and_match(preliminary_candidate_records, ocpf_dir)
 
-    war_fit = fit_war_model(district_records_by_vintage, tide_by_year, current_vintage, finance_by_slug)
-    apply_war(district_records_by_vintage, tide_by_year, current_vintage, finance_by_slug, war_fit)
+    war_fit = fit_war_model(district_records_by_vintage, tide_by_year, approval_by_year, current_vintage, finance_by_slug)
+    apply_war(district_records_by_vintage, tide_by_year, approval_by_year, current_vintage, finance_by_slug, war_fit)
 
     rows = []
     for records in district_records_by_vintage.values():
@@ -148,6 +151,7 @@ def build_results_table(
                             "war": cand["war"],
                             "war_resolved": cand.get("war_resolved"),
                             "incumbency_adjustment": cand.get("incumbency_adjustment"),
+                            "approval_component": cand.get("approval_component"),
                             "demographics_component": cand.get("demographics_component"),
                             "fundraising_component": cand.get("fundraising_component"),
                         }
@@ -277,11 +281,13 @@ SCHEMA_CARD = {
                 "war_resolved": (
                     "actual_two_party_share minus this site's one fitted Bayesian regression's expected "
                     "share — the district's structural (multi-year average) lean, that year's statewide "
-                    "(unapportioned) tide, and a single incumbent/non-incumbent term, each with its own "
-                    "Democratic-vs-Republican interaction term, plus district demographics and/or campaign "
-                    "fundraising wherever this race's own data supports them. Fit across every contested "
-                    "major-party race in the backfill. See the methodology page for the current posterior "
-                    "coefficients and their uncertainty. Same null cases as war."
+                    "(unapportioned) tide, the sitting president's national approval rating near that "
+                    "year's Election Day, a single incumbent/non-incumbent term, and open-seat status "
+                    "(lean/tide/incumbency each with their own Democratic-vs-Republican interaction term), "
+                    "plus district demographics and/or relative campaign fundraising wherever this race's "
+                    "own data supports them. Fit across every contested major-party race in the backfill. "
+                    "See the methodology page for the current posterior coefficients and their uncertainty. "
+                    "Same null cases as war."
                 ),
                 "incumbency_adjustment": (
                     "The fitted incumbency term's contribution to war_resolved's expected share — 0 for a "
@@ -290,15 +296,26 @@ SCHEMA_CARD = {
                     "the methodology page's coefficients), so a query can reconstruct war_resolved's full "
                     "decomposition."
                 ),
+                "approval_component": (
+                    "The fitted national-approval term's contribution to war_resolved's expected share — "
+                    "the sitting president's own job-approval rating near that year's Election Day, "
+                    "re-expressed on this candidate's own party's side (see the methodology page). Distinct "
+                    "from district_lean_dem_share/the statewide tide, which are both Massachusetts-specific; "
+                    "this one is the national political environment. Never null for a contested major-party "
+                    "row."
+                ),
                 "demographics_component": (
-                    "The fitted demographics terms' contribution to war_resolved's expected share, where "
-                    "this district has Census-matched demographic data (current vintage only) — null "
-                    "otherwise."
+                    "The fitted demographics terms' contribution to war_resolved's expected share — "
+                    "bachelor's degree %, Hispanic/Latino %, voting-age %, median household income, median "
+                    "age, homeownership %, and non-Hispanic white % — where this district has Census-matched "
+                    "demographic data (current vintage only) — null otherwise."
                 ),
                 "fundraising_component": (
-                    "The fitted campaign-finance term's contribution to war_resolved's expected share, "
-                    "where this candidate has OCPF-matched fundraising data for this year — null otherwise. "
-                    "Can be non-null on the same row as demographics_component; the two are independent."
+                    "The fitted campaign-finance term's contribution to war_resolved's expected share, based "
+                    "on this candidate's own share of the two-party OCPF-matched total raised in this "
+                    "specific race (not a raw dollar total) — null unless *both* this candidate and their "
+                    "major-party opponent have OCPF-matched fundraising data for this year. Can be non-null "
+                    "on the same row as demographics_component; the two are independent."
                 ),
             },
         },
@@ -397,6 +414,7 @@ def publish(
     derived_dir: Path,
     crosswalks_dir: Path,
     baseline_dir: Path,
+    approval_dir: Path,
     ocpf_dir: Path,
     demographics_dir: Path,
     out_dir: Path,
@@ -407,7 +425,9 @@ def publish(
     seats.to_parquet(out_dir / "seats.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(seats), out_dir / "seats.parquet")
 
-    results = build_results_table(chambers, vintages, current_vintage, derived_dir, baseline_dir, demographics_dir, ocpf_dir)
+    results = build_results_table(
+        chambers, vintages, current_vintage, derived_dir, baseline_dir, approval_dir, demographics_dir, ocpf_dir
+    )
     results.to_parquet(out_dir / "results.parquet", index=False)
     logger.info("Wrote %d rows to %s", len(results), out_dir / "results.parquet")
 
@@ -435,6 +455,7 @@ def publish(
 @click.option("--derived-dir", type=click.Path(path_type=Path), default=Path("data/interim/derived_metrics"))
 @click.option("--crosswalks-dir", type=click.Path(path_type=Path), default=Path("data/interim/crosswalks"))
 @click.option("--baseline-dir", type=click.Path(path_type=Path), default=Path("data/raw/pd43_statewide"))
+@click.option("--approval-dir", type=click.Path(path_type=Path), default=Path("data/raw/presidential_approval"))
 @click.option("--ocpf-dir", type=click.Path(path_type=Path), default=Path("data/raw/ocpf"))
 @click.option("--demographics-dir", type=click.Path(path_type=Path), default=Path("data/raw/demographics"))
 @click.option("--out-dir", type=click.Path(path_type=Path), default=Path("site/assets/data"))
@@ -446,6 +467,7 @@ def main(
     derived_dir: Path,
     crosswalks_dir: Path,
     baseline_dir: Path,
+    approval_dir: Path,
     ocpf_dir: Path,
     demographics_dir: Path,
     out_dir: Path,
@@ -454,7 +476,18 @@ def main(
     logging.basicConfig(level=logging.DEBUG if verbose else logging.INFO, format="%(levelname)s %(message)s")
     chambers = ["house", "senate"] if chamber == "both" else [chamber]
     vintage_list = [v.strip() for v in vintages.split(",") if v.strip()]
-    publish(chambers, vintage_list, current_vintage, derived_dir, crosswalks_dir, baseline_dir, ocpf_dir, demographics_dir, out_dir)
+    publish(
+        chambers,
+        vintage_list,
+        current_vintage,
+        derived_dir,
+        crosswalks_dir,
+        baseline_dir,
+        approval_dir,
+        ocpf_dir,
+        demographics_dir,
+        out_dir,
+    )
 
 
 if __name__ == "__main__":

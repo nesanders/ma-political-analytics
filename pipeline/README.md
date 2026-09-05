@@ -1625,3 +1625,205 @@ differed); switching Redistricting vintage from "2022-present" to
 2010's real, more Republican-favoring statewide pattern (matching that
 year's actual midterm result, not a stale copy of a different year) —
 zero console errors throughout.
+
+## Four more WAR regression terms: relative fundraising, open-seat status, expanded demographics, national presidential approval
+
+Asked directly which additional predictive factors would be worth building
+in; picked four to add to the general (state House/Senate) model, on top
+of the already-unified single regression (lean, tide, incumbency,
+demographics, campaign finance — see the changelog entries above):
+**relative campaign fundraising**, **open-seat status** as a formal
+regression term, **expanded ACS demographics**, and **national
+presidential approval**. The U.S. House model (`fit_us_house_war_model`/
+`apply_us_house_war`) picked up the two of these it could support without
+new data sources — national approval and open-seat status — while
+deliberately not gaining demographics/fundraising extensions, for the same
+documented reasons (no congressional-district Census crosswalk, no FEC
+fetcher) as before. The primary model (`fit_primary_war_model`) was left
+unchanged: relative fundraising is inherently a two-candidate,
+opponent-relative concept that doesn't map cleanly onto a multi-candidate
+intra-party primary field.
+
+**A new fetcher, `fetch.presidential_approval`**, pulls presidential job
+approval near each even-year MA general election (2002-2024) from The
+American Presidency Project (UCSB) — the same Gallup approval series (plus,
+since Gallup discontinued the question, AP-NORC/CNN-SSRS/Marist/Verasight/
+Pew, per that site's own sourcing note) political scientists and
+journalists already cite for exactly this "national fundamentals" purpose.
+Initially blocked by this session's own network policy; the user was asked
+directly which domains to add, and after `www.presidency.ucsb.edu` (plus
+`news.gallup.com`/`gallup.com` and `query.wikidata.org`, offered as
+fallbacks) was allowlisted, the UCSB domain alone turned out to carry
+everything needed — see `docs/PLAN.md`'s domain appendix. One page per
+president (e.g. `.../statistics/data/george-w-bush-public-approval`),
+found via an old `/data/popularity.php?pres=45`-style URL's redirect to the
+modern path. Initially looked like it might need a headless browser (a
+large New Relic monitoring bundle in the page `<head>` reads like a SPA
+shell at a glance, and a first Playwright attempt was rejected outright by
+the site's own WAF with `net::ERR_CONNECTION_RESET`), but the real content
+— including the per-president approval `<table>`s — turns out to already
+be in the plain `curl`-fetched HTML; the JS bundle is just analytics, a red
+herring. Fixed by dropping Playwright entirely and parsing the plain HTML
+with `pandas.read_html`.
+
+Two real, live data-quality bugs found and fixed while building this, both
+on Biden's own approval-data page specifically: (1) a second, unrelated
+small footnote table with plain-integer column labels sits alongside the
+real approval table, breaking a `(table,) = pd.read_html(...)` unpacking
+assumption that held for every other president's page — fixed by selecting
+the table by its actual column names (`"Start Date" in columns`) rather
+than by position; (2) a handful of dates read like `"2/20/224"` instead of
+`"2/20/2024"` — a dropped `"0"` right after the century digit — caught by
+`pd.to_datetime`'s own `ValueError` rather than silently mis-parsing, fixed
+with a narrowly-scoped regex repair (`_fix_truncated_year`) that only
+recognizes and repairs that exact truncation pattern, logged as a warning
+rather than silently corrected. `election_day(year)` computes each MA
+general election's actual date (first Tuesday after the first Monday in
+November) programmatically rather than from a lookup table, verified
+against the two dates this project's own backfill already spans (2022 →
+Nov 8, 2024 → Nov 5). For each election year, the fetcher picks the poll
+whose own field window ends closest to, but not after, Election Day (what
+voters actually knew heading into that election, not a full-year average
+blending in post-election polling), falling back to the nearest poll by
+absolute date distance — logged loudly, not silently — if none exists
+on-or-before (not hit for any of the 12 real years: all four presidencies
+here poll far more often than once a year). Verified live: 12 rows, one
+per even year 2002-2024, matching well-known historical approval patterns
+(e.g. Bush 63% in 2002 falling to 25% by 2008; Obama recovering from 42%
+in 2014 to 53% in 2016; Trump 40%/46% in 2018/2020; Biden 40%/41% in
+2022/2024).
+
+**`compute_national_approval_by_year`** (new, in `generate_site_data.py`)
+turns that fetched table into `{year: dem_share_of_approval}` — approval
+re-expressed in the same "Democratic share" terms `compute_statewide_tide_
+by_year` already uses for the tide term, flipping a Republican president's
+raw approval (`1 - approval`) so the regression's `national_approval` term
+can be sign-flipped onto each candidate's own party exactly like
+`own_tide` already is (`own_approval = approval if is_dem else
+1 - approval`). No `× Democratic` interaction term for it, for the same
+reason as open-seat status below: nothing in this data has yet shown a
+party-specific asymmetry in how the national environment translates into
+vote share, and this site's own convention (see the methodology page's
+"Party interaction terms" section) is to only add an interaction where a
+real, already-observed asymmetry motivates it.
+
+**Open-seat status becomes a formal regression term**, not just a derived,
+displayed label (it already existed as `is_open_seat` on each race entry,
+computed from this site's own accumulated results — see "Incumbency and
+open seats" on the methodology page). Centered and filled the same way as
+every other extension covariate (mean-centered among rows where it's
+known, filled with that same mean elsewhere so a not-yet-knowable race
+contributes exactly 0 to the term), but its fitted contribution is folded
+into `intercept_component` (the attribution chart's "Baseline" bar) rather
+than given a bar of its own — a deliberate architectural choice, not an
+oversight: unlike lean/tide/approval/incumbency/demographics/fundraising,
+which are all in some sense a *candidate's own* advantage, open-seat
+status is a fact about the race itself, identical for both major-party
+candidates running in it. Folding it into Baseline mirrors how the
+existing primary model already merges `fair_share + intercept` into one
+Baseline bar for the same "no candidate-specific attribution" reason.
+
+**Expanded ACS demographics**: `fetch.demographics`'s `ACS_VARS` grew from
+3 variables to 8 — median age (`B01002_001E`), owner-/total-occupied
+housing units (`B25003_002E`/`B25003_001E`, for a homeownership share), and
+total population/white-alone-non-Hispanic population from the race table
+(`B03002_001E`/`B03002_003E`, for a non-Hispanic white share) — alongside
+the existing total population, median household income, and bachelor's-
+degree count. `demographics_match.py`'s ACS-loading block surfaces all five
+new raw fields into each district's returned dict; `generate_site_data.
+_demographic_covariates` computes `median_age_10` (median age ÷ 10,
+matching `income_10k`'s own "divide a real-world unit down to a
+comparably-sized step" scaling), `homeownership_pct`, and `white_pct` from
+them. All three are ACS-only (no PL 94-171 dependency, unlike
+`hispanic_pct`/`voting_age_pct`), so they ride along with `bachelors_pct`/
+`income_10k` on whichever tier (`"core"`/`"full"`) a district's own ACS
+match already supports, rather than creating a third tier. Also now shown
+directly on district/seat pages' own "Demographics" section (median age,
+homeownership %, non-Hispanic white %), alongside the pre-existing
+population/income/education fields, for the same reason every other
+regression demographic covariate is already surfaced there.
+
+**Relative campaign fundraising replaces the old raw-dollar term.** The
+general model's `log_raised` term (a candidate's own logged OCPF total,
+regardless of what their opponent raised) is gone, replaced by
+`fundraising_share = own_raised / (own_raised + opponent_raised)` — a new
+`_opponent(entry, slug)` helper finds the other major-party candidate in
+the same race entry, and a new `_fundraising_share(finance_by_slug, entry,
+c)` helper computes the share, returning `None` if either side is
+unmatched or the total is ≤ 0. This is a real, documented tradeoff, not a
+strict improvement: the old term only needed the candidate's *own* OCPF
+match; the new one needs **both** major-party candidates in a race
+matched, which will lower the fraction of candidate-races carrying a
+Fundraising bar. The gain is interpretability — a 0-1 share reads directly
+alongside lean/tide/demographics instead of needing a log-dollar-to-share
+translation — and it's arguably the more honest predictor anyway: what
+should move a race is how a candidate's fundraising compares to their
+actual opponent's, not their absolute total in isolation.
+
+**Coefficient priors** (`_COEFFICIENT_PRIORS` in `generate_site_data.py`)
+gained `national_approval` (mean 0, SD 0.4 — as wide as `own_tide`'s own
+prior, since it's a structurally similar national-mood term), `open_seat`
+(mean 0, SD 0.1), `median_age_10`/`homeownership_pct`/`white_pct` (SD 0.03/
+0.3/0.3, matching the existing demographics priors' scale), and
+`fundraising_share` (mean 0, SD 0.3, replacing the removed `log_raised`
+prior) — plus `ush_national_approval`/`ush_open_seat` for the U.S. House
+model. `fit_war_model`/`apply_war` gained `approval_by_year` and
+`finance_by_slug`'s own new share-based computation as parameters;
+`fit_us_house_war_model`/`apply_us_house_war` gained `approval_by_year`
+alone. `generate_site_data.main()` gained `--approval-dir` (default
+`data/raw/presidential_approval`), threaded through all four fit/apply call
+sites. `publish_query_data.py` (which independently re-fits its own copy
+of the model, reusing `generate_site_data.py`'s functions rather than
+duplicating logic — see its own docstring) picked up the same
+`approval_dir`/`--approval-dir` plumbing, plus a new `approval_component`
+field on its results table and updated `SCHEMA_CARD` entries (a new
+`approval_component` card parallel to `incumbency_adjustment`'s own;
+`demographics_component`'s and `fundraising_component`'s descriptions
+rewritten for the new fields/semantics).
+
+**Templates** (`district.html`/`seat.html`/`candidate.html`) each gained an
+`approval_component`/`approval_component_sd` field in their embedded
+per-candidate/per-race JSON, an `["Approval", "--war-approval"]` entry in
+`CANONICAL_COMPONENTS` (ordered right after "Statewide tide," before
+"Incumbency" — matching `apply_war`'s own `war_factors` ordering), and a
+matching `FIELD_MAP` entry. `candidate.html`'s unified primary/general
+race-attribution list needed no `{% assign ... | default: ... %}` fallback
+for this one (unlike `intercept`/`incumbency`/`fundraising`, which map onto
+differently-named primary-model fields): a primary race simply has no
+`approval_component` key at all, the same treatment `tide_component`
+already gets. `generate_site_data.py`'s own `races_by_slug` builder (which
+independently reconstructs each candidate's cross-race list for
+`candidate.html`, rather than reusing `entry["candidates"]` directly) also
+needed `approval_component`/`approval_component_sd` added explicitly — a
+real, live gap: every other new field flows through automatically because
+`apply_war`/`apply_us_house_war` mutate the shared `entry["candidates"]`
+dicts in place, but this one builder copies specific field names into a
+new dict per race, and missed the new field on the first pass.
+
+**A ninth categorical chart color, `--war-approval`**, for the new
+attribution-chart bar — found via the dataviz skill's `validate_palette.js`
+tool, validated against its real stack neighbors (`--war-tide` and
+`--war-incumbency`) rather than the full N×N cross-product, which the
+skill itself says to relax once a palette is this large. Settled on
+`#127d7d` (light) / `#248c8c` (dark) after several blue/green/teal
+candidates failed either a chroma-floor check or a CVD-separation check
+against one of the existing eight colors (blue too close to
+`--series-dem`; most greens too close to `--war-lean`/`--war-residual`;
+several teals too close to `--war-incumbency` specifically) — both
+accepted values have a documented, minor tradeoff (light mode reads
+slightly muted against the chroma floor; dark mode lands in the
+CVD-warning band against Incumbency specifically), justified by this
+chart's existing secondary encoding (fixed stack order, direct tooltips),
+same as the earlier `--war-fundraising` addition.
+
+**The statewide map's metric selector gained a matching entry.**
+`publish_district_geo.py`'s per-district-per-year `_year_props` now also
+emits `winner_approval_component` (the winning candidate's own national-
+approval contribution, same "what did the candidate who actually won
+perform on this factor" framing as its existing `winner_*_component`
+siblings), and `statewide-map.js`'s `METRICS` list gained a matching
+"National presidential approval's contribution to expected vote share"
+option, positioned between tide and incumbency to match every other list
+of these components on this site.
+
+Verified live: {{PENDING_VERIFICATION}}

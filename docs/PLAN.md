@@ -105,6 +105,27 @@ payloads small.
     cross-year variation exists to identify it against, and a clearly
     nonzero, positive coefficient on logged fundraising. Both WAR v1 and v2 are shown
     throughout the site (district/seat/candidate pages), not just v1.
+  - **Since unified into one regression** (demographics and campaign
+    finance are now ordinary terms in the same fit as lean/tide/incumbency,
+    not separate diagnostics — see `pipeline/README.md`'s own changelog for
+    the full history), and since extended with four more terms: **national
+    presidential approval** (the sitting president's own approval rating
+    near Election Day, sign-flipped onto each candidate's own party the
+    same way tide is — a genuinely national signal distinct from either
+    district lean or Massachusetts's own statewide tide, fetched from The
+    American Presidency Project/Gallup's series, see the new
+    `fetch.presidential_approval` module); **open-seat status** as a formal
+    regression term (previously only a derived, displayed label) — folded
+    into the attribution chart's Baseline bar rather than given its own,
+    since it's a race-level fact true for both candidates, not either
+    candidate's own advantage; **expanded ACS demographics** (median age,
+    homeownership share, non-Hispanic white share, alongside the existing
+    bachelor's-degree/Hispanic/voting-age/income fields); and **relative
+    campaign fundraising** (a candidate's own share of the race's two-party
+    OCPF-matched total, replacing the old raw/logged total — needs both
+    candidates matched, not just one, a real tradeoff for a real gain in
+    interpretability). See the methodology page for the full current
+    model and `pipeline/README.md` for the implementation changelog.
   - *Different redistricting handling*: our lean baseline has to cross three
     MA redistricting vintages; Split Ticket's federal-district baseline
     doesn't face this problem at the same scale.
@@ -411,6 +432,15 @@ calls come from each end user's own browser, not from this container.
 - `en.wikipedia.org` — candidate bio enrichment
 - `ballotpedia.org` — candidate bio enrichment
 - `malegislature.gov` — current member directory
+- `www.presidency.ucsb.edu` — The American Presidency Project's presidential
+  job-approval-by-year data (Gallup's series, plus its post-Gallup successor
+  polls), for the WAR regression's national-approval term. Added on request
+  after this container's own network policy initially rejected it (along
+  with `news.gallup.com`/`gallup.com` and `query.wikidata.org`, offered as
+  alternatives — only the UCSB domain ended up needed once it turned out to
+  carry the same data directly). Confirmed live: a plain server-rendered
+  Drupal page, `pandas.read_html`-parseable, no headless browser needed —
+  see `pipeline/ma_politics/fetch/presidential_approval.py`'s own docstring.
 
 **Toolchain (required to install dependencies / build the site):**
 - `registry.npmjs.org` — npm packages (AI SDK, Vega-Lite, MapLibre GL JS,

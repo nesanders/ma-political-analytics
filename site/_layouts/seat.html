@@ -110,6 +110,15 @@ layout: default
       {% elsif page.demographics.bachelors_degree_count %}
       <li>Bachelor's degree or higher: {{ page.demographics.bachelors_degree_count }}</li>
       {% endif %}
+      {% if page.demographics.median_age %}
+      <li>Median age: {{ page.demographics.median_age }}</li>
+      {% endif %}
+      {% if page.demographics.owner_occupied_housing_units and page.demographics.occupied_housing_units %}
+      <li>Homeownership: {{ page.demographics.owner_occupied_housing_units | times: 100.0 | divided_by: page.demographics.occupied_housing_units | round: 0 }}%</li>
+      {% endif %}
+      {% if page.demographics.white_alone_not_hispanic_population and page.demographics.total_population_race %}
+      <li>Non-Hispanic white: {{ page.demographics.white_alone_not_hispanic_population | times: 100.0 | divided_by: page.demographics.total_population_race | round: 0 }}%</li>
+      {% endif %}
     </ul>
     <p><small>
       2020 Census (population) and {{ page.demographics.acs_year }} American Community Survey 5-year
@@ -334,6 +343,7 @@ layout: default
       "intercept_component": {{ c.intercept_component | jsonify }}, "intercept_component_sd": {{ c.intercept_component_sd | jsonify }},
       "lean_component": {{ c.lean_component | jsonify }}, "lean_component_sd": {{ c.lean_component_sd | jsonify }},
       "tide_component": {{ c.tide_component | jsonify }}, "tide_component_sd": {{ c.tide_component_sd | jsonify }},
+      "approval_component": {{ c.approval_component | jsonify }}, "approval_component_sd": {{ c.approval_component_sd | jsonify }},
       "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ c.incumbency_adjustment_sd | jsonify }},
       "demographics_component": {{ c.demographics_component | jsonify }}, "demographics_component_sd": {{ c.demographics_component_sd | jsonify }},
       "demographics_tier": {{ c.demographics_tier | jsonify }},
@@ -352,6 +362,7 @@ layout: default
     ["Baseline", "--war-intercept"],
     ["Lean", "--war-lean"],
     ["Statewide tide", "--war-tide"],
+    ["Approval", "--war-approval"],
     ["Incumbency", "--war-incumbency"],
     ["Demographics", "--war-extra"],
     ["Fundraising", "--war-fundraising"],
@@ -361,6 +372,7 @@ layout: default
     "Baseline": ["intercept_component", "intercept_component_sd"],
     "Lean": ["lean_component", "lean_component_sd"],
     "Statewide tide": ["tide_component", "tide_component_sd"],
+    "Approval": ["approval_component", "approval_component_sd"],
     "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
     "Demographics": ["demographics_component", "demographics_component_sd"],
     "Fundraising": ["fundraising_component", "fundraising_component_sd"],

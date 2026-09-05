@@ -102,6 +102,13 @@
       format: pctSigned,
     },
     {
+      key: "winner_approval_component",
+      label: "National presidential approval's contribution to expected vote share",
+      kind: "diverging",
+      center: 0,
+      format: pctSigned,
+    },
+    {
       key: "winner_incumbency_adjustment",
       label: "Incumbency's contribution to expected vote share",
       kind: "diverging",

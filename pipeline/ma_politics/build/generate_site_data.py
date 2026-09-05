@@ -256,6 +256,31 @@ def compute_statewide_tide_by_year(baseline_dir: Path) -> dict[int, float]:
     return tide_by_year
 
 
+def compute_national_approval_by_year(approval_dir: Path) -> dict[int, float]:
+    """The sitting president's own job-approval rating near that year's
+    Election Day, re-expressed as a *Democratic* share (mirroring
+    compute_statewide_tide_by_year's own convention, so both feed
+    fit_war_model's own_* sign-flip the same way): `approving/100` when the
+    president is a Democrat, `1 - approving/100` when a Republican. This is
+    a genuinely different signal from own_tide above — tide is
+    Massachusetts' own statewide baseline-race result, approval is the
+    *national* political environment, sourced independently (see
+    fetch.presidential_approval) rather than derived from anything
+    apportioned down from a MA race. Missing entirely (file not present)
+    returns an empty dict rather than raising — fit_war_model already
+    treats any year absent from tide_by_year as "skip this row," the same
+    graceful-degradation this reuses rather than special-casing."""
+    path = approval_dir / "approval_by_year.parquet"
+    if not path.exists():
+        return {}
+    df = pd.read_parquet(path)
+    result = {}
+    for _, row in df.iterrows():
+        approving = row["approving"] / 100
+        result[int(row["year"])] = approving if row["president_party"] == "Democratic" else 1 - approving
+    return result
+
+
 def _is_incumbent_dummy(terms: int) -> float:
     """A single incumbent/non-incumbent dummy, not one term per consecutive-
     term bucket (1st/2nd/3rd-or-later) — an earlier version of this fit
@@ -328,13 +353,50 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     "own_lean_x_dem": (0.0, 0.2),
     "own_tide": (0.0, 0.4),
     "own_tide_x_dem": (0.0, 0.2),
+    # national_approval is own_tide's national-level counterpart (see
+    # compute_national_approval_by_year's own docstring for the distinction)
+    # and shares its prior for exactly that reason — no `_x_dem` delta yet,
+    # unlike own_tide: that term exists because a real, already-observed
+    # asymmetry motivated it (see this dict's own top comment on the
+    # `_x_dem` terms generally); national_approval hasn't been examined for
+    # one yet, so it stays a single shared term until it has.
+    "national_approval": (0.0, 0.4),
     "incumbent": (0.05, 0.08),
     "incumbent_x_dem": (0.0, 0.04),
+    # A race-level term (true for both candidates in an open race, unlike
+    # incumbency, which is specific to one candidate) — folded into the
+    # Baseline/intercept component on district/candidate attribution
+    # charts rather than given its own bar, since it isn't really "this
+    # candidate's own" advantage or disadvantage the way lean/tide/
+    # incumbency/demographics/fundraising all are. No informative prior
+    # (no literature this project already cites gives a specific magnitude
+    # the way incumbency's does), so centered at 0 with a moderate SD.
+    "open_seat": (0.0, 0.1),
     "bachelors_pct": (0.0, 0.3),
     "hispanic_pct": (0.0, 0.3),
     "voting_age_pct": (0.0, 0.3),
     "income_10k": (0.0, 0.02),
-    "log_raised": (0.0, 0.02),
+    # median_age_10 is median age in decades (so 35 -> 45 is a 1-unit
+    # swing) — its own dedicated, narrower prior rather than sharing
+    # income_10k's: a 10-year age swing is a much bigger share of this
+    # state's real district-to-district range (roughly 2 decades) than a
+    # $10k income swing is of that variable's own range (roughly 8 such
+    # units), so the same "shouldn't move vote share by double digits on
+    # its own" belief implies a slightly wider allowance per unit here.
+    "median_age_10": (0.0, 0.03),
+    # homeownership_pct/white_pct are 0-1 population shares like
+    # bachelors_pct/hispanic_pct/voting_age_pct, so they share that prior.
+    "homeownership_pct": (0.0, 0.3),
+    "white_pct": (0.0, 0.3),
+    # Replaces log_raised: own_raised / (own_raised + opponent_raised),
+    # this candidate's own share of the two-party OCPF-matched total for
+    # that specific race (not just their own raw dollar total, which
+    # couldn't tell a $50k candidate facing a $20k opponent apart from one
+    # facing a $500k opponent). A 0-1 share like the population-style
+    # covariates above, so it shares their prior rather than log_raised's
+    # much narrower one (that one was scaled for a variable spanning
+    # roughly log($1k) to log($1M), a unit this share doesn't have).
+    "fundraising_share": (0.0, 0.3),
     # fit_primary_war_model's own, much smaller model — prefixed rather
     # than reusing "incumbent"/"log_raised" outright, since a primary's
     # incumbency effect and fundraising effect are fit on a genuinely
@@ -362,15 +424,22 @@ _COEFFICIENT_PRIORS: dict[str, tuple[float, float]] = {
     # the general model's own core terms (no demographics/finance
     # extensions here — no congressional-district demographics crosswalk
     # and no FEC data fetched this round, both documented gaps on the
-    # methodology page rather than silently absent).
+    # methodology page rather than silently absent. ush_national_approval/
+    # ush_open_seat, unlike demographics/fundraising, depend on neither
+    # blocked data source (national approval is a national-level series,
+    # not congressional-district-specific; open-seat status comes straight
+    # out of PD43+'s own election results, already fetched) — included
+    # here for the same reason they're in the general model.
     "ush_intercept": (0.5, 0.2),
     "ush_is_dem": (0.0, 0.1),
     "ush_own_lean": (1.0, 0.4),
     "ush_own_lean_x_dem": (0.0, 0.2),
     "ush_own_tide": (0.0, 0.4),
     "ush_own_tide_x_dem": (0.0, 0.2),
+    "ush_national_approval": (0.0, 0.4),
     "ush_incumbent": (0.05, 0.08),
     "ush_incumbent_x_dem": (0.0, 0.04),
+    "ush_open_seat": (0.0, 0.1),
 }
 
 
@@ -491,24 +560,74 @@ def _bayesian_linear_regression(
     }
 
 
+_GENERAL_EXTENSION_COVARIATES = (
+    "bachelors_pct",
+    "hispanic_pct",
+    "voting_age_pct",
+    "income_10k",
+    "median_age_10",
+    "homeownership_pct",
+    "white_pct",
+    "fundraising_share",
+    "open_seat",
+)
+
+
+def _opponent(entry: dict, slug: str) -> dict | None:
+    """The other major-party candidate in this same year's race, if any —
+    used both for fundraising_share below (needs both sides' OCPF totals)
+    and anywhere else a race needs to reason about "the candidate this one
+    is actually running against." Every contested entry fit_war_model/
+    apply_war process has exactly one Democrat and one Republican (that's
+    what "contested" means here — see compute_war's own is_uncontested
+    definition), so this never has to disambiguate among multiple
+    same-party opponents."""
+    return next(
+        (o for o in entry["candidates"] if o["party"] in ("Democratic", "Republican") and o["slug"] != slug),
+        None,
+    )
+
+
+def _fundraising_share(finance_by_slug: dict, entry: dict, c: dict) -> float | None:
+    """This candidate's own share of the two-party OCPF-matched total for
+    this specific race — own_raised / (own_raised + opponent_raised) —
+    rather than log_raised's own raw dollar total, which couldn't tell a
+    $50k candidate facing a $20k opponent apart from one facing a $500k
+    opponent even though those are very different competitive positions.
+    None whenever either side's OCPF match is missing (a real, structural
+    tradeoff versus log_raised, which only ever needed *this* candidate's
+    own match): a share needs both numbers, not just one."""
+    opponent = _opponent(entry, c["slug"])
+    if opponent is None:
+        return None
+    own_finance = finance_by_slug.get(c["slug"], {}).get("by_year", {}).get(entry["year"])
+    opp_finance = finance_by_slug.get(opponent["slug"], {}).get("by_year", {}).get(entry["year"])
+    own_raised = own_finance["total_raised"] if own_finance else None
+    opp_raised = opp_finance["total_raised"] if opp_finance else None
+    if own_raised is None or opp_raised is None or (own_raised + opp_raised) <= 0:
+        return None
+    return own_raised / (own_raised + opp_raised)
+
+
 def fit_war_model(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
+    approval_by_year: dict[int, float],
     current_vintage: str,
     finance_by_slug: dict,
 ) -> dict:
-    """The one regression this site's WAR is built on — replacing what
-    used to be three separate fits (a core model plus two "diagnostic"
-    extensions, resolved per-race after the fact by apply_resolved_war_*).
-    Fit once, across the full 2002-2024 backfill, on every contested
-    major-party candidate-race:
+    """The one regression this site's WAR is built on. Fit once, across the
+    full 2002-2024 backfill, on every contested major-party candidate-race:
 
         own_share ~ intercept + is_dem
-                     + own_lean    + own_lean_x_dem
-                     + own_tide    + own_tide_x_dem
-                     + incumbent   + incumbent_x_dem
+                     + own_lean          + own_lean_x_dem
+                     + own_tide          + own_tide_x_dem
+                     + national_approval
+                     + incumbent         + incumbent_x_dem
+                     + open_seat
                      + bachelors_pct + hispanic_pct + voting_age_pct + income_10k
-                     + log_raised
+                     + median_age_10 + homeownership_pct + white_pct
+                     + fundraising_share
 
     `incumbent` is a single dummy (any candidate who won their district's
     immediately preceding election, whatever their consecutive-term
@@ -520,50 +639,67 @@ def fit_war_model(
 
     "own_*" means the value is already flipped to that candidate's own
     party's perspective (own_lean = lean for a Democrat, 1 - lean for a
-    Republican; same for tide) — the same symmetry compute_war() already
-    uses, so one pooled fit covers both parties' *shared* behavior. The
-    `_x_dem` terms then let a Democrat's fitted relationship to
-    lean/tide/incumbency differ from a Republican's, on top of that
-    shared baseline — see _COEFFICIENT_PRIORS' own comment for why: a
-    real, found-live asymmetry (this fit's own residuals, without these
-    terms, averaged +5.3 points for Democrats and -5.3 for Republicans)
-    that the sign-flip symmetry alone doesn't absorb, since it only
-    guarantees the *pooled* mean residual is zero, not the within-party
-    one.
+    Republican; same for tide and national_approval) — the same symmetry
+    compute_war() already uses, so one pooled fit covers both parties'
+    *shared* behavior. The `_x_dem` terms then let a Democrat's fitted
+    relationship to lean/tide/incumbency differ from a Republican's, on
+    top of that shared baseline — see _COEFFICIENT_PRIORS' own comment for
+    why: a real, found-live asymmetry (this fit's own residuals, without
+    these terms, averaged +5.3 points for Democrats and -5.3 for
+    Republicans) that the sign-flip symmetry alone doesn't absorb, since it
+    only guarantees the *pooled* mean residual is zero, not the within-
+    party one. `national_approval` has no `_x_dem` delta of its own yet —
+    it hasn't been examined for a similar asymmetry the way own_tide has,
+    so it stays a single shared term until it is (see _COEFFICIENT_PRIORS'
+    own comment).
 
-    own_lean now comes from each district's own *structural* lean
+    own_lean comes from each district's own *structural* lean
     (build_district_records' lean_dem_share_structural — the average
-    across every year on record for that district within its vintage),
-    not that specific year's own apportioned result. own_tide
-    (compute_statewide_tide_by_year) stays exactly as before: the
-    statewide, unapportioned two-party share on that year's baseline
-    race. Splitting a district's long-run partisan baseline from the
-    current cycle's national mood this way is closer to the Gelman & King
-    "normal vote" framing this project's own methodology page already
-    cites than a per-year lean was — and, as a side effect, much less
-    collinear with tide than two numbers both freshly derived from the
-    same year's baseline race used to be.
+    across every year on record for that district within its vintage), not
+    that specific year's own apportioned result. own_tide
+    (compute_statewide_tide_by_year) is the statewide, unapportioned
+    two-party share on that year's baseline race — Massachusetts' own
+    mood. national_approval (compute_national_approval_by_year) is a
+    genuinely different signal from own_tide: the sitting president's own
+    approval rating near that year's Election Day, sourced independently
+    (not derived from any MA race) — the *national* environment, distinct
+    from the state's own. Splitting a district's long-run partisan
+    baseline from the current cycle's state and national mood this way is
+    closer to the Gelman & King "normal vote" framing this project's own
+    methodology page already cites than a single per-year lean was.
 
-    Demographics (bachelors_pct/hispanic_pct/voting_age_pct/income_10k)
-    and campaign finance (log_raised) are folded into this same fit as
-    ordinary terms, not separate models. Each is centered on its own mean
-    *among the rows that actually have it*, and a row missing it gets the
-    mean itself (so its centered value is exactly 0) rather than a raw
-    zero or a separate indicator dummy — for a linear fit, a row
-    contributing (0, 0) to a term's own deviation-from-mean genuinely
-    carries no information about that term's coefficient, while its
-    lean/tide/incumbency values still fully inform the shared core terms.
-    One race can now carry both a demographics contribution and a
-    fundraising one at once (a current-vintage, OCPF-matched candidate),
-    which the old three-separate-models design could never represent — it
-    had to resolve to exactly one extension per race.
+    `open_seat` is 1.0 when neither candidate in the race held the seat
+    before (entry["is_open_seat"]), 0.0 otherwise, mean-filled like the
+    demographics/finance covariates below when unknown (a vintage's first
+    tracked year, where incumbency can't be determined at all — see
+    build_district_records' own incumbency docstring). Unlike every other
+    term here, it describes the *race*, not a specific candidate — both
+    contestants in an open race get the same value — so its fitted
+    contribution is folded into the Baseline/intercept component on
+    attribution charts (apply_war) rather than given its own bar, the same
+    way a primary's fair_share and intercept are already combined into one
+    "Baseline" bar there.
 
-    Fit via _bayesian_linear_regression (Gibbs sampling, weakly
-    informative priors — see its docstring and _COEFFICIENT_PRIORS'),
-    pooled across both chambers, both parties (via the sign-flip plus the
-    party-delta terms above), and every vintage — this is now the only
-    regression this site fits for WAR, so every candidate-race that can
-    inform any of its terms does."""
+    Demographics (bachelors_pct/hispanic_pct/voting_age_pct/income_10k/
+    median_age_10/homeownership_pct/white_pct) and campaign finance
+    (fundraising_share) are folded into this same fit as ordinary terms,
+    not separate models. Each is centered on its own mean *among the rows
+    that actually have it*, and a row missing it gets the mean itself (so
+    its centered value is exactly 0) rather than a raw zero or a separate
+    indicator dummy — for a linear fit, a row contributing 0 to a term's
+    own deviation-from-mean genuinely carries no information about that
+    term's coefficient, while its lean/tide/incumbency values still fully
+    inform the shared core terms. `fundraising_share` is this candidate's
+    own share of the two-party OCPF-matched total for that specific race
+    (own_raised / (own_raised + opponent_raised)) — see _fundraising_share's
+    own docstring for why this needs both sides matched, not just one.
+
+    Fit via _bayesian_linear_regression (Gibbs sampling, weakly informative
+    priors — see its docstring and _COEFFICIENT_PRIORS'), pooled across
+    both chambers, both parties (via the sign-flip plus the party-delta
+    terms above), and every vintage — this is the only regression this
+    site fits for WAR, so every candidate-race that can inform any of its
+    terms does."""
     rows = []
     for vintage, records in district_records_by_vintage.items():
         for d in records:
@@ -572,8 +708,11 @@ def fit_war_model(
                 if entry["is_uncontested"]:
                     continue
                 tide = tide_by_year.get(entry["year"])
-                if tide is None:
+                approval = approval_by_year.get(entry["year"])
+                if tide is None or approval is None:
                     continue
+                open_seat_raw = entry.get("is_open_seat")
+                open_seat = None if open_seat_raw is None else (1.0 if open_seat_raw else 0.0)
                 for c in entry["candidates"]:
                     if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
                         continue
@@ -581,8 +720,7 @@ def fit_war_model(
                     dem_flag = 1.0 if is_dem else 0.0
                     own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
                     own_tide = tide if is_dem else 1 - tide
-                    finance = finance_by_slug.get(c["slug"], {}).get("by_year", {}).get(entry["year"])
-                    raised = finance["total_raised"] if finance else None
+                    own_approval = approval if is_dem else 1 - approval
                     row = {
                         "own_share": c["actual_two_party_share"],
                         "is_dem": dem_flag,
@@ -590,11 +728,16 @@ def fit_war_model(
                         "own_lean_x_dem": own_lean * dem_flag,
                         "own_tide": own_tide,
                         "own_tide_x_dem": own_tide * dem_flag,
+                        "national_approval": own_approval,
+                        "open_seat": open_seat,
                         "bachelors_pct": covariates.get("bachelors_pct"),
                         "hispanic_pct": covariates.get("hispanic_pct"),
                         "voting_age_pct": covariates.get("voting_age_pct"),
                         "income_10k": covariates.get("income_10k"),
-                        "log_raised": float(np.log1p(raised)) if raised is not None else None,
+                        "median_age_10": covariates.get("median_age_10"),
+                        "homeownership_pct": covariates.get("homeownership_pct"),
+                        "white_pct": covariates.get("white_pct"),
+                        "fundraising_share": _fundraising_share(finance_by_slug, entry, c),
                     }
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
                     row["incumbent"] = is_incumbent
@@ -606,12 +749,12 @@ def fit_war_model(
     # Each extension covariate is centered on its own mean among rows
     # that actually have it, then missing rows are filled with that same
     # mean — so their centered value is exactly 0 and they don't move the
-    # fitted coefficient, while every row's lean/tide/incumbency values
-    # still inform the shared core terms (see this function's own
+    # fitted coefficient, while every row's lean/tide/approval/incumbency
+    # values still inform the shared core terms (see this function's own
     # docstring). reference_values is exported so apply_war can reuse the
     # exact same centering when computing each race's own component.
     reference_values = {}
-    for col in ("bachelors_pct", "hispanic_pct", "voting_age_pct", "income_10k", "log_raised"):
+    for col in _GENERAL_EXTENSION_COVARIATES:
         real = df[col].dropna()
         reference_values[col] = float(real.mean()) if len(real) else 0.0
         df[f"n_{col}"] = int(real.count())
@@ -624,42 +767,47 @@ def fit_war_model(
         "own_lean_x_dem",
         "own_tide",
         "own_tide_x_dem",
+        "national_approval",
         "incumbent",
         "incumbent_x_dem",
+        "open_seat",
         "bachelors_pct",
         "hispanic_pct",
         "voting_age_pct",
         "income_10k",
-        "log_raised",
+        "median_age_10",
+        "homeownership_pct",
+        "white_pct",
+        "fundraising_share",
     ]
     x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in feature_names[1:]])
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
     fit["reference_values"] = reference_values
     fit["n_incumbent"] = int(df["incumbent"].sum())
     fit["n_non_incumbent"] = int(len(df) - df["incumbent"].sum())
+    fit["n_open_seat"] = int(df["n_open_seat"].iloc[0])
     fit["n_demographics"] = int(df["n_bachelors_pct"].iloc[0])
-    fit["n_finance"] = int(df["n_log_raised"].iloc[0])
+    fit["n_finance"] = int(df["n_fundraising_share"].iloc[0])
     return fit
 
 
 def apply_war(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
+    approval_by_year: dict[int, float],
     current_vintage: str,
     finance_by_slug: dict,
     fit: dict,
 ) -> None:
     """Applies fit_war_model's posterior-mean coefficients to every
-    candidate-race across every vintage — the only WAR-application pass
-    this site needs now, replacing the old apply_war_v2/apply_war_v3_*/
-    apply_resolved_war_* chain: one model, one number per race, no
-    after-the-fact "which fit applies here" resolution. Sets
-    war_resolved/expected_share_resolved directly (kept under those
-    names for continuity with the resolved-WAR presentation work this
-    replaces) plus each decomposed component — intercept, lean, tide,
-    incumbency, and (wherever this specific race's own data supports
-    them) demographics and/or fundraising, which can now both apply to
-    the same race at once.
+    candidate-race across every vintage — one model, one number per race.
+    Sets war_resolved/expected_share_resolved plus each decomposed
+    component — intercept (which also absorbs open_seat's contribution,
+    since that term describes the race rather than this specific
+    candidate — see fit_war_model's own docstring), lean, tide, national
+    approval, incumbency, and (wherever this specific race's own data
+    supports them) demographics and/or fundraising, which can both apply
+    to the same race at once.
 
     Mutates candidate dicts inside district_records_by_vintage in place;
     must run after fit_war_model, and before write_district_files/
@@ -674,8 +822,11 @@ def apply_war(
     b_lean_dem, b_lean_dem_sd = coefs["own_lean_x_dem"]["posterior_mean"], coefs["own_lean_x_dem"]["posterior_sd"]
     b_tide, b_tide_sd = coefs["own_tide"]["posterior_mean"], coefs["own_tide"]["posterior_sd"]
     b_tide_dem, b_tide_dem_sd = coefs["own_tide_x_dem"]["posterior_mean"], coefs["own_tide_x_dem"]["posterior_sd"]
+    b_approval, b_approval_sd = coefs["national_approval"]["posterior_mean"], coefs["national_approval"]["posterior_sd"]
     b_inc, b_inc_sd = coefs["incumbent"]["posterior_mean"], coefs["incumbent"]["posterior_sd"]
     b_inc_dem, b_inc_dem_sd = coefs["incumbent_x_dem"]["posterior_mean"], coefs["incumbent_x_dem"]["posterior_sd"]
+    b_open, b_open_sd = coefs["open_seat"]["posterior_mean"], coefs["open_seat"]["posterior_sd"]
+    b_fund, b_fund_sd = coefs["fundraising_share"]["posterior_mean"], coefs["fundraising_share"]["posterior_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for vintage, records in district_records_by_vintage.items():
@@ -687,8 +838,16 @@ def apply_war(
 
             for entry in d["results_by_year"]:
                 tide = tide_by_year.get(entry["year"])
+                approval = approval_by_year.get(entry["year"])
+                open_seat_raw = entry.get("is_open_seat")
+                open_seat_centered = (
+                    (1.0 if open_seat_raw else 0.0) if open_seat_raw is not None else ref["open_seat"]
+                ) - ref["open_seat"]
+                open_seat_component = b_open * open_seat_centered
+                open_seat_component_sd = abs(open_seat_centered) * b_open_sd
+
                 for c in entry["candidates"]:
-                    if c["war"] is None or tide is None or c["party"] not in ("Democratic", "Republican"):
+                    if c["war"] is None or tide is None or approval is None or c["party"] not in ("Democratic", "Republican"):
                         c.update(
                             intercept_component=None,
                             intercept_component_sd=None,
@@ -696,6 +855,8 @@ def apply_war(
                             lean_component_sd=None,
                             tide_component=None,
                             tide_component_sd=None,
+                            approval_component=None,
+                            approval_component_sd=None,
                             incumbency_adjustment=None,
                             incumbency_adjustment_sd=None,
                             demographics_component=None,
@@ -714,14 +875,19 @@ def apply_war(
                     dem_flag = 1.0 if is_dem else 0.0
                     own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
                     own_tide = tide if is_dem else 1 - tide
+                    own_approval = approval if is_dem else 1 - approval
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
 
-                    intercept_component = b0 + b_dem * dem_flag
-                    intercept_component_sd = (b0_sd**2 + (dem_flag * b_dem_sd) ** 2) ** 0.5
+                    intercept_component = b0 + b_dem * dem_flag + open_seat_component
+                    intercept_component_sd = (
+                        b0_sd**2 + (dem_flag * b_dem_sd) ** 2 + open_seat_component_sd**2
+                    ) ** 0.5
                     lean_component = (b_lean + b_lean_dem * dem_flag) * own_lean
                     lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
                     tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
                     tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_component = b_approval * own_approval
+                    approval_component_sd = abs(own_approval) * b_approval_sd
                     incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
                     incumbency_component_sd = (
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
@@ -734,6 +900,9 @@ def apply_war(
                                 ("hispanic_pct", covariates["hispanic_pct"]),
                                 ("voting_age_pct", covariates["voting_age_pct"]),
                                 ("income_10k", covariates["income_10k"]),
+                                ("median_age_10", covariates["median_age_10"]),
+                                ("homeownership_pct", covariates["homeownership_pct"]),
+                                ("white_pct", covariates["white_pct"]),
                             ]
                         demographics_component = sum(
                             coefs[name]["posterior_mean"] * (value - ref[name]) for name, value in demo_terms
@@ -746,12 +915,10 @@ def apply_war(
                         demographics_component = None
                         demographics_component_sd = None
 
-                    finance = finance_by_slug.get(c["slug"], {}).get("by_year", {}).get(entry["year"])
-                    raised = finance["total_raised"] if finance else None
-                    if raised is not None:
-                        log_raised = float(np.log1p(raised))
-                        fundraising_component = coefs["log_raised"]["posterior_mean"] * (log_raised - ref["log_raised"])
-                        fundraising_component_sd = abs(log_raised - ref["log_raised"]) * coefs["log_raised"]["posterior_sd"]
+                    fundraising_share = _fundraising_share(finance_by_slug, entry, c)
+                    if fundraising_share is not None:
+                        fundraising_component = b_fund * (fundraising_share - ref["fundraising_share"])
+                        fundraising_component_sd = abs(fundraising_share - ref["fundraising_share"]) * b_fund_sd
                     else:
                         fundraising_component = None
                         fundraising_component_sd = None
@@ -760,20 +927,22 @@ def apply_war(
                         intercept_component
                         + lean_component
                         + tide_component
+                        + approval_component
                         + incumbency_component
                         + (demographics_component or 0.0)
                         + (fundraising_component or 0.0)
                     )
 
-                    factors = ["District lean", "Statewide tide", "Incumbency"]
+                    factors = ["District lean", "Statewide tide", "National presidential approval", "Incumbency"]
                     if demographics_component is not None:
                         factors.append(
-                            "District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income)"
+                            "District demographics (bachelor's degree %, Hispanic/Latino %, voting-age %, income, "
+                            "median age, homeownership %, white %)"
                             if has_full_demographics
                             else "District demographics (bachelor's degree %)"
                         )
                     if fundraising_component is not None:
-                        factors.append("Campaign fundraising")
+                        factors.append("Relative campaign fundraising")
 
                     c.update(
                         intercept_component=round(intercept_component, 4),
@@ -782,6 +951,8 @@ def apply_war(
                         lean_component_sd=round(lean_component_sd, 4),
                         tide_component=round(tide_component, 4),
                         tide_component_sd=round(tide_component_sd, 4),
+                        approval_component=round(approval_component, 4),
+                        approval_component_sd=round(approval_component_sd, 4),
                         incumbency_adjustment=round(incumbency_component, 4),
                         incumbency_adjustment_sd=round(incumbency_component_sd, 4),
                         demographics_component=round(demographics_component, 4) if demographics_component is not None else None,
@@ -805,6 +976,7 @@ def apply_war(
 def fit_us_house_war_model(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
+    approval_by_year: dict[int, float],
 ) -> dict:
     """MA's U.S. House delegation gets its own, separate regression from
     the state House/Senate model above — a direct user choice, not a
@@ -822,19 +994,25 @@ def fit_us_house_war_model(
     sample and vice versa.
 
         own_share ~ ush_intercept + ush_is_dem
-                     + ush_own_lean    + ush_own_lean_x_dem
-                     + ush_own_tide    + ush_own_tide_x_dem
-                     + ush_incumbent   + ush_incumbent_x_dem
+                     + ush_own_lean          + ush_own_lean_x_dem
+                     + ush_own_tide          + ush_own_tide_x_dem
+                     + ush_national_approval
+                     + ush_incumbent         + ush_incumbent_x_dem
+                     + ush_open_seat
 
     Same core-term shape and own-party sign-flip convention as
     fit_war_model (see its own docstring for what "own_*" means and why
-    the `_x_dem` terms exist) with no demographics or fundraising
-    extension — MA's congressional districts have no demographics
-    crosswalk built (Census PL 94-171/ACS matching here would need its
-    own new district roster, not done this round) and campaign finance
-    for federal candidates lives at the FEC, not OCPF (this site's only
-    campaign-finance source, which covers state filers only) — both real,
-    documented gaps (see methodology.md), not silent omissions."""
+    the `_x_dem` terms exist), including national_approval and open_seat
+    (neither depends on the two data sources this model still lacks —
+    national approval is a national-level series, not congressional-
+    district-specific, and open-seat status comes straight out of PD43+'s
+    own already-fetched results) — but still no demographics or
+    fundraising extension: MA's congressional districts have no
+    demographics crosswalk built (Census PL 94-171/ACS matching here would
+    need its own new district roster, not done this round) and campaign
+    finance for federal candidates lives at the FEC, not OCPF (this site's
+    only campaign-finance source, which covers state filers only) — both
+    real, documented gaps (see methodology.md), not silent omissions."""
     rows = []
     for records in district_records_by_vintage.values():
         for d in records:
@@ -844,8 +1022,11 @@ def fit_us_house_war_model(
                 if entry["is_uncontested"]:
                     continue
                 tide = tide_by_year.get(entry["year"])
-                if tide is None:
+                approval = approval_by_year.get(entry["year"])
+                if tide is None or approval is None:
                     continue
+                open_seat_raw = entry.get("is_open_seat")
+                open_seat = None if open_seat_raw is None else (1.0 if open_seat_raw else 0.0)
                 for c in entry["candidates"]:
                     if c["war"] is None or c["party"] not in ("Democratic", "Republican"):
                         continue
@@ -853,6 +1034,7 @@ def fit_us_house_war_model(
                     dem_flag = 1.0 if is_dem else 0.0
                     own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
                     own_tide = tide if is_dem else 1 - tide
+                    own_approval = approval if is_dem else 1 - approval
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
                     rows.append(
                         {
@@ -862,12 +1044,21 @@ def fit_us_house_war_model(
                             "own_lean_x_dem": own_lean * dem_flag,
                             "own_tide": own_tide,
                             "own_tide_x_dem": own_tide * dem_flag,
+                            "national_approval": own_approval,
                             "incumbent": is_incumbent,
                             "incumbent_x_dem": is_incumbent * dem_flag,
+                            "open_seat": open_seat,
                         }
                     )
 
     df = pd.DataFrame(rows)
+
+    reference_values = {}
+    real = df["open_seat"].dropna()
+    reference_values["open_seat"] = float(real.mean()) if len(real) else 0.0
+    df["n_open_seat"] = int(real.count())
+    df["open_seat"] = df["open_seat"].fillna(reference_values["open_seat"]) - reference_values["open_seat"]
+
     feature_names = [
         "ush_intercept",
         "ush_is_dem",
@@ -875,41 +1066,62 @@ def fit_us_house_war_model(
         "ush_own_lean_x_dem",
         "ush_own_tide",
         "ush_own_tide_x_dem",
+        "ush_national_approval",
         "ush_incumbent",
         "ush_incumbent_x_dem",
+        "ush_open_seat",
     ]
-    raw_cols = ["is_dem", "own_lean", "own_lean_x_dem", "own_tide", "own_tide_x_dem", "incumbent", "incumbent_x_dem"]
+    raw_cols = [
+        "is_dem",
+        "own_lean",
+        "own_lean_x_dem",
+        "own_tide",
+        "own_tide_x_dem",
+        "national_approval",
+        "incumbent",
+        "incumbent_x_dem",
+        "open_seat",
+    ]
     x = np.column_stack([np.ones(len(df))] + [df[name].to_numpy() for name in raw_cols])
     fit = _bayesian_linear_regression(x, df["own_share"].to_numpy(), feature_names)
+    fit["reference_values"] = reference_values
     fit["n_incumbent"] = int(df["incumbent"].sum())
     fit["n_non_incumbent"] = int(len(df) - df["incumbent"].sum())
+    fit["n_open_seat"] = int(df["n_open_seat"].iloc[0])
     return fit
 
 
 def apply_us_house_war(
     district_records_by_vintage: dict[str, list[dict]],
     tide_by_year: dict[int, float],
+    approval_by_year: dict[int, float],
     fit: dict,
 ) -> None:
     """apply_war's counterpart for fit_us_house_war_model — same
-    intercept/lean/tide/incumbency decomposition, no demographics/
-    fundraising branches (see fit_us_house_war_model's own docstring for
-    why). Sets the same war_resolved/expected_share_resolved/war_factors
-    field names as apply_war, not a distinctly-prefixed set, since a
-    congressional district/seat/candidate page reuses the exact same
-    district/seat/candidate.html templates as a state one and those
+    intercept(+open-seat)/lean/tide/approval/incumbency decomposition, no
+    demographics/fundraising branches (see fit_us_house_war_model's own
+    docstring for why). Sets the same war_resolved/expected_share_resolved/
+    war_factors field names as apply_war, not a distinctly-prefixed set,
+    since a congressional district/seat/candidate page reuses the exact
+    same district/seat/candidate.html templates as a state one and those
     templates read those field names directly — only ever called on
     records already filtered to chamber="us-house" (see this function's
     own caller in main())."""
     coefs = fit["coefficients"]
+    ref = fit["reference_values"]
     b0, b0_sd = coefs["ush_intercept"]["posterior_mean"], coefs["ush_intercept"]["posterior_sd"]
     b_dem, b_dem_sd = coefs["ush_is_dem"]["posterior_mean"], coefs["ush_is_dem"]["posterior_sd"]
     b_lean, b_lean_sd = coefs["ush_own_lean"]["posterior_mean"], coefs["ush_own_lean"]["posterior_sd"]
     b_lean_dem, b_lean_dem_sd = coefs["ush_own_lean_x_dem"]["posterior_mean"], coefs["ush_own_lean_x_dem"]["posterior_sd"]
     b_tide, b_tide_sd = coefs["ush_own_tide"]["posterior_mean"], coefs["ush_own_tide"]["posterior_sd"]
     b_tide_dem, b_tide_dem_sd = coefs["ush_own_tide_x_dem"]["posterior_mean"], coefs["ush_own_tide_x_dem"]["posterior_sd"]
+    b_approval, b_approval_sd = (
+        coefs["ush_national_approval"]["posterior_mean"],
+        coefs["ush_national_approval"]["posterior_sd"],
+    )
     b_inc, b_inc_sd = coefs["ush_incumbent"]["posterior_mean"], coefs["ush_incumbent"]["posterior_sd"]
     b_inc_dem, b_inc_dem_sd = coefs["ush_incumbent_x_dem"]["posterior_mean"], coefs["ush_incumbent_x_dem"]["posterior_sd"]
+    b_open, b_open_sd = coefs["ush_open_seat"]["posterior_mean"], coefs["ush_open_seat"]["posterior_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for records in district_records_by_vintage.values():
@@ -918,8 +1130,16 @@ def apply_us_house_war(
                 continue
             for entry in d["results_by_year"]:
                 tide = tide_by_year.get(entry["year"])
+                approval = approval_by_year.get(entry["year"])
+                open_seat_raw = entry.get("is_open_seat")
+                open_seat_centered = (
+                    (1.0 if open_seat_raw else 0.0) if open_seat_raw is not None else ref["open_seat"]
+                ) - ref["open_seat"]
+                open_seat_component = b_open * open_seat_centered
+                open_seat_component_sd = abs(open_seat_centered) * b_open_sd
+
                 for c in entry["candidates"]:
-                    if c["war"] is None or tide is None or c["party"] not in ("Democratic", "Republican"):
+                    if c["war"] is None or tide is None or approval is None or c["party"] not in ("Democratic", "Republican"):
                         c.update(
                             intercept_component=None,
                             intercept_component_sd=None,
@@ -927,6 +1147,8 @@ def apply_us_house_war(
                             lean_component_sd=None,
                             tide_component=None,
                             tide_component_sd=None,
+                            approval_component=None,
+                            approval_component_sd=None,
                             incumbency_adjustment=None,
                             incumbency_adjustment_sd=None,
                             demographics_component=None,
@@ -945,20 +1167,27 @@ def apply_us_house_war(
                     dem_flag = 1.0 if is_dem else 0.0
                     own_lean = d["lean_dem_share_structural"] if is_dem else 1 - d["lean_dem_share_structural"]
                     own_tide = tide if is_dem else 1 - tide
+                    own_approval = approval if is_dem else 1 - approval
                     is_incumbent = _is_incumbent_dummy(c.get("incumbent_terms", 0))
 
-                    intercept_component = b0 + b_dem * dem_flag
-                    intercept_component_sd = (b0_sd**2 + (dem_flag * b_dem_sd) ** 2) ** 0.5
+                    intercept_component = b0 + b_dem * dem_flag + open_seat_component
+                    intercept_component_sd = (
+                        b0_sd**2 + (dem_flag * b_dem_sd) ** 2 + open_seat_component_sd**2
+                    ) ** 0.5
                     lean_component = (b_lean + b_lean_dem * dem_flag) * own_lean
                     lean_component_sd = abs(own_lean) * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
                     tide_component = (b_tide + b_tide_dem * dem_flag) * own_tide
                     tide_component_sd = abs(own_tide) * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_component = b_approval * own_approval
+                    approval_component_sd = abs(own_approval) * b_approval_sd
                     incumbency_component = (b_inc + b_inc_dem * dem_flag) * is_incumbent
                     incumbency_component_sd = (
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
                     )
 
-                    expected = intercept_component + lean_component + tide_component + incumbency_component
+                    expected = (
+                        intercept_component + lean_component + tide_component + approval_component + incumbency_component
+                    )
 
                     c.update(
                         intercept_component=round(intercept_component, 4),
@@ -967,6 +1196,8 @@ def apply_us_house_war(
                         lean_component_sd=round(lean_component_sd, 4),
                         tide_component=round(tide_component, 4),
                         tide_component_sd=round(tide_component_sd, 4),
+                        approval_component=round(approval_component, 4),
+                        approval_component_sd=round(approval_component_sd, 4),
                         incumbency_adjustment=round(incumbency_component, 4),
                         incumbency_adjustment_sd=round(incumbency_component_sd, 4),
                         demographics_component=None,
@@ -979,7 +1210,7 @@ def apply_us_house_war(
                             None if entry["is_uncontested"] else round(c["actual_two_party_share"] - expected, 4)
                         ),
                         war_resolved_sd=None if entry["is_uncontested"] else round(sigma, 4),
-                        war_factors=["District lean", "Statewide tide", "Incumbency"],
+                        war_factors=["District lean", "Statewide tide", "National presidential approval", "Incumbency"],
                     )
 
 
@@ -1342,7 +1573,15 @@ def build_primary_war_fit_sample(district_records_by_vintage: dict[str, list[dic
 
 
 _DEMOGRAPHICS_CORE_COVARIATES = ("bachelors_pct",)
-_DEMOGRAPHICS_FULL_COVARIATES = ("bachelors_pct", "hispanic_pct", "voting_age_pct", "income_10k")
+_DEMOGRAPHICS_FULL_COVARIATES = (
+    "bachelors_pct",
+    "hispanic_pct",
+    "voting_age_pct",
+    "income_10k",
+    "median_age_10",
+    "homeownership_pct",
+    "white_pct",
+)
 
 
 def _demographic_covariates(demographics: dict | None) -> dict[str, float]:
@@ -1359,7 +1598,18 @@ def _demographic_covariates(demographics: dict | None) -> dict[str, float]:
     (both need PL 94-171's population specifically — its own numerator and
     denominator have to come from the same table, not mixed across ACS and
     PL 94-171, which use different survey methodologies and reference
-    years). `income_10k` is median household income in $10,000 units."""
+    years). `income_10k` is median household income in $10,000 units.
+
+    `median_age_10`/`homeownership_pct`/`white_pct` are all ACS-only (median
+    age needs no separate denominator; homeownership and race both pair a
+    numerator and denominator from the *same* ACS table) — so, unlike
+    hispanic_pct/voting_age_pct, they ride along with bachelors_pct/
+    income_10k on whichever tier a district's ACS match already supports,
+    rather than adding a third core/full split of their own. `median_age_10`
+    is median age in decades (so a district going from 35 to 45 is a 1-unit
+    swing, the same "divide a real-world unit down to a comparably-sized
+    step" scaling `income_10k` already uses); `homeownership_pct`/
+    `white_pct` are 0-1 population shares like `bachelors_pct`."""
     if not demographics:
         return {}
     covariates: dict[str, float] = {}
@@ -1374,6 +1624,12 @@ def _demographic_covariates(demographics: dict | None) -> dict[str, float]:
             covariates["voting_age_pct"] = demographics["voting_age_population"] / pl_pop
     if demographics.get("median_household_income") is not None:
         covariates["income_10k"] = demographics["median_household_income"] / 10000
+    if demographics.get("median_age") is not None:
+        covariates["median_age_10"] = demographics["median_age"] / 10
+    if demographics.get("occupied_housing_units") and demographics.get("owner_occupied_housing_units") is not None:
+        covariates["homeownership_pct"] = demographics["owner_occupied_housing_units"] / demographics["occupied_housing_units"]
+    if demographics.get("total_population_race") and demographics.get("white_alone_not_hispanic_population") is not None:
+        covariates["white_pct"] = demographics["white_alone_not_hispanic_population"] / demographics["total_population_race"]
     return covariates
 
 
@@ -1800,6 +2056,8 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "lean_component_sd": c.get("lean_component_sd"),
                             "tide_component": c.get("tide_component"),
                             "tide_component_sd": c.get("tide_component_sd"),
+                            "approval_component": c.get("approval_component"),
+                            "approval_component_sd": c.get("approval_component_sd"),
                             "incumbency_adjustment": c.get("incumbency_adjustment"),
                             "incumbency_adjustment_sd": c.get("incumbency_adjustment_sd"),
                             "demographics_component": c.get("demographics_component"),
@@ -2138,6 +2396,12 @@ def build_us_senate_records(pd43_dir: Path) -> dict | None:
     help="Campaign finance data from fetch.campaign_finance; skipped (with a warning) if missing",
 )
 @click.option(
+    "--approval-dir",
+    type=click.Path(path_type=Path),
+    default=Path("data/raw/presidential_approval"),
+    help="Presidential approval-by-year data from fetch.presidential_approval, for the national_approval term",
+)
+@click.option(
     "--demographics-dir",
     type=click.Path(path_type=Path),
     default=Path("data/raw/demographics"),
@@ -2179,6 +2443,7 @@ def main(
     crosswalks_dir: Path,
     baseline_dir: Path,
     ocpf_dir: Path,
+    approval_dir: Path,
     demographics_dir: Path,
     site_data_dir: Path,
     seats_out_dir: Path,
@@ -2231,6 +2496,7 @@ def main(
 
     site_data_dir.mkdir(parents=True, exist_ok=True)
     tide_by_year = compute_statewide_tide_by_year(baseline_dir)
+    approval_by_year = compute_national_approval_by_year(approval_dir)
 
     # fit_war_model needs finance_by_slug (for its log_raised term) before it
     # can run, and campaign-finance matching needs a candidate_records
@@ -2245,24 +2511,28 @@ def main(
     else:
         logger.warning("No OCPF data at %s — candidate pages will have no campaign-finance section", ocpf_dir)
 
-    war_fit = fit_war_model(district_records_by_vintage, tide_by_year, current_vintage, finance_by_slug)
+    war_fit = fit_war_model(district_records_by_vintage, tide_by_year, approval_by_year, current_vintage, finance_by_slug)
     logger.info(
         "WAR model fit: n=%d, R²=%s, own_lean=%+.3f (x_dem %+.3f), own_tide=%+.3f (x_dem %+.3f), "
-        "incumbent=%+.3f (x_dem %+.3f), n_demographics=%d, n_finance=%d",
+        "national_approval=%+.3f, incumbent=%+.3f (x_dem %+.3f), open_seat=%+.3f, "
+        "n_demographics=%d, n_finance=%d, n_open_seat=%d",
         war_fit["n"],
         war_fit["r_squared"],
         war_fit["coefficients"]["own_lean"]["posterior_mean"],
         war_fit["coefficients"]["own_lean_x_dem"]["posterior_mean"],
         war_fit["coefficients"]["own_tide"]["posterior_mean"],
         war_fit["coefficients"]["own_tide_x_dem"]["posterior_mean"],
+        war_fit["coefficients"]["national_approval"]["posterior_mean"],
         war_fit["coefficients"]["incumbent"]["posterior_mean"],
         war_fit["coefficients"]["incumbent_x_dem"]["posterior_mean"],
+        war_fit["coefficients"]["open_seat"]["posterior_mean"],
         war_fit["n_demographics"],
         war_fit["n_finance"],
+        war_fit["n_open_seat"],
     )
     (site_data_dir / "war_model.yml").write_text(yaml.safe_dump(war_fit, sort_keys=False))
 
-    apply_war(district_records_by_vintage, tide_by_year, current_vintage, finance_by_slug, war_fit)
+    apply_war(district_records_by_vintage, tide_by_year, approval_by_year, current_vintage, finance_by_slug, war_fit)
 
     fit_sample = build_war_fit_sample(district_records_by_vintage)
     (site_data_dir / "war_fit_sample.yml").write_text(yaml.safe_dump(fit_sample, sort_keys=False))
@@ -2295,22 +2565,24 @@ def main(
     # candidates on a congressional district page still show their raw
     # actual_primary_share/fair_share, just no fitted primary_war overlay.
     if us_house and any(ush_district_records_by_vintage.values()):
-        us_house_war_fit = fit_us_house_war_model(ush_district_records_by_vintage, tide_by_year)
+        us_house_war_fit = fit_us_house_war_model(ush_district_records_by_vintage, tide_by_year, approval_by_year)
         logger.info(
             "U.S. House WAR model fit: n=%d, R²=%s, own_lean=%+.3f (x_dem %+.3f), own_tide=%+.3f (x_dem %+.3f), "
-            "incumbent=%+.3f (x_dem %+.3f)",
+            "national_approval=%+.3f, incumbent=%+.3f (x_dem %+.3f), open_seat=%+.3f",
             us_house_war_fit["n"],
             us_house_war_fit["r_squared"],
             us_house_war_fit["coefficients"]["ush_own_lean"]["posterior_mean"],
             us_house_war_fit["coefficients"]["ush_own_lean_x_dem"]["posterior_mean"],
             us_house_war_fit["coefficients"]["ush_own_tide"]["posterior_mean"],
             us_house_war_fit["coefficients"]["ush_own_tide_x_dem"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_national_approval"]["posterior_mean"],
             us_house_war_fit["coefficients"]["ush_incumbent"]["posterior_mean"],
             us_house_war_fit["coefficients"]["ush_incumbent_x_dem"]["posterior_mean"],
+            us_house_war_fit["coefficients"]["ush_open_seat"]["posterior_mean"],
         )
         (site_data_dir / "us_house_war_model.yml").write_text(yaml.safe_dump(us_house_war_fit, sort_keys=False))
 
-        apply_us_house_war(ush_district_records_by_vintage, tide_by_year, us_house_war_fit)
+        apply_us_house_war(ush_district_records_by_vintage, tide_by_year, approval_by_year, us_house_war_fit)
 
         us_house_fit_sample = build_war_fit_sample(ush_district_records_by_vintage)
         (site_data_dir / "us_house_war_fit_sample.yml").write_text(yaml.safe_dump(us_house_fit_sample, sort_keys=False))

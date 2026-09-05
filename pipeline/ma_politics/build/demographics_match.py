@@ -76,6 +76,15 @@ def load_demographics(chamber: str, demographics_dir: Path, district_names: list
                 int(income) if pd.notna(income) and int(income) != _ACS_SUPPRESSED_SENTINEL else None
             )
             entry["bachelors_degree_count"] = int(row["bachelors_degree_count"]) if pd.notna(row["bachelors_degree_count"]) else None
+            entry["median_age"] = float(row["median_age"]) if pd.notna(row["median_age"]) else None
+            entry["occupied_housing_units"] = int(row["occupied_housing_units"]) if pd.notna(row["occupied_housing_units"]) else None
+            entry["owner_occupied_housing_units"] = (
+                int(row["owner_occupied_housing_units"]) if pd.notna(row["owner_occupied_housing_units"]) else None
+            )
+            entry["total_population_race"] = int(row["total_population_race"]) if pd.notna(row["total_population_race"]) else None
+            entry["white_alone_not_hispanic_population"] = (
+                int(row["white_alone_not_hispanic_population"]) if pd.notna(row["white_alone_not_hispanic_population"]) else None
+            )
             # Fetched but previously dropped on the floor here: a fallback
             # population denominator for districts PL 94-171 failed to
             # match (its own name-matching runs independently of ACS's —
