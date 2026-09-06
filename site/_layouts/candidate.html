@@ -13,7 +13,10 @@ layout: default
   <section>
     <h2>WAR vs. replacement level over time</h2>
     <p>
-      Solid points are what {{ page.name }} actually got each year; the
+      Solid points are what {{ page.name }} actually got each year (a
+      <strong>hollow</strong> point marks a year that was uncontested —
+      the near-100% "actual" share there is mechanically inflated, not
+      earned, so it's marked apart from a genuine landslide); the
       dashed line is what WAR expected given the district's lean and
       (when {{ page.name }} was the incumbent) the incumbency adjustment
       &mdash; plus local demographics or {{ page.name }}'s own campaign
@@ -65,11 +68,17 @@ layout: default
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for {{ page.name }}'s actual share by year, with redistricting years marked and each bar labeled General, Primary, or Special"></div>
     <p>
-      The chart above shows each component's best estimate; it doesn't
-      show how uncertain any of them are. This one does &mdash; the same
-      components for one selected race, plotted as a point (the estimate)
-      and a line (an approximate 95% interval, from each coefficient's own
-      posterior uncertainty):
+      The chart above shows each component's best estimate at that race's
+      own values; it doesn't show how uncertain any of them are, and a
+      genuinely small effect looks the same as one whose value just happens
+      to be modest in that particular race. This one fixes both &mdash;
+      the same components for one selected race, rescaled to "effect of a
+      full 1&nbsp;standard-deviation move" (the same standardized units the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page's</a>
+      own overview chart uses — a primary race has no standardized form of
+      its own terms, so it shows fewer rows here than in the bar chart
+      above), plotted as a point (the estimate) and a line (an approximate
+      95% interval, from each coefficient's own posterior uncertainty):
     </p>
     <p>
       <label for="attribution-uncertainty-year">Race: </label>
@@ -98,10 +107,10 @@ layout: default
           <td>{% if r.stage == "primary" %}Primary{% if r.is_special %} <em>(special)</em>{% endif %}{% else %}General{% endif %}</td>
           <td>{% if r.winner %}Won{% else %}Lost{% endif %}{% if r.is_uncontested %} (uncontested){% endif %}{% if r.is_incumbent %} (incumbent){% endif %}</td>
           <td>{{ r.votes }}</td>
-          <td>{% if share %}{{ share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if war %}{{ war | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if expected %}{{ expected | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if factors %}{{ factors | join: ", " }}{% endif %}</small></td>
+          <td>{% if share %}{{ share | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% if war %}{{ war | times: 100 | round: 1 }}{% else %}&mdash;{% endif %}</td>
+          <td>{% if expected %}{{ expected | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% include factor-chips.html factors=factors %}</td>
         </tr>
         {% endfor %}
       </tbody>
@@ -170,7 +179,8 @@ layout: default
       "series": "Actual share",
       "share": {{ r.actual_two_party_share | jsonify }},
       "war_resolved": {{ r.war_resolved | jsonify }},
-      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }}
+      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }},
+      "is_uncontested": {{ r.is_uncontested | jsonify }}
     },
     {
       "year": {{ r.year | jsonify }},
@@ -179,7 +189,8 @@ layout: default
       "series": "Expected share",
       "share": {{ r.expected_share_resolved | jsonify }},
       "war_resolved": {{ r.war_resolved | jsonify }},
-      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }}
+      "is_redistricting_year": {{ r.is_redistricting_year | jsonify }},
+      "is_uncontested": {{ r.is_uncontested | jsonify }}
     },
     {% endfor %}
   ].filter((d) => d.share !== null && d.share !== undefined);
@@ -274,7 +285,7 @@ layout: default
       redistrictingLayer("ordinal"),
       {
         "data": { "values": raceData },
-        "mark": { "type": "line", "point": true, "cursor": "pointer" },
+        "mark": { "type": "line" },
         "encoding": {
           "x": { "field": "year", "type": "ordinal", "title": "Year" },
           "y": {
@@ -297,6 +308,29 @@ layout: default
           "strokeDash": {
             "field": "series", "type": "nominal", "title": "Series",
             "scale": { "domain": ["Actual share", "Expected share"], "range": [[1, 0], [4, 2]] }
+          }
+        }
+      },
+      {
+        // A separate point layer (not "point: true" on the line above) so
+        // an uncontested year's "Actual share" point — mechanically
+        // inflated toward 100%, not earned, per the methodology page — can
+        // render hollow instead of filled, the standard convention for
+        // "not a real observation," rather than looking identical to a
+        // genuine landslide.
+        "data": { "values": raceData },
+        "mark": { "type": "point", "size": 70, "strokeWidth": 2, "cursor": "pointer" },
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal" },
+          "y": { "field": "share", "type": "quantitative" },
+          "stroke": {
+            "field": "series", "type": "nominal", "legend": null,
+            "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
+          },
+          "fill": {
+            "condition": { "test": "datum.series === 'Actual share' && datum.is_uncontested", "value": chartCssVar("--surface-page") },
+            "field": "series", "type": "nominal", "legend": null,
+            "scale": { "domain": ["Actual share", "Expected share"], "range": [actualColor, chartCssVar("--text-secondary")] }
           },
           "href": { "field": "url", "type": "nominal" },
           "tooltip": [
@@ -304,7 +338,8 @@ layout: default
             { "field": "year", "title": "Year" },
             { "field": "series", "title": "Series" },
             { "field": "share", "type": "quantitative", "format": ".1%" },
-            { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" }
+            { "field": "war_resolved", "type": "quantitative", "format": ".1%", "title": "WAR" },
+            { "field": "is_uncontested", "title": "Uncontested?" }
           ]
         }
       },
@@ -389,7 +424,13 @@ layout: default
       "incumbency_adjustment": {{ incumbency | jsonify }}, "incumbency_adjustment_sd": {{ incumbency_sd | jsonify }},
       "demographics_component": {{ r.demographics_component | jsonify }}, "demographics_component_sd": {{ r.demographics_component_sd | jsonify }},
       "fundraising_component": {{ fundraising | jsonify }}, "fundraising_component_sd": {{ fundraising_sd | jsonify }},
-      "war_resolved": {{ war | jsonify }}, "war_resolved_sd": {{ war_sd | jsonify }}
+      "war_resolved": {{ war | jsonify }}, "war_resolved_sd": {{ war_sd | jsonify }},
+      "lean_standardized": {{ r.lean_standardized | jsonify }}, "lean_standardized_sd": {{ r.lean_standardized_sd | jsonify }},
+      "tide_standardized": {{ r.tide_standardized | jsonify }}, "tide_standardized_sd": {{ r.tide_standardized_sd | jsonify }},
+      "approval_standardized": {{ r.approval_standardized | jsonify }}, "approval_standardized_sd": {{ r.approval_standardized_sd | jsonify }},
+      "incumbency_standardized": {{ r.incumbency_standardized | jsonify }}, "incumbency_standardized_sd": {{ r.incumbency_standardized_sd | jsonify }},
+      "demographics_standardized": {{ r.demographics_standardized | jsonify }}, "demographics_standardized_sd": {{ r.demographics_standardized_sd | jsonify }},
+      "fundraising_standardized": {{ r.fundraising_standardized | jsonify }}, "fundraising_standardized_sd": {{ r.fundraising_standardized_sd | jsonify }}
     },
     {% endfor %}
   ];
@@ -408,15 +449,22 @@ layout: default
     ["Fundraising", "--war-fundraising"],
     ["WAR (residual)", "--war-residual"],
   ];
+  // Fourth/fifth entries (where present) are the standardized ("per 1 SD
+  // of predictor") sibling fields the uncertainty/forest chart below uses
+  // instead of the raw ones — see apply_war's own "Standardized" comment.
+  // A primary race has no standardized fields of its own (apply_primary_
+  // war doesn't compute them — its own baseline/incumbency/fundraising
+  // terms aren't on the same per-1-SD scale as the general model's), so
+  // those rows simply don't appear in a primary race's forest chart.
   const FIELD_MAP = {
-    "Baseline": ["intercept_component", "intercept_component_sd"],
-    "Lean": ["lean_component", "lean_component_sd"],
-    "Statewide tide": ["tide_component", "tide_component_sd"],
-    "Presidential approval": ["approval_component", "approval_component_sd"],
-    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
-    "Demographics": ["demographics_component", "demographics_component_sd"],
-    "Fundraising": ["fundraising_component", "fundraising_component_sd"],
-    "WAR (residual)": ["war_resolved", "war_resolved_sd"],
+    "Baseline": ["intercept_component", "intercept_component_sd", null, null],
+    "Lean": ["lean_component", "lean_component_sd", "lean_standardized", "lean_standardized_sd"],
+    "Statewide tide": ["tide_component", "tide_component_sd", "tide_standardized", "tide_standardized_sd"],
+    "Presidential approval": ["approval_component", "approval_component_sd", "approval_standardized", "approval_standardized_sd"],
+    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd", "incumbency_standardized", "incumbency_standardized_sd"],
+    "Demographics": ["demographics_component", "demographics_component_sd", "demographics_standardized", "demographics_standardized_sd"],
+    "Fundraising": ["fundraising_component", "fundraising_component_sd", "fundraising_standardized", "fundraising_standardized_sd"],
+    "WAR (residual)": ["war_resolved", "war_resolved_sd", null, null],
   };
   // race_label is a human-readable "kind of race" (used in the tooltip and
   // as the text-label layer's own short caption, see below); race_index is
@@ -442,100 +490,105 @@ layout: default
     });
   })();
   const attributionData = [];
-  // One row per race (not per component) labeling that race directly on
-  // the chart, positioned at its own bar's top — text right at the data,
-  // not a legend to decode. Tried two legend-based approaches first
-  // (opacity, then stroke/strokeDash) and both had real Vega-Lite
-  // rendering gaps: opacity swatches don't read as distinct at legend
-  // scale, and a strokeDash legend on a bar mark previews as a plain
-  // filled square regardless of the dash pattern (dash only previews on
-  // line-shaped legend symbols) — this sidesteps needing a legend at all.
-  // stack_top is computed here, not read off Vega-Lite's own stack
-  // transform (not exposed back to the data): with mixed-sign values,
-  // Vega-Lite's "stack: zero" puts every positive segment above 0 and
-  // every negative one below, so a bar's visual top is just the sum of
-  // its own positive components.
   const raceLabelData = [];
   attributionRaces.forEach((r) => {
     const raceLabel = r.stage === "primary" ? (r.is_special ? "Special-election primary" : "Primary") : "General";
     const raceLabelShort = r.stage === "primary" ? (r.is_special ? "Special" : "Primary") : "General";
-    let stackTop = 0;
     CANONICAL_COMPONENTS.forEach(([label], order) => {
       const fields = FIELD_MAP[label];
       const value = r[fields[0]];
       if (value === null || value === undefined) return;
-      if (value > 0) stackTop += value;
       attributionData.push({
         year: r.year, district_name: r.district_name, url: r.url, is_uncontested: r.is_uncontested,
         party: r.party, race_label: raceLabel, race_index: r.race_index, is_special: r.is_special,
         component: label, order, value,
       });
     });
-    raceLabelData.push({
-      year: r.year, url: r.url, race_index: r.race_index, race_label: raceLabelShort, stack_top: stackTop,
-    });
+    raceLabelData.push({ year: r.year, race_label: raceLabelShort });
   });
+  // One label PER YEAR, not per bar — "General"/"Primary"/"Special" no
+  // longer sits rotated inside each individual bar (nine years of that
+  // took a deliberate head-tilt to read); instead every race that year
+  // contributes its short label to one shared, horizontal caption above
+  // that year's whole bar group ("General" alone, or "General & Primary"
+  // when both landed the same year), read left to right like the years
+  // themselves.
+  const yearLabels = {};
+  raceLabelData.forEach((r) => {
+    if (!yearLabels[r.year]) yearLabels[r.year] = [];
+    if (!yearLabels[r.year].includes(r.race_label)) yearLabels[r.year].push(r.race_label);
+  });
+  const yearLabelData = Object.keys(yearLabels).map((year) => ({
+    year: isNaN(+year) ? year : +year,
+    label: yearLabels[year].join(" & "),
+  }));
   const attributionSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": "container",
-    "height": 240,
     "background": null,
-    "layer": [
-      redistrictingLayer("ordinal"),
+    "vconcat": [
       {
-        "data": { "values": attributionData },
-        // A primary's bar sits beside that year's general bar (xOffset,
-        // dodged within the year's ordinal band). What kind of race each
-        // bar is gets a text label directly above it (the layer below),
-        // not a legend — two legend-based approaches tried first (opacity,
-        // then stroke/strokeDash) each hit a real Vega-Lite rendering
-        // limitation at legend scale; see that layer's own comment.
-        "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
+        "width": "container",
+        "height": 20,
+        "data": { "values": yearLabelData },
+        "mark": { "type": "text", "baseline": "middle", "fontSize": 10, "fontWeight": "bold" },
         "encoding": {
-          "x": { "field": "year", "type": "ordinal", "title": "Year" },
-          "xOffset": { "field": "race_index", "type": "ordinal", "legend": null },
-          "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
-          "order": { "field": "order" },
-          "color": {
-            "field": "component", "type": "nominal", "title": "Component",
-            "scale": {
-              "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
-              "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
-            }
-          },
-          "href": { "field": "url", "type": "nominal" },
-          "tooltip": [
-            { "field": "district_name", "title": "District" },
-            { "field": "year", "title": "Year" },
-            { "field": "race_label", "title": "Race" },
-            { "field": "party", "title": "Party" },
-            { "field": "is_uncontested", "title": "Uncontested?" },
-            { "field": "component", "title": "Component" },
-            { "field": "value", "type": "quantitative", "format": ".1%" }
-          ]
+          "x": { "field": "year", "type": "ordinal", "axis": null },
+          "y": { "value": 10 },
+          "text": { "field": "label" },
+          "color": { "value": chartCssVar("--text-secondary") }
         }
       },
       {
-        "data": { "values": raceLabelData },
-        // Rotated so "General"/"Primary"/"Special" (deliberately the same
-        // length, so they line up) fit above even a narrow dodged bar —
-        // up to 4 real same-year bars for one candidate (Denise Provost,
-        // 27th Middlesex, 2006). Text mark, not a legend: reads directly
-        // off the bar it labels, no decoding required.
-        "mark": {
-          "type": "text", "angle": 270, "align": "left", "baseline": "middle",
-          "dx": 4, "dy": 2, "fontSize": 9, "fontWeight": "bold", "cursor": "pointer"
-        },
-        "encoding": {
-          "x": { "field": "year", "type": "ordinal" },
-          "xOffset": { "field": "race_index", "type": "ordinal" },
-          "y": { "field": "stack_top", "type": "quantitative" },
-          "text": { "field": "race_label" },
-          "color": { "value": chartCssVar("--text-primary") },
-          "href": { "field": "url", "type": "nominal" }
-        }
+        "width": "container",
+        "height": 240,
+        "layer": [
+          redistrictingLayer("ordinal"),
+          {
+            "data": { "values": attributionData },
+            // A primary's bar sits beside that year's general bar (xOffset,
+            // dodged within the year's ordinal band) — which kind of race
+            // each bar is now comes from the shared year-label strip above,
+            // not a per-bar label or legend.
+            "mark": { "type": "bar", "cursor": "pointer", "stroke": chartCssVar("--gridline"), "strokeWidth": 1 },
+            "encoding": {
+              "x": { "field": "year", "type": "ordinal", "title": "Year" },
+              "xOffset": { "field": "race_index", "type": "ordinal", "legend": null },
+              "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
+              "order": { "field": "order" },
+              "color": {
+                "field": "component", "type": "nominal", "title": "Component",
+                "scale": {
+                  "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+                  "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
+                }
+              },
+              // Baseline folds in several different fitted constants and
+              // is routinely the largest block in the stack despite being
+              // the hardest one to explain in a sentence — faded so the
+              // eye reads it as context, leaving each year's real color
+              // story (what's actually driving that particular result) as
+              // the thing that stands out. See the district-page chart's
+              // own matching comment.
+              "opacity": {
+                "condition": { "test": "datum.component === 'Baseline'", "value": 0.4 },
+                "value": 0.95
+              },
+              "href": { "field": "url", "type": "nominal" },
+              "tooltip": [
+                { "field": "district_name", "title": "District" },
+                { "field": "year", "title": "Year" },
+                { "field": "race_label", "title": "Race" },
+                { "field": "party", "title": "Party" },
+                { "field": "is_uncontested", "title": "Uncontested?" },
+                { "field": "component", "title": "Component" },
+                { "field": "value", "type": "quantitative", "format": ".1%" }
+              ]
+            }
+          }
+        ]
       }
     ],
+    "resolve": { "scale": { "x": "shared" } },
     "config": {
       "axis": {
         "labelColor": chartCssVar("--text-secondary"),
@@ -572,17 +625,42 @@ layout: default
     // ascending by year, so the last entry is it).
     yearSelect.value = raceKey(attributionRaces[attributionRaces.length - 1]);
 
+    const componentColorScale = {
+      "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+      "range": CANONICAL_COMPONENTS.map((c) => chartCssVar(c[1]))
+    };
+    const uncertaintyContainer = document.getElementById("attribution-uncertainty-chart");
     function renderUncertaintyChart(key) {
       const race = attributionRaces.find((r) => raceKey(r) === key);
       if (!race) return;
+      // Standardized ("per 1 SD of predictor") values, same convention as
+      // district.html's own forest chart — see FIELD_MAP's own comment for
+      // why a primary race simply has fewer rows here than its bar chart.
       const uncertaintyData = [];
       CANONICAL_COMPONENTS.forEach(([label]) => {
-        const fields = FIELD_MAP[label];
-        const value = race[fields[0]];
+        const [, , stdField, stdSdField] = FIELD_MAP[label];
+        if (!stdField) return;
+        const value = race[stdField];
         if (value === null || value === undefined) return;
-        const sd = race[fields[1]] || 0;
+        const sd = race[stdSdField] || 0;
         uncertaintyData.push({ component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
       });
+      if (uncertaintyData.length === 0) {
+        // A primary race has no standardized fields of its own (see
+        // FIELD_MAP's own comment) — an empty chart with two overlapping
+        // direction labels at x=0 is worse than saying so plainly.
+        uncertaintyContainer.innerHTML =
+          "<p><em>No standardized breakdown available for this race — this site's separate primary model doesn't compute standardized coefficients of its own.</em></p>";
+        return;
+      }
+      const uncertaintyX = uncertaintyData.reduce(
+        (acc, d) => [Math.min(acc[0], d.lo), Math.max(acc[1], d.hi)],
+        [0, 0]
+      );
+      const directionAnnotationData = {
+        hurts: [{ "x": uncertaintyX[0] }],
+        helps: [{ "x": uncertaintyX[1] }]
+      };
       const uncertaintySpec = {
         "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
         "width": "container",
@@ -599,9 +677,9 @@ layout: default
             "mark": { "type": "rule", "size": 2 },
             "encoding": {
               "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
-              "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
+              "x": { "field": "lo", "type": "quantitative", "title": "Effect of a 1 SD move (standardized)", "axis": { "format": "%" } },
               "x2": { "field": "hi" },
-              "color": { "value": actualColor }
+              "color": { "field": "component", "type": "nominal", "scale": componentColorScale, "legend": null }
             }
           },
           {
@@ -610,13 +688,37 @@ layout: default
             "encoding": {
               "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
               "x": { "field": "mean", "type": "quantitative" },
-              "color": { "value": actualColor },
+              "color": { "field": "component", "type": "nominal", "scale": componentColorScale, "legend": null },
               "tooltip": [
                 { "field": "component", "title": "Component" },
-                { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
+                { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Standardized estimate" },
                 { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
                 { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
               ]
+            }
+          },
+          // Two static text marks, layered directly into the same view —
+          // see district.html's own matching comment for why not a
+          // separate vconcat row (a second view with no y-axis has a
+          // different left margin, misaligning a same-named "shared" x
+          // scale's pixel mapping) nor a data-driven "align"/"color"
+          // encoding (dropped/conflicting).
+          {
+            "data": { "values": directionAnnotationData.hurts },
+            "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -4, "fontWeight": 700, "fontSize": 11, "text": "← hurts this candidate" },
+            "encoding": {
+              "x": { "field": "x", "type": "quantitative" },
+              "y": { "value": 220 },
+              "color": { "value": "#b3441c" }
+            }
+          },
+          {
+            "data": { "values": directionAnnotationData.helps },
+            "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -4, "fontWeight": 700, "fontSize": 11, "text": "helps this candidate →" },
+            "encoding": {
+              "x": { "field": "x", "type": "quantitative" },
+              "y": { "value": 220 },
+              "color": { "value": "#147a4f" }
             }
           }
         ],

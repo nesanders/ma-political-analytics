@@ -17,16 +17,28 @@ races:
   intercept_component_sd: 0.0305
   lean_component: -0.1434
   lean_component_sd: 0.0062
+  lean_standardized: 0.0686
+  lean_standardized_sd: 0.0029
   tide_component: 0.0026
   tide_component_sd: 0.0037
+  tide_standardized: -0.0023
+  tide_standardized_sd: 0.0033
   approval_component: 0.0177
   approval_component_sd: 0.0019
+  approval_standardized: 0.0184
+  approval_standardized_sd: 0.0019
   incumbency_adjustment: 0.0
   incumbency_adjustment_sd: 0.0
+  incumbency_standardized: 0.0598
+  incumbency_standardized_sd: 0.0038
   demographics_component: -0.0
   demographics_component_sd: 0.0017
+  demographics_standardized: -0.0001
+  demographics_standardized_sd: 0.0025
   fundraising_component: null
   fundraising_component_sd: null
+  fundraising_standardized: null
+  fundraising_standardized_sd: null
   demographics_tier: core
   expected_share_resolved: 0.2999
   war_resolved: -0.0021

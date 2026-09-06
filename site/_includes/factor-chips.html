@@ -1,0 +1,30 @@
+{%- comment -%}
+Renders `include.factors` (a war_factors/primary_war_factors array) as
+small colored chips instead of a comma-separated sentence, each matched to
+the same --war-* token its chart segment uses — so a results-table row
+visually rhymes with the attribution chart's own legend instead of
+repeating it in prose. See site/assets/css/main.css for the .factor-chip
+rules this depends on.
+{%- endcomment -%}
+{%- if include.factors -%}
+{%- for factor in include.factors -%}
+{%- assign chip_class = "" -%}
+{%- assign chip_label = factor -%}
+{%- if factor contains "Equal share" -%}
+{%- assign chip_class = "intercept" -%}{%- assign chip_label = "Baseline" -%}
+{%- elsif factor contains "lean" -%}
+{%- assign chip_class = "lean" -%}{%- assign chip_label = "District lean" -%}
+{%- elsif factor contains "tide" -%}
+{%- assign chip_class = "tide" -%}{%- assign chip_label = "Statewide tide" -%}
+{%- elsif factor contains "approval" -%}
+{%- assign chip_class = "approval" -%}{%- assign chip_label = "Presidential approval" -%}
+{%- elsif factor contains "Incumbency" -%}
+{%- assign chip_class = "incumbency" -%}{%- assign chip_label = "Incumbency" -%}
+{%- elsif factor contains "demographics" -%}
+{%- assign chip_class = "extra" -%}{%- assign chip_label = "Demographics" -%}
+{%- elsif factor contains "fundraising" -%}
+{%- assign chip_class = "fundraising" -%}{%- assign chip_label = "Fundraising" -%}
+{%- endif -%}
+<span class="factor-chip factor-chip--{{ chip_class }}" title="{{ factor }}">{{ chip_label }}</span>
+{%- endfor -%}
+{%- endif -%}

@@ -34,16 +34,28 @@ results_by_year:
     intercept_component_sd: 0.0308
     lean_component: -0.0455
     lean_component_sd: 0.002
+    lean_standardized: 0.0686
+    lean_standardized_sd: 0.0029
     tide_component: 0.0026
     tide_component_sd: 0.0037
+    tide_standardized: -0.0023
+    tide_standardized_sd: 0.0033
     approval_component: 0.0177
     approval_component_sd: 0.0019
+    approval_standardized: 0.0184
+    approval_standardized_sd: 0.0019
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
+    incumbency_standardized: 0.0598
+    incumbency_standardized_sd: 0.0038
     demographics_component: -0.0
     demographics_component_sd: 0.0092
+    demographics_standardized: -0.0012
+    demographics_standardized_sd: 0.008
     fundraising_component: -0.0055
     fundraising_component_sd: 0.0009
+    fundraising_standardized: 0.0444
+    fundraising_standardized_sd: 0.0038
     demographics_tier: full
     expected_share_resolved: 0.4372
     war_resolved: 0.0647
@@ -69,16 +81,28 @@ results_by_year:
     intercept_component_sd: 0.0496
     lean_component: 0.051
     lean_component_sd: 0.0034
+    lean_standardized: 0.0768
+    lean_standardized_sd: 0.0051
     tide_component: 0.0001
     tide_component_sd: 0.0064
+    tide_standardized: 0.0001
+    tide_standardized_sd: 0.0057
     approval_component: -0.0177
     approval_component_sd: 0.0019
+    approval_standardized: 0.0184
+    approval_standardized_sd: 0.0019
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
+    incumbency_standardized: 0.0342
+    incumbency_standardized_sd: 0.0058
     demographics_component: -0.0
     demographics_component_sd: 0.0092
+    demographics_standardized: -0.0012
+    demographics_standardized_sd: 0.008
     fundraising_component: 0.0057
     fundraising_component_sd: 0.0011
+    fundraising_standardized: 0.0444
+    fundraising_standardized_sd: 0.0038
     demographics_tier: full
     expected_share_resolved: 0.5836
     war_resolved: -0.0855
@@ -113,16 +137,28 @@ results_by_year:
     intercept_component_sd: 0.0305
     lean_component: -0.0455
     lean_component_sd: 0.002
+    lean_standardized: 0.0686
+    lean_standardized_sd: 0.0029
     tide_component: 0.003
     tide_component_sd: 0.0042
+    tide_standardized: -0.0023
+    tide_standardized_sd: 0.0033
     approval_component: 0.0197
     approval_component_sd: 0.0021
+    approval_standardized: 0.0184
+    approval_standardized_sd: 0.0019
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
+    incumbency_standardized: 0.0598
+    incumbency_standardized_sd: 0.0038
     demographics_component: -0.0
     demographics_component_sd: 0.0092
+    demographics_standardized: -0.0012
+    demographics_standardized_sd: 0.008
     fundraising_component: 0.0547
     fundraising_component_sd: 0.0034
+    fundraising_standardized: 0.0444
+    fundraising_standardized_sd: 0.0038
     demographics_tier: full
     expected_share_resolved: 0.4665
     war_resolved: 0.1092
@@ -148,16 +184,28 @@ results_by_year:
     intercept_component_sd: 0.0495
     lean_component: 0.051
     lean_component_sd: 0.0034
+    lean_standardized: 0.0768
+    lean_standardized_sd: 0.0051
     tide_component: 0.0002
     tide_component_sd: 0.0073
+    tide_standardized: 0.0001
+    tide_standardized_sd: 0.0057
     approval_component: -0.0197
     approval_component_sd: 0.0021
+    approval_standardized: 0.0184
+    approval_standardized_sd: 0.0019
     incumbency_adjustment: 0.0
     incumbency_adjustment_sd: 0.0
+    incumbency_standardized: 0.0342
+    incumbency_standardized_sd: 0.0058
     demographics_component: -0.0
     demographics_component_sd: 0.0092
+    demographics_standardized: -0.0012
+    demographics_standardized_sd: 0.008
     fundraising_component: -0.055
     fundraising_component_sd: 0.0044
+    fundraising_standardized: 0.0444
+    fundraising_standardized_sd: 0.0038
     demographics_tier: full
     expected_share_resolved: 0.4877
     war_resolved: -0.0634

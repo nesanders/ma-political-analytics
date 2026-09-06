@@ -354,6 +354,30 @@ tr.winner {
   font-weight: 600;
 }
 
+/* Results-table "Factors" column chips — one per war_factors/
+   primary_war_factors entry, colored to match that term's own --war-*
+   attribution-chart segment (see _includes/factor-chips.html) rather than
+   repeating the same information as plain comma-separated prose. */
+.factor-chip {
+  display: inline-block;
+  margin: 0.1rem 0.3rem 0.1rem 0;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  border: 1px solid currentColor;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.factor-chip--intercept { color: var(--war-intercept); }
+.factor-chip--lean { color: var(--war-lean); }
+.factor-chip--tide { color: var(--war-tide); }
+.factor-chip--approval { color: var(--war-approval); }
+.factor-chip--incumbency { color: var(--war-incumbency); }
+.factor-chip--extra { color: var(--war-extra); }
+.factor-chip--fundraising { color: var(--war-fundraising); }
+
 th.sortable-col {
   cursor: pointer;
   user-select: none;

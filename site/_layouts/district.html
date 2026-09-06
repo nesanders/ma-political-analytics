@@ -82,13 +82,19 @@ layout: default
     </p>
     <div id="attribution-chart" role="img" aria-label="Stacked bar chart showing the regression baseline, lean component, tide component, incumbency adjustment, and WAR residual for each candidate in {{ latest_contested.year }}"></div>
     <p>
-      The chart above shows each component's best estimate; it doesn't show
-      how uncertain any of them are. This one does &mdash; the same
-      components, plotted as a point (the estimate) and a line (an
-      approximate 95% interval, from each coefficient's own posterior
-      uncertainty):
+      The chart above shows each component's best estimate at this race's own
+      values; it doesn't show how uncertain any of them are, and a term with
+      a genuinely small effect looks the same as one whose value just
+      happens to be modest in this particular race. This one fixes both
+      &mdash; each term rescaled to "effect of a full 1&nbsp;standard-
+      deviation move" (the same standardized units the
+      <a href="{{ '/methodology/' | relative_url }}">methodology page's</a>
+      own overview chart uses), plotted as a point (the estimate) and a line
+      (an approximate 95% interval from each coefficient's own posterior
+      uncertainty), colored to match the chart above and shaped by
+      candidate:
     </p>
-    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the same attribution components with approximate 95% intervals, grouped by candidate"></div>
+    <div id="attribution-uncertainty-chart" role="img" aria-label="Forest plot of the same attribution components, rescaled to standardized per-1-SD units, with approximate 95% intervals, grouped by candidate"></div>
     {% else %}
     <p>No contested major-party race is on record for this district yet.</p>
     {% endif %}
@@ -150,10 +156,10 @@ layout: default
           <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}{% if c.is_incumbent %} <em>(incumbent)</em>{% endif %}</td>
           <td>{{ c.party }}</td>
           <td>{{ c.votes }}</td>
-          <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if c.war_resolved %}{{ c.war_resolved | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if c.expected_share_resolved %}{{ c.expected_share_resolved | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if c.war_factors %}{{ c.war_factors | join: ", " }}{% endif %}</small></td>
+          <td>{% if c.actual_two_party_share %}{{ c.actual_two_party_share | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% if c.war_resolved %}{{ c.war_resolved | times: 100 | round: 1 }}{% else %}&mdash;{% endif %}</td>
+          <td>{% if c.expected_share_resolved %}{{ c.expected_share_resolved | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% include factor-chips.html factors=c.war_factors %}</td>
         </tr>
         {% endfor %}
       </tbody>
@@ -204,10 +210,10 @@ layout: default
         <tr{% if c.winner %} class="winner"{% endif %}>
           <td><a href="{{ '/candidate/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}</a>{% if c.winner %} ✓{% endif %}{% if c.is_incumbent %} <em>(incumbent)</em>{% endif %}</td>
           <td>{{ c.votes }}</td>
-          <td>{% if c.actual_primary_share %}{{ c.actual_primary_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td>{% if c.primary_war %}{{ c.primary_war | times: 100 | round: 1 }}{% endif %}</td>
-          <td>{% if c.primary_expected_share %}{{ c.primary_expected_share | times: 100 | round: 1 }}%{% endif %}</td>
-          <td><small>{% if c.primary_war_factors %}{{ c.primary_war_factors | join: ", " }}{% endif %}</small></td>
+          <td>{% if c.actual_primary_share %}{{ c.actual_primary_share | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% if c.primary_war %}{{ c.primary_war | times: 100 | round: 1 }}{% else %}&mdash;{% endif %}</td>
+          <td>{% if c.primary_expected_share %}{{ c.primary_expected_share | times: 100 | round: 1 }}%{% else %}&mdash;{% endif %}</td>
+          <td>{% include factor-chips.html factors=c.primary_war_factors %}</td>
         </tr>
         {% endfor %}
       </tbody>
@@ -319,12 +325,18 @@ layout: default
     { "name": {{ c.name | jsonify }}, "party": {{ c.party | jsonify }}, "url": {{ '/candidate/' | append: c.slug | append: '/' | relative_url | jsonify }},
       "intercept_component": {{ c.intercept_component | jsonify }}, "intercept_component_sd": {{ c.intercept_component_sd | jsonify }},
       "lean_component": {{ c.lean_component | jsonify }}, "lean_component_sd": {{ c.lean_component_sd | jsonify }},
+      "lean_standardized": {{ c.lean_standardized | jsonify }}, "lean_standardized_sd": {{ c.lean_standardized_sd | jsonify }},
       "tide_component": {{ c.tide_component | jsonify }}, "tide_component_sd": {{ c.tide_component_sd | jsonify }},
+      "tide_standardized": {{ c.tide_standardized | jsonify }}, "tide_standardized_sd": {{ c.tide_standardized_sd | jsonify }},
       "approval_component": {{ c.approval_component | jsonify }}, "approval_component_sd": {{ c.approval_component_sd | jsonify }},
+      "approval_standardized": {{ c.approval_standardized | jsonify }}, "approval_standardized_sd": {{ c.approval_standardized_sd | jsonify }},
       "incumbency_adjustment": {{ c.incumbency_adjustment | jsonify }}, "incumbency_adjustment_sd": {{ c.incumbency_adjustment_sd | jsonify }},
+      "incumbency_standardized": {{ c.incumbency_standardized | jsonify }}, "incumbency_standardized_sd": {{ c.incumbency_standardized_sd | jsonify }},
       "demographics_component": {{ c.demographics_component | jsonify }}, "demographics_component_sd": {{ c.demographics_component_sd | jsonify }},
+      "demographics_standardized": {{ c.demographics_standardized | jsonify }}, "demographics_standardized_sd": {{ c.demographics_standardized_sd | jsonify }},
       "demographics_tier": {{ c.demographics_tier | jsonify }},
       "fundraising_component": {{ c.fundraising_component | jsonify }}, "fundraising_component_sd": {{ c.fundraising_component_sd | jsonify }},
+      "fundraising_standardized": {{ c.fundraising_standardized | jsonify }}, "fundraising_standardized_sd": {{ c.fundraising_standardized_sd | jsonify }},
       "war_resolved": {{ c.war_resolved | jsonify }}, "war_resolved_sd": {{ c.war_resolved_sd | jsonify }} },
     {% endif %}
     {% endfor %}
@@ -345,29 +357,43 @@ layout: default
     ["Fundraising", "--war-fundraising"],
     ["WAR (residual)", "--war-residual"],
   ];
+  // Fourth/fifth entries (where present) are the standardized ("per 1 SD
+  // of predictor") sibling fields the uncertainty/forest chart below uses
+  // instead of the raw ones — see apply_war's own "Standardized" comment.
+  // Baseline and WAR (residual) have no standardized form (neither is a
+  // rescalable predictor effect) and are simply omitted from that chart.
   const FIELD_MAP = {
-    "Baseline": ["intercept_component", "intercept_component_sd"],
-    "Lean": ["lean_component", "lean_component_sd"],
-    "Statewide tide": ["tide_component", "tide_component_sd"],
-    "Presidential approval": ["approval_component", "approval_component_sd"],
-    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd"],
-    "Demographics": ["demographics_component", "demographics_component_sd"],
-    "Fundraising": ["fundraising_component", "fundraising_component_sd"],
-    "WAR (residual)": ["war_resolved", "war_resolved_sd"],
+    "Baseline": ["intercept_component", "intercept_component_sd", null, null],
+    "Lean": ["lean_component", "lean_component_sd", "lean_standardized", "lean_standardized_sd"],
+    "Statewide tide": ["tide_component", "tide_component_sd", "tide_standardized", "tide_standardized_sd"],
+    "Presidential approval": ["approval_component", "approval_component_sd", "approval_standardized", "approval_standardized_sd"],
+    "Incumbency": ["incumbency_adjustment", "incumbency_adjustment_sd", "incumbency_standardized", "incumbency_standardized_sd"],
+    "Demographics": ["demographics_component", "demographics_component_sd", "demographics_standardized", "demographics_standardized_sd"],
+    "Fundraising": ["fundraising_component", "fundraising_component_sd", "fundraising_standardized", "fundraising_standardized_sd"],
+    "WAR (residual)": ["war_resolved", "war_resolved_sd", null, null],
   };
   const attributionData = [];
   const uncertaintyData = [];
   attributionCandidates.forEach((c) => {
     CANONICAL_COMPONENTS.forEach(([label], order) => {
-      const fields = FIELD_MAP[label];
-      const [valueField, sdField] = fields;
+      const [valueField, sdField, stdField, stdSdField] = FIELD_MAP[label];
       const value = c[valueField];
       if (value === null || value === undefined) return;
       attributionData.push({ candidate: c.name, url: c.url, component: label, order, value });
-      const sd = c[sdField] || 0;
-      uncertaintyData.push({ candidate: c.name, party: c.party, component: label, mean: value, lo: value - 1.96 * sd, hi: value + 1.96 * sd });
+      if (!stdField) return;
+      const stdValue = c[stdField];
+      if (stdValue === null || stdValue === undefined) return;
+      const stdSd = c[stdSdField] || 0;
+      uncertaintyData.push({
+        candidate: c.name, party: c.party, component: label,
+        mean: stdValue, lo: stdValue - 1.96 * stdSd, hi: stdValue + 1.96 * stdSd
+      });
     });
   });
+  const componentColorScale = {
+    "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
+    "range": CANONICAL_COMPONENTS.map((c) => trendCssVar(c[1]))
+  };
   const attributionSpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
@@ -379,12 +405,16 @@ layout: default
       "x": { "field": "candidate", "type": "nominal", "title": null },
       "y": { "field": "value", "type": "quantitative", "axis": { "format": "%", "title": "Two-party vote share" }, "stack": "zero" },
       "order": { "field": "order" },
-      "color": {
-        "field": "component", "type": "nominal", "title": "Component",
-        "scale": {
-          "domain": CANONICAL_COMPONENTS.map((c) => c[0]),
-          "range": CANONICAL_COMPONENTS.map((c) => trendCssVar(c[1]))
-        }
+      "color": { "field": "component", "type": "nominal", "title": "Component", "scale": componentColorScale },
+      // Baseline folds in five different fitted constants (see apply_war's
+      // own docstring) and is routinely the single largest block in the
+      // stack despite being the hardest term to explain in one sentence —
+      // faded here so the eye reads it as context, not signal, next to the
+      // Lean/Tide/Approval/Incumbency/Fundraising terms a reader actually
+      // came to compare.
+      "opacity": {
+        "condition": { "test": "datum.component === 'Baseline'", "value": 0.4 },
+        "value": 0.95
       },
       "href": { "field": "url", "type": "nominal" },
       "tooltip": [
@@ -397,6 +427,17 @@ layout: default
   };
   vegaEmbed("#attribution-chart", attributionSpec, { actions: false }).catch(console.error);
 
+  // Left/right axis-end labels naming which direction is "good news" for
+  // the candidate on that row — the signed-bar convention (positive helps,
+  // negative hurts) otherwise lives only in the methodology page's prose.
+  const uncertaintyX = uncertaintyData.reduce(
+    (acc, d) => [Math.min(acc[0], d.lo), Math.max(acc[1], d.hi)],
+    [0, 0]
+  );
+  const directionAnnotationData = {
+    hurts: [{ "x": uncertaintyX[0] }],
+    helps: [{ "x": uncertaintyX[1] }]
+  };
   const uncertaintySpec = {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
@@ -414,12 +455,9 @@ layout: default
         "encoding": {
           "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
           "yOffset": { "field": "candidate" },
-          "x": { "field": "lo", "type": "quantitative", "title": "Two-party vote share", "axis": { "format": "%" } },
+          "x": { "field": "lo", "type": "quantitative", "title": "Effect of a 1 SD move (standardized)", "axis": { "format": "%" } },
           "x2": { "field": "hi" },
-          "color": {
-            "field": "party", "type": "nominal", "title": "Candidate",
-            "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
-          }
+          "color": { "field": "component", "type": "nominal", "scale": componentColorScale, "legend": null }
         }
       },
       {
@@ -429,17 +467,50 @@ layout: default
           "y": { "field": "component", "type": "nominal", "sort": CANONICAL_COMPONENTS.map((c) => c[0]), "title": null },
           "yOffset": { "field": "candidate" },
           "x": { "field": "mean", "type": "quantitative" },
-          "color": {
-            "field": "party", "type": "nominal",
-            "scale": { "domain": ["Democratic", "Republican"], "range": [colorDem, colorRep] }
+          "color": { "field": "component", "type": "nominal", "scale": componentColorScale, "legend": null },
+          // Component already colors and labels the row — shape carries
+          // party instead of color here, so the two candidates' own
+          // (genuinely different-width) intervals stay visually
+          // distinct without a second color key to learn.
+          "shape": {
+            "field": "party", "type": "nominal", "title": "Candidate",
+            "scale": { "domain": ["Democratic", "Republican"], "range": ["circle", "triangle"] }
           },
           "tooltip": [
             { "field": "candidate", "title": "Candidate" },
             { "field": "component", "title": "Component" },
-            { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Estimate" },
+            { "field": "mean", "type": "quantitative", "format": ".4f", "title": "Standardized estimate" },
             { "field": "lo", "type": "quantitative", "format": ".4f", "title": "~95% interval low" },
             { "field": "hi", "type": "quantitative", "format": ".4f", "title": "~95% interval high" }
           ]
+        }
+      },
+      // Two static text marks, layered directly into the same view (not a
+      // separate vconcat row) so they share this view's own x scale AND
+      // left/right margins exactly — a second view with no y-axis has a
+      // different left margin than this one (whose y-axis labels reserve
+      // real space), which visibly misaligned a same-named "shared" x
+      // scale's pixel mapping between the two views. Not a data-driven
+      // "align"/"color" encoding either: this project's pinned Vega-Lite
+      // build drops "align" as an encoding channel entirely (it's mark-
+      // only), and a field-driven "color" scale here fought with this
+      // view's own component color scale above.
+      {
+        "data": { "values": directionAnnotationData.hurts },
+        "mark": { "type": "text", "align": "left", "baseline": "bottom", "dy": -4, "fontWeight": 700, "fontSize": 11, "text": "← hurts this candidate" },
+        "encoding": {
+          "x": { "field": "x", "type": "quantitative" },
+          "y": { "value": 240 },
+          "color": { "value": "#b3441c" }
+        }
+      },
+      {
+        "data": { "values": directionAnnotationData.helps },
+        "mark": { "type": "text", "align": "right", "baseline": "bottom", "dy": -4, "fontWeight": 700, "fontSize": 11, "text": "helps this candidate →" },
+        "encoding": {
+          "x": { "field": "x", "type": "quantitative" },
+          "y": { "value": 240 },
+          "color": { "value": "#147a4f" }
         }
       }
     ],

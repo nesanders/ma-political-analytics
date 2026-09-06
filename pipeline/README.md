@@ -2020,3 +2020,71 @@ district's combined-map feature now carries real values — matching the
 already-documented, previously-verified 29/160 current-vintage House
 districts with a non-null `winner_war` (the rest correctly null,
 uncontested) exactly, not a coincidence.
+
+## Design-canvas dataviz clarity review, implemented into the live site
+
+A `/design` review of the district/seat/candidate attribution charts
+produced seven concrete findings (colors that don't match between the
+stacked bar and its own forest-plot companion, Baseline visually
+dominating the least explainable term, small-but-real effects rendering
+identically to genuinely-tiny ones, no on-chart cue for which direction
+is "good news," rotated in-bar labels on the multi-year chart, an
+uncontested "win" plotting identically to a real landslide, and blank/
+prose-heavy results-table cells). All seven are display-layer fixes — no
+change to the underlying model or its fitted values — but the third
+(defaulting the forest/uncertainty chart to standardized coefficients
+instead of each race's own raw values) needed new fields from
+`generate_site_data.py`, documented here.
+
+**New `*_standardized`/`*_standardized_sd` fields**, set alongside each
+existing `*_component` field in `apply_war`/`apply_us_house_war`, for
+lean, tide, approval, incumbency, demographics, and fundraising (not for
+intercept/Baseline or the WAR residual — neither has a "predictor" to
+rescale by). Where the raw component is `coefficient × (this race's own
+value)`, the standardized sibling is `coefficient × (that predictor's own
+fitted-sample SD)` — race-invariant within a party rather than scaled by
+this specific race's own lean/tide/approval/incumbency value, so a
+term's real average size is comparable across terms and across races on
+one shared "per 1 SD" scale, the same convention the methodology page's
+own overview forest plot already uses for its population-level
+coefficients. For lean/tide/incumbency (which carry a `_x_dem` delta
+term), the standardized value uses the *base* term's own predictor SD for
+both parties' effective (base + delta) coefficient — a documented
+simplification, not a second independent rescaling of the interaction
+term. For demographics/fundraising (no `_x_dem` term), it's simply the
+sum of `fit_war_model`'s own already-computed per-covariate
+`standardized_mean`/`standardized_sd` values. `build_candidate_records`'
+per-candidate race dicts carry these fields too, for candidate.html's
+own per-race forest chart; a primary race has none of its own (the
+separate primary model doesn't compute standardized coefficients), so
+candidate.html shows a plain "not available" note instead of an empty
+chart when the selected race is a primary.
+
+Also added a shared `_includes/factor-chips.html` (renders a
+`war_factors`/`primary_war_factors` array as small `--war-*`-colored
+chips instead of comma-separated prose) and a `.factor-chip` CSS rule
+block, both reused across district.html/seat.html/candidate.html's
+results tables.
+
+**Found and fixed two real Vega-Lite bugs while implementing Finding 4**
+(the "← hurts this candidate / helps this candidate →" axis-end labels):
+this project's pinned Vega-Lite build (5.23.0) silently drops `align` as
+an *encoding* channel (it's mark-only) rather than erroring, so a first
+attempt at a single data-driven text layer rendered both labels left-
+aligned and overlapping; and a field-driven `color` scale on that same
+layer, in a separate `vconcat` row with no explicit scale resolution,
+merged into the main forest chart's own component color scale (a
+"Conflicting scale property" console warning caught this, not a visual
+symptom) and silently discarded the intended red/green pair. Fixed by
+hardcoding each side's alignment and color as literal mark/encoding
+values in two separate static-data layers, folded directly into the main
+view's own `layer` array rather than a second `vconcat` row (which,
+having no y-axis, computed a different left margin and mis-mapped the
+"shared" x scale's pixel positions between the two rows).
+
+Verified live via Playwright: no Vega-Lite console warnings on any of
+district/seat/candidate pages; direction annotations render fully
+readable at both ends of the forest-plot axis; the multi-year
+attribution chart's year labels read horizontally without a head-tilt;
+uncontested trend points render hollow; results-table cells show an em
+dash instead of blank space and colored factor chips instead of prose.

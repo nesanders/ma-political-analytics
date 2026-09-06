@@ -174,6 +174,33 @@ static HTML files is fine on Pages.
   container, which collapses to zero width when combined with a chart
   spec's `"width": "container"` autosize — needs an explicit `display:
   block; width: 100%` override (see `site/assets/css/main.css`).
+  A `/design` canvas review of the district/seat/candidate attribution
+  charts found seven concrete clarity gaps (mismatched color languages
+  between the stacked bar and its own forest-plot companion, an
+  over-dominant Baseline segment, raw per-race values making small-
+  coefficient and small-in-this-race indistinguishable, no on-chart
+  direction cue, rotated multi-year labels, an uncontested "win" plotting
+  identically to a real landslide, and prose-heavy results-table cells)
+  and all seven are now implemented live: the forest/uncertainty chart
+  colors by component (matching the bar chart) and shapes by party
+  instead of coloring by party; it defaults to standardized (per-1-SD)
+  coefficients instead of each race's own raw values, with new
+  `*_standardized` fields computed alongside the existing `*_component`
+  ones (see `pipeline/README.md`'s own changelog for the exact formula
+  and its documented simplification for the `_x_dem` interaction terms);
+  Baseline is visually de-emphasized in both the single-race and
+  multi-year bar charts; axis-end labels name which direction helps or
+  hurts the candidate; multi-year stage labels ("General"/"Primary") read
+  horizontally, one per year, instead of rotated per-bar; an uncontested
+  year's "actual share" point renders hollow instead of filled; and
+  results tables render null numeric cells as an em dash and each factor
+  as a small `--war-*`-colored chip (`_includes/factor-chips.html`)
+  instead of comma-separated prose. Found and fixed two more real
+  gotchas along the way: this project's pinned Vega-Lite build (5.23.0)
+  silently drops `align` as an *encoding* channel rather than erroring,
+  and a field-driven color scale in a second `vconcat` view merged with
+  the main chart's own color scale unless resolved explicitly — both
+  worked around, not patched over (see `pipeline/README.md`).
 - **Maps**: MapLibre GL JS + precomputed TopoJSON per vintage (simplified
   with `mapshaper` to keep files small), choropleth by lean/competitiveness,
   click → seat page.

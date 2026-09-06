@@ -914,6 +914,12 @@ def apply_war(
     b_open, b_open_sd = coefs["open_seat"]["posterior_mean"], coefs["open_seat"]["posterior_sd"]
     b_fund, b_fund_sd = coefs["fundraising_share"]["posterior_mean"], coefs["fundraising_share"]["posterior_sd"]
     b_lograised, b_lograised_sd = coefs["log_raised"]["posterior_mean"], coefs["log_raised"]["posterior_sd"]
+    # Predictor SDs for the standardized ("per 1 SD") forest-plot view —
+    # see the *_standardized fields set below for what these are used for.
+    sd_lean = coefs["own_lean"]["predictor_sd"]
+    sd_tide = coefs["own_tide"]["predictor_sd"]
+    sd_approval = coefs["national_approval"]["predictor_sd"]
+    sd_incumbent = coefs["incumbent"]["predictor_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for vintage, records in district_records_by_vintage.items():
@@ -940,16 +946,28 @@ def apply_war(
                             intercept_component_sd=None,
                             lean_component=None,
                             lean_component_sd=None,
+                            lean_standardized=None,
+                            lean_standardized_sd=None,
                             tide_component=None,
                             tide_component_sd=None,
+                            tide_standardized=None,
+                            tide_standardized_sd=None,
                             approval_component=None,
                             approval_component_sd=None,
+                            approval_standardized=None,
+                            approval_standardized_sd=None,
                             incumbency_adjustment=None,
                             incumbency_adjustment_sd=None,
+                            incumbency_standardized=None,
+                            incumbency_standardized_sd=None,
                             demographics_component=None,
                             demographics_component_sd=None,
+                            demographics_standardized=None,
+                            demographics_standardized_sd=None,
                             fundraising_component=None,
                             fundraising_component_sd=None,
+                            fundraising_standardized=None,
+                            fundraising_standardized_sd=None,
                             demographics_tier=None,
                             expected_share_resolved=None,
                             war_resolved=None,
@@ -998,6 +1016,31 @@ def apply_war(
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
                     )
 
+                    # Standardized ("per 1 SD of the predictor") siblings of
+                    # lean/tide/approval/incumbency above, for the forest/
+                    # uncertainty chart's default view (see fit_war_model's
+                    # own "standardized" comment for the general convention).
+                    # Unlike the raw components, these deliberately do NOT
+                    # scale by this race's own (own_X − 0.5) or by whether
+                    # this candidate is actually the incumbent — the whole
+                    # point is a race-invariant (within a party) "how much
+                    # does a genuine 1-SD move in this predictor matter"
+                    # figure, so a term with a small coefficient can be told
+                    # apart from a term whose value just happens to be
+                    # modest in this particular race. Both the base and the
+                    # `_x_dem` piece of a term share the base predictor's
+                    # own SD (own_lean's SD, not own_lean_x_dem's own,
+                    # different, SD) — a documented simplification, not a
+                    # second independent rescaling of the interaction term.
+                    lean_standardized = (b_lean + b_lean_dem * dem_flag) * sd_lean
+                    lean_standardized_sd = sd_lean * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
+                    tide_standardized = (b_tide + b_tide_dem * dem_flag) * sd_tide
+                    tide_standardized_sd = sd_tide * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_standardized = b_approval * sd_approval
+                    approval_standardized_sd = sd_approval * b_approval_sd
+                    incumbency_standardized = (b_inc + b_inc_dem * dem_flag) * sd_incumbent
+                    incumbency_standardized_sd = sd_incumbent * (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5
+
                     if has_bachelors:
                         demo_terms = [("bachelors_pct", covariates["bachelors_pct"])]
                         if has_full_demographics:
@@ -1016,9 +1059,21 @@ def apply_war(
                             sum((coefs[name]["posterior_sd"] * (value - ref[name])) ** 2 for name, value in demo_terms)
                             ** 0.5
                         )
+                        # Standardized sibling: unlike lean/tide/approval/
+                        # incumbency above, demographics/fundraising terms
+                        # have no `_x_dem` interaction to combine, so this
+                        # is just the sum of fit_war_model's own already-
+                        # computed per-covariate standardized_mean/sd values
+                        # — no separate predictor_sd lookup needed here.
+                        demographics_standardized = sum(coefs[name]["standardized_mean"] for name, _ in demo_terms)
+                        demographics_standardized_sd = (
+                            sum(coefs[name]["standardized_sd"] ** 2 for name, _ in demo_terms) ** 0.5
+                        )
                     else:
                         demographics_component = None
                         demographics_component_sd = None
+                        demographics_standardized = None
+                        demographics_standardized_sd = None
 
                     # Both fundraising terms are gated on the same
                     # both-sides-matched condition (_both_matched_finance),
@@ -1037,9 +1092,18 @@ def apply_war(
                             (b_fund_sd * (fundraising_share - ref["fundraising_share"])) ** 2
                             + (b_lograised_sd * (own_log_raised - ref["log_raised"])) ** 2
                         ) ** 0.5
+                        fundraising_standardized = (
+                            coefs["fundraising_share"]["standardized_mean"] + coefs["log_raised"]["standardized_mean"]
+                        )
+                        fundraising_standardized_sd = (
+                            coefs["fundraising_share"]["standardized_sd"] ** 2
+                            + coefs["log_raised"]["standardized_sd"] ** 2
+                        ) ** 0.5
                     else:
                         fundraising_component = None
                         fundraising_component_sd = None
+                        fundraising_standardized = None
+                        fundraising_standardized_sd = None
 
                     expected = (
                         intercept_component
@@ -1067,19 +1131,39 @@ def apply_war(
                         intercept_component_sd=round(intercept_component_sd, 4),
                         lean_component=round(lean_component, 4),
                         lean_component_sd=round(lean_component_sd, 4),
+                        lean_standardized=round(lean_standardized, 4),
+                        lean_standardized_sd=round(lean_standardized_sd, 4),
                         tide_component=round(tide_component, 4),
                         tide_component_sd=round(tide_component_sd, 4),
+                        tide_standardized=round(tide_standardized, 4),
+                        tide_standardized_sd=round(tide_standardized_sd, 4),
                         approval_component=round(approval_component, 4),
                         approval_component_sd=round(approval_component_sd, 4),
+                        approval_standardized=round(approval_standardized, 4),
+                        approval_standardized_sd=round(approval_standardized_sd, 4),
                         incumbency_adjustment=round(incumbency_component, 4),
                         incumbency_adjustment_sd=round(incumbency_component_sd, 4),
+                        incumbency_standardized=round(incumbency_standardized, 4),
+                        incumbency_standardized_sd=round(incumbency_standardized_sd, 4),
                         demographics_component=round(demographics_component, 4) if demographics_component is not None else None,
                         demographics_component_sd=(
                             round(demographics_component_sd, 4) if demographics_component_sd is not None else None
                         ),
+                        demographics_standardized=(
+                            round(demographics_standardized, 4) if demographics_standardized is not None else None
+                        ),
+                        demographics_standardized_sd=(
+                            round(demographics_standardized_sd, 4) if demographics_standardized_sd is not None else None
+                        ),
                         fundraising_component=round(fundraising_component, 4) if fundraising_component is not None else None,
                         fundraising_component_sd=(
                             round(fundraising_component_sd, 4) if fundraising_component_sd is not None else None
+                        ),
+                        fundraising_standardized=(
+                            round(fundraising_standardized, 4) if fundraising_standardized is not None else None
+                        ),
+                        fundraising_standardized_sd=(
+                            round(fundraising_standardized_sd, 4) if fundraising_standardized_sd is not None else None
                         ),
                         demographics_tier=demographics_tier,
                         expected_share_resolved=round(expected, 4),
@@ -1240,6 +1324,10 @@ def apply_us_house_war(
     b_inc, b_inc_sd = coefs["ush_incumbent"]["posterior_mean"], coefs["ush_incumbent"]["posterior_sd"]
     b_inc_dem, b_inc_dem_sd = coefs["ush_incumbent_x_dem"]["posterior_mean"], coefs["ush_incumbent_x_dem"]["posterior_sd"]
     b_open, b_open_sd = coefs["ush_open_seat"]["posterior_mean"], coefs["ush_open_seat"]["posterior_sd"]
+    sd_lean = coefs["ush_own_lean"]["predictor_sd"]
+    sd_tide = coefs["ush_own_tide"]["predictor_sd"]
+    sd_approval = coefs["ush_national_approval"]["predictor_sd"]
+    sd_incumbent = coefs["ush_incumbent"]["predictor_sd"]
     sigma = fit["posterior_sigma_mean"]
 
     for records in district_records_by_vintage.values():
@@ -1263,16 +1351,28 @@ def apply_us_house_war(
                             intercept_component_sd=None,
                             lean_component=None,
                             lean_component_sd=None,
+                            lean_standardized=None,
+                            lean_standardized_sd=None,
                             tide_component=None,
                             tide_component_sd=None,
+                            tide_standardized=None,
+                            tide_standardized_sd=None,
                             approval_component=None,
                             approval_component_sd=None,
+                            approval_standardized=None,
+                            approval_standardized_sd=None,
                             incumbency_adjustment=None,
                             incumbency_adjustment_sd=None,
+                            incumbency_standardized=None,
+                            incumbency_standardized_sd=None,
                             demographics_component=None,
                             demographics_component_sd=None,
+                            demographics_standardized=None,
+                            demographics_standardized_sd=None,
                             fundraising_component=None,
                             fundraising_component_sd=None,
+                            fundraising_standardized=None,
+                            fundraising_standardized_sd=None,
                             demographics_tier=None,
                             expected_share_resolved=None,
                             war_resolved=None,
@@ -1320,6 +1420,18 @@ def apply_us_house_war(
                         (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5 if is_incumbent else 0.0
                     )
 
+                    # Standardized siblings of lean/tide/approval/incumbency
+                    # — see apply_war's own matching comment for why these
+                    # don't scale by this race's own value.
+                    lean_standardized = (b_lean + b_lean_dem * dem_flag) * sd_lean
+                    lean_standardized_sd = sd_lean * (b_lean_sd**2 + (dem_flag * b_lean_dem_sd) ** 2) ** 0.5
+                    tide_standardized = (b_tide + b_tide_dem * dem_flag) * sd_tide
+                    tide_standardized_sd = sd_tide * (b_tide_sd**2 + (dem_flag * b_tide_dem_sd) ** 2) ** 0.5
+                    approval_standardized = b_approval * sd_approval
+                    approval_standardized_sd = sd_approval * b_approval_sd
+                    incumbency_standardized = (b_inc + b_inc_dem * dem_flag) * sd_incumbent
+                    incumbency_standardized_sd = sd_incumbent * (b_inc_sd**2 + (dem_flag * b_inc_dem_sd) ** 2) ** 0.5
+
                     expected = (
                         intercept_component + lean_component + tide_component + approval_component + incumbency_component
                     )
@@ -1329,16 +1441,28 @@ def apply_us_house_war(
                         intercept_component_sd=round(intercept_component_sd, 4),
                         lean_component=round(lean_component, 4),
                         lean_component_sd=round(lean_component_sd, 4),
+                        lean_standardized=round(lean_standardized, 4),
+                        lean_standardized_sd=round(lean_standardized_sd, 4),
                         tide_component=round(tide_component, 4),
                         tide_component_sd=round(tide_component_sd, 4),
+                        tide_standardized=round(tide_standardized, 4),
+                        tide_standardized_sd=round(tide_standardized_sd, 4),
                         approval_component=round(approval_component, 4),
                         approval_component_sd=round(approval_component_sd, 4),
+                        approval_standardized=round(approval_standardized, 4),
+                        approval_standardized_sd=round(approval_standardized_sd, 4),
                         incumbency_adjustment=round(incumbency_component, 4),
                         incumbency_adjustment_sd=round(incumbency_component_sd, 4),
+                        incumbency_standardized=round(incumbency_standardized, 4),
+                        incumbency_standardized_sd=round(incumbency_standardized_sd, 4),
                         demographics_component=None,
                         demographics_component_sd=None,
+                        demographics_standardized=None,
+                        demographics_standardized_sd=None,
                         fundraising_component=None,
                         fundraising_component_sd=None,
+                        fundraising_standardized=None,
+                        fundraising_standardized_sd=None,
                         demographics_tier=None,
                         expected_share_resolved=round(expected, 4),
                         war_resolved=(
@@ -2189,16 +2313,28 @@ def build_candidate_records(district_records_by_vintage: dict[str, list[dict]]) 
                             "intercept_component_sd": c.get("intercept_component_sd"),
                             "lean_component": c.get("lean_component"),
                             "lean_component_sd": c.get("lean_component_sd"),
+                            "lean_standardized": c.get("lean_standardized"),
+                            "lean_standardized_sd": c.get("lean_standardized_sd"),
                             "tide_component": c.get("tide_component"),
                             "tide_component_sd": c.get("tide_component_sd"),
+                            "tide_standardized": c.get("tide_standardized"),
+                            "tide_standardized_sd": c.get("tide_standardized_sd"),
                             "approval_component": c.get("approval_component"),
                             "approval_component_sd": c.get("approval_component_sd"),
+                            "approval_standardized": c.get("approval_standardized"),
+                            "approval_standardized_sd": c.get("approval_standardized_sd"),
                             "incumbency_adjustment": c.get("incumbency_adjustment"),
                             "incumbency_adjustment_sd": c.get("incumbency_adjustment_sd"),
+                            "incumbency_standardized": c.get("incumbency_standardized"),
+                            "incumbency_standardized_sd": c.get("incumbency_standardized_sd"),
                             "demographics_component": c.get("demographics_component"),
                             "demographics_component_sd": c.get("demographics_component_sd"),
+                            "demographics_standardized": c.get("demographics_standardized"),
+                            "demographics_standardized_sd": c.get("demographics_standardized_sd"),
                             "fundraising_component": c.get("fundraising_component"),
                             "fundraising_component_sd": c.get("fundraising_component_sd"),
+                            "fundraising_standardized": c.get("fundraising_standardized"),
+                            "fundraising_standardized_sd": c.get("fundraising_standardized_sd"),
                             "demographics_tier": c.get("demographics_tier"),
                             "expected_share_resolved": c.get("expected_share_resolved"),
                             "war_resolved": c.get("war_resolved"),
